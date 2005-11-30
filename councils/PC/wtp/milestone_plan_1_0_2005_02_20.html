@@ -1,0 +1,440 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0076)http://www.eclipse.org/webtools/development/planning/milestone_plan_1_0.html -->
+<HTML>
+<HEAD>
+<TITLE>eclipse WTP milestone plan (Draft)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<META content=20040920;14213332 name=CREATED>
+<META content="D D" name=CHANGEDBY>
+<META content=20040928;14404493 name=CHANGED>
+<LINK href="../default_style.css" type=text/css
+	rel=stylesheet>
+</HEAD>
+<BODY lang=fr-FR dir=ltr text=#000000 vLink=#551a8b link=#0000ee
+	bgColor=#ffffff>
+<TABLE style="PAGE-BREAK-BEFORE: always" cellSpacing=5 cellPadding=2
+	width="100%" border=0>
+	<TBODY>
+		<TR>
+			<TD width="60%">
+			<P align=left><B><FONT size=6><FONT
+				face="Verdana, Arial, Helvetica, sans-serif">eclipse WTP milestone
+			plan</FONT></FONT></B><BR>
+			<FONT size=1><FONT face="Arial, Helvetica, sans-serif"><FONT
+				color=#8080ff>the eclipse web tools platform project milestone
+			content</FONT></FONT></FONT></P>
+			</TD>
+			<TD width="40%"><IMG border="0" src="/images/Idea.jpg"
+				width="120" height="86"></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+Frozen version for the 
+<a href="http://www.eclipse.org:90/html-source/org/councils/roadmap.html">Eclipse Roadmap v1.0</a>,
+<span lang="en-us">frozen on</span> <span lang="en-us">February 20, 2005.</span>.<br>
+The most current version of this document is available on 
+<img border="0" src="../external.gif" width="20" height="16"><a href="http://www.eclipse.org/webtools/development/planning/milestone_plan_1_0.html">the 
+WTP website</a>.&nbsp;
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+	<COLGROUP>
+		<COL width=7>
+		<COL width=249>
+	<TBODY>
+		<TR>
+			<TD vAlign=top width="100%" bgColor=#0080c0 colSpan=2>
+			<P align=left><B><FONT face="Arial, Helvetica"><FONT color=#ffffff>Status
+			of this Document</FONT></FONT></B></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="3%">
+			<P align=right>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P>This is a preliminary plan. It is undergoing review and change. It
+			includes initial ideas for the following Milestones:</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="3%">
+			<P align=right>
+            <IMG
+				src="/images/Adarrow.gif" align=bottom
+				border=0 name=Image2 width="16" height="16"></P>
+			</TD>
+			<TD width="97%">
+			<P><B><a href="#M0">M0</a></B><BR>
+			Initial CVS module structure, build infrastructure, and Server Tools.</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="3%">
+			<P align=right>
+            <IMG
+				src="/images/Adarrow.gif" align=bottom
+				border=0 name=Image2 width="16" height="16"></P>
+			</TD>
+			<TD width="97%">
+			<P><B><a href="#M1">M1</a></B>
+			- <SPAN lang=en-us>completed </SPAN>October 15<BR>
+			Finalize build infrastructure and Server Tools.</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="3%" bgColor=#ccffff>
+			<P align=right>
+            <IMG
+				src="/images/Adarrow.gif" align=bottom
+				border=0 name=Image2 width="16" height="16"></P>
+			</TD>
+			<TD width="97%" bgColor=#ccffff>
+			<P><B><a href="#M2">M2</a></B>
+			- December <SPAN lang=en-us>22</SPAN><BR>
+			Flexible project layout. Initial XML, JSP and EJB Tools.<SPAN
+				lang=en-us> Will be based on 3.1M4.</SPAN></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="3%">
+			<P align=right>
+            <IMG
+				src="/images/Adarrow.gif" align=bottom
+				border=0 name=Image2 width="16" height="16"></P>
+			</TD>
+			<TD width="97%">
+			<P><B><a href="#M3">M3</a></B>
+			- February <SPAN lang=en-us>25</SPAN><BR>
+			Improved XML, JSP and EJB Tools. Database Tools and Initial Web
+			Services.<SPAN lang=en-us> Will be based on 3.1M5.</SPAN></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="100%" bgColor=#0080c0 colSpan=2>
+			<P align=left><A name=M0><FONT color=#ffffff><FONT
+				face="Arial, Helvetica"><B>M0</B></FONT></FONT></A></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P>The goal of M0 is to create the initial CVS module structure and
+			to populate it with the Server Tools. This allows us to verify our
+			build infrastructure and enables us to begin the creation of server
+			adapters.</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P><B>High Priority</B></P>
+			<UL>
+				<LI>Create and commit initial CVS module structure
+				<LI>Commit Server Tools into CVS
+				<LI>Run the first public automatic build
+				<LI>Update website with downloads/what's new links (ala EMF)</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="100%" bgColor=#0080c0 colSpan=2>
+			<P align=left><A name=M1><FONT color=#ffffff><FONT
+				face="Arial, Helvetica"><B>M1</B></FONT></FONT></A></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P>M1 <SPAN lang=en-us>was completed</SPAN> October 15</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P><B>High Priority</B></P>
+			<UL>
+				<LI>Finalize WTP Build Infrastructure
+				<UL>
+					<LI>Run report automatic builds/tests
+					<LI>CVS structure
+					<LI>Updating web site with build info automatically (what's new
+					etc.)</LI>
+				</UL>
+				<LI>Server Runtime Support for Tomcat
+				<UL>
+					<LI>Launch Server (Start) (In debug ro run modes)
+					<LI>Be able to run (and debug) Java Servlet
+					<LI>Stop Server</LI>
+				</UL>
+				</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P><B>Medium Priority</B></P>
+			<UL>
+				<LI>Integrate Lomboz Generic Server Runtime Support using XML Server
+				Definitions (JBoss, Jonas)
+				<UL>
+					<LI>Launch Server (Start) (In debug and run modes)
+					<LI>Stop Server</LI>
+				</UL>
+				<LI>"Run on server" for Web artifacts (e.g. .html)
+				<UL>
+					<LI>Start server
+					<LI>Display in IDE browser</LI>
+				</UL>
+				</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P><B>Low Priority</B></P>
+			<UL>
+				<LI>Apache server adapter
+				<UL>
+					<LI>Add/remove Web project to configuration
+					<LI>Start and stop server
+					<LI>"Run on server" for Web artifacts (e.g. .html)</LI>
+				</UL>
+				</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD vAlign=top width="100%" bgColor=#0080c0 colSpan=2>
+			<P align=left><A name=M2><FONT color=#ffffff><FONT
+				face="Arial, Helvetica"><B>M2</B></FONT></FONT></A></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%" bgColor=#ccffff>
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%" bgColor=#ccffff>
+			<P>M2 is expected for December <SPAN lang=en-us>22 and will be based
+			on the Platform 3.1M4</SPAN></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%" bgColor=#ccffff>
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%" bgColor=#ccffff>
+			<P><B>High Priority</B></P>
+			<UL>
+				<LI>Project Layouts for Web/J2EE Modules
+				<UL>
+					<LI>Simple Web/J2EE project layouts</LI>
+				</UL>
+				<LI>XML
+				<UL>
+					<LI>XML Source Page Editor</LI>
+					<LI>Validation for XML</LI>
+				</UL>
+				<LI>Database Tool
+				<UL>
+					<LI>Table content browsing</LI>
+				</UL>
+				<LI>Medium Priority Items from M1</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%" bgColor=#ccffff>
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%" bgColor=#ccffff>
+			<P><B>Medium Priority</B></P>
+			<UL>
+				<LI>JSP
+				<UL>
+					<LI>Simple JSP Source Editing (which, by implication pulls in some
+					amount of XML, HTML, CSS, JavaScript)
+					<LI>Set breakpoints</LI>
+					<LI>Debug JSP (JSR 45)
+				</UL>
+				<LI>XML
+				<UL>
+					<LI>XML creation wizards (creates skeleton XML given DTD or XML
+					Schema)</LI>
+					<LI>Graphical XML Schema editor</LI>
+					<LI>XML catalog support</LI>
+					<LI>Validation for XML Schema and DTD</LI>
+					<LI>XML example project to jump start users</LI>
+				</UL>
+				<LI>EJB Wizards
+				<UL>
+					<LI>Simple EJB Wizards to generate annotated Java Sources from
+					templates
+					<LI>Session Beans only</LI>
+				</UL>
+				<ul>
+		<TR>
+			<TD width="3%" bgColor=#ccffff>
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%" bgColor=#ccffff>
+			<P><B>Low Priority</B></P>
+			<ul>
+				<LI>Snippets View</LI>
+				<li>Task Tags in Comments of Many Languages</LI>
+		<TR>
+			<TD width="3%" bgColor=#ccffff>
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%" bgColor=#ccffff>
+			<P><B>M2 Shutdown Testing to begin 12/10</B></P>
+
+			<ul>
+				<p>We'd like the community to stay aware of this date, so hopefully
+				we can have many people test it a few days, either to help execute
+				our test cases, or come up with some of your own. (Normally it would
+				be exactly one week, but we are allowing extra time due to holiday's
+				and to allow an upgrade to Eclipse M4 on 17th)</p>
+				<ul>
+					<li>12/10 Build Candidate for Milestone</li>
+					<ul>
+						<li>Code Complete</li>
+						<li>component test plans for
+                        <img border="0" src="../external.gif" width="20" height="16"><a href="/webtools/jst/components.html">JST</a>
+						and
+                        <img border="0" src="../external.gif" width="20" height="16"><a href="/webtools/wst/components.html">WST</a> complete</li>
+						<li>Top-to-Bottom mini-tutorials will be created will created for
+						testing (for example, see
+                        <img border="0" src="../external.gif" width="20" height="16"><a href="/webtools/testtutorials/M2/tutorial1/wtp-tutorial-I.html">WTP Tutorials-Building
+						and Running a Web Application</a>)</li>
+						<li>milestone plans updated, if appropriate, to accurately reflect
+						M2 content (e.g. if there's any &quot;early&quot; or
+						&quot;experimental&quot; function)</li>
+						<LI>exit criteria:</LI>
+						<ul>
+							<LI>High priority items working</LI>
+							<li>Fixed all priority 1 defects, and fix or answer all Blocker,
+							Critical, and Major defects</li>
+							<LI>All running unit tests passing</LI>
+							<LI>Plugin.xml PDE flagged errors eliminated</LI>
+						</ul>
+					</ul>
+				</UL>
+			</UL>
+
+
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+	<COLGROUP>
+		<COL width=7>
+		<COL width=249>
+	<TBODY>
+		<TR>
+			<TD vAlign=top width="100%" bgColor=#0080c0 colSpan=2>
+			<P align=left><A name=M3><FONT color=#ffffff><FONT
+				face="Arial, Helvetica"><B>M3</B></FONT></FONT></A></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P>M3 is expected for February <SPAN lang=en-us>25 and will be based
+			on the Platform 3.1M5</SPAN></P>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P><B>High Priority</B></P>
+			<UL>
+				<LI>Project Layouts for Web/J2EE Modules
+				<UL>
+					<LI>Complex Web/J2EE project layouts
+					<LI>Flexible project layouts, i.e. (One project for many web
+					modules, Maven style)</LI>
+				</UL>
+				<LI>Web Services
+				<UL>
+					<LI>Axis adapter
+					<LI>Develop a Web Service based on Session Beans
+					<LI>Develop a Web Service based on JavaBeans
+					<LI>Create Web Service Client
+					<LI>Graphical WSDL editor
+					<LI>Validation for WSDL
+				</UL>
+				<LI>Medium Priority Items from M2</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P>&nbsp;</P>
+			</TD>
+			<TD width="97%">
+			<P><B>Medium Priority</B></P>
+			<UL>
+				<LI>EJB Wizards
+				<UL>
+					<LI>EJB Wizards to generate annotated Java Sources from templates
+					<LI>All EJB types</LI>
+				</UL>
+				<LI>XQuery editor
+				<LI>Database Tool
+				<UL>
+					<LI>SQL Query graphical editor</LI>
+				</UL>
+				<LI>Web Services
+				<UL>
+					<LI>Develop and publish WSDL schema on UDDI registries
+					<LI>Test Web services for WS-I compliance</LI>
+				</UL>
+				</LI>
+			</UL>
+			</TD>
+		</TR>
+		<TR>
+			<TD width="3%">
+			<P><BR>
+			</P>
+			</TD>
+			<TD width="97%">
+			<P><BR>
+			</P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P>Please see our <img border="0" src="../external.gif" width="20" height="16"><A href="http://eclipse.org/legal/privacy.html">privacy
+policy</A> and website
+<img border="0" src="../external.gif" width="20" height="16"><A
+	href="http://eclipse.org/legal/termsofuse.html">terms of use</A>. For
+problems with the eclipse.org site, please contact the <A
+	href="mailto:webmaster@eclipse.org">webmaster</A> or read the
+<img border="0" src="../external.gif" width="20" height="16"><A
+	href="http://eclipse.org/webmaster/index.html">webmaster FAQ</A> for
+answers to common questions!</P>
+</ul>
+</ul>
+</BODY>
+</HTML>

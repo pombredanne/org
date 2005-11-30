@@ -1,0 +1,138 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="http://www.eclipse.org/default_style.css">
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Eclipse Planning Council Minutes</title>
+</head>
+
+<body>
+
+<h1>Eclipse Planning Council Minutes</h1>
+<p>May 19, 2005, Portland, Oregon</p>
+<table border="0">
+  <tr>
+    <td valign="top" colspan="2" align="center" bgcolor="#CCCCCC"><b>Present</b></td>
+    <td valign="top" align="center"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+    <td valign="top" align="center" bgcolor="#CCCCCC"><b>Regrets</b></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+    Paul Clenahan,  	Actuate<br>
+      John Duimovich, 	IBM Corporation&nbsp;&nbsp;&nbsp;<br>
+      Bjorn Freeman-Benson, 	Eclipse<br>
+      Doug Gaff, 	Wind River<br>
+      Richard Gronback, 	Borland<br>
+      Kevin Haaland, 	IBM Corporation<br>
+    </td>
+    <td valign="top">
+      Georg Lenz, 	SAP<br>
+      Mike Milinkovich, 	Eclipse<br>
+      Mike Norman, 	Scapa Technology<br>
+      James Saliba, 	Computer Associates<br>
+      Tyler Thessin, 	Intel<br>
+      Tim Wagner, 	BEA</td>
+    <td valign="top"></td>
+    <td valign="top"><p>John Graham, Sybase</td>
+  </tr>
+</table>
+<h2>Minutes / Discussion Items</h2>
+<p><i> (these notes are in logical rather than
+chronological order)</i></p>
+<h3>Participation In Reviews</h3>
+<p>We discussed the Eclipse Quality issues that the other councils had discussed
+the previous two days. There are not many notes on this as the issues had been
+discussed at some length previously. The only item of note was that the idea of
+proposals should have Champions was brought up and discussed - no definitive
+conclusion was reached.</p>
+<h3>IP Policy</h3>
+<p>Tim Wager (WTP) brought up the concern that the EMO was not keeping up with
+the IP reviews and that because WTP was only one milestone away from release
+0.7, there does not appear to be enough time to complete the reviews. Mike
+explained that this is a temporary problem of the EMO dealing with the backlog
+of needing to re-review all the contributions to date. Mike expects the EMO to
+be caught up to real-time by the end of 2005. In the meantime, bring any looming
+deadlines to Mike's attention.</p>
+<h3>Project Infrastructure at the Foundation</h3>
+<p align="left">A number of the projects had asked for virtual servers at the
+Foundation, but it turns out there are technical problems that prevent that from
+working easily. And the Foundation's rack does not have enough space to host
+inexpensive 1U servers for each project. The temporary solution is for top-level
+projects to host their extra services elsewhere and use redirects to appear to
+be part of the eclipse.org infrastructure. For example, <a href="http://www.eclipse.org/services/">eclipse.org/services</a>
+is hosted off-site.</p>
+<h3>Planning, Information, and Synchronized Releases</h3>
+<p>The Requirements Council has expressed a requirement that the major projects
+have synchronized releases; where synchronized means &quot;ship on the same
+day&quot;. The Requirements Council did not want to require synchronized version
+numbers because that would eliminate the semantic meaning of version numbers.
+There is a need to communicate which version of each project works with which
+other version both upstream and downstream.&nbsp; The upstream compatibility is
+handled automatically by the Update Manager, although it would be nice to have a
+documentation version of that same information.&nbsp; But the downstream
+compatibility is not described - if I have version X of project Y, what version
+of project Q can I successful use?</p>
+<p>We agreed that synchronized releases would be driven by the Platform releases
+- a &quot;release train&quot;, if you will - and that there would be one train
+per year. Projects may release more often of course, but should have a release
+that joins the train as well. A project that is having internal trouble
+synchronizing can opt-out and ship later, but if the same project is having
+troubles due to an underlying train framework (such as something in Platform)
+will cause the whole train to slip its release.</p>
+<p>All of this is <i>opt-in</i>, but the expectation is that all the major
+projects will opt-in. Opting-in is a significant commitment by the projects and
+it includes:</p>
+<ul>
+  <li>Always using the latest milestone, better yet the latest integration,
+    builds of all the underlying projects.</li>
+  <li>Provide distributed smoke tests so that the community is not dependent on
+    the project teams to test the integration compatibility.</li>
+  <li>John W or Kevin H (Platform) will host train phone calls starting after
+    the Platform defines its release schedule. The Platform expects to commit to
+    a 3.2 schedule before the August council meetings.</li>
+  <li>The projects will allow formally announce their opt-in status on their
+    websites and possibly on some sort of more global <i>release train status</i>
+    page.</li>
+  <li>Other commitments to be announced.</li>
+</ul>
+<p><font color="#800080"><u><b>ACTION</b>:</u></font> Kevin H will come to the
+August Planning Council meeting with the mechanics of what projects are
+opting-in to; and at the August meeting the project will opt-in or not.</p>
+<h3>Status Report Format</h3>
+<p>We discussed the <code><a href="http://www.eclipse.org/org/processes/master-timeline.php">.dates.txt</a></code>
+prototype that Bjorn had put together and decided to switch to an XML file. The
+XML file will take the place of the static HTML quarterly status executive
+summaries. This file will have all the current summary information as well as:</p>
+<ul>
+  <li>What is the version lineup that works on the last major train?</li>
+  <li>What is the version lineup that works on the current HEAD train?</li>
+  <li>The project leaders section was vague and will be clarified.</li>
+  <li>The shipping releases section should be automatically gathered.</li>
+  <li>The project description should be taken from the website automatically.</li>
+  <li>The executive summary paragraphs are the most important.</li>
+  <li>Dependency information</li>
+  <li>Perhaps include a list of the third-party libraries and code that is
+    included in the release.</li>
+  <li>One page maximum on the printer - the goal is to be able to print out a
+    sheaf of these and read through them on an airplane trip.</li>
+</ul>
+<p><font color="#800080"><u><b>ACTION:</b></u></font> Bjorn FB will write some
+tools that process these XML status reports: collate them for the website; build
+the timeline of releases; send reminders to project leaders who have not updated
+their status; etc.</p>
+<h3>Website Content</h3>
+<p>We discussed who the Eclipse.org website has a lot of woefully out-of-date,
+and perhaps even wrong, pages lying around. We agreed that we need to have
+either good information or no information, but we cannot tolerate bad data.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: Everyone agreed to freshen
+their content, either by (the best choice) making it good or (second choice)
+removing all the obsolete and incorrect pages. Everyone agreed to do so by one
+month after the Platform 3.1 release ships, if not before.</p>
+<p><i>Notes taken and posted by Bjorn Freeman-Benson</i></p>
+
+</body>
+
+</html>

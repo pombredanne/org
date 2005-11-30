@@ -1,0 +1,96 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><p:colorscheme
+  colors="#FFFFFF,#000000,#969696,#000000,#00CC99,#3333CC,#CCCCFF,#B2B2B2"/>
+ <v:background id="_x0000_s1025" o:bwmode="white" fillcolor="white [0]">
+  <v:fill alignshape="f"/>
+ </v:background><p:shaperange id="_x0000_s1075">
+  <v:rect id="_x0000_s1075" style='position:absolute;left:0;top:0;width:690pt;
+   height:30pt;mso-wrap-style:none;v-text-anchor:middle' o:userdrawn="t"
+   fillcolor="#0c2577" stroked="f" strokecolor="black [1]"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s1076">
+  <v:rect id="_x0000_s1076" style='position:absolute;left:30pt;top:510pt;
+   width:558pt;height:30pt;mso-wrap-style:none;v-text-anchor:middle'
+   o:userdrawn="t" fillcolor="#ff1300" stroked="f" strokecolor="black [1]"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s1077">
+  <v:rect id="_x0000_s1077" style='position:absolute;left:690pt;top:0;width:30pt;
+   height:7in;mso-wrap-style:none;v-text-anchor:middle' o:userdrawn="t"
+   fillcolor="#b3dc1f" stroked="f" strokecolor="black [1]"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s1078">
+  <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s1078" type="#_x0000_t75" style='position:absolute;
+   left:600pt;top:509.375pt;width:114pt;height:25.625pt' o:userdrawn="t">
+   <v:imagedata src="master03_image001.wmz" o:althref="master03_image002.pcz"
+    o:title=""/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s1079">
+  <v:rect id="_x0000_s1079" style='position:absolute;left:0;top:30pt;width:30pt;
+   height:510pt;mso-wrap-style:none;v-text-anchor:middle' o:userdrawn="t"
+   fillcolor="#b3dc1f" stroked="f" strokecolor="black [1]"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s1080">
+  <v:shapetype id="_x0000_s1080" style='position:absolute;left:-180.5pt;top:330.5pt;
+   width:384.875pt;height:24pt;rotation:-90;mso-wrap-style:none' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m0,0l0,21600,21600,21600,21600,0xe" filled="f"
+   fillcolor="#0c9 [4]" stroked="f" strokecolor="black [1]">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox inset="46038emu,46038emu,46038emu,46038emu"/>
+   <p:placeholder type="footer" position="3" size="quarter"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s1081">
+  <v:line id="_x0000_s1081" style='position:absolute;mso-wrap-style:none;
+   v-text-anchor:middle' from="18pt,132pt" to="702pt,132pt" o:userdrawn="t"
+   strokecolor="#b3dc1f" strokeweight="1.5pt"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_m1086">
+  <v:shapetype id="_x0000_m1086" style='position:absolute;left:54pt;top:36pt;
+   width:606pt;height:90pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m0,0l0,21600,21600,21600,21600,0xe" filled="f"
+   fillcolor="#0c9 [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#969696 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m1087">
+  <v:shapetype id="_x0000_m1087" style='position:absolute;left:54pt;top:156pt;
+   width:612pt;height:324pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m0,0l0,21600,21600,21600,21600,0xe" filled="f" fillcolor="#0c9 [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#969696 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+</xml>

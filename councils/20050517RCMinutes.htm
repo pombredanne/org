@@ -1,0 +1,192 @@
+<html>
+
+<head>
+<meta DEFANGED_http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<link rel="stylesheet" href="../../default_style.css">
+<title>Eclipse Requirements Council Minutes</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1>Eclipse Requirements Council Minutes</h1>
+<p>May 17, 2005, Portland, Oregon</p>
+<table border="0">
+  <tr>
+    <td valign="top" colspan="2" align="center" bgcolor="#CCCCCC"><b>Present</b></td>
+    <td valign="top" align="center"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+    <td valign="top" align="center" bgcolor="#CCCCCC"><b>Regrets</b></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+    Paul Clenahan,  	Actuate<br>
+John Kellerman, 	IBM Corporation&nbsp;&nbsp;&nbsp;<br>
+      Bjorn Freeman-Benson, 	Eclipse<br>
+Martin Klaus, 	Wind River<br>
+      James Saliba, 	Computer Associates<br>
+Melissa Traynor, 
+MontaVista<br>
+    </td>
+    <td valign="top">
+      Georg Lenz, 	SAP<br>
+      Mike Milinkovich, 	Eclipse<br>
+      Mike Norman, 	Scapa Technology<br>      
+Anurag Gupta, 	Intel<br>
+Shane Pearson, BEA <br>      </td>
+    <td valign="top"></td>
+    <td valign="top"> 
+      <p> Boris Kapitanski, Serena <br>
+        Kris Kolde, Borland <br>
+        Philip Ma, HP<br>
+        Mike Norman, Scapa <br>
+        Karl Reti, Sybase 
+    </td>
+  </tr>
+</table>
+<h2>Minutes / Discussion Items</h2>
+<p><i> (these notes are in chronological order)</i></p>
+<h3>Overiew</h3>
+<p>Since there were many new members of the Requirements Council, Mike Milinkovich 
+  provided a brief overview of the Roadmap process and how the Councils had operated 
+  in the past. A copy of the presentation materials can be found <a href="20050517RCOverview.pdf">here 
+  (.pdf)</a>. </p>
+<h3>Incubation</h3>
+<p>The Requirements Council had a lengthy discussion on the whether the Eclipse Development Process needed to implement an incubation stage as part of the process. The general consensus was that incubation was a good idea, and that the primary focus for incubation was to focus the early project start up on community building. Some thoughts on what incubation does and does not mean include:</p>
+<ul>
+  <li>The goal is to have each project foster a demonstrated community of users.</li>
+  <li>    Each project must demonstrate that they are operating using an open and transparent process.</li>
+  <li> Incubation is not a statement of quality. In other words, exiting incubation does not guarantee that the project can or will ship.</li>
+  <li>    Incubation is a state, not a place. In other words, Eclipse projects can be incubated within any top-level project. Proposed projects which have no obvious homes, will be created in the Technology PMC. A
+    project's decision to be in the Technology PMC or some other top-level must be PMC open and transparent.</li>
+  <li>It is important that the entry and exit criteria be explicitly defined and that the guidelines be community-based.</li>
+  <li>It is recommended that the existing Checkpoint Review in the Eclipse Development Process be redefined to be the stage at which projects exit incubation. This will require that the exit criteria include (amongst others) specific goals for community building.</li>
+  <li>Re-organization of existing projects is allowed without incubation. This is because incubation is really about the skills of the development team and their experience in community-building.</li>
+  <li>It is important that these criteria be enforced, which means that it is possible that projects can fail incubation. </li>
+</ul>
+<p>The Eclipse Foundation needs to define the branding for the state of "incubation", so that consumers have a clear view of the maturity level of the project they are using.</p>
+<p>For projects which do incubate within the Technology PMC, migrating to another top-level project would normally be part of exiting incubation. </p>
+<blockquote>
+  <p> two axes: incubation&nbsp; X&nbsp; affiliated<BR>
+    cannot be 1.0 in not affiliated and not incubation</p>
+</blockquote>
+<h3>Release Numbering and Synchronization</h3>
+<p align="left">The Requirements Council discussed whether projects need to use a common version numbering scheme. E.g. if a project is based upon Eclipse 3.1 platform release, then it would use &quot;3.1&quot; as its version number. The consensus was that project version numbers contain useful information. For example, they imply a certain level of maturity for the project. As a result, synchronized numbers are not required (nor even desirable).</p>
+<p align="left">That said, there is a strong desire to help users more easily discover which project releases work together. </p>
+<p align="left">There is a strong interest in having the projects synchronize their releases. The Requirements Council would like to recommend that the projects define an &quot;opt in&quot; list of projects which ship together. The current list of such projects includes: Platform, CDT, VE, GEF, EMF, BIRT, TPTP, WTP. By &quot;synchronized&quot;, we literally mean &quot;same day&quot;. It is recognized that for this to happen, some projects (e.g. Platform) may need to lengthen their end-game in order to get everyone synchronized.</p>
+<p align="left">For there to be a realistic attempt at synchronized release dates, three will need to be a config control committee for the synchronized release - perhaps this is the Planning Council?</p>
+<p align="left">Most projects are expected to ship a major release per year, with patch releases roughly quarterly. Projects can elect to ship more releases per year if they so desire. This is typically required for newer projects which are focused on quickly expanding their functionality. If projects do make several major release per year, there is a strong desire that one of those releases sync up with the major synchronized platform release. </p>
+<h3>Update Manager Sites </h3>
+<p>There is a requirement that each PMC ensure that there is an update site for use by the Eclipse update manager. </p>
+<h3>Requirements Management </h3>
+<p>There is a need for the Requirements Council to track requirements which are brought to the RC through to the final deliverables. This is needed to track the effectiveness of the Requirements Council process. </p>
+<ul>
+  <li>Implement a process that tracks the feature requests that the RC cares about</li>
+  <li> Each feature request needs to map to one or more bugs (as tracked by Bugzilla) </li>
+  <li> The status tracking will be based on the Bugzilla status</li>
+  <li> Perhaps we need to push for an open source Requirements Management project at Eclipse?</li>
+  <li> Perhaps implement a simple MySQL database that accesses Bugzilla&rsquo;s for status reporting? Login credentials for write access would be given only to RC members.</li>
+  <li> Alternative implementation --- perhaps create a product in Bugzilla for &ldquo;Requirements Council&rdquo;?<br>
+  </li>
+</ul>
+<p><font color="#800080"><b>ACTION:</b></font> Bjorn is to propose a requirements tracking process for Requirements Council. How will the data be tracked and reported?</p>
+<h3>Eclipse Quality and Branding </h3>
+<p>The Requirements Council discussed a number of items related to what it means for Eclipse projects to ship releases under the Eclipse &quot;brand&quot;. Some of the questions discussed included:</p>
+<ul>
+  <li>What should it mean to have the Eclipse brand attached to a project? </li>
+  <li>What are the quality requirements? </li>
+  <li>How proactive should we be? </li>
+  <li>How can we enforce this in an open-source project? </li>
+  <li>What role does the RC have in establishing quality objectives for Eclipse projects?</li>
+</ul>
+<p>Below are notes taken during the discussion:</p>
+<ul>
+  <li>What role does the Requirements Council have?
+    <ul>
+      <li> The RC should identity what quality goals the open source projects should define and implement.</li>
+      <li> The RC represent the consumers, so they care deeply about the quality statements from the projects</li>
+      <li>RC would like to see defined policies for:
+        <ul>
+          <li>APIs are key --- extensibility for product builders is key for definition of success
+            <ul>
+              <li>Maturity states: Low, Medium, High, Platform</li>
+              <li>Classification: API (Platform maturity), provisional (Low, Medium, High maturity), internal</li>
+            </ul>
+          </li>
+          <li>Exemplary tools good enough to attract a large number of adopters is also key</li>
+          <li>Release-to-release migration policies</li>
+          <li>Documentation standards</li>
+          <li>API and backwards compatibility</li>
+          <li>Project maturity model </li>
+          <li>What has the project done to leverage automated test, community feedback to ensure quality? Each project should make a statement on what they have done to ensure quality. There is a clear feeling that having each project ship an automated test suite is a high value add for consumers. In fact, the RC would like to make an automated test suite an exit criteria for release reviews.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The RC would like to request that a number of documents which are Eclipse project only be updated and made applicable to the entire community (e.g. Eclipse Quality APIs)</li>
+  <li>What should it mean to have the Eclipse brand attached to a project?
+    <ul>
+      <li>This applies to every project shipment of release 1.0 or greater</li>
+      <li>Production quality
+        <ul>
+          <li>Usability (compelling UI quality). The exemplary tools really need to be good.</li>
+          <li>Performance and scalability
+            <ul>
+              <li>Current cross-platform performance and scalability (e.g. Solaris/Motif, Linux/GTK) need to improve.</li>
+            </ul>
+          </li>
+          <li>Automated tests and/or quality plan</li>
+          <li>Release to release migration, with statements on source and/or binary compatibility and tools to assist migration as/where appropriate. This applies not only to plug-ins, but also the artifacts created by previous plug-in versions (e.g. models, report descriptions, etc.)</li>
+        </ul>
+      </li>
+      <li>API stability (long term!)</li>
+      <li>IP due diligence
+        <ul>
+          <li>Predictability</li>
+        </ul>
+      </li>
+      <li>Features, plans and dates were met by the project
+        <ul>
+          <li>Demonstrable community involvement and participation</li>
+        </ul>
+      </li>
+      <li>Open and transparent development processes in place
+        <ul>
+          <li>The RC would like explicit coverage of each of these items in project release review</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h3>Requirements for New Projects </h3>
+<p>The Requirements Council discussed a number of items related to starting new projects and what set of expectations are appropriate for them. Some of the questions discussed included:</p>
+<ul>
+  <li>Projects should be:
+    <ul>
+      <li>Easy to propose</li>
+      <li>Fairly easy to create</li>
+      <li>Kinda hard to validate (e.g. exit incubation)</li>
+      <li>Pretty tough to ship</li>
+      <li>In other words, the process we have is more-or-less right</li>
+    </ul>
+  </li>
+  <li>We need to do something with top-level as well. We need PMC training wheels.
+    <ul>
+      <li>Top-level projects do need to be in an incubation state for some period of time</li>
+      <li>They exit incubation via a checkpoint review, with the exit criteria being similar to a sub-project review but with a few extra ones to check on conformance with the project charter and governance.</li>
+      <li>We need to be a better definition of mentoring PMCs and documenting what they need to do.</li>
+      <li>When doing reviews (creation, checkpoint, release) we need to explicitly split what is being reviewed that is part of the top-level project, and what part is made up of the content of the sub-projects.<br>
+      </li>
+    </ul>
+  </li>
+</ul>
+<p><font color="#800080"><b>ACTION:</b></font> Bjorn and Mike are to 
+
+
+define the exit criteria for a checkpoint review.</p>
+<p><i>Notes taken and posted by Bjorn Freeman-Benson and Mike Milinkovich</i></p>
+
+</body>
+
+</html>

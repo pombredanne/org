@@ -1,0 +1,308 @@
+<html><head>
+<link rel="stylesheet" href="http://www.eclipse.org/default_style.css">
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document"><title>Eclipse Planning Council Minutes</title></head>
+
+<body>
+
+<h1> Eclipse Planning Council Minutes</h1>
+<p>August 23, 2005, Boston, Massachusetts</p>
+<table border="0">
+  <tbody><tr>
+    <td colspan="2" align="center" bgcolor="#cccccc" valign="top"><b>Present</b></td>
+    <td align="center" valign="top"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+    <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+    Paula Cox, IBM (visitor)<br>
+    Sri Doddapaneni, Intel, TPTP<br>
+      Bjorn Freeman-Benson, 	Eclipse<br>
+      Doug Gaff, 	Wind River, DSDP<br>
+    John Graham, Sybase, DTP<br>
+    <br>
+    </p></td>
+    <td valign="top">
+      Richard Gronback, 	Borland, GMF<br>
+      Kevin Haaland, 	IBM, Platform<br>
+      Wenfeng Li, Actuate, BIRT<br>
+      Tim Wagner, 	BEA, WTP</td>
+    <td valign="top"></td>
+    <td valign="top"><p>John Duimovich, IBM<br>
+      Georg Lenz, SAP (conflict w/ RC)<br>
+      Mike Milinovich, Eclipse (conflict w/ RC)<br>
+      Mike Norman, Scapa (conflict w/ RC)<br>
+      Jim Saliba, CA (conflict w/ RC)</p></td>
+  </tr>
+</tbody></table>
+<h2>Minutes / Discussion Items</h2>
+<p><i> (these notes are in logical rather than
+chronological order)</i></p>
+<h3>Action Items from Previous Meetings</h3>
+<p>ACTION: Kevin H will come to the
+August Planning Council meeting with the mechanics of what projects are
+opting-in to; and at the August meeting the project will opt-in or not - <i>completed,
+see below.</i></p>
+<p>ACTION Bjorn FB will write some
+tools that process these XML status reports: collate them for the website; build
+the timeline of releases; send reminders to project leaders who have not updated
+their status; etc. - <i>file format proposed; tools not written; re-promised for
+4Q2005; see below.</i></p>
+<p>ACTION Everyone agreed to freshen
+their content, either by (the best choice) making it good or (second choice)
+removing all the obsolete and incorrect pages. Everyone agreed to do so by one
+month after the Platform 3.1 release ships, if not before - <i>a couple projects
+freshened their content, most did not; re-promised for end of September; see
+below.</i></p>
+<h3>Website Content</h3>
+<p>We re-discussed how&nbsp; the Eclipse.org website has a lot of woefully out-of-date,
+and perhaps even wrong, pages lying around. We agreed that we need to have
+either good information or no information, but we cannot tolerate bad data.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [ALL] Everyone agreed to freshen
+their content, either by (the best choice) making it good or (second choice)
+removing all the obsolete and incorrect pages. Everyone re-agreed to do so by
+the end of September, if not before.</p>
+<h3>Standard Website Content</h3>
+<p>At the first Committer Gathering (held in Portland), the committer community
+suggested that each project home page have &quot;the same four links in the same
+place with the same names&quot; so that anyone could go to a project page and
+find the essential project information. Everyone thought this was a good idea
+and we decided: (a) that the &quot;four links&quot; should be at the top of the
+left menu bar; (b) that there should be more than four links (see list below);
+(c) that they should fly-out menus; and (d) that Bjorn should create some
+magical PHP include file that does this all in very easy, &quot;takes no effort
+on the part of the projects&quot;, way.</p>
+<p>There are three audiences for this material: consumers, contributors, and
+project members. It's hard to choose a set of links that is both useful and
+compact, but this is what we decided to try:</p>
+<ul>
+  <li>Home</li>
+  <li>About
+    <ul>
+      <li>Description (and Subprojects)</li>
+      <li>Project plan</li>
+      <li>Leadership &amp; Minutes</li>
+      <li>Committers</li>
+      <li>Community</li>
+    </ul>
+  </li>
+  <li>Downloads</li>
+  <li>Getting Started</li>
+  <li>Development
+    <ul>
+      <li>Development plan</li>
+      <li>Mailing lists</li>
+      <li>CVS</li>
+      <li>Bugs</li>
+    </ul>
+  </li>
+</ul>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] agreed to
+create the PHP include script for the menu and Tim W volunteered WTP to be the
+test project. Doug G volunteered to evaluate the instructions against the goal
+of &quot;takes no effort on the part of the projects&quot;.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] to create a
+blank template initial project website so that new projects don't have to browse
+around and copy others.</p>
+<h3>Release Train</h3>
+<p>Kevin H described the Platform 3.2 schedule and discussed the modifications
+that will be necessary for the train. There was a lot of discussion around the
+train and what it will take to coordinate and release on the same date. The
+overall summary is that the end game will be extended by an additional milestone
+and thus API Freeze will be M5 and Feature Complete will be M6/RC0. (Note that
+the milestone dates in 2006 are in flux and will probably be adjusted to work
+around EclipseCon.)&nbsp; M2 is September 23rd, M3 is November 4th, and M4 is
+December 16th. Each project is assigned a &quot;offset&quot; number which is the
+number of weeks their milestone dates are offset from the Platform dates. Thus
+BIRT, being a +1 project, has milestone dates of M2 = Sep 30, M3 = Nov 11, M4 =
+Dec 23, etc. These offsets will (obviously) be reduced over the end-game (e.g.
++1 week, +1 half-week, +1 quarter-week, +1 day, +1 hour, etc) until
+they all reach zero. These offsets are a loose characterization of their
+dependency on other projects - loose because the dependencies are grouped into
+three buckets (+0, +1, +2) rather than the five or six that a full dependency
+list would entail. Five buckets would not work for six week milestones, hence we
+collapsed it to three buckets.</p>
+<p>The projects participating in the release train, the milestone they expect to
+start synchronizing, and the offset are as follows:</p>
+<ul>
+  <li><a href="http://www.eclipse.org/birt">BIRT</a>, M2 (+2)</li>
+  <li><a href="http://www.eclipse.org/cdt">CDT</a>, not yet confirmed on the train (+1)</li>
+  <li><a href="http://www.eclipse.org/datatools">DTP</a>, M3 (+1)</li>
+  <li><a href="http://www.eclisep.org/emf">EMF</a>, ? (+1)</li>
+  <li><a href="http://www.eclipse.org/gef">GEF</a>, ? (+1)</li>
+  <li><a href="http://www.eclipse.org/gmf">GMF</a>, M3 (+2)</li>
+  <li><a href="http://www.eclipse.org/ve">VE</a>, ? (+1)</li>
+  <li><a href="http://www.eclipse.org/tptp">TPTP</a>, M3 (+2)</li>
+  <li><a href="http://www.eclipse.org/wtp">WTP</a>, M3 (+2)</li>
+</ul>
+<p>Note that participation in this initial train is limited - not everyone who
+wants to join will be able to join this year. Assuming success, the process will
+be opened to additional projects next year. Also note that if a project falls
+behind the train schedule, it will be dropped - we will not slip the train. A
+third note: any project that has not synchronized by M5 is off the train for
+this year.</p>
+<p align="left">What does it mean to be &quot;on&quot; or &quot;off&quot; the
+train? First, any project is welcome to release simultaneously with any other
+project. The existence of the release train does not prevent, e.g., <a href="/mylar">Mylar</a>,
+from releasing at the same time as the <a href="/eclipse">Platform</a>. The
+difference is two-fold: first, the Foundation expects to have some press
+activities around the train release; projects that are part of the train will
+get more attention than projects that are not. Second, the projects on the train
+are committing to help each other achieve the release. Thus bugs submitted by
+train members will likely get more attention than bugs submitted by non-members.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Kevin H and Paula C] will
+pass this information along to the EMF, GEF, VE and UML2 leads. <i>- Completed
+9/11</i></p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Doug G or Bjorn FB] will
+pass this information along to the CDT leads.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] will work with
+the Tools PMC and the Executive Director to get the right representation for EMF,
+GEF, VE, and CDT at the train coordination portion of the December and March
+Planning Council meetings.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Wenfeng L, John G, Tyler
+T, Tim W, John D] All train projects need to have a project plan.</p>
+<p align="left"><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] at
+<a href="http://www.eclipsecon.org/2006/">EclipseCon</a>, the PC and Eclipse
+legal will meet to coordinate all the IP reviews and Release Reviews so that
+there isn't an impossible-to-complete mad rush at the end.</p>
+<p>FYI The tentative Platform maintenance releases are 3.1.1 end of September
+and 3.1.2 end of January/February.</p>
+<h3>Status Reporting Format</h3>
+<p>Bjorn FB brought forward a <a href="http://www.eclipse.org/org/processes/Guidelines_for_Eclipse_Development_Process/status-and-planning-reporting.html">proposed project status reporting
+file format</a>. Discussion included:&nbsp;</p>
+<ul>
+  <li>Is this for top-level projects or sub-projects or both? Conclusion: it
+    depends on the PMC.</li>
+  <li>Need a link to the update site(s) as well as the download link.</li>
+  <li>Nice to link to a URL for the description. Suggest linking to a URL and
+    parsing for a &lt;div id=&quot;short description&quot;&gt; to extract a
+    description that gets added to the XML file &lt;description&gt; section.</li>
+  <li>Guidelines for what should be in the executive summary. Note that it is
+    not just a summary of the scope of the project.</li>
+  <li>Add a paragraph of description/status/summary to each upcoming and past
+    releases.</li>
+  <li>Would like to have notifications when other projects' statuses change -
+    email? RSS?</li>
+  <li>Next year we should include release train information so that we can
+    generate a larger release train status document.</li>
+</ul>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] will update the
+proposal, publish it, and write the software to parse it.</p>
+<h3>Roadmap</h3>
+<p align="left">We discussed the Roadmap process. Last year's <a href="http://www.eclipse.org/org/councils/roadmap.html"> Roadmap 1.0</a> was
+difficult to put together and we want the process to be easier this year. One
+question we had for the Council plenary is whether the timing is correct, i.e.,
+should the Roadmap be done in July after the train release and thus be a 12
+month planning document, or should we stay with January which makes it a 3 month
+and 15 month planning document? The project status reporting format (above) will
+have all the information necessary for the PC contributions to the Roadmap <i>except</i>
+for the Forward Looking Statement section. We plan to change that section to
+&quot;Thematic Advancement&quot; and describe how each project is contributing
+to the Themes and Priorities. In other words, to concrete statements about
+higher levels features and how they are being worked on. Be sure to refer to
+which release the feature is going into, especially for projects (like TPTP)
+that have multiple releases per year.</p>
+<p>Then we switched to a discussion of how to make the Roadmap a more useful
+document for the projects. All projects stated that they were using the Themes
+and Priorities as part of their planning process, but only one part. The key
+thing that all requirements coming into a project need to have is compelling
+value to the project team. Requirements also need to be actionable, i.e., have
+attached Bugzilla entries. It is important to remember that at Eclipse, there is
+a meritocracy of ideas and thus requirements need to justify themselves.</p>
+<p>Kevin H pointed out that we all believe that the integrity of the Eclipse
+brand means something. And this means that all projects have to spend some time
+working on requirements that are &quot;for Eclipse&quot; rather than just
+&quot;for the project&quot;. Some projects are better at this than others, but
+all of them need to make sure they spending time on the greater good. (We also
+have to make sure that when we reject something (such as a Bugzilla WONTFIX), we
+do so with care because bad news travels quickly.)</p>
+<p align="left"><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] will add these
+words to <a href="http://http://www.eclipse.org/org/processes/Guidelines_for_Eclipse_Development_Process/"> the guidelines</a></p>
+<h3>Changes to Bugzilla</h3>
+<p align="left">Wenfeng L brought a set of defect tracking requirements to the Council -
+difference between Acutate's internal bug tracking system and Bugzilla. Wenfeng
+entered these as <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106261">bugs 106261</a> and
+<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106263">106263</a>. After discussion, the
+bugs were updated with the Councils suggestion that many of the requests are
+already handled by Bugzilla, but that adding options for enhancements was a good
+idea.</p>
+<h3>Project IP Log</h3>
+<p>Discussion of the newly visible, but has always existed, requirement that all
+projects keep <a href="http://www.eclipse.org/org/processes/Guidelines_for_Eclipse_Development_Process/project-log.html"> a Project IP
+Log</a>. The draft guidelines include a
+description of the log.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] fix the
+grammar/spelling errors; fix the query explanation to include that Bugzilla
+needs to record the contributor's name; add that all patches must be submitted
+through Bugzilla, never by email;&nbsp;</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] discuss with
+Mike M and Janet C the <a href="http://www.eclipse.org/legal/privacy.html"> Eclipse privacy policy</a> versus the Project
+IP Log; note that if the IP log requires all contributor addresses to be public,
+that will violate our privacy policy</p>
+<p>Tim W has entered <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=105636">bug
+105636</a> asking for a better tracking scheme for IP forms and approval
+requests.</p>
+<p>The Council as a whole requested that Bjorn work with Janet to clarify
+exactly what the process for code contributions is. For example, can the code be
+placed in Bugzilla so that it can be looked at? Can the code be used before the
+&quot;ok to use&quot; answer returns from Eclipse legal? Does the same full
+process apply to junior developers at the same company but who are not yet
+committers? There are many scenarios to consider and the Council members would
+like a step-by-step colored flowchart of the process to follow. For example,
+&quot;green if you have authored all the code&quot;, &quot;yellow path if
+authored by a junior member of your team and you work for a member
+company&quot;, etc.</p>
+<ul>
+  <li>Existing corporate IP</li>
+  <li>Developer fixing a large section of code and then patching it back (note:
+    developer, not committer)</li>
+  <li>Developer refactoring existing code and then patching it back</li>
+  <li>Inside the company versus outside the company; inside other strategic
+    members versus non-members</li>
+  <li>Less than 100 LOCs versus greater than 100 LOC</li>
+  <li>Patch to existing function versus adding new function</li>
+  <li>Etc.</li>
+</ul>
+<h3>Development Process Guidelines</h3>
+<p align="left">In general the Council thought the <a href="http://www.eclipse.org/org/processes/Guidelines_for_Eclipse_Development_Process/"> Development Process
+Guidelines</a> were good, but they felt that the guidelines should be improved in a
+number of areas:</p>
+<ul>
+  <li>The <i>required</i> items should be marked differently from the <i>recommended</i>
+    items. The guidelines cover both but it is not clear which is which right
+    now.</li>
+  <li>The Guidelines should be clear that this is the only Foundation document that you
+    need to read - that this document includes all the relevant details from the
+    Development Process. Currently the Guidelines are not comprehensive, but
+    they should be because otherwise it is too much hassle for the developers to
+    figure out what to read. Projects may have additional project-specific
+    documentation augmenting the Guidelines.</li>
+  <li>Make it clear that the enclosing PMC is responsible for the project
+    regardless of the project's phase.</li>
+  <li>The &quot;how to make infrastructure changes&quot; section should be made
+    even simpler, perhaps organized by type of infrastructure</li>
+</ul>
+<p>The Council wants to have a good process, but they also want to make sure
+that we don't set the bar too high or we will never have new projects or new
+committers.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] make these
+changes</p>
+<h3>Other</h3>
+<p>The Council discussed project mentors. We decided to try a
+committer-to-committer mentoring program from the experienced (mature) projects
+to the less experienced (incubation) projects. The goal is to transfer knowledge
+of all those little things that make being a committer in an Eclipse project
+easier.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font> [Kevin H, Sri D, Tim W]
+each to provide the names of three mentors. These people will be paired with
+committers on DSDP, DTP, and GMF.</p>
+<p>The Council is concerned that email addresses in Bugzilla are showing up on
+Google and can be viewed by people who don't even have an Eclipse Bugzilla
+account.</p>
+<p><font color="#800080"><u><b>ACTION</b></u></font>: [Bjorn FB] follow up with
+Denis on this issue</p>
+<p><i>Notes taken and posted by Bjorn Freeman-Benson</i></p>
+
+</body></html>

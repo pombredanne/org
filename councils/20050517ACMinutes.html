@@ -1,0 +1,178 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Eclipse Planning Council Minutes</title>
+<link rel="stylesheet" href="http://www.eclipse.org/default_style.css">
+</head>
+
+<body>
+
+<h1>Eclipse Architecture Council Minutes</h1>
+<p>May 17-18, 2005, Portland, Oregon</p>
+<table border="0">
+  <tr>
+    <td valign="top" colspan="2" align="center" bgcolor="#CCCCCC"><b>Present</b></td>
+    <td valign="top" align="center"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+    <td valign="top" align="center" bgcolor="#CCCCCC"><b>Regrets</b></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+      John Duimovich, 	IBM Corporation&nbsp;&nbsp;&nbsp;<br>
+      Bjorn Freeman-Benson, 	Eclipse<br>
+      Richard Gronback, 	Borland<br>
+      Kevin Haaland, 	IBM Corporation<br>
+    Wenfeng Li, Actuate<br>
+    Mike Milinkovich, Eclipse<br>
+    Mike Norman, 	Scapa Technology
+    </td>
+    <td valign="top">
+      Michael Scharf, Wind River<br>
+      Harm Sluiman, IBM<br>
+      Anurag Gupta, Intel<br>
+      Tim Wagner, 	BEA<br>
+      John Wiegand, IBM<br>
+      David Williams, IBM<br>
+      Alan Young, Computer Associates</td>
+    <td valign="top"></td>
+    <td valign="top"><p>John Graham, Sybase<br>
+      Boris Kapitanski, Serena</td>
+  </tr>
+</table>
+<h2>Minutes / Discussion Items</h2>
+<p><i> (these notes are in logical rather than
+chronological order)</i></p>
+<p>The council spent most of its time discussing Eclipse Quality and the Eclipse
+Development Process.</p>
+<h3>Current Situation</h3>
+<p>There is some concern that the quantity of new proposals has made it
+difficult to provide appropriate qualitative reviews, hence there is a risk that
+the quality of Eclipse projects could slip.&nbsp; Eclipse is known for its high
+quality frameworks and tools and projects, and thus it is important for us to
+take steps to retain that.</p>
+<p>At the same time, we don't want to be too restrictive. We want to keep the
+hassle-factor low so that we encourage new ideas to come to Eclipse, but we want
+to raise the bar (or, perhaps the bar is already high enough, but just not
+documented) for making a release. We want Eclipse projects to have an open,
+transparent, inclusive, and welcoming process; we want Eclipse projects to have
+a wide community of tool users and framework users.</p>
+<p>The key question we kept coming back to is &quot;what is quality?&quot;</p>
+<h3>What are the Entrance Criteria for a New Proposal?</h3>
+<p>We should have a low bar so that new ideas can experiment and flourish. The
+first bar is that the proposed project should match the Roadmap - if the project
+diverges from the Roadmap, then it's not an Eclipse project, no matter how good
+it is. The second bar is that the proposal should be clear and contain enough
+detail so that Eclipse members can decide whether it is interesting or not. The
+EMO should be responsible for filtering these two bars.</p>
+<p>Proposals should discuss the IP concerns (patents, TCKs, licenses,
+third-party libraries, are their IP rights issues to the standards, etc). Having
+issues does not disqualify the proposal, but not looking into these issues
+does.&nbsp; Proposals should also discuss the resource commitments of the
+initial companies and individuals.&nbsp;</p>
+<p>Proposers should be ready to answer questions at the Creation Review around:
+project overlaps, project dependencies, who's interested in this proposal, what
+is the end user's view of this project, how is it extensible, etc.</p>
+<h3>What are the Exit Criteria for a New Proposal into Incubation?</h3>
+<p>We need people to speak affirmatively about the project. For example, having
+two sponsors/advocates/champions. The advocates should be from the Architecture
+Council but from different companies. It is the proposer's responsibility to
+find the advocates. We want the advocates to be positively supporting the
+proposal, not just lending their name, thus they should be associated with the
+project somehow in the public mind. The advocate will say &quot;I believe this
+proposal is well-formed&quot; and their name will be on the proposal page.</p>
+<p>If there are overlaps, the proposers has to ask the overlapee for an opinion.
+The opinions might range from: &quot;we want to participate&quot; to &quot;we
+want this not to happen&quot; to &quot;we want to watch this&quot;. Overlap is
+not necessarily bad, but accidental/ignorant overlap is. If there is a plan to
+deal with the overlap and the Council monitor the situation, then it's ok.</p>
+<p>All dependencies should be declared:&nbsp;</p>
+<ul>
+  <li>projects that are being built on top of</li>
+  <li>projects that are being bumped up next to</li>
+  <li>things that if some other project did better, this project would work
+    better</li>
+  <li>fundamental concepts in this new project that will require all other
+    projects to use this project</li>
+  <li>etc.</li>
+</ul>
+<p>The Council acknowledges that this will make proposing new projects harder
+than before, however we see this an effort to understand new proposals rather
+than an attempt to exclude proposals.</p>
+<h3>What are the Exit Criteria from Incubation to Real Project Status?</h3>
+<p>This discussion went around and around, but the more-or-less consensus was
+that all projects start in Incubation and that the maturity necessary to pass a
+Release Review is what it takes to leave Incubation.</p>
+<h3>What are the Release Review Criteria?</h3>
+<p>We are trying to establish a <i>culture of Eclipse Quality</i>. Release
+reviews are a way to try to encourage the projects to adopt good open source
+engineering practices. The encourage is because if the projects adopt these
+practices, the reviews will be easy to pass. If the projects are not open and
+transparent, the reviews will be a lot of work.&nbsp; The reviews are also a
+place to boast about the project's accomplishments.</p>
+<p>The key question was <i><b>what is Eclipse Quality?</b></i> and secondarily, <b><i>how
+can we ensure it?</i></b> The Platform team brought up the point that it took
+the Platform two years (100 engineering person years) to get to version 1.0.
+&quot;APIs are hard. Making things work is hard.&quot;&nbsp; We need to set
+realistic expectations that just being an open and transparent Eclipse project
+does not magically make good software easier to build.</p>
+<p>We need a set of metrics that are run before a Release Review. Metrics can
+prove a negative (low quality) but cannot prove a positive (high quality). Thus
+failing the metrics fails the review. An example metric is 100% Javadoc coverage
+for all APIs.</p>
+<h3>What about Top Level Projects?</h3>
+<p>There was a lot of discussion about whether new top-level projects start in
+Incubation or can start outside Incubation. One view was that having Incubation
+for top-level projects would make it hard to recruit new Strategic Developers.
+The other view was that without Incubation we will end up with
+un-open-source-experience PMCs setting strategic directions.</p>
+<p>The best we could come up with was the acknowledgement that PMCs need to
+demonstrate:</p>
+<ul>
+  <li><b>technical leadership </b>- not just building extensible frameworks and
+    exemplary tools, but also setting the direction for a whole area of work</li>
+  <li><b>multi-company recruiting and cooperation </b>- top-level projects need
+    to be multi-organization efforts; the PMC is responsible for making that
+    happen</li>
+</ul>
+<h3>Project Overlap</h3>
+<p>There was general discussion of &quot;project overlap&quot; and general
+agreement that no project should (initially) declare API that is not in the
+scope of their charter or for which there is potential overlap with other
+projects. In general it was deemed desirable to do as much
+&quot;peer-to-peer&quot; coordination as possible and not feel Architecture
+council needs to review or get involved in routine matters. We did not get into
+any of the details of specific overlaps that currently exist.</p>
+<h3>Provisional APIs</h3>
+<p>There was discussion about provisional APIs and many different opinions. The
+opinions ranged from:</p>
+<ul>
+  <li>Never!</li>
+  <li>Ok for only one release, but the package name must change</li>
+  <li>Ok for only one release, but the name should not change</li>
+</ul>
+<p>There was the question (unanswered) of whether it was better to defer release
+until API, or have well specified provisional API. Some also believed
+&quot;provisional&quot; would be used as &quot;an easy out&quot; and water-down
+Eclipse API quality. There was a general desire to have &quot;provisional
+API&quot; mean &quot;well specified API that might change in future, which would
+have implied support at least in point releases, migration documentation,
+etc&quot;.</p>
+<p>There was basic consensus that Bjorn's proposal of having the package name
+change between provisional and real API status was not a good thing.</p>
+<h3>A Summary</h3>
+<p>To paraphrase one of the Council members who did a better job of writing up
+the notes than I did:</p>
+<blockquote>... there is a certain sense that defining "Eclipse Quality" (and defining what it means to be "part of Eclipse") is a moving, increasingly high target that everyone in Eclipse is struggling to clarify (the Councils and Board, add-on-providers, as well as us Projects)  -- no one wants a "no rules" approach as in some open source communities, nor a "one product" approach either, but finding the right balance, how to specify and gauge achievement and success is an ongoing effort (and probably will be for some time, in my humble opinion).</blockquote>
+<p>I couldn't have said it better myself.&nbsp;</p>
+<h3>Other Random Issues</h3>
+<ul>
+  <li>We want to distinguish incubators in some way: name? logo? watermark?</li>
+</ul>
+<p><i>Notes taken and posted by Bjorn Freeman-Benson</i></p>
+
+</body>
+
+</html>
