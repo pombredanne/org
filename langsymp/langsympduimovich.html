@@ -1,0 +1,156 @@
+<html> 
+</body>
+
+<center>
+<H2> 
+<br>
+Common Eclipse support for language IDEs  <br> 
+Position Paper for Eclipse Languages Symposium <br><p>
+John Duimovich <br>
+October 21, 2005
+</H2>
+</center>
+
+<p><b>Position</b></p>
+
+I am interested in making it simpler to create new programmming language
+IDEs for the Eclipse platform. I am motivated by my work on a Smalltalk
+IDE for Eclipse in which I found I was writing too much code for the
+functionality I was getting in return. I found that was that much of the
+code ends up being very similiar to code found in JDT and CDT.  In fact,
+it has become a common joke that the way to get a new IDE for eclipse,
+is to take code from JDT and replace the "J" with your language letter
+in the class name (I used ST). I have seen many initial ports of new
+languages done this way and as a quick and dirty way to get started it's
+a pretty good way to go, especially if you borrow ideas (and code) from
+a well architected piece of code like JDT. Of course, the drawback to
+this technique is that you "bake in" the bugs you copied from the
+original code and you don't get the fixes as they are made in the
+original. You also miss new innovations as they appear in JDT and the
+underlying platform. Given that many of these components end up being
+quite similiar I feel it should be possible to create generic components
+for creating language IDEs, possibly starting from existing components
+from the existing language IDEs and generalizing them to allow re-use in
+other contexts. Clearly over time as you re-use components from one
+language in another, you will create common components as the problem
+accross many languages becomes better understood. 
+
+<p>So, this suggests a path forward. As IDEs for different languages
+are built, there will be opportunities to harvest components which will
+be applicable to different languages. 
+
+<p> A non-exhaustive list of tools (and problems to solve) may look something like this (I make no claims
+on how hard or easy the specific items are). 
+
+<ul> 
+
+<li>  <b>generic components for data based simple integrations (no code required)</b>
+<ul>
+<li> token based syntax colouring 
+<li> non context-sensitive code assist
+<li> consoles and process control 
+<li> external compiler (or other tools) error processing 
+<li> declaration of artifacts for external tools 
+</ul>
+
+<li> <b>common utilities for parsers, syntax colouring, code assist</b>
+<ul> 
+<li> grammar and parsing tools - generate common DOM for programming language
+<li> indexers (with persistence) for structured searching
+<li> partial/incorrect code parser support
+</ul>
+
+<li><b>common tools for for compiled languages</b>
+<ul> 
+t<li> C/C++, Fortran, COBOL, Ada ...
+<li> external tool-chain launch and processing (makefiles, compile, link)
+<li> external program (execution/debug) launch and processing
+</ul>
+
+<li> <b>common tools for for dynamic languages</b>
+<ul> 
+<li> PHP, Ruby, Smalltalk
+<li> external program (execution/debug) launch and processing
+<li> the "intermediate" language problem (script lang generates Java (or C) or ...
+<li> techniques for dealing with mixed languages in same file (HTML, PHP etc)
+<li> internal scripting execution (scriptable eclipse?)
+</ul>
+
+<li> <b>common tools for for all languages</b>
+<ul> 
+<li> integrated performance and testing tools
+</ul>
+
+</ul>
+
+<p> Once we've identified these common components, the next steps would
+be the "IDE Wizard" tools which help you generate "your first" IDE.
+What I really would like to see is the Eclipse IDE equivalent of
+"<i>glasses in about an hour</i>" in which much of the the first
+implementation of an IDE is generated for you. You can then tailor the
+generated components for the specific needs or wholesale replace them
+with custom versions which provide tighter integrations. The reaction I
+get when talking to most people about this type of tool for creating
+IDEs is typically divided into two distinct groups. There's the <i>when
+can I have it?</i> people and the <i> that's impossible! </i> people. I
+understand the motivation of the first group, they want a simpler way to
+build IDEs. The latter group, is clearly thinking that we intend to auto
+generate JDT level functionality which is a pretty high bar or if you
+don't do a JDT then it won't be usefull. I don't think you're going to
+generate a JDT class IDE for "free" but I think you may be able to
+generate a usefull first cut. The tricky part is defining what "usefull"
+means in this context or even describing what you could expect from a
+generated IDE.  One way, is to look at the level of functionality that
+an IDE has and decide what kind of functionality you could expect to
+find in a generated IDE. 
+
+<p><b>
+Levels of integration in an  Eclipse based IDE
+</b></p>
+
+<p>There are many possible levels of integration with Eclipse. The
+simplest integration is to use Eclipse as your edit, compile, run (and
+possibly debug)system. The next level is to create a program
+model (parse the source code) so that you can implement language aware
+functionality. As the integration becomes more advanced, the
+opportunities become richer and features like program manipulation
+(refactoring, code generation, and full round trip editing for code
+generation systems that use programming languages as their intermediate
+language) become possible  </p>
+
+<p>For simplicity, I decided to describe IDEs in terms of <b>levels of
+integration</b> with eclipse.</p>
+
+<ul> 
+
+<li> <b>Editor Level Integration or Basic Integration (Level 0)</b> <ul>
+<li>Functionality: Text editor for source files, external compiler,
+compiler errors parsed into markers, launch external debugger, token
+based syntax coloring, text search, token based search.
+
+</ul>
+
+<li><b>Language Aware Integration - (Level 1)</b> <ul>
+<li>Functionality: outline view, language hierarchy/structure view,
+syntax based coloring, code assist, structured search (references,
+declarations), structured compare. Eclipse debugger support. 
+
+</ul> <li><b>Advanced Language Aware Integration - (Level 2)</b> <ul>
+<li>Functionality: refactoring, quick fix, intentional programming
+(type inferencing, auto-complete of statements DOM for language and
+extension to these tools.
+
+</ul> <li><b>Uber-Integration - JDT class integration (Level 3,4,5)</b>
+<ul> <li>Functionality: all of the above and more. Full exploitation with of the platform functionality. Continued innovation in IDE technology.
+
+</ul>
+</ul>
+
+
+My position is that a IDE Wizard could create a level 0 or level 1 IDE.
+The key to this being a successfull strategy is the ability to
+selectively replace generated components.  This would allow the ide
+implementor start with a basic IDE, and grow into full featured IDE (in
+the uber JDT spirit) incrementally. 
+
+</body> </html>

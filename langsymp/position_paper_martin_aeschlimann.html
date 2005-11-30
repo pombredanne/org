@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <title>A Seed for an Eclipse Language Toolkit</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<table border="0" cellpadding="2" cellspacing="5" width="100%">
+  <tbody>
+    <tr>
+      <td class="bannertext" rowspan="1" colspan="1" width="69%">
+      <h2>A Seed for an Eclipse Language Toolkit</h2>
+      <h4>Martin Aeschlimann, IBM Research Zurich</h4>
+Position paper for the Eclipse Language Symposium in Ottawa (October
+2005)<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>My background</h4>
+      <p>I'm a member of the Eclipse JDT UI team since
+its beginning. Responsibilities are the quick fix feature, including
+the
+underlying code rewriting infrastructure. I'm in close contact with the
+JDT model and DOM-AST and also helped there evolving these APIs. I
+happened to be the author of a 3 week C-plug-in prototype that later
+became be the seed for the current CDT plug-in.</p>
+      <h4>Motivation</h4>
+      <p>The approach taken when implementing this CDT prototype was to
+follow the concepts and structure of the JDT plug-in. Eclipse gives you
+comprehensive support to integrate (e.g. building, launching, compare
+and
+search) and reusing/extending existing components like editors with
+outline views. Still there were parts that had to been copied; most
+notable the language model infrastructure.</p>
+      <p>Several other language plug-in implementations followed that
+same way and duplicated again the same code, resulting in the desire
+that
+Eclipse should provide a common infrastructure for language models
+to avoid code duplication.</p>
+      <p>API is always costly in
+creation and especially in maintenance. It introduces new dependencies
+that can hinder innovation as you get locked into solutions.&nbsp; JDT
+was therefore very conservative
+investing work towards this topic. However, more infrastructure has
+significant benefits. For developers it's a time saver, users get
+language plug-ins, faster and maybe designed more consistently, and the
+Eclipse platform wins by providing new infrastructure.</p>
+      <p>To summarize, the goals are:<br>
+      </p>
+      <ul>
+        <li>
+          <p>Distill the JDT / Platform proven concepts so they
+can also be used for new language plug-ins. <br>
+          </p>
+        </li>
+        <li>
+          <p>A fresh look at the problem, make is as simple as
+possible.
+Start fresh and don't have the goal to bring existing plug-ins into the
+framework. Gain more experience with
+new
+language plug-ins to create new infrastructure and improve existing
+plug-ins in this direction.</p>
+        </li>
+        <li>
+          <p>Provide a seed with the goal to be grown by the community</p>
+        </li>
+      </ul>
+      <h4>Proposal<br>
+      </h4>
+      <p>In my proposal for a seed, I would like to look at the problem
+from a compiler and not from an editor or explorer perspective. A
+compiler's inputs are tokens and it uses parsers to build syntax trees.
+Most of the tooling for a language plug-in (e.g. refactoring, quick
+fix) directly works on ASTs. The proposal therefore 'structures' the
+language model along these lines and use <span
+ style="font-style: italic;">tokens</span>, <span
+ style="font-style: italic;">AST nodes</span>, <span
+ style="font-style: italic;">token streams</span> and <span
+ style="font-style: italic;">parser </span>as foundation for a
+language independent toolkit.</p>
+      <p>The interesting question is, what kind of concepts are needed
+as a foundation to implement as much concrete functionality as possible?<br>
+Only having AST nodes and tokens will not be enough. For example it
+would not be possible to show an outline (of declarations) in a generic
+way. The solution is to add additional information to AST nodes such as
+structural information. This additional information can be annotations
+on the node itself or provided by visitors that calculate it. <br>
+      </p>
+      <p>This is a sketch of abstractions, concrete type names have
+been used for illustration only:<br>
+      </p>
+      <ul>
+        <li style="font-weight: bold;">ILanguageModel: <span
+ style="font-weight: normal;">access point to the languages
+infrastructure </span><br>
+        </li>
+        <ul>
+          <li>getTokenStream(ISourceElement) : ITokenStream<br>
+          </li>
+          <li>createAST(ITokenStream) : AST</li>
+        </ul>
+        <li style="font-weight: bold;">ITokenStream</li>
+        <ul>
+          <li>getNextToken(): ITokenNode</li>
+        </ul>
+        <li style="font-weight: bold;">IAST</li>
+        <ul>
+          <li>getASTRoot(): IASTNode</li>
+          <li>findNode(position)<br>
+          </li>
+        </ul>
+      </ul>
+The types ITokenNode and IASTNode could both be unified using INode
+      <ul>
+        <li><span style="font-weight: bold;">ITokenNode</span>:
+abstract base class for tokens</li>
+        <li><span style="font-weight: bold;">IASTNode</span>: abstract
+base class for AST nodes: has parent (AST node) and children (nodes:
+AST nodes and tokens), provides functionality to traverse children and
+to the node type<br>
+        </li>
+        <li><span style="font-weight: bold;">INodeType</span>: meta
+information describing token types and AST node types<br>
+        </li>
+        <ul>
+          <li>what are the children for a node of this type: what token
+types what node types, are they mandatory<br>
+          </li>
+          <li>which nodes are declarations<br>
+          </li>
+        </ul>
+      </ul>
+Languages often have the concept of declarations and references to
+these
+declarations. A resolver connects references to declarations<br>
+      <ul>
+        <li style="font-weight: bold;">IResolver</li>
+        <ul>
+          <li style="font-weight: bold;"><span
+ style="font-weight: normal;">Given a AST node, find the corresponding
+declaration (to be discussed in what format)<br>
+            </span></li>
+        </ul>
+      </ul>
+The following sections describe what language neutral infrastructure
+can be built using these abstractions:<span style="font-weight: bold;"><br>
+      </span><span style="font-weight: bold;"></span>
+      <ul>
+        <li><span style="font-weight: bold;">Handle based
+elements: </span>ASTs are usually expensive to build and to keep in
+memory. There's a need for a more lightweight element that can be used
+e.g. by viewers. These elements are created from the AST, but don't
+hold a reference to it. They can rebuild the underlying AST anytime
+when required. </li>
+      </ul>
+      <div style="margin-left: 40px;">The handles are usualy only a
+subset of the existing AST nodes, typically all declarations.<br>
+      </div>
+      <ul style="margin-left: 40px;">
+        <li><span style="font-weight: bold;">NodeHandle</span><br>
+        </li>
+        <ul>
+          <li>Inexpensive representatation of an AST node that can be
+shown in viewer. Does not hold on the full AST, but can rebuild AST if
+necessary<br>
+          </li>
+          <li>Handles: Might not exist anymore (or not yet)<br>
+          </li>
+          <li>can be stored/restored using mementos</li>
+        </ul>
+      </ul>
+      <ul>
+        <li><span style="font-weight: bold;">Search index: </span>Indexing
+declarations and references</li>
+      </ul>
+      <ul>
+        <li><span style="font-weight: bold;">AST flattening</span>
+and <span style="font-weight: bold;">code formatting</span> using the
+AST node type properties</li>
+      </ul>
+      <ul>
+        <li><span style="font-weight: bold;">AST rewriting</span>
+infrastructure using AST flattening and code formatting</li>
+        <ul>
+        </ul>
+      </ul>
+      <br>
+On the user interface front it is now possible to implement a 'generic
+editor':<br>
+      <ul>
+        <li><span style="font-weight: bold;">syntax highlighting</span>
+from token streams</li>
+        <li><span style="font-weight: bold;">structure views</span>
+(Outlines) from handle based elements<br>
+        </li>
+        <li><span style="font-weight: bold;">code resolve</span>
+('Open Declaration F3') using the resolver<br>
+        </li>
+        <li><span style="font-weight: bold;">structured selection
+expansion</span> (Source &gt; Expand
+Selection) and <span style="font-weight: bold;">bracket matching</span>
+using AST nodes</li>
+        <li><span style="font-weight: bold;">mark occurrences</span>
+and <span style="font-weight: bold;">local (linked) rename</span> with
+the resolver</li>
+        <li><span style="font-weight: bold;">auto-indent</span> using
+the formatter</li>
+        <li>...</li>
+        <ul>
+        </ul>
+      </ul>
+It has to be noted that using such a generic editor is good to get
+quick results for new plug-ins. It is likely that language plug-in will
+use the generic editor as a base, but extend with language specific
+features.<br>
+      <br>
+Optional opportunities (extra plug-ins):<br>
+      <ul>
+        <li>Generation of compatible scanners and ASTs from a grammar</li>
+      </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

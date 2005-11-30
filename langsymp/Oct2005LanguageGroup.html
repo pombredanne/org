@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="GENERATOR" content="IBM Software Development Platform" />
+<title>WTP-SSE-Oct2005LanguageGroup.html</title>
+</head>
+<body>
+<h1 align="center">Language Support in Eclipse WTP/SSE</h1>
+<h3 align="center">Position Paper for Eclipse Language Workshop<br />
+October, 2005<br />
+<br />
+David Williams <br />
+(and team: Nitin Dahyabhai, Phil Avery, Amy Wu) <br />
+</h3>
+<p>In <a href="http://www.eclipse.org/webtools/main.html">Eclipse WTP</a>
+we provide editing related support for XML, DTD, HTML, XHTML, CSS,
+JavaScript, and JSP's. I'd like to relate some of our experiences and
+plans that might be useful to the larger &quot;language community&quot;.
+And -- shameless plug -- if you like what you see, maybe you'll be
+convinced to make some contributions! :)</p>
+<h4>ContentType based</h4>
+<p>Things like XML and JSP are good use cases for the importance of
+content type based function, since not obvious &quot;file
+extensions&quot; are always used.</p>
+
+<h4>Mixed Languages</h4>
+<p>For us, all content is &quot;mixed language&quot; to some extent,
+even simple HTML can have JavaScript or CSS.</p>
+<p>JSP's can not only have text/html, but text/xml, text/css, etc</p>
+<h3>Editors should be extensible, by extension point</h3>
+
+<h5>SourceViewerConfiguration</h5>
+
+<p>The structured text viewer configuration customizes various aspects
+of the Structured text editor. It defines syntax highlighting, content
+assist, and more. Clients must subclass
+org.eclipse.wst.sse.ui.StructuredTextViewerConfiguration to provide a
+custom viewer configuration for their content type. Clients contributing
+new configuration for new content types can utilize an existing
+configuration. They can subclass the existing configuration to build on
+top if it. Or they can create a new instance of the existing
+configuration in their configuration, and call the methods within it.
+The StructuredTextViewerConfigurationJSP, for example, creates new
+instances of the StructuredTextViewerConfigurationHTML,
+StructuredTextViewerConfigurationXML, JavaSourceViewerConfiguration and
+retrieves their processors to be reused in JSP content.</p>
+<p><b>Discussion Point: </b>Is there need to separate out highlighting,
+content assist, etc?</p>
+
+<h5>OutlineConfiguration</h5>
+<p>The outline view configuration customizes the editor's outline view.
+It defines how the current editor's input maps to elements in a Tree
+control, as well as selection filtering, toolbar/menu contributions,
+etc. Clients must subclass
+org.eclipse.wst.sse.ui.views.contentoutline.ContentOutlineConfiguration
+to provide a custom outline view for their content type</p>
+<h5>PropertySheet Configuration</h5>
+<p>The properties view configuration customizes the editor's properties
+view. It defines how the current editor's input maps to a list of
+properties in a Table control, as well as toolbar/menu contributions,
+etc. Clients must subclass
+org.eclipse.wst.sse.ui.views.properties.PropertySheetConfiguration to
+provide a custom properties view for their content type.</p>
+
+<h5>Source Page Validation</h5>
+<p>Allows participants to provide an
+org.eclipse.wst.validation.core.IValidator for source validation
+(as-you-type) via the org.eclipse.wst.sse.ui.extensions.sourcevalidation
+extension point. The enablement ("what" the validators can operate on)
+of the source validators can be specified by content type (
+org.eclipse.core.runtime.content.IContentType ) and partition types (
+org.eclipse.jface.text.ITypedRegion.getType() ) within each content
+type. [This is likely the same
+org.eclipse.wst.validation.core.IValidator used for "batch" validation
+via the org.eclipse.wst.validation.validator extension.] The validation
+messages are displayed to the user on the source page as as "temporary"
+annotations. These show up in the text as "squiggles" beneath the text
+and in the overview ruler as rectangles. The validation message itself
+is displayed by hovering the squiggle or rectangle.</p>
+<h5>Target ID Resolution</h5>
+<p>Clients can target their editor configuration to either a specific
+content type and/or editor. In the event there are conflicts as to which
+configuration should be used, below is the resolution policy.</p>
+<ul>
+	<li>configuration with matching editor id</li>
+	<li>configuration with matching editor id + ".source" in multipage
+	editors</li>
+	<li>configuration with matching content type id</li>
+	<li>configuration for content type's base content type</li>
+	<li>default Structured Text Editor configuration</li>
+</ul>
+<p>If more than one configuration is defined for an editor type or
+content type, the first one defined, is the first one served.</p>
+<p><b>Discussion Point: </b> How much and when is there a need for "user
+choice" in resolution.</p>
+
+<h3>SSE Model/Document Concepts</h3>
+<h5>Structured Documents</h5>
+<p>Once central concept is the <code>IStructuredDocument</code> . It is
+intended to be similar to an IDocument, but with a few significant
+differences.</p>
+<ul>
+	<li>It has an associated parser and re-parser, which in our experience
+	is how most programmers think of text models.</li>
+
+	<li>It also does not depend on a "reconciler thread" to reconcile the
+	model. Instead, it notifies the model immediate of changes. Our
+	philosophy is that it is the model itself that should decide if there
+	would be a delay or a separate thread required to reconcile itself. For
+	small and fast models, there is no need to do this on a separate thread
+	and the user's experience will appear much more responsive. For other
+	cases a longer time may be required, but when handled correctly, the
+	model can still give immediate feedback to the user that a longer
+	operation is in progress.</li>
+</ul>
+
+<p>The IStructuredDocument is conceptually a stream of characters made
+up of (divided into) IStructuredDocumentRegions. The main constraint on
+what types of languages are appropriate for structured documents and
+structured regions is whether or not it has the concept of having a
+syntactically determined end. This is used to know how to correctly
+handle reparsing (deciding what is a "safe start" and "safe end" for the
+reparse operation).</p>
+
+<h5>Parsers and re-parsers</h5>
+<p>Parsers and reparsers can (will) be associated to a StucturedDocument
+via extension point. The parser/reparser pair has a few conceptual
+requirements. They must be able to handle any text (legal or not) and
+must return regions that completely cover the input text (for example,
+whitespace can not simply be ignored). Another, more difficult
+constraint to implement is that for any subset of text, the reparser
+must give the same results that the parser would if whole document
+re-parsed. (Granted, a legal fall-back is just to re-parse whole
+document, but can be "expensive").</p>
+
+<p>Its important to handle ill-formed text. Heuristics are often used to
+make these decisions so sometimes we can and do "guess right" (based on
+what a user might be in the process of typing) and sometimes not -- in
+other words, its not always easily predictable as it is for "valid" text
+but is based on doing a reasonable job which would not invalidate
+subsequent reparsing.</p>
+
+<h5>Structured Document Events</h5>
+
+<p>The StructuredDocumentEvents are similar to IDocument's
+DocumentEvents, but provide much more information about the nature of
+the change in terms of IStructuredDocumentRegions (and the ITextRegions
+of which they are composed). Listeners, such as DOM parsers, can make
+use of this to minimize the amount of reparsing/rebuilding they have to
+do.</p>
+
+<h5>Content Models</h5>
+<p>These are abstract "descriptions" of what an instance document could
+or should look like. We use these for content assist, validation, and in
+some cases to actually parse a document to its "model" (or tree
+structure). We compute content models for arbitrary schemas, dtd, and
+taglibs, and have a "hard coded" one for html 4.01</p>
+
+<h5>Structured Models</h5>
+<p>Structured models are mostly interesting due to is extended types and
+implementers and exists as an abstraction to provide a consistent way to
+manage shared models and also to access its underlying structured
+document.</p>
+
+<h5>Node Notifiers</h5>
+<p>In addition to IAdaptable, many "Node" structures in SSE related
+models make use of a finer level of adaption which includes
+notification. This mechanism can be used to have improved UI updates or
+can be used to keep related models "in synch" (for example, a DOM model
+change can cause a change in an EMF model, and vis versa).</p>
+
+<h5>Model Management</h5>
+<p>Another important contribution of sse.core is the IModelManager. Its
+purpose is to provide a StructuredModel, appropriate to contentType,
+that can be shared between many clients at runtime. This increases
+efficiency since each client doesn't have to (re)create their own, but
+just as importantly, it is an easy way for clients to all stay "in
+synch"--a change in the model made by one client will be known by all
+others clients. The other motivation for this is it allows looser
+coupling, since clients who may not even know about each other can share
+the model without passing it around to each other.</p>
+<h3>My View of future of an &quot;LTK layer&quot; (to spur discussion, not to volunteer :)</h3>
+<p>Further use of &quot;participant pattern&quot; in other areas of common source language handling<br />
+(similar to refactoring, search)</p>
+<ul>
+	<li>Format (model, no UI)</li>
+	<li>Task Tags</li>
+	<li>Validation</li>
+	<li>Content Assist</li>
+	<li>Quick Fix</li>
+	<li>General Purpose Dependancy Mechanism</li>
+</ul>
+<h5>Reference: Current Links to Eclipse Components</h5>
+<p><a href="http://www.eclipse.org/webtools/wst/components.html">Primary
+documentation link and CVS information</a></p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/sse/overview.html">SSE</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/xml/overview.html">XML</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/dtd/overview.html">DTD</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/css/overview.html">CSS</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/javascript/overview.html">JavaScript</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/html/overview.html">HTML</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/wst/components/jsp/overview.html">JSP</a>
+</p>
+<p><a
+	href="http://www.eclipse.org/webtools/community/tutorials/ReintroducingSSE/ReintroducingSSE.html">End
+User Oriented Documentation</a></p>
+</body>
+</html>

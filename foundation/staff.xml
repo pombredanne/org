@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<staffmembers version="1.0">
+	<staffmember id="wayne">
+		<name>Wayne Beaton</name>
+		<title>Eclipse Evangelist</title>
+		<image>http://www.rokc.ca/wayne/images/blog_waynepolor.jpg</image>
+		<description>
+			Wayne Beaton is employed by The Eclipse Foundation where he
+			works as an evangelist, spreading the word and helping folks
+			adopt Eclipse technologies. Wayne has extensive experience
+			in object-oriented software development and is a strong
+			proponent of refactoring, unit testing, and agile
+			development methodologies.
+		</description>
+	</staffmember>
+
+	<staffmember id="janet">
+		<name>Janet Campbell</name>
+		<title>Manager, Intellectual Property</title>
+		<image />
+		<description />
+	</staffmember>
+
+	<staffmember id="ward">
+		<name>Ward Cunningham</name>
+		<title>Director, Committer Community Development</title>
+		<image />
+		<description />
+	</staffmember>
+
+	<staffmember id="bjorn">
+		<name>Bjorn Freeman-Benson</name>
+		<title>
+			Director, Open Source Process
+		</title>
+		<image />
+		<description> <![CDATA[ While striving to be a Renaissance Man, Bjorn keeps falling back into 
+			the clutches of conformity with engineering stereotypes such as <A 
+			href="http://www.squeak.org/">dynamic languages</A>, <A 
+			href="http://www.agilealliance.org/">software engineering</A>, <A 
+			href="http://www.juggling.org/">juggling</A> and <A 
+			href="http://www.eaa.org/">general aviation</A>. His escape attempts have been 
+			through <A href="http://www.orienteering.org/">orienteering</A>, <A 
+			href="http://www.bta4bikes.org/">bicycling</A>, <A 
+			href="http://www.friendsoftrees.org/">planting trees</A> and <A 
+			href="http://www.superboy.org/images/superboy.jpg">painting his airplane</A>. He 
+			is passionate about doing things instead of just talking about them, and he 
+			thoroughly enjoys the <A href="http://www.eclipsecon.org/">annual party</A> he 
+			helps organize for the Eclipse community.]]></description>
+	</staffmember>
+
+	<staffmember id="skip">
+		<name>Skip McGaughey</name>
+		<title>Director, Ecosystem</title>
+		<image />
+		<description />
+	</staffmember>
+
+	<staffmember id="mike">
+		<name>Mike Milinkovich</name>
+		<title>Executive Director</title>
+		<image>../../images/mikemsmall.jpg</image>
+		<description>
+		<![CDATA[<p>Outside of work, Mike's passions are his family, the family cottage and hockey (as a
+			coach, player and fan)
+			in pretty much that order. When he's not working, or traveling for work, you will probably
+			find him involved in one of those three things. </p>
+			<p>You can read Mike's blog at
+			<a href="http://milinkovich.blogspot.com/" target="blank">
+			http://milinkovich.blogspot.com/</a>.</p>]]>
+		</description>
+	</staffmember>
+
+	<staffmember id="ralph">
+		<name>Ralph Mueller</name>
+		<title>Director, Ecosystem - Europe</title>
+		<image />
+		<description />
+	</staffmember>
+
+	<staffmember id="denis">
+		<name>Denis Roy</name>
+		<title>Manager, IT Infrastructure</title>
+		<image />
+		<description />
+	</staffmember>
+
+	<staffmember id="ian">
+		<name>Ian Skerrett</name>
+		<title>Director, Marketing</title>
+		<image />
+		<description>
+		<![CDATA[ Ian takes care of the marketing activities at the Eclipse Foundation.  
+		Although our community is the Eclipse marketing machine,  Ian supports the projects and member 
+		companies to increase the awareness of all the cool stuff happening at Eclipse.  
+		You can read his blog at <a href="http://ianskerrett.blogspot.com/" target="blank">
+		http://ianskerrett.blogspot.com/</a>.]]>
+		</description>
+	</staffmember>
+
+	<staffmember id="matt">
+		<name>Matt Ward</name>
+		<title>Systems Administrator</title>
+		<image />
+		<description />
+	</staffmember>
+
+	<staffmember id="sharon">
+		<name>Sharon Wolfe</name>
+		<title>Office Manager</title>
+		<image />
+		<description>Sharon has been with the Eclipse Foundation since July 2004.  In addition 
+		to her Office Manager responsibilities, Sharon assists with marketing activities and also 
+		organizes or assists with the planning of various meetings and conferences.  Sharon thanks 
+		Mike every day for opening a proper office because she was going stir crazy working out 
+		of the home office in her basement!
+		</description>
+	</staffmember>
+
+
+</staffmembers>
