@@ -11,7 +11,6 @@
 	$Nav->addCustomNav("Foundation", "../foundation/", "_self", 2);	
 	$Nav->addCustomNav("Governance", "../documents/", "_self", 2);
 	$Nav->addCustomNav("Legal Resources", "../../legal/", "_self", 2);
-	$Nav->addCustomNav("Press Releases", "../../community/news/eclipsenews.php", "_self", 2);
 	$Nav->addCustomNav("Contact Us", "../foundation/contact.php", "_self", 2);
 
 ?>
