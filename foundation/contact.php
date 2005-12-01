@@ -37,7 +37,7 @@
 		  <tr>
 		    <td width="37%" valign=top>Technical questions</td>
     		<td width="63%"><a href="http://dev.eclipse.org/newsManager/newsRequestForm.html" target="_top">Register</a> 
-      		and join the <a href="../newsgroups/index.html" target="_top">Newsgroups</a></td>
+      		and join the <a href="../../newsgroups/" target="_top">Newsgroups</a></td>
   		</tr>
   		<tr>
     		<td width="37%" valign=top>Legal questions</td>
