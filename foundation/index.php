@@ -66,7 +66,7 @@
           	<li><A href="../../legal/">Legal resources:</A>
 	          Legal resources for those who like to read those sorts of things.
           	</li>
-          	<li><a href="http://www.eclipse.org/artwork/main.html">Logos and artwork</a>
+          	<li><a href="../../artwork/">Logos and artwork</a>
 	          A complete resource for those interested in using the Eclipse logos, trademarks and artwork.
 	          Don&rsquo;t forget to read the <a href="../../legal/logo_guidelines.php">usage guidelines</a>.
           	</li>          	
