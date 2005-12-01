@@ -59,7 +59,10 @@
           	
           	<li><A href="minutes.php">Meeting minutes:</A>
 	          Minutes of the Eclipse membership, board and council meetings.
-          	</li>          	
+          	</li>  
+          	<li><A href="../../community/news/eclipsenews.php">Press releases:</A>
+	          Press releases issued by the Eclipse Foundation.
+          	</li>        	
           	<li><A href="../../legal/">Legal resources:</A>
 	          Legal resources for those who like to read those sorts of things.
           	</li>
