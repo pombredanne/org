@@ -52,8 +52,11 @@
 	<staffmember id="skip">
 		<name>Skip McGaughey</name>
 		<title>Director, Ecosystem</title>
-		<image />
-		<description />
+		<image> ../../images/skip.jpg </image>
+		<description> <![CDATA[ 
+		I have a favorite quote form Robert Kennedy which says... &quot;Some look at the world and ask Why;  
+		others strive to create a better world by asking Why Not.&quot;&nbsp;<br/><br/><br/>
+		]]></description>
 	</staffmember>
 
 	<staffmember id="mike">
@@ -81,8 +84,13 @@
 	<staffmember id="denis">
 		<name>Denis Roy</name>
 		<title>Manager, IT Infrastructure</title>
-		<image />
-		<description />
+		<image>../../images/denis.jpg </image>
+		<description>At work, he stares at servers and blinking lights. At play, he enjoys outdoor 
+		sports that involve vehicles and gasoline engines. To Denis, life is at its best when he's on 
+		his snowmobile at the top of a mountain covered in fresh snow on a calm winter afternoon. 
+		Other interests include home renovation, auto mechanics, video games and his soon-to-be 
+		daughter.
+		</description>
 	</staffmember>
 
 	<staffmember id="ian">
