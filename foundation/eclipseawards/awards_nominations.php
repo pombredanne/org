@@ -34,7 +34,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Individual Awards</h2>
 		<p>Anyone may nominate an individual in each category. 
-		To nominate an individual visit: bjorn to provide address. Nominations will close January 27. </p>
+		To nominate an individual visit: url. Nominations will close January 27. </p>
 		<h2>Technology Awards</h2>
 		<p>To submit a nomination for a technology awards send an e-mail by January 27, 2006 to <A 
         href="mailto:awards@eclipse.org">awards@eclipse.org</A> with the following information:
