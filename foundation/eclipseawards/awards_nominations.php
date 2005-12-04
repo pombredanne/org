@@ -34,7 +34,12 @@
 		<h1>$pageTitle</h1>
 		<h2>Individual Awards</h2>
 		<p>Anyone may nominate an individual in each category. 
-		To nominate an individual visit: url. Nominations will close January 27. </p>
+		To nominate an individual visit the following Bugzilla entries. Nominations will close January 27. </p>
+		<ul class="midlist">
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197">Nominations for Top Contributor Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198">Nominations for Top Committer Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119199">Nominations for Top Ambassador Award</a></li>
+		</ul>
 		<h2>Technology Awards</h2>
 		<p>To submit a nomination for a technology awards send an e-mail by January 27, 2006 to <A 
         href="mailto:awards@eclipse.org">awards@eclipse.org</A> with the following information:

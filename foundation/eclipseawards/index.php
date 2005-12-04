@@ -36,7 +36,7 @@
 		thank the individuals and technologies that make Eclipse such a vibrant
 		robust community.    There are two categories of awards: 1) awards 
 		for individuals, and 2) awards for technologies and 
-		products.   The awards will be announced at 
+		products.   The awards will be presented at 
 		EclipseCon. </p>
 		
 		<p><a href="awards_nominations.php">Nominations</a> are now open for all of the following awards. </p>
