@@ -38,8 +38,13 @@
 		allow to vote for the Top Committer and only committers may vote for 
 		Top Ambassador.  One vote per person, per category.</p>
 		<p>Anyone may nominate an individual in each category.   
-		To nominate an individual visit: <enter url from Bjorn>. <strong>Nominations will close January 27. </strong></p>
-		<p> Voting will commence February 10, 2006 and finish March 10, 2006. 
+		To nominate an individual visit the following Bugzilla entries. <strong>Nominations will close January 27. </strong> </p>
+		<ul class="midlist">
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197">Nominations for Top Contributor Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198">Nominations for Top Committer Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119199">Nominations for Top Ambassador Award</a></li>
+		</ul>
+		<p> Voting will commence February 10, 2006 and finishes March 10, 2006. 
 		Winners will be announced at EclipseCon 2006. </p>
 
 	</div>
