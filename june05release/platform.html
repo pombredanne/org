@@ -1,0 +1,256 @@
+<html><head>
+<link rel="stylesheet" href="../../default_style.css">
+<title>Eclipse 3.1 Releases</title>
+</head>
+<meta name="keywords" content="eclipse.org consortium, board of stewards">
+<body text="#000000" bgcolor="#ffffff" link="#0000ee" vlink="#551a8b" alink="#ff0000">
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+  <tr> 
+    <td align=left colspan="5"> <font class=indextop> What's new in Eclipse Platform 
+      3.1 </font><br>
+      <font class=indexsub> </font></td>
+    <td width="16%" td align=right rowspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+      
+    <td align=left width="30%">&nbsp;</td>
+    <td align=left width="30%"><a href="#presentations" class="jump"> </a></td>
+    <td align=left width="30%">&nbsp;</td>
+	  
+  </tr>
+</table>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+  <tr> 
+    <td align="left" valign="top" bgcolor="#0080C0"><b><font color="#FFFFFF" face="Arial,Helvetica">Eclipse 
+      3.1 </font></b></td>
+  </tr>
+  <tr> 
+    <td> 
+      <p><br>
+        Version 3.1 of the Eclipse Platform includes many new and improved features 
+        organized across the following themes:</p>
+      <ul>
+        <li><a href="#performance">Performance &amp; scalability</a></li>
+        <li><a href="#ease">Ease of use</a></li>
+        <li><a href="#rcp">Rich Client Platform (RCP) tool support</a></li>
+        <li><a href="#j2se">J2SE 5 support</a></li>
+        <li><a href="#enterprise">Enterprise-ready</a></li>
+        <li><a href="#extensibility">Design for Extensibility - Being a Better 
+          Platform</a></li>
+        <li> <a href="#community">Appealing to the Broader Community</a><br>
+        </li>
+      </ul>
+      <p>&nbsp; </p>
+    </td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellpadding="1" cellspacing=2>
+<tr><td><hr></td>
+</tr>
+<tr>
+    <td> 
+      <h3><a name="performance"></a>Performance &amp; scalability</h3>
+      <ul>
+        <li>Large-scale workspaces</li>
+        <li>Performance improvements</li>
+        <li>Added critical performance instrumentation</li>
+        <li>Scalability</li>
+        <li>RCP performance improvements</li>
+        <li>Single JAR plug-ins</li>
+        <li>Support for per-plug-in search index</li>
+        <li>Breakpoint improvements<br>
+        </li>
+      </ul>
+      </td>
+</tr>
+    <td><img src="images/performance.jpg"> </td>
+<tr>
+</tr>
+<tr><td><hr></td>
+</tr>
+<tr>
+    <td> 
+      <h3><a name="ease"></a>Ease of Use</h3>
+      <ul>
+        <li>Overhaul of preferences dialog</li>
+        <li>Ant editor improvements</li>
+        <li>Initial user experience improvements</li>
+        <li>New Help view and Dynamic help</li>
+        <li>Help search enhancements</li>
+        <li>JDT usability improvements</li>
+        <li>Debugger usability improvements</li>
+        <li>Preferences dialog filtering</li>
+        <li>Pervasive context help pane
+        </li>
+      </ul>
+      
+      <img src="images/ease.jpg" width="590" height="546"> <br>
+      <br>
+      The preferences dialog has been significantly updated to provide more flexibility 
+      and control for the user's overall experience. </td>
+</tr>
+<tr><td><hr></td>
+</tr>
+<tr>
+    <td> 
+      <h3><a name="rcp"></a>Rich Client Platform (RCP) tool support</h3>
+      <ul>
+        <li>RCP performance</li>
+        <li>RCP infrastructure</li>
+        <li>RCP API</li>
+        <li>OSGi</li>
+        <li>Dynamic plug-ins</li>
+        <li>JNLP Support</li>
+        <li>Support for launcher branding</li>
+        <li>Provide better text editor support for RCP</li>
+        <li>RCP application templates</li>
+        <li>Improved tooling</li>
+        <li>See http://www.eclipse.org/community/rcp.html for examples of real 
+          applications
+        </li>
+      </ul>
+      
+      <img src="images/rcpsupport.jpg" width="698" height="379"><br>
+      <br>
+    </td>
+</tr>
+<tr><td><hr></td>
+</tr>
+  <tr> 
+    <td> 
+      <h3><a name="j2se"></a>J2SE 5 support</h3>
+      <ul>
+        <li>Eclipse compiler passes JCK test suite</li>
+        <li>Eclipse compiles JDK 1.3, 1.4, 5.0</li>
+        <li>Provides &quot;deep&quot; tooling support for new J2SE 5.0 features 
+          <ul>
+            <li>Existing features fully J2SE 5 aware 
+              <ul>
+                <li>Quick fix/quick assist</li>
+                <li>Refactoring</li>
+                <li>Search </li>
+                <li>Formatter</li>
+                <li>Debugging</li>
+              </ul>
+            </li>
+            <li>J2SE 5.0 specific support 
+              <ul>
+                <li>Auto boxing highlighting</li>
+                <li>Infer type arguments refactoring</li>
+                <li>Compiler diagnosis for 'enum' identifier</li>
+                <li>Quick assist to convert to enhanced for loop</li>
+                <li>Operating on generic type parameters</li>
+                <li>New Quick Assists for conditional statements and convert to 
+                  enhanced for-loop</li>
+                <li>Evaluation support for generics and enhanced for-loops</li>
+                <li>Varargs argument needing a cast</li>
+                <li>Annotations</li>
+                <li>Many J2SE 5.0 specific compiler diagnostics</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>API 
+          <ul>
+            <li>Fully support J2SE 5.0 features</li>
+          </ul>
+        </li>
+      </ul>
+      <img src="images/j2se5support.jpg" width="713" height="471"></td>
+</tr>
+<tr><td><hr></td>
+</tr>
+  <tr> 
+    <td> 
+      <h3><a name="enterprise"></a>Enterprise-ready</h3>
+      <ul>
+        <li>Working in large workspaces<br>
+          <ul>
+            <li>Reified working sets in the package explorer</li>
+            <li>Grouping of breakpoints</li>
+          </ul>
+        </li>
+        <li>Settings<br>
+          <ul>
+            <li>Shared settings per project</li>
+            <li>Import/export of settings</li>
+          </ul>
+        </li>
+        <li>CVS Improvements<br>
+        </li>
+        <li>Plug-in JAR signing</li>
+        <li>Architectural access restrictions</li>
+        <li>Update Manager Improvements</li>
+        <li>JUnit - large scale test suites
+          <ul>
+            <li>Test prioritization</li>
+          </ul>
+        </li>
+      </ul>
+      <br>
+</tr>
+<tr><td><hr></td>
+</tr>
+  <tr> 
+    <td> 
+      <h3><a name="extensibility"></a>Design for Extensibility - Being a Better 
+        Platform</h3>
+      <ul>
+        <li>Refactoring of action contributions<br>
+        </li>
+        <li>New APIs 
+          <ul>
+            <li>generalized undo/redo<br>
+            </li>
+            <li>content types</li>
+            <li>ltk (language toolkit) enhancements</li>
+          </ul>
+        </li>
+        <li>Push down JDT specific functionality<br>
+          <ul>
+            <li>editor linking</li>
+          </ul>
+        </li>
+        <li>Architectural Access Restrictions</li>
+      </ul>
+      
+      <img src="images/architecture.jpg" width="467" height="115"></td>
+</tr>
+<tr><td><hr></td>
+</tr>
+  <tr> 
+    <td> 
+      <h3><a name="community"></a>Appealing to the Broader Community</h3>
+      <ul>
+        <li>Ant<br>
+          <ul>
+            <li>Editor improvements</li>
+            <li>Ant Debugger</li>
+            <li>Import/export of Ant build files</li>
+          </ul>
+        </li>
+        <li>Improved compiler checking<br>
+        </li>
+        <li>Improve support for externalized strings</li>
+        <li>Improve program manipulation infrastructure</li>
+        <li>JFace and Workbench support BIDI</li>
+        <li>File names containing colon and backslash characters</li>
+        <li>Import/Export to tar.gz format</li>
+      </ul>
+      <img src="images/antcommunity.jpg" width="702" height="370"><br>
+    </td>
+</tr>
+<tr><td><hr></td>
+</tr>
+
+</table>
+
+
+<p>&nbsp;</p>	
+<p>&nbsp;</p> 
+For problems with the eclipse.org site, please contact the <a href="mailto:webmaster@eclipse.org">webmaster</a> 
+or read the <a href="/webmaster/index.html">webmaster FAQ</a> for answers to common 
+questions!
+<p>&nbsp;</p>
+</body></html>

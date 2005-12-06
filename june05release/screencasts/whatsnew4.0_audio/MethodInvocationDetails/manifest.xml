@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content id="-1" name="MethodInvocationDetails" author="Valentina Popescu" description="Method Invocation Details is a new view available in TPTP 4.0. Use this view to analyse invocation statistics for any profiled method." application="ViewletBuilder" applicationVersion="4.4.8" width="1001" height="737" slideCount="21" flash="6" passingGrade="0" timeLimit="" htmlFile="MethodInvocationDetails_viewlet_swf.html" swfFile="MethodInvocationDetails.swf" />
+

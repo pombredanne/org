@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content id="-1" name="ProbekitEditor" author="Valentina Popescu" description="The Probekit Editor is a new function available in TPTP 4.0. It provides code assist and error validation to help you define and debug a probe content." application="ViewletBuilder" applicationVersion="4.4.8" width="800" height="616" slideCount="80" flash="6" passingGrade="0" timeLimit="" htmlFile="ProbekitEditor_viewlet_swf.html" swfFile="ProbekitEditor.swf" />
+
