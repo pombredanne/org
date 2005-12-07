@@ -42,9 +42,18 @@
 		<p><a href="awards_nominations.php">Nominations</a> are now open for all of the following awards. </p>
 	<h3>Individual Awards</h3>
 		<p> <ol>
-		<li><strong>Top contributor</strong> - Recognizes an individual (non-committer) who has made substantial contribution to the Eclipse community.</li>    
-		<li><strong>Top committer</strong> – Recognizes an Eclipse committer who best exemplifies supporting the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc..</li>   
-		<li><strong>Top ambassador</strong> – Recognizes an individual (committer or non-committer) who best promotes cross project interactions and building a collaborative Eclipse developer community.</li>    
+		<li><strong>Top contributor</strong> - Recognizes an individual (non-committer) 
+		who has made substantial contribution to the Eclipse community. 
+		This award recognizes an individual who contributes <em>into</em> Eclipse projects.</li>
+		<li><strong>Top committer</strong> – Recognizes an Eclipse committer who best exemplifies supporting 
+		the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc.
+		This award recognizes an individual who contributes <em>out of</em> an Eclipse project into
+		the larger Eclipse community.</li>
+		<li><strong>Top ambassador</strong> – Recognizes an individual (committer or non-committer) who 
+		best promotes cross project interactions and building a collaborative Eclipse developer community.
+		This award recognizes an individual who works between projects or between ecosystem companies; if
+		the previous two awards are about <em>into</em> and <em>out of</em>, then this award is about 
+		<em>across</em>. Across projects, across user groups, across plug-in developers, etc.</li>    
 		</ol> </p>
 </p>
 

@@ -33,19 +33,19 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Guidelines</h2>
-		<p>The Individual Awards will determined by a vote of the community.    
-		Anyone is allowed to vote for the Top Contributor, non-committers are 
-		allow to vote for the Top Committer and only committers may vote for 
-		Top Ambassador.  One vote per person, per category.</p>
+		<p>The Individual Awards will determined by a vote of the community. One vote per person, per category.</p>
 		<p>Anyone may nominate an individual in each category.   
 		To nominate an individual visit the following Bugzilla entries. <strong>Nominations will close January 27. </strong> </p>
 		<ul class="midlist">
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197">Nominations for Top Contributor Award</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198">Nominations for Top Committer Award</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119199">Nominations for Top Ambassador Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197">Nominations for Top Contributor Award</a> 
+		  		- to be voted on by Committers.</li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198">Nominations for Top Committer Award</a>
+		  		- to be voted on by non-Committers.</li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119199">Nominations for Top Ambassador Award</a>
+		  		- to be voted on by everyone.</li>
 		</ul>
 		<p> Voting will commence February 10, 2006 and finishes March 10, 2006. 
-		Winners will be announced at EclipseCon 2006. </p>
+		Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2006</a>. </p>
 
 	</div>
 
