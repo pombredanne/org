@@ -151,6 +151,11 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
+    			<td><i>Paul Styles</i></td>
+    			<td>Compuware</td>
+    			<td>Strategic Developer</td>
+  			</tr>
+  			<tr>
     			<td>Melissa Traynor</td>
     			<td>MontaVista Software</td>
     			<td>Strategic Consumer</td>
@@ -229,6 +234,11 @@
     		<td>Computer Associates</td>
     		<td>Strategic Developer</td>
   		</tr>
+		<tr>
+  			<td><i>Paul Styles</i></td>
+   			<td>Compuware</td>
+   			<td>Strategic Developer</td>
+		</tr>
   		<tr> 
     		<td>Tyler Thessin</td>
     		<td>Intel</td>
@@ -274,6 +284,11 @@
     		<td>IBM Corporation</td>
     		<td>Tools PMC Representative</td>
   		</tr>
+		<tr>
+  			<td><i>Don Ebright</i></td>
+   			<td>Compuware</td>
+   			<td>Strategic Developer</td>
+		</tr>
   		<tr>
     		<td>Bjorn Freeman-Benson*</td>
     		<td>Eclipse Foundation</td>
