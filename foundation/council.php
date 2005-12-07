@@ -151,7 +151,7 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
-    			<td><i>Paul Styles</i></td>
+    			<td>Paul Styles</td>
     			<td>Compuware</td>
     			<td>Strategic Developer</td>
   			</tr>
@@ -235,7 +235,7 @@
     		<td>Strategic Developer</td>
   		</tr>
 		<tr>
-  			<td><i>Paul Styles</i></td>
+  			<td>Paul Styles</td>
    			<td>Compuware</td>
    			<td>Strategic Developer</td>
 		</tr>
@@ -285,7 +285,7 @@
     		<td>Tools PMC Representative</td>
   		</tr>
 		<tr>
-  			<td><i>Don Ebright</i></td>
+  			<td>Don Ebright</td>
    			<td>Compuware</td>
    			<td>Strategic Developer</td>
 		</tr>
