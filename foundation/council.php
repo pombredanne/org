@@ -165,6 +165,11 @@
     			<td>IONA</td>
     			<td>Strategic Developer</td>
   			</tr>
+  			<tr>
+    			<td><i>TBD</i></td>
+    			<td>Zend</td>
+    			<td>Strategic Developer</td>
+  			</tr>
 		</table>
 		<br/>        	
 	<ul>
@@ -254,6 +259,16 @@
     		<td>Actuate</td>
     		<td>BIRT PMC Representative</td>
   		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
+   			<td>IONA</td>
+   			<td>Strategic Developer</td>
+		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
+   			<td>Zend</td>
+   			<td>Strategic Developer</td>
+		</tr>
   		<tr> 
     		<td><i>TBD</i></td>
     		<td></td>
@@ -364,6 +379,16 @@
     		<td>Computer Associates</td>
     		<td>Strategic Developer</td>
   		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
+  			<td>IONA</td>
+   			<td>Strategic Developer</td>
+		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
+   			<td>Zend</td>
+   			<td>Strategic Developer</td>
+		</tr>
   		<tr>
     		<td><i>TBD</i></td>
     		<td></td>
