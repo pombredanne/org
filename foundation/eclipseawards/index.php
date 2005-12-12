@@ -44,16 +44,16 @@
 		<p> <ol>
 		<li><strong>Top contributor</strong> - Recognizes an individual (non-committer) 
 		who has made substantial contribution to the Eclipse community. 
-		This award recognizes an individual who contributes <em>into</em> Eclipse projects.</li>
+		This award recognizes an individual whose contributions flow <em>into</em> Eclipse projects.</li>
 		<li><strong>Top committer</strong> – Recognizes an Eclipse committer who best exemplifies supporting 
 		the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc.
-		This award recognizes an individual who contributes <em>out of</em> an Eclipse project into
+		This award recognizes an individual who contributions flow <em>out of</em> an Eclipse project into
 		the larger Eclipse community.</li>
 		<li><strong>Top ambassador</strong> – Recognizes an individual (committer or non-committer) who 
 		best promotes cross project interactions and building a collaborative Eclipse developer community.
-		This award recognizes an individual who works between projects or between ecosystem companies; if
-		the previous two awards are about <em>into</em> and <em>out of</em>, then this award is about 
-		<em>across</em>. Across projects, across user groups, across plug-in developers, etc.</li>    
+		This award recognizes an individual who works between projects or between ecosystem companies; 
+		the previous two awards are about <em>flow into</em> and <em>flow out of</em> - this award is about 
+		<em>flow between/across</em>. Across projects, across user groups, across plug-in developers, etc.</li>    
 		</ol> </p>
 </p>
 
