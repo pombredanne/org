@@ -77,6 +77,21 @@
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
 			</ul>
 		</div>
+		<div class="sideitem">
+			<h6>Top Contributor</h6>
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197"><img 
+		  		src="contributor-picture.gif" border="0"/></a></div>
+		</div>
+		<div class="sideitem">
+			<h6>Top Committer</h6>
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198"><img 
+		  		src="committer-picture.gif" border="0"/></a></div>
+		</div>
+		<div class="sideitem">
+			<h6>Top Ambassador</h6>
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119199"><img 
+		  		src="ambassador-picture.gif" border="0"/></a></div>
+		</div>
 
 	</div>
 
