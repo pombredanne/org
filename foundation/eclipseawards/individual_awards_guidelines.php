@@ -39,7 +39,7 @@
 		<ul class="midlist">
 		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197">Nominations for Top Contributor Award</a> 
 		  		- to be voted on by Committers.<p>
-		  		<div align="center">a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197"><img 
+		  		<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197"><img 
 		  		src="contributor-picture.gif" border="0"/></a></div></li>
 		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198">Nominations for Top Committer Award</a>
 		  		- to be voted on by non-Committers.</li>
