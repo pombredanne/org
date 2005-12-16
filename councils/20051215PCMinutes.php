@@ -17,32 +17,29 @@ ob_start();
     <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
-    <td valign="top" rowspan="2"><p>Ward Cunningham, Eclipse<br>
+    <td valign="top" rowspan="3"><p>Ward Cunningham, Eclipse<br>
       Sri Doddapaneni, Intel, TPTP<br>
       John Duimovich, IBM<br>
       Bjorn Freeman-Benson, 	Eclipse<br>
       John Graham, Sybase, DTP<br>
       Richard Gronback, Borland<br>
-      Kevin Haaland, IBM, Platform</p>
+      Kevin Haaland, IBM, Platform<br>
       Mika Hoikka, Nokia<br>
       Wenfeng Li, Actuate, BIRT<br>
       Jim Saliba, CA<br>
       Doug Schaefer, QNX, CDT<br>
       Paul Styles, Compuware<br>
       Tim Wagner, 	BEA, WTP</td>
-    <td valign="top"></td>
     <td valign="top"><p>
       Mike Milinkovich, Eclipse<br>
       Doug Gaff, 	Wind River, DSDP
       </td>
   </tr>
   <tr>
-    <td valign="top"></td>
     <td valign="top" align="center" bgcolor="#CCCCCC"><b>Absent</b>
       </td>
   </tr>
   <tr>
-    <td valign="top"></td>
     <td valign="top">
       Georg Lenz, SAP<br>
       Mike Norman, Scapa
