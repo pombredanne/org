@@ -17,7 +17,7 @@ ob_start();
     <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
-    <td valign="top" rowspan="3"><p>Ward Cunningham, Eclipse<br>
+    <td valign="top" rowspan="4"><p>Ward Cunningham, Eclipse<br>
       Sri Doddapaneni, Intel, TPTP<br>
       John Duimovich, IBM<br>
       Bjorn Freeman-Benson, 	Eclipse<br>
@@ -43,6 +43,10 @@ ob_start();
     <td valign="top">
       Georg Lenz, SAP<br>
       Mike Norman, Scapa
+      </td>
+  </tr>
+  <tr>
+    <td valign="top" height="100%">&nbsp;
       </td>
   </tr>
 </tbody></table>
