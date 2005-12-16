@@ -13,20 +13,17 @@ ob_start();
 <p>December 15, 2005, San Francisco, California</p>
 <table border="0">
   <tbody><tr>
-    <td colspan="2" align="center" bgcolor="#cccccc" valign="top"><b>Present</b></td>
-    <td align="center" valign="top"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+    <td align="center" bgcolor="#cccccc" valign="top"><b>Present</b></td>
     <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
-    <td valign="top" rowspan="3"><p>Ward Cunningham, Eclipse<br>
+    <td valign="top" rowspan="2"><p>Ward Cunningham, Eclipse<br>
       Sri Doddapaneni, Intel, TPTP<br>
       John Duimovich, IBM<br>
       Bjorn Freeman-Benson, 	Eclipse<br>
-    John Graham, Sybase, DTP<br>
+      John Graham, Sybase, DTP<br>
       Richard Gronback, Borland<br>
       Kevin Haaland, IBM, Platform</p>
-    </td>
-    <td valign="top" rowspan="3">
       Mika Hoikka, Nokia<br>
       Wenfeng Li, Actuate, BIRT<br>
       Jim Saliba, CA<br>
