@@ -14,6 +14,7 @@ ob_start();
 <table border="0">
   <tbody><tr>
     <td align="center" bgcolor="#cccccc" valign="top"><b>Present</b></td>
+    <td align="center" valign="top" rowspan="5">&nbsp;</td>
     <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
@@ -32,7 +33,9 @@ ob_start();
       Tim Wagner, 	BEA, WTP</td>
     <td valign="top"><p>
       Mike Milinkovich, Eclipse<br>
-      Doug Gaff, 	Wind River, DSDP
+      Doug Gaff, 	Wind River, DSDP<br>
+      <br>
+      <br>
       </td>
   </tr>
   <tr>
@@ -46,7 +49,10 @@ ob_start();
       </td>
   </tr>
   <tr>
-    <td valign="top" height="100%">&nbsp;
+    <td valign="top"><br>
+      <br>
+      <br>
+      <br>
       </td>
   </tr>
 </tbody></table>
