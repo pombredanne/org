@@ -92,8 +92,7 @@ or   866.362.7064,
 passcode 874551#</p>
 
 <h2>Plan for the Callisto Simultaneous Release</h2>
-<p>The Callisto Simultaneous Release plan will be available at <a 
-href="http://www.eclipse.org/callisto">http://www.eclipse.org/callisto</a>.
+        <p>The Callisto Simultaneous Release plan will be available at <a href="http://www.eclipse.org/projects/callisto.php">http://www.eclipse.org/projects/callisto.php</a>.
 The goal of the Callisto Simultaneous Release is the simultaneous release
 of the following ten Eclipse projects:
 <ul>
