@@ -126,7 +126,7 @@
   			</tr>
 			
   			<tr> 
-    			<td>H�kan Mitts</td>
+    			<td>H&#229;kan Mitts</td>
     			<td>Nokia</td>
     			<td>Strategic Developer</td>
   			</tr>
