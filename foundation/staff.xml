@@ -17,7 +17,7 @@
 	<staffmember id="janet">
 		<name>Janet Campbell</name>
 		<title>Manager, Intellectual Property</title>
-		<image />
+		<image> ../../images/janet.jpg </image>
 		<description>
 		Outside of work, Janet enjoys traveling (to South East Asia in particular), 
 		walking her dogs, taking her bike for a spin and spending time with family 
@@ -28,8 +28,12 @@
 	<staffmember id="ward">
 		<name>Ward Cunningham</name>
 		<title>Director, Committer Community Development</title>
-		<image />
-		<description />
+		<image> ../../images/ward.png </image>
+		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> 
+		<p>You can read Ward's blog at
+			<a href="http://eclipse-projects.blogspot.com/" target="blank">
+			http://eclipse-projects.blogspot.com/</a>.</p>
+			]]> </description>
 	</staffmember>
 
 	<staffmember id="bjorn">
@@ -37,7 +41,7 @@
 		<title>
 			Director, Open Source Process
 		</title>
-		<image />
+		<image> ../../images/bjorn.jpg </image>
 		<description> <![CDATA[ While striving to be a Renaissance Man, Bjorn keeps falling back into 
 			the clutches of conformity with engineering stereotypes such as <A 
 			href="http://www.squeak.org/">dynamic languages</A>, <A 
@@ -50,7 +54,11 @@
 			href="http://www.superboy.org/images/superboy.jpg">painting his airplane</A>. He 
 			is passionate about doing things instead of just talking about them, and he 
 			thoroughly enjoys the <A href="http://www.eclipsecon.org/">annual party</A> he 
-			helps organize for the Eclipse community.]]></description>
+			helps organize for the Eclipse community.
+			<p>You can read Bjorn's blog at
+			<a href="http://eclipse-projects.blogspot.com/" target="blank">
+			http://eclipse-projects.blogspot.com/</a>.</p>
+			]]></description>
 	</staffmember>
 
 	<staffmember id="skip">
@@ -109,18 +117,28 @@
 		http://ianskerrett.blogspot.com/</a>.]]>
 		</description>
 	</staffmember>
+	
+	<staffmember id="matt">
+		<name>Donald Smith</name>
+		<title>Director, Ecosystem Development</title>
+		<image> ../../images/donald.jpg </image>
+		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> &nbsp; <br/> 
+		You can read Donald's blog at <a href="http://eclipse-ecosystem.blogspot.com/" target="blank">
+		http://eclipse-ecosystem.blogspot.com/</a>.
+		]]> </description>
+	</staffmember>
 
 	<staffmember id="matt">
 		<name>Matt Ward</name>
 		<title>Systems Administrator</title>
-		<image />
-		<description />
+		<image> ../../images/matt.jpg </image>
+		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> ]]> </description>
 	</staffmember>
 
 	<staffmember id="sharon">
 		<name>Sharon Wolfe</name>
 		<title>Office Manager</title>
-		<image />
+		<image> ../../images/sharon.jpg </image>
 		<description>Sharon has been with the Eclipse Foundation since July 2004.  In addition 
 		to her Office Manager responsibilities, Sharon assists with marketing activities and also 
 		organizes or assists with the planning of various meetings and conferences.  Sharon thanks 
