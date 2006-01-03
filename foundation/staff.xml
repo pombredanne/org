@@ -18,11 +18,12 @@
 		<name>Janet Campbell</name>
 		<title>Manager, Intellectual Property</title>
 		<image> ../../images/janet.jpg </image>
-		<description>
-		Outside of work, Janet enjoys traveling (to South East Asia in particular), 
+		<description> <![CDATA[ 
+		<p>Outside of work, Janet enjoys traveling (to South East Asia in particular), 
 		walking her dogs, taking her bike for a spin and spending time with family 
-		and friends.  
-		</description>
+		and friends.  </p>
+		<br/>
+		]]> </description>
 	</staffmember>
 
 	<staffmember id="ward">
@@ -118,7 +119,7 @@
 		</description>
 	</staffmember>
 	
-	<staffmember id="matt">
+	<staffmember id="donald">
 		<name>Donald Smith</name>
 		<title>Director, Ecosystem Development</title>
 		<image> ../../images/donald.jpg </image>
@@ -132,7 +133,7 @@
 		<name>Matt Ward</name>
 		<title>Systems Administrator</title>
 		<image> ../../images/matt.jpg </image>
-		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> ]]> </description>
+		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> &nbsp; <br/> ]]> </description>
 	</staffmember>
 
 	<staffmember id="sharon">
