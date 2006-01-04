@@ -48,7 +48,7 @@ build on the increasing awareness and momentum surrounding Eclipse,” said Mike M
 the Eclipse Foundation. “These seminars highlight the benefits of the Eclipse model and will aide decision makers 
 in planning their continued implementation and growth of Eclipse at all levels of the enterprise.”</p>
 
-<p>The “Eclipse in Motion” seminar series, sponsored by Eclipse member companies and BZ Media, will take place in 
+<p>The “Eclipse in Motion” seminar series, sponsored by Eclipse member companies, will take place in 
 the following locations:
 
 <ul>
