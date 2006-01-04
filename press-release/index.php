@@ -36,7 +36,7 @@ ob_start();
 		<h2>2006 Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20060104seminars.php">Eclipse Foundation Kicks Off Seminar Series: “Eclipse In Motion”</a> - January 4, 2006 </li><br><br>
+		<li><a href="20060104seminars.php">Eclipse Foundation Kicks Off Seminar Series: “Eclipse In Motion”</a> - January 4, 2006 </li><br>
 		<li><a href="20051219wtp10release.php">Eclipse Foundation Announces Web Tools Platform 1.0</a> - December 19, 2005 </li>
 		</ul>
 	</div>
