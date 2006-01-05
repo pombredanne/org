@@ -104,7 +104,7 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="../community/news/eclipsenews.php">Press Releases</a></li>
+				<li><a href="./press-release/">Press Releases</a></li>
 				<li><a href="../membership/">Membership</a></li>
 				<li><a href="../membership/become_a_member/">Become a member</a></li>
 			</ul>

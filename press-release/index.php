@@ -33,7 +33,7 @@ ob_start();
 
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
-		<h2>2006 Press Releases</h2>
+		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
 		<li><a href="20060104seminars.php">Eclipse Foundation Kicks Off Seminar Series: “Eclipse In Motion”</a> - January 4, 2006 </li><br>
@@ -46,7 +46,7 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="main.html">Archives</a></li>
+				<li><a href="main.html">2001-2005 Archives</a></li>
 				<li><a href="pressrelease_guidelines.php">Press Release Guidelines</a></li>
 
 			</ul>
