@@ -276,6 +276,8 @@
   		</tr>
 		</table>
       	<ul>
+        	<li><a href="../councils/20051215PCMinutes.php">Planning
+          		Council Meeting, December 15, 2005</a></li>
         	<li><a href="../councils/20050823PCMinutes.html">Planning
           		Council Meeting, August 23, 2005</a></li>
         	<li><a href="../councils/20050519PCMinutes.html">Planning
