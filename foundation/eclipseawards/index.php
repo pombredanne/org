@@ -68,7 +68,9 @@
 			<li><strong>Best open source Eclipse based developer tool</strong> – Recognizes an open source project (not hosted at Eclipse) that provides an innovative, high quality product for software developers.
 			<li><strong>Best commercial Eclipse based developer tool</strong> – Recognizes a commercial product that provides an innovative, high quality product for software developers.
 			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> – Recognizes an organization that has used and deployed Eclipse within an enterprise.
-		</ol></p>
+		</ol>
+		<a href="technology_nominations.php">Current nominations for Technology Awards</a>
+		</p>
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
