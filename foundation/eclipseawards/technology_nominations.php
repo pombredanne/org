@@ -34,7 +34,8 @@ ob_start();
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Current Nominations</h2>
-		<p>The following is the current list of nominations for the Technology Awards</p>
+		<p>The following is the current list of nominations for the Technology Awards.  
+		Deadline for nominations is Janurary 27, 2006</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
@@ -48,7 +49,7 @@ ob_start();
 			</ul>
 		</div>
 		<div class="homeitem3col">
-			<h3>Best Open Source Eclispe based developer tool</h3>
+			<h3>Best Open Source Eclipse based developer tool</h3>
 			<ul>
 				<li><a href="http://eclipse-cs.sourceforge.net">eclipse-cs</a>
 				<li><a href="http://www.radrails.org/">RadRails</a>
@@ -56,7 +57,7 @@ ob_start();
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Commerical Eclispe based developer tool</h3>
+		<h3>Best Commerical Eclipse based developer tool</h3>
 			<ul>
 				<li><a href="http://www.myeclipseide.com">MyEclipse Enterprise Workbench</a>
 				<li><a href="http://www.openmake.com">OpenMake</a>
