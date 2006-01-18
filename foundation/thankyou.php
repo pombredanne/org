@@ -52,7 +52,7 @@
     		</td>
   		</tr>
   		<tr>
-    		<td width="12%"><img src="../../membership/members/org-images/intellogosmall.gif" width="115" height="57"></td>
+    		<td width="12%"><img src="../../membership/members/org-images/intel_logo.gif" width="115" height="57"></td>
     		<td width="88%"><br>
       		Intel for the donation of eight 1.3GHz <a href="http://www.intel.com/products/processor/itanium2/index.htm" target="_blank">Intel 
       		Itanium 2 Processors</a> that went into the HP systems and for <a href="http://www.intel.com/software" target="_blank">assistance 
