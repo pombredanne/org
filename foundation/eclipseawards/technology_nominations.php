@@ -59,6 +59,8 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse based developer tool</h3>
 			<ul>
+				<li><a href="http://www.inpowersoft.com/inpowerforms/">InPowerForms</a>
+				<li><a href="http://www.sybase.com/workspace">Sybase Workspace</a>
 				<li><a href="http://www.myeclipseide.com">MyEclipse Enterprise Workbench</a>
 				<li><a href="http://www.openmake.com">OpenMake</a>
 				<li><a href="http://www.cleverlance.cz/en/Products/Petra/Petra_lite/?epa">Petra</a>
