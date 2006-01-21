@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20060123birt20.php">Actuate, IBM, Pentaho, Scapa Technologies and Zend Commit to Eclipse BIRT 2.0</a> - January 23, 2006 </li> <br>
 		<li><a href="20060120cb_pavilion.php">Nominations for the <i>Open Source Pavilion</i> at EclipseCon 2006</a> - January 20, 2006 </li> <br>
 		<li><a href="20060117goldsponsors.php">Gold Sponsors Announced for EclipseCon 2006 </a> - January 17, 2006 </li> <br>
 		<li><a href="20060104seminars.php">Eclipse Foundation Kicks Off Seminar Series: “Eclipse In Motion”</a> - January 4, 2006 </li><br>
