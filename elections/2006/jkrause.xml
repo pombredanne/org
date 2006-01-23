@@ -1,20 +1,10 @@
-
-<boardmember id="">
-
-	<type> AIP </type?
-
+<boardmember id="jkrause" type="addin">
 	<name>Jochen Krause</name>
-
 	<title>Managing Director</title>
-
-	<image>leave this bkank, but don't forget to send us a picture! </image>
-
+	<image>jkrause.png</image>
 	<email>jochen.krause@innoopract.com</email>
-
 	<phone>(503) 608-7972</phone>
-
 	<contact>Innoopract, Stephanienstr. 20, 76133 Karlsruhe / Germany</contact>
-
 	<eclipse_affiliation>Jochen is a member of the Webtools Project PMC and an active promoter of Eclipse in Europe</eclipse_affiliation>
 
 	<vision>  <![CDATA[My vision for Eclipse:
@@ -28,7 +18,7 @@
 		<p>
                 My three most important objectives:
 		<ul>
-    		<li>Building the Ecosystem – strive for providing more value to membership (e.g. 
+    		<li>Building the Ecosystem ï¿½ strive for providing more value to membership (e.g. 
 		market data, member section on eclipse.org). Help to develop better networking and 
 		collaboration between members. Engage with members to provide success stories, 
 		use cases.</li>
@@ -65,7 +55,7 @@
 		]]>
 	</bio>
 
-	<affiliation> ![CDATA[
+	<affiliation> <![CDATA[
 		<p>Innoopract (www.innoopract.com) is a software and service company that helps developers and corporations 
 		make the most of their investment in development tools and platforms - based on Eclipse. The company was 
 		among the first Eclipse members in Europe and is a founding member of the Eclipse foundation. Innoopract 

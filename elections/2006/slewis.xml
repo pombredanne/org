@@ -1,13 +1,11 @@
 
-<boardmember id="slewis">
-
-	<type> committer </type>
+<boardmember id="slewis" type="committer">
 
 	<name>Scott Lewis</name>
 
 	<title>Software Designer</title>
 
-	<image> leave this blank, but don't forget to send us a picture! </image>
+	<image>slewis.jpg</image>
 
 	<email>slewis@composent.com</email>
 
@@ -39,7 +37,7 @@
 	</vision>
 
 	<bio>Dr. Scott Lewis has been a professional software engineer and architect for 18 years at workplaces
-		such as AT&T Bell Laboratories, Intel Architecture Laboratories, and software startups of his own and other's creation.  
+		such as AT&amp;T Bell Laboratories, Intel Architecture Laboratories, and software startups of his own and other's creation.  
 		Although interested in several technical areas, he's most interested in communications and distributed systems 
 		design and implementation.  He's the author of academic as well as professional articles, and would love to write 
 		a book on ECF in the coming year.  Scott is passionate about making Eclipse/Eclipse RCP an open platform for 

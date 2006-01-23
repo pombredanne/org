@@ -1,20 +1,20 @@
 
-<boardmember id="mtaylor">	
-
-	<type> AIP </type>
+<boardmember id="mtaylor" type="addin">
 	<name> Mike Taylor </name>
 	<title> President/CEO Instantiations </title>
-	<image> leave this bkank, but don't forget to send us a picture! </image>
-	<email> mike_taylor@instantiations.com </email>
+	<image>mtaylor.jpg</image>
+	<email> mike_taylor@instantiations.com </email>
 	<phone> 503 598-4911 </phone>
 
-	<contact> <p>Click here to learn about<a href="http://www.instantiations.com/moreaboutmike.htm">Mike</a></p></contact>
+	<contact> Instantiations, Inc. 18101 S.W. Boones Ferry Rd., Suite 200 Portland, OR 97224</contact>
+	
+	<link>http://www.instantiations.com/moreaboutmike.htm</link>
 
 	<eclipse_affiliation> 
 		Since 1999 my professional life has been focused around Eclipse. Building open 
 		source and commercial technologies, establishing a profitable Eclipse-based company, and growing the 
 		Eclipse community have been my priorities. Instantiations is all Eclipse all the time. 
-	</eclipse_affiliation>
+	</eclipse_affiliation>
 
 	<vision><![CDATA[
 		My vision is to:
@@ -30,9 +30,9 @@
 		services to the community and potential customers.</li>
 		<li>and of course, to assure that Eclipse technology remains the best on the planet!</li> 
 		</ul> ]]>
-	</vision>
+	</vision>
 		
-	<bio>[CDATA[
+	<bio><![CDATA[
 		<ul>
 		<li> Deeply involved in Eclipse technology and ecosystem since 1999</li>
 		<li> Former Member of Eclipse Consortium Board of Stewards</li>
@@ -49,12 +49,12 @@
 		</ul> ]]>
 	</bio>
 
-	<affiliation>[CDATA[
+	<affiliation><![CDATA[
 		<ul>
 		<li>Instantiations, Inc, provider of WindowBuilder Pro, SWT Designer, and CodePro Analytix. Instantiations </li>
 		is a technology company totally focused on Eclipse. Instantiations has lead the KOI and Pollinate projects.
 		<li>Founding member  of the <a href=" http://www.eclipseplugincentral.com/ContentExpress-display-ceid-2.html">Eclipse Plugin Central Alliance</a>.</li>
 		</ul> ]]>
-	</affiliation>
+	</affiliation>
 
 </boardmember>
