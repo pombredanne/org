@@ -32,29 +32,37 @@
 
 	# End: page-specific settings
 	#
-
+	$type_name = strcmp($type, 'committer') == 0 ? 'committer' : 'add-in provider';
+	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<img src="$candidate->image" width="150" align="right">
 		<h1>$pageTitle</h1>
-		<p>
-			$candidate->title<br>
-			$candidate->eclipse_affiliation<br>
-			<em>Nominee for $candidate->type representative.</em>
-			<table border="0">
-				<tr><td>e-mail:</td><td><a href="mailto:$candidate->email">$candidate->email</a></td></tr>
-				<tr><td>Phone:</td><td>$candidate->phone</td></tr>
-				<tr><td>Contact:</td><td>$candidate->contact</td></tr>
-				<tr><td>Affiliation:</td><td>$candidate->affiliation</td></tr>
-			</table>
-		</p>
+		<p>$candidate->title</p>
+		<em>Nominee for $type_name representative.</em>
+		<p>$candidate->eclipse_affiliation</p>
+		<table border="0">
+			<tr valign="top"><td>e-mail:</td><td><a href="mailto:$candidate->email">$candidate->email</a></td></tr>
+			<tr valign="top"><td>Phone:</td><td>$candidate->phone</td></tr>
+			<tr valign="top"><td>Contact:</td><td>$candidate->contact</td></tr>
+		</table>
 		
-		<blockquote>$candidate->bio</blockquote>
+		<div class="homeitem3col">
+			<h3>Affiliation</h3>
+			<blockquote>$candidate->affiliation</blockquote>
+		</div>
 		
-		<h2>Vision</h2>
-		$candidate->vision
+		<div class="homeitem3col">
+			<h3>About the candidate</h3>
+			<blockquote>$candidate->bio</blockquote>
+		</div>
+		
+		<div class="homeitem3col">
+			<h3>Vision</h3>
+			<blockquote>$candidate->vision</blockquote>
+		</div>
 	</div>
 	
 	<div id="rightcolumn">
