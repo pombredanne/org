@@ -71,7 +71,7 @@ function & get_candidates_short_summary_as_html($year = "") {
 	$html = "<ul>";
 	foreach ($candidates as $candidate) {
 		$html .= "<li>";
-		$html .= "<a href=\"/elections/candidate.php?year=$year&id=$candidate->id\">$candidate->name</a>";
+		$html .= "<a href=\"/org/elections/candidate.php?year=$year&id=$candidate->id\">$candidate->name</a>";
 		$html .= "</li>";
 	}
 	$html .= "</ul>";
