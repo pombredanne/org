@@ -1,0 +1,50 @@
+
+<boardmember id="slewis">
+
+	<type> committer </type>
+
+	<name>Scott Lewis</name>
+
+	<title>Software Designer</title>
+
+	<image> leave this blank, but don't forget to send us a picture! </image>
+
+	<email>slewis@composent.com</email>
+
+	<phone>503-756-8719</phone>
+
+	<contact>2606 NE 38th Ave, Portland OR, 97212</contact>
+
+	<eclipse_affiliation><![CDATA[
+		2005 committer representative on the Board of Directors. 
+		<br/> 
+		Project lead for Eclipse Communication Framework
+		]]>
+	</eclipse_affiliation>
+
+	<vision><![CDATA[
+		As the 2005 committer Board representative I have worked to: 
+		<ol>
+		<li>Improve the communication and teamwork effectiveness across all Eclipse Foundation projects </li>
+		<li>Advocate for and implement improved Foundation infrastructure and process</li>
+		<li>Represent at the Board level the needs of the committers from both small and large EF projects</li>
+		</ol>
+		<p>If re-elected for 2006, I will redouble my efforts in these three areas, particularly by supporting 
+		the distributed teamwork and communication needs of the Eclipse committer community.  </p>
+
+		<p> believe the ECF project provides an opportunity to support the Eclipse community's communications needs with
+		systems created fully in the spirit of Eclipse:  open (both software and protocol), extensible, interoperable, 
+		and integrated.  </p>
+		]]>
+	</vision>
+
+	<bio>Dr. Scott Lewis has been a professional software engineer and architect for 18 years at workplaces
+		such as AT&T Bell Laboratories, Intel Architecture Laboratories, and software startups of his own and other's creation.  
+		Although interested in several technical areas, he's most interested in communications and distributed systems 
+		design and implementation.  He's the author of academic as well as professional articles, and would love to write 
+		a book on ECF in the coming year.  Scott is passionate about making Eclipse/Eclipse RCP an open platform for 
+		integrated and interoperable communications applications.</bio>
+
+	<affiliation>Principal at Composent, Inc.  Software Architect at Cayuse, Inc.</affiliation>
+
+</boardmember>
