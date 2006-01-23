@@ -1,0 +1,60 @@
+
+<boardmember id="twagner" type="committer">
+
+	<type> committer </type>
+
+	<name> Tim Wagner </name>
+
+	<title> Sr. Manager, BEA Workshop </title>
+
+	<image> leave this bkank, but don't forget to send us a picture! </image>
+
+	<email> twagner@bea.com </email>
+
+	<phone> 206.926.2945 </phone>
+
+	<contact> Suite 100, 999 N. Northlake Way, Seattle, WA 98103 </contact>
+
+	<eclipse_affiliation><![CDATA[
+	  My primary Eclipse role is in the Web Tools Platform (WTP) Project, where I
+	  serve as PMC lead. During my tenure with WTP we've had two major and one minor
+	  releases, including our 1.0 ship and first API declarations. My goals for WTP
+	  are to ensure a quality platform and highly usable tools, with a short term focus on
+	  stability, reliability, and performance. Due to my WTP role, I also
+	  evangelize (in print and online forums) for WTP and Eclipse as a whole.
+	  
+	  I also represent BEA on the Eclipse Architecture and Planning Councils, and am an
+	  alternative representative to the Requirements Council. For the upcoming
+	  Eclipse Conference in Santa Clara I serve as program chair.]]>
+	</eclipse_affiliation>
+
+	<vision> In the course of my work with WTP and BEA, I've been involved in a number
+	of issues of concern to committers: services (and service levels) available from
+	the Eclipse Foundation infrastructure, IP policies and their application, the
+	Eclipse development process, and collaboration within and across Eclipse projects,
+	including outreach to developers beyond just those with corporate affiliation.
+	I believe there are several topics that require additional attention to continue
+	growing and improving the developer and committer community: ensuring that
+	contributions from individuals can be effectively absorbed by the projects,
+	addressing the "silos" that tend to form around projects (especially the large,
+	established ones), and continuing to ensure that we're providing committers with
+	all the tools necessary to accomplish their jobs - especially communication and
+	build infrastructure. 
+	</vision>
+
+	<bio> As a graduate student at UC Berkeley, my PhD research focused on the integration
+	of compiler technologies with IDEs. My professional career includes working for Borland, BEA,
+	Amazon, and an XQuery-based data integration startup, Nimble Technology. Improving and expanding
+	IDE technologies and simplifying the task of authoring complex apps (J2EE and otherwise)
+	continues to be a focus of my professional career. I hold a number of patents in the
+	areas of IDEs, database integration, and language analysis.
+	</bio>
+
+	<affiliation> BEA Systems provides award-winning solutions for application development
+	with its WebLogic Platform and a broad range of SOA solutions with its AquaLogic
+	products. Within BEA I manage the Workshop team responsible for Eclipse integration
+	with WTP and JDT.
+	</affiliation>
+
+		
+</boardmember>
