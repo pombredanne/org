@@ -1,7 +1,5 @@
 
-<boardmember id="tragan">
-
-	<type> AIP </type>
+<boardmember id="tragan" type="addin">
 
 	<name> Tracy Ragan </name>
 

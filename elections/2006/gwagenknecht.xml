@@ -1,7 +1,5 @@
 
-<boardmember id="gwagenknecht">
-
-    <type> committer </type>
+<boardmember id="gwagenknecht" type="committer">
 
     <name>Gunnar Wagenknecht</name>
 
@@ -24,7 +22,7 @@
 	<p>If I would be elected as your representative I'd like to actively participate in this role and take care that 
 	your requests and opinions are well recognized and presented in the Eclipse Board of Directors.</p>
 	<p>
-        In my current job I�m also a member of a Project Management Circle and responsible for analyzing and reviewing established 
+        In my current job I'm also a member of a Project Management Circle and responsible for analyzing and reviewing established 
 	development processes and tools. One goal of this circle is to harmonize the different tools, isolated applications and 
 	isolated processes grown over years in different teams and departments. Based on the experiences gathered in this circle 
 	and my background in software development processes and developing and contributing to Eclipse I�d like to start a review 
