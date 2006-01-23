@@ -111,7 +111,7 @@ BIRT 2.0 includes a number of new capabilities designed to broaden the ecosystem
 		advanced capabilities for including detailed charts within a report design.  </li>
 </ul> </p>			
 <p>A more detailed summary of what’s new in BIRT 2.0 is available at 
-		<a href="http://www.eclipse.org/birt/">www.eclipse.org/birt/</a></p>
+		<a href="http://www.eclipse.org/birt/index.php?page=project/notable2.0.html">www.eclipse.org/birt/</a></p>
 
 <p><strong>About the Eclipse Foundation</strong><br>
 Eclipse is an open source community whose projects are focused on providing an extensible development platform and 
