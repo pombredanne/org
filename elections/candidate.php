@@ -50,6 +50,11 @@
 		</table>
 		
 		<div class="homeitem3col">
+			<h3>Vision</h3>
+			<blockquote>$candidate->vision</blockquote>
+		</div>
+		
+		<div class="homeitem3col">
 			<h3>Affiliation</h3>
 			<blockquote>$candidate->affiliation</blockquote>
 		</div>
@@ -59,10 +64,6 @@
 			<blockquote>$candidate->bio</blockquote>
 		</div>
 		
-		<div class="homeitem3col">
-			<h3>Vision</h3>
-			<blockquote>$candidate->vision</blockquote>
-		</div>
 	</div>
 	
 	<div id="rightcolumn">
