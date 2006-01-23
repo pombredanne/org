@@ -28,18 +28,18 @@
 	and my background in software development processes and developing and contributing to Eclipse I�d like to start a review 
 	of the tools involved into your daily work and hosted by the Eclipse Foundation. </p>
 	<p>
-        I don�t want to rapidly change any tools or underlying processes. I want to collect your pain and discuss any issues you 
+        I don't want to rapidly change any tools or underlying processes. I want to collect your pain and discuss any issues you 
 	have with the tools or the processes with you and the board. If possible and desirable there will be a smooth evolution of 
 	existing and well established tools.  For example, I recently opened bug 121703 (https://bugs.eclipse.org/bugs/show_bug.cgi?id=121703) 
 	to start a discussion about the Bugzilla customization strategy. And if there is a need for a new tool, I�ll make sure that 
 	you will get the best tool available that integrates as smart as possible in your daily work.</p>
 	<p>
-        My work will be transparent and open for you. I�ll will blog about my activities and inform you about results and points we discussed.</p>
+        My work will be transparent and open for you. I'll will blog about my activities and inform you about results and points we discussed.</p>
 	]]>
     </vision>
 
     <bio><![CDATA[
-	<p>I�m a Software Engineer living in Germany. My experiences range from creating business applications, e-commerce web applications 
+	<p>I'm a Software Engineer living in Germany. My experiences range from creating business applications, e-commerce web applications 
 	and software development tools till interacting with business partners and senior management and building and shipping 
 	commercial software products.</p>
 	<p>
@@ -50,7 +50,7 @@
     <affiliation>
 	My current employer was one of the early adopters developing a complete development environment based on Eclipse. I was 
 	responsible for the technical leadership of this development environment. We developed a lot extensions and successfully adopted 
-	dEclipse from version 2.0 till the latest 3.2 milestones.     
+	Eclipse from version 2.0 till the latest 3.2 milestones.     
     </affiliation>
 
         
