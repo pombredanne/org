@@ -1,0 +1,37 @@
+<!-- id is the same as the file name without the extension
+     type is one of "committer" or "add-in-provider" -->
+<boardmember id="candidate_template" type="committer|add-in-provider">
+
+	<name></name>
+
+	<title></title>
+
+	<!-- Name of the file containing the image of the candidate; location relative to this file.  -->
+	<image>smiling_face.jpg</image>
+
+	<!-- eMail address will be modified before it is included on a webpage so that robots will not harvest it. -->
+	<email></email>
+
+	<phone></phone>
+
+	<!-- How do we contact you? e.g. postal address -->
+	<contact></contact>
+
+	<!-- What do you do with eclipse? -->
+	<eclipse_affiliation></eclipse_affiliation>
+
+	<!-- Feel free to include html tags and what-not between the CDATA tags. -->
+	<vision>
+		<![CDATA[
+		]]>
+	</vision>
+
+	<!-- Tell us a little bit about yourself. -->
+	<bio>
+
+	</bio>
+
+	<!-- Who do you work for? -->
+	<affiliation></affiliation>
+
+</boardmember>
