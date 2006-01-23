@@ -45,6 +45,9 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
+				<li><a href="http://www.bigblogzoo.com">RSS MediaMiner</a>
+				<li><a href="http://www.sphere.ae/products.php?prd_id=2">Arena Network Manager</a>
+				
 				<br>
 			</ul>
 		</div>
@@ -59,6 +62,7 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse based developer tool</h3>
 			<ul>
+				<li><a href="http://www.guidancer.com">GUIdancer</a>
 				<li><a href="http://www.inpowersoft.com/inpowerforms/">InPowerForms</a>
 				<li><a href="http://www.sybase.com/workspace">Sybase Workspace</a>
 				<li><a href="http://www.myeclipseide.com">MyEclipse Enterprise Workbench</a>
