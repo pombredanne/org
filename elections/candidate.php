@@ -32,7 +32,7 @@
 
 	# End: page-specific settings
 	#
-	$type_name = strcmp($type, 'committer') == 0 ? 'committer' : 'add-in provider';
+	$type_name = strcmp($candidate->type, 'committer') == 0 ? 'committer' : 'add-in provider';
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
