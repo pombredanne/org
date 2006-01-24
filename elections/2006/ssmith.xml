@@ -1,20 +1,32 @@
 <boardmember id="ssmith" type="addin">
 	<name>Shaun Smith</name>
 	<title>Product Manager, Oracle</title>
-	<image> </image>
-	<email> </email>
-	<phone> </phone>
-	<contact> </contact>
-	<eclipse_affiliation> </eclipse_affiliation>
+	<image>ssmith.jpg</image>
+	<email></email>
+	<phone></phone>
+	<contact></contact>
+	<eclipse_affiliation></eclipse_affiliation>
 
-	<vision>  <![CDATA[ ]]>
+	<vision>
+		<![CDATA[ ]]>
 	</vision>
 
-	<bio> <![CDATA[ ]]>
+	<bio>
+		Shaun Smith is a product manager for Oracle TopLink and co-lead
+		of the Eclipse Dali EJB Object-Relational Mapping Project. He
+		has been building systems using object-relational mapping
+		technologies for almost a decade in both Java and Smalltalk in
+		the banking, telecommunications, and energy industries. In
+		recent years, Shaun's focus has been on the development of Test
+		Driven Development (TDD) techniques for building enterprise
+		systems with persistence needs. His current interests include
+		developing tooling and TDD techniques for the new EJB 3.0
+		persistence specification.
 	</bio>
 
-	<affiliation> <![CDATA[ ]]>
+	<affiliation>
+		<![CDATA[ ]]>
 	</affiliation>
 
-		
+
 </boardmember>
