@@ -39,12 +39,15 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
+				<li><a href="http://gumtree.sourceforge.net/">Gumtree</a></ul>
+				<li><a href="http://jlibrary.sourceforge.net/">jLibrary</a></ul>
 				<li><a href="http://www.rssowl.org">RSSOwl</a></ul>
 		</div>		
 		<div class="homeitem3col">
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
+				<li><a href="http://www.cryptointel.com/codesigner.html">CodeSigner</a>
 				<li><a href="http://www.bigblogzoo.com">RSS MediaMiner</a>
 				<li><a href="http://www.sphere.ae/products.php?prd_id=2">Arena Network Manager</a>
 				
@@ -62,6 +65,7 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse based developer tool</h3>
 			<ul>
+				<li><a href="http://www.modelistic.com">Modelistic JME</a>
 				<li><a href="http://www.guidancer.com">GUIdancer</a>
 				<li><a href="http://www.inpowersoft.com/inpowerforms/">InPowerForms</a>
 				<li><a href="http://www.sybase.com/workspace">Sybase Workspace</a>
