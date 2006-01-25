@@ -1,19 +1,63 @@
+
 <boardmember id="jmcaffer" type="committer">
-	<name>Jeff McAffer</name>
-	<title>Software Engineer, IBM</title>
+
+	<name> Jeff McAffer </name>
+
+	<title> Senior Software Engineer </title>
+
 	<image> jmcaffer.jpg </image>
-	<email> </email>
-	<phone> </phone>
-	<contact> </contact>
-	<eclipse_affiliation> </eclipse_affiliation>
 
-	<vision>  <![CDATA[ ]]>
-	</vision>
+	<email> jeff_mcaffer@ca.ibm.com</email>
 
-	<bio> <![CDATA[ ]]>
+	<phone> +1 613 726 5531 </phone>
+
+	<contact> 2670 Queensview Drive, Ottawa, Ontario, Canada K2B 8K1 </contact>
+
+	<eclipse_affiliation> <![CDATA[
+	<a href="http://eclipse.org/equinox">Equinox</a> and <a href="http://wiki.eclipse.org/index.php/Rich_Client_Platform">RCP</a> lead, Eclipse PMC member 
+	]]> </eclipse_affiliation>
+
+	<vision> <![CDATA[
+<p>
+We started Eclipse six years ago with a vision of a platform for composing function and creating toolsets for varying users in a wide range of domains.  This has been a roaring success.  The user-base and developer community have grown beyond our wildest dreams.  Eclipse dominates the open source tooling market and the word "Eclipse" is now synonymous with "quality", "industrial strength" and "componentized".
+</p><p>
+The addition of many new language and tooling domains as well as RCP, OSGi and other technologies is a further testament to the draw of our technology and community.  As a committer, you should be proud.
+</p><p>
+This success is not without challenges however.  
+</p><p>
+<b>Growth :</b> The Eclipse community is growing by leaps and bounds.  It seems every week there is a new project proposal to review.  This is exciting but many of you have concerns about the strain this puts on the notions of quality and consistency that underly Eclipse.  The good news is that tooling and infrastructure can help!
+<ul>
+<li>API and version management.  API and versioning are at the heart of the Eclipse component model.  The new plug-in versioning scheme helps you express your intent while efforts like the WTP API tools help you manage your use of API.  Work in these areas should be continued, expanded, and promoted across all projects in Eclipse.</li>
+
+<li>Bug management.  We need to look for new and innovative ways of handling the thousands of bug reports that flow into the system on a monthly basis.  Whether it is automated duplicate searching or human assistance, we need help!</li>
+
+<li>Release engineering and build support.  The new build farm is an excellent idea.  We must continually look for additional infrastructure and ideas that make the life of a committer, your life, easier.</li>
+
+<li>New project support.  Teams attempting to start a project at Eclipse need help such as standard layouts, processes and structures, project mentors, reviews and interaction from the rest of the community.</li>
+</ul>
+<br/>
+<b>Distributing your output :</b> The Callisto release train is a bold and valuable experiment for both the project teams and our consumers.  We should press forward, make it a success, learn from it, repeat it and broaden its scope.  In addition, we should invest in new and innovative ways of distributing Eclipse plug-ins.  For example, 
+<br/>- Plug-in repositories
+<br/>- BitTorrent Update sites
+<br/>- Dynamic download packaging
+<br/>- Packaging and delivery consistency across projects
+<br/>- Update technology investigation and use
+</p><p>
+<b>Synergies :</b> Eclipse has grown beyond the Platform, beyond WTP, beyond &lt;any individual project&gt;.  There are tremendous untapped synergies lurking.  RCP and BIRT, DTP, Higgins, ECF, etc., WTP and DTP, STP.  Some individual project teams are interacting here and there, but the power and usefulness of Eclipse as a whole would sky-rocket with modest but widespread investments in integration.  We should promote and facilitate this interaction.
+</p><p>
+Similarly, we increasingly intersect with other open source communities such as Apache.  The Foundation can play a pivotal role in promoting collaboration and cooperation with these communities.
+</p><p>
+<b>Fine Print :</b> It is surprising how often a discussion related to open source software turns into a discussion of licenses, IP, export laws, ....  As committers we typically have only a rudimentary understanding of what it all means but yet getting it right is vitally important.  We should look for practical but effective ways of lowering the legal barriers that block your progress and prevent your output from being used.  For example, fast turn-around on legal reviews, documents of understanding between parties, license clarification or modification as needed, dual licensing, ... 
+</p><p>
+I would be honoured to serve as your representative and work to further the goals and ideas outlined above.  
+</p>
+
+	]]> </vision>
+
+	<bio> Jeff leads the Eclipse Equinox and Eclipse RCP teams.  He is one of the architects of the Eclipse Platform and a co-author of The Eclipse Rich Client Platform (Addison-Wesley).  He is a member of the Eclipse Project PMC and has been involved in Eclipse from the beginning.  He is currently interested in helping realize Eclipse's original vision as a platform for composing general sets of application function to solve real problems.  Previous lives included work in distributed/parallel OO computing (Server Smalltalk, massively parallel Smalltalk, etc) as well as expert systems, meta-level architectures and a PhD at the University of Tokyo.
 	</bio>
 
-	<affiliation> <![CDATA[ ]]>
+	<affiliation> IBM, OSGi Core Platform Expert Group member
 	</affiliation>
 
 		
