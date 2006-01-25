@@ -1,32 +1,95 @@
 <boardmember id="ssmith" type="addin">
+
 	<name>Shaun Smith</name>
-	<title>Product Manager, Oracle</title>
-	<image>ssmith.jpg</image>
-	<email></email>
-	<phone></phone>
-	<contact></contact>
-	<eclipse_affiliation></eclipse_affiliation>
 
-	<vision>
-		<![CDATA[ ]]>
-	</vision>
+	<title>Product Manager, Oracle TopLink</title>
 
-	<bio>
-		Shaun Smith is a product manager for Oracle TopLink and co-lead
-		of the Eclipse Dali EJB Object-Relational Mapping Project. He
-		has been building systems using object-relational mapping
-		technologies for almost a decade in both Java and Smalltalk in
-		the banking, telecommunications, and energy industries. In
-		recent years, Shaun's focus has been on the development of Test
-		Driven Development (TDD) techniques for building enterprise
-		systems with persistence needs. His current interests include
-		developing tooling and TDD techniques for the new EJB 3.0
-		persistence specification.
+	<image> ssmith.jpg
+	</image>
+
+	<email>shaun.smith@oracle.com</email>
+
+	<phone>1-403-681-8953</phone>
+
+	<contact><![CDATA[
+Oracle Corp<br/>
+Suite 2600<br/>
+144 4th Avenue SW<br/>
+Calgary, Alberta<br/>
+Canada T2P 3N4		]]>
+	</contact>
+	
+	<eclipse_affiliation> 
+		I'm a committer and project co-lead of the Dali EJB Object-Relational Mapping Project.  
+		The goal of Dali is to build extensible frameworks and exemplary tools for the definition
+		and editing of Object-Relational (O/R) mappings for EJB 3.0 Entity Beans.  Part
+		of the Java EE 5 specification, the EJB 3.0 spec incorporates the collective 
+		expertise of commercial and open source ORM products 
+		like TopLink and Hibernate as well as that of the JDO and EJB 2.1 CMP communities.  Dali's
+		committers are all from companies involved in the EJB 3.0 specification and all have
+		experience building tools for O/R mapping.  We hope that the availability of Dali in Eclipse
+		will encourage developers to take up the EJB 3.0 spec and Java EE 5.
+	</eclipse_affiliation>
+	
+	<vision><![CDATA[
+		<p>
+		I've been using Eclipse since just before 1.0 so I've had plenty
+		of experience using Eclipse to build Java SE and Java EE applications.
+		But my experience using Eclipse did not completely prepare me for what
+		is involved in building add-in frameworks and tools for Eclipse.  There's
+		a lot you need to know if you are going to do this and unfortunately, while the
+		processes are well defined, the road isn't as clear as it could be.  There 
+		are many questions new add-in providers have and finding those answers isn't
+		always straightforward.
+		</p><p>
+		To help add-in providers build the Eclipse ecosystem I would like to see a 
+		mentoring program established for new projects.  Having a designated mentor
+		for each new project that is willing to answer questions about standard
+		Eclipse approaches, conventions, and technologies would speed the development
+		of add-ins and result in more consistent code that is more easily incorporated into
+		the ecosystem.  There are informal information gathering routes such as the mailing lists
+		and newsgroups but as someone who has been a mentor on many projects I know the value
+		of having a specific person you can go to for help.
+		</p><p>
+		There are many individuals with years of Eclipse experience and while many of them
+		are deeply involved with active projects, it would benefit the Eclipse community greatly
+		if they would lend some of their expertise to those just starting out.  Eclipse Foundation
+		support for a mentoring program would provide a means to connect those with experience
+		to share with those who need it.</p>
+	]]> </vision>
+
+	<bio> <![CDATA[
+		<p>
+		I've been an OO programmer and mentor for almost twenty years and have been 
+		working in Smalltalk, Java, C++, and (more recently) Ruby since I got 
+		my first job out of university.  Having been around that long I've seen
+		plenty of IDE's come and go.  Coming from the Smalltalk community I used
+		the development environments of all major vendors including IBM
+		Smalltalk/VisualAge.  For Java development I moved to VisualAge for Java
+		and then eventually to Eclipse.   All of these environment provided incremental
+		compilation--how anyone survives without incremental compilation is beyond
+		me!
+		</p><p>
+		For 11 years I was a consultant involved with the development of enterprise
+		systems and mentoring companies in OO technology.  My focus in the last 
+		few years has been on test driven development of 
+		systems that use object persistence and I've been active in the Agile software
+		development community both presenting at and helping organize conferences
+		and workshops.  I served on the program and organizing committees of XP/Agile Universe 2004
+		and was community liason for Canada.  I was also on the organizing committee of Agile 2005 and again
+		performed the role of community liason for Canada.  I'm currently a product manager for Oracle
+		TopLink which is the leading commercial Java product for mapping between
+		objects and relational databases (and now between objects and XML).
+		</p><p>
+		I'm an admitted early adopter and am likely to download very early builds
+		of something new and cool and I'm really excited to be involved in an Eclipse
+		project building support for the new industry standard Java persistence API!
+		</p> ]]>
 	</bio>
 
 	<affiliation>
-		<![CDATA[ ]]>
+ 		Oracle's business is information--how to manage it, use it, share it, protect it; providing the software and services that let organizations get the most up-to-date and accurate information from their business systems. Oracle's Information Architecture is composed of integrated, standards-based technologies for infrastructure and applications. Our involvement in the Eclipse Foundation and Open Source helps us ensure that we have tooling support using open, readily available components as much as possible to reduce costs, streamline management and maintenance, and increase adaptability for our customers.  That's why Oracle has joined the Eclipse Software Foundation and is leading projects to provide support for Java technologies like JavaServer 
+Faces (JSF), BPEL, and Enterprise JavaBeans 3.0. 		
 	</affiliation>
-
-
+	
 </boardmember>
