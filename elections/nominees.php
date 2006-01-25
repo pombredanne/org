@@ -19,7 +19,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "$year Eclipse Foundation Elections";
+	$pageTitle 		= "$year Board Candidates";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -38,19 +38,23 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <!--<div id="maincontent">-->
-	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>Each year, the Eclipse Foundation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
-		these elected board members is one year, commencing April 1.</p>
-		<div class="homeitem3col">
-	    <h3>$year Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the 2006 elections is contained within the links below:</p>
-		<ul>
-		<li>The <a href="nominees.php">candidates</a> for the 2006 election.</li>
-		<li>The <a href="keydates.php">key dates</a> for the 2006 election.</li>
-		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
-		</ul>
+		<div id="midcolumn">
+		<div class="homeitem">
+			<a name="Candidates"></a>$committer_candidates
+		</div>
+		<div class="homeitem">
+			$addin_candidates
+		</div>
+	</div>
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Quick Links</h6>
+			<ul>
+				<li><a href="nominees.php">Candidates</a></li>
+				<li><a href="keydates.php">Key Dates</a></li>
+				<li><a href="election_process.php">Election Process</a></li>
+			</ul>
 		</div>
 	</div>
 	

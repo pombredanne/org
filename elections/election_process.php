@@ -19,7 +19,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "$year Eclipse Foundation Elections";
+	$pageTitle 		= "Eclipse Foundation Election Process";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -40,17 +40,37 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>Each year, the Eclipse Foundation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
-		these elected board members is one year, commencing April 1.</p>
 		<div class="homeitem3col">
-	    <h3>$year Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the 2006 elections is contained within the links below:</p>
+	    <h3>Election Process</h3>
+		<p>&nbsp;&nbsp;The process for Eclipse Foundation annual elections is described below.</p>
 		<ul>
-		<li>The <a href="nominees.php">candidates</a> for the 2006 election.</li>
-		<li>The <a href="keydates.php">key dates</a> for the 2006 election.</li>
-		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
+		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
+		groups within the Eclipse membership: the committers and the add-in providers. The number of these
+		elected representatives is a ratio of the total number of Strategic Members. For 2006, there are to be
+		four elected committer representatives and four elected add-in provider representatives. </li>
+		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
+		<li>The terms of office for	these elected board members is one year, commencing April 1. </li>
+		<li>Voting for the elected board members is done using <a href="http://en.wikipedia.org/wiki/Single_Transferable_Vote">single transferrable voting</a>.</li>
+		<li>Each Add-in Provider Member gets one vote. </li>
+		<li>Each Committer Member gets one vote. Note that committers who are employees of Member companies have
+		all the rights and privileges (including voting) of a Committer Member. 
+		<p>Individual committers must join the Eclipse Foundation as Committer Members by signing the 
+		<a href="../documents/Eclipse%20MEMBERSHIP%20AGMT%202005_06_16%20Final.pdf">Membership Agreement:</a> in order to be allowed to vote.</p>
+		<p>All committers who are employees of a single company have their votes collapsed into a single vote 
+		in the committer elections.</p></li>
+		<li>Voting is done electronically via a web interface on <a href="/">www.eclipse.org</a>. Each eligible voter is provided
+		with the URL and a userid and password with which to vote several days in advance of the voting.</li>
 		</ul>
+		</div>
+	</div>
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Quick Links</h6>
+			<ul>
+				<li><a href="nominees.php">Candidates</a></li>
+				<li><a href="keydates.php">Key Dates</a></li>
+				<li><a href="election_process.php">Election Process</a></li>
+			</ul>
 		</div>
 	</div>
 	

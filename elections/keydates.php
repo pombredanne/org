@@ -19,7 +19,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "$year Eclipse Foundation Elections";
+	$pageTitle 		= "$year Election Key Dates";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -40,17 +40,41 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>Each year, the Eclipse Foundation holds elections for board members representing two very important
+		<p>Each year, the Eclipse Founation holds elections for board members representing two very important
 		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
 		these elected board members is one year, commencing April 1.</p>
 		<div class="homeitem3col">
-	    <h3>$year Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the 2006 elections is contained within the links below:</p>
+	    <h3><a name="Dates"></a>Key Dates</h3>
+		<p>&nbsp;&nbsp;The key dates for the 2006 elections are:</p>
 		<ul>
-		<li>The <a href="nominees.php">candidates</a> for the 2006 election.</li>
-		<li>The <a href="keydates.php">key dates</a> for the 2006 election.</li>
-		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
+		<li>December 21st: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
+		the subject "Add-In Provider Nomination" or "Committer Nomination". As soon as possible after an individual 
+		is nominated, the Foundation will contact the nominee to confirm their willingness to participate in the 
+		election and to serve as a add-in provider representative if elected.</li>
+		<li>January 18, 2006: Nominations close. The list of nominees and their html pages will be available on the 
+		website as soon as possible thereafter, and in no case later than January 23rd.</li>
+		<li>January 23, 2006: List of nominees published on www.eclipse.org. Each nominee will be provided with an 
+		HTML template which outlines their background and vision for Eclipse as they are nominated. If the nominee
+		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
+		via email. Content must be submitted to the Eclipse Foundation via email no later than Thursday, January 19th. 
+		</li>
+		<li>January 27, 2006: List of nominees and their personal pages made available on www.eclipse.org. 
+		Discussion of the issues on the eclipse.foundation newsgroup will be encouraged. 
+		</li>
+		<li>February 13, 2006: Voting begins.</li>
+		<li>February 24, 2006: Voting ends. </li>
+		<li>March 6, 2006: New representatives announced.</li>
 		</ul>
+		</div>
+	</div>
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Quick Links</h6>
+			<ul>
+				<li><a href="nominees.php">Candidates</a></li>
+				<li><a href="keydates.php">Key Dates</a></li>
+				<li><a href="election_process.php">Election Process</a></li>
+			</ul>
 		</div>
 	</div>
 	
