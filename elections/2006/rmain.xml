@@ -21,9 +21,9 @@
 		At SAS, we see Eclipse as being critical to the long-term viability of Java as a platform for enterprise application 
 		development and deployment. As a result, we are committed to working within the Eclipse community to foster an 
 		environment that supports continuing innovation while also increasing the end-user focus of the Eclipse development process.
-		This is a necessary component of taking Eclipse to the “next level” as it grows from supporting just developers to 
+		This is a necessary component of taking Eclipse to the &quot;next level&quot; as it grows from supporting just developers to 
 		also supporting end-user consumer organizations. At the same time, the vibrant community that has been such a critical 
-		part of Eclipse’s success thus far must be preserved and nurtured. This community is the engine that fuels the
+		part of Eclipse&rsquo;s success thus far must be preserved and nurtured. This community is the engine that fuels the
 		innovation and drives growing adoption of Eclipse across the software industry. In this respect, it is crucially 
 		important that the Add-in Provider representatives on the board forge relationships with each of the other Add-in Provider 
 		members to understand and represent the full range of Add-in Provider member needs. Finally, we need to work with
@@ -34,7 +34,7 @@
 
 	<bio> <![CDATA[ 
 		I am the Director of Java Development Environments at SAS. In that role, I oversee the development of a
-		number of Eclipse based technologies, including SAS AppDev Studio™, an enterprise business intelligence
+		number of Eclipse based technologies, including SAS AppDev Studio&trade;, an enterprise business intelligence
 		application development suite built on top of the Eclipse IDE, and the Eclipse RCP based SAS Rich Client 
 		Platform, which serves as the basis for a number of our vertical market business intelligence solutions.  
 		In addition to these duties, I work actively within the Java community as a member of organizations such 
@@ -47,13 +47,13 @@
 
 	<affiliation> <![CDATA[ 
 		SAS is the market leader in providing a new generation of business intelligence software and services that create true 
-		enterprise intelligence. SAS solutions are used at 40,000 sites – including 96 of the top 100 companies on the FORTUNE
-		Global 500® – to develop more profitable relationships with customers and suppliers; to enable better, more accurate 
+		enterprise intelligence. SAS solutions are used at 40,000 sites &ndash; including 96 of the top 100 companies on the FORTUNE
+		Global 500&reg; &ndash; to develop more profitable relationships with customers and suppliers; to enable better, more accurate 
 		and informed decisions; and to drive organizations forward. SAS is the only vendor that completely integrates leading 
 		data warehousing, analytics and traditional BI applications to create intelligence from massive amounts of data. For 
-		nearly three decades, SAS has been giving customers around the world The Power to Know®.
+		nearly three decades, SAS has been giving customers around the world The Power to Know&reg;.
 		<br/><br/>
-		For more information about SAS, visit us on the web at http://www.sas.com.
+		For more information about SAS, visit us on the web at <a href="http://www.sas.com">http://www.sas.com</a>.
 	]]>
 	</affiliation>
 
