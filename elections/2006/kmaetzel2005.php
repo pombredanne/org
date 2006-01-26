@@ -84,6 +84,7 @@
           Eclipse projects. Such attributes are starting small and concrete, convince 
           by delivering, and grow on previous concrete successes.</li>
       </ul>
+      <br/>
    	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
