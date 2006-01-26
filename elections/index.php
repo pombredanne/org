@@ -43,6 +43,9 @@
 		<p>Each year, the Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
 		these elected board members is one year, commencing April 1.</p>
+		<p>
+		Candidates and the community are encouraged to discuss the issues on the eclipse.foundation newsgroup 
+		(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
 		<p>&nbsp;&nbsp;Information concerning the 2006 elections is contained within the links below:</p>
