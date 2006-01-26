@@ -53,17 +53,16 @@
 			<h3>Vision</h3>
 			<blockquote>$candidate->vision</blockquote>
 		</div>
-		
-		<div class="homeitem3col">
-			<h3>Affiliation</h3>
-			<blockquote>$candidate->affiliation</blockquote>
-		</div>
-		
+				
 		<div class="homeitem3col">
 			<h3>About the candidate</h3>
 			<blockquote>$candidate->bio</blockquote>
 		</div>
 		
+		<div class="homeitem3col">
+			<h3>Affiliation</h3>
+			<blockquote>$candidate->affiliation</blockquote>
+		</div>
 	</div>
 	
 	<div id="rightcolumn">
