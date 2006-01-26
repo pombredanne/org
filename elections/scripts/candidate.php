@@ -1,6 +1,5 @@
 <?php
 
-
 #*****************************************************************************
 #
 # Article.php
@@ -34,8 +33,8 @@ function & get_all_candidates($year = "") {
 			if (ends_with($file, ".xml")) {
 				$file = $root.$file;
 				$candidate = get_candidate_from_file($file, $year);
-								
-				array_push($candidates, $candidate);
+				if ($candidate->name)
+					array_push($candidates, $candidate);
 			}
 		}
 		closedir($dh);
@@ -47,10 +46,22 @@ function & get_all_candidates($year = "") {
 }
 
 /*
- * Sort candidates by name in ascending order (a-z).
+ * Sort candidates by last name in ascending order (a-z).
+ * Note that this only sorts by last name since we do not currently
+ * need to be any smarter (i.e. we don't need to sort first by 
+ * last name and then by first name). Also note that this algorithm
+ * assumes that the last word in the name of a candidate is their
+ * last name. We don't currently handle compound last names because
+ * we don't need to.
  */
 function sort_candidates_cmp($a, $b) {
-	return strcmp($a->name, $b->name);
+	$a_names = explode(' ', trim($a->name));
+	$b_names = explode(' ', trim($b->name));
+	
+	$a_last_name = end($a_names);
+	$b_last_name = end($b_names);
+	
+	return strcmp($a_last_name, $b_last_name);
 }
 
 function & get_candidate_from_file($file_name, $year) {
