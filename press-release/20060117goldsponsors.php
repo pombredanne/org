@@ -24,11 +24,11 @@
 <h2 ALIGN="CENTER"><strong>Gold Sponsors Announced for EclipseCon 2006 </strong></h2>
 
 <ul>
-<li>Actuate, BEA Systems, Business Objects, Compuware, HP, IBM, Serena and Sybase to
+<li>Accelerated Technology, Actuate, BEA Systems, Business Objects, Compuware, HP, IBM, Serena and Sybase to
 Provide Highest Level Support to Eclipse Community Event </li>
 </ul>
 
-<p><strong>OTTAWA, January 17, 2006 </strong> —The Eclipse Foundation today announced that Actuate, BEA Systems, Business Objects, 
+<p><strong>OTTAWA, January 17, 2006 </strong> —The Eclipse Foundation today announced that Accelerated Technology, Actuate, BEA Systems, Business Objects, 
 Compuware, HP, IBM, Serena and Sybase have signed on as Gold Sponsors for EclipseCon 2006, the annual conference 
 that brings together the Eclipse community. Gold Sponsorship is the highest level of sponsorship for the conference.
  The third annual EclipseCon will be held at the Santa Clara Convention Center, Santa Clara, Calif., March 20-23, 
