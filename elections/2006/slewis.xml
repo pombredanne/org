@@ -11,7 +11,12 @@
 
 	<phone>503-756-8719</phone>
 
-	<contact>2606 NE 38th Ave, Portland OR, 97212</contact>
+	<contact><![CDATA[
+		2606 NE 38th Ave, <br/>
+		Portland OR, <br/>
+		USA, 97212
+	]]>
+	</contact>
 
 	<eclipse_affiliation><![CDATA[
 		2005 committer representative on the Board of Directors. 

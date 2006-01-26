@@ -11,10 +11,11 @@
 
 	<phone> 972-691-5717 </phone>
 
-	<contact> 
-		Genuitec, LLC
-		2505 Powderhorn Drive
+	<contact> <![CDATA[
+		Genuitec, LLC<br/>
+		2505 Powderhorn Drive<br/>
 		Plano, Texas  75025 
+	]]>
 	</contact>
 
 	<eclipse_affiliation> <![CDATA[

@@ -13,7 +13,13 @@
 
 	<phone> 206.926.2945 </phone>
 
-	<contact> Suite 100, 999 N. Northlake Way, Seattle, WA 98103 </contact>
+	<contact> <![CDATA[
+		Suite 100, <br/>
+		999 N. Northlake Way, <br/>
+		Seattle, WA <br/>
+		USA, 98103 
+	]]>	
+	</contact>
 
 	<eclipse_affiliation><![CDATA[
 	  My primary Eclipse role is in the Web Tools Platform (WTP) Project, where I
@@ -22,7 +28,7 @@
 	  are to ensure a quality platform and highly usable tools, with a short term focus on
 	  stability, reliability, and performance. Due to my WTP role, I also
 	  evangelize (in print and online forums) for WTP and Eclipse as a whole.
-	  
+	  <br/><br/>
 	  I also represent BEA on the Eclipse Architecture and Planning Councils, and am an
 	  alternative representative to the Requirements Council. For the upcoming
 	  Eclipse Conference in Santa Clara I serve as program chair.]]>

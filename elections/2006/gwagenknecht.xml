@@ -11,9 +11,11 @@
 
     <phone>+49-179-144-8657</phone>
 
-    <contact>Joliot-Curie-Str. 6
-        D-99510 Apolda
-        Germany
+    <contact><![CDATA[
+    	Joliot-Curie-Str. 6 <br/>
+        D-99510 Apolda <br/>
+        Germany <br/>
+        ]]>
     </contact>
 
     <eclipse_affiliation>Platform UI Committer, EclipseCon 2006 PC Member, Plug-in Developer</eclipse_affiliation>

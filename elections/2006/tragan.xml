@@ -11,7 +11,12 @@
 
 	<phone> 505.424.6440 </phone>
 
-	<contact> 213 W. Institute Place, #404, Chicago, IL 60610 </contact>
+	<contact> <![CDATA[
+		213 W. Institute Place, #404, <br/>
+		Chicago, IL <br/>
+		USA, 60610 
+	]]>
+	</contact>
 
 	<eclipse_affiliation> 
 		In early 2002 I started hearing about the "Eclipse Project" from a few of our Openmake developers. 

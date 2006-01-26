@@ -4,7 +4,13 @@
 	<image>jkrause.png</image>
 	<email>jochen.krause@innoopract.com</email>
 	<phone>(503) 608-7972</phone>
-	<contact>Innoopract, Stephanienstr. 20, 76133 Karlsruhe / Germany</contact>
+	<contact><![CDATA[
+		Innoopract, <br/>
+		Stephanienstr. 20, <br/>
+		76133 Karlsruhe <br/>
+		Germany
+	]]>
+	</contact>
 	<eclipse_affiliation>Jochen is a member of the Webtools Project PMC and an active promoter of Eclipse in Europe</eclipse_affiliation>
 
 	<vision>  <![CDATA[My vision for Eclipse:

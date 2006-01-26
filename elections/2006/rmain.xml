@@ -1,19 +1,60 @@
 <boardmember id="rmain" type="addin">
 	<name>Rich Main</name>
-	<title>Director, SAS Institute</title>
+	<title>Director, Java Development Environments at SAS</title>
 	<image>rmain.jpg</image>
-	<email> </email>
-	<phone> </phone>
-	<contact> </contact>
-	<eclipse_affiliation> </eclipse_affiliation>
+	<email> rich.main@sas.com </email>
+	<phone> 919-531-5594 </phone>
+	<contact> <![CDATA[
+		SAS Campus Drive <br/>
+		R3246 <br/>
+		Cary, NC 27513 <br/>
+	]]>
+	</contact>
+	<eclipse_affiliation> 
+		I have been the SAS representative to Eclipse for the past 3 1/2 years, and participated actively
+		in the formulation of the current Eclipse Foundation development process and bylaws, the Eclipse Public License,
+		and the IP Policy.  I have been an elected Add-In Provider Member Representative to the Eclipse Foundation
+		Board of Directors for the past 2 years.
+	</eclipse_affiliation>
 
-	<vision>  <![CDATA[ ]]>
+	<vision>  <![CDATA[
+		At SAS, we see Eclipse as being critical to the long-term viability of Java as a platform for enterprise application 
+		development and deployment. As a result, we are committed to working within the Eclipse community to foster an 
+		environment that supports continuing innovation while also increasing the end-user focus of the Eclipse development process.
+		This is a necessary component of taking Eclipse to the “next level” as it grows from supporting just developers to 
+		also supporting end-user consumer organizations. At the same time, the vibrant community that has been such a critical 
+		part of Eclipse’s success thus far must be preserved and nurtured. This community is the engine that fuels the
+		innovation and drives growing adoption of Eclipse across the software industry. In this respect, it is crucially 
+		important that the Add-in Provider representatives on the board forge relationships with each of the other Add-in Provider 
+		members to understand and represent the full range of Add-in Provider member needs. Finally, we need to work with
+		standards organizations to drive adoption of Eclipse based technology as industry standards. This will ensure that 
+		Eclipse is everywhere our end-users need to be.  To that end, I would appreciate your vote of support!
+	]]>
 	</vision>
 
-	<bio> <![CDATA[ ]]>
+	<bio> <![CDATA[ 
+		I am the Director of Java Development Environments at SAS. In that role, I oversee the development of a
+		number of Eclipse based technologies, including SAS AppDev Studio™, an enterprise business intelligence
+		application development suite built on top of the Eclipse IDE, and the Eclipse RCP based SAS Rich Client 
+		Platform, which serves as the basis for a number of our vertical market business intelligence solutions.  
+		In addition to these duties, I work actively within the Java community as a member of organizations such 
+		as the Eclipse Foundation and the Java Community Process (JCP) Executive Committee to ensure that the Java 
+		platform supports development and deployment of robust enterprise applications.  I graduated from Duke 
+		University with a degree in Electrical Engineering and Computer Science and have over 20 years of software
+		development experience.
+	]]>
 	</bio>
 
-	<affiliation> <![CDATA[ ]]>
+	<affiliation> <![CDATA[ 
+		SAS is the market leader in providing a new generation of business intelligence software and services that create true 
+		enterprise intelligence. SAS solutions are used at 40,000 sites – including 96 of the top 100 companies on the FORTUNE
+		Global 500® – to develop more profitable relationships with customers and suppliers; to enable better, more accurate 
+		and informed decisions; and to drive organizations forward. SAS is the only vendor that completely integrates leading 
+		data warehousing, analytics and traditional BI applications to create intelligence from massive amounts of data. For 
+		nearly three decades, SAS has been giving customers around the world The Power to Know®.
+		<br/><br/>
+		For more information about SAS, visit us on the web at http://www.sas.com.
+	]]>
 	</affiliation>
 
 		
