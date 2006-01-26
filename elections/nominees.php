@@ -38,8 +38,8 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <!--<div id="maincontent">-->
+	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<div id="midcolumn">
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
 		</div>
