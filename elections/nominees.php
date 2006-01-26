@@ -40,6 +40,7 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		<b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
 		</div>
