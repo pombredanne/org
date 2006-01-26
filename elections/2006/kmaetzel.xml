@@ -1,20 +1,78 @@
-<boardmember id="kmaetzel" type="committer">
-	<name>Kai-Uwe Maetzel</name>
-	<title>Software Engineer, IBM</title>
-	<image>kmaetzel.jpg</image>
-	<email> </email>
-	<phone> </phone>
-	<contact> </contact>
-	<eclipse_affiliation> </eclipse_affiliation>
 
-	<vision>  <![CDATA[ ]]>
+<boardmember id="kmaetzel" type="committer">
+
+	<name> Kai-Uwe Maetzel </name>
+
+	<title> Senior Software Engineer </title>
+
+	<image> kmaetzel.jpg </image>
+
+	<email> kai-uwe_maetzel@ch.ibm.com </email>
+
+	<phone> +41 44 267 65 25 </phone>
+
+	<contact> <![CDATA[
+		Oberdorfstrasse 8, <br/>
+		CH-8001 Zurich, Switzerland<br/><br/>
+		15350 SW KOLL PKWY, <br/>
+		BEAVERTON OR 97006, USA
+	]]>
+	</contact>
+
+	<eclipse_affiliation> <![CDATA[
+		2005 Committer Representative on the Board of Directors,<br/>
+		Platform and JDT Text Committer,<br/>
+		JDT UI Committer
+	]]>
+	</eclipse_affiliation>
+
+	<vision> <![CDATA[
+		<h4>The look back</h4>
+		<p>I have been serving as committer representative on the Board of Directors since April 2005. The work areas I proposed in my first election statement were driven by our needs as committers. Back then, I had a limited understanding of how the Board directs the work of the Eclipse Foundation, and  I didn't know to what degree or how quickly we could realistically expect solutions to our problems. After 10 months on the Board working with the Foundation - certainly an interesting and challenging environment - I have a good picture of how to work towards a solutions for our problems. Let's look back at the events and achievements that are particularly interesting for the committers.</p>
+		<ul>
+		<li>After initial problems during the introduction of the new infrastructure, the  availability and reliability of the Foundation provided services have been significantly improved and stabilized to a high level. The Board and the Foundation are sensitive to the importance of a highly reliable infrastructure to the committers. The Foundation is constantly monitoring the availability of their services and reporting the data regularly to the Board.</li>
+		<li>New infrastructure services such as live web stats, the wiki and, under the umbrella of the Barnraising Project, virtual servers for the projects have been introduced. Build environments for eclipse.org projects and tools allowing PMC and committers to self-manage their CVSs and bugzilla components are planned or already underway.</li>
+		<li>Bug management is still missing the necessary improvements. This issue however is acknowledged by the Foundation and the 2006 budget allows the Foundation to address it.</li>
+		<li>We all agree on the importance of the quality of our projects. In order to provide projects with an environment that allows them to mature effectively, the Eclipse development process has been refined. In addition, the eclipse.org dashboards mark the first attempt to visualize some aspects of quality.</li>
+		<li>Cross-project committer meetings with associated code camps are beginning to take off. We have had meetings in Portland and Ottawa and will see a significant increase in number and frequency in 2006.</li>
+		<li>The Callisto release train is recognized as a distinctive eclipse.org feature. The Foundation is ready to provide the necessary support to ensure the success of the release train. The planning council and the projects now need  to define what form this support should take.</li>
+		</ul>
+		<p>What has been my personal contribution to these achievements? I worked with eclipse committers to identify  issues hampering their work and to find possible solutions. I worked to form an alliance with the other committer representatives to solve these issues. We worked together to  raise the awareness of the Board and the Eclipse Foundation staff of the problems, their possible solutions, and their potential financial impact.  We spent a great deal of time in discussion, persuading the Board to support the implementation of solutions, and monitoring initiatives to ensure things were moving in the right direction. Yes, being a committer representative is a political task and, as a developer, I had to get used to it.</p>
+		<p>The joint effort of all committer representatives on the Board - Scott, John, and I - helped to continuously focus the work of the Foundation on issues important for the committers. Go to Mike's blog where he writes about the <a href="http://milinkovich.blogspot.com/2005/11/open-budgeting.html">2006 budget</a>. Have a look at the "Projects and Committers" section of the proposed <a href="http://wiki.eclipse.org/index.php/2006BudgetPrograms">programs</a>. The section talks about infrastructure, quality, cross-team collaboration, and the Callisto release train. I hope you agree that these are the directions that will positively impact you as a committer.</p>
+		<h4>Continuing to move forward</h4>
+		<p>For 2006, we need to continue work in the areas we identified in 2005. We have made good progress, nevertheless, I believe these are still the important issues:</p>
+		<ul>	
+		<li>infrastructure improvements</li>
+		<li>technological innovation</li>
+		<li>cross-project collaboration</li>
+		<li>continuous focus on quality</li>
+		</ul>
+		<p>See the details in my  <a href="2006/kmaetzel2005.php">original 2005 statement</a>. In addition, I'm convinced 
+		that making the Callisto release train a success must be a top priority.  I'm a strong believer in the 
+		potential of the release train idea. It benefits us, the committers, and also the contributors and the 
+		entire Ecosystem. As a committer representative, in cooperation with the Planning and Architecture councils, 
+		I will help to promote the awareness and responsiveness of the  Foundation to the requirements of the release train.</p>
+
+		<p>I am ready to work hard to achieve solutions for these issues and the new issues that you, the committers bring forward.</p>
+	]]>
 	</vision>
 
-	<bio> <![CDATA[ ]]>
+	<bio> <![CDATA[
+      <p>Kai is one of the original committers
+        on the Eclipse project and one 
+        of the three original developers of the Eclipse Java tooling. He was 
+        leading the Eclipse Platform Text component and was in charge of the editors of 
+        the JDT UI component. He teaches Eclipse tutorials, regularly gives presentations 
+        about Eclipse at conferences and in the industry, and has organized and 
+        participated in numerous code camps. Kai was lead of the UI side of the 
+        IBM VisualAge Micro Edition in its later days and authored its version 
+        and configuration management client component. Prior to joining OTI, and 
+        then IBM, he co-authored Beyond-SNiFF, a distributed, service-based IDE 
+        for large scale C++ projects commercialized as SNiFF+.</p>
+	]]>
 	</bio>
 
-	<affiliation> <![CDATA[ ]]>
-	</affiliation>
+	<affiliation> IBM </affiliation>
 
 		
 </boardmember>
