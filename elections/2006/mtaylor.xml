@@ -6,9 +6,14 @@
 	<email> mike_taylor@instantiations.com </email>
 	<phone> 503 598-4911 </phone>
 
-	<contact> Instantiations, Inc. 18101 S.W. Boones Ferry Rd., Suite 200 Portland, OR 97224</contact>
+	<contact> <![CDATA[
+		Instantiations, Inc. 18101 <br/>
+		S.W. Boones Ferry Rd., Suite 200 <br/>
+		Portland, OR 97224 <br/>
+		<a href="http://www.instantiations.com/moreaboutmike.htm">http://www.instantiations.com/moreaboutmike.htm</a>
+		]]>
+	</contact>
 	
-	<link>http://www.instantiations.com/moreaboutmike.htm</link>
 
 	<eclipse_affiliation> 
 		Since 1999 my professional life has been focused around Eclipse. Building open 
@@ -51,8 +56,8 @@
 
 	<affiliation><![CDATA[
 		<ul>
-		<li>Instantiations, Inc, provider of WindowBuilder Pro, SWT Designer, and CodePro Analytix. Instantiations </li>
-		is a technology company totally focused on Eclipse. Instantiations has lead the KOI and Pollinate projects.
+		<li>Instantiations, Inc, provider of WindowBuilder Pro, SWT Designer, and CodePro Analytix. Instantiations 
+		is a technology company totally focused on Eclipse. Instantiations has lead the KOI and Pollinate projects.</li>
 		<li>Founding member  of the <a href=" http://www.eclipseplugincentral.com/ContentExpress-display-ceid-2.html">Eclipse Plugin Central Alliance</a>.</li>
 		</ul> ]]>
 	</affiliation>

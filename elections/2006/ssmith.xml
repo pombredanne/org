@@ -20,15 +20,9 @@ Canada T2P 3N4		]]>
 	</contact>
 	
 	<eclipse_affiliation> 
-		I'm a committer and project co-lead of the Dali EJB Object-Relational Mapping Project.  
-		The goal of Dali is to build extensible frameworks and exemplary tools for the definition
-		and editing of Object-Relational (O/R) mappings for EJB 3.0 Entity Beans.  Part
-		of the Java EE 5 specification, the EJB 3.0 spec incorporates the collective 
-		expertise of commercial and open source ORM products 
-		like TopLink and Hibernate as well as that of the JDO and EJB 2.1 CMP communities.  Dali's
-		committers are all from companies involved in the EJB 3.0 specification and all have
-		experience building tools for O/R mapping.  We hope that the availability of Dali in Eclipse
-		will encourage developers to take up the EJB 3.0 spec and Java EE 5.
+		I'm project co-lead of the Dali EJB Object-Relational Mapping Project which is
+		building frameworks and tools for the upcoming EJB 3.0 persistence specification and
+		a product manager with add-in provider Oracle Corp.
 	</eclipse_affiliation>
 	
 	<vision><![CDATA[
@@ -88,8 +82,14 @@ Canada T2P 3N4		]]>
 	</bio>
 
 	<affiliation>
- 		Oracle's business is information--how to manage it, use it, share it, protect it; providing the software and services that let organizations get the most up-to-date and accurate information from their business systems. Oracle's Information Architecture is composed of integrated, standards-based technologies for infrastructure and applications. Our involvement in the Eclipse Foundation and Open Source helps us ensure that we have tooling support using open, readily available components as much as possible to reduce costs, streamline management and maintenance, and increase adaptability for our customers.  That's why Oracle has joined the Eclipse Software Foundation and is leading projects to provide support for Java technologies like JavaServer 
-Faces (JSF), BPEL, and Enterprise JavaBeans 3.0. 		
+ 		Oracle's business is information--how to manage it, use it, share it, protect it; providing the 
+ 		software and services that let organizations get the most up-to-date and accurate information from 
+ 		their business systems. Oracle's Information Architecture is composed of integrated, standards-based 
+ 		technologies for infrastructure and applications. Our involvement in the Eclipse Foundation and Open 
+ 		Source helps us ensure that we have tooling support using open, readily available components as much 
+ 		as possible to reduce costs, streamline management and maintenance, and increase adaptability for our 
+ 		customers.  That's why Oracle has joined the Eclipse Software Foundation and is leading projects to 
+ 		provide support for Java technologies like JavaServer Faces (JSF), BPEL, and Enterprise JavaBeans 3.0. 		
 	</affiliation>
 	
 </boardmember>

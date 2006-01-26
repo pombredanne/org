@@ -1,19 +1,42 @@
 <boardmember id="wli" type="committer">
 	<name>Wenfeng Li</name>
-	<title>Director, Actuate</title>
-	<image> </image>
-	<email> </email>
-	<phone> </phone>
-	<contact> </contact>
-	<eclipse_affiliation> </eclipse_affiliation>
+	<title>Vice President of Product Development, Actuate Corporation </title>
+	<image> wli.jpg </image>
+	<email> wli@actuate.com  </email>
+	<phone> +1-650-281-4713 </phone>
+	<contact> <![CDATA[
+		Actuate Corporation, <br/>
+		701 Gateway Blvd, <br/>
+		South San Francisco, CA, <br/>
+		94404, USA  
+		]]>
+	</contact>
+	<eclipse_affiliation> PMC Lead for the Eclipse BIRT Project  </eclipse_affiliation>
 
-	<vision>  <![CDATA[ ]]>
+	<vision>  <![CDATA[ 
+		As Eclipse becomes more and more successful, many additional projects are being proposed or created 
+		every month. The number and diversity of committers has also increased dramatically. Many committers 
+		find it difficult to keep up with the changes in the community. There isn't enough time to read all the 
+		new project proposals, nor enough time to learn what is happening in other projects, and as a result, 
+		committers find it difficult to interact or engage in in-depth discussion with their counterparts on 
+		other projects.  I would like to work to improve the exchange and flow of information between committers 
+		on different projects to build a better sense of community.  In addition, I would like to provide assistance 
+		to represent the concern and needs from the large (and growing) population of Eclipse committers in Asia.
+	]]>
 	</vision>
 
-	<bio> <![CDATA[ ]]>
+	<bio> <![CDATA[ 
+		Wenfeng Li became an Eclipse committer in 2004. He currently serves as the PMC lead for the Eclipse BIRT 
+		project, responsible for architecture and planning. Wenfeng is also a VP of development at Actuate 
+		Cooperation, where he led the development of Actuate's enterprise reporting product suite. Prior to that, 
+		he was an architect and development manager at MicroStrategy, where he was responsible for the development 
+		of its version 7 Intelligence Server. He is a co-inventor of three patents in business intelligence 
+		technology, and received his bachelor degree in computer science from Tsinghua University in Beijing, China 
+		and his masters degree from University of Maryland at College Park.
+	]]>
 	</bio>
 
-	<affiliation> <![CDATA[ ]]>
+	<affiliation> Actuate Corporation
 	</affiliation>
 
 		
