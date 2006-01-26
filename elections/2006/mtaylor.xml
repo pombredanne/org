@@ -9,8 +9,7 @@
 	<contact> <![CDATA[
 		Instantiations, Inc. 18101 <br/>
 		S.W. Boones Ferry Rd., Suite 200 <br/>
-		Portland, OR 97224 <br/>
-		<a href="http://www.instantiations.com/moreaboutmike.htm">...more about Mike</a>
+		Portland, OR 97224 
 		]]>
 	</contact>
 	
@@ -51,7 +50,8 @@
 		<li> Leads company dedicated to Eclipse. Instantiations has lead eclipse open source projects, 
 		contributed code, participated in forming the Foundation and lead numerous Eclipse-focused committees. </li>
 		<li> Over 25 years of experience in the software industry.</li>
-		</ul> ]]>
+		</ul> <br/><br/>
+		<a href="http://www.instantiations.com/moreaboutmike.htm">...more about Mike</a>]]>
 	</bio>
 
 	<affiliation><![CDATA[
