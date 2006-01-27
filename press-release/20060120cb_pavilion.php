@@ -34,7 +34,7 @@ complement the spirit of the Eclipse community. Business Objects is a co-sponsor
 Pavilion.  Please email your nominations to <a HREF="MAILTO:osp.nominations@eclipse.org">osp.nominations@eclipse.org</a> and include project name, contact 
 information and a brief explanation how the project has contributed to the open source community.  Although not a 
 requirement for acceptance, be sure to include any relationship the nomination has to the Eclipse Ecosystem! 
-Nominations will close January 27, 2006.</p> 
+Nominations will close February 3, 2006.</p> 
 
 <p>Thanks to the generous contribution of <a href="http://www.businessobjects.com" target="_blank">Business Objects</a>, 
 scholarships will be available to help offset the costs for the participants to attend EclipseCon.  Up to 10 
