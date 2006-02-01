@@ -38,8 +38,10 @@
 		for individuals, and 2) awards for technologies and 
 		products.   The awards will be presented at 
 		EclipseCon. </p>
-		
-		<p><a href="awards_nominations.php">Nominations</a> are now open for all of the following awards. </p>
+	
+	<p>Nominations are now closed.   The current list of nominations for the Technology 
+	Awards is available <a href="technology_nominations.php">here</a>.  Voting for the individual 
+	awards will commence February 10. </p>
 	<h3>Individual Awards</h3>
 		<p> <ol>
 		<li><strong>Top contributor</strong> - Recognizes an individual (non-committer) 

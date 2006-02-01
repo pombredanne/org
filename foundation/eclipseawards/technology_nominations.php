@@ -41,11 +41,13 @@ ob_start();
 			<ul>
 				<li><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig)</a>
 				<li><a href="http://ibpm.bjoernsen.de/kalypso?L=1">Kalypso</a>
-				<li><a href="http://www.wiredreach.org">WiredReach</a></ul>
+				<li><a href="http://www.wiredreach.org">WiredReach</a>
 				<li><a href="http://jcommander.sourceforge.net ">JCommander</a>
-				<li><a href="http://gumtree.sourceforge.net/">Gumtree</a></ul>
-				<li><a href="http://jlibrary.sourceforge.net/">jLibrary</a></ul>
-				<li><a href="http://www.rssowl.org">RSSOwl</a></ul>
+				<li><a href="http://gumtree.sourceforge.net/">Gumtree</a>
+				<li><a href="http://jlibrary.sourceforge.net/">jLibrary</a>
+				<li><a href="http://www.rssowl.org">RSSOwl</a>
+				<br>
+			</ul>
 		</div>		
 		<div class="homeitem3col">
 
