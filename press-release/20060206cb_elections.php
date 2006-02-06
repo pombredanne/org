@@ -25,7 +25,7 @@
 	Voting for the Eclipse Foundation Board Representative Elections for the committer and 
 	add-in provider communities begins on February 13th.   Please review the <a href="http://www.eclipse.org/org/elections/nominees.php">
 	candidates' statements</a> and participate in discussions on the eclipse.foundation newsgroup 
-	(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).)  
+	(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).  
 	You'll find more information about the election process on the <a href="http://www.eclipse.org/org/elections/">elections page</a>. 
 	Remember, voting ends on February 24th.   <br /> <br /> <br /><br /> <br /> <br />
 </div>
