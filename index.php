@@ -97,6 +97,13 @@
 	      	<p></p>
       </div>
       <div id="rightcolumn">
+        <div class="sideitem">
+			<h6>2006 Foundation Elections</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/org/elections/">Board Representative Elections</a> <br />Jan 27-Feb 24</li>
+			</ul>
+		</div>
+      
       	<div class="sideitem">
 			<h6>Thank you!</h6>
 			<p>Our thanks to <a href="foundation/thankyou.php">HP, IBM, Intel, Magma and Novell</a> for generous donations to our website infrastructure.</p>
