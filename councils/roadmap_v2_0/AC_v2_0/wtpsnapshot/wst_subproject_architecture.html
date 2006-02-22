@@ -1,0 +1,344 @@
+<!-- ----------------------------------------------------------------------------- -->
+<!-- 
+Project: Web Tooling Platform (WTP) Project
+
+Contact: David Williams (david_williams@us.ibm.com)
+-->
+<!-- ----------------------------------------------------------------------------- -->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Web Standard Tools (WST)</title>
+<meta
+	http-equiv="Content-Type"
+	content="text/html; charset=iso-8859-1" />
+
+<link
+	rel="stylesheet"
+	href="theme/eclipse_style.css"
+	type="text/css" />
+
+
+</head>
+<body>
+ 
+<div id="page_header">Web Standard Tools (WST)</div>
+<div id="page_sub_header">Project architecture</div>
+
+<div id="section_header">Project description</div>
+<div class="content">
+<p><a href="http://www.eclipse.org/webtools/wst/main.xml">Web Standard
+Tools</a> is a subproject of <a
+	href="http://www.eclipse.org/webtools/main.html">Web Tooling Platform
+(WTP) Project</a>. It aims to provide common infrastructure available to
+any Eclipse-based development environment targeting Web-enabled
+applications. Within scope will be tools for the development of
+three-tier (presentation, business and data logic) and server
+publication of corresponding system artifacts. Outside scope will be
+language or web framework specific technology, which will be left to
+other subprojects like the J2EE Web Tools subproject.</p>
+<p>Tools provided will include editors, validators and document
+generators for artifacts developed in a wide range of standard languages
+(for example, HTML/XHMTL, Web services, XQueries, SQL, etc.) Supporting
+infrastructure will likely comprise a specialized workbench supporting
+actions such as publish, run, start and stop of Web application code
+across target server environments.</p>
+<p>Refer to the <a href="wtp_project_main.html">WTP Project overview</a> for
+additional WTP Project information. You can click on the image below for
+additional information for the subsystems of WST</p>
+</div>
+
+<!-- Remove this section if you do not have an additional diagram -->
+
+<div id="section_header">Project architecture</div>
+
+<div class="image_map"><img
+	src="images/wstsubsystems.jpg"
+	width="607"
+	height="545"
+	usemap="#wstsubsystems" /><map name="wstsubsystems" id="wstsubsystems">
+	<area
+		shape="rect"
+		href="#Common"
+		coords="56,445,207,530" />
+	<area
+		shape="rect"
+		href="#WSTServer"
+		coords="419,447,587,524" />
+	<area
+		shape="rect"
+		href="#WebProject"
+		coords="398,273,577,358" />
+	<area
+		shape="rect"
+		href="#Data"
+		coords="233,273,384,360" />
+	<area
+		shape="rect"
+		href="#XML"
+		coords="49,280,199,361" />
+	<area
+		shape="rect"
+		href="#WebServices"
+		coords="338,125,509,221" />
+	<area
+		shape="rect"
+		href="#WebResources"
+		coords="81,122,296,217" />
+	<area
+		shape="default"
+		nohref="nohref" />
+</map><span class="img_caption">Figure 1.WST Subsystems</span></div>
+<div id="section_header">Subsystem descriptions</div>
+<div class="content">
+<dl id="subsys_list">
+	<dt><a name="BuildAndAssembly">Build and Assembly</a></dt>
+	<dd>This subsystem includes our build and test component, modeled after
+	the base Eclipse build and test components.
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name">org.eclipse.wtp.releng</td>
+			<td headers="desc">Build infrastructure, map files</td>
+		</tr>
+		<tr>
+			<td headers="name">performance</td>
+			<td headers="desc">custom performance tests</td>
+		</tr>
+		<tr>
+			<td headers="name">test</td>
+			<td headers="desc">junit test infrastructure</td>
+		</tr>
+	</table>
+	</dd>
+
+	<dt><a name="Common">Common</a></dt>
+	<dd>Components in this subsystem have no dependancies on other
+	webtooling components and are not specific to web tooling
+	functionality, but are needed by other web tooling components.
+	<p>This subsystem has the following components:</p>
+	<table
+		id="tbl_info"
+		id="ui_table">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#wstcommon">Common
+			Component</a></td>
+			<td headers="desc">Extensible Navigator, Tabbed Property View,
+			Snippets View, Extensible URI Resolver. The component lead is Craig
+			Salter.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#validation">Validation
+			Component</a></td>
+			<td headers="desc">Infrastructure to handle preferences and to manage
+			running of validators. The component lead is Chuck Bridgham.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#j2ee">Command
+			Component</a></td>
+			<td headers="desc">Infrastructure to allow command environment. The
+			component lead is Chris Brealey.</td>
+		</tr>
+	</table>
+	</dd>
+	<dt><a name="WSTServer">Server Subsystem</a></dt>
+	<dd>This subsystem has components associated with serving, browsing,
+	and monitoring web resources.
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#wstserver">Server</a></td>
+			<td headers="desc">Basic server support (HTTP). The component lead is
+			Tim deBoer.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#internet">Internet</a></td>
+			<td headers="desc">Browser, TCP/IP Monitor, and Preferences needed
+			for internet developement. The component lead is Tim deBoer.</td>
+		</tr>
+	</table>
+	</dd>
+	<dt><a name="Data">Data Subystem</a></dt>
+	<dd>Models and UI needed for data base access and queries.
+	<p>This subsystem is currently planned to be seperately installable via
+	update manager for the convenience of other project neededing to re-use
+	it (e.g. BIRT).</p>
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#rdbsql">RDB/SQL</a></td>
+			<td headers="desc">The rdb component contains the relational database
+			model which is derived from RDBModel -
+			Based on SQL 99/2003</a> , RDBModel Java Docs</a>
+			, vendor-specific database definitions and relational utilities. It
+			also provides a database server explorer with the ability to connect
+			to databases and sample data. A SQLScrapbook editor allows you to
+			enter and execute SQL, displaying the results in an Output view. The
+			co-leads are Der Ping Chou and Sheila Sholars.</td>
+		</tr>
+	</table>
+	</dd>
+	<dt><a name="XML">XML</a></dt>
+	<dd>This Subsystem contains models, UI, and Tools, for XML, DTD, and
+	XML Schema.
+	<p>This subsystem is currently planned to be seperately installable via
+	update manager for the convenience of users and other project neededing
+	to re-use it (e.g. Voice XML).</p>
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#xml">XML</a></td>
+			<td headers="desc">The xml component contains the XML editor, model,
+			views, wizards, etc. It contains an incremental, fault tolerant DOM
+			parser, which is also the basis of several other similar models in
+			HTML and JSP. The component lead is David Williams.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#dtd">DTD</a></td>
+			<td headers="desc">The dtd component contains the DTD editor, model,
+			views, wizards, etc. The component lead is Nitin Dahyabhai.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#xmlschema">XML
+			Schema</a></td>
+			<td headers="desc">The xsd component contains the XSD editor, views,
+			wizards, etc. The component lead is Craig Salter.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#sse">SSE</a></td>
+			<td headers="desc">Infrastructure to parse, model, and edit
+			structured text. The component lead is David Williams.</td>
+		</tr>
+	</table>
+	</dd>
+	<dt><a name="WebServices">Web Services Subsystem</a></dt>
+	<dd>Models, UI, and Tools to support development of Web Services.
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#wstws">WS</a></td>
+			<td headers="desc">The ws component contains the Web Service
+			explorer, SOAP, UDDI, and WSIL models, and views. The component lead
+			is Chris Brealey.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#wsdl">WSDL</a></td>
+			<td headers="desc">The wsdl component contains the WSDL editor,
+			model, views, wizards, etc. The component lead is Craig Salter.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#wsi">WSI</a></td>
+			<td headers="desc">The wsi component contains WS-I Test Tools which
+			will be repatriated from the WSVT project. The component lead is
+			Craig Salter.</td>
+		</tr>
+	</table>
+	</dd>
+	<dt><a name="WebResources">Web Resources Subsystem</a></dt>
+	<dd>Models, UI, and Tools for creating and editing HTML, CSS, and
+	JavaScript
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#html">HTML</a></td>
+			<td headers="desc">The html component contains the HTML/XHTML editor,
+			model, views, wizards, etc. The component lead is David Williams.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#css">CSS</a></td>
+			<td headers="desc">The css component contains the CSS editor, model,
+			views, wizards, etc. The component lead is David Williams.</td>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#javascript">JavaScript</a></td>
+			<td headers="desc">The javascript component contains the JavaScript
+			editor, model, views, wizards, etc. The component lead is David
+			Williams.</td>
+		</tr>
+	</table>
+	</dd>
+	<dt><a name="WebProject">Web Project Subsystem</a></dt>
+	<dd>Contains models and UI for "static" web projects.
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name"><a href="http://www.eclipse.org/webtools/wst/components.xml#web">Web</a></td>
+			<td headers="desc">The web component contains models, natures and
+			builders for Web projects. The component lead is Chuck Bridgham.</td>
+		</tr>
+	</table>
+	</dd>
+
+	<!-- template version to use in above table
+	<dt>&lt;subsystem&gt;</dt>
+	<dd>&lt;descriptions&gt;
+	<p>This subsystem has the following components:</p>
+	<table id="tbl_info">
+		<tr>
+			<th id="name">Name</th>
+			<th id="desc">Description</th>
+		</tr>
+		<tr>
+			<td headers="name">org.eclipse.wtp.releng</td>
+			<td headers="desc">Build infrastructure, map files</td>
+		</tr>
+		<tr>
+			<td headers="name">performance</td>
+			<td headers="desc">custom performance tests</td>
+		</tr>
+		<tr>
+			<td headers="name">test</td>
+			<td headers="desc">junit test infrastructure</td>
+		</tr>
+	</table>
+	</dd>
+-->
+
+
+</dl>
+</div>
+
+<div class="section_divider"></div>
+<div class="content">
+<div id="copyright">See <a
+	href="http://www.eclipse.org/legal/termsofuse.html">Terms of Use</a>.
+</div>
+</div>
+</body>
+</html>
