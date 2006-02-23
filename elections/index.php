@@ -50,6 +50,7 @@
 	    <h3>$year Elections</h3>
 		<p>&nbsp;&nbsp;Information concerning the 2006 elections is contained within the links below:</p>
 		<ul>
+		<li><font size="+1"><b><a href="/vote2006">Vote here!</a></b></font></li>
 		<li>The <a href="nominees.php">candidates</a> for the 2006 election.</li>
 		<li>The <a href="keydates.php">key dates</a> for the 2006 election.</li>
 		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
