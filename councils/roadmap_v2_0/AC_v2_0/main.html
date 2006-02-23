@@ -4,7 +4,7 @@ Project: Eclipse Test and Performance Tools Platform Project
 --><!-- ----------------------------------------------------------------------------- -->
     
     <title></title><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <link rel="stylesheet" type="text/css" href="draft_style.css"></head>
+    <link rel="stylesheet" type="text/css" href="draft_style.css">
 
 
 
@@ -15,6 +15,11 @@ background-image: url('../draft.gif');
 background-repeat: repeat-y
 }
 </style>
+</head>
+
+
+
+
   <body>
     <table border=0 cellspacing=5 cellpadding=2 width="100%" >
   <tr> 
@@ -23,58 +28,127 @@ background-repeat: repeat-y
     <td width="28%"><img src="../../../../images/Idea.jpg" height=86 width=120></td>
   </tr>
 </table>
-<table border=0 cellspacing=5 cellpadding=2 width="100%" >
-	<tr> 
-  	</tr>
-	<tr bgcolor="#999999">
-    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">eclipse projects  </font></strong></td>
-	</tr>
-</table>
       <p>
-      The
+      &nbsp;The
 <img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="../../documents/Eclipse Development Process 2003_11_09 FINAL.pdf">Eclipse Development Process</a> calls for the creation of three Councils: Requirements, Planning and Architecture. Together, these Councils are responsible for the creation and maintenance of the Eclipse Roadmap. When approved by the Board, the intent of the Eclipse Roadmap is to communicate the directions in which the Eclipse community will be taking its projects over the next year. New projects started during the life of a Roadmap are expected to be consistent and complementary to the Roadmap.</p>
       
-<p>This document is the first draft of the Eclipse Architecture Plan. We welcome 
+<p>This document is year two of the Eclipse Architecture Plan. We welcome 
   your feedback on the <a href="news://news.eclipse.org/eclipse.foundation">Eclipse 
   Foundation Newsgroup</a>. </p>
-      <p>The Eclipse community is organized into six top-level projects, each of which has provided its detailed architecture using the links below. Alternatively, you may use the image map below to navigate the Eclipse architecture.</p>
-      <ul>
-         <li>
-<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="http://www.eclipse.org/eclipse/temp_eclipse_platform_tlp_main.html">Platform Project</a></li>
-         <li>
-<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="http://www.eclipse.org/tools/architecture/">Tools Project</a></li>
-         <li>
-<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="http://www.eclipse.org/tptp/home/architecture/arch_main.html">Test and Performance Tools Platform Project</a></li>
-         <li>
-<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="wtpsnapshot/wtp_project_architecture.html">Web Tools Platform Project </a></li>
-         <li>
-<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="birt/BIRT_architecture_plan.html">Business Intelligence and Reporting Tools Project</a> </li>
-         <li>
-<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="Technology_main.htm">Technology Project</a></li>
-      </ul>
-      <p>Other projects may be added over time. </p>
+      <p>The Eclipse community is currently organized into nine top-level projects, the
+      architecture of each is described below. Most top-level projects have
+      additional architecture information on their project websites.</p>
     
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
-	<tr> 
-  	</tr>
 	<tr bgcolor="#999999">
-    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">project architecture</font></strong></td>
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Overall
+          Architecture</font></strong></td>
 	</tr>
 </table>
-    <div class="content">
-      <p>Click on the image map below (<img border="0" src="../PC_v2_0/external.gif" width="20" height="16">) to navigate to the different project architectures.</p>
-      <p><img src="arch1.jpg" alt="" width="673" height="446" border="0" usemap="#tptp_arch_Map" class="image_map">
-        <map name="tptp_arch_Map">
-        <area shape="rect" alt="Platform project" coords="0,266,697,600" href="http://www.eclipse.org/eclipse/temp_eclipse_platform_tlp_main.html#Platform">
-        <area shape="rect" alt="JavaDevTools" coords="0,93,133,179" href="http://www.eclipse.org/eclipse/temp_eclipse_platform_tlp_main.html#JDT">
-        <area shape="rect" alt="CDevTools" coords="134,93,263,180" href="http://www.eclipse.org/tools/architecture/cdt.html">
-        <area shape="rect" alt="Frameworks" coords="0,183,697,262" href="http://www.eclipse.org/tools/architecture/">
-        <area shape="rect" alt="TPTP" coords="266,93,412,180" href="http://www.eclipse.org/tptp/home/architecture/arch_main.html">
-        <area shape="rect" alt="WTP" coords="414,93,535,179" href="wtpsnapshot/wtp_project_architecture.html">
-        <area shape="rect" alt="BIRT" coords="538,92,704,178" href="birt/BIRT_architecture_plan.html">
-        <area shape="rect" alt="ecosystem" coords="0,0,695,87" href="http://www.eclipse.org/community/index.html">
-        </map>    
+    <p>The overall architecture of the Eclipse projects is driven by the elegant
+    plug-in mechanism of the underlying Eclipse Platform. Each project
+    contributes a variety of plug-ins that extend the basic functions of the
+    platform and tailor it into a useful environment for that project's users:
+    both API users and GUI users. A key feature of the Eclipse architecture is
+    that each plug-in not only extends its pre-requisites but also contributes
+    additional extension points for other plug-ins. In this way, each Eclipse
+    project provides an extensible framework for the Eclipse ecosystem to build
+    upon, to use, and to commercialize.</p>
+    <p>
+      <img src="arch1.jpg" alt="" width="673" height="446" border="0">
     </p>
-    </div>
+    <p>The Eclipse community plans to have a <a href="/projects/callisto.php"> Callisto Simultaneous Release</a> in June 2006, whose goal is to release ten major Eclipse projects at the same
+    time (BIRT, CDT, DTP, EMF, GEF, GMF, Platform, TPTP, WTP, VE). We are doing this simultaneous release to support the needs of the ecosystem members who integrate Eclipse frameworks into their own software and
+    products. The architectural support for this includes (1) adopting ICU4J as
+    the standard international support, (2) using the &quot;capability&quot;
+    feature of the Eclipse platform to coordinate contributions to/avoid
+    conflicts in the menus and tool bars, and (3) to use an Eclipse update
+    manager site for unified distribution.</p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Eclipse
+          Platform Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/eclipse/">
+<img border="0" src="../PC_v2_0/external.gif" width="20" height="16"> Platform
+    project home page</a></p>
+    <p><img border="0" src="platform.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Tools
+          Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/tools/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    Tools project home page</a>. The Tools top-level project is somewhat unique
+    in that it is composed of six independent sub-projects.</p>
+    <p><img border="0" src="tools.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Web
+          Tools Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/webtools/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    Web Tools project home page</a>.&nbsp;</p>
+    <p><img border="0" src="wtp.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Test
+          &amp; Performance Tools Platform Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/tptp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    Test &amp; Performance Tools Platform project home page.</a></p>
+    <p><img border="0" src="tptp.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Business
+          Intelligence and Reporting Tools Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/birt/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    Business Intelligence and Reporting Tools project home page.</a></p>
+    <p><img border="0" src="birt.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Data
+          Tools Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/birt/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    Data Tools project home page.</a></p>
+    <p><img border="0" src="dtp.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Device
+          Software Development Platform Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/dsdp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    Device Software Development Platform project home page.</a></p>
+    <p><img border="0" src="dsdp.gif" width="600" height="400"></p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">SOA
+          Tools Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p><a href="/stp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
+    SOA Tools project home page.</a> The SOA Tools Project is a brand-new
+    project as of the writing of this Roadmap and has not yet formulated an
+    architecture.</p>
+<table border=0 cellspacing=5 cellpadding=2 width="100%" >
+	<tr bgcolor="#999999">
+    	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Modeling
+          Top-Level Project</font></strong></td>
+	</tr>
+</table>
+    <p>The Modeling top-level project is currently in the proposal phase, but is
+    expected to be approved in the near future. The model top-level project will
+    have the following architecture:</p>
+    <p><img border="0" src="../../../../../../Desktop/gmf.gif" width="960" height="720"></p>
+    <p><i>February 22, 2006</i></p>
 
 </body></html>
