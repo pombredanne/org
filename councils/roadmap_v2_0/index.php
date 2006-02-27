@@ -20,6 +20,12 @@
 	$html = <<<EOHTML
 
     <div id="maincontent">
+    <style> 
+		body {   
+		background-image: url('./draft.gif'); 
+		background-repeat: repeat-y
+		}
+	</style>
 	<div id="midcolumn">
         <h1><a name="top"></a>$pageTitle</h1>
         <blockquote>
@@ -66,7 +72,7 @@
 		provides a brief overview of the scope of future projects anticipated
 		within the Eclipse open source community. <br>
 		</li>
-		<li>The <a href="themes.html">Themes and Priorities</a> which has been
+		<li>The <a href="themes_v2_0.html">Themes and Priorities</a> which has been
 		developed by the Eclipse Requirements Council. <br>
 		</li>
 		<li>The <a href="PC_v2_0/main.html">Platform Release Plan</a> which has been
