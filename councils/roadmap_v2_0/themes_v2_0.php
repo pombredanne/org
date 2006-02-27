@@ -33,7 +33,6 @@
 			<li><a href="#intro">Introduction</a></li>
 			<li><a href="#principles">Fundamental Principles</a></li>
 			<li><a href="#tp">Themes and Priorities</a></li>
-			<li><a href="#appendix">Appendix</a></li>
 			<li><a href="#contributors">Contributors</a></li>
 			<li><a href="#acknowledgements">Acknowledgements</a></li>
 		</ul>
@@ -399,74 +398,6 @@
 	<li>Using an open and transparent process, create, maintain and deliver language packs translated into multiple languages in a timely manner.  The languages to consider are: English, Simplified Chinese, Traditional Chinese, Japanese, French, German, Spanish.</li>
 	<li>Every project should make a statement on their accessibility compliance.  In the U.S., this means Section 508 compliance; in the European Union, this is the Web Accessibility Initiative of the World Wide Web Consortium (W3C).</li>
 	</ul>
-	<p align = right><small><a href="#top">back to top</a></small></p>
-
-	<hr>
-	<h3><a name="appendix"></a>Appendix</h3>
-
-	<p>This section contains valuable inputs which were received by the
-	Requirements Council but which are out of scope for this document. Our
-	intent with this document is to focus on common themes for development
-	across the Eclipse projects. These comments, although very helpful, are
-	primarily requirements of the Eclipse projects laid upon their own build
-	infrastructure and also upon the IT infrastructure provided by the
-	Eclipse Foundation.</p>
-	<h4>Eclipse Development Process Improvements</h4>
-	<h5>Robust distributed build processes:</h5>
-	<p>Improve build processes to enable multiple organizations to build and
-	test for a variety of hardware platforms, operating systems, JVMs, and
-	other virtual machines. Work out a better process for independent
-	contributors to synchronize contributions with the PMCs and core
-	development teams. Today the process for synching with project teams is
-	somewhat ad hoc and does not account for contributions that come in
-	outside of the core build cycles. It&rsquo;s also difficult for
-	contributors who are working independently of the core development team
-	to get their code contributions built and tested prior to public
-	availability on the eclipse.org web site.</p>
-	<h5>Release Engineering:</h5>
-	<ul>
-		<li>Improve the automated test suites. This includes more complete
-		coverage for the Platform as well as ensuring all other subprojects
-		have a set of automated test cases. TPTP currently uses its own
-		infrastructure to define the tests and publish results to a CVS
-		repository on a regular weekly basis. Perhaps, this infrastructure can
-		be leveraged across Eclipse.</li>
-		<li>Ensure all subprojects are available from the Eclipse update
-		manager site.</li>
-		<li>Provide a utility to help assess whether or not a plug-in is
-		&ldquo;API clean&rdquo;</li>
-	</ul>
-	<h5>Increase roadmap visibility:</h5>
-	<p>Make Eclipse project roadmaps visible, up-to-date and longer. The
-	Eclipse community needs clearer visibility on what features are coming
-	over a 12 month time horizon. This will allow Eclipse developers to
-	better plan contributions, Eclipse Add-in providers to better determine
-	where to innovate, and Eclipse users to better determine whether their
-	requirements will be satisfied by Eclipse. Today many available roadmaps
-	are out-of-date and provide no more than 3 months of visibility.</p>
-	<h5>Project Start-up Guidelines:</h5>
-	<p>When new projects are started in the Eclipse community, guidelines
-	and &quot;cheat sheets&quot; are needed to help those projects during
-	the startup process with regards to required Eclipse Foundation
-	infrastructure and Eclipse community infrastructure. The overall goal of
-	these guidelines is to enable new projects to come online faster and
-	easier, and to reduce the overhead on existing project members to help
-	in this process. The guidelines should include specific actions and how
-	these should be accomplished (for example, who to contact and what
-	information is needed in order to get the required CVS repository up and
-	running). Topics would include:</p>
-	<ul>
-		<li>Process for establishing committers and completing all required
-		legal steps</li>
-		<li>Code management recommendations and steps</li>
-		<li>Creating a CVS project repository for the project</li>
-		<li>Project web site pages recommendations, structure conventions, and
-		update process</li>
-		<li>Build process recommendations and steps</li>
-		<li>Community infrastructure recommendations and steps (e.g.
-		newsgroups)</li>
-	</ul>
-	
 	<p align = right><small><a href="#top">back to top</a></small></p>
 
 	<hr>
