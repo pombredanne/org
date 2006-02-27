@@ -4,7 +4,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "2006 Eclipse Roadmap";
-	$pageKeywords	= "legal, documents, about, foundation";
+	$pageKeywords	= "roadmap, projects, strategy, documents, about, foundation";
 	$pageAuthor		= "Mike Milinkovich, Nov. 23, 2005";
 	
 	# Add page-specific Nav bars here
@@ -27,8 +27,8 @@
 		}
 	</style>
 	<div id="midcolumn">
-        <h1><a name="top"></a>$pageTitle</h1>
-        <blockquote>
+    <h1><a name="top"></a>$pageTitle</h1>
+    <blockquote>
         <ul>
 			<li><a href="#intro">Introduction</a></li>
 			<li><a href="#background">Background</a></li>
@@ -37,7 +37,7 @@
 			<li><a href="#future">Future Directions</a></li>
 			<li><a href="#process">The Roadmap Process</a></li>				
 		</ul>
-		</blockquote>
+	</blockquote>
 	<hr>
 	<h3><a name="intro"></a>Introduction</h3>
 
@@ -72,7 +72,7 @@
 		provides a brief overview of the scope of future projects anticipated
 		within the Eclipse open source community. <br>
 		</li>
-		<li>The <a href="themes_v2_0.html">Themes and Priorities</a> which has been
+		<li>The <a href="themes_v2_0.php">Themes and Priorities</a> which has been
 		developed by the Eclipse Requirements Council. <br>
 		</li>
 		<li>The <a href="PC_v2_0/main.html">Platform Release Plan</a> which has been
@@ -112,6 +112,7 @@
 	</em></p>
 	</blockquote>
 	<p align = right><small><a href="#top">back to top</a></small></p>
+	
 	<hr>
 	<h3><a name="strategic"></a>Strategic Goals</h3>
 	<p>The following are the strategic goals of Eclipse.</p>
