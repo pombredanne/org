@@ -425,6 +425,10 @@
 		<td>Ericsson AB</td>
 	</tr>
 	<tr>
+		<td>Martin Klaus</td>
+		<td>Wind River</td>
+	</tr>
+	<tr>
 		<td>Philip Ma</td>
 		<td>Hewlett-Packard Company</td>
 	</tr>
