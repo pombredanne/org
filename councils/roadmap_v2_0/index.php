@@ -78,7 +78,7 @@
 		<li>The <a href="PC_v2_0/main.html">Platform Release Plan</a> which has been
 		developed by the Eclipse Planning Council.<br/>
 		</li>
-		<li>The <a href="AC_v2_0/main.html">Architecture Plan</a> which has been
+		<li>The <a href="AC_v2_0/index.php">Architecture Plan</a> which has been
 		developed by the Eclipse Architecture Council<br/>
 		</li>
 	</ol>
