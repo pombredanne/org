@@ -2393,9 +2393,1496 @@ reduction relative to backlog at the end of&nbsp; previous release).</p>
 		bugs&quot; tabs.</p>
 	</blockquote>
   
-  <h2>Business Intelligence and Reporting tools (BIRT))</h2>
+		<h2><a name="top"></a>BIRT 2.1 Project Plan</h2>
+
+
+<p class="subhead">Last revised January 30, 2006 <br>
+</p>
+
+<h3><a name="Introduction"></a>Introduction</h3>
+
+<p>This document lays out the feature and API set for the next feature
+release of the Eclipse BIRT project after 2.0, designated release 2.1.</p>
+<ul>
+  <li><a href="#Deliverables">Release deliverables</a></li>
+  <li><a href="#Milestones">Release milestones</a></li>
+
+  <li><a href="#TargetOperatingEnvironments">Target operating
+  environments</a></li>
+  <li><a href="#Compatibility">Compatibility with previous releases</a></li>
+  <li><a href="#Themes">Themes</a></li>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Defects">Defects</a></li>
+</ul>
+
+<p>Plans do not materialize out of nowhere, nor are they entirely static. To
+ensure the planning process is transparent and open to the entire Eclipse
+community, plans are posted in an embryonic form and then revised from time
+to time throughout the release cycle.</p>
+
+<p>The first part of the plan deals with the important matters of release
+deliverables, release milestones, target operating environments, and
+release-to-release compatibility. These are all things that need to be clear
+for any release, even if no features were to change.</p>
+
+<p>The remainder of the plan consists of plan items for the projects under
+the Eclipse BIRT project. Each plan item covers a feature or API that is to
+be added, or some aspect that is to be improved. Each plan item has its own
+entry in the Eclipse bugzilla database, with a title and a concise summary
+(usually a single paragraph) that explains the work item at a suitably high
+enough level so that everyone can readily understand what the work item is
+without having to understand the nitty-gritty detail.</p>
+
+<p>Please send comments about this draft plan to the <a
+href="mailto:birt-dev@eclipse.org">BIRT Developer</a> mailing list.</p>
+
+<h3><a name="Deliverables"></a>Release deliverables</h3>
+
+<p>In order to improve the end user experience of downloading and installing
+BIRT, the release deliverables will be revised. Details will become available
+as progress is made on this project.</p>
+
+<h3><a name="Milestones"></a>Release milestones</h3>
+
+<p>The Eclipse BIRT 2.1 release milestones will be synchronized with the
+Eclipse Callisto simultaneous release. The first BIRT 2.1 milestone will be
+designated M5 in order to synchronize with the Callisto simultaneus release
+numbering. All release deliverables will be available for download as soon as
+the release has been tested and validated in the target operating
+configurations listed below.</p>
+
+<p>Release milestones:</p>
+<ul>
+  <li>Friday, March 3, 2006 BIRT 2.1 M5</li>
+  <li>Friday, April 7, 2006 BIRT 2.1 Release Candidate 0</li>
+
+  <li>Friday, April 14, 2006 BIRT 2.1 Release Candidate 1</li>
+  <li>Friday, April 28, 2006 BIRT 2.1 Release Candidate 2</li>
+  <li>Friday, May 12, 2006 BIRT 2.1 Release Candidate 3</li>
+  <li>Friday, May 26, 2006 BIRT 2.1 Release Candidate 4</li>
+  <li>Friday, June 16, 2006 BIRT 2.1 Release Candidate 5</li>
+  <li>Wednesday, June 28, 2006 BIRT 2.1 Release Candidate 6</li>
+
+</ul>
+Our target is to complete and release BIRT 2.1 with the Callisto simultaneous
+release, currently targeted for late June 2006.
+
+<p>For information about new features assigned to each milestone please refer
+to the <a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
+bugzilla database will be updated on an ongoing basis as the plan
+progresses.</p>
+
+<h3><a name="TargetOperatingEnvironments"></a>Target Operating
+Environments</h3>
+
+<p>In order to remain current, each release of an Eclipse project targets
+reasonably current versions of underlying operating environments and other
+Eclipse projects on which it depends. </p>
+
+<p>Most of Eclipse, and all of BIRT, is &#8220;pure&#8221; Java&#8482; code and has no direct
+dependence on the underlying operating system. For BIRT, the chief dependence
+is on the Eclipse Platform, Graphical Editor Framework (GEF), Modeling
+Framework (EMF), and on the Java 2 Platform that runs it. </p>
+
+<p>The Eclipse BIRT 2.1 release depends on the following compatibility
+stack:</p>
+<b>BIRT 2.1 Reference Stack for Eclipse 3.2</b>
+<ul>
+  <li>Java 2 platform Java Development Kit (JDK) 1.4.2</li>
+  <li>Eclipse Platform Runtime Binary 3.2</li>
+  <li>Graphical Editor Framework (GEF) Runtime 3.2</li>
+  <li>Eclipse Modeling Framework (EMF) 2.2</li>
+
+</ul>
+
+<p>The Eclipse Platform and BIRT run in a variety of operating environments.
+Testing is focused on a handful of popular <span class="header">combinations
+of operating system and Java 2 Platform; these are our <em>reference
+platforms</em>. Eclipse BIRT undoubtedly runs fine in many operating
+environments beyond the reference platforms we test. However, since we do not
+systematically test them we cannot vouch for them. Problems encountered when
+running Eclipse BIRT on non-reference platforms that cannot be recreated on
+any reference platform will be given lower priority than problems with
+running Eclipse BIRT on a reference platform.</span></p>
+
+<p>For BIRT 2.1, the project team plans to tests and validate the following
+reference platforms:</p>
+
+<table border="1">
+  <tbody>
+    <tr bgcolor="#CCCCCC">
+      <th colspan="4">
+
+        <div align="center">
+        <b><font size="+1">Eclipse BIRT Report Framework 2.1 and Eclipse BIRT
+        RCP Report Designer 2.1 Reference Platforms</font></b></div>
+      </th>
+    </tr>
+    <tr>
+      <td width="205"><b>Operating system</b></td>
+      <td width="76"><b>Processor architecture</b></td>
+
+      <td width="59"><b>Window system</b></td>
+      <td width="453"><b>Java 2 Platform</b></td>
+    </tr>
+    <tr>
+      <td width="205">Microsoft Windows XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+
+      <td>Sun Java 2 Standard Edition, version 1.4.2</td>
+    </tr>
+    <tr>
+      <td width="205">Microsoft Windows 2000</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2</td>
+
+    </tr>
+    <tr>
+      <td width="205">Microsoft Windows Server 2003</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2</td>
+    </tr>
+
+    <tr>
+      <td width="205">Red Hat Enterprise Linux WS 3.0</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2</td>
+    </tr>
+  </tbody>
+
+</table>
+<br>
+
+
+<table border="1">
+  <tbody>
+    <tr bgcolor="#CCCCCC">
+      <th colspan="4">
+        <div align="center">
+        <b><font size="+1">Eclipse BIRT Runtime 2.1 and Eclipse BIRT Charts
+        2.1 Reference Platforms</font></b></div>
+      </th>
+
+    </tr>
+    <tr>
+      <td width="205"><b>Operating system</b></td>
+      <td width="76"><b>Processor architecture</b></td>
+      <td width="59"><b>Window system</b></td>
+      <td width="453"><b>Java 2 Platform</b></td>
+    </tr>
+
+    <tr>
+      <td width="205">Microsoft Windows XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32*</td>
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2, version
+      5.0</td>
+    </tr>
+    <tr>
+
+      <td width="205">Microsoft Windows XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32*</td>
+      <td width="453">IBM SDK 1.4.2, 5.0</td>
+    </tr>
+    <tr>
+      <td width="205">Microsoft Windows Server 2003</td>
+
+      <td width="76">Intel x86</td>
+      <td width="59">Win32*</td>
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2, version
+      5.0</td>
+    </tr>
+    <tr>
+      <td width="205">Microsoft Windows Server 2003</td>
+      <td width="76">Intel x86</td>
+
+      <td width="59">Win32*</td>
+      <td width="453">IBM SDK 1.4.2, 5.0</td>
+    </tr>
+    <tr>
+      <td width="205">Red Hat Enterprise Linux WS 3.0</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK*</td>
+
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2, version
+      5.0</td>
+    </tr>
+    <tr>
+      <td width="205">Red Hat Enterprise Linux WS 3.0</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK*</td>
+      <td width="453">BlackDown SDK 1.4.2</td>
+
+    </tr>
+    <tr>
+      <td width="205">SUSE Linux Enterprise Server 9</td>
+      <td width="76">Intel x86</td>
+      <td width="59">YaST*</td>
+      <td width="453">Sun Java 2 Standard Edition, version 1.4.2, version
+      5.0</td>
+    </tr>
+
+    <tr>
+      <td width="205">SUSE Linux Enterprise Server 9</td>
+      <td width="76">Intel x86</td>
+      <td width="59">YaST*</td>
+      <td width="453">BlackDown SDK 1.4.2</td>
+    </tr>
+  </tbody>
+
+</table>
+*Window system only required when displaying charts within SWT or SWING
+windows.<br>
+<br>
+
+
+<table border="1">
+  <tbody>
+    <tr bgcolor="#CCCCCC">
+      <th colspan="1">
+        <div align="center">
+        <b><font size="+1">BIRT Application Server Reference
+        Platform</font></b></div>
+
+      </th>
+    </tr>
+    <tr>
+      <td width="405">Apache Tomcat 4.1.x, 5.5.x</td>
+    </tr>
+    <tr>
+      <td width="405">JBoss AS 4.0.2</td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+
+
+<table border="1">
+  <tbody>
+    <tr bgcolor="#CCCCCC">
+      <th colspan="1">
+        <div align="center">
+        <b><font size="+1">BIRT JDBC Reference Platforms</font></b></div>
+
+      </th>
+    </tr>
+    <tr>
+      <td width="405">MySQL Connector/J 3.x JDBC driver</td>
+    </tr>
+    <tr>
+      <td width="405">Derby V5.1 JDBC driver</td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+
+
+<table border="1">
+  <tbody>
+    <tr bgcolor="#CCCCCC">
+      <th colspan="1">
+        <div align="center">
+        <b><font size="+1">BIRT Browsers and Viewers Reference
+        Platforms</font></b></div>
+
+      </th>
+    </tr>
+    <tr>
+      <td width="405">Mozilla Firefox 1.5</td>
+    </tr>
+    <tr>
+      <td width="405">Microsoft Internet Explorer 6.0</td>
+    </tr>
+
+    <tr>
+      <td width="405">Adobe Acrobat Reader 7.0</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+<h5>Internationalization</h5>
+
+<p>Eclipse is designed as the basis for internationalized products. The user
+interface elements provided by the various Eclipse projects, including
+dialogs and error messages, are externalized. The English strings for BIRT
+are provided as the default resource bundles. Translations are provided with
+this release for French (fr_FR), German (de_DE), Spanish (es_ES), Japanese
+(ja_JP), Simplified Chinese (zh_CN), and Korean (ko_KR).</p>
+
+<h3><a name="Compatibility"></a>Compatibility with Previous Releases</h3>
+
+<p>BIRT 2.1 will be compatible with earlier versions of BIRT to the greatest
+extent possible. The nature and scope of some of the key plan items for BIRT
+2.1 are such that the only feasible solutions might break compatibility. In
+other regards, BIRT 2.1 will be compatible with 2.0 and 1.x. We also aim to
+minimize the effort required to port an existing plug-in to the 2.1 APIs.</p>
+
+<h4>Compatibility of Release 2.1 with 2.0 and 1.x</h4>
+
+<p>BIRT 2.1 will be compatible with BIRT 2.0 and 1.x unless noted. The
+detailed compatibility statement is listed below. In this statement, &quot;BIRT&quot;
+refers to all BIRT components: BIRT Report Framework, BIRT Runtime, and BIRT
+Chart SDK.</p>
+
+<p><b>API Contract Compatibility:</b> BIRT 2.1 will be upwards
+contract-compatible with BIRT 2.0 and 1.x to the greatest extent possible.
+All incompatibility exceptions will be documented. Downward contract
+compatibility is not supported. There is no guarantee that compliance with
+BIRT 2.1 APIs will ensure compliance with BIRT 2.0 or 1.x APIs. Refer to
+general Eclipse document on <a
+href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+APIs</a> for a discussion of the kinds of API changes that maintain contract
+compatibility.</p>
+
+<p>The BIRT Chart UI API v2.1 is compatible with the v2.0 API but not
+compatible with the v1.x APIs due to a full redesign of the Chart UI in the
+BIRT 2.0 release.</p>
+
+<p><b>Binary (plug-in) Compatibility:</b> The BIRT 2.1 plug-in framework will
+be upwards binary-compatible with BIRT 2.0 and 1.x plug-ins to the greatest
+extent possible. Downward plug-in compatibility is not supported. Plug-ins
+for BIRT 2.1 will not be usable in BIRT 2.0 or 1.x. Extension plug-ins for
+BIRT 2.0 and 1.x will be upwards binary-compatible with BIRT 2.1.</p>
+
+<p><b>Source Compatibility:</b> BIRT 2.1 will be upwards source-compatible
+with BIRT 2.0 and 1.x to the greatest extent possible. This means that source
+files written to use BIRT 2.0 or 1.x APIs will successfully compile and run
+against BIRT 2.1 APIs. Downward source compatibility is not supported. If
+source files use new BIRT APIs, they will not be usable with an earlier
+version of BIRT.</p>
+
+<p><b>Report Design Compatibility:</b>BIRT 2.1 will be upwards report design
+compatible with BIRT 2.0 and 1.x unless noted. This means that reports
+created with BIRT 2.0 or 1.x can be successfully opened by BIRT 2.1 and
+upgraded to a 2.1 format.</p>
+
+<p><b>Non-compliant usage of API's: </b> All non-API methods and classes, and
+certainly everything in a package with &quot;internal&quot; in its name, are considered
+implementation details which may vary between operating environment and are
+subject to change without notice. Client plug-ins that directly depend on
+anything other than what is specified in the BIRT API are inherently
+unsupportable and receive no guarantees about compatibility within a single
+release much less with an earlier releases.</p>
+
+<h3><a name="Themes">Themes</a></h3>
+
+<p>Continuing on the themes for previous releases of BIRT, the BIRT project's
+overriding release 2.1 theme remains extending the Eclipse platform to
+provide infrastructure and tools that allow application developers to design,
+deploy, generate and view reports within their applications. In this context,
+the BIRT project also adopts and supports key themes within the overall
+Eclipse planning process.</p>
+<ul>
+  <li><b>Scaling up and Enterprise Ready</b> The Eclipse platform 3.2
+    continues to improve on scalability and readiness for the enterprise.
+    BIRT 2.1 leverages the support that 3.2 provides by ensuring that it is
+    tested and it supports Eclipse 3.2.</li>
+
+  <li><b>Simple to Use - </b>BIRT 2.1 includes ease of use enhancements such
+    as improvements to the distribution and installation of BIRT.
+    Additionally, BIRT 2.1 continues to provide the RCP based report designer
+    which is targeted at the report developer.</li>
+  <li><b>Appeal to a Broader Community - </b>BIRT 2.1 will broaden the appeal
+    of BIRT by its integration with the Eclipse Callisto simultaneous
+    release. In addition, providing support forFirefox 1.5 and JDK 5.0 for
+    the BIRT runtime widens BIRT's appeal.</li>
+</ul>
+
+<h3><a name="Projects">Projects</a></h3>
+
+<p>Project planning is still under way for BIRT 2.1 and this plan will be
+updated in the coming weeks to add new projects as they are identified.
+Projects already identified are:</p>
+
+<blockquote>
+
+  <p><b>Integration with Eclipse Callisto Simultaneous Release</b> The goal
+  of the Callisto Simultaneous Release is to release ten major Eclipse
+  projects at the same time to support the needs of the ecosystem members who
+  integrate Eclipse frameworks into their own software and products. Callisto
+  is about developers helping developers serve the whole Eclipse community.
+  [Theme: Appeal to a Broader Community]</p>
+
+  <p><b>Provide support for the Eclipse 3.2 Platform</b> The BIRT 2.1 release
+  will be tested on the Eclipse 3.2 Platform Release. [Theme: Scaling up and
+  Enterprise Ready]</p>
+
+  <p><b>Improve distribution and installation of BIRT</b> Users of BIRT,
+  especially new users, can sometimes be overwhelmed by the complexity of the
+  installation of BIRT and all the components that it depends on. This
+  project aims to improve the end user experience of downloading and
+  installing BIRT and all of its related components. [Theme: Simple to
+  Use]</p>
+
+  <p><b>ICU4J Integration</b> Integrating the International Components for
+  Unicode for Java will enable BIRT 2.1 to work with text in any language for
+  any place in the world. ICU4J continues to extend Java's Unicode and
+  internationalization support, improving performance, staying current with
+  the Unicode standard, and providing richer APIs, while remaining as
+  compatible as possible with the original Java text and internationalization
+  API design. [Theme: Appeal to a Broader Community]</p>
+</blockquote>
+
+<h3><a name="Defects">Defects</a></h3>
+BIRT 2.1 will address defects reported by project members and the community.
+The <a
+href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=BIRT&amp;target_milestone=2.1.0+Final&amp;">list
+of defects</a> targeted for resolution in BIRT 2.1 can be found in the
+bugzilla database on <a
+href="https://bugs.eclipse.org/bugs">https://bugs.eclipse.org/bugs</a>.</body>
   
   <h2>Data Tools Platform (DTP)</h2>
+  
+  <P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Data
+Tools Platform (DTP) Project 1.0</FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><FONT SIZE=4 STYLE="font-size: 16pt"><B>SQL
+Development Tools Plan</B></FONT></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">Last
+Updated:  <SDFIELD TYPE=DATETIME SDNUM="1033;1033;MM/DD/YY">11/22/05</SDFIELD></FONT></P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">This
+document contains plans for the components of the SQL Development
+Tools for DTP 1.0.  Currently, it only reflects plans through M4 (DTP
+0.N).</FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>The
+table below lists the deliverables planned for each milestone by
+component.  Each component feature specifies a priority.  Direct
+dependencies are also indicated either next to the component or
+feature.  Click on the component to see a description of its scope
+and design goals.  </FONT></FONT>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Feature
+Priority:</B></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>	</B>(C
+)	Critical: feature is required in order to declare subcomponent
+completion for milestone</FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	(H)	High:
+very important feature, but could move out to next milestone if
+necessary</FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	(M)	Medium:
+good feature, but not necessary</FONT></P>
+
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	(L)	Low:
+nice to have feature, but could defer if necessary</FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Feature
+Dependencies:</B> shown next to each feature in square brackets [ ]</FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	[Conn]		Connectivity</FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	[DDM]		Database
+Definition Model</FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	[LPG]		LALR
+Parser Generator (non-Eclipse component)</FONT></P>
+
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	[SM]		SQL
+Model</FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">	[SQM]		SQL
+Query Model</FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=905 BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=122>
+	<COL WIDTH=154>
+	<COL WIDTH=172>
+
+	<COL WIDTH=245>
+	<COL WIDTH=170>
+	<THEAD>
+		<TR VALIGN=TOP>
+			<TH WIDTH=122 BGCOLOR="#c0c0c0">
+				<P><BR>
+				</P>
+			</TH>
+			<TH COLSPAN=4 WIDTH=765 BGCOLOR="#c0c0c0">
+
+				<P><FONT FACE="Arial, sans-serif">MILESTONE 2:  12/22/05</FONT></P>
+			</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR VALIGN=TOP>
+			<TH WIDTH=122 BGCOLOR="#c0c0c0">
+				<P><A HREF="#Subcomponents|region"><FONT FACE="Arial, sans-serif">Component</FONT></A></P>
+
+			</TH>
+			<TH WIDTH=154 BGCOLOR="#c0c0c0">
+				<P><FONT FACE="Arial, sans-serif">Iteration 1</FONT></P>
+				<P><FONT FACE="Arial, sans-serif">11/21 &ndash; 12/02 (8)</FONT></P>
+			</TH>
+			<TH WIDTH=172 BGCOLOR="#c0c0c0">
+				<P><FONT FACE="Arial, sans-serif">Iteration 2</FONT></P>
+
+				<P><FONT FACE="Arial, sans-serif">12/05 &ndash; 12/09 (5)</FONT></P>
+			</TH>
+			<TH WIDTH=245 BGCOLOR="#c0c0c0">
+				<P><FONT FACE="Arial, sans-serif">Iteration 3</FONT></P>
+				<P><FONT FACE="Arial, sans-serif">12/12 &ndash; 12/15 (4)</FONT></P>
+
+			</TH>
+			<TH WIDTH=170 BGCOLOR="#c0c0c0">
+				<P><FONT FACE="Arial, sans-serif">Iteration 4</FONT></P>
+				<P><FONT FACE="Arial, sans-serif">12/16 &ndash; 12/21 (6)</FONT></P>
+			</TH>
+		</TR>
+		<TR VALIGN=TOP>
+
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Parser|region">SQL
+				Query Parser</A></FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>[SQM, SM, LPG]</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=154>
+				<P><BR>
+
+				</P>
+			</TD>
+			<TD WIDTH=172>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=245>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Initial code
+				drop:</B></FONT></FONT></P>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Parses multiple
+				statements (C)<BR>- Table reference resolving (C)</FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Optional quick
+				parse mode (H)</FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Configurable
+				source format options: e.g. statement terminator, host variable
+				prefix, parameter marker, delimited identifier quote, omit schema
+				(H)</FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Soft keyword
+				support (&ldquo;SELECT select FROM from;&rdquo;) (H)</FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Simple data type
+				resolving (H)</FONT></FONT></P>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Test-driven
+				development (junit testcases) (H)</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=170>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Testing with
+				Eclipse 3.2 M4</FONT></FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Results View|region">SQL
+				Results View</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=154>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Low Level
+				Design<BR></B>- Internal Review </FONT></FONT>
+				</P>
+				<P><BR>
+				</P>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Initial source
+				code drop (for review only)<BR></B>-Model and API code<BR>-Core
+				classes</FONT></FONT></P>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=172>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop <BR></B>- Display execution status, summary and details,
+				messages and result sets in different layout and modes ( C)</FONT></FONT></P>
+
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=245>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Low Level
+				Design<BR></B>- External Review</FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop <BR></B>- Save/export/print results in various file formats
+				with user defined column delimiters and encoding (H)</FONT></FONT></P>
+
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=170>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Testing with
+				Eclipse 3.2 M4</FONT></FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL/Routines Editor|region">SQL/Routines
+				Editor</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=154>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Low Level
+				Design<BR></B>- Internal Review</FONT></FONT></P>
+				<P><BR>
+				</P>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>API tutorial</B></FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Initial code
+				drop:</B><BR>-extension point<BR>-SQL Editor Framework API</FONT></FONT></P>
+				<P><BR>
+				</P>
+			</TD>
+
+			<TD WIDTH=172>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop</B></FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Merge with RDB SQL
+				Editor</FONT></FONT></P>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=245>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop</B></FONT></FONT></P>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Initial SQL Editor
+				Framework and Generic SQL Editor implementation build available
+				for download</FONT></FONT></P>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=170>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Low Level
+				Design</B></FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- External Review</FONT></FONT></P>
+
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Testing with
+				Eclipse 3.2 M4</FONT></FONT></P>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#Routines Debugger|region">Routines
+				Debugger</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=154>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=172>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Low
+				Level Design<BR></B>- Internal Review</SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=245>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Initial
+				code drop:<BR></B>-extension point<BR>-Routine Debugger Framework
+				API<BR>- Debug Model classes</SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=170>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><SPAN LANG="en-US">Low
+				Level Design<BR></SPAN></B>-External Review</FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><FONT COLOR="#000000">Testing
+				with Eclipse 3.2 M4</FONT></SPAN></FONT></FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Execution Plan|region">SQL
+				Execution Plan</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=154>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=172>
+
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=245>
+				<P><FONT FACE="Arial"><FONT SIZE=2><SPAN LANG="en-US"><B>Low
+				Level Design<BR></B>- Internal Review</SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=170>
+				<P><BR>
+
+				</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Builder|region">SQL
+				Query Builder</A></FONT></FONT></P>
+				<P><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Note:
+				Not targeted for delivery in DTP 1.0</FONT></FONT></FONT></P>
+			</TD>
+
+			<TD WIDTH=154>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=172>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=245>
+
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=170>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+	</TBODY>
+
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=905 BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=122>
+	<COL WIDTH=244>
+	<COL WIDTH=266>
+	<COL WIDTH=239>
+	<THEAD>
+
+		<TR VALIGN=TOP>
+			<TH WIDTH=122 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><BR>
+				</P>
+			</TH>
+			<TH COLSPAN=3 WIDTH=765 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>MILESTONE
+				3:  01/20/06</B></FONT></FONT></P>
+			</TH>
+
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR VALIGN=TOP>
+			<TH WIDTH=122 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><A HREF="#Subcomponents|region">Component</A></B></FONT></FONT></P>
+			</TH>
+			<TH WIDTH=244 BGCOLOR="#c0c0c0">
+
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Iteration
+				1</B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>01/03
+				&ndash; 01/06 (4)</B></FONT></FONT></P>
+			</TH>
+			<TH WIDTH=266 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Iteration
+				2</B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>01/09
+				&ndash; 01/13 (5)</B></FONT></FONT></P>
+
+			</TH>
+			<TH WIDTH=239 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Iteration
+				3</B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>01/16
+				&ndash; 01/19 (4)</B></FONT></FONT></P>
+			</TH>
+		</TR>
+		<TR VALIGN=TOP>
+
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Parser|region">SQL
+				Query Parser</A></FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>[SQM, SM, LPG]</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=244>
+				<P><BR>
+
+				</P>
+			</TD>
+			<TD WIDTH=266>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=239>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Doc Drop</B></FONT></FONT></P>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Internal API
+				Documentation (H)</FONT></FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Results View|region">SQL
+				Results View</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=244>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop<BR></B>- Execution history filters, e.g., to display
+				execution history by connection profile, status, etc. (H)</FONT></FONT></P>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=266>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B>- Execution history sorting based on
+				weight/execution frequency (H)</SPAN> </FONT></FONT>
+
+				</P>
+			</TD>
+			<TD WIDTH=239>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop<BR></B>- Re-execution of selected history script (H)</FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Persistence of
+				execution history (M)</FONT></FONT></P>
+				<P><BR>
+				</P>
+
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL/Routines Editor|region">SQL/Routines
+				Editor</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=244>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B>- content assist (C ) [SM, Conn]<BR>- syntax
+				highlighting(C )<BR>- code template (H)<BR>- syntax validation
+				(H)<BR>- Outline view (H)<BR>- statement execution ( C) [Conn,
+				Results View]</SPAN></FONT></FONT></P>
+
+			</TD>
+			<TD WIDTH=266>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B><SPAN STYLE="font-weight: medium">- Integration
+				w/ Model Base and Connectivity:<BR></SPAN>- Life cycle management
+				(C ) [SM, Conn]<BR>- Routine launch configuration - run mode ( C)
+				[SM, Conn, DDM]<BR>- generic and extensible SQL editor preference
+				pages (H)</SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=239>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B>- Generic SQL editor implementation (Derby) ( C)
+				[SM, Conn, DDM]<BR>- Portability check (L)</SPAN></FONT></FONT></P>
+
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#Routines Debugger|region">Routines
+				Debugger</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=244>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Feature code
+				drop<BR></B>- Routine launch configuration - debug mode (C) [SM,
+				Conn, DDM]<BR>- Line breakpoint management (C ) [DDM, Conn]</FONT></FONT></P>
+
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=266>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR>- </B>Integration w/ Model Base and Connectivity</SPAN>
+				</FONT></FONT>
+				</P>
+
+			</TD>
+			<TD WIDTH=239>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B>- Table view (M) [SM, Conn]</SPAN></FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- External
+				client's view (M) [DDM, Conn]</FONT></FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Execution Plan|region">SQL
+				Execution Plan</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=244>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Initial
+				build<BR></B>- Tree-structure GUI execution plan<SPAN LANG="en-US">
+				 (C)</SPAN><BR>- Generic and extensible Preference pages (C)</SPAN></FONT></FONT></P>
+
+			</TD>
+			<TD WIDTH=266>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B>- Integration w/ Model Base and Connectivity:<BR>-
+				Execution plan history<SPAN LANG="en-US"> (C)</SPAN><BR>-
+				Save/load/print plans (C)</SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=239>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><B>Feature
+				code drop<BR></B>- Import and export (M)</SPAN> </FONT></FONT>
+
+				</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Builder|region">SQL
+				Query Builder</A></FONT></FONT></P>
+				<P><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Note:
+				Not targeted for delivery in DTP 1.0</FONT></FONT></FONT></P>
+			</TD>
+
+			<TD WIDTH=244>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=266>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=239>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=905 BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=122>
+	<COL WIDTH=175>
+
+	<COL WIDTH=205>
+	<COL WIDTH=188>
+	<COL WIDTH=173>
+	<THEAD>
+		<TR VALIGN=TOP>
+			<TH WIDTH=122 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><BR>
+				</P>
+			</TH>
+
+			<TH COLSPAN=4 WIDTH=765 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>MILESTONE
+				4/DTP 0.N:  03/17/06</B></FONT></FONT></P>
+			</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR VALIGN=TOP>
+			<TH WIDTH=122 BGCOLOR="#c0c0c0">
+
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><A HREF="#Subcomponents|region">Component</A></B></FONT></FONT></P>
+			</TH>
+			<TH WIDTH=175 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>RC1</B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>01/23
+				&ndash; 02/24 (25)</B></FONT></FONT></P>
+			</TH>
+
+			<TH WIDTH=205 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>RC2</B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>02/27
+				&ndash; 03/03 (5)</B></FONT></FONT></P>
+			</TH>
+			<TH WIDTH=188 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>RC3</B></FONT></FONT></P>
+
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>03/06
+				&ndash; 03/10 (5)</B></FONT></FONT></P>
+			</TH>
+			<TH WIDTH=173 BGCOLOR="#c0c0c0">
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>0.N/M4</B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>03/13
+				&ndash; 03/16 (4)</B></FONT></FONT></P>
+
+			</TH>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Parser|region">SQL
+				Query Parser</A></FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>[SQM, SM, LPG]</FONT></FONT></P>
+
+			</TD>
+			<TD WIDTH=175>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Plugin
+				restructuring</B></FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN STYLE="font-weight: medium">-
+				S</SPAN>eparate out lexer</FONT></FONT></P>
+				<P><BR>
+				</P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><FONT COLOR="#000000">Testing
+				with Eclipse 3.2 M5</FONT></SPAN></FONT></FONT></P>
+
+			</TD>
+			<TD WIDTH=205>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Doc Drop</B></FONT></FONT></P>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>- Complete
+				Internal API Documentation (H)</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=188>
+				<P><BR>
+				</P>
+
+			</TD>
+			<TD WIDTH=173>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Results View|region">SQL
+				Results View</A></FONT></FONT></P>
+
+			</TD>
+			<TD WIDTH=175>
+				<P STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><FONT COLOR="#000000">Testing
+				with Eclipse 3.2 M5</FONT></SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=205>
+				<P><BR>
+				</P>
+			</TD>
+
+			<TD WIDTH=188>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=173>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL/Routines Editor|region">SQL/Routines
+				Editor</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=175>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><FONT COLOR="#000000">Testing
+				with Eclipse 3.2 M5</FONT></SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=205>
+
+				<P STYLE="font-weight: medium"><BR>
+				</P>
+			</TD>
+			<TD WIDTH=188>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=173>
+				<P><BR>
+
+				</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#Routines Debugger|region">Routines
+				Debugger</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=175>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><FONT COLOR="#000000">Testing
+				with Eclipse 3.2 M5</FONT></SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=205>
+				<P><BR>
+				</P>
+			</TD>
+			<TD WIDTH=188>
+				<P><BR>
+
+				</P>
+			</TD>
+			<TD WIDTH=173>
+				<P><BR>
+				</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Execution Plan|region">SQL
+				Execution Plan</A></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=175>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN LANG="en-US"><FONT COLOR="#000000">Testing
+				with Eclipse 3.2 M5</FONT></SPAN></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=205>
+				<P><BR>
+				</P>
+
+			</TD>
+			<TD WIDTH=188>
+				<P STYLE="font-weight: medium"><BR>
+				</P>
+			</TD>
+			<TD WIDTH=173>
+				<P><BR>
+				</P>
+			</TD>
+
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=122>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Builder|region">SQL
+				Query Builder</A></FONT></FONT></P>
+				<P><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Note:
+				Not targeted for delivery in DTP 1.0</FONT></FONT></FONT></P>
+			</TD>
+			<TD WIDTH=175>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+
+			</TD>
+			<TD WIDTH=205>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=188>
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+			</TD>
+			<TD WIDTH=173>
+
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>tbd</FONT></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<DIV ID="Components" DIR="LTR">
+	<P ALIGN=CENTER STYLE="page-break-before: always"><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Components</B></FONT></FONT></FONT></P>
+</DIV>
+
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=LEFT><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><FONT SIZE=3>Each
+component will have a focal point representative who will be
+responsible for driving the communications, design and development
+for that component. The focal point will interact with the other
+members of that team involved in the design and/or implementation and
+with other components as needed. Information coming from each
+component will be reviewed and shared with the overall project to
+ensure good communication, coherency and consistency.</FONT><BR></FONT></FONT></FONT><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<DIV ID="SQL Query Parser" DIR="LTR" STYLE="background: transparent"><A NAME="SQL Query Parser|region"></A>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in; page-break-before: always">
+	<FONT FACE="Arial, sans-serif"><B>SQL Query Parser</B></FONT></P>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+
+	</P>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Scope:</B></FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">The
+	scope of the SQL Query Parser is syntactic and semantic validation
+	of SQL statements.  Initially, it will handle SQL Data Manipulation
+	Language (DML)  constructs:  SELECT, INSERT, UPDATE and DELETE
+	statements.  Data Definition Language (DDL) constructs are outside
+	the initial scope of the parser.  The output of the parser is an
+	instance of the SQL Query Model.</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Design
+	Goals:</B></FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Based on LPG parser generator</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Quick parse feature without constructing model object to determine
+	statement type</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Focus on test-driven development </FONT>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Target SQL Query Model directly as parse result</FONT></P>
+
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Pluggable semantic action productions</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Generic, ISO SQL-based source generation, based on SQL-99/2003</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Architected support for multiple SQL dialects (inheritance)</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	Use Eclipse extension-point mechanism</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	Multiple parser plug-ins extend common base parser plug-in with
+	separate LPG generated parser</FONT></P>
+
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	Reuse of grammar: overwrite, drop and add rules</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Along with the SQL Query Model, provide strong base for query
+	tooling</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	Enable &ldquo;round-trip&rdquo; editing for query builder tools</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	Enable smart editing features for SQL text editors</FONT></P>
+
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	Provide rich information for query analysis</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Parser not dependent on a live database connection </FONT>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">-
+	Two phase parsing:  </FONT>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	A purely syntactic parsing phase.  Generate the Query model instance
+	that represents the query. Completely independent of the database.  </FONT>
+
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in">   <FONT FACE="Arial, sans-serif">-
+	A &quot;semantic resolution&quot; phase.  Use information contained
+	in an instance of the base SQL model (mainly table and column
+	information) to associate the tables, columns, etc. contained in the
+	query with the corresponding objects in a database.  It doesn't
+	matter to the parser how the catalog information in the base SQL
+	model instance was populated (through a live database connection, 
+	cached catalog information, or in some other way).</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Dependencies</B></FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">LPG
+	- used to generate SQL parser from SQL grammar; runtime jar also
+	required</FONT></P>
+
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">SQL
+	Query Model - parser produces SQM objects, also used for semantic
+	validation </FONT>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif">SQL
+	Model - used for semantic validation; create data type objects and
+	hook into SQM objects</FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Consumers</B></FONT></P>
+	<UL>
+
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">The
+		Eclipse BIRT project plans to be an early adopter of the parser. 
+		Refer to Bugzilla requirement 112689.</FONT></P>
+	</UL>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in; page-break-before: always"><BR>
+	</P>
+</DIV>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>SQL
+Results View</B></FONT></P>
+<DIV ID="SQL Results View" DIR="LTR"><A NAME="SQL Results View|region"></A>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+	</P>
+
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Scope</B></FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">Display
+		SQL execution results which may have two types of input: tabular
+		result item and message item</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">Execution
+		of SQL statements is the responsibility of the SQL Results View API
+		consumer, thus is outside this component's scope</FONT></P>
+	</UL>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">Will
+		consider SDO(Service Data Object) in the next DTP release</FONT></P>
+
+	</UL>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Design
+	Goals</B></FONT></P>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">Combined
+		script history and SQL result view</FONT></P>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">Support
+		flexible output format (xml,cvs,html,etc.), support user-defined
+		column delimiters</FONT></P>
+
+	</UL>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">No
+		coupling between SQL Results View and SQL Editor Framework/SQL
+		Editor implementation</FONT></P>
+	</UL>
+	<UL>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">Provide
+		a smooth transition path for the existing DB Output view consumer,
+		to lessen the refactoring effort as much as possible</FONT></P>
+	</UL>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+
+	</P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><B>Dependencies</B></FONT></P>
+	<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Arial, sans-serif">-
+	Connection Profile: There is no strong dependency between
+	connectivity layer and SQL Results View, other than the connection
+	profile name, which is used for history filter and re-execution
+	purposes only.</FONT></P>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+	</P>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in; page-break-before: always">
+
+	<FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>SQL/Routines Editor</B></FONT></FONT></P>
+	<DIV ID="SQL/Routines Editor" DIR="LTR"><A NAME="SQL/Routines Editor|region"></A>
+		<P ALIGN=CENTER><BR>
+		</P>
+		<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Scope</B></FONT></FONT></P>
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>The
+		scope of the SQL Editor Framework is to:</FONT></FONT></P>
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Provide the Data Development Perspective to support SQL application
+		development lifecycle</FONT></FONT></P>
+
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Help the user to develop SQL scripts by making most of eclipse IDE
+		features and to allow vendor-specific features to be easily
+		integrated in</FONT></FONT></P>
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Allow the user to manipulate and run routine objects.</FONT></FONT></P>
+		<P ALIGN=LEFT><BR>
+		</P>
+		<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Design
+		Goals</B></FONT></FONT></P>
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Built using DTP infrastructure components: models--SM, DDM,
+		connectivity layer.</FONT></FONT></P>
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Provide generic SQL Editor support, but extendable for
+		vendor-specific features, e.g., context menu/action, wizard
+		invocation, etc.</FONT></FONT></P>
+
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Reduce coupling between components, for example, avoid tightly
+		coupled with SQL Results View and SQL Execution Plan View.</FONT></FONT></P>
+		<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+		Can be coupled with SQL Routine Debugger Framework and Debugger
+		implementation.</FONT></FONT></P>
+		<P ALIGN=CENTER><BR>
+		</P>
+		<P ALIGN=CENTER STYLE="page-break-before: always"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Routines
+		Debugger</B></FONT></FONT></P>
+		<DIV ID="Routines Debugger" DIR="LTR"><A NAME="Routines Debugger|region"></A>
+			<P ALIGN=CENTER STYLE="font-weight: medium"><BR>
+
+			</P>
+			<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Scope</B></FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+			Allow the user to debug routine objects. </FONT></FONT>
+			</P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+			The debug mechanism of each data server may vary, therefore the
+			implementation is vendor specific and beyond the scope.</FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><BR>
+			</P>
+
+			<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Design
+			Goals</B></FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+			Built using DTP infrastructure components: models--SM, DDM,
+			connectivity layer, SQL Editor Framework, and SQL Editor
+			implementation</FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+			Flexible  Debugger framework allows extendable vendor-specific
+			implementations</FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+			Reduce the coupling between SQL Editor framework and Routine
+			Debugger framework'</FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="font-weight: medium"><BR>
+			</P>
+			<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Pending</B></FONT></FONT></P>
+
+			<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+			Exemplary debugger (M)</FONT></FONT></P>
+			<DIV ID="SQL Execution Plan" DIR="LTR"><A NAME="SQL Execution Plan|region"></A>
+				<P ALIGN=CENTER STYLE="page-break-before: always"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>SQL
+				Execution Plan</B></FONT></FONT></P>
+				<P ALIGN=CENTER><BR>
+				</P>
+				<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Scope</B></FONT></FONT></P>
+				<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>The
+				scope of the Execution Plan View is to display SQL query
+				execution plans. The execution plan retrieval mechanism is </FONT></FONT>
+
+				</P>
+				<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>outside
+				the framework's scope and should be implemented by
+				vendor-specific plug-ins.</FONT></FONT></P>
+				<P ALIGN=LEFT><BR>
+				</P>
+				<P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Design
+				Goals</B></FONT></FONT></P>
+				<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+				Flexible model to accommodate various execution plan formats </FONT></FONT>
+				</P>
+
+				<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+				Reusable UI components</FONT></FONT></P>
+				<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>-
+				Reduce coupling between SQL Execution Plan View and SQL Editor
+				framework and implementation.</FONT></FONT></P>
+				<DIV ID="SQL Query Builder" DIR="LTR"><A NAME="SQL Query Builder|region"></A>
+					<P ALIGN=CENTER STYLE="page-break-before: always"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>SQL
+					Query Builder</B></FONT></FONT></P>
+					<P ALIGN=CENTER><BR>
+					</P>
+					<P ALIGN=LEFT STYLE="font-weight: medium"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>The
+					SQL Query Builder will not be included in DTP 1.0.  However,
+					design and development work will go on in the 1.0 time frame,
+					with an initial delivery targeted for the release after DTP 1.0.
+					 More details are forthcoming.</FONT></FONT></P>
+
+				</DIV>
+			</DIV>
+		</DIV>
+	</DIV>
+</DIV>
   
   <h2>Device Software Development Platform (DSDP)</h2>
   
