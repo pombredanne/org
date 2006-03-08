@@ -1402,9 +1402,996 @@ features will be significantly reworked. Common goals are listed in the “Common 
 </div>
 </div>
 </div>
-</div>
   
-  <h2>Test & Performance Tools Platform (TPTP)</h2>
+<H2>Eclipse Test &amp; Performance Tools Platform (TPTP) Project<BR>Approved 4.2 Plan</H2>
+<P>Last revised 00:30 PST 25 January 2006 (<font face="Arial"><span style="background-color: #FFFFFF"><IMG height=12 
+src="http://www.eclipse.org/images/new.gif" border=0> marks 
+interesting changes since 4.1 Release)</span></font><BR><BR><I>&nbsp;&nbsp;&nbsp; Please send comments 
+about this plan to the </I><a href="mailto:tptp-pmc@eclipse.org">tptp-pmc@eclipse.org</a>
+
+<i>PMC 
+mailing list.</i></P>
+<P>This document lays out the feature and API set for the TPTP 4.2 release. 
+<UL>
+  <LI><A 
+  href="#Deliverables">Release 
+  Deliverables</A> 
+  <LI><A 
+  href="#Milestones">Release 
+  Milestones</A> 
+  <LI><A 
+  href="#TargetOperatingEnvironments">Target 
+  Operating Environments</A> 
+  <LI><A 
+  href="#Compatibility">Compatibility 
+	with Previous Releases</A><LI><a href="#Themes">Themes</a></LI>
+	<LI><a href="#Projects">Projects</a></LI>
+
+	<LI><a href="#Features">Features</a></LI>
+	<LI><a href="#Defects">Defects</a></LI></UL>
+<P>The first part of this plan deals with the important matters of release 
+deliverables, release milestones, target operating environments, and 
+release-to-release compatibility.&nbsp; These are all things that need to be clear for 
+any release, even if no features were to change.&nbsp; 
+<P>The remainder of the plan consists of plan items for the four projects under 
+the TPTP Top-Level Project.&nbsp; Each plan item covers a feature or API that is to 
+be added to TPTP, or some aspect of TPTP that is to be improved.&nbsp; Each plan 
+item has its own entry in the TPTP bugzilla database, with a title and a 
+concise summary (usually a single paragraph) that explains the work item at a 
+suitably high enough level so that everyone can readily understand what the work 
+item is without having to understand the nitty-gritty detail. 
+<P>Not all plan items represent the same amount of work; some may be quite 
+large, others, quite small. Some plan items may involve work that is localized 
+to a single component; others may involve coordinated changes to 
+several components; other may pervade the entire project. 
+<P>With the previous release as the starting point, this is the plan for how we 
+will enhance and improve it.&nbsp; Fixing bugs, improving test coverage, 
+documentation, examples, performance tuning, usability, etc. are considered 
+routine ongoing maintenance activities and are not included in this plan unless 
+they would also involve a significant change to the API or feature set, or 
+involve a significant amount of work. The intent of the plan is to account for 
+all interesting feature work. 
+
+<h3><A name=Deliverables></A>Release Deliverables</h3>
+<P>The following release deliverables are provided: 
+<UL>
+  <LI>Runtime </LI>
+	<LI>Source </LI>
+	<LI>Examples </LI>
+	<LI>Component Test </LI>
+	<LI>Data Collection Engine for Windows (NT, 2000, XP) 
+	x86 Runtime</LI>
+
+	<LI>Data Collection Engine for Windows 
+	(XP, Server 2003) x86/64-bit Runtime <font face="Arial"><span style="background-color: #FFFFFF"><IMG height=12 
+src="http://www.eclipse.org/images/new.gif" border=0></span></font></LI>
+	<LI>Data Collection Engine for Windows 
+	Server 2003 Itanium Runtime 
+	<font face="Arial"><span style="background-color: #FFFFFF"><IMG height=12 
+src="http://www.eclipse.org/images/new.gif" border=0></span></font></LI>
+	<LI>Data Collection Engine for Linux x86 Runtime</LI>
+	<LI>Data Collection Engine for Linux x86/64-bit Runtime <font face="Arial"><span style="background-color: #FFFFFF"><IMG height=12 
+src="http://www.eclipse.org/images/new.gif" border=0></span></font></LI>
+	<LI>Data Collection Engine for Linux 
+	Itanium Runtime 
+	<font face="Arial"><span style="background-color: #FFFFFF"><IMG height=12 
+src="http://www.eclipse.org/images/new.gif" border=0></span></font></LI>
+	<LI>Data Collection Engine for Linux <font face="sans-serif" size="2">
+
+	zSeries</font> Runtime 
+	</LI>
+	<LI>Data Collection Engine for zSeries Runtime </LI>
+	<LI>Data Collection Engine for iSeries Runtime </LI>
+	<LI>Data Collection Engine for Solaris Sparc Runtime </LI>
+	<LI>Data Collection Engine for AIX PPC Runtime</LI>
+
+	<LI>Data Collection Engine for Linux PPC/64-bit </LI>
+	<LI>Data Collection Engine for HP-UX Runtime 
+	</LI>
+	<LI>Native Logging Implementation (All platforms) 
+	</LI>
+	<LI>Plugin Translatability Log</LI></UL>
+<h3><A name=Milestones></A>Release Milestones</h3>
+<P>The TPTP 4.2 release is targeted for general availability on 30-Jun-2006.&nbsp; 
+All release deliverables will be available for download as soon as the release 
+has been tested and validated in the target operating configurations.&nbsp; 
+
+Interim release milestone are planned at roughly 6 week intervals to facilitate 
+coarse-grained planning and staging.&nbsp;TPTP 
+is participating in
+<a href="http://www.eclipse.org/projects/callisto.php">
+Callisto Simultaneous Release</a> 
+of Eclipse projects. The list of milestones below includes all Callisto 
+milestones of TPTP.&nbsp; </P>
+<TABLE width=821 border=1 id="table1">
+  <TR>
+    <TD width=793 colspan="3" bgcolor="#C0C0C0">
+	<p align="center"><b><font size="+1">Release Milestones</font></b></TD>
+    </TR>
+
+  <TR>
+    <TD width=210 bgcolor="#C0C0C0"><B>Milestone</B></TD>
+    <TD width=163 bgcolor="#C0C0C0"><b>Date</b></TD>
+    <TD width=416 bgcolor="#C0C0C0"><b>Description</b></TD></TR>
+  <TR>
+    <TD width=210>Iteration -2 (4.2 i-2)</TD>
+    <TD width=163>Friday, 9-Dec-05</TD>
+
+    <TD width=416>Callisto M3 [Done]</TD></TR>
+  <TR>
+    <TD width=210>Iteration -1 (4.2 i-1)</TD>
+    <TD width=163>Friday, 23-Dec-05</TD>
+    <TD width=416>Callisto M4 [Done]</TD></TR>
+  <TR>
+    <TD width=210>Iteration 1 (4.2 i1)</TD>
+
+    <TD width=163>Friday, 24-Feb-06</TD>
+    <TD width=416>Stable build - API freeze; Callisto M5 [Done 3-Mar-06]</TD></TR>
+  <TR>
+    <TD width=210>Iteration 2 (4.2 i2)</TD>
+    <TD width=163>Friday, 14-Apr-06</TD>
+    <TD width=416>Stable build - UI freeze; Callisto RC0</TD></TR>
+
+  <TR>
+    <TD width=210>&nbsp;</TD>
+    <TD width=163>Friday, 28-Apr-06</TD>
+    <TD width=416>Callisto RC1</TD></TR>
+  <TR>
+    <TD width=210>&nbsp;</TD>
+    <TD width=163>Friday, 12-May-06</TD>
+
+    <TD width=416>Callisto RC2</TD></TR>
+  <TR>
+    <TD width=210>Iteration 3 (4.2 i3)</TD>
+    <TD width=163>Friday, 26-May-06</TD>
+    <TD width=416>Stable build - Callisto RC3</TD></TR>
+  <tr>
+    <TD width=210>&nbsp;</TD>
+
+    <TD width=163>Friday, 2-Jun-06</TD>
+    <TD width=416>Callisto RC4</TD>
+	</tr>
+  <TR>
+    <TD width=210>&nbsp;</TD>
+    <TD width=163>Tuesday, 20-Jun-06</TD>
+    <TD width=416>Callisto RC5</TD></TR>
+
+  <TR>
+    <TD width=210>&nbsp;</TD>
+    <TD width=163>Wednesday, 28-Jun-06</TD>
+    <TD width=416>Callisto RC6</TD></TR>
+  <TR>
+    <TD width=210>Iteration 4 (4.2 i4)</TD>
+    <TD width=163>Friday, 30-Jun-06</TD>
+
+    <TD width=416>General Availability, English only</TD></TR>
+	<TR>
+		<TD width="210">Post-iteration</TD>
+		<TD width="163">Aug-06 (tentative)</TD>
+		<TD width="416">General Availability, Translation</TD>
+	</TR>
+</TABLE>
+
+<p>For a detailed development schedule of TPTP 4.2 release,
+<a href="http://www.eclipse.org/tptp/home/project_info/releaseinfo/4.2/schedule.html">
+click here</a>.</p>
+<h3><A name=TargetOperatingEnvironments></A>Target Operating Environments</h3>
+<P>In order to remain current, each TPTP release targets reasonably current 
+versions of the underlying operating environments.</P>
+<ul>
+	<li>Java runtime (JRE) or Java development kit (JDK) 1.4 
+	</li>
+	<li>
+	<a href="http://download.eclipse.org/eclipse/downloads/">Eclipse SDK 3.2</a> for Linux (GTK)&nbsp;,
+	Linux (Motif),&nbsp;or
+	Windows (<IMG height=12 
+src="http://www.eclipse.org/images/new.gif" border=0> prior TPTP releases dependent on Eclipse SDK 
+	3.1.0)</li>
+
+	<li>Eclipse Modeling Framework (EMF) SDK
+	<a href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a>
+	</li>
+	<li>XML Schema Infoset Model (XSD) SDK
+	<a href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a></li>
+</ul>
+<P>Most of the TPTP SDK is "pure" Java&#8482; code and has no direct dependence on 
+the underlying operating system.&nbsp; The chief dependence is therefore on the Java 2 
+Platform itself.&nbsp; The TPTP 4.0 release is written and compiled 
+against version 1.4 of the Java 2 Platform APIs, and targeted to run on version 
+1.4 of the Java 2 Runtime Environment, Standard Edition.</P>
+
+<P>There are many different implementations of the Java 2 Platform running atop 
+a variety of operating systems. We focus TPTP testing on a handful of popular 
+<SPAN class=header>combinations of operating system and Java 2 Platform; these 
+are our <EM>reference platforms</EM>.&nbsp; TPTP undoubtedly runs fine in many 
+operating environments beyond the reference platforms we test.&nbsp; However, since we 
+do not systematically test them we cannot vouch for them.&nbsp; Problems encountered 
+when running TPTP on non-reference platforms that cannot be recreated on any 
+reference platform will be given lower priority than problems with running 
+TPTP on a reference platform.</SPAN></P>
+<P>TPTP SDK 4.2 is tested and validated on the following target reference platforms 
+(this list may be updated over the course of the release cycle):</P>
+<TABLE width=821 border=1>
+  <TBODY>
+
+  <TR bgColor=#cccccc>
+    <TH colSpan=2>
+      <DIV align=center><font size="+1">TPTP</font><B><FONT size=+1> Agent 
+		Controller Reference Platforms</FONT></B> 
+      </DIV></TH></TR>
+  <TR>
+    <TD width=108><B>Processor architecture</B></TD>
+    <TD width=697><B>Operating system</B></TD></TR>
+
+  <tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>
+      Red Hat Linux v7.1, v7.2, v7.3, v8.0</TD>
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+
+    <TD width=697>Red Hat Linux Advanced Server v2.1</TD>
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>SuSE Linux v7.2, v7.3</TD>
+	</tr>
+	<tr>
+
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>SuSE Linux Enterprise Server (SLES) v7, v8</TD>
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>Windows 2000 Advanced Server (service pack 2)</TD>
+	</tr>
+
+	<tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>Windows 2000 Professional (service pack 2)</TD>
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>Windows 2000 Server (service pack 2)</TD>
+
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>
+      Windows NT 4.0 (service pack 6a)</TD>
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+
+    <TD width=697>Windows Server 2003</TD>
+	</tr>
+	<tr>
+    <TD width=108>Intel IA32</TD>
+    <TD width=697>Windows XP Professional</TD>
+	</tr>
+	<tr>
+
+    <TD width=108>iSeries</TD>
+    <TD width=697>OS/400 V5R1, V5R2</TD>
+	</tr>
+	<tr>
+    <TD width=108>PA-RISC</TD>
+    <TD width=697>HP-UX v11.0, v11i</TD>
+	</tr>
+
+  <TR>
+    <TD width=108>RS/6000</TD>
+    <TD width=697>AIX v4.4.0, v5.1, v5.2</TD></TR>
+	<tr>
+    <TD width=108>SPARC</TD>
+    <TD width=697>Sun Solaris v8, v9</TD>
+	</tr>
+
+  <tr>
+    <TD width=108>zSeries</TD>
+    <TD width=697>z/OS V1R7</TD>
+	</tr>
+  <TR>
+    <TD width=108>zSeries</TD>
+    <TD width=697>SuSE Linux Enterprise Server (SLES) v8 </TD></TR>
+
+  <TR>
+    <TD width=108>PowerPC/64-bit </TD>
+    <TD width=697>Red Hat Enterprise Linux AS release 3 </TD></TR>
+  </TBODY></TABLE>
+<P>Although untested, TPTP should work fine on other OSes that support the same 
+operating system kernel and version.</P>
+<H4>Internationalization</H4>
+<P>TPTP is designed as the basis for internationalized products. 
+The user interface elements provided by the TPTP SDK components, including 
+dialogs and error messages, are externalized. The English strings are provided 
+as the default resource bundles.</P>
+<P>Latin-1 locales are supported by the TPTP SDK on all of the above 
+operating environments; DBCS locales are supported by the TPTP SDK on the 
+Windows, GTK, and Motif window systems; BIDI locales are supported by the 
+TPTP SDK only on Windows operating environments. 
+
+<P>The TPTP SDK supports GB 18030, the new Chinese code page standard, on 
+Windows XP and 2000, and Linux.<P>TPTP supports ICU4J starting in 4.2 release. 
+This will significantly increase the number of supportable locales. Products 
+needing to localize to newer locales are enabled. German, Traditional Chinese, 
+and Arabic are tested.&nbsp; 
+<h3><A name=Compatibility></A>Compatibility with Previous Releases</h3>
+<P>TPTP 4.2 will be compatible with TPTP 4.1.&nbsp; The following specifies 
+details of the various aspects of release compatibility.</P>
+<ul>
+	<li>
+	<P style="margin-top: 0; margin-bottom: 5px"><B>
+	API Contract Compatibility:</B> TPTP SDK 4.2 will be upwards 
+contract-compatible with TPTP SDK 4.1. Downward contract compatibility is not supported. There is no guarantee 
+that compliance with TPTP SDK 4.2 APIs would ensure compliance with TPTP SDK 4.0 APIs. Refer to <I>
+
+	<A 
+href="http://eclipse.org/eclipse/development/java-api-evolution.html">
+	Evolving 
+Java-based APIs</A></I> for a discussion of the kinds of API changes that 
+maintain contract compatibility.</P></li>
+	<li>
+	<P style="margin-top: 0; margin-bottom: 5px"><B>
+	Binary (plug-in) Compatibility:</B> TPTP SDK 4.2 will be upwards 
+binary-compatible with TPTP SDK 4.1. Downward plug-in 
+compatibility is not supported. Plug-ins for TPTP SDK 4.2 will not be usable 
+in TPTP SDK 4.1. Refer to <I>
+
+	<A 
+href="http://eclipse.org/eclipse/development/java-api-evolution.html">
+	Evolving 
+Java-based APIs</A></I> for a discussion of the kinds of API changes that 
+maintain binary compatibility. 
+</li>
+	<li>
+	<P style="margin-top: 0; margin-bottom: 5px"><B>
+	Source Compatibility:</B> TPTP SDK 4.2 will be upwards 
+source-compatible with TPTP SDK 4.1. This means that 
+source files written to use TPTP SDK 4.1 APIs might successfully compile and 
+run against TPTP SDK 4.2 APIs, although this is not guaranteed. Downward 
+source compatibility is not supported. If source files use new TPTP SDK APIs, 
+they will not be usable with an earlier version of the TPTP SDK. </li>
+	<li>
+
+	<P style="margin-top: 0; margin-bottom: 5px"><B>
+	Workspace Compatibility:</B> <font face="Arial" size="2">TPTP SDK 4.2 will 
+	be upwards workspace-compatible with TPTP SDK 4.1 unless noted. This means 
+	that workspaces and projects created with TPTP SDK 4.1 can be successfully 
+	opened by TPTP SDK 4.2 and upgraded to a 4.2 workspace</font>. This includes both hidden 
+	metadata, which is localized to a particular workspace, as well as metadata 
+	files found within a workspace project (e.g., the .project file), which may 
+	propagate between workspaces via file copying or team repositories. 
+Downward workspace compatibility is not supported. A workspace created (or 
+opened) by a product based on TPTP 4.2 will be unusable with a product based 
+an earlier version of TPTP. Visible metadata files created (or overwritten) 
+by TPTP 4.2 will generally be unusable with earlier versions of TPTP. </li>
+	<li><B>Non-compliant usage of API's</B>: All non-API methods and classes, and 
+certainly everything in a package with "internal" in its name, are considered 
+implementation details which may vary between operating environment and are 
+subject to change without notice. Client plug-ins that directly depend on 
+anything other than what is specified in the TPTP SDK API are inherently 
+unsupportable and receive no guarantees about compatibility within a single 
+release much less with an earlier releases. Refer to <I>
+	<A 
+href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">
+	How 
+to Use the Eclipse API</A></I> for information about how to write compliant 
+plug-ins. 
+
+</li>
+	</ul>
+<h3><a name="Themes"></a>Themes</h3>
+<P>The TPTP PMC adopted and specialized the following Eclipse themes which 
+represent the key focus areas for TPTP enhancements in the year ahead.</P>
+	<ul>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Scaling Up -</b><span lang="EN-GB">
+		</span>TPTP will work to enhance the support of large data volumes and 
+		processing rates in areas such as data collection, user interface and in 
+		the persistence of trace, log and statistical models and execution 
+		histories.</li>
+
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Enterprise Ready </b>- 
+		Hooks will be provided within the TPTP infrastructure to link testing 
+		tools to requirements tracking tools and defect tracking tools, thus 
+		embedding them effectively in enterprise development cycles. Changes to 
+		the data collection layers will increase interoperability with 
+		enterprise security infrastructure. In addition, there will be 
+		progressive adoption of the TPTP tools and infrastructure as a test 
+		platform for the project itself, which is in turn likely to drive 
+		refinements into the tools. An increased focus on whole-project 
+		integration testing will ensure effective interoperability amongst all 
+		TPTP components and the rest of the Eclipse environment.</li>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Design for 
+		Extensibility: Be a Better Platform</b> - There will be a wide range of 
+		activities within TPTP to externalize APIs and define extension points, 
+		making the infrastructure more flexible, and more generic in 
+		application. A good example of this is integration of TPTP with WTP and 
+		BIRT for web application testing, profiling and generation of customized 
+		reports of results.</li>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>
+
+		Embedded Development - 
+		</b>TPTP target execution 
+		environment and remote data collection framework provide capabilities 
+		that are adapted for high-end embedded systems. TPTP will seek 
+		contributions to add support for embedded systems. We are promoting use 
+		of TPTP native logging capabilities on a number of embedded target 
+		systems.</li>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>
+		Rich Client Platform</b> 
+		- TPTP will use RCP for building manual test client and other GUI-based 
+		clients in target environments. </li>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Simple to Use</b> - The 
+		existing TPTP tools were conceived as samples, rather than as exemplary, 
+		they are deficient in many areas of usability and in some cases lacking 
+		in function. The plan is that within the domains which they target they 
+		will provide a high-quality user experience out of the box. We will 
+		focus on ease of use through enhanced user documentation, tutorials, 
+		white papers, demonstrations, and a wide range of enhancements to the 
+		user interface to streamline basic processes and clarify concepts and 
+		terminology. We are focused on improving as much as possible in Release 
+		4.2, and expect need for continuing this focus beyond 4.2.</li>
+
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Enable Consistent 
+		Multi-language Support</b> - In TPTP a significant effort will be 
+		applied in extending coverage of the trace models to represent C/C++ 
+		programs and to handle protocol activity (specifically HTTP) 
+		consistently with program activity. There will also be C/C++ APIs 
+		provided to the data collection and control layers.</li>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Appealing to the Broader 
+		Community</b> - A range of initiatives will be taken to broaden the 
+		community of potential and actual users of TPTP. Technically this will 
+		include additional integration of open source test tool technologies 
+		based on JUnit, and the various hooks to JUnit in the JDT, more data 
+		collection agents &#8211; particularly focusing on open source technologies, 
+		and additional operating system and hardware platforms from which data 
+		can be collected. There will be additional marketing and an extensive 
+		outreach program to the Eclipse community for additional contribution 
+		and adoption.</li>
+	</ul>
+
+	<h3><a name="Projects"></a>Projects</h3>
+	<p style="margin-top: 0; margin-bottom: 0">The TPTP project is is comprised 
+	of four, managed in a coordinated fashion, across which the plans items are 
+	allocated.&nbsp; TPTP subprojects include:</p>
+	<ul>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>TPTP Platform Project </b>- 
+		Provides common infrastructure in the areas of user interface, EMF based 
+		data models, data collection and communications control, as well as 
+		remote execution environments. Additionally, the Platform provides 
+		extension points for leveraging or extending these capabilities in 
+		solution specific tooling or runtimes. This includes Eclipse workbench 
+		plug-ins as well as runtime plug-ins on a target and optionally remote 
+		system.</li>
+
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Testing Tools Project
+		</b>- Provides specializations of the TPTP Platform for testing (e.g. 
+		test editors, trace/test conversion support), and exemplary extensible 
+		tools for specific testing environments. Initially this includes three 
+		test environments: JUnit, manual, and URL testing. These specializations 
+		provide optimized editing and reporting experiences for these use cases. 
+		In the cases where a unique runtime or an implementation of a 
+		testability interface is required, it is also developed in the project. 
+		For example, the manual test execution environment provides a remotely 
+		managed user interface specifically for collecting manual test progress. 
+		This manual user interface is unique from the common execution 
+		environment for JUnit and URL testing. . </li>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 5px"><b>Tracing &amp; Profiling 
+		Tools Project</b> - Extends the TPTP Platform with specific data 
+		collection for Java and distributed applications that populate the 
+		common trace model, additional language and protocol support is 
+		anticipated. There are also viewers and analysis services that draw data 
+		from the common trace model. Capabilities are provided to collect and 
+		analyze heap and stack information as well as generic toolkits for 
+		instrumenting running applications..</li>
+		<li>
+
+		<p style="margin-top: 0; margin-bottom: 0"><b>Monitoring Tools Project
+		</b>- Extends the TPTP Platform for collecting, analyzing, aggregating, 
+		and visualizing data that can be captured in the log and statistical 
+		models. The typical examples are the collection of system or application 
+		resources such as CPU or memory utilization and support for the viewing, 
+		aggregation, and analysis of that data. Logs can also be transformed 
+		into a common format and model allowing for symptom and pattern 
+		analysis. The correlation of the data in these models is of particular 
+		interest when it is associated with other model instances of statistical 
+		or log data as well as traces and tests.. </li>
+	</ul>
+	<h3><a name="Features"></a>Features</h3>
+	<p>Plan items targeted for this release represent the addition of new 
+	features or areas where existing features will be significantly reworked or 
+	enhanced.&nbsp; Plan items are allocated to themes and projects indicated 
+	above.</p>
+<TABLE width=821 border=1 id="table2">
+  <TR bgColor=#cccccc>
+
+    <TH colSpan=2>
+      <DIV align=center><font size="+1">TPTP Platform Project Plan Items</font></DIV></TH></TR>
+  <TR>
+    <TD width=78><b>Status</b></TD>
+    <TD width=727><b>Description</b></TD></TR>
+  <tr>
+    <TD width=78>Committed</TD>
+
+    <TD width=727>
+      <b>Dynamic Probekit and Byte Code Insertion (BCI). </b>Until now probes 
+		are created and Java class files are instrumented statically within the 
+		Eclipse Workbench. This feature allows for dynamic instrumentation of 
+		byte code at the time of class load using a dynamic BCI technology. This 
+		will eliminate the need for copying and modifying class files (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=109684','bugzillaWin');">109684</a>). 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+
+      <b>Java 2 SE Code Analysis Tool</b>. In an effort to increase end-user 
+		tools in TPTP, a Java code review and analysis tool will be implemented 
+		using static analysis framework. A set of 70 common code analysis rules 
+		for Java 2 SE are provided as a part of the tool.<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113790','bugzillaWin');">
+		</a>
+		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113791','bugzillaWin');">
+		113791</a> [Theme: Appealing to Broader Community, Simple to Use]</TD>
+	</tr>
+  <tr>
+
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Improvements to Static Analysis Framework. </b>A number of improvements 
+		are planned for static analysis framework - support for user defined 
+		configuration parameters through new extension points and associated UI 
+		for editing them (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113795','bugzillaWin');">113795</a>), 
+		display of rule count per category and total selected in analysis dialog 
+		(<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113792','bugzillaWin');">113792</a>), 
+		collection and annotation of time spent per rule and per category (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113790','bugzillaWin');">113790</a>). 
+		[Theme: Design for Extensibility: Be a Better Platform]</TD>
+	</tr>
+
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Support for New Target Platforms. </b>Adding several new platforms to the list 
+		of TPTP supported platforms such as Windows and Linux operating systems 
+		on IA32 EM64T (64-bit) and Intel Itanium Processor Family hardware. 
+		Additionally adding support for latest version of current supported 
+		platforms:
+		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108577','bugzillaWin');">
+		108577</a>,<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108578','bugzillaWin');">108578</a>, 
+		and
+		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108579','bugzillaWin');">
+
+		108579</a>. [Themes: Enterprise Ready, Appealing to Broader Community] </TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Data Aggregation in Java Trace Collector.</b> Full execution trace is 
+		not suited for profiling larger applications over a prolonged time 
+		period. Aggregation of data is necessary to keep the size of collected 
+		data manageable. This feature will implement data aggregation algorithms 
+		in JVMPI monitor and exercise already existing model capabilities for 
+		storing such data (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108646','bugzillaWin');">108646</a>). 
+		[Theme: Enterprise Ready, Simple to Use]</TD>
+
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Improvements to UI features.</b> Sort by time in symptom analysis 
+		results view (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=102390','bugzillaWin');">102390</a>), 
+		log table view (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108363','bugzillaWin');">108363</a>), 
+		filter log events on complex types (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108371','bugzillaWin');">108371</a>). 
+		[Theme: Simple to Use]</TD>
+
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Performance Improvements. </b>Several performance improvements are 
+		planned - trace model (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108938','bugzillaWin');">108938</a>), 
+		logging (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=112371','bugzillaWin');">112371</a> 
+		and
+		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=112878','bugzillaWin');">
+
+		112878</a>). [Theme: Scaling Up]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Profiler support for JVMTI.</b> JVMTI is the new standard and replaces 
+		JMVPI which will not available starting in Java 1.6. A technology 
+		preview of JVMTI-based Java 2 SE profiler will be released. It is a 
+		brand new implementation and and represents future direction of TPTP 
+		Java profiling and tracing tools (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=86225','bugzillaWin');">86225</a>). 
+		[Theme: Design for Extensibility: Be a Better Platform]</TD>
+
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <b>Launch UI Enhancements to support multiple agents</b>. This is a 
+		required feature for taking advantage of the flexibility and power of 
+		JVMTI standard. A launch dialog should support ability to specify 
+		multiple agents and their configuration (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=93212','bugzillaWin');">93212</a>). 
+		[Theme: Design for Extensibility: Be a Better Platform]</TD>
+	</tr>
+
+  <tr>
+    <TD width=78>Investigating</TD>
+    <TD width=727>
+      <b>Security and Dynamic Discovery API </b>in new agent controller 
+		technology is missing implementation (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=95546','bugzillaWin');">95546</a>,<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=74579','bugzillaWin');">74579</a>). 
+		We are investigating opportunity to reuse implementation from backward 
+		compatibility layer of the new agent controller. [Theme: Enterprise 
+		Ready]</TD>
+	</tr>
+
+  <tr>
+    <TD width=78>Helpwanted</TD>
+    <TD width=727>
+      <b>Port of TPTP Target Environment to Mac OS X. </b>This calls for porting 
+		TPTP C/C++ implemented agent controller and data collection agents, 
+		namely JVMPI monitor and native logging to Mac OS X (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=68111','bugzillaWin');">68111</a>). 
+		[Theme: Appealing to Broader Community]</TD>
+	</tr>
+  <tr>
+
+    <TD width=78>Helpwanted</TD>
+    <TD width=727>
+      <b>Port Native Logging Component to Palm</b>, Windows Mobile, Nokia and 
+		Sony Ericsson embedded systems (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=111019','bugzillaWin');">111019</a>). 
+		[Theme: Embedded Development]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Helpwanted</TD>
+
+    <TD width=727>
+      <b>Link Checking Tool based on Static Analysis Framework.</b> Enable the 
+		static analysis framework in TPTP to check for broken links in 
+		documentation. TPTP project build should be able to run the check, 
+		produce a parse-able report, and send an email automatically to all 
+		plug-in owners whose documentation contains broken links. It is 
+		desirable to support adding additional rules for checking other 
+		documentation guidelines.(<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=107856','bugzillaWin');">107856</a>) 
+		[Theme: Appealing to the Broader Community]</TD>
+	</tr>
+	</TABLE>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<TABLE width=821 border=1 id="table7">
+  <TR bgColor=#cccccc>
+
+    <TH colSpan=2>
+    <a name="TestTools"></a>
+      <DIV align=center><font size="+1">TPTP Testing Tools Project Plan Items</font></DIV></TH></TR>
+  <TR>
+    <TD width=78><b>Status</b></TD>
+    <TD width=727><b>Description</b></TD></TR>
+  <tr>
+
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Graphical test results overview.</strong> A graphical top level summary of test results as well as certain level of details linked with the summary on overview page to be added to the current overview tab, from where user can easily navigate to details. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103539">103539</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+
+    <TD width=727>
+    <strong>Navigate back to the test case from the test results.</strong> When verdicts or invocation event provides information about the test script file and line number of the invocation, Test Log Viewer should provide the function to navigate back to the code. This is especially useful when there are VP events.
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103551">103551</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+
+    <strong>Test Log viewer improved extensibility.</strong> 
+    Details view of execution event should display the properties contained by the events in the model and should also be extensible to allow customized properties. It should also be possible to add actions associated with certain execution event. An extension point can be defined to allow that. 
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103555">103555</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Include a macro editor with the auto gui test suite editor.</strong> 
+
+It is currently difficult to navigate through the macro of a test case. Users have reportedly copied and pasted the macro of a test case into a separate editor just so it is easier for them to edit it. The purpose of this feature is to provide better means for users to easily navigate through the macro of a test case. 
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110337">110337</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Integrate the Manual Test View with the Eclipse TPTP workbench.</strong> 
+This enhancement involves integrating the Manual Test View with the Eclipse TPTP workbench which requires the following:
+Port the Manual Test View to an embedded Workbench view in the TPTP Test perspective with no new functionality.  Port the Manual Test View to a plug-in application (e.g. Rich Client Platform (RCP) or Generic Workbench compared to the IDE Workbench facilities defined in the org.eclipse.ui.ide plug-in) based on the OSGi Framework to provide extensibility via extension points. Provide a command line wrapper that emulates the Agent Controller environment for launching the Manual Test View independent of the Agent Controller.  
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=121100">121100</a>) 
+		[Theme: Simple to Use]</TD>
+
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Documention of the generic recording framework.</strong> 
+Recording is one of the common starting points for creating a test for test tools.  A generic recording facility can help provide a common UI interaction starting point of recording for users.  The recording facility should allow other test types, recording protocols to leverage a common UI interaction (i.e., "Record a Test").  There should also be an update concerning the use of terminology to reflect usability feedback from users. 
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=122949">122949</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Support annotations for all ExecutionEvents.</strong> 
+Since annotations for all ExecutionEvents are currently supported in the TPTP Test model (see class diagram for more details), this enhancement requires exposing this support to internal components and external users. That is, a schema with documentation is required for components to generate well-formed ExecutionEvents containing annotations coupled with providing support in the Test model loaders to consume ExecutionEvents with annotations. Furthermore, modifications to the Test Log view are required for external users to access annotations contained in ExecutionEvents from the UI.
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=76160">76160</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Dynamic test asset deployment when test closure is not staticly definable.</strong> 
+Enable dynamic test asset deployment when test closure is not statically definable 
+Implement test service to allow retrieval of dependent classes or other files from workspace during test execution 
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=87414">87414</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+
+    <TD width=727>
+    <strong>Execution History Editor: Searching.</strong> 
+Allow users to search an execution history by any of the visible attributes of a given execution event. Examples include time window, associated interaction fragment (test model element), etc. Search results should be displayed in the eclipse search view, and navigation should be provided from the search view back to the selected element in the execution history.  Also allow extension point to register custom event types for searching (i.e. HTTP Request)
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=89341">89341</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Investigating</TD>
+    <TD width=727>
+
+    <strong>Improve usuability of the TPTP test reports.</strong> 
+    The report should have a summary to show which execution histories the attempted status (wedge in pie chart)? % of attempted and not attempted and links to each.  The Test Suites should be refactored by platform, and a report should display them.Some sort of way to track which build or series of build that it was run on should be available. A consolidated lists of exceptions should be displayed (defects that are blocking test success and inconclusive results, both of those by test across the project). Add the bugzilla priority and resolution status so that you have one nice page, "this is a blocking issue & here's its bugzilla status". The hierarchy of test suites should be displayed (by project, also summaries of tests vs. the long detailed). A project health page that would combine bugzilla and test results: Summary of numbers by severity/priority.
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109657">109657</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Investigating</TD>
+    <TD width=727>
+
+    <strong>Test Execution and Agent Data Collection.</strong> 
+Test Harness should be able to invoke user selectable agent data collectors 
+when test is invoked on specified machines and associate the collected data 
+results as with the test run.  These choices, including which data should be 
+collected, needs to be persisted (with some naming scheme), so that subsequent 
+test runs can re-use the same data collection choices (or easily edit them).
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=75029">75029</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Helpwanted</TD>
+    <TD width=727>
+    <strong>Automated Documentation Generation.</strong> 
+
+The purpose of this feature is to allow users to automatically generate human-readable user instructions for a use case scenario that has been recorded. This will assist technical writers in ensuring that the most up-to-date instructions along with screen captures is shipped with the product. It's purpose is to also reduce translation costs by having the macro run with different language packs as opposed to requiring a 3rd party company to translate the same set of instructions into 8 or 9 sets of different languages.
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110108">110108</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Helpwanted</TD>
+    <TD width=727>
+    <strong>Support RCP applications for recording and playing back GUI test cases.</strong> 
+The recording infrastructure needs to be separated from the playback infrastructure. The two need to be very loosely coupled Allow users to record and play back test cases for an RCP application The user experience must be very similar to how a test case is recorded and played back in the workbench 
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114159">114159</a>) 
+		[Theme: Simple to Use]</TD>
+
+	</tr>
+  <tr>
+    <TD width=78>Helpwanted</TD>
+    <TD width=727>
+    <strong>Leverage Eclipse Contexts in the Test Perspective.</strong> 
+Contexts provide support for the programmatic display (and possible removal) of views within the perspective.  This is valuable when considering a mixed-test scenario within TPTP.  Some test types may have additional views that are test-type-specific and not be relevant to other tests.  Supporting contexts would allow the Test Perspective to display views relevant to a selected test type (e.g., selected in the Test Navigator) and hide irrelevant views.
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83782">83782</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+
+	</TABLE>
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<TABLE width=821 border=1 id="table8">
+  <TR bgColor=#cccccc>
+    <TH colSpan=2>
+    <a name="Tracing"></a>
+    <DIV align=center><font size="+1">TPTP Tracing and Profiling Tools Project Plan Items</font></DIV></TH></TR>
+  <TR>
+    <TD width=78><b>Status</b></TD>
+
+    <TD width=727><b>Description</b></TD></TR>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>Divide the online help into documentation for users and documentation for consumers.</strong> 
+The Foundation has asked TPTP to divide its on-line help into two categories: doc for users (developers who use TPTP to test & profile) and doc for consumers (extenders of TPTP). Both types of documentation remain in the plug-in format, but the consumer documentation should be shipped only in the SDK driver. The user documentation should remain in the binary production driver of TPTP. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109897">109897</a>) 
+		[Theme: Simple to Use]</TD>
+
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+    <strong>ICU4J support in TPTP.</strong> 
+Eclipse will incorporate and package ICU, however there are no packaging details as of yet. This will be in a plugin and intended for eclipse 3.2 platform.  This enhancement applies to all TPTP UI, non test components.
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=120002">120002</a>) 
+		[Theme: Simple to Use]</TD>
+	</tr>
+
+	</TABLE>
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<TABLE width=821 border=1 id="table4">
+  <TR bgColor=#cccccc>
+    <TH colSpan=2>
+      <DIV align=center><font size="+1">TPTP Monitoring Tools Project Plan Items</font></DIV></TH></TR>
+  <TR>
+    <TD width=78><b>Status</b></TD>
+    <TD width=727><b>Description</b></TD></TR>
+
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <strong>Provide mechanisms for adding and launching new statistical agents.</strong> Currently,
+		the list of statistical agents that can be launched by TPTP is hardcoded.   This feature will provide
+		an extension point and the necessary infrastructure to allow third parties to implement new statistical
+		agents and extend the monitoring capability of TPTP.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=113166">113166</a>)
+		[Theme: Design for
+		Extensibility: Be a Better Platform]</TD>
+	</tr>
+  <tr>
+
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <strong>Provide authentication when monitoring remote Windows systems.</strong> Currently the Windows Perfmon Agent
+is able to gather statistics from a remote system other than the one it is running on. This requires that the agent has the
+correct authentication to access the Perfmon data on the remote system. This can be accomplished by having the user map a
+network drive to the target system before starting the agent.  This is an inconvenient extra step required to be performed by the user.
+This feature will add authentication capability to the Perfmon Agent so that it can connect to the remote system on behalf of the user.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=118545">118545</a>)
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+
+    <TD width=727>
+      <strong>Provide a new Symptom Database editor.</strong> A new symptom specification is being introduced with the Platorm Project
+		feature <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=124699">124699</a>. Therefore a new symptom database editor
+		is required to create symptoms in this new format.  A conversion utiltity will also be provided to convert current symptom
+		databases to the new specification.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=64800">64800</a>)
+		[Theme: Appealing to the Broader Community]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+
+    <TD width=727>
+      <strong>Simplify Log Import User Experience.</strong> Currently, specifying multiple log files on a log import
+		operation is difficult.  The user must create a log set and add individual logs of various types to it.
+		A support person may have received a zip file containing many logs of various types from a customer.
+		They must unzip the file, determine which logs are of which types and create a log set for them to import
+		them all at once.  Another example of a difficult log import scenario is if a user wants to import multiple
+		logs of the same type from different locations on the file system.  Again a log set needs to be created
+		and the individual log file need to be added to it as separate entries in the set.  These log import scenarios will
+		be simplified from a user perspective.  If a zip file of log files is specified, the log set will be created
+		automatically.  The ability to specify multiple files of the same type on the Details pane will be added.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114818">114818</a> and
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=115087">115087</a>)
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <strong>Improve performance of local log import.</strong> Currently for a local log import
+		GLA parses the log file into producer CommonBaseEvent objects which are then serialized into XML and
+		converted to consumer CommonBaseEvent objects when they are loaded into the EMF model.  These conversions
+               will be eliminated by creating a new GLA formatter that generates consumer CommonBaseEvent
+		objects directly in the EMF model.  The Log Import Wizard will modify the existing adapter
+		configuration by replacing the existing formatter and outputter components with this new
+		formatter component.  (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=117062">117062</a> and
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=117068">117068</a>)
+		[Theme: Scaling Up]</TD>
+	</tr>
+
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <strong>Provide a log file parser so TPTP can import Java Logging XML log files.</strong> A GLA parser
+		will be created for parsing Java Logging XML log files that can be integrated with the TPTP
+		Log Import facility to enable import of this type of log file.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=77318">77318</a>)
+		[Theme: Appealing to the Broader Community]</TD>
+	</tr>
+  <tr>
+
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <strong>Provide ability of GLA to automatically set CommonBaseEvent sequence number value.</strong> Currently
+		a parser writer must write a static parser class in order to set CommonBaseEvent sequence number
+		value correctly.  This feature will enable the parser writer to specify a simple rule for sequence number
+		that will cause GLA to set the sequence value correctly based on the creationTime value.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79579">79579</a>)
+		[Theme: Simple to Use]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+
+    <TD width=727>
+      <strong>Provide ability of GLA to filter log data in the Sensor and Extractor.</strong> Parsing log data
+		using regular expressions can be expensive. If the log data can be filtered before reaching the
+		Parser component of GLA less regular expression parsing is required which will improve the performance
+		of parsing log files with GLA.  This feature will provide the infrastructure in GLA that will allow
+		parser writers to provide filter specifications or a filter exit class to the Sensor or Extractor components
+		of GLA to filter out log data.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79565">79565</a>)
+		[Theme: Scaling Up]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+
+      <strong>Provide ability to programmatically modify GLA adapter configuration.</strong> Applications can 
+        package and make use of GLA run-time and adapter configuration files to parse log files.  However, to use
+        the packaged adapter files they must be modified. For example, the adapter configuration must specify
+        the location and name of the log file to parse.  Currently, the only way to do this programmatically is
+        by using XML parsing libraries to read and modify these XML files.  To simplify adapter configuration
+        modification, this feature will extend the current org.eclipse.hyades.logging.adapter.Adapter API to provide
+        methods to retrieve and modify the configuration before it is executed by GLA.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=96433">96433</a>)
+		[Theme: Design for Extensibility: Be a Better Platform]</TD>
+	</tr>
+  <tr>
+    <TD width=78>Committed</TD>
+    <TD width=727>
+      <strong>Simplify GLA Adapter Configuration Editor.</strong> Currently, creating a GLA adapter configuration file with the
+		Adapter Configuration Editor to create a log parser is too complicated.  It requires extensive knowledge of
+		the GLA architecture, regular expressions, and the CommonBaseEvent schema.  The Adapter Configuration Editor
+		user interface will be simplified to make it easier to create a log parser based on a sample log file.
+		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=78319">78319</a>,
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=104487">104487</a>, and
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106050">106050</a>)
+		[Theme: Simple to Use]</TD>
+
+	</tr>
+</TABLE>
+<h3><a name="Defects"></a>Defects</h3>
+<p><span style="background-color: #FFFF00">I</span>n addition to the targeted 
+features for this release, we plan to reduce the defect backlog. Defects are 
+prioritized based on severity, age, and resource availability. We encourage 
+users to report defects and we will do our best to fix them in priority order. 
+We plan to reduce backlog of defects to under 350 defects (approximately 30% 
+reduction relative to backlog at the end of&nbsp; previous release).</p>
+	<blockquote>
+		<p style="margin-top: 0; margin-bottom: 0">
+		See
+		<a href="http://www.eclipse.org/tptp/reports/bugs/report_42.php?src=All&queryType=bugs&component=All">
+
+		TPTP 4.2 Defects</a> 
+		for a listing of already fixed defects, current defect targets and backlog.</p>
+		<p style="margin-top: 0; margin-bottom: 0">
+		Select &quot;4.2 [Completed | 
+		nil| I1 | I2 | I3] 
+		bugs&quot; tabs.</p>
+	</blockquote>
   
   <h2>Business Intelligence and Reporting tools (BIRT))</h2>
   
