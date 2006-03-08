@@ -15,6 +15,12 @@ body {
 background-image: url('../draft.gif');
 background-repeat: repeat-y
 }
+h1 {
+border-bottom: solid
+}
+h2 {
+border-bottom: thin dotted
+}
 </style>
 </head>
 
@@ -35,7 +41,7 @@ background-repeat: repeat-y
   Consequently, the information in this year's roadmap is fairly sparse - the reader
   is directed to the project's home pages for additional information.
   </p>
-  <h2>Callisto</h2>
+  <h1>Callisto</h1>
   <p>The big project planning effort this year is around the <a href="http://www.eclipse.org/projects/callisto.php">Callisto Simultaneous Release</a>.
   </p>
   <p>The goal of the Callisto Simultaneous Release is to release ten major Eclipse projects 
@@ -55,12 +61,10 @@ While Callisto is about the simultaneous release of ten projects, it is is not a
 </em>
 </p>
   
-  <h2>Individual Project Plans</h2>
+  <h1>Individual Project Plans</h1>
   <p>The Eclipse Community is currently organized into nine top-level projects, the project plans
   of which are described below.</p>
-  <h3>Eclipse Project</h3>
-  
-<h3>The Eclipse Project DRAFT 3.2 Plan</h3>
+<h2>The Eclipse Project DRAFT 3.2 Plan</h2>
 
 <p>Last revised 17:03 EST Feb 14, 2006 
   (<img src="new.gif" alt="(new)" border="0" height="12" width="12">
@@ -1232,21 +1236,17 @@ existing features will be significantly reworked.
 <h6>(End of items for Equinox project.)</h6>
 
   
-  <h3>Tools Project</h3>
+  <h2>Tools Project</h2>
 <p>The Tools top-level Project does not have an overall project plan.</p>
 
-  <h3>Web Tools (WTP)</h3>
+  <h2>Web Tools (WTP)</h2>
     <div id="globalWrapper">
       <div id="column-content">
 	<div id="content">
 	  <a name="top" id="contentTop"></a>
-	  	  <h1 class="firstHeading">Web Tools Requirements 1.5</h1>
-
-	  <div id="bodyContent">
-	    <h3 id="siteSub">From Eclipsepedia</h3>
 	    <div id="contentSub"></div>
 	    	    	    <!-- start content -->
-	    <table id='toc' class='toc'><tr><td><div id='toctitle'><h2>Contents</h2></div>
+	    <table id='toc' class='toc'><tr><td><div id='toctitle'><h3>Contents</h3></div>
 <ul>
 <li class='toclevel-1'><a href="#Eclipse_Web_Tools_Project_DRAFT_1.5_Plan"><span class="tocnumber">1</span> <span class="toctext">Eclipse Web Tools Project DRAFT 1.5 Plan</span></a>
 
@@ -1404,17 +1404,17 @@ features will be significantly reworked. Common goals are listed in the “Common 
 </div>
 </div>
   
-  <h3>Test & Performance Tools Platform (TPTP)</h3>
+  <h2>Test & Performance Tools Platform (TPTP)</h2>
   
-  <h3>Business Intelligence and Reporting tools (BIRT))</h3>
+  <h2>Business Intelligence and Reporting tools (BIRT))</h2>
   
-  <h3>Data Tools Platform (DTP)</h3>
+  <h2>Data Tools Platform (DTP)</h2>
   
-  <h3>Device Software Development Platform (DSDP)</h3>
+  <h2>Device Software Development Platform (DSDP)</h2>
   
-  <h3>SOA Tools (STP)</h3>
+  <h2>SOA Tools (STP)</h2>
   
-  <h3>Technology (incubator)</h3>
+  <h2>Technology (incubator)</h2>
 
       <p><i>March 7, 2006</i></p>
     
