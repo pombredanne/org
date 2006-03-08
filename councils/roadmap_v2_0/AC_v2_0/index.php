@@ -20,15 +20,7 @@ background-repeat: repeat-y
 
 
 
-
-  <body>
-    <table border=0 cellspacing=5 cellpadding=2 width="100%" >
-  <tr> 
-    <td align=left width="72%"> <font class=indextop> Eclipse Architecture Plan</font> <br>
-      <font class=indexsub> the open community driving the eclipse platform</font> </td>
-    <td width="28%"><img src="../../../../images/Idea.jpg" height=86 width=120></td>
-  </tr>
-</table>
+<h1>Eclipse 2006 Architecture Plan</h1>
       <p>
       &nbsp;The
 <img border="0" src="../PC_v2_0/external.gif" width="20" height="16"><a href="../../documents/Eclipse Development Process 2003_11_09 FINAL.pdf">Eclipse Development Process</a> calls for the creation of three Councils: Requirements, Planning and Architecture. Together, these Councils are responsible for the creation and maintenance of the Eclipse Roadmap. When approved by the Board, the intent of the Eclipse Roadmap is to communicate the directions in which the Eclipse community will be taking its projects over the next year. New projects started during the life of a Roadmap are expected to be consistent and complementary to the Roadmap.</p>
