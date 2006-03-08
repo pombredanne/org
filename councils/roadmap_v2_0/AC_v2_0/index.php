@@ -121,7 +121,7 @@ background-repeat: repeat-y
 </table>
     <p><a href="/dsdp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Device Software Development Platform project home page.</a></p>
-    <p><img border="0" src="dsdp.gif" width="600" height="400"></p>
+    <p><img border="0" src="dsdp.gif"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">SOA
