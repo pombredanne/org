@@ -64,7 +64,18 @@ While Callisto is about the simultaneous release of ten projects, it is is not a
   <h1>Individual Project Plans</h1>
   <p>The Eclipse Community is currently organized into nine top-level projects, the project plans
   of which are described below.</p>
-<h2>The Eclipse Project DRAFT 3.2 Plan</h2>
+  <ul>
+  <li><a href="#ECLIPSE">The Eclipse Project</a>
+  <li><a href="#TOOLS">The Tools Project</a>
+  <li><a href="#WTP">Web Tools (WTP)</a>
+  <li><a href="#BIRT">Business Intelligence and Reporting (BIRT)</a>
+  <li><a href="#DTP">Data Tools Platform</a>
+  <li><a href="#DSDP">Device Software Development Platform (DSDP)</a>
+  <li><a href="#STP">SOA Tools Platform</a>
+  <li><a href="#TECHNOLOGY">Technology (incubation)</a>
+  </ul>
+  
+<h2><a name="ECLIPSE">The Eclipse Project DRAFT 3.2 Plan</a></h2>
 
 <p>Last revised 17:03 EST Feb 14, 2006 
   (<img src="new.gif" alt="(new)" border="0" height="12" width="12">
@@ -1236,10 +1247,10 @@ existing features will be significantly reworked.
 <h6>(End of items for Equinox project.)</h6>
 
   
-  <h2>Tools Project</h2>
+  <h2><a name="TOOLS">Tools Project</a></h2>
 <p>The Tools top-level Project does not have an overall project plan.</p>
 
-  <h2>Web Tools (WTP)</h2>
+  <h2><a name="WTP">Web Tools (WTP)</a></h2>
     <div id="globalWrapper">
       <div id="column-content">
 	<div id="content">
@@ -1403,7 +1414,7 @@ features will be significantly reworked. Common goals are listed in the “Common 
 </div>
 </div>
   
-<H2>Eclipse Test &amp; Performance Tools Platform (TPTP) Project<BR>Approved 4.2 Plan</H2>
+<H2><a name="TPTP">Eclipse Test &amp; Performance Tools Platform (TPTP) Project<BR>Approved 4.2 Plan</a></H2>
 <P>Last revised 00:30 PST 25 January 2006 (<font face="Arial"><span style="background-color: #FFFFFF"><IMG height=12 
 src="http://www.eclipse.org/images/new.gif" border=0> marks 
 interesting changes since 4.1 Release)</span></font><BR><BR><I>&nbsp;&nbsp;&nbsp; Please send comments 
@@ -2393,7 +2404,7 @@ reduction relative to backlog at the end of&nbsp; previous release).</p>
 		bugs&quot; tabs.</p>
 	</blockquote>
   
-		<h2><a name="top"></a>BIRT 2.1 Project Plan</h2>
+		<h2><a name="BIRT"></a>BIRT 2.1 Project Plan</h2>
 
 
 <p class="subhead">Last revised January 30, 2006 <br>
@@ -2840,7 +2851,7 @@ of defects</a> targeted for resolution in BIRT 2.1 can be found in the
 bugzilla database on <a
 href="https://bugs.eclipse.org/bugs">https://bugs.eclipse.org/bugs</a>.</body>
   
-  <h2>Data Tools Platform (DTP)</h2>
+  <h2><a name="DTP">Data Tools Platform (DTP)</a></h2>
   
   <P STYLE="margin-bottom: 0in"><BR>
 </P>
@@ -3884,11 +3895,613 @@ Results View</B></FONT></P>
 	</DIV>
 </DIV>
   
-  <h2>Device Software Development Platform (DSDP)</h2>
+  <h2><a name="DSDP">Device Software Development Platform (DSDP)</a></h2>
+
+	<h3>DSDP-DD Project Plan</h3>
+
+	<p>For the first official release of the Device Debugging project, we are exclusively focused
+	on changes in the Eclipse Debug Model (EDM) in the Platform.  The changes are described in the 
+	Technical Plans	section below.  The EDM enhacements will be considered "experimental" given
+	the newness of the changes.  We do not anticipate needing to creation an Device Debugging
+	specific pacakges, e.g. org.eclipse.dd.*, in the first release.  In future releases, 
+	DD-specific packages will be created to augment the capabilities in the Eclipse platform 
+	with a device software specific debugger implementation and device software debugging and
+	utility views.</p> 
+	
+	<h4>Release Schedule</h4>
+
+	
+	<p>Detailed plans on the EDM changes are listed 
+	<a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/platform-debug-home/r3_2/plan.html#Overall_Planning"> here</a>.
+	Below is a high-level list of changes on a per-milestone basis, as well as a detailed list
+	of Memory View improvements.</p>
+
+	<ul>
+		<li><b>Eclipse 3.2 M3</b> - 4 November 2005<br>
+		<ul>
+		    <li> Eclipse Debug Model (EDM)
+		    </li>
+
+		    <ul>
+		    	<li> Preliminary commit of functionality.  Not ready for usage.
+		    	</li>
+		    </ul> 
+			<li> Memory View
+			</li>
+			<ul>
+				<li> Improve usability - add shortcut keys, improve workflow of add memory monitors,
+				global reset Memory Block actions, easier to toggle visibility of tree view pane,
+				action/shorcuts to switch between memory monitors, allow to run the view without 
+				the tree view pane, 
+				</li>
+
+				<li> Address scalability issues of table renderings, allow to 
+				adjust number of bytes per line.
+				</li>
+			</ul>
+		</ul>
+		<br>
+		
+		<li><b>Eclipse 3.2 M4</b> - 16 December 2005<br>
+		<ul>
+
+		    <li> Eclipse Debug Model (EDM)
+		    </li>
+		    <ul>
+		    	<li> Initial commit of new Eclipse Debug Model. Not stable and intended 
+		    	only for initial use by the DD community.
+		    	</li>
+				<li>See <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/dd/2005-12-21_Phone_DD_FlexibleDebugPlatform_M4Progress.ppt">development status update</a> 
+				from 21-December-2005 meeting
+				</li>
+		    </ul> 
+			<li> Memory View
+			</li>
+
+			<ul>
+				<li> Enhancements to the framework to support EDM enhancements: Allow models 
+				to persist preferences (row / column size), Retargettable actions,
+				(Add Memory Block action and Add Memory Rendering action), Support for Address 
+				Space, Allow models to better decorate a memory monitor.  (Support for
+				ILabelDecorator)
+				</li>
+				<li> Support for flexible hierarchy in the tree view pane.
+				</li>
+				<li> Provide hover support.
+				</li>
+			</ul>
+		</ul>
+
+		</li>
+		<br>
+		
+		<li><b>Eclipse 3.2 M5</b> - 17 February 2006<br>
+		<ul>
+		    <li> Eclipse Debug Model (EDM)
+		    </li>
+		    <ul>
+
+				<li>Update of EDM based on DD feedback.
+				</li>
+				<li>To be discussed at <a href="http://wiki.eclipse.org/index.php/DSDP-DD_Face-to-face_Toronto_22-Feb-2006">Toronto</a> 
+				meeting 22/23-Febrary-2006. 
+				</li>
+		    </ul> 
+			<li> Memory View
+			</li>
+			<ul>
+				<li> Migrate view to be asynchronous: Migrated renderings to use asynchronous 
+				table viewer. Ensure that interactions with models are done on background thread
+      			asynchronously.
+      			</li>
+
+			</ul>
+		</ul>
+		</li>
+		<br>
+		
+		<li><b>Eclipse 3.2 M6</b> - 31 March 2006<br>
+		<ul>
+		    <li> Eclipse Debug Model (EDM)
+		    </li>
+
+		    <ul>
+				<li>Feature complete for Eclipse 3.2 release.
+				</li>
+		    </ul>
+		    <li> Memory View
+		    </li>
+		    <ul>
+				<li> More work with migrating the table renderings to use asynchronous table
+				viewer: Define provisional APIs.  Make the view even more flexible by allow 
+				elements other than IMemoryBlockRetrieval to be the view&#39;s input.
+				</li>
+
+		    </ul>
+		</ul>
+		<br>
+		
+		<li><b>Eclipse 3.2 Release</b> - June 2006<br>
+		<ul>
+			<li>First release of experimental EDM changes for community usage and feedback.
+			</li>
+			<li>Release of Memory View improvements that take advantage of the new EDM change.
+			</li>
+
+		</ul>
+		</li>
+	</ul>
+	
+	<h4>Technical Plans</h4>
+	
+	<p>In the current architecture of the Eclipse Debug Platform (Eclipse 3.1 and earlier), 
+	the debug interfaces enforce a rigid debug element hierarchy (Target – Process – Thread – 
+	Stack Frame):</p>
+	<img src="image001.jpg" align=center>
+	
+    <p>A debug model provides implementations of specific interfaces representing this 
+    hierarchy, e.g. IDebugTarget, and fires debug events that cause view updates, action 
+    updates, and source lookup in the IDE.  Selection changes in the debug view change the 
+    active debug context, and the various debugger views, e.g. variables, are hardwired to 
+    respond to these selection changes.  The Debug view also provides run-control actions 
+    such as run, step and stop, and must be open to drive the debugger.</p>	
+
+    <p>Participants in the Device Debugging project have found the rigidity of this 
+    functionality to be inadequate for their commercial development product needs.  
+    Specifically, the following features are needed:</p>
+
+    
+    <ul>
+    	<li> A flexible debug element hierarchy </li>
+    	<li> Model driven view updates </li>
+    	<li> Asynchronous interactions between UI and debug model </li>
+    	<li> Flexible view wiring (e.g. input to variables view) </li>
+
+    	<li> The ability to debug multiple sessions simultaneously </li>
+	</ul>
+	
+    <p>In response to these needs, the Eclipse Debug Platform intends to support arbitrary 
+    debugger implementations, thereby allowing it to interact with a wide variety of 
+    embedded targets and operating systems.</p>
+
+	<p>Representatives from the Debug Platform team have proposed a solution involving a 
+	layer of adaptable interfaces that enable:</p>
+
+    <ul>
+    	<li>Customization of view and label content </li>
+
+    	<li>Model driven updates </li>
+    	<li>Retargettable debugger actions </li>
+	</ul>
+
+	<p>Under this proposal, the Debug Platform will provide default implementations for 
+	backward compatibility with the old debug hierarchy and behavior, but users of the 
+	platform can also override the structure and behavior of the debugger and its views 
+	for custom debugger implementations.  Below we describe the three areas of customization 
+	in more detail.</p>
+	
+	<p><b>Customized view and label content.</b> In Eclipse 3.1, view context is fixed according 
+	to the standard debug model.  With the proposed architecture, debugger views can be populated 
+	with customized content based on the needs of the debug model.  This is handled by a 
+	Content Adapter, as show in the block diagram below.</p>
+
+	<img src="image002.jpg" align=center>
+
+	<p>For each debugger view, the Content Adapter is responsible for populating the nodes in 
+	the tree based on the representation that debug model would like to present. Similarly, each 
+	node has a corresponding label adapter used to generate its text.  In the case of the Debug 
+	View, for example, the view could be customized to contain a new hierarchy that represents a 
+	multi-core embedded target:</p>
+	
+	<img src="image003.jpg" align=center>
+	
+	<p>Other views can be customized in a similar manner by the Content Adapter.  This 
+	proposed design also introduces a Request Monitor to asynchronously process the 
+	retrieval of data from the model.  The Request Monitor is a simplification of the 
+	Deferred Content Manager in Eclipse 3.1.</p>
+
+	<p><b>Model driven view updates.</b>  In Eclipse 3.1, view updates were fixed and locked 
+	to events from the standard debug model.  For example, a context stopped event updates 
+	all debug views.  The proposed implementation supports customized view updates, allowing 
+	the model to dictate how and what it wants to be updated using a model proxy.  This also 
+	allows the user to select different update modes for different views, e.g. manual update, 
+	update only on stopped events and not when stepping, etc.  This flexibility is important 
+	because in an embedded system, there is often a performance cost associated with updating 
+	data in debugger views.  Model proxies interface a model with a view by firing deltas 
+	describing what elements have changed in the model and how they should be updated.  
+	Model proxies can be implemented on a per-element basis as shown below.</p>
+
+	<img src="image004.gif" align=center>
+
+	<p><b>Debugger Actions.</b>  In Eclipse 3.1, the Debug View is solely responsible for driving 
+	the debugger: running, stopping, stepping, initiating source lookup, forcing updates of 
+	other Debug Views, etc.  This is limiting for several reasons.  Debugger implementers want 
+	the ability to debug without the debug view open, to debug multiple sessions simultaneously, 
+	and to retarget debugger actions based on the custom implementation of the debug model.  
+	The proposed solution moves control of debugging from the Debug View itself to a Debug 
+	Context Manager.  This manager can be driven by selection changes from the Debug View or 
+	can be driven programmatically, and the various debugger actions target the active context.</p>
+
+	<img src="image005.jpg" align=center>
+
+	<p>In summary this new architecture provides:</p>
+
+	<ul>
+		<li>Flexible element hierarchies/content per element, per view</li>
+		<li>Customized labels per element, per view</li>
+		<li>Pluggable model proxies per element, per view</li>
+		<li>Extensible update policies per view</li>
+		<li>Pluggable source lookup</li>
+
+		<li>Retargettable debug actions</li>
+		<li>Flexible view wiring</li>
+		<li>Debugging without the debug view</li>
+		<li>Debugging simultaneous sessions in different views</li>
+	</ul>
+	
+	<h4>See Also</h4>
+
+	<p>Please see the
+	<a href="../tutorial/index.php">tutorial</a> section of the Device Debugging project pages 
+	for more presentations and documentation.<br><br>
+	</p>  
+
+		<h3>DSDP - Target Management Draft 1.0 Plan</h3>
+		<!--
+		<table border="0" cellpadding="2" cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td align="left"><h3>DSDP - Target Management Draft 1.0 Plan</h3></td>
+					<td align="right"><img align="right" src="/dsdp/tm/images/logo_banner.png" /></td>
+				</tr>
+			</tbody>
+		</table><hr/>
+		-->
+		<p>Last revised 12:00 CET Feb. 27, 2006 (<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+		<!-- img src="/eclipse/development/new.gif" alt="(new)" border="0" height="12" width="12" -->
+		marks interesting recent changes)</p>
+
+		
+<p><i>Please send comments about this draft plan to
+the </i><a href="mailto:dsdp-tm-dev@eclipse.org">dsdp-tm-dev@eclipse.org</a> <i>developer
+mailing list.</i></p>
+
+<p>This document lays out the feature and API set for the initial
+release of the Eclipse DSDP - Target Management Project, 
+<b>Remote Systems Explorer (RSE) version 1.0.0</b>.</p>
+<p>The Remote Systems Explorer is a Tool and Framework for working with 
+remote computer systems. It forms the first release out of the DSDP - 
+Target Management Project, to be augmented by additional plug-ins for device
+specific connection schemes and tasks in the future.</p> 
+<ul>
+	<li><a href="#Deliverables">Release deliverables</a></li>
+	<li><a href="#Milestones">Release milestones</a></li>
+	<li><a href="#OperatingEnvironments">Operating
+	environments</a></li>
+	<li><a href="#Compatibility">Compatibility and dependencies</a></li>
+
+	<li><a href="#Features">Features and capabilities</a></li>
+</ul>
+<p>This project plan and associated requirements are the result of an
+open and transparent process and includes input from those who have
+expressed an interest in the project. That said, the success of the
+project and its deliverables is solely dependent upon the contributions
+from its community membership. If you are interested in contributing to
+the project in the delivery of its stated goals, you are more than
+welcome!</p>
+
+<p>The first part of the plan deals with the important matters of
+release deliverables, release milestones, operating environments,
+compatibilities and dependencies. These are all things that need to be
+clear for any release, even if no features were to change.</p>
+<p>The remainder of the plan consists of themes for the project's
+milestones, with more detail on these and future capabilities found on
+the project <a href="/dsdp/tm/development/requirements.php">requirements</a>
+document. Each plan item covers a feature or API that is to be added to
+the Remote Systems Explorer, or some aspect of the project that is
+to be improved.</p>
+<p>As this plan represents the goals for the initial release of the
+Remote Systems Explorer, it is expected and hoped that the project
+will acquire additional requirements, a vibrant user community, and most
+importantly, a plug-in developer community to utilize the RSE framework
+for creating additional connection protocols, subsystem visualizers and more.
+With this, it is expected that the plan will be adjusted during the
+development cycle in order to accomodate the community to as great an
+extent as possible.</p>
+
+<h4><a name="Deliverables"></a>Release deliverables</h4>
+<p>The release deliverables have the same form as is found in most Eclipse projects,
+namely:</p>
+<ul>
+	<li>Remote Systems Explorer source code release, available as versions tagged "R1_0" in the project's
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>
+		and
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>
+		.
+	</li>
+	<li>Remote Systems Explorer SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+
+	<li>Remote Systems Explorer runtime binary distribution (includes user documentation) (downloadable).</li>
+	<li>Remote Systems Explorer examples (downloadable).</li>
+	<li>Remote Systems Explorer unit tests (downloadable).</li>
+</ul>
+<h4><a name="Milestones"></a>Release milestones</h4>
+<p>Release milestone will be occurring at roughly 6 week intervals. The
+milestones are:</p>
+<ul>
+	<li>TBD - Milestone 0 (1.0 M0) - build machine in place</li>
+
+	<li>Friday April 7, 2006 - Milestone 1 (1.0 M1) - stable build</li>
+	<li>Friday May 19, 2006 - Milestone 2 (1.0 M2) - stable build</li>
+	<li>Friday June 30, 2006 - Milestone 3 (1.0 M3) - stable build (API freeze)</li>
+	<li>Friday August 11, 2006 - Milestone 4 (1.0 M4/RC0) - stable build</li>
+</ul>
+<p>Lock down and testing then begins with M4, and progress through a
+series of test-fix passes against candidates releases. 
+Release candidate builds are planned as follows (M4 is
+release candidate 0):</p>
+<ul>
+	<li>Friday August 25, 2006 - Release Candidate 1 - (1.0 RC1)</li>
+
+	<li>Friday September 8, 2006 - Release Candidate 2 - (1.0 RC2)</li>
+	<li>Friday September 22, 2006 - Release Candidate 3 - (1.0 RC3)</li>
+</ul>
+<p>As soon as no critical problems are found in the two-week testing
+period between two release candidates, a release candidate can be 
+declared the release.</p>
+<p>All release deliverables
+will be available for download as soon as the release has been tested
+and validated in the operating environments listed below.</p>
+
+<!-- -------------------------------------------------------- -->
+<h4><a name="OperatingEnvironments"></a>Operating
+Environments</h4>
+<p>In order to remain current, each Eclipse release is designed to run on
+reasonably current versions of the underlying operating environments.</p>
+
+<p>The Remote Systems Explorer depends upon on the Eclipse Platform.
+For this release, the RSE sources will be written and compiled
+against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
+Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java
+Runtime Environment, Standard Edition. Since Java 5 is also used as
+Eclipse Reference Platform, some testing of RSE will also
+be done on Java 5.</p> 
+<p>Eclipse Platform SDK 3.2 will be tested and validated on a number of
+<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_2.html#TargetOperatingEnvironments">
+reference platforms</a>
+(this list is updated over the course of the release cycle). The 
+Remote Systems Explorer wil be tested and validated against a 
+subset of those listed for the platform, plus some more (marked
+<img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+) for which contributors have have expressed special interest 
+and volunteered to perform the systematic testing:</p>
+
+<table summary="Remote Systems Explorer Reference Platforms" style="width: 821px;"
+border="1">
+<tbody>
+<tr bgcolor="#cccccc">
+<th colspan="5">
+<div align="center"><strong><font size="+1">Remote Systems Explorer Reference
+Platforms</font></strong></div>
+
+</th>
+</tr>
+<tr>
+<td width="205"><b>Operating system</b></td>
+<td width="59"><b>OS version</b></td>
+<td width="76"><b>Processor architecture</b></td>
+<td width="59"><b>Window system</b></td>
+<td width="453"><b>Java 2 Platform</b></td>
+</tr>
+<tr>
+<td width="205">Microsoft Windows</td>
+
+<td width="59">XP</td>
+<td width="76">Intel x86</td>
+<td width="59">Win32</td>
+<td width="453"> Sun Java 2 Standard Edition 5.0 Update 6<br>
+for Microsoft Windows </td>
+</tr>
+<tr>
+<td width="205">Microsoft Windows</td>
+<td width="59">XP</td>
+
+<td width="76">Intel x86</td>
+<td width="59">Win32</td>
+<td width="453"> IBM 32-bit SDK for Windows,<br>
+Java 2 Technology Edition 5.0 </td>
+</tr>
+<tr>
+<td width="205">Microsoft Windows</td>
+<td width="59">
+  <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+  2000</td>
+
+<td width="76">Intel x86</td>
+<td width="59">Win32</td>
+<td width="453"> Sun Java 2 Standard Edition 1.4.2_10<br>
+for Microsoft Windows </td>
+</tr>
+<tr>
+<td width="205">Red Hat Enterprise Linux</td>
+<td width="59">WS 4</td>
+<td width="76">Intel x86</td>
+
+<td width="59">GTK</td>
+<td width="453"> Sun Java 2 Standard Edition 5.0 Update 6<br>
+for Linux x86</td>
+</tr>
+<tr>
+<td width="205">SUSE Linux Enterprise Server</td>
+<td width="59">9</td>
+<td width="76">Intel x86</td>
+<td width="59">GTK</td>
+
+<td width="453"> IBM 32-bit SDK for Linux on Intel architecture,<br>
+Java 2 Technology Edition 1.4.2 service release 3 </td>
+</tr>
+<tr>
+<td width="205">Sun Solaris</td>
+<td width="59">
+  <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+  8</td>
+<td width="76">SPARC</td>
+
+<td width="59">
+  <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+  Motif</td>
+<td width="453">Sun Java 2 Standard Edition 1.4.2_10<br>
+for Solaris SPARC</td>
+</tr>
+<tr>
+<td width="205">
+  <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+  Ubuntu / Debian Linux</td>
+
+<td width="59"><span style="color: rgb(255, 0, 0);">(TBD)</span></td>
+<td width="76">Intel x86</td>
+<td width="59">GTK</td>
+<td width="453">Sun Java 2 Standard Edition 1.4.2_10<br>
+for Linux x86</td>
+</tr>
+</tbody>
+</table>
+
+<p>Eclipse and the RSE undoubtedly run fine
+in many operating environments beyond the reference platforms we test.
+However, since we do not systematically test them we cannot vouch for them.
+Problems encountered when running Eclipse on a non-reference platform
+that cannot be recreated on any reference platform will be given lower
+priority than problems with running Eclipse on a reference platform.</p>
+
+<h6>Internationalization</h6>
+<p>The Remote Systems Explorer is designed as the basis for internationalized
+products. The user interface elements provided by the RSE
+components, including dialogs and error messages, are externalized. The
+English strings are provided as the default resource bundles.
+The default bundles will be localized to a subset of those
+locales offered by the Platform. This plan will be updated to indicate
+which locales will be provided and the timeframe for availability.</p>
+
+<!-- ------------------------------------------------------------ -->
+<h4><a name="Compatibility"></a>Compatibility and Dependencies</h4>
+<h5>Compatibility of Release 1.0</h5>
+<p>The Remote Systems Explorer will be developed in parallel with the
+Eclipse Platform SDK version 3.2. Each RSE Milestone Release will be
+based on the most recent Platform Milestone available at the time of
+release. Therefore, the RSE initial release will be
+compatible with Eclipse Platform 3.2 release and will publish binary 
+and source compatibilities with migration guides on subsequent releases.</p>
+
+<h5>API Contract</h5>
+<p>It is a goal of the Target Management Project to avoid
+provisional APIs. APIs published for the 1.0 release will be carefully
+reviewed prior to release, making use of "internal" packages for
+unsupported and variable implementation classes. Client plug-ins that
+directly depend on anything other than what is specified in the
+published API are inherently unsupportable and receive no guarantees
+about future compatibility. Refer to <i><a
+	href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write
+compliant plug-ins.</p>
+
+
+<h4><a name="Features">Features and Capabilities</a></h4>
+<p>
+<!--
+A list of project requirements and agreed upon implementation
+timeframes is found in
+  <a href="/dsdp/tm/requirements.php">this</a>
+document.
+-->
+For the milestones listed in this document, a set of overall themes 
+("purpose") is used to indicate what major set of functionalities is to 
+be concentrated on for each. These themes are presented below, while the 
+requirements document and associated Bugzilla entries are left to those 
+wanting more detailed information on each.</p>
+
+<h6>M0 Theme: Infrastructure in place (as soon as EMO completes IP review, + 1 week)</h6>
+<ul>
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+give
+easy access to RSE to a wider community; acquire API comments, begin
+prototyping; documentation feedback regarding missing or semantically
+incorrect instructions (but not about incorrect wording, package names
+etc.), get obvious bugs into Bugzilla, find client OS problems</li>
+<li>Deliverables: Runtime, SDK; some examples part of SDK, but no separate download yet.</li>
+
+<li>ISV Doc and User doc in its current form (marked "outdated")</li>
+<li>Start automated (weekly) builds</li>
+<li>Create Download site to give access to automated builds</li>
+<li>Plugin and feature versions set to 1</li>
+<li>Add basic framework for automated tests</li>
+</ul>
+
+<h6>M1 Theme: Functional (April 7)</h6>
+<ul>
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+
+Add required functionality to provide an environment that is 
+complete for those applications that we currently know of.</li>
+<li>More Refactoring</li>
+<li>Wizard completely replacable</li>
+<li>Hide "New..." entries from the RSE tree - Register "New
+Connection" as a New Wizard</li>
+<li>Add Persistence Provider for sharing in a team (make
+different versions merge-able by using a scheme that is simpler than
+XMI)</li>
+<li>Write some Manual Test Plans (Scripts, what the manual
+testers have to do)</li>
+</ul>
+
+<h6>M2 Theme: Functional Complete (May 19)</h6>
+<ul>
+
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+More
+prototyping, lots of prototype and API feedback by the community, lots
+of bug reports</li>
+<li>Deliverables: Add JUnit tests to Downloads, Make separate download for examples</li>
+<li>More Refactoring</li>
+<li>Add User Actions</li>
+<li>Add Import / Export facility</li>
+<li>Telnet (contributed by WR)</li>
+<li>Write more Manual Test Plans (Scripts, what the manual
+testers have to do)</li>
+<li>Some automated Test Scripts</li>
+
+<li>Community Feedback on APIs, Docs</li>
+</ul>
+
+<h6>M3 Theme: API Freeze (June 30)</h6>
+<ul>
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+Finding &amp; fixing bugs, prototyping, documentation feedback, use to
+drive future function requests (for next release), verification of
+extensions, usage in various different environments</li>
+<li>Final form for ISV Doc</li>
+<li>Community Feedback on APIs, Docs</li>
+
+<li>Bugfixing</li>
+</ul>
+
+<h6>M4 / RC0 Theme: Ready to Release (August 11)</h6>
+<ul>
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+Planned and coordinated testing on all supported reference platforms,
+fixing final bugs</li>
+<li>Final form of User Doc</li>
+<li>Localization and product polish</li>
+</ul>
+
+<h6>RSE Release 1.0.0: Target date September 22, 2006</h6>
+<p/>
   
-  <h2>SOA Tools (STP)</h2>
+  <h2><a name="STP">SOA Tools (STP)</a></h2>
+<p>The SOA Tools top-level Project does not have an overall project plan.</p>
   
-  <h2>Technology (incubator)</h2>
+  <h2><a name="TECHNOLOGY">Technology (incubator)</a></h2>
+  <p>As it is comprised primarily of incubators, research, and education projects, the Technology project is not formally part of the Platform Release Plan.</p>
 
       <p><i>March 7, 2006</i></p>
     
