@@ -6,6 +6,7 @@ $pageAuthor		= "The Eclipse Foundation";
 
 ob_start();
 ?>		
+<img src="external.gif">
     <div id="maincontent">
 	<div id="midcolumn">
 
@@ -36,25 +37,25 @@ border-bottom: thin dotted
   the Eclipse projects.  This year (the second version of the Roadmap), we tried to 
   create an unified and automatic mechanism for aggregating and delivering this Roadmap
   information... Unfortunately, it did not happen - both the tool and the information
-  were late (specifically, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109230">bugs 109230</a> and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=130844">130844</a>)
-  and the <a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">project status instructure files</a> for most projects.
+  were late (specifically, <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109230">bugs 109230</a> and <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=130844">130844</a>)
+  and the <img src="external.gif"><a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">project status instructure files</a> for most projects.
   Consequently, the information in this year's roadmap is fairly sparse - the reader
   is directed to the project's home pages for additional information.
   </p>
   <h1>Callisto</h1>
-  <p>The big project planning effort this year is around the <a href="http://www.eclipse.org/projects/callisto.php">Callisto Simultaneous Release</a>.
+  <p>The big project planning effort this year is around the <img src="external.gif"><a href="http://www.eclipse.org/projects/callisto.php">Callisto Simultaneous Release</a>.
   </p>
   <p>The goal of the Callisto Simultaneous Release is to release ten major Eclipse projects 
-  (<a href="/birt/">BIRT</a>, 
-  <a href="/cdt/">CDT</a>,
-  <a href="/datatools/">DTP</a>,
-  <a href="/emf/">EMF</a>,
-  <a href="/gef/">GEF</a>,
-  <a href="/gmf/">GMF</a>,
-  <a href="/eclipse/">Platform</a>,
-  <a href="/tptp/">TPTP</a>,
-  <a href="/webtools/">WTP</a>,
-  <a href="/ve/">VE</a>)
+  (<img src="external.gif"><a href="/birt/">BIRT</a>, 
+  <img src="external.gif"><a href="/cdt/">CDT</a>,
+  <img src="external.gif"><a href="/datatools/">DTP</a>,
+  <img src="external.gif"><a href="/emf/">EMF</a>,
+  <img src="external.gif"><a href="/gef/">GEF</a>,
+  <img src="external.gif"><a href="/gmf/">GMF</a>,
+  <img src="external.gif"><a href="/eclipse/">Platform</a>,
+  <img src="external.gif"><a href="/tptp/">TPTP</a>,
+  <img src="external.gif"><a href="/webtools/">WTP</a>,
+  <img src="external.gif"><a href="/ve/">VE</a>)
   at the same time. We are doing this simultaneous release to support the needs of the ecosystem members who integrate Eclipse frameworks into their own software and products. While those product producers naturally accept the ultimate responsibility for their customers' experiences, Callisto's goal is to eliminate uncertainity about project version numbers, and thus to allow ecosystem members to start their own integration, cross-project, and cross-product testing efforts earlier. Callisto is about improving the productivity of the developers working on top of Eclipse frameworks by providing a more transparent and predictable development cycle; Callisto is about developers helping developers serve the whole Eclipse community.
 </p><p><em>
 While Callisto is about the simultaneous release of ten projects, it is is not a unification of the projects - each project remains a separate open source project operating with its own project leadership, its own committers, and its own project plan.
@@ -80,7 +81,7 @@ While Callisto is about the simultaneous release of ten projects, it is is not a
 <p>Last revised 17:03 EST Feb 14, 2006 
   (<img src="new.gif" alt="(new)" border="0" height="12" width="12">
   marks interesting changes since the previous 
-  <a href="eclipse_project_plan_3_2_20051109.html">draft of Nov. 9, 2005</a>)
+  <img src="external.gif"><a href="eclipse_project_plan_3_2_20051109.html">draft of Nov. 9, 2005</a>)
 
 </p>
 <p><i>&nbsp;&nbsp;&nbsp; Please send comments about this draft plan to the</i>
@@ -512,14 +513,14 @@ While Callisto is about the simultaneous release of ten projects, it is is not a
   3.2 Plug-in Migration Guide</em></a>. Programs that use affected APIs and extension 
   points will need to be ported to Eclipse SDK 3.2 APIs. Downward contract compatibility 
   is not supported. There is no guarantee that compliance with Eclipse SDK 3.2 
-  APIs would ensure compliance with Eclipse SDK 3.1 APIs. Refer to <i><a href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving 
+  APIs would ensure compliance with Eclipse SDK 3.1 APIs. Refer to <i><img src="external.gif"><a href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving 
   Java-based APIs</a></i> for a discussion of the kinds of API changes that maintain 
   contract compatibility.</p>
 <p><b>Binary (plug-in) Compatibility:</b> Eclipse SDK 3.2 will be upwards binary-compatible 
   with Eclipse SDK 3.1 except in those areas noted in the <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/org.eclipse.platform.doc.isv/porting/eclipse_3_2_porting_guide.html" target="_top"><em>Eclipse 
   3.2 Plug-in Migration Guide</em></a>. Downward plug-in compatibility is not 
   supported. Plug-ins for Eclipse SDK 3.2 will not be usable in Eclipse SDK 3.1. 
-  Refer to <i><a href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving 
+  Refer to <i><img src="external.gif"><a href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving 
   Java-based APIs</a></i> for a discussion of the kinds of API changes that maintain 
   binary compatibility. 
 
@@ -552,14 +553,14 @@ considered implementation details which may vary between operating environment
 and are subject to change without notice. Client plug-ins that directly depend
 on anything other than what is specified in the Eclipse SDK API are inherently
 unsupportable and receive no guarantees about compatibility within a single
-release much less with earlier releases. Refer to <i><a href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+release much less with earlier releases. Refer to <i><img src="external.gif"><a href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
 to Use the Eclipse API</a></i> for information about how to write compliant
 plug-ins.
 </p><h3>Themes and Priorities</h3>
 <p>The changes under consideration for the next release of Eclipse
 Platform, JDT, PDE and Equinox will address major themes identified by
 the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
-2004 - <a href="http://www.eclipse.org/org/councils/20041215EclipseTPFinalDraft.pdf">pdf)</a>. 
+2004 - <img src="external.gif"><a href="http://www.eclipse.org/org/councils/20041215EclipseTPFinalDraft.pdf">pdf)</a>. 
   The following are especially germane to this top level project:</p>
 
 <ul>
@@ -631,7 +632,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     server, or accessed via a non-file-based API, or has a non-trivial mapping 
     between the resources and the physical layout of the files.
     [Resources, Text, UI] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106176">106176</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106176">106176</a>) 
     [Theme: Design for Extensibility, Enterprise Ready]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed) 
@@ -640,7 +641,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     first class user interfaces. For example: sort indicators in SWT tables; improved 
     coolbar behavior/appearance; and new controls such as collapsible groups.
     [SWT] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106182">106182</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106182">106182</a>) 
     [Theme: Design for Extensibility, Appealing to the Broader Community]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed, text changed)
@@ -650,7 +651,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     capabilities added to existing platforms. For the 3.2 release, SWT should 
     provide support for Windows Vista. 
     [SWT]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106184">106184</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106184">106184</a>) 
     [Theme: Appealing to the Broader Community]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed, text changed)
@@ -663,7 +664,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     editor. Other possible enhancements include improving the Find/Replace dialog
     and annotation roll-overs.
     [Text] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106194">106194</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106194">106194</a>) 
     [Theme: Design for Extensibility]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed)
@@ -673,7 +674,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     for example, in the form of potential values. Eclipse should provide an enhanced 
     text field that has indicators for required fields, and content assist.
     [UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106199">106199</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106199">106199</a>) 
     [Theme: Simple to Use]</p>
 
     
@@ -689,7 +690,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
 	retargettable debug actions, flexible view wiring and pluggable source 
 	lookup.
 	[Debug]
-	(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106205">106205</a>) 
+	(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106205">106205</a>) 
     [Theme: Design for Extensibility, Enterprise Ready]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed)
@@ -703,7 +704,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     there should be a framework to allow better control over the presence
     and ordering of menu and toolbar items.
     [UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106189">106189</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106189">106189</a>) 
     [Theme: Simple to Use]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed)
@@ -712,7 +713,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     available options and supporting task-based UIs tailored to the user's role. 
     This support should be rationalized and better documented.
     [UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80130">80130</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80130">80130</a>) 
     [Theme: Simple to Use]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed)
@@ -725,7 +726,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     and bookmarks. This goes hand-in-hand with ongoing work to discover and address 
     performance issues.
     [UI, Resources]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106192">106192</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106192">106192</a>) 
     [Theme: Scaling Up, Enterprise Ready]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed, text changed)
@@ -737,7 +738,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     nonlinear dependancy between steps and enhancing the implementation to
     support working with modal dialogs.
     [UA, UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106196">106196</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106196">106196</a>) 
     [Theme: Simple to Use, Design for Extensibility]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed)
@@ -751,7 +752,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     units. These features also apply to Welcome, CheatSheets and the dynamic help 
     view.
     [UA]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106201">106201</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106201">106201</a>) 
     [Theme: Design for Extensibility]</p>
     
 
@@ -773,7 +774,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     be better control over what is displayed in views and editors based on the 
     logical models that the end user is working on.
     [Resources, UI, Team] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37723">37723</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37723">37723</a>) 
     [Theme: Design for Extensibility]</p>
 
   <p><strong>Update Enhancements.</strong> As the number and range of Eclipse 
@@ -786,7 +787,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     for a given update, and PDE should provide better tools for creating and deploying 
     updates.
     [Update, Runtime, PDE]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106185">106185</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106185">106185</a>) 
     [Theme: Enterprise Ready]</p>
 
   <p><strong>Provide pervasive user-assistance search capabilities.</strong> An 
@@ -796,7 +797,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     more extensible to assist other information contributors, and made more pervasive 
     in the UI.
     [UA]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106198">106198</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106198">106198</a>) 
     [Theme: Simple to Use]</p>
 
   <p><strong>Help System enhancements.</strong> Enhance the existing Help System functionality in 
@@ -804,7 +805,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     installation of Help documentation, documentation index, more extensible dynamic 
     help view, and various other enhancements.
     [UA]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114243">114243)</a> 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114243">114243)</a> 
     [Theme: Design for Extensibility]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -818,7 +819,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
 	to support simultaneous debugging of different applications side-by-side 
 	in different sets of debug views.
 	[Debug]
-	(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127874">127874</a>) 
+	(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127874">127874</a>) 
     [Theme: Design for Extensibility, Enterprise Ready]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -826,7 +827,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     Quality internationalization is very important in the modern software world.
     The ability to fully enable products and applications for double-byte and
     bi-directional languages is a requirement of any software platform. ICU4J 
-    (<a href=" http://icu.sourceforge.net/">http://icu.sourceforge.net/</a>)
+    (<img src="external.gif"><a href=" http://icu.sourceforge.net/">http://icu.sourceforge.net/</a>)
     resolves many of the known issues with internationalization for Java, and
     thus adopting ICU4J will provide the Eclipse Platform with the strong
     internationalization support it needs to make Eclipse-based applications
@@ -836,7 +837,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     (such as embedded RCP applications) will not pay a footprint penalty if
     they do not need full internationalization flexibility.
   [All]
-  (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127876">127876</a>) 
+  (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127876">127876</a>) 
   [Theme: Design for Extensibility, Enterprise Ready]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -852,7 +853,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     number of root pages that can cover the needs of most products will
     be available.
   [UA]
-  (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127842">127842</a>) 
+  (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127842">127842</a>) 
   [Theme: Simple to Use, Design for Extensibility]</p>
 
 </blockquote>
@@ -873,7 +874,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     parts, and reduce the coupling of parts to particular locations in the workbench, 
     allowing for more flexible UI configurations.
     [UI, Compare, Text]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=71125">71125</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=71125">71125</a>) 
     [Theme: Design for Extensibility]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> deferred)
@@ -884,7 +885,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     code (minus FormEditor) should be pushed down into JFace so that it is available 
     in the Eclipse workbench.
     [SWT, UI, UA]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106203">106203</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106203">106203</a>) 
     [Theme: Simple to Use, Design for Extensibility]</p>
 
   
@@ -899,7 +900,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     making it presentable in various contexts. This should also take into account 
     whether content is local or remote.
     [UA]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106200">106200</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106200">106200</a>) 
     [Theme: Design for Extensibility]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> deferred) 
@@ -911,7 +912,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     could diagnose unexpected behavior such as slowdowns or exceptional memory 
     use.
     [Runtime, UI, SWT]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106193">106193</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106193">106193</a>) 
     [Theme: Simple to Use, Enterprise Ready]</p>
 
     
@@ -922,7 +923,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     far reaching impact of implementing this support, it is expected that it will
     require an SDK (and indeed entire Eclipse Foundation) wide strategy.
     [All]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127864">127864</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127864">127864</a>) 
     [Theme: Simple to Use, Enterprise Ready]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> deferred)
@@ -933,7 +934,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
     and file buffers. The Eclipse workbench layout should be further opened up 
     to allow RCP applications to have more control over its presentation.
     [Text, UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106187">106187</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106187">106187</a>) 
     [Theme: Rich Client Platform]</p>
 
     
@@ -943,7 +944,7 @@ the Eclipse Requirements Council (Themes and Priorities dated Dec. 15,
 
 <h3><a name="JDT">Java development tools (JDT) project</a></h3>
 
-<p><a href="http://www.eclipse.org/jdt/index.html">Java development tools</a> (JDT)
+<p><img src="external.gif"><a href="http://www.eclipse.org/jdt/index.html">Java development tools</a> (JDT)
 implements a Java IDE based on the Eclipse Platform. The following work items
 reflect new features of JDT, or areas where existing features will be
 significantly reworked.</p>
@@ -957,14 +958,14 @@ significantly reworked.</p>
     specification updates, pluggable annotation processing APIs, and new compiler 
     APIs, all of which will require specific support.
     [JDT Core, JDT UI, JDT Text, JDT Debug]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106206">106206</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106206">106206</a>) 
     [Theme: Appealing to the Broader Community]</p>
 
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed, text changed)
     <strong>Improve NLS tooling.</strong> The Eclipse NLS tooling should better 
     support the new Eclipse string externalization pattern added in 3.1. 
-    [JDT Text] (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106210">106210</a>) 
+    [JDT Text] (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106210">106210</a>) 
     [Theme: Simple to use, Scaling up]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed, title and text changed)
@@ -978,7 +979,7 @@ significantly reworked.</p>
 	workspace A can be "reapplied" on workspace B to refactor any remaining 
 	references to the refactored element.
     [JDT Core/UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106207">106207</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106207">106207</a>) 
     [Theme: Scaling Up].</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -989,7 +990,7 @@ significantly reworked.</p>
 	semantic analysis, issue some markers and possibly generate new source 
 	files.
     [JDT Core, JDT UI, JDT Text]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127885">127885</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127885">127885</a>) 
     [Theme: Multi-Language Support, Enterprise Ready, Design for Extensibility]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -1005,7 +1006,7 @@ significantly reworked.</p>
 	Additionally, users will be able to configure optional errors as 
 	being non fatal, and thus allow valid classfile generations.
     [JDT Core]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127887">127887</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127887">127887</a>) 
     [Theme: Appealing to the Broader Community]</p>
 
     
@@ -1017,7 +1018,7 @@ significantly reworked.</p>
 	unnecessary code or qualify all field accesses with 'this'; or assisting 
 	migration to Java 5.0
     [JDT UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127888">127888</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127888">127888</a>) 
     [Theme: Simple To Use]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -1027,7 +1028,7 @@ significantly reworked.</p>
 	investigate to support JUnit4 which will require the use of J2SE 5.0 in 
 	Eclipse itself.
     [JDT UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127889">127889</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127889">127889</a>) 
     [Theme: Simple To Use]</p>
 
     
@@ -1038,7 +1039,7 @@ significantly reworked.</p>
 	".aj" files into the Java tooling. Existing assumptions on ".java" 
 	extensions will be removed throughout the tools.
     [JDT UI, JDT Core, JDT Debug]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127891">127891</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127891">127891</a>) 
     [Theme: Design for Extensibility: Be a Better Platform]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -1051,7 +1052,7 @@ significantly reworked.</p>
 	old signature will be generated that forwards to the new method). We will 
 	investigate in a new refactoring 'Extract super class'.
     [JDT UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127892">127892</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127892">127892</a>) 
     [Theme: Simple To Use]</p>
 
     
@@ -1068,7 +1069,7 @@ significantly reworked.</p>
 	resolved binding information. All tooling will need to be calibrated to 
 	properly handle detailed recovered DOM AST.
     [JDT Core, JDT UI]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127895">127895</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127895">127895</a>) 
     [Theme: Simple to Use]</p>
     
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
@@ -1081,7 +1082,7 @@ significantly reworked.</p>
     and provide completions on new artifacts such as Javadoc, 
 	break/continue label.
     [JDT Core, JDT Text]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127898">127898</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127898">127898</a>) 
     [Theme: Appealing to the Broader Community]</p>
 
     
@@ -1097,7 +1098,7 @@ significantly reworked.</p>
 	system properties and specific JRE configurations will be able to be 
 	contributed to the set of installed JREs via an extension point.
     [JDT Core, JDT Debug]
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127899">127899</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=127899">127899</a>) 
     [Theme: Simple to Use]</p>
     
 </blockquote>
@@ -1124,7 +1125,7 @@ significantly reworked.</p>
     know how to present library projects appropriately at the UI, and how to deal 
     with them more efficiently using generated binaries.
     [JDT Core, JDT UI, PDE] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80162">80162</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80162">80162</a>) 
     [Theme: Design for Extensibility]</p>
 
 </blockquote>
@@ -1132,7 +1133,7 @@ significantly reworked.</p>
 
 <h3><a name="PDE">Plug-in development environment (PDE) project</a></h3>
 
-The <a href="http://www.eclipse.org/pde/index.html">plug-in development
+The <img src="external.gif"><a href="http://www.eclipse.org/pde/index.html">plug-in development
 environment</a> (PDE) consists of tools for developing plug-ins for the
 Eclipse Platform. The following work items reflect new features of PDE, or areas
 where existing features will be significantly reworked.
@@ -1151,7 +1152,7 @@ where existing features will be significantly reworked.
     also allow the user to easily debug plug-ins against different targets without 
     having to change the Target Platform in the preferences.
     [PDE, Debug, Runtime] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106212">106212</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106212">106212</a>) 
     [Theme: Scaling Up]</p>
 
     
@@ -1160,7 +1161,7 @@ where existing features will be significantly reworked.
     Eclipse for which you are developing. Targets may be complex and diverse, 
     and switching targets or launch configurations can be expensive. PDE should 
     be extended to support named targets and automatically track changes to the 
-    workspace. [PDE, Runtime] (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106211">106211</a>) 
+    workspace. [PDE, Runtime] (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106211">106211</a>) 
     [Theme: Simple to Use, Enterprise Ready]</p>
 
   <p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> committed)
@@ -1169,7 +1170,7 @@ where existing features will be significantly reworked.
     Eclipse projects and in the wider community. Potential improvements to PDE 
     build include parallel cross-building, incremental building of plug-ins, increased 
     integration with the workspace model, and support for additional repository 
-    providers. [PDE] (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106214">106214</a>) 
+    providers. [PDE] (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106214">106214</a>) 
     106214[Theme: Enterprise Ready]</p>
 
 </blockquote>
@@ -1187,7 +1188,7 @@ where existing features will be significantly reworked.
     places on stable, robust APIs, having good support for their implementation 
     is critical. The support within Eclipse for describing APIs should be improved, 
     along with better tools from assisting developers to stick to APIs provided 
-    by other plug-ins. [PDE, JDT] (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106213">106213</a>) 
+    by other plug-ins. [PDE, JDT] (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106213">106213</a>) 
     [Theme: Enterprise Ready]</p>
 
 </blockquote>
@@ -1195,7 +1196,7 @@ where existing features will be significantly reworked.
 
 <h3><a name="Equinox">Equinox project</a></h3>
 
-The <a href="http://www.eclipse.org/equinox/index.html">Equinox</a>
+The <img src="external.gif"><a href="http://www.eclipse.org/equinox/index.html">Equinox</a>
 project provides an implementation of the OSGi R4 core framework
 specification, a set of bundles that implement various optional OSGi
 services and other infrastructure for running OSGi-based systems. The
@@ -1213,7 +1214,7 @@ existing features will be significantly reworked.
     reuse the Eclipse OSGi implementation in their own applications. To support 
     this, a separate OSGi download should be provided, as is done for SWT.
     [Runtime] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106188">106188</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106188">106188</a>) 
     [Theme: Appealing to the Broader Community, Rich Client Platform]</p>
 
     
@@ -1228,7 +1229,7 @@ existing features will be significantly reworked.
     standalone, and better integration between the Eclipse application model and 
     OSGi (e.g., the OSGi MEG application model).
     [Framework, Bundles, Runtime] 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=113663">113663</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=113663">113663</a>) 
     [Theme: Appealing to the Broader Community, Rich Client Platform]</p>
 
 </blockquote>
@@ -1352,7 +1353,7 @@ early 2006 latest) and will be compatible with Eclipse 3.2 releases.
 </p><p>Most of the Eclipse WTP is "pure" Java™ code and has no direct dependence on the underlying operating system. The chief dependence is therefore on Eclipse. The 1.5 release of the Eclipse WTP Project is written and compiled against version 1.4 of the Java 2 Platform APIs, and targeted to run on version 1.4 and 5.0 (1.5) of the Java 2 Runtime Environment, Standard Edition. 
 </p><p><br />
 Eclipse WTP is mainly tested and validated on Windows platforms, it should run on all platforms validated by the platform project:
-</p><p><a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_2.html#TargetOperatingEnvironments#TargetOperatingEnvironments" class='external text' title="http://www.eclipse.org/eclipse/development/eclipse project plan 3 2.html#TargetOperatingEnvironments#TargetOperatingEnvironments" rel="nofollow">Eclipse Target Operating Environments</a>
+</p><p><img src="external.gif"><a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_2.html#TargetOperatingEnvironments#TargetOperatingEnvironments" class='external text' title="http://www.eclipse.org/eclipse/development/eclipse project plan 3 2.html#TargetOperatingEnvironments#TargetOperatingEnvironments" rel="nofollow">Eclipse Target Operating Environments</a>
 </p><p>Servers integrated into Eclipse WTP deliverables will be tested and validated on the same platforms listed above. Tests for other platforms will be relying on the community support. 
 </p><p><br />
 <b>Internationalization</b>
@@ -1368,10 +1369,10 @@ Eclipse WTP is mainly tested and validated on Windows platforms, it should run o
 </p><p><br />
 </p>
 <p>The Eclipse WTP consists of 3 subprojects. Each subproject is covered in its own section: 
-</p><p><a href="http://eclipse.org/webtools/wst/index.html" class='external text' title="http://eclipse.org/webtools/wst/index.html" rel="nofollow">Web Standard Tools (WST)</a>
+</p><p><img src="external.gif"><a href="http://eclipse.org/webtools/wst/index.html" class='external text' title="http://eclipse.org/webtools/wst/index.html" rel="nofollow">Web Standard Tools (WST)</a>
 
-</p><p><a href="http://eclipse.org/webtools/jst/index.html" class='external text' title="http://eclipse.org/webtools/jst/index.html" rel="nofollow">J2EE Standard Tools (JST)</a>
-</p><p><a href="http://www.eclipse.org/webtools/jsf/index.html" class='external text' title="http://www.eclipse.org/webtools/jsf/index.html" rel="nofollow">Java Server Faces Tools (JSF)</a>
+</p><p><img src="external.gif"><a href="http://eclipse.org/webtools/jst/index.html" class='external text' title="http://eclipse.org/webtools/jst/index.html" rel="nofollow">J2EE Standard Tools (JST)</a>
+</p><p><img src="external.gif"><a href="http://www.eclipse.org/webtools/jsf/index.html" class='external text' title="http://www.eclipse.org/webtools/jsf/index.html" rel="nofollow">Java Server Faces Tools (JSF)</a>
 </p><p>For the WST and JST subprojects items are listed, JSF is not covered as it currently is a technology project 
 (in incubator state), the items listed reflect new features of the Web Tools Platform, or areas where existing 
 features will be significantly reworked. Common goals are listed in the “Common goals” area. 
@@ -1379,28 +1380,28 @@ features will be significantly reworked. Common goals are listed in the “Common 
 </p><p>Note that JSF and EJB (currently incubating in the technology project) will be present in WTP 1.5 in "provisional" status - APIs in these areas will be provisional, and the release number for these two areas of functionality should be considered "0.5" rather than the overall WTP release numbering of "1.5.". Users should expect API and tool refinements in these areas, with a likelihood for more rapid (and extensive) revisions than in the base WTP code.
 </p>
 
-<ul><li> productization support <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125751" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125751" rel="nofollow">[125751</a>]
-</li><li> improve feature split <a href="http://www.eclipse.org/webtools/development/arch_and_design/subsystems/SubsystemsAndFeatures.html" class='external text' title="http://www.eclipse.org/webtools/development/arch and design/subsystems/SubsystemsAndFeatures.html" rel="nofollow">Subsystem and Features document</a>
+<ul><li> productization support <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125751" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125751" rel="nofollow">[125751</a>]
+</li><li> improve feature split <img src="external.gif"><a href="http://www.eclipse.org/webtools/development/arch_and_design/subsystems/SubsystemsAndFeatures.html" class='external text' title="http://www.eclipse.org/webtools/development/arch and design/subsystems/SubsystemsAndFeatures.html" rel="nofollow">Subsystem and Features document</a>
 </li><li> improve API coverage (convert additional provisional areas to APIs)
 </li></ul>
 
-<ul><li> Moving generic components to platform (common navigator <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125744" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125744" rel="nofollow">[125744</a>], tabbed properties page <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125745" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125745" rel="nofollow">[125745</a>])
-</li><li> moving to the common undo stack (from the emf undo stack) <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=88011" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=88011" rel="nofollow">[88011</a>]
+<ul><li> Moving generic components to platform (common navigator <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125744" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125744" rel="nofollow">[125744</a>], tabbed properties page <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125745" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125745" rel="nofollow">[125745</a>])
+</li><li> moving to the common undo stack (from the emf undo stack) <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=88011" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=88011" rel="nofollow">[88011</a>]
 </li></ul>
 <ul><li> WS Security [[deferred]
 
-</li><li> upgrade to Axis 1.3 [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=116308" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=116308" rel="nofollow">116308</a>]
+</li><li> upgrade to Axis 1.3 [<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=116308" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=116308" rel="nofollow">116308</a>]
 </li><li> Axis 2.0 Support [optional item, help wanted]
 <ul><li> SOAP 1.2 Support
 </li></ul>
 </li></ul>
-<ul><li> Enhance validation framework [<a href="http://www.eclipse.org/webtools/jst/components/j2ee/proposals/ValidatorFramework.html" class='external text' title="http://www.eclipse.org/webtools/jst/components/j2ee/proposals/ValidatorFramework.html" rel="nofollow">Proposal</a>]
+<ul><li> Enhance validation framework [<img src="external.gif"><a href="http://www.eclipse.org/webtools/jst/components/j2ee/proposals/ValidatorFramework.html" class='external text' title="http://www.eclipse.org/webtools/jst/components/j2ee/proposals/ValidatorFramework.html" rel="nofollow">Proposal</a>]
 
 </li></ul>
-<ul><li> EJB3 (alignment with the DALI project - <a href="http://www.eclipse.org/dali/" class='external free' title="http://www.eclipse.org/dali/" rel="nofollow">http://www.eclipse.org/dali/</a>)
+<ul><li> EJB3 (alignment with the DALI project - <img src="external.gif"><a href="http://www.eclipse.org/dali/" class='external free' title="http://www.eclipse.org/dali/" rel="nofollow">http://www.eclipse.org/dali/</a>)
 </li></ul>
 
-<ul><li> EJB3 (by lightweight integration with the DALI project - <a href="http://www.eclipse.org/dali/" class='external free' title="http://www.eclipse.org/dali/" rel="nofollow">http://www.eclipse.org/dali/</a>)
+<ul><li> EJB3 (by lightweight integration with the DALI project - <img src="external.gif"><a href="http://www.eclipse.org/dali/" class='external free' title="http://www.eclipse.org/dali/" rel="nofollow">http://www.eclipse.org/dali/</a>)
 </li><li> JSR 175 (Metadata) Support - only for new functionality: JSF, EJB3
 </li><li> JSF Support (provided by the JSF subproject)
 </li></ul>
@@ -1408,7 +1409,7 @@ features will be significantly reworked. Common goals are listed in the “Common 
 </li></ul>
 
 <ul><li> JSR 88 Support, Advanced Server Support for one/multiple open source J2EE server [[deferred]
-</li><li> Restructure Generic Server Support <a href="/index.php/RestructureGenericServerSupportProposal" title="RestructureGenericServerSupportProposal">RestructureGenericServerSupportProposal</a>
+</li><li> Restructure Generic Server Support <img src="external.gif"><a href="/index.php/RestructureGenericServerSupportProposal" title="RestructureGenericServerSupportProposal">RestructureGenericServerSupportProposal</a>
 </li></ul>
 </div>
 </div>
@@ -1510,7 +1511,7 @@ has been tested and validated in the target operating configurations.&nbsp;
 Interim release milestone are planned at roughly 6 week intervals to facilitate 
 coarse-grained planning and staging.&nbsp;TPTP 
 is participating in
-<a href="http://www.eclipse.org/projects/callisto.php">
+<img src="external.gif"><a href="http://www.eclipse.org/projects/callisto.php">
 Callisto Simultaneous Release</a> 
 of Eclipse projects. The list of milestones below includes all Callisto 
 milestones of TPTP.&nbsp; </P>
@@ -1584,7 +1585,7 @@ milestones of TPTP.&nbsp; </P>
 </TABLE>
 
 <p>For a detailed development schedule of TPTP 4.2 release,
-<a href="http://www.eclipse.org/tptp/home/project_info/releaseinfo/4.2/schedule.html">
+<img src="external.gif"><a href="http://www.eclipse.org/tptp/home/project_info/releaseinfo/4.2/schedule.html">
 click here</a>.</p>
 <h3><A name=TargetOperatingEnvironments></A>Target Operating Environments</h3>
 <P>In order to remain current, each TPTP release targets reasonably current 
@@ -1593,17 +1594,17 @@ versions of the underlying operating environments.</P>
 	<li>Java runtime (JRE) or Java development kit (JDK) 1.4 
 	</li>
 	<li>
-	<a href="http://download.eclipse.org/eclipse/downloads/">Eclipse SDK 3.2</a> for Linux (GTK)&nbsp;,
+	<img src="external.gif"><a href="http://download.eclipse.org/eclipse/downloads/">Eclipse SDK 3.2</a> for Linux (GTK)&nbsp;,
 	Linux (Motif),&nbsp;or
 	Windows (<IMG height=12 
 src="http://www.eclipse.org/images/new.gif" border=0> prior TPTP releases dependent on Eclipse SDK 
 	3.1.0)</li>
 
 	<li>Eclipse Modeling Framework (EMF) SDK
-	<a href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a>
+	<img src="external.gif"><a href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a>
 	</li>
 	<li>XML Schema Infoset Model (XSD) SDK
-	<a href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a></li>
+	<img src="external.gif"><a href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a></li>
 </ul>
 <P>Most of the TPTP SDK is "pure" Java&#8482; code and has no direct dependence on 
 the underlying operating system.&nbsp; The chief dependence is therefore on the Java 2 
@@ -1942,7 +1943,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 		are created and Java class files are instrumented statically within the 
 		Eclipse Workbench. This feature allows for dynamic instrumentation of 
 		byte code at the time of class load using a dynamic BCI technology. This 
-		will eliminate the need for copying and modifying class files (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=109684','bugzillaWin');">109684</a>). 
+		will eliminate the need for copying and modifying class files (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=109684','bugzillaWin');">109684</a>). 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -1952,9 +1953,9 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
       <b>Java 2 SE Code Analysis Tool</b>. In an effort to increase end-user 
 		tools in TPTP, a Java code review and analysis tool will be implemented 
 		using static analysis framework. A set of 70 common code analysis rules 
-		for Java 2 SE are provided as a part of the tool.<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113790','bugzillaWin');">
+		for Java 2 SE are provided as a part of the tool.<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113790','bugzillaWin');">
 		</a>
-		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113791','bugzillaWin');">
+		<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113791','bugzillaWin');">
 		113791</a> [Theme: Appealing to Broader Community, Simple to Use]</TD>
 	</tr>
   <tr>
@@ -1964,10 +1965,10 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
       <b>Improvements to Static Analysis Framework. </b>A number of improvements 
 		are planned for static analysis framework - support for user defined 
 		configuration parameters through new extension points and associated UI 
-		for editing them (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113795','bugzillaWin');">113795</a>), 
+		for editing them (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113795','bugzillaWin');">113795</a>), 
 		display of rule count per category and total selected in analysis dialog 
-		(<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113792','bugzillaWin');">113792</a>), 
-		collection and annotation of time spent per rule and per category (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113790','bugzillaWin');">113790</a>). 
+		(<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113792','bugzillaWin');">113792</a>), 
+		collection and annotation of time spent per rule and per category (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=113790','bugzillaWin');">113790</a>). 
 		[Theme: Design for Extensibility: Be a Better Platform]</TD>
 	</tr>
 
@@ -1979,10 +1980,10 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 		on IA32 EM64T (64-bit) and Intel Itanium Processor Family hardware. 
 		Additionally adding support for latest version of current supported 
 		platforms:
-		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108577','bugzillaWin');">
-		108577</a>,<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108578','bugzillaWin');">108578</a>, 
+		<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108577','bugzillaWin');">
+		108577</a>,<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108578','bugzillaWin');">108578</a>, 
 		and
-		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108579','bugzillaWin');">
+		<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108579','bugzillaWin');">
 
 		108579</a>. [Themes: Enterprise Ready, Appealing to Broader Community] </TD>
 	</tr>
@@ -1994,7 +1995,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 		period. Aggregation of data is necessary to keep the size of collected 
 		data manageable. This feature will implement data aggregation algorithms 
 		in JVMPI monitor and exercise already existing model capabilities for 
-		storing such data (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108646','bugzillaWin');">108646</a>). 
+		storing such data (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108646','bugzillaWin');">108646</a>). 
 		[Theme: Enterprise Ready, Simple to Use]</TD>
 
 	</tr>
@@ -2002,9 +2003,9 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
     <TD width=78>Committed</TD>
     <TD width=727>
       <b>Improvements to UI features.</b> Sort by time in symptom analysis 
-		results view (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=102390','bugzillaWin');">102390</a>), 
-		log table view (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108363','bugzillaWin');">108363</a>), 
-		filter log events on complex types (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108371','bugzillaWin');">108371</a>). 
+		results view (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=102390','bugzillaWin');">102390</a>), 
+		log table view (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108363','bugzillaWin');">108363</a>), 
+		filter log events on complex types (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108371','bugzillaWin');">108371</a>). 
 		[Theme: Simple to Use]</TD>
 
 	</tr>
@@ -2012,10 +2013,10 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
     <TD width=78>Committed</TD>
     <TD width=727>
       <b>Performance Improvements. </b>Several performance improvements are 
-		planned - trace model (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108938','bugzillaWin');">108938</a>), 
-		logging (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=112371','bugzillaWin');">112371</a> 
+		planned - trace model (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=108938','bugzillaWin');">108938</a>), 
+		logging (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=112371','bugzillaWin');">112371</a> 
 		and
-		<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=112878','bugzillaWin');">
+		<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=112878','bugzillaWin');">
 
 		112878</a>). [Theme: Scaling Up]</TD>
 	</tr>
@@ -2026,7 +2027,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 		JMVPI which will not available starting in Java 1.6. A technology 
 		preview of JVMTI-based Java 2 SE profiler will be released. It is a 
 		brand new implementation and and represents future direction of TPTP 
-		Java profiling and tracing tools (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=86225','bugzillaWin');">86225</a>). 
+		Java profiling and tracing tools (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=86225','bugzillaWin');">86225</a>). 
 		[Theme: Design for Extensibility: Be a Better Platform]</TD>
 
 	</tr>
@@ -2036,7 +2037,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
       <b>Launch UI Enhancements to support multiple agents</b>. This is a 
 		required feature for taking advantage of the flexibility and power of 
 		JVMTI standard. A launch dialog should support ability to specify 
-		multiple agents and their configuration (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=93212','bugzillaWin');">93212</a>). 
+		multiple agents and their configuration (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=93212','bugzillaWin');">93212</a>). 
 		[Theme: Design for Extensibility: Be a Better Platform]</TD>
 	</tr>
 
@@ -2044,7 +2045,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
     <TD width=78>Investigating</TD>
     <TD width=727>
       <b>Security and Dynamic Discovery API </b>in new agent controller 
-		technology is missing implementation (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=95546','bugzillaWin');">95546</a>,<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=74579','bugzillaWin');">74579</a>). 
+		technology is missing implementation (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=95546','bugzillaWin');">95546</a>,<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=74579','bugzillaWin');">74579</a>). 
 		We are investigating opportunity to reuse implementation from backward 
 		compatibility layer of the new agent controller. [Theme: Enterprise 
 		Ready]</TD>
@@ -2055,7 +2056,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
     <TD width=727>
       <b>Port of TPTP Target Environment to Mac OS X. </b>This calls for porting 
 		TPTP C/C++ implemented agent controller and data collection agents, 
-		namely JVMPI monitor and native logging to Mac OS X (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=68111','bugzillaWin');">68111</a>). 
+		namely JVMPI monitor and native logging to Mac OS X (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=68111','bugzillaWin');">68111</a>). 
 		[Theme: Appealing to Broader Community]</TD>
 	</tr>
   <tr>
@@ -2063,7 +2064,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
     <TD width=78>Helpwanted</TD>
     <TD width=727>
       <b>Port Native Logging Component to Palm</b>, Windows Mobile, Nokia and 
-		Sony Ericsson embedded systems (<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=111019','bugzillaWin');">111019</a>). 
+		Sony Ericsson embedded systems (<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=111019','bugzillaWin');">111019</a>). 
 		[Theme: Embedded Development]</TD>
 	</tr>
   <tr>
@@ -2076,7 +2077,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 		produce a parse-able report, and send an email automatically to all 
 		plug-in owners whose documentation contains broken links. It is 
 		desirable to support adding additional rules for checking other 
-		documentation guidelines.(<a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=107856','bugzillaWin');">107856</a>) 
+		documentation guidelines.(<img src="external.gif"><a href="javascript:popUP('https://bugs.eclipse.org/bugs/show_bug.cgi?id=107856','bugzillaWin');">107856</a>) 
 		[Theme: Appealing to the Broader Community]</TD>
 	</tr>
 	</TABLE>
@@ -2094,7 +2095,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 
     <TD width=78>Committed</TD>
     <TD width=727>
-    <strong>Graphical test results overview.</strong> A graphical top level summary of test results as well as certain level of details linked with the summary on overview page to be added to the current overview tab, from where user can easily navigate to details. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103539">103539</a>) 
+    <strong>Graphical test results overview.</strong> A graphical top level summary of test results as well as certain level of details linked with the summary on overview page to be added to the current overview tab, from where user can easily navigate to details. (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103539">103539</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2102,7 +2103,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 
     <TD width=727>
     <strong>Navigate back to the test case from the test results.</strong> When verdicts or invocation event provides information about the test script file and line number of the invocation, Test Log Viewer should provide the function to navigate back to the code. This is especially useful when there are VP events.
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103551">103551</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103551">103551</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2111,7 +2112,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
 
     <strong>Test Log viewer improved extensibility.</strong> 
     Details view of execution event should display the properties contained by the events in the model and should also be extensible to allow customized properties. It should also be possible to add actions associated with certain execution event. An extension point can be defined to allow that. 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103555">103555</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=103555">103555</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2120,7 +2121,7 @@ represent the key focus areas for TPTP enhancements in the year ahead.</P>
     <strong>Include a macro editor with the auto gui test suite editor.</strong> 
 
 It is currently difficult to navigate through the macro of a test case. Users have reportedly copied and pasted the macro of a test case into a separate editor just so it is easier for them to edit it. The purpose of this feature is to provide better means for users to easily navigate through the macro of a test case. 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110337">110337</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110337">110337</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2129,7 +2130,7 @@ It is currently difficult to navigate through the macro of a test case. Users ha
     <strong>Integrate the Manual Test View with the Eclipse TPTP workbench.</strong> 
 This enhancement involves integrating the Manual Test View with the Eclipse TPTP workbench which requires the following:
 Port the Manual Test View to an embedded Workbench view in the TPTP Test perspective with no new functionality.  Port the Manual Test View to a plug-in application (e.g. Rich Client Platform (RCP) or Generic Workbench compared to the IDE Workbench facilities defined in the org.eclipse.ui.ide plug-in) based on the OSGi Framework to provide extensibility via extension points. Provide a command line wrapper that emulates the Agent Controller environment for launching the Manual Test View independent of the Agent Controller.  
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=121100">121100</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=121100">121100</a>) 
 		[Theme: Simple to Use]</TD>
 
 	</tr>
@@ -2138,7 +2139,7 @@ Port the Manual Test View to an embedded Workbench view in the TPTP Test perspec
     <TD width=727>
     <strong>Documention of the generic recording framework.</strong> 
 Recording is one of the common starting points for creating a test for test tools.  A generic recording facility can help provide a common UI interaction starting point of recording for users.  The recording facility should allow other test types, recording protocols to leverage a common UI interaction (i.e., "Record a Test").  There should also be an update concerning the use of terminology to reflect usability feedback from users. 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=122949">122949</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=122949">122949</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
 
@@ -2147,7 +2148,7 @@ Recording is one of the common starting points for creating a test for test tool
     <TD width=727>
     <strong>Support annotations for all ExecutionEvents.</strong> 
 Since annotations for all ExecutionEvents are currently supported in the TPTP Test model (see class diagram for more details), this enhancement requires exposing this support to internal components and external users. That is, a schema with documentation is required for components to generate well-formed ExecutionEvents containing annotations coupled with providing support in the Test model loaders to consume ExecutionEvents with annotations. Furthermore, modifications to the Test Log view are required for external users to access annotations contained in ExecutionEvents from the UI.
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=76160">76160</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=76160">76160</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2157,7 +2158,7 @@ Since annotations for all ExecutionEvents are currently supported in the TPTP Te
     <strong>Dynamic test asset deployment when test closure is not staticly definable.</strong> 
 Enable dynamic test asset deployment when test closure is not statically definable 
 Implement test service to allow retrieval of dependent classes or other files from workspace during test execution 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=87414">87414</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=87414">87414</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2166,7 +2167,7 @@ Implement test service to allow retrieval of dependent classes or other files fr
     <TD width=727>
     <strong>Execution History Editor: Searching.</strong> 
 Allow users to search an execution history by any of the visible attributes of a given execution event. Examples include time window, associated interaction fragment (test model element), etc. Search results should be displayed in the eclipse search view, and navigation should be provided from the search view back to the selected element in the execution history.  Also allow extension point to register custom event types for searching (i.e. HTTP Request)
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=89341">89341</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=89341">89341</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2175,7 +2176,7 @@ Allow users to search an execution history by any of the visible attributes of a
 
     <strong>Improve usuability of the TPTP test reports.</strong> 
     The report should have a summary to show which execution histories the attempted status (wedge in pie chart)? % of attempted and not attempted and links to each.  The Test Suites should be refactored by platform, and a report should display them.Some sort of way to track which build or series of build that it was run on should be available. A consolidated lists of exceptions should be displayed (defects that are blocking test success and inconclusive results, both of those by test across the project). Add the bugzilla priority and resolution status so that you have one nice page, "this is a blocking issue & here's its bugzilla status". The hierarchy of test suites should be displayed (by project, also summaries of tests vs. the long detailed). A project health page that would combine bugzilla and test results: Summary of numbers by severity/priority.
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109657">109657</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109657">109657</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2188,7 +2189,7 @@ when test is invoked on specified machines and associate the collected data
 results as with the test run.  These choices, including which data should be 
 collected, needs to be persisted (with some naming scheme), so that subsequent 
 test runs can re-use the same data collection choices (or easily edit them).
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=75029">75029</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=75029">75029</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2197,7 +2198,7 @@ test runs can re-use the same data collection choices (or easily edit them).
     <strong>Automated Documentation Generation.</strong> 
 
 The purpose of this feature is to allow users to automatically generate human-readable user instructions for a use case scenario that has been recorded. This will assist technical writers in ensuring that the most up-to-date instructions along with screen captures is shipped with the product. It's purpose is to also reduce translation costs by having the macro run with different language packs as opposed to requiring a 3rd party company to translate the same set of instructions into 8 or 9 sets of different languages.
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110108">110108</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110108">110108</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2205,7 +2206,7 @@ The purpose of this feature is to allow users to automatically generate human-re
     <TD width=727>
     <strong>Support RCP applications for recording and playing back GUI test cases.</strong> 
 The recording infrastructure needs to be separated from the playback infrastructure. The two need to be very loosely coupled Allow users to record and play back test cases for an RCP application The user experience must be very similar to how a test case is recorded and played back in the workbench 
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114159">114159</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114159">114159</a>) 
 		[Theme: Simple to Use]</TD>
 
 	</tr>
@@ -2214,7 +2215,7 @@ The recording infrastructure needs to be separated from the playback infrastruct
     <TD width=727>
     <strong>Leverage Eclipse Contexts in the Test Perspective.</strong> 
 Contexts provide support for the programmatic display (and possible removal) of views within the perspective.  This is valuable when considering a mixed-test scenario within TPTP.  Some test types may have additional views that are test-type-specific and not be relevant to other tests.  Supporting contexts would allow the Test Perspective to display views relevant to a selected test type (e.g., selected in the Test Navigator) and hide irrelevant views.
-    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83782">83782</a>) 
+    (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83782">83782</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
 
@@ -2234,7 +2235,7 @@ Contexts provide support for the programmatic display (and possible removal) of 
     <TD width=727>
     <strong>Divide the online help into documentation for users and documentation for consumers.</strong> 
 The Foundation has asked TPTP to divide its on-line help into two categories: doc for users (developers who use TPTP to test & profile) and doc for consumers (extenders of TPTP). Both types of documentation remain in the plug-in format, but the consumer documentation should be shipped only in the SDK driver. The user documentation should remain in the binary production driver of TPTP. 
-(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109897">109897</a>) 
+(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109897">109897</a>) 
 		[Theme: Simple to Use]</TD>
 
 	</tr>
@@ -2243,7 +2244,7 @@ The Foundation has asked TPTP to divide its on-line help into two categories: do
     <TD width=727>
     <strong>ICU4J support in TPTP.</strong> 
 Eclipse will incorporate and package ICU, however there are no packaging details as of yet. This will be in a plugin and intended for eclipse 3.2 platform.  This enhancement applies to all TPTP UI, non test components.
-(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=120002">120002</a>) 
+(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=120002">120002</a>) 
 		[Theme: Simple to Use]</TD>
 	</tr>
 
@@ -2264,7 +2265,7 @@ Eclipse will incorporate and package ICU, however there are no packaging details
 		the list of statistical agents that can be launched by TPTP is hardcoded.   This feature will provide
 		an extension point and the necessary infrastructure to allow third parties to implement new statistical
 		agents and extend the monitoring capability of TPTP.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=113166">113166</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=113166">113166</a>)
 		[Theme: Design for
 		Extensibility: Be a Better Platform]</TD>
 	</tr>
@@ -2277,7 +2278,7 @@ is able to gather statistics from a remote system other than the one it is runni
 correct authentication to access the Perfmon data on the remote system. This can be accomplished by having the user map a
 network drive to the target system before starting the agent.  This is an inconvenient extra step required to be performed by the user.
 This feature will add authentication capability to the Perfmon Agent so that it can connect to the remote system on behalf of the user.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=118545">118545</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=118545">118545</a>)
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2285,10 +2286,10 @@ This feature will add authentication capability to the Perfmon Agent so that it 
 
     <TD width=727>
       <strong>Provide a new Symptom Database editor.</strong> A new symptom specification is being introduced with the Platorm Project
-		feature <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=124699">124699</a>. Therefore a new symptom database editor
+		feature <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=124699">124699</a>. Therefore a new symptom database editor
 		is required to create symptoms in this new format.  A conversion utiltity will also be provided to convert current symptom
 		databases to the new specification.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=64800">64800</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=64800">64800</a>)
 		[Theme: Appealing to the Broader Community]</TD>
 	</tr>
   <tr>
@@ -2304,8 +2305,8 @@ This feature will add authentication capability to the Perfmon Agent so that it 
 		and the individual log file need to be added to it as separate entries in the set.  These log import scenarios will
 		be simplified from a user perspective.  If a zip file of log files is specified, the log set will be created
 		automatically.  The ability to specify multiple files of the same type on the Details pane will be added.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114818">114818</a> and
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=115087">115087</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114818">114818</a> and
+		<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=115087">115087</a>)
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2318,8 +2319,8 @@ This feature will add authentication capability to the Perfmon Agent so that it 
                will be eliminated by creating a new GLA formatter that generates consumer CommonBaseEvent
 		objects directly in the EMF model.  The Log Import Wizard will modify the existing adapter
 		configuration by replacing the existing formatter and outputter components with this new
-		formatter component.  (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=117062">117062</a> and
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=117068">117068</a>)
+		formatter component.  (<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=117062">117062</a> and
+		<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=117068">117068</a>)
 		[Theme: Scaling Up]</TD>
 	</tr>
 
@@ -2329,7 +2330,7 @@ This feature will add authentication capability to the Perfmon Agent so that it 
       <strong>Provide a log file parser so TPTP can import Java Logging XML log files.</strong> A GLA parser
 		will be created for parsing Java Logging XML log files that can be integrated with the TPTP
 		Log Import facility to enable import of this type of log file.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=77318">77318</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=77318">77318</a>)
 		[Theme: Appealing to the Broader Community]</TD>
 	</tr>
   <tr>
@@ -2340,7 +2341,7 @@ This feature will add authentication capability to the Perfmon Agent so that it 
 		a parser writer must write a static parser class in order to set CommonBaseEvent sequence number
 		value correctly.  This feature will enable the parser writer to specify a simple rule for sequence number
 		that will cause GLA to set the sequence value correctly based on the creationTime value.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79579">79579</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79579">79579</a>)
 		[Theme: Simple to Use]</TD>
 	</tr>
   <tr>
@@ -2353,7 +2354,7 @@ This feature will add authentication capability to the Perfmon Agent so that it 
 		of parsing log files with GLA.  This feature will provide the infrastructure in GLA that will allow
 		parser writers to provide filter specifications or a filter exit class to the Sensor or Extractor components
 		of GLA to filter out log data.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79565">79565</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79565">79565</a>)
 		[Theme: Scaling Up]</TD>
 	</tr>
   <tr>
@@ -2367,7 +2368,7 @@ This feature will add authentication capability to the Perfmon Agent so that it 
         by using XML parsing libraries to read and modify these XML files.  To simplify adapter configuration
         modification, this feature will extend the current org.eclipse.hyades.logging.adapter.Adapter API to provide
         methods to retrieve and modify the configuration before it is executed by GLA.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=96433">96433</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=96433">96433</a>)
 		[Theme: Design for Extensibility: Be a Better Platform]</TD>
 	</tr>
   <tr>
@@ -2377,9 +2378,9 @@ This feature will add authentication capability to the Perfmon Agent so that it 
 		Adapter Configuration Editor to create a log parser is too complicated.  It requires extensive knowledge of
 		the GLA architecture, regular expressions, and the CommonBaseEvent schema.  The Adapter Configuration Editor
 		user interface will be simplified to make it easier to create a log parser based on a sample log file.
-		(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=78319">78319</a>,
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=104487">104487</a>, and
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106050">106050</a>)
+		(<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=78319">78319</a>,
+		<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=104487">104487</a>, and
+		<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106050">106050</a>)
 		[Theme: Simple to Use]</TD>
 
 	</tr>
@@ -2394,7 +2395,7 @@ reduction relative to backlog at the end of&nbsp; previous release).</p>
 	<blockquote>
 		<p style="margin-top: 0; margin-bottom: 0">
 		See
-		<a href="http://www.eclipse.org/tptp/reports/bugs/report_42.php?src=All&queryType=bugs&component=All">
+		<img src="external.gif"><a href="http://www.eclipse.org/tptp/reports/bugs/report_42.php?src=All&queryType=bugs&component=All">
 
 		TPTP 4.2 Defects</a> 
 		for a listing of already fixed defects, current defect targets and backlog.</p>
@@ -2479,7 +2480,7 @@ Our target is to complete and release BIRT 2.1 with the Callisto simultaneous
 release, currently targeted for late June 2006.
 
 <p>For information about new features assigned to each milestone please refer
-to the <a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
+to the <img src="external.gif"><a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
 bugzilla database will be updated on an ongoing basis as the plan
 progresses.</p>
 
@@ -2934,7 +2935,7 @@ Query Model</FONT></P>
 	<TBODY>
 		<TR VALIGN=TOP>
 			<TH WIDTH=122 BGCOLOR="#c0c0c0">
-				<P><A HREF="#Subcomponents|region"><FONT FACE="Arial, sans-serif">Component</FONT></A></P>
+				<P><a href="#Subcomponents|region"><FONT FACE="Arial, sans-serif">Component</FONT></A></P>
 
 			</TH>
 			<TH WIDTH=154 BGCOLOR="#c0c0c0">
@@ -2959,7 +2960,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Parser|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Query Parser|region">SQL
 				Query Parser</A></FONT></FONT></P>
 				<P><BR>
 				</P>
@@ -3002,7 +3003,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
 
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Results View|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Results View|region">SQL
 				Results View</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=154>
@@ -3046,7 +3047,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL/Routines Editor|region">SQL/Routines
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL/Routines Editor|region">SQL/Routines
 				Editor</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=154>
@@ -3098,7 +3099,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#Routines Debugger|region">Routines
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#Routines Debugger|region">Routines
 				Debugger</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=154>
@@ -3128,7 +3129,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Execution Plan|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Execution Plan|region">SQL
 				Execution Plan</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=154>
@@ -3152,7 +3153,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Builder|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Query Builder|region">SQL
 				Query Builder</A></FONT></FONT></P>
 				<P><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Note:
 				Not targeted for delivery in DTP 1.0</FONT></FONT></FONT></P>
@@ -3207,7 +3208,7 @@ Query Model</FONT></P>
 	<TBODY>
 		<TR VALIGN=TOP>
 			<TH WIDTH=122 BGCOLOR="#c0c0c0">
-				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><A HREF="#Subcomponents|region">Component</A></B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><a href="#Subcomponents|region">Component</A></B></FONT></FONT></P>
 			</TH>
 			<TH WIDTH=244 BGCOLOR="#c0c0c0">
 
@@ -3233,7 +3234,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Parser|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Query Parser|region">SQL
 				Query Parser</A></FONT></FONT></P>
 				<P><BR>
 				</P>
@@ -3257,7 +3258,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Results View|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Results View|region">SQL
 				Results View</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=244>
@@ -3287,7 +3288,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL/Routines Editor|region">SQL/Routines
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL/Routines Editor|region">SQL/Routines
 				Editor</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=244>
@@ -3315,7 +3316,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#Routines Debugger|region">Routines
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#Routines Debugger|region">Routines
 				Debugger</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=244>
@@ -3343,7 +3344,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Execution Plan|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Execution Plan|region">SQL
 				Execution Plan</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=244>
@@ -3367,7 +3368,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Builder|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Query Builder|region">SQL
 				Query Builder</A></FONT></FONT></P>
 				<P><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Note:
 				Not targeted for delivery in DTP 1.0</FONT></FONT></FONT></P>
@@ -3416,7 +3417,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 			<TH WIDTH=122 BGCOLOR="#c0c0c0">
 
-				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><A HREF="#Subcomponents|region">Component</A></B></FONT></FONT></P>
+				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B><a href="#Subcomponents|region">Component</A></B></FONT></FONT></P>
 			</TH>
 			<TH WIDTH=175 BGCOLOR="#c0c0c0">
 				<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>RC1</B></FONT></FONT></P>
@@ -3444,7 +3445,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Parser|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Query Parser|region">SQL
 				Query Parser</A></FONT></FONT></P>
 				<P><BR>
 				</P>
@@ -3479,7 +3480,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Results View|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Results View|region">SQL
 				Results View</A></FONT></FONT></P>
 
 			</TD>
@@ -3504,7 +3505,7 @@ Query Model</FONT></P>
 
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL/Routines Editor|region">SQL/Routines
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL/Routines Editor|region">SQL/Routines
 				Editor</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=175>
@@ -3528,7 +3529,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#Routines Debugger|region">Routines
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#Routines Debugger|region">Routines
 				Debugger</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=175>
@@ -3553,7 +3554,7 @@ Query Model</FONT></P>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
 
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Execution Plan|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Execution Plan|region">SQL
 				Execution Plan</A></FONT></FONT></P>
 			</TD>
 			<TD WIDTH=175>
@@ -3577,7 +3578,7 @@ Query Model</FONT></P>
 		</TR>
 		<TR VALIGN=TOP>
 			<TD WIDTH=122>
-				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><A HREF="#SQL Query Builder|region">SQL
+				<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2><a href="#SQL Query Builder|region">SQL
 				Query Builder</A></FONT></FONT></P>
 				<P><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Note:
 				Not targeted for delivery in DTP 1.0</FONT></FONT></FONT></P>
@@ -3951,7 +3952,7 @@ Results View</B></FONT></P>
 		    	<li> Initial commit of new Eclipse Debug Model. Not stable and intended 
 		    	only for initial use by the DD community.
 		    	</li>
-				<li>See <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/dd/2005-12-21_Phone_DD_FlexibleDebugPlatform_M4Progress.ppt">development status update</a> 
+				<li>See <img src="external.gif"><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/dd/2005-12-21_Phone_DD_FlexibleDebugPlatform_M4Progress.ppt">development status update</a> 
 				from 21-December-2005 meeting
 				</li>
 		    </ul> 
@@ -3983,7 +3984,7 @@ Results View</B></FONT></P>
 
 				<li>Update of EDM based on DD feedback.
 				</li>
-				<li>To be discussed at <a href="http://wiki.eclipse.org/index.php/DSDP-DD_Face-to-face_Toronto_22-Feb-2006">Toronto</a> 
+				<li>To be discussed at <img src="external.gif"><a href="http://wiki.eclipse.org/index.php/DSDP-DD_Face-to-face_Toronto_22-Feb-2006">Toronto</a> 
 				meeting 22/23-Febrary-2006. 
 				</li>
 		    </ul> 
@@ -4142,7 +4143,7 @@ Results View</B></FONT></P>
 	<h4>See Also</h4>
 
 	<p>Please see the
-	<a href="../tutorial/index.php">tutorial</a> section of the Device Debugging project pages 
+	<img src="external.gif"><a href="../tutorial/index.php">tutorial</a> section of the Device Debugging project pages 
 	for more presentations and documentation.<br><br>
 	</p>  
 
@@ -4196,7 +4197,7 @@ compatibilities and dependencies. These are all things that need to be
 clear for any release, even if no features were to change.</p>
 <p>The remainder of the plan consists of themes for the project's
 milestones, with more detail on these and future capabilities found on
-the project <a href="/dsdp/tm/development/requirements.php">requirements</a>
+the project <img src="external.gif"><a href="/dsdp/tm/development/requirements.php">requirements</a>
 document. Each plan item covers a feature or API that is to be added to
 the Remote Systems Explorer, or some aspect of the project that is
 to be improved.</p>
@@ -4267,7 +4268,7 @@ Runtime Environment, Standard Edition. Since Java 5 is also used as
 Eclipse Reference Platform, some testing of RSE will also
 be done on Java 5.</p> 
 <p>Eclipse Platform SDK 3.2 will be tested and validated on a number of
-<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_2.html#TargetOperatingEnvironments">
+<img src="external.gif"><a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_2.html#TargetOperatingEnvironments">
 reference platforms</a>
 (this list is updated over the course of the release cycle). The 
 Remote Systems Explorer wil be tested and validated against a 
@@ -4411,7 +4412,7 @@ compliant plug-ins.</p>
 <!--
 A list of project requirements and agreed upon implementation
 timeframes is found in
-  <a href="/dsdp/tm/requirements.php">this</a>
+  <img src="external.gif"><a href="/dsdp/tm/requirements.php">this</a>
 document.
 -->
 For the milestones listed in this document, a set of overall themes 
