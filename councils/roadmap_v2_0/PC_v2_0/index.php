@@ -46,16 +46,16 @@ border-bottom: thin dotted
   <p>The big project planning effort this year is around the <img src="external.gif"><a href="http://www.eclipse.org/projects/callisto.php">Callisto Simultaneous Release</a>.
   </p>
   <p>The goal of the Callisto Simultaneous Release is to release ten major Eclipse projects 
-  (<img src="external.gif"><a href="/birt/">BIRT</a>, 
-  <img src="external.gif"><a href="/cdt/">CDT</a>,
-  <img src="external.gif"><a href="/datatools/">DTP</a>,
-  <img src="external.gif"><a href="/emf/">EMF</a>,
-  <img src="external.gif"><a href="/gef/">GEF</a>,
-  <img src="external.gif"><a href="/gmf/">GMF</a>,
-  <img src="external.gif"><a href="/eclipse/">Platform</a>,
-  <img src="external.gif"><a href="/tptp/">TPTP</a>,
-  <img src="external.gif"><a href="/webtools/">WTP</a>,
-  <img src="external.gif"><a href="/ve/">VE</a>)
+  <img src="external.gif">(<a href="/birt/">BIRT</a>, 
+  <a href="/cdt/">CDT</a>,
+  <a href="/datatools/">DTP</a>,
+  <a href="/emf/">EMF</a>,
+  <a href="/gef/">GEF</a>,
+  <a href="/gmf/">GMF</a>,
+  <a href="/eclipse/">Platform</a>,
+  <a href="/tptp/">TPTP</a>,
+  <a href="/webtools/">WTP</a>,
+  <a href="/ve/">VE</a>)
   at the same time. We are doing this simultaneous release to support the needs of the ecosystem members who integrate Eclipse frameworks into their own software and products. While those product producers naturally accept the ultimate responsibility for their customers' experiences, Callisto's goal is to eliminate uncertainity about project version numbers, and thus to allow ecosystem members to start their own integration, cross-project, and cross-product testing efforts earlier. Callisto is about improving the productivity of the developers working on top of Eclipse frameworks by providing a more transparent and predictable development cycle; Callisto is about developers helping developers serve the whole Eclipse community.
 </p><p><em>
 While Callisto is about the simultaneous release of ten projects, it is is not a unification of the projects - each project remains a separate open source project operating with its own project leadership, its own committers, and its own project plan.

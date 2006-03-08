@@ -75,7 +75,7 @@
 		<li>The <a href="themes_v2_0.php">Themes and Priorities</a> which has been
 		developed by the Eclipse Requirements Council. <br/>
 		</li>
-		<li>The <a href="PC_v2_0/main.html">Platform Release Plan</a> which has been
+		<li>The <a href="PC_v2_0/index.php">Platform Release Plan</a> which has been
 		developed by the Eclipse Planning Council.<br/>
 		</li>
 		<li>The <a href="AC_v2_0/index.php">Architecture Plan</a> which has been
