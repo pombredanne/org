@@ -14,9 +14,9 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Foundation Press Releases";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Ian Skerrett";
+	$pageTitle 		= "Eclipse Foundation 2006 Press Releases Archive";
+	$pageKeywords	= "2006, press, releases, eclipse, foundation";
+	$pageAuthor		= "Nathan Gervais";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -33,7 +33,7 @@ ob_start();
 
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
-		<h2>Current Press Releases</h2>
+		<h2>2006 Press Releases</h2>
 		<hr size="1" />
 		<ul>
 		<li><a href="20060309cb_elections.php">Eclipse Foundation Announces 2006 Board Member Election Results</a> - March 9th, 2006</li><br>		
@@ -41,7 +41,6 @@ ob_start();
 		<li><a href="20060120cb_pavilion.php">Nominations for the <i>Open Source Pavilion</i> at EclipseCon 2006</a> - January 20, 2006 </li> <br>
 		<li><a href="20060117goldsponsors.php">Gold Sponsors Announced for EclipseCon 2006 </a> - January 17, 2006 </li> <br>
 		<li><a href="20060104seminars.php">Eclipse Foundation Kicks Off Seminar Series: “Eclipse In Motion”</a> - January 4, 2006 </li><br>
-		<li><a href="20051219wtp10release.php">Eclipse Foundation Announces Web Tools Platform 1.0</a> - December 19, 2005 </li>
 		</ul>
 	</div>
 
@@ -50,7 +49,6 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="2006archive.php">2006 Archive</a></li>
 				<li><a href="main.html">2001-2005 Archives</a></li>
 				<li><a href="pressrelease_guidelines.php">Press Release Guidelines</a></li>
 
