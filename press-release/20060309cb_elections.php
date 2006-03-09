@@ -21,13 +21,14 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
-      	<p><br>
+      	<p><br />
         The Eclipse Foundation announced the results of the Add-in Provider and Committer elections for representatives to the board of directors. 
-        Congratulations to Howard Lewis, and Todd Williams for being re-elected and Jochen Krause and Mike Taylor as new Add-in Provider representatives. 
-        Scott Lewis, Kai-Uwe Maetzel will be returning along with the newly elected Jeff McAffer, and Tim Wagner who will serve as the Committer representatives. 
-        We're looking forward to working with you on the Eclipse Foundation Board of Directors. <br>
-        <br>
-        The Eclipse Foundation would also like to recognize the contribution of Rich Main and John Wiegand who are leaving the Eclipse Board after having served since its inception. The Eclipse community owes them a great deal for their many hours of effort of behalf of the Eclipse community.
+        Congratulations to Howard Lewis and Todd Williams for being re-elected and Jochen Krause and Mike Taylor as new Add-in Provider representatives. 
+        Scott Lewis and Kai-Uwe Maetzel will be returning as Committer representatives, along with the newly elected Jeff McAffer and Tim Wagner. 
+        We're looking forward to working with you on the Eclipse Foundation Board of Directors. <br />
+        <br />
+        The Eclipse Foundation would also like to recognize the contribution of Rich Main and John Wiegand 
+		who are leaving the Eclipse Board after having served since its inception. The Eclipse community owes them a great deal for their many hours of effort on behalf of the Eclipse community.
         </p>
 	</div>
 </div>
