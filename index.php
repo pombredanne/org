@@ -74,8 +74,8 @@
 	      	Eclipse management organization has been established to engage 
 	      	with commercial developers and consumers, academic and research institutions, standards bodies, 
 	      	tool interoperability groups and individual developers, plus coordinate the open source projects. To 
-	      	maintain a reliable and accessible development roadmap, a set of councils � Requirements, 
-	      	Architecture and Planning � will guide the development done by Eclipse Open Source projects. With 
+	      	maintain a reliable and accessible development roadmap, a set of councils (Requirements, 
+	      	Architecture and Planning) will guide the development done by Eclipse Open Source projects. With 
 	      	the support of over 115 member companies, Eclipse already hosts 9 major Open Source projects that 
 	      	include a total of over 50 subprojects.</p>
 
