@@ -76,7 +76,9 @@ background-repeat: repeat-y
     <p><a href="/tools/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Tools project home page</a>. The Tools top-level project is somewhat unique
     in that it is composed of six independent sub-projects.</p>
-    <p><img border="0" src="tools.gif" width="600" height="400"></p>
+    <p><img border="0" src="toolvictorinox.jpg"><br/>
+    <em>The Tools Project did not provide an architecture diagram, so we figured
+    that it had to look something like this.</em></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Web
