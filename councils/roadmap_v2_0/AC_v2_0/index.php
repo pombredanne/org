@@ -66,7 +66,7 @@ background-repeat: repeat-y
     <p><a href="/eclipse/">
 <img border="0" src="../PC_v2_0/external.gif" width="20" height="16"> Platform
     project home page</a></p>
-    <p><img border="0" src="platform.gif"></p>
+    <p><img border="0" src="platform.gif" width="727" height="489"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Tools
@@ -76,7 +76,7 @@ background-repeat: repeat-y
     <p><a href="/tools/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Tools project home page</a>. The Tools top-level project is somewhat unique
     in that it is composed of six independent sub-projects.</p>
-    <p><img border="0" src="toolvictorinox.jpg"><br/>
+    <p align="center"><img border="0" src="toolvictorinox.jpg" width="300" height="300"><br/>
     <em>The Tools Project did not provide an architecture diagram, so we figured
     that it had to look something like this.</em></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
@@ -87,7 +87,7 @@ background-repeat: repeat-y
 </table>
     <p><a href="/webtools/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Web Tools project home page</a>.&nbsp;</p>
-    <p><img border="0" src="wtp.gif" ></p>
+    <p><img border="0" src="wtp.gif" width="642" height="846"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Test
@@ -96,7 +96,7 @@ background-repeat: repeat-y
 </table>
     <p><a href="/tptp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Test &amp; Performance Tools Platform project home page.</a></p>
-    <p><img border="0" src="tptp.gif"></p>
+    <p><img border="0" src="tptp.gif" width="685" height="425"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Business
@@ -105,7 +105,7 @@ background-repeat: repeat-y
 </table>
     <p><a href="/birt/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Business Intelligence and Reporting Tools project home page.</a></p>
-    <p><img border="0" src="birt.jpg"></p>
+    <p><img border="0" src="birt.jpg" width="765" height="356"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Data
@@ -114,7 +114,7 @@ background-repeat: repeat-y
 </table>
     <p><a href="/dtp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Data Tools project home page.</a></p>
-    <p><img border="0" src="dtp.gif"></p>
+    <p><img border="0" src="dtp.gif" width="979" height="220"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">Device
@@ -123,7 +123,7 @@ background-repeat: repeat-y
 </table>
     <p><a href="/dsdp/"><img border="0" src="../PC_v2_0/external.gif" width="20" height="16">
     Device Software Development Platform project home page.</a></p>
-    <p><img border="0" src="dsdp.gif"></p>
+    <p><img border="0" src="dsdp.gif" width="803" height="606"></p>
 <table border=0 cellspacing=5 cellpadding=2 width="100%" >
 	<tr bgcolor="#999999">
     	<td align="left" valign="top" bgcolor="#0080C0"><strong><font color="#FFFFFF" face="Arial,Helvetica">SOA
@@ -143,7 +143,7 @@ background-repeat: repeat-y
     <p>The Modeling top-level project is currently in the proposal phase, but is
     expected to be approved in the near future. The model top-level project will
     have the following architecture:</p>
-    <p><img border="0" src="gmf.gif"></p>
+    <p><img border="0" src="gmf.gif" width="731" height="510"></p>
     <p><i>February 22, 2006</i></p>
     
       </div>
