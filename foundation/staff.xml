@@ -61,6 +61,13 @@
 			http://eclipse-projects.blogspot.com/</a>.</p>
 			]]></description>
 	</staffmember>
+	
+	<staffmember id="nathan">
+		<name>Nathan Gervais</name>
+		<title><![CDATA[ Web Developer ]]>
+		</title>
+	</staffmember>
+		
 
 	<staffmember id="skip">
 		<name>Skip McGaughey</name>
