@@ -224,7 +224,7 @@
 	value of the ecosystem for all of its members.</p>
 	
 	<p>The following diagram provides an architectural representation of the
-	Eclipse technology today. The<a href="AC_v2_0/main.html"> Architecture Plan</a>
+	Eclipse technology today. The<a href="AC_v2_0/index.php"> Architecture Plan</a>
 	goes into this in much greater detail.</p>
 	<p align="center"><img src="AC_v2_0/arch1.jpg" width="675" height="356">&nbsp;</p>
 	
