@@ -121,7 +121,7 @@
 	technology leadership and innovation. As an open development
 	platform, Eclipse provides support for multiple operating environments
 	and multiple programming languages. The goal of Eclipse is to define
-	for the industry a development platform which is freely licensed, open
+	for the industry a development platform and rich client platform (RCP) which is freely licensed, open
 	source and provides support for the full breadth of the application
 	lifecycle, in many disparate problem domains, across the development
 	and deployment platforms of choice. 
@@ -193,6 +193,7 @@
 		<li>Support for using RCP with Java WebStart (JNLP).</li>
 	<li>Support the ability to easily define a custom-branded application launcher.</li>
 	<li>PDE enhancements to facilitate developing and deploying RCP-based applications, and for OSGi bundle manifest tooling.</li>
+	<li>More control over the branding of RCP applications, including the changing of all filenames from <em>eclipse</em> has been addressed in 3.1.</li>
 	</ul>
 	
 	<p><strong>Simple to Use </strong></p>
@@ -274,15 +275,13 @@
 		was first introduced by Eclipse with the 3.0 release of the Eclipse Platform
 		in June, 2004. The RCP is a technology for building and managing
 		applications with a rich user experience. Eclipse&rsquo;s goal is to make the
-		RCP a mainstream development platform for both ISVs and enterprise
+		RCP a mainstream development and runtime platform for both ISVs and enterprise
 		developers. To do so, we plan to evolve the RCP technology in the
 		following ways: <br/>
 		<ul>
 			<li>Target RCP for additional operating environments. One example of
 		this is the eRCP project which is evaluating the use of Eclipse for
 		embedded constrained devices such as mobile phones and PDAs.</li>
-		<li>Examine alternatives for providing a more complete development for
-		creating RCP applications.</li>
 		<li>Enhance RCP with new functionality such as better update and
 		management capabilities.</li>
 		<li>Enhance the security capabilities of the RCP plug-in model.</li>

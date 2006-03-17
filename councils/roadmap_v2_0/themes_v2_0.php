@@ -63,9 +63,7 @@
 	These are our fundamental principles, which span all of the themes
 	outlined below.</p>
 	<ul>
-		<li>Eclipse projects provide exemplary (show by example)
-		implementations and extensible frameworks. Examples target open source
-		implementations such as CVS, Ant, JBoss, JOnAS, Mono, and Tomcat.<br/>
+		<li>Eclipse projects provide exemplary (meaning "show by example") implementations and extensible frameworks. Where projects require use of other technolgies (such as source control, application servers, build engines), they will target exemplary free open source implementations of those technologies."<br/>
 		</li>
 		<li>We will aim for release-to-release binary compatibility for API
 		clean plug-ins for at least the last major release.<br/>
@@ -270,7 +268,7 @@
 			<li>Open the internal JDT (UI) interfaces to enable tools to
 			seamlessly facilitate and interact with the JDT core and UI layers.
 			For example the parsing and AST functionality.</li>
-			<li>Enhance the Debug API</li>
+			<li>Enhance the Debug API to enable seamless debugging across mixed (Java+native) languanges</li>
 			<li>Provide a more flexible mechanism that can be used to debug
 			non-Java programs. This is both in the debug model and presentation</li>
 			<li>Provide for debugging a system comprised of multiple languages</li>
@@ -324,8 +322,6 @@
 	<li>Each project is requested to ensure they provide support for building RCP applications through frameworks, 
 	documentation and tutorials.  It is important that that the projects assume they are not running in the context 
 	of an IDE.  Ex. deploy within an OSGI bundle.</li>
-	<li>More complete control over the branding of RCP applications, including the changing of all filenames from 
-	&rsquo;eclipse&rsquo;.</li>
 	<li>To improve authentication and security (user authentication and credentials, role based security, and 
 	role-based plug-in loading)</li>
 	<li>Framework for disconnected use; ex. how to disconnect and how to synchronize when reconnected.</li>
