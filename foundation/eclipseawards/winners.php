@@ -77,7 +77,7 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php">TeamWorks <b>(Winner)</b></a>
+				<li><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php">Lombardi Software TeamWorks <b>(Winner)</b></a>
 				<li class="finalist"><a href="http://www.logicmindguide.com/demo.htm ">Logic MindGuide - Plan&Decide  <b>(Finalist)</b></a>
 				<br>
 			</ul>
