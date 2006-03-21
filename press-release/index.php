@@ -36,6 +36,12 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20060321eclipsealf.php">Eclipse Foundation announces expanded support for Eclipse Integration Platform</a>  - March 21st, 2006</li><br />
+		<li><a href="20060321zendphpide.php">Eclipse Foundation, Zend Technologies, and IBM Announce the Approval of the PHP IDE Project</a>  - March 21st, 2006</li><br />
+		<li><a href="20060321eclipsercp.php">Eclipse Rich Client Platform Continues Momentum with New Releases and Projects</a> - March 21st, 2006</li><br />
+		<li><a href="20060321corono_compuware.php">Compuware and the Eclipse Foundation Announce the Tools Services Framework (Corona) Project</a>  - March 21st, 2006</li><br />
+		<li><a href="20060321eclipsecommunity.php">EclipseCon 2006 Opens with Strong Participation from the Eclipse Community</a> - March 21st, 2006</li><br />
+		<li><a href="20060321eclipsecommunityawards.php">Eclipse Community Awards Winners Announced</a> - March 21th, 2006</li><br>
 		<li><a href="20060309cb_elections.php">Eclipse Foundation Announces 2006 Board Member Election Results</a> - March 9th, 2006</li><br>		
 		<li><a href="20060123birt20.php">Actuate, IBM, Pentaho, Scapa Technologies and Zend Commit to Eclipse BIRT 2.0</a> - January 23, 2006 </li> <br>
 		<li><a href="20060120cb_pavilion.php">Nominations for the <i>Open Source Pavilion</i> at EclipseCon 2006</a> - January 20, 2006 </li> <br>
