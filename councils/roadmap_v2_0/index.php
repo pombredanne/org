@@ -20,12 +20,6 @@
 	$html = <<<EOHTML
 
     <div id="maincontent">
-    <style> 
-		body {   
-		background-image: url('./draft.gif'); 
-		background-repeat: repeat-y
-		}
-	</style>
 	<div id="midcolumn">
     <h1><a name="top"></a>$pageTitle</h1>
     <blockquote>
@@ -405,7 +399,7 @@
 	of hard work<SPAN class=203453704-21022005> by everyone</SPAN>, the
 	three groups converged on this&nbsp;<SPAN class=203453704-21022005>Roadmap
 	</SPAN>document.</P>
-	<p align="left">The Roadmap will be presented to the Eclipse Board of
+	<p align="left">The Roadmap was presented and affirmed by the Eclipse Board of
 	Directors on Monday, March 20, 2006.</p>
 	<p align="left">&nbsp;</p>
 		
