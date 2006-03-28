@@ -12,10 +12,6 @@ ob_start();
 
 
 <style>
-body {  
-background-image: url('../draft.gif');
-background-repeat: repeat-y
-}
 h1 {
 border-bottom: solid
 }

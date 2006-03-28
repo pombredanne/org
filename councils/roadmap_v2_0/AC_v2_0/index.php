@@ -10,12 +10,6 @@ ob_start();
 	<div id="midcolumn">
 
 
-<style>
-body {  
-background-image: url('../draft.gif');
-background-repeat: repeat-y
-}
-</style>
 </head>
 
 
