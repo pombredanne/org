@@ -23,7 +23,7 @@ ob_start();
 <h3>Invited Speakers</h3>
 <p>Brent Willams spoke about the value of the Eclipse Ecosystem at large, but also
 the economic values of belonging to Eclipse.  His presentation can be
-<a href="BrentWilliams-EclipseMembersMeetingMar20-06">found here</a>.
+<a href="BrentWilliams-EclipseMembersMeetingMar20-06.pdf">found here</a>.
 </p>
 
 <p>
