@@ -62,7 +62,7 @@ Spring community regarding OSGi, and also talked about server-side OSGi in
 general.
 </p>
 
-<h3>Foundation Speakers<h3>
+<h3>Foundation Speakers</h3>
 
 <p>
 Mike Milinkovich provided an update on the Foundation and the Ecosystem.  His presentation can be
