@@ -82,9 +82,13 @@
     		<td width="51%">Nokia</td>
  		</tr>
  		<tr>
+    		<td width="49%">Jochen Krause</td>
+    		<td width="51%">Elected add-in provider representative</td>
+ 		</tr>
+ 		
+ 		<tr>
     		<td width="49%">Howard H. Lewis</td>
-    		<td width="51%">Elected add-in provider representative (from 
-      			SlickEdit and Discovery Machine, Inc)</td>
+    		<td width="51%">Elected add-in provider representative</td>
  		</tr>
  		<tr>
     		<td width="49%"> Scott Lewis</td>
@@ -99,14 +103,15 @@
     		<td width="49%">Kai-Uwe Maetzel</td>
     		<td width="51%">Elected committer representative</td>
  		</tr>
- 		<tr>
-    		<td width="49%">Rich Main </td>
-    		<td  width="51%">Elected add-in provider representative (from SAS)</td>
+		<tr>
+    		<td width="49%">Jeff McAffer</td>
+    		<td width="51%">Elected committer representative</td>
  		</tr>
  		<tr>
-    		<td width="49%">Kevin Morgan</td>
-    		<td width="51%">MontaVista Software</td>
+    		<td width="49%"> Eric Newcomer</td>
+    		<td width="51%">Iona</td>
  		</tr>
+ 		
  		 <tr>
     		<td width="49%">Michael Norman</td>
     		<td width="51%">Scapa Technologies</td>
@@ -115,6 +120,11 @@
     		<td width="49%">Raaj Shinde</td>
     		<td width="51%">Borland</td>
  		</tr>
+ 		<tr>
+    		<td width="49%">Mike Taylor</td>
+    		<td width="51%">Elected add-in provider representative</td>
+ 		</tr>
+ 		
 		<tr>
     		<td hwidth="49%">Dave Thomson</td>
     		<td width="51%">IBM</td>
@@ -123,17 +133,14 @@
     		<td width="49%"> David Tong</td>
     		<td width="51%">Sybase</td>
  		</tr>
-		<tr>
-    		<td width="49%"> Carl Trieloff</td>
-    		<td width="51%">Iona</td>
- 		</tr>
-		<tr>
-    		<td width="49%">John Wiegand</td>
+ 		<tr>
+    		<td width="49%">Tim Wagner</td>
     		<td width="51%">Elected committer representative</td>
  		</tr>
+ 		
 		<tr>
     		<td width="49%">Todd Williams</td>
-    		<td width="51%">Elected add-in provider representative (from Genuitec)</td>
+    		<td width="51%">Elected add-in provider representative</td>
  		</tr>
 		<tr>
     		<td width="49%">&nbsp;</td>
