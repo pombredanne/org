@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20060330cb_roadmapv2.php">Eclipse Development Road Map version 2 Approved</a> - March 30th, 2006</li><br />
 		<li><a href="20060321eclipsealf.php">Eclipse Foundation announces expanded support for Eclipse Integration Platform</a>  - March 21st, 2006</li><br />
 		<li><a href="20060321zendphpide.php">Eclipse Foundation, Zend Technologies, and IBM Announce the Approval of the PHP IDE Project</a>  - March 21st, 2006</li><br />
 		<li><a href="20060321eclipsercp.php">Eclipse Rich Client Platform Continues Momentum with New Releases and Projects</a> - March 21st, 2006</li><br />
@@ -56,7 +57,6 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="2006archive.php">2006 Archive</a></li>
 				<li><a href="main.html">2001-2005 Archives</a></li>
 				<li><a href="pressrelease_guidelines.php">Press Release Guidelines</a></li>
 
