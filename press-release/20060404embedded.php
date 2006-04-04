@@ -43,7 +43,7 @@
 		flexibility of build options and improve CDT's knowledge of the build process, which will eliminate the need 
 	    for an external build tool like "make." CDT 3.1 will be released as part of the June Callisto release train.  .
 	   </p> </li>
-		<li><p>Mobile Tools for the Java Platform (MTJ) Project – This new DSDP project,  
+		<li><p>Mobile Tools for the Java Platform (MTJ) Project – This new DSDP project,  proposed and led by Nokia,
 			will provide frameworks for runtime management of devices and emulators, build management and 
 			deployment of J2ME applications, mobile device debugging, application creation wizards, UI design 
 			tools, localization, and mobile security extensions. The initial release is scheduled for June and 
@@ -61,7 +61,7 @@
 		</p>
 	<p>“CDT is quickly becoming the industry standard for C and C ++ development in the embedded world,” said Doug Schaefer, project leader for the CDT and senior software developer at QNX Software Systems. “The fact that the CDT is being used by commercial vendors for applications from tiny embedded microcontrollers to large multi-core targets validates the functionality of the CDT feature set for embedded environments.”
 	</p>
-	<p>The CDT project forms the basis of at least 17 commercially available development tools including those from QNX Software Systems, Intel, Texas Instruments and Siemens. Currently, more than 25 companies contribute to the CDT project. Since the creation of the Device Software Development Platform (DSDP) as a top-level Eclipse project in June 2005, representatives from more than 20 companies have joined the project and actively contribute source code. Both projects are actively recruiting new users and contributors to their technology.
+	<p>The CDT project forms the basis of at least 17 commercially available development tools including those from QNX Software Systems, Intel, Nokia, Texas Instruments and Siemens. Currently, more than 25 companies contribute to the CDT project. Since the creation of the Device Software Development Platform (DSDP) as a top-level Eclipse project in June 2005, representatives from more than 20 companies have joined the project and actively contribute source code. Both projects are actively recruiting new users and contributors to their technology.
 	</p>
 	<p>Demos of CDT and DSDP projects can be seen in action this week at the Embedded Systems Conference in San Jose, Calif. Eclipse-focused sessions include “The Eclipse Device Software Platform Project” (April 6, 2006, 8:30 a.m. – 10:00 a.m. PT) and “Eclipse: Under the Hood” (April 6, 2006, 11:00 a.m. – 12:30 p.m. PT).
 	</p>
