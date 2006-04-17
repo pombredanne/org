@@ -1,4 +1,4 @@
-ecli<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 	#*****************************************************************************
 	#
@@ -48,17 +48,23 @@ ecli<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] 
 		<div class="homeitem3col">
 			<h3>Board of Directors Meetings</h3>
 			<ul>
-        		<li>Abridged Minutes of the Board Meeting of the Eclipse Foundation, Inc. 
+        		<li>Abridged Minutes 
+          			- <a href="boardminutes/2005_12_13-14_Abridged_Minutes.pdf">December 13-14, 
+          			2005 (pdf)</a><img src="../../images/new.gif" alt="new"></li>
+        		<li>Abridged Minutes 
+          			- <a href="boardminutes/2005_09_21_Abridged_Minutes.pdf">September 21, 
+          			2005 (pdf)</a><img src="../../images/new.gif" alt="new"></li>
+        		<li>Abridged Minutes 
           			- <a href="boardminutes/2005_06_07_Abridged_Minutes.pdf">June 7-8, 
           			2005 (pdf)</a></li>
-        		<li>Abridged Minutes of the Board Meeting of the Eclipse Foundation, Inc. 
+        		<li>Abridged Minutes 
           			- <a href="boardminutes/2005_02_28_Abridged_Minutes.pdf">February 28, 
           			2005 (pdf)</a></li>
-        		<li>Abridged Minutes of the Board Meeting of the Eclipse Foundation, Inc. 
+        		<li>Abridged Minutes 
         			- <a href="boardminutes/2004_12_08_Meeting_Abridged-Minutes.pdf">December 8, 2004 (pdf)</a></li>
-        		<li>Abridged Minutes of the Board Meeting of the Eclipse Foundation, Inc. 
+        		<li>Abridged Minutes 
         			- <a href="boardminutes/2004_09_15_Abridged_Minutes.pdf">September 15, 2004 (pdf</a>)</li>
-        		<li>Abridged Minutes of the Board Meeting of the Eclipse Foundation, Inc. 
+        		<li>Abridged Minutes 
           			- <a href="boardminutes/2004_06_25%20Abridged%20Minutes.pdf">June 25, 
           			2004 (pdf</a>)</li>
 			</ul>	
@@ -66,6 +72,8 @@ ecli<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] 
 		<div class="homeitem3col">
 			<h3>Council Meetings</h3>
 			<ul>
+			    <li><a href="../councils/rcminutes050824.html">Requirements Council Meeting, 
+          			August 24, 2005</a><img src="../../images/new.gif" alt="new"></li>
         		<li><a href="../councils/20050517RCMinutes.htm">Requirements Council Meeting, 
           			May 17, 2005</a></li>
         		<li><a href="../councils/20041130RCMinutes.pdf">Requirements Council Meeting, 
