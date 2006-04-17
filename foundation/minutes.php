@@ -49,23 +49,23 @@
 			<h3>Board of Directors Meetings</h3>
 			<ul>
         		<li>Abridged Minutes 
-          			- <a href="boardminutes/2005_12_13-14_Abridged_Minutes.pdf">December 13-14, 
+          			- <a href="../board/minutes/2005_12_13-14_Abridged_Minutes.pdf">December 13-14, 
           			2005 (pdf)</a><img src="../../images/new.gif" alt="new"></li>
         		<li>Abridged Minutes 
-          			- <a href="boardminutes/2005_09_21_Abridged_Minutes.pdf">September 21, 
+          			- <a href="../board/minutes/2005_09_21_Abridged_Minutes.pdf">September 21, 
           			2005 (pdf)</a><img src="../../images/new.gif" alt="new"></li>
         		<li>Abridged Minutes 
-          			- <a href="boardminutes/2005_06_07_Abridged_Minutes.pdf">June 7-8, 
+          			- <a href="../board/minutes/2005_06_07_Abridged_Minutes.pdf">June 7-8, 
           			2005 (pdf)</a></li>
         		<li>Abridged Minutes 
-          			- <a href="boardminutes/2005_02_28_Abridged_Minutes.pdf">February 28, 
+          			- <a href="../board/minutes/2005_02_28_Abridged_Minutes.pdf">February 28, 
           			2005 (pdf)</a></li>
         		<li>Abridged Minutes 
-        			- <a href="boardminutes/2004_12_08_Meeting_Abridged-Minutes.pdf">December 8, 2004 (pdf)</a></li>
+        			- <a href="../board/minutes/2004_12_08_Meeting_Abridged-Minutes.pdf">December 8, 2004 (pdf)</a></li>
         		<li>Abridged Minutes 
-        			- <a href="boardminutes/2004_09_15_Abridged_Minutes.pdf">September 15, 2004 (pdf</a>)</li>
+        			- <a href="../board/minutes/2004_09_15_Abridged_Minutes.pdf">September 15, 2004 (pdf</a>)</li>
         		<li>Abridged Minutes 
-          			- <a href="boardminutes/2004_06_25%20Abridged%20Minutes.pdf">June 25, 
+          			- <a href="../board/minutes/2004_06_25%20Abridged%20Minutes.pdf">June 25, 
           			2004 (pdf</a>)</li>
 			</ul>	
 		</div>
