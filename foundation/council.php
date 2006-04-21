@@ -173,8 +173,8 @@
 		</table>
 		<br/>        	
 	<ul>
-        <li><a href="../councils/20050517RCMinutes.htm">Requirements Council Meeting, 
-          May 17, 2005</a></li>
+	 	<li><a href="../councils/rcminutes050824.html">Requirements Council Meeting, 
+          			August 24, 2005</a><img src="../../images/new.gif" alt="new"></li>
         <li><a href="../councils/20041130RCMinutes.pdf">Requirements Council Meeting, November 30, 2004 (.pdf)</a></li>
         <li><a href="../councils/20040831RCMinutes.pdf">Requirements Council Meeting, 
             August 31, 2004 (.pdf)</a></li>

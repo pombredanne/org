@@ -72,23 +72,8 @@
 		<div class="homeitem3col">
 			<h3>Council Meetings</h3>
 			<ul>
-			    <li><a href="../councils/rcminutes050824.html">Requirements Council Meeting, 
-          			August 24, 2005</a><img src="../../images/new.gif" alt="new"></li>
-        		<li><a href="../councils/20050517RCMinutes.htm">Requirements Council Meeting, 
-          			May 17, 2005</a></li>
-        		<li><a href="../councils/20041130RCMinutes.pdf">Requirements Council Meeting, 
-          			November 30, 2004 (.pdf)</a></li>
-        		<li><a href="../councils/20041201PCMinutes.pdf">Planning Council Meeting, 
-          			December 1, 2004 (.pdf)</a></li>
-        		<li><a href="../councils/20041202ACMinutes.pdf">Architecture Council Meeting, 
-          			December 2, 2004 (.pdf)</a></li>
-        		<li><a href="../councils/20040831RCMinutes.pdf">Requirements Council Meeting, 
-          			August 31, 2004 (.pdf)</a></li>
-        		<li><a href="../councils/20040901PCMinutes.pdf">Planning Council Meeting, 
-          			September 1, 2004 (.pdf)</a></li>
-        		<li><a href="../councils/20040902ACMinutes.pdf">Architecture Council Meeting, 
-          			September 2, 2004 (.pdf)</a></li>
-			</ul>	
+       		<li><a href="council.php">Council Meeting minutes are categorized on the council page here.</a></li>
+ 			</ul>	
 		</div>
 		
 	</div>
