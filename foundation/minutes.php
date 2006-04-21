@@ -72,7 +72,7 @@
 		<div class="homeitem3col">
 			<h3>Council Meetings</h3>
 			<ul>
-       		<li><a href="council.php">Council Meeting minutes are categorized on the council page here.</a></li>
+       		<li><a href="council.php">Council Meeting minutes are categorized on the council page.</a></li>
  			</ul>	
 		</div>
 		

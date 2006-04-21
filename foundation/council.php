@@ -64,8 +64,9 @@
 			<blockquote>
 			<p> As described in the previous section, the <a href="../documents/Eclipse%20Development%20Process%202003_11_09%20FINAL.pdf">Eclipse 
         		Development Process</a> calls for the Eclipse Councils to create the Eclipse 
-        		Roadmap documentation for approval by the Board of Directors. The <a href="/org/councils/roadmap_v1_0.html">
-      			Eclipse Roadmap V1.0</a> has now been released.
+        		Roadmap documentation for approval by the Board of Directors. The <a href="/org/councils/roadmap.html">
+      			Eclipse Roadmap V2.0</a> has now been released.  If you are looking for Board or Members meeting minutes, 
+      			<a href="minutes.php"> click here.</a>
         	</p> 
         	</blockquote>
         </div>
