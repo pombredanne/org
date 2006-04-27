@@ -105,7 +105,7 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
-    			<td>Chris Kolde </td>
+    			<td>Stephen Henderson</td>
     			<td>Borland</td>
     			<td>Strategic Developer</td>
   			</tr>
@@ -121,7 +121,7 @@
   			</tr>
 			
   			<tr> 
-    			<td>Mike Milinkovich*</td>
+    			<td>Donald Smith*</td>
     			<td>Eclipse Foundation</td>
     			<td>appointed by Eclipse Foundation (chair)</td>
   			</tr>
@@ -137,7 +137,7 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
-    			<td>Shane Pearson </td>
+    			<td>Tim Wagner</td>
     			<td>BEA</td>
     			<td>Strategic Developer</td>
   			</tr>
@@ -155,11 +155,6 @@
     			<td>Paul Styles</td>
     			<td>Compuware</td>
     			<td>Strategic Developer</td>
-  			</tr>
-  			<tr>
-    			<td>Melissa Traynor</td>
-    			<td>MontaVista Software</td>
-    			<td>Strategic Consumer</td>
   			</tr>
   			<tr>
     			<td><i>TBD</i></td>
