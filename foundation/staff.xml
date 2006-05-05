@@ -26,6 +26,17 @@
 		]]> </description>
 	</staffmember>
 
+	<staffmember id="sharonc">
+		<name>Sharon Corbett</name>
+		<image>../../images/sharonc.jpg</image>
+		<title>Intellectual Property Operations</title>
+		<description>
+		<![CDATA[<p>When remote from Eclipse, Sharon C. is a fulltime Soccer Mom.  <b><i>Footie, the beautiful game!</b></i>  Sharon can usually be found heading out with her son to a practice, game or tournament.  The countdown is on to FIFA World Cup Germany 2006 - <a href="http://fifaworldcup.yahoo.com/06/en/index.html">FIFA World Cup 2006.</a>
+			<br/><br/><br/> </p> 
+		]]>
+		</description>
+	</staffmember>	
+	
 	<staffmember id="ward">
 		<name>Ward Cunningham</name>
 		<title>Director, Committer Community Development</title>
@@ -64,8 +75,12 @@
 	
 	<staffmember id="nathan">
 		<name>Nathan Gervais</name>
-		<title><![CDATA[ Web Developer ]]>
-		</title>
+		<image>../../images/nathan.png</image>
+		<title>Web Developer</title>
+		<description>
+		<![CDATA[<p>Keep an eye out for this kid!  Besides lurking around eclipse.org he can be seen playing tennis, walking his dog, and driving his new car!<br/><br/><br/> </p> 
+		]]>
+		</description>
 	</staffmember>
 		
 
