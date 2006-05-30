@@ -120,12 +120,9 @@
 		<name>Denis Roy</name>
 		<title>Manager, IT Infrastructure</title>
 		<image>../../images/denis.jpg </image>
-		<description>At work, he stares at servers and blinking lights. At play, he enjoys outdoor 
-		sports that involve vehicles and gasoline engines. To Denis, life is at its best when he's on 
-		his snowmobile at the top of a mountain covered in fresh snow on a calm winter afternoon. 
-		Other interests include home renovation, auto mechanics, video games and his soon-to-be 
-		daughter.
-		</description>
+		<description>Denis spends too much time in front of a command prompt. 
+		You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, 
+		and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</description>
 	</staffmember>
 
 	<staffmember id="ian">
