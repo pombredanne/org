@@ -34,7 +34,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Eclipse Council Structure</h2>
 		<p>As defined by the <a href="../documents/Eclipse%20Development%20Process%202003_11_09%20FINAL.pdf">Eclipse Development Process</a>, 
-		the open source projects are Eclipse are guided and co-ordinated by three Councils:</p>
+		the open source projects in Eclipse are guided and co-ordinated by three Councils:</p>
 		<ul class="midlist">
         <li><strong><a href="#requirements">Requirements</a></strong>: The Requirements 
           Council is responsible for capturing and organizing requirements for 
@@ -206,7 +206,7 @@
   		<tr>
     		<td>Richard Gronback </td>
     		<td>Borland</td>
-    		<td>Strategic Developer</td>
+    		<td>appointed by Eclipse Foundation</td>
   		</tr>
   		<tr>
     		<td>Kevin Haaland</td>
@@ -222,6 +222,11 @@
     		<td>Georg Lenz</td>
     		<td>SAP AG</td>
     		<td>Strategic Consumer</td>
+  		</tr>
+  		<tr>
+  		<td>Ed Merks</td>
+  		<td>IBM Corporation</td>
+  		<td>Modeling PMC Representative</td>
   		</tr>
   		<tr> 
     		<td>Mike Milinkovich</td>
@@ -258,6 +263,11 @@
     		<td>Actuate</td>
     		<td>BIRT PMC Representative</td>
   		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
+   			<td>Borland</td>
+   			<td>Strategic Developer</td>
+		</tr>
 		<tr>
   			<td><i>TBD</i></td>
    			<td>IONA</td>
@@ -316,9 +326,9 @@
     		<td>Data Tools PMC Representative</td>
   		</tr>
   		<tr>
-    		<td>Richard Gronback </td>
+    		<td>Richard Gronback</td>
     		<td>Borland</td>
-    		<td>Strategic Developer</td>
+    		<td>appointed by Eclipse Foundation</td>
   		</tr>
   		<tr>
     		<td>Anurag Gupta</td>
@@ -339,6 +349,11 @@
     		<td>Wenfeng Li</td>
     		<td>Actuate </td>
     		<td>BIRT PMC Representative</td>
+  		</tr>
+  		<tr>
+  		<td>Ed Merks</td>
+  		<td>IBM Corporation</td>
+  		<td>Modeling PMC Representative</td>
   		</tr>
   		<tr>
     		<td>Mike Milinkovich</td>
@@ -380,6 +395,11 @@
     		<td>Computer Associates</td>
     		<td>Strategic Developer</td>
   		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
+   			<td>Borland</td>
+   			<td>Strategic Developer</td>
+		</tr>
 		<tr>
   			<td><i>TBD</i></td>
   			<td>IONA</td>
