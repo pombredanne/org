@@ -120,9 +120,10 @@
 		<name>Denis Roy</name>
 		<title>Manager, IT Infrastructure</title>
 		<image>../../images/denis.jpg </image>
-		<description>Denis spends too much time in front of a command prompt. 
+		<description><![CDATA[Denis spends too much time in front of a command prompt. 
 		You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, 
-		and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</description>
+		and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.]]>
+		</description>
 	</staffmember>
 
 	<staffmember id="ian">
