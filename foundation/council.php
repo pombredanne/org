@@ -265,11 +265,6 @@
   		</tr>
 		<tr>
   			<td><i>TBD</i></td>
-   			<td>Borland</td>
-   			<td>Strategic Developer</td>
-		</tr>
-		<tr>
-  			<td><i>TBD</i></td>
    			<td>IONA</td>
    			<td>Strategic Developer</td>
 		</tr>
@@ -366,15 +361,15 @@
     		<td>Strategic Developer</td>
   		</tr>
   		<tr>
-    		<td>Michael Scharf </td>
-    		<td>Wind River</td>
-    		<td>Device Software PMC Representative</td>
-  		</tr>
-  		<tr>
-    		<td>Harm Sluiman</td>
+    		<td>Valentina Popescu</td>
     		<td>IBM Corporation</td>
     		<td>Test and Performance PMC Representative</td>
   		</tr>
+  		<tr>
+    		<td>Michael Scharf </td>
+    		<td>Wind River</td>
+    		<td>Device Software PMC Representative</td>
+  		</tr>	
   		<tr>
     		<td>Tim Wagner</td>
     		<td>BEA</td>
@@ -395,11 +390,6 @@
     		<td>Computer Associates</td>
     		<td>Strategic Developer</td>
   		</tr>
-		<tr>
-  			<td><i>TBD</i></td>
-   			<td>Borland</td>
-   			<td>Strategic Developer</td>
-		</tr>
 		<tr>
   			<td><i>TBD</i></td>
   			<td>IONA</td>
