@@ -92,7 +92,7 @@
   			<tr> 
     			<td>Boris Kapitanski</td>
     			<td>Serena Software, Inc.</td>
-    			<td>Strategic Consumer</td>
+    			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
     			<td>John Kellerman</td>
@@ -265,6 +265,11 @@
   		</tr>
 		<tr>
   			<td><i>TBD</i></td>
+   			<td>Serena Software, Inc.</td>
+   			<td>Strategic Developer</td>
+		</tr>
+		<tr>
+  			<td><i>TBD</i></td>
    			<td>IONA</td>
    			<td>Strategic Developer</td>
 		</tr>
@@ -272,8 +277,8 @@
   			<td><i>TBD</i></td>
    			<td>Zend</td>
    			<td>Strategic Developer</td>
-		</tr>
-  		<tr> 
+		</tr>  		
+		<tr> 
     		<td><i>TBD</i></td>
     		<td></td>
     		<td>Technology PMC Representative</td>
@@ -296,7 +301,7 @@
 	<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
   		<tr>
-		    <td>Stefan Daume</td>
+		<td>Stefan Daume</td>
     		<td>Scapa Technology</td>
     		<td>Strategic Developer</td>
   		</tr>
@@ -306,9 +311,9 @@
     		<td>Tools PMC Representative</td>
   		</tr>
 		<tr>
-  			<td>Don Ebright</td>
-   			<td>Compuware</td>
-   			<td>Strategic Developer</td>
+  		<td>Don Ebright</td>
+   		<td>Compuware</td>
+   		<td>Strategic Developer</td>
 		</tr>
   		<tr>
     		<td>Bjorn Freeman-Benson*</td>
@@ -338,7 +343,7 @@
   		<tr>
     		<td>Boris Kapitanski</td>
     		<td>Serena Software, Inc</td>
-    		<td>Strategic Consumers</td>
+    		<td>Strategic Developer</td>
   		</tr>
   		<tr>
     		<td>Wenfeng Li</td>
@@ -401,6 +406,11 @@
    			<td>Strategic Developer</td>
 		</tr>
   		<tr>
+  			<td><i>TBD</i></td>
+   			<td></td>
+   			<td>Strategic Consumers</td>
+		</tr>
+		<tr>
     		<td><i>TBD</i></td>
     		<td></td>
     		<td>Technology PMC Representative</td>
