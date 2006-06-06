@@ -21,7 +21,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Press Release</h2>
 		<h2 ALIGN="CENTER"><strong>New Top-Level Eclipse Project Encourages Adoption of Open Standards for Model-Based Development</strong></h2>
-		<ul>
+		<ul> 
 		<li>Borland and IBM Team to Drive Industry Support for Eclipse Modeling Project</li>
 		</ul>
 		<p><strong>JAVAONE (BOOTH 1138), SAN FRANCISCO, Calif., May 15, 2006</strong> � The Eclipse Foundation today 
