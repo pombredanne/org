@@ -90,7 +90,7 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
-    			<td>Boris Kapitanski</td>
+    			<td>Brian Carroll</td>
     			<td>Serena Software, Inc.</td>
     			<td>Strategic Developer</td>
   			</tr>
