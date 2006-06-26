@@ -346,6 +346,11 @@
     		<td>Strategic Developer</td>
   		</tr>
   		<tr>
+  		<td><i>Yossi Leon</i></td>
+   		<td>Zend</td>
+   		<td>Strategic Developer</td>
+		</tr>
+  		<tr>
     		<td>Wenfeng Li</td>
     		<td>Actuate </td>
     		<td>BIRT PMC Representative</td>
@@ -399,12 +404,7 @@
   			<td><i>TBD</i></td>
   			<td>IONA</td>
    			<td>Strategic Developer</td>
-		</tr>
-		<tr>
-  			<td><i>TBD</i></td>
-   			<td>Zend</td>
-   			<td>Strategic Developer</td>
-		</tr>
+		</tr>	
   		<tr>
   			<td><i>TBD</i></td>
    			<td></td>
