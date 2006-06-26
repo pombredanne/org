@@ -74,7 +74,12 @@
 		<h3><a name="requirements"></a>Requirements council</h3>
 		<br/>
 			<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
-  				<tr> 
+  			<tr> 
+    			<td>Brian Carroll</td>
+    			<td>Serena Software, Inc.</td>
+    			<td>Strategic Developer</td>
+  			</tr>	
+  			<tr> 
     			<td>Paul Clenahan</td>
     			<td>Actuate</td>
     			<td>Strategic Developer</td>
@@ -87,11 +92,6 @@
   			<tr>
     			<td>Anurag Gupta </td>
     			<td>Intel</td>
-    			<td>Strategic Developer</td>
-  			</tr>
-  			<tr> 
-    			<td>Brian Carroll</td>
-    			<td>Serena Software, Inc.</td>
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
@@ -301,6 +301,11 @@
 	<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
   		<tr>
+    		<td>Brian Carroll</td>
+    		<td>Serena Software, Inc</td>
+    		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
 		<td>Stefan Daume</td>
     		<td>Scapa Technology</td>
     		<td>Strategic Developer</td>
@@ -339,11 +344,6 @@
     		<td>Kevin Haaland</td>
     		<td>IBM Corporation</td>
 		    <td>Platform PMC Representative</td>
-  		</tr>
-  		<tr>
-    		<td>Brian Carroll</td>
-    		<td>Serena Software, Inc</td>
-    		<td>Strategic Developer</td>
   		</tr>
   		<tr>
   		<td>Yossi Leon</td>
