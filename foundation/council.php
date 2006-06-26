@@ -346,7 +346,7 @@
     		<td>Strategic Developer</td>
   		</tr>
   		<tr>
-  		<td><i>Yossi Leon</i></td>
+  		<td>Yossi Leon</td>
    		<td>Zend</td>
    		<td>Strategic Developer</td>
 		</tr>
