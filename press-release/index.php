@@ -36,6 +36,8 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20060626callisto.php">Eclipse Community Delivers on Schedule with the Release of 
+Ten Open Source Projects</a> - June 26th, 2006</li>
 		<li><a href="20060515modeling.php">New Top-Level Eclipse Project Encourages Adoption of Open Standards for Model-Based Development</a> - May 15th, 2006</li>
 		<li><a href="20060515epic.php">Eclipse Foundation Launches Community Portal to Promote the Eclipse Ecosystem</a> - May 15th, 2006</li>
 		<li><a href="20060508cb_thirstybear.php">Eclipse Party at JavaOne</a> - May 8th, 2006</li>
