@@ -224,6 +224,11 @@
     		<td>Strategic Consumer</td>
   		</tr>
   		<tr>
+    		<td>Yossi Leon</td>
+    		<td>Zend</td>
+    		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
   		<td>Ed Merks</td>
   		<td>IBM Corporation</td>
   		<td>Modeling PMC Representative</td>
