@@ -184,6 +184,11 @@
 		<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
   		<tr> 
+    		<td>Sri Doddapaneni</td>
+    		<td>Intel</td>
+    		<td>Test and Performance PMC Representative</td>
+  		</tr>
+  		<tr> 
     		<td>John Duimovich</td>
     		<td>IBM Corporation</td>
     		<td>Tools PMC Representative</td>
@@ -249,15 +254,10 @@
     		<td>Strategic Developer</td>
   		</tr>
 		<tr>
-  			<td>Paul Styles</td>
-   			<td>Compuware</td>
-   			<td>Strategic Developer</td>
+  		<td>Paul Styles</td>
+   		<td>Compuware</td>
+   		<td>Strategic Developer</td>
 		</tr>
-  		<tr> 
-    		<td>Tyler Thessin</td>
-    		<td>Intel</td>
-    		<td>Test and Performance PMC Representative</td>
-  		</tr>
   		<tr> 
     		<td>Tim Wagner</td>
     		<td>BEA</td>
@@ -277,12 +277,7 @@
   			<td><i>TBD</i></td>
    			<td>IONA</td>
    			<td>Strategic Developer</td>
-		</tr>
-		<tr>
-  			<td><i>TBD</i></td>
-   			<td>Zend</td>
-   			<td>Strategic Developer</td>
-		</tr>  		
+		</tr>	
 		<tr> 
     		<td><i>TBD</i></td>
     		<td></td>
