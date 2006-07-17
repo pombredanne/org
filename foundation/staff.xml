@@ -120,8 +120,14 @@
 	<staffmember id="ralph">
 		<name>Ralph Mueller</name>
 		<title>Director, Ecosystem - Europe</title>
-		<image />
-		<description />
+		<image>../../images/ralph.jpg </image>
+		<description> <![CDATA[<p>
+			Ralph's role at the Eclipse Foundation is focused on growing the Eclipse Ecosystem
+			across Europe. </p>
+			<p>Ralph's passion outside of work is golf, both as a player and as a coach for children 
+			just starting the game. He's also helped both Mike and Donald to improve their games.
+			</p>]]>
+		</description>
 	</staffmember>
 
 	<staffmember id="denis">
