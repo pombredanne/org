@@ -174,8 +174,10 @@
 	<staffmember id="matt">
 		<name>Matt Ward</name>
 		<title>Systems Administrator</title>
-		<image> ../../images/matt.jpg </image>
-		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> &nbsp; <br/> ]]> </description>
+		<image> ../../images/mattfire.jpg </image>
+		<description> <![CDATA[ Matt spends his days putting out fires, so afterwards he tends to 
+		start them in the kitchen.  And as a change of pace from rebuilding data, there's always 
+		rebuilding old cars. &nbsp; <br/> ]]> </description>
 	</staffmember>
 
 	<staffmember id="sharon">
