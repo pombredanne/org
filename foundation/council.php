@@ -169,8 +169,12 @@
 		</table>
 		<br/>        	
 	<ul>
+
+		<li><a href="../councils/20060628RCMinutes.pdf">Requirements Council Meeting, 
+          			June 28, 2006 (.pdf)</a><img src="../../images/new.gif" alt="new"></li>
+	
 		 <li><a href="../councils/20060319RCMinutes.pdf">Requirements Council Meeting, 
-          			March 19, 2006 (.pdf)</a><img src="../../images/new.gif" alt="new"></li>
+          			March 19, 2006 (.pdf)</a></li>
 	
 	 	<li><a href="../councils/rcminutes050824.html">Requirements Council Meeting, 
           			August 24, 2005</a></li>
