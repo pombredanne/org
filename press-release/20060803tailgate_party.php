@@ -38,9 +38,9 @@
 		<p>The Eclipse Foundation is pleased to host this informal get together at Eclipse World.   We hope you take 
 		this opportunity to meet some Eclipse project leaders and other Eclipse users attending the conference. </p>
 		   
-		<p>Please join us from Wednesday, September 6 from 8-10pm at the Hyatt Regency Cambridge.   
+		<p>Please join us from Wednesday, September 6, from 8-10pm at the Hyatt Regency Cambridge.   
 		We will have a limited number of Eclipse shirts to give out at the party.   To reserve your t-shirt, 
-		please rsvp to <a href="mailto:tailgate-party@eclipse.org">tailgate-party@eclipse.org</a>   </p>
+		please RSVP to <a href="mailto:tailgate-party@eclipse.org">tailgate-party@eclipse.org</a>   </p>
 	</div>
 </div>
 
