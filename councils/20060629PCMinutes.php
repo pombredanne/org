@@ -19,7 +19,7 @@ ob_start();
   <tr>
     <td valign="top" align="center"><i>no data</i></td>
     <td valign="top" align="center"></td>
-    <td valign="top" align="center"><p><i>no data</i></p></td>
+    <td valign="top" align="center"><i>no data</i></td>
   </tr>
 </tbody></table>
 <h2>Minutes / Discussion Items</h2>
