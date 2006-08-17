@@ -74,6 +74,11 @@
 		<h3><a name="requirements"></a>Requirements council</h3>
 		<br/>
 			<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+  			 <tr>
+    			<td>Dino Brusco</td>
+    			<td>Motorola</td>
+    			<td>Strategic Developer</td>
+  			</tr>
   			<tr> 
     			<td>Brian Carroll</td>
     			<td>Serena Software, Inc.</td>
@@ -152,6 +157,11 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
+    			<td>Mark Vandenbrink</td>
+    			<td>Motorola</td>
+    			<td>Strategic Developer</td>
+  			</tr>
+  			<tr>
     			<td>Paul Styles</td>
     			<td>Compuware</td>
     			<td>Strategic Developer</td>
@@ -187,6 +197,11 @@
 		<h3><a name="planning"></a>Planning council</h3>
 		<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+  			 <tr>
+    			<td>Christian Kurzke</td>
+    			<td>Motorola</td>
+    			<td>Strategic Developer</td>
+  			</tr>
   		<tr> 
     		<td>Sri Doddapaneni</td>
     		<td>Intel</td>
@@ -306,6 +321,11 @@
 	<h3><a name="architecture"></a>Architecture council</h3>
 	<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+  		<tr>
+    		<td>Mark Vandenbrink</td>
+    		<td>Motorola</td>
+    		<td>Strategic Developer</td>
+  		</tr>  		
   		<tr>
     		<td>Brian Carroll</td>
     		<td>Serena Software, Inc</td>
