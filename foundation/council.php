@@ -90,13 +90,18 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
-    			<td>Bjorn Freeman-Benson</td>
-    			<td>Eclipse Foundation</td>
-    			<td>appointed by Eclipse Foundation</td>
+    			<td>Bob Fraser</td>
+    			<td>BEA</td>
+    			<td>Strategic Developer</td>
   			</tr>
   			<tr>
     			<td>Anurag Gupta </td>
     			<td>Intel</td>
+    			<td>Strategic Developer</td>
+  			</tr>
+  			<tr>
+    			<td>Stephen Henderson</td>
+    			<td>Borland</td>
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
@@ -110,11 +115,6 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
-    			<td>Stephen Henderson</td>
-    			<td>Borland</td>
-    			<td>Strategic Developer</td>
-  			</tr>
-  			<tr>
     			<td>Georg Lenz</td>
     			<td>SAP AG</td>
     			<td>Strategic Consumer</td>
@@ -124,13 +124,6 @@
     			<td>Hewlett-Packard Company</td>
     			<td>Strategic Consumer</td>
   			</tr>
-			
-  			<tr> 
-    			<td>Donald Smith*</td>
-    			<td>Eclipse Foundation</td>
-    			<td>appointed by Eclipse Foundation (chair)</td>
-  			</tr>
-			
   			<tr> 
     			<td>H&#229;kan Mitts</td>
     			<td>Nokia</td>
@@ -139,11 +132,6 @@
   			<tr> 
     			<td>Mike Norman</td>
     			<td>Scapa Technology</td>
-    			<td>Strategic Developer</td>
-  			</tr>
-  			<tr> 
-    			<td>Bob Fraser</td>
-    			<td>BEA</td>
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
@@ -157,10 +145,11 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
-    			<td>Mark Vandenbrink</td>
-    			<td>Motorola</td>
-    			<td>Strategic Developer</td>
-  			</tr>
+  			<tr> 
+    			<td>Donald Smith*</td>
+    			<td>Eclipse Foundation</td>
+    			<td>appointed by Eclipse Foundation (chair)</td>
+  			</tr>		
   			<tr>
     			<td>Paul Styles</td>
     			<td>Compuware</td>
@@ -197,11 +186,6 @@
 		<h3><a name="planning"></a>Planning council</h3>
 		<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
-  			 <tr>
-    			<td>Christian Kurzke</td>
-    			<td>Motorola</td>
-    			<td>Strategic Developer</td>
-  			</tr>
   		<tr> 
     		<td>Sri Doddapaneni</td>
     		<td>Intel</td>
@@ -243,6 +227,11 @@
     		<td>Strategic Developer</td>
   		</tr>
   		<tr>
+    		<td>Christian Kurzke</td>
+    		<td>Motorola</td>
+    		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
     		<td>Georg Lenz</td>
     		<td>SAP AG</td>
     		<td>Strategic Consumer</td>
@@ -251,6 +240,11 @@
     		<td>Yossi Leon</td>
     		<td>Zend</td>
     		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
+    		<td>Wenfeng Li</td>
+    		<td>Actuate</td>
+    		<td>BIRT PMC Representative</td>
   		</tr>
   		<tr>
   		<td>Ed Merks</td>
@@ -283,11 +277,6 @@
     		<td>WebTools PMC Representative</td>
   		</tr>
   		<tr>
-    		<td>Wenfeng Li</td>
-    		<td>Actuate</td>
-    		<td>BIRT PMC Representative</td>
-  		</tr>
-		<tr>
   			<td><i>TBD</i></td>
    			<td>Serena Software, Inc.</td>
    			<td>Strategic Developer</td>
@@ -321,11 +310,7 @@
 	<h3><a name="architecture"></a>Architecture council</h3>
 	<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
-  		<tr>
-    		<td>Mark Vandenbrink</td>
-    		<td>Motorola</td>
-    		<td>Strategic Developer</td>
-  		</tr>  		
+  			
   		<tr>
     		<td>Brian Carroll</td>
     		<td>Serena Software, Inc</td>
@@ -369,7 +354,7 @@
   		<tr>
     		<td>Kevin Haaland</td>
     		<td>IBM Corporation</td>
-		    <td>Platform PMC Representative</td>
+		<td>Platform PMC Representative</td>
   		</tr>
   		<tr>
   		<td>Yossi Leon</td>
@@ -405,7 +390,12 @@
     		<td>Michael Scharf </td>
     		<td>Wind River</td>
     		<td>Device Software PMC Representative</td>
-  		</tr>	
+  		</tr>
+  		<tr>
+    		<td>Mark Vandenbrink</td>
+    		<td>Motorola</td>
+    		<td>Strategic Developer</td>
+  		</tr>  		
   		<tr>
     		<td>Tim Wagner</td>
     		<td>BEA</td>
