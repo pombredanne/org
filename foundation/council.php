@@ -186,6 +186,11 @@
 		<h3><a name="planning"></a>Planning council</h3>
 		<br/>
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+  		<tr>
+  		<td>Ward Cunningham</td>
+  		<td>Eclipse Foundation</td>
+  		<td>appointed by Eclipse Foundation</td>
+  		</tr>
   		<tr> 
     		<td>Sri Doddapaneni</td>
     		<td>Intel</td>
@@ -315,6 +320,11 @@
     		<td>Brian Carroll</td>
     		<td>Serena Software, Inc</td>
     		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
+  		<td>Ward Cunningham</td>
+  		<td>Eclipse Foundation</td>
+  		<td>appointed by Eclipse Foundation</td>
   		</tr>
   		<tr>
 		<td>Stefan Daume</td>
