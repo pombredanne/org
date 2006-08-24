@@ -185,6 +185,7 @@
 	<div class="homeitem3col">
 		<h3><a name="planning"></a>Planning council</h3>
 		<br/>
+		
 		<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
   		<tr>
   		<td>Ward Cunningham</td>
