@@ -57,21 +57,22 @@
     		<td width="49%">Paul Czarnik</td>
     		<td width="51%">Compuware</td>
  		</tr>
- 		<tr height=17 style='height:12.75pt'>
-    		<td width="49%">Tomas Evensen</td>
-    		<td width="51%">Wind River</td>
+ 		<tr>
+    		<td width="49%">Winston Damarillo</td>
+    		<td width="51%">Simula Labs</td>
  		</tr>
  		<tr>
     		<td width="49%">Sam Greenblatt</td>
     		<td width="51%">Computer Associates</td>
  		</tr>
+ 		 <tr>
+    		<td width="49%">Richard Gronback</td>
+    		<td width="51%">Borland</td>
+ 		</tr>
+ 		
  		<tr>
     		<td width="49%">Andi Gutmans</td>
     		<td width="51%">Zend</td>
- 		</tr>
- 		<tr>
-    		<td width="49%">Boris Kapitanski</td>
-    		<td width="51%">Serena Software</td>
  		</tr>
  		<tr>
     		<td width="49%">Jonathan Khazam</td>
@@ -116,10 +117,15 @@
     		<td width="49%">Michael Norman</td>
     		<td width="51%">Scapa Technologies</td>
  		</tr>
-		<tr>
-    		<td width="49%">Raaj Shinde</td>
-    		<td width="51%">Borland</td>
+ 		<tr>
+    		<td width="49%">Kevin Parker</td>
+    		<td width="51%">Serena</td>
  		</tr>
+ 		<tr>
+    		<td width="49%">Steve Saunders</td>
+    		<td width="51%">Wind River</td>
+ 		</tr>
+
  		<tr>
     		<td width="49%">Mike Taylor</td>
     		<td width="51%">Elected add-in provider representative</td>
