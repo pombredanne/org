@@ -2,8 +2,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "New Top-Level Modeling Project";
-	$pageKeywords	= "Eclipse Foundation, community, rcp, press release, eclipsecon";
+	$pageTitle 		= "Second Annual Eclipse Global Enterprise Survey";
+	$pageKeywords	= "Eclipse Foundation, community, rcp, press release";
 	$pageAuthor		= "Ian Skerrett";
 	
 	# Add page-specific Nav bars here
