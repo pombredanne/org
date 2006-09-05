@@ -21,9 +21,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Press Release</h2>
 		<h2 ALIGN="CENTER"><strong>SECOND ANNUAL ECLIPSE GLOBAL ENTERPRISE SURVEY POINTS TO RAPID ADOPTION OF ECLIPSE RICH CLIENT PLATFORM</strong></h2>
-		<ul>
-		<li>Borland and IBM Team to Drive Industry Support for Eclipse Modeling Project</li>
-		</ul>
+		
 		<p><strong>OTTAWA, CANADA - Sept. 5, 2006 </strong> - Eclipse Foundation today announced a recent Evans Data Survey confirms a significant increase in the adoption of the Eclipse Rich Client Platform (RCP) by Eclipse users. Approximately 22% of the survey respondents indicated they were building rich client applications based on Eclipse RCP; an increase of over 130% based on a previous 2005 study. The survey also indicates strong future growth and interest in Eclipse RCP, with 68% of respondents indicating they will be using it in the next six months.</p>
 		
 		<p>"We have been very impressed with the awareness and growth of Eclipse as a platform for building end user applications," said John Andrews, president of Evans Data. "It is clear that Eclipse RCP is being considered as one of the main platforms for building desktop applications.  Its unique value of providing portability between Windows, Linux and Mac OSX differentiates it from other solutions."</p>
