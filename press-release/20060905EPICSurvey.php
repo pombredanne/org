@@ -24,7 +24,8 @@
 		<table width="100%">
 			<tr>
 				<td width="50%" valign="top">
-     	<p>We would like to get your feedback on Eclipse Plugin Central (EPIC).  
+     	<p>We would like to get your feedback on 
+     	<a href="http://www.eclipseplugincentral.com">Eclipse Plugin Central (EPIC)</a>.  
      	EPIC is a portal for all things in the Eclipse ecosystem and we are 
      	looking to make it better.  Please take the time to comple the online 
      	survey between now and September 20, 2006.   For everyone that completes 
