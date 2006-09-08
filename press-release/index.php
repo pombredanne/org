@@ -36,8 +36,8 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20060905EPICSurvey.php">Help us make EPIC a better place and Win an iPod</a> - Sept 5th, 2006</li>		
-<li><a href="20060905rcp.php">Second Annual Eclipse Global Enterprise Survey Points to Rapid Adoption of Eclipse Rich Client Platform</a> - Sept 5th, 2006</li>		
+		<li><a href="20060908aperi.php">Eclipse Foundation Approves APERI Storage Management Project</a> - Sept 7th, 2006</li>
+		<li><a href="20060905rcp.php">Second Annual Eclipse Global Enterprise Survey Points to Rapid Adoption of Eclipse Rich Client Platform</a> - Sept 5th, 2006</li>		
 		<li><a href="20060803tailgate_party.php">Eclipse Tailgate Party at Eclipse World</a> - Aug 3rd, 2006</li>
 		<li><a href="20060626callisto.php">Eclipse Community Delivers on Schedule with the Release of Ten Open Source Projects</a> - June 26th, 2006</li>
 		<li><a href="20060515modeling.php">New Top-Level Eclipse Project Encourages Adoption of Open Standards for Model-Based Development</a> - May 15th, 2006</li>
