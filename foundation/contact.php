@@ -36,8 +36,8 @@
 		<table width="100%" border="0" cellpadding="5" cellspacing=5>
 		  <tr>
 		    <td width="37%" valign=top>Technical questions</td>
-    		<td width="63%"><a href="http://dev.eclipse.org/newsManager/newsRequestForm.html" target="_top">Register</a> 
-      		and join the <a href="../../newsgroups/" target="_top">Newsgroups</a></td>
+    		<td width="63%"><a href="../../newsgroups/register.php">Register</a> 
+      		and join the <a href="../../newsgroups/">Newsgroups</a></td>
   		</tr>
   		<tr>
     		<td width="37%" valign=top>Legal questions</td>
