@@ -1,4 +1,4 @@
-
+lipse
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include("_projectCommon.php");    # All on the same line to unclutter the user's desktop'
 
 	#
@@ -28,9 +28,9 @@
      	September 20th and 21st in Dallas, Texas.</p>
     
  	    <p>
- 	   Hear and share experiences with industry leaders at The Marketing Symposium on the 
+ 	   Hear and share experiences with industry veterans at the Marketing Symposium on the 
  	   afternoon of September 20th. 
- 	   This is something no one marketing products based in Open Source should miss.  The agenda includes:
+ 	   This is a "can't miss" event for anyone working in Open Source.  The agenda includes:
  	    <ul>
  	      <li> Michael Goulde, Forrester Research, "Perspectives on Open Source Evolution and Adoption" </li>
      <li>  Maher Massi, Genuitech, "Eclipse Market Research and Demographics" </li>
@@ -51,9 +51,9 @@
  	      <li>Mike Milikovich, The Eclipse Foundation, "Executive Director Update"</li>
  	      <li>Steve McClure, IDC, "IDC Eclipse Adoption Study"</li>
  	      <li>John Cunningham, Band XI, "Cyrano - National Guard Application demo using RCP Technology"</li>
- 	      <li>Various - New Member Introductions</li>
- 	      <li>Various - Eclipse Project Updates</li>
- 	      <li>Various - Interactive Panel and discussion on Membership value and projects</li>      	      
+ 	      <li>Various Speakers - New Member Introductions</li>
+ 	      <li>Various Speakers - Eclipse Project Updates</li>
+ 	      <li>Various Speakers - Interactive Panel and discussion on Membership value and projects</li>      	      
  	    </ul>
  	  </p>
  	  
@@ -85,7 +85,7 @@
 			</tr>
 		</table>
       	<p>
-     	<a href="http://www.surveymonkey.com/s.asp?u=938742505376">Click here to take the survey.</a>
+     	<a href="https://www.regonline.com/EventInfo.asp?EventId=103174">Click here to register.</a>
     	
      	  </p>
 		
