@@ -21,7 +21,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Members Bulletin</h2>
 		
-		<p>This is the final opportunity to register for the 
+		<p>Registration will close at 5pm EDT on September 18th for the 
      	<a href="https://www.regonline.com/EventInfo.asp?EventId=103174">
      	Eclipse Membership Meeting and Marketing Seminar</a>, 
      	September 20th and 21st in Dallas, Texas.</p>
@@ -29,7 +29,7 @@
  	    <p>
  	   Hear and share experiences with industry veterans at the Marketing Symposium on the 
  	   afternoon of September 20th. 
- 	   This is a "can't miss" event for anyone working in Open Source.  The agenda includes:
+ 	   This is a valuable event for anyone working in Open Source.  The agenda includes:
  	    <ul>
  	      <li> Michael Goulde, Forrester Research, "Perspectives on Open Source Evolution and Adoption" </li>
      <li>  Maher Massi, Genuitech, "Eclipse Market Research and Demographics" </li>
@@ -56,7 +56,7 @@
  	    </ul>
  	  </p>
  	  
- 	  <p> There will also be a new member introduction on the morning of September 20th.
+ 	  <p> There will also be a "New member jumpstart" meeting on the morning of September 20th.
  	  This jumpstart meeting is designed for both a technical (committers) and 
  	  business (marketing, organization, business development) audience.  Even if you've 
  	  been involved with Eclipse for a while, this session is a great opportunity to learn 
@@ -74,6 +74,7 @@
      	Eclipse Member Organizations
      	</a> and Eclipse committers.
      </p>
+      	<a href="https://www.regonline.com/EventInfo.asp?EventId=103174">Click here to register.</a>
      		
      	
      		</td>
@@ -84,7 +85,6 @@
 			</tr>
 		</table>
       	<p>
-     	<a href="https://www.regonline.com/EventInfo.asp?EventId=103174">Click here to register.</a>
     	
      	  </p>
 		
