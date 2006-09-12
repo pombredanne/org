@@ -21,10 +21,8 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Members Bulletin</h2>
-		<table width="100%">
-			<tr>
-				<td width="50%" valign="top">
-     	<p>This is the final opportunity to register for the 
+		
+		<p>This is the final opportunity to register for the 
      	<a href="https://www.regonline.com/EventInfo.asp?EventId=103174">
      	Eclipse Membership Meeting and Marketing Seminar</a>, 
      	September 20th and 21st in Dallas, Texas.</p>
@@ -66,6 +64,11 @@
  	  about the role of the Eclipse Foundation, key dynamics in the Ecosystem and the 
  	  various roles people play.
  	  </p>
+ 	  
+		<table width="100%">
+			<tr>
+				<td width="50%" valign="top">
+
  	  
      <p> These meetings are exclusively for employees of
      	<a href="http://www.eclipse.org/membership/">
