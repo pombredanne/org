@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20060913cb_ese.php">Eclipse Summit Europe</a> - Sept 13th, 2006</li>
 		<li><a href="20060908aperi.php">Eclipse Foundation Approves APERI Storage Management Project</a> - Sept 7th, 2006</li>
 		<li><a href="20060905rcp.php">Second Annual Eclipse Global Enterprise Survey Points to Rapid Adoption of Eclipse Rich Client Platform</a> - Sept 5th, 2006</li>		
 		<li><a href="20060803tailgate_party.php">Eclipse Tailgate Party at Eclipse World</a> - Aug 3rd, 2006</li>
