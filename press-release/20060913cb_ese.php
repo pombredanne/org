@@ -21,13 +21,14 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
-      	<p>Participate at the Eclipse Summit in Esslingen, October 11-12th, 2006!   The Eclipse Summit 
+      	<p>Participate at the <a href="http://www.eclipsecon.org/summiteurope2006/">Eclipse Summit Europe</a> 
+      	in Esslingen, October 11-12th, 2006!   The Eclipse Summit 
       	Europe, presented by the Eclipse Foundation is a unique event in Central Europe.   
       	In addition to opportunities for networking with other members of the eclipse 
       	community, the program features tracks and events for all parts of the community.</p>
       	<p>
       	<ul>
-      		<li>developers and practitioners can find out the latest in 
+      		<li>Developers and practitioners can find out the latest in 
 			 the Callisto Project Updates and New and Noteworthy track series.</li>   
 			<li>Foundation members and potential members can learn more about the governance model of 
 			the Eclipse Foundation in the Foundation track </li>
