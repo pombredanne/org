@@ -32,7 +32,7 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2>need to contact someone at Eclipse.org?</h2>
+		<h2>Need to contact someone at Eclipse.org?</h2>
 		<table width="100%" border="0" cellpadding="5" cellspacing=5>
 		  <tr>
 		    <td width="37%" valign=top>Technical questions</td>
@@ -66,7 +66,7 @@
       			102 Centrepointe Drive<br/>
       			Ottawa, Ontario,<br/>
         		Canada, K2G 6B1 <br/><br/>
-        		<a href="directions.php">directions</a></p>
+        		<a href="directions.php">Directions</a></p>
       		</td>
   		</tr>
   		<tr>
