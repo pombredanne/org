@@ -39,9 +39,9 @@ Bobby's presentation can be
 <a href="ARM.pdf">found here</a>.</p>
 
 <p>
-Because of some technical difficulties with his flights, Ashvin Radiya from Avant Soft 
-missed out on providing us a demo at the Members Reception.  Therefore, Ashvin provided 
-us with an update on AvantSoft which can be 
+Because of some technical difficulties with his flights, Ashvin Radiya from AvantSoft 
+missed out on providing us a presentation at the Members Reception.  Therefore, Ashvin provided
+the update at the members meeting which can be 
 <a href="AvantSoft.pdf">found here</a>.</p>
 
 <p>
@@ -64,7 +64,11 @@ Christian Kurzke provided a new member introduction for the new Strategic Member
 
 <p>
 Winston Damorillo provided a new member introduction for the new Strategic Member  
-<a href="SimulaLabs.pdf">Motorla</a>.</p>
+<a href="SimulaLabs.pdf">Simula Labs</a>.</p>
+
+<p>
+Alan Zeichick from BZMedia provided us results from an Eclipse Review survey.  The results can be  
+<a href="BZMedia.pdf">found here</a>.</p>
 
 <p>
 Jochen Krause from Innoopract provided a demo of the RAP project.  This demo was live and not captured for
