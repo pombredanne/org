@@ -85,6 +85,14 @@ Steve McClure from IDC revealed statistics from a recent IDC developer survey.  
 was subject to copyright and not part of the minutes.
 </p>
 
+<h3>New Member Jumpstart</h3>
+
+<p>
+Donald Smith presented an interactive Eclipse  
+<a href="20060920EclipseJumpstart.pdf">New Member Jumpstart</a>
+to about twenty five attendees.
+</p>
+
 
       </div>
   </div>
