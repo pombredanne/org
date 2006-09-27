@@ -35,6 +35,7 @@
 		<div class="homeitem3col">
 			<h3>Members Meetings</h3>
 			<ul>
+ 	      		<li><a href="membersminutes/20060320MembersMeeting/MeetingMinutesSep21.php">Eclipse Members Meeting, September 21, 2006 Dallas, Texas </a> </li>  			
         		<li><a href="membersminutes/Eclipse%20June%202006%20Members%20Teleconference.pdf">Eclipse Members Meeting, June 20, 2006 Teleconference Presentation Material (pdf) </a> </li>  
         		<li><a href="membersminutes/20060320MembersMeeting/MeetingMinutesMar20.php">Eclipse Members Meeting, March 20, 2006, Santa Clara, CA </a></li>  
        			<li><a href="membersminutes/20050922MembersMeeting/MeetingMinutesSept22.html">Eclipse Members Meeting, September 22, 2005, Chicago, IL </a></li>  
