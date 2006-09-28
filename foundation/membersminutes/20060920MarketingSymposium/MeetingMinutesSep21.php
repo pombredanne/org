@@ -23,7 +23,7 @@ ob_start();
 
 <p>
 Michale Goulde from Forrester Research, "Perspectives on Open Source Evolution and Adoption"
-Presentation available upon request</p>
+Presentation available upon request.</p>
 
 <p>Maher Masri, Genuitec, "Eclipse Market Research and Demographics".
 Maher's presentation can be
@@ -32,7 +32,7 @@ Maher's presentation can be
 
 <p>
 Panel Discussion: "Competing with Open Source Solutions".  Panelist: Robert Day, Lynxworks; Sean Johnson, Business Objects;
-Maher Massri, Genuitec 
+Maher Massri, Genuitec.  Minutes of the panel discussion can be <a href="panel 1 minutes.pdf">found here</a>.
 </p>
 
 <p>
