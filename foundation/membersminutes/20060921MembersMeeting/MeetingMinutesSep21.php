@@ -60,7 +60,7 @@ Ian Skerrett provided a
 
 <p>
 Christian Kurzke provided a new member introduction for the new Strategic Member  
-<a href="Motorola.pdf">Motorla</a>.</p>
+<a href="Motorola.pdf">Motorola</a>.</p>
 
 <p>
 Winston Damorillo provided a new member introduction for the new Strategic Member  
@@ -76,7 +76,7 @@ replay.
 </p>
 
 <p>
-Kevin Sawicki from IBM provided a demo of the RAP project.  This demo was live and not captured for
+Kevin Sawicki from IBM provided a demo of the ATF project.  This demo was live and not captured for
 replay. 
 </p>
  
