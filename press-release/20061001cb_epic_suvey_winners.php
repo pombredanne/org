@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
       	<p>The Eclipse Foundation is pleased to announce the winners drawn from those who
-      	completed a feedback survey for <a href="http://eclipseplugincentral.om">
+      	completed a feedback survey for <a href="http://eclipseplugincentral.com">
       	Eclipse Plugin Central.</a>
       	</p>
       	<p>
