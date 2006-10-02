@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
       	<p>The Eclipse Foundation is pleased to announce the winners drawn from those who
-      	completed a feedback Survey for <a href="http://eclipseplugincentralc.om">
+      	completed a feedback survey for <a href="http://eclipseplugincentral.om">
       	Eclipse Plugin Central.</a>
       	</p>
       	<p>
@@ -42,7 +42,7 @@
 			<li>Jonathan Moore is based in the UK and works for a mid sized software company focusing 
 			on local government applications.</li>
 			<li>Jaroslav Muller works for Eclipse member 
-			<a href="http://www.tietoenator.com/" TietoEnator as a J2EE Developer.  He says his
+			<a href="http://www.tietoenator.com/"> TietoEnator</a> as a J2EE Developer.  He says his
 			favorite plugins are SpringIDE, Subclipse and MyEclipse.
 			</li>
 		</ul>
