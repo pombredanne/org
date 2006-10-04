@@ -368,7 +368,7 @@
 		<td>Platform PMC Representative</td>
   		</tr>
   		<tr>
-  		<td><i>Oisin Hurley</i></td>
+  		<td>Oisin Hurley</td>
   		<td>IONA</td>
    		<td>Strategic Developer</td>
 		</tr>	
