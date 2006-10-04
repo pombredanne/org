@@ -368,6 +368,11 @@
 		<td>Platform PMC Representative</td>
   		</tr>
   		<tr>
+  		<td><i>Oisin Hurley</i></td>
+  		<td>IONA</td>
+   		<td>Strategic Developer</td>
+		</tr>	
+  		<tr>
   		<td>Yossi Leon</td>
    		<td>Zend</td>
    		<td>Strategic Developer</td>
@@ -428,11 +433,6 @@
     		<td>Strategic Developer</td>
   		</tr>
 		<tr>
-  			<td><i>TBD</i></td>
-  			<td>IONA</td>
-   			<td>Strategic Developer</td>
-		</tr>	
-  		<tr>
   			<td><i>TBD</i></td>
    			<td></td>
    			<td>Strategic Consumers</td>
