@@ -300,7 +300,9 @@
 		</table>
       	<ul>
         	<li><a href="../councils/20060629PCMinutes.php">Planning
-          		Council Meeting, June 29, 2006</a><img src="../../images/new.gif" alt="new"></li>
+          		Council Meeting, October 11, 2006</a><img src="../../images/new.gif" alt="new"></li>
+        	<li><a href="../councils/20060629PCMinutes.php">Planning
+          		Council Meeting, June 29, 2006</a></li>
         	<li><a href="../councils/20051215PCMinutes.php">Planning
           		Council Meeting, December 15, 2005</a></li>
         	<li><a href="../councils/20050823PCMinutes.html">Planning
