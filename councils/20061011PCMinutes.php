@@ -27,6 +27,11 @@ ob_start();
     <td valign="top" align="center"></td>
   </tr>
   <tr>
+    <td valign="top" align="left">Stefan Daume, Scapa</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="center"></td>
+  </tr>
+  <tr>
     <td valign="top" align="left">Bjorn Freeman-Benson, Eclipse</td>
     <td valign="top" align="center"></td>
     <td valign="top" align="center"></td>
