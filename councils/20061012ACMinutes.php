@@ -17,89 +17,84 @@ ob_start();
     <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
-    <td valign="top" align="center"><i>no data</i></td>
+    <td valign="top" align="left">Doug Schaefer, QNX, Tools PMC</td>
     <td valign="top" align="center"></td>
     <td valign="top" align="center"><i>no data</i></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Doug Schaefer, QNX, Tools PMC</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Don Ebright, Compuware</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Don Ebright, Compuware</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Bjorn Freeman-Benson, Eclipse</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Bjorn Freeman-Benson, Eclipse</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">John Graham, Sybase, DTP</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">John Graham, Sybase, DTP</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Richard Gronback, Borland</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Richard Gronback, Borland</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Sri Doddapaneni, Intel</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Sri Doddapaneni, Intel</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Oisin Hurley, IONA</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Oisin Hurley, IONA</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Yossi Leon, Zend</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Yossi Leon, Zend</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Wenfeng Li, Actuate, BIRT</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Wenfeng Li, Actuate, BIRT</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Ed Merks, IBM, Modeling</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Ed Merks, IBM, Modeling</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Kai Nyman, Nokia</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Kai Nyman, Nokia</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Valentina Popescu, IBM, TPTP</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Valentina Popescu, IBM, TPTP</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Michael Scharf, WindRiver, DSDP</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Michael Scharf, WindRiver, DSDP</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Mark Weitzel, IBM</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Mark Weitzel, IBM</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Tim Wagner, BEA</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="center">Tim Wagner, BEA</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
-  </tr>
-  <tr>
-    <td valign="top" align="center">David Williams, IBM, WTP</td>
-    <td valign="top" align="center"></td>
-    <td valign="top" align="center"></td>
+    <td valign="top" align="left">David Williams, IBM, WTP</td>
+    <td valign="top" align="left"></td>
+    <td valign="top" align="left"></td>
   </tr>
 </tbody></table>
 <h2>Minutes / Discussion Items</h2>
