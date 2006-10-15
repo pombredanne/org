@@ -299,7 +299,7 @@
   		</tr>
 		</table>
       	<ul>
-        	<li><a href="../councils/20060629PCMinutes.php">Planning
+        	<li><a href="../councils/20061011PCMinutes.php">Planning
           		Council Meeting, October 11, 2006</a><img src="../../images/new.gif" alt="new"></li>
         	<li><a href="../councils/20060629PCMinutes.php">Planning
           		Council Meeting, June 29, 2006</a></li>
