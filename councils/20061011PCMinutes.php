@@ -112,6 +112,10 @@ Build Workshop</a>. It was suggested that we might want to hold more of this
 kind of workshop in the future. Bjorn pointed to the CPAN community testing
 infrastructure as possible next workshop; others likened it to SETI@HOME for
 Eclipse testing.</p>
+<p>The Planning Council would also be pleased to see an Eclipse project to
+provide a formal home for some of these build tools as long as that project is
+not &quot;the Platform releng team supporting everyone else&quot;. A project for
+cross-project build (and other) infrastructure would be useful.</p>
 <p><u><b><font color="#800080">ACTION</font></b></u>: [Bjorn FB] Suggest a next
 workshop to the Council.</p>
 <h3>Next Simultaneous Release Name</h3>
