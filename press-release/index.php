@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20061017cb_eclispecon2007.php">EclipseCon 2007 Call for Participation Now Open</a> - October 17th, 2006</li>		
 		<li><a href="20061003cb_betahomepage.php">New Re-design of Eclipse.org Home Page</a> - October 3rd, 2006</li>
 		<li><a href="20060913cb_ese.php">Participate at the Eclipse Summit in Esslingen, October 11-12th, 2006!</a> - Sept 13th, 2006</li>
 		<li><a href="20060908aperi.php">Eclipse Foundation Approves APERI Storage Management Project</a> - Sept 7th, 2006</li>
