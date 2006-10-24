@@ -53,7 +53,8 @@ class CandidateFileHandler extends XmlFileHandler {
 	 * in the root of the XML file.
 	 */
 	function get_root_element_handler() {
-		return new CandidateRootHandler();
+		$retVal = new CandidateRootHandler();
+		return $retVal;
 	}	
 	
 	function end_root_element_handler(& $handler) {
@@ -75,7 +76,8 @@ class CandidateRootHandler extends XmlElementHandler {
 	 * This method handles the <boardmember>...</boardmember> element.
 	 */
 	function & get_boardmember_handler($attributes) {
-		return new CandidateHandler($attributes);
+		$retVal = new CandidateHandler($attributes);
+		return $retVal;
 	}
 	
 	function end_boardmember_handler(& $handler) {
@@ -113,70 +115,81 @@ class CandidateHandler extends XmlElementHandler {
 	 * This method handles the <name>...</name> element.
 	 */
 	function & get_name_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "name");
+		$retVal = new SimplePropertyHandler($this->candidate, "name");
+		return $retVal;
 	}
 	
 	/*
 	 * This method handles the <title>...</title> element.
 	 */
 	function & get_title_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "title");
+		$retVal = new SimplePropertyHandler($this->candidate, "title");
+		return $retVal;
 	}
 	
 	/*
 	 * This method handles the <email>...</email> element.
 	 */
 	function & get_email_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "email");
+		$retVal = new SimplePropertyHandler($this->candidate, "email");
+		return $retVal;
 	}
 		
 	/*
 	 * This method handles the <phone>...</phone> element.
 	 */
 	function & get_phone_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "phone");
+		$retVal = new SimplePropertyHandler($this->candidate, "phone");
+		return $retVal;
+		
 	}
 	
 	/*
 	 * This method handles the <contact>...</contact> element.
 	 */
 	function & get_contact_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "contact");
+		$retVal = new SimplePropertyHandler($this->candidate, "contact");
+		return $retVal; 
 	}
 	
 	/*
 	 * This method handles the <image>...</image> element.
 	 */
 	function & get_image_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "image");
+		$retVal = new SimplePropertyHandler($this->candidate, "image");
+		return $retVal;
 	}
 	
 	/*
 	 * This method handles the <vision>...</vision> element.
 	 */
 	function & get_vision_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "vision");
+		$retVal = new SimplePropertyHandler($this->candidate, "vision");
+		return $retVal;
 	}
 	
 	/*
 	 * This method handles the <bio>...</bio> element.
 	 */
 	function & get_bio_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "bio");
+		$retVal = new SimplePropertyHandler($this->candidate, "bio");
+		return $retVal;
 	}
 	
 	/*
 	 * This method handles the <affiliation>...</affiliation> element.
 	 */
 	function & get_affiliation_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "affiliation");
+		$retVal = new SimplePropertyHandler($this->candidate, "affiliation");
+		return $retVal;
 	}
 	
 	/*
 	 * This method handles the <affiliation>...</affiliation> element.
 	 */
 	function & get_eclipse_affiliation_handler(& $attributes) {
-		return new SimplePropertyHandler($this->candidate, "eclipse_affiliation");
+		$retVal = new SimplePropertyHandler($this->candidate, "eclipse_affiliation");
+		return $retVal;
 	}
 }
 
