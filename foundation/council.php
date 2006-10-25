@@ -233,6 +233,11 @@
     		<td>Strategic Developer</td>
   		</tr>
   		<tr>
+  		<td>Oisin Hurley</td>
+  		<td>IONA</td>
+  		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
     		<td>Christian Kurzke</td>
     		<td>Motorola</td>
     		<td>Strategic Developer</td>
@@ -287,11 +292,6 @@
    			<td>Serena Software, Inc.</td>
    			<td>Strategic Developer</td>
 		</tr>
-		<tr>
-  			<td><i>TBD</i></td>
-   			<td>IONA</td>
-   			<td>Strategic Developer</td>
-		</tr>	
 		<tr> 
     		<td><i>TBD</i></td>
     		<td></td>
