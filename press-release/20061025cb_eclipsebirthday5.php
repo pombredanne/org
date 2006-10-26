@@ -28,7 +28,7 @@
 		<p>An electronic <a href="http://birthday.eclipse.org/images/map.php?individual">birthday card</a> has been setup to allow individuals in the the Eclipse community to show 
 		their support for Eclipse.  Everyone in the Eclipse community is encouraged to <a href="http://birthday.eclipse.org/info.php?individual">sign the Eclipse birthday card</a>.  
 		Individuals signing the card will qualify for a random draw to win an Eclipse sweater.
-		</p>
+		</p> 
 		<p><strong>Product Hall of Fame</strong></p>		
 		<p>
 		Over the last five years, the Eclipse community has built hundreds, if not thousands, of Eclipse based products. 
