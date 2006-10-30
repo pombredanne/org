@@ -27,12 +27,14 @@
 		<p><strong>Birthday Card</strong></p>
 		<p>An electronic <a href="http://birthday.eclipse.org/images/map.php?individual">birthday card</a> has been setup to allow individuals in the the Eclipse community to show 
 		their support for Eclipse.  Everyone in the Eclipse community is encouraged to <a href="http://birthday.eclipse.org/info.php?individual">sign the Eclipse birthday card</a>.  
-		Individuals signing the card will qualify for a random draw to win an Eclipse sweater.
-		</p> 
+		</p>
+		<p>Individuals signing the card before December 1, 2006 will qualify for a random draw to win one of 20 Eclipse sweaters.
+
 		<p><strong>Product Hall of Fame</strong></p>		
+
 		<p>
 		Over the last five years, the Eclipse community has built hundreds, if not thousands, of Eclipse based products. 
-		Therefore, an <a href="http://birthday.eclipse.org/images/map.php?builder">Eclipse Product Wall of Fame</a> has been setup to showcase these Eclipse based products.  Organizations and individuals 
+		Therefore, an <a href="http://birthday.eclipse.org/images/map.php?builder">Eclipse Product Wall of Fame</a> has been setup to showcase these products.  Organizations and individuals 
 		that have created Eclipse based products and plug-ins are invited to <a href="http://birthday.eclipse.org/info.php?builder">add their solution to the Product Wall of Fame</a>.
 		</p>
 		<p><strong>Eclipse Birthday Parties</strong></p>
