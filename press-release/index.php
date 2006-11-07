@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20061107eclipsebirthday5.php">Eclipse Celebrates Five Years as an Open Source Community and Ecosystem</a> - November 7th, 2006</li>
 		<li><a href="20061025cb_eclipsebirthday5.php">Celebrate Eclipse's 5th Birthday</a> - October 30th, 2006</li>
 		<li><a href="20061017cb_eclispecon2007.php">EclipseCon 2007 Call for Participation Now Open</a> - October 17th, 2006</li>		
 		<li><a href="20061003cb_betahomepage.php">New Re-design of Eclipse.org Home Page</a> - October 3rd, 2006</li>
