@@ -104,6 +104,11 @@
     			<td>Borland</td>
     			<td>Strategic Developer</td>
   			</tr>
+  			<tr>
+  			<td>Oisin Hurley</td>
+  			<td>IONA</td>
+  			<td>Strategic Developer</td>
+  			</tr>
   			<tr> 
     			<td>John Kellerman</td>
     			<td>IBM Corporation</td>
@@ -235,7 +240,7 @@
   		<tr>
   		<td>Oisin Hurley</td>
   		<td>IONA</td>
-  		<td>Strategic Developer</td>
+  		<td>SOA Tools Platform PMC Representative</td>
   		</tr>
   		<tr>
     		<td>Christian Kurzke</td>
@@ -372,7 +377,7 @@
   		<tr>
   		<td>Oisin Hurley</td>
   		<td>IONA</td>
-   		<td>Strategic Developer</td>
+   		<td>SOA Tools Platform PMC Representative</td>
 		</tr>	
   		<tr>
   		<td>Yossi Leon</td>
