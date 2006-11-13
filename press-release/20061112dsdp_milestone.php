@@ -28,19 +28,19 @@ Beyond highlighting momentum within DSDP, these milestone releases demonstrate a
 		<p><strong>DSDP Milestone Releases</strong></p>
 		<p>The three DSDP projects achieving milestone releases include:
 		<ol>
-			<li><a href="http://www.eclipse.org/dsdp/tm/">Target Management</a> (TM), release version 1.0<br/>
+			<li><b><a href="http://www.eclipse.org/dsdp/tm/">Target Management</a> (TM), release version 1.0<br/></b>
 				<i>Mission</i>: The goal of Target Management is to create data models and frameworks to configure and manage embedded systems, their connections and services. Since there are many different vendors and solutions in the device software space, the main charter of target management is to provide data models and frameworks that are flexible and open enough for vendor-specific extensions. For the 1.0 release, sample implementations will be provided for TCP/IP connections, FTP data transfer and GDB remote launching in the CDT environment. The base technology for the TM project is an open-source version of the <a href="http://www-304.ibm.com/jct09002c/isv/rational/remote_system_explorer.html">IBM Remote System Explorer</a>.<br/><br/>
 				<i>1.0 Features</i>: Remote System Explorer framework, CDT remote launch capabilities and integrated Jakarta Commons Net library for FTP access.<br/><br/>
 				<i>Contributors</i>: Wind River (project lead), IBM, MontaVista, PalmSource, Symbian and Tradescape.<br/><br/>
 				<i>Supports</i>	: Windows, Solaris, Linux and Mac.<br/><br/></li>
 
-			<li><a href="http://www.eclipse.org/ercp/">Embedded Rich Client Platform (eRCP)</a>, release version 1.0<br/>
+			<li><b><a href="http://www.eclipse.org/ercp/">Embedded Rich Client Platform (eRCP)</a>, release version 1.0<br/></b>
 				<i>Mission</i>: The goal of this project is to extend the Eclipse Rich Client Platform (RCP) to embedded devices. eRCP enables the same Eclipse development model used to create applications on desktop machines to also be used on devices.  The project includes a subset of <a href="http://wiki.eclipse.org/index.php/Rich_Client_Platform">RCP</a> components tailored to mobile devices.<br/><br/>
 				<i>1.0 Features</i>: Utilizes the familiar Eclipse programming model of applications providing Views to a workbench, reduces RCP footprint to fit on constrained devices, provides patches to core components to enable running those components on JME <a href="http://jcp.org/en/jsr/detail?id=218">CDC</a>/Foundation Profile mobile devices, and enables application binary compatibility across a range of devices with different input mechanisms and screen types/sizes.<br/><br/>
 				<i>Contributors</i>: IBM (project lead), Nokia and Motorola.<br/><br/>
 				<i>Supports</i>: Windows Mobile 2003/2005, Nokia Series 80 and S60.<br/><br/></li>
 
-			<li><a href="http://www.eclipse.org/dsdp/mtj/">Mobile Tools for the Java Platform (MTJ)</a>, release version 0.7<br/>
+			<li><b><a href="http://www.eclipse.org/dsdp/mtj/">Mobile Tools for the Java Platform (MTJ)</a>, release version 0.7<br/></b>
 				<i>Mission</i>: The goal of MTJ is to extend the Eclipse platform to support mobile device Java application development. The purpose is to develop both frameworks that can be extended by tool vendors and tools that can be used by third party mobile java application developers. Mobile Java domain contains several combinations for configuration (<a href="http://jcp.org/en/jsr/detail?id=139">CLDC</a> and CDC) and profile (<a href="http://jcp.org/en/jsr/detail?id=118">MIDP</a>, <a href="http://jcp.org/en/jsr/detail?id=219">Foundation Profile</a> and <a href="http://jcp.org/en/jsr/detail?id=216">Personal Profile</a>). Currently the most common combination is CLDC+MIDP.<br/><br/> 
 				<i>0.7 Features</i>: A device and emulator framework, a deployment framework, generic build processes for mobile application development, mobile device debugging, application creation wizards, UI design tools, localization, optimization and security.</i>
 				<i>Contributors</i>: Nokia (project lead), IBM and SonyEricsson.
