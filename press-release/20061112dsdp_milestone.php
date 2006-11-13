@@ -23,7 +23,8 @@
 		<h2>Press Release</h2>
 		<strong>Series of DSDP Releases Demonstrate the Growing Significance of Eclipse for Device Software Developers</strong><br/>
 		<p><strong>OTTAWA, Canada – November 13, 2006— </strong>The Eclipse Foundation, an open source community committed to the implementation of a universal software development platform, today announced three milestone releases within the Eclipse Device Software Development Platform (DSDP). Founded in 2005 as a top-level Eclipse project, the mission of DSDP is to create an open, extensible, scalable and standards-based development platform to address the needs of the device software market. This series of releases demonstrates the growing momentum and diversity of projects in DSDP.  Created by Wind River, the DSDP project now has over forty committers from ten companies and contains more than 550,000 lines of code.
-Beyond highlighting momentum within DSDP, these milestone releases demonstrate an increasing significance of Eclipse to the device software market overall. As they move forward, the DSDP projects are aiming to help developers and vendors create specialized, interoperable solutions so that customers and users of Eclipse-based products can develop device software faster, better and at lower cost.
+		</p>
+		<p>Beyond highlighting momentum within DSDP, these milestone releases demonstrate an increasing significance of Eclipse to the device software market overall. As they move forward, the DSDP projects are aiming to help developers and vendors create specialized, interoperable solutions so that customers and users of Eclipse-based products can develop device software faster, better and at lower cost.
 		</p>
 		<p><strong>DSDP Milestone Releases</strong></p>
 		<p>The three DSDP projects achieving milestone releases include:
