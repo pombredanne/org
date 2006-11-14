@@ -161,7 +161,7 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
-    			<td><i>TBD</i></td>
+    			<td><i>Oisin Hurley</i></td>
     			<td>IONA</td>
     			<td>Strategic Developer</td>
   			</tr>
