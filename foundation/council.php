@@ -124,6 +124,11 @@
     			<td>SAP AG</td>
     			<td>Strategic Consumer</td>
   			</tr>
+  			<tr>
+    			<td>Yossi Leon</td>
+    			<td>Zend</td>
+    			<td>Strategic Developer</td>
+  			</tr>
   			<tr> 
     			<td>Philip Ma</td>
     			<td>Hewlett-Packard Company</td>
@@ -160,17 +165,7 @@
     			<td>Compuware</td>
     			<td>Strategic Developer</td>
   			</tr>
-  			<tr>
-    			<td><i>Oisin Hurley</i></td>
-    			<td>IONA</td>
-    			<td>Strategic Developer</td>
-  			</tr>
-  			<tr>
-    			<td><i>TBD</i></td>
-    			<td>Zend</td>
-    			<td>Strategic Developer</td>
-  			</tr>
-		</table>
+  	</table>
 		<br/>        	
 	<ul>
 
