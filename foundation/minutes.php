@@ -35,7 +35,8 @@
 		<div class="homeitem3col">
 			<h3>Members Meetings</h3>
 			<ul>
- 	      		<li><a href="membersminutes/20060921MembersMeeting/MeetingMinutesSep21.php">Eclipse Members Meeting, September 21, 2006 Dallas, Texas </a> </li>  			
+				<li><a href="membersminutes/Eclipse%20December%202006%20Members%20Teleconference.pdf">Eclipse Members Meeting, December 5th, 2006 Teleconference Presentation Material (pdf) </a> <img src="../../images/new.gif" alt="new"></li>  			
+				<li><a href="membersminutes/20060921MembersMeeting/MeetingMinutesSep21.php">Eclipse Members Meeting, September 21, 2006 Dallas, Texas </a> </li>  			
 	      		<li><a href="membersminutes/20060920MarketingSymposium/MeetingMinutesSep21.php">Eclipse Marketing Symposium, September 20, 2006 Dallas, Texas </a> </li>  			
         		<li><a href="membersminutes/Eclipse%20June%202006%20Members%20Teleconference.pdf">Eclipse Members Meeting, June 20, 2006 Teleconference Presentation Material (pdf) </a> </li>  
         		<li><a href="membersminutes/20060320MembersMeeting/MeetingMinutesMar20.php">Eclipse Members Meeting, March 20, 2006, Santa Clara, CA </a></li>  
@@ -53,10 +54,10 @@
 			<ul>
         		<li>Abridged Minutes 
           			- <a href="../board/minutes/2005_12_13-14_Abridged_Minutes.pdf">December 13-14, 
-          			2005 (pdf)</a><img src="../../images/new.gif" alt="new"></li>
+          			2005 (pdf)</a></li>
         		<li>Abridged Minutes 
           			- <a href="../board/minutes/2005_09_21_Abridged_Minutes.pdf">September 21, 
-          			2005 (pdf)</a><img src="../../images/new.gif" alt="new"></li>
+          			2005 (pdf)</a></li>
         		<li>Abridged Minutes 
           			- <a href="../board/minutes/2005_06_07_Abridged_Minutes.pdf">June 7-8, 
           			2005 (pdf)</a></li>
