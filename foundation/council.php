@@ -134,6 +134,11 @@
     			<td>Hewlett-Packard Company</td>
     			<td>Strategic Consumer</td>
   			</tr>
+  			 		<tr> 
+    		<td>Mike Milinkovich</td>
+    		<td>Eclipse Foundation</td>
+    		<td>appointed by Eclipse Foundation</td>
+  		</tr>
   			<tr> 
     			<td>H&#229;kan Mitts</td>
     			<td>Nokia</td>
@@ -160,6 +165,7 @@
     			<td>Eclipse Foundation</td>
     			<td>appointed by Eclipse Foundation (chair)</td>
   			</tr>		
+  			 
   			<tr>
     			<td>Paul Styles</td>
     			<td>Compuware</td>
