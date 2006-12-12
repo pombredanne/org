@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20061212_mylar.php">Eclipse Mylar Introduces Major New Innovation for Developer Productivity</a> - December 12th, 2006</li>
 		<li><a href="20061127cb_ibmtranslations.php">IBM Donates Translations for Eclipse 3.2.1</a> - November 27th, 2006</li>
 		<li><a href="20061112dsdp_milestone.php">Series of DSDP Releases Demonstrate the Growing Significance of Eclipse for Device Software Developers</a> - November 13th, 2006</li>
 		<li><a href="20061107eclipsebirthday5.php">Eclipse Celebrates Five Years as an Open Source Community and Ecosystem</a> - November 7th, 2006</li>
