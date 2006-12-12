@@ -35,18 +35,21 @@
 		<h2>Guidelines</h2>
 		<p>The Individual Awards will determined by a vote of the community. One vote per person, per category.</p>
 		<p>Anyone may nominate an individual in each category.   
-		To nominate an individual visit the following Bugzilla entries. <strong>Nominations will close January 27. </strong> </p>
+		To nominate an individual visit the following Bugzilla entries. <strong>Nominations will close January 22, 2007. </strong> </p>
 		<ul class="midlist">
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119197">Nominations for Top Contributor Award</a> 
+		  <li><a href="#">Nominations for Top Contributor Award</a> 
 		  		- to be voted on by Committers.</li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119198">Nominations for Top Committer Award</a>
-		  		- to be voted on by non-Committers.</li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119199">Nominations for Top Ambassador Award</a>
+		  <li><a href="#">Nominations for Top Committer Award</a>
+		  		- to be voted on by everyone.</li>
+		  <li><a href="#">Nominations for Top Ambassador Award</a>
 		  		- to be voted on by everyone.</li>
 		</ul>
-		<p> Voting will commence February 10, 2006 and finishes March 10, 2006. 
-		Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2006</a>. </p>
+		<p> Voting will commence January 29, 2007 and finishes February 16, 2007. 
+		Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2007</a>. </p>
 
+		<p><strong>Note:</strong> Eclipse is a large vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of award winners, we have decided
+		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just a recognition that others are also 
+		deserving of recognition.</p><br><br>
 	</div>
 
 EOHTML;

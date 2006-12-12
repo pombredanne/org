@@ -36,43 +36,45 @@
 		thank the individuals and technologies that make Eclipse such a vibrant
 		robust community.    There are two categories of awards: 1) awards 
 		for individuals, and 2) awards for technologies and 
-		products.   The awards will be presented at 
-		EclipseCon. </p>
+		products.   The awards will be presented on March 5, 2007 at
+		<a href="http://www.eclipsecon.org/2007/">EclipseCon 2007</a>. </p>
 	
-	<p>Nominations are now closed.   The current list of nominations for the Technology 
-	Awards is available <a href="technology_nominations.php">here</a>.  Voting for the individual 
-	awards will commence February 10. </p>
+
 	<h3>Individual Awards</h3>
-		<p> <ol>
+		<p><ol>
 		<li><strong>Top contributor</strong> - Recognizes an individual (non-committer) 
-		who has made substantial contribution to the Eclipse community. 
-		This award recognizes an individual whose contributions flow <em>into</em> Eclipse projects. (This
-		award can also apply to a part-time committer who has made substantial contributions in a non-committer
-		role, i.e., a part-time committer on Project A who has contributed heavily outside of Project A.)</li>
-
-		<li><strong>Top committer</strong> – Recognizes an Eclipse committer who best exemplifies supporting 
-		the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc.
-		This award recognizes an individual who contributions flow <em>out of</em> an Eclipse project into
-		the larger Eclipse community.</li>
-
-		<li><strong>Top ambassador</strong> – Recognizes an individual (committer or non-committer) who 
-		best promotes cross project interactions and building a collaborative Eclipse developer community.
-		This award recognizes an individual who works between projects or between ecosystem companies; 
-		the previous two awards are about <em>flow into</em> and <em>flow out of</em> - this award is about 
-		<em>flow between/across</em>. Across projects, across user groups, across plug-in developers, etc.</li>    
-		</ol> </p>
+		who has made substantial contribution to one or more Eclipse projects.  Committers vote for this award.
+		</li>
+		<li><strong>Top committer</strong> - Recognizes an Eclipse committer who best exemplifies supporting 
+		the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc.  Everyone can vote for this award.
+		</li>
+		<li><strong>Top ambassador</strong> - Recognizes an individual (committer or non-committer) who 
+		best promotes and supports the Eclipse community.  Everyone can vote on this award.</li>
+ 		</ol> 
+ 		<a href="./awards_nominations.php">Nominate</a> an individual for an award.</p>
 </p>
 
 	<h3>Technology Awards</h3>
-		<p><ol>
-			<li><strong>Best open source RCP application</strong> – Recognizes an open source project (not hosted at Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.
+		<p>
+<ol>
+			<li><strong>Best open source RCP application</strong> - Recognizes an open source project (not hosted at Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.
 			<li><strong>Best commercial RCP application</strong> - Recognizes a commercial product that illustrates the most innovative use of Eclipse RCP for end user applications.
-			<li><strong>Best open source Eclipse based developer tool</strong> – Recognizes an open source project (not hosted at Eclipse) that provides an innovative, high quality product for software developers.
-			<li><strong>Best commercial Eclipse based developer tool</strong> – Recognizes a commercial product that provides an innovative, high quality product for software developers.
-			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> – Recognizes an organization that has used and deployed Eclipse within an enterprise.
+			<li><strong>Best open source Eclipse based developer tool</strong> - Recognizes an open source project (not hosted at Eclipse) that provides an innovative, high quality product for software developers.
+			<li><strong>Best commercial Eclipse based developer tool</strong> - Recognizes a commercial product that provides an innovative, high quality product for software developers.
+			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> - Recognizes an organization (non-ISV) that has used and deployed Eclipse within an enterprise.
 		</ol>
-		<a href="technology_nominations.php">Current nominations for Technology Awards</a>
+ 		<a href="./awards_nominations.php">Nominate</a> a product for a technology award.</p>
 		</p>
+		
+	<h3>Important Dates</h3>
+	<p><ul>
+		<li>Nominations opened - December 15, 2006</li>
+		<li>Nominations closed - January 22, 2007</li>
+		<li>Voting Begins for Individual Awards - January 29, 2007</li>
+		<li>Voting Ends for Individual Awards - February 16, 2007</li>
+		<li>Awards Announced - March 5, 2007</li>
+	</ul></p>
+
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
