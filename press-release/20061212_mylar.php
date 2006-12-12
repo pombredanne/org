@@ -19,9 +19,9 @@
 	$html = <<<EOHTML
 <div id="maincontent">
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
+		<h1>Eclipse Mylar Introduces Major New Innovation<br/> for Developer Productivity</h1>
 		<h2>Press Release</h2>
-		<p><strong>OTTAWA-December 12, 2006- </strong>The Eclipse Foundation, an open source community committed to the implementation of a universal software development platform, today announced the release of Eclipse Mylar 1.0. Mylar is a tasked-focused user interface that enhances developer productivity by reducing information overload and enabling easy multi-tasking. 
+		<p><strong>OTTAWA - December 12, 2006- </strong>The Eclipse Foundation, an open source community committed to the implementation of a universal software development platform, today announced the release of Eclipse Mylar 1.0. Mylar is a tasked-focused user interface that enhances developer productivity by reducing information overload and enabling easy multi-tasking. 
 		</p>
 		<p>Today’s IDEs overload developers with information by presenting too many details of a system’s complexity. As a result, developers often waste an inordinate amount of time searching and browsing through hundreds of files to find the information relevant to the task-at-hand. Mylar provides a new task-focused user interface that filters Eclipse IDE views to show only the elements relevant to a specific task.  Thereby focusing the attention of the developer and reducing the amount of scrolling and searching required to fix a bug or add a new feature.</p>
 		
@@ -55,11 +55,17 @@
 		<br>
 			<br>
 	</div>
+
 </div>
 
-
-
-
+	<div id="rightcolumn">
+	<div class="sideitem">
+		<h6>Related Links</h6>
+		<ul>
+			<li><a href="http://www.eclipse.org/mylar">Mylar Homepage</a></li>
+		</ul>
+	</div>
+	</div>
 
 		
 
