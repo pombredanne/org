@@ -35,7 +35,7 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		<h2>Current Nominations</h2>
 		<p>The following is the current list of nominations for the Technology Awards.  
-		Deadline for nominations is Janurary 22, 2007</p>
+		Deadline for nominations is Janurary 22, 2007.</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
@@ -51,18 +51,18 @@ ob_start();
 			</ul>
 		</div>
 		<div class="homeitem3col">
-			<h3>Best Open Source Eclipse based developer tool</h3>
+			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Commerical Eclipse based developer tool</h3>
+		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
 
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Deployment of Eclipse technology in an enterprise</h3>
+		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
 
 				<br>
