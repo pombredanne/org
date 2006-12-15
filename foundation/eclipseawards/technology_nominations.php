@@ -35,7 +35,7 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		<h2>Current Nominations</h2>
 		<p>The following is the current list of nominations for the Technology Awards.  
-		Deadline for nominations is Janurary 27, 2006</p>
+		Deadline for nominations is Janurary 22, 2007</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
@@ -76,7 +76,7 @@ ob_start();
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
 		<div class="sideitem">
-			<h6>Right column</h6>
+			<h6>Related Links</h6>
 			<ul>
 				<li><a href="awards_nominations.php">Submit a nomination</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines of Technology Awards</a></li>
