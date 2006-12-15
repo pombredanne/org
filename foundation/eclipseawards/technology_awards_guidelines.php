@@ -36,9 +36,9 @@
 		<p>The Technology Awards will be determined by a panel of judges.   The judges will be selected from Eclipse oriented editors and 
 		Eclipse project leaders.  The panel of judges will determine the winner based on a 
 		majority vote.  </p>
-		<p>Anyone may nominate an open source project, product or organization.  Vendors 
+		<p>Anyone may nominate an open source project, product, or organization.  Vendors 
 		may nominate their own products and may nominate organization for the 
-		'Best deployment' award.   <strong>Nominations will close January 22, 2007.</strong></p>
+		'Best Deployment' award.   <strong>Nominations will close January 22, 2007.</strong></p>
 		
 		
 		<h3>Judging Criteria</h3>
@@ -48,14 +48,14 @@
 			<li>Completeness - How well does it solve the problem, including technology, documentation, 
 			tutorials, web site, community support, etc.</li>
 		</ol></p>
-		<p>The criteria for judging for the 'best deployment' award will be: 
-		<ol> <li> The number of Eclipse projects being used. </li>
+		<p>The criteria for judging for the 'Best Deployment' award will be: 
+		<ol> <li> The number of Eclipse projects being used </li>
 			<li>The scale & importance of internal applications being deployed </li>
-			<li>The scale of the deployment, ie how many people are affected. </li>
+			<li>The scale of the deployment, ie how many people are affected </li>
 		</ol> </p>	<br>
 		
 		<p><strong>Note:</strong> Eclipse is a large vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of award winners, we have decided
-		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just a recognition that others are also 
+		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just an acknowledgment that others are also 
 		deserving of recognition.</p><br><br>
 
 	</div>
