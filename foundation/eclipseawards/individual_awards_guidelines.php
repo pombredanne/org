@@ -51,7 +51,7 @@
 		Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2007</a>. </p>
 
 		<p><strong>Note:</strong> Eclipse is a large vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of award winners, we have decided
-		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just a recognition that others are also 
+		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just an acknowledgment that others are also 
 		deserving of recognition.</p><br><br>
 	</div>
 
