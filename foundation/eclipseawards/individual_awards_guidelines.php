@@ -45,7 +45,7 @@
 		  		- to be voted on by everyone.</li>
 
 		  <li>The <strong>Newcomer Evangelist Award</strong> will be awarded to the individual that answers the most questions posted
-		  on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.org.newcomer</a> newsgroup. The period of calculation will be from February 15, 2006 to February 15, 2007. </li>
+		  on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period of calculation will be from February 15, 2006 to February 15, 2007. </li>
 		</ul>
 		<p> Voting will commence January 29, 2007 and finishes February 16, 2007. 
 		Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2007</a>. </p>

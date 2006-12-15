@@ -41,7 +41,7 @@
 		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a></li>
 		</ul>
 		<p>NOTE: The <strong>Newcomer Evangelist Award</strong> is not open to nominations.  It will be calculated based on the
-		response to the eclipse.org.newcomer newsgroup.</p>
+		response to the eclipse.newcomer newsgroup.</p>
 		<h2>Technology Awards</h2>
 		<p>To submit a nomination for a technology awards send an e-mail by January 22, 2007 to <A 
         href="mailto:awards@eclipse.org">awards@eclipse.org</A> with the following information:
