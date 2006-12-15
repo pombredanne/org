@@ -76,7 +76,7 @@
 		<li>Voting Begins for Individual Awards - January 29, 2007</li>
 		<li>Voting Ends for Individual Awards - February 16, 2007</li>
 		<li>Awards Announced - March 5, 2007</li>
-	</ul></p>
+	</ul></p><br>
 
 	</div>
 
