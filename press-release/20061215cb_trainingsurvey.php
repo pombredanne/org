@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Help The Eclipse Training Working Group and Win and Eclipse Fleece";
+	$pageTitle 		= "Help the Eclipse Community and Win an Eclipse Fleece Shirt";
 	$pageKeywords	= "Eclipse Foundation, java one, party, community, bulletin";
 	$pageAuthor		= "Donald Smith";
 	
@@ -22,11 +22,12 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
       	<p>
-        The Eclipse community highly value your opinions and ideas on the need for 
+        The Eclipse community would highly value your opinions and ideas on the need for 
         Eclipse-oriented training and the types of educational experiences that 
         should be offered.
         
-        Help us out by completing <a href="http://www.surveymonkey.com/s.asp?u=451703025100">this questionnaire</a> and be
+        Help us out by completing 
+        <a href="http://www.surveymonkey.com/s.asp?u=451703025100">this survey</a> and be
         entered to win one of five Eclipse Fleece Shirts!<br/>
         </p>
 	</div>
