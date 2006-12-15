@@ -46,7 +46,7 @@
 		<p>To submit a nomination for a technology awards send an e-mail by January 22, 2007 to <A 
         href="mailto:awards@eclipse.org">awards@eclipse.org</A> with the following information:
 		<ul class="midlist">
-			<li>Category of Award
+			<li>Category of award
 			<li>Name of person submitting award
 			<li>Contact information of person (telephone and e-mail)
 		</ul>	
@@ -57,14 +57,14 @@
 				<li>100 word description of product 
 				<li>Description of the usability features 
 				<li>Description of why and how the product uniquely solves a particular problem.   You might also make sure the problem is explained.
-				<li>Description of the completeness of the solution, including the technology but also documentation, white papers, tutorials, web site.  Everything you think is important for your customers to be successful with the product.
-				<li>OPTIONAL: if you are so inclined please feel free to send a 3-5 minutes screen cam demo of your product.
+				<li>Description of the completeness of the solution, including the technology, but also documentation, white papers, tutorials, and web site.  Everything you think is important for your customers to be successful with the product.
+				<li>OPTIONAL: if you are so inclined please feel free to send a 3-5 minute screen cam demo of your product.
 			</ul>
 			<p class="midlist">For the <strong>Best Deployment Award</strong> please answer the following:</p>
 			<ul class="midlist"><li>Name of organization
 				<li>Name of vendor submitting nomination
 				<li>Description of how Eclipse has been deployed in the enterprise (non-ISV).  Please include a description of the applications being built with Eclipse and the number of developers and end users.
-				<li>List of Eclipse projects being used with the deployment.
+				<li>List of Eclipse projects being used with the deployment
 				<li>NOTE: This award is intended to recognized IT organizations that have deployed Eclipse internal to their enterprise.  Therefore, we have excluded ISVs from 
 				this catategoy.  ISVs are an important part of the Eclipse ecosystem but we feel they will be recognized in the other award categories. </li>
 			</ul>
@@ -72,7 +72,7 @@
 		</p>
 		<h3>Previous Year Winners</h3>
 		<p>Eclipse is a large vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of award winners, we have decided
-		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just a recognition that others are also 
+		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just an acknowledgment that others are also 
 		deserving of recognition.</p><br><br>
 	
 
