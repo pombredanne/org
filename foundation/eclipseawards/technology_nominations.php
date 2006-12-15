@@ -69,9 +69,9 @@ ob_start();
 			</ul>
 		</div>			
 		<br>
-		</div>
-
 	</div>
+
+
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
