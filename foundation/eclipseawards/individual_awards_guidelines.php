@@ -37,12 +37,13 @@
 		<p>Anyone may nominate an individual in each category.   
 		To nominate an individual visit the following Bugzilla entries. <strong>Nominations will close January 22, 2007. </strong> </p>
 		<ul class="midlist">
-		  <li><a href="#">Nominations for Top Contributor Award</a> 
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a>
+		  		- to be voted on by everyone.</li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237">Nominations for Top Contributor Award</a> 
 		  		- to be voted on by Committers.</li>
-		  <li><a href="#">Nominations for Top Committer Award</a>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a>
 		  		- to be voted on by everyone.</li>
-		  <li><a href="#">Nominations for Top Ambassador Award</a>
-		  		- to be voted on by everyone.</li>
+
 		  <li>The <strong>Newcomer Evangelist Award</strong> will be awarded to the individual that answers the most questions posted
 		  on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.org.newcomer</a> newsgroup. The period of calculation will be from February 15, 2006 to February 15, 2007. </li>
 		</ul>
