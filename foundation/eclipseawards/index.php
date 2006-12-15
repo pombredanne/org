@@ -42,15 +42,18 @@
 
 	<h3>Individual Awards</h3>
 		<p><ol>
-		<li><strong>Top contributor</strong> - Recognizes an individual (non-committer) 
+		<li><strong>Top Ambassador</strong> - Recognizes an individual (committer or non-committer) who 
+		best promotes and supports the Eclipse community.  Everyone can vote on this award.</li>
+ 			
+ 		<li><strong>Top Contributor</strong> - Recognizes an individual (non-committer) 
 		who has made substantial contribution to one or more Eclipse projects.  Committers vote for this award.
 		</li>
-		<li><strong>Top committer</strong> - Recognizes an Eclipse committer who best exemplifies supporting 
+		<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies supporting 
 		the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc.  Everyone can vote for this award.
 		</li>
-		<li><strong>Top ambassador</strong> - Recognizes an individual (committer or non-committer) who 
-		best promotes and supports the Eclipse community.  Everyone can vote on this award.</li>
- 		</ol> 
+		<li><strong>Newcomer Evangelist</strong> - This individual best exemplifies welcoming new people into the Eclipse community.  This
+		award will be presented to the individual that has responded to the most questions raised on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.org.newcomer</a> newsgroup.</li>
+		</ol> 	
  		<a href="./awards_nominations.php">Nominate</a> an individual for an award.</p>
 </p>
 
