@@ -19,7 +19,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "$year Election Key Dates";
+	$pageTitle 		= "$year Board Candidates";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -40,31 +40,13 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>Each year, the Eclipse Founation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
-		these elected board members is one year, commencing April 1.</p>
-		<div class="homeitem3col">
-	    <h3><a name="Dates"></a>Key Dates</h3>
-		<p>&nbsp;&nbsp;The key dates for the 2007 elections are:</p>
-		<ul>
-		<li>December 13, 2006: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
-		the subject "Add-In Provider Nomination" or "Committer Nomination". As soon as possible after an individual 
-		is nominated, the Foundation will contact the nominee to confirm their willingness to participate in the 
-		election and to serve as a add-in provider representative if elected.</li>
-		<li>January 17, 2007: Nominations close. The list of nominees and their html pages will be available on the 
-		website as soon as possible thereafter, and in no case later than January 24.
-		<br>Each nominee will be provided with an 
-		HTML template which outlines their background and vision for Eclipse as they are nominated. If the nominee
-		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
-		via email. Content must be submitted to the Eclipse Foundation via email no later than Friday, January 19th. 
-		</li>
-		<li>January 24, 2007: List of nominees and their personal pages made available on www.eclipse.org. 
-		Discussion of the issues on the eclipse.foundation newsgroup will be encouraged. 
-		</li>
-		<li>February 7, 2007: Voting begins.</li>
-		<li>February 21, 2007: Voting ends. </li>
-		<li>February 28, 2007: New representatives announced.</li>
-		</ul>
+		<b>This page is currently under construction while we are in the 2007 nomination phase.
+		#<b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.
+		<div class="homeitem">
+			<a name="Candidates"></a>$committer_candidates
+		</div>
+		<div class="homeitem">
+			$addin_candidates
 		</div>
 	</div>
 	<div id="rightcolumn">
