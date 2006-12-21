@@ -32,16 +32,13 @@
 	# End: page-specific settings
 	#
 	
-	$committer_candidates = get_candidates_list_as_html($candidates, $year, 'committer');
-	$addin_candidates = get_candidates_list_as_html($candidates, $year, 'addin');
-
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<b>This page is currently under construction while we are in the 2007 nomination phase.
-		#<b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.
+		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
 		</div>

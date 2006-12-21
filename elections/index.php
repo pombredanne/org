@@ -48,9 +48,9 @@
 		(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the 2006 elections is contained within the links below:</p>
+		<p>&nbsp;&nbsp;Information concerning the 2007 elections is contained within the links below:</p>
 		#
-		# <li>The <a href="/org/press-release/20060309cb_elections.php">winners</a> for the 2006 election.</li>
+		# Put winners link back in after elections are over
 		#
 		<ul>
 		<li>The <a href="nominees_under_construction.php">candidates</a> for the 2007 election.</li>
