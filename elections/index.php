@@ -49,9 +49,6 @@
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
 		<p>&nbsp;&nbsp;Information concerning the 2007 elections is contained within the links below:</p>
-		#
-		# Put winners link back in after elections are over
-		#
 		<ul>
 		<li>The <a href="nominees_under_construction.php">candidates</a> for the 2007 election.</li>
 		<li>The <a href="keydates.php">key dates</a> for the 2007 election.</li>
