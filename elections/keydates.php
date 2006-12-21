@@ -53,6 +53,7 @@
 		election and to serve as a add-in provider representative if elected.</li>
 		<li>January 17, 2007: Nominations close. The list of nominees and their html pages will be available on the 
 		website as soon as possible thereafter, and in no case later than January 24.
+		<br>
 		<br>Each nominee will be provided with an 
 		HTML template which outlines their background and vision for Eclipse as they are nominated. If the nominee
 		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
