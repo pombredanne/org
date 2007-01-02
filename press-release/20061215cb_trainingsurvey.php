@@ -29,6 +29,8 @@
         Help us out by completing 
         <a href="http://www.surveymonkey.com/s.asp?u=451703025100">this survey</a> and be
         entered to win one of five Eclipse Fleece Shirts!<br/>
+        
+        Survey closes end of business EST January 3rd, 2007.
         </p>
 	</div>
 </div>
