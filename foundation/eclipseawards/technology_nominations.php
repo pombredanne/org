@@ -46,25 +46,24 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-
-				<br>
+				<li><a href="http://www.ibm.com/software/sw-lotus/lotus_expeditor">IBM Lotus Expeditor</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
+				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
-
+				<li><a href="http://www.sybase.com/workspace">Sybase WorkSpace</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
-
 				<br>
 			</ul>
 		</div>			
