@@ -67,6 +67,7 @@
 			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> - Recognizes an organization (non-ISV) that has used and deployed Eclipse within an enterprise.
 		</ol>
  		<a href="./awards_nominations.php">Nominate</a> a product for a technology award.</p>
+ 		<a href="./technology_nominations.php">Review</a> who has already been nominated.</p>
 		</p>
 		
 	<h3>Important Dates</h3>
