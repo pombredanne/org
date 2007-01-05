@@ -48,7 +48,13 @@
 					logos of its member companies.</li>
 				<li><a href="Eclipse%20Development%20Process%202003_11_09%20FINAL.pdf">Development Process:</a> 
 					This document describes the fundamental rules for creating and governing
-					projects at the Eclipse community. .</li>
+					projects at the Eclipse community.</li>
+			</ul>
+			<h3>Eclipse Board Directives and Resolutions</h3>
+			<ul>
+				<li><a href="Eclipse_SpecOrgs_final.pdf">Standards and Specifications Policy:</a>
+					This document describes how the Eclipse Foundation and Eclipse projects 
+					interact with standards and specifications organizations.</li>
 			</ul>
 		</div>
 	</div>
