@@ -39,7 +39,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<br>
+				<li><a href="http://www.rssowl.org/">RSS-Owl</a></li>
 			</ul>
 		</div>		
 		<div class="homeitem3col">
@@ -58,7 +58,10 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>				
 				<li><a href="http://www.sybase.com/workspace">Sybase WorkSpace</a></li>
+				<li><a href="http://www.instantiations.com/windowbuilderpro ">WindowBuilder Pro:  SWT Designer, Swing Designer & GWT Designer</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
