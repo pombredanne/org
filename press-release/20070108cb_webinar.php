@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-		<p>Eclipse is kicking off its webinar series with 2 events in January.  Both webinars are free to attend, so please register if you are interested.
+		<p>Eclipse is kicking off its webinar series with 2 events in January.  Both webinars are free to attend, so please register if you are interested.<br/>
 		<br/>
 		<b>Eclipse Data Binding Test Drive</b><br/>
 		January 10, 2007 at 8:00 am PST / 11:00 am EST / 5:00 pm CET<br/>
