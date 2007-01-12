@@ -19,8 +19,8 @@
 	$html = <<<EOHTML
 <div id="maincontent">
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
 		<h2>Press Release</h2>
+		<h1>$pageTitle</h1>
 		<p><i>Membership in the Java Community Process, Object Management Group and OSGi Alliance Designed to Promote Industry Standards and Open Source Implementations </i></p>
 		<p><strong>OTTAWA - January 12, 2007 - </strong>The Eclipse Foundation, an open source community committed to the implementation of a universal software development platform, today announced it has become a member of three industry specification groups: Java Community Process (JCP), Object Management Group (OMG) and the OSGi Alliance. The Eclipse Foundation has joined these organizations to further promote the relationship between open standards and open source implementations. 
 		</p>
