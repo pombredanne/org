@@ -54,6 +54,7 @@ ob_start();
 			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
+				<li><a href="http://www.googlipse.com">Googlipse</a></li>				
 			</ul>
 		</div>
 		<div class="homeitem3col">
