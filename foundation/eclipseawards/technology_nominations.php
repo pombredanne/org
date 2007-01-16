@@ -47,6 +47,7 @@ ob_start();
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
 				<li><a href="http://www.arlanis.com">arlanis Universal Data Converter (UDC)</a></li>
+				<li><a href="http://www.alterpoint.com/products/">DeviceAuthority v4.6</a></li>
 				<li><a href="http://www.ibm.com/software/sw-lotus/lotus_expeditor">IBM Lotus Expeditor</a></li>
 			</ul>
 		</div>
