@@ -40,6 +40,7 @@ ob_start();
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
 				<li><a href="http://www.rssowl.org/">RSS-Owl</a></li>
+				<li><a href="http://www.ziptie.org/">ZipTie</a></li>
 			</ul>
 		</div>		
 		<div class="homeitem3col">
@@ -63,6 +64,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
+				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>				
 				<li><a href="http://www.slickedit.com/content/view/410/240/">SlickEdit&#174 Plug-in v3.2 for Eclipse v3.2</a></li>				
 				<li><a href="http://www.sybase.com/workspace">Sybase WorkSpace</a></li>
 				<li><a href="http://www.instantiations.com/windowbuilderpro ">WindowBuilder Pro:  SWT Designer, Swing Designer & GWT Designer</a></li>
