@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20070117cb_trainingsurvey.php">Results of Eclipse Training Survey Released</a> - January 17th, 2006</li>
 		<li><a href="20070112_industryspecs.php">Eclipse Foundation joins Three Industry Specifications Groups</a> - January 12th, 2006</li>
 		<li><a href="20070108cb_webinar.php">2007 Eclipse Webinar Series Kickoff</a> - January 8th, 2007</li>
 		</ul>
