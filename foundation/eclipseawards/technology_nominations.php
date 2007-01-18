@@ -57,7 +57,10 @@ ob_start();
 			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
-				<li><a href="http://www.eclemma.org/">EclEmma - Java Code Coverage for Eclipse</a></li>				
+				<li><a href="http://aptana.com/">Aptana IDE</a></li>				
+				<li><a href="http://www.eclemma.org/">EclEmma - Java Code Coverage for Eclipse</a></li>	
+				<li><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a></li>				
+				<li><a href="http://www.sf.net/projects/gems">Generic Eclipse Modeling System (GEMS)</a></li>			
 				<li><a href="http://www.googlipse.com">Googlipse</a></li>				
 			</ul>
 		</div>
@@ -65,6 +68,7 @@ ob_start();
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://www.twinsoft.fr/intl/en/cariocaweb/convertigo-ems-eclipse-studio.htm">Convertigo Enterprise Mashup Studio</a></li>				
 				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>				
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
 				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>
