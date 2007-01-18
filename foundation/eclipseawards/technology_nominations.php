@@ -48,6 +48,7 @@ ob_start();
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
 				<li><a href="http://www.arlanis.com">arlanis Universal Data Converter (UDC)</a></li>
+				<li><a href="http://www.bea.com/support/guardian/">BEA Guardian&#153</a></li>				
 				<li><a href="http://www.alterpoint.com/products/">DeviceAuthority v4.6</a></li>
 				<li><a href="http://www.ibm.com/software/sw-lotus/lotus_expeditor">IBM Lotus Expeditor</a></li>
 			</ul>
@@ -56,6 +57,7 @@ ob_start();
 			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
+				<li><a href="http://www.eclemma.org/">EclEmma - Java Code Coverage for Eclipse</a></li>				
 				<li><a href="http://www.googlipse.com">Googlipse</a></li>				
 			</ul>
 		</div>
@@ -63,8 +65,10 @@ ob_start();
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>				
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
 				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>
+				<li><a href="http://www.myeclipse.com">MyEclipse Enterprise Workbench</a></li>				
 				<li><a href="http://www.instantiations.com/rcpdeveloper/index.html">RCP Developer&#153</a></li>								
 				<li><a href="http://www.slickedit.com/content/view/410/240/">SlickEdit&#174 Plug-in v3.2 for Eclipse v3.2</a></li>				
 				<li><a href="http://www.sybase.com/workspace">Sybase WorkSpace</a></li>
