@@ -59,9 +59,11 @@ ob_start();
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
 				<li><a href="http://aptana.com/">Aptana IDE</a></li>				
 				<li><a href="http://www.eclemma.org/">EclEmma - Java Code Coverage for Eclipse</a></li>	
-				<li><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a></li>				
+				<li><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a></li>
+				<li><a href="http://ezingbuilder.sourceforge.net">eZingBuilder</a></li>								
 				<li><a href="http://www.sf.net/projects/gems">Generic Eclipse Modeling System (GEMS)</a></li>			
-				<li><a href="http://www.googlipse.com">Googlipse</a></li>				
+				<li><a href="http://www.googlipse.com">Googlipse</a></li>
+				<li><a href="http://www.kermeta.org">Kermeta</a></li>								
 			</ul>
 		</div>
 		<div class="homeitem3col">
@@ -72,7 +74,8 @@ ob_start();
 				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>				
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
 				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>
-				<li><a href="http://www.myeclipse.com">MyEclipse Enterprise Workbench</a></li>				
+				<li><a href="http://www.myeclipse.com">MyEclipse Enterprise Workbench</a></li>
+				<li><a href="http://www.primeton.com/product/studio_en.php">Primeton EOS Studio</a></li>								
 				<li><a href="http://www.instantiations.com/rcpdeveloper/index.html">RCP Developer&#153</a></li>								
 				<li><a href="http://www.slickedit.com/content/view/410/240/">SlickEdit&#174 Plug-in v3.2 for Eclipse v3.2</a></li>				
 				<li><a href="http://www.sybase.com/workspace">Sybase WorkSpace</a></li>
