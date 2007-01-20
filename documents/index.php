@@ -55,9 +55,12 @@
 				<li><a href="Eclipse_SpecOrgs_final.pdf">Standards and Specifications Policy:</a>
 					This document describes how the Eclipse Foundation and Eclipse projects 
 					interact with standards and specifications organizations.</li>
-				<li><a href="Eclipse_Parallel_IP_Process.pdf">Project Requirements:</a> 
+				<li><a href="Eclipse_Project_Requirements.pdf">Project Requirements:</a> 
 					This document is a Board Resolution about the user interface and project data 
 					guidelines for Eclipse projects.</li>
+				<li><a href="Eclipse_Project_Usability.pdf">Project Usability:</a> 
+					This is a Board Resolution about requirements to improve project usability, 
+					initial user experience, and extensibility.</li>
 			</ul>
 		</div>
 	</div>
