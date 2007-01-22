@@ -33,7 +33,7 @@
 				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202005_06_16%20Final.pdf">Membership Agreement:</a> The Membership Agreement describes 
 					the rights and responsibilities for each class of member in the Eclipse 
 					Foundation.</li>
-				<li><a href="Eclipse%20IP%20Policy2006_03_20.pdf">Intellectual Property Policy:</a> 
+				<li><a href="Eclipse_IP_Policy.pdf">Intellectual Property Policy:</a> 
 					<img src="../../../images/updated.gif" alt="new"> The IP Policy describes the
 					policies and mechanisms that the Eclipse Foundation uses for accepting and
 					licensing the intellectual property developed by Eclipse projects.</li>
