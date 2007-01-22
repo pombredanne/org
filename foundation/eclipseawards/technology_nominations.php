@@ -59,6 +59,7 @@ ob_start();
 				<li><a href="http://www.ibm.com/software/sw-lotus/lotus_expeditor">IBM Lotus Expeditor</a></li>
 				<li><a href="http://www.jigsawarchive.com">Jigsaw Archive - eMail Archiving for IBM Lotus Notes</a></li>				
 				<li><a href="http://www.polarion.com/subv/index.php">Polarion for Subversion - Application Lifecycle Management</a></li>
+				<li><a href="http://www.tibco.com/devnet/business_studio/product_resources.jsp?tab=downloads">TIBCO Business Studio</a></li>					
 				<li><a href="http://www.weblica.ch/">weblica</a></li>									
 			</ul>
 		</div>
