@@ -153,7 +153,7 @@
 	<staffmember id="ian">
 		<name>Ian Skerrett</name>
 		<title>Director, Marketing</title>
-		<image>../../images/ian.jpg </image>
+		<image>
 		<description>
 		<![CDATA[ Ian takes care of the marketing activities at the Eclipse Foundation.  
 		Although our community is the Eclipse marketing machine,  Ian supports the projects and member 
