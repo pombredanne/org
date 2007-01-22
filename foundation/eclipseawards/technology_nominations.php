@@ -57,7 +57,9 @@ ob_start();
 				<li><a href="http://www.alterpoint.com/products/">DeviceAuthority v4.6</a></li>
 				<li><a href="http://www.soyatec.com">eBPMN designer</a></li>				
 				<li><a href="http://www.ibm.com/software/sw-lotus/lotus_expeditor">IBM Lotus Expeditor</a></li>
-				<li><a href="http://www.polarion.com/subv/index.php">Polarion for Subversion - Application Lifecycle Management</a></li>				
+				<li><a href="http://www.jigsawarchive.com">Jigsaw Archive - eMail Archiving for IBM Lotus Notes</a></li>				
+				<li><a href="http://www.polarion.com/subv/index.php">Polarion for Subversion - Application Lifecycle Management</a></li>
+				<li><a href="http://www.weblica.ch/">weblica</a></li>									
 			</ul>
 		</div>
 		<div class="homeitem3col">
@@ -73,18 +75,25 @@ ob_start();
 				<li><a href="http://www.googlipse.com">Googlipse</a></li>
 				<li><a href="http://tools.hibernate.org">Hibernate Tools for Eclipse</a></li>				
 				<li><a href="http://www.kermeta.org">Kermeta</a></li>
-				<li><a href="http://www.polarion.org/index.php?page=overview&project=subversive">Subversive</a></li>												
+				<li><a href="http://m2eclipse.codehaus.org/">Maven Integration for Eclipse</a></li>	
+				<li><a href="http://subclipse.tigris.org/">Subclipse</a></li>								
+				<li><a href="http://www.polarion.org/index.php?page=overview&project=subversive">Subversive</a></li>
+				<li><a href="http://alexdp.free.fr/violetumlplugin">Violet UML Editor</a></li>																
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.accurev.com/accubridge-eclipse.html">AccuBridge for Eclipse</a></li>			
 				<li><a href="http://www.adobe.com/products/flex/productinfo/overview/">Adobe Flex 2.0</a></li>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
-				<li><a href="http://www.appperfect.com/products/devtest.html">AppPerfect DevTest4J</a></li>				
-				<li><a href="http://www.twinsoft.fr/intl/en/cariocaweb/convertigo-ems-eclipse-studio.htm">Convertigo Enterprise Mashup Studio</a></li>				
+				<li><a href="http://www.appperfect.com/products/devtest.html">AppPerfect DevTest4J</a></li>	
+				<li><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/workshop/">BEA Workshop for WebLogic Platform 9.2</a></li>							
+				<li><a href="http://www.twinsoft.fr/intl/en/cariocaweb/convertigo-ems-eclipse-studio.htm">Convertigo Enterprise Mashup Studio</a></li>
+				<li><a href="http://www.businessobjects.com/eclipse">Crystal Reports for Eclipse</a></li>									
 				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>	
-				<li><a href="http://www.soyatec.com">eUML2</a></li>								
+				<li><a href="http://www.soyatec.com">eUML2</a></li>
+				<li><a href="http://www.codegear.com/Products/JBuilder/tabid/102/Default.aspx">JBuilder 2007</a></li>													
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
 				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>
 				<li><a href="http://www.kpitcummins.com/ats/developmenttools.htm ">KPIT Corona</a></li>				
@@ -103,6 +112,7 @@ ob_start();
 		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
 				<li><a href="http://www.bardusch.de">Bardusch GmbH</a></li>
+				<li><a href="http://www.jpmchase.com">JPMorgan Chase</a></li>
 			</ul>
 		</div>			
 		<br>
