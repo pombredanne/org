@@ -39,7 +39,11 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
+				<li><a href="http://eclipsetrader.sourceforge.net">EclipseTrader</a></li>			
+				<li><a href="http://jlibrary.sourceforge.net/">jLibrary</a></li>
+				<li><a href="http://portal.chronos.org/psicat-site/">PSICAT (Paleontological Stratigraphic Interval Construction and Analysis Tool)</a></li>				
 				<li><a href="http://www.rssowl.org/">RSS-Owl</a></li>
+				<li><a href="http://zdt.sourceforge.net">ZDT</a></li>				
 				<li><a href="http://www.ziptie.org/">ZipTie</a></li>
 			</ul>
 		</div>		
@@ -47,10 +51,13 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
+				<li>ACE (Autosar Configuration Editor)</a></li>				
 				<li><a href="http://www.arlanis.com">arlanis Universal Data Converter (UDC)</a></li>
 				<li><a href="http://www.bea.com/support/guardian/">BEA Guardian&#153</a></li>				
 				<li><a href="http://www.alterpoint.com/products/">DeviceAuthority v4.6</a></li>
+				<li><a href="http://www.soyatec.com">eBPMN designer</a></li>				
 				<li><a href="http://www.ibm.com/software/sw-lotus/lotus_expeditor">IBM Lotus Expeditor</a></li>
+				<li><a href="http://www.polarion.com/subv/index.php">Polarion for Subversion - Application Lifecycle Management</a></li>				
 			</ul>
 		</div>
 		<div class="homeitem3col">
@@ -60,21 +67,29 @@ ob_start();
 				<li><a href="http://aptana.com/">Aptana IDE</a></li>				
 				<li><a href="http://www.eclemma.org/">EclEmma - Java Code Coverage for Eclipse</a></li>	
 				<li><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a></li>
-				<li><a href="http://ezingbuilder.sourceforge.net">eZingBuilder</a></li>								
+				<li><a href="http://ezingbuilder.sourceforge.net">eZingBuilder</a></li>
+				<li><a href="http://www.polarion.org/index.php?page=overview&project=fasttrack">FastTrack</a></li>											
 				<li><a href="http://www.sf.net/projects/gems">Generic Eclipse Modeling System (GEMS)</a></li>			
 				<li><a href="http://www.googlipse.com">Googlipse</a></li>
-				<li><a href="http://www.kermeta.org">Kermeta</a></li>								
+				<li><a href="http://tools.hibernate.org">Hibernate Tools for Eclipse</a></li>				
+				<li><a href="http://www.kermeta.org">Kermeta</a></li>
+				<li><a href="http://www.polarion.org/index.php?page=overview&project=subversive">Subversive</a></li>												
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.adobe.com/products/flex/productinfo/overview/">Adobe Flex 2.0</a></li>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://www.appperfect.com/products/devtest.html">AppPerfect DevTest4J</a></li>				
 				<li><a href="http://www.twinsoft.fr/intl/en/cariocaweb/convertigo-ems-eclipse-studio.htm">Convertigo Enterprise Mashup Studio</a></li>				
-				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>				
+				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>	
+				<li><a href="http://www.soyatec.com">eUML2</a></li>								
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
 				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>
-				<li><a href="http://www.myeclipse.com">MyEclipse Enterprise Workbench</a></li>
+				<li><a href="http://www.kpitcummins.com/ats/developmenttools.htm ">KPIT Corona</a></li>				
+				<li><a href="http://www.mvista.com/news/2006/tsuki.html ">MontaVista DevRocket</a></li>				
+				<li><a href="http://www.myeclipseide.com">MyEclipse Enterprise Workbench</a></li>
 				<li><a href="http://www.primeton.com/product/studio_en.php">Primeton EOS Studio</a></li>
 				<li><a href="http://www.qnx.com/products/development">QNX Momentics Integrated Development Environment (IDE)</a></li>												
 				<li><a href="http://www.instantiations.com/rcpdeveloper/index.html">RCP Developer&#153</a></li>								
@@ -86,7 +101,7 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
-				<br>
+				<li><a href="http://www.bardusch.de">Bardusch GmbH</a></li>
 			</ul>
 		</div>			
 		<br>
