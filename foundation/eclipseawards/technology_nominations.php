@@ -79,6 +79,7 @@ ob_start();
 				<li><a href="http://bpms.intalio.com">Intalio|BPMS</a></li>
 				<li><a href="http://www.kermeta.org">Kermeta</a></li>
 				<li><a href="http://m2eclipse.codehaus.org/">Maven Integration for Eclipse</a></li>	
+				<li><a href="http://relo.csail.mit.edu/">Relo - Relationship based Exploration</a></li>				
 				<li><a href="http://subclipse.tigris.org/">Subclipse</a></li>								
 				<li><a href="http://www.polarion.org/index.php?page=overview&project=subversive">Subversive</a></li>
 				<li><a href="http://alexdp.free.fr/violetumlplugin">Violet UML Editor</a></li>																
