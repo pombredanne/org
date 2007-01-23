@@ -60,7 +60,8 @@ ob_start();
 				<li><a href="http://www.jigsawarchive.com">Jigsaw Archive - eMail Archiving for IBM Lotus Notes</a></li>				
 				<li><a href="http://www.polarion.com/subv/index.php">Polarion for Subversion - Application Lifecycle Management</a></li>
 				<li><a href="http://www.tibco.com/devnet/business_studio/product_resources.jsp?tab=downloads">TIBCO Business Studio</a></li>					
-				<li><a href="http://www.weblica.ch/">weblica</a></li>									
+				<li><a href="http://www.weblica.ch/">weblica</a></li>
+				<li><a href="http://www.ivis.com/public/products/xprocess/index.cfm">xProcess</a></li>													
 			</ul>
 		</div>
 		<div class="homeitem3col">
@@ -74,7 +75,8 @@ ob_start();
 				<li><a href="http://www.polarion.org/index.php?page=overview&project=fasttrack">FastTrack</a></li>											
 				<li><a href="http://www.sf.net/projects/gems">Generic Eclipse Modeling System (GEMS)</a></li>			
 				<li><a href="http://www.googlipse.com">Googlipse</a></li>
-				<li><a href="http://tools.hibernate.org">Hibernate Tools for Eclipse</a></li>				
+				<li><a href="http://tools.hibernate.org">Hibernate Tools for Eclipse</a></li>
+				<li><a href="http://bpms.intalio.com">Intalio|BPMS</a></li>
 				<li><a href="http://www.kermeta.org">Kermeta</a></li>
 				<li><a href="http://m2eclipse.codehaus.org/">Maven Integration for Eclipse</a></li>	
 				<li><a href="http://subclipse.tigris.org/">Subclipse</a></li>								
@@ -88,12 +90,15 @@ ob_start();
 				<li><a href="http://www.accurev.com/accubridge-eclipse.html">AccuBridge for Eclipse</a></li>			
 				<li><a href="http://www.adobe.com/products/flex/productinfo/overview/">Adobe Flex 2.0</a></li>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="https://wiki.apexdevnet.com/index.php/Apex_Toolkit_for_Eclipse ">Apex Toolkit for Eclipse</a></li>				
 				<li><a href="http://www.appperfect.com/products/devtest.html">AppPerfect DevTest4J</a></li>	
 				<li><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/workshop/">BEA Workshop for WebLogic Platform 9.2</a></li>							
 				<li><a href="http://www.twinsoft.fr/intl/en/cariocaweb/convertigo-ems-eclipse-studio.htm">Convertigo Enterprise Mashup Studio</a></li>
 				<li><a href="http://www.businessobjects.com/eclipse">Crystal Reports for Eclipse</a></li>									
 				<li><a href="http://www.e-citiz.com">e-Citiz AcceCit&#233; Studio</a></li>	
 				<li><a href="http://www.soyatec.com">eUML2</a></li>
+				<li><a href="http://www-304.ibm.com/jct03002c/software/awdtools/architect/swarchitect/">IBM Rational Software Architect</a></li>
+				<li><a href="http://www.ilog.com/products/jrules/rulestudio.cfm">ILOG JRules 6</a></li>								
 				<li><a href="http://www.codegear.com/Products/JBuilder/tabid/102/Default.aspx">JBuilder 2007</a></li>													
 				<li><a href="http://www.technobuff.net/webapp/product/showProduct.do?name=jrequire">JRequire</a></li>
 				<li><a href="https://developer.klocwork.com">Klocwork Developer for Java</a></li>
@@ -107,6 +112,7 @@ ob_start();
 				<li><a href="http://www.slickedit.com/content/view/410/240/">SlickEdit&#174 Plug-in v3.2 for Eclipse v3.2</a></li>				
 				<li><a href="http://www.sybase.com/workspace">Sybase WorkSpace</a></li>
 				<li><a href="http://www.instantiations.com/windowbuilderpro ">WindowBuilder Pro:  SWT Designer, Swing Designer & GWT Designer</a></li>
+				<li><a href="http://www.wolfram.com/workbench">Wolfram Workbench</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
@@ -114,6 +120,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.bardusch.de">Bardusch GmbH</a></li>
 				<li><a href="http://www.jpmchase.com">JPMorgan Chase</a></li>
+				<li><a href="http://www.jpl.nasa.gov/">NASA Ensemble Team</a></li>				
 			</ul>
 		</div>			
 		<br>
