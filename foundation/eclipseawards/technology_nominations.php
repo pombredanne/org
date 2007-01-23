@@ -106,6 +106,7 @@ ob_start();
 				<li><a href="http://www.kpitcummins.com/ats/developmenttools.htm ">KPIT Corona</a></li>				
 				<li><a href="http://www.mvista.com/news/2006/tsuki.html ">MontaVista DevRocket</a></li>				
 				<li><a href="http://www.myeclipseide.com">MyEclipse Enterprise Workbench</a></li>
+				<li><a href="http://www.nexaweb.com/site/site07/index.html@cid=1236.html">Nexaweb Studio</a></li>				
 				<li><a href="http://www.oxygenxml.com">oXygen XML Editor</a></li>				
 				<li><a href="http://www.primeton.com/product/studio_en.php">Primeton EOS Studio</a></li>
 				<li><a href="http://www.qnx.com/products/development">QNX Momentics Integrated Development Environment (IDE)</a></li>												
