@@ -1,0 +1,70 @@
+<boardmember id="merks" type="committer">
+      <name>Ed Merks</name>
+      <title>Senior Technical Staff Member</title>
+      <image> merks.jpg </image>
+      <email>merks@ca.ibm.com</email>
+      <phone> 905.413.3265 </phone>
+      <contact> <![CDATA[
+D3/0RB8/8200/MKM
+IBM Toronto Software Lab
+8200 Warden Ave.
+Markham, Ont.
+L6G 1C7
+      ]]> </contact>
+      <eclipse_affiliation> <![CDATA[
+Eclipse Modeling Project Co-lead
+Eclipse Modeling Framework Project Lead
+      ]]> </eclipse_affiliation>
+      <vision>  <![CDATA[
+Eclipse's momentum is driven primarily by the committer community, and
+that's you and me.
+We live in a very exciting world that's rapidly changing in ways that
+ensure that the individual has more influence than ever before.
+As a committer representative on the board, I intend to help promote the
+rights and privileges of committers and to take forward the issues and
+concerns that are brought to me.
+I intend to be a visible and approachable technical representative, not a
+politician.
+I believe that helping others is its own reward and with more than 3,000
+answers to questions on Eclipse's newsgroups last year, my track record of
+helpfulness speaks for itself.
+
+Rights and privileges certainly don't come without responsibilities and
+that's something every committer should take very seriously.
+We are collectively responsible for fostering a diverse, growing community
+that encourages and strives for the type of excellence that has made
+Eclipse what it is today.
+But our stellar reputation is easily tarnished by the actions of a small
+few, so that's something we should all guard against.
+I'm a firm believer in the right balance of rules: not so many as to be
+exclusionary or overly restrictive, as if there were a formula for
+goodness, but enough to ensure that the system functions smoothly.
+I believe that last year's coordinated release of Callisto is a great
+example of how well a diverse community can cooperate to achieve a common
+goal
+with just the right balance of restrictions and freedoms;
+Callisto was the single largest coordinated multi-vendor software release
+our planet has ever seen, which I believe represents a turning point in our
+industry.
+This year's Europa release will set an even higher benchmark, and I'd like
+to think my team and I can help in some small way to further this goal.
+As your representative I commit to working tirelessly to promote not only
+Eclipse itself but also the community that drives it.
+We are Eclipse!
+      ]]> </vision>
+      <bio> <![CDATA[
+Ed Merks is the project lead of the Eclipse Modeling Framework project and
+a co-lead of the top-level Modeling project. He has many years of in-depth
+experience in the design and implementation of languages, frameworks, and
+application development environments. He has been an active committer at
+Eclipse since 2002, with more than 1/2 million lines of committed code, and
+was one of the three finalists for last year's top committer award.  He
+holds a Ph.D. in computing science and is a co-author of the authoritative
+"Eclipse Modeling Framework, A Developer's Guide" (Addison-Wesley 2003). He
+works for IBM Rational Software at the Toronto Lab.
+      ]]> </bio>
+      <affiliation> <![CDATA[
+IBM Rational Software, Toronto Lab
+      ]]>
+      </affiliation>
+</boardmember>

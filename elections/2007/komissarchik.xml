@@ -1,0 +1,58 @@
+<boardmember id="komissarchik" type="committer">
+
+  <name>
+    Konstantin Komissarchik
+  </name>
+
+  <title>
+  </title>
+
+  <image>komissarchik.jpg
+  </image>
+
+  <email>
+    kosta@bea.com
+  </email>
+
+  <phone>
+    206.926.2962
+  </phone>
+
+  <contact> <![CDATA[
+BEA Systems, Inc.
+999 North Northlake Way
+Seattle, WA 98103
+  ]]> </contact>
+
+  <eclipse_affiliation>
+    Web Tools Platform
+  </eclipse_affiliation>
+
+  <vision>
+    Eclipse community has been tremendously successful in attracting talent and
+    growing in different areas, but we are experiencing some growing pains. One
+    of the problems that I have seen come up frequently while working on the
+    Web Tools Platform is the lack of an effective vehicle for sharing common
+    code between Eclipse projects. Typically, the only way for code to get shared
+    is to "push it down" to the Eclipse Platform. The platform team is naturally 
+    reluctant to see their project become the dumping ground for any code that 
+    two or more projects wish to share, so we end up solving the same problem
+    over and over again. Not only does it hurt everyone's productivity, but it
+    impacts the user experience. We need a novel approach to tackle this problem.
+    I'd like to see us develop a system where it is fairly easy to create micro
+    components that developers from multiple projects can collaborate on.
+  </vision>
+ 
+  <bio>
+    I am a software developer with BEA Systems and have been a committer on the
+    Web Tools Platform since its first release. I have designed and implemented
+    the Faceted Project Framework which made it possible for people to easily
+    extend capabilities of WTP projects. In my prior life, I have worked on 
+    compilers, custom servers and network protocol design. I have graduated from 
+    the University of Washington with BS in Computer Science.
+  </bio>
+
+  <affiliation>
+    BEA Systems, Inc.
+  </affiliation>	
+</boardmember>

@@ -1,0 +1,71 @@
+<boardmember id="ragan" type="addin">
+
+	<name>Tracy Ragan</name>
+
+	<title>Chief Operations Officer</title>
+
+	<image>ragan.jpg</image>
+
+	<email>tracy.ragan@openmake.com</email>
+
+	<phone>505.424.6440</phone>
+
+	<contact> <![CDATA[
+Catalyst Systems Corporation
+213 W. Institute Place #404
+Chicago, IL 60610
+www.openmake.com ]]> </contact>
+
+	<eclipse_affiliation> <![CDATA[
+         In early 2002 Tracy started hearing about the "Eclipse Project"
+         from a few of the Openmake developers. She took a closer look and was immediately
+         surprised by what she found, an open source effort focused around a common IDE
+         platform.  By the end of 2002, Tracy had become a "founding steward" of this new and 
+         exciting community, and the first women on the board.  Tracy has been a very active 
+         member of Eclipse always adding her "2 cents" along the way.  Some of you may know her
+         from her involvement in early marketing efforts such as the JavaOne show floor games,
+         t-shirts, Eclipse logo designs as well as technical involvement in the
+         heated debates regarding Swing vs. SWT. Others may know Catalyst Systems through their 
+         involvement in the ALF project.  Tracy's experience working with the Eclipse community
+         for the last 5 years has given her a strong understanding of how an Add-in Provider
+         can benefit by getting involved in this very dynamic organization.  
+         ]]> </eclipse_affiliation>
+
+	<vision> <![CDATA[
+        Involvement with Eclipse from Add-in Provider companies is a critical
+        component of the overall success of Eclipse.  Some Add-in Providers have learned 
+        how to stay involved even as Eclipse has grown.  I believe there are many more
+        Add-in Providers who want to be active, not passive, members of Eclipse but simply
+        don't know how. Add-in Providers need to be better organized so that they can more
+        easily see how to get involved.  This may be done by simply adding an
+        "Add-in Provider Help Wanted" page on the Eclipse web site. In addition, Add-in
+        providers need to be recognized as a core pillar of Eclipse. This can be done
+        through better recognition programs for active Add-in Providers and an increased
+        focus on Add-in Providers through Public Relations contacts.  Add-in Provider 
+        contribution is important.  What we don't want is for the Eclipse organization
+        to evolve to a place where Add-in Providers simply serve as an audience to the
+        Strategic Members.  We are the "members at large" and represent one of the core 
+        pillars of this organization.  		
+	]]> </vision>
+
+	<bio> <![CDATA[
+Tracy has had extensive experience in the development and implementation 
+        of business applications. She began her consulting career in 1989 consulting to
+        fortune 500 organizations in the areas of testing, configuration management and
+        build management. It was during her consulting experiences that Tracy recognized
+        the lack of build management procedures for the distributed platform that had
+        long been considered standard on the mainframe. This lead her to co-found Catalyst
+        Systems in 1995 and the creation of Openmake, one of the first commerical enterprise build
+        management tools on the market and the only build management tool that offers developers
+        a reusable solution for scripting builds. Tracy served as the CEO of Catalyst Systems 
+        for 12 years.She has a Bachelor of Science Degree from California Polytechnic
+	University, Pomona, CA.
+	]]> </bio>
+
+	<affiliation> <![CDATA[
+Tracy has many interests outside of the Computer industry.  She
+        is involved in animal rescue, rides quarter horses, trains dogs and holds a first degree black
+        belt in ISKF Shotokan Karate.
+	]]> </affiliation>
+		
+</boardmember>

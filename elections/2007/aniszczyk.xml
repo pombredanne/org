@@ -1,0 +1,54 @@
+<boardmember id="aniszczyk" type="committer">
+
+	<name>Chris Aniszczyk</name>
+
+	<title>  </title>
+
+	<image>aniszczyk.jpg</image>
+
+	<email>zx@us.ibm.com </email>
+
+	<phone>+1.860.839.2465 </phone>
+
+	<contact> <![CDATA[
+		
+	]]> </contact>
+
+	<eclipse_affiliation> <![CDATA[
+		
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+Vision:
+My vision for Eclipse is simple, keep building the community so Eclipse can prosper. In order to build a prosperous community of committers, developers and users, there needs to be effective communication across all parties. I will use communication channels like my blog, planet eclipse, newsgroups, mailing lists and IRC to:
+- Gather suggestions from committers, developers and users
+- Keep a wiki and send periodic updates on what I (and the other representatives) have accomplished for committers
+I have many ideas on how to make Eclipse more successful, but my main commitment will be to quality. Eclipse is growing quickly and there needs to be an emphasis on ensuring the quality that made Eclipse successful in the first place will be represented across all projects.
+To ensure high quality and consistency across all eclipse.org projects I will:
+- Ensure that our standards of quality are upheld by committers, new and old alike
+- Uphold high standards for gaining commit rights to a component
+- Support higher criteria for joining Eclipse release trains
+- Make our processes more transparent
+Other interests of mine are to:
+- Build bridges with Eclipse and other open source (like Apache) or commercial projects.
+- Discuss creating Eclipse committer mashups
+- Get more Eclipse committers blogging so they can experience the community
+- Create an Eclipse world tour to entice new developers (and companies) to Eclipse and connect with existing Eclipse enthusiasts
+In the end, my goal is to ensure high quality across all eclipse.org projects, be transparent about the board's activities and have the honor to represent you, the committers, to my fullest abilities.		
+
+]]> </vision>
+
+	<bio> <![CDATA[
+Chris is an Eclipse committer at IBM Lotus who focuses on OSGi-related development. His primary focus these days is improving Eclipse's Plug-in Development Environment (PDE) and spreading the Eclipse love inside of IBM's Lotus organization. Chris lives and breathes Eclipse through evangelizing about Eclipse in his blog (and various other publications). He also regularly attends conferences and universities to give presentations about Eclipse.
+In the Eclipse community, Chris is responsible for maintaining the public forum known as PlanetEclipse and growing Eclipse's IRC presence. In his spare time, he has been working on finishing a graduate business degree from the University of Texas at Austin.
+
+	
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 		
+	IBM
+	]]>
+	</affiliation>
+
+		
+</boardmember>
