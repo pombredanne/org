@@ -8,25 +8,27 @@
 
 <email> mike_taylor@instantiations.com </email>
 
-<phone> 503.598.4911 </phone>
+<phone> 503 598-4911 </phone>
 
 <contact> <![CDATA[<p><a 
 href="http://www.instantiations.com/moreaboutmike.htm">Click here to 
 learn about Mike</a>.</p>]]> </contact>
 
-<eclipse_affiliation> <![CDATA[As one of your current Add-in Provider 
+<eclipse_affiliation> <![CDATA[
+<p>As one of your current Add-in Provider 
 (AIP) Board members I strongly supported the interests of our 
 community in 2006 and would be honored to represent you again in 
 2007. Over the past year I've been actively involved in transitioning 
 EPIC (Eclipse Plugin Central) from private ownership to the Eclipse 
 Foundation, resulting in a significant increase in visibility for 
-Eclipse-based commercial and open source plugins. I also chaired 
+Eclipse-based commercial and open source plugins. </p>
+<p>I also chaired 
 Eclipse's Market Research and Training Research Working Groups, and 
 actively participated in a range of Eclipse Foundation and community 
 activities. Since 1999 my professional priorities have been, and 
 continue to be, building open source and commercial technologies, 
 establishing a profitable Eclipse-based company, and growing the 
-Eclipse community. <i>Instantiations is all Eclipse all the time.</i> 
+Eclipse community. <i>Instantiations is all Eclipse all the time.</i></p> 
 ]]></eclipse_affiliation>
 
 <vision> <![CDATA[<p>My vision for 2007 is to:</p><ul>

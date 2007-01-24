@@ -9,86 +9,87 @@
 
 	<email>todd.williams@genuitec.com </email>
 
-	<phone>972-691-5717</phone>
+	<phone>972.691.5717</phone>
 
 	<contact>
 		<![CDATA[
-		Genuitec, LLC
-		2221 Justin Road #119-340
-		Flower Mound, Texas  75028
+		Genuitec, LLC<br>
+		2221 Justin Road #119-340<br>
+		Flower Mound, Texas  75028<br>
 		]]>
 	</contact>
 
 	<eclipse_affiliation>
 		<![CDATA[
-		I've have been an active board member of the Eclipse Foundation since early 
+		<p>I've have been an active board member of the Eclipse Foundation since early 
 		2003, initially as the representative for Genuitec LLC, (a founding member of 
 		the Eclipse Foundation) and more recently as an elected Add-in Provider representative. 
 		Additionally, I also serve the Foundation as the chairman of the Membership Committee, 
 		as a member of the Web Tools Project requirements group,
 		and as a committer on the Phoenix project due to Genuitec's 
 		founding role in the EPIC Alliance, which recently 
-		donated Eclipse Plug-in Central to the Foundation.
+		donated Eclipse Plug-in Central to the Foundation.</p>
 		
-		For the past five years I've been constantly evangelizing Eclipse 
+		<p>For the past five years I've been constantly evangelizing Eclipse 
 		technology and providing thought leadership through numerous consulting 
 		opportunities, speaking engagements, member recruitment and magazine 
-		articles. 
+		articles.</p> 
 		
-		Much more detail on my Eclipse activities can be found by Googling: Todd Williams Eclipse
+		<p>Much more detail on my Eclipse activities can be found by Googling: Todd Williams Eclipse</p>
 		]]>
 	</eclipse_affiliation>
 
 	<vision> 
 		<![CDATA[
-		    Executive Summary
-		
-		    * Emphasize the requirements of the add-in provider community over other ecosystem participants
-		    * Advocate the commercial interests of add-in providers so Eclipse continues to be a sound investment
-		    * Provide time to adjust to innovations by promoting managed, predictable development cycles
-		    * Protect add-in provider value by emphasizing flexible, extensible frameworks over commercially competitive tools
-		    * Promote the expansion of Eclipse into new and emerging market segments to engender new business opportunities
+		    <p>Executive Summary</p>
+		<ul>
+		    <li>Emphasize the requirements of the add-in provider community over other ecosystem participants</li>
+		    <li>Advocate the commercial interests of add-in providers so Eclipse continues to be a sound investment</li>
+		    <li>Provide time to adjust to innovations by promoting managed, predictable development cycles</li>
+		    <li>Protect add-in provider value by emphasizing flexible, extensible frameworks over commercially competitive tools</li>
+		    <li>Promote the expansion of Eclipse into new and emerging market segments to engender new business opportunities</li>
+</ul>
 	
-		    The success of Eclipse stems from the unique, managed balance between the needs of its three diverse communities: the committers,
+		    <p>The success of Eclipse stems from the unique, managed balance between the needs of its three diverse communities: the committers,
 		    the add-in providers, and the end users. To gain critical mass, Eclipse began by catering to the needs of the end users. But, now that there are 
 		    hundreds of products in the add-in ecosystem and an explosion of interest in the rich client platform, the makeup of the Eclipse community is 
-		    rapidly changing and its needs will continue to change.
+		    rapidly changing and its needs will continue to change.</p>
 	
-		    As Eclipse evolves, we must continue to delicately adjust our focus to maintain our community synergy. 
+		    <p>As Eclipse evolves, we must continue to delicately adjust our focus to maintain our community synergy. 
 	        For example, if we were to cater to the desires of the end users too heavily, 
 		    we could actually remove the incentive to becoming an add-in provider or adopting Eclipse as a platform entirely. 
 	        Since the initial investment required to build and market a product is so large, commercial product investment would simply be seen as too 
-		    risky given that our target markets would quickly be commoditized by our own platform.
+		    risky given that our target markets would quickly be commoditized by our own platform.</p>
 
-	        To prevent this self-commoditization, we must proactively manage the pace, transparency, and 
+	        <p>To prevent this self-commoditization, we must proactively manage the pace, transparency, and 
 		    predictability of our innovations in order to give our members time to adjust their business models appropriately. 
 		    However, to remain viable for any of us in the long-term, we must also continue to increase our efforts around creating 
 		    commercial opportunity for our members while we foster innovation within the projects, both of which will ensure that 
-		    the word "Eclipse" will always be perceived as a high-quality ingredient brand.   
+		    the word "Eclipse" will always be perceived as a high-quality ingredient brand.</p>   
 		]]>	
 	</vision>
 
 	<bio> 
 		<![CDATA[
-			 As a co-founder of Genuitec, I run both the R&D Lab and Consulting Practice for Eclipse Technology.  These dual roles provide me with a unique 
+			 <p>As a co-founder of Genuitec, I run both the R&D Lab and Consulting Practice for Eclipse Technology.  These dual roles provide me with a unique 
 			 perspective on innovation and its commercial applications with Eclipse technology. Additionally, I have over twenty years of experience in 
 			 the development of computing infrastructures, large scale distributed software architectures, and the optimization of 
-			 development processes, techniques, and tools.  
+			 development processes, techniques, and tools.</p>  
 			 
-			 If interested, a more detailed bio can be found on Genuitec's website here: http://www.genuitec.com/about/leadership.html
+			 <p>If interested, a more detailed bio can be found on Genuitec's <a href="http://www.genuitec.com/about/leadership.html">website</a>. </p>
 		]]>
 	</bio>
 
 	<affiliation> 
 		<![CDATA[
-			Genuitec L.L.C. is a leading provider of innovative Eclipse-based technology products, training, and consulting services. 
+			<p>Genuitec L.L.C. is a leading provider of innovative Eclipse-based technology products, training, and consulting services. 
 			Genuitec's flagship product, MyEclipse Enterprise Workbench, is a full-featured Web/J2EE/AJAX IDE that enhances Eclipse with hundreds 
-			of additional features that enable highly productive enterprise development. 
+			of additional features that enable highly productive enterprise development.</p> 
 		
-			Genuitec also offers training and expert consulting and development services for the Eclipse SDK and Rich Client Platforms.  
+			<p>Genuitec also offers training and expert consulting and development services for the Eclipse SDK and Rich Client Platforms.  
 			Genuitec joined the Eclipse Foundation early in 2003 and currently has an employee serving as an elected member of the board 
 			of directors where he actively participates in the strategy development and direction of the organization. 
-			Genuitec L.L.C. was founded in 1997 and is headquartered in Flower Mound, Texas.	
+			Genuitec L.L.C. was founded in 1997 and is headquartered in Flower Mound, Texas.</p>	
 		]]>
 	</affiliation>
 

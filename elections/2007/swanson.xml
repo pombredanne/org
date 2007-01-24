@@ -2,54 +2,62 @@
 	<name>Darin Swanson</name>
 	<title>Senior Software Engineer </title>
 	<image>swanson.jpg</image>
-	<email>Darin_Swanson at us.ibm.com</email>
-	<phone>1 503.578.3252</phone>
+	<email>Darin_Swanson@us.ibm.com</email>
+	<phone>1.503.578.3252</phone>
 
 	<contact> <![CDATA[
-		15400 SW Koll Parkway,
-		Beaverton, OR,
+		15400 SW Koll Parkway<br>
+		Beaverton, OR<br>
 		USA, 97006-6063
 	]]> </contact>
 
 	<eclipse_affiliation> <![CDATA[
-		Platform Ant Team Lead
-		Platform Debug and JDT Debug Committer
+		Platform Ant Team Lead<br>
+		Platform Debug and JDT Debug Committer<br>
 		Platform UI Committer]]>
 	</eclipse_affiliation>
 
 	<vision>  <![CDATA[
-One of the key strengths of Eclipse is its community. This community has been fostered and nourished with care by the Eclipse foundation and flourished with the input and work by the Eclipse committers. 
-As we move forward, I see several key points related to our community that need attention.
+<p>One of the key strengths of Eclipse is its community. This community has been fostered and nourished with care by the Eclipse foundation and flourished with the input and work by the Eclipse committers.</p>
+<p>As we move forward, I see several key points related to our community that need attention.</p>
 
-Strengthen the committers: Over the past 5 years, I have had the privilege of working with many of the talented committers who are involved with Eclipse. I feel we need to make the committer’s tasks easier in order for their continued success and enjoyment in developing Eclipse. I would work to:
-- Assign mentors for new Eclipse committers from the established, successful Eclipse committers. New projects in the Eclipse ecosystem work with mentors as outlined in the exiting development process so let us take this a step further and help new committers as well. Within the Eclipse Debug team this has been our established model for the past 5 years. We should extend beyond mentoring just within a team to enable more cross project interactions and always foster the “Culture of Quality”. The EMO could create a database of existing committers who would be willing to work with committers from completely unrelated projects. The mentorship would involve guidance regarding Eclipse principals such as openness, quality and change.
-- Help with the intellectual property challenges of dealing with Eclipse contributions through all possible streamlining and simplification of the process.  We all need education in this continually evolving area.
-- Enable ease of reuse of other open source software with a structured process and timeline for resolution. With each new version of Ant that I have integrated within Eclipse, the process has become more defined and reproducible but has greatly increased in the time it takes and has become difficult to determine when a decision will be reached on whether to move forward using the third party software.
-- Have the EMO organize committer meetings and code camps throughout the year in many different locations. The meetings and code camps I have attended have been warmly received by the community but have required extensive overhead in the planning and preparation of the committers involved. We should look to promoting the talents of the EMO staff to ease the overhead for these gatherings.
-- Help committers to have better awareness and to fully utilize the support from the Eclipse board and EMO and their committer representatives. Quarterly reports to committer mailing lists similar to the webmaster / infrastructure report would help the committers to know who and what is happening via the EMO, the board and the committer representatives.
+<p>Strengthen the committers: Over the past 5 years, I have had the privilege of working with many of the talented committers who are involved with Eclipse. I feel we need to make the committer’s tasks easier in order for their continued success and enjoyment in developing Eclipse. I would work to:</p>
+<ul>
+<li>Assign mentors for new Eclipse committers from the established, successful Eclipse committers. New projects in the Eclipse ecosystem work with mentors as outlined in the exiting development process so let us take this a step further and help new committers as well. Within the Eclipse Debug team this has been our established model for the past 5 years. We should extend beyond mentoring just within a team to enable more cross project interactions and always foster the “Culture of Quality”. The EMO could create a database of existing committers who would be willing to work with committers from completely unrelated projects. The mentorship would involve guidance regarding Eclipse principals such as openness, quality and change.</li>
+<li>Help with the intellectual property challenges of dealing with Eclipse contributions through all possible streamlining and simplification of the process.  We all need education in this continually evolving area.</li>
+<li>Enable ease of reuse of other open source software with a structured process and timeline for resolution. With each new version of Ant that I have integrated within Eclipse, the process has become more defined and reproducible but has greatly increased in the time it takes and has become difficult to determine when a decision will be reached on whether to move forward using the third party software.</li>
+<li>Have the EMO organize committer meetings and code camps throughout the year in many different locations. The meetings and code camps I have attended have been warmly received by the community but have required extensive overhead in the planning and preparation of the committers involved. We should look to promoting the talents of the EMO staff to ease the overhead for these gatherings.</li>
+<li>Help committers to have better awareness and to fully utilize the support from the Eclipse board and EMO and their committer representatives. Quarterly reports to committer mailing lists similar to the webmaster / infrastructure report would help the committers to know who and what is happening via the EMO, the board and the committer representatives.</li>
+</ul>
 
 
-Promote committer diversity: 	An Eclipse committer is made, not born. To become a committer, one must first be a contributor. There are numerous people who really do want to help but yet find it difficult to know where to begin. I would work to:
-- Offer and promote presentations for individuals interested in becoming contributors or committers. I attended just such a presentation at EclipseCon 2006 which detailed how to be an Eclipse contributor and start down the path to contributor. This talk was very well attended.  To many people in the crowd most of the presentation was new information. As an original committer on the Eclipse project, I often need to be reminded that parts of our process are more implicit than explicit to our community and may appear that we have less than fully open elements within our process.  A whole track at EclipseCon 2008 on the Eclipse way and development process is something I would work towards.
-- Organize events strictly to promote Eclipse contributions coupled with directed follow-up from established committers. I spent a considerable amount of time fostering a relationship with an Eclipse contributor for the Eclipse Ant integration. It was worth the effort as many high quality contributions to Eclipse that provided new features that would have not otherwise been implemented due to time constraints of the main development team.
+<p>Promote committer diversity: An Eclipse committer is made, not born. To become a committer, one must first be a contributor. There are numerous people who really do want to help but yet find it difficult to know where to begin. I would work to:</p>
+<ul>
+<li>Offer and promote presentations for individuals interested in becoming contributors or committers. I attended just such a presentation at EclipseCon 2006 which detailed how to be an Eclipse contributor and start down the path to contributor. This talk was very well attended.  To many people in the crowd most of the presentation was new information. As an original committer on the Eclipse project, I often need to be reminded that parts of our process are more implicit than explicit to our community and may appear that we have less than fully open elements within our process.  A whole track at EclipseCon 2008 on the Eclipse way and development process is something I would work towards.</li>
+<li>Organize events strictly to promote Eclipse contributions coupled with directed follow-up from established committers. I spent a considerable amount of time fostering a relationship with an Eclipse contributor for the Eclipse Ant integration. It was worth the effort as many high quality contributions to Eclipse that provided new features that would have not otherwise been implemented due to time constraints of the main development team.</li>
 
-Cross community engagements: Eclipse Members and the ecosystem live in multiple open source communities either exclusively or mixed with commercial software products. As well, the Eclipse ecosystem is large enough to require and benefit from cross project interactions. I believe this will help to increase awareness of each projects challenges and successes. I would work to:
-- Ease any barriers through meetings and associated code camp so we can learn from each other, both internal and external to Eclipse. Encourage usage of each others offerings. My experience of watching how the Apache Ant project is organized has often allowed me to suggest possible improvements to my team’s process. Their model of openness for planning and resolution of conflicts is something I believe Eclipse can learn from.
+<p>Cross community engagements: Eclipse Members and the ecosystem live in multiple open source communities either exclusively or mixed with commercial software products. As well, the Eclipse ecosystem is large enough to require and benefit from cross project interactions. I believe this will help to increase awareness of each projects challenges and successes. I would work to:</p>
+<ul>
+<li>Ease any barriers through meetings and associated code camp so we can learn from each other, both internal and external to Eclipse. Encourage usage of each others offerings. My experience of watching how the Apache Ant project is organized has often allowed me to suggest possible improvements to my team’s process. Their model of openness for planning and resolution of conflicts is something I believe Eclipse can learn from.</li>
+</ul>
 
-Strengthen and grow the existing community: We have a strong vibrant Eclipse community. We need to continue to empower and grow this community. I would work to:
-- Ensure that we continue to improve the Eclipse web presence and its ease of navigation. Within my posts on the Eclipse newsgroups I often find it difficult to quickly find the helper documentation I wish to point the user to…even when I was the creator of this documentation.
-- Streamline the Eclipse contribution process to be easy to understand and execute. 
-- Foster the openness of all projects and make them more inviting. We have formal procedures in the development process but we always need to encourage an attitude of acceptance and openness within all the projects and committers.
-- Address the “Resolved Later” Bugzilla issue. I do not currently have a solution but I do know that it is bothering many people in the community and I think it is time we tackled the problem head on.
+<p>Strengthen and grow the existing community: We have a strong vibrant Eclipse community. We need to continue to empower and grow this community. I would 
+work to:</p>
+<ul>
+<li>Ensure that we continue to improve the Eclipse web presence and its ease of navigation. Within my posts on the Eclipse newsgroups I often find it difficult to quickly find the helper documentation I wish to point the user to…even when I was the creator of this documentation.</li>
+<li>Streamline the Eclipse contribution process to be easy to understand and execute.</li> 
+<li>Foster the openness of all projects and make them more inviting. We have formal procedures in the development process but we always need to encourage an attitude of acceptance and openness within all the projects and committers.</li>
+<li>Address the “Resolved Later” Bugzilla issue. I do not currently have a solution but I do know that it is bothering many people in the community and I think it is time we tackled the problem head on.</li>
+</ul>
  
-All of these items can be summarized with ensuring that we fully utilize the power of the Eclipse ecosystem to enable continued success. I would like to offer my experience and talents to help make this a reality.
+<p>All of these items can be summarized with ensuring that we fully utilize the power of the Eclipse ecosystem to enable continued success. I would like to offer my experience and talents to help make this a reality.</p>
 		]]> 
 	</vision>	
 
 	<bio> <![CDATA[
-	Darin Swanson is one of the original committers on the Eclipse project, working as the Ant Component lead for the Eclipse Platform Project and as a key committer for the Eclipse debug support. He was also involved in the development of Eclipse's precursors: VisualAge Micro Edition Java IDE and the Visual Age for Java product. 
-	Darin has presented numerous Eclipse tutorials and talks at several conferences and has helped organize and participated in numerous code camps. He actively fields questions in the Eclipse newsgroups and has been nominated as a top committer. 
-	He is also active in other open source arenas having participated in mailing list discussions, reported bugs and supplied patches to the CruiseControl and Apache Ant projects.]]> 
+	<p>Darin Swanson is one of the original committers on the Eclipse project, working as the Ant Component lead for the Eclipse Platform Project and as a key committer for the Eclipse debug support. He was also involved in the development of Eclipse's precursors: VisualAge Micro Edition Java IDE and the Visual Age for Java product.</p> 
+	<p>Darin has presented numerous Eclipse tutorials and talks at several conferences and has helped organize and participated in numerous code camps. He actively fields questions in the Eclipse newsgroups and has been nominated as a top committer.</p> 
+	<p>He is also active in other open source arenas having participated in mailing list discussions, reported bugs and supplied patches to the CruiseControl and Apache Ant projects.</p> ]]> 
 	</bio>
 	<affiliation> <![CDATA[IBM]]>	
 	</affiliation>
