@@ -41,7 +41,7 @@
 		<img src="$candidate->image" width="150" align="right">
 		<h1>$pageTitle</h1>
 		<p>$candidate->title</p>
-		<em>Nominee for $type_name representative.</em>
+		<em>Nominee for $type_name representative</em>
 		<p>$candidate->eclipse_affiliation</p>
 		<table border="0">
 			<tr valign="top"><td>e-mail:</td><td><a href="mailto:$candidate->email">$candidate->email</a></td></tr>
