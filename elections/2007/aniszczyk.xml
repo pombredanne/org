@@ -4,9 +4,10 @@
 
 	<title>Eclipse Committer  </title>
 
-	<image>aniszczyk.jpg</image>
+	<image>caniszczyk.jpg</image>
 
-	<email>zx@us.ibm.com </email>
+	<email> <![CDATA[
+	zx@us.ibm.com ]]> </email>
 
 	<phone>+1.860.839.2465 </phone>
 
