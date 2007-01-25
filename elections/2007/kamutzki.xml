@@ -18,7 +18,7 @@
 	]]> </contact>
 
 	<eclipse_affiliation>
-	Eclipse is an intrinsic element of MicroDoc’s technology portfolio. The unique combination of technical flexibility and economical promises of a commercially usable open source platform made Hans Kamutzki decide to have his developers deep dive into Eclipse as early as 2002. Since then MicroDoc is closely following the path of Eclipse technology. As head of the embedded Java operations within MicroDoc, Hans is actively promoting the eRCP (embedded Rich Client Platform) in customer projects and internal product development. 	
+	Eclipse is an intrinsic element of MicroDoc's technology portfolio. The unique combination of technical flexibility and economical promises of a commercially usable open source platform made Hans Kamutzki decide to have his developers deep dive into Eclipse as early as 2002. Since then MicroDoc is closely following the path of Eclipse technology. As head of the embedded Java operations within MicroDoc, Hans is actively promoting the eRCP (embedded Rich Client Platform) in customer projects and internal product development. 	
 	</eclipse_affiliation>
 
 
@@ -27,7 +27,7 @@ My vision as a candidate for the Eclipse Board is:
 <ul>
 <li>Support the growth of the Eclipse Eco System as a pervasive industrial strength software platform for servers, clients and mobile/embedded devices.</li> 
 <li>Help to establish Eclipse in research and education to make sure graduates can seamlessly be integrated into industrial SW production.</li> 
-<li>Strengthen the influence of European “add in” providers in the community.</li>
+<li>Strengthen the influence of European add-in providers in the community.</li>
 <li>Address legal issues in the framework of European legislation raised by the fact that EPL and other important provision are US law based. </li>
 <li>Help to develop a clear understanding of the legal/commercial implications of the use of software under the EPL in Europe.</li>
 	]]> </vision>
@@ -38,8 +38,8 @@ My vision as a candidate for the Eclipse Board is:
 
 
 	<affiliation>![CDATA[ 
-<p>MicroDoc is a software consultancy and product development business founded in 1991 by Hendrik Höfer and Hans Kamutzki. In the 90, MicroDoc's focus was on object oriented programming with Smalltalk. Hans Kamutzki was a main contributor to a MicroDoc product called "Object for Notes", a technical Smalltalk to Lotus Notes gateway, that was licensed to IBM in 1995. He worked as a technical and operational liaison between MicroDoc and IBM and spent several month with integration work in the RTP labs in Raleigh, NC and on other lab engagements.</p> 
-<p>Even before Java became a mainstream, MicroDoc invested in this technology and provided a number of product components to the international market of reusable components. Among these products are Java based persistence frameworks, an EJB persistency container and a variety of migration and quality assurance tools as well as some contributions to IBM’s VisualAge for Java product. MicroDoc's work with Eclipse started in 2002 with an IDE migration project for a large airline.</p> 
+<p>MicroDoc is a software consultancy and product development business founded in 1991 by Hendrik Hofer and Hans Kamutzki. In the 90, MicroDoc's focus was on object oriented programming with Smalltalk. Hans Kamutzki was a main contributor to a MicroDoc product called "Object for Notes", a technical Smalltalk to Lotus Notes gateway, that was licensed to IBM in 1995. He worked as a technical and operational liaison between MicroDoc and IBM and spent several month with integration work in the RTP labs in Raleigh, NC and on other lab engagements.</p> 
+<p>Even before Java became a mainstream, MicroDoc invested in this technology and provided a number of product components to the international market of reusable components. Among these products are Java based persistence frameworks, an EJB persistency container and a variety of migration and quality assurance tools as well as some contributions to IBM's VisualAge for Java product. MicroDoc's work with Eclipse started in 2002 with an IDE migration project for a large airline.</p> 
 <p>Eclipse has become a universal tool within MicroDoc since then. Eclipse is used as a development platform, but also heavily as a runtime environment for RCP and eRCP clients and server applications. As MicroDoc is building end to end solutions (starting on the mainframe and scaling down to mobile and embedded devices) the Eclipse RCP/eRCP platforms are essential building blocks for harmonizing the architecture in many MicroDoc projects today. As a Managing Directory, Hans is in charge for the embedded Java business as well as legal and contractual matters within MicroDoc today.</p>
 	]]></affiliation>
 

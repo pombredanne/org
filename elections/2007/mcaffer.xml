@@ -16,14 +16,25 @@
 	Canada K2B 8K1 ]]> </contact>
 
 	<eclipse_affiliation> <![CDATA[
-<a href="http://eclipse.org/equinox">Equinox</a>, <a href="http://eclipse.org/orbit">Orbit</a> and <a href="http://eclipse.org/rcp">RCP</a> lead, Eclipse project and Tools project PMC member, Eclipse Foundation Board of Directors Committer representative (2006) </eclipse_affiliation>
+<a href="http://eclipse.org/equinox">Equinox</a>, <a href="http://eclipse.org/orbit">Orbit</a> and 
+<a href="http://eclipse.org/rcp">RCP</a> lead, Eclipse project and Tools project PMC member, 
+Eclipse Foundation Board of Directors Committer representative (2006) ]]> </eclipse_affiliation>
 
 	<vision> <![CDATA[ 
 <p>
-Last year during the <a href="http://www.eclipse.org/org/elections/candidate.php?id=jmcaffer&year=2006">2006 committer elections</a> I outlined how Eclipse has been a roaring success in a number of areas (IDEs and various tooling platforms/extensions, RCP, OSGi etc.) and how Eclipse as a whole was equated with "quality", "industrial strength" and "componentization".  Over the past year we have renewed our committment to quality and extended the reach of Eclipse technologies to new languages and environments including the use of Eclipse as a server-side runtime.  This is all very exciting.
+Last year during the <a href="http://www.eclipse.org/org/elections/candidate.php?id=jmcaffer&year=2006">2006 committer elections</a> 
+I outlined how Eclipse has been a roaring success in a number of areas
+ (IDEs and various tooling platforms/extensions, RCP, OSGi etc.) and how Eclipse as a whole was equated 
+ with "quality", "industrial strength" and "componentization".  
+ Over the past year we have renewed our committment to quality and extended the reach of 
+ Eclipse technologies to new languages and environments including the use of Eclipse as a server-side runtime.  This is all very exciting.
 </p>
 <p>
-In my 2006 vision statement I also highlighted several challenges facing Eclipse as a technology and as a community.  Over the past year I, and the other committer representatives, have been working hard at addressing these issues and have had considerable success. One of the areas in which frankly we have failed, is in communicating effectively the progress achieved.  Belatedly then, I include below a summary of the areas in which I have been most interested and most able to contribute to improving the lives of committers and the larger Eclipse community.
+In my 2006 vision statement I also highlighted several challenges facing Eclipse as a technology and as a community.  
+Over the past year I, and the other committer representatives, have been working hard at addressing these issues 
+and have had considerable success. One of the areas in which frankly we have failed, is in communicating effectively 
+the progress achieved.  Belatedly then, I include below a summary of the areas in which I have been most interested 
+and most able to contribute to improving the lives of committers and the larger Eclipse community.
 </p>
 <ul>
 <li><b>Development process</b> :  Bjorn Freeman-Benson put an enormous amount of effort into updating the <a href="http://wiki.eclipse.org/index.php/Development_Process_2006_Revision_Final">Eclipse Development Process</a> to be more practical and to better match what is happening today.  I strongly supported and actively participated in this effort.</li>
@@ -37,32 +48,67 @@ In my 2006 vision statement I also highlighted several challenges facing Eclipse
 
 <h3>Looking forward</h3>
 <p>
-What challenges then does 2007 hold?  Overall my focus for 2007 will be on improving quality (of life in Eclipse and of our projects) and driving anything that improves the integration and synergy between our projects. Specifically I will focus on a handful of areas in which we can make concrete progress over the next 12 months.
+What challenges then does 2007 hold?  Overall my focus for 2007 will be on improving quality 
+(of life in Eclipse and of our projects) and driving anything that improves the integration and 
+synergy between our projects. Specifically I will focus on a handful of areas in which we can make concrete progress over the next 12 months.
 </p>
 <p>
-<b>Growth</b> : The Eclipse community continues to grow by leaps and bounds.  We added, on average, one new project every month in 2006 (20% increase) and on average there were 8 projects in the proposal phase at any given point in time!  Phenomenal!  Growth and scale, however, continue to be concerns for the community.  The new development process and mentoring provisions form a sound basis but considerable effort will be required to implement the plan.  The Foundation and the community must take this on as a top priority.
+<b>Growth</b> : The Eclipse community continues to grow by leaps and bounds.  
+We added, on average, one new project every month in 2006 (20% increase) and on average 
+there were 8 projects in the proposal phase at any given point in time!  Phenomenal!  
+Growth and scale, however, continue to be concerns for the community.  The new development process and 
+mentoring provisions form a sound basis but considerable effort will be required to implement the plan.  
+The Foundation and the community must take this on as a top priority.
 </p>
 <p>
-<b>Europa</b> : <a href="http://www.eclipse.org/callisto/">Callisto</a> as an experiment was a resounding success.  For Europa to build on that success we need to make it easier for you to contribute your components and easier for our users to consume your facilities.  Efforts such as the <a href="http://www.eclipse.org/proposals/packaging/">Packaging project</a> and the work going on in <a href="http://www.eclipse.org/proposals/kepler/">Kepler</a> and <a href="http://wiki.eclipse.org/index.php/Buckminster">Buckminster</a> are of particular importance.  Also pressing is the need to instill an even higher <b>quality ethic</b> across all Eclipse projects contributing to Europa.  Projects riding the release train must be held to a higher standard.
+<b>Europa</b> : <a href="http://www.eclipse.org/callisto/">Callisto</a> as an experiment was a resounding success.  
+For Europa to build on that success we need to make it easier for you to contribute your components and easier 
+for our users to consume your facilities.  
+Efforts such as the <a href="http://www.eclipse.org/proposals/packaging/">Packaging project</a> and the work going 
+on in <a href="http://www.eclipse.org/proposals/kepler/">Kepler</a> 
+and <a href="http://wiki.eclipse.org/index.php/Buckminster">Buckminster</a> are of particular importance.  
+Also pressing is the need to instill an even higher <b>quality ethic</b> across all Eclipse projects contributing to Europa.  
+Projects riding the release train must be held to a higher standard.
 </p>
 <p>
-<b>Synergies</b> : Once again this year seeking out and exploiting synergies is key to the overall advancement of Eclipse.  We need more events such as the <a href="http://wiki.eclipse.org/index.php/Europa_Build_Workshop">Build workshop</a> that pull committers together to focus on a common problem.  Workshops on provisioning and server-side Eclipse, further build workshops and workshops on other crosscutting areas of Eclipse should be held.  Similarly, we continue to intersect significantly with other open source communities such as Apache.  The Foundation must continue to promote collaboration and cooperation with these communities.
+<b>Synergies</b> : Once again this year seeking out and exploiting synergies is key to the overall 
+advancement of Eclipse.  We need more events such as the <a href="http://wiki.eclipse.org/index.php/Europa_Build_Workshop">Build 
+workshop</a> that pull committers together to focus on a common problem.  Workshops on provisioning and server-side Eclipse, 
+further build workshops and workshops on other crosscutting areas of Eclipse should be held.  Similarly, 
+we continue to intersect significantly with other open source communities such as Apache.  The Foundation 
+must continue to promote collaboration and cooperation with these communities.
 </p>
 <p>
-<b>Fine Print</b> : It would be foolhardy to claim that the IP process problems have been resolved.  Several steps have been taken and progress has been made on the contribution request backlog.  Recent changes to the IP policy will free incubating projects to progress.  In 2007 we must monitor the IP review queue trends and continue looking for further opportunities for improvement.
+<b>Fine Print</b> : It would be foolhardy to claim that the IP process problems have been resolved.  
+Several steps have been taken and progress has been made on the contribution request backlog.  
+Recent changes to the IP policy will free incubating projects to progress.  
+In 2007 we must monitor the IP review queue trends and continue looking for further opportunities for improvement.
 </p>
 <p>
-<b>Feedback</b> : As I mentioned above, over the past year the committer-elected board members have failed to communicate frequently and openly with the community.  In 2007 we must make an explicit and regular effort to report on issues and progress so as to keep you informed and get your input and ideas.
+<b>Feedback</b> : As I mentioned above, over the past year the committer-elected board members have failed to 
+communicate frequently and openly with the community.  In 2007 we must make an explicit and regular effort to 
+report on issues and progress so as to keep you informed and get your input and ideas.
 </p>
 <p>
-<b>Summary</b> : My experience in starting several projects and being on two PMCs gives me a unique perspective on the needs of the Eclipse committer community.  I would be honoured to serve again on the board of directors and work to further the goals and ideas outlined above.  
+<b>Summary</b> : My experience in starting several projects and being on two PMCs gives me a unique 
+perspective on the needs of the Eclipse committer community.  I would be honoured to serve again on the 
+board of directors and work to further the goals and ideas outlined above.  
 </p>
 
 
 	]]> </vision>
 
 	<bio> <![CDATA[
-<p>Jeff McAffer leads the Eclipse <a href="http://eclipse.org/equinox">Equinox OSGi</a>, <a href="http://eclipse.org/rcp">RCP</a> and <a href="http://eclipse.org/orbit">Orbit</a> teams and is a Senior Technical Staff Member with IBM Rational.  He is one of the architects of the Eclipse Platform and a co-author of <a href="http://eclipsercp.org">The Eclipse Rich Client Platform</a> (Addison-Wesley).  He is a member of the <a href="http://eclipse.org/eclipse/team-leaders.php">Eclipse Project PMC</a>, the <a href="http://eclipse.org/tools/team-leaders.php">Tools Project PMC</a> and the Eclipse Foundation Board of Directors.  Jeff is currently interested all aspects of Eclipse componentry from developing and building bundles to deploying, installing and ultimately running them.  Previous lives included work in distributed/parallel OO computing (Server Smalltalk, massively parallel Smalltalk, etc) as well as expert systems, meta-level architectures and a PhD at the University of Tokyo.</p>
+<p>Jeff McAffer leads the Eclipse <a href="http://eclipse.org/equinox">Equinox OSGi</a>, 
+<a href="http://eclipse.org/rcp">RCP</a> and <a href="http://eclipse.org/orbit">Orbit</a> teams and is a 
+Senior Technical Staff Member with IBM Rational.  He is one of the architects of the Eclipse Platform 
+and a co-author of <a href="http://eclipsercp.org">The Eclipse Rich Client Platform</a> (Addison-Wesley).  
+He is a member of the <a href="http://eclipse.org/eclipse/team-leaders.php">Eclipse Project PMC</a>, 
+the <a href="http://eclipse.org/tools/team-leaders.php">Tools Project PMC</a> and the Eclipse Foundation Board of Directors.  
+Jeff is currently interested all aspects of Eclipse componentry from developing and building bundles to deploying, 
+installing and ultimately running them.  Previous lives included work in distributed/parallel OO computing 
+(Server Smalltalk, massively parallel Smalltalk, etc) as well as expert systems, meta-level architectures and a 
+PhD at the University of Tokyo.</p>
 	]]> </bio>
 
 	<affiliation> IBM, OSGi Core Platform Expert Group member

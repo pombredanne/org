@@ -1,4 +1,3 @@
-
 <boardmember id="lewis" type="addin">
 
 <name>Howard H. Lewis</name>
@@ -7,7 +6,8 @@
 
 <image>lewis.jpg </image>
 
-<email>hlewis@slickedit.com or hlewis@discoverymachine.com</email>
+<email>hlewis@slickedit.com </email> 
+<email>hlewis@discoverymachine.com< /email>
 
 <phone>919.819.4310</phone>
 
@@ -24,15 +24,19 @@ Williamsport, PA 17701 <br>
 ]]> </contact>
 
 <eclipse_affiliation> <![CDATA[
-Mr. Lewis is currently the Add-In Provider Representative to the Eclipse Foundation for SlickEdit Inc. and Discovery
+<p>Mr. Lewis is currently the Add-In Provider Representative to the Eclipse Foundation for SlickEdit Inc. and Discovery
 Machine, Inc. He currently sits on the Board of the Eclipse Foundation and is a member of the 
 Compensation and Membership Committies and an EPIC Project Committer. He has been an active part of the Eclipse 'movement'
-for several years. 
+for several years. </p>
 ]]> </eclipse_affiliation>
 
 <vision> <![CDATA[	
-Mr. Lewis remains dedicated to helping make Eclipse THE preeminent open source movement. Preeminent as both the most useful and vibrant open source community and the most widely addopted commercial and non-commercial tool and RPC based deployment framework. He will continue to provide special focus on the needs of the Software Development, Knowledge Leverage and Life Sciences domains. He will continue to stay in contact will all members of the Add-in Provider community and actively promote the needs and growth of this key Eclipse Foundation membership body! 
-Focus Summary:<ol>
+<p>Mr. Lewis remains dedicated to helping make Eclipse THE preeminent open source movement.
+ Preeminent as both the most useful and vibrant open source community and the most widely
+  addopted commercial and non-commercial tool and RPC based deployment framework. 
+  He will continue to provide special focus on the needs of the Software Development, Knowledge Leverage and Life Sciences domains. He will continue to stay in contact will all members of the Add-in Provider community and actively promote the needs and growth of this key Eclipse Foundation membership body! </p>
+<p>Focus Summary:</p>
+<ol>
 <li>Promotion of member joint marketing, sales, and business development initiatives</li>
 <li>Continue to actively promote the adoption of mechanisms/channels to leverage the huge Eclipse pull for members; with a specific focus on EPIC related opportunities</li>
 <li>Continue to work to align the Eclipse Foundation priorities with the intent of promoting the interests of smaller Add-in Provider companies</li>
@@ -48,13 +52,21 @@ Focus Summary:<ol>
 <bio> <![CDATA[
 <p>Experience Summary:</p>
 <br>
-<p>Mr. Lewis has over 40 years of leadership experience in all facets of software and services companies. He has managed or performed all duties in startups and Fortune 10 companies, alike. Mr. Lewis is currently President and CEO of Discovery Machine, Inc., an Advisor to SlickEdit Inc., and Nevalon Technologies LLC.  Mr. Lewis currently serves on the boards of Discovery Machine, the Eclipse Foundation, and SlickEdit. He also is the Representative for SlickEdit and Discovery Machine in the Eclipse Foundation and the Discovery Machine Representative in the BioSPICE open source community.</p>
+<p>Mr. Lewis has over 40 years of leadership experience in all facets of software and 
+services companies. He has managed or performed all duties in startups and 
+Fortune 10 companies, alike. Mr. Lewis is currently President and CEO of Discovery Machine, Inc., an 
+Advisor to SlickEdit Inc., and Nevalon Technologies LLC.  Mr. Lewis currently serves on the boards of Discovery Machine, 
+the Eclipse Foundation, and SlickEdit. He also is the Representative for SlickEdit and Discovery Machine in the Eclipse Foundation and the Discovery Machine Representative in the BioSPICE open source community.</p>
 
 <p>Work History/Accomplishments:</p>
 <br>
 <p>2004-Present</p>
 
-<p>Mr. Lewis is currently President and CEO of Discovery Machine, Inc., an Advisor to SlickEdit Inc., and Nevalon Technologies LLC.  Mr. Lewis currently serves on the boards of Discovery Machine and SlickEdit. He also is the Add-in Provider Representative for SlickEdit and Discovery Machine in the Eclipse Foundation and the Discovery Machine Representative in the BioSPICE open source community.</p>
+<p>Mr. Lewis is currently President and CEO of Discovery Machine, Inc., 
+an Advisor to SlickEdit Inc., and Nevalon Technologies LLC.  
+Mr. Lewis currently serves on the boards of Discovery Machine and SlickEdit. 
+He also is the Add-in Provider Representative for SlickEdit and Discovery Machine 
+in the Eclipse Foundation and the Discovery Machine Representative in the BioSPICE open source community.</p>
 
 <p>2003</p>
 
@@ -70,7 +82,8 @@ Focus Summary:<ol>
 
 <p>1995-1998</p>
 
-<p>Mr. Lewis joined SEER Technologies, Inc. after completing a comprehensive study of the Seer Methodology and successfully completed Seer's training programs for the Seer•Method and Seer•HPS. While at SEER, Mr. Lewis held the following positions: Sr. Consultant, Sales Consulting Manager, Consulting Director of Eastern North America and retired as VP of Customer Relationships.  He was recognized with the Founders and Top Gun Awards (the only non-sales person to achieve recognition as the top sales leader in the company). He also; Lead the definition and implementation of a company wide Customer Relationship process and was responsible for key customer executive relationships around the world. He also led the definition and start-up of major consulting engagements, in the Transportation, Manufacturing and Services Industries, performing wide-ranging leadership tasks ranging from overall I/T strategy development through engagement management.</p>
+<p>Mr. Lewis joined SEER Technologies, Inc. after completing a comprehensive study of the Seer Methodology and successfully 
+completed Seer's training programs for the SeeriMethod and SeeriHPS. While at SEER, Mr. Lewis held the following positions: Sr. Consultant, Sales Consulting Manager, Consulting Director of Eastern North America and retired as VP of Customer Relationships.  He was recognized with the Founders and Top Gun Awards (the only non-sales person to achieve recognition as the top sales leader in the company). He also; Lead the definition and implementation of a company wide Customer Relationship process and was responsible for key customer executive relationships around the world. He also led the definition and start-up of major consulting engagements, in the Transportation, Manufacturing and Services Industries, performing wide-ranging leadership tasks ranging from overall I/T strategy development through engagement management.</p>
 
 <p>1995-Present</p>
 
@@ -86,11 +99,18 @@ Focus Summary:<ol>
 
 <p>About SlickEdit Inc.</p>
 
-<p>SlickEdit Inc. provides software developers with multilanguage development environments and the most advanced code editors available. Proven on Windows, Linux, UNIX and Mac OS X platforms, SlickEdit products enable even the most accomplished developers to code faster and meet increasingly aggressive deadlines.</p> 
+<p>SlickEdit Inc. provides software developers with multilanguage development environments and the most advanced code editors 
+available. Proven on Windows, Linux, UNIX and Mac OS X platforms, SlickEdit products enable even the most accomplished 
+developers to code faster and meet increasingly aggressive deadlines.</p> 
 
-<p>SlickEdit's best-of-breed products have created an award winning tradition over its 17-year history. From the numerous customer-based awards such as the Linux World Reader's Choice award and Programmer's Paradise Top Seller awards to the Editor's Choice award from e-Pro Magazine and the Software Development Hall of Fame award, SlickEdit products continually add to and expand on the product foundation of quality, speed, power and flexibility developed years ago by founder and CTO, J. Clark Maurer.</p>
+<p>SlickEdit's best-of-breed products have created an award winning tradition over its 17-year history. From the numerous 
+customer-based awards such as the Linux World Reader's Choice award and Programmer's Paradise Top Seller awards to the 
+Editor's Choice award from e-Pro Magazine and the Software Development Hall of Fame award, SlickEdit products continually 
+add to and expand on the product foundation of quality, speed, power and flexibility developed years ago by founder and CTO, J. Clark Maurer.</p>
 
-<p>Along with producing award-winning products, SlickEdit is considered to be an Employer of Choice and has achieved recognition as one of the Deloitte & Touche Fast 50 technology companies for four consecutive years. SlickEdit is committed to continuing this tradition of excellence.</p>
+<p>Along with producing award-winning products, SlickEdit is considered to be an Employer of Choice and has achieved 
+recognition as one of the Deloitte & Touche Fast 50 technology companies for four consecutive years. SlickEdit is committed to 
+continuing this tradition of excellence.</p>
 
 <p>SlickEdit Inc. is a privately held, small business with headquarters in the heart of the renowned Research Triangle, NC.</p>  
 <br>
@@ -98,11 +118,14 @@ Focus Summary:<ol>
 
 <p>Solving the fundamental challenges of knowledge leverage and human behavior modeling:</p>
  
-<p>Founded in 1999, Discovery Machine Inc. immediately gained success for it's revolutionary approach to knowledge acquisition and engineering. DMI is focused on making the transfer of knowledge easily accessible to non-technical experts.</p> 
+<p>Founded in 1999, Discovery Machine Inc. immediately gained success for it's revolutionary approach to 
+knowledge acquisition and engineering. DMI is focused on making the transfer of knowledge easily accessible to non-technical experts.</p> 
 
-<p>DMI provides custom solutions, software tools, comprehensive services and training to a broad range of industries that include national defense, homeland security, aerospace, manufacturing, and life sciences.</p> 
+<p>DMI provides custom solutions, software tools, comprehensive services and training to a broad range of 
+industries that include national defense, homeland security, aerospace, manufacturing, and life sciences.</p> 
 
-<p>Discovery Machine Inc. is a privately held, woman owned, small business with headquarters in Williamsport, PA., and offices in Raleigh, N.C.</p> 
+<p>Discovery Machine Inc. is a privately held, woman owned, small business with headquarters in Williamsport, PA., and 
+offices in Raleigh, N.C.</p> 
 ]]> </affiliation>
 		
 </boardmember>
