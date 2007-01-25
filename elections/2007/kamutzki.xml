@@ -7,7 +7,7 @@
 
 	<email>hka@microdoc.de</email>
 
-	<phone>+49-89-551 969 0</phone>
+	<phone>+49.89.551.969.0</phone>
 
 	<contact> <![CDATA[
 	MicroDoc GmbH<br>
@@ -29,10 +29,13 @@
 	<vision> <![CDATA[
 <p>My vision as a candidate for the Eclipse Board is:</p> 
 <ul>
-<li>Support the growth of the Eclipse Eco System as a pervasive industrial strength software platform for servers, clients and mobile/embedded devices.</li> 
-<li>Help to establish Eclipse in research and education to make sure graduates can seamlessly be integrated into industrial SW production.</li> 
+<li>Support the growth of the Eclipse Eco System as a pervasive industrial strength software platform for servers, 
+clients and mobile/embedded devices.</li> 
+<li>Help to establish Eclipse in research and education to make sure graduates can seamlessly be integrated 
+into industrial SW production.</li> 
 <li>Strengthen the influence of European add-in providers in the community.</li>
-<li>Address legal issues in the framework of European legislation raised by the fact that EPL and other important provision are US law based. </li>
+<li>Address legal issues in the framework of European legislation raised by the fact that EPL and other 
+important provision are US law based.</li>
 <li>Help to develop a clear understanding of the legal/commercial implications of the use of software under the EPL in Europe.</li>
 </ul>
 	]]> </vision>
