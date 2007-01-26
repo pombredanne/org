@@ -1,33 +1,33 @@
-<boardmember id="komissarchik" type="committer">
-
+<boardmember id="komissarchik" type="committer">
+
   <name>
     Konstantin Komissarchik
-  </name>
+  </name>
 
   <title>
-  </title>
+  </title>
 
   <image>komissarchik.jpg
-  </image>
+  </image>
 
   <email>
     kosta@bea.com
-  </email>
+  </email>
 
   <phone>
     206.926.2962
-  </phone>
+  </phone>
 
   <contact> <![CDATA[
 BEA Systems, Inc.<br>
 999 North Northlake Way<br>
 Seattle, WA 98103
-  ]]> </contact>
+  ]]> </contact>
 
   <eclipse_affiliation>
     Web Tools Platform
   </eclipse_affiliation>
-
+
   <vision>
     The Eclipse community has been tremendously successful in attracting talent and
     growing in different areas, but we are experiencing some growing pains. One
@@ -54,5 +54,5 @@ Seattle, WA 98103
 
   <affiliation>
     BEA Systems, Inc.
-  </affiliation>	
+  </affiliation>	
 </boardmember>
