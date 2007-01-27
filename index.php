@@ -98,7 +98,7 @@
       </div>
       <div id="rightcolumn">
         <div class="sideitem">
-			<h6>2006 Foundation Elections</h6>
+			<h6>2007 Foundation Elections</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/org/elections/">Board Representative Elections</a> <br />Jan 27-Feb 24</li>
 			</ul>
