@@ -11,71 +11,71 @@ ob_start();
 <h1> Eclipse Planning Council Minutes</h1>
 <p>January 23, 2007, Burlingame, California</p>
 <p><i>Note that the attendance list is not accurate at this time.</i></p>
-<table border="0" height="423">
+<table border="0">
   <tbody><tr>
-    <td align="center" bgcolor="#cccccc" valign="top" height="21"><b>Present</b></td>
-    <td align="center" valign="top" height="21"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
-    <td align="center" bgcolor="#cccccc" valign="top" height="21"><b>Regrets</b></td>
+    <td align="center" bgcolor="#cccccc" valign="top"><b>Present</b></td>
+    <td align="center" valign="top"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+    <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Sri Doddapaneni, Intel, TPTP</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21">Doug Schaefer, QNX, Tools</td>
+    <td valign="top" align="left">Sri Doddapaneni, Intel, TPTP</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Doug Schaefer, QNX, Tools</td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Bjorn Freeman-Benson, Eclipse</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21">Doug Gaff, Wind River, DSDP</td>
+    <td valign="top" align="left">Bjorn Freeman-Benson, Eclipse</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Doug Gaff, Wind River, DSDP</td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">John Graham, Sybase, DTP</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21">Tim Wagner, BEA, WTP</td>
+    <td valign="top" align="left">John Graham, Sybase, DTP</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left">Tim Wagner, BEA, WTP</td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Rich Gronback, Borland</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Rich Gronback, Borland</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Kevin Haaland, IBM, Platform</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Kevin Haaland, IBM, Platform</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Yossi Leon, Zend</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Yossi Leon, Zend</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Wenfeng Li, Actuate, BIRT</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Wenfeng Li, Actuate, BIRT</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Ed Merks, IBM, Modeling</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Ed Merks, IBM, Modeling</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Paul Styles, Compuware</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Paul Styles, Compuware</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Jess ?, BEA</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Jess ?, BEA</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">David Williams, IBM</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">David Williams, IBM</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
   <tr>
-    <td valign="top" align="left" height="21">Oisin Hurley, IONA, STP</td>
-    <td valign="top" align="center" height="21"></td>
-    <td valign="top" align="left" height="21"></td>
+    <td valign="top" align="left">Oisin Hurley, IONA, STP</td>
+    <td valign="top" align="center"></td>
+    <td valign="top" align="left"></td>
   </tr>
 </tbody></table>
 <h2>Minutes / Discussion Items</h2>
@@ -98,12 +98,12 @@ changed at all levels of nesting.</p>
 <p>The projects also agreed to (pending a checklist/example) submit a complete
 list of all nested jars and source code so that Janet's team can start the
 examination with less leg work.</p>
-<p><b>ACTION ITEM:</b> [Bjorn] Take these requests to Eclipse Legal:</p>
+<p><b><u>ACTION</u>:</b>  [Bjorn FB] Take these requests to Eclipse Legal:</p>
 <ul>
   <li>New third-party libraries deadline&nbsp; is January 31st</li>
   <li>Incremental third-party libraries deadline is RC0 (May 4)</li>
 </ul>
-<p><b>ACTION ITEM:</b> [Bjorn] Take these suggestions to Eclipse Legal:</p>
+<p><b><u>ACTION</u>:</b>  [Bjorn FB] Take these suggestions to Eclipse Legal:</p>
 <ul>
   <li>Transparency: publish a probability distribution of how long (calendar
     time) it takes to process CQs</li>
@@ -128,14 +128,14 @@ help WTP and TPTP move their common shared jars to Orbit. And we promoted
 complete, RC0), rules for what it takes to get a change in (team says want to
 fix, …, consensus has to review and approve all changes; the process we use to
 say no); definition of what &quot;RC&quot; means to each project; etc.</p>
-<p><b>ACTION ITEM:</b> [All] All Europa projects will have a written ramp down
+<p><b><u>ACTION</u>:</b> [all] All Europa projects will have a written ramp down
 policy on their website and in the wiki by February 23rd.</p>
 <p>We also discussed changing the name of RCs to Europa Candidates (ECs) to
 accommodate the varying quality of the projects.&nbsp;</p>
 <h3>JVM 1.4 versus JVM 5</h3>
 <p>TPTP has worked around the issue raised earlier by having the TPTP
 stand-alone run-time use EMF 2.2.</p>
-<p><b>ACTION ITEM: </b>[Ed] Add a link to the Europa page to his wiki page
+<p><b><u>ACTION</u>: </b>[Ed M] Add a link to the Europa page to his wiki page
 discussing the EMF 2.2/2.3 features and JVM 1.4/1.5 issues and what the
 consequences of whether one should use EMF 2.2 or 2.3</p>
 <p>Additionally, the group consensus was to label your own plug-ins with the
@@ -185,9 +185,9 @@ run-time separately from the main Europa update site. Here we are taking the
 position that the Europa update site is for end-users and not as a substitute
 for the project-specific download pages for project-specific things (such as
 project-specific run-times/VMs).</p>
-<p><b>ACTION ITEM: </b>[all] Update the wiki page to explain whether your
+<p><b><u>ACTION</u>: </b>[all] Update the wiki page to explain whether your
 project will include examples as part of the extender version.</p>
-<p><b>ACTION ITEM:</b> [all] Update your project's features to include the words
+<p><b><u>ACTION</u>:</b> [all] Update your project's features to include the words
 &quot;end-user&quot; and &quot;extender&quot;.</p>
 <h3>Support for Previous Releases</h3>
 <p>After much discussion around support, what it means, and the potential for an
@@ -213,9 +213,9 @@ the Planning Council promote the existence of the working group to their project
 teams. The working group is making a push now to affect the M5 and M6 releases
 of the projects for the Europa time-frame, and then a bigger push for next
 year's Ganymede release.</p>
-<p><b>ACTION ITEM: </b>[all] Explain the User Interface Working Group to your
+<p><b><u>ACTION</u>: </b>[all] Explain the User Interface Working Group to your
 project teams (project dev lists?)</p>
-<p><b>ACTION ITEM: </b>[Bjorn] get the slides from Bob to attach to this web
+<p><b><u>ACTION</u>: </b>[Bjorn FB] get the slides from Bob to attach to this web
 page.</p>
 <h3>Europa Build Software</h3>
 <p>Bjorn gives a short report: not done yet. &quot;Soon,&quot; he promises.
@@ -250,7 +250,7 @@ the software to the Eclipse Foundation.</p>
 <p>Our goal should be to follow the open source principles as much as possible
 with respect to translations - to be open and transparent and to involve the
 larger community.</p>
-<p><b>ACTION ITEM: </b>[Bjorn] Work with Paul to see how we can incorporate
+<p><b><u>ACTION</u>: </b>[Bjorn FB] Work with Paul to see how we can incorporate
 Aptana's software or something similar for projects to use.</p>
 <p>The Council decided to follow up on translations in two parts: (1) ask their
 (mostly corporate) framework users which translations are necessary; and (2)
@@ -266,13 +266,13 @@ must download the zips and incorporate them in their own update sites. Rich
 Gronback counter argues that Orbit should produce an update site, if only for
 the automated builds, and then the builds can just get everthing they need via
 the update site.</p>
-<p><b>ACTION ITEM: </b>[Rich] Enter a bugzilla to request that the Orbit project
+<p><b><u>ACTION</u>: </b>[Rich G] Enter a bugzilla to request that the Orbit project
 include an update site for automated builds to consume.</p>
 <h3>Roadmap Contribution</h3>
 <p>The Planning Council <a href="http://www.eclipse.org/org/councils/roadmap.php">Roadmap</a>
 contribution is the frozen-in-time aggregation of all the Europa projects'
 plans.</p>
-<p><b>ACTION ITEM: </b>[all] Make sure your project plan is available on your
+<p><b><u>ACTION</u>: </b>[all] Make sure your project plan is available on your
 website. Enter the url to your plan in wiki. These are due by Feb 2nd in order
 to be incorporated into the Roadmap.</p>
 <h3>Conforming Project Websites</h3>
@@ -312,7 +312,7 @@ an event for doers: people committed to being committers.</p>
 <p>The Planning Council recommends that July-August would be the best time frame
 for this effort: after Europa, but early enough in Ganymede to make a
 difference.</p>
-<p><b>ACTION ITEM: </b>[Bjorn] pass these ideas along to Ward</p>
+<p><b><u>ACTION</u>: </b>[Bjorn FB] pass these ideas along to Ward</p>
 <h3>Europa Release Review</h3>
 <p>The Europa Release Review will be Wednesday, June 6th, 7am Pacific time. The
 release review slide decks (the whole deck with all the checklist items) are due
