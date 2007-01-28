@@ -458,8 +458,10 @@
 		</table>
 	
 			<ul>
+         	<li><a href="../councils/20070124ACMinutes.php">Architecture
+          		Council Meeting, January 24, 2007</a><img src="../../images/new.gif" alt="new"></li>
          	<li><a href="../councils/20061012ACMinutes.php">Architecture
-          		Council Meeting, October 12, 2006</a><img src="../../images/new.gif" alt="new"></li>
+          		Council Meeting, October 12, 2006</a></li>
          	<li><a href="../councils/20060628ACMinutes.php">Architecture
           		Council Meeting, June 28, 2006</a></li>
         		<li><a href="../councils/20050517ACMinutes.html">Architecture Council
