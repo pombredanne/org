@@ -33,12 +33,11 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Guidelines</h2>
-		<p>The Technology Awards will be determined by a panel of judges.   The judges will be selected from Eclipse oriented editors and 
+		<p>The Technology Awards will be determined by a panel of judges.   The judges have been selected from Eclipse oriented editors and 
 		Eclipse project leaders.  The panel of judges will determine the winner based on a 
 		majority vote.  </p>
-		<p>Anyone may nominate an open source project, product, or organization.  Vendors 
-		may nominate their own products and may nominate organization for the 
-		'Best Deployment' award.   <strong>Nominations will close January 22, 2007.</strong></p>
+		<p>Open source projects, products, or organizations may have been nominated by anyone and vendors 
+		were allowed to nominate their own products and organizations.  <strong>Nominations closed January 22, 2007.</strong></p>
 		
 		
 		<h3>Judging Criteria</h3>
