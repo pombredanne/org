@@ -135,7 +135,6 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="awards_nominations.php">Submit a nomination</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines of Technology Awards</a></li>
 
 			</ul>
