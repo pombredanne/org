@@ -36,9 +36,11 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20070122_eclipsecongold.php">Gold Sponsors Announced for EclipseCon 2007</a> - January 22nd, 2006</li>
-		<li><a href="20070117cb_trainingsurvey.php">Results of Eclipse Training Survey Released</a> - January 17th, 2006</li>
-		<li><a href="20070112_industryspecs.php">Eclipse Foundation joins Three Industry Specifications Groups</a> - January 12th, 2006</li>
+		<li><a href="20070129_higgins.php">Bandit and Higgins Projects Bridge Multiple Identity Systems to Provide a Consistent Experience of Identity</a> - January 29th 2007</li>
+		<li><a href="20070123_dtprelease.php">Eclipse Foundation Launches Data Tools Platform 1.0</a> - January 23rd, 2007</li>
+		<li><a href="20070122_eclipsecongold.php">Gold Sponsors Announced for EclipseCon 2007</a> - January 22nd, 2007</li>
+		<li><a href="20070117cb_trainingsurvey.php">Results of Eclipse Training Survey Released</a> - January 17th, 2007</li>
+		<li><a href="20070112_industryspecs.php">Eclipse Foundation joins Three Industry Specifications Groups</a> - January 12th, 2007</li>
 		<li><a href="20070108cb_webinar.php">2007 Eclipse Webinar Series Kickoff</a> - January 8th, 2007</li>
 		</ul>
 	</div>
