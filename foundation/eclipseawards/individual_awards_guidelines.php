@@ -34,8 +34,8 @@
 		<h1>$pageTitle</h1>
 		<h2>Guidelines</h2>
 		<p>The Individual Awards will determined by a vote of the community. One vote per person, per category.</p>
-		<p>Anyone may nominate an individual in each category.   
-		To nominate an individual visit the following Bugzilla entries. <strong>Nominations will close January 22, 2007. </strong> </p>
+		<p>Individuals may have been nominated by anyone in each category.   
+		<strong>Nominations closed on January 22, 2007. </strong> To see the Bugzilla entries for the individual nominations, visit the following links.</p>
 		<ul class="midlist">
 		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a>
 		  		- to be voted on by everyone.</li>
