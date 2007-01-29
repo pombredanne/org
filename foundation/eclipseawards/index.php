@@ -66,7 +66,7 @@
 			<li><strong>Best commercial Eclipse based developer tool</strong> - Recognizes a commercial product that provides an innovative, high quality product for software developers.
 			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> - Recognizes an organization (non-ISV) that has used and deployed Eclipse within an enterprise.
 		</ol>
- 		<a href="./technology_nominations.php">Review</a> who has already been nominated.
+ 		<a href="./technology_nominations.php">Review</a> who has been nominated.
 		</p>
 		
 	<h3>Important Dates</h3>
