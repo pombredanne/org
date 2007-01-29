@@ -54,7 +54,7 @@
 		<li><strong>Newcomer Evangelist</strong> - This individual best exemplifies welcoming new people into the Eclipse community.  This
 		award will be presented to the individual that has answered the most questions raised on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
 		</ol> 	
- 		<a href="./awards_nominations.php">Nominate</a> an individual for an award.</p>
+ 		<a href="http://www.eclipsecon.org/2007/index.php?page=awardsvote/">Vote</a> for an individual.</p>
 </p>
 
 	<h3>Technology Awards</h3>
@@ -66,15 +66,14 @@
 			<li><strong>Best commercial Eclipse based developer tool</strong> - Recognizes a commercial product that provides an innovative, high quality product for software developers.
 			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> - Recognizes an organization (non-ISV) that has used and deployed Eclipse within an enterprise.
 		</ol>
- 		<a href="./awards_nominations.php">Nominate</a> a product for a technology award.<br>
  		<a href="./technology_nominations.php">Review</a> who has already been nominated.
 		</p>
 		
 	<h3>Important Dates</h3>
 	<p><ul>
-		<li>Nominations opened - December 15, 2006</li>
-		<li>Nominations closed - January 22, 2007</li>
-		<li>Voting Begins for Individual Awards - January 29, 2007</li>
+		<li><font color="#A9A9A9">Nominations opened - December 15, 2006</font></li>
+		<li><font color="#A9A9A9">Nominations closed - January 22, 2007</font></li>
+		<li><font color="#A9A9A9">Voting Begins for Individual Awards - January 29, 2007</font></li>
 		<li>Voting Ends for Individual Awards - February 16, 2007</li>
 		<li>Awards Announced - March 5, 2007</li>
 	</ul></p><br>
@@ -86,7 +85,6 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="awards_nominations.php">Submit a Nomination</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
 			</ul>
