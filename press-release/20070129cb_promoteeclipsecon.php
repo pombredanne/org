@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-<p>Help promote EclispeCon 2007, being held on March 5th to 8th at the Santa
+<p>Help promote <a href="http://eclipsecon.org/">EclispeCon 2007</a>, being held on March 5th to 8th at the Santa
 Clara Convention Center, and win a free registration.  There are three
 simple steps to be eligible to win your registration:
 <ul>
@@ -40,7 +40,8 @@ to be most effective at reaching the largest EclipseCon target audience
 (email to your developer network, prominent placement on your website, 
 highly voted <a href="http://www.dzone.com/">dzone</a> blog entry, etc).
 The Eclipse Foundation additionally reserves to right to  award fleeces
-and other cool Eclipse swag to cool submissions.
+and other cool Eclipse swag to great submissions.  Conference Registration winners 
+will be notified by February 7th and their conference fees refunded.
 </p>
 
 <p>Please send questions to: <a href="mailto:eclipsecon.promotion@eclipse.org">eclipsecon.promotion@eclipse.org</a>.
