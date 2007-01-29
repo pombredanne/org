@@ -137,7 +137,7 @@ accommodate the varying quality of the projects.&nbsp;</p>
 stand-alone run-time use EMF 2.2.</p>
 <p><b><u>ACTION</u>: </b>[Ed M] Add a link to the Europa page to his wiki page
 discussing the EMF 2.2/2.3 features and JVM 1.4/1.5 issues and what the
-consequences of whether one should use EMF 2.2 or 2.3</p>
+consequences of whether one should use EMF 2.2 or 2.3 - <em><a href="http://wiki.eclipse.org/index.php/EMF_2.3_JVM_Requirements#Runtime_.2F_Compilation_Compatibility">here is the link</a></em></p>
 <p>Additionally, the group consensus was to label your own plug-ins with the
 minimum run-time for that plug-in and not to consider the minimum run-times of
 dependencies. Be sure to test your code against both the 1.4 and 5 JVMs.</p>
@@ -267,7 +267,7 @@ Gronback counter argues that Orbit should produce an update site, if only for
 the automated builds, and then the builds can just get everthing they need via
 the update site.</p>
 <p><b><u>ACTION</u>: </b>[Rich G] Enter a bugzilla to request that the Orbit project
-include an update site for automated builds to consume.</p>
+include an update site for automated builds to consume. - <em><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=171955">bug 171955</a></em></p>
 <h3>Roadmap Contribution</h3>
 <p>The Planning Council <a href="http://www.eclipse.org/org/councils/roadmap.php">Roadmap</a>
 contribution is the frozen-in-time aggregation of all the Europa projects'
