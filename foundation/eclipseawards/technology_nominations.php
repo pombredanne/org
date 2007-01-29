@@ -34,8 +34,8 @@ ob_start();
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Current Nominations</h2>
-		<p>The following is the current list of nominations for the Technology Awards.  
-		Deadline for nominations is January 22, 2007.</p>
+		<p>The following is the list of nominations for the Technology Awards.  
+		Nominations closed on January 22, 2007.</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
