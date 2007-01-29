@@ -28,7 +28,7 @@ simple steps to be eligible to win your registration:
 <ul>
 <li>Register yourself or a friend for EclipseCon on or before February 1st, 2007</li>
 <li>Do something creative to help promote EclipseCon 2007 on or before February 4th, 2007</li>
-<li>Send an email describing your promotion to <a href="mailto:eclipsecon.promotion@eclipse.org">eclipsecon.promotion@eclipse.org</a></li>
+<li>Send an email describing your promotion to <a href="mailto:promotion@eclipsecon.org">promotion@eclipsecon.org</a></li>
 </ul>
 </p>
 
@@ -44,7 +44,7 @@ and other cool Eclipse swag to great submissions.  Conference Registration winne
 will be notified by February 7th and their conference fees refunded.
 </p>
 
-<p>Please send questions to: <a href="mailto:eclipsecon.promotion@eclipse.org">eclipsecon.promotion@eclipse.org</a>.
+<p>Please send questions to: <a href="mailto:promotion@eclipsecon.org">promotion@eclipsecon.org</a>.
 
 </p>		
 
