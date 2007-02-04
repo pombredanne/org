@@ -17,7 +17,7 @@ ob_start();
     <td align="center" bgcolor="#cccccc" valign="top"><b>Regrets</b></td>
   </tr>
   <tr>
-    <td valign="top" align="left">Sri Doddapaneni, Intel, TPTP</td>
+    <td valign="top" align="left">Anurag Gupta, Intel, TPTP</td>
     <td valign="top" align="center"></td>
     <td valign="top" align="left"></td>
   </tr>
