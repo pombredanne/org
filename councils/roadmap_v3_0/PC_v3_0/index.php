@@ -3996,18 +3996,3323 @@ style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
 
 
 <h2><a name="PLATFORM"></a>Platform</h2>
-<em>The project did not provide any plan information.</em>
+
+<h3>The Eclipse Project DRAFT 3.3 Plan</h3>
+
+Last revised 14:35 EST September 4, 2006 
+  (<img src="new.gif" alt="(new)" border="0" height="12" width="12">
+  marks interesting changes)
+
+
+<p><i>&nbsp;&nbsp;&nbsp; Please send comments about this draft plan to the</i>
+  <a href="mailto:eclipse-dev@eclipse.org">eclipse-dev@eclipse.org</a>
+  <i>developer mailing list.</i>
+</p>
+<p>This document lays out the feature and API set for the next feature release 
+  of the Eclipse SDK after 3.2, designated release 3.3. 
+</p>
+<ul>
+  <li><a href="#Deliverables">Release deliverables</a></li>
+  <li><a href="#Milestones">Release milestones</a></li>
+
+  <li><a href="#TargetOperatingEnvironments">Target operating environments</a></li>
+  <li><a href="#Compatibility">Compatibility with previous releases</a></li>
+  <li><a href="#Platform">Eclipse Platform project</a></li>
+  <li><a href="#JDT">Java development tools (JDT) project</a></li>
+  <li><a href="#PDE">Plug-in development environment (PDE) project</a></li>
+  <li><a href="#Equinox">Equinox project</a></li>
+
+</ul>
+<p>Plans do not materialize out of nowhere, nor are they entirely static. To ensure 
+  the planning process is transparent and open to the entire Eclipse community, 
+  we (the Eclipse Project PMC) post plans in an embryonic form and revise them 
+  throughout the release cycle. 
+</p>
+<p>The first part of the plan deals with the important matters of release
+  deliverables, release milestones, target operating environments, and
+  release-to-release compatibility. These are all things that need to be clear for
+  any release, even if no features were to change.
+</p>
+<p>The remainder of the plan consists of plan items for all of the sub-projects under 
+  the top level Eclipse Project. Each plan item covers a feature or API 
+  that is to be added to the Eclipse Project deliverables, or some aspect of the Eclipse Project 
+  that is to be improved. Each plan item has its own entry in the Eclipse bugzilla 
+  database, with a title and a concise summary (usually a single paragraph) that 
+  explains the work item at a suitably high enough level so that everyone can 
+  readily understand what the work item is without having to understand the nitty-gritty 
+  detail. 
+</p>
+<p>Not all plan items represent the same amount of work; some may be quite
+  large, others, quite small. Some plan items may involve work that is localized
+  to a single component; others may involve coordinated changes to
+  several components; other may pervade the entire SDK. Although some plan
+  items are for work that is more pressing than others, the plan items appear in
+  no particular order.
+</p>
+<p>With the previous release as the starting point, this is the plan for how we
+  will enhance and improve it. Fixing bugs, improving test coverage,
+  documentation, examples, performance tuning, usability, etc. are considered routine
+  ongoing maintenance activities and are not included in this plan unless they
+  would also involve a significant change to the API or feature set, or involve a
+  significant amount of work. The intent of the plan is to account for all interesting feature work.
+</p>
+<p>The current status of each plan item is noted:
+</p>
+<ul>
+  <li><b>Committed</b> plan item - A committed plan item is one that we have
+    decided to address for the release.</li>
+
+  <li><b>Proposed</b> plan item - A proposed plan item is one that we are
+    considering addressing for the release. Although we are actively
+    investigating it, we are not yet in a position to commit to it, or to say
+    that we won't be able to address it. After due consideration, a proposal
+    will either be committed or deferred.</li>
+  <li><b>Deferred</b> plan item - A reasonable proposal that will not make it in
+    to this release for some reason is marked as deferred with a brief note as
+    to why it was deferred. Deferred plan items may resurface as committed plan
+    items at a later point.</li>
+</ul>
+
+<h3><a name="Deliverables"></a>Release deliverables</h3>
+
+<p>The release deliverables have the same form as previous releases, namely:
+</p>
+
+<ul>
+  <li>Source code release for all Eclipse Project deliverables, available as versions 
+    tagged "R3_3" in the Eclipse Project <a href="http://dev.eclipse.org/viewcvs/">CVS 
+    repository</a>.</li>
+  <li>Eclipse SDK (runtime binary and SDK for Equinox, Platform, JDT, and PDE) (downloadable).</li>
+  <li>Eclipse Platform (runtime binary and SDK for the Equinox and Platform only) (downloadable).</li>
+  <li>Eclipse RCP (runtime binary and SDK for the Rich Client Platform) (downloadable).</li>
+  <li>Eclipse JDT (runtime binary and SDK for the Java Development Tools) (downloadable).</li>
+
+  <li>Eclipse PDE (runtime binary and SDK for the Plug-in Development Environment) (downloadable).</li>
+  <li>Eclipse SDK Examples (downloadable).</li>
+  <li>SWT distribution (downloadable).</li>
+  <li>Equinox OSGi R4 framework and assorted service implementations (downloadable).</li>
+</ul>
+
+<h3><a name="Milestones"></a>Release milestones</h3>
+
+<p>Release milestones, occurring at roughly 6 week intervals, exist to facilitate 
+  coarse-grained planning and staging. The milestones are:
+</p>
+<ul>
+  <li> Thursday Aug. 10, 2006 - Milestone 1 (3.3 M1) - stable build</li>
+  <li> Friday Sep. 22, 2006 - Milestone 2 (3.3 M2) - stable build</li>
+  <li> Friday Nov. 3, 2006 - Milestone 3 (3.3 M3) - stable build</li>
+  <li> Friday Dec. 15, 2006 - Milestone 4 (3.3 M4) - stable build</li>
+
+</ul>
+<p>Our target is to complete 3.3 in late June 2007. All release deliverables will be available
+  for download as soon as the release has been tested and validated in the target operating
+  configurations listed below.
+</p>
+
+<h3><a name="TargetOperatingEnvironments"></a>Target Operating Environments</h3>
+
+<p>In order to remain current, each Eclipse release targets reasonably current
+  operating environments.
+</p>
+<p>Most of the Eclipse SDK is "pure" Java code and has no direct
+  dependence on the underlying operating system. The chief dependence is
+  therefore on the Java Platform itself. Portions of the Eclipse SDK
+  (including the RCP base, SWT, OSGi and JDT core plug-ins) are targeted
+  to specific classes of operating environments, requiring their source
+  code to only reference facilities available in particular class
+  libraries (e.g. J2ME Foundation 1.0, J2SE 1.3 and 1.4, etc.).
+  
+  With the exception of a small set of planned features that
+  actually require Java SE 5 APIs (most notably, the support for
+  Annotation Processing and JUnit 4), the 3.3 release of the Eclipse
+  Project is developed against version 1.4 of the Java 2 Platform.
+  As such, the Eclipse Project SDK as a whole is targeted at both
+  1.4 and Java5 VMs, with full functionality available for 1.4 level
+  development everywhere, and new Java5 specific capabilities available
+  when running on a Java5 VM.
+
+  <a href="#Appendix1">Appendix 1</a> contains a table that indicates
+  the class library level required for each plug-in.
+</p>
+
+<p>There are many different implementations of the Java Platform running atop 
+  a variety of operating systems. We focus Eclipse SDK testing on a handful 
+  of popular combinations of operating system and Java Platform; 
+  these are our <em>reference platforms</em>. Eclipse undoubtedly runs fine in 
+  many operating environments beyond the reference platforms we test. However, 
+  since we do not systematically test them we cannot vouch for them. Problems 
+  encountered when running Eclipse on a non-reference platform that cannot be recreated 
+  on any reference platform will be given lower priority than problems with running 
+  Eclipse on a reference platform.</p>
+
+<p>The Eclipse SDK 3.3 is tested and validated on the following reference 
+  platforms (this list is updated over the course of the release cycle):</p>
+
+<table summary="Eclipse Reference Platforms" style="width: 821px;" border="1">
+  <tbody>
+  
+    <tr bgcolor="#cccccc">
+      <th colspan="5">
+        <div align="center"><strong><font size="+1">Eclipse Reference Platforms</font></strong></div>
+      </th>
+    </tr>
+
+    
+    <tr>
+      <td width="205"><b>Operating system</b></td>
+      <td width="59"><b>OS version</b></td>
+      <td width="76"><b>Processor architecture</b></td>
+      <td width="59"><b>Window system</b></td>
+      <td width="453"><b>Java 2 Platform</b></td>
+
+    </tr>
+    
+    <tr>
+      <td width="205">Microsoft Windows</td>
+      <td width="59">XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453">
+
+        Sun Java 2 Standard Edition 5.0 Update 6<br>for Microsoft Windows
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="205">Microsoft Windows</td>
+      <td width="59">XP</td>
+      <td width="76">Intel x86</td>
+
+      <td width="59">Win32</td>
+      <td width="453">
+        IBM 32-bit SDK for Windows,<br>Java 2 Technology Edition 5.0
+      </td>
+    </tr>
+	
+	  <tr>
+      <td width="205">Microsoft Windows</td>
+      <td width="59">XP</td>
+
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453">
+        <img src="new.gif" alt="(new)" border="0" height="12" width="12">BEA JRockit 5.0,<br>for Microsoft Windows
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="205">Microsoft Windows</td>
+
+      <td width="59">XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453"> 
+        Sun Java 2 Standard Edition 1.4.2_10<br>for Microsoft Windows
+      </td>
+    </tr>
+    
+    <tr>
+
+      <td width="205">Microsoft Windows</td>
+      <td width="59">XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453">
+        IBM 32-bit SDK for Windows,<br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+
+    </tr>
+	
+	    <tr>
+      <td width="205">Microsoft Windows</td>
+      <td width="59">XP</td>
+      <td width="76">Intel x86</td>
+      <td width="59">Win32</td>
+      <td width="453">
+
+        <img src="new.gif" alt="(new)" border="0" height="12" width="12">BEA JRockit 1.4.2,<br>for Microsoft Windows
+      </td>
+    </tr>
+
+    		<tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+      <td width="59">WS 4</td>
+      <td width="76">Intel x86</td>
+
+      <td width="59">GTK</td>
+      <td width="453">
+        Sun Java 2 Standard Edition 5.0 Update 6<br> for Linux x86</td>
+    </tr>
+	
+    <tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+
+      <td width="59">WS 4</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">
+        IBM 32-bit SDK for Linux on Intel architecture,<br>Java 2 Technology Edition 5.0
+      </td>
+    </tr>
+
+	
+	    <tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+      <td width="59">WS 4</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">
+        <img src="new.gif" alt="(new)" border="0" height="12" width="12">BEA JRockit 5.0,<br> for Linux x86</td>
+
+    </tr>
+    
+    <tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+      <td width="59">WS 4</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">
+
+        Sun Java 2 Standard Edition 1.4.2_10<br>for Linux x86
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+      <td width="59">WS 4</td>
+      <td width="76">Intel x86</td>
+
+      <td width="59">GTK</td>
+      <td width="453">
+        IBM 32-bit SDK for Linux on Intel architecture,<br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+    </tr>
+	
+	    <tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+      <td width="59">WS 4</td>
+
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">
+        <img src="new.gif" alt="(new)" border="0" height="12" width="12">BEA JRockit 1.4.2,<br>for Linux x86
+      </td>
+    </tr>   
+    
+
+    
+    <tr>
+      <td width="205">SUSE Linux Enterprise Server</td>
+
+      <td width="59">9</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">
+        Sun Java 2 Standard Edition 1.4.2_10<br>for Linux x86</td>
+    </tr>
+
+    
+    <tr>
+      <td width="205">SUSE Linux Enterprise Server</td>
+      <td width="59">9</td>
+      <td width="76">Intel x86</td>
+      <td width="59">GTK</td>
+      <td width="453">
+        IBM 32-bit SDK for Linux on Intel architecture,<br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+
+    </tr>
+    
+    <tr>
+      <td width="205">Sun Solaris</td>
+      <td width="59">10</td>
+      <td width="76">SPARC</td>
+      <td width="59">GTK</td>
+      <td width="453">
+
+        Sun Java 2 Standard Edition 1.4.2_10<br>for Solaris SPARC</td>
+    </tr>
+    
+    <tr>
+      <td width="205">HP HP-UX</td>
+      <td width="59">11i</td>
+      <td width="76">hp9000<br>PA-RISC</td>
+
+      <td width="59">Motif</td>
+      <td width="453">
+        HP-UX JDK for the Java 2 Platform Standard Edition for 1.4.2_09
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="205">IBM AIX 5L</td>
+      <td width="59">5.2</td>
+
+      <td width="76">Power</td>
+      <td width="59">Motif</td>
+      <td width="453">
+        IBM 32-bit SDK for AIX,<br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="205">Apple Mac OS X</td>
+
+      <td width="59">10.4</td>
+      <td width="76">Power</td>
+      <td width="59">Carbon</td>
+      <td width="453">
+        Java 2 Platform Standard Edition (J2SE) 1.4.2<br>service release 2 for Tiger
+      </td>
+    </tr>
+
+    
+    <tr>
+      <td width="205">Red Hat Enterprise Linux</td>
+      <td width="59">WS 4</td>
+      <td width="76">Power</td>
+      <td width="59">GTK</td>
+      <td width="453">
+        IBM 32-bit SDK for Linux on pSeries architecture, <br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+
+    </tr>
+
+    <tr>
+      <td width="205">SUSE Linux Enterprise Server</td>
+      <td width="59">9</td>
+      <td width="76">Power</td>
+      <td width="59">GTK</td>
+
+      <td width="453">
+        IBM 32-bit SDK for Linux on pSeries architecture, <br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="205">SUSE Linux Enterprise Server</td>
+      <td width="59">9</td>
+      <td width="76">Power</td>
+
+      <td width="59">GTK</td>
+      <td width="453">
+        IBM 32-bit SDK for Linux on pSeries architecture, <br>Java 2 Technology Edition 1.4.2 service release 3
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<p>Because Java 1.4.2 platforms are used for most Eclipse development,
+  in general, 1.4.2 platforms are listed here. Of course, the teams doing Java 5 based
+  development are using Java 5 platforms, and the specific ones that they test on
+  are also included. <i>We expect that Eclipse will work fine on other Java 5 VMs
+  running on window systems supported by SWT, but can not flag these as reference
+  platforms without significant community support for testing them.</i></p>
+
+  
+<p>Similarly, although untested, the Eclipse SDK should work fine on other OSes that 
+  support the same window system. For Win32: Windows 98, ME, NT, 2000, and Server 
+  2003; SWT HTML viewer requires Internet Explorer 5 (or higher). For GTK on other 
+  Linux systems: version 2.2.1 of the GTK+ widget toolkit and associated libraries 
+  (GLib, Pango); SWT HTML viewer requires Mozilla 1.4GTK2. For Motif on 
+  Linux systems: Open Motif 2.1 (included); SWT HTML viewer requires Mozilla 1.4GTK2.</p>
+
+<p>An early access version of the Eclipse SDK is also available for 64-bit 
+  Linux GTK. Testing has been limited to early access 64-bit J2SEs running on 
+  x86-64 processors.</p>
+  
+<p>SWT is also supported on the QNX Neutrino operating system, x86 processor, 
+  Photon window system, and IBM J9 VM version 2.0. Eclipse 3.3 on Windows or Linux 
+  can be used to cross-develop QNX applications. (Eclipse 3.3 is unavailable on QNX 
+  because there is currently no 1.5 J2SE for QNX.)</p>
+  
+<h4>Internationalization</h4>
+
+<p>The Eclipse SDK is designed as the basis for internationalized products. 
+  The user interface elements provided by the Eclipse SDK components, including 
+  dialogs and error messages, are externalized. The English strings are provided 
+  as the default resource bundles.</p>
+  
+<p>Latin-1 locales are supported by the Eclipse SDK on all of the above 
+  operating environments; DBCS locales are supported by the Eclipse SDK 
+  on the Windows, GTK, and Motif window systems; BIDI locales are supported by 
+  the Eclipse SDK only on Windows operating environments.</p>
+
+<p>The Eclipse SDK supports GB 18030 (level 1), the Chinese code page 
+  standard, on Windows XP and 2000, and Linux/GTK.</p>
+
+<p>German and Japanese locales are tested.</p>
+
+<h4>BIDI support</h4>
+
+<p>SWT fully supports BIDI on Windows. On Linux GTK, SWT supports entering 
+  and displaying BIDI text. Within these limitations, the Eclipse
+  SDK tools are BIDI enabled.</p>
+  
+<h3><a name="Compatibility"></a>Compatibility with Previous Releases</h3>
+
+<h3>Compatibility of Release 3.3 with 3.2</h3>
+
+<p>Eclipse 3.3 will be compatible with Eclipse 3.2 (and, hence, with 3.1 and 3.0).</p>
+<p>
+  <strong>API Contract Compatibility:</strong> Eclipse SDK 3.3 will be upwards contract-compatible 
+  with Eclipse SDK 3.2 except in those areas noted in the 
+  <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/org.eclipse.platform.doc.isv/porting/eclipse_3_3_porting_guide.html" target="_top">
+    <em>Eclipse 3.3 Plug-in Migration Guide</em>
+  </a>. 
+  Programs that use affected APIs and extension points will need to be ported to
+  Eclipse SDK 3.3 APIs. Downward contract compatibility is not supported.
+  There is no guarantee that compliance with Eclipse SDK 3.3 
+  APIs would ensure compliance with Eclipse SDK 3.2 APIs. Refer to 
+  <a href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs">
+    <em>Evolving Java-based APIs</em>
+
+  </a> for a discussion of the kinds of API changes that maintain 
+  contract compatibility.
+</p>
+<p><strong>Binary (plug-in) Compatibility:</strong> Eclipse SDK 3.3 will be upwards binary-compatible 
+  with Eclipse SDK 3.2 except in those areas noted in the
+  <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/org.eclipse.platform.doc.isv/porting/eclipse_3_3_porting_guide.html" target="_top">
+    <em>Eclipse 3.3 Plug-in Migration Guide</em>
+  </a>. 
+  Downward plug-in compatibility is not supported. Plug-ins for Eclipse SDK 3.3
+  will not be usable in Eclipse SDK 3.2. Refer to
+  <a href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs">
+    <em>Evolving Java-based APIs</em>
+
+  </a> for a discussion of the kinds of API changes that maintain 
+  binary compatibility. 
+</p>
+<p><strong>Source Compatibility:</strong> Eclipse SDK 3.3 will be upwards source-compatible 
+  with Eclipse SDK 3.2 except in the areas noted in the 
+  <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/org.eclipse.platform.doc.isv/porting/eclipse_3_3_porting_guide.html" target="_top">
+    <em>Eclipse 3.3 Plug-in Migration Guide</em>
+  </a>. 
+  This means that source files written to 
+  use Eclipse SDK 3.2 APIs might successfully compile and run against Eclipse 
+  SDK 3.3 APIs, although this is not guaranteed. Downward source compatibility 
+  is not supported. If source files use new Eclipse SDK APIs, they will not be 
+  usable with an earlier version of the Eclipse SDK. 
+</p>
+<p><strong>Workspace Compatibility:</strong> Eclipse SDK 3.3 will be upwards workspace-compatible 
+  with Eclipse SDK 3.2 unless noted. This means that workspaces and projects created 
+  with Eclipse SDK 3.2, 3.1 or 3.0 can be successfully opened by Eclipse SDK 3.3 and 
+  upgraded to a 3.3 workspace. This includes both hidden metadata, which is localized 
+  to a particular workspace, as well as metadata files found within a workspace 
+  project (e.g., the .project file), which may propagate between workspaces via 
+  file copying or team repositories. Individual plug-ins developed for Eclipse 
+  SDK 3.3 should provide similar upwards compatibility for their hidden and visible 
+  workspace metadata created by earlier versions; 3.3 plug-in developers are responsible 
+  for ensuring that their plug-ins recognize 3.2, 3.1, 3.0, 2.1, and 2.0 metadata and 
+  process it appropriately. User interface session state may be discarded when 
+  a workspace is upgraded. Downward workspace compatibility is not supported. 
+  A workspace created (or opened) by a product based on Eclipse 3.3 will be unusable 
+  with a product based an earlier version of Eclipse. Visible metadata files created 
+  (or overwritten) by Eclipse 3.3 will generally be unusable with earlier versions 
+  of Eclipse. 
+
+</p>
+<p><strong>Non-compliant usage of API's</strong>: All non-API methods and classes, and
+  certainly everything in a package with "internal" in its name, are
+  considered implementation details which may vary between operating environment
+  and are subject to change without notice. Client plug-ins that directly depend
+  on anything other than what is specified in the Eclipse SDK API are inherently
+  unsupportable and receive no guarantees about compatibility within a single
+  release much less with earlier releases. Refer to
+  <a href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">
+    <em>How to Use the Eclipse API</em>
+  </a> for information about how to write compliant plug-ins.
+</p>
+
+<h3>Themes and Priorities</h3>
+<p>
+  The PMC of the Eclipse Project has identified six major areas of work, 
+  that will be the priorities for this development cycle. These areas will
+  address the major themes identified by the Eclipse Requirements Council 
+  (<a href="http://www.eclipse.org/org/councils/roadmap_v2_0/themes_v2_0.php">Themes and Priorities v2.0</a>).
+
+</p>
+<p>
+  Although there are four projects under the top-level Eclipse Project, there
+  is a significant amount of commonality and shared effort between them. 
+  In general, many plan items involve coordinated changes to multiple
+  components, and thus attempting to separate the items into
+  sections based on sub-project leads to artificial distinctions between
+  them (e.g. Platform Text vs. JDT Text, Platform Debug vs.
+  JDT Debug, etc.).
+</p>
+<p>
+  In order to provide the clearest focus for our development effort, we
+  have organized the items below into sections based on the work area they
+  are intended to address. Items that apply to multiple
+  work areas are categorized based on where the most effort is expected
+  to occur. In all cases, the items listed reflect new features of Eclipse
+  or areas where existing features will be significantly reworked. Numbers in
+  parentheses link to bugzilla problem reports where progress on that 
+  item can be tracked and discussed.
+</p>
+<p>
+  The major work areas are:
+</p>
+<ul>
+  <li><a href="#Components">Components</a></li>
+
+  <li><a href="#Consumability">Consumability</a></li>
+  <li><a href="#Java">Java</a></li>
+  <li><a href="#Vista">Vista</a>
+  <li><a href="#UIEvolution">UI Evolution</a>
+  <li><a href="#API">API</a>
+</ul>
+
+<!-- Start of Sections by Work Area -->
+
+<h3><a name="Components">Components</a></h3>
+<p>
+  This work will enhance Eclipse's use of, and support for, software components,
+  covering everything from component programming models such as Declarative
+  Services, API tools, incremental building and fine-grained function delivery.
+</p>
+
+<h4>Committed Items (Components)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<h4>Proposed Items (Components)</h4>
+<blockquote> 
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Improved support for provisioning.</strong>
+    Eclipse has advanced quite quickly with new use-cases (RCP, Equinox, 
+    server side, etc.) and new technologies (e.g., OSGi and OSGi's MEG) coming
+    into the picture.  To date Update Manager has not been enhanced to support
+    or exploit these changes. In 3.3 we will investigate provisioning support
+    for enhanced workflows, the ability to update the so-called "root files"
+    (e.g., startup.jar, eclipse.exe), improved efficiency (download and disk
+    footprint), support for right-grained discovery and acquisition of function
+    as well as integration with differing repository types. This effort also
+    includes enhancements to the tooling around provisioning.
+    [Update]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154077">154077</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>API tools.</strong>
+
+    More components means more API and an elevated need for solid APIs,
+    evolved but compatible APIs and the correct and understood use of APIs.
+    This cannot be achieved without supporting tooling.  Today PDE includes
+    sophisticated support for classpath management and access rule management
+    based on information in the manifest of bundles to facilitate the capture
+    of package and class references.  In 3.3. we will expand this to cover
+    finer-grained API contracts (e.g., clients should not call foo() or
+    extend Bar).  Similarly, developers will be given effective mechanisms
+    for discovering, visualizing and minimizing dependencies in their code, 
+    bundles produced by third parties and non-bundled code libraries.  Tooling in support
+    of checking and managing the evolution of component and package version numbers
+    will also be supplied.
+    [PDE]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154078">154078</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Bundle/Module Development Tools.</strong>
+    In 3.1 and 3.2 PDE made gigantic strides in support for
+    traditional OSGi bundle development. Even still, in 3.3. we will improve
+    various workflows and classpath management strategies to promote the
+    development of robust and independent right-grained components. This
+    covers everything from increased quick-fix and manifest editing support
+    to deeper integration with JDT (e.g., support for searching JARs that
+    are not in the workspace without implicitly importing the JARs). In
+    addition, as JSR 291 evolves in the Java SE 6 time frame, PDE will be
+    there to provide developer support. 3.3 will include tooling around OSGi
+    Declarative Services and the new application model as well as improved
+    support for launching other frameworks, Java applications with bundle
+    based classpaths and "hot launching" frameworks.
+    [PDE]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154079">154079</a>) 
+</p>
+    
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Target Provisioning.</strong>
+    Currently, users wanting additional function supplied by others must
+    manually acquire and install these additional bundles in their target
+    platform.  This process is tiresome and error-prone.  As an extension
+    to the proposed provisioning work, we will add the ability to provision
+    targets directly from bundle repositories as well as from other locations
+    on the local machine.  As part of this the mechanism by which source is
+    packaged, acquired and looked up will be reviewed and streamlined.
+    [Update]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154081">154081</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Bundle Management.</strong>
+    Managing even modest systems of bundles can be complex and error prone.  There are 
+    several places in PDE where developers need to list or select sets of bundles (e.g., launch configurations, 
+    target setup, etc).  In many cases the environment already includes relevant grouping constructs (e.g., features,
+    working sets, bundle groups).  PDE should surface these to developers in a clear, consistent and pervasive 
+    fashion.
+    [PDE]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154082">154082</a>) 
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Incremental Plug-in Build.</strong>
+    With the increase in plug-ins coming from and going to third parties the
+    development cycle needs to be more incremental.  In the Eclipse project
+    itself we have started to consume pre-built plugins such as ICU4J and SSH2.
+    This trend is likely to continue as, for example, Apache seeks to deliver
+    their libraries as bundles and more people look to consume individual
+    bundles/components from Equinox and similar projects.  As such, the build
+    process should support the incremental building of plug-ins (that is
+    building plugins individually) based on a set of pre-built plugins kept
+    in some sort of provisioning repository.  Plug-ins coming out of the build
+    should feed into said repository to be used as a base for future builds.
+    This ability will in turn enable the more frequent building of whole
+    systems (since you build only what has changed) and simplify incremental,
+    milestone and release build cycles.
+    [PDE Build]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154083">154083</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Application Model.</strong>
+
+    The OSGi R4 MEG specification includes an application model that significantly
+    decouples the application from the rest of the system.  The net result is OSGi
+    (and thus Eclipse) as a more flexible application container, for example allowing
+    multiple applications to run concurrently and improved lifecycle around the
+    application.  These characteristics are important both to the manageability of
+    the system (e.g., simplifying and clarifying the shutdown process) but also to
+    various RCP scenarios such as Kiosk-mode and Application Container models.
+    In 3.3 we will implement and adopt the MEG application model.
+    [Equinox]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154084">154084</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>OSGi R5 Specification Work.</strong>
+    Much of the success Eclipse has enjoyed with OSGi comes from the fact that the
+    Eclipse community has played a very active role in the evolution of various
+    OSGi specifications.  With increased interest in OSGi and Java modularity
+    (see JSR 277, JSR 291 and JSR 232) this participation has never been more important.
+    In addition to promoting Eclipse use-cases and the evolution of these standards
+    to benefit Eclipse, there are a number of gaps in the OSGi specifications that
+    Eclipse is currently filling in specific ways and should be addressed in R5.
+    For example the management of API in metadata (x-friends and x-internal),
+    integration techniques for third party and legacy code, in-place execution of
+    bundles, basic notions of data location, etc.  The Equinox team will continue
+    their active participation in these specification processes and keep Eclipse
+    on the leading edge of Java componentization.
+    [Equinox]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154085">154085</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Server side support.</strong>
+    First it was tools, then it was applications, now server-side programmers are
+    waking up to the power of componentization delivered by Eclipse and OSGi.
+    In the 3.2 cycle an Equinox incubator was started to investigate the use of
+    Eclipse on the server.  It started as a very modest servlet bridge allowing
+    Eclipse to run inside a servlet engine and handle servlet requests and has been
+    evolving into a full-blown appreciation of what it means to componentize server
+    software.  There are many possible directions here and there is no way the
+    Equinox team proper will be able to track, support and participate in all.
+    However we will spend time understanding the basic requirements as they apply
+    to the base framework and add-on services and look to support the use-cases
+    presented by various other Eclipse projects that are adopting Eclipse on the
+    server (e.g., ECF, ECP, Corona).
+    [Equinox]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154087">154087</a>) 
+</p>
+
+</blockquote>
+
+<h4>Defered Items (Components)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+
+  
+</blockquote>
+
+<p>(End of items for Components.)</p>
+
+<h3><a name="Consumability">Consumability</a></h3>
+<p>
+  This work will make it easier for users to get Eclipse, install it on
+  their systems, and configure it for their use. It will also enhance
+  the error handling and reporting mechanisms to make it easier to service
+  Eclipse in the field. Finally, it will improve the scalability and
+  performance of Eclipse, to provide a better experience for users working
+  with many plug-ins and large data sets.
+</p>
+
+<h4>Committed Items (Consumability)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+
+  
+</blockquote>
+
+<h4>Proposed Items (Consumability)</h4>
+<blockquote> 
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Improve the launching experience.</strong>
+    We will look for ways to improve the current launching experience. This
+    may include efforts such as using SWT to build the splash screen,
+    improving the look and utility of the workspace launcher, supporting
+    "fast switching" between workspaces, and simplifying the experience for
+    first-time users.
+    [SWT, Runtime, Workspace, UI, UA]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154088">154088</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+   <strong>Improve serviceability.</strong>
+   When an end user encounters a problem with Eclipse, it is important for
+   support teams to be able to diagnose the root cause of the failure, and
+   identify the failing plug-in. Eclipse should have enhanced error reporting
+   tools that make it easy for end users to report problems. Tools should be
+   available at all times, so that knowledgeable users can diagnose
+   unexpected behavior such as slow-downs or exceptional memory use. Error
+   handling is done in a variety of ways within the platform which are not
+   extensible to RCP applications. An improved story would allow for the
+   inclusion of application defined error support (such as a link to a support centre 
+   for the product) and remote monitoring/inspection of system health and would 
+   tie the current error reporting story together into a solution with a more 
+   consistent look and fewer error reporting paths for developers.
+   [Runtime, UI]
+   (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154090">154090</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Managing and sharing settings.</strong>
+    Currently settings are either scoped at the workbench/workspace level or the
+    project level. However, there are cases where associating settings with
+    other scopes, such as a working set or perspective, would be beneficial.
+    Similarly, a product should be able to specify the default settings for a 
+    particular perspective. We will also look for ways to simplify how we share 
+    settings and other interesting state, such as breakpoints, bookmarks, 
+    perspectives, key bindings, etc.
+    [Runtime, Workspace, UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154097">154097</a>)
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Customization.</strong>
+    Eclipse lacks customization capabilities aimed at end users and product
+    packagers. More generally, component development and use is fraught with
+    producer/consumer problems. Component producers implement solutions that
+    address a number of use-cases and scenarios but inevitably consumers come
+    up with additional, sometimes quite divergent requirements. We will
+    investigate mechanisms and facilities that allow component consumers to
+    "override" or replace metadata specifications in the components they are
+    consuming.  Such mechanisms would, for example, allow consumers to configure
+    menus, tool bars, and perspectives of their Eclipse installation as well
+    as refine plug-in dependency declarations.
+    [Runtime, UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154099">154099</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Platform level proxy settings.</strong>
+
+    There are at least three proxy settings pages in Callisto. We will work with
+    the Eclipse community to make sure that the core capabilities from these
+    pages are made available at the Platform level, as a single settings
+    page that can be consumed by all.
+    [Runtime, Team, Update, UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154100">154100</a>)
+ </p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>GTK Printing.</strong>
+    We will provide printing support on GTK. 
+    [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154101">154101</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Ship Finer-grained Components.</strong>
+    The Eclipse project produces three major outputs, the Platform, JDT and PDE.
+    These are exposed as zips on download sites and features on update sites.
+    Those wanting to get just part of one of these components (e.g., Help,
+    Update, JDT Core) must first discover which zip or feature contains the
+    desired function, acquire that container and finally identify and extract
+    the desired plug-ins.  To make this easier we will revise the grouping structure 
+    to capture more independent and re-usable components. 
+    [All components]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154102">154102</a>) 
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Search based navigation.</strong>
+    Because traditional navigation-by-browsing does not scale to large data
+    sets, we should generalize and extend the existing search-based
+    rapid navigation mechanisms (e.g. "Quick Find Class").
+    [UI, UA]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154104">154104</a>)
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Performance focus.</strong>
+    We must continue to improve overall performance and memory consumption,
+    with a particular focus on working with large numbers of plug-ins and 
+    large amounts of data.
+    [All components]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154106">154106</a>)
+</p>
+
+</blockquote>
+
+<h4>Defered Items (Consumability)</h4>
+
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<p>(End of items for Consumability.)</p>
+
+<h3><a name="Java">Java</a></h3>
+<p>
+  The Eclipse Java Development Tools are the premier Java development
+  environment in the industry today. We must address the new capabilities
+  of Java SE 6 and continue to refine and extend the features JDT provides to
+  maintain its leadership position.
+</p>
+
+<h4>Committed Items (Java)</h4>
+
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<h4>Proposed Items (Java)</h4>
+<blockquote> 
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Enhance launching support.</strong>
+    We should simplify the launch experience for novice users with single
+    click context sensitive launching, simple launch configurations
+    managed via resource properties, and user configurable toolbar buttons
+    to invoke favorite launch configurations. For advanced users, we should
+    allow plug-ins to contribute additional pages to launch configurations
+    so that plug-in specific information (such as profiling and code
+    coverage settings) can be associated with each configuration.
+    [Debug]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154107">154107</a>)
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>More refactorings.</strong>
+    We will finish the 'Fix Deprecation' refactoring that didn't make it
+    into 3.2, and add the new refactoring 'Replace Invocation'. More
+    refactoring API will be offered in the plug-in org.eclipse.jdt.core.manipulation
+    so the refactoring infrastructure can be used with a UI. 
+    [JDT UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154108">154108</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Extend Clean Up.</strong>
+
+    Add formatting, organize import and sort members to 'Clean up',
+    offer clean up profiles, and invoke clean up on user defined events. 
+    [JDT UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154109">154109</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Enhance Annotation Processing Tooling.</strong>
+    An APT command-line tool should be provided as a complement to the batch
+    compiler and/or Ant javac adapter, in addition to the Java IDE support
+    within release 3.2. APT should also support the new
+    standard Annotation Processing API (JSR 269) introduced in Java SE 6, as
+    opposed to the provisional API from Sun introduced in Java SE 5 that is 
+    currently implemented. Also, the APT integration in IDE should be improved
+    in various areas, including editor reconciling and code assist. The editor
+    reconciling experience should work correctly even if the Java builder is
+    not active. Currently, if a processor generates types, those types are
+    ignored during reconcile. Instead, they should be modeled using working
+    copies, and provide the same level of functionality as JDT when autobuild
+    is turned off. Also, on the code-assist front, we should provide a simple API
+    for processors to supply domain specific knowledge to completions inside
+    annotation values.
+    [JDT APT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154110">154110</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Compiler API (JSR 199).</strong>
+    In order to conform to the forthcoming tool API for compilers (JSR 199),
+    the Eclipse compiler should provide a front-end implementing the tool API
+    included in Java SE 6. 
+    [JDT Core]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154111">154111</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Add more class file targets for compiler.</strong>
+    The compiler should support more configurable class file targets, including
+    CLDC 1.0, CLDC 1.1 and possibly JSR 14 (generics experimentation for 1.4
+    VMs). 
+    [JDT Core]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154113">154113</a>)
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Support for Java SE 6 debug features.</strong>
+    Implement new Java SE 6 features in the Eclipse Java Debug Interface (JDI)
+    client including support for heap walking (retrieve instance counts, all
+    intances of specific types, and all references to an object), forcing an
+    early return from a method with a specific return value, breakpoints for
+    monitor acquisition and release, access to the constant pool, and improved
+    class prepare event filtering.
+    [JDT Debug]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154115">154115</a>)
+</p>
+
+</blockquote>
+
+<h4>Defered Items (Java)</h4>
+
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<p>(End of items for Java.)</p>
+
+<h3><a name="Vista">Vista</a></h3>
+<p>
+  Microsoft Vista is a significant new desktop platform that we expect
+  will become available during this development cycle. We should fully
+  support running the current, win32-based version of Eclipse on
+  Vista. We should also port SWT to WinFX and the Windows Presentation
+  Framework.
+</p>
+
+<h4>Committed Items (Vista)</h4>
+
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<h4>Proposed Items (Vista)</h4>
+<blockquote> 
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Fully support the win32 version of SWT on Vista.</strong>
+    We should ensure that applications built on the win32 version of
+    SWT work as well as any other win32 API based application on 
+    Vista. This will increase our testing and support effort and potentially
+    require new development to work around platform specific differences. [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154116">154116</a>)
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Port SWT to WinFX and WPF.</strong>
+    We should port SWT to WinFX and the Windows Presentation Framework. Since
+    64-bit systems are becoming increasingly prevalent on the desktop, we should
+    ensure that this port is both 64-bit and 32-bit capable.
+    [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154117">154117</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Generalize the win32 version of SWT to win64.</strong>
+
+    We should merge the work being done by the Eclipse community to implement
+    a win64 implementation of SWT into the main win32 code base. This will
+    require extensive review of the new code and a significant effort to merge
+    and test the pervasive changes.
+    [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154118">154118</a>)
+</p>
+
+</blockquote>
+
+<h4>Defered Items (Vista)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<p>(End of items for Vista.)</p>
+
+<h3><a name="UIEvolution">UI Evolution</a></h3>
+<p>
+  The goal of this work is to provide a better basis for building modern,
+  rich user-interfaces, by addressing areas where more flexibility and
+  more consistency are needed. We will use these capabilities to refine 
+  the user-interface of the Eclipse IDE. In addition, we will implement
+  of the most requested missing IDE productivity features.
+</p>
+
+<h4>Committed Items (UI Evolution)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<h4>Proposed Items (UI Evolution)</h4>
+
+<blockquote> 
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Implement missing text editor productivity features.</strong>
+    We should provide some of the long awaited productivity features that
+    the community has voted for. Examples include double-click-drag to
+    select multiple words, triple-click, extensible hyperlink support
+    and spell checking. We should also improve the current
+    search/replace dialog. [Platform Text, Platform UI, SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154119">154119</a>)
+</p>
+  
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Improve workbench usability.</strong>
+
+    We should review how users interact with the workbench, such as
+    how editors, views, and other screen real-estate are managed
+    (e.g. fix the broken minimize), and find ways to make this a better
+    experience for them. This includes improving the new trim
+    support by allowing the end user to hide/show, close and otherwise
+    configure trim items, improving navigation from hovers (e.g. quick diff),
+    making fast views more flexible (fast views on all sides, fast view
+    orientation affinity, fast view bars show text option).
+    [Platform UI, Platform Text, JDT UI, JDT Text]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154120">154120</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Improve multi-instance view management.</strong>
+    Views such as Search and Synchronize use a drop-down menu to manage 
+    multiple pages. Another possibility would be to use multiple view instances. 
+    However, the presentation and management of these two approaches are different.
+    Multiple view instances should support different view presentations. That is, 
+    the user (or product) should be able to decide whether multiple views use tabs 
+    or a drop-down menu. There are also shortcomings in multi-view management 
+    (e.g., views are managed at the perspective level but some tooling may require 
+    the ability to close a particular view in all perspectives).
+    [UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154121">154121</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Investigate background saving of editors.</strong>
+    Modern applications allow editing sessions to be saved in the background,
+    allowing the user to continue editing or close the editor without waiting.
+    We should investigate whether this style of interaction can be built
+    on top of the Eclipse editor framework. [Platform Text, JDT Text, Platform UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154122">154122</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>JFace Enhancements.</strong>
+
+    Ensure that the reusable components in JFace fully support the SWT
+    widget set, such as support for the new custom draw capabilities
+    of the Table and Tree widgets. Also, implement some of the components
+    that we do not use in the SDK currently that the community is 
+    requesting. Some examples include: spinners, secure editors (such as
+    password entry fields) fields that enforce a format (such as fields for
+    currency and percentages), etc.
+    [Platform UI, SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154123">154123</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Mozilla Everywhere.</strong>
+    For situations where the existing, platform-browser-based Browser
+    control is not sufficient, we should support embedding of Mozilla on all
+    platforms. This would allow developers to implement code that worked
+    against a common back end, so that they could access a common DOM, or
+    surface the browser's HTML editing support. 
+    [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154124">154124</a>)
+</p>
+
+</blockquote>
+
+<h4>Defered Items (UI Evolution)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<p>(End of items for UI Evolution.)</p>
+
+<h3><a name="API">API</a></h3>
+<p>
+  This work area deals specifically with issues concerning the application
+  programming interfaces provided by the Eclipse Project. We will identify
+  API whose function has been superceded, and ensure that the SDK does
+  not depend on this API. We will encourage adoption within the SDK of
+  some of the more recent additions to Eclipse, such as
+  the command framework, Equinox preferences, tabbed
+  properties and the common navigator. We will work with the community to
+  ensure that needed functionality is made available as API, when it reaches
+  appropriate levels of maturity.
+
+</p>
+
+<h4>Committed Items (API)</h4>
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<h4>Proposed Items (API)</h4>
+<blockquote> 
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Generalize editor annotation and ruler support.</strong>
+
+    We should allow plug-ins to contribute additional vertical rulers
+    to show additional information (e.g. code coverage). We should
+    support live annotate "color by age" in addition to "color by
+    contributor".
+    [Platform Text]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154125">154125</a>)
+</p>
+  
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Adopt the Eclipse File System.</strong>
+    We should ensure that use of the Eclipse File System is pervasive
+    in the platform, and remove any barriers that prevent it from being
+    more widely adopted by the community. For example, we should provide
+    IFileStoreEditorInput and a matching default implementation.
+    [Workspace, UI, Platform Text]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154126">154126</a>)
+</p>
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Adopt the new UI features.</strong>
+
+    We should adopt the following items across the entire SDK UI: the new
+    command framework, preference initializers, field assist, SWT column
+    sort indicators, working sets, tabbed properties view and the common navigator.
+    [UI, JDT UI, PDE, Team, Text]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154127">154127</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Provide access to more native controls.</strong>
+    We should provide access to more of the native controls that are available
+    on each platform, such as date and time pickers, and table header widgets. 
+    In addition, we should enable more features of existing native controls,
+    such as table wrapping on Windows.
+    [SWT, UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154128">154128</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Custom widget API support.</strong>
+    Investigate ways to simplify the process of writing custom widgets,
+    including making available, as API, some of the currently internal
+    capabilities of the custom widgets implemented in the SDK, such as
+    drag under feedback for drag & drop.
+    [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154129">154129</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Finish re-work of commands and key bindings.</strong>
+
+    In 3.2, we built some important infrastructure that will allows us to
+    rationalize our commands and key bindings story. We need to complete this
+    effort, making sure the new story supports all of the existing
+    functionality (e.g action sets), and migrate over to the new support.
+    We also need to make it easier to add and edit key bindings.
+    [UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154130">154130</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>JFace data binding.</strong>
+    In 3.2, we developed a data binding framework for JFace but did not
+    make it generally available. We should continue to work towards providing a 
+    public API for this framework and investigate how it will be delivered and
+    used within the SDK. 
+    [UI]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154132">154132</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Improve compare.</strong>
+    The Compare plugin has not undergone much work in the last few releases
+    and is showing it. From an architectural standpoint, there are several
+    Compare internals that need to be made API in order to properly support
+    clients and there are also several polish items that have been identified
+    by Eclipse development teams. In addition, new ISaveable support was added
+    in 3.2 and we should investigate integrating this into Compare. From a
+    usability standpoint, the compare editor uses a custom viewer for content
+    which appears similar to the related editor but has a reduced capability
+    which is often confusing for users. Smaller usability issues involve
+    breaking out the outline from the editor into the Outline view. There is
+    supported by compare but is not used by Team or other Platform clients.
+    [Team]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154133">154133</a>)
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>Graphics Improvements.</strong>
+    The SWT graphics layer should provide support for fractional line widths,
+    dashes and fonts, the ability to flatten paths, image loading/saving
+    improvements, and other similar enhancements. 
+    [SWT]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154134">154134</a>)
+
+</p>
+
+<p>(<img src="new.gif" alt="(new)" border="0" height="12" width="12"> new)
+    <strong>APIs for custom debugger integration.</strong>
+    Publish public APIs based on the provisional APIs introduced in 3.2 to
+    support custom debugger integration. Features include flexible hierarchy
+    in debug views; asynchronous, cancellable interactions when retrieving
+    content and labels; model-driven view updates; a debug context service
+    for retargettable actions, flexible view wiring and pluggable source
+    lookup.
+    [Platform Debug]
+    (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154135">154135</a>)
+</p>
+
+
+</blockquote>
+
+<h4>Defered Items (API)</h4>
+
+<blockquote> 
+
+  <p><i>None at this time.</i></p>
+  
+</blockquote>
+
+<p>(End of items for API.)</p>
+
+<!-- End of Sections by Work Area -->
+
+<h3><a name="Appendix1">Appendix 1: Execution Environment by Plug-in</a></h3>
+
+<p>In the table below, the "3.3 EE" ("3.3 Execution Environment") column
+indicates the minimum Java class library requirements of each plug-in
+for the 3.3 release, where the value is one of:</p>
+<table border="0" width="90%">
+
+  <tbody>
+    <tr>
+      <td align="center"><b>Entry</b></td>
+      <td align="left"><b>Meaning</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>M1.0</strong></div>
+
+      </td>
+      <td>OSGi Minimum Execution Environment 1.0 - This is a subset of
+      the J2ME Foundation class libraries defined by OSGi to be the base
+      for framework implementations. See the OSGi specification for more
+      details.</td>
+    </tr>
+    <tr>
+      <td width="9%">
+      <div align="center"><strong>M1.1</strong></div>
+      </td>
+      <td width="91%">OSGi Minimum Execution Environment 1.1 - This is a
+      subset of the J2ME Foundation class libraries defined by OSGi to
+      be the base for framework implementations. See the OSGi
+      specification for more details.</td>
+
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>F1.0</strong></div>
+      </td>
+      <td>J2ME Foundation 1.0 - indicates that the plug-in can only be
+      run on Foundation 1.0 or greater. Note that with the exception of
+      some MicroEdition IO classes, Foundation 1.0 is a subset of J2SE
+      1.3.</td>
+    </tr>
+    <tr>
+
+      <td>
+      <div align="center"><strong>F1.1</strong></div>
+      </td>
+      <td>J2ME Foundation 1.1 - indicates that the plug-in can only be
+      run on Foundation 1.1 or greater. Note that with the exception of
+      some MicroEdition IO classes, Foundation 1.1 is a subset of J2SE
+      1.4.</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>1.2</strong></div>
+
+      </td>
+      <td>J2SE 1.2 - indicates that the plug-in can only be run on JSE
+      1.2 or greater.</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>1.3</strong></div>
+      </td>
+      <td>J2SE 1.3 - indicates that the plug-in can only be run on JSE
+      1.3 or greater.</td>
+
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>1.4</strong></div>
+      </td>
+      <td>J2SE 1.4 - indicates that the plug-in can only be run on JSE
+      1.4 or greater.</td>
+    </tr>
+    <tr>
+
+      <td>
+      <div align="center"><strong>1.4/1.5</strong></div>
+      </td>
+      <td>Indicates that the plug-in can run on JSE
+      1.4 or greater, but provides enhanced functionality when run on J2SE 5.0.</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>1.5</strong></div>
+
+      </td>
+      <td>J2SE 5.0 - indicates that the plug-in can only be run on JSE
+      5.0 or greater.</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="center"><strong>1.6</strong></div>
+      </td>
+      <td>J2SE 6.0 - indicates that the plug-in can only be run on JSE
+      6.0 or greater.</td>
+
+    </tr>
+    <tr>
+      <td align="center"><b>n/a</b></td>
+      <td>Unknown at the time of this revision.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<b>Table of minimum execution environments by plug-in.</b>
+
+<br>
+<br>
+<table border="1">
+  <tbody>
+    <tr>
+      <td width="290"><strong>Plug-in</strong></td>
+      <td width="60">
+      <div align="center"><strong>3.3 EE</strong></div>
+      </td>
+
+    </tr>
+    <tr>
+      <td>org.apache.ant</td>
+      <td>
+      <div align="center">1.2</div>
+      </td>
+    </tr>
+    <tr>
+
+      <td>org.apache.lucene</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ant.core</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ant.ui</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.compare</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.core.boot</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.commands</td>
+
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.expressions</td>
+      <td>
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.filebuffers</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.core.filesystem</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.resources</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.resources.compatibility</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.runtime</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.core.runtime.compatibility</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.core.variables</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.debug.core</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.debug.ui</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.help</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.help.appserver</td>
+
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.help.base</td>
+      <td>
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.help.ui</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.help.webapp</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.core</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.apt.core</td>
+      <td>
+      <div align="center">1.5</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.jdt.apt.ui</td>
+      <td>
+      <div align="center">1.5</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.debug</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.debug.ui</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.doc.isv</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.jdt.doc.user</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.junit</td>
+
+      <td>
+      <div align="center">1.4/1.5</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.junit.runtime</td>
+      <td>
+      <div align="center">1.4/1.5</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.launching</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.jdt.source</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jdt.ui</td>
+
+      <td>
+      <div align="center">1.4/1.5</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jface</td>
+      <td>
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.jface.text</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.ltk.core.refactoring</td>
+      <td>
+      <div align="center">1.4/1.5</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ltk.ui.refactoring</td>
+
+      <td>
+      <div align="center">1.4/1.5</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.osgi (system.bundle)</td>
+      <td>
+      <div align="center">M1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.osgi.services</td>
+      <td>
+      <div align="center">M1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.osgi.util</td>
+      <td>
+      <div align="center">M1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.pde</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.pde.build</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.pde.core</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.pde.doc.user</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.pde.junit.runtime</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.pde.runtime</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.pde.source</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.pde.ui</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.platform</td>
+
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.platform.doc.isv</td>
+      <td>
+      <div align="center">n/a</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.platform.doc.user</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.platform.source</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.platform.source.*</td>
+
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.rcp</td>
+      <td>
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.rcp.source</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.rcp.source.*</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.sdk</td>
+
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.search</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.swt</td>
+      <td bgcolor="#ffffff">
+      <div align="center">M1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.swt.*</td>
+      <td bgcolor="#ffffff">
+      <div align="center">M1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.team.core</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.team.cvs.core</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.team.cvs.ssh</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.team.cvs.ssh2</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.team.cvs.ui</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.team.ui</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.text</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.tomcat</td>
+      <td>
+      <div align="center">n/a</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui</td>
+
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.browser</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.cheatsheets</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.ui.console</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.editors</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.externaltools</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.forms</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.ui.ide</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.intro</td>
+
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.navigator</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.navigator.resources</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.ui.presentations.r21</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.views</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.win32</td>
+      <td>
+      <div align="center">1.4</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.workbench</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.ui.workbench.compatibility</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.ui.workbench.texteditor</td>
+
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.update.configurator</td>
+      <td bgcolor="#ffffff">
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.update.core</td>
+      <td bgcolor="#ffffff">
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.eclipse.update.core.linux</td>
+      <td bgcolor="#ffffff">
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.update.core.win32</td>
+
+      <td bgcolor="#ffffff">
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.update.scheduler</td>
+      <td bgcolor="#ffffff">
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td>org.eclipse.update.ui</td>
+      <td>
+      <div align="center">F1.0</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>org.junit (old)</td>
+      <td>
+      <div align="center">1.4</div>
+      </td>
+    </tr>
+    <tr>
+      <td>org.junit (JUnit4)</td>
+
+      <td>
+      <div align="center">1.5</div>
+      </td>
+    </tr>
+    <tr>
+      <td>startup.jar</td>
+      <td>
+      <div align="center">F1.0</div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <h2><a name="TPTP"></a>Test and Performance Tools Platform (TPTP)</h2>
-<em>The project did not provide any plan information.</em>
+
+<h3>Eclipse Test &amp; Performance Tools Platform (TPTP) Project<br>
+4.3 Plan (Approved)</h3>
+<p>Last revised 
+<!--webbot bot="Timestamp" S-Type="REGENERATED" S-Format="%m/%d/%Y %I:%M %p" startspan -->10/23/2006 09:23 PM<!--webbot bot="Timestamp" endspan i-checksum="26061" --> 
+Pacific Time (<font face="Arial"><span
+ style="background-color: rgb(255, 255, 255);"><img src="http://www.eclipse.org/images/new.gif"
+ border="0" height="12">
+marks interesting changes since September 2006)</span></font><br>
+<br>
+<i>&nbsp;&nbsp;&nbsp; Please send comments about this plan to the </i><a
+ href="mailto:tptp-pmc@eclipse.org">tptp-pmc@eclipse.org</a>
+
+<i>PMC mailing list.</i></p>
+<p>This document lays out the feature and API set for the TPTP 4.3
+release. </p>
+<ul>
+  <li><a href="#Deliverables">Release Deliverables</a> </li>
+  <li><a href="#Milestones">Release Milestones</a> </li>
+  <li><a href="#TargetOperatingEnvironments">Target Operating
+Environments</a> </li>
+
+  <li><a href="#Compatibility">Compatibility with Previous Releases</a></li>
+  <li><a href="#Themes">Themes</a></li>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Features">Features</a></li>
+  <li><a href="#Defects">Defects</a></li>
+</ul>
+<p>The first part of this plan deals with the important matters of
+release deliverables, release milestones, target operating
+environments, and release-to-release compatibility.&nbsp; These are all
+things that need to be clear for any release, even if no features were
+to change.&nbsp; </p>
+
+<p>The remainder of the plan consists of plan items for the four
+projects under the TPTP Top-Level Project.&nbsp; Each plan item covers
+a feature or API that is to be added to TPTP, or some aspect of TPTP
+that is to be improved.&nbsp; Each plan item has its own entry in the
+TPTP bugzilla database, with a title and a concise summary (usually a
+single paragraph) that explains the work item at a suitably high enough
+level so that everyone can readily understand what the work item is
+without having to understand the nitty-gritty detail. </p>
+<p>Not all plan items represent the same amount of work; some may be
+quite large, others, quite small. Some plan items may involve work that
+is localized to a single component; others may involve coordinated
+changes to several components; other may pervade the entire project. </p>
+<p>With the previous release as the starting point, this is the plan
+for how we will enhance and improve it.&nbsp; Fixing bugs, improving
+test coverage, documentation, examples, performance tuning, usability,
+etc. are considered routine ongoing maintenance activities and are not
+included in this plan unless they would also involve a significant
+change to the API or feature set, or involve a significant amount of
+work. The intent of the plan is to account for all interesting feature
+work. </p>
+<h3><a name="Deliverables"></a>Release Deliverables</h3>
+<p>The following release deliverables are provided: </p>
+<ul>
+
+  <li>Runtime </li>
+  <li>Source </li>
+  <li>Examples </li>
+  <li>Component Test </li>
+  <li>Data Collection Engine for Windows (NT, 2000, XP) x86 Runtime</li>
+  <li>Data Collection Engine for Windows (XP, Server 2003) x86/64-bit
+Runtime</li>
+
+  <li>Data Collection Engine for Windows Server 2003 Itanium Runtime</li>
+  <li>Data Collection Engine for Linux x86 Runtime</li>
+  <li>Data Collection Engine for Linux x86/64-bit Runtime </li>
+  <li>Data Collection Engine for Linux Itanium Runtime </li>
+  <li>Data Collection Engine for Linux zSeries Runtime </li>
+  <li>Data Collection Engine for zSeries Runtime </li>
+
+  <li>Data Collection Engine for iSeries Runtime </li>
+  <li>Data Collection Engine for Solaris Sparc Runtime </li>
+  <li>Data Collection Engine for AIX PPC Runtime</li>
+  <li>Data Collection Engine for Linux PPC/64-bit </li>
+  <li>Data Collection Engine for HP-UX Runtime </li>
+  <li>Native Logging Implementation (All platforms) </li>
+
+  <li>Plugin Translatability Log</li>
+</ul>
+<h3><a name="Milestones"></a>Release Milestones</h3>
+<p>The TPTP 4.3 release is targeted for general availability on
+27-Oct-2006.&nbsp; All release deliverables will be available for
+download as soon as the release has been tested and validated in the
+target operating configurations.&nbsp; The first iteration is dedicated
+to defect fixing, automation of regression testing, and measuring and
+increasing test coverage for public API. There will be no enhancements
+committed to CVS HEAD stream until end of iteration #1, except new
+features that were made available as technology preview in TPTP 4.2
+release. In iteration #2, 4.2.1 release branch will be created in CVS
+and enhancements in plan for 4.3 release will be allowed to be
+committed to CVS HEAD stream. Iteration #3 is for shutting down
+development and get ready to release 4.3 GA.</p>
+<table id="table1" border="1" width="821">
+  <tbody>
+    <tr>
+
+      <td colspan="3" bgcolor="#c0c0c0" width="793">
+      <p align="center"><b><font size="+1">Release Milestones</font></b></p>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#c0c0c0" width="210"><b>Milestone</b></td>
+      <td bgcolor="#c0c0c0" width="163"><b>Date</b></td>
+
+      <td bgcolor="#c0c0c0" width="416"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="210">Iteration 1</td>
+      <td width="163">Friday, 04-Aug-06</td>
+      <td width="416">Stable build - bug fixes only (CVS stream common
+with 4.2.1) </td>
+    </tr>
+
+    <tr>
+      <td width="210">Iteration 2</td>
+      <td width="163">Friday, 22-Sep-06</td>
+      <td width="416">Stable build - enhancements and bug fixes</td>
+    </tr>
+    <tr>
+      <td width="210">Iteration 3</td>
+
+      <td width="163">Friday, 17-Nov-06 <font face="Arial"><span
+ style="background-color: rgb(255, 255, 255);"><img src="http://www.eclipse.org/images/new.gif"
+ border="0" height="12"></span></font></td>
+      <td width="416">Stable build - shut down </td>
+    </tr>
+    <tr>
+      <td width="210">&nbsp;</td>
+      <td width="163">Monday, 04-Dec-06 <font face="Arial"><span
+ style="background-color: rgb(255, 255, 255);"><img src="http://www.eclipse.org/images/new.gif"
+ border="0" height="12"></span></font></td>
+      <td width="416">General Availability</td>
+
+    </tr>
+  </tbody>
+</table>
+<p>For a detailed development schedule of TPTP 4.3 release,
+<a
+ href="http://www.eclipse.org/tptp/home/project_info/releaseinfo/4.3/schedule.html">click
+here</a>.</p>
+<h3><a name="TargetOperatingEnvironments"></a>Target Operating
+Environments</h3>
+<p>In order to remain current, each TPTP release targets reasonably
+current versions of the underlying operating environments.</p>
+<ul>
+  <li>Java runtime (JRE) or Java development kit (JDK) 1.4 </li>
+
+  <li> <a href="http://download.eclipse.org/eclipse/downloads/">Eclipse
+SDK 3.2</a> for Linux (GTK)&nbsp;, Linux (Motif),&nbsp;or Windows</li>
+  <li>Eclipse Modeling Framework (EMF) SDK <a
+ href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a>
+  </li>
+  <li>XML Schema Infoset Model (XSD) SDK <a
+ href="http://download.eclipse.org/tools/emf/scripts/downloads.php">2.2</a></li>
+
+</ul>
+<p>Most of the TPTP SDK is "pure" Java&#8482; code and has no direct
+dependence on the underlying operating system.&nbsp; The chief
+dependence is therefore on the Java 2 Platform itself.&nbsp; The TPTP
+4.3 release is written and compiled against version 1.4 of the Java 2
+Platform APIs, and targeted to run on version 1.4 of the Java 2 Runtime
+Environment, Standard Edition.</p>
+<p>There are many different implementations of the Java 2 Platform
+running atop a variety of operating systems. We focus TPTP testing on a
+handful of popular <span class="header">combinations of operating
+system and Java 2 Platform; these are our <em>reference platforms</em>.&nbsp;
+TPTP undoubtedly runs fine in many operating environments beyond the
+reference platforms we test.&nbsp; However, since we do not
+systematically test them we cannot vouch for them.&nbsp; Problems
+encountered when running TPTP on non-reference platforms that cannot be
+recreated on any reference platform will be given lower priority than
+problems with running TPTP on a reference platform.</span></p>
+
+<p>TPTP SDK 4.3 is tested and validated on the following target
+reference platforms (this list may be updated over the course of the
+release cycle):</p>
+<table border="1" width="821">
+  <tbody>
+    <tr bgcolor="#cccccc">
+      <th colspan="2">
+      <div align="center"><font size="+1">TPTP</font><b><font size="+1">
+Agent Controller Reference Platforms</font></b> </div>
+      </th>
+
+    </tr>
+    <tr>
+      <td width="108"><b>Processor architecture</b></td>
+      <td width="697"><b>Operating system</b></td>
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+
+      <td width="697"> Red Hat Linux v7.1, v7.2, v7.3, v8.0</td>
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+      <td width="697">Red Hat Linux Advanced Server v2.1</td>
+    </tr>
+    <tr>
+
+      <td width="108">Intel IA32</td>
+      <td width="697">SuSE Linux v7.2, v7.3</td>
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+      <td width="697">SuSE Linux Enterprise Server (SLES) v7, v8</td>
+    </tr>
+
+    <tr>
+      <td width="108">Intel IA32</td>
+      <td width="697">Windows 2000 Advanced Server (service pack 2)</td>
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+      <td width="697">Windows 2000 Professional (service pack 2)</td>
+
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+      <td width="697">Windows 2000 Server (service pack 2)</td>
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+
+      <td width="697"> Windows NT 4.0 (service pack 6a)</td>
+    </tr>
+    <tr>
+      <td width="108">Intel IA32</td>
+      <td width="697">Windows Server 2003</td>
+    </tr>
+    <tr>
+
+      <td width="108">Intel IA32</td>
+      <td width="697">Windows XP Professional</td>
+    </tr>
+    <tr>
+      <td width="108">Intel EM64T</td>
+      <td width="697">Red Hat Linux Advanced Server v3</td>
+    </tr>
+
+    <tr>
+      <td width="108">Intel EM64T</td>
+      <td width="697">Windows 20003 Server (service pack 1)</td>
+    </tr>
+    <tr>
+      <td width="108">Intel IPF</td>
+      <td width="697">Red Hat Advanced Server v3</td>
+
+    </tr>
+    <tr>
+      <td width="108">Intel IPF</td>
+      <td width="697">Windows 20003 Server (service pack 1)</td>
+    </tr>
+    <tr>
+      <td width="108">iSeries</td>
+
+      <td width="697">OS/400 V5R1, V5R2</td>
+    </tr>
+    <tr>
+      <td width="108">PA-RISC</td>
+      <td width="697">HP-UX v11.0, v11i</td>
+    </tr>
+    <tr>
+
+      <td width="108">RS/6000</td>
+      <td width="697">AIX v4.4.0, v5.1, v5.2</td>
+    </tr>
+    <tr>
+      <td width="108">SPARC</td>
+      <td width="697">Sun Solaris v8, v9</td>
+    </tr>
+
+    <tr>
+      <td width="108">zSeries</td>
+      <td width="697">z/OS V1R7</td>
+    </tr>
+    <tr>
+      <td width="108">zSeries</td>
+      <td width="697">SuSE Linux Enterprise Server (SLES) v8 </td>
+
+    </tr>
+    <tr>
+      <td width="108">PowerPC/64-bit </td>
+      <td width="697">Red Hat Enterprise Linux AS release 3 </td>
+    </tr>
+  </tbody>
+</table>
+<p>Although untested, TPTP should work fine on other OSes that support
+the same operating system kernel and version.</p>
+
+<h4>Internationalization</h4>
+<p>TPTP is designed as the basis for internationalized products. The
+user interface elements provided by the TPTP SDK components, including
+dialogs and error messages, are externalized. The English strings are
+provided as the default resource bundles.</p>
+<p>Latin-1 locales are supported by the TPTP SDK on all of the above
+operating environments; DBCS locales are supported by the TPTP SDK on
+the Windows, GTK, and Motif window systems; BIDI locales are supported
+by the TPTP SDK only on Windows operating environments. </p>
+<p>The TPTP SDK supports GB 18030, the new Chinese code page standard,
+on Windows XP and 2000, and Linux.</p>
+<p>TPTP supports ICU4J starting in 4.2 release. This will significantly
+increase the number of supportable locales. Products needing to
+localize to newer locales are enabled. German, Traditional Chinese, and
+Arabic are tested.&nbsp; </p>
+<h3><a name="Compatibility"></a>Compatibility with Previous Releases</h3>
+<p>TPTP 4.3 will be compatible with TPTP 4.2.&nbsp; The following
+specifies details of the various aspects of release compatibility.</p>
+
+<ul>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> API Contract
+Compatibility:</b>&nbsp; Refer to <i> <a
+ href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes
+that maintain contract compatibility.TPTP SDK 4.3 will be upwards
+contract-compatible with TPTP SDK 4.2 or lower. Downward contract
+compatibility is not supported. There is no guarantee that compliance
+with TPTP SDK 4.3 APIs would ensure compliance with TPTP SDK 4.0 APIs.</p>
+  </li>
+  <li>
+
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Binary
+(plug-in) Compatibility:</b> TPTP SDK 4.3 will be upwards
+binary-compatible with TPTP SDK 4.2. Downward plug-in compatibility is
+not supported. Plug-ins for TPTP SDK 4.3 will not be usable in TPTP SDK
+4.2. Refer to <i> <a
+ href="http://eclipse.org/eclipse/development/java-api-evolution.html">
+Evolving Java-based APIs</a></i> for a discussion of the kinds of API
+changes that maintain binary compatibility. </p>
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Source
+Compatibility:</b> TPTP SDK 4.3 will be upwards source-compatible with
+TPTP SDK 4.2. This means that source files written to use TPTP SDK 4.2
+APIs might successfully compile and run against TPTP SDK 4.3 APIs,
+although this is not guaranteed. Downward source compatibility is not
+supported. If source files use new TPTP SDK APIs, they will not be
+usable with an earlier version of the TPTP SDK. </p>
+
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Workspace
+Compatibility:</b> <font face="Arial" size="2">TPTP SDK 4.3 will be
+upwards workspace-compatible with TPTP SDK 4.2 unless noted. This means
+that workspaces and projects created with TPTP SDK 4.2 can be
+successfully opened by TPTP SDK 4.3 and upgraded to a 4.3 workspace</font>.
+This includes both hidden metadata, which is localized to a particular
+workspace, as well as metadata files found within a workspace project
+(e.g., the .project file), which may propagate between workspaces via
+file copying or team repositories. Downward workspace compatibility is
+not supported. A workspace created (or opened) by a product based on
+TPTP 4.2 will be unusable with a product based an earlier version of
+TPTP. Visible metadata files created (or overwritten) by TPTP 4.3 will
+generally be unusable with earlier versions of TPTP. </p>
+  </li>
+  <li><b>Non-compliant usage of API's</b>: All non-API methods and
+classes, and certainly everything in a package with "internal" in its
+name, are considered implementation details which may vary between
+operating environment and are subject to change without notice. Client
+plug-ins that directly depend on anything other than what is specified
+in the TPTP SDK API are inherently unsupportable and receive no
+guarantees about compatibility within a single release much less with
+an earlier releases. Refer to <i> <a
+ href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">
+
+How to Use the Eclipse API</a></i> for information about how to write
+compliant plug-ins. </li>
+</ul>
+<h3><a name="Themes"></a>Themes</h3>
+<p>The TPTP PMC adopted and specialized the following Eclipse themes
+which represent the key focus areas for TPTP enhancements in the year
+ahead.</p>
+<ul>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Scaling Up -</b><span
+ lang="EN-GB"> </span>TPTP will work to enhance the support of large
+data volumes and processing rates in areas such as data collection,
+user interface and in the persistence of trace, log and statistical
+models and execution histories. </p>
+
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Enterprise
+Ready </b> - Hooks will be provided within the TPTP infrastructure to
+link testing tools to requirements tracking tools and defect tracking
+tools, thus embedding them effectively in enterprise development
+cycles. Changes to the data collection layers will increase
+interoperability with enterprise security infrastructure. In addition,
+there will be progressive adoption of the TPTP tools and infrastructure
+as a test platform for the project itself, which is in turn likely to
+drive refinements into the tools. An increased focus on whole-project
+integration testing will ensure effective interoperability amongst all
+TPTP components and the rest of the Eclipse environment. </p>
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Design for
+Extensibility: Be a Better Platform</b> - There will be a wide range of
+activities within TPTP to externalize APIs and define extension points,
+making the infrastructure more flexible, and more generic in
+application. A good example of this is integration of TPTP with WTP and
+BIRT for web application testing, profiling and generation of
+customized reports of results. </p>
+
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Embedded
+Development - </b>TPTP target execution environment and remote data
+collection framework provide capabilities that are adapted for high-end
+embedded systems. TPTP will seek contributions to add support for
+embedded systems. We are promoting use of TPTP native logging
+capabilities on a number of embedded target systems. </p>
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Rich Client
+Platform</b> - TPTP will use RCP for building manual test client, log
+analyzer and other GUI-based clients in target environments. </p>
+
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Simple to Use</b>
+- The existing TPTP tools were conceived as samples, rather than as
+exemplary, they are deficient in many areas of usability and in some
+cases lacking in function. The plan is that within the domains which
+they target they will provide a high-quality user experience out of the
+box. We will focus on ease of use through enhanced user documentation,
+tutorials, white papers, demonstrations, and a wide range of
+enhancements to the user interface to streamline basic processes and
+clarify concepts and terminology. We are focused on improving as much
+as possible in Release 4.3, and expect need for continuing this focus
+beyond 4.3. </p>
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Enable
+Consistent Multi-language Support</b> - In TPTP a significant effort
+will be applied in extending coverage of the trace models to represent
+C/C++ programs and to handle protocol activity (specifically HTTP)
+consistently with program activity. There will also be C/C++ APIs
+provided to the data collection and control layers. </p>
+
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b> Appealing to
+the Broader Community</b> - A range of initiatives will be taken to
+broaden the community of potential and actual users of TPTP.
+Technically this will include additional integration of open source
+test tool technologies based on JUnit, and the various hooks to JUnit
+in the JDT, more data collection agents &#8211; particularly focusing on open
+source technologies, and additional operating system and hardware
+platforms from which data can be collected. There will be additional
+marketing and an extensive outreach program to the Eclipse community
+for additional contribution and adoption. </p>
+  </li>
+</ul>
+<h3><a name="Projects"></a>Projects</h3>
+
+<p style="margin-top: 0pt; margin-bottom: 0pt;">The TPTP top-level project is is
+comprised of four projects, managed in a coordinated fashion, across which the
+plans items are allocated.&nbsp; TPTP projects include:</p>
+<ul>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b>TPTP Platform
+Project </b>- Provides common infrastructure in the areas of user
+interface, EMF based data models, data collection and communications
+control, as well as remote execution environments. Additionally, the
+Platform provides extension points for leveraging or extending these
+capabilities in solution specific tooling or runtimes. This includes
+Eclipse workbench plug-ins as well as runtime plug-ins on a target and
+optionally remote system. </p>
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b>Testing Tools
+Project </b>- Provides specializations of the TPTP Platform for
+testing (e.g. test editors, trace/test conversion support), and
+exemplary extensible tools for specific testing environments. Initially
+this includes three test environments: JUnit, manual, and URL testing.
+These specializations provide optimized editing and reporting
+experiences for these use cases. In the cases where a unique runtime or
+an implementation of a testability interface is required, it is also
+developed in the project. For example, the manual test execution
+environment provides a remotely managed user interface specifically for
+collecting manual test progress. This manual user interface is unique
+from the common execution environment for JUnit and URL testing. . </p>
+
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 5px;"><b>Tracing &amp;
+Profiling Tools Project</b> - Extends the TPTP Platform with specific
+data collection for Java and distributed applications that populate the
+common trace model, additional language and protocol support is
+anticipated. There are also viewers and analysis services that draw
+data from the common trace model. Capabilities are provided to collect
+and analyze heap and stack information as well as generic toolkits for
+instrumenting running applications.. </p>
+  </li>
+  <li>
+    <p style="margin-top: 0pt; margin-bottom: 0pt;"><b>Monitoring Tools
+Project </b>- Extends the TPTP Platform for collecting, analyzing,
+aggregating, and visualizing data that can be captured in the log and
+statistical models. The typical examples are the collection of system
+or application resources such as CPU or memory utilization and support
+for the viewing, aggregation, and analysis of that data. Logs can also
+be transformed into a common format and model allowing for symptom and
+pattern analysis. The correlation of the data in these models is of
+particular interest when it is associated with other model instances of
+statistical or log data as well as traces and tests.. </p>
+
+  </li>
+</ul>
+<h3><a name="Features"></a>Features</h3>
+<p>Plan items targeted for this release represent the addition of new
+features or areas where existing features will be significantly
+reworked or enhanced.&nbsp; Plan items are allocated to themes and
+projects indicated above.</p>
+<table id="table2" border="1" width="821">
+  <tbody>
+    <tr bgcolor="#cccccc">
+      <th colspan="2">
+      <div align="center"><font size="+1">TPTP Platform Project Plan
+Items</font></div>
+
+      </th>
+    </tr>
+    <tr>
+      <td width="78"><b>Status</b></td>
+      <td width="727"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td height="23" width="78">In Plan</td>
+
+      <td height="23" width="727">Support existing RAC clients and
+agents on the Linux IA32 platform using the new Agent Controller
+technology through compatibility layers(<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125103">125103</a>).
+      </td>
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+      <td width="727"> TPTP profiler (based on JVMTI) will be further
+improved in this release cycle with a heap profiler (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147653">147653</a>)
+thread profiler (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147654">147654</a>),
+and improved performance summary information (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147658">147658</a>)</td>
+
+    </tr>
+    <tr>
+      <td height="23" width="78">In Plan</td>
+      <td height="23" width="727"> <font face="Arial" size="2">This
+requirement is to make the Log Analyzer UI format-agnostic when
+displaying Common Base Events as the event format will change and
+evolve over time. Any view, dialog, or editor that currently displays
+Common Base Events should display the events in a consistent manner
+with consistent naming.</font> <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=71682">71682</a></td>
+    </tr>
+    <tr>
+
+      <td width="78">In Plan</td>
+      <td width="727"> Provide the Log Analyzer functionality available
+in TPTP as an RCP application. The TPTP Log Analyzer will be
+restructured so that it can be packaged as a Rich Client Platform
+application. The RCP application will provide log visualization,
+analysis and correlation. <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=134531">134531</a></td>
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+      <td width="727"> <font face="Arial" size="2">The TPTP log
+analyzer provides a set of useful services to analyze log files. Most
+of these services are tightly tied to the log and trace analyzer user
+interface. It is required to decouple these services from the UI so
+that consuming products can reuse the above functionality. This
+enhancement is used to</font><font face="sans-serif" size="2"> define a
+set of interfaces to expose the log analysis and correlation services
+available in the TPTP Log Analyzer function.</font> <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=143766">143766</a></td>
+
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Helpwanted<br>
+      </td>
+      <td style="vertical-align: top;"><font face="sans-serif" size="2">We
+are investing in automating post-build steps in deploying and executing
+regression tests. This has been dire need for the project and should
+positively impact quality and productivity. Automate the deployment and
+set up of Agent Controller on all platforms (</font><a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=144958">144958</a>)</td>
+    </tr>
+    <tr>
+
+      <td width="78">Helpwanted</td>
+      <td width="727"> This enhancement will improve the usability of
+dynamic probekit feature by automatically deploying the support class
+files that contain byte code for the user defined probes (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=143251">143251</a>)
+      </td>
+    </tr>
+    <tr>
+      <td width="78">Helpwanted</td>
+      <td width="727"> Web document for creating custom profilers with
+Probekit <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147450">147450</a>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="78">Helpwanted</td>
+      <td width="727"> Explore design approaches to improve scalability
+and responsiveness of EMF-based data models for trace and test
+tools.[Trace Model <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147656">147656</a>]
+[Test Model <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=144950">144950</a>]</td>
+
+    </tr>
+    <tr>
+      <td width="78">Helpwanted</td>
+      <td width="727"> <font face="Arial" size="2"> <span
+ style="font-size: 10pt; font-family: Arial;">Provide capability in the
+agent framework to dynamically determine if the data collection
+services are available to an agent. The data collection services
+include agent controller and file transfer service.</span></font> <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=142742">142742</a></td>
+    </tr>
+  </tbody>
+
+</table>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<table id="table13" width="821" border="1">
+	<tr bgColor="#cccccc">
+		<th colSpan="2">
+		<div align="center">
+			<font size="+1">TPTP Testing Tools Project Plan Items</font></div>
+		</th>
+	</tr>
+	<tr>
+
+		<td width="78"><b>Status</b></td>
+		<td width="727"><b>Description</b></td>
+	</tr>
+	<tr>
+		<td width="78">In Plan</td>
+		<td width="727"><strong>Improve JUnit integration between TPTP and JDT.</strong> 
+		Allow the JUnit user to have the same experience, once TPTP is 
+		installed, as he/she used to have in Eclipse SDK, with the possibility 
+		of executing his/her JUnit tests in the TPTP framework. Any JUnit test 
+		would be edited and created as usual, and still it would be integrated 
+		with other types of TPTP tests, and could be executed in the TPTP 
+		framework. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=90628">90628</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+
+	</tr>
+	<tr>
+		<td width="78">In Plan</td>
+		<td width="727"><strong>Provide a generic Java API recorder</strong> 
+		Based on the generic recording facility provided in TPTP v4.1+ (see 
+		enhancement #74926), provide a generic recorder to record Java API 
+		invocations to create a test. The generic recorder could leverage the 
+		TPTP Probe Kit to instrument target APIs to capture invocations based on 
+		predefined criteria. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=119688">119688</a>) 
+		[Theme: Design for Extensibility: Be a Better Platform]</td>
+	</tr>
+	<tr>
+
+		<td width="78">In Plan</td>
+		<td width="727"><strong>Provide the concept of an object mine inside 
+		each test suite</strong> The object mine will keep track of a single id 
+		of an object irregardless of the number of times it occurs in the test 
+		cases owned by the test suite. The user will also be able to include 
+		external object mines (i.e. object mines owned by other test suites) and 
+		contribute any newly detected objects to an external object mine. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=144763">144763</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+	</tr>
+	<tr>
+		<td width="78">Helpwanted</td>
+
+		<td width="727"><strong>Providing better means for the user to specify a 
+		workspace location</strong> An extra page specific to the auto GUI test 
+		suite should be included in the launch configuration dialog to allow the 
+		user to specify a workspace and the plug-ins that they wish to include 
+		in the launched workbench. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109880">109880</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+	</tr>
+	<tr>
+		<td width="78">Helpwanted</td>
+		<td width="727"><strong>Automated Documentation Generation</strong> The 
+		feature being proposed it to utilize the GUItester to create SIMPLE 
+		documentation (in HTML format, or another generic output of the users 
+		choosing) that outlines the (1) name of the UI test; (2) the series of 
+		steps taken in the UI test; (3) screenshots at every possible step 
+		during the test. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110108">110108</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+
+	</tr>
+	<tr>
+		<td width="78">Helpwanted</td>
+		<td width="727"><strong>Support RCP applications for recording and 
+		playing back GUI test cases</strong> A common feature that users ask for 
+		is to have support in recording and playing back test cases in an RCP 
+		application. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114159">114159</a>) 
+		[Theme: Rich Client Platform]</td>
+	</tr>
+	<tr>
+
+		<td width="78">Helpwanted</td>
+		<td width="727"><strong>Generic Recorder Framework improvements.</strong> 
+		Support for launching and controlling two or more recorders or recording 
+		agents in parallel. Support for launching Java applications for 
+		recording without creating/using an Eclipse launch configuration. 
+		Support remote recording via the Agent Controller. Provide an extension 
+		point for user-defined annotations to a recording session. Support (e.g. 
+		model loading) for recorders to emit standard trace model events. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=145146">145146</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+	</tr>
+	<tr>
+		<td width="78">Helpwanted</td>
+
+		<td width="727"><strong>The test launch configuration needs to have the 
+		means for users to specify JVM argument.</strong> Support for a standard 
+		way for users to specify JVM arguments for test execution. Provide an UI 
+		for the user to specify zero or more JVM arguments and an API for JUnit-based 
+		test runners to access these JVM arguments for launching the Java test 
+		process. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=143121">143121</a>) 
+		[Theme: Design for Extensibility: Be a Better Platform]</td>
+	</tr>
+</table>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<table id="table14" width="821" border="1">
+	<tr bgColor="#cccccc">
+		<th colSpan="2">
+		<div align="center">
+
+			<font size="+1">TPTP Tracing And Profiling Tools Project Plan Items</font></div>
+		</th>
+	</tr>
+	<tr>
+		<td width="78"><b>Status</b></td>
+		<td width="727"><b>Description</b></td>
+	</tr>
+
+	<tr>
+		<td width="78">In Plan</td>
+		<td width="727"><strong>Providing better analysis views for analyzing 
+		execution statistics</strong> The following enhancements should make 
+		analysis of execution statistics easier: Easily identify the method that 
+		has had the maximum base/cumulative time. Quick hover explanation in the 
+		view or better naming for the base or cumulative time. The method 
+		statistics view should simply should show the stack for a particular 
+		method invocation. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147930">147930</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+	</tr>
+	<tr>
+		<td width="78">In Plan&nbsp;</td>
+
+		<td width="727"><strong>Provide better abstraction and navigation means 
+		in the Trace views</strong> The following feature tries to outline some 
+		improvements that may help to abstract and navigate the profiling data: 
+		Provide a find operation under the execution time statistics, memory 
+		statistics, and code coverage view. Ability to bring deltas to the top 
+		or only showing deltas between refreshes Showing what&#8217;s changed when 
+		deltas are displayed Doing post filtration in the views Doing pagination 
+		in the tabular views Filtering methods that have a base/cumulative time 
+		that is less than a given threshold (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147931">147931</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+	</tr>
+	<tr>
+		<td width="78">In Plan&nbsp;</td>
+		<td width="727"><strong>Using virtualization in stat views</strong> 
+		Virtualization can be used to reduce the amount of time required to show 
+		a large number of tree items. This can significantly help improve the 
+		performance of the execution stat view when it is viewed at the method 
+		level. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147933">147933</a>) 
+		[Theme: Scaling Up]</td>
+
+	</tr>
+	<tr>
+		<td width="78">In Plan&nbsp;</td>
+		<td width="727"><strong>Create Extension Point for ARM Factories</strong> 
+		Create a new extension point to allow user to define there own 
+		Application Resource Measurement Factories. The extension point would 
+		include transaction, metric, and reporting. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=148048">148048</a>) 
+		[Theme: Design for Extensibility: Be a Better Platform]</td>
+	</tr>
+	<tr>
+
+		<td width="78">Helpwanted</td>
+		<td width="727"><strong>Trace-related views should make use of view 
+		linking service</strong> Currently some views listen for selection 
+		events on other views and make use of this information to update their 
+		own selections to something related to the original selection. For 
+		example, if you have the log view and log interactions view open at the 
+		same time, and select a log record in one of them, the other view will 
+		automatically update and select that same log record, if it's there. All 
+		the views should use a standard view linking service to do this. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=87605">87605</a>) 
+		[Theme: Design for Extensibility:Be a Better Platform]</td>
+	</tr>
+	<tr>
+		<td width="78">Helpwanted</td>
+
+		<td width="727"><strong>Providing better analysis views for detecting 
+		memory leaks</strong> The following enhancements need to be made to make 
+		memory leak detection easier; Objects that are garbage collected need to 
+		be removed from the object reference view. Integrate the object 
+		reference view with the memory statistics view. Provide a dynamic chart 
+		that is updated when the heap size changes Enhanced look &amp; feel of the 
+		object reference view. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147929">147929</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+	</tr>
+	<tr>
+		<td width="78">Helpwanted</td>
+		<td width="727"><strong>Add a thread analysis and a call graph view</strong> 
+		A thread analysis view will allow users to resolve deadlock problems, 
+		thread starvation or other thread related issues. A call graph view will 
+		help to easily visualize application flow and critical paths that maybe 
+		the cause of a bottleneck. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147932">147932</a>) 
+		[Theme: Appealing to the Broader Community, Simple to Use]</td>
+
+	</tr>
+</table>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<table id="table12" border="1" width="821">
+  <tbody>
+    <tr bgcolor="#cccccc">
+      <th colspan="2">
+      <div align="center"> <font size="+1">TPTP Monitoring Tools
+Project Plan Items</font></div>
+      </th>
+
+    </tr>
+    <tr>
+      <td width="78"><b>Status</b></td>
+      <td width="727"><b>Description</b></td>
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+
+      <td width="727"><strong>Improve usability of Stand-alone Generic
+Log Adapter package.</strong> Applications can package and make use of
+GLA run-time and adapter configuration files to parse log files.
+However, to use the packaged adapter files they must be modified. For
+example, the adapter configuration must specify the location and name
+of the log file to parse. Currently, the only way to do this
+programmatically is by using XML parsing libraries to read and modify
+these XML files. To simplify adapter configuration modification, this
+feature will extend the current
+org.eclipse.hyades.logging.adapter.Adapter API to provide methods to
+retrieve and modify the configuration before it is executed by GLA.
+Also, to allow the packaged adapter configuration files to be used more
+easily in various applications, multiple outputters will be added to
+them, which can them be enabled or disabled depending on the
+application. (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=96433">96433</a>
+and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=126653">
+126653</a>) [Theme: Design for Extensibility: Be a Better Platform]</td>
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+
+      <td width="727"><strong>Provide sensor/extractor filtering
+capability in TPTP Generic Log Adapter log parsers.</strong> In TPTP
+4.2 support was added to the Generic Log Adapter run-time for <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79565">filtering
+at the sensor and extractor component level</a>. This filtering
+capability will be exploited in the current TPTP provided log parsers
+to allow users to improve the performance of log parsing when only a
+subset of the log records is of interest. (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=141840">141840</a>)
+[Theme: Scaling Up]</td>
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+      <td width="727"><strong>Provide Rich Client Platform versions of
+Log Analysis tooling.</strong> Some users want stand-alone tools for
+log analysis. The TPTP Symptom Editor will be restructured so that it
+can be packaged as a Rich Client Platorm application. Also, some
+portions of the Log Analyzer will be restructured so it can be packaged
+as a Rich Client Platform application. (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=134532">134532</a>
+
+and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=134798">
+134798</a>) [Theme: Rich Client Platform]</td>
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+      <td width="727"><strong>Improve the Managed Resource Explorer.</strong>
+In TPTP 4.2 a technical preview was introduced for a generic Managed
+Resource Explorer. This tool will be improved in 4.3 so that it can
+become a full TPTP component. (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=145056">145056</a>,
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=145057">145057</a>,
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=145058">145058</a>,
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=150259">150259</a>,
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=150385">150385</a>)
+[Theme: Design for Extensibility: Be a Better Platform]</td>
+
+    </tr>
+    <tr>
+      <td width="78">In Plan</td>
+      <td width="727"><strong>Add tooling to simplify creation of WSDM
+managed agents.</strong> In TPTP 4.2, a Managed Resource Explorer was
+added that allowed the developer to manipulate resources that sit
+behind a manageability endpoint. The Managed Agent explorer has plugins
+for JMX and WSDM. This feature for 4.3 would allow a developer to
+easily create WSDM based managed agents (referred to in WSDM as
+manageability endpoints) that are compliant with the WSDM 1.1
+specification from OASIS. (<a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=142543">142543</a>)
+[Theme: Design for Extensibility: Be a Better Platform]</td>
+    </tr>
+    <tr>
+
+      <td width="78">In Plan</td>
+      <td width="727"><strong>Improve the Monitoring Instrumentation
+tooling.</strong> In TPTP 4.2 a technical preview was introduced for
+tooling to instrument existing Java applications for monitoring. This
+support will be improved in 4.3 so that it can become a full TPTP
+component. ( <a
+ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=146272">146272</a>,
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=148042">148042</a>,
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=148044">148044</a>)
+[Theme: Design for Extensibility: Be a Better Platform]</td>
+    </tr>
+  </tbody>
+
+</table>
+<h3><a name="Defects"></a>Defects</h3>
+<p>In addition to the targeted features for this release, we plan to
+reduce the defect backlog. Defects are prioritized based on severity,
+age, and resource availability. We encourage users to report defects
+and we will do our best to fix them in priority order. The goal is
+clear backlog of major/critical/blocker defects and make reasonable
+progress on fixing as many as possible.</p>
+<blockquote>
+  <p style="margin-top: 0pt; margin-bottom: 0pt;"> See 
+	<a href="http://www.eclipse.org/tptp/reports/bugs/report_43.php?src=All&queryType=bugs&component=All">
+	TPTP 4.3 Defects</a> for a listing of already fixed defects, current
+defect targets and backlog.</p>
+  <p style="margin-top: 0pt; margin-bottom: 0pt;"> Select "4.3
+[Completed | nil| I1 | I2 | I3] bugs" tabs.</p>
+
+</blockquote>
 
 <h2><a name="WTP"></a>Web Tools Platform (WTP)</h2>
-<em>The project did not provide any plan information.</em>
+</p>
+<h3>Eclipse Web Tools Platform 2.0 Plan - DRAFT</h3>
+<p><br />
+<i>Please send comments about this <b>draft plan</b> to the</i> wtp-pmc@eclipse.org <i>or</i> wtp-dev@eclipse.org <i>mailing list.</i>
+
+</p><p>This document lays out the feature and API set for the next release of Eclipse Web Tools, to be released as part of the Eclipse Europa Release, in June 2007, and
+usually called "WTP 2.0", for short.
+</p><p>This document is a draft and is subject to change, we welcome all feedback.
+</p><p>Web Tools 2.0 will be compatible with / based on the Eclipse 3.3 Release.
+</p><p>To ensure the planning process is transparent and open to the entire Eclipse community, we (the Eclipse Web Tools Requirement Group &amp; the Web Tools PMC) post plans
+in an embryonic form and revise them throughout the release cycle.
+</p><p>The first part of the plan deals with the important matters of release deliverables, release milestones, target operating environments, and release-to-release
+compatibility. These are all things that need to be clear for any release, even if no features were to change.
+</p><p>The remainder of the plan consists of plan items for the subprojects under the Eclipse Web Tools top-level project, including projects such as JSF and Dali that
+are currently in the incubator state. Each plan item covers a feature or API that is to be added to Web Tools, or some aspect of Web Tools that is to be improved.
+Each plan item will have its own entry in the Eclipse bugzilla database, with a title and a concise summary (usually a single paragraph) that explains the work
+item at a suitably high enough level so that everyone can readily understand what the work item is without having to understand the nitty-gritty detail.
+</p><p><del>With the previous release as the starting point, this is the plan for how we will enhance and improve it. Fixing bugs, improving test coverage, documentation,
+examples, performance tuning, usability, etc. are considered routine ongoing maintenance activities and are not included in this plan unless they would also
+involve a significant change to the API or feature set, or involve a significant amount of work. The intent of the plan is to account for all interesting feature
+work.</del>
+</p><p><br />
+The current priority or status of each plan item is noted:
+</p><p><b>High Priority</b> plan item - A high priority plan item is one that we have decided to address for the release (committed).
+</p><p><b>Medium Priority</b> plan item - A medium priority plan item is one that we are considering addressing for the release.
+Although we are actively investigating it, we are not yet in a position to commit to it, or to say that we won't be able to address it.
+
+</p><p><b>Low Priority</b> plan item - A low priority plan item is one that we addressed for a release we will only address that item if one
+component has addressed all high and medium priority items.
+</p><p><b>Deferred</b> plan item - A reasonable proposal that will not make it in to this release for some reason is marked as deferred with
+a brief note as to why it was deferred. Deferred plan items may resurface as committed plan items at a later point.
+</p><p><b>Help Wanted</b> plan item - Typically something that started off as a Medium or Low priority, but marked "help wanted" as an acknowledgement that
+there are no core resources to implement the item, but if a company or person from the community wants to contribute it, then the core teams would
+be more willing than usual to consider any high quality patches or contributions made via bugzillas.
+</p><p>If not otherwise specified, an item should be assumed "medium priority". To be explicit, the appearance of an item in this draft plan should
+not be assumed as a commitment, but instead is simply "open development" in its form as "open planning".
+</p><p><br />
+</p>
+<h3>Release deliverables</h3>
+
+<p>The release deliverables have the same form as previous releases, namely:
+</p>
+<ul><li> Source code release for Eclipse WTP Project, available as versions (e.g. tagged "R2_0_0" in the Eclipse WTP Project)
+</li><li> CVS repository
+</li><li> Eclipse WTP runtime binary and SDK download with all Eclipse pre-reqs (downloadable).
+</li><li> Eclipse WTP runtime binary and SDK download (downloadable).
+</li></ul>
+<p>In addition, the Eclipse WTP runtime binary and SDK will be available as part of the "Europa" update site.
+</p>
+<h3>Release milestones and release candidates </h3>
+
+<p>Release milestones will occur at roughly 6 week intervals in synchronization with the Eclipse Platform milestone releases (starting with M1) and will be compatible
+with Eclipse 3.3 builds. See [Europa Simultaneous Release] for the complete Europa schedule. The following are the <i>approximate</i> dates for WTP milestones.
+The <i>approximate</i> 1.5.x maintenance release dates are given too. The exact dates will be updated as the times grow nearer.
+</p><p><br />
+</p>
+<dl><dt>M1</dt><dd>Friday, Sep 1, 2006
+</dd><dd>Theme: run on Eclipse 3.3 stream
+</dd><dt>1.5.1</dt><dd>September 29, 2006
+</dd><dt>M2</dt><dd>Friday Oct 6, 2006
+</dd><dd>Theme: run on Eclipse 3.3 stream
+
+</dd><dt>1.5.2</dt><dd>October 31, 2006
+</dd><dt>M3</dt><dd>Friday Nov 17, 2006
+</dd><dd>Theme: Cleanup warnings, JUnits, Analyze Adopter Usage Reports
+</dd><dt>M4</dt><dd>Friday Jan 4, 2006
+</dd><dd>Theme Propose/implement APIs/Features
+</dd><dt>1.5.3</dt><dd>Friday February 16, 2007
+</dd><dt>M5</dt><dd>Friday Feb 23, 2007  (EclipseCon is 3/5)
+</dd><dd>Theme: provide good base for EclipseCon demos!&nbsp;:)
+</dd><dd>Most Function and API complete (e.g. 80%)
+</dd><dt>M6</dt><dd>Friday Apr 6, 2007
+
+</dd><dd>Theme: Function complete. API Freeze
+</dd><dt>RC1</dt><dd>Friday May 18, 2007
+</dd><dd>Theme: from M6 to RC1 will be polish, bug fixes, documentation
+</dd><dt>other RCs</dt><dd>if needed (June 22, latest final build)
+</dd><dt>Release</dt><dd>June 29, 2007
+</dd></dl>
+<h3>Target Operating Environments</h3>
+<p>Eclipse WTP is built on the Eclipse platform itself.
+</p><p>Eclipse WTP is "pure" Java code and has no direct dependence on the underlying operating system. The chief dependence is therefore on Eclipse. The 2.0
+release of the Eclipse WTP Project is written and compiled against an appropriate version of Java as specified by the Execution Environment of each plugin.
+In general, Java 5 of the Java Platform (Java SE 5.0) will be needed to use WTP as a whole, but, the Execution Environment will be specified for each plugin, starting
+at J2SE 1.4, which is the current requirement, and then only moved up to Java SE 5 when some change made that requires it. WTP adopters should expect that full functionality will require running on a Java SE 5.
+</p><p>Eclipse WTP is mainly tested and validated on Windows platforms, it should run on all platforms validated by the platform project:
+
+</p><p><a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_3.html#TargetOperatingEnvironments" class='external text' title="http://www.eclipse.org/eclipse/development/eclipse project plan 3 3.html#TargetOperatingEnvironments" rel="nofollow">Eclipse Target Operating Environments</a>
+</p><p>Servers integrated into Eclipse WTP deliverables will be tested and validated on the same platforms listed above.
+Tests for other platforms will be relying on the community support.
+</p><p><br />
+<b>Internationalization'</b>
+</p><p>The Eclipse WTP is designed as the basis for internationalized products. The user interface elements provided by the Eclipse SDK components, including dialogs and
+error messages, are externalized. The English strings are provided as the default resource bundles. Other language support, if any, will rely on the community
+support.
+</p>
+<h3>Compatibility with Other WTP Releases</h3>
+<p>Project Compatibility:
+</p>
+<ul><li> Binary compatibility with 1.5 and 1.0 projects - users should need to take no special actions to use projects
+
+</li></ul>
+<p>from either of these WTP releases with the 2.0 version
+</p>
+<ul><li> WTP 2.0 should be able to open workspaces created with WTP 1.5
+</li><li> WTP 2.0 should be usable in a team environment where some team members use WTP 1.5 and team members share projects through a source code control system such a
+</li></ul>
+<p>CVS or Subversions. Specifically, A WTP 1.5 should be able to create a project, check it in to the repository. A WTP 2.0 user should be able to check it out, work
+on it, and check it back in. A WTP 1.5 should then be able to check it back out and continue to work it on.
+</p>
+<ul><li> By default, WTP 1.5 should work on projects created by WTP 2.0 users and shared via a repository. Artifacts created by WTP 2.0 that are consistent with 1.5
+</li></ul>
+<p>features should not break WTP 1.5, and where possible WTP 1.5 should either ignore or tolerate any new artifacts in WTP 2.0 and subsequent releases. Attempts to
+use (or convert to) new 2.0 functionality that cannot be made backwards compatible with 1.5 must be clearly identified in documentation.
+</p><p>API Compatibility:
+</p>
+<ul><li> WTP 2.0 will preserve (public, declared) API compatibility with the 1.5 release, both in terms of syntax and behavior
+
+</li><li> A plug-in that is developed on WTP 1.5 and that uses no internal methods should run correctly without recompilation on WTP 2.0
+</li><li> A plug-in that is developed on WTP 1.5 and that uses no internal methods should recompile without error on WTP 2.0
+</li><li> WTP 2.0 should provide migration notes and adequate notification and lead time to adopters for any internal code that is removed in WTP 2.0
+</li><li> WTP 2.0 should continue to provide adopters with the ability to register their code usage reports and to be consulted in any proposed changes to internal code.
+</li></ul>
+<p>WTP 2.0 will take into account adopter feedback on proposed changes to internal code, but reserves the right to change internal notwithstanding that feedback.
+</p><p>Eclipse WTP 2.0 deliverables will be compatible with Eclipse 3.3. No special attention will give for being compatible with previous Eclipse versions.
+</p>
+<h3>Eclipse WTP Subprojects</h3>
+
+<p>The Eclipse WTP consists of four subprojects. Each subproject is covered in its own section:
+</p><p><a href="http://eclipse.org/webtools/wst/main.html" class='external text' title="http://eclipse.org/webtools/wst/main.html" rel="nofollow">Web Standard Tools (WST)</a>
+</p><p><a href="http://eclipse.org/webtools/jst/main.html" class='external text' title="http://eclipse.org/webtools/jst/main.html" rel="nofollow">J2EE Standard Tools (JST)</a>
+</p><p><a href="http://www.eclipse.org/webtools/jsf/index.html" class='external text' title="http://www.eclipse.org/webtools/jsf/index.html" rel="nofollow">Java Server Faces Tools (JSF, incubating)</a>
+</p><p><a href="http://www.eclipse.org/dali" class='external text' title="http://www.eclipse.org/dali" rel="nofollow">JPA (Dali/JPA, incubating)</a>
+</p><p><a href="http://www.eclipse.org/atf/" class='external text' title="http://www.eclipse.org/atf/" rel="nofollow">AJAX Tools Framework (incubating)</a>
+</p><p>The JSF, Dali, and ATF incubators SHOULD exit incubation and become normal components in WTP 2.0. A partial list of the new WTP components is:
+</p>
+<ul><li> JSF - org.eclipse.jst.jsf
+</li><li> Dali - org.eclipse.jst.jpa
+
+</li><li> ATF - org.eclipse.wst.js, org.eclipse.wst.ajax
+</li></ul>
+<p>Items listed reflect new features of the Web Tools Platform, or areas where existing
+features will be significantly reworked. Common goals are listed in the “Common goals” area.
+</p><p>TBD (Each item indicates the components likely affected by that work item (many items involve coordinated changes to several components). Numbers in parentheses
+link to bugzilla problem reports for that plan item)
+</p><p>Note that JSF and JPA/Dali are incubating projects at the moment. Users should expect API and tool refinements in these areas, with a likelihood for more rapid
+(and extensive) revisions than in the base WTP code, along with initial API declarations in the 2.0 release.
+</p>
+<h3>Major themes</h3>
+<h3>Improve Quality</h3>
+
+<p>Focused effort will be made to reduce bug backlog, improving test coverage, performance and performance testing,
+ISV documentation and examples, usability and UI consistency.
+</p>
+<h3>Adopter readiness</h3>
+<ul><li> Extensibility
+</li></ul>
+<dl><dd>Provide extension points for adopters to add-in implementation functionality, such as for JEE5 features, publishing support, add to project creation pages, etc.
+</dd></dl>
+<ul><li> productization support <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125751" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=125751" rel="nofollow">[125751</a>]
+</li><li> Componentization
+
+</li></ul>
+<dl><dd>improve feature split <a href="http://www.eclipse.org/webtools/development/arch_and_design/subsystems/SubsystemsAndFeatures.html" class='external text' title="http://www.eclipse.org/webtools/development/arch and design/subsystems/SubsystemsAndFeatures.html" rel="nofollow">Subsystem and Features document</a>
+</dd></dl>
+<ul><li> improve API coverage 
+</li></ul>
+<dl><dd>convert provisional APIs in a careful, well reviewed way, to minimize adopter breakage
+</dd></dl>
+<h3> Improved Provisioning of Third Party Content </h3>
+<ul><li> Participate in Orbit project to move our commonly needed third-party content to a common Eclipse repository.
+
+</li><li> help create remote Update Manager sites hosted by providers of third party content required by WTP to streamline the process of adopting new versions
+</li></ul>
+<dl><dd>users should be able to acquire revisions of third party content in a more timely fashion
+</dd><dd>begin by creating a common site at Apache for components such as Axis2, Woden, Tomcat, Geronimo
+</dd></dl>
+<ul><li> <del>maintain and expand current site at SourceForge as required </del>
+</li><li> create new site at ObjectWeb for Jonas
+</li></ul>
+<h3> Help </h3>
+
+<ul><li> adopt DITA for Help content
+</li><li> work with DITA-OT project at SourceForge to improve integration of build process with PDE
+</li></ul>
+<h3>Web Standard Tools subproject</h3>
+<h3> XML Editing </h3>
+<ul><li> Improve Code folding
+
+</li><li> Migrate to Platform Undo (IOperationHistory)
+</li><li> Improved formatting, e.g. whitespace handling, WYSIWYG (for DITA, DocBook, etc.)
+</li><li> <del>Run in Eclipse RCP</del>
+</li><li> Large document performance enhancements
+</li></ul>
+<h3>Architectural harmonization</h3>
+<h4> DTP </h4>
+
+<p>Remove all Data access tools from WTP and instead use the corresponding components from DTP. <del>We should take a two-phase approach</del>.
+</p>
+<ul><li> <del>Phase 1 - Achieve functional parity with WTP 1.5, i.e. get back to where we currently are, but using DTP.</del>
+</li></ul>
+<ul><li> <del>Phase 2 - Exploit new DTP capabilities. DTP has much broader scope than the WTP 1.5 Data tools, e.g. in connection management, server exploration. We need
+</li></ul>
+<p>to do an architectural assessment of current WTP capabilities and adopt superior alternatives available in DTP.
+</del>
+</p><p>WTP currently has only a small dependency on RDB, which might be migrated to DTP or, perhaps, will be replaced by a more a generic, loose, optional dependency.
+</p><p>JPA (Dali), however, will have a stronger dependency on DTP, so, DTP will, in the end, be listed as one of the pre-reqs for WTP as a whole. (But, the goal is, if
+JPA is not installed then DTP will not be required).
+</p>
+<h4> STP </h4>
+
+<p>Investigate areas of overlap with STP, especially in the areas of Web services, and ensure that existing WTP components can be extended as required by STP.
+</p>
+<h4> TPTP </h4>
+<p>Improve integration with TPTP, especially in the area of profiling servers.
+</p>
+<h4> PHP Tools Project </h4>
+<p>Investigate if the Apache Web server adapter should be moved into wst.server. Investigate if other generic components currently in the PHP project should be moved
+in WTP.
+
+</p><p>Need to investigate and support their use of our SSE Incremental DOM parser and A.) not break them&nbsp;:) or B.) provide API.
+</p>
+<h3>Web Services Support</h3>
+<ul><li> Provide extensibility for providers of web service implementations
+</li></ul>
+<ul><li> <del>New WS-I Profiles, e.g. RAMP</del>
+</li><li> <del>WS Security</del>
+
+</li><li> <del>WS Policy</del>
+</li><li> <del>Axis 2.0</del>
+</li><li> <del>SOAP 1.2</del>
+</li><li> <del>WSDL 2.0 - adopt Apache Woden 1.0</del>
+</li></ul>
+<h3>J2EE Standard Tools</h3>
+
+<h3>Java EE 5</h3>
+<ul><li> JPA/Dali (<a href="/index.php/Dali_1.0_planning" title="Dali 1.0 planning">Draft Milestone Plan</a>)
+</li><li> JSF
+<ul><li> JSF 1.2
+</li></ul>
+</li><li> JSP
+<ul><li> Complete and Improve JSP 2.0 support
+
+</li><li> Support JSP 2.1
+</li></ul>
+</li><li> Provide extensibility for providers of JEE5 implementations
+</li><li> <del>Java EE 5 models - the models must be upgraded to handle Java EE 5 without ANY API breakage. Existing clients MUST continue to work without recompilation.
+</li></ul>
+<p>If existing clients are recompiled with the new model, then compilation errors MUST NOT occur (note: we assume that existing clients will not break in any way if
+they only use the published API - code that relies on internal interfaces MAY break)
+</del>
+</p>
+<ul><li> investigate: import a JEE5 project (help wanted)
+</li><li> investigate: export/publish a JEE5 project (help wanted)
+</li><li> validate a JEE5 project (help wanted)
+
+</li><li> JSR 175 - support Java EE 5 specifications for annotation based programming, e.g. for EJB 3.0, JPA, Web services
+<ul><li> JSR 181 - Web Services
+</li><li> JSR 220 - EJB 3.0, JPA
+</li></ul>
+</li></ul>
+<h3> Web Services </h3>
+<ul><li> JSR 109 - for Web container
+</li><li> support for generic, compliant runtime, e.g. hosted at GlassFish
+
+</li></ul>
+<h3>Server Runtime</h3>
+<ul><li> JSR 88 Support, Advanced Server Support for one/multiple open source J2EE server
+</li><li> Server runtime facet enhancements (link TBD)
+</li><li> Migrate existing bundled server adapters to the remote server adapter support - our direction should be to have server providers host their own adapters as they
+</li></ul>
+<p>currently do for their runtimes. Server providers should also be encourage to use the remote server runtime installation framework (currently used by Geronimo)
+</p>
+
 
 <h2><a name="STP"></a>SOA Tools Platform</h2>
 <em>The project did not provide any plan information.</em>
 
-
+<p>&nbsp;</p>
       </div>
   </div>
 <?php
