@@ -46,7 +46,7 @@ border-bottom: thin dotted
   Consequently, the information in this year's roadmap is fairly sparse - the reader
   is directed to the project's home pages for additional information.
   </p>
-  <h1>Callisto</h1>
+  <h1>Europa</h1>
   <p>The big project planning effort this year is around the <img src="external.gif"><a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release">Europa Simultaneous Release</a>, the follow-up to the Callisto Simultaneous Release of 2006.
   </p>
   <p>The goal of the Europa Simultaneous Release is to release all the major Eclipse projects 
@@ -68,7 +68,13 @@ border-bottom: thin dotted
   <a href="/tptp/">Test and Performance Tools Platform (TPTP)</a>,
   <a href="/webtools/">Web Tools Platform (WTP)</a>,
   <a href="/stp/">SOA Tools Platform</a>)
-  at the same time. We are doing this simultaneous release to support the needs of the ecosystem members who integrate Eclipse frameworks into their own software and products. While those product producers naturally accept the ultimate responsibility for their customers' experiences, Callisto's goal is to eliminate uncertainity about project version numbers, and thus to allow ecosystem members to start their own integration, cross-project, and cross-product testing efforts earlier. Callisto is about improving the productivity of the developers working on top of Eclipse frameworks by providing a more transparent and predictable development cycle; Callisto is about developers helping developers serve the whole Eclipse community.
+  at the same time. We are doing this simultaneous release to support the needs of the ecosystem members who 
+  integrate Eclipse frameworks into their own software and products. While those product producers naturally 
+  accept the ultimate responsibility for their customers' experiences, Europa's goal is to eliminate 
+  uncertainity about project version numbers, and thus to allow ecosystem members to start their own 
+  integration, cross-project, and cross-product testing efforts earlier. Europa is about improving the 
+  productivity of the developers working on top of Eclipse frameworks by providing a more transparent 
+  and predictable development cycle; Callisto is about developers helping developers serve the whole Eclipse community.
 </p><p><em>
 While Europa is about the simultaneous release of multiple projects, 
 it is is not a unification of the projects - each project remains a separate open source 
@@ -117,7 +123,7 @@ Release themes:
 
 <p>Last revised January 23, 2007</p>
 
-<h2><a name="Introduction" id="Introduction"></a>Introduction</h2>
+<h3><a name="Introduction" id="Introduction"></a>Introduction</h3>
 
 <p>This document lays out the feature and API set for the next feature
 release of the Eclipse BIRT project after 2.1.1, designated release 2.2.</p>
@@ -154,13 +160,13 @@ without having to understand the nitty-gritty detail.</p>
 <p>Please send comments about this draft plan to the <a
 href="mailto:birt-dev@eclipse.org">BIRT Developer</a> mailing list.</p>
 
-<h2><a name="Deliverables" id="Deliverables"></a>Release deliverables</h2>
+<h3><a name="Deliverables" id="Deliverables"></a>Release deliverables</h3>
 
 <p>In order to improve the end user experience of downloading and installing
 BIRT, the release deliverables will be revised. Details will become available
 as progress is made on this project.</p>
 
-<h2><a name="Milestones" id="Milestones"></a>Release milestones</h2>
+<h3><a name="Milestones" id="Milestones"></a>Release milestones</h3>
 
 <p>The Eclipse BIRT 2.2 release milestones will be synchronized with the
 Eclipse Europa simultaneous release. All release deliverables will be
@@ -187,8 +193,8 @@ to the <a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
 bugzilla database will be updated on an ongoing basis as the plan
 progresses.</p>
 
-<h2><a name="TargetOperatingEnvironments"
-id="TargetOperatingEnvironments"></a>Target Operating Environments</h2>
+<h3><a name="TargetOperatingEnvironments"
+id="TargetOperatingEnvironments"></a>Target Operating Environments</h3>
 
 <p>In order to remain current, each release of an Eclipse project targets
 reasonably current versions of underlying operating environments and other
@@ -449,8 +455,8 @@ are provided as the default resource bundles. Translations are provided with
 this release for French (fr_FR), German (de_DE), Spanish (es_ES), Japanese
 (ja_JP), Simplified Chinese (zh_CN), and Korean (ko_KR).</p>
 
-<h2><a name="Compatibility" id="Compatibility"></a>Compatibility with
-Previous Releases</h2>
+<h3><a name="Compatibility" id="Compatibility"></a>Compatibility with
+Previous Releases</h3>
 
 <p>BIRT 2.2 will be compatible with earlier versions of BIRT to the greatest
 extent possible. The nature and scope of some of the key plan items for BIRT
@@ -506,7 +512,7 @@ anything other than what is specified in the BIRT API are inherently
 unsupportable and receive no guarantees about compatibility within a single
 release much less with an earlier releases.</p>
 
-<h2><a name="Themes" id="Themes">Themes</a></h2>
+<h3><a name="Themes" id="Themes">Themes</a></h3>
 
 <p>Continuing on the themes for previous releases of BIRT, the BIRT project's
 overriding release 2.2 theme remains extending the Eclipse platform to
@@ -528,7 +534,7 @@ Eclipse planning process.</p>
 
 </ul>
 
-<h2><a name="Projects" id="Projects">Projects</a></h2>
+<h3><a name="Projects" id="Projects">Projects</a></h3>
 
 <p>The candidate projects being considered for this release include the
 following list. Please note that the final list will depend on sign off from
@@ -888,7 +894,7 @@ would drill through to a report that lists the sales persons who have sold
 Classic Cars. This concept would be useful for charts as well. [Bugzilla ID:
 <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151903">151903</a>]</p>
 
-<h2><a name="Defects" id="Defects">Defects</a></h2>
+<h3><a name="Defects" id="Defects">Defects</a></h3>
 
 <p>BIRT 2.2 will address defects reported by project members and the
 community. The <a
@@ -897,8 +903,58 @@ of defects</a> targeted for resolution in BIRT 2.2 can be found in the
 bugzilla database on <a
 href="https://bugs.eclipse.org/bugs">https://bugs.eclipse.org/bugs</a>.</p>
 
+<h2><a name="BUCKMINSTER"></a>Buckminister</h2>
+  
+<a name="Release_1.1"></a><h3> Release 1.1 </h3>
+<a name="Theme:_Usability"></a><h3> Theme: Usability </h3>
 
-  <li><a href="#BUCKMINSTER"><a href="/buckminster/">Buckminster</a></li>
+<ul><li>Graphical editors for the RMAP and CSPEC
+<ul><li>Use EMF for all models (awaits EMF support for generics)
+</li><li>”Form” style editors with Eclipse look and feel
+</li><li>Intuitive and with extensive help
+</li></ul>
+</li></ul>
+<ul><li>Graphical representation of a Component Model
+<ul><li>Can view a complete model spanning many components
+</li><li>Should be zoomable
+</li></ul>
+</li></ul>
+<ul><li>Graphical representation of the resolve process
+<ul><li>Provides feedback to the user during the resolve process
+</li><li>The graph of chosen paths can be persisted
+</li></ul>
+</li></ul>
+<ul><li>Standards
+
+<ul><li>Support for Java Content Repository (JSR170)
+</li></ul>
+</li></ul>
+<a name="Release_1.2"></a><h3> Release 1.2 </h3>
+<a name="Theme:__Support_for_wider_range_of_component_models"></a><h3> Theme:  Support for wider range of component models </h3>
+<ul><li>WAR and EAR recognition
+<ul><li>project models produced by CSPEC actions
+
+</li><li>Reuse models supported by Eclipse Web Tools Project
+</li><li>Target common servers. Tomcat, Jboss, JOnAS
+</li><li>Commercial servers, such as Websphere, Weblogic, Oracle
+</li></ul>
+</li><li>Support for Ivy projects
+</li><li>Support for Java Modules (JSR277), subject to JSR finalization
+</li></ul>
+<h3> Release 1.3 </h3>
+<h3> Theme:  Support for additional languages </h3>
+
+<ul><li>PHP/Python/Perl, C
+<ul><li>Repository provider for CPAN
+</li><li>Support LAMP (Linux Apache MySQL PHP) component stack
+</li></ul>
+</li></ul>
+<ul><li>Additional component models
+<ul><li>Recognize CDT generated projects
+</li><li>Perhaps recognize automake/auotconf/configure projects
+</li></ul>
+</li></ul>
+
   <li><a href="#CDT"><a href="/cdt/">C/C++ Development Tooling (CDT)</a></li>
   <li><a href="#CORONA"><a href="/corona/">Corona</a></li>
   <li><a href="#DASH"><a href="/dash/">Eclipse Monkey</a></li>
