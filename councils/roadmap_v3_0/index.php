@@ -47,8 +47,8 @@
 	height="16"><a href="../../documents/Eclipse Development Process 2003_11_09 FINAL.pdf">Eclipse
 	Development Process</a>, this document describes the Eclipse Roadmap.</p>
 	<p>The Roadmap is intended to be a living document which will see future
-	iterations. This document is the second version of the Eclipse Roadmap,
-	and is labeled as version 2.0. In order to preserve this document
+	iterations. This document is the third version of the Eclipse Roadmap,
+	and is labeled as version 3.0. In order to preserve this document
 	while the underlying information evolves, the pages have been frozen by
 	copying them from their original project hosted locations. Each frozen
 	document is labeled with its version and date and includes a link back
@@ -67,7 +67,7 @@
 	Eclipse. In particular, Eclipse expects that incubator projects created
 	in the Technology PMC will cover areas not explicitly described in the
 	Roadmap.</p>
-	<p>There are four main sections to this document:</p>
+	<p>There are three main sections to this document:</p>
 	<ol>
 		<li>This Preamble provides some background on Eclipse and the
 		Foundation, and identifies the strategic goals of Eclipse. It also
@@ -79,9 +79,6 @@
 		</li>
 		<li>The <a href="PC_v3_0/index.php">Platform Release Plan</a> which has been
 		developed by the Eclipse Planning Council.<br/>
-		</li>
-		<li>The <a href="AC_v3_0/index.php">Architecture Plan</a> which has been
-		developed by the Eclipse Architecture Council<br/>
 		</li>
 	</ol>
 	<p align = right><small><a href="#top">back to top</a></small></p>
@@ -151,68 +148,12 @@
 	
 	<hr>
 	<h3><a name="progress"></a>Progress in 2006</h3>
-	<p>This is the second version of the Eclipse Roadmap document. It is important to recognize the many 
+	<p>This is the third version of the Eclipse Roadmap document. It is important to recognize the many 
 	objectives which have been accomplished since the original version. The following is a list of accomplishments 
-	based on 2005&rsquo;s themes.</p>
-	<p><strong>Scaling Up</strong></p>
+	based on 2006&rsquo;s themes.</p>
+	<p><strong>MIKE ADD TEXT HERE</strong></p>
 	<ul>
-	<li>The Application Lifecycle Framework (ALF) project was created to focus on tool integration.</li>
-	<li>Eclipse 3.1 startup time improvements, and support for large scale workspaces.</li>
-	<li>CDT 3.0 parsing time improvements (ctags)</li>
-	<li>Performance benchmarks being published</li>
-	<li>A performance profiling and instrumentation infrastructure to help plug-in developers assess, root-cause, and fix performance issues. </li>
-	<li>TPTP scales to handle large data volumes and process large number of transactions. EMF models for Common Base Event logs can now be persisted to database in addition to the flat XML file mechanism that existed earlier.</li>
-	</ul>
-	
-	<p><strong>Enterprise Ready</strong></p>
-	<ul>
-	<li>Support for team policies and import/export of Ant build files in Eclipse 3.1.</li>
-	<li>TPTP now supports tools for profiling, monitoring and testing distributed and multi-tier enterprise applications on a variety of operating systems and hardware.</li>
-	<li>TPTP-based tool users can now collect data from target systems through firewall.</li>
-	</ul>
-	
-	<p><strong>Design for Extensibility: Be a Better Platform</strong></p>
-	<ul>
-	<li>Eclipse 3.1 made a number of improvements in this area:</li>
-	<ul>
-		<li>the programming model for contributing menu and toolbar items to the workbench was simplified,</li>
-		<li>Support for generalized undo, and</li>
-		<li>JDT made pushed several Java editor capabilities available in the platform text editor.</li>
-	</ul>
-	<li>TPTP introduced new public APIs to expose new capabilities present in major reimplementation of the data collection and communication frameworks.</li>
-	</ul>
-	
-	<p><strong>Embedded Development</strong></p>
-	<ul>
-	<li>The Device Software Development Platform (DSDP) project was created as a top-level project designed to build this extensibility in a variety of areas, including enhancements in the Eclipse Debug platform, remote target management, J2ME development, and embedded GUI design in C++.  </li>
-	<li>The eRCP project is nearing its 1.0 release in the Technology Project.  </li>
-	<li>The CDT project focused on extensibility of the managed build system and scalability of the indexer for large embedded projects.</li>
-	</ul>
-	
-	<p><strong>Rich Client Platform</strong></p>
-	<ul>
-	<li>The Equinox project was created to provide additional focus on the OSGi component model within Eclipse.</li>
-		<li>Support for using RCP with Java WebStart (JNLP).</li>
-	<li>Support the ability to easily define a custom-branded application launcher.</li>
-	<li>PDE enhancements to facilitate developing and deploying RCP-based applications, and for OSGi bundle manifest tooling.</li>
-	<li>More control over the branding of RCP applications, including the changing of all filenames from <em>eclipse</em> has been addressed in 3.1.</li>
-	</ul>
-	
-	<p><strong>Simple to Use </strong></p>
-	<ul>
-	<li>Eclipse 3.1 provided enhancements to capabilities, Ant editing, improved initial user experience with Welcome content, and Help search.</li>
-	<li>TPTP now enables a seamless import of existing JUnit tests. JUnit tests can edited either in source code or in TPTP graphical editor for test behavior. TPTP test tools ensure that test behavior model and corresponding source code are kept synchronized.</li>
-	</ul>
-	
-	<p><strong>Enable Consistent Multi-language Support</strong></p>
-	<ul>
-	<li>Several components common between CDT and Photran were identified. Photran now reuses these common components. As a result, improvements to any of these common components benefit both CDT and Photran.</li>
-	</ul>
-	
-	<p><strong>Appealing to the Broader Community</strong></p>
-	<ul>
-	<li>Eclipse 3.1 added support for J2SE 5 language features, including full support for development using the new language features, including code assist, quick fixes, new wizards, source actions, and refactorings.</li>
-	<li>TPTP delivered on several initiatives to appeal to broader Eclipse community. TPTP enabled (i) Web application testing and profiling through integration with the Eclipse Java Development Tools (JDT) and Web Tools Platform (WTP) projects, (ii) report generation by integration with Eclipse BIRT project, and (iii) Eclipse GUI test automation tools through GUI event record and playback engine.</li>
+	<li>MIKE ADD TEXT HERE</li>
 	</ul>
 	
 	<p align = right><small><a href="#top">back to top</a></small></p>
@@ -226,19 +167,14 @@
 	current vision of the future as a set of future projects that expand the
 	value of the ecosystem for all of its members.</p>
 	
-	<p>The following diagram provides an architectural representation of the
-	Eclipse technology today. The<a href="AC_v3_0/index.php"> Architecture Plan</a>
-	goes into this in much greater detail.</p>
-	<p align="center"><img src="AC_v3_0/arch1.jpg" width="675" height="356">&nbsp;</p>
-	
 	<p>The <a href="themes_v3_0.php">Themes and Priorities</a> document prepared
 	by the Requirements Council describes a number of requirements and focus
 	areas for the existing Eclipse projects.</p>
 	
 	<p>In addition to the <a href="themes_v3_0.php">Themes and Priorities</a>
-	requirements on existing projects in 2006, we envision future growth in
+	requirements on existing projects in 2007, we envision future growth in
 	Eclipse projects in the following major areas. These are areas in which
-	we envision starting new projects in 2006, not areas in which we
+	we envision starting new projects in 2007, not areas in which we
 	envision having completed Eclipse-quality standards-based frameworks and
 	tooling.</p>
 	<ul>
@@ -371,13 +307,10 @@
 	interaction among and within the three Councils to drive the Roadmap to
 	convergence.</em></p>
 	</blockquote>
-	<p align="center"><img src="roadmap_process.jpg" width="795"
-		height="555"></p>
-	<p align="left">&nbsp;</p>
-	<p align="left">This first version of the Eclipse Roadmap has been developed 
-	by the three councils:&nbsp; the Architecture Council,&nbsp; the Planning 
-	Council and the Requirements Council. The three Councils met face-to-face three
-	times in 2005:&nbsp; once in May, once in September and again in December. (The minutes
+	<p align="left">This second version of the Eclipse Roadmap has been developed 
+	by the two councils:&nbsp; the Planning 
+	Council and the Requirements Council. The Councils met face-to-face three
+	times in 2006:&nbsp; once in May, once in October and again in January. (The minutes
 	of these meetings are available on the <img border="0"
 		src="PC_v3_0/external.gif" width="20" height="16"><A
 		href="../../foundation/council.php">Councils
@@ -397,15 +330,11 @@
 		<LI>
 		<DIV align=left><SPAN class=203453704-21022005>from the PMC project
 		plans to the Planning Council</SPAN></DIV>
-		<LI>
-		<DIV align=left><SPAN class=203453704-21022005>from the PMC
-		architecture plans to the Architecture Council</SPAN></DIV>
-		</LI>
 	</UL>
 	
 	<P align=left><SPAN class=203453704-21022005>In summary,&nbsp;through </SPAN>lots
 	of hard work<SPAN class=203453704-21022005> by everyone</SPAN>, the
-	three groups converged on this&nbsp;<SPAN class=203453704-21022005>Roadmap
+	two groups converged on this&nbsp;<SPAN class=203453704-21022005>Roadmap
 	</SPAN>document.</P>
 	<p align="left">The Roadmap was presented and affirmed by the Eclipse Board of
 	Directors on Monday, March 20, 2006.</p>
