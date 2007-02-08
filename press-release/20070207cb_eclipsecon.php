@@ -42,7 +42,7 @@ complement the spirit of the Eclipse community. <a href="http://www.activegrid.c
 Pavilion.  Please email your nominations to <a HREF="MAILTO:osp.nominations@eclipse.org">osp.nominations@eclipse.org</a> and include project name, contact 
 information and a brief explanation how the project has contributed to the open source community. Nominations will close February 12, 2007. Recipients will receive a full conference pass to <a href="http://www.eclipsecon.org/2007/index.php?tag=osp">EclipseCon 2007</a>.</p> 
 
-<p>Recipients must be able to bring their own hardware (laptop preferred) and must be available during exhibitor hours on Tuesday March 5th from 2pm - 8pm, 
+<p>Recipients must be able to bring their own hardware (laptop preferred) and must be available during exhibitor hours on Tuesday March 6th from 2pm - 8pm, 
 to present their project at the Open Source Pavilion.  
 </p>
 
