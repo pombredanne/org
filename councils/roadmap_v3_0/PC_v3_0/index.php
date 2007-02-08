@@ -65,6 +65,8 @@ border-bottom: thin dotted
   <li><a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a><img src="external.gif">
   <li><a href="/gef/">Graphical Editor Framework (GEF)</a><img src="external.gif">
   <li><a href="/gmf/">Graphical Modeling Framework (GMF)</a><img src="external.gif">
+  <li><a href="/mdt/">Modeling Development Tools (MDT)</a><img src="external.gif">
+  <li><a href="/mylar/">Mylar</a><img src="external.gif">
   <li><a href="/eclipse/">Platform</a><img src="external.gif">
   <li><a href="/tptp/">Test and Performance Tools Platform (TPTP)</a><img src="external.gif">
   <li><a href="/webtools/">Web Tools Platform (WTP)</a><img src="external.gif">
@@ -101,6 +103,8 @@ project operating with its own project leadership, its own committers, and its o
   <li><a href="#EMFT">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a></li>
   <li><a href="#GEF">Graphical Editor Framework (GEF)</a></li>
   <li><a href="#GMF">Graphical Modeling Framework (GMF)</a></li>
+  <li><a href="#MDT">Modeling Development Tools (MDT)</a></li>
+  <li><a href="#MYLAR">Mylar</a></li>
   <li><a href="#PLATFORM">Platform</a></li>
   <li><a href="#TPTP">Test and Performance Tools Platform (TPTP)</a></li>
   <li><a href="#WTP">Web Tools Platform (WTP)</a></li>
@@ -2500,10 +2504,1496 @@ Target Release Date: 2/16/2007
 <em>The project did not provide any plan information.</em>
 
 <h2><a name="GEF"></a>Graphical Editor Framework (GEF)</h2>
-<em>The project did not provide any plan information.</em>
+
+<p>Last revised <tt>: 2006/11/01 20:26:18 $</tt> ( <img width="12"
+height="12" src="../images/green-box.gif" border="0" /> marks interesting
+changes over a previous revision of this document)</p>
+
+<p><em>&nbsp;&nbsp;&nbsp; Please send comments about this draft plan to
+the</em> <a href="news://news.eclipse.org/eclipse.tools.gef">eclipse.tools.gef</a> <em>newsgroup.</em></p>
+
+<p>This document lays out the feature and API set for the next feature
+release of the Graphical Editing Framework (GEF) project, designated release
+3.3.0.</p>
+
+<ul type="disc">
+<li><a href="#Deliverables">Release deliverables</a></li>
+
+<li><a href="#Milestones">Release milestones</a></li>
+
+<li><a href="#TargetOperatingEnvironments">Target operating
+environments</a></li>
+
+<li><a href="#Compatibility">Compatibility with previous releases</a></li>
+
+<li><a href="#Themes">Themes / Plan Items</a></li>
+
+</ul>
+
+<p>Plans do not materialize out of nowhere, nor are they entirely static. To
+ensure the planning process is transparent and open to the entire Eclipse
+community, plans are posted in an embryonic form and then revised from time to
+time throughout the release cycle.</p>
+
+<p>The first part of the plan deals with the important matters of release
+deliverables, release milestones, target operating environments, and
+release-to-release compatibility. These are all things that need to be clear for
+any release, even if no features were to change.&nbsp;</p>
+
+<p>The remainder of the plan consists of plan items for the GEF project.
+Each plan item covers a feature that is to be added, or some aspect that is to
+be improved. Each plan item will have its own entry in the <a
+href="http://bugs.eclipse.org/bugs">Eclipse bugzilla</a> database, with a title
+and a concise summary (usually a single paragraph) that explains the work item
+at a suitably high enough level so that everyone can readily understand what the
+work item is without having to understand the nitty-gritty detail.</p>
+
+<p>Not all plan items represent the same amount of work; some may be quite
+large, others, quite small. Some plan items may involve work that is localized
+to a single subsystem; others may involve coordinated changes across several
+projects within the same top-level project; and others may involve coordination
+with other top-level projects. Although some plan items are for work that is
+more pressing that others, the plan items appear in no particular order.</p>
+
+<p>With the previous release as the starting point, this is the plan for how
+we will enhance and improve it. Fixing bugs, improving test coverage,
+documentation, examples, performance tuning, usability, etc. are considered
+routine ongoing maintenance activities and are not included in this plan unless
+they would also involve a significant change to the API or feature set, or
+involve a significant amount of work. The intent of the plan is to account for
+all interesting feature work.</p>
+
+<h3><a name="Deliverables"></a>Release Deliverables</h3>
+<p>The release deliverables are:</p>
+
+<ul type="disc">
+<li>Source code release for GEF is available in the eclipse.org <a
+href="http://dev.eclipse.org/viewcvs/index.cgi/?cvsroot=Tools_Project">CVS
+repositories for GEF</a>.</li>
+
+<li>GEF runtime binaries and SDK distributions (downloadable).</li>
+
+<li>GEF runtime binaries and SDK features on eclipse.org update site
+(install via Eclipse update manager).</li>
+</ul>
+
+<h3><a name="Milestones"> </a> Release Milestones</h3>
+
+<p>GEF builds are available weekly as <em>Integration builds</em>. GEF
+Milestone Releases are approximately one week after the <a
+href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_3.html#Milestones">
+Eclipse Milestone Releases </a>.</p>
+
+<p>Following the final milestone, release candidates will begin. GEF Release
+Candidates are planned to be released approximately one week after each Eclipse
+Release Candidate. This convergence is required to meet the goals of the <a
+href="http://www.eclipse.org/projects/europa.php">Europa Simultaneous
+Release</a>.</p>
+
+<p>Scheduled release candidates should end in 2007Q2, and beyond that point,
+will be produced only as needed, leading up to a release in late 2007Q2.</p>
+
+<h3><a name="TargetOperatingEnvironments"> </a> Target Operating
+Environments</h3>
+
+<p>GEF 3.3 will support all operating environments supported by the Eclipse
+Platform itself. For a list of supported environments, refer to <a
+href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_3.html#TargetOperatingEnvironments">
+Eclipse Project 3.3 plan</a> for a list of reference platforms.</p>
+
+<h3><a name="Compatibility"> </a> Compatibility with Previous Releases</h3>
+
+<h3>Compatibility of Release 3.3.0 with 3.2.0</h3>
+
+<p>GEF 3.3 will be upwards compatible with GEF 3.2 to the greatest extent
+possible. Any exceptions will be noted in the 3.3 release notes so that clients
+can assess the impact of these changes on their plug-ins and products.</p>
+<p><b>API Contract Compatibility:</b> GEF 3.3 will be upwards
+contract-compatible with GEF 3.2 unless noted. This means that programs in full
+compliance with contracts specified in 3.2 APIs will automatically be in full
+compliance with 3.3 APIs. Refer to <i> <a
+href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs"> Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that maintain
+contract compatibility.</p>
+<p><b>Binary (plug-in) Compatibility:</b> GEF 3.3 will be upwards
+binary-compatible with GEF 3.2 unless noted. This means that plug-ins built for
+GEF 3.3 will continue to work correctly in 3.3 without change. Plug-ins with
+hard-coded references in their plug-in manifest file to the 3.2 version of GEF
+plug-ins will work in 3.3 provided the version match rule is "greaterOrEqual" or
+"compatible" (the default); references using "perfect" or "equivalent" match
+rules will be broken. Refer to <i> <a
+href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs"> Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that maintain
+binary compatibility.</p>
+
+<p><b>Source Compatibility:</b> GEF 3.3 will be upwards source-compatible
+with GEF 3.2 to the greatest extent possible. This means that source files
+written to use 3.2 APIs can often be successfully compiled and run against GEF
+3.3 APIs. Since source incompatibilities are easy to deal with, maintaining
+source compatibility is considered much less important than maintaining contract
+and binary compatibility.&nbsp; The addition of a single method anywhere could
+be an incompatible source change.&nbsp; For this reason,
+source-incompatibilities will not be noted.</p>
+<p><b>Non-compliant usage of API's</b>: All non-API methods and classes, and
+certainly everything in a package with "internal" in its name, are considered
+implementation details which may vary between operating environment and are
+subject to change without notice. Client plug-ins that directly depend on
+anything other than what is specified as API are inherently unsupportable and
+receive no guarantees about compatibility within a single release much less with
+an earlier releases. Refer to <i> <a
+href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">
+How to Use the Eclipse API</a></i> for information about how to write compliant
+plug-ins.</p>
+
+<h3><a name="Themes"> </a> Themes</h3>
+<p><img width="12" height="12" src="../images/green-box.gif" border="0" />
+The changes under consideration for the next release of Eclipse GEF address a
+few major themes:</p>
+
+<ul>
+<li><b>Revisit Performance</b> - GEF has always been a framework for
+delivering integrated tools. With a growing base of both free and commercial
+offerings based on GEF, it's critical for continued success to ensure that the
+framework scales well. This theme is to measure and improve the performance and
+scalability of GEF.</li>
+
+<li><b>Usability Enhancements</b> - There are various issues raised on the
+usability of GEF based diagrams. This theme is to improve usability of
+applications based on GEF.</li>
+
+<li><b>Defect Cleanup</b> - There are around 200 open Bugzillas, this theme
+works torward reducing this backlog.</li>
+
+<li><b>GEF diagram layer test automation</b> - TPTP includes a SWT test
+automation framework which currently does not include diagram (GEF) support.
+This theme is to look at providing integration with GEF for diagram layer
+testing. There is an <a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=133099">enhancement
+request (Bug 133099)</a> for this and it has been frequently requested by the
+community.</li>
+
+</ul>
+
+<p>The current status of each plan item is noted:</p>
+
+<ul type="disc">
+<li><b>Plan Item</b> items - a <i>Plan Item</i> that we have decided to
+address for the release. To see all committed items - see <i>"committed"</i>
+items</li>
+<li><b>Committed</b> items - A committed bug is one that we have decided to
+address for the release.</li>
+
+<li><b>Proposed</b> items - A bug item is one that we are considering
+addressing for the release. Although we are actively investigating it, we are
+not yet in a position to commit to it, or to say that we won't be able to
+address it. After due consideration, a proposal will either be committed or
+deferred.</li>
+
+<li><b>Deferred</b> items - A reasonable proposal that will not make it in
+to this release for some reason is marked as deferred with a brief note as to
+why it was deferred. Deferred plan items may resurface as committed plan items
+at a later point.</li>
+</ul>
+
 
 <h2><a name="GMF"></a>Graphical Modeling Framework (GMF)</h2>
-<em>The project did not provide any plan information.</em>
+</p>
+
+<h3> Introduction </h3>
+<p>This document lays out the feature and API set for the second release of the Eclipse Graphical Modeling Framework Project, version 2.0.0.
+</p><p>This project plan inherits from the <a href="/index.php/Modeling_Project_Plan" title="Modeling Project Plan">Modeling Project Plan</a>, which should be referenced when consulting this individual project plan.
+</p>
+<h3> Release deliverables </h3>
+
+<p>The release deliverables have the same form as is found in most Eclipse projects, namely:
+</p>
+<ul><li> Graphical Modeling Framework source code release, available as versions tagged "R2_0" in the project's CVS repository.
+</li><li> Graphical Modeling Framework SDK (includes runtime and tooling components, with sources, examples, and documentation) (downloadable and update site).
+</li><li> Graphical Modeling Framework runtime binary distribution (downloadable and update site).
+</li><li> Graphical Modeling Framework tests (downloadable and update site).
+</li></ul>
+<h3> Release milestones </h3>
+
+<p>Release milestone occurring at roughly 6 week intervals and follow the Platform milestone releases by approximately 2 weeks; that is, until the final 3.3 release of the Platform, upon which GMF and other projects will release simultaneously. As GMF is dependent upon the EMF, GEF, and other projects, which are scheduled to release milestones within 1 week of Platform milestones, GMF will deliver its milestones within the following week. It is anticipated that GMF will synchronize its release milestones with the <a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release" class='external text' title="http://wiki.eclipse.org/index.php/Europa Simultaneous Release" rel="nofollow">Europa</a> release schedule. The milestones are:
+</p>
+<ul><li> Monday September 04, 2006 - Milestone 1 (2.0 M1) - stable build, tagged M1_20 in CVS
+</li><li> Friday October 13, 2006 - Milestone 2 (2.0 M2) - stable build, tagged M2_20 in CVS
+</li><li> Friday November 17, 2006 - Milestone 3 (2.0 M3) - stable build, tagged M3_20 in CVS
+</li><li> Friday January 04, 2007 - Milestone 4 (2.0 M4) - stable build, tagged M4_20 in CVS
+</li><li> Friday February 23, 2007 - Milestone 5 (2.0 M5) - stable build, tagged M5_20 in CVS 
+</li><li> Friday April 06, 2007 - Milestone 6 (2.0 M6) - stable build, tagged M6_20 in CVS (API freeze)
+
+</li><li> Friday May 18, 2007 - Milestone 7 (2.0 M6/RC0) - stable build, tagged M7_20 in CVS
+</li></ul>
+<p>Lock down and testing then begins with M7, and progress through a series of test-fix passes against candidates releases. Release candidate builds are planned as follows (M7 is release candidate 0, final RC is 2.0):
+</p>
+<ul><li> Friday June 01, 2007 - Release Candidate 1 - (2.0 RC1)
+</li><li> Friday June 15, 2007 - Release Candidate 2 - (2.0 RC2)
+</li><li> Friday June 29, 2007 - Release - (2.0)
+</li></ul>
+<p>As these milestones are dependent upon the Platform, they may be altered in order to conform to the published plan. All release deliverables will be available for download as soon as the release has been tested and validated in the target operating configurations listed below.
+</p>
+<h3> Maintenance Stream </h3>
+
+<p>GMF 1.0.1 and 1.0.3 maintenance releases will align with the Callisto release that includes the Eclipse Platform 3.2.1 and 3.2.2 releases, respectively.
+</p>
+<ul><li> Friday, September 29, 2006 - GMF 1.0.1 maintenance release
+</li><li> Friday, October 27, 2006 - GMF 1.0.2 maintenance release
+</li><li> Friday, February 9, 2007 - GMF 1.0.3 maintenance release
+</li></ul>
+<p>A list of issues indicated for the 1.0.x maintenance stream can be found here: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=bug_status&amp;type0-0-0=equals&amp;value0-0-0=REOPENED&amp;field0-0-1=bug_status&amp;type0-0-1=equals&amp;value0-0-1=ASSIGNED&amp;field0-0-2=bug_status&amp;type0-0-2=equals&amp;value0-0-2=NEW&amp;field0-1-0=product&amp;type0-1-0=equals&amp;value0-1-0=GMF&amp;field0-2-0=target_milestone&amp;type0-2-0=equals&amp;value0-2-0=1.0.1" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=bug status&amp;type0-0-0=equals&amp;value0-0-0=REOPENED&amp;field0-0-1=bug status&amp;type0-0-1=equals&amp;value0-0-1=ASSIGNED&amp;field0-0-2=bug status&amp;type0-0-2=equals&amp;value0-0-2=NEW&amp;field0-1-0=product&amp;type0-1-0=equals&amp;value0-1-0=GMF&amp;field0-2-0=target milestone&amp;type0-2-0=equals&amp;value0-2-0=1.0.1" rel="nofollow">1.0.1</a>,<a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=bug_status&amp;type0-0-0=equals&amp;value0-0-0=REOPENED&amp;field0-0-1=bug_status&amp;type0-0-1=equals&amp;value0-0-1=ASSIGNED&amp;field0-0-2=bug_status&amp;type0-0-2=equals&amp;value0-0-2=NEW&amp;field0-1-0=product&amp;type0-1-0=equals&amp;value0-1-0=GMF&amp;field0-2-0=target_milestone&amp;type0-2-0=equals&amp;value0-2-0=1.0.2" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=bug status&amp;type0-0-0=equals&amp;value0-0-0=REOPENED&amp;field0-0-1=bug status&amp;type0-0-1=equals&amp;value0-0-1=ASSIGNED&amp;field0-0-2=bug status&amp;type0-0-2=equals&amp;value0-0-2=NEW&amp;field0-1-0=product&amp;type0-1-0=equals&amp;value0-1-0=GMF&amp;field0-2-0=target milestone&amp;type0-2-0=equals&amp;value0-2-0=1.0.2" rel="nofollow">1.0.2</a> and <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=bug_status&amp;type0-0-0=equals&amp;value0-0-0=REOPENED&amp;field0-0-1=bug_status&amp;type0-0-1=equals&amp;value0-0-1=ASSIGNED&amp;field0-0-2=bug_status&amp;type0-0-2=equals&amp;value0-0-2=NEW&amp;field0-1-0=product&amp;type0-1-0=equals&amp;value0-1-0=GMF&amp;field0-2-0=target_milestone&amp;type0-2-0=equals&amp;value0-2-0=1.0.3" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=bug status&amp;type0-0-0=equals&amp;value0-0-0=REOPENED&amp;field0-0-1=bug status&amp;type0-0-1=equals&amp;value0-0-1=ASSIGNED&amp;field0-0-2=bug status&amp;type0-0-2=equals&amp;value0-0-2=NEW&amp;field0-1-0=product&amp;type0-1-0=equals&amp;value0-1-0=GMF&amp;field0-2-0=target milestone&amp;type0-2-0=equals&amp;value0-2-0=1.0.3" rel="nofollow">1.0.3</a>.
+
+</p>
+<h3> Target Operating Environments </h3>
+<p>In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments.
+</p><p>The Eclipse Graphical Modeling Framework (GMF) project depends upon on the Platform and other projects, which are mostly "pure" Java. The 3.3 release of the Eclipse Platform Project is written and compiled against version 1.4 of the Java Platform APIs, and targeted to run on version 1.4 of the Java Runtime Environment, Standard Edition.  The Eclipse Modeling Framework (EMF) project has declared to support Java 5 language features in its next release (3.3.0), and will therefore require a Java 5 runtime environment.  GMF will target the same Java version as EMF.
+</p><p>Eclipse Platform SDK 3.3 will be tested and validated on a number of reference platforms. GMF will be tested and validated against a subset of those listed for the platform. Those available will be presented on the project download site.
+</p>
+<h3> Internationalization </h3>
+
+<p>The Eclipse Platform is designed as the basis for internationalized products. The user interface elements provided by the Eclipse SDK components, including dialogs and error messages, are externalized. The English strings are provided as the default resource bundles. As a result, the Graphical Modeling Framework project will provide English strings in its default bundles and be localized to a subset of those locales offered by the Platform. This plan will be updated to indicate which locales will be provided and the timeframe for availability.
+</p>
+<h3> Compatibility and Dependencies </h3>
+<p>Compatibility of Release 2.0
+</p><p>The Graphical Modeling Framework Project will be developed in parallel, and released simultaneously, with the following projects. As stated above, each milestone release of the Graphical Modeling Framework Project will be compatible with the corresponding milestones for each of these projects, and delivered the appropriate offset.
+</p>
+<ul><li> Eclipse Platform SDK version 3.3
+</li><li> Eclipse Modeling Framework (EMF) version 3.0
+</li><li> Graphical Editing Framework (GEF) version 3.3
+
+</li></ul>
+<p>Therefore, the Graphical Modeling Framework initial release will be compatible with these versions and will publish binary and source compatibilities with migration guides on subsequent releases.
+</p>
+<h3> API Contract </h3>
+<p>It is a goal of the Graphical Modeling Framework Project to avoid provisional APIs. APIs published for the 2.0 release will be carefully reviewed prior to release, making use of "internal" packages for unsupported and variable implementation classes. Client plug-ins that directly depend on anything other than what is specified in the published API are inherently unsupportable and receive no guarantees about future compatibility. Refer to How to Use the Eclipse API for information about how to write compliant plug-ins.  Note that GMF follows the posted <a href="/index.php/Version_Numbering" title="Version Numbering">Version Numbering</a> guidelines.
+</p>
+<h4>Compatibility of Release 2.0.0 with 1.0.0</h4>
+
+<p>GMF 2.0.0 will be compatible with GMF 1.0.0, except in those areas noted in the GMF 2.0.0 Migration Guide.  API contract, binary compatibility, etc. follow those described in the <a href="/index.php/Modeling_Project_Plan" title="Modeling Project Plan">Modeling Project Plan</a>.
+</p>
+<h4>GMF 2.0.0 Migration Guide</h4>
+<p>At this time, there are no known issues migrating from 1.0.0 to 2.0.0. Should this change, this document will be revised, or a secondary document will be added documenting any known issues.
+</p>
+<h3> Features and Capabilities </h3>
+
+<p>A list of project requirements and agreed upon implementation timeframes is found in this document. For the milestones listed in this document, a set of overall themes is used to indicate what major set of functionalities is to be concentrated on for each. These themes are presented below, while the requirements document and associated Bugzilla entries are left to those wanting more detailed information on each.
+</p>
+<h4> 2.0 Themes </h4>
+<p>Taking into consideration the <a href="http://www.eclipse.org/org/councils/roadmap_v2_0/themes_v2_0.php" class='external text' title="http://www.eclipse.org/org/councils/roadmap v2 0/themes v2 0.php" rel="nofollow">themes</a> provided by the Requirements Council, overall Modeling project <a href="/index.php/Modeling_Project_Plan" title="Modeling Project Plan">themes</a> and the GMF 1.0 release state and community feedback, the following themes are planned to be addressed in the 2.0 release:
+</p>
+<h5> API </h5>
+
+<p>A number of items related to the GMF API are planned to be addressed, including the addition of new APIs, refactoring of old APIs, and improved API documentation.  A list of those plan items related to API (keyword=api) can be found <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=keywords&amp;type0-3-0=anywordssubstr&amp;value0-3-0=api" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=keywords&amp;type0-3-0=anywordssubstr&amp;value0-3-0=api" rel="nofollow">here</a>.
+</p>
+<h5>  Usability </h5>
+<p>A number of usability items related to runtime and tooling components of GMF are found in this section.  A list of those plan items related to Usability (keyword=usability) can be found <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=keywords&amp;type0-3-0=anywordssubstr&amp;value0-3-0=usability" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=keywords&amp;type0-3-0=anywordssubstr&amp;value0-3-0=usability" rel="nofollow">here</a>.
+</p>
+<h5> Model[ing] Citizen </h5>
+
+<p>As a project within the Eclipse Modeling Project, a number of build dependency and interoperability items exist with other Modeling projects.  A number of releng tasks and support of GMF's use in providing UML2 diagramming are anticipated to be addressed in the 2.0 release timeframe.  Furthermore, as GMF 2.0 is scheduled to release with the <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147754" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=147754" rel="nofollow">Europa</a> simultaneous release, along with other Modeling projects, some coordination and requirements for being on the release train is also anticipated.
+</p>
+<h5> Performance </h5>
+<p>A number of performance issues have been identified and will be worked during the 2.0 timeframe.  A list of those plan items related to Performance (keyword=performance) can be found <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=keywords&amp;type0-3-0=anywordssubstr&amp;value0-3-0=performance" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=keywords&amp;type0-3-0=anywordssubstr&amp;value0-3-0=performance" rel="nofollow">here</a>.
+</p>
+<h4> Plan Items </h4>
+
+<p>Plan items reflect new features of the GMF project, or areas where existing features will be significantly reworked.  Plan items are indicated using keywords and have a state determined by 'Assigned To' and 'Target Milestone' fields in Bugzilla.  Below is a list of possible states and what they mean:
+</p>
+<ul><li> Committed items - A committed bug is one that we have decided to address for the release.
+</li><li> Proposed items - A bug item is one that we are considering addressing for the release. Although we are actively investigating it, we are not yet in a position to commit to it, or to say that we won't be able to address it. After due consideration, a proposal will either be committed or deferred.
+</li><li> Deferred items - A reasonable proposal that will not make it in to this release for some reason is marked as deferred with a brief note as to why it was deferred. Deferred plan items may resurface as committed plan items at a later point.
+</li></ul>
+<h4>Plan Item Queries</h4>
+<p><i><b>Plan Items</b></i>
+</p><p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]" rel="nofollow">All Open</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=bug_status&amp;type0-3-0=equals&amp;value0-3-0=RESOLVED&amp;field0-3-1=bug_status&amp;type0-3-1=equals&amp;value0-3-1=VERIFIED&amp;field0-3-2=bug_status&amp;type0-3-2=equals&amp;value0-3-2=CLOSED" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=bug status&amp;type0-3-0=equals&amp;value0-3-0=RESOLVED&amp;field0-3-1=bug status&amp;type0-3-1=equals&amp;value0-3-1=VERIFIED&amp;field0-3-2=bug status&amp;type0-3-2=equals&amp;value0-3-2=CLOSED" rel="nofollow">All Resolved</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]" rel="nofollow">All Items</a>
+
+</p><p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=target_milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0+M1" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=target milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0 M1" rel="nofollow">2.0 M1</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=target_milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0+M2" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=target milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0 M2" rel="nofollow">2.0 M2</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=target_milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0+M3" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=target milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0 M3" rel="nofollow">2.0 M3</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=target_milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0+M4" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=target milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0 M4" rel="nofollow">2.0 M4</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=target_milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0+M5" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=target milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0 M5" rel="nofollow">2.0 M5</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=target_milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0+M6" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=target milestone&amp;type0-3-0=equals&amp;value0-3-0=2.0 M6" rel="nofollow">2.0 M6</a>
+
+</p><p><i><b>Committed Items</b></i>
+</p><p>Bugzillas with a target milestone and developer assigned are considered committed in that release. For the most current list of these items for the 2.0.0 release, see the following links:
+</p><p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=assigned_to&amp;type0-3-0=equals&amp;value0-3-0=alexander.shatalin%40borland.com&amp;field0-3-1=assigned_to&amp;type0-3-1=equals&amp;value0-3-1=anthonyh%40ca.ibm.com&amp;field0-3-2=assigned_to&amp;type0-3-2=equals&amp;value0-3-2=artem.tikhomirov%40borland.com&amp;field0-3-3=assigned_to&amp;type0-3-3=equals&amp;value0-3-3=cmahoney%40ca.ibm.com&amp;field0-3-4=assigned_to&amp;type0-3-4=equals&amp;value0-3-4=dstadnik%40borland.com&amp;field0-3-5=assigned_to&amp;type0-3-5=equals&amp;value0-3-5=fplante%40ca.ibm.com&amp;field0-3-6=assigned_to&amp;type0-3-6=equals&amp;value0-3-6=ldamus%40ca.ibm.com&amp;field0-3-7=assigned_to&amp;type0-3-7=equals&amp;value0-3-7=mfeldman%40borland.com&amp;field0-3-8=assigned_to&amp;type0-3-8=equals&amp;value0-3-8=mmostafa%40ca.ibm.com&amp;field0-3-9=assigned_to&amp;type0-3-9=equals&amp;value0-3-9=radek.dvorak%40borland.com&amp;field0-3-10=assigned_to&amp;type0-3-10=equals&amp;value0-3-10=richard.gronback%40borland.com&amp;field0-3-11=assigned_to&amp;type0-3-11=equals&amp;value0-3-11=steveshaw%40ca.ibm.com&amp;field0-3-12=assigned_to&amp;type0-3-12=equals&amp;value0-3-12=vramaswa%40ca.ibm.com&amp;field0-4-0=bug_status&amp;type0-4-0=equals&amp;value0-4-0=NEW&amp;field0-4-1=bug_status&amp;type0-4-1=equals&amp;value0-4-1=ASSIGNED&amp;field0-4-2=bug_status&amp;type0-4-2=equals&amp;value0-4-2=REOPENED" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=assigned to&amp;type0-3-0=equals&amp;value0-3-0=alexander.shatalin@borland.com&amp;field0-3-1=assigned to&amp;type0-3-1=equals&amp;value0-3-1=anthonyh@ca.ibm.com&amp;field0-3-2=assigned to&amp;type0-3-2=equals&amp;value0-3-2=artem.tikhomirov@borland.com&amp;field0-3-3=assigned to&amp;type0-3-3=equals&amp;value0-3-3=cmahoney@ca.ibm.com&amp;field0-3-4=assigned to&amp;type0-3-4=equals&amp;value0-3-4=dstadnik@borland.com&amp;field0-3-5=assigned to&amp;type0-3-5=equals&amp;value0-3-5=fplante@ca.ibm.com&amp;field0-3-6=assigned to&amp;type0-3-6=equals&amp;value0-3-6=ldamus@ca.ibm.com&amp;field0-3-7=assigned to&amp;type0-3-7=equals&amp;value0-3-7=mfeldman@borland.com&amp;field0-3-8=assigned to&amp;type0-3-8=equals&amp;value0-3-8=mmostafa@ca.ibm.com&amp;field0-3-9=assigned to&amp;type0-3-9=equals&amp;value0-3-9=radek.dvorak@borland.com&amp;field0-3-10=assigned to&amp;type0-3-10=equals&amp;value0-3-10=richard.gronback@borland.com&amp;field0-3-11=assigned to&amp;type0-3-11=equals&amp;value0-3-11=steveshaw@ca.ibm.com&amp;field0-3-12=assigned to&amp;type0-3-12=equals&amp;value0-3-12=vramaswa@ca.ibm.com&amp;field0-4-0=bug status&amp;type0-4-0=equals&amp;value0-4-0=NEW&amp;field0-4-1=bug status&amp;type0-4-1=equals&amp;value0-4-1=ASSIGNED&amp;field0-4-2=bug status&amp;type0-4-2=equals&amp;value0-4-2=REOPENED" rel="nofollow">All Open</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=assigned_to&amp;type0-3-0=equals&amp;value0-3-0=alexander.shatalin%40borland.com&amp;field0-3-1=assigned_to&amp;type0-3-1=equals&amp;value0-3-1=anthonyh%40ca.ibm.com&amp;field0-3-2=assigned_to&amp;type0-3-2=equals&amp;value0-3-2=artem.tikhomirov%40borland.com&amp;field0-3-3=assigned_to&amp;type0-3-3=equals&amp;value0-3-3=cmahoney%40ca.ibm.com&amp;field0-3-4=assigned_to&amp;type0-3-4=equals&amp;value0-3-4=dstadnik%40borland.com&amp;field0-3-5=assigned_to&amp;type0-3-5=equals&amp;value0-3-5=fplante%40ca.ibm.com&amp;field0-3-6=assigned_to&amp;type0-3-6=equals&amp;value0-3-6=ldamus%40ca.ibm.com&amp;field0-3-7=assigned_to&amp;type0-3-7=equals&amp;value0-3-7=mfeldman%40borland.com&amp;field0-3-8=assigned_to&amp;type0-3-8=equals&amp;value0-3-8=mmostafa%40ca.ibm.com&amp;field0-3-9=assigned_to&amp;type0-3-9=equals&amp;value0-3-9=radek.dvorak%40borland.com&amp;field0-3-10=assigned_to&amp;type0-3-10=equals&amp;value0-3-10=richard.gronback%40borland.com&amp;field0-3-11=assigned_to&amp;type0-3-11=equals&amp;value0-3-11=steveshaw%40ca.ibm.com&amp;field0-3-12=assigned_to&amp;type0-3-12=equals&amp;value0-3-12=vramaswa%40ca.ibm.com&amp;field0-4-0=bug_status&amp;type0-4-0=equals&amp;value0-4-0=RESOLVED&amp;field0-4-1=bug_status&amp;type0-4-1=equals&amp;value0-4-1=VERIFIED&amp;field0-4-2=bug_status&amp;type0-4-2=equals&amp;value0-4-2=CLOSED" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=assigned to&amp;type0-3-0=equals&amp;value0-3-0=alexander.shatalin@borland.com&amp;field0-3-1=assigned to&amp;type0-3-1=equals&amp;value0-3-1=anthonyh@ca.ibm.com&amp;field0-3-2=assigned to&amp;type0-3-2=equals&amp;value0-3-2=artem.tikhomirov@borland.com&amp;field0-3-3=assigned to&amp;type0-3-3=equals&amp;value0-3-3=cmahoney@ca.ibm.com&amp;field0-3-4=assigned to&amp;type0-3-4=equals&amp;value0-3-4=dstadnik@borland.com&amp;field0-3-5=assigned to&amp;type0-3-5=equals&amp;value0-3-5=fplante@ca.ibm.com&amp;field0-3-6=assigned to&amp;type0-3-6=equals&amp;value0-3-6=ldamus@ca.ibm.com&amp;field0-3-7=assigned to&amp;type0-3-7=equals&amp;value0-3-7=mfeldman@borland.com&amp;field0-3-8=assigned to&amp;type0-3-8=equals&amp;value0-3-8=mmostafa@ca.ibm.com&amp;field0-3-9=assigned to&amp;type0-3-9=equals&amp;value0-3-9=radek.dvorak@borland.com&amp;field0-3-10=assigned to&amp;type0-3-10=equals&amp;value0-3-10=richard.gronback@borland.com&amp;field0-3-11=assigned to&amp;type0-3-11=equals&amp;value0-3-11=steveshaw@ca.ibm.com&amp;field0-3-12=assigned to&amp;type0-3-12=equals&amp;value0-3-12=vramaswa@ca.ibm.com&amp;field0-4-0=bug status&amp;type0-4-0=equals&amp;value0-4-0=RESOLVED&amp;field0-4-1=bug status&amp;type0-4-1=equals&amp;value0-4-1=VERIFIED&amp;field0-4-2=bug status&amp;type0-4-2=equals&amp;value0-4-2=CLOSED" rel="nofollow">All Resolved</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=assigned_to&amp;type0-3-0=equals&amp;value0-3-0=alexander.shatalin%40borland.com&amp;field0-3-1=assigned_to&amp;type0-3-1=equals&amp;value0-3-1=anthonyh%40ca.ibm.com&amp;field0-3-2=assigned_to&amp;type0-3-2=equals&amp;value0-3-2=artem.tikhomirov%40borland.com&amp;field0-3-3=assigned_to&amp;type0-3-3=equals&amp;value0-3-3=cmahoney%40ca.ibm.com&amp;field0-3-4=assigned_to&amp;type0-3-4=equals&amp;value0-3-4=dstadnik%40borland.com&amp;field0-3-5=assigned_to&amp;type0-3-5=equals&amp;value0-3-5=fplante%40ca.ibm.com&amp;field0-3-6=assigned_to&amp;type0-3-6=equals&amp;value0-3-6=ldamus%40ca.ibm.com&amp;field0-3-7=assigned_to&amp;type0-3-7=equals&amp;value0-3-7=mfeldman%40borland.com&amp;field0-3-8=assigned_to&amp;type0-3-8=equals&amp;value0-3-8=mmostafa%40ca.ibm.com&amp;field0-3-9=assigned_to&amp;type0-3-9=equals&amp;value0-3-9=radek.dvorak%40borland.com&amp;field0-3-10=assigned_to&amp;type0-3-10=equals&amp;value0-3-10=richard.gronback%40borland.com&amp;field0-3-11=assigned_to&amp;type0-3-11=equals&amp;value0-3-11=steveshaw%40ca.ibm.com&amp;field0-3-12=assigned_to&amp;type0-3-12=equals&amp;value0-3-12=vramaswa%40ca.ibm.com" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=assigned to&amp;type0-3-0=equals&amp;value0-3-0=alexander.shatalin@borland.com&amp;field0-3-1=assigned to&amp;type0-3-1=equals&amp;value0-3-1=anthonyh@ca.ibm.com&amp;field0-3-2=assigned to&amp;type0-3-2=equals&amp;value0-3-2=artem.tikhomirov@borland.com&amp;field0-3-3=assigned to&amp;type0-3-3=equals&amp;value0-3-3=cmahoney@ca.ibm.com&amp;field0-3-4=assigned to&amp;type0-3-4=equals&amp;value0-3-4=dstadnik@borland.com&amp;field0-3-5=assigned to&amp;type0-3-5=equals&amp;value0-3-5=fplante@ca.ibm.com&amp;field0-3-6=assigned to&amp;type0-3-6=equals&amp;value0-3-6=ldamus@ca.ibm.com&amp;field0-3-7=assigned to&amp;type0-3-7=equals&amp;value0-3-7=mfeldman@borland.com&amp;field0-3-8=assigned to&amp;type0-3-8=equals&amp;value0-3-8=mmostafa@ca.ibm.com&amp;field0-3-9=assigned to&amp;type0-3-9=equals&amp;value0-3-9=radek.dvorak@borland.com&amp;field0-3-10=assigned to&amp;type0-3-10=equals&amp;value0-3-10=richard.gronback@borland.com&amp;field0-3-11=assigned to&amp;type0-3-11=equals&amp;value0-3-11=steveshaw@ca.ibm.com&amp;field0-3-12=assigned to&amp;type0-3-12=equals&amp;value0-3-12=vramaswa@ca.ibm.com" rel="nofollow">All Items</a>
+</p><p><i><b>Proposed Items</b></i>
+</p><p>Bugzillas without an assigned developer are proposed, but not committed for a particular release.  For the most current list of these items, see the following links:
+</p><p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=assigned_to&amp;type0-3-0=equals&amp;value0-3-0=gmf.devtools-inbox%40eclipse.org&amp;field0-3-1=assigned_to&amp;type0-3-1=equals&amp;value0-3-1=gmf.docs-inbox%40eclipse.org&amp;field0-3-2=assigned_to&amp;type0-3-2=equals&amp;value0-3-2=gmf.generation-inbox%40eclipse.org&amp;field0-3-3=assigned_to&amp;type0-3-3=equals&amp;value0-3-3=gmf.models-inbox%40eclipse.org&amp;field0-3-4=assigned_to&amp;type0-3-4=equals&amp;value0-3-4=gmf.releng-inbox%40eclipse.org&amp;field0-3-5=assigned_to&amp;type0-3-5=equals&amp;value0-3-5=gmf.runtime-inbox%40eclipse.org&amp;field0-3-6=assigned_to&amp;type0-3-6=equals&amp;value0-3-6=gmf.runtime.common-inbox%40eclipse.org&amp;field0-3-7=assigned_to&amp;type0-3-7=equals&amp;value0-3-7=gmf.runtime.diagram-inbox%40eclipse.org&amp;field0-3-8=assigned_to&amp;type0-3-8=equals&amp;value0-3-8=gmf.runtime.emf-inbox%40eclipse.org&amp;field0-3-9=assigned_to&amp;type0-3-9=equals&amp;value0-3-9=gmf.samples-inbox%40eclipse.org&amp;field0-3-10=assigned_to&amp;type0-3-10=equals&amp;value0-3-10=gmf.templates-inbox%40eclipse.org&amp;field0-3-11=assigned_to&amp;type0-3-11=equals&amp;value0-3-11=gmf.ui-inbox%40eclipse.org&amp;field0-3-12=assigned_to&amp;type0-3-12=equals&amp;value0-3-12=gmf.web-inbox%40eclipse.org&amp;field0-4-0=bug_status&amp;type0-4-0=equals&amp;value0-4-0=NEW&amp;field0-4-1=bug_status&amp;type0-4-1=equals&amp;value0-4-1=ASSIGNED&amp;field0-4-2=bug_status&amp;type0-4-2=equals&amp;value0-4-2=REOPENED" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=assigned to&amp;type0-3-0=equals&amp;value0-3-0=gmf.devtools-inbox@eclipse.org&amp;field0-3-1=assigned to&amp;type0-3-1=equals&amp;value0-3-1=gmf.docs-inbox@eclipse.org&amp;field0-3-2=assigned to&amp;type0-3-2=equals&amp;value0-3-2=gmf.generation-inbox@eclipse.org&amp;field0-3-3=assigned to&amp;type0-3-3=equals&amp;value0-3-3=gmf.models-inbox@eclipse.org&amp;field0-3-4=assigned to&amp;type0-3-4=equals&amp;value0-3-4=gmf.releng-inbox@eclipse.org&amp;field0-3-5=assigned to&amp;type0-3-5=equals&amp;value0-3-5=gmf.runtime-inbox@eclipse.org&amp;field0-3-6=assigned to&amp;type0-3-6=equals&amp;value0-3-6=gmf.runtime.common-inbox@eclipse.org&amp;field0-3-7=assigned to&amp;type0-3-7=equals&amp;value0-3-7=gmf.runtime.diagram-inbox@eclipse.org&amp;field0-3-8=assigned to&amp;type0-3-8=equals&amp;value0-3-8=gmf.runtime.emf-inbox@eclipse.org&amp;field0-3-9=assigned to&amp;type0-3-9=equals&amp;value0-3-9=gmf.samples-inbox@eclipse.org&amp;field0-3-10=assigned to&amp;type0-3-10=equals&amp;value0-3-10=gmf.templates-inbox@eclipse.org&amp;field0-3-11=assigned to&amp;type0-3-11=equals&amp;value0-3-11=gmf.ui-inbox@eclipse.org&amp;field0-3-12=assigned to&amp;type0-3-12=equals&amp;value0-3-12=gmf.web-inbox@eclipse.org&amp;field0-4-0=bug status&amp;type0-4-0=equals&amp;value0-4-0=NEW&amp;field0-4-1=bug status&amp;type0-4-1=equals&amp;value0-4-1=ASSIGNED&amp;field0-4-2=bug status&amp;type0-4-2=equals&amp;value0-4-2=REOPENED" rel="nofollow">Open</a> | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0+M1&amp;field0-1-1=target_milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target_milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0+M2&amp;field0-1-3=target_milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0+M3&amp;field0-1-4=target_milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0+M4&amp;field0-1-5=target_milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0+M5&amp;field0-1-6=target_milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0+M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short_desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=%5B+Plan+Item+%5D&amp;field0-3-0=assigned_to&amp;type0-3-0=equals&amp;value0-3-0=gmf.devtools-inbox%40eclipse.org&amp;field0-3-1=assigned_to&amp;type0-3-1=equals&amp;value0-3-1=gmf.docs-inbox%40eclipse.org&amp;field0-3-2=assigned_to&amp;type0-3-2=equals&amp;value0-3-2=gmf.generation-inbox%40eclipse.org&amp;field0-3-3=assigned_to&amp;type0-3-3=equals&amp;value0-3-3=gmf.models-inbox%40eclipse.org&amp;field0-3-4=assigned_to&amp;type0-3-4=equals&amp;value0-3-4=gmf.releng-inbox%40eclipse.org&amp;field0-3-5=assigned_to&amp;type0-3-5=equals&amp;value0-3-5=gmf.runtime-inbox%40eclipse.org&amp;field0-3-6=assigned_to&amp;type0-3-6=equals&amp;value0-3-6=gmf.runtime.common-inbox%40eclipse.org&amp;field0-3-7=assigned_to&amp;type0-3-7=equals&amp;value0-3-7=gmf.runtime.diagram-inbox%40eclipse.org&amp;field0-3-8=assigned_to&amp;type0-3-8=equals&amp;value0-3-8=gmf.runtime.emf-inbox%40eclipse.org&amp;field0-3-9=assigned_to&amp;type0-3-9=equals&amp;value0-3-9=gmf.samples-inbox%40eclipse.org&amp;field0-3-10=assigned_to&amp;type0-3-10=equals&amp;value0-3-10=gmf.templates-inbox%40eclipse.org&amp;field0-3-11=assigned_to&amp;type0-3-11=equals&amp;value0-3-11=gmf.ui-inbox%40eclipse.org&amp;field0-3-12=assigned_to&amp;type0-3-12=equals&amp;value0-3-12=gmf.web-inbox%40eclipse.org&amp;field0-4-0=bug_status&amp;type0-4-0=equals&amp;value0-4-0=RESOLVED&amp;field0-4-1=bug_status&amp;type0-4-1=equals&amp;value0-4-1=VERIFIED&amp;field0-4-2=bug_status&amp;type0-4-2=equals&amp;value0-4-2=CLOSED" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=equals&amp;value0-1-0=2.0 M1&amp;field0-1-1=target milestone&amp;type0-1-1=equals&amp;value0-1-1=2.0&amp;field0-1-2=target milestone&amp;type0-1-2=equals&amp;value0-1-2=2.0 M2&amp;field0-1-3=target milestone&amp;type0-1-3=equals&amp;value0-1-3=2.0 M3&amp;field0-1-4=target milestone&amp;type0-1-4=equals&amp;value0-1-4=2.0 M4&amp;field0-1-5=target milestone&amp;type0-1-5=equals&amp;value0-1-5=2.0 M5&amp;field0-1-6=target milestone&amp;type0-1-6=equals&amp;value0-1-6=2.0 M6&amp;field0-2-0=keywords&amp;type0-2-0=anywordssubstr&amp;value0-2-0=plan&amp;field0-2-1=short desc&amp;type0-2-1=allwordssubstr&amp;value0-2-1=[ Plan Item ]&amp;field0-3-0=assigned to&amp;type0-3-0=equals&amp;value0-3-0=gmf.devtools-inbox@eclipse.org&amp;field0-3-1=assigned to&amp;type0-3-1=equals&amp;value0-3-1=gmf.docs-inbox@eclipse.org&amp;field0-3-2=assigned to&amp;type0-3-2=equals&amp;value0-3-2=gmf.generation-inbox@eclipse.org&amp;field0-3-3=assigned to&amp;type0-3-3=equals&amp;value0-3-3=gmf.models-inbox@eclipse.org&amp;field0-3-4=assigned to&amp;type0-3-4=equals&amp;value0-3-4=gmf.releng-inbox@eclipse.org&amp;field0-3-5=assigned to&amp;type0-3-5=equals&amp;value0-3-5=gmf.runtime-inbox@eclipse.org&amp;field0-3-6=assigned to&amp;type0-3-6=equals&amp;value0-3-6=gmf.runtime.common-inbox@eclipse.org&amp;field0-3-7=assigned to&amp;type0-3-7=equals&amp;value0-3-7=gmf.runtime.diagram-inbox@eclipse.org&amp;field0-3-8=assigned to&amp;type0-3-8=equals&amp;value0-3-8=gmf.runtime.emf-inbox@eclipse.org&amp;field0-3-9=assigned to&amp;type0-3-9=equals&amp;value0-3-9=gmf.samples-inbox@eclipse.org&amp;field0-3-10=assigned to&amp;type0-3-10=equals&amp;value0-3-10=gmf.templates-inbox@eclipse.org&amp;field0-3-11=assigned to&amp;type0-3-11=equals&amp;value0-3-11=gmf.ui-inbox@eclipse.org&amp;field0-3-12=assigned to&amp;type0-3-12=equals&amp;value0-3-12=gmf.web-inbox@eclipse.org&amp;field0-4-0=bug status&amp;type0-4-0=equals&amp;value0-4-0=RESOLVED&amp;field0-4-1=bug status&amp;type0-4-1=equals&amp;value0-4-1=VERIFIED&amp;field0-4-2=bug status&amp;type0-4-2=equals&amp;value0-4-2=CLOSED" rel="nofollow">Resolved</a>
+
+</p><p><i><b>Deferred Items</b></i>
+</p><p>Bugzillas with an unspecified target milestone are deferred, and not scheduled for the current release. For the most current list of these items, see the following link:
+</p><p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta_ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target_milestone&amp;type0-1-0=notequals&amp;value0-1-0=2.0+M1&amp;field0-2-0=target_milestone&amp;type0-2-0=notequals&amp;value0-2-0=2.0&amp;field0-3-0=target_milestone&amp;type0-3-0=notequals&amp;value0-3-0=2.0+M2&amp;field0-4-0=target_milestone&amp;type0-4-0=notequals&amp;value0-4-0=2.0+M3&amp;field0-5-0=target_milestone&amp;type0-5-0=notequals&amp;value0-5-0=2.0+M4&amp;field0-6-0=target_milestone&amp;type0-6-0=notequals&amp;value0-6-0=2.0+M5&amp;field0-7-0=target_milestone&amp;type0-7-0=notequals&amp;value0-7-0=2.0+M6&amp;field0-8-0=keywords&amp;type0-8-0=anywordssubstr&amp;value0-8-0=plan&amp;field0-8-1=short_desc&amp;type0-8-1=allwordssubstr&amp;value0-8-1=%5B+Plan+Item+%5D" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?order=bugs.delta ts&amp;product=GMF&amp;field0-0-0=product&amp;type0-0-0=equals&amp;value0-0-0=GMF&amp;field0-1-0=target milestone&amp;type0-1-0=notequals&amp;value0-1-0=2.0 M1&amp;field0-2-0=target milestone&amp;type0-2-0=notequals&amp;value0-2-0=2.0&amp;field0-3-0=target milestone&amp;type0-3-0=notequals&amp;value0-3-0=2.0 M2&amp;field0-4-0=target milestone&amp;type0-4-0=notequals&amp;value0-4-0=2.0 M3&amp;field0-5-0=target milestone&amp;type0-5-0=notequals&amp;value0-5-0=2.0 M4&amp;field0-6-0=target milestone&amp;type0-6-0=notequals&amp;value0-6-0=2.0 M5&amp;field0-7-0=target milestone&amp;type0-7-0=notequals&amp;value0-7-0=2.0 M6&amp;field0-8-0=keywords&amp;type0-8-0=anywordssubstr&amp;value0-8-0=plan&amp;field0-8-1=short desc&amp;type0-8-1=allwordssubstr&amp;value0-8-1=[ Plan Item ]" rel="nofollow">All Open</a>
+</p><p><i><b>Help Wanted Items</b></i>
+</p><p>Bugzillas with a 'helpwanted' keyword are in need of contribution from the community.  For the most current list of these items, see the following link:
+</p><p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Modeling&amp;product=GMF&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=helpwanted&amp;bug_status=NEW&amp;bug_status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?query format=advanced&amp;short desc type=allwordssubstr&amp;short desc=&amp;classification=Modeling&amp;product=GMF&amp;long desc type=allwordssubstr&amp;long desc=&amp;bug file loc type=allwordssubstr&amp;bug file loc=&amp;status whiteboard type=allwordssubstr&amp;status whiteboard=&amp;keywords type=allwords&amp;keywords=helpwanted&amp;bug status=NEW&amp;bug status=REOPENED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse same sort as last time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="nofollow">All Open</a>
+</p>
+
+<h2><a name="MDT"></a>Modeling Development Tools</h2>
+
+<div class=Section1>
+
+<h3>Eclipse MDT<br>
+DRAFT 1.0 Plan</h3>
+
+<p>Last revised <st1:time Minute="28" Hour="20">20:28 EST</st1:time> <st1:date
+Year="2006" Day="19" Month="12">December 19, 2006</st1:date> (<img width=12
+height=12 id="_x0000_i1025" src="../../images/new.gif" border=0> marks
+interesting changes over the <a href="mdt_project_plan_1_0_20061201.html">previous
+plan revision</a>)</p>
+
+<p><i>Please send comments about this plan to the </i><a
+href="mailto:mdt-dev@eclipse.org">mdt-dev@eclipse.org</a> <i>developer mailing
+list.</i></p>
+
+<p>This document lays out the feature and API set for the next feature release
+of the Eclipse MDT project, designated release 1.0. </p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#Deliverables">Release deliverables</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#Milestones">Release milestones</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#TargetOperatingEnvironments">Target operating
+     environments</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#Compatibility">Compatibility with previous
+     releases</a><o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#_EODM_component">EODM component</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#_OCL__component">OCL component</a></span><img
+     border=0 width=12 height=12 id="_x0000_i1026" src="../../images/new.gif"><span
+     style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#_UML2__component">UML2 component</a></span><img
+     border=0 width=12 height=12 id="_x0000_i1027" src="../../images/new.gif"><span
+     style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#_UML2_Tools_">UML2 Tools component</a></span><img
+     border=0 width=12 height=12 id="_x0000_i1028" src="../../images/new.gif"><span
+     style='font-size:10.0pt;font-family:Arial'><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'><a href="#_XSD_component">XSD component</a><o:p></o:p></span></li>
+</ul>
+
+<p>Plans do not materialize out of nowhere, nor are they entirely static. To
+ensure the planning process is transparent and open to the entire Eclipse
+community, plans are posted in an embryonic form and then revised from time to
+time throughout the release cycle. </p>
+
+<p>The first part of the plan deals with the important matters of release
+deliverables, release milestones, target operating environments, and
+release-to-release compatibility. These are all things that need to be clear
+for any release, even if no features were to change.&nbsp; </p>
+
+<p>The remainder of the plan consists of plan items for the components under
+the Eclipse MDT project. Each plan item covers a feature or API that is to be
+added, or some aspect that is to be improved. Each plan item has its own entry
+in the Eclipse <span class=SpellE>bugzilla</span> database, with a title and a
+concise summary (usually a single paragraph) that explains the work item at a
+suitably high enough level so that everyone can readily understand what the
+work item is without having to understand the nitty-gritty detail. </p>
+
+<p>Not all plan items represent the same amount of work; some may be quite
+large, others, quite small. Some plan items may involve work that is localized
+to a single subsystem; others may involve coordinated changes across several
+projects within the same top-level project; and others may involve coordination
+with other top-level projects. Although some plan items are for work that is
+more pressing that others, the plan items appear in no particular order. </p>
+
+<p>Fixing bugs, improving test coverage, documentation, examples, performance
+tuning, usability, etc. are considered routine ongoing maintenance activities
+and are not included in this plan unless they would also involve a significant
+change to the API or feature set, or involve a significant amount of work. The
+intent of the plan is to account for all interesting feature work.</p>
+
+<p>The current status of each plan item is noted: </p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><b style='mso-bidi-font-weight:
+     normal'><span style='font-size:10.0pt;font-family:Arial'>Committed</span></b><span
+     style='font-size:10.0pt;font-family:Arial'> plan item – A committed plan
+     item is one that we have decided to address for the release.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><b style='mso-bidi-font-weight:
+     normal'><span style='font-size:10.0pt;font-family:Arial'>Proposed</span></b><span
+     style='font-size:10.0pt;font-family:Arial'> plan item – A proposed plan
+     item is one that we are considering addressing for the release. Although
+     we are actively investigating it, we are not yet in a position to commit
+     to it, or to say that we won’t be able to address it. After due
+     consideration, a proposal will either be committed or deferred.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo3;tab-stops:list .5in'><b style='mso-bidi-font-weight:
+     normal'><span style='font-size:10.0pt;font-family:Arial'>Deferred</span></b><span
+     style='font-size:10.0pt;font-family:Arial'> plan item – A reasonable
+     proposal that will not make it into this release for some reason is marked
+     as deferred with a brief note as to why it was deferred. Deferred plan
+     items may resurface as committed plan items at a later point.<o:p></o:p></span></li>
+
+</ul>
+
+<h3><a name=Deliverables></a>Release deliverables</h3>
+
+<p>The release deliverables are: </p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Source code release for the EODM component, available
+     as versions tagged &quot;R2_0&quot; in the eclipse.org <a
+     href="http://dev.eclipse.org/viewcvs/">CVS repository</a>.<o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>EODM runtime binary and SDK distributions (downloadable).<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>EODM runtime binary and SDK features on eclipse.org
+     update site (install via Eclipse update manager).<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1029" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>Source code release for the OCL component, available as versions
+     tagged &quot;R1_1&quot; in the eclipse.org <a
+     href="http://dev.eclipse.org/viewcvs/">CVS repository</a>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1030" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>OCL runtime binary and SDK distributions (downloadable).<o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1031" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>OCL runtime binary and SDK features on eclipse.org update site
+     (install via Eclipse update manager).<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1032" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>Source code release for the UML2 component, available as versions
+     tagged &quot;R2_1&quot; in the eclipse.org <a
+     href="http://dev.eclipse.org/viewcvs/">CVS repository</a>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1033" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>UML2 runtime binary and SDK distributions (downloadable).<o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1034" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>UML2 runtime binary and SDK features on eclipse.org update site
+     (install via Eclipse update manager).<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1035" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>Source code release for the UML2 Tools component, available as
+     versions tagged &quot;R1_0&quot; in the eclipse.org <a
+     href="http://dev.eclipse.org/viewcvs/">CVS repository</a>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1036" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>UML2 Tools runtime binary and SDK distributions (downloadable).<o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><img border=0 width=12
+     height=12 id="_x0000_i1037" src="../../images/new.gif"><span
+     style='mso-spacerun:yes'> </span><span style='font-size:10.0pt;font-family:
+     Arial'>UML2 Tools runtime binary and SDK features on eclipse.org update
+     site (install via Eclipse update manager).<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Source code release for XSD component, available as
+     versions tagged &quot;R2_3&quot; in the eclipse.org <a
+     href="http://dev.eclipse.org/viewcvs/">CVS repository</a>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>XSD runtime binary and SDK distributions
+     (downloadable).<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo7;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>XSD runtime binary and SDK features on eclipse.org
+     update site (install via Eclipse update manager).<o:p></o:p></span></li>
+
+</ul>
+
+<h3><a name=Milestones></a>Release milestones</h3>
+
+<p>Release milestone occurring at roughly 6 week intervals exist to facilitate
+coarse-grained planning and staging. The milestones are:</p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo10;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Thursday, November 16 – Milestone 3 (1.0 M3) – Stable
+     Build based on Eclipse 3.3 M3 </span><span style='mso-bidi-font-style:
+     italic'><img border=0 width=12 height=12 id="_x0000_i1038"
+     src="../../images/ok.gif"></span><span style='font-size:10.0pt;font-family:
+     Arial'><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo10;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Thursday, January 4 – Milestone 4 (1.0 M4) – Stable
+     Build based on Eclipse 3.3 M4<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo10;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Friday, February 23 – Milestone 5 (1.0 M5) – Stable
+     Build based on Eclipse 3.3 M5<o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo10;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Friday, April 6 – Milestone 6 (1.0 M6) – API Freeze –
+     Stable Build based on Eclipse 3.3 M6<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo10;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Friday, May 18 – Milestone 7 (1.0 RC0) – Stable Build
+     based on Eclipse 3.3 RC0<o:p></o:p></span></li>
+</ul>
+
+<p>The 1.0 release is targeted for late June 2007. All release deliverables
+will be available for download as soon as the release has been tested and
+validated in the target operating configurations listed below.</p>
+
+<h3><a name=TargetOperatingEnvironments></a>Target Operating Environments</h3>
+
+<p>In order to remain current, each release of an Eclipse project targets
+reasonably current versions of underlying operating environments and other
+Eclipse projects on which it depends.&nbsp;</p>
+
+<p>Most of Eclipse is &quot;pure&quot; <span class=SpellE>Java<sup><span
+style='font-size:9.5pt'>TM</span></sup></span> code and has no direct
+dependence on the underlying operating system. The chief dependence is on the
+Eclipse Platform, and on the Java 2 Platform that runs it.</p>
+
+<p>The MDT 1.0 release depends on the following:</p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo13;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Java 2 Platform 1.5<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo13;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>Eclipse Platform 3.3<o:p></o:p></span></li>
+
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo13;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>EMF 2.3<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo13;tab-stops:list .5in'><span style='font-size:10.0pt;
+     font-family:Arial'>GMF 2.0<o:p></o:p></span></li>
+</ul>
+
+<p>The 1.0 release of MDT is designed to run on any configuration supporting
+the above components.</p>
+
+<p>The Eclipse Platform runs in a variety of operating environments. Testing is
+focused on a handful of popular <span class=header>combinations of operating
+system and Java 2 Platform; these are our </span><em><span style='font-family:
+Arial'>reference platforms</span></em><span class=header>. Eclipse undoubtedly
+runs fine in many operating environments beyond the reference platforms we
+test. However, since we do not systematically test them we cannot vouch for
+them. Problems encountered when running Eclipse on non-reference platform that
+cannot be recreated on any reference platform will be given lower priority than
+problems with running Eclipse on a reference platform.</span></p>
+
+<p><span style='mso-bidi-font-weight:bold'>See the <a
+href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_3.html">Eclipse
+Project 3.3 plan</a> for a list of reference platforms.</span></p>
+
+<h4><span style='font-family:Arial'>Internationalization<o:p></o:p></span></h4>
+
+<p>Eclipse is designed as the basis for internationalized products. The user
+interface elements provided by the various Eclipse projects, including dialogs
+and error messages, are externalized. The English strings for MDT are provided
+as the default resource bundles. Translations are not provided with this
+release. However, the plug-in fragment mechanism provides the means by which translations
+into any number of other languages can be incorporated.</p>
+
+<h3><a name=Compatibility></a>Compatibility with Previous Releases</h3>
+
+<h3>Compatibility of EODM 2.0 with 1.0</h3>
+
+<p>The EODM 2.0 component of Eclipse MDT will <b style='mso-bidi-font-weight:
+normal'>not</b> be compatible with EODM 1.0.</p>
+
+<p><b>API Contract Compatibility:</b> EODM 2.0 will <b style='mso-bidi-font-weight:
+normal'>not</b> be upwards contract-compatible with EODM 1.0 as noted in the <i>EODM
+2.0 Migration</i> Guide. Programs that use affected APIs and extension points
+will need to be ported to EODM 2.0 APIs. Downward contract compatibility is not
+supported. Compliance with EODM 2.0 APIs would <b style='mso-bidi-font-weight:
+normal'>not</b> ensure compliance with EODM 1.0 APIs. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain contract compatibility.</p>
+
+<p><b>Binary (plug-in) Compatibility:</b> EODM 2.0 will <b style='mso-bidi-font-weight:
+normal'>not</b> be upwards binary-compatible with EODM 1.0 as noted in the <i>EODM
+2.0 Migration</i> Guide. Downward plug-in compatibility is not supported:
+plug-ins compiled against EODM 2.0 will be unusable with EODM 1.0. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain binary compatibility.</p>
+
+<p><b>Source Compatibility:</b> Source files written to use EODM 1.0 APIs will <b
+style='mso-bidi-font-weight:normal'>not</b> compile and run successfully
+against EODM 2.0 APIs. In some cases, it may be necessary to make minor changes
+to the source code to disambiguate things like imports or overloaded method
+invocations. Downward source compatibility is not supported. If source files
+use new APIs, they will not be usable with earlier versions. </p>
+
+<p><b>Workspace Compatibility:</b> EODM 2.0 will <b style='mso-bidi-font-weight:
+normal'>not</b> be upwards workspace-compatible with EODM 1.0 as noted. This
+means that workspaces and projects created by an Eclipse with EODM 1.0
+installed <b style='mso-bidi-font-weight:normal'>cannot</b> be successfully
+opened by an Eclipse with EODM 2.0 installed. This includes both hidden
+metadata, which is localized to a particular workspace, as well as metadata
+files found within a workspace project, which may propagate between workspaces
+via file copying or team repositories. User interface session state may be
+discarded when a workspace is upgraded. Downward workspace compatibility is not
+supported. Metadata files created (or overwritten) by the newer version will
+generally be unusable with older versions.</p>
+
+<p><b>Non-compliant usage of API's</b>: All non-API methods and classes, and
+certainly everything in a package with &quot;internal&quot; in its name, are
+considered implementation details which may vary between operating environment
+and are subject to change without notice. Client plug-ins that directly <span
+class=GramE>depend</span> on anything other than what is specified in the API
+are inherently unsupportable and receive no guarantees about compatibility
+within a single release much less with an earlier releases. Refer to <i><a
+href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write compliant
+plug-ins.</p>
+
+<h3>Compatibility of <img border=0 width=12 height=12 id="_x0000_i1039"
+src="../../images/new.gif"><span style='mso-spacerun:yes'> </span>OCL 1.1 with
+1.0</h3>
+
+<p>The <img border=0 width=12 height=12 id="_x0000_i1040"
+src="../../images/new.gif"><span style='mso-spacerun:yes'> </span>OCL 1.1 <img
+border=0 width=12 height=12 id="_x0000_i1041" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span>component of Eclipse MDT will be compatible
+with<img border=0 width=12 height=12 id="_x0000_i1042"
+src="../../images/new.gif"> OCL 1.0, except in those areas noted in the<img
+border=0 width=12 height=12 id="_x0000_i1043" src="../../images/new.gif"> OCL
+1.1 Migration Guide.</p>
+
+<p><b>API Contract Compatibility:</b> <img border=0 width=12 height=12
+id="_x0000_i1044" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span>OCL 1.1 will be upwards contract-compatible
+with<img border=0 width=12 height=12 id="_x0000_i1045"
+src="../../images/new.gif"> OCL 1.0 except in those areas noted in the <img
+border=0 width=12 height=12 id="_x0000_i1046" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><i>OCL 1.1 Migration</i><i style='mso-bidi-font-style:
+normal'> Guide</i>. Programs that use affected APIs and extension points will
+need to be ported to<img border=0 width=12 height=12 id="_x0000_i1047"
+src="../../images/new.gif"> OCL 1.1 APIs. Downward contract compatibility is
+not supported. There is no guarantee that compliance with<img border=0
+width=12 height=12 id="_x0000_i1048" src="../../images/new.gif"> OCL 1.1 APIs
+would ensure compliance with<img border=0 width=12 height=12 id="_x0000_i1049"
+src="../../images/new.gif"> OCL 1.0 APIs. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain contract compatibility.</p>
+
+<p><b>Binary (plug-in) Compatibility:</b> <img border=0 width=12 height=12
+id="_x0000_i1050" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span>OCL 1.1 will be upwards binary-compatible with<img
+border=0 width=12 height=12 id="_x0000_i1051" src="../../images/new.gif"> OCL
+1.0 except in those areas noted in the<img border=0 width=12 height=12
+id="_x0000_i1052" src="../../images/new.gif"> <i>OCL 1.1 Migration</i><i
+style='mso-bidi-font-style:normal'> Guide</i>. Downward plug-in compatibility
+is not supported: plug-ins compiled against<img border=0 width=12 height=12
+id="_x0000_i1053" src="../../images/new.gif"> OCL 1.1 will likely be unusable
+with<img border=0 width=12 height=12 id="_x0000_i1054"
+src="../../images/new.gif"> OCL 1.0. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain binary compatibility.</p>
+
+<p><b>Source Compatibility:</b> Source files written to use<img border=0
+width=12 height=12 id="_x0000_i1055" src="../../images/new.gif"> OCL 1.0 APIs
+will usually compile and run successfully against<img border=0 width=12
+height=12 id="_x0000_i1056" src="../../images/new.gif"> OCL 1.1 APIs, although
+this cannot be guaranteed. Because<img border=0 width=12 height=12
+id="_x0000_i1057" src="../../images/new.gif"> OCL 1.1 may exploit new Java
+language constructs and/or aspects of the OCL specification, there is an
+increased chance of source incompatibilities compared to previous<img border=0
+width=12 height=12 id="_x0000_i1058" src="../../images/new.gif"> OCL releases.
+In some cases, it may be necessary to make minor changes to the source code to
+disambiguate things like imports or overloaded method invocations. Downward
+source compatibility is not supported. If source files use new APIs, they will
+not be usable with earlier versions.</p>
+
+<p><b>Workspace Compatibility:</b> <img border=0 width=12 height=12
+id="_x0000_i1059" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span>OCL 1.1 will be upwards workspace-compatible
+with<img border=0 width=12 height=12 id="_x0000_i1060"
+src="../../images/new.gif"> OCL 1.0 unless noted. This means that workspaces
+and projects created by an Eclipse with<img border=0 width=12 height=12
+id="_x0000_i1061" src="../../images/new.gif"> OCL 1.0 installed can be
+successfully opened by an Eclipse with<img border=0 width=12 height=12
+id="_x0000_i1062" src="../../images/new.gif"> OCL 1.1 installed. This includes
+both hidden metadata, which is localized to a particular workspace, as well as
+metadata files found within a workspace project, which may propagate between
+workspaces via file copying or team repositories. User interface session state
+may be discarded when a workspace is upgraded. Downward workspace compatibility
+is not supported. Metadata files created (or overwritten) by the newer version
+will generally be unusable with older versions.</p>
+
+<p><b>Non-compliant usage of API's</b>: All non-API methods and classes, and
+certainly everything in a package with &quot;internal&quot; in its name, are
+considered implementation details which may vary between operating environment
+and are subject to change without notice. Client plug-ins that directly <span
+class=GramE>depend</span> on anything other than what is specified in the API
+are inherently unsupportable and receive no guarantees about compatibility
+within a single release much less with an earlier releases. Refer to <i><a
+href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write compliant
+plug-ins.</p>
+
+<h3>Compatibility of UML2 2.1 with 2.0</h3>
+
+<p>The UML2<img border=0 width=12 height=12 id="_x0000_i1063"
+src="../../images/new.gif"> 2.1<img border=0 width=12 height=12
+id="_x0000_i1064" src="../../images/new.gif"> component of Eclipse MDT will be
+compatible with UML2<img border=0 width=12 height=12 id="_x0000_i1065"
+src="../../images/new.gif"> 2.0, except in those areas noted in the UML2<img
+border=0 width=12 height=12 id="_x0000_i1066" src="../../images/new.gif"> 2.1
+Migration Guide.</p>
+
+<p><b>API Contract Compatibility:</b> UML2<img border=0 width=12 height=12
+id="_x0000_i1067" src="../../images/new.gif"> 2.1 will be upwards
+contract-compatible with UML2<img border=0 width=12 height=12 id="_x0000_i1068"
+src="../../images/new.gif"> 2.0 except in those areas noted in the <i>UML2</i><img
+border=0 width=12 height=12 id="_x0000_i1069" src="../../images/new.gif"><i>
+
+2.1 Migration</i><i style='mso-bidi-font-style:normal'> Guide</i>. Programs
+that use affected APIs and extension points will need to be ported to UML2<img
+border=0 width=12 height=12 id="_x0000_i1070" src="../../images/new.gif"> 2.1
+APIs. Downward contract compatibility is not supported. There is no guarantee
+that compliance with UML2<img border=0 width=12 height=12 id="_x0000_i1071"
+src="../../images/new.gif"> 2.1 APIs would ensure compliance with UML2<img
+border=0 width=12 height=12 id="_x0000_i1072" src="../../images/new.gif"> 2.0
+APIs. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain contract compatibility.</p>
+
+<p><b>Binary (plug-in) Compatibility:</b> UML2<img border=0 width=12 height=12
+id="_x0000_i1073" src="../../images/new.gif"> 2.1 will be upwards
+binary-compatible with UML2<img border=0 width=12 height=12 id="_x0000_i1074"
+src="../../images/new.gif"> 2.0 except in those areas noted in the <i>UML2</i><img
+border=0 width=12 height=12 id="_x0000_i1075" src="../../images/new.gif"><i>
+
+2.1 Migration</i><i style='mso-bidi-font-style:normal'> Guide</i>. Downward
+plug-in compatibility is not supported: plug-ins compiled against UML2<img
+border=0 width=12 height=12 id="_x0000_i1076" src="../../images/new.gif"> 2.1
+will likely be unusable with UML2<img border=0 width=12 height=12
+id="_x0000_i1077" src="../../images/new.gif"> 2.0. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain binary compatibility.</p>
+
+<p><b>Source Compatibility:</b> Source files written to use UML2<img border=0
+width=12 height=12 id="_x0000_i1078" src="../../images/new.gif"> 2.0 APIs will
+usually compile and run successfully against UML2<img border=0 width=12
+height=12 id="_x0000_i1079" src="../../images/new.gif"> 2.1 APIs, although this
+cannot be guaranteed. Because UML2<img border=0 width=12 height=12
+id="_x0000_i1080" src="../../images/new.gif"> 2.1 may exploit new Java language
+constructs, there is an increased chance of source incompatibilities compared
+to previous UML2<img border=0 width=12 height=12 id="_x0000_i1081"
+src="../../images/new.gif"> releases. In some cases, it may be necessary to
+make minor changes to the source code to disambiguate things like imports or
+overloaded method invocations. Downward source compatibility is not supported.
+If source files use new APIs, they will not be usable with earlier versions.</p>
+
+<p><b>Workspace Compatibility:</b> UML2<img border=0 width=12 height=12
+id="_x0000_i1082" src="../../images/new.gif"> 2.1 will be upwards
+workspace-compatible with UML2<img border=0 width=12 height=12 id="_x0000_i1083"
+src="../../images/new.gif"> 2.0 unless noted. This means that workspaces and
+projects created by an Eclipse with UML2<img border=0 width=12 height=12
+id="_x0000_i1084" src="../../images/new.gif"> 2.0 installed can be successfully
+opened by an Eclipse with UML2<img border=0 width=12 height=12 id="_x0000_i1085"
+src="../../images/new.gif"> 2.1 installed. This includes both hidden metadata,
+which is localized to a particular workspace, as well as metadata files found
+within a workspace project, which may propagate between workspaces via file
+copying or team repositories. User interface session state may be discarded
+when a workspace is upgraded. Downward workspace compatibility is not
+supported. Metadata files created (or overwritten) by the newer version will
+generally be unusable with older versions.</p>
+
+<p><b>Non-compliant usage of API's</b>: All non-API methods and classes, and
+certainly everything in a package with &quot;internal&quot; in its name, are
+considered implementation details which may vary between operating environment
+and are subject to change without notice. Client plug-ins that directly <span
+class=GramE>depend</span> on anything other than what is specified in the API
+are inherently unsupportable and receive no guarantees about compatibility
+within a single release much less with an earlier releases. Refer to <i><a
+href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write compliant
+plug-ins.</p>
+
+<h3>Compatibility of XSD 2.3 with 2.2</h3>
+
+<p>The XSD 2.3 component of Eclipse MDT will be compatible with XSD 2.2, except
+in those areas noted in the XSD 2.3 Migration Guide.</p>
+
+<p><b>API Contract Compatibility:</b> XSD 2.3 will be upwards
+contract-compatible with XSD 2.2 except in those areas noted in the <i>XSD 2.3
+Migration</i><i style='mso-bidi-font-style:normal'> Guide</i>. Programs that
+use affected APIs and extension points will need to be ported to XSD 2.3 APIs.
+Downward contract compatibility is not supported. There is no guarantee that
+compliance with XSD 2.3 APIs would ensure compliance with XSD 2.2 APIs. Refer
+to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain contract compatibility.</p>
+
+<p><b>Binary (plug-in) Compatibility:</b> XSD 2.3 will be upwards
+binary-compatible with XSD 2.3 except in those areas noted in the <i>XSD 2.3
+Migration</i><i style='mso-bidi-font-style:normal'> Guide</i>. Downward plug-in
+compatibility is not supported: plug-ins compiled against XSD 2.3 will likely
+be unusable with XSD 2.2. Refer to <i><a
+href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API changes that
+maintain binary compatibility.</p>
+
+<p><b>Source Compatibility:</b> Source files written to use XSD 2.2 APIs will
+usually compile and run successfully against XSD 2.3 APIs, although this cannot
+be guaranteed. Because XSD 2.3 may exploit new Java language constructs, there
+is an increased chance of source incompatibilities compared to previous XSD
+releases. In some cases, it may be necessary to make minor changes to the
+source code to disambiguate things like imports or overloaded method
+invocations. Downward source compatibility is not supported. If source files
+use new APIs, they will not be usable with earlier versions.</p>
+
+<p><b>Workspace Compatibility:</b> XSD 2.3 will be upwards workspace-compatible
+with XSD 2.2 unless noted. This means that workspaces and projects created by
+an Eclipse with XSD 2.2 installed can be successfully opened by an Eclipse with
+XSD 2.3 installed. This includes both hidden metadata, which is localized to a
+particular workspace, as well as metadata files found within a workspace
+project, which may propagate between workspaces via file copying or team
+repositories. User interface session state may be discarded when a workspace is
+upgraded. Downward workspace compatibility is not supported. Metadata files
+created (or overwritten) by the newer version will generally be unusable with
+older versions.</p>
+
+<p><b>Non-compliant usage of API's</b>: All non-API methods and classes, and
+certainly everything in a package with &quot;internal&quot; in its name, are
+considered implementation details which may vary between operating environment
+and are subject to change without notice. Client plug-ins that directly <span
+class=GramE>depend</span> on anything other than what is specified in the API
+are inherently unsupportable and receive no guarantees about compatibility
+within a single release much less with an earlier releases. Refer to <i><a
+href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write compliant
+plug-ins.</p>
+
+<h3>Themes</h3>
+
+<p>The changes under consideration for the next release of Eclipse MDT align
+with themes identified by the <a
+href="http://www.eclipse.org/org/councils/roadmap_v2_0/themes_v2_0.php">Eclipse
+Requirements Council</a> and <a
+href="http://wiki.eclipse.org/index.php/Modeling_Project_Plan">Modeling project</a>.</p>
+
+<h3><a name=UML2></a><a name="_EODM_component"></a><span style='mso-bookmark:
+UML2'>EODM component</span></h3>
+
+<p><span style='mso-bookmark:UML2'>EODM is an implementation of RDF(S)/OWL <span
+class=SpellE>metamodels</span> of the </span><a
+href="http://www.omg.org/ontology"><span style='mso-bookmark:UML2'>Ontology
+Definition <span class=SpellE>Metamodel</span> (ODM)</span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'> using EMF
+with additional parsing, inference, model transformation and editing functions.
+Plan items reflect new features of the EODM component, or areas where existing
+features will be significantly reworked (<span style='mso-bidi-font-style:italic'><img
+border=0 width=12 height=12 id="_x0000_i1086" src="../../images/ok.gif"> marks
+completed work)</span>.</span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Committed
+Items (EODM component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Standard Compliance<span
+style='mso-bidi-font-weight:bold'>.</span></b></span> Provide a new API that is
+compliant with the (to be adopted) 5th submission of the ODM specification to
+the OMG. (</span><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162682"><span
+style='mso-bookmark:UML2'>162682</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Appealing to a Broader Community]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Dynamic Typing.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide support for dynamic typing. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162683"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>162683</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: </span>Appealing to a Broader
+Community<span style='mso-bidi-font-weight:bold'>]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>RDF/OWL Parsing and
+Serialization.</b></span><span style='mso-bidi-font-weight:bold'> Provide
+support for RDF/OWL parsing and serialization. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162684"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>162684</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: </span>Appealing to a Broader
+Community<span style='mso-bidi-font-weight:bold'>]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>RDF/OWL Reasoning.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide support for RDF/OWL reasoning. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162685"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>162685</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: </span>Appealing to a Broader
+Community<span style='mso-bidi-font-weight:bold'>]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>RDF/OWL Transformation
+to/from <span class=SpellE>Ecore</span>.</b></span><span style='mso-bidi-font-weight:
+bold'> Provide a mechanism to transform RDF/OWL models to/from <span
+class=SpellE>Ecore</span>. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162686"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>162686</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Cohesion]<o:p></o:p></span></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Proposed
+Items (EODM component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Deferred
+Items (EODM component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<h3><span style='mso-bookmark:UML2'><a name="_UML2_component"></a><a
+name="_OCL__component"></a><img border=0 width=12 height=12 id="_x0000_i1087"
+src="../../images/new.gif"><span style='mso-spacerun:yes'> </span>OCL<img
+border=0 width=12 height=12 id="_x0000_i1088" src="../../images/new.gif">
+component</span></h3>
+
+<p><span style='mso-bookmark:UML2'><img border=0 width=12 height=12
+id="_x0000_i1089" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span>OCL is an implementation of the OCL OMG
+standard for EMF-based models.<img border=0 width=12 height=12 id="_x0000_i1090"
+src="../../images/new.gif"> Plan items reflect new features of the OCL
+component, or areas where existing features will be significantly reworked (<span
+style='mso-bidi-font-style:italic'><img border=0 width=12 height=12
+id="_x0000_i1091" src="../../images/ok.gif"> marks completed work)</span>.</span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Committed
+Items (</span><img border=0 width=12 height=12 id="_x0000_i1092"
+src="../../images/new.gif"> </span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'>OCL</span><img border=0 width=12 height=12
+id="_x0000_i1093" src="../../images/new.gif"></span><span style='mso-bookmark:
+UML2'><span style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Parsing API.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide a public API for parsing OCL
+documents, with the complete context declaration syntax. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=144210"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>144210</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: </span>Design for Extensibility –
+Be a Better Platform<span style='mso-bidi-font-weight:bold'>]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Integration with UML.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide support for parsing and evaluating
+OCL constraints and expressions on the UML <span class=SpellE>metamodel</span>.
+(</span></span><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=105199"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>105199</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Cohesion]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>EMF 2.3 / J2SE 5 Support.</b></span><span
+style='mso-bidi-font-weight:bold'> Adopt EMF 2.3, including regeneration of the
+OCL <span class=SpellE>metamodel</span>. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156361"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>156361</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: </span>Design for Extensibility –
+Be a Better Platform<span style='mso-bidi-font-weight:bold'>]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Improved Documentation.</b></span><span
+style='mso-bidi-font-weight:bold'> Develop a complete Programmer’s Guide for
+the OCL subcomponent. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156360"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>156360</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Simple to Use]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><img border=0
+width=12 height=12 id="_x0000_i1120" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'>LPG.</b></span><span style='mso-bidi-font-weight:bold'> Consume LPG
+runtime library from the Orbit project. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156366"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>156366</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Project Restructuring] </span><span
+style='mso-bidi-font-style:italic'><img border=0 width=12 height=12
+id="_x0000_i1119" src="../../images/ok.gif"></span><span style='mso-bidi-font-weight:
+bold'><o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><img border=0
+width=12 height=12 id="_x0000_i1094" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'>Stand-alone support.</b></span><span style='mso-bidi-font-weight:bold'>
+
+Provide a stand-alone (Eclipse-free) OCL build. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=136817"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>136817</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]</span><span
+style='mso-bidi-font-style:italic'> <img border=0 width=12 height=12
+id="_x0000_i1095" src="../../images/ok.gif"></span><span style='mso-bidi-font-weight:
+bold'><o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><img border=0
+width=12 height=12 id="_x0000_i1096" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><b style='mso-bidi-font-weight:normal'>ICU4J.</b><span
+style='mso-bidi-font-weight:bold'> Isolate and minimize dependency on ICU4J;
+ensure support for the “thin” variant of ICU4J. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156364"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>156364</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Enable Consistent Multi-language
+Support]</span><span style='mso-bidi-font-style:italic'> <img border=0
+width=12 height=12 id="_x0000_i1097" src="../../images/ok.gif"></span><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Proposed
+Items (</span><img border=0 width=12 height=12 id="_x0000_i1098"
+src="../../images/new.gif"> </span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'>OCL</span><img border=0 width=12 height=12
+id="_x0000_i1099" src="../../images/new.gif"></span><span style='mso-bookmark:
+UML2'><span style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><img border=0
+width=12 height=12 id="_x0000_i1121" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'>Standard Compliance.</b></span><span style='mso-bidi-font-weight:bold'>
+Maintain currency of the API with the <span class=SpellE>OMG’s</span> OCL,
+ensuring backward API compatibility as much as possible. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156363"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>156363</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><img border=0
+width=12 height=12 id="_x0000_i1122" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'>OCL Conformance.</b></span><span style='mso-bidi-font-weight:bold'>
+Validate and document the API’s conformance to the OCL Specification’s
+compliance points. This includes which language capabilities are supported and
+which <span class=SpellE>metamodels</span> (EMOF/<span class=SpellE>Ecore</span>,
+UML) are supported. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=152003"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>152003</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: </span>Design for Extensibility –
+Be a Better Platform<span style='mso-bidi-font-weight:bold'>]<o:p></o:p></span></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Deferred
+Items (</span><img border=0 width=12 height=12 id="_x0000_i1100"
+src="../../images/new.gif"> </span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'>OCL</span><img border=0 width=12 height=12
+id="_x0000_i1101" src="../../images/new.gif"></span><span style='mso-bookmark:
+UML2'><span style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<h3><span style='mso-bookmark:UML2'><a name="_UML2__component"></a>UML2<img
+border=0 width=12 height=12 id="_x0000_i1102" src="../../images/new.gif">
+component</span></h3>
+
+<p><span style='mso-bookmark:UML2'>UML2<img border=0 width=12 height=12
+id="_x0000_i1103" src="../../images/new.gif"> is an EMF-based implementation of
+the UML</span><span style='mso-bookmark:UML2'><sup><span style='font-size:9.5pt'>TM</span></sup>
+
+2.x <span class=SpellE>metamodel</span> for the Eclipse platform.<img border=0
+width=12 height=12 id="_x0000_i1104" src="../../images/new.gif"> Plan items
+reflect new features of the UML2 component, or areas where existing features
+will be significantly reworked (<span style='mso-bidi-font-style:italic'><img
+border=0 width=12 height=12 id="_x0000_i1105" src="../../images/ok.gif"> marks
+completed work)</span>.</span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Committed
+Items (UML2</span><img border=0 width=12 height=12 id="_x0000_i1106"
+src="../../images/new.gif"></span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Eclipse 3.3 / EMF 2.3
+Compatibility<span style='mso-bidi-font-weight:bold'>.</span></b></span>
+
+Maintain release currency concurrent with EMF 2.3 (and Eclipse 3.3). Make
+changes as required to align with EMF features and bug fixes, in particular
+support for Java SE 5.0. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160679"><span
+style='mso-bookmark:UML2'>160679</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Cohesion]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b>Improved Documentation.</b></span> Improve documentation by
+updating the FAQ, enhancing the <span class=SpellE>Javadoc</span>, and publishing
+new articles. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=77413"><span
+style='mso-bookmark:UML2'>77413</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Simple to Use]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Ant Task for <span
+class=SpellE>Ecore</span> Importer<span style='mso-bidi-font-weight:bold'>.</span></b></span>
+
+Provide an Ant task for the UML <span class=SpellE>Ecore</span> importer,
+similar to those provided for the Rose and <span class=SpellE>Ecore</span>
+importers in EMF. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160680"><span
+style='mso-bookmark:UML2'>160680</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Design for Extensibility – Be a Better
+Platform]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Static Profile Definition<span
+style='mso-bidi-font-weight:bold'>.</span></b></span> Provide a way to specify
+that a profile definition be generated using EMF. This would allow, among other
+things, support for custom data types and derived stereotype properties. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=155535"><span
+style='mso-bookmark:UML2'>155535</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: <span style='mso-bidi-font-weight:bold'>Appealing
+to a Broader Community</span>]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><img border=0
+width=12 height=12 id="_x0000_i1107" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'>XML Primitive Types<span style='mso-bidi-font-weight:bold'>.</span></b></span>
+Provide a model library to represent the types defined in the <span
+class=SpellE>XMLType</span> <span class=SpellE>metamodel</span> in EMF; be sure
+to update <span class=SpellE>Ecore</span>/UML converters to make use of this
+new library. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=150154"><span
+style='mso-bookmark:UML2'>150154</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Cohesion]<span style='mso-bidi-font-style:
+italic'> <img border=0 width=12 height=12 id="_x0000_i1108"
+src="../../images/ok.gif"></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=SpellE><b style='mso-bidi-font-weight:normal'>BiDi</b></span><b
+style='mso-bidi-font-weight:normal'> Support<span style='mso-bidi-font-weight:
+bold'>.</span></b> Provide better support for <span class=SpellE>BiDi</span>
+languages. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160682"><span
+style='mso-bookmark:UML2'>160682</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: <span style='mso-bidi-font-weight:bold'>Enable
+Consistent Multi-language Support</span>]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><b
+style='mso-bidi-font-weight:normal'>Create Child/Sibling Menu Reorganization<span
+style='mso-bidi-font-weight:bold'>.</span></b> Reorganize the ‘Create Child’
+and ‘Create Sibling’ menus of the UML editor so that the items are grouped by
+feature. (</span><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160684"><span
+style='mso-bookmark:UML2'>160684</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Simple to Use]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Integration with OCL.</b></span><span
+style='mso-bidi-font-weight:bold'> Integrate support for parsing and evaluating
+OCL constraints and expressions. Consider providing a convenience method on
+Constraint for returning the parsed representation of OCL expressions. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=105199"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>105199</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Cohesion]<o:p></o:p></span></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Proposed
+Items (UML2</span><img border=0 width=12 height=12 id="_x0000_i1109"
+src="../../images/new.gif"></span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b>Unit Tests.</b></span> Complete the implementation of generated
+unit tests. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80308"><span
+style='mso-bookmark:UML2'>80308</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: Design for Extensibility – Be a Better
+Platform]<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b>Validation Rules.</b></span> Complete the generation and
+implementation of validation rules from the UML</span><span style='mso-bookmark:
+UML2'><sup><span style='font-size:9.5pt'>TM</span></sup> 2.1 source model. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80307"><span
+style='mso-bookmark:UML2'>80307</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: <span style='mso-bidi-font-weight:bold'>Appealing
+to a Broader Community</span>]<b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Deferred
+Items (UML2</span><img border=0 width=12 height=12 id="_x0000_i1110"
+src="../../images/new.gif"></span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<h3><span style='mso-bookmark:UML2'><a name="_UML2_Tools_"></a>UML2 Tools<img
+border=0 width=12 height=12 id="_x0000_i1111" src="../../images/new.gif">
+component</span></h3>
+
+<p><span style='mso-bookmark:UML2'>UML2 Tools is set of <img border=0 width=12
+height=12 id="_x0000_i1112" src="../../images/new.gif"><span
+style='mso-spacerun:yes'> </span>GMF-based editors for viewing and editing UML
+models.<img border=0 width=12 height=12 id="_x0000_i1113"
+src="../../images/new.gif"> Plan items reflect new features of the UML2 Tools
+component (<span style='mso-bidi-font-style:italic'><img border=0 width=12
+height=12 id="_x0000_i1114" src="../../images/ok.gif"> marks completed work)</span>.</span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Committed
+Items (UML2 Tools</span><img border=0 width=12 height=12 id="_x0000_i1115"
+src="../../images/new.gif"></span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Class Diagrams.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide a GMF-based editor for UML class
+diagrams. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80318"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>80318</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>State Machine Diagrams.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide a GMF-based editor for UML state
+machine diagrams. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=161572"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>161572</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Component Diagrams.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide a GMF-based editor for UML component
+diagrams. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=161573"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>161573</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]<o:p></o:p></span></span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>Activity Diagrams.</b></span><span
+style='mso-bidi-font-weight:bold'> Provide a GMF-based editor for UML activity
+diagrams. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=161574"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>161574</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]<o:p></o:p></span></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Proposed
+Items (UML2 Tools</span><img border=0 width=12 height=12 id="_x0000_i1116"
+src="../../images/new.gif"></span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><b
+style='mso-bidi-font-weight:normal'>Import/Export from/to DI.</b><span
+style='mso-bidi-font-weight:bold'> Provide a mechanism whereby UML diagrams can
+be imported/exported from/to a format based on the Diagram Interchange
+specification. (</span></span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=161575"><span
+style='mso-bookmark:UML2'><span style='mso-bidi-font-weight:bold'>161575</span></span><span
+style='mso-bookmark:UML2'></span></a><span style='mso-bookmark:UML2'><span
+style='mso-bidi-font-weight:bold'>) [Theme: Appealing to a Broader Community]<o:p></o:p></span></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Deferred
+Items (UML2 Tools</span><img border=0 width=12 height=12 id="_x0000_i1117"
+src="../../images/new.gif"></span><span style='mso-bookmark:UML2'><span
+style='font-family:Arial'> component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<h3><span style='mso-bookmark:UML2'><a name="_XSD_component"></a>XSD component</span></h3>
+
+<p><span style='mso-bookmark:UML2'>XSD is a library that provides an </span><a
+href="http://download.eclipse.org/tools/emf/xsd/javadoc?org/eclipse/xsd/package-summary.html#details"><span
+style='mso-bookmark:UML2'>API</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'> for manipulating the components of an XML Schema as
+described by the </span><a href="http://www.w3.org/TR/XMLSchema-0"><span
+style='mso-bookmark:UML2'>W3C XML Schema</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'> specifications, as well as an API for manipulating
+the DOM-accessible representation of XML. Plan items reflect new features of
+the XSD component, or areas where existing features will be significantly
+reworked (<span style='mso-bidi-font-style:italic'><img border=0 width=12
+height=12 id="_x0000_i1118" src="../../images/ok.gif"> marks completed work)</span>.</span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Committed
+Items (XSD component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><b
+style='mso-bidi-font-weight:normal'>Java SE 5.0 <span class=GramE>Support</span><span
+style='mso-bidi-font-weight:bold'>.</span></b> Exploit new Java language
+constructs; use generics (e.g. <span class=SpellE>EList</span>, <span
+class=SpellE>EMap</span> and implementations); generate and merge Java 5
+constructs; investigate enumerations and annotations. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=79768"><span
+style='mso-bookmark:UML2'>79768</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: <span style='mso-bidi-font-weight:bold'>Appealing
+to a Broader Community</span>]</span></p>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><b style='mso-bidi-font-weight:normal'>XSD2Ecore Enhancements<span
+style='mso-bidi-font-weight:bold'>.</span></b></span> Improve ability to record
+complex content models as <span class=SpellE>Ecore</span> annotations. (</span><a
+href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=152373"><span
+style='mso-bookmark:UML2'>152373</span><span style='mso-bookmark:UML2'></span></a><span
+style='mso-bookmark:UML2'>) [Theme: <span style='mso-bidi-font-weight:bold'>Cohesion</span>]</span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Proposed Items
+(XSD component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<h4><span style='mso-bookmark:UML2'><span style='font-family:Arial'>Deferred
+Items (XSD component)<o:p></o:p></span></span></h4>
+
+<p style='margin-left:27.5pt'><span style='mso-bookmark:UML2'><span
+class=GramE><i style='mso-bidi-font-style:normal'><span style='mso-bidi-font-weight:
+bold'>None at this time.</span></i></span><i style='mso-bidi-font-style:normal'><span
+style='mso-bidi-font-weight:bold'><o:p></o:p></span></i></span></p>
+
+<span style='mso-bookmark:UML2'></span>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<h2><a name="MYLAR"></a>Mylar</h2>
+</p>
+<h3> Milestones </h3>
+<p>Mylar milestones are released 1 week after <a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_3.html" class='external text' title="http://www.eclipse.org/eclipse/development/eclipse project plan 3 3.html" rel="nofollow">Eclipse milestones</a>.  Click to view open bugs.
+</p>
+
+<ul><li> <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Mylar&amp;target_milestone=2.0+M1&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?query format=advanced&amp;short desc type=allwordssubstr&amp;short desc=&amp;classification=Technology&amp;product=Mylar&amp;target milestone=2.0 M1&amp;long desc type=allwordssubstr&amp;long desc=&amp;bug file loc type=allwordssubstr&amp;bug file loc=&amp;status whiteboard type=allwordssubstr&amp;status whiteboard=&amp;keywords type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse same sort as last time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="nofollow">2.0M1: February 16, 2007</a>
+</li><li> <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Mylar&amp;target_milestone=2.0+M2&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?query format=advanced&amp;short desc type=allwordssubstr&amp;short desc=&amp;classification=Technology&amp;product=Mylar&amp;target milestone=2.0 M2&amp;long desc type=allwordssubstr&amp;long desc=&amp;bug file loc type=allwordssubstr&amp;bug file loc=&amp;status whiteboard type=allwordssubstr&amp;status whiteboard=&amp;keywords type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse same sort as last time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="nofollow">2.0M2: March 30, 2007</a>
+</li><li> <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Mylar&amp;target_milestone=2.0+M3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?query format=advanced&amp;short desc type=allwordssubstr&amp;short desc=&amp;classification=Technology&amp;product=Mylar&amp;target milestone=2.0 M3&amp;long desc type=allwordssubstr&amp;long desc=&amp;bug file loc type=allwordssubstr&amp;bug file loc=&amp;status whiteboard type=allwordssubstr&amp;status whiteboard=&amp;keywords type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse same sort as last time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="nofollow">2.0M3: May 11, 2007</a>
+</li><li> 2.0RC1: June 15, 2007
+</li><li> <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Technology&amp;product=Mylar&amp;target_milestone=2.0&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?query format=advanced&amp;short desc type=allwordssubstr&amp;short desc=&amp;classification=Technology&amp;product=Mylar&amp;target milestone=2.0&amp;long desc type=allwordssubstr&amp;long desc=&amp;bug file loc type=allwordssubstr&amp;bug file loc=&amp;status whiteboard type=allwordssubstr&amp;status whiteboard=&amp;keywords type=allwords&amp;keywords=&amp;bugidtype=include&amp;bug id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse same sort as last time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="nofollow">2.0: June 29, 2007</a>
+</li></ul>
+<h3> Scope </h3>
+
+<p>The first goal of Mylar is to make task and context management seamlessly integrated with the Eclipse Platform by providing rich and extensible frameworks for task repository connectors, structure bridges and team support.  The second goal is to provide a reference implementation of the Task-Focused UI for the Eclipse SDK.  This includes structure bridges for the artifacts supported by the SDK which include Java, PDE, Ant and generic files.  It also includes the Bugzilla Connector as the reference task repository implementation, and CVS integration as the reference team support.  Additional features can be considered based on the availability community contributions and resources.
+</p>
+<h3> Priorities </h3>
+<p>In addition to using the planned themes listed below, we need to continue prioritizing the ongoing input of our growing user community.  Committers should prioritize bugs in the following order.  This order need not be used if a bug contains a community contribution of a patch, in which case the <a href="http://wiki.eclipse.org/index.php/Mylar_Contributor_Reference#Contributing_patches" class='external text' title="http://wiki.eclipse.org/index.php/Mylar Contributor Reference#Contributing patches" rel="nofollow">quality of the patch</a> determines the priority.
+</p>
+<ol><li> Frameworks &amp; APIs: Tasks Framework, Context Framework, Monitor Framework, headless use
+
+</li><li> UI: Tasks List, Task Editor, Task-focused UI
+</li><li> Connectors: Bugzilla (reference implementation), Trac (committer supported), JIRA (community supported)
+</li></ol>
+<h3> Platforms </h3>
+<ul><li> Eclipse 3.3: supported
+</li><li> Eclipse 3.2: supported, post 2.0 maintenance builds only
+</li><li> Requires Java 5 and later
+
+</li></ul>
+<h3> Themes </h3>
+<p>Legend: in progress, <font color="green">completed</font>, <font color="dimgrey">optional</font> 
+</p>
+<h3> Task List </h3>
+
+<ul><li> <b>Support date view in Task List.</b>  A common way of organizing tasks to work on in the current week is by day.  We should support this by integrating the Task Activity view's date range container presentation with the Task List.  (147084)
+</li></ul>
+<ul><li> <b>Support integration with planning and calendaring tools.</b>  Many task repositories have facilities for task planning in the form of milestones, due dates, and other organizations of tasks.  The Task List and Task Editor should support such extensions, for example, allowing the Task List to be organized by milestone.  (Calendaring, privacy controls)  (e.g. 152490).
+</li></ul>
+<ul><li> <b>Support task dependencies.</b>  Many tasks are related to other tasks, whether it's because they should be worked on in sequence or are subtasks.  We should make these dependencies explicit in the Task List and Task Editor.  (137543)
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Support working set groupings.</b>  A Task List that includes projects from multiple "working spheres" (e.g. Project A, Project B, Personal) can become unwieldy and distracting.  Integration of top-level working sets could address this.</font>
+
+</li></ul>
+<h3> Task Editing </h3>
+<ul><li> <b>Increase Task Editor information density</b>.  The task editor is a very frequent target of interaction, and we need to continue streamlining it.  When opened it should show the user the most relevant information with minimal clicking and scrolling required. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=158921" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=158921" rel="nofollow">158921</a>).
+</li></ul>
+<ul><li> <b>Improve task activity timing.</b> We currently have a task activity mechanism, but it is not explicit enough, and does not capture time spent outside of the workbench.  It should also be extensible to OS-specific monitoring. (135668).
+
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Provide task workflow mechanism.</b>  There are many common workflows, such as commit/complete/deactivate.  We should provide a mechanism for specifying and executing task-related workflows.  This requires direct editing of task data (i.e., without editor submission).  (160780, 124224)</font>
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Streamline task creation.</b>  Make it easier to create tasks, fork them, or promote local tasks to repository tasks.  (154896, 152211)</font>
+</li></ul>
+<h3> Task Repositories </h3>
+
+<ul><li> <b>Make offline cache faster and more robust.</b>  The offline cache is currently one large serialized file.  We should make it more robust so that changes to connectors and the framework do not cause the offline data to be cleared.  This should make it possible to put a repository into offline mode permanently, and never lose the task data. (165809)
+</li></ul>
+<ul><li> <b>Streamline task searching</b>.  It is currently impossible to search through local and cached task data.  We could improve the search experience by providing Google-style syntax in the <i>Task List</i> find box, e.g. severity=critical.  (bug 163341)
+</li></ul>
+<ul><li> <b>Improve connectivity problem and performance handling.</b>  Lack of or degraded connectivity should be transparent, and jobs should be cancellable. (165833)
+</li></ul>
+
+<ul><li> <b>Improve synchronization control</b>. (offline mode for repositories bug 165809, finer-grained control bug 165473)
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Provide standard XML for for tasks.</b>  We should create a canonical and extensible XML for for tasks that we use for retrieving task data.  Connector providers returning this form would not need custom attribute mappings.</font>
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Improve consistency between local and repository tasks.</b>  Need to consider how to promote task between local and repository, and whether local tasks should be a kind of repository.  (12431)</font>
+</li></ul>
+<h3> Task-Focused UI </h3>
+
+<ul><li> <b>Provide preview and editing of task context.</b> For submitting and retrieving contexts, or wanting to inspect a context for a non-active task, we should provide a preview pane.  This should also support operations such as merge and element deletion.  (bug 107259)
+</li></ul>
+<ul><li> <b>Support debugging views</b>.  This includes improved filtering of the thread tree, and automatic toggling/loading of breakpoints with task context.
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Preserve element identity through refactoring.</b>  Currently only the active context participates in refactoring.  We either need to maintain a dependency map to update the element handles of inactive contexts, or migrate them when they are activated, via the refactoring history.  (164243)</font>
+</li></ul>
+<h3> General </h3>
+
+<ul><li> <b>Improve error handling and resolution.</b>  When an error happens, we should do automatic duplicate detection, and if no duplicate is found prompt to submit a bug to the failing plug-in.
+</li></ul>
+<ul><li> <b>Generalize task and context storage mechanisms.</b>  Our API currently specifies files and paths as the storage mechanism, but it should be general, to allow for alternate mechanisms such as server-based storage.
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Improve representation of people</b>.  Support real names, selecting CCs, content assist for fields with people.  The user's identity should be represented in the UI (e.g. different icon when user appears in the CC list).</font>
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Hyperlinking everywhere</b>.  Wherever structured elements show up, we should be hyperlinking them (e.g. bug 165827)</font>
+
+</li></ul>
+<ul><li> <font color="dimgrey"><b>Personal monitoring and usage sharing</b>.  We require data from the Mylar monitor to inform our UI design.  We should also make this data available to others, since it will include general Eclipse usage statistics.  In order to provide users with an incentive to share their (anonymous) usage data we should include personal interaction monitoring facilities.</font>
+</li></ul>
+
+
 
 <h2><a name="PLATFORM"></a>Platform</h2>
 <em>The project did not provide any plan information.</em>
