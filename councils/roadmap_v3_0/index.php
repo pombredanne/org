@@ -43,19 +43,13 @@
 	<hr>
 	<h3><a name="intro"></a>Introduction</h3>
 
-	<p>As required by the <img border="0" src="PC_v3_0/external.gif" width="20"
-	height="16"><a href="../../documents/Eclipse Development Process 2003_11_09 FINAL.pdf">Eclipse
+	<p>As required by the <a href="../../documents/Eclipse Development Process 2003_11_09 FINAL.pdf">Eclipse
 	Development Process</a>, this document describes the Eclipse Roadmap.</p>
 	<p>The Roadmap is intended to be a living document which will see future
 	iterations. This document is the third version of the Eclipse Roadmap,
 	and is labeled as version 3.0. In order to preserve this document
 	while the underlying information evolves, the pages have been frozen by
-	copying them from their original project hosted locations. Each frozen
-	document is labeled with its version and date and includes a link back
-	to its &quot;live&quot; version. Links that go outside this frozen copy
-	are marked with the <img border="0" src="PC_v3_0/external.gif"
-		width="20" height="16"> icon to inform the reader that that information
-	may have changed since this document has written.</p>
+	copying them from their original project hosted locations. </p>
 	<p>The goal of the Roadmap is to provide the Eclipse ecosystem with
 	guidance and visibility on the future directions of the Eclipse open
 	source community. An important element in this visibility is that the
@@ -91,8 +85,7 @@
 	Platform and to cultivate both an open source community and an ecosystem
 	of complementary products, capabilities, and services.</em></p>
 	</blockquote>
-	<p>As defined in our <img border="0" src="PC_v3_0/external.gif"
-		width="20" height="16"><a
+	<p>As defined in our <a
 		href="../../documents/Eclipse BYLAWS 2003_11_10 Final.pdf">Bylaws</a> the
 	Purposes of the Eclipse Foundation are:</p>
 	<blockquote>
@@ -185,9 +178,9 @@
 		software development lifecycle with frameworks and extensible,
 		exemplary tools. In 2005, major new initiatives were started to help
 		extend Eclipse&rsquo;s lifecycle coverage, including 
-		<img border="0" src="PC_v3_0/external.gif" width="20" height="16"><a href="/alf/">ALF</a>,
-		<img border="0" src="PC_v3_0/external.gif" width="20" height="16"><a href="/datatools/">Data tools</a>, and
-		<img border="0" src="PC_v3_0/external.gif" width="20" height="16"><a href="/proposals/modeling/">Modeling</a>.<br/>
+		<a href="/alf/">ALF</a>,
+		<a href="/datatools/">Data tools</a>, and
+		<a href="/proposals/modeling/">Modeling</a>.<br/>
 		<br/>
 		Some examples of possible new project areas which would further extend this lifecycle coverage include: <br/>
 		<ul>
@@ -208,7 +201,7 @@
 	<ul>
 		<li><strong>Extend the Rich Client Platform (RCP)</strong><br/>
 		<br/>
-		The <img border="0" src="PC_v3_0/external.gif" width="20" height="16"><a
+		The <a
 			href="/rcp/">RCP</a>
 		was first introduced by Eclipse with the 3.0 release of the Eclipse Platform
 		in June, 2004. The RCP is a technology for building and managing
@@ -283,8 +276,7 @@
 	
 	<hr/>
 	<h3><a name="process">The Roadmap Process</a></h3>
-	<p>The process of creating the Eclipse Roadmap is described in the <img
-		border="0" src="PC_v3_0/external.gif" width="20" height="16"><a
+	<p>The process of creating the Eclipse Roadmap is described in the <a
 		href="../../documents/Eclipse Development Process 2003_11_09 FINAL.pdf">Eclipse
 		Development Process</a>. The key pieces are</p>
 	<blockquote>
@@ -293,8 +285,8 @@
 	Purposes and that respond to requirements elicited from the Strategic
 	Developers, Strategic Consumers, Add-in Providers, and other
 	constituents of the Ecosystem. After review by the Board of Directors,
-	these Themes and Priorities are provided as input to the Architecture
-	Council and the Planning Council. The EMO ensures that the Planning
+	these Themes and Priorities are provided as input to the 
+Planning Council. The EMO ensures that the Planning
 	Council and the Development teams have access to all requirements.
 	Updates to the Purposes are likely to require updates to the Roadmap and
 	its associated themes and priorities; proposed Roadmap updates may also
@@ -307,14 +299,13 @@
 	interaction among and within the three Councils to drive the Roadmap to
 	convergence.</em></p>
 	</blockquote>
-	<p align="left">This second version of the Eclipse Roadmap has been developed 
+	<p align="left">This third version of the Eclipse Roadmap has been developed 
 	by the two councils:&nbsp; the Planning 
 	Council and the Requirements Council. The Councils met face-to-face three
 	times in 2006:&nbsp; once in May, once in October and again in January. (The minutes
-	of these meetings are available on the <img border="0"
-		src="PC_v3_0/external.gif" width="20" height="16"><A
+	of these meetings are available on the <A
 		href="../../foundation/council.php">Councils
-	page</A>. Subsequent discussion of
+	page</A>). Subsequent discussion of
 	the Roadmap was done through numerous individual phone calls,
 	and&nbsp;more numerous emails amongst the Council members.</p>
 	<P align=left><SPAN class=203453704-21022005>The information flow we
@@ -325,9 +316,6 @@
 		(both the membership-at-large and the strategic members) to the
 		Requirements Council</SPAN></DIV>
 		<LI>
-		<DIV align=left><SPAN class=203453704-21022005>from the Requirements
-		Council to the Planning and Architecture Councils</SPAN></DIV>
-		<LI>
 		<DIV align=left><SPAN class=203453704-21022005>from the PMC project
 		plans to the Planning Council</SPAN></DIV>
 	</UL>
@@ -337,7 +325,7 @@
 	two groups converged on this&nbsp;<SPAN class=203453704-21022005>Roadmap
 	</SPAN>document.</P>
 	<p align="left">The Roadmap was presented and affirmed by the Eclipse Board of
-	Directors on Monday, March 20, 2006.</p>
+	Directors on INSERT DATE HERE.</p>
 	<p align="left">&nbsp;</p>
 		
 		

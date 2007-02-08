@@ -36,8 +36,7 @@
 	<hr>
 	<h3><a name="intro"></a>Introduction</h3>
 	<p>
-	This document captures the inputs to the Eclipse Requirements <img
-	border="0" src="PC_v3_0/external.gif" width="20" height="16"><a
+	This document captures the inputs to the Eclipse Requirements <a
 	href="../../foundation/council.php">Council</a> as
 	of this date. The inputs are from three major sources:</p>
 	<ol>

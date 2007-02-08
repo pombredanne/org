@@ -6,7 +6,7 @@ $pageAuthor		= "The Eclipse Foundation";
 
 ob_start();
 ?>		
-<img src="external.gif">
+
     <div id="maincontent">
 	<div id="midcolumn">
 
@@ -41,36 +41,36 @@ border-bottom: thin dotted
   the Eclipse projects.  This year again (the third version of the Roadmap), we tried to 
   create an unified and automatic mechanism for aggregating and delivering this Roadmap
   information... Once again, this automation did not happen: the tool and the information
-  were late (specifically, <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109230">bugs 109230</a> and <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=130844">130844</a>)
-  and the <img src="external.gif"><a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">project status instructure files</a> for most projects.
+  were late (specifically, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109230">bugs 109230</a> and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=130844">130844</a>)
+  and the <a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">project status instructure files</a> for most projects.
   Consequently, the information in this year's roadmap is fairly sparse - the reader
   is directed to the project's home pages for additional information.
   </p>
   <h1>Europa</h1>
-  <p>The big project planning effort this year is around the <img src="external.gif"><a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release">Europa Simultaneous Release</a>, the follow-up to the Callisto Simultaneous Release of 2006.
+  <p>The big project planning effort this year is around the <a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release">Europa Simultaneous Release</a>, the follow-up to the Callisto Simultaneous Release of 2006.
   </p>
   <p>The goal of the Europa Simultaneous Release is to release all the major Eclipse projects at the same time:<ul>
-  <li><a href="/ajdt/">AJDT</a><img src="external.gif">
-  <li><a href="/birt/">Business Intelligence and Reporting Tools (BIRT)</a><img src="external.gif">
-  <li><a href="/buckminster/">Buckminster</a><img src="external.gif">
-  <li><a href="/cdt/">C/C++ Development Tooling (CDT)</a><img src="external.gif">
-  <li><a href="/corona/">Corona</a><img src="external.gif">
-  <li><a href="/dash/">Eclipse Monkey</a><img src="external.gif">
-  <li><a href="/dltk/">Dynamic Language Toolkit (DLTK)</a><img src="external.gif">
-  <li><a href="/dspd/dd/">Device Software Development Platform, Device Debugging</a><img src="external.gif"> 
-  <li><a href="/dspd/tm/">Device Software Development Platform, Target Management</a><img src="external.gif">
-  <li><a href="/datatools/">Data Tools Platform (DTP)</a><img src="external.gif">
-  <li><a href="/ecf/">Eclipse Communications Framework (ECF)</a><img src="external.gif">
-  <li><a href="/emf/">Eclipse Modeling Framework (EMF)</a><img src="external.gif">
-  <li><a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a><img src="external.gif">
-  <li><a href="/gef/">Graphical Editor Framework (GEF)</a><img src="external.gif">
-  <li><a href="/gmf/">Graphical Modeling Framework (GMF)</a><img src="external.gif">
-  <li><a href="/mdt/">Modeling Development Tools (MDT)</a><img src="external.gif">
-  <li><a href="/mylar/">Mylar</a><img src="external.gif">
-  <li><a href="/eclipse/">Platform</a><img src="external.gif">
-  <li><a href="/tptp/">Test and Performance Tools Platform (TPTP)</a><img src="external.gif">
-  <li><a href="/webtools/">Web Tools Platform (WTP)</a><img src="external.gif">
-  <li><a href="/stp/">SOA Tools Platform</a><img src="external.gif">
+  <li><a href="/ajdt/">AJDT</a>
+  <li><a href="/birt/">Business Intelligence and Reporting Tools (BIRT)</a>
+  <li><a href="/buckminster/">Buckminster</a>
+  <li><a href="/cdt/">C/C++ Development Tooling (CDT)</a>
+  <li><a href="/corona/">Corona</a>
+  <li><a href="/dash/">Eclipse Monkey</a>
+  <li><a href="/dltk/">Dynamic Language Toolkit (DLTK)</a>
+  <li><a href="/dspd/dd/">Device Software Development Platform, Device Debugging</a> 
+  <li><a href="/dspd/tm/">Device Software Development Platform, Target Management</a>
+  <li><a href="/datatools/">Data Tools Platform (DTP)</a>
+  <li><a href="/ecf/">Eclipse Communications Framework (ECF)</a>
+  <li><a href="/emf/">Eclipse Modeling Framework (EMF)</a>
+  <li><a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a>
+  <li><a href="/gef/">Graphical Editor Framework (GEF)</a>
+  <li><a href="/gmf/">Graphical Modeling Framework (GMF)</a>
+  <li><a href="/mdt/">Modeling Development Tools (MDT)</a>
+  <li><a href="/mylar/">Mylar</a>
+  <li><a href="/eclipse/">Platform</a>
+  <li><a href="/tptp/">Test and Performance Tools Platform (TPTP)</a>
+  <li><a href="/webtools/">Web Tools Platform (WTP)</a>
+  <li><a href="/stp/">SOA Tools Platform</a>
   </ul>
   We are doing this simultaneous release to support the needs of the ecosystem members who 
   integrate Eclipse frameworks into their own software and products. While those product producers naturally 
@@ -95,8 +95,8 @@ project operating with its own project leadership, its own committers, and its o
   <li><a href="#CORONA">Corona</a></li>
   <li><a href="#DASH">Eclipse Monkey</a></li>
   <li><a href="#DLTK">Dynamic Language Toolkit (DLTK)</a></li>
-  <li><a href="#DSDPDD">Device Software Development Platform, Device Debugging</a><img src="external.gif"> 
-  <li><a href="#DSDPTM">Device Software Development Platform, Target Management</a><img src="external.gif">
+  <li><a href="#DSDPDD">Device Software Development Platform, Device Debugging</a> 
+  <li><a href="#DSDPTM">Device Software Development Platform, Target Management</a>
   <li><a href="#DTP">Data Tools Platform (DTP)</a></li>
   <li><a href="#ECF">Eclipse Communications Framework (ECF)</a></li>
   <li><a href="#EMF">Eclipse Modeling Framework (EMF)</a></li>
@@ -196,7 +196,7 @@ on the release milestones.</p>
 </ul>
 
 <p>For information about new features assigned to each milestone please refer
-to the <img src="external.gif"><a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
+to the <a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
 bugzilla database will be updated on an ongoing basis as the plan
 progresses.</p>
 
@@ -835,7 +835,7 @@ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=159509">159509</a>]</p>
 Scripting API's</span> This project looks at documenting the current
 scripting API's for both Java and JavaScript based scripting. [Bugzilla ID:
 
-<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=132031">132031</a>]</p>
+<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=132031">132031</a>]</p>
 
 <p><span style="font-weight: bold">Depoyment and Integration</span></p>
 
@@ -899,7 +899,7 @@ select either &quot;Revenue By Region&quot; or &quot;Revenue By Sales Person&quo
 distribution of revenue for Classic Cars. Selecting &quot;Revenue By Sales Person&quot;
 would drill through to a report that lists the sales persons who have sold
 Classic Cars. This concept would be useful for charts as well. [Bugzilla ID:
-<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151903">151903</a>]</p>
+<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151903">151903</a>]</p>
 
 <h3><a name="Defects" id="Defects">Defects</a></h3>
 
