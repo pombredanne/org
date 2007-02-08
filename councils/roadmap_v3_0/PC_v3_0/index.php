@@ -49,26 +49,27 @@ border-bottom: thin dotted
   <h1>Europa</h1>
   <p>The big project planning effort this year is around the <img src="external.gif"><a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release">Europa Simultaneous Release</a>, the follow-up to the Callisto Simultaneous Release of 2006.
   </p>
-  <p>The goal of the Europa Simultaneous Release is to release all the major Eclipse projects 
-  <img src="external.gif">(<a href="/ajdt/">AJDT</a>,
-  <a href="/birt/">Business Intelligence and Reporting Tools (BIRT)</a>, 
-  <a href="/buckminster/">Buckminster</a>, 
-  <a href="/cdt/">C/C++ Development Tooling (CDT)</a>,
-  <a href="/corona/">Corona</a>,
-  <a href="/dash/">Eclipse Monkey</a>,
-  <a href="/dltk/">Dynamic Language Toolkit (DLTK)</a>,
-  <a href="/dspd/">Device Software Development Platform</a> (<a href="/dspd/dd/">DSDP DD</a>, <a href="/dspd/tm/">DSDP TM</a>),
-  <a href="/datatools/">Data Tools Platform (DTP)</a>,
-  <a href="/ecf/">Eclipse Communications Framework (ECF)</a>,
-  <a href="/emf/">Eclipse Modeling Framework (EMF)</a>,
-  <a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a>,
-  <a href="/gef/">Graphical Editor Framework (GEF)</a>,
-  <a href="/gmf/">Graphical Modeling Framework (GMF)</a>,
-  <a href="/eclipse/">Platform</a>,
-  <a href="/tptp/">Test and Performance Tools Platform (TPTP)</a>,
-  <a href="/webtools/">Web Tools Platform (WTP)</a>,
-  <a href="/stp/">SOA Tools Platform</a>)
-  at the same time. We are doing this simultaneous release to support the needs of the ecosystem members who 
+  <p>The goal of the Europa Simultaneous Release is to release all the major Eclipse projects at the same time:<ul>
+  <li><a href="/ajdt/">AJDT</a><img src="external.gif">
+  <li><a href="/birt/">Business Intelligence and Reporting Tools (BIRT)</a><img src="external.gif">
+  <li><a href="/buckminster/">Buckminster</a><img src="external.gif">
+  <li><a href="/cdt/">C/C++ Development Tooling (CDT)</a><img src="external.gif">
+  <li><a href="/corona/">Corona</a><img src="external.gif">
+  <li><a href="/dash/">Eclipse Monkey</a><img src="external.gif">
+  <li><a href="/dltk/">Dynamic Language Toolkit (DLTK)</a><img src="external.gif">
+  <li><a href="/dspd/">Device Software Development Platform</a><img src="external.gif"> (<a href="/dspd/dd/">DSDP DD</a><img src="external.gif">, <a href="/dspd/tm/">DSDP TM</a><img src="external.gif">),
+  <li><a href="/datatools/">Data Tools Platform (DTP)</a><img src="external.gif">
+  <li><a href="/ecf/">Eclipse Communications Framework (ECF)</a><img src="external.gif">
+  <li><a href="/emf/">Eclipse Modeling Framework (EMF)</a><img src="external.gif">
+  <li><a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a><img src="external.gif">
+  <li><a href="/gef/">Graphical Editor Framework (GEF)</a><img src="external.gif">
+  <li><a href="/gmf/">Graphical Modeling Framework (GMF)</a><img src="external.gif">
+  <li><a href="/eclipse/">Platform</a><img src="external.gif">
+  <li><a href="/tptp/">Test and Performance Tools Platform (TPTP)</a><img src="external.gif">
+  <li><a href="/webtools/">Web Tools Platform (WTP)</a><img src="external.gif">
+  <li><a href="/stp/">SOA Tools Platform</a><img src="external.gif">
+  </ul>
+  We are doing this simultaneous release to support the needs of the ecosystem members who 
   integrate Eclipse frameworks into their own software and products. While those product producers naturally 
   accept the ultimate responsibility for their customers' experiences, Europa's goal is to eliminate 
   uncertainity about project version numbers, and thus to allow ecosystem members to start their own 
