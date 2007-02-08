@@ -38,9 +38,9 @@ border-bottom: thin dotted
   
   <p>The information in the project plans portion of the Roadmap is a snapshot of
   the on-going, continuously developed, project planning and reporting activities of
-  the Eclipse projects.  This year (the second version of the Roadmap), we tried to 
+  the Eclipse projects.  This year again (the third version of the Roadmap), we tried to 
   create an unified and automatic mechanism for aggregating and delivering this Roadmap
-  information... Unfortunately, it did not happen - both the tool and the information
+  information... Once again, this automation did not happen: the tool and the information
   were late (specifically, <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109230">bugs 109230</a> and <img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=130844">130844</a>)
   and the <img src="external.gif"><a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">project status instructure files</a> for most projects.
   Consequently, the information in this year's roadmap is fairly sparse - the reader
@@ -190,7 +190,7 @@ on the release milestones.</p>
 </ul>
 
 <p>For information about new features assigned to each milestone please refer
-to the <a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
+to the <img src="external.gif"><a href="https://bugs.eclipse.org/bugs">bugzilla database</a>. The
 bugzilla database will be updated on an ongoing basis as the plan
 progresses.</p>
 
@@ -829,7 +829,7 @@ href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=159509">159509</a>]</p>
 Scripting API's</span> This project looks at documenting the current
 scripting API's for both Java and JavaScript based scripting. [Bugzilla ID:
 
-<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=132031">132031</a>]</p>
+<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=132031">132031</a>]</p>
 
 <p><span style="font-weight: bold">Depoyment and Integration</span></p>
 
@@ -893,7 +893,7 @@ select either &quot;Revenue By Region&quot; or &quot;Revenue By Sales Person&quo
 distribution of revenue for Classic Cars. Selecting &quot;Revenue By Sales Person&quot;
 would drill through to a report that lists the sales persons who have sold
 Classic Cars. This concept would be useful for charts as well. [Bugzilla ID:
-<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151903">151903</a>]</p>
+<img src="external.gif"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151903">151903</a>]</p>
 
 <h3><a name="Defects" id="Defects">Defects</a></h3>
 
@@ -956,21 +956,51 @@ href="https://bugs.eclipse.org/bugs">https://bugs.eclipse.org/bugs</a>.</p>
 </li></ul>
 </li></ul>
 
-  <li><a href="#CDT"><a href="/cdt/">C/C++ Development Tooling (CDT)</a></li>
-  <li><a href="#CORONA"><a href="/corona/">Corona</a></li>
-  <li><a href="#DASH"><a href="/dash/">Eclipse Monkey</a></li>
-  <li><a href="#DLTK"><a href="/dltk/">Dynamic Language Toolkit (DLTK)</a></li>
-  <li><a href="#DSDP"><a href="/dspd/">Device Software Development Platform</a> (<a href="/dspd/dd/">DSDP DD</a>, <a href="/dspd/tm/">DSDP TM</a>)</li>
-  <li><a href="#DTP"><a href="/datatools/">Data Tools Platform (DTP)</a></li>
-  <li><a href="#ECF"><a href="/ecf/">Eclipse Communications Framework (ECF)</a></li>
-  <li><a href="#EMF"><a href="/emf/">Eclipse Modeling Framework (EMF)</a></li>
-  <li><a href="#EMFT"><a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a></li>
-  <li><a href="#GEF"><a href="/gef/">Graphical Editor Framework (GEF)</a></li>
-  <li><a href="#GMF"><a href="/gmf/">Graphical Modeling Framework (GMF)</a></li>
-  <li><a href="#PLATFORM"><a href="/eclipse/">Platform</a></li>
-  <li><a href="#TPTP"><a href="/tptp/">Test and Performance Tools Platform (TPTP)</a></li>
-  <li><a href="#WTP"><a href="/webtools/">Web Tools Platform (WTP)</a></li>
-  <li><a href="#STP"><a href="/stp/">SOA Tools Platform</a></li>
+<h2><a name="CDT"></a>C/C++ Development Tooling (CDT)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="CORONA"></a>Corona</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="DASH"></a>Eclipse Monkey</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="DLTK"></a>Dynamic Language Toolkit (DLTK)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="DSDP"></a>Device Software Development Platform</a> (<a href="/dspd/dd/">DSDP DD</a>, <a href="/dspd/tm/">DSDP TM</a>)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="DTP"></a>Data Tools Platform (DTP)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="ECF"></a>Eclipse Communications Framework (ECF)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="EMF"></a>Eclipse Modeling Framework (EMF)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="EMFT"></a>EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="GEF"></a>Graphical Editor Framework (GEF)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="GMF"></a>Graphical Modeling Framework (GMF)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="PLATFORM"></a>Platform</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="TPTP"></a>Test and Performance Tools Platform (TPTP)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="WTP"></a>Web Tools Platform (WTP)</h2>
+<em>The project did not provide any plan information.</em>
+
+<h2><a name="STP"></a>SOA Tools Platform</h2>
+<em>The project did not provide any plan information.</em>
+
 
       </div>
   </div>
