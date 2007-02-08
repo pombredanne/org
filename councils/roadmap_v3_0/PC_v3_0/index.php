@@ -2058,10 +2058,440 @@ priority and doing automated unit testing regularly.
 
 
 <h2><a name="DTP"></a>Data Tools Platform (DTP)</h2>
-<em>The project did not provide any plan information.</em>
+</p>
+<h3>Document Status</h3>
+
+<ul><li> [2/01/07]: Initial version reviewed and approved by the PMC.
+</li></ul>
+<h3>Themes and Priorities</h3>
+<p>With the release of 1.0 in December, 2006, DTP graduated to <i>mature</i> status at Eclipse. As part of meeting the requirements to graduate, DTP built extender and user momentum. In DTP 1.5 we will seek to continue this trend by working on the following themes and priorities:
+</p>
+<ul><li>Work with extenders to validate further the DTP 1.0 provisional API set and make adjustments as necessary in an open, transparent, and community-driven manner.
+</li><li>If appropriate, promote select DTP 1.0 provisional API to <i>platform</i> status.
+
+</li><li>Enhance user tools to make DTP a compelling choice for developing data centric applications in Eclipse.
+</li><li>Accurately prioritize and address bugs, especially those having a severity of <i>major</i> or higher.
+</li><li>Grow the DTP community through direct contributions and external projects using DTP components.
+</li><li>Work with the WTP community to assist in the transition from WTP/rdb to DTP.
+</li><li>Make DTP easier to understand and leverage, from both the extender and user perspectives.
+</li><li>Meet milestone dates in tight synchronization with Europa plans.
+</li></ul>
+<h3>Release Deliverables</h3>
+<p>The DTP 1.5 release will be distributed as follows:
+</p>
+
+<ul><li>A "end user" download, containing binaries for all DTP 1.5 components and end-user documentation 
+</li><li>A "extender" (or "SDK") download, which adds extender documentation and source code to the "end user" distribution 
+</li><li>An update site, containing feature definitions for component sets within DTP 
+</li></ul>
+<p>The following feature definitions are planned for DTP 1.5:
+</p>
+<ul><li>Model base feature (org.eclipse.datatools.modelbase.feature) 
+</li><li>Connectivity feature (org.eclipse.datatools.connectivity.feature) 
+</li><li>Open Data Access (ODA) feature (org.eclipse.datatools.connectivity.oda.feature) 
+</li><li>Open Data Access (ODA) designer feature (org.eclipse.datatools.connectivity.oda.designer.feature) 
+</li><li>SQL Development Tools feature (org.eclipse.datatools.sqldevtools.feature) 
+</li><li>Enablement feature (org.eclipse.datatools.enablement.feature)
+</li><li>Enablement Open Data Access (ODA)feature (org.eclipse.datatools.enablement.oda.feature)
+</li><li>Enablement Open Data Access (ODA)designer feature (org.eclipse.datatools.enablement.oda.designer.feature)
+</li><li>User documentation for Connectivity feature (org.eclipse.datatools.connectivity.doc.user)
+</li><li>User documentation for SQL Development Tools feature (org.eclipse.datatools.sqldevtools.doc.user)
+</li><li>Welcome Page content feature (org.eclipse.datatools.intro)
+
+</li><li>Extender ("SDK") feature (org.eclipse.datatools.sdk)
+</li></ul>
+<p>Additional features, or changes to the features above might occur based on evolving requirements. This document will be updated to reflect the current planned feature definitions for DTP 1.5 going forward.
+</p>
+<h3>Release Milestones</h3>
+<p>DTP 1.5 is part of the <a href="/index.php/Europa_Simultaneous_Release" title="Europa Simultaneous Release"> Europa release</a>. As such, our milestones, release candidates, and final release date are determined by Europa. DTP is a "+1 dependency" on the Eclipse platform, and the dates of specific milestones can be found <a href="/index.php/Europa_Simultaneous_Release" title="Europa Simultaneous Release"> here, <i>Milestones and Release Candidates</i> section</a>.
+
+</p><p>Europa, like Callisto, is designed to shrink the lag time between platform milestones and downstream projects as the release approaches. Thus, while DTP is a "+1" dependency at the current time, DTP builds for later platform releases (typically in the <i>release candidate</i> periods) will appear in less than one week from the platform milestone. The DTP PMC interprets the downstream lag as an idealized upper limit, and will seek to make matching DTP builds available as soon as possible after platform milestones, typically with a 24 hour (business day) delay for testing. Hence, if a platform milestone appears on a Friday, DTP will seek to have its corresponding build by the end of the following Monday. Such builds will be designated as <i>Integration</i> builds and subject to further testing past that date. The general disclaimer is that DTP can not guarantee hitting these dates due to bugs that might appear in integration tests and availability of additional dependencies other than the platform (for example, EMF and GEF).
+</p>
+<h3>Target Operating Environments</h3>
+<p>The build, test, and deployment environments for DTP 1.5 are described <a href="/index.php/DTP_1.5_Build_Environment" title="DTP 1.5 Build Environment"> here</a>.
+
+</p>
+<h3>Individual Project Plans</h3>
+<ul><li> Model Base: (Add link here)
+</li><li> Connectivity: <a href="/index.php/Connectivity_Europa_Features" title="Connectivity Europa Features">Connectivity Plan for Europa</a>
+</li><li> SQL Development Tools: (Add link here)
+</li><li> Enablement: In DTP 1.5, we are planning a number of additions to Enablement. These include:
+<ul><li>Support for Sybase ASE and ASA
+
+</li><li>Enhanced catalog loading for IBM DB2 and Informix
+</li><li>ODA driver for <a href="/index.php/BPS50" title="BPS50"> Web Services Data Source</a>
+</li></ul>
+</li></ul>
+<h3>Work Items</h3>
+<p><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=DataTools&amp;target_milestone=1.5&amp;target_milestone=1.5M4&amp;target_milestone=1.5M5&amp;target_milestone=1.5M6&amp;target_milestone=1.5RC0&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" class='external text' title="https://bugs.eclipse.org/bugs/buglist.cgi?query format=advanced&amp;short desc type=allwordssubstr&amp;short desc=&amp;classification=DataTools&amp;target milestone=1.5&amp;target milestone=1.5M4&amp;target milestone=1.5M5&amp;target milestone=1.5M6&amp;target milestone=1.5RC0&amp;long desc type=allwordssubstr&amp;long desc=&amp;bug file loc type=allwordssubstr&amp;bug file loc=&amp;status whiteboard type=allwordssubstr&amp;status whiteboard=&amp;keywords type=allwords&amp;keywords=&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse same sort as last time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=" rel="nofollow">This Bugzilla query</a> shows all items currently planned for DTP 1.5.
+</p>
+
 
 <h2><a name="ECF"></a>Eclipse Communications Framework (ECF)</h2>
-<em>The project did not provide any plan information.</em>
+		<h3>ECF Project Milestone Plan</h3>
+		<p></p>
+
+		<div class="right">
+            Last modified on Feb 5, 2007 by slewis
+        </div>
+
+<p></p>
+<p></p>
+<a href="org.eclipse.ecf.docs/api">See here for Javadocs of ECF APIs</a>
+<p></p>
+<p></p>
+<a href="http://wiki.eclipse.org/index.php/Eclipse_Communication_Framework_Project">See Wiki for Sub-Project Info, Conference Call Schedule, and Longer-Range Planning</a>
+<p></p>
+<!-- Milestone 0.9.4 -->
+<h3><a name="0.9.4">0.9.4</a></h3>
+
+<b>Target Release Date: 12/02/2006
+<br/>
+Actual Release Date: 12/03/2006
+
+<br/>
+<a href="downloads.php">Download</a>
+<br/>
+<a href="NewAndNoteworthy_0.9.4.html">New and Noteworthy</a></b>
+
+<p></p>
+<table class="milestones">
+ 
+ <tr>
+
+   <th>Features</th>
+   <th>Committer/Contributor</th>
+
+   <th>Enhancement Request/Bug</th>
+ </tr>
+ 
+ <tr class="done">   
+   <td>
+      Document new <b>org.eclipse.ecf.ui.configurationWizards</b> and <b>org.eclipse.ecf.ui.connectWizards</b> extension points
+   </td>
+
+   <td>
+      Scott Lewis
+   </td>
+   <td>
+     See <a href="http://www.eclipse.org/ecf/NewAndNoteworthy_0.9.4.html">New and Noteworthy for 0.9.4</a>   
+   </td>   
+ </tr>
+ 
+</table>
+
+<p></p>
+
+<!-- Milestone 0.9.5 -->
+<h3><a name="0.9.5">0.9.5</a></h3>
+<p></p>
+
+<b>Target Release Date: 12/15/2006
+<br/>
+Actual Release Date: 12/22/2006
+<br/>
+<a href="downloads.php">Download</a>
+<br/>
+<a href="NewAndNoteworthy_0.9.5.html">New and Noteworthy</a>
+
+</b>
+
+<p></p>
+
+<table class="milestones">
+ 
+ <tr>
+
+   <th>Features</th>
+   <th>Committer/Contributor</th>
+   <th>Enhancement Request/Bug</th>
+
+ </tr>
+  
+ <tr class="done">   
+   <td>
+      Refactor test code and move into org.eclipse.ecf.tests plugin
+   </td>
+   <td>
+      Scott Lewis
+   </td>
+
+   <td>   
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=161497">#161497</a>   </td>   
+   </tr>
+
+ 
+  <tr class="done">   
+   <td>
+     Refactor RosterView to allow easier extension
+   </td>
+
+   <td>
+      Scott Lewis
+   </td>
+   <td>   
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166675">#166675</a>
+   </td>   
+ </tr>
+
+ 
+ 
+   <tr class="done">   
+   <td>
+     Update IRCLib to v1.10
+   </td>
+
+   <td>
+      Scott Lewis
+   </td>
+   <td>   
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166418">#166418</a>
+   </td>   
+ </tr>
+
+ 
+<tr class="done">
+   <td>
+     Refactor presence API in <b>org.eclipse.ecf.presence</b> bundle
+   </td>
+
+   <td>
+      Scott Lewis
+   </td>
+   <td>
+
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=167363">#167363</a>
+   </td>
+ </tr>
+
+     <tr class="done">   
+   <td>
+     [provider] filetransfer provider based upon httpclient 3.0.1
+   </td>
+
+   <td>
+
+      Scott Lewis
+   </td>
+   <td>   
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166079">#166079</a>
+   </td>   
+ </tr>
+ 
+</table>
+
+<p></p>
+
+<!-- Milestone 0.9.6 -->
+<h3><a name="0.9.6">0.9.6</a></h3>
+
+<p></p>
+
+<b>Target Release Date: 1/12/2007
+<br/>
+Actual Release Date: 1/13/2007
+<br/>
+<a href="downloads.php">Download</a>
+<br/>
+<a href="NewAndNoteworthy_0.9.6.html">New and Noteworthy</a></b>
+
+
+<table class="milestones">
+ 
+ <tr>
+
+   <th>Features</th>
+   <th>Committer/Contributor</th>
+   <th>Enhancement Request/Bug</th>
+ </tr>
+  
+   <tr class="progress">
+   <td>
+     Add persistence to RosterView
+   </td>
+
+   <td>
+      Scott Lewis
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166670">#166670</a>
+   </td>
+ </tr>
+
+       <tr class="progress">
+
+   <td>
+     [provider] BitTorrent provider for file transfer (receive) API
+   </td>
+
+   <td>
+      Remy Suen and Scott Lewis
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=144133">#144133</a>
+   </td>
+
+ </tr>
+
+       <tr class="done">
+   <td>
+     [IRC] Able to open links in internal browser
+   </td>
+
+   <td>
+      Remy Suen
+   </td>
+   <td>
+
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=148874">#148874</a>
+   </td>
+ </tr>
+
+ 
+      <tr class="done">
+   <td>
+     Create New Connect Wizard for XMPP Client
+   </td>
+
+   <td>
+
+      Scott Lewis
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=165508">#165508</a>
+   </td>
+ </tr>
+
+         <tr class="done">
+   <td>
+
+     Create New Connect Wizard for IRC Client
+   </td>
+
+   <td>
+      Remy Suen
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=165511">#165511</a>
+   </td>
+ </tr>
+
+</table>
+
+<!-- Milestone 1.0.0.M5 -->
+<h3><a name="1.0.0.M5">1.0.0.M5</a></h3>
+<p></p>
+
+Target Release Date: 2/16/2007
+
+<table class="milestones">
+
+ <tr>
+
+   <th>Features</th>
+   <th>Committer/Contributor</th>
+
+   <th>Enhancement Request/Bug</th>
+ </tr>
+
+      <tr class="notdone">
+   <td>
+     Documentation about running the test suite
+   </td>
+
+   <td>
+      Unassigned
+   </td>
+
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=126505">#126505</a>
+   </td>
+ </tr>
+
+  <tr class="notdone">
+   <td>
+   Integration of ECF Roster with Mylar 1.0
+   </td>
+
+   <td>
+      Unassigned
+   </td>
+   <td>
+     <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=111218">#111218</a>
+     <br/><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=106562">#106562</a>
+   </td>
+ </tr>
+
+   <tr class="notdone">
+   <td>
+     Additional UI features for IM and multi-user chat
+   </td>
+
+   <td>
+      Unassigned
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=110896">#110896</a>
+
+   </td>
+ </tr>
+
+   <tr class="progress">
+   <td>
+      Refactor test code for presence and datashare APIs and move into org.eclipse.ecf.tests plugin
+   </td>
+   <td>
+      Scott Lewis
+   </td>
+
+   <td>
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=161497">#161497</a>   </td>
+   </tr>
+
+  <tr class="done">
+   <td>
+     Move org.eclipse.ecf.provider.rss from Higgins' repository to ECF's
+   </td>
+
+   <td>
+      Scott Lewis
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166016">#166016</a>
+  </td>
+ </tr>
+
+  <tr class="not done">
+
+   <td>
+   Complete bulletin board API, get IP approval for contribution, and integrate in with ECF on dev.eclipse.org
+   </td>
+
+   <td>
+     Erkki Lindpere and Scott Lewis
+   </td>
+   <td>
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=150756">#150756</a>
+   </td>
+
+ </tr>
+
+  <tr class="notdone">
+   <td>
+     Create New Connect Wizard for JXTA Client
+   </td>
+
+   <td>
+      Pierre Henry-Perret
+   </td>
+   <td>
+
+   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=165514">#165514</a>
+   </td>
+ </tr>
+
+</table>
+
 
 <h2><a name="EMF"></a>Eclipse Modeling Framework (EMF)</h2>
 <em>The project did not provide any plan information.</em>
