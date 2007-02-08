@@ -957,7 +957,174 @@ href="https://bugs.eclipse.org/bugs">https://bugs.eclipse.org/bugs</a>.</p>
 </li></ul>
 
 <h2><a name="CDT"></a>C/C++ Development Tooling (CDT)</h2>
-<em>The project did not provide any plan information.</em>
+</p><p>Last revised: 13:18, 24 October 2006 (EDT)
+</p><p>CDT 4.0 is scheduled to be delivered in June 2007 as part of the Europa Simultaneous Release. Guidelines for this release are <a href="/index.php/Europa_Simultaneous_Release" title="Europa Simultaneous Release"> available here</a>.
+
+</p>
+<h3> Release Deliverables </h3>
+<p>The release deliverables are the same as with previous releases.
+</p>
+<ul><li> Source code in CVS tagged "CDT_4_0".
+
+</li><li> CDT run-time, i.e. org.eclipse.cdt feature, downloadable as a tar/zip per supported platform.
+</li><li> CDT SDK, i.e. org.eclipse.cdt.sdk and org.eclipse.cdt features, downloadable as a tar/zip per supported platform.
+</li><li> Contents of SDK available from the CDT update site.
+</li><li> Contents of CDT run-time available from the Europa update site.
+</li><li> Release review slides, including project log.
+</li></ul>
+<h3> Release Milestones </h3>
+
+<p>The CDT will follow the Europa schedule for milestones and final delivery. These generally follow the milestones of the Eclipse Platform by one week. The following are the dates for when the milestones will be generally available along with links to the plans listing the state of the CDT features for that milestone.
+</p>
+<ul><li> Thursday, Dec. 21, 2006 - Milestone 4 (4.0 M4) - <a href="/index.php/CDT/planning/4.0M4Plan" title="CDT/planning/4.0M4Plan"> plan</a>.
+</li><li> Friday, Feb. 16, 2007 - Milestone 5 (4.0 M5) - <a href="/index.php?title=CDT/planning/4.0M5Plan&amp;action=edit" class="new" title="CDT/planning/4.0M5Plan"> plan</a>.
+</li><li> Friday, Mar. 30, 2007 - Milestone 6 (4.0 M6) - <a href="/index.php?title=CDT/planning/4.0M6Plan&amp;action=edit" class="new" title="CDT/planning/4.0M6Plan"> plan</a> - API freeze.
+
+</li><li> Friday, May 11, 2007 - Milestone 7 (4.0 M7) - <a href="/index.php?title=CDT/planning/4.0M7Plan&amp;action=edit" class="new" title="CDT/planning/4.0M7Plan"> plan</a> - Code freeze.
+</li></ul>
+<p>The code freeze date is the RC0 date which marks the beginning of the ramp down. All features should be implemented and only bug fixes of increasing criticality should be fixed marching towards the Europa release date of Friday, June 29, 2007.
+</p>
+<h3> Target Operating Environments </h3>
+<p>Builds of the CDT are available for the following host operation system and architecture combinations (there are no windowing system specific plugins in the CDT):
+</p>
+
+<ul><li> Windows - x86
+</li><li> Linux - x86, x86_64, ppc, ia64
+</li><li> Mac OS X - ppc, x86 (universal)
+</li><li> Solaris - sparc
+</li><li> AIX - ppc
+</li><li> QNX Neutino - x86
+</li></ul>
+<p>The download status show that Windows x86 and Linux x86 are by far the most widely used, and, thus, tested and have the best support.
+</p><p>The current plan is to support Java 1.4.2 run-time environments with CDT 4.0. Some optional components will require Java 1.5.0. We are still looking for concrete examples of CDT users that can not move to Java 1.5.0. If you have such an example, please report it to <a href="mailto:cdt-dev@eclipse.org" class='external text' title="mailto:cdt-dev@eclipse.org" rel="nofollow">cdt-dev@eclipse.org</a>.
+
+</p>
+<h3> Plug-in Dependencies </h3>
+<p>The CDT currently only depends on the Eclipse Platform Runtime Binary. CDT 4.0 will require Eclipse 3.3.x. Since new APIs will be used, CDT 4.0 will not be compatible with Eclipse 3.2.x.
+</p>
+<h3> Internationalization </h3>
+<p>All effort is made to ensure that the CDT can be nationalized to all languages supported by the Eclipse Platform. Only English is provided with the CDT and is the only language known to be tested.
+</p>
+
+<h3> Compatibility with Previous Releases </h3>
+<p>The CDT has had a troubled history maintaining backwards compatibility. One of the main objectives of CDT 4.0 will be to finalize all APIs so that we can maintain backwards compatability in future releases. As such, it is anticipated that there will be more churn in the APIs for this release. All plugins that use any APIs and/or extension points provided by the CDT will need to at least recompile against CDT 4.0 and will likely need to make code changes.
+</p>
+<h3> Component Plans </h3>
+<p>The following are the plan items proposed for specific components of the CDT.
+</p>
+<h3> Core </h3>
+
+<h4> Indexing </h4>
+<ul><li> Support headless creation of indexes (PDOM), and import of these prebuilt indexes into user workspaces. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=074433" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=074433" rel="nofollow">bug 74433</a>.
+<ul><li> Enable pdom index files to be relocatable (contain relative or symbolic paths) <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162172" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=162172" rel="nofollow">bug 162172</a>
+</li></ul>
+</li><li> Refactor the parser to allow it to be deployed as a standalone JAR file if so desired. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151846" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=151846" rel="nofollow">bug 151846</a>
+
+</li><li> Refactor the indexer to allow it to be deployed as a standalone JAR file if so desired. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=158975" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=158975" rel="nofollow">bug 158975</a>
+</li><li> Refactor the indexer to remove hard dependencies on having an Eclipse project. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151847" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=151847" rel="nofollow">bug 151847</a>
+</li><li> Allow customizability of which parser to run on particular projects/files/resources. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=151850" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=151850" rel="nofollow">bug 151850</a>
+</li></ul>
+<h4> New Project Model </h4>
+
+<p>The main goal of the New Project Model is to increase the CDT usability, tool-integrator support and multi language support.
+</p><p>References:
+</p>
+<ul><li> <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=115935" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=115935" rel="nofollow">bug 115935</a>
+</li><li> <a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=46637" class='external text' title="https://bugs.eclipse.org/bugs/attachment.cgi?id=46637" rel="nofollow">New Project Model Core Design</a>
+</li><li> <a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=50311" class='external text' title="https://bugs.eclipse.org/bugs/attachment.cgi?id=50311" rel="nofollow">New Project Model UI Design</a>
+</li><li> <a href="http://download.eclipse.org/tools/cdt/docs/summit2006/New_Project_Model_06.09.25.ppt" class='external text' title="http://download.eclipse.org/tools/cdt/docs/summit2006/New Project Model 06.09.25.ppt" rel="nofollow">"New Project Model Core" presentation</a> 
+</li><li> <a href="http://download.eclipse.org/tools/cdt/docs/summit2006/New_Project_Model_UI_06.09.25.ppt" class='external text' title="http://download.eclipse.org/tools/cdt/docs/summit2006/New Project Model UI 06.09.25.ppt" rel="nofollow">"New Project Model UI" presentation</a>
+
+</li></ul>
+<h3> UI </h3>
+<h4> C/C++ Editor </h4> 
+<ul><li> <b>Support indent width independent of tab width</b>.  Allow to specify indent width independent of tab width to support mixed-mode indentation as already requested by <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=53994" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=53994" rel="nofollow">bug 53994</a> and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=92036" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=92036" rel="nofollow">bug 92036</a>.
+
+</li><li> <b>Default formatter</b>.  Implement a (simple) default formatter/indenter. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=95274" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=95274" rel="nofollow">bug 95274</a> 
+</li><li> <b>Text Drag and Drop</b>.  Implement Text Drag and Drop for the editor. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=78677" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=78677" rel="nofollow">bug 78677</a> <br />Note: This may become obsolete if Eclipse platform implements it in 3.3. See also <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=11624" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=11624" rel="nofollow">bug 11624</a>.
+</li><li> <b>View non-printable characters</b>. Provide a command and toolbar button to enable visualization of non-printable characters in the editor (CR, LF, TAB, SPACE). <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=140333" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=140333" rel="nofollow">bug 140333</a> <br />Note: This may become obsolete if Eclipse platform implements it in 3.3. See also <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=22712" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=22712" rel="nofollow">bug 22712</a>.
+
+</li><li> <b>Auto-save</b>.  Implement an option to regularly save dirty editor buffers to the Eclipse local history as a backup mechanism. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=140334" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=140334" rel="nofollow">bug 140334</a> <br />See also Eclipse platform <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=34076" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=34076" rel="nofollow">bug 34076</a>.
+</li><li> <b>Semantic highlighting</b>. Colorize definitions and declarations of various C/C++ elements: function, variable, type, enum, etc. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=140335" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=140335" rel="nofollow">bug 140335</a>
+</li><li> <b>Inactive code highlighting</b>. Highlight lines of code which are inactive (ie. which are excluded by conditional preprocessor directives) in the current scanner configuration. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=81511" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=81511" rel="nofollow">bug 81511</a>
+
+</li></ul>
+<h4> Content Assist </h4>
+<ul><li> Convert to use the index whenver possible, and convert the DOM contributor to skip all headers. This should speed up content assist immensely. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=169860" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=169860" rel="nofollow">bug 169860</a>
+</li></ul>
+<ul><li> <b>Code assist</b> similar to java eclipse, in particular: 
+<ul><li> Show available method/fields completion list with Ctrl-Space, 
+
+</li><li> Automatically add #include "file.h" when a function is added in code with Ctrl-Space 
+</li><li> When a class method (or function) is deleted (with right mouse click), the declaration in header file should be automatically deleted. 
+</li><li> When a method/function is added in c/cpp file, its declaration should be automatically added in its header file.
+</li><li> When a method/function's signature changes, it should also be updated in header file.
+</li><li> Show references of highlighted function/method
+</li></ul>
+</li></ul>
+<h4> CView </h4>
+
+<ul><li> <b>Common Navigator extensions</b>.  Adopt the new Common Navigator (CN) framework and create CDT specific extensions to plug the content and functionality of the C/C++ Projects view (aka CView) into any Common Navigator view. The extensions will be initially contributed to the new general purpose "Project Explorer", which serves as a playground for early adopters of the technology (like JDT). This should also help to stabilize and improve the CN framework by providing feedback and bug reports. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=140337" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=140337" rel="nofollow">bug 140337</a>
+</li></ul>
+<h4> New Views </h4>
+<ul><li> <b>Include Browser</b>: Visualize the include relations among files in a tree as proposed in <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=142149" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=142149" rel="nofollow">bug 142149</a>
+
+</li><li> <b>Call Hierarchy</b>: Explore call-graphs by means of a tree as proposed in <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=48212" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=48212" rel="nofollow">bug 48212</a>.
+</li><li> Reintroduce <b>Type Hierarchy</b>: Present inheritance relations and members of types. This is proposed in <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=142189" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=142189" rel="nofollow">bug 142189</a>. <br />The implementation will also consider <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=48213" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=48213" rel="nofollow">bug 48213</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=70246" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=70246" rel="nofollow">bug 70246</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=71943" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=71943" rel="nofollow">bug 71943</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=87815" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=87815" rel="nofollow">bug 87815</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=94197" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=94197" rel="nofollow">bug 94197</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=99833" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=99833" rel="nofollow">bug 99833</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=99835" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=99835" rel="nofollow">bug 99835</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=100655" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=100655" rel="nofollow">bug 100655</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=108879" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=108879" rel="nofollow">bug 108879</a> and optionally also <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=73904" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=73904" rel="nofollow">bug 73904</a>.
+
+</li></ul>
+<h3> Build </h3>
+<h4> CDT Build System </h4>
+<ul><li> "New Project Model" Build System enhancements <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=115935" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=115935" rel="nofollow">bug 115935</a>
+
+<ul><li> <b>Standard and Managed Build System incorporation</b> - current "Standard" and "Managed" build systems will be incorporated into one CDT Build System. This will allow to leverage the Standard Build system with the build configuration and tool-chain concepts,  provide one common mechanism of tool-chain integration, build system configuration, maintainence, etc. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162728" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=162728" rel="nofollow">bug 162728</a>
+</li><li> <b>Multi-language support</b> - associating language ID with tools, per-InputType (language) include/macros settings calculation.
+</li><li> <b>Tool-Chain Modifications</b> - the functionality will allow changing tool-chain settings for the project. This includes: Tool-chain substitution, adding/removing/substituting tools in the tool-chain, builder substitution. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162729" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=162729" rel="nofollow">bug 162729</a>
+</li><li> <b>Per-folder settings</b> - allows specifying tool-chain settings (i.e. option values, tool-chain/tools to be used, includes/macros settings) on the folder level <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=109080" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=109080" rel="nofollow">bug 109080</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=83809" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=83809" rel="nofollow">bug 83809</a>
+
+</li></ul>
+</li></ul>
+<h4> Managed Build </h4>
+<ul><li> Complete the internal builder and make it the default, hopefully eliminating the need to write makefile generators - <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=135241" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=135241" rel="nofollow">plan item</a>. 
+</li><li> Implement parallel builds with the internal builder - <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156872" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=156872" rel="nofollow">plan item</a>.
+</li></ul>
+
+<h3> Debugger </h3>
+<h4> CDI </h4>
+<p>How to make the CDI model flexible and extensible <a href="/index.php/Proposals" title="Proposals">Proposals</a>. See also <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162080" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=162080" rel="nofollow">bug 162080</a>.
+
+</p>
+<h4> Launching and Usability </h4>
+<p>Improve the launch experience with contextual launch commands and a launch configuration wizard. See also <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=154280" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=154280" rel="nofollow">bug 154280</a>.
+</p>
+<h4> Breakpoint Actions </h4>
+
+<p>Add support for extensible breakpoint actions that fire when breakpoints are hit. See also <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=118308" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=118308" rel="nofollow">bug 118308</a>.
+</p>
+<h4> Memory Space Support in Memory View </h4>
+<p>Expose the notion of memory spaces in the Memory view for CDI backends that want it.
+<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=114528" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=114528" rel="nofollow">bug 114528</a>.
+</p>
+<h3> Add-ons </h3>
+
+<h4> Windows SDK C/C++ Support </h4>
+<p>Support the tool chain that comes with the Windows SDK for C/C++ development. This includes the Visual C++ compiler (cl), linker (link), library builder (lib) <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162105" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=162105" rel="nofollow">plan item</a>
+as well as the debugger engine (dbgeng.dll) available with the Debugging Tools for Windows. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162108" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=162108" rel="nofollow">plan item</a>. This functionality will be provided in an optional feature.
+</p>
+<h4> MinGW SDK Support </h4>
+
+<p>Take advantage of the new project templates, internal builder, and prebuild indexes to build a MinGW bundle to simplify installs on Windows. This will be distributed via EasyEclipse.org and will include MinGW itself which is GPL. As well, support for the SDL (Simple DirectMedia Library, libsdl.org) as a plug-in SDK will also be provided (LGPL). These will serve as exemplary implementations for many 4.0 features. <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=171095" class='external text' title="https://bugs.eclipse.org/bugs/show bug.cgi?id=171095" rel="nofollow">bug 171095</a>
+</p><p><i>The original version of the 4.0 plan is <a href="/index.php/CDT/planning/4.0" title="CDT/planning/4.0">here</a>.</i>
+</p>
+<h3> Documentation </h3>
+<h4> User's Guide </h4>
+
+<p>The CDT user's guide hasn't been touched since CDT 3.0. It is out of date given then content in CDT 3.1. As well, it is probably in much need of a rewrite.
+</p>
+<h4> Programmer's Guide </h4>
+<p>As part of solidifying the APIs and extension points for the CDT, they will need to be documented. The Programmer's Guide needs to be updated to contain the javadoc and schema docs. As well, actual guide content should be provided to show how to use the APIs.
+</p>
+
 
 <h2><a name="CORONA"></a>Corona</h2>
 <em>The project did not provide any plan information.</em>
