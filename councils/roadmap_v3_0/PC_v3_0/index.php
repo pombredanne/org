@@ -84,24 +84,24 @@ project operating with its own project leadership, its own committers, and its o
   
   <h1>Individual Project Plans</h1>
   <ul>
-  <li><a href="#AJDT"><a href="/ajdt/">AJDT</a></li>
-  <li><a href="#BIRT"><a href="/birt/">Business Intelligence and Reporting Tools (BIRT)</a></li>
-  <li><a href="#BUCKMINSTER"><a href="/buckminster/">Buckminster</a></li>
-  <li><a href="#CDT"><a href="/cdt/">C/C++ Development Tooling (CDT)</a></li>
-  <li><a href="#CORONA"><a href="/corona/">Corona</a></li>
-  <li><a href="#DASH"><a href="/dash/">Eclipse Monkey</a></li>
-  <li><a href="#DLTK"><a href="/dltk/">Dynamic Language Toolkit (DLTK)</a></li>
-  <li><a href="#DSDP"><a href="/dspd/">Device Software Development Platform</a> (<a href="/dspd/dd/">DSDP DD</a>, <a href="/dspd/tm/">DSDP TM</a>)</li>
-  <li><a href="#DTP"><a href="/datatools/">Data Tools Platform (DTP)</a></li>
-  <li><a href="#ECF"><a href="/ecf/">Eclipse Communications Framework (ECF)</a></li>
-  <li><a href="#EMF"><a href="/emf/">Eclipse Modeling Framework (EMF)</a></li>
-  <li><a href="#EMFT"><a href="/emft/">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a></li>
-  <li><a href="#GEF"><a href="/gef/">Graphical Editor Framework (GEF)</a></li>
-  <li><a href="#GMF"><a href="/gmf/">Graphical Modeling Framework (GMF)</a></li>
-  <li><a href="#PLATFORM"><a href="/eclipse/">Platform</a></li>
-  <li><a href="#TPTP"><a href="/tptp/">Test and Performance Tools Platform (TPTP)</a></li>
-  <li><a href="#WTP"><a href="/webtools/">Web Tools Platform (WTP)</a></li>
-  <li><a href="#STP"><a href="/stp/">SOA Tools Platform</a></li>
+  <li><a href="#AJDT">AJDT</a></li>
+  <li><a href="#BIRT">Business Intelligence and Reporting Tools (BIRT)</a></li>
+  <li><a href="#BUCKMINSTER">Buckminster</a></li>
+  <li><a href="#CDT">C/C++ Development Tooling (CDT)</a></li>
+  <li><a href="#CORONA">Corona</a></li>
+  <li><a href="#DASH">Eclipse Monkey</a></li>
+  <li><a href="#DLTK">Dynamic Language Toolkit (DLTK)</a></li>
+  <li><a href="#DSDP">Device Software Development Platform</a> (<a href="/dspd/dd/">DSDP DD</a>, <a href="/dspd/tm/">DSDP TM</a>)</li>
+  <li><a href="#DTP">Data Tools Platform (DTP)</a></li>
+  <li><a href="#ECF">Eclipse Communications Framework (ECF)</a></li>
+  <li><a href="#EMF">Eclipse Modeling Framework (EMF)</a></li>
+  <li><a href="#EMFT">EMF Technology (EMFT)(OCL, Query, Transaction, Validation, JET)</a></li>
+  <li><a href="#GEF">Graphical Editor Framework (GEF)</a></li>
+  <li><a href="#GMF">Graphical Modeling Framework (GMF)</a></li>
+  <li><a href="#PLATFORM">Platform</a></li>
+  <li><a href="#TPTP">Test and Performance Tools Platform (TPTP)</a></li>
+  <li><a href="#WTP">Web Tools Platform (WTP)</a></li>
+  <li><a href="#STP">SOA Tools Platform</a></li>
   </ul>
 
 <h2><a name="AJDT"></a>AJDT</h2>
