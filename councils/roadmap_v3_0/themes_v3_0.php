@@ -75,11 +75,11 @@
 	
 	
 	
-	<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=1" title="RequirementsCouncil06TP">edit</a>]</div><a name="Previous_Versions"></a><h2>1  Previous Versions </h2>
+<h2>1  Previous Versions </h2>
 <ul><li> <a href="http://www.eclipse.org/org/councils/themes.html" class='external text' title="http://www.eclipse.org/org/councils/themes.html" rel="nofollow">v1 Themes and Priorities</a>
 </li><li> <a href="http://www.eclipse.org/org/councils/roadmap_v2_0/themes_v2_0.php" class='external text' title="http://www.eclipse.org/org/councils/roadmap v2 0/themes v2 0.php" rel="nofollow">v2 Themes and Priorities</a>
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=2" title="RequirementsCouncil06TP">edit</a>]</div><a name="Theme_Categorization"></a><h2>2  Theme Categorization </h2>
+<h2>2  Theme Categorization </h2>
 
 <p>Eclipse themes are described in one of four categories.
 </p>
@@ -88,30 +88,30 @@
 </li><li> Deferred Themes are not an indication of priority, but are an indication that there are technical or resource inhibitors preventing them from becoming an Ative Theme.  Deferred themes are a signal to the ecosystem that help is needed.
 </li><li> Pending Themes are new and interesting themes that have not yet been properly explored and discussed to become an Active theme.
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=3" title="RequirementsCouncil06TP">edit</a>]</div><a name="Active_Themes"></a><h2>3  Active Themes </h2>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=4" title="RequirementsCouncil06TP">edit</a>]</div><a name="Platform_Support"></a><h3>3.1  Platform Support </h3>
+<h2>3  Active Themes </h2>
+<h3>3.1  Platform Support </h3>
 
 <p>While Eclipse has been very successful with Java developers on Windows systems, we endeavour to provide platform support for additional existing and upcoming platforms.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=5" title="RequirementsCouncil06TP">edit</a>]</div><a name="Vista"></a><h4>3.1.1  Vista </h4>
+<h4>3.1.1  Vista </h4>
 <p>Approximately 85% of Eclipse download requests are for the Windows OS.  With the VISTA release there are a number of efforts to port Windows applications.  This presents an opportunity for organizations who will take the opportunity to migrate to the more ubiquitous and portable Eclipse platform.  In order to leverage the opportunity as much as possible, it is essential that relevant Eclipse projects support and leverage VISTA. For example, Avalon APIs need to be implemented in SWT. 
 </p><p>Vista will be important as both a platform used by developers, as well as one to which the resultant applications and/or products will be deployed.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=6" title="RequirementsCouncil06TP">edit</a>]</div><a name="Linux"></a><h4>3.1.2  Linux </h4>
+<h4>3.1.2  Linux </h4>
 <p>Linux continues to grow in market share as a platform for projects at all levels. We need to offer strong support for Linux on two dimensions:
 </p>
 
 <ul><li> As a deployment platform for applications developed using Eclipse technology
 </li><li> As a platform used by developers as their primary working environment
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=7" title="RequirementsCouncil06TP">edit</a>]</div><a name="Mac_OS_X"></a><h4>3.1.3  Mac OS X </h4>
+<h4>3.1.3  Mac OS X </h4>
 <p>Mac OS X is used in many development, open source and end user environments and is a very active community. Eclipse needs to provide some level of support for users of this platform.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=8" title="RequirementsCouncil06TP">edit</a>]</div><a name="Java_SE_Mustang.2C_Dophin_and_Beyond"></a><h4>3.1.4  Java SE Mustang, Dophin and Beyond </h4>
+<h4>3.1.4  Java SE Mustang, Dophin and Beyond </h4>
 
 <p>Eclipse endevours to support next generations of the Java platform in a timely manner.  The first stage of support is that end users can build applications on the latest JDK versions.  The next stage of support is that projects themselves are able to take advantage of the latest JDK changes.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=9" title="RequirementsCouncil06TP">edit</a>]</div><a name="Rich_Client_Platform_.28RCP.29"></a><h3>3.2  Rich Client Platform (RCP) </h3>
+<h3>3.2  Rich Client Platform (RCP) </h3>
 <p>RCP adoption has been strong by the ecosystem in 2006.  The goal is for projects to support and use the Eclipse RCP as much as possible.  
 </p><p>Aside from general use of RCP, there are two additional dimensions to this theme.  
 </p>
@@ -121,7 +121,7 @@
 <p>The Equinox project is an example of the focus on the OSGi component model within Eclipse.  The Ecosystem requires Additional PDE enhancements to facilitate developing and deploying RCP-based applications, and for OSGi bundle manifest tooling.
 </p>
 
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=10" title="RequirementsCouncil06TP">edit</a>]</div><a name="Embedded_Device_Software"></a><h3>3.3  Embedded Device Software </h3>
+<h3>3.3  Embedded Device Software </h3>
 <p>This theme describes additions to Eclipse to provide standardization and extensibility to enable embedded tools providers, real-time operating system providers, semiconductor vendors, and hardware developers to create embedded-specific capabilities on top of standard Eclipse projects such as the Platform, JDT, eRCP, CDT, and TPTP. These capabilities should include the following. 
 </p>
 <ul><li> Drive consistency in the workflow for embedded development tools and projects.
@@ -134,7 +134,7 @@
 </li><li> Enable mobile Linux application development, including design, development, debug, and deployment of cross-compiled applications.
 </li><li> Provide embedded testing capabilities - monitoring, profiling, and unit testing.
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=11" title="RequirementsCouncil06TP">edit</a>]</div><a name="Ease_Of_Use"></a><h3>3.4  Ease Of Use </h3>
+<h3>3.4  Ease Of Use </h3>
 <p>The Eclipse components need to not only provide features that advanced users demand, but also be something that users find simple to use. The goal of this theme is to ensure that Eclipse-based products are simple to use for users with widely-varying backgrounds and skill sets performing a variety of tasks. Examples include:
 </p>
 <ul><li> Provide Eclipse User Experience Guidelines to ensure consistency and usability (including Accessibility) across projects.
@@ -147,30 +147,30 @@
 </li></ul>
 <p>For example, if a user interface wizard provides a short path to performing a task, make sure that usability studies have identified the most common task performed by the target users.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=12" title="RequirementsCouncil06TP">edit</a>]</div><a name="Improving_the_.22Out_of_Box_Experience"></a><h3>3.5  Improving the "Out of Box Experience </h3>
+<h3>3.5  Improving the "Out of Box Experience </h3>
 <p>All projects should consider improved packaging, installation and "out-of-the-box" experience to be important objectives for 2007.  The goal is to broaden the appeal of Eclipse projects to a larger set of end users .
 
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=13" title="RequirementsCouncil06TP">edit</a>]</div><a name="Technology_Trends"></a><h3>3.6  Technology Trends </h3>
+<h3>3.6  Technology Trends </h3>
 <p>Existing and new Eclipse projects need to consider key technology trends in the market to ensure that the Eclipse platform continues to retain it's leadership as the framework and tool of choice for developers. 
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=14" title="RequirementsCouncil06TP">edit</a>]</div><a name="Extending_to_be_Life-cycle_Platform"></a><h4>3.6.1  Extending to be Life-cycle Platform </h4>
+<h4>3.6.1  Extending to be Life-cycle Platform </h4>
 <p>TBD
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=15" title="RequirementsCouncil06TP">edit</a>]</div><a name="Web_2.0_and_AJAX"></a><h4>3.6.2  Web 2.0 and AJAX </h4>
+<h4>3.6.2  Web 2.0 and AJAX </h4>
 
 <p>AJAX and other "Web 2.0" technology (see <a href="http://en.wikipedia.org/wiki/Web_2.0" class='external text' title="http://en.wikipedia.org/wiki/Web 2.0" rel="nofollow">Wikipedia discussion on Web 2.0</a>)
 has enabled the development of a new generation of web sites that provide a rich and user-friendly experience in a wide variety of applications. While the initial adopters of this technology have been social web sites, it's adoption is increasingly seen in business applications such as CRM systems.
 </p><p>As developers shift from the development of traditional web sites to Web 2.0-style sites, the role of Eclipse as a development framework for these applications must be considered. In order to retain these developers, the Eclipse platform should provide strong support for developing applications that leverage Web 2.0 technologies such as AJAX and Web Services APIs.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=16" title="RequirementsCouncil06TP">edit</a>]</div><a name="Multi-Core_CPU"></a><h4>3.6.3  Multi-Core CPU </h4>
+<h4>3.6.3  Multi-Core CPU </h4>
 <p>Due to power constraints, there is a trend towards multiple cores on a CPU instead of merely increasing the CPU frequency.  Eclipse should enable developers to write multi-threaded programs to take advantage of the increasing miltiple cores.  Moreover, Eclipse itself should be optimized where possible for running on multiple cores.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=17" title="RequirementsCouncil06TP">edit</a>]</div><a name="64-bit_CPU"></a><h4>3.6.4  64-bit CPU </h4>
+<h4>3.6.4  64-bit CPU </h4>
 
 <p>Diverse application software such as payroll, datawarehousing, and reporting now routinely manipulate large amounts of data that exceed 2GB. Using 64-bit CPUs enables these applications to manipulate large data in memory rather than having to write and read intermediate results to much slower disks.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=18" title="RequirementsCouncil06TP">edit</a>]</div><a name="Scaling_Up"></a><h3>3.7  Scaling Up </h3>
+<h3>3.7  Scaling Up </h3>
 <p>This refers to the need for Eclipse to deal with development and deployment on a larger and more complex scale. Increasing complexities arise from: 
 </p>
 <ul><li> Large development teams distributed in different locations, 
@@ -187,13 +187,13 @@ has enabled the development of a new generation of web sites that provide a rich
 </li><li> All Eclipse projects should identify common use cases and publish performance benchmarks on every milestone. 
 </li><li> Ability to deal with extremely large projects and workspaces where there is a large number of developers working on different, and sometimes overlapping parts of the source tree simultaneously. This may include a more efficient way to manage multiple workspaces. Examples of large projects include Mozilla and Open Office.
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=19" title="RequirementsCouncil06TP">edit</a>]</div><a name="Enterprise_Ready"></a><h3>3.8  Enterprise Ready </h3>
+<h3>3.8  Enterprise Ready </h3>
 
 <p>The Update Manager is a fantastic tool for a person updating his/her own installation.  Preference Import &amp; Export and Team Project Files further extend Eclipse in this regard.
 However in large organisations, for various reasons, the organisation might want to make sure that large numbers of users have and maintain similar Eclipse set-ups. 
 This could involve various aspects of the system, eg. what Eclipse components are installed, what preferences and other values are set etc. On one level this could be a convenience thing so that this would enable central management to help developer workstations be up-to-date, on a different level some organsiations might want a policy of strict control where the maintenance of the environment is also about enforcing a development policy and toolset, this would need more work in that it would require Eclipse internal policy management.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=20" title="RequirementsCouncil06TP">edit</a>]</div><a name="Further_Enhance_Update_Manager"></a><h4>3.8.1  Further Enhance Update Manager </h4>
+<h4>3.8.1  Further Enhance Update Manager </h4>
 <p>The Eclipse Update Manager provides initial technical capabilities to enable delivering software as a service. This capability can be leveraged more to provide updated components across Eclipse projects to developer desktop in an asynchrous fashion without the developer having to do a manual dependency analysis.
 </p>
 <ul><li> Dependency (across Update Sites)
@@ -201,7 +201,7 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 </li><li> Easier to access rollback
 
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=21" title="RequirementsCouncil06TP">edit</a>]</div><a name="Ease_of_Deployment.2C_Servicability_.26_Managability_of_Large_Scale_Installations"></a><h4>3.8.2  Ease of Deployment, Servicability &amp; Managability of Large Scale Installations </h4>
+<h4>3.8.2  Ease of Deployment, Servicability &amp; Managability of Large Scale Installations </h4>
 <ul><li> Zero-conf discovery of Update Site &amp; Pref/Config Repositories
 </li><li> Shared Hierarchical Configuration (First-class Preferences, Perspective Configurations, Team Share Preferences, Update Site Preferences, etc.)
 </li><li> Simplified Update of the Platform Bits
@@ -210,7 +210,7 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 </li><li> Improve the Eclipse project and workspace concept to allow overlapping environments 
 </li><li> Ability to fit into an existing environment of source files, build artifacts and version control repositories with minimal disruption to let developers complete a full edit-compile-debug cycle in the shortest possible time. This may include better support for multiple programming languages across language toolkits for improved usability. This would also include a more flexible project model.
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=22" title="RequirementsCouncil06TP">edit</a>]</div><a name="Facilitated_On-Boarding"></a><h4>3.8.3  Facilitated On-Boarding </h4> 
+<h4>3.8.3  Facilitated On-Boarding </h4> 
 <p>Features to enable a developer to get started as part of a (new or exisiting) team. This could include 
 </p>
 <ol><li> Making sure that the person has the correct software set-up, 
@@ -219,7 +219,7 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 
 <p>Example Story: <i>Here the ultimate goal could be that once a "team manager" has been told the IP address of a new member's PC, he would have 10 minutes later a fully configured Eclipse workstation with all the project's Eclipse project and all related settings on his/her machine.</i>
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=23" title="RequirementsCouncil06TP">edit</a>]</div><a name="Design_for_Extensibility"></a><h3>3.9  Design for Extensibility </h3>
+<h3>3.9  Design for Extensibility </h3>
 <p>Within the Eclipse community, many development projects are defining new development platforms on top of other Eclipse projects. Concrete examples include the Business Intelligence Reporting Tools, the Data Tools, and the Device Software Development Platform projects. It is recognized, however, that some function is not strictly required by the underlying projects but are important to enable other platforms to succeed. This theme also includes effort to assure platform integrity.
 </p><p>Some identified key requirements for this theme are:
 </p>
@@ -249,18 +249,18 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 </li></ul>
 </li></ul>
 
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=24" title="RequirementsCouncil06TP">edit</a>]</div><a name="Consistent_Multi_Programming_Language_Support"></a><h3>3.10  Consistent Multi Programming Language Support </h3>
+<h3>3.10  Consistent Multi Programming Language Support </h3>
 <p>The original vision of Eclipse was to accelerate the creation of IDEs. There is a lot of work to do to make it simpler to create language-specific IDEs. Our vision is to: 
 </p>
 <ul><li> Make it easier to create language specific tools in a consistent way
 </li><li> Enabling source files written in multiple languages within the same project.
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=25" title="RequirementsCouncil06TP">edit</a>]</div><a name="Persistent_.26_Pervasive_Themes"></a><h2>4  Persistent &amp; Pervasive Themes </h2>
+<h2>4  Persistent &amp; Pervasive Themes </h2>
 
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=26" title="RequirementsCouncil06TP">edit</a>]</div><a name="Accessibility_Compliance"></a><h3>4.1  Accessibility Compliance </h3>
+<h3>4.1  Accessibility Compliance </h3>
 <p>Every project should support and make a statement on their accessibility compliance. In the U.S., this means Section 508 compliance; in the European Union, this is the Web Accessibility Initiative of the World Wide Web Consortium (W3C). 
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=27" title="RequirementsCouncil06TP">edit</a>]</div><a name="Internationalization_.26_Localization"></a><h3>4.2  Internationalization &amp; Localization </h3>
+<h3>4.2  Internationalization &amp; Localization </h3>
 <p>Every project should support both internationalization and localization:
 </p>
 <ul><li> Internationalization (I18N) <br />Each project should be able to work in an international environment, including support for operating in different locales and processing/displaying international data (dates, strings, etc.).
@@ -269,7 +269,7 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 </li></ul>
 <p>Where possible, projects should use an open and transparent process to create, maintain and deliver language packs translated into multiple languages in a timely manner. The primary languages to consider are: English, Simplified Chinese, Traditional Chinese, Japanese, French, German, Spanish.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=28" title="RequirementsCouncil06TP">edit</a>]</div><a name="Upgrade_Path"></a><h3>4.3  Upgrade Path </h3>
+<h3>4.3  Upgrade Path </h3>
 <p>Upward compatibility is a critical aspect of developer satisfaction and community growth. Developers need to be able to adopt the latest release of Eclipse technology without reworking their applications. Extensive rework incurred during a migration will lead to developer frustration and the possibility that they will evaluate and adopt other tools. Smooth upward migration is therefore a core Theme that all projects must consider. 
 </p><p>This includes:
 </p>
@@ -279,79 +279,15 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 </li><li> Clear statements indicating which APIs are intended for internal use only (and are not gaurenteed to be upward compatible)
 </li><li> Providing tools that automate the migration process where possible
 </li></ul>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=29" title="RequirementsCouncil06TP">edit</a>]</div><a name="Deferred_Themes"></a><h2>5  Deferred Themes </h2>
+<h2>5  Deferred Themes </h2>
 <p>None currently.
 </p>
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=30" title="RequirementsCouncil06TP">edit</a>]</div><a name="Pending_Themes"></a><h2>6  Pending Themes </h2>
+<h2>6  Pending Themes </h2>
 
-<div class="editsection" style="float:right;margin-left:5px;">[<a href="/index.php?title=RequirementsCouncil06TP&amp;action=edit&amp;section=31" title="RequirementsCouncil06TP">edit</a>]</div><a name="Vertical_market-specific_initiatives"></a><h3>6.1  Vertical market-specific initiatives </h3>
+<h3>6.1  Vertical market-specific initiatives </h3>
 <p>With the establishment of Eclipse as a dominant platform for building tools and applications, it is logical that Eclipse technology begin to play a major role in vertical industry initiatives.  Vertical markets should not be confused with Technology Segments where Eclipse technology is generally consumed very rapidly.  Examples of quick Eclipse adoption in new technology segments include Ajax and other Web2.0 tools and applications.  Vertical markets are much more solutions oriented and have broad reach into a technology stack.  The Eclipse projects should be aware that Eclipse is becoming a major player in the Healthcare and Automotive verticals, and there are signs of it becoming a key platform in a number of other verticals.  In Automotive, for example, Eclipse based technology is used in CAD tools, workflow tools, embedded design tools, etc.
 </p><div class="printfooter">
 Retrieved from "<a href="http://wiki.eclipse.org/index.php/RequirementsCouncil06TP">http://wiki.eclipse.org/index.php/RequirementsCouncil06TP</a>"</div>
-	    	    <!-- end content -->
-	    <div class="visualClear"></div>
-	  </div>
-
-	</div>
-      </div>
-      <div id="column-one">
-      </div>
-	<!-- The logo went here -->
-			
-	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
-		<div class='portlet' id='p-navigation'>
-	  <h5>Navigation</h5>
-
-	  <div class='pBody'>
-	    <ul>
-	    	      <li id="n-mainpage"><a href="/index.php/Main_Page">Main Page</a></li>
-	     	      <li id="n-portal"><a href="/index.php/Eclipsepedia:Community_Portal">Community portal</a></li>
-	     	      <li id="n-currentevents"><a href="/index.php/Current_events">Current events</a></li>
-	     	      <li id="n-recentchanges"><a href="/index.php/Special:Recentchanges">Recent changes</a></li>
-	     	      <li id="n-randompage"><a href="/index.php/Special:Random">Random page</a></li>
-
-	     	      <li id="n-help"><a href="/index.php/Help:Contents">Help</a></li>
-	     	    </ul>
-	  </div>
-	</div>
-		<div id="p-search" class="portlet">
-	  <h5><label for="searchInput">Search</label></h5>
-	  <div class="pBody">
-	    <form name="searchform" action="/index.php/Special:Search" id="searchform">
-
-	      <input id="searchInput" name="search" type="text"
-	        accesskey="f" value="" />
-	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
-	        value="Go"
-	        />&nbsp;<input type='submit' name="fulltext"
-	        class="searchButton"
-	        value="Search" />
-	    </form>
-	  </div>
-	</div>
-	<div class="portlet" id="p-tb">
-	  <h5>Toolbox</h5>
-	  <div class="pBody">
-
-	    <ul>
-		  		  <li id="t-whatlinkshere"><a href="/index.php/Special:Whatlinkshere/RequirementsCouncil06TP">What links here</a></li>
-		  		  <li id="t-recentchangeslinked"><a href="/index.php/Special:Recentchangeslinked/RequirementsCouncil06TP">Related changes</a></li>
-		                	      	      	      	      	      	      	      <li id="t-upload"><a href="/index.php/Special:Upload">Upload file</a></li>	      	      <li id="t-specialpages"><a href="/index.php/Special:Specialpages">Special pages</a></li>	      	      	      <li id="t-print"><a href="/index.php?title=RequirementsCouncil06TP&amp;printable=yes&amp;printable=yes">Printable version</a></li>
-	      	    </ul>
-
-	  </div>
-	</div>
-	      </div><!-- end of the left (by default at least) column -->
-      <div class="visualClear"></div>
-      <div id="footer">
-    <div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="MediaWiki" /></a></div>		<ul id="f-list">
-	  <li id="f-lastmod"> This page was last modified 16:53, 12 February 2007.</li>	  <li id="f-viewcount">This page has been accessed 2,589 times.</li>	  	  	  	  <li id="f-about"><a href="/index.php/Eclipsepedia:About" title="Eclipsepedia:About">About Eclipsepedia</a></li>	  <li id="f-disclaimer"><a href="/index.php/Eclipsepedia:General_disclaimer" title="Eclipsepedia:General disclaimer">Disclaimers</a></li>	  	</ul>
-
-      </div>
-    </div>
-
-
-
 
 
 
