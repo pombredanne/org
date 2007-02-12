@@ -365,9 +365,7 @@ Thanks to some of the long time contributors to the Eclipse Themes and Prioritie
 <li>David Williams, IBM</li>
 <li>Philip Ma, HP</li>
 <li>Martin Klause, Wind River</li>
-<li></li>
-<li></li>
-<li></li>
+<li>Mike Milinkovich, Eclipse Foundation</li>
 </ul>
 <p align = right><small><a href="#top">back to top</a></small></p>
 
