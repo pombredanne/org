@@ -42,6 +42,10 @@
     		</td>
     	</tr>
  		<tr>
+    		<td width="49%">Rich Bartlett</td>
+    		<td width="51%">Nokia</td>
+ 		</tr> 		
+ 		<tr>
     		<td width="49%">Michael Bechauf</td>
     		<td width="51%">SAP AG</td>
 		</tr>
@@ -61,10 +65,6 @@
     		<td width="49%">Winston Damarillo</td>
     		<td width="51%">Simula Labs</td>
  		</tr>
- 		<tr>
-    		<td width="49%">Sam Greenblatt</td>
-    		<td width="51%">Computer Associates</td>
- 		</tr>
  		 <tr>
     		<td width="49%">Richard Gronback</td>
     		<td width="51%">Borland</td>
@@ -79,10 +79,6 @@
     		<td width="51%">Intel</td>
  		</tr>
  		<tr>
-    		<td width="49%">Heikki Koivu</td>
-    		<td width="51%">Nokia</td>
- 		</tr>
- 		<tr>
     		<td width="49%">Jochen Krause</td>
     		<td width="51%">Elected add-in provider representative</td>
  		</tr>
@@ -92,7 +88,7 @@
     		<td width="51%">Elected add-in provider representative</td>
  		</tr>
  		<tr>
-    		<td width="49%"> Scott Lewis</td>
+    		<td width="49%">Scott Lewis</td>
     		<td width="51%">Elected committer representative</td>
  		</tr>
  		<tr>
@@ -118,7 +114,11 @@
     		<td width="51%">Scapa Technologies</td>
  		</tr>
  		<tr>
-    		<td width="49%">Kevin Parker</td>
+    		<td width="49%">James Saliba</td>
+    		<td width="51%">Computer Associates</td>
+ 		</tr> 		
+ 		<tr>
+    		<td width="49%">John Scumniotales</td>
     		<td width="51%">Serena</td>
  		</tr>
  		<tr>
@@ -136,7 +136,7 @@
     		<td width="51%">IBM</td>
  		</tr>
 		<tr>
-    		<td width="49%"> David Tong</td>
+    		<td width="49%">David Tong</td>
     		<td width="51%">Sybase</td>
  		</tr>
  		<tr>
