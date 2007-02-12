@@ -144,6 +144,7 @@
 	<p>This is the third version of the Eclipse Roadmap document. It is important to recognize the many 
 	objectives which have been accomplished since the original version. The following is a list of accomplishments 
 	based on 2006&rsquo;s themes.</p>
+	
 	<p><strong>MIKE ADD TEXT HERE</strong></p>
 	<ul>
 	<li>MIKE ADD TEXT HERE</li>
