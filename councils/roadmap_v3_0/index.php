@@ -35,7 +35,6 @@
 			<li><a href="#intro">Introduction</a></li>
 			<li><a href="#background">Background</a></li>
 			<li><a href="#strategic">Strategic Goals</a></li>
-			<li><a href="#progress">Progress in 2006</a></li>
 			<li><a href="#future">Future Directions</a></li>
 			<li><a href="#process">The Roadmap Process</a></li>				
 		</ul>
@@ -231,7 +230,9 @@
 		<li>Enhance the security capabilities of the RCP plug-in model.</li>
 		<li>Provide application frameworks based on the RCP which extend the utility
 		of the platform into such technology areas as enterprise content management,
-		office productivity and the like. </li>
+		office and/or personal productivity tools --- particularly in the support of
+		open standards related to documents and data interchange --- business application components 
+		and the like. </li>
 		</ul></p>
 		<p>In addition to the above, we anticipate that the <a href="http://www.osgi.org/">OSGi</a> runtime technology 
 		which underpins RCP will continue to see rapid expansion in the number of projects using this 
