@@ -80,10 +80,13 @@
 	<h3><a name="background"></a>Background</h3>
 	<p>As defined on our website, the role of the Foundation is:</p>
 	<blockquote>
-	<p><em>The Eclipse Foundation is a not-for-profit corporation formed to
-	advance the creation, evolution, promotion, and support of the Eclipse
-	Platform and to cultivate both an open source community and an ecosystem
-	of complementary products, capabilities, and services.</em></p>
+	<p><em>Eclipse is an open source community whose projects are focused on 
+	building an open development platform comprised of extensible frameworks, 
+	tools and runtimes for building, deploying and managing software across 
+	the lifecycle. A large and vibrant ecosystem of major technology vendors, 
+	innovative start-ups, universities, research institutions and individuals 
+	extend, complement and support the Eclipse platform.
+	</em></p>
 	</blockquote>
 	<p>As defined in our <a
 		href="../../documents/Eclipse BYLAWS 2003_11_10 Final.pdf">Bylaws</a> the
@@ -109,16 +112,22 @@
 	<h3><a name="strategic"></a>Strategic Goals</h3>
 	<p>The following are the strategic goals of Eclipse.</p>
 	<ol>
-	<li>To define an open development platform which embodies 
+	<li>To define a vendor-neutral, open development platform which demonstrates 
 	technology leadership and innovation. As an open development
 	platform, Eclipse provides support for multiple operating environments
 	and multiple programming languages. The goal of Eclipse is to define
-	for the industry a development platform and rich client platform (RCP) which is freely licensed, open
+	for the industry a development platform and rich client platform (RCP) 
+	which is freely licensed, open
 	source and provides support for the full breadth of the application
 	lifecycle, in many disparate problem domains, across the development
 	and deployment platforms of choice. 
 	</li><br/><br/>
-	<li>To spur growth and adoption of Eclipse technology. Since its inception, 
+	<li>Eclipse has had an enviable track record of building and maintaining a 
+	strong and recognized name within the worldwide developer community. The 
+	Eclipse Foundation will continue to invest to ensure that Eclipse is recognized 
+	as a leading open source community with exciting, innovative technologies.
+	</li><br/><br/>
+	<li>To foster growth and adoption of Eclipse technology. Since its inception, 
 	there has been rapid growth in people using Eclipse as their personal 
 	toolset, as a platform for building their plug-ins, and as the basis for 
 	their commercial products. 
@@ -126,31 +135,21 @@
 	The high rate of adoption of the Eclipse technology can be
 	traced to two key factors: great technology, and the ease with which it
 	can be adopted by others, both commercial and open source. This ease of
-	adoption has, in turn, several dimensions. The EPL and its CPL
-	predecessor provide terms which are conducive to both commercial and
+	adoption has, in turn, several dimensions. The EPL provides terms which are 
+	conducive to both commercial and
 	open source use. The focus on extensible frameworks has made it
-	relatively simple to re-use Eclipse Technology.
+	relatively simple to re-use Eclipse Technology in both products and applications.
 	</li><br/><br/>
-	<li>To enable a commercially successful ecosystem. The creation of a large community of
+	<li>To cultivate the commercial success of the Eclipse ecosystem. 
+	The creation of a large community of
 	commercial and open source organizations which rely on and/or
 	complement Eclipse technology has been a major factor in the success of
-	Eclipse.
+	Eclipse. Each time Eclipse technology is used in the development of
+	a product, service or application the Eclipse community is strengthened.
 	</li><br/><br/>
 	</ol>
 	<p align = right><small><a href="#top">back to top</a></small></p>
 	
-	<hr>
-	<h3><a name="progress"></a>Progress in 2006</h3>
-	<p>This is the third version of the Eclipse Roadmap document. It is important to recognize the many 
-	objectives which have been accomplished since the original version. The following is a list of accomplishments 
-	based on 2006&rsquo;s themes.</p>
-	
-	<p><strong>MIKE ADD TEXT HERE</strong></p>
-	<ul>
-	<li>MIKE ADD TEXT HERE</li>
-	</ul>
-	
-	<p align = right><small><a href="#top">back to top</a></small></p>
 	<hr>
 	<h3><a name="future"></a>Future Directions</h3>
 	
@@ -172,106 +171,144 @@
 	envision having completed Eclipse-quality standards-based frameworks and
 	tooling.</p>
 	<ul>
-		<li><strong>Extend coverage of the software development life-cycle</strong><br/>
-		<br/>
-		Eclipse today provides a great deal of coverage of the software
-		development lifecycle. Eclipse&rsquo;s goal is to provide <em>complete</em> coverage of the
-		software development lifecycle with frameworks and extensible,
-		exemplary tools. In 2005, major new initiatives were started to help
-		extend Eclipse&rsquo;s lifecycle coverage, including 
-		<a href="/alf/">ALF</a>,
-		<a href="/datatools/">Data tools</a>, and
-		<a href="/proposals/modeling/">Modeling</a>.<br/>
-		<br/>
-		Some examples of possible new project areas which would further extend this lifecycle coverage include: <br/>
-		<ul>
-			<li>requirements management,</li>
-			<li>deployment, and</li>
-			<li>system management.</li>
-		</ul>
-		
-	
-	<p>In addition, Eclipse will continue to focus on evolving its
-	frameworks and exemplary tools to meet new development technologies and
-	runtime environments such as web services and service-oriented
-	architectures. Support for additional programming languages is also
-	anticipated. <br/>
-	</p>
+	<li><strong>Enterprise Development</strong>
+		<p>Eclipse has historically maintained a strong presence in the area of enterprise 
+		development, with the success and adoption of the Java development tools 
+		(<a href="/jdt/">JDT</a>) project as a prime example.</p>
+		<p>As Eclipse continues to grow and evolve, we anticipate additional
+		projects will be created in this space to meet the ever-evolving needs
+		of enterprise developers. The sections below will cover many topics of
+		interest to this audience (application lifecycle, RIA, RCP, SOA and the like), 
+		but in addition we anticipate additional projects in Eclipse focused on 
+		such disparate areas as 
+		<a href="/dltk/">dynamic languages</a>,
+		<a href="/epf/">software process engineering</a>,
+		<a href="/higgins/">identity management</a>, and
+		<a href="/modeling/">modeling</a>.
+		</p>
 	</li>
-	</ul>
-	<ul>
-		<li><strong>Extend the Rich Client Platform (RCP)</strong><br/>
-		<br/>
-		The <a
-			href="/rcp/">RCP</a>
+		
+	<li><strong>Embedded and Device Software Development</strong>
+		<p>Eclipse has seen a great deal of success in the embedded marketplace
+		over the past several years. For example, <a href="/cdt/">CDT</a> has been used by a number
+		of RTOS vendors as the basis for their tools platform. More recently the
+		<a href="/dsdp/">Device Software Development Platform</a> project has added
+		additional capabilities in the area of 
+		<a href="/dsdp/tm/">target management</a>,
+		<a href="/dsdp/dd/">device debug</a>,
+		<a href="/dsdp/mtj">tools for mobile java developers</a>,
+		<a href="/dsdp/nab/">C++ GUI builder</a>, and
+		<a href="/ercp/">embedded rich client platform</a>.
+		</p>
+		<p>However, there are
+		many different technologies currently not covered by Eclipse which
+		would extend the utility of the Eclipse Platform for the embedded
+		development market. Some examples include: <br/><br/>
+		<ul>
+			<li>Runtime analysis infrastructure to provide frameworks and tools to
+			monitor applications running on a device</li>
+			<li>Component configuration frameworks and tooling to configure
+			operating systems, file systems and middleware</li>
+			<li>Hardware bring-up mechanisms for on-chip debugging and early
+			development</li>
+			<li>Tools for <a href="/proposals/tml/">mobile Linux developers</a></li>
+			<li>Board design tools </li>
+		</ul><br/><br/></p>
+	</li>
+
+	<li><strong>Rich Client Platform (RCP)</strong>
+		<p>
+		The <a href="/rcp/">RCP</a>
 		was first introduced by Eclipse with the 3.0 release of the Eclipse Platform
-		in June, 2004. The RCP is a technology for building and managing
-		applications with a rich user experience. Eclipse&rsquo;s goal is to make the
+		in June, 2004. The RCP is a technology for building, provisioning and managing
+		client applications with a rich user experience. Eclipse&rsquo;s goal is to make the
 		RCP a mainstream development and runtime platform for both ISVs and enterprise
 		developers. To do so, we plan to evolve the RCP technology in the
-		following ways: <br/>
+		following ways: <br/><br/>
 		<ul>
-			<li>Target RCP for additional operating environments. One example of
-		this is the eRCP project which is evaluating the use of Eclipse for
-		embedded constrained devices such as mobile phones and PDAs.</li>
-		<li>Enhance RCP with new functionality such as better update and
+		<li>Enhance RCP with new functionality such as better update, provisioning and
 		management capabilities.</li>
 		<li>Enhance the security capabilities of the RCP plug-in model.</li>
-		<li>Provide application frameworks based on the RCP. <br/>
-		<br/>
-		</li>
-	</ul>
+		<li>Provide application frameworks based on the RCP which extend the utility
+		of the platform into such technology areas as enterprise content management,
+		office productivity and the like. </li>
+		</ul></p>
+		<p>In addition to the above, we anticipate that the <a href="http://www.osgi.org/">OSGi</a> runtime technology 
+		which underpins RCP will continue to see rapid expansion in the number of projects using this 
+		technology on architectural tiers
+		other than the client. Already, the Eclipse <a href="/equinox/">Equinox</a> project
+		includes technology for the <a href="/equinox/server/">server-side</a>. The
+		<a href="/corona/">Corona</a> project extends this for collaborative development. The
+		<a href="/ercp/">eRCP</a> project is bringing OSGi-based implementations to mobile devices.
+		This is a trend that we expect to see continue as interest in OSGi as a lightweight container
+		for services-based components continues to expand.
+		</p>
 	</li>
-	<li><strong>Embedded</strong><br/>
-	<br/>
-	Eclipse has seen a great deal of success in the embedded marketplace
-	over the past several years. For example, CDT has been used by a number
-	of RTOS vendors as the basis for their tools platform. But there are
-	many different technologies currently not covered by Eclipse which
-	would extend to utility of the Eclipse Platform for the embedded
-	market. Some examples include: <br/>
-	<ul>
-		<li>Runtime analysis infrastructure to provide frameworks and tools to
-		monitor applications running on a device</li>
-		<li>Component configuration frameworks and tooling to configure
-		operating systems, file systems and middleware</li>
-		<li>Target connectivity frameworks to provide mechanisms to connect to
-		embedded devices</li>
-		<li>Hardware bring-up mechanisms for on-chip debugging and early
-		development</li>
-		<li>Board design tools <br/>
-		<br/>
-		</li>
-	</ul>
+
+	<li><strong>Rich Internet and Ajax Applications</strong>
+		<p>RIA technologies such as Ajax and Flash continue to grow rapidly as the development
+		technology of choice for many new software products and applications. The Eclipse 
+		community&rsquo;s initial projects in this space include:</p>
+		<ul>
+			<li>The Ajax Toolkit Framework (<a href="/atf/">ATF</a>) project which provides a complete
+			IDE for Ajax edit/compile/debug.</li>
+			<li>The Rich Ajax Platform (<a href="/rap/">RAP</a>) project which implements an OSGi-based
+			runtime for building and deploying rich, Ajax-enabled web applications written in Java and 
+			deployed from a	server.</li>
+		</ul>
+		<p>We anticipate continued growth in Eclipse projects in the RIA area, as developers look to 
+		leverage Eclipse runtimes, frameworks and tools in this domain.
+		</p>
 	</li>
-	<li><strong>Multiple language support</strong><br/>
-	<br/>
-	Although Eclipse has been very successful in providing language tools
-	for Java and C/C++, doing so still requires a great deal of effort.
-	Improving the Eclipse frameworks to provide more consistent APIs for
-	plugging in editors, debuggers, build environments, etc. for multiple
-	languages is an important goal. There are several different views on
-	what multiple language support can mean. Support for compiled
-	languages, scripting languages and &quot;Java like&quot; languages such
-	as JSP, SQLJ and the like are all related areas where work needs to be
-	done. There are numerous trade-offs to be made as well. For example,
-	JDT has been highly customized to provide a very rich feature set. Will
-	an abstract language toolkit approach meet its needs?<br/>
-	<br/>
-	From the perspective of the plug-in providers, there is a lot of
-	interest in more easily enabling plug-ins for specialized components
-	(debuggers, managed builds, editors) which work across multiple
-	languages. Currently if an add-in provider wants to support both CDT
-	and JDT separate plug-ins are required. <br/>
-	<br/>
+
+	<li><strong>Application Lifecycle</strong>
+		<p>Eclipse today provides a great deal of coverage of the software
+		development lifecycle. Eclipse&rsquo;s goal is to provide complete coverage of the
+		software development lifecycle with frameworks and extensible,
+		exemplary tools. Included in this category are such capabilities as
+		tool integration, developer productivity tools, development management,
+		traceability tools, and collaborative development.</p>
+		<p>In 2006, several new initiatives were started to help
+		extend Eclipse&rsquo;s lifecycle coverage, including 
+		<a href="/corona/">Corona</a>,
+		<a href="/aperi/">Aperi</a>,
+		<a href="/cosmos/">COSMOS</a>, and
+		<a href="/buckminster/">Buckminster</a>.
+		<p/>
+		<p>Some examples of possible new project areas which would further extend this lifecycle 
+		coverage include: <br/>
+		<br/><ul>
+			<li>requirements management
+			<li>deployment and provisioning, and</li>
+			<li>build management.</li>
+		</ul></p>
+	</li>	
+
+	<li><strong>Service Oriented Architecture</strong>
+		<p>One of the major areas of growth in enterprise application development is in 
+		Service Oriented Architecture (SOA). The major focal point for Eclipse development 
+		in this space is the SOA Tools Project (<a href="/stp/">STP</a>), which is focused
+		providing a generic, extensible, standards-based tool platform for producing 
+		SOA applications based around the Service Component Architecture (SCA) specification.
+		</p>
+		<p>The initial projects within STP are focused on such areas as
+		<a href="/stp/sc/">service creation</a>,
+		<a href="/stp/b2j/">BPEL to Java</a>, and
+		<a href="/stp/bpmn/">BPMN</a>. Future initiatives in the SOA space could include
+		support of the Java Business Integration (JBI) spec.
+		</p>
 	</li>
-	<li><strong>Vertical market technology frameworks</strong><br/>
-	<br/>
-	We are seeing interest from vertical market vendors in basing their
-	next generation tools on Eclipse. Thus a future growth area for Eclipse
-	is to extend our projects to provide open source application frameworks
-	and exemplary tools targeted at standards in specific vertical markets
-	such as aerospace, automotive, and healthcare.</li>
+
+	<li><strong>Vertical market technology frameworks</strong>
+		<p>We are seeing interest from vertical market vendors in basing their
+		next generation tools on Eclipse. Thus a future growth area for Eclipse
+		is to extend our projects to provide open source application frameworks
+		and exemplary tools targeted at standards in specific vertical markets
+		such as aerospace, automotive, and healthcare. One area of particular interest
+		is the development of RCP-based application frameworks which
+		can be used to build and deploy products and applications targeted at 
+		particular domains.</p>
+	</li>
 	</ul>
 	<p align = right><small><a href="#top">back to top</a></small></p>
 	
