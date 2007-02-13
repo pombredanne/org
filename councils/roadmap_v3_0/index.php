@@ -281,7 +281,8 @@
 			<li>requirements management
 			<li>deployment and provisioning, and</li>
 			<li>build management.</li>
-		</ul></p>
+		</ul>
+		</p></br>
 	</li>	
 
 	<li><strong>Service Oriented Architecture</strong>
