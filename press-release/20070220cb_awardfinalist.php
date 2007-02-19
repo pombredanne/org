@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-<p><strong>February 20th, 2007</strong> - The Eclipse Foundation is pleased to announce the finalists of 
+<p><strong>February 19th, 2007</strong> - The Eclipse Foundation is pleased to announce the finalists of 
 the <a href="http://www.eclipse.org/org/foundation/eclipseawards/">2007 Eclipse Community Awards.</a> </p>
  
 <p>The Individual Awards recognize the people who have volunteered their time and resources in making Eclipse a 
