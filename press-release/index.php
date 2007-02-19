@@ -36,7 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20070220cb_awardfinalist.php">Finalist for Eclipse Community Awards 2007</a> - February 20th 2007</li>
+		<li><a href="20070220cb_awardfinalist.php">Finalist for Eclipse Community Awards 2007</a> - February 19th 2007</li>
 		
 		<li><a href="20070207cb_eclipsecon.php">Nominations for the Open Source Pavilion at EclipseCon 2007</a> - February 7th 2007</li>
 		<li><a href="20070129_higgins.php">Bandit and Higgins Projects Bridge Multiple Identity Systems to Provide a Consistent Experience of Identity</a> - January 29th 2007</li>
