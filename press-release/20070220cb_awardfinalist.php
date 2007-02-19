@@ -37,8 +37,8 @@ newsgroup.</p>
 </ul></p> 
 
 <p>The Technology Awards recognize some of the best Eclipse-based open source projects and commercial products.  
-The finalists were selected by a panel of judges from the Eclipse community from a pool 
-<a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_nominations.php">63 nominations.</a> 
+The finalists were selected from a pool of <a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_nominations.php">63
+nominations</a> by a panel of judges from the Eclipse community. 
 </p>
 <p><ul>
 <li>Best Open Source RCP application: <a href="http://eclipsetrader.sourceforge.net/">EclipseTrader</a>, 
