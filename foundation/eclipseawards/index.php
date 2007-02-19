@@ -74,7 +74,7 @@
 		<li><font color="#A9A9A9">Nominations opened - December 15, 2006</font></li>
 		<li><font color="#A9A9A9">Nominations closed - January 22, 2007</font></li>
 		<li><font color="#A9A9A9">Voting Begins for Individual Awards - January 29, 2007</font></li>
-		<li>Voting Ends for Individual Awards - February 16, 2007</li>
+		<li><font color="#A9A9A9">Voting Ends for Individual Awards - February 16, 2007</font></li>
 		<li>Awards Announced - March 5, 2007</li>
 	</ul></p><br>
 
