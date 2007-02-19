@@ -54,7 +54,7 @@
 		<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies welcoming new people into the Eclipse community.  This
 		award will be presented to the individual that has answered the most questions raised on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
 		</ol> 	
- 		<a href="./winners07.php">Review</a> the finalists.</p>
+ 		<a href="./finalists07.php">Review</a> the finalists.</p>
 </p>
 
 	<h3>Technology Awards</h3>
@@ -66,7 +66,7 @@
 			<li><strong>Best commercial Eclipse based developer tool</strong> - Recognizes a commercial product that provides an innovative, high quality product for software developers.
 			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> - Recognizes an organization (non-ISV) that has used and deployed Eclipse within an enterprise.
 		</ol>
- 		<a href="./winners07.php">Review</a> the finalists.
+ 		<a href="./finalists07.php">Review</a> the finalists.
 		</p>
 		
 	<h3>Important Dates</h3>
