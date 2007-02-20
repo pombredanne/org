@@ -43,7 +43,7 @@ nominations</a> by a panel of judges from the Eclipse community.
 <p><ul>
 <li>Best Open Source RCP application: <a href="http://eclipsetrader.sourceforge.net/">EclipseTrader</a>, 
 <a href="http://portal.chronos.org/psicat-site/">PSICAT</a>, 
-<a href="http://www.rssowl.org/">RSS-Owl</a>
+<a href="http://www.rssowl.org/">RSSOwl</a>
 <li>Best Commercial RCP application: <a href="http://www.tibco.com/devnet/business_studio/default.jsp">TIBCO Business Studio</a>, 
 <a href="http://www.ivis.com/public/products/xprocess/index.cfm/">Ivis Technologies xProcess</a>
 <li>Best Open Source Eclipse Based Developer Tool: <a href="http://www.eclemma.org/">EclEmma</a>, 
