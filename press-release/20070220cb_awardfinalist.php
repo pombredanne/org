@@ -30,7 +30,7 @@ vibrant and innovative community. Finalists were selected by their peers in an o
 Newcomer Evangelist is based on the individual that has answered the most questions raised on the eclipse.newcomer 
 newsgroup.</p>
 <p><ul>
-<li>Top Ambassador:  Chris Aniszczyk, Alex Blewitt, Doug Shaefer
+<li>Top Ambassador:  Chris Aniszczyk, Alex Blewitt, Doug Schaefer
 <li>Top Contributor:  Eugene Kuleshov, Philippe Ombredanne, Kimberley Peter, Tom Schindl
 <li>Top Committer:  Mik Kersten, Ed Merks, Thomas Watson
 <li>Top Newcomer Evangelist:  Hendrik Maryns, Daniel Megert, Eric Rizzo
