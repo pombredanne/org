@@ -11,5 +11,5 @@
 	$Nav->addCustomNav("Foundation", "/org/foundation/", "_self", 1);	
 	$Nav->addCustomNav("Governance", "/org/documents/", "_self", 1);
 	$Nav->addCustomNav("Legal Resources", "/legal/", "_self", 1);
-	$Nav->addCustomNav("Contact Us", "/org/foundation/scripts/contact.php/", "_self", 1);
+	$Nav->addCustomNav("Contact Us", "http://www.eclipse.org/org/foundation/scripts/contact.php/", "_self", 1);
 ?>
