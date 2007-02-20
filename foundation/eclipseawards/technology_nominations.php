@@ -42,7 +42,7 @@ ob_start();
 				<li><a href="http://eclipsetrader.sourceforge.net">EclipseTrader</a></li>			
 				<li><a href="http://jlibrary.sourceforge.net/">jLibrary</a></li>
 				<li><a href="http://portal.chronos.org/psicat-site/">PSICAT (Paleontological Stratigraphic Interval Construction and Analysis Tool)</a></li>				
-				<li><a href="http://www.rssowl.org/">RSS-Owl</a></li>
+				<li><a href="http://www.rssowl.org/">RSSOwl</a></li>
 				<li><a href="http://zdt.sourceforge.net">ZDT</a></li>				
 				<li><a href="http://www.ziptie.org/">ZipTie</a></li>
 			</ul>
