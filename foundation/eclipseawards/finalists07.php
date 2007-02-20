@@ -79,7 +79,7 @@ ob_start();
 			<ul>
 				<li class="finalist"><a href="http://eclipsetrader.sourceforge.net">EclipseTrader</a>
 				<li class="finalist"><a href="http://portal.chronos.org/psicat-site/">PSICAT</a>
-				<li class="finalist"><a href="http://www.rssowl.org/">RSS-Owl</a>
+				<li class="finalist"><a href="http://www.rssowl.org/">RSSOwl</a>
 				<br>
 			</ul>
 		</div>		
