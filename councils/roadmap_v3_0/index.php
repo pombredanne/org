@@ -115,7 +115,7 @@
 	technology leadership and innovation. As an open development
 	platform, Eclipse provides support for multiple operating environments
 	and multiple programming languages. The goal of Eclipse is to define
-	for the industry a development platform and rich client platform (RCP) 
+	for the industry a development and runtime platform (e.g. Equinox, RCP) 
 	which is freely licensed, open
 	source and provides support for the full breadth of the application
 	lifecycle, in many disparate problem domains, across the development
