@@ -33,21 +33,21 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Guidelines</h2>
-		<p>The Technology Awards will be determined by a panel of judges.   The judges have been selected from Eclipse oriented editors and 
-		Eclipse project leaders.  The panel of judges will determine the winner based on a 
+		<p>The Technology Awards were determined by a panel of judges.   The judges were selected from Eclipse oriented editors and 
+		Eclipse project leaders.  The panel of judges determined winners based on a 
 		majority vote.  </p>
 		<p>Open source projects, products, or organizations may have been nominated by anyone and vendors 
 		were allowed to nominate their own products and organizations.  <strong>Nominations closed January 22, 2007.</strong></p>
 		
 		
 		<h3>Judging Criteria</h3>
-		<p>The criteria for judging for the open source and commercial product awards will be: 
+		<p>The criteria for judging for the open source and commercial product awards are: 
 		<ol> <li>Usability and intuitiveness of the user interface - Is the product user interface easy to understand</li>
 			<li>Innovation and Uniqueness - How cleverly does it solve the problem</li>
 			<li>Completeness - How well does it solve the problem, including technology, documentation, 
 			tutorials, web site, community support, etc.</li>
 		</ol></p>
-		<p>The criteria for judging for the 'Best Deployment' award will be: 
+		<p>The criteria for judging for the 'Best Deployment' award are: 
 		<ol> <li> The number of Eclipse projects being used </li>
 			<li>The scale & importance of internal applications being deployed </li>
 			<li>The scale of the deployment, ie how many people are affected </li>
