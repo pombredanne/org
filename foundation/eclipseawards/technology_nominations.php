@@ -33,7 +33,6 @@ ob_start();
 
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
-		<h2>Current Nominations</h2>
 		<p>The following is the list of nominations for the Technology Awards.  
 		Nominations closed on January 22, 2007.</p>
 		<div class="homeitem3col">
@@ -135,8 +134,11 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="technology_awards_guidelines.php">Guidelines of Technology Awards</a></li>
-
+				<li><a href="index.php">Explanation of Awards Categories</a></li>
+				<li><a href="finalists07.php">Finalists</a></li>				
+				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
+				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
+				<li><a href="judges07.php">Technology Awards Judges</a></li>
 			</ul>
 		</div>
 	</div>
