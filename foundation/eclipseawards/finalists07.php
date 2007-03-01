@@ -73,7 +73,8 @@ ob_start();
 		</div>
 
 	<h2>Technology Award Finalists</h2>
-		<p>Presented below is the list of award finalists for each of the technology awards catagories.</p>
+		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
+			by this year's <a href="judges07.php">judging panels</a>.</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
