@@ -264,9 +264,11 @@
 
 	<li><strong>Application Lifecycle</strong>
 		<p>Eclipse today provides a great deal of coverage of the software
-		development lifecycle. Eclipse&rsquo;s goal is to provide complete coverage of the
-		software development lifecycle with frameworks and extensible,
-		exemplary tools. Included in this category are such capabilities as
+		development lifecycle. The Eclipse Foundation&rsquo;s goal is to 
+		enable complete coverage of the software development lifecycle by 
+		Eclipse-based technology, through a combination of open source frameworks 
+		and exemplary tools, and an ecosystem of complementary products, 
+		capabilities, and services. Included in this category are such capabilities as
 		tool integration, developer productivity tools, development management,
 		traceability tools, and collaborative development.</p>
 		<p>In 2006, several new initiatives were started to help
@@ -365,7 +367,7 @@ Planning Council. The EMO ensures that the Planning
 	two groups converged on this&nbsp;<SPAN class=203453704-21022005>Roadmap
 	</SPAN>document.</P>
 	<p align="left">The Roadmap was presented and affirmed by the Eclipse Board of
-	Directors on INSERT DATE HERE.</p>
+	Directors on March 5, 2007.</p>
 	<p align="left">&nbsp;</p>
 		
 		
