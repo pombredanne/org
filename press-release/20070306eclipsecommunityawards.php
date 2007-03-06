@@ -50,7 +50,7 @@
 		<br />
 		All company/product names and service marks may be trademarks or registered trademarks of their respective companies.
 		<br /><br /><strong>Press Contact</strong><br>	
-		Rachel Imbriglio<br>
+		John Moran or Lori Kroll<br>
 		Schwartz Communications<br>
 		781-684-0770<br>
 		eclipse@schwartz-pr.com <br>
@@ -58,15 +58,6 @@
 
 		</p>
 							
-	</div>
-
-	<div id="rightcolumn">
-	<div class="sideitem">
-		<h6>Related Links</h6>
-		<ul>
-			<li><a href="/org/foundation/eclipseawards/winners.php">Eclipse 2006 Community Awards Home page</a></li>
-		</ul>	
-	</div>
 	</div>
 		
 </div>
