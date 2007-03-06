@@ -22,9 +22,8 @@
 		<h1>$pageTitle</h1>
 		<h2>Press Release</h2>
 		<h2 ALIGN="CENTER"><strong>Eclipse Community Awards Winners Announced</strong></h2>
-		<ul>
-			<li>Awards Recognize Top Individuals and Technologies in the Eclipse Community</li>
-		</ul>
+		<center><i>Awards Recognize Top Individuals and Technologies in the Eclipse Community</i></center>
+
 		<p><strong>ECLIPSECON 2007, SANTA CLARA, Calif., March 06, 2007</strong>—The Eclipse Foundation today announced the winners of its annual Eclipse Community Awards, which recognize the top individuals, products and organizations in the Eclipse community. Recipients were honored at an awards ceremony yesterday on the opening day of EclipseCon 2007.
 		<br /><br />
 		The Individual Awards acknowledge people that have given time and resources to make Eclipse a better community. Winners were selected by their peers in an online vote. The selection of the “Top Newcomer Evangelist” award was based on the individual that answered the most questions raised on the eclipse.newcomer newsgroup.</p>
