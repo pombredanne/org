@@ -48,7 +48,7 @@
 		<p><strong>CodeGear,</strong> a leader in developer tools, announced it is donating a connector for Eclipse Mylar to enable agile teams to use XPlanner to manage stories and tasks within Eclipse. JBuilder 2007 from CodeGear was the first IDE to take advantage of Mylar, shipping on a pre-1.0 release. The CodeGear team has updated the connector for Mylar 1.0 and will be continuing to support and enhance this tool as part of the Eclipse Mylar project. 
 		<br/><a href="http://www.codegear.com">http://www.codegear.com.</a></p> 
 		<p><strong>Codign Software</strong> is presenting CoViewDeveloper, CoViewManager and Lighthouse at EclipseCon. Available for free to Eclipse committers, open source developers and students, these products improve unit testing and test management for local, global and dual-shore development efforts.
-<br/><a href="www.codign.com/covieweclipsecon.html">www.codign.com/covieweclipsecon.html</a></p>
+<br/><a href="http://www.codign.com/covieweclipsecon.html">www.codign.com/covieweclipsecon.html</a></p>
 
 <p><strong>CollabNet and TaskTop Partner to Bring Eclipse, Mylar, Subversion and CollabNet together.</strong> The integration of these leading development tools is the first of its kind and creates a highly productive working development environment that makes tasks an integrated part of the developer’s workflow throughout the lifecycle of a project.  
 <br/><a href="http://www.collab.net/news/press/2007/mylar.html">http://www.collab.net/news/press/2007/mylar.html</a></p>
