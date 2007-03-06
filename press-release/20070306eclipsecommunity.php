@@ -62,13 +62,13 @@
 <br/><a href="http://www.emediawire.com/releases/2007/2/emw507268.htm">http://www.emediawire.com/releases/2007/2/emw507268.htm</a></p>
 
 <p><strong>Innoopract becomes Strategic Member at Eclipse.</strong> The change from Add-in Provider Member to Strategic Member reflects the strong commitment by the company to expand Eclipse’s role as a leading application platform. Innoopract sees potential for enterprise software-as-a-service offerings combining Rich Ajax technology with distribution tools and services.
-<br/><a href="www.innoopract.com/press/strategic_membership">www.innoopract.com/press/strategic_membership</a></p>
+<br/><a href="http://www.innoopract.com/press/strategic_membership">www.innoopract.com/press/strategic_membership</a></p>
 
 <p><strong>Innoopract and 1&1 cooperate in the Rich Ajax Platform project.</strong> The RAP project aims to enable developers to build rich, AJAX-enabled Web applications by using the Eclipse development model, plug-ins and a Java-only API.  Leveraging technology from both companies, RAP hides most tasks and techniques typical to developing web programming like AJAX, JavaScript, XML and others.
-<br/><a href="www.innoopract.com/press/RAP_1and1">www.innoopract.com/press/RAP_1and1</a></p> 
+<br/><a href="http://www.innoopract.com/press/RAP_1and1">www.innoopract.com/press/RAP_1and1</a></p> 
 
 <p><strong>Innoopract and Instantiations collaborate to bring developers better “out-of-the-box” Eclipse Solutions.</strong>  Eclipse Packaging Project will bundle Eclipse technologies reducing guess work facing new Eclipse users. Innoopract will leverage its distribution expertise to help organize, configure and distribute Eclipse-based packages that make sense for the community.
-<br/><a href="www.innoopract.com/press/epp">www.innoopract.com/press/epp</a></p>
+<br/><a href="http://www.innoopract.com/press/epp">www.innoopract.com/press/epp</a></p>
 
 <p><strong>Instantiations</strong> WindowTester Pro is an Eclipse-based software development product that streamlines testing of Java client applications that result rich, consistent and reliable user interfaces. It frees developers to focus on creating business logic, rather than hand-crafting and maintaining test code by automating recording, test generation, code coverage, and playback of GUI application interactions.
 <br/><a href="http://www.instantiations.com/press/release/070306.html">http://www.instantiations.com/press/release/070306.html</a></p> 
@@ -82,14 +82,14 @@
 <p><strong>Oregon State University's Open Source Lab</strong> will announce it has joined Eclipse Foundation as a new member, and will also announce a new and significant global open source health information project including public and private industry partners.</p>
 
 <p><strong>ProSyst Software</strong> announced it has joined the Eclipse Foundation. ProSyst is an OSGi pioneer and besides expanding its services offerings ProSyst plans to drive a unifying architectural approach for RCP and eRCP deployment across both embedded and enterprise sectors. ProSyst is one of the main driving forces behind OSGi/JSR 232 and will be very happy to contribute its embedded and remote management know how.
-<br/><a href="www.prosyst.com">www.prosyst.com</a></p>
+<br/><a href="http://www.prosyst.com">www.prosyst.com</a></p>
 
 <p><strong>Teamprise</strong> announced it is joining the Eclipse Foundation as an Add-In Provider. Teamprise enables Java developers to use the source code control, work item tracking, and reporting features of Microsoft Visual Studio 2005 Team Foundation Server from within Eclipse-based Integrated Development Environments (IDE), and from other operating systems, including Linux and Mac OS X.
 <br/><a href="http://www.teamprise.com/news/2007/03/teamprise_joins_eclipse_foundation.html">http://www.teamprise.com/news/2007/03/teamprise_joins_eclipse_foundation.html</a></p>
 		
 <p><strong>About the Eclipse Foundation</strong></p>
 <p>Eclipse is an open source community whose projects are focused on providing an extensible development platform and application frameworks for building software. Eclipse provides extensible tools and frameworks that span the software development lifecycle, including support for modeling, language development environments for Java, C/C++ and others, testing and performance, business intelligence, rich client applications and embedded development. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
-<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse and the Eclipse Foundation are available at <a href="www.eclipse.org">www.eclipse.org</a>.</p>
+<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org">www.eclipse.org</a>.</p>
 
 		<center># # #</center> 
 		<br />
