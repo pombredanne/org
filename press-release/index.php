@@ -36,6 +36,9 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20070306eclipseajax.php">Eclipse Foundation Announces Initiatives for Ajax Applications and Dynamic Languages</a> - March 6th 2007</li>
+		<li><a href="20070306eclipsecommunityawards.php">Eclipse Community Awards Winners Announced</a> - March 6th 2007</li>
+		<li><a href="20070306eclipsecommunity.php">Doors Open for EclipseCon 2007</a> - March 6th 2007</li>
 		<li><a href="20070301cb_elections.php">Eclipse Foundation Announces 2007 Board Member Election Results</a> - March 1st 2007</li>
 		<li><a href="20070220cb_awardfinalist.php">Finalist for Eclipse Community Awards 2007</a> - February 19th 2007</li>
 		<li><a href="20070207cb_eclipsecon.php">Nominations for the Open Source Pavilion at EclipseCon 2007</a> - February 7th 2007</li>
