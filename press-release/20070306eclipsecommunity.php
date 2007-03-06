@@ -50,7 +50,7 @@
 		<p><strong>Codign Software</strong> is presenting CoViewDeveloper, CoViewManager and Lighthouse at EclipseCon. Available for free to Eclipse committers, open source developers and students, these products improve unit testing and test management for local, global and dual-shore development efforts.
 <br/><a href="http://www.codign.com/covieweclipsecon.html">www.codign.com/covieweclipsecon.html</a></p>
 
-<p><strong>CollabNet and TaskTop Partner to Bring Eclipse, Mylar, Subversion and CollabNet together.</strong> The integration of these leading development tools is the first of its kind and creates a highly productive working development environment that makes tasks an integrated part of the developer’s workflow throughout the lifecycle of a project.  
+<p><strong>CollabNet and Tasktop Partner to Bring Eclipse, Mylar, Subversion and CollabNet together.</strong> The integration of these leading development tools is the first of its kind and creates a highly productive working development environment that makes tasks an integrated part of the developer’s workflow throughout the lifecycle of a project.  
 <br/><a href="http://www.collab.net/news/press/2007/mylar.html">http://www.collab.net/news/press/2007/mylar.html</a></p>
 
 <p><strong>Discovery Machine</strong> announces its Machines’ patented product and services portfolio has been enhanced on Windows, Linux and Mac OSX with a new Modeler, Methodology, a Custom Console for user-specific strategies, an Advisor for  complex algorithms a GearRunner for distributed executables, an Eclipse Gear Plug-in that enables users to efficiently deploy knowledge structures, and an intuitive Sketching Console.</p>
