@@ -33,14 +33,14 @@ ob_start();
 <link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
-		<h2>Individual Award Finalists</h2>
-		<p>Presented below is the list of award finalists for each of the individual awards catagories.</p>
+		<h2>Individual Award Finalists & Winners</h2>
+		<p>Presented below is the list of award finalists and winners for each of the individual awards catagories.</p>
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
 			<ul>
-				<li class="finalist">Chris Aniszczyk</a>
-				<li class="finalist">Alex Blewitt</a>
-				<li class="finalist">Doug Schaefer</a>
+				<li class="winner">Chris Aniszczyk</li>
+				<li class="finalist">Alex Blewitt <strong>(finalist)</strong></li>
+				<li class="finalist">Doug Schaefer <strong>(finalist)</strong></li>
 				<br>
 			</ul>
 		</div>		
@@ -48,39 +48,39 @@ ob_start();
 
 			<h3>Top Contributor</h3>
 			<ul>
-				<li class="finalist">Eugene Kuleshov</a>
-				<li class="finalist">Philippe Ombredanne</a>
-				<li class="finalist">Kimberley Peter</a>
-				<li class="finalist">Tom Schindl</a>
+				<li class="finalist">Eugene Kuleshov <strong>(finalist)</strong></li>
+				<li class="finalist">Philippe Ombredanne <strong>(finalist)</strong></li>
+				<li class="winner">Kimberley Peter - tie</li>
+				<li class="winner">Tom Schindl - tie</li>
 				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li class="finalist">Mik Kersten</a>	
-				<li class="finalist">Ed Merks</a>
-				<li class="finalist">Thomas Watson</a>	
+				<li class="finalist">Mik Kersten <strong>(finalist)</strong></li>	
+				<li class="winner">Ed Merks</li>
+				<li class="finalist">Thomas Watson <strong>(finalist)</strong></li>	
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Top Newcomer Evangelist</h3>
 			<ul>
-				<li class="finalist">Hendrik Maryns</a>	
-				<li class="finalist">Daniel Megert</a>
-				<li class="finalist">Eric Rizzo</a>	
+				<li class="finalist">Hendrik Maryns <strong>(finalist)</strong></li>	
+				<li class="winner">Daniel Megert</li>
+				<li class="finalist">Eric Rizzo <strong>(finalist)</strong></li>
 			</ul>
 		</div>
 
 	<h2>Technology Award Finalists</h2>
-		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
+		<p>Presented below is the list of award finalists and winners for each of the technology awards catagories as determined
 			by this year's <a href="judges07.php">judging panels</a>.</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://eclipsetrader.sourceforge.net">EclipseTrader</a>
-				<li class="finalist"><a href="http://portal.chronos.org/psicat-site/">PSICAT</a>
-				<li class="finalist"><a href="http://www.rssowl.org/">RSSOwl</a>
+				<li class="finalist"><a href="http://eclipsetrader.sourceforge.net">EclipseTrader</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://portal.chronos.org/psicat-site/">PSICAT</a></li>
+				<li class="finalist"><a href="http://www.rssowl.org/">RSSOwl</a> <strong>(finalist)</strong></li>
 				<br>
 			</ul>
 		</div>		
@@ -88,31 +88,31 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.tibco.com/devnet/business_studio/product_resources.jsp?tab=downloads">TIBCO Business Studio</a>
-				<li class="finalist"><a href="http://www.ivis.com/public/products/xprocess/index.cfm">Ivis Technologies xProcess</a>
+				<li class="winner"><a href="http://www.tibco.com/devnet/business_studio/product_resources.jsp?tab=downloads">TIBCO Business Studio</a></li>
+				<li class="finalist"><a href="http://www.ivis.com/public/products/xprocess/index.cfm">Ivis Technologies xProcess</a> <strong>(finalist)</strong></li>
 				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclemma.org/">EclEmma</a>
-				<li class="finalist"><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a>
+				<li class="finalist"><a href="http://www.eclemma.org/">EclEmma</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.adobe.com/products/flex/productinfo/overview/">Adobe Flex 2.0</a>
-				<li class="finalist"><a href="http://www.qnx.com/products/development">QNX Momentics IDE</a>
+				<li class="finalist"><a href="http://www.adobe.com/products/flex/productinfo/overview/">Adobe Flex 2.0</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://www.qnx.com/products/development">QNX Momentics IDE</a>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.bardusch.de">Bardusch GmbH</a>
-				<li class="finalist"><a href="http://www.jpmchase.com">JPMorgan Chase</a>
-				<li class="finalist"><a href="http://www.jpl.nasa.gov/">NASA Ensemble Team</a>
+				<li class="finalist"><a href="http://www.bardusch.de">Bardusch GmbH</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://www.jpmchase.com">JPMorgan Chase</a>
+				<li class="finalist"><a href="http://www.jpl.nasa.gov/">NASA Ensemble Team</a> <strong>(finalist)</strong></li>
 			</ul>
 		</div>
 		<br />
