@@ -50,7 +50,7 @@
 	    <h3>$year Elections</h3>
 		<p>&nbsp;&nbsp;Information concerning the 2007 elections is contained within the links below:</p>
 		<ul>
-		<li>Voting has closed for the 2007 elections. The results will be announced soon; see these <a href="keydates.php">key dates.</a> </li>
+		<li>The <a href="/org/press-release/20070301cb_elections.php">winners</a> for the 2007 election.</li>
 		<li>The <a href="nominees.php">candidates</a> for the 2007 election.</li>
 		<li>The <a href="keydates.php">key dates</a> for the 2007 election.</li>
 		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
