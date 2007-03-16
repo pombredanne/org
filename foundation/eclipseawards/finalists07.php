@@ -33,7 +33,7 @@ ob_start();
 <link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
-		<h2>Individual Award Finalists & Winners</h2>
+		<h2>Individual Award Winners</h2>
 		<p>Presented below is the list of award finalists and winners for each of the individual awards catagories.</p>
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
