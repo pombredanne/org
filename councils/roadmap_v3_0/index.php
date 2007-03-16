@@ -21,12 +21,6 @@
 
     <div id="maincontent">
     
-    <style> 
-		body {   
-		background-image: url('./draft.gif'); 
-		background-repeat: repeat-y
-		}
-	</style>
 	
 	<div id="midcolumn">
     <h1><a name="top"></a>$pageTitle</h1>

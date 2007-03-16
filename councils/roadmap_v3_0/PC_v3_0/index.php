@@ -20,12 +20,6 @@ border-bottom: thin dotted
 }
 </style>
 
-    <style> 
-		body {   
-		background-image: url('./draft.gif'); 
-		background-repeat: repeat-y
-		}
-	</style>
 	
 </head>
 

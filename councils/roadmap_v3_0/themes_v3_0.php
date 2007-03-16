@@ -21,12 +21,6 @@
 
     <div id="maincontent">
     
-    <style> 
-		body {   
-		background-image: url('./draft.gif'); 
-		background-repeat: repeat-y
-		}
-	</style>
 	
 	<div id="midcolumn">
     <h1><a name="top"></a>$pageTitle</h1>
@@ -324,6 +318,10 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 		<td>John Kellerman</td>
 		<td>IBM Corporation</td>
 	</tr>
+		<tr>
+		<td>Doug Gaff</td>
+		<td>WindRiver</td>
+	</tr>
 	<tr>
 		<td>Anurag Gupta</td>
 		<td>Intel</td>
@@ -355,7 +353,7 @@ This could involve various aspects of the system, eg. what Eclipse components ar
 	</tr>
 	
 		<tr>
-		<td>Paul Stules</td>
+		<td>Paul Styles</td>
 		<td>Compuware</td>
 	</tr>
 
