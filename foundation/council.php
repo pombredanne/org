@@ -115,7 +115,7 @@
     			<td>Strategic Developer</td>
   			</tr>
   			<tr>
-    			<td>Martin Klaus</td>
+    			<td>Doug Gaff</td>
     			<td>Wind River</td>
     			<td>Strategic Developer</td>
   			</tr>
