@@ -46,12 +46,10 @@
 				<li><a href="Eclipse%20Logo%20Agreement%20%202004_04_14%20final.pdf">Logo Agreement:</a> 
 					The Logo Agreement is used to allow the Eclipse Foundation to use the
 					logos of its member companies.</li>
-				<li><a href="Eclipse_Development_Process_2006.pdf">Development Process:</a> 
+				<li><a href="/projects/dev_process_07/">Development Process:</a> 
 					<img src="../../../images/updated.gif" alt="new">
 					This document describes the fundamental rules for creating and governing
-					projects at the Eclipse community. You can also find 
-					<a href="http://wiki.eclipse.org/index.php/Development_Process_2006_Revision_Final">this document</a>
-					on the Eclipse <a href="http://wiki.eclipse.org/">wiki</a>.</li>
+					projects at the Eclipse community. </li>
 			</ul>
 			<h3>Eclipse Board Directives and Resolutions</h3>
 			<ul>
