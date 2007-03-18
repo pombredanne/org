@@ -22,6 +22,8 @@
     <div id="maincontent">
 	<div id="midcolumn">
     <h1><a name="top"></a>$pageTitle</h1>
+    <p>Roadmap V2 has been superceded by
+    <a href="../roadmap_v3_0/index.php">Roadmap V3</a></p>
     <blockquote>
         <ul>
 			<li><a href="#intro">Introduction</a></li>
