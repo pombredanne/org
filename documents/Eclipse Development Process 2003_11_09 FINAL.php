@@ -8,7 +8,7 @@ ob_start();
 <div id="midcolumn">
 
 <p>The current Eclipse Development Process is now <a href="/projects/dev_process/development_process.php">located here</a>.
-<p>The original (and now superceded) document is located <a href="Eclipse Development Process 2003_11_09 FINAL_old.php">here</a>.
+<p>The original (and now superseded) document is located <a href="Eclipse Development Process 2003_11_09 FINAL_old.php">here</a>.
 
 </div><!-- midcolumn -->
 
