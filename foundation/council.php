@@ -292,8 +292,8 @@
    		<td>Strategic Developer</td>
 		</tr>
   		<tr> 
-    		<td>Tim Wagner</td>
-    		<td>BEA</td>
+    		<td>David Williams</td>
+    		<td>IBM Corporation</td>
     		<td>WebTools PMC Representative</td>
   		</tr>
   		<tr>
@@ -344,6 +344,11 @@
 		<td>Stefan Daume</td>
     		<td>Scapa Technology</td>
     		<td>Strategic Developer</td>
+  		</tr>
+  		<tr>
+    		<td>Tim deBoer</td>
+    		<td>IBM Corporation</td>
+    		<td>WebTools PMC Representative</td>
   		</tr>
   		<tr>
     		<td>John Duimovich</td>
@@ -426,19 +431,9 @@
     		<td>Strategic Developer</td>
   		</tr>  		
   		<tr>
-    		<td>Tim Wagner</td>
-    		<td>BEA</td>
-    		<td>Strategic Developer</td>
-  		</tr>
-  		<tr>
     		<td>John Wiegand</td>
     		<td>IBM Corporation</td>
     		<td>appointed by Eclipse Foundation</td>
-  		</tr>
-  		<tr>
-    		<td>David Williams</td>
-    		<td>IBM Corporation</td>
-    		<td>WebTools PMC Representative</td>
   		</tr>
   		<tr>
     		<td>Alan Young </td>
