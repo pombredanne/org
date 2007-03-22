@@ -373,7 +373,7 @@
   		<tr>
     		<td>Richard Gronback</td>
     		<td>Borland</td>
-    		<td>appointed by Eclipse Foundation</td>
+    		<td>Strategic Developer</td>
   		</tr>
   		<tr>
     		<td>Anurag Gupta</td>
