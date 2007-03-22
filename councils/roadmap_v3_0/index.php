@@ -36,7 +36,7 @@
 	<hr>
 	<h3><a name="intro"></a>Introduction</h3>
 
-	<p>As required by the <a href="/projects/dev_process/">Eclipse
+	<p>As required by the <a href="/projects/dev_process/development_process.php">Eclipse
 	Development Process</a>, this document describes the Eclipse Roadmap.</p>
 	<p>The Roadmap is intended to be a living document which will see future
 	iterations. This document is the third version of the Eclipse Roadmap,
