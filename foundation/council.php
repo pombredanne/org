@@ -221,6 +221,11 @@
     		<td>Wind River</td>
     		<td>Device Software PMC Representative</td>
   		</tr>
+  		<tr>
+    		<td>Jess Garms </td>
+    		<td>BEA</td>
+    		<td>appointed by Eclipse Foundation</td>
+  		</tr>
   		<tr> 
     		<td>John Graham</td>
     		<td>Sybase</td>
