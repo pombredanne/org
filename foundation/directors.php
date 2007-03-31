@@ -40,70 +40,93 @@
     		<td width="51%"> 
       		<p><b>Organization</b></p>
     		</td>
-    	</tr>
+    		</tr>
+    		
+    		<tr>
+    		<td width="49%">Chris Aniszcyk</td>
+    		<td width="51%">Elected committer representative</td>
+ 		</tr>
+ 		
  		<tr>
     		<td width="49%">Rich Bartlett</td>
     		<td width="51%">Nokia</td>
- 		</tr> 		
+ 		</tr>
+ 		 		
  		<tr>
     		<td width="49%">Michael Bechauf</td>
     		<td width="51%">SAP AG</td>
 		</tr>
+		
  		<tr>
     		<td width="49%">Ed Cobb</td>
     		<td width="51%">BEA</td>
  		</tr>
+ 		
  		<tr>
     		<td width="49%">Mark Coggins</td>
     		<td width="51%">Actuate Corporation</td>
  		</tr>
+ 		
  		<tr>
     		<td width="49%">Paul Czarnik</td>
     		<td width="51%">Compuware</td>
  		</tr>
+ 		
  		<tr>
     		<td width="49%">Winston Damarillo</td>
     		<td width="51%">Simula Labs</td>
  		</tr>
+ 		
+ 		<tr>
+    		<td width="49%">Eliane Fourgeau</td>
+    		<td width="51%">Elected add-in provider representative</td>
+ 		</tr>
+ 		
  		 <tr>
     		<td width="49%">Richard Gronback</td>
     		<td width="51%">Borland</td>
  		</tr>
- 		
+ 
  		<tr>
     		<td width="49%">Andi Gutmans</td>
     		<td width="51%">Zend</td>
  		</tr>
+ 		
  		<tr>
     		<td width="49%">Jonathan Khazam</td>
     		<td width="51%">Intel</td>
  		</tr>
+ 		
  		<tr>
-    		<td width="49%">Jochen Krause</td>
-    		<td width="51%">Elected add-in provider representative</td>
+    		<td width="49%">Konstantin Komissarchikr</td>
+    		<td width="51%">Elected committer representative</td>
+ 		</tr>
+ 		
+ 		<tr>
+    		<td width="49%">Dennis Leung</td>
+    		<td width="51%">Oracle</td>
  		</tr>
  		
  		<tr>
     		<td width="49%">Howard H. Lewis</td>
     		<td width="51%">Elected add-in provider representative</td>
  		</tr>
- 		<tr>
-    		<td width="49%">Scott Lewis</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
+ 		
  		<tr>
     		<td  width="49%">Philip Ma</td>
     		<td width="51%">Hewlett Packard</td>
  		</tr>
  		
  		<tr>
-    		<td width="49%">Kai-Uwe Maetzel</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
-		<tr>
     		<td width="49%">Jeff McAffer</td>
     		<td width="51%">Elected committer representative</td>
  		</tr>
+ 		
+		<tr>
+    		<td width="49%">Ed Merks</td>
+    		<td width="51%">Elected committer representative</td>
+ 		</tr>
+
  		<tr>
     		<td width="49%"> Eric Newcomer</td>
     		<td width="51%">Iona</td>
@@ -113,19 +136,37 @@
     		<td width="49%">Michael Norman</td>
     		<td width="51%">Scapa Technologies</td>
  		</tr>
+ 		
+ 		<tr>
+    		<td width="49%">Tracy Ragan</td>
+    		<td width="51%">Elected add-in provider representative</td>
+ 		</tr>
+ 		
  		<tr>
     		<td width="49%">James Saliba</td>
     		<td width="51%">Computer Associates</td>
- 		</tr> 		
+ 		</tr>
+ 		 		
  		<tr>
     		<td width="49%">John Scumniotales</td>
     		<td width="51%">Serena</td>
  		</tr>
+ 		
  		<tr>
     		<td width="49%">Steve Saunders</td>
     		<td width="51%">Wind River</td>
  		</tr>
-
+ 		
+ 		<tr>
+    		<td width="49%">Mitch Sonies</td>
+    		<td width="51%">Cloudsmith</td>
+ 		</tr>
+ 		
+		<tr>
+    		<td width="49%">Darin Swanson</td>
+    		<td width="51%">Elected committer representative</td>
+ 		</tr>
+ 		
  		<tr>
     		<td width="49%">Mike Taylor</td>
     		<td width="51%">Elected add-in provider representative</td>
@@ -135,23 +176,22 @@
     		<td hwidth="49%">Dave Thomson</td>
     		<td width="51%">IBM</td>
  		</tr>
+ 		
 		<tr>
     		<td width="49%">David Tong</td>
     		<td width="51%">Sybase</td>
- 		</tr>
- 		<tr>
-    		<td width="49%">Tim Wagner</td>
-    		<td width="51%">Elected committer representative</td>
  		</tr>
  		
 		<tr>
     		<td width="49%">Todd Williams</td>
     		<td width="51%">Elected add-in provider representative</td>
  		</tr>
+ 		
 		<tr>
     		<td width="49%">Christy Wyatt</td>
     		<td width="51%">Motorola</td>
  		</tr>
+ 		
 		<tr>
     		<td width="49%">&nbsp;</td>
     		<td width="51%">&nbsp;</td>
