@@ -98,7 +98,7 @@
  		</tr>
  		
  		<tr>
-    		<td width="49%">Konstantin Komissarchikr</td>
+    		<td width="49%">Konstantin Komissarchik</td>
     		<td width="51%">Elected committer representative</td>
  		</tr>
  		
