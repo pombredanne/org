@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Foundation Community Awards Announcement";
+	$pageTitle 		= "New Project Releases Continue to Drive Adoption of Eclipse in the Embedded and Device Development Community";
 	$pageKeywords	= "Eclipse Foundation, community, awards, winners, 2007, press, release";
 	$pageAuthor		= "Nathan Gervais";
 	
