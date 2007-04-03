@@ -96,10 +96,10 @@
     		<td width="49%">Jonathan Khazam</td>
     		<td width="51%">Intel</td>
  		</tr>
- 		
- 		<tr>
-    		<td width="49%">Konstantin Komissarchik</td>
-    		<td width="51%">Elected committer representative</td>
+
+		<tr>
+    		<td width="49%">Jochen Krause</td>
+    		<td width="51%">Innoopract</td>
  		</tr>
  		
  		<tr>

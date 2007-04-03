@@ -27,7 +27,7 @@
         <br/><br/>Jeff McAffer will be returning as a Committer representative, along with the newly elected Chris Aniszczyk, Darin Swanson, Ed Merks, and Konstantin Komissarchik.
         We're looking forward to working with you on the Eclipse Foundation Board of Directors. <br />
         <br />
-        The Eclipse Foundation would also like to recognize the contribution of Jochen Krause, Scott Lewis, Tim Wagner, and Kai-Uwe Maetzel who are leaving the Eclipse Board after having served positions last year. 
+        The Eclipse Foundation would also like to recognize the contribution of Scott Lewis, Tim Wagner, and Kai-Uwe Maetzel who are leaving the Eclipse Board after having served positions last year. 
 		The Eclipse community owes them a great deal for their many hours of effort on behalf of the Eclipse community.
         </p>
 	</div>
