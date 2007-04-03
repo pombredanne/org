@@ -4,7 +4,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "New Project Releases Continue to Drive Adoption of Eclipse in the Embedded and Device Development Community";
-	$pageKeywords	= "Eclipse Foundation, community, awards, winners, 2007, press, release";
+	$pageKeywords	= "embedded, device, new project, 2007, press, release";
 	$pageAuthor		= "Nathan Gervais";
 	
 	# Add page-specific Nav bars here
