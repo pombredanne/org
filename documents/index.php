@@ -30,11 +30,12 @@
 			<ul>
 				<li><a href="Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws:</a> The Bylaws lay out 
 					the basic rules of governance of the Eclipse Foundation.</li>
-				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202005_06_16%20Final.pdf">Membership Agreement:</a> The Membership Agreement describes 
+				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202007_04_04%20Final.pdf">Membership Agreement:</a> 
+					<img src="../../../images/updated.gif" alt="updated"> The Membership Agreement describes 
 					the rights and responsibilities for each class of member in the Eclipse 
 					Foundation.</li>
 				<li><a href="Eclipse_IP_Policy.pdf">Intellectual Property Policy:</a> 
-					<img src="../../../images/updated.gif" alt="new"> The IP Policy describes the
+					<img src="../../../images/updated.gif" alt="updated"> The IP Policy describes the
 					policies and mechanisms that the Eclipse Foundation uses for accepting and
 					licensing the intellectual property developed by Eclipse projects.</li>
 				<li><a href="Eclipse%20ANTITRUST%202003_11_10%20Final.pdf">Anti-Trust Policy:</a> The Anti-Trust Compliance Policy describes 
@@ -47,7 +48,7 @@
 					The Logo Agreement is used to allow the Eclipse Foundation to use the
 					logos of its member companies.</li>
 				<li><a href="/projects/dev_process/development_process.php">Development Process:</a> 
-					<img src="../../../images/updated.gif" alt="new">
+					<img src="../../../images/updated.gif" alt="updated">
 					This document describes the fundamental rules for creating and governing
 					projects at the Eclipse community. </li>
 			</ul>
