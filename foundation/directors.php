@@ -48,6 +48,11 @@
  		</tr>
  		
  		<tr>
+    		<td width="49%">Tim Barnes</td>
+    		<td width="51%">OpenMethods</td>
+ 		</tr>
+ 		
+ 		<tr>
     		<td width="49%">Rich Bartlett</td>
     		<td width="51%">Nokia</td>
  		</tr>
