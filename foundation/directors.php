@@ -43,7 +43,7 @@
     		</tr>
     		
     		<tr>
-    		<td width="49%">Chris Aniszcyk</td>
+    		<td width="49%">Chris Aniszczyk</td>
     		<td width="51%">Elected committer representative</td>
  		</tr>
  		
