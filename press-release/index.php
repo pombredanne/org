@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20070420cb_eclipseparty.php">Eclipse Party at JavaOne</a> - April 20th 2007</li>
 		<li><a href="20070403embedded.php">New Project Releases Continue to Drive Adoption of Eclipse in the Embedded and Device Development Community</a> - April 3rd 2007</li>
 		<li><a href="20070306eclipseajax.php">Eclipse Foundation Announces Initiatives for Ajax Applications and Dynamic Languages</a> - March 6th 2007</li>
 		<li><a href="20070306eclipsecommunityawards.php">Eclipse Community Awards Winners Announced</a> - March 6th 2007</li>
