@@ -190,6 +190,13 @@
 		rebuilding old cars. &nbsp; <br/> &nbsp; <br/>]]> </description>
 	</staffmember>
 
+	<staffmember id="karl">
+		<name>Karl Matthias</name>
+		<title>Systems Administrator</title>
+		<image></image>
+		<description> <![CDATA[ ]]> </description>
+	</staffmember>
+
 	<staffmember id="sharon">
 		<name>Sharon Wolfe</name>
 		<title>Office Manager</title>
@@ -202,18 +209,4 @@
 		</description>
 	</staffmember>
 	
-	<staffmember id="jihong">
-		<name>Jihong Yang</name>
-		<title>Intellectual Property Analyst</title>
-		<image> ../../images/jihong.jpg </image>
-		<description> <![CDATA[ After completing her graduate research on the open source movement 
-		at <a href="http://www.carleton.ca/tim/">TIM@CU</a>, 
-		Jihong joined Eclipse Foundation in 2006. She enjoys analyzing the 
-		open source code from Eclipse projects every day in order to help spread Eclipse broader 
-		and faster. Outside of work, Jihong enjoys all kinds of sports, particularly badminton, 
-		beach volleyball, tennis and swimming. BTW, she just began to love rock climbing and 
-		skiing. &nbsp; <br/> &nbsp; <br/>]]> </description>
-	</staffmember>
-
-
 </staffmembers>
