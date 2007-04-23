@@ -100,7 +100,15 @@
 		<description>
 			<![CDATA[Despite her official title at the Portland office, Anne prefers being known as the Third Person, with the role of making Person One and Person Two (Bjorn and Ward) more effective. When not in front of a monitor, Anne prefers activities that involve wearing a helmet--horseback riding, skiing, and (fair-weather) cycling. One of her favorite books is The Chicago Manual of Style, so if you need help with the nitpicking details of writing in English, she's happy to help.]]>
 		</description>
-	</staffmember>		
+	</staffmember>
+
+	<staffmember id="karl">
+		<name>Karl Matthias</name>
+		<title>Systems Administrator</title>
+		<image></image>
+		<description> <![CDATA[ ]]> </description>
+	</staffmember>
+		
 
 	<staffmember id="skip">
 		<name>Skip McGaughey</name>
@@ -190,12 +198,6 @@
 		rebuilding old cars. &nbsp; <br/> &nbsp; <br/>]]> </description>
 	</staffmember>
 
-	<staffmember id="karl">
-		<name>Karl Matthias</name>
-		<title>Systems Administrator</title>
-		<image></image>
-		<description> <![CDATA[ ]]> </description>
-	</staffmember>
 
 	<staffmember id="sharon">
 		<name>Sharon Wolfe</name>
