@@ -129,11 +129,7 @@
     			<td>Zend</td>
     			<td>Strategic Developer</td>
   			</tr>
-  			<tr> 
-    			<td>Philip Ma</td>
-    			<td>Hewlett-Packard Company</td>
-    			<td>Strategic Consumer</td>
-  			</tr>
+
   			 		<tr> 
     		<td>Mike Milinkovich</td>
     		<td>Eclipse Foundation</td>
@@ -142,11 +138,6 @@
   			<tr> 
     			<td>H&#229;kan Mitts</td>
     			<td>Nokia</td>
-    			<td>Strategic Developer</td>
-  			</tr>
-  			<tr> 
-    			<td>Mike Norman</td>
-    			<td>Scapa Technology</td>
     			<td>Strategic Developer</td>
   			</tr>
   			<tr> 
@@ -175,8 +166,20 @@
 		<br/>        	
 	<ul>
 
-		<li><a href="../councils/20061010RCMinutes.pdf">Requirements Council Meeting, 
-          			October 10, 2006 (.pdf)</a><img src="../../images/new.gif" alt="new"></li>
+	<li><a href="../councils/20070122RCMinutes.pdf">Requirements Council Meeting, 
+          			January 22, 2007 (.pdf)</a><img src="../../images/new.gif" alt="new">
+    <ul>
+    <li><a href="../councils/20070122RC_Zend.pdf">Zend Member Presentation, 
+          			January 22, 2007 (.pdf)</a><img src="../../images/new.gif" alt="new">
+    <li><a href="../councils/20070122RC_Serena.pdf">Serena Member Presentation, 
+          			January 22, 2007 (.pdf)</a><img src="../../images/new.gif" alt="new">
+ 
+    </ul>    			
+          			
+    </li>
+
+	<li><a href="../councils/20061010RCMinutes.pdf">Requirements Council Meeting, 
+          			October 10, 2006 (.pdf)</a></li>
 
 		<li><a href="../councils/20060628RCMinutes.pdf">Requirements Council Meeting, 
           			June 28, 2006 (.pdf)</a></li>
