@@ -103,6 +103,11 @@
  		</tr>
 
 		<tr>
+    		<td width="49%">Konstantin Komissarchik</td>
+    		<td width="51%">Elected committer representative</td>
+ 		</tr>
+ 		
+		<tr>
     		<td width="49%">Jochen Krause</td>
     		<td width="51%">Innoopract</td>
  		</tr>
