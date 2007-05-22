@@ -13,20 +13,18 @@
     <div id="maincontent">
 	<div id="midcolumn">
         <h1><a name="top"></a>$pageTitle</h1>
-        <blockquote>
         <ul>
 			<li><a href="#about">What is Eclipse and the Eclipse Foundation?</a></li>
 			<li><a href="#IT">Services of the Foundation</a></li>
-			<ul>
+			<ol>
 				<li><a href="#IT">IT Infrastructure</a></li>
 				<li><a href="#IP Management">Intellectual Property (IP) Management</a></li>
 				<li><a href="#Development">Development Community Support</a></li>
 				<li><a href="#Ecosystem">Ecosystem Development</a></li>
-			</ul>
+			</ol>
 			<li><a href="#Unique">A Unique Model for Open Source Development</a></li>	
 			<li><a href="#history">What is the history of Eclipse?</a></li>
 		</ul>
-		</blockquote>
 	    <h3><a name="about"></a>What is Eclipse and the Eclipse Foundation?</h3>
 		<p>Eclipse is an open source community, whose projects are focused on building an open development platform comprised of 
 		extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. The Eclipse Foundation 
