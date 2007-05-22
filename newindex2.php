@@ -33,9 +33,9 @@
 		is a not-for-profit, member supported corporation that hosts the <a href="http://www.eclipse.org/projects">Eclipse projects</a> and 
 		helps cultivate both an open source community and an ecosystem of complementary products and services.</p>
 		
-		<p>The Eclipse Foundation was created in January 2004 as an independent not-for-profit corporation to act as the steward of the 
-		Eclipse community.    The Eclipse Project was originally created by IBM in November 2001 and supported by a consortium of software 
-		vendors.   The independent not-for-profit corporation was created to allow a vendor neutral and open, transparent community to be 
+		<p>The Eclipse Project was originally created by IBM in November 2001 and supported by a consortium of software 
+		vendors.   The Eclipse Foundation was created in January 2004 as an independent not-for-profit corporation to act as the steward of the 
+		Eclipse community.    The independent not-for-profit corporation was created to allow a vendor neutral and open, transparent community to be 
 		established around Eclipse.  Today, the Eclipse community consists of individuals and organizations from a cross section of the software 
 		industry.</p>
 
@@ -67,13 +67,14 @@
 		<p>The Eclipse Foundation also undertakes a number of steps to attempt to ensure the pedigree of the intellectual property contained 
 		within Eclipse projects.  The first step in the due diligence process 
 		is trying to ensure that all contributions are made by the rightful copyright holder and under the Eclipse Public License (EPL).  
-		All committers are required to sign a committer agreement that stipulates all of their contributions are their 
+		All committers are required to sign a <a href="http://www.eclipse.org/legal/committer_process/EclipseIndividualCommitterAgreementFinal.pdf">committer agreement</a>
+		 that stipulates all of their contributions are their 
 		original work and are being contributed under the EPL.   If a committer is sponsored to work on 
 		an Eclipse project by a Member organization, then that organization is asked to sign a 
 		<a href="http://www.eclipse.org/legal/EclipseMemberCommitterAgreementFinal.pdf">Member Committer Agreement</a> 
 		to ensure the intellectual property rights of the organization are contributed under the EPL. </p>
 
-		<p>The second step is that the source code related to all contributions of which are developed outside of the Eclipse development process 
+		<p>The second step is that the source code related to all contributions which are developed outside of the Eclipse development process 
 		are processed through the Eclipse Foundation <a href="http://www.eclipse.org/legal/EclipseLegalProcessPoster.pdf">IP approval process</a>.   
 		This process includes analyzing selected code contributions to try 
 		to ascertain the provenance of the code, and license compatibility with the EPL.   Contributions that contain code licensed under 
@@ -83,21 +84,22 @@
 		  
 		<h3><a name="Development"></a>Development Community Support</h3>	
 		<p>The Eclipse community has a well earned reputation for providing quality software in a reliable and predictable fashion.  
-		Much of the credit for this is due to the commitment for the committers and organizations contributing to the open source projects.   
+		This is due to the commitment of the committers and organizations contributing to the open source projects.   
 		The Eclipse Foundation also provides services and support for the projects to help them achieve these goals.   </p>
 
-		<p>The Foundation staff help implement the <a href="http://www.eclipse.org/projects/dev_process/development_process.php">Eclipse Development Process</a>
-		 that assist new projects in becoming successful. As part of this 
-		process, the Foundation organizes member community reviews for projects to ensure consistent interaction between the projects and the 
+		<p>The Foundation staff help implement the <a href="http://www.eclipse.org/projects/dev_process/development_process.php">Eclipse Development Process.</a>
+		This process assists new project startup and ensures that all Eclipse projects are run in an open, transparent and meritocratic manner.
+		As part of this process, the Foundation organizes member community reviews for projects to ensure consistent interaction between the projects and the 
 		broader membership. </p>
 
-		<p>The Eclipse community organizes an annual release train that includes a coordinated release of the Eclipse projects.   The release 
-		train makes it easy for downstream consumers to adopt new releases of the projects because 1) all the projects are available on the same 
+		<p>The Eclipse community organizes an annual release train that provides a coordinated release of those Eclipse projects which wish to participate.   
+		The release train makes it easier for downstream consumers to adopt new releases of the projects because 1) all the 
+		projects are available on the same 
 		schedule, so you don’t have to wait for independent project schedules, and 2) a level of integration testing occurs before the final 
-		release to help identify any cross project issues. </p>
+		release to help identify cross project issues. </p>
 			
 		<h3><a name="Ecosystem"></a>Ecosystem Development</h3>	
-		<p>A unique aspect of the Eclipse community and the role of the Eclipse Foundation is that active marketing and promotion of Eclipse 
+		<p>A unique aspect of the Eclipse community and the role of the Eclipse Foundation is the active marketing and promotion of Eclipse 
 		projects and wider Eclipse ecosystem.   A healthy vibrant ecosystem that extends beyond the Eclipse open source community to include 
 		things like commercial products based on Eclipse, other open source projects using Eclipse, training and services providers, magazines 
 		and online portals, books, etc, are all key to the success of the Eclipse community.</p>
@@ -131,8 +133,7 @@
 	      	available royalty-free via the Eclipse Public License.</p>
 	      	
 	      	<p>The founding Strategic Developers and Strategic Consumers 
-			are Ericsson, HP, IBM, Intel, MontaVista Software, QNX, SAP and Serena Software. In August 2004, 
-			Actuate joined the Eclipse Board as a Strategic Developer.</p>
+			were Ericsson, HP, IBM, Intel, MontaVista Software, QNX, SAP and Serena Software.</p>
 			<p></p>
 			
 			<p>You can learn more about the structure and mission of the Eclipse Foundation by reading the 
