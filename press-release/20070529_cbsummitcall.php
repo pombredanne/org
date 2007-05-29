@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Summit Europe call for Participation - Talks & Demos";
+	$pageTitle 		= "Eclipse Summit Europe Call for Participation - Talks & Demos";
 	$pageKeywords	= "Eclipse Summit Europe, call for Participation , Talks & Demos";
 	$pageAuthor		= "Nathan Gervais";
 	
