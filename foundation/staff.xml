@@ -37,17 +37,7 @@
 		</description>
 	</staffmember>	
 	
-	<staffmember id="ward">
-		<name>Ward Cunningham</name>
-		<title>Director, Committer Community Development</title>
-		<image> ../../images/ward.png </image>
-		<description> <![CDATA[ &nbsp; <br/> &nbsp; <br/> 
-		<p>You can read Ward's blog at
-			<a href="http://eclipse-projects.blogspot.com/" target="blank">
-			http://eclipse-projects.blogspot.com/</a>.</p>
-			]]> </description>
-	</staffmember>
-
+	
 	<staffmember id="bjorn">
 		<name>Bjorn Freeman-Benson</name>
 		<title>
@@ -98,7 +88,7 @@
 		<image>../../images/anne.jpg</image>
 		<title>Development Process Operations Support</title>
 		<description>
-			<![CDATA[Despite her official title at the Portland office, Anne prefers being known as the Third Person, with the role of making Person One and Person Two (Bjorn and Ward) more effective. When not in front of a monitor, Anne prefers activities that involve wearing a helmet--horseback riding, skiing, and (fair-weather) cycling. One of her favorite books is The Chicago Manual of Style, so if you need help with the nitpicking details of writing in English, she's happy to help.]]>
+			<![CDATA[When not in front of a monitor, Anne prefers activities that involve wearing a helmet--horseback riding, skiing, and (fair-weather) cycling. One of her favorite books is The Chicago Manual of Style, so if you need help with the nitpicking details of writing in English, she's happy to help.]]>
 		</description>
 	</staffmember>
 
