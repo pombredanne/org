@@ -59,6 +59,9 @@
     		<td width="37%" valign=top>Eclipse.org infrastructure</td>
     		<td width="63%">Email: <b>webmaster (at) eclipse.org</b></td>
   		</tr>
+  		</table>
+  		<h2>Ottawa office</h2>
+  		<table width="100%" border="0" cellpadding="5" cellspacing=5>
   		<tr>
     		<td valign=top width="37%">Address:</td>
     		<td width="63%"> 
@@ -80,12 +83,36 @@
     		<td width="63%">&nbsp;</td>
   		</tr>
 	</table>
+	<h2>Portland office</h2>
+  		<table width="100%" border="0" cellpadding="5" cellspacing=5>
+  		<tr>
+    		<td valign=top width="37%">Address:</td>
+    		<td width="63%"> 
+      			Eclipse Foundation, Inc.<br/>
+      			308 SW First Avenue, Suite 110<br/>
+      			Portland, OR<br/>
+        		97204 USA <br/>
+        		<a href="directions_Portland.php">Directions</a>
+      		</td>
+  		</tr>
+  		<tr>
+    		<td valign=top width="37%">Phone:<br>
+      		Fax: </td>
+    		<td width="63%">+1.503.766.3150<br>
+      		+1.503.336.5121</td>
+  		</tr>
+  		<tr>
+    		<td valign=top width="37%">&nbsp;</td>
+    		<td width="63%">&nbsp;</td>
+  		</tr>
+	</table>
 	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="directions.php">Directions</a></li>
+				<li><a href="directions.php">Ottawa Directions</a></li>
+				<li><a href="directions_Portland.php">Portland Directions</a></li>
 				<li><a href="staff.php">Foundation Staff</a></li>
 			</ul>
 		</div>
