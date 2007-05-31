@@ -78,10 +78,6 @@
     		<td width="63%">+1.613.224.9461<br>
       		+1.613.224.5172 </td>
   		</tr>
-  		<tr>
-    		<td valign=top width="37%">&nbsp;</td>
-    		<td width="63%">&nbsp;</td>
-  		</tr>
 	</table>
 	<h2>Portland office</h2>
   		<table width="100%" border="0" cellpadding="5" cellspacing=5>

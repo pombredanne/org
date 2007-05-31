@@ -63,7 +63,7 @@
       		</td>
       		</tr>
 		</table>
-		<P><IMG SRC="../images/lawrence_bldg.jpg" NAME="Office" ALIGN=CENTER WIDTH=270 HEIGHT=300 BORDER=0><BR CLEAR=LEFT><BR/><BR/>
+		<P><IMG SRC="" NAME="Office" ALIGN=CENTER WIDTH=270 HEIGHT=300 BORDER=0><BR CLEAR=LEFT><BR/><BR/>
 		</P>
 	</div>
 
