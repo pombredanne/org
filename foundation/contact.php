@@ -62,11 +62,11 @@
   		<tr>
     		<td valign=top width="37%">Address:</td>
     		<td width="63%"> 
-      			<p>Eclipse Foundation, Inc.<br/>
+      			Eclipse Foundation, Inc.<br/>
       			102 Centrepointe Drive<br/>
       			Ottawa, Ontario,<br/>
-        		Canada, K2G 6B1 <br/><br/>
-        		<a href="directions.php">Directions</a></p>
+        		Canada, K2G 6B1 <br/>
+        		<a href="directions.php">Directions</a>
       		</td>
   		</tr>
   		<tr>
