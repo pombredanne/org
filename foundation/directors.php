@@ -62,6 +62,11 @@
     		<td width="51%">SAP AG</td>
 		</tr>
 		
+		<tr>
+    		<td width="49%">Brian Carroll</td>
+    		<td width="51%">Serena</td>
+ 		</tr>
+		
  		<tr>
     		<td width="49%">Ed Cobb</td>
     		<td width="51%">BEA</td>
@@ -155,11 +160,6 @@
  		<tr>
     		<td width="49%">James Saliba</td>
     		<td width="51%">Computer Associates</td>
- 		</tr>
- 		 		
- 		<tr>
-    		<td width="49%">John Scumniotales</td>
-    		<td width="51%">Serena</td>
  		</tr>
  		
  		<tr>
