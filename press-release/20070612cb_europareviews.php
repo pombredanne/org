@@ -23,11 +23,11 @@
 		<h2>Community Bulletin</h2>
       	<p> We want to hear what you think of the <a href="http://www.eclipse.org/europa/projects.php">Eclipse projects</a>
       	 that are being released as part of <a href="http://www.eclipse.org/europa/">Europa</a>.  
-      	In fact, we will even give you an Eclipse shirt for writing a Europa review.  One lucky winner will also 
+      	In fact, we will give you an Eclipse shirt for writing a Europa review.  One lucky winner will also 
       	win a pass to <a href="http://www.eclipsecon.org/2007/>EclipseCon 2008</a> or <a href="http://www.eclipsecon.org/summiteurope2007/">
       	Eclipse Summit Europe 2007</a>.</p>
 
- 		<p>To qualify, all you need to do is write a review about one of more of the projects that are part of 
+ 		<p>To qualify, all you need to do is write a review about one or more of the projects that are part of 
  		the Eclipse Europa release.   Have the review published on your blog, a newsgroup, or portal 
  		(such as EclipseZone, Javalobby, The Serverside, InfoQ, etc.) and then send us a link to 
  		<a href="mailto:europa-review@eclipse.org">europa-review@eclipse.org</a>.   We would also ask that you 
@@ -42,7 +42,7 @@
  		'top 3' and the 'best' reviews will be selected by a panel of judges.  The judges will select the winners 
  		from the list of reviews submitted to dzone.  The judging will take place after July 31, 2007. </p>
 
- 		<p>Important Details: <br><br>
+ 		<p>Important Details: <br>
  		
  		<ul><li>Anyone can write a review.  You can also write multiple reviews but if you do please follow the 
  		submission guidlelines for each review.  However, we will only send one shirt per person.</li>
@@ -54,7 +54,7 @@
  		to help promote and	educate the greater community about Eclipse and the Europa release.  Shirts will be given out' .
  		to individuals that 
  		</li>
- 		<li>Informed, insightful, educated reviews&mdash;postitive and negative&mdash;are always welcomed.  However, anti-Eclipsee, 
+ 		<li>Informed, insightful, educated reviews&mdash;postitive and negative&mdash;are always welcomed.  However, anti-Eclipse, 
  		FUD-spewers, propogandists, vile, mean-spirited curmudgeons need not apply.  
  		</ul>
       </p>
