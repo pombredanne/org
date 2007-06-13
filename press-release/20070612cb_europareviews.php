@@ -58,6 +58,7 @@
  		FUD-spewers, propogandists, vile, mean-spirited curmudgeons need not apply.  
  		</ul>
       </p>
+      <br>
 	</div>
 </div>
 
