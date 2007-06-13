@@ -24,18 +24,18 @@
       	<p> We want to hear what you think of the <a href="http://www.eclipse.org/europa/projects.php">Eclipse projects</a>
       	 that are being released as part of <a href="http://www.eclipse.org/europa/">Europa</a>.  
       	In fact, we will give you an Eclipse shirt for writing a Europa review.  One lucky winner will also 
-      	win a pass to <a href="http://www.eclipsecon.org/2007/>EclipseCon 2008</a> or <a href="http://www.eclipsecon.org/summiteurope2007/">
+      	win a pass to <a href="http://www.eclipsecon.org/2007/">EclipseCon 2008</a> or <a href="http://www.eclipsecon.org/summiteurope2007/">
       	Eclipse Summit Europe 2007</a>.</p>
 
  		<p>To qualify, all you need to do is write a review about one or more of the projects that are part of 
  		the Eclipse Europa release.   Have the review published on your blog, a newsgroup, or portal 
  		(such as EclipseZone, Javalobby, The Serverside, InfoQ, etc.) and then send us a link to 
- 		<a href="mailto:europa-review@eclipse.org">europa-review@eclipse.org</a>.   We would also ask that you 
+ 		<a href="mailto:europa-reviews@eclipse.org">europa-reviews@eclipse.org</a>.   We would also ask that you 
  		please add a link to your review to <a href="http://www.dzone.com/">dzone</a> and use the 'eclipse' tag.</p>
  		
  		<p>A review will be deemed worthy of an Eclipse shirt, if the content conveys sufficient technical 
- 		content.  We aren't looking for long essays, but at least 3-5 points of what you like or don't like about a project(s), but simply 
- 		saying 'Europa is available', 'Europa Rocks', 'Europa Sucks' won't get you a shirt.  </p>
+ 		content.  We aren't looking for long essays, but at least 3-5 points of what you like or don't like about a project(s).
+ 		Simply saying 'Europa is available', 'Europa Rocks', 'Europa Sucks' won't get you a shirt.  </p>
  		
  		<p>We will also be giving out brand new Eclipse jackets to the 'top 3' reviews and the person the writes 
  		the 'best' review will receive a pass to the next EclipseCon 2008 or Eclipse Summit Europe 2007.   The 
@@ -50,12 +50,8 @@
  		include any travel expenses.  The pass is non-transferable, non-refundable and it has no cash value.  
  		Meaning if you can't go to either conference or you received a free pass some other way (ie. a speaker 
  		pass), you won't be able to take advantage of the prize. </li> 
- 		<li>The purpose of this promotion and the shirt giveaways is to encourage members of the Eclipse community
- 		to help promote and	educate the greater community about Eclipse and the Europa release.  Shirts will be given out' .
- 		to individuals that 
- 		</li>
  		<li>Informed, insightful, educated reviews&mdash;postitive and negative&mdash;are always welcomed.  However, anti-Eclipse, 
- 		FUD-spewers, propogandists, vile, mean-spirited curmudgeons need not apply.  
+ 		FUD-spewers, propogandists, vile, mean-spirited curmudgeons need not apply.  </li>
  		</ul>
       </p>
       <br>
