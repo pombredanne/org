@@ -49,7 +49,8 @@
  		<li>The EclipseCon or Eclipse Summit Europe pass only covers the conference registration.  It does not 
  		include any travel expenses.  The pass is non-transferable, non-refundable and it has no cash value.  
  		Meaning if you can't go to either conference or you received a free pass some other way (ie. a speaker 
- 		pass), you won't be able to take advantage of the prize. </li> 
+ 		pass), you won't be able to take advantage of the prize. </li>
+ 		<li>Eclipse is a global community, so feel free to write a review in your native tongue.</li>
  		<li>Informed, insightful, educated reviews&mdash;postitive and negative&mdash;are always welcomed.  However, anti-Eclipse, 
  		FUD-spewers, propogandists, vile, mean-spirited curmudgeons need not apply.  </li>
  		</ul>
