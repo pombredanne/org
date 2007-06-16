@@ -163,7 +163,7 @@ ob_start();
 	<div class="homeitem3col">
 	<h3><a name="requirements"></a>Requirements council</h3>
 	<br/>
-	<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+	<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
 <?php
 // Requirements Council
 $requirements_relations = "'ER', 'RC'";
@@ -208,7 +208,7 @@ foreach($people as $name=>$value) {
 	<h3><a name="planning"></a>Planning council</h3>
 	<br/>
 
-	<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+	<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
 <?php
 // Planning Council
 $planning_relations = "'EP', 'PC', 'RP'";
@@ -240,7 +240,7 @@ foreach($people as $name=>$value) {
 <div class="homeitem3col">
 <h3><a name="architecture"></a>Architecture council</h3>
 <br/>
-	<table width="90%" border="0" cellspacing="0" cellpadding="1" align="center">
+	<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
 <?php
 // Architecture Council
 $architecture_relations = "'AC', 'RA', 'EA'";
