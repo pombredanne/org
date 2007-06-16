@@ -70,7 +70,7 @@ function find_relations($relations) {
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
 		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
-		'</td><td>' . $row[Name1] . '</td><td>appointed by Eclipse Foundation</td>';
+		'</td><td>' . $row[Name1] . '</td><td>appointed</td>';
 	}
 
 	mysql_free_result($result);
@@ -95,7 +95,7 @@ function find_relations($relations) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
 		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
 		'</td><td>' . $row['Name1'] . "</td><td>" .
-		ucfirst($row['ProjectID']) . " PMC Representative</td>";
+		ucfirst($row['ProjectID']) . " PMC</td>";
 	}
 
 	$result = mysql_query("SELECT distinct(People.PersonID),
@@ -142,11 +142,11 @@ ob_start();
           <br/><br/>
         </li>
         <li><strong><a href="#architecture">Architecture</a></strong>: The Architecture
-          Council is responsible for development, articulation and maintenance
-          of the Eclipse Platform Architecture. The Architecture Council produces
-          an Architecture Plan that describes the architecture changes required
-          to achieve these themes and priorities, or required to maintain long-term
-          architectural viability. </li>
+		  Council is responsible for the long-term technical health of the Eclipse
+		  platforms and frameworks. More explanation of the Architecture Council
+		  can be found in the <a href="/projects/dev_process/development_process.php#4_5_Councils">Eclipse Development Process</a> and in
+		  the <a href="/projects/dev_process/architecture-council.php">guidelines and checklists</a> 
+		  for the Architecture Council.</li>
       </ul>
       <br/>
 	<div class="homeitem3col">
