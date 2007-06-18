@@ -121,7 +121,7 @@ function find_relations($relations) {
 	 * project members without company relationships
 	 */
 	$result = mysql_query("SELECT distinct(People.PersonID),
-			ProjectID, FName, LName, Name1
+			ProjectID, FName, LName
 		FROM PeopleProjects, People
 		WHERE PeopleProjects.Relation IN ($relations)
 			AND PeopleProjects.PersonID =
