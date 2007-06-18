@@ -54,12 +54,18 @@ function find_relations($relations) {
 	global $dbh;
 
 	$people = array();
-
+	/*
+	 * appointed members with company relationships
+	 */
 	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName
-		FROM PeopleRelations, People
+		FROM PeopleRelations, People, Organizations,
+			OrganizationContacts
 		WHERE PeopleRelations.Relation IN ($relations)
 			AND People.PersonID = PeopleRelations.PersonID
-			");
+			AND OrganizationContacts.PersonID =
+				People.PersonID
+			AND Organizations.OrganizationID =
+				OrganizationContacts.OrganizationID");
 	mysql_error_check();
 
 	while($row = mysql_fetch_assoc($result)) {
@@ -68,8 +74,26 @@ function find_relations($relations) {
 		'</td><td>' . $row[Name1] . '</td><td>appointed</td>';
 	}
 
-	mysql_free_result($result);
+	/*
+	 * appointed members without company relationships
+	 */
+	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName
+		FROM PeopleRelations, People
+		WHERE PeopleRelations.Relation IN ($relations)
+			AND People.PersonID = PeopleRelations.PersonID
+			");
+	mysql_error_check();
+	while($row = mysql_fetch_assoc($result)) {
+		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
+			$people[ucwords($row['LName'].', '.$row['FName'])] =
+			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+			'</td><td>' . '&nbsp;' . '</td><td>appointed</td>';
+		}
+	}
 
+	/*
+	 * project members with company relationships
+	 */
 	$result = mysql_query("SELECT distinct(People.PersonID),
 			ProjectID, FName, LName, Name1
 		FROM PeopleProjects, People, OrganizationContacts,
@@ -93,6 +117,31 @@ function find_relations($relations) {
 		ucfirst($row['ProjectID']) . " PMC</td>";
 	}
 
+	/*
+	 * project members without company relationships
+	 */
+	$result = mysql_query("SELECT distinct(People.PersonID),
+			ProjectID, FName, LName, Name1
+		FROM PeopleProjects, People
+		WHERE PeopleProjects.Relation IN ($relations)
+			AND PeopleProjects.PersonID =
+				People.PersonID
+			AND InactiveDate IS NULL
+			");
+	mysql_error_check();
+
+	while($row = mysql_fetch_assoc($result)) {
+		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
+			$people[ucwords($row['LName'].', '.$row['FName'])] =
+			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+			'</td><td>' . '&nbsp;' . "</td><td>" .
+			ucfirst($row['ProjectID']) . " PMC</td>";
+		}
+	}
+
+	/*
+	 * company members
+	 */
 	$result = mysql_query("SELECT distinct(People.PersonID),
 			Name1, FName, LName
 		FROM OrganizationContacts, Organizations, People
