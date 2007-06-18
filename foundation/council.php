@@ -57,7 +57,7 @@ function find_relations($relations) {
 	/*
 	 * appointed members with company relationships
 	 */
-	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName
+	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName, Name1
 		FROM PeopleRelations, People, Organizations,
 			OrganizationContacts
 		WHERE PeopleRelations.Relation IN ($relations)
