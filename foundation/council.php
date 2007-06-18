@@ -55,16 +55,11 @@ function find_relations($relations) {
 
 	$people = array();
 
-	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName,
-			Name1
-		FROM PeopleRelations, People, Organizations,
-			OrganizationContacts
+	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName
+		FROM PeopleRelations, People
 		WHERE PeopleRelations.Relation IN ($relations)
 			AND People.PersonID = PeopleRelations.PersonID
-			AND OrganizationContacts.PersonID =
-				People.PersonID
-			AND Organizations.OrganizationID =
-				OrganizationContacts.OrganizationID");
+			");
 	mysql_error_check();
 
 	while($row = mysql_fetch_assoc($result)) {
