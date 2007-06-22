@@ -47,7 +47,7 @@ Directors:</P>
 	<COL WIDTH=298>
 	<COL WIDTH=351>
 	<TR VALIGN=TOP>
-		<TD WIDTH=298 HEIGHT=1>
+		<TD WIDTH=298>
 			<P STYLE="margin-left: 2cm; margin-right: -0.34cm">Tim Barnes</P>
 		</TD>
 		<TD WIDTH=351>
@@ -55,7 +55,7 @@ Directors:</P>
 		</TD>
 	</TR>
 	<TR VALIGN=TOP>
-		<TD WIDTH=298 HEIGHT=1>
+		<TD WIDTH=298>
 			<P STYLE="margin-left: 2cm; margin-right: -0.34cm">Rich Bartlett</P>
 		</TD>
 		<TD WIDTH=351>
