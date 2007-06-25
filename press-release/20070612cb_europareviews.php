@@ -60,6 +60,14 @@
 </div>
 
 
+	<div id="rightcolumn">
+	<div class="sideitem">
+		<h6>Related Links</h6>
+		<ul>
+			<li><a href="/europa/europareviews.php">Europa Reviews</a></li>
+		</ul>
+	</div>
+	</div>
 
 
 
