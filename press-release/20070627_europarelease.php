@@ -16,6 +16,9 @@
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+	<style>
+		.paddedlist li {	padding-bottom:7px;	}
+	</style>
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1 align="center">$pageTitle</h1>
@@ -27,7 +30,7 @@
 		<p>Innovations in the Europa release include new runtime technology for creating server applications, developer tools for service-oriented architecture (SOA), tools for improving team collaboration and support for users of the popular Ruby programming language.</p>
 		<p>“Eclipse is a very successful open development platform for the software industry’, said Mike Milinkovich, Executive Director of the Eclipse Foundation. “The Eclipse Europa release is an important milestone for fulfilling our community’s strategy of providing a common development platform for embedded, rich client, rich internet and server applications.  The tremendous advantage Eclipse provides is that it spans these different types of applications with a common component model, frameworks and tools.”</p>
 		<p>Some highlights of the projects being released:</p>
-		<ul>
+		<ul class="paddedlist">
 			<li>Eclipse Equinox has added new services and capabilities to ease the development and deployment of server applications running on the Equinox runtime.</li>
 			<li>Eclipse Business Intelligence and Reporting Tools (BIRT) has added support for dynamic crosstabs, output to Microsoft Word and Excel formats and now allows for web services to act as a data source.   These new features allow for more sophisticated reporting functionality to be integrated into Java applications.</li>
 			<li>The Eclipse SOA Tools Project (STP) has made available their first release.   The release provides SOA developers tool support for SCA and JAX-WS standards, as well as a BPMN Modeler tool.</li>
@@ -40,7 +43,7 @@
 		</ul>
 		<p>The Europa release will be available from eclipse.org on June 29, 2007.  New download options have been created to provide complete download packages for users requiring a Java IDE, JEE IDE, C/C++ IDE and an SDK for RCP and Plugin developer.   </p>
 		<p>The complete list of Eclipse projects available in the Europa release includes:</p>
-		<ul>
+		<ul class="paddedlist">
 			<li>AJDT 1.5</li>
 			<li>BIRT 2.2</li>
 			<li>Buckminster 0.1.0</li>
