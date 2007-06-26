@@ -18,10 +18,10 @@
 	$html = <<<EOHTML
 <div id="maincontent">
 	<div id="midcolumn">
-		<h1>$pageTitle</h1>
-		<h2>Press Release</h2>
+		<h1 align="center">$pageTitle</h1>
+		
 		<h2 ALIGN="CENTER"><strong>Europa Release Consists of 21 Projects</strong></h2>
-
+		<h2>Press Release</h2>
 		<p><strong>OTTAWA – June 27, 2007</strong> - The Eclipse Foundation today announced the availability of its annual coordinated project release, this year code named Europa.  Europa features 21 Eclipse projects for software developers and is more than double the size of last year’s record-setting release.</p>  
 		<p>The release consists of more than 17 million lines of code and the contributions of over 310 open source developers located in 19 different countries.   The 2006 release, code named Callisto, involved 10 project teams, 7 million lines of code, and 260 open-source developers in 12 countries.  This is the fourth year in a row the Eclipse community has shipped a major release on schedule.</p>
 		<p>Innovations in the Europa release include new runtime technology for creating server applications, developer tools for service-oriented architecture (SOA), tools for improving team collaboration and support for users of the popular Ruby programming language.</p>
