@@ -44,27 +44,27 @@
 		<p>The Europa release will be available from eclipse.org on June 29, 2007.  New download options have been created to provide complete download packages for users requiring a Java IDE, JEE IDE, C/C++ IDE and an SDK for RCP and Plugin developer.   </p>
 		<p>The complete list of Eclipse projects available in the Europa release includes:</p>
 		<ul class="paddedlist">
-			<li>AJDT 1.5</li>
-			<li>BIRT 2.2</li>
-			<li>Buckminster 0.1.0</li>
-			<li>CDT 4.0</li>
-			<li>DLTK 1.0</li>
-			<li>DSDP DD 0.9</li>
-			<li>DSDP TM  2.0</li>
-			<li>DTP 1.5</li>
-			<li>ECF 1.0</li>
-			<li>Eclipse Platform 3.3 </li>
-			<li>Dash 1.0</li>
-			<li>EMF 2.3</li>
-			<li>EMF-QTV 1.1</li>
-			<li>M2T (JET) 0.8</li>
-			<li>GEF 3.3</li>
-			<li>GMF 2.0</li>
-			<li>MDT 1.0</li>
-			<li>Mylyn 2.0</li>
-			<li>STP 0.6</li>
-			<li>TPTP 4.4</li>
-			<li>WTP 2.0</li>
+			<li><a href="http://www.eclipse.org/ajdt/">AJDT 1.5</a></li>
+			<li><a href="http://www.eclipse.org/birt/">BIRT 2.2</a></li>
+			<li><a href="http://www.eclipse.org/buckminster/">Buckminster 0.1.0</a></li>
+			<li><a href="http://www.eclipse.org/cdt">CDT 4.0</a></li>
+			<li><a href="http://www.eclipse.org/datatools/">DLTK 1.0</a></li>
+			<li><a href="http://www.eclipse.org/dsdp/dd/">DSDP DD 0.9</a></li>
+			<li><a href="http://www.eclipse.org/dsdp/tm/">DSDP TM  2.0</a></li>
+			<li><a href="http://www.eclipse.org/dltk/">DTP 1.5</a></li>
+			<li><a href="http://www.eclipse.org/ecf/">ECF 1.0</a></li>
+			<li><a href="http://www.eclipse.org/eclipse/">Eclipse Platform 3.3</a> </li>
+			<li><a href="http://www.eclipse.org/dash/">Dash 1.0</a></li>
+			<li><a href="http://www.eclipse.org/emf/">EMF 2.3</a></li>
+			<li><a href="http://www.eclipse.org/emft/">EMF-QTV 1.1</a></li>
+			<li><a href="http://www.eclipse.org/m2t">M2T (JET) 0.8</a></li>
+			<li><a href="http://www.eclipse.org/gef">GEF 3.3</a></li>
+			<li><a href="http://www.eclipse.org/gmf/">GMF 2.0</a></li>
+			<li><a href="http://www.eclipse.org/modeling/mdt/">MDT 1.0</a></li>
+			<li><a href="http://www.eclipse.org/mylyn/">Mylyn 2.0</a></li>
+			<li><a href="http://www.eclipse.org/stp/">STP 0.6</a></li>
+			<li><a href="http://www.eclipse.org/tptp/">TPTP 4.4</a></li>
+			<li><a href="http://www.eclipse.org/webtools/main.php">WTP 2.0</a></li>
 		</ul>
 			
 
@@ -86,7 +86,14 @@
 		</p>
 							
 	</div>
-		
+	<div id="rightcolumn">
+	<div class="sideitem">
+		<h6>Related Links</h6>
+		<ul>
+			<li><a href="/europa/europaeffect.php">Europa Quotes</a></li>
+		</ul>
+	</div>
+	</div>
 </div>
 
 
