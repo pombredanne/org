@@ -41,7 +41,7 @@
 			<li>The Java development tools (JDT) project has introduced a number of features to increase the productivity of Java developers using Eclipse, including an enhanced debugger via hyperlinking and a new Quick Access feature to provide easier IDE navigation.</li> 
 			<li>Eclipse Web Tools Project (WTP) has introduced a number of features to increase the productivity of Web developers including a new visual editor for HTML, JSP and JSF, as well as support for new standards, such as Axis2 and basic JEE 5 support.</li>
 		</ul>
-		<p>The Europa release will be available from eclipse.org on June 29, 2007.  New download options have been created to provide complete download packages for users requiring a Java IDE, JEE IDE, C/C++ IDE and an SDK for RCP and Plugin developer.   </p>
+		<p>The Europa release will be available from <a hrefeclipse.org on June 29, 2007.  New download options have been created to provide complete download packages for users requiring a Java IDE, JEE IDE, C/C++ IDE and an SDK for RCP and Plugin developer.   </p>
 		<p>The complete list of Eclipse projects available in the Europa release includes:</p>
 		<ul class="paddedlist">
 			<li><a href="http://www.eclipse.org/ajdt/">AJDT 1.5</a></li>
@@ -66,8 +66,6 @@
 			<li><a href="http://www.eclipse.org/tptp/">TPTP 4.4</a></li>
 			<li><a href="http://www.eclipse.org/webtools/main.php">WTP 2.0</a></li>
 		</ul>
-			
-
 		
 		<p><strong>About the Eclipse Foundation</strong><br />
 		Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
