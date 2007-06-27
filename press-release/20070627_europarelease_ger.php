@@ -82,8 +82,13 @@
 		Tel. +49 (0)721-160 88 78<br>
 		eMail: alin (at) saalto.de<br>
 		www.saalto.de<br>
-		<br>
-
+		<br/>
+		<br/><strong>Weitere Informationen:</strong><br>
+		Ralph Müller<br/>
+		Director, Eclipse Ecosystems – Europe<br/>
+		Eclipse Foundation Inc.<br/>
+		eMail: ralph.mueller (at) eclipse.org<br/>
+		www.eclipse.org<br/>
 		</p>
 							
 	</div>
