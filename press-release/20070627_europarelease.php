@@ -48,10 +48,10 @@
 			<li><a href="http://www.eclipse.org/birt/">BIRT 2.2</a></li>
 			<li><a href="http://www.eclipse.org/buckminster/">Buckminster 0.1.0</a></li>
 			<li><a href="http://www.eclipse.org/cdt">CDT 4.0</a></li>
-			<li><a href="http://www.eclipse.org/datatools/">DLTK 1.0</a></li>
+			<li><a href="http://www.eclipse.org/dltk/">DLTK 1.0</a></li>
 			<li><a href="http://www.eclipse.org/dsdp/dd/">DSDP DD 0.9</a></li>
 			<li><a href="http://www.eclipse.org/dsdp/tm/">DSDP TM  2.0</a></li>
-			<li><a href="http://www.eclipse.org/dltk/">DTP 1.5</a></li>
+			<li><a href="http://www.eclipse.org/datatools/">DTP 1.5</a></li>
 			<li><a href="http://www.eclipse.org/ecf/">ECF 1.0</a></li>
 			<li><a href="http://www.eclipse.org/eclipse/">Eclipse Platform 3.3</a> </li>
 			<li><a href="http://www.eclipse.org/dash/">Dash 1.0</a></li>
