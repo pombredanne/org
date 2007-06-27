@@ -41,7 +41,7 @@
 			<li>Das Java Development Tools-Projekt (JDT) hat mehrere Funktionsmerkmale eingeführt, um die Produktivität von Java-Entwicklern zu steigern, die Eclipse einsetzen, wie unter anderem einen fortgeschrittenen Debugger via Hyperlinking sowie eine neue Quick Access-Funktion, die eine einfachere IDE-Navigation ermöglicht.</li> 
 			<li>Eclipse Web Tools Project (WTP) hat mehrere Funktionsmerkmale eingeführt, um die Produktivität von Webentwicklern zu steigern, einschließlich eines neuen visuellen Editors für HTML, JSP und JSF sowie eine Unterstützung neuer Standards, wie etwa Axis2, sowie eine grundlegende JEE 5-Unterstützung.</li>
 		</ul>
-		<p>Der Europa-Release steht ab dem 29. Juni 2007 unter eclipse.org zur Verfügung. Es wurden neue Download-Optionen geschaffen, um vollständige Download-Pakete für Benutzer zur Verfügung stellen zu können, die eine Java IDE, JEE IDE, C/C++ IDE sowie einen SDK für RCP- und Plugin-Entwickler benötigen.</p>
+		<p>Der Europa-Release steht ab dem 29. Juni 2007 unter <a href="http://www.eclipse.org/downloads/">eclipse.org</a> zur Verfügung. Es wurden neue Download-Optionen geschaffen, um vollständige Download-Pakete für Benutzer zur Verfügung stellen zu können, die eine Java IDE, JEE IDE, C/C++ IDE sowie einen SDK für RCP- und Plugin-Entwickler benötigen.</p>
 		<p>Die vollständige Liste der im Europa-Release enthaltenen Eclipse-Projekte beinhaltet:</p>
 		<ul class="paddedlist">
 			<li><a href="http://www.eclipse.org/ajdt/">AJDT 1.5</a></li>
