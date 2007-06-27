@@ -55,8 +55,8 @@
 			<li><a href="http://www.eclipse.org/ecf/">ECF 1.0</a></li>
 			<li><a href="http://www.eclipse.org/eclipse/">Eclipse Platform 3.3</a> </li>
 			<li><a href="http://www.eclipse.org/dash/">Dash 1.0</a></li>
-			<li><a href="http://www.eclipse.org/emf/">EMF 2.3</a></li>
-			<li><a href="http://www.eclipse.org/emft/">EMF-QTV 1.1</a></li>
+			<li><a href="http://www.eclipse.org/modeling/emf/">EMF 2.3</a></li>
+			<li><a href="http://www.eclipse.org/modeling/emf/">EMF-QTV 1.1</a></li>
 			<li><a href="http://www.eclipse.org/m2t">M2T (JET) 0.8</a></li>
 			<li><a href="http://www.eclipse.org/gef">GEF 3.3</a></li>
 			<li><a href="http://www.eclipse.org/gmf/">GMF 2.0</a></li>
