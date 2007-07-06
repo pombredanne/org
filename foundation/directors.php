@@ -101,6 +101,7 @@ function find_relations() {
 
 ob_start();
 ?>
+<div style="padding-left: 2em">
 <h1>Eclipse Foundation Board of Directors</h1>
 		<table border="0" cellspacing="5" cellpadding="2" width="67%" >
   		<tr>
@@ -120,6 +121,7 @@ foreach($people as $name=>$value) {
 }
 ?>
 </table>
+</div>
 <?php
 $html = ob_get_contents();
 ob_end_clean();
