@@ -76,7 +76,7 @@ function find_relations() {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
 			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
-			'</td><td>' . '&nbsp;' . '</td><td>Elected add-in provider representative</td>';
+			'</td><td>Elected add-in provider representative</td>';
 		}
 	}
 
@@ -101,8 +101,17 @@ function find_relations() {
 
 ob_start();
 ?>
-<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
-<tr><td><b>Director</b></td><td><b>Organization</b></td></tr>
+<h1>Eclipse Foundation Board of Directors</h1>
+		<table border="0" cellspacing="5" cellpadding="2" width="67%" >
+  		<tr>
+    		<td width="49%">
+      		<p><b>Director</b><b> </b></p>
+
+    		</td>
+    		<td width="51%">
+      		<p><b>Organization</b></p>
+    		</td>
+    		</tr>
 <?php
 $people = find_relations($planning_relations);
 ksort($people);
