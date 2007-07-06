@@ -2,22 +2,25 @@
 
 	#*****************************************************************************
 	#
-	# sample_3col.php
+	# directors.php
 	#
 	# Author: 		Denis Roy
 	# Date:			2005-11-07
 	#
 	# Description: Type your page comments here - these are not sent to the browser
 	#
+	# History:		DB-driven version Karl Matthias
+	#				2007-07-06
+	#
 	#
 	#****************************************************************************
-	
+
 	#
-	# Begin: page-specific settings.  Change these. 
+	# Begin: page-specific settings.  Change these.
 	$pageTitle 		= "Eclipse Foundation Board of Directors";
 	$pageKeywords	= "foundation, board, legal";
 	$pageAuthor		= "Mike Milinkovich, Nov. 22, 2005";
-	
+
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
@@ -26,192 +29,91 @@
 
 	# End: page-specific settings
 	#
-		
-	# Paste your HTML content between the EOHTML markers!	
-	$html = <<<EOHTML
 
-	<div id="midcolumn">
-		<h1>$pageTitle</h1>
-		<table border=0 cellspacing=5 cellpadding=2 width="67%" >
-  		<tr>  
-    		<td width="49%"> 
-      		<p><b>Director</b><b> </b></p>
-    		</td>  
-    		<td width="51%"> 
-      		<p><b>Organization</b></p>
-    		</td>
-    		</tr>
-    		
-    		<tr>
-    		<td width="49%">Chris Aniszczyk</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Tim Barnes</td>
-    		<td width="51%">OpenMethods</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Rich Bartlett</td>
-    		<td width="51%">Nokia</td>
- 		</tr>
- 		 		
- 		<tr>
-    		<td width="49%">Michael Bechauf</td>
-    		<td width="51%">SAP AG</td>
-		</tr>
-		
-		<tr>
-    		<td width="49%">Brian Carroll</td>
-    		<td width="51%">Serena</td>
- 		</tr>
-		
- 		<tr>
-    		<td width="49%">Ed Cobb</td>
-    		<td width="51%">BEA</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Mark Coggins</td>
-    		<td width="51%">Actuate Corporation</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Paul Czarnik</td>
-    		<td width="51%">Compuware</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Winston Damarillo</td>
-    		<td width="51%">Simula Labs</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Eliane Fourgeau</td>
-    		<td width="51%">Elected add-in provider representative</td>
- 		</tr>
- 		
- 		 <tr>
-    		<td width="49%">Richard Gronback</td>
-    		<td width="51%">Borland</td>
- 		</tr>
- 
- 		<tr>
-    		<td width="49%">Andi Gutmans</td>
-    		<td width="51%">Zend</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Jonathan Khazam</td>
-    		<td width="51%">Intel</td>
- 		</tr>
+$fdbc = new DBConnectionFoundation();
+$dbh = $fdbc->connect()
+	or die('Could not connect: ' . mysql_error());
 
-		<tr>
-    		<td width="49%">Konstantin Komissarchik</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">Jochen Krause</td>
-    		<td width="51%">Innoopract</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Dennis Leung</td>
-    		<td width="51%">Oracle</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Howard H. Lewis</td>
-    		<td width="51%">Elected add-in provider representative</td>
- 		</tr>
- 		
- 		<tr>
-    		<td  width="49%">Philip Ma</td>
-    		<td width="51%">Hewlett Packard</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Jeff McAffer</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">Ed Merks</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
+# Global Functions
 
- 		<tr>
-    		<td width="49%"> Eric Newcomer</td>
-    		<td width="51%">Iona</td>
- 		</tr>
- 		
- 		 <tr>
-    		<td width="49%">Michael Norman</td>
-    		<td width="51%">Scapa Technologies</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Tracy Ragan</td>
-    		<td width="51%">Elected add-in provider representative</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">James Saliba</td>
-    		<td width="51%">Computer Associates</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Steve Saunders</td>
-    		<td width="51%">Wind River</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Mitch Sonies</td>
-    		<td width="51%">Cloudsmith</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">Darin Swanson</td>
-    		<td width="51%">Elected committer representative</td>
- 		</tr>
- 		
- 		<tr>
-    		<td width="49%">Mike Taylor</td>
-    		<td width="51%">Elected add-in provider representative</td>
- 		</tr>
- 		
-		<tr>
-    		<td hwidth="49%">Dave Thomson</td>
-    		<td width="51%">IBM</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">David Tong</td>
-    		<td width="51%">Sybase</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">Todd Williams</td>
-    		<td width="51%">Elected add-in provider representative</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">Christy Wyatt</td>
-    		<td width="51%">Motorola</td>
- 		</tr>
- 		
-		<tr>
-    		<td width="49%">&nbsp;</td>
-    		<td width="51%">&nbsp;</td>
- 		</tr>
-	</table>	
-	</div>
+function mysql_error_check() {
+	if(mysql_errno() != 0) {
+		die('<h1 style="color: red">' . mysql_errno() . ': ' . mysql_error() . '</h1>');
+	}
+}
 
-EOHTML;
+# Lookup the relations and return the list
+function find_relations() {
+	global $dbh;
 
+	$people = array();
+	/*
+	 * members with company relationships
+	 */
+	$result = mysql_query("SELECT FName, LName, Name1 " .
+			"FROM  People, OrganizationContacts, Organizations " .
+			"WHERE People.PersonID = OrganizationContacts.PersonID " .
+			"	AND Relation = 'BR' " .
+			"	AND OrganizationContacts.OrganizationID = Organizations.OrganizationID;", $dbh);
+	mysql_error_check();
 
-	# Generate the web page
-	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
+	while($row = mysql_fetch_assoc($result)) {
+		$people[ucwords($row['LName'].', '.$row['FName'])] =
+		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+		'</td><td>' . $row[Name1] . '</td>';
+	}
+
+	/*
+	 * elected add-in provider reps
+	 */
+	$result = mysql_query("SELECT FName, LName " .
+			"FROM  People, PeopleRelations " .
+			"WHERE People.PersonID = PeopleRelations.PersonID " .
+			"	AND Relation = 'AR';", $dbh);
+	mysql_error_check();
+	while($row = mysql_fetch_assoc($result)) {
+		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
+			$people[ucwords($row['LName'].', '.$row['FName'])] =
+			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+			'</td><td>' . '&nbsp;' . '</td><td>Elected add-in provider representative</td>';
+		}
+	}
+
+	/*
+	 * elected committer reps
+	 */
+	$result = mysql_query("SELECT FName, LName " .
+			"FROM  People, PeopleRelations " .
+			"WHERE People.PersonID = PeopleRelations.PersonID " .
+			"	AND Relation = 'CB';", $dbh);
+	mysql_error_check();
+	while($row = mysql_fetch_assoc($result)) {
+		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
+			$people[ucwords($row['LName'].', '.$row['FName'])] =
+			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+			'</td><td>' . '&nbsp;' . '</td><td>Elected committer representative</td>';
+		}
+	}
+
+	return $people;
+}
+
+ob_start();
+?>
+<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
+<tr><th>Director</th><th>Organization</th></tr>
+<?php
+$people = find_relations($planning_relations);
+ksort($people);
+foreach($people as $name=>$value) {
+	echo "		<tr>$value</tr>\n";
+}
+?>
+</table>
+<?php
+$html = ob_get_contents();
+ob_end_clean();
+
+# Generate the web page
+$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
