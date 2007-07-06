@@ -92,7 +92,7 @@ function find_relations() {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
 			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
-			'</td><td>' . '&nbsp;' . '</td><td>Elected committer representative</td>';
+			'</td><td>Elected committer representative</td>';
 		}
 	}
 
@@ -102,7 +102,7 @@ function find_relations() {
 ob_start();
 ?>
 <table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
-<tr><th>Director</th><th>Organization</th></tr>
+<tr><td><b>Director</b></td><td><b>Organization</b></td></tr>
 <?php
 $people = find_relations($planning_relations);
 ksort($people);
