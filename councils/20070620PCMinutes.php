@@ -219,7 +219,6 @@ following issues that we will take to the Board meeting tomorrow:</p>
     and accessing/depending on third-party libraries that are not distributed
     with the Eclipse project (the Buckminster-Maven-SVN example).</li>
 </ul>
-<p><b><u>ACTION</u>:</b>  [Bjorn FB] Take these requests to Eclipse Legal:</p>
 <p><i>Notes taken and posted by Bjorn Freeman-Benson</i></p>
 
 
