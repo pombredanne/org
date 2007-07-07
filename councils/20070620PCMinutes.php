@@ -79,15 +79,27 @@ and what we'd like to have for Ganymede next year.</p>
     and then having a cut-ff date that defines the milestone.</span></li>
   <li>Platform APIs were frozen by the time the Europa M4 was just starting.
     Conclusion: we need to start with a Ganymede M1 to get everyone working
-    together sooner.
+    together sooner. Basically, Ganymede starts now/soon and will continue
+    throughout the year.
     <ul>
       <li>Philippe will provide the Platform milestone dates by the end of July
         2007 so that we can define the Ganymede M-dates.</li>
+      <li>Post-note from Bjorn: I imagine that the &quot;must dos&quot; and
+        &quot;should dos&quot; will be discussed prior to our next face-to-face
+        and then decided upon at that meeting.</li>
     </ul>
   </li>
   <li>It is essential for dependent projects to pay attention to their upstream
     projects so that API changes can be requested, used, tested, etc. before the
-    last minute. The last minute is bad.</li>
+    last minute. The last minute is bad.
+    <ul>
+      <li>Post-note from David: perhaps we need
+        a better designated time to do &quot;full install&quot; testing.
+        Currently it's assumed to do &quot;as we go&quot;, but that's
+        hard to do. Perhaps for one week after each Ganymede milestone, request
+        projects do some &quot;report&quot;? </li>
+    </ul>
+  </li>
   <li><span style="background-color: #FFFF88">There was disappointment amongst
     some Council members and EMO staff that the Europa requirements were relaxed
     over the course of the project. For Ganymede, we are considering having a
@@ -120,13 +132,14 @@ and what we'd like to have for Ganymede next year.</p>
     the end, we concluded that the point of Ganymede was to produce &quot;the
     CD&quot; with all the project on it. The purpose was not &quot;providing a
     better integrated product&quot;.</li>
-  <li>Each project on the train needs to do performance and scalability/resource
-    usage testing. Maybe use the TPTP tools?</li>
   <li><span style="background-color: #FFFF88">Ganymede is more of a process
     rather than a technical solution: it's a <i><b>reliable release stream for
     commercial product planning</b></i>.</span> Not sure if we need to change
     much from Europa except maybe a better understanding of all the project
     dependences - Europa has gone well in terms of reliable milestone builds.</li>
+  <li>Other noble goals, like &quot;improved user experience&quot; were seen as
+    requiring a lot of extra work and perhaps &quot;near impossible&quot; given
+    that there is no one person in charge of the overall user experience.</li>
   <li>We like the EPP packages and the role-based downloads; role-based
     downloads are better than the &quot;everything is available in the update
     manager&quot; distro. We should work with the EPP project to consume the
@@ -154,6 +167,9 @@ and what we'd like to have for Ganymede next year.</p>
     would require projects to change their ways to have more common
     infrastructure. And the source build would be broken a lot of time. Maybe we
     should do something like more distributed testing instead.</li>
+  <li>Should we have some kind of CPAN-like distributed testing system? There
+    was some fear that this would be a lot of work, but given how well it works
+    for other open source projects, it seems like a good idea to investigate.</li>
   <li>We also discussed how we could ensure API cleanliness. Each project can
     control the issue in their own code, but if they rely on other projects and
     those projects do not adhere to the same level of cleanliness, that can put
@@ -177,11 +193,15 @@ and what we'd like to have for Ganymede next year.</p>
     how to generate a better understanding of these issues amongst the projects.
     How are projects measuring their performance and scaling metrics? Are they
     measuring them at all? The Platform, WTP, and BIRT had performance tests,
-    but none of the leads were really happy with the tests that they have... The
-    Platform team used M7 as a &quot;performance iteration&quot;, but none of
-    the other projects did that. <span style="background-color: #FFFF88">Consensus
-    was that Ganymede should recommend, or maybe require, that M7 be a
-    performance iteration.</span></li>
+    but none of the leads were really happy with the tests that they have...
+    Phillipe said the Platform needs to be able to handle 10,000 plug-ins and
+    that all projects should handle huge workspaces, etc. The Platform team used
+    M7 as a &quot;performance iteration&quot;, but none of the other projects
+    did that. <span style="background-color: #FFFF88">Consensus was that
+    Ganymede should recommend, or maybe require, that M7 be a performance
+    iteration.</span></li>
+  <li>Each project on the train needs to do performance and scalability/resource
+    usage testing. Maybe use the TPTP tools?</li>
 </ul>
 <h3>Eclipse IP Process/Policy Improvements</h3>
 <p>We discussed our difficulties with the Eclipse IP Process and discussed the
@@ -218,8 +238,16 @@ following issues that we will take to the Board meeting tomorrow:</p>
     rewritten faster (months of work) before Legal even started to review it;
     and accessing/depending on third-party libraries that are not distributed
     with the Eclipse project (the Buckminster-Maven-SVN example).</li>
+  <li>Post-note from David: &quot;There were
+    some constructive suggestions that came out of it, but I still think it's
+    working fairly well, and, as human nature is, any discussion of
+    &quot;how to improve&quot; ignores the enormous improvements that have been
+    made. (I recall when 'approval' was not even traceable!)&quot;</li>
+  <li>&nbsp;</li>
 </ul>
 <p><i>Notes taken and posted by Bjorn Freeman-Benson</i></p>
+
+
 
 
 
