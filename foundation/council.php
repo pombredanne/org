@@ -264,8 +264,10 @@ foreach($people as $name=>$value) {
 ?>
 	</table>
       <ul>
+        <li><a href="../councils/20070620PCMinutes.php">Planning
+          	Council Meeting, June 20, 2007</a><img src="../../images/new.gif" alt="new"></li>
         <li><a href="../councils/20070123PCMinutes.php">Planning
-          	Council Meeting, January 23, 2007</a><img src="../../images/new.gif" alt="new"></li>
+          	Council Meeting, January 23, 2007</a>
         <li><a href="../councils/20061011PCMinutes.php">Planning
           	Council Meeting, October 11, 2006</a></li>
         <li><a href="../councils/20060629PCMinutes.php">Planning
