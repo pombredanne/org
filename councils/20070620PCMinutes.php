@@ -15,7 +15,7 @@ ob_start();
 <p>June 20, 2007, Boston, Massachutes</p>
 <p><i>Note that the attendance list is not accurate at this time.<br>
 Gary Xue, Doug Gaff, Rich Gronback, David Williams, Philippe Mulet, Oisin
-Hurley, John Graham, Bjorn Freeman-Benson, plus two more.</i></p>
+Hurley, John Graham, Bjorn Freeman-Benson, Oliver Cole, Walter Harley.</i></p>
 <h2>Minutes / Discussion Items</h2>
 <h3>Europa Simultaneous Maintenance Releases</h3>
 <p>We decided on September 28th and February 29th for the Fall and Winter
