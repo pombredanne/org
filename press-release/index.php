@@ -36,8 +36,11 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20070719_ESEregopen.php">Eclipse Summit Europe Registration Opens</a> - July 19th, 2007</li>
+		<li><a href="20070627_europarelease.php">Eclipse Ships Largest-Ever Release of Leading Open Source Software Development Platform</a> - June 27th 2007</li>				
 		<li><a href="20070627_europarelease.php">Eclipse liefert den bisher größten Release der führenden Open Source Software-Entwicklungsplattform aus</a> - June 27th 2007</li>
-		<li><a href="20070627_europarelease.php">Eclipse Ships Largest-Ever Release of Leading Open Source Software Development Platform</a> - June 27th 2007</li>
+		<li><a href="20070619_cbsummitasia">Community Bulletin: OS Summit Asia</a> - June 19th 2007</li>
+		<li><a href="20070612cb_europareviews.php">Write a Review, Win an Eclipse Shirt</a> - June 13th 2007</li>		
 		<li><a href="20070529cb_cbsummitcall.php">Eclipse Summit Europe Call for Participation - Talks & Demo</a> - May 29th 2007</li>
 		<li><a href="20070420cb_eclipseparty.php">Eclipse Party at JavaOne</a> - April 20th 2007</li>
 		<li><a href="20070403embedded.php">New Project Releases Continue to Drive Adoption of Eclipse in the Embedded and Device Development Community</a> - April 3rd 2007</li>
