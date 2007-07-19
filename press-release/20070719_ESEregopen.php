@@ -55,7 +55,7 @@
 			related sessions, keynotes, and project demonstrations.  The main reception for attendees occurs on the Wednesday evening.  
 		</p>
 		<p>
-			Further information on the conference and registration can be found on the <a href="www.eclipsecon.org/summiteurope2007">ESE
+			Further information on the conference, registration and sponsorship can be found on the <a href="www.eclipsecon.org/summiteurope2007">ESE
 			web site</a>.	
 		</p>
 
