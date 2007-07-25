@@ -267,7 +267,7 @@ foreach($people as $name=>$value) {
         <li><a href="../councils/20070620PCMinutes.php">Planning
           	Council Meeting, June 20, 2007</a><img src="../../images/new.gif" alt="new"></li>
         <li><a href="http://wiki.eclipse.org/Europa_Minutes_2007.03.04">Planning
-          	Council Meeting, Marcy 4, 2007</a>
+          	Council Meeting, March 4, 2007</a>
         <li><a href="../councils/20070123PCMinutes.php">Planning
           	Council Meeting, January 23, 2007</a>
         <li><a href="../councils/20061011PCMinutes.php">Planning
