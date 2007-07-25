@@ -26,23 +26,20 @@
 			<strong>Announcing a New Eclipse RCP Training Series</strong>
 		</p>
 		<p>
-			The Eclipse Foundation, in partnership with Eclipse training companies Anyware, Avantsoft, Bredex, Innoopract, TSI and Weigle Wilczek, are pleased
-			to annouce a series of RCP training classes.  Classes will be occur Sept. 17 and Oct. 5 and be held in Amsterdam, Berlin, Braunschweig, Luxembourg, Paris, 
-			Toulouse, San Francisco and Portland.    The participating Eclipse training companies will be organizing the classes in each city and many of these 
-			companies are offering greatly reduced pricing.
-			
+			The Eclipse Foundation, in partnership with Eclipse training companies Anyware Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract and WeigleWilczek, are pleased
+			to annouce a series of RCP training classes.  Classes will occur between September 17 and October 5 and will take place in Amsterdam, Berlin, Braunschweig, Luxembourg, Paris, 
+			Toulouse, San Francisco, San Jose, Stuttgart and Portland.  The participating Eclipse training companies will be organizing the classes in each city at prices that are 
+			greatly reduced from their regular rates.
 		</p>	
 		<p>	
 			The RCP training series will provide in-depth education for developers building Eclipse RCP based applications.
 			Each class will run for four days and feature instructor-led classroom instruction and in-depth hands-on labs and tutorials. 					
-		The class will help developers understand the core RCP concepts, the Eclipse plug-in architecture and provide indepth insight into SWT, JFace, and other RCP components.
+			The class will help developers understand the core RCP concepts and Eclipse plug-in architecture, and provide in-depth insight into SWT, JFace and other RCP components.
 		</p>
-		
-	
 		<p>
 			For more informaiton, locations, dates and registration please go to 
 			<a href="http://www.regonline.com/RCPtraining">www.regonline.com/RCPtraining</a>.  Students that register before
-			August 31, 2007 will receive a 10% discount on the registration price.
+			August 31, 2007 will receive a 10% early bird discount on the registration price.
 		</p>
 
 	</div>
