@@ -23,37 +23,26 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>
-			<strong>Eclipse RCP Training</strong>
+			<strong>Announcing a New Eclipse RCP Training Series</strong>
 		</p>
 		<p>
-			Go back to school with Eclipse to learn the techniques, tips and tricks required for successfully building and deploying an
-			RCP application.  The Eclipse Foundation, in partnership with several Eclipse training companies, is holding a series of
-			RCP training classes in Europe and North America.  Each RCP class will run for four days and will feature instructor-led
-			classroom instruction and in-depth hands-on labs and tutorials. 					
+			The Eclipse Foundation, in partnership with Eclipse training companies Anyware, Avantsoft, Bredex, Innoopract, TSI and Weigle Wilczek, are pleased
+			to annouce a series of RCP training classes.  Classes will be occur Sept. 17 and Oct. 5 and be held in Amsterdam, Berlin, Braunschweig, Luxembourg, Paris, 
+			Toulouse, San Francisco and Portland.    The participating Eclipse training companies will be organizing the classes in each city and many of these 
+			companies are offering greatly reduced pricing.
+			
+		</p>	
+		<p>	
+			The RCP training series will provide in-depth education for developers building Eclipse RCP based applications.
+			Each class will run for four days and feature instructor-led classroom instruction and in-depth hands-on labs and tutorials. 					
+		The class will help developers understand the core RCP concepts, the Eclipse plug-in architecture and provide indepth insight into SWT, JFace, and other RCP components.
+		</p>
 		
+	
 		<p>
-			The RCP course will help you understand how to implement your own application based on Eclipse RCP. It will explain the
-			core frameworks in Eclipse, the plug-in architecture, extension points and scenarios for building on the common
-			configurations of Eclipse technology.  Participants will begin working with simple examples, which will become more
-			complex as the course progresses. Topics will include:
-			<ul>
-				<li>Eclipse RCP – introduction and concepts</li> 
-				<li>Eclipse plug-in architecture</li> 
-				<li>RCP development environment</li> 
-				<li>RCP application structure, lifecycle and extensibility</li> 
-				<li>The Standard Widget Toolkit (SWT) and JFace</li> 
-				<li>Workbench, perspectives and views </li> 
-				<li>Actions</li> 
-				<li>Editors</li>  
-				<li>Dialogs (preference pages)</li>  
-				<li>Wizards</li>  
-				<li>Adding help</li>  
-				<li>Features, branding, product customization and updates</li> 
-			</ul>
-		</p>
-		<p>
-			For training class locations, dates, and registtration go to
-			<a href="http://www.regonline.com/RCPtraining">www.regonline.com/RCPtraining</a>.	
+			For more informaiton, locations, dates and registration please go to 
+			<a href="http://www.regonline.com/RCPtraining">www.regonline.com/RCPtraining</a>.  Students that register before
+			August 31, 2007 will receive a 10% discount on the registration price.
 		</p>
 
 	</div>
