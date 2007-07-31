@@ -27,7 +27,7 @@
 		</p>
 		<p>
 			The Eclipse Foundation, in partnership with Eclipse training companies Anyware Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract and WeigleWilczek, are pleased
-			to annouce a series of RCP training classes.  Classes will occur between September 17 and October 5 and will take place in Amsterdam, Berlin, Boston, Braunschweig, Brussels, 
+			to announce a series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=143622&view=Month">RCP training classes</a>.  Classes will occur between September 17 and October 5 and will take place in Amsterdam, Berlin, Boston, Braunschweig, Brussels, 
 			Chicago, Denver, Luxembourg, Paris, San Francisco, San Jose, Stuttgart and Portland.  The participating Eclipse training companies will be organizing the classes in each city 
 			and offering them at prices that are greatly reduced from their regular rates.
 		</p>	
@@ -37,8 +37,8 @@
 			The class will help developers understand the core RCP concepts and Eclipse plug-in architecture, and provide in-depth insight into SWT, JFace and other RCP components.
 		</p>
 		<p>
-			For more informaiton, locations, dates and registration please go to 
-			<a href="http://www.regonline.com/RCPtraining">www.regonline.com/RCPtraining</a>.  Students that register before
+			Mmore information, locations, dates and registration can be found 
+			<a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=143622&view=Month">here</a>.  Students that register before
 			August 31, 2007 will receive a 10% early bird discount on the registration price.
 		</p>
 
