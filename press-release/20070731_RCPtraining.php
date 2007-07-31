@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse RCP Training";
+	$pageTitle 		= "Eclipse RCP Training Series";
 	$pageKeywords	= "RCP Training, RCP Course Outline";
 	$pageAuthor		= "Lynn Gayowski";
 	
