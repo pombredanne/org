@@ -27,9 +27,9 @@
 		</p>
 		<p>
 			The Eclipse Foundation, in partnership with Eclipse training companies Anyware Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract and WeigleWilczek, are pleased
-			to annouce a series of RCP training classes.  Classes will occur between September 17 and October 5 and will take place in Amsterdam, Berlin, Braunschweig, Luxembourg, Paris, 
-			Toulouse, San Francisco, San Jose, Stuttgart and Portland.  The participating Eclipse training companies will be organizing the classes in each city at prices that are 
-			greatly reduced from their regular rates.
+			to annouce a series of RCP training classes.  Classes will occur between September 17 and October 5 and will take place in Amsterdam, Berlin, Boston, Braunschweig, Brussels, 
+			Chicago, Denver, Luxembourg, Paris, San Francisco, San Jose, Stuttgart and Portland.  The participating Eclipse training companies will be organizing the classes in each city 
+			and offering them at prices that are greatly reduced from their regular rates.
 		</p>	
 		<p>	
 			The RCP training series will provide in-depth education for developers building Eclipse RCP based applications.
