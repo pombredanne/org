@@ -30,7 +30,7 @@
  		<p>To qualify, all you need to do is write a review about one or more of the projects that are part of 
  		the Eclipse Europa release.   Have the review published on your blog, a newsgroup, or portal 
  		(such as EclipseZone, Javalobby, The Serverside, InfoQ, etc.) and then send us a link to 
- 		<a href="mailto:europa-reviews@eclipse.org">europa-reviews@eclipse.org</a>.   We would also ask that you 
+ 		europa-reviews@eclipse.org.   We would also ask that you 
  		please add a link to your review to <a href="http://www.dzone.com/">dzone</a> and use the 'eclipse' tag.</p>
  		
  		<p>A review will be deemed worthy of an Eclipse shirt, if the content conveys sufficient technical 
