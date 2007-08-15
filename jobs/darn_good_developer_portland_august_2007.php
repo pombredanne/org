@@ -32,7 +32,7 @@ who enjoys working on all these technologies to help
  people tend to provide less polite feedback via email 
  than in person).
 <p>
-This job reports to the <a href="http://www.eclipse.org/org/foundation/staff.php">Director, Open Source Process</a>
+This job reports to the <a href="http://www.eclipse.org/org/foundation/staff.php#bjorn">Director, Open Source Process</a>
 and is based in <a href="http://www.eclipse.org/org/foundation/contact.php">Portland, Oregon</a>.
 <p>
 Submit your resume or ask 

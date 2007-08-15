@@ -30,7 +30,7 @@ to the rules (reading <a href="http://www.eclipse.org/mail/">email lists</a>
 and <a href="http://www.eclipse.org/newsgroups/">news forums</a>, 
 reading slide decks (e.g., <a href="http://www.eclipse.org/proposals/">new project proposals</a>).
 <p>
-This job reports to the <a href="http://www.eclipse.org/org/foundation/staff.php">Director, Open Source Process</a>
+This job reports to the <a href="http://www.eclipse.org/org/foundation/staff.php#bjorn">Director, Open Source Process</a>
 and is based in <a href="http://www.eclipse.org/org/foundation/contact.php">Portland, Oregon</a>.
 <p>
 Submit your resume or ask 
