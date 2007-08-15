@@ -54,9 +54,12 @@
 		<div class="homeitem3col">
 			<h3>Board of Directors Meetings</h3>
 			<ul>
+				<li>Abridged Minutes 
+          			- <a href="boardminutes/2007_06_20-21_Minutes.php">June 20-21, 
+          			2007 (html)</a><img src="../../images/new.gif" alt="new"></li>
 			    <li>Abridged Minutes 
           			- <a href="boardminutes/2007_03_05_Minutes.php">March 5, 
-          			2007 (html)</a><img src="../../images/new.gif" alt="new"></li>
+          			2007 (html)</a></li>
         		<li>Abridged Minutes 
           			- <a href="boardminutes/2006_12_13-14_Abridged_Minutes.pdf">December 13-14, 
           			2006 (pdf)</a></li>
