@@ -20,21 +20,21 @@ place by consensus of, and for the good of, the Eclipse community and thus excep
 Exceptions should be treated as opportunities to further improve the processes. The ideal 
 person for this job will be comfortable and competent with written electronic 
 (email, IM, wiki, forum) communication. The ideal person will be competent with PHP as we 
-use PHP for our process and workflow automation [<a href="http://portal.eclipse.org/">1</a>].
+use PHP for our <a href="http://portal.eclipse.org/">process and workflow automation</a>.
 <p>
 The duties of this position include operating the Foundation's processes (reviewing documents, 
-applying rules, clarifying ambiguities, etc) [<a href="http://www.eclipse.org/projects/dev_process/">2</a>]; 
+applying rules, clarifying ambiguities, etc)(e.g., the <a href="http://www.eclipse.org/projects/dev_process/">Eclipse Development Process</a>); 
 automating the processes where appropriate (using 
 our existing PHP and MySQL infrastructure); and monitoring the Eclipse communities for conformance 
-to the rules (reading email lists [<a href="http://www.eclipse.org/mail/">3</a>]
-and news forums [<a href="http://www.eclipse.org/newsgroups/">4</a>], 
-reading slide decks <a href="http://www.eclipse.org/proposals/">5</a>], etc.).
+to the rules (reading <a href="http://www.eclipse.org/mail/">email lists</a>
+and <a href="http://www.eclipse.org/newsgroups/">news forums</a>, 
+reading slide decks (e.g., <a href="http://www.eclipse.org/proposals/">new project proposals</a>).
 <p>
-This job reports to the Director, Open Source Process [<a href="http://www.eclipse.org/org/foundation/staff.php">6</a>]
-and is based in Portland, Oregon [<a href="http://www.eclipse.org/org/foundation/contact.php">7</a>].
+This job reports to the <a href="http://www.eclipse.org/org/foundation/staff.php">Director, Open Source Process</a>
+and is based in <a href="http://www.eclipse.org/org/foundation/contact.php">Portland, Oregon</a>.
 <p>
 Submit your resume or ask 
-questions via email to <a href="mailto:emo@eclipse.org">Anne Jacko</a>. 
+questions via email to <a href="mailto:emo@eclipse.org">Anne Jacko</a>, Development Process Operations Support. 
 
 <h3>About the Eclipse Foundation</h3>
 Eclipse is an open source community, whose projects are focused on building an open 
