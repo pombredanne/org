@@ -34,7 +34,7 @@ class StaffMember {
 	var $description;
 
 	function to_html(& $html) {
-		$html .= "<li><b>$this->name</b>";
+		$html .= "<li><a name=\"$this->id\"><b>$this->name</b>";
 		if ($this->image)
 			$html .= "<img src=\"$this->image\" align=\"right\">";
 		if ($this->title) 
