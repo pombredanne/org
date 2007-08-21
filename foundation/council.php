@@ -221,13 +221,18 @@ foreach($people as $name=>$value) {
 	<br/>
 <ul>
 
+<li>Recent minutes are tracked on the <a href="http://wiki.eclipse.org/Requirements_Council">Requirements Council WIKI Page.</a>
+   
+
+ </li>
+    
 <li><a href="../councils/20070122RCMinutes.pdf">Requirements Council Meeting,
-          		January 22, 2007 (.pdf)</a><img src="../../images/new.gif" alt="new">
+          		January 22, 2007 (.pdf)</a>
     <ul>
     <li><a href="../councils/20070122RC_Zend.pdf">Zend Member Presentation,
-          		January 22, 2007 (.pdf)</a><img src="../../images/new.gif" alt="new">
+          		January 22, 2007 (.pdf)</a>
     <li><a href="../councils/20070122RC_Serena.pdf">Serena Member Presentation,
-          		January 22, 2007 (.pdf)</a><img src="../../images/new.gif" alt="new">
+          		January 22, 2007 (.pdf)</a>
     </ul>
 
     </li>
