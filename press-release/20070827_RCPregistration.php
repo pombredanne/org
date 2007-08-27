@@ -23,7 +23,8 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>
-			<strong>Early Discount for RCP Training Ends Friday</strong>
+			<strong><a href="https://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=143622&view=Month"
+			target="blank">Early Discount for RCP Training Ends Friday</a></strong>
 		</p>
 		<p>
 			The 10% early bird discount for Eclipse RCP training ends this Friday, August 31, 2007.  The Eclipse Foundation, in
