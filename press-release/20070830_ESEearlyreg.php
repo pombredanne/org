@@ -24,7 +24,7 @@
 		
 		<p>
 			<strong>Eclipse Summit Europe</strong><br>
-			<strong>October 9-11, 2007</strong><br>
+			<strong>October 10-11, 2007</strong><br>
 			<strong>Ludwigsburg, Germany</strong><br>
 			<strong><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=registration/" target="blank">http://www.eclipsecon.org/summiteurope2007</a></strong><br>
 		</p>
