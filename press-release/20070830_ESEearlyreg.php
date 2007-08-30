@@ -26,7 +26,7 @@
 			<strong>Eclipse Summit Europe</strong><br>
 			<strong>October 9-11, 2007</strong><br>
 			<strong>Ludwigsburg, Germany</strong><br>
-			<strong><a href="http://www.eclipsecon.org/summiteurope2007" target="blank">http://www.eclipsecon.org/summiteurope2007</a></strong><br>
+			<strong><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=registration/" target="blank">http://www.eclipsecon.org/summiteurope2007</a></strong><br>
 		</p>
 		<p>
 			Register soon! Early bird registration pricing for ESE ends Thursday, September 6, 2007. Check out the conference site at
