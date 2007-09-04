@@ -25,6 +25,21 @@
 		<br/>
 		]]> </description>
 	</staffmember>
+	
+	<staffmember id="barb">
+		<name>Barb Cochrane</name>
+		<image></image>
+		<title>Intellectual Property Management</title>
+		<description>
+			<![CDATA[
+				Barb joined Eclipse in August 2007.  Outside Eclipse, Barb likes to travel, 
+				cook and spend time with family and friends.  During the winter months, she 
+				occasionally finds new ways to injure herself while skating on the canal or
+				 flailing down one of the local ski hills.
+			]]>
+		</description>
+	</staffmember>
+		
 
 	<staffmember id="sharonc">
 		<name>Sharon Corbett</name>
