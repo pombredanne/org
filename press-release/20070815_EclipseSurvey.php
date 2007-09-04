@@ -42,6 +42,7 @@
 			Thanks to Nokia for donating the phone visit <a href="http://www.forum.nokia.com">www.forum.nokia.com</a> to see how to build exciting 
 			applications for the Nokia N95 phone. 
 		</p>
+		<p>Survey will end on September 7, 2007</p>
  
 	</div>
 </div>
