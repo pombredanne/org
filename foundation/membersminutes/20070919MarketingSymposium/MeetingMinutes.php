@@ -40,7 +40,7 @@ Donald Smith, Eclipse Foundation
 </p>
 
 <p>
-Motoki MORI, NEC, <a href="Eclipse_Japan_20070919.pdf">"Eclipse in Japan"</a>
+Motoki MORI, NEC, "Eclipse in Japan"  <br> Presention will be posted in the future
 </p>
 
 <p>
@@ -51,7 +51,7 @@ Donald Smith, Eclipse Foundation, <a href="eclipse-web-properties.pdf">"Leveragi
 Ian Skerrett, Eclipse Foundation, <a href="europa-launch.pdf">"Review of the Eclipse Europa Marketing Launch"</a>
 </p>
 
-
+<br><br>
 
       </div>
   </div>
