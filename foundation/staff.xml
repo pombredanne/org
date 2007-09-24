@@ -142,6 +142,18 @@
 		</description>
 	</staffmember>
 
+    <staffmember id="gabe">
+    	<name>Gabe O'Brien</name>
+    	<title>Darn Good Programmer</title>
+    	<description><![CDATA
+    	Being a darn good developer takes time, patients, and a good sense of humor.  
+    	Beside hacking away at code, Gabe enjoys silk screening on anything that will 
+    	sit still, working in the garden, and writing poetry (which is a lot like 
+    	writing code only everyone can read it).
+    	]]>
+    	</description>
+    </staffmember>
+    
 	<staffmember id="denis">
 		<name>Denis Roy</name>
 		<title>Manager, IT Infrastructure</title>
