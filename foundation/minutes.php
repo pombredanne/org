@@ -35,7 +35,8 @@
 		<div class="homeitem3col">
 			<h3>Members Meetings</h3>
 			<ul>
-				<li><a href="membersminutes/2007-06-19%20Members%20Meeting.pdf">Eclipse Members Meeting, June 19th, 2007 Teleconference Presentation Material (pdf) </a> <img src="../../images/new.gif" alt="new"></li>  			
+	     		<li><a href="membersminutes/20070919MarketingSymposium/MeetingMinutes.php">Eclipse Marketing Symposium, September 19, 2007 Chicago, Illinois </a> <img src="../../images/new.gif" alt="new"></li>  			
+				<li><a href="membersminutes/2007-06-19%20Members%20Meeting.pdf">Eclipse Members Meeting, June 19th, 2007 Teleconference Presentation Material (pdf) </a> </li>  			
 				<li><a href="membersminutes/2007-03-05%20ED%20Update.pdf">Eclipse Members Meeting, March 5th, 2007 EclipseCon, Santa Clara Convention Center (pdf) </a> </li>  			
 				<li><a href="membersminutes/Eclipse%20December%202006%20Members%20Teleconference.pdf">Eclipse Members Meeting, December 5th, 2006 Teleconference Presentation Material (pdf) </a> </li>  			
 				<li><a href="membersminutes/20060921MembersMeeting/MeetingMinutesSep21.php">Eclipse Members Meeting, September 21, 2006 Dallas, Texas </a> </li>  			
