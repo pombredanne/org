@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20071015_raprelease.php">Eclipse Releases First Ajax Platform Based on OSGi</a> - October 15th, 2007</li>
 		<li><a href="20070912_pdtrelease.php">Eclipse Announces New Tools for PHP Developers</a> - September 18th, 2007</li>
 		<li><a href="20070830_ESEearlyreg.php">ESE Early Registration Deadline is Thursday, September 6</a> - August 30th, 2007</li>
 		<li><a href="20070827_RCPregistration.php">Early Discount for RCP Training Ends Friday, August 31</a> - August 27th, 2007</li>
