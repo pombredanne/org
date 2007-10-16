@@ -33,7 +33,7 @@
 			for tutorials, long talks, short talks, posters and birds-of-a-feather sessions.  The EclipseCon program committee has
 			identified different topic areas or categories for submissions, including business topics, C/C++, Data Tooling, Java, Mobile
 			and Embedded, Modeling, OSGi, RCP, Reporting, SOA, Test and Performance, Web Tools and Industry Verticals.  The deadline for
-			tutorial and talk submissions is <strong>November 19, 2007.</strong>.
+			tutorial and talk submissions is <strong>November 19, 2007</strong>.
 		</p>
  
 		<p> 
