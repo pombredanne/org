@@ -24,7 +24,7 @@
 		
 		<p>
 			<strong>EclipseCon 2008</strong><br>
-			<strong>March 17-20, 2007</strong><br>
+			<strong>March 17-20, 2008</strong><br>
 			<strong>Santa Clara, CA</strong><br>
 			<strong><a href="http://www.eclipsecon.org/2008/index.php?page=submissions/" target="blank">http://www.eclipsecon.org</a></strong><br>
 		</p>
