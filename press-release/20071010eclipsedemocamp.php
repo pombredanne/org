@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Demo Camp";
+	$pageTitle 		= "Eclipse DemoCamp";
 	$pageKeywords	= "Eclipse Demo Camp, Eclipse User Groups";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -21,8 +21,8 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
-
-     	<p>During the month of November, we are inviting individuals to organize and attend <a href="http://wiki.eclipse.org/Eclipse_DemoCamp">Eclipse DemoCamps</a> around
+		<h3>See Cool Stuff, Meet Interesting People - Attend an Eclipse DemoCamp</h3>
+     	<p>During the months of November and December, we are inviting individuals to organize and attend <a href="http://wiki.eclipse.org/Eclipse_DemoCamp">Eclipse DemoCamps</a> around
      	 the world.  Eclipse DemoCamp is an opportunity to showcase all of the interesting technology being built
      	by the Eclipse community.   It is also an opportunity for you to meet Eclipse enthusiasts in your city.
      	 </p>
