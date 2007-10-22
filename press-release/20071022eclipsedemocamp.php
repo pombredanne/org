@@ -27,20 +27,20 @@
      	 </p>
      	 <p>The format of the DemoCamp is pretty informal.  The idea is for a group of Eclipse developers to meet up and
      	 demo what they are doing with Eclipse.  The demos can be of research projects, Eclipse open source projects, applications 
-     	 based on Eclipse, commercial products using Eclipse, whatever you think might be of interest to the attendees.   The only stipulation 
-     	 is that the demo is about something that is Eclipse related.  </p>
+     	 based on Eclipse, commercial products using Eclipse or whatever you think might be of interest to the attendees.   The only stipulation 
+     	 is that the demo must be about something that is Eclipse related.  </p>
      	 
      	 <b>What and When Are DemoCamps Being Organized?</b>
-     	 <p>We expect DemoCamps to be organized all around the world.  Check out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamp">DemoCamp wiki</a> for a location near you.  Also register to let
-     	 the organizers know you will be attending.  Space maybe limited at some locations.</p>
+     	 <p>We expect DemoCamps to be organized all around the world.  Check out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamp">DemoCamp wiki</a> for a location near you.  Also, register to let
+     	 the organizers know you will be attending.  Space may be limited at some locations.</p>
      	 
      	 <b>Can I Demo My Cool Stuff?</b>
      	 <p>We want to encourage as many people as possible to showcase what they are doing with Eclipse.  If you want to demo at a DemoCamp we
-     	 encourage you to add your name as a presenter to the local DemoCamp.   If there is no DemoCamp mear you, why not try to organize one in your city. </p>
+     	 encourage you to add your name as a presenter to the local DemoCamp.   If there is no DemoCamp near you, why not try to organize one in your city? </p>
      	 
      	 <b>I Want to Help Organize a DemoCamp in My City</b>
      	 <p>First check out the list of cities with <a href="http://wiki.eclipse.org/Eclipse_DemoCamp">DemoCamps already organized</a>.  If one already exists, maybe contact the organizer and volunteer to help out.
-     	 If your city is not on the list then checkout the  
+     	 If your city is not on the list, then check out the  
      	 <a href="../../community/democamp/organizedemocamp.php">details for organizing a DemoCamp.</a></p>
  
  <br><br>
