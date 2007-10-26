@@ -305,20 +305,7 @@ foreach($people as $name=>$value) {
 ?>
 	</table>
 
-		<ul>
-         <li><a href="../councils/20070124ACMinutes.php">Architecture
-          	Council Meeting, January 24, 2007</a><img src="../../images/new.gif" alt="new"></li>
-         <li><a href="../councils/20061012ACMinutes.php">Architecture
-          	Council Meeting, October 12, 2006</a></li>
-         <li><a href="../councils/20060628ACMinutes.php">Architecture
-          	Council Meeting, June 28, 2006</a></li>
-        	<li><a href="../councils/20050517ACMinutes.html">Architecture Council
-          		Meeting, May 17-18, 2005</a></li>
-        	<li><a href="../councils/20041202ACMinutes.pdf">Architecture Council Meeting, December 2, 2004 (.pdf)</a></li>
-        	<li><a href="../councils/20040902ACMinutes.pdf">Architecture Council Meeting,
-            	September 2, 2004 (.pdf)</a></li>
-
-		</ul>
+<a href="http://wiki.eclipse.org/Architecture_Council">Architecture Council's wiki page and meeting minutes</a>.
 
 </div>
 
