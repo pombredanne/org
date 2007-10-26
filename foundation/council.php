@@ -305,9 +305,9 @@ foreach($people as $name=>$value) {
 ?>
 	</table>
 
-<p>
-<a href="http://wiki.eclipse.org/Architecture_Council">Architecture Council's wiki page and meeting minutes</a>.
-
+<ul>
+<li><a href="http://wiki.eclipse.org/Architecture_Council">Architecture Council's wiki page and meeting minutes</a>.
+</ul>
 </div>
 
 </div>
