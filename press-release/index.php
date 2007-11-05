@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20071105_hibachi.php">Eclipse Hibachi Project Unites Ada Suppliers in Common Environment</a> - November 5th, 2007</li>
 		<li><a href="20071101_econkeepthedate.php">Fifth Annual Eclipse Community Conference Announces Keynotes</a> - November 1st, 2007</li>
 		<li><a href="20071016_EclipseConCFP.php">Submit a Talk or Tutorial for EclipseCon 2008</a> - October 16th, 2007</li>
 		<li><a href="20071015_raprelease.php">Eclipse Releases First Ajax Platform Based on OSGi</a> - October 15th, 2007</li>
