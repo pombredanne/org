@@ -50,7 +50,7 @@
 				<li><a href="/projects/dev_process/development_process.php">Development Process:</a> 
 					This document describes the fundamental rules for creating and governing
 					projects at the Eclipse community. </li>
-		        <li><a href="/projects/index-quick.php">Quick and Fun Process Prose</a>
+		        <li><a href="/projects/dev_process/index-quick.php">Quick and Fun Process Prose</a>
 		          A quick overview of the development and IP processes in cartoons and other forms.
 	    	    </li>
 			</ul>
