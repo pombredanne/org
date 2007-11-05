@@ -58,7 +58,8 @@
           	</li>
           	<li><A href="../../projects/">Our projects:</A>
 	          The Eclipse Foundation hosts a large community of active open source
-	          projects.
+	          projects; these pages describe the projects as well as the
+	          development and IP processes they follow.
           	</li>
           	
           	<li><A href="minutes.php">Meeting minutes:</A>
