@@ -25,7 +25,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-		<p>The Eclipse Foundation and IDC have released the results of a comprehensive survey of the Eclipse Community conducted during the summer of 2007.  The survey was developed to better understand how individuals are using Eclipse and which business models organizations are adopting for software built with Eclipse.  Over a thousand people responded to the survey invitation posted on the eclipse.org web site.  The complete survey results can be found at <a href="http://cdn.idc.com/downloads/EclipseCommunitSurveyResults[NotesPages].pdf">http://cdn.idc.com/downloads/EclipseCommunitSurveyResults[NotesPages].pdf</a>
+		<p>The Eclipse Foundation and IDC have released the results of a comprehensive survey of the Eclipse Community conducted during the summer of 2007.  The survey was developed to better understand how individuals are using Eclipse and which business models organizations are adopting for software built with Eclipse.  Over a thousand people responded to the survey invitation posted on the eclipse.org web site.  The complete survey results can be found at <a target="_blank" href="http://cdn.idc.com/downloads/EclipseCommunitSurveyResults[NotesPages].pdf">http://cdn.idc.com/downloads/EclipseCommunitSurveyResults[NotesPages].pdf</a>
 		</p>
 
 		<p> 
