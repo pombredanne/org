@@ -17,6 +17,9 @@
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+	<style>
+		.paddedlist li {	padding-bottom:7px;	}
+	</style>
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
@@ -27,7 +30,7 @@
 
 		<p> 
 			<b>Some highlights about individuals using Eclipse include:</b>
-			<ul>
+			<ul class="paddedlist">
 				<li>Eclipse is primarily used by technical professionals for work related projects.   Over 91% of the respondents are employed by an organization or are self-employed and 84% use Eclipse for work-related reasons.</li>
 				<li>The top 6 most used projects are  JDT (88%), Web Standard Tools (56%), JEE Standard Tools (44%), RCP (42%), EMF (37%) and Mylyn (36%).  It is interesting to note Mylyn just had its 1.0 release in December 2006, so the project has accomplished impressive penetration in a short time period.  </li>
 				<li>72% of respondents indicated they are building server-centric software.  This is not a big surprise, since this is the primary usage of Java.   However, between 35-40% of respondents are building desktop or RCP applications, demonstrating a healthy usage of Eclipse for desktop applications.   </li>
@@ -38,7 +41,7 @@
 		</p>
 		
 		<p><b>Some highlights about the organizations using Eclipse include:</b>
- 			<ul>
+ 			<ul class="paddedlist">
  				<li>A large proportion (71%) of the respondents work for an IT solution provider (ex. ISV, hardware company, systems integrator, VAR, etc) as opposed to 29% for end users (ex. banks, government agencies, etc).  It would appear that a disproportionate number of respondents are from IT solution providers, since the total developer population has more individuals from end users than from IT solution providers.   However, it is possible that individuals working for IT solution providers more actively participate in the Eclipse community or at least are more likely to visit the eclipse.org web site.</li>
  				<li>Organizations are using Eclipse for cross-platform development and deployment.   On average they have 2.1 development platforms and 2.7 deployment platforms for software build using Eclipse.   Windows is the most popular development platform, with 74% of organizations choosing Windows as their primary development platform, followed by Linux at 20%.  However, for primary deployment platforms, Linux is well represented at 37%, compared with 47% on Windows.  Given that 72% of respondents are creating server software, this may reflect the strength of Linux as a server operating system.</li>
  				<li>A vibrant, healthy Eclipse ecosystem is characterized in the survey results.   75% of the IT solution providers are using Eclipse for economic reasons, i.e. to make money or save money.  Of those organizations using Eclipse to make money, 47% are making at least 50% of their revenue from Eclipse based products.  </li>
