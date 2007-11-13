@@ -11,6 +11,7 @@
 			in object-oriented software development and is a strong
 			proponent of refactoring, unit testing, and agile
 			development methodologies.
+			<br><br><br>
 		</description>
 	</staffmember>
 
@@ -83,7 +84,8 @@
 		<image>../../images/lynn.jpg</image>
 		<title>Marketing Events Manager</title>
 		<description>
-		<![CDATA[<p>Lynn moved from Winnipeg to join Eclipse in August 2006.  When Lynn isn&rsquo;t organizing marketing events she enjoys geocaching, rollerblading, and raising her two rabbits.<br/><br/><br/> </p> 
+		<![CDATA[<p>Lynn moved from Winnipeg to join Eclipse in 2006.  When Lynn isn&rsquo;t organizing marketing events, she enjoys
+		geocaching, rollerblading and raising her rabbit.<br/><br/><br/> </p> 
 		<br/>]]>
 		</description>
 	</staffmember>
@@ -147,7 +149,7 @@
     	<title>Darn Good Programmer</title>
 		<image>../../images/gabe.jpg </image>
     	<description><![CDATA[<p>
-    	Being a darn good developer takes time, patients, and a good sense of humor.  
+    	Being a darn good developer takes time, patience, and a good sense of humor.  
     	Beside hacking away at code, Gabe enjoys silk screening on anything that will 
     	sit still, working in the garden, and writing poetry (which is a lot like 
     	writing code only everyone can read it).
