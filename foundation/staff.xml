@@ -10,7 +10,9 @@
 			adopt Eclipse technologies. Wayne has extensive experience
 			in object-oriented software development and is a strong
 			proponent of refactoring, unit testing, and agile
-			development methodologies.
+			development methodologies.</p>
+			<br/>
+			]]> 
 		</description>
 	</staffmember>
 
@@ -19,10 +21,10 @@
 		<title><![CDATA[ Legal Counsel & Manager, Intellectual Property]]></title>
 		<image> ../../images/janet.jpg </image>
 		<description> <![CDATA[ 
-		<p>Outside of work, Janet enjoys traveling (to South East Asia in particular), 
-		walking her dogs, taking her bike for a spin and spending time with family 
-		and friends.  </p>
-		<br/>
+			<p>Outside of work, Janet enjoys traveling (to South East Asia in particular), 
+			walking her dogs, taking her bike for a spin and spending time with family 
+			and friends.</p>
+			<br/>
 		]]> </description>
 	</staffmember>
 	
@@ -35,23 +37,23 @@
 				Barb joined Eclipse in August 2007.  Outside Eclipse, Barb likes to travel, 
 				cook and spend time with family and friends.  During the winter months, she 
 				occasionally finds new ways to injure herself while skating on the canal or
-				 flailing down one of the local ski hills.
+				 flailing down one of the local ski hills.</p>
 			]]>
 		</description>
 	</staffmember>
-		
-
+	
 	<staffmember id="sharonc">
 		<name>Sharon Corbett</name>
 		<image>../../images/sharonc.jpg</image>
 		<title>Intellectual Property Analyst</title>
 		<description>
-		<![CDATA[<p>When remote from Eclipse, Sharon C. is a fulltime soccer mom and dedicated footie fan.  Sharon can usually be found heading out with her son to a practice, game or tournament. 
-			<br/><br/><br/> </p> 
+		<![CDATA[<p>When remote from Eclipse, Sharon C. is a fulltime soccer mom and dedicated footie fan.  Sharon can usually be found
+		heading out with her son to a practice, game or tournament.</p> 
+		<br/><br/>
 		]]>
 		</description>
 	</staffmember>	
-	
+
 	
 	<staffmember id="bjorn">
 		<name>Bjorn Freeman-Benson</name>
@@ -83,9 +85,10 @@
 		<image>../../images/lynn.jpg</image>
 		<title>Marketing Events Manager</title>
 		<description>
-		<![CDATA[<p>Lynn moved from Winnipeg to join Eclipse in 2006.  When Lynn isn&rsquo;t organizing marketing events, she enjoys
-		geocaching, rollerblading and raising her rabbit.<br/><br/><br/> </p> 
-		<br/>]]>
+			<![CDATA[<p>Lynn moved from Winnipeg to join Eclipse in 2006.  When Lynn isn&rsquo;t organizing marketing events, she enjoys
+			geocaching, rollerblading and raising her rabbit.</p> 
+			<br><br>
+			]]>
 		</description>
 	</staffmember>
 	
@@ -94,8 +97,10 @@
 		<image>../../images/nathan.png</image>
 		<title>Web Developer</title>
 		<description>
-		<![CDATA[<p>Keep an eye out for this kid!  Besides lurking around eclipse.org he can be seen playing tennis, walking his dog, and driving his new car!<br/><br/><br/> </p> 
-		<br/>]]>
+			<![CDATA[<p>Keep an eye out for this kid!  Besides lurking around eclipse.org he can be seen playing tennis, walking his dog, and
+			driving his new car!</p>
+			<br/><br/> 
+			]]>
 		</description>
 	</staffmember>
 
@@ -104,7 +109,9 @@
 		<image>../../images/anne.jpg</image>
 		<title>Development Process Operations Support</title>
 		<description>
-			<![CDATA[When not in front of a monitor, Anne prefers activities that involve wearing a helmet--horseback riding, skiing, and (fair-weather) cycling. One of her favorite books is The Chicago Manual of Style, so if you need help with the nitpicking details of writing in English, she's happy to help.]]>
+			<![CDATA[When not in front of a monitor, Anne prefers activities that involve wearing a helmet--horseback riding, skiing,
+			and (fair-weather) cycling. One of her favorite books is The Chicago Manual of Style, so if you need help with the nitpicking
+			details of writing in English, she's happy to help.]]>
 		</description>
 	</staffmember>
 
@@ -112,7 +119,12 @@
 		<name>Karl Matthias</name>
 		<title>Systems Administrator</title>
 		<image></image>
-		<description> <![CDATA[Karl is the Portland arm of the IT team and isn't the "new guy" at the Foundation any more (thanks Chris!).  When he's not supporting the infrastructure, working on the portal, or knocking items off of Bjorn's wish list, he's in the garage restoring his 1969 Alfa Romeo GTV.]]> </description>
+		<description>
+			<![CDATA[Karl is the Portland arm of the IT team and isn't the "new guy" at the Foundation any more (thanks Chris!).
+			When he's not supporting the infrastructure, working on the portal, or knocking items off of Bjorn's wish list, he's in the
+			garage restoring his 1969 Alfa Romeo GTV.
+			]]>
+		</description>
 	</staffmember>
 
 	<staffmember id="mike">
@@ -120,13 +132,14 @@
 		<title>Executive Director</title>
 		<image>../../images/mikemsmall.jpg</image>
 		<description>
-		<![CDATA[<p>Outside of work, Mike's passions are his family, the family cottage and hockey (as a
+			<![CDATA[<p>Outside of work, Mike's passions are his family, the family cottage and hockey (as a
 			coach, player and fan)
 			in pretty much that order. When he's not working, or traveling for work, you will probably
 			find him involved in one of those three things. </p>
 			<p>You can read Mike's blog at
 			<a href="http://milinkovich.blogspot.com/" target="blank">
-			http://milinkovich.blogspot.com/</a>.</p>]]>
+			http://milinkovich.blogspot.com/</a>.</p>
+			]]>
 		</description>
 	</staffmember>
 
@@ -134,12 +147,14 @@
 		<name>Ralph Mueller</name>
 		<title>Director, Ecosystem - Europe</title>
 		<image>../../images/ralph.jpg </image>
-		<description> <![CDATA[<p>
+		<description> 
+			<![CDATA[<p>
 			Ralph's role at the Eclipse Foundation is focused on growing the Eclipse Ecosystem
 			across Europe. </p>
 			<p>Ralph's passion outside of work is golf, both as a player and as a coach for children 
 			just starting the game. He's also helped both Mike and Donald to improve their games.
-			</p>]]>
+			</p>
+			]]>
 		</description>
 	</staffmember>
 
@@ -147,12 +162,13 @@
     	<name>Gabe O'Brien</name>
     	<title>Darn Good Programmer</title>
 		<image>../../images/gabe.jpg </image>
-    	<description><![CDATA[<p>
-    	Being a darn good developer takes time, patience, and a good sense of humor.  
-    	Beside hacking away at code, Gabe enjoys silk screening on anything that will 
-    	sit still, working in the garden, and writing poetry (which is a lot like 
-    	writing code only everyone can read it).
-    	</p>]]>
+    	<description>
+	    	<![CDATA[<p>
+	    	Being a darn good developer takes time, patience, and a good sense of humor.  
+	    	Beside hacking away at code, Gabe enjoys silk screening on anything that will 
+	    	sit still, working in the garden, and writing poetry (which is a lot like 
+	    	writing code only everyone can read it).</p>
+	    	]]>
     	</description>
     </staffmember>
     
@@ -160,9 +176,12 @@
 		<name>Denis Roy</name>
 		<title>Manager, IT Infrastructure</title>
 		<image>../../images/denis.jpg </image>
-		<description><![CDATA[<p>Denis spends too much time in front of a command prompt. 
-		You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, 
-		and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.<br/><br/><br/><br/></p>]]>
+		<description>
+			<![CDATA[<p>Denis spends too much time in front of a command prompt. 
+			You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, 
+			and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</p>
+			<br/><br/><br/>
+			]]>
 		</description>
 	</staffmember>
 
@@ -171,10 +190,11 @@
 		<title>Director, Marketing</title>
 		<image>../../images/ian.jpg </image>
 		<description>
-		<![CDATA[ Ian takes care of the marketing activities at the Eclipse Foundation.  
-		Although our community is the Eclipse marketing machine,  Ian supports the projects and member 
-		companies to increase the awareness of all the cool stuff happening at Eclipse.  
-		You can read his blog at <a href="http://ianskerrett.wordpress.com/" target="blank">http://ianskerrett.wordpress.com/</a>.]]>
+			<![CDATA[ Ian takes care of the marketing activities at the Eclipse Foundation.  
+			Although our community is the Eclipse marketing machine,  Ian supports the projects and member 
+			companies to increase the awareness of all the cool stuff happening at Eclipse.  
+			You can read his blog at <a href="http://ianskerrett.wordpress.com/" target="blank">http://ianskerrett.wordpress.com/</a>.
+			]]>
 		</description>
 	</staffmember>
 	
@@ -182,27 +202,33 @@
 		<name>Donald Smith</name>
 		<title>Director, Ecosystem Development</title>
 		<image> ../../images/donald.jpg </image>
-		<description> <![CDATA[ 
-		After a very busy 2005 completing an MBA, designing a new house and getting 
-		married, Donald joined Eclipse to begin 2006 with his now seemingly infinite 
-		free time.  Donald has over a decade of experience with enterprise software 
-		including product management, marketing, engineering and consulting.  He has 
-		spoken on various topics at most major Java conferences including Java One, 
-		TSSS, JAOO, CSS, Sun Tech Days and others.  Donald's role at Eclipse is to 
-		help foster the development of the ecosystem.
-		<br/> &nbsp; <br/> 
-		You can read Donald's blog at <a href="http://eclipse-ecosystem.blogspot.com/" target="blank">
-		http://eclipse-ecosystem.blogspot.com/</a>.
-		]]> </description>
+		<description>
+			<![CDATA[ 
+			After a very busy 2005 completing an MBA, designing a new house and getting 
+			married, Donald joined Eclipse to begin 2006 with his now seemingly infinite 
+			free time.  Donald has over a decade of experience with enterprise software 
+			including product management, marketing, engineering and consulting.  He has 
+			spoken on various topics at most major Java conferences including Java One, 
+			TSSS, JAOO, CSS, Sun Tech Days and others.  Donald's role at Eclipse is to 
+			help foster the development of the ecosystem.
+			<br/> &nbsp; <br/> 
+			You can read Donald's blog at <a href="http://eclipse-ecosystem.blogspot.com/" target="blank">
+			http://eclipse-ecosystem.blogspot.com/</a>.
+			]]> 
+		</description>
 	</staffmember>
 
 	<staffmember id="matt">
 		<name>Matt Ward</name>
 		<title>Systems Administrator</title>
 		<image> ../../images/mattfire.jpg </image>
-		<description> <![CDATA[ Matt spends his days putting out fires, so afterwards he tends to 
-		start them in the kitchen.  And as a change of pace from rebuilding data, there's always 
-		rebuilding old cars. &nbsp; <br/> &nbsp; <br/>]]> </description>
+		<description>
+			<![CDATA[ Matt spends his days putting out fires, so afterwards he tends to 
+			start them in the kitchen.  And as a change of pace from rebuilding data, there's always 
+			rebuilding old cars.
+			&nbsp; <br/> &nbsp; <br/>
+			]]>
+		</description>
 	</staffmember>
 
 
@@ -210,11 +236,12 @@
 		<name>Sharon Wolfe</name>
 		<title>Office Manager</title>
 		<image> ../../images/sharon.jpg </image>
-		<description>Sharon has been with the Eclipse Foundation since July 2004.  In addition 
-		to her Office Manager responsibilities, Sharon assists with marketing activities and also 
-		organizes or assists with the planning of various meetings and conferences.  Sharon thanks 
-		Mike every day for opening a proper office because she was going stir crazy working out 
-		of the home office in her basement!
+		<description>
+			Sharon has been with the Eclipse Foundation since July 2004.  In addition 
+			to her Office Manager responsibilities, Sharon assists with marketing activities and also 
+			organizes or assists with the planning of various meetings and conferences.  Sharon thanks 
+			Mike every day for opening a proper office because she was going stir crazy working out 
+			of the home office in her basement!
 		</description>
 	</staffmember>
 	
