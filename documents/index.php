@@ -30,7 +30,7 @@
 			<ul>
 				<li><a href="Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws:</a> The Bylaws lay out 
 					the basic rules of governance of the Eclipse Foundation.</li>
-				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202007_04_04%20Final.pdf">Membership Agreement:</a> 
+				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202007_11_29%20Final.pdf">Membership Agreement:</a> 
 					The Membership Agreement describes 
 					the rights and responsibilities for each class of member in the Eclipse 
 					Foundation.</li>
