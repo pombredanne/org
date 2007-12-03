@@ -38,7 +38,8 @@
 		
 		<p>
 		To make a donation, individuals can use their credit card or a PayPal account.   Go to <a href="http://www.eclipse.org/donate/">
-		eclipse.org/donate </a> to make a donation now.
+		eclipse.org/donate </a> to make a donation now.  Please note The Eclipse Foundation is a not-for-profit organization, 
+		not a charitable organization, so we are unable to provide charitable tax receipts for your donation.
 		
 		</p>
  
