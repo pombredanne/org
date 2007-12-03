@@ -32,8 +32,8 @@
 
 		<p>Over the years, we have had many requests from individuals who wanted to show their appreciation and support of Eclipse by making a 
 		financial donation.   Our new system will now allow people to do so.   As a token of appreciation, individuals that donate more than 
-		US$35 will be designated as a â€˜Friend of Eclipseâ€™ for the subsequent 12 months.   â€˜Friends of Eclipseâ€™ will have the privilege of using 
-		a special â€˜Friends of Eclipseâ€™ mirror and the use of a â€˜Friend of Eclipseâ€™ logo.
+		US$35 will be designated as a "Friend of Eclipse"™ for the subsequent 12 months.   "Friends of Eclipseâ"™ will have the privilege of using 
+		a special "Friends of Eclipse"™ mirror and the use of a "Friend of Eclipse"™ logo.
 		</p>
 		
 		<p>
