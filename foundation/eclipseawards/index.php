@@ -59,14 +59,14 @@
 		<h3>Technology Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Best Commercial Eclipse-based Developer Tool</strong> - Recognizes a commercial product that provides an
+				<li><strong>Best Commercial Eclipse-Based Developer Tool</strong> - Recognizes a commercial product that provides an
 				innovative, high quality product for software developers.
-				<li><strong>Best Open Source Eclipse-based Developer Tool</strong> - Recognizes an open source project (not hosted at
+				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - Recognizes an open source project (not hosted at
 				Eclipse) that provides an innovative, high quality product for software developers.
-				<li><strong>Best Commercial RCP or Equinox Application</strong> - Recognizes a commercial product that illustrates the
-				most innovative use of Eclipse RCP or Equinox for end user applications.
-				<li><strong>Best Open Source RCP or Equinox Application</strong> - Recognizes an open source project (not hosted at
-				Eclipse) that illustrates the most innovative use of Eclipse RCP or Equinox for end user applications.
+				<li><strong>Best Commercial Equinox or RCP Application</strong> - Recognizes a commercial product that illustrates the
+				most innovative use of Eclipse Equinox or RCP for end user applications.
+				<li><strong>Best Open Source Equinox or RCP Application</strong> - Recognizes an open source project (not hosted at
+				Eclipse) that illustrates the most innovative use of Eclipse Equinox or RCP for end user applications.
 			</ol>
  			<a href="./judges08.php">Review</a> the judging panels.
 		</p>
