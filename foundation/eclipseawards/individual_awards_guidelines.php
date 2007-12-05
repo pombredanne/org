@@ -32,27 +32,42 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		
 		<h2>Guidelines</h2>
-		<p>The Individual Awards were determined by a vote of the community. One vote per person, per category.</p>
-		<p>Individuals may have been nominated by anyone in each category.   
-		<strong>Nominations closed on January 22, 2007. </strong> To see the Bugzilla entries for the individual nominations, visit the following links.</p>
+		
+		<p>
+			The Individual Awards are determined by a vote of the community. One vote per person, per category.
+		</p>
+		
+		<p>
+			Individuals may be nominated by anyone in each category.  To see the Bugzilla entries for the individual nominations, visit
+			the following links.
+		</p>
+		
 		<ul class="midlist">
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a>
-		  		- voted on by everyone.</li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237">Nominations for Top Contributor Award</a> 
-		  		- voted on by Committers.</li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a>
-		  		- voted on by everyone.</li>
-
-		  <li>The <strong>Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted
-		  on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period of calculation is from February 15, 2006 to February 15, 2007. </li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a> - voted on by
+			everyone.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a> - voted on by
+			everyone.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237">Nominations for Top Contributor Award</a> - voted on by
+			Committers.</li>
+			<li>The <strong>Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
+			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period
+			of calculation is from February 21, 2007 to February 21, 2008.</li>
 		</ul>
-		<p> Voting commenced January 29, 2007 and finished February 16, 2007. 
-		Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2007</a>. </p>
+		
+		<p>
+			Voting commences January 30, 2008 and finishes February 21, 2008.  Winners will be announced at
+			<a href="http://www.eclipsecon.org/">EclipseCon 2008</a>.
+		</p>
 
-		<p><strong>Note:</strong> Eclipse is a large vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of award winners, we have decided
-		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just an acknowledgment that others are also 
-		deserving of recognition.</p><br><br>
+		<p>
+			<strong>Note:</strong> Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
+			Therefore, to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible
+			for a repeat award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also 
+			deserving of recognition.
+		</p>
+
 	</div>
 
 EOHTML;
