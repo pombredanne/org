@@ -56,21 +56,22 @@
 		<p>
 			To submit a nomination for a Technology Award, send an e-mail by January 25, 2008 to <a href="mailto:awards@eclipse.org">
 			awards@eclipse.org</a> with the information indicated below.
-
-			<ol class="midlist">
-				<li>Category of award</li>
-				<li>Name of person submitting award</li>
-				<li>Contact information of person (telephone and e-mail)</li>
-				<li>Name of product</li>
-				<li>URL of product</li>
-				<li>100 word description of product</li> 
-				<li>Description of the usability features</li> 
-				<li>Description of why and how the product uniquely solves a particular problem.  Ensure you also explain the problem.</li> 
-				<li>Description of the completeness of the solution, including the technology, but also documentation, white papers, tutorials, and
-				web site.  Include everything you think is important for your customers to be successful with the product.</li> 
-				<li>OPTIONAL: Feel free to send a 3-5 minute screen cam demo of your product</li> 
-			</ol>
 		</p>
+
+		<ol>
+			<li>Category of award</li>
+			<li>Name of person submitting award</li>
+			<li>Contact information of person (telephone and e-mail)</li>
+			<li>Name of product</li>
+			<li>URL of product</li>
+			<li>100 word description of product</li> 
+			<li>Description of the usability features</li> 
+			<li>Description of why and how the product uniquely solves a particular problem.  Ensure you also explain the problem.</li> 
+			<li>Description of the completeness of the solution, including the technology, but also documentation, white papers, tutorials, and
+			web site.  Include everything you think is important for your customers to be successful with the product.</li> 
+			<li>OPTIONAL: Feel free to send a 3-5 minute screen cam demo of your product</li> 
+		</ol>
+
 		
 		<h3>Previous Year Winners</h3>
 		
