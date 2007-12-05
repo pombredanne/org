@@ -32,54 +32,57 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>The Eclipse Community Awards are to recognize and 
-		thank the individuals and technologies that make Eclipse such a vibrant
-		robust community.    There are two categories of awards: 1) awards 
-		for individuals, and 2) awards for technologies and 
-		products.   The awards will be presented on March 5, 2007 at
-		<a href="http://www.eclipsecon.org/2007/">EclipseCon 2007</a>. </p>
-	
-
-	<h3>Individual Awards</h3>
-		<p><ol>
-		<li><strong>Top Ambassador</strong> - Recognizes an individual (committer or non-committer) who 
-		best promotes and supports the Eclipse community.  Everyone can vote on this award.</li>
- 			
- 		<li><strong>Top Contributor</strong> - Recognizes an individual (non-committer) 
-		who has made substantial contribution to one or more Eclipse projects.  Committers vote for this award.
-		</li>
-		<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies supporting 
-		the community through newsgroups, bugzilla, white papers, conference presentations, blogs, etc.  Everyone can vote for this award.
-		</li>
-		<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies welcoming new people into the Eclipse community.  This
-		award will be presented to the individual that has answered the most questions raised on the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
-		</ol> 	
- 		<a href="./finalists07.php">Review</a> the finalists.</p>
-</p>
-
-	<h3>Technology Awards</h3>
+		
 		<p>
-<ol>
-			<li><strong>Best open source RCP application</strong> - Recognizes an open source project (not hosted at Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.
-			<li><strong>Best commercial RCP application</strong> - Recognizes a commercial product that illustrates the most innovative use of Eclipse RCP for end user applications.
-			<li><strong>Best open source Eclipse based developer tool</strong> - Recognizes an open source project (not hosted at Eclipse) that provides an innovative, high quality product for software developers.
-			<li><strong>Best commercial Eclipse based developer tool</strong> - Recognizes a commercial product that provides an innovative, high quality product for software developers.
-			<li><strong>Best deployment of Eclipse technology in an enterprise</strong> - Recognizes an organization (non-ISV) that has used and deployed Eclipse within an enterprise.
-		</ol>
- 		<a href="./finalists07.php">Review</a> the finalists.
- 		<br><br>
- 		<a href="./judges07.php">Review</a> the judging panels.
+			The Eclipse Community Awards were created to recognize and thank the individuals and technologies that make Eclipse a
+			vibrant	community.  There are two categories of awards: 1) awards for individuals, and 2) awards for technologies and
+			products.   The awards will be presented on March 17, 2008 at <a href="http://www.eclipsecon.org/2008/">EclipseCon
+			2008</a>.
+		</p>
+	
+		<h3>Individual Awards</h3>
+		<p>
+			<ol>
+				<li><strong>Top Ambassador</strong> - Recognizes an individual (committer or non-committer) who best promotes and
+				supports the Eclipse community.  Everyone can vote on this award.</li>
+				<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies support for the community
+				through newsgroups, Bugzilla, white papers, conference presentations, blogs and other forums.  Everyone can vote for
+				this award.</li>
+ 				<li><strong>Top Contributor</strong> - Recognizes an individual (non-committer) who makes a substantial contribution
+ 				to one or more Eclipse projects.  Committers vote for this award.</li>
+				<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies the welcoming of new people into the
+				Eclipse community.  This award will be presented to the individual that has answered the most questions raised on the
+				<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
+			</ol> 	
+		</p>
+
+		<h3>Technology Awards</h3>
+		<p>
+			<ol>
+				<li><strong>Best Commercial Eclipse-based Developer Tool</strong> - Recognizes a commercial product that provides an
+				innovative, high quality product for software developers.
+				<li><strong>Best Open Source Eclipse-based Developer Tool</strong> - Recognizes an open source project (not hosted at
+				Eclipse) that provides an innovative, high quality product for software developers.
+				<li><strong>Best Commercial RCP or Equinox Application</strong> - Recognizes a commercial product that illustrates the
+				most innovative use of Eclipse RCP or Equinox for end user applications.
+				<li><strong>Best Open Source RCP or Equinox Application</strong> - Recognizes an open source project (not hosted at
+				Eclipse) that illustrates the most innovative use of Eclipse RCP or Equinox for end user applications.
+			</ol>
+ 			<br><br>
+ 			<a href="./judges08.php">Review</a> the judging panels.
 		</p>
 		
-	<h3>Important Dates</h3>
-	<p><ul>
-		<li><font color="#A9A9A9">Nominations opened - December 15, 2006</font></li>
-		<li><font color="#A9A9A9">Nominations closed - January 22, 2007</font></li>
-		<li><font color="#A9A9A9">Voting Begins for Individual Awards - January 29, 2007</font></li>
-		<li><font color="#A9A9A9">Voting Ends for Individual Awards - February 16, 2007</font></li>
-		<li>Awards Announced - March 5, 2007</li>
-	</ul></p><br>
-
+		<h3>Important Dates</h3>
+		<p>
+			<ul>
+				<li><font color="#A9A9A9">Nominations open - December 14, 2007</font></li>
+				<li>Nominations close - January 25, 2008</font></li>
+				<li>Voting begins for Individual Awards - January 30, 2008</font></li>
+				<li>Voting ends for Individual Awards - February 21, 2008</font></li>
+				<li>Awards Announced - March 17, 2008</li>
+			</ul>
+		</p>
+		
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
@@ -87,11 +90,9 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="finalists07.php">Finalists</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
-				<li><a href="judges07.php">Technology Awards Judges</a></li>
-				<li><a href="technology_nominations.php">All Technology Awards Nominees</a></li>
+				<li><a href="judges08.php">Technology Awards Judges</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
