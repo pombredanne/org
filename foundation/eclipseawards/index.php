@@ -68,7 +68,6 @@
 				<li><strong>Best Open Source RCP or Equinox Application</strong> - Recognizes an open source project (not hosted at
 				Eclipse) that illustrates the most innovative use of Eclipse RCP or Equinox for end user applications.
 			</ol>
- 			<br><br>
  			<a href="./judges08.php">Review</a> the judging panels.
 		</p>
 		
