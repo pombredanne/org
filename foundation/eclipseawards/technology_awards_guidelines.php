@@ -47,12 +47,12 @@
 		<h3>Judging Criteria</h3>
 		
 		<p>
-			The criteria for judging the open source and commercial product awards are: 
+			The criteria for judging the commercial and open source product awards are: 
 			<ol>
-				<li>Usability and intuitiveness of the user interface - is the product user interface easy to understand</li>
-				<li>Innovation and uniqueness - how cleverly does the produc solve the problem</li>
+				<li>Usability and intuitiveness of the user interface - is the product user interface easy to understand?</li>
+				<li>Innovation and uniqueness - how cleverly does the product solve the problem?</li>
 				<li>Completeness - how well does the product solve the problem, including technology, documentation, tutorials, web site
-				and community support</li>
+				and community support?</li>
 			</ol>
 		</p>
 
