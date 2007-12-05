@@ -32,30 +32,41 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2>Guidelines</h2>
-		<p>The Technology Awards were determined by a panel of judges.   The judges were selected from Eclipse oriented editors and 
-		Eclipse project leaders.  The panel of judges determined winners based on a 
-		majority vote.  </p>
-		<p>Open source projects, products, or organizations may have been nominated by anyone and vendors 
-		were allowed to nominate their own products and organizations.  <strong>Nominations closed January 22, 2007.</strong></p>
 		
+		<h2>Guidelines</h2>
+		
+		<p>
+			The Technology Awards are determined by a panel of judges.   The judges were selected from Eclipse-oriented editors and 
+			Eclipse project leaders.  The panel of judges determines winners based on a majority vote.
+		 </p>
+		 
+		<p>
+			Open source projects and products may be nominated by anyone, and vendors are allowed to nominate their own products.
+		</p>		
 		
 		<h3>Judging Criteria</h3>
-		<p>The criteria for judging for the open source and commercial product awards are: 
-		<ol> <li>Usability and intuitiveness of the user interface - Is the product user interface easy to understand</li>
-			<li>Innovation and Uniqueness - How cleverly does it solve the problem</li>
-			<li>Completeness - How well does it solve the problem, including technology, documentation, 
-			tutorials, web site, community support, etc.</li>
-		</ol></p>
-		<p>The criteria for judging for the 'Best Deployment' award are: 
-		<ol> <li> The number of Eclipse projects being used </li>
-			<li>The scale & importance of internal applications being deployed </li>
-			<li>The scale of the deployment, ie how many people are affected </li>
-		</ol> </p>	<br>
 		
-		<p><strong>Note:</strong> Eclipse is a large vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of award winners, we have decided
-		that previous year winners will not be eligible for a repeat award.   This does not mean that they are not deserving, it is just an acknowledgment that others are also 
-		deserving of recognition.</p><br><br>
+		<p>
+			The criteria for judging the open source and commercial product awards are: 
+			<ol>
+				<li>Usability and intuitiveness of the user interface - is the product user interface easy to understand</li>
+				<li>Innovation and uniqueness - how cleverly does the produc solve the problem</li>
+				<li>Completeness - how well does the product solve the problem, including technology, documentation, tutorials, web site
+				and community support</li>
+			</ol>
+		</p>
+
+		<p>
+			Nominations open December 14, 2007 and close January 25, 2008.  Winners will be announced at
+			<a href="http://www.eclipsecon.org/">EclipseCon 2008</a>.
+		</p>
+		
+		<p>
+			<strong>Note:</strong> Eclipse is a large, vibrant community of many well-deserving individuals and technologies.  Therefore,
+			to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible for a repeat
+			award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also deserving of
+			recognition.
+		</p>
 
 	</div>
 
