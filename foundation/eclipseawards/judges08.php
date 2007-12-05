@@ -65,9 +65,11 @@ ob_start();
 		<div class="sideitem">
 			<h6>Awards Navigation</h6>
 			<ul>
-				<li><a href="index.php">Explanation of Awards Categories</a></li>
+				<li><a href="index.php">Awards Categories</a></li>
+				<li><a href="awards_nominations.php">Make a Nomination</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
+				<li><a href="technology_nominations.php">Current Technology Nominations</a></li>
 			</ul>
 		</div>
 	</div>
