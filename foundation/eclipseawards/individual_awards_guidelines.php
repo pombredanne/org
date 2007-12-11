@@ -49,8 +49,8 @@
 			everyone.</li>
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a> - voted on by
 			everyone.</li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237">Nominations for Top Contributor Award</a> - voted on by
-			Committers.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237">Nominations for Top Mentor Award</a> - voted on by
+			the Eclipse Architecture Council.</li>
 			<li>The <strong>Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
 			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period
 			of calculation is from February 21, 2007 to February 21, 2008.</li>
