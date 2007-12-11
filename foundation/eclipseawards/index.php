@@ -44,12 +44,12 @@
 		<p>
 			<ol>
 				<li><strong>Top Ambassador</strong> - Recognizes an individual (committer or non-committer) who best promotes and
-				supports the Eclipse community.  Everyone can vote on this award.</li>
+				expands the Eclipse community.  Everyone can vote on this award.</li>
 				<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies support for the community
 				through newsgroups, Bugzilla, white papers, conference presentations, blogs and other forums.  Everyone can vote for
 				this award.</li>
- 				<li><strong>Top Contributor</strong> - Recognizes an individual (non-committer) who makes a substantial contribution
- 				to one or more Eclipse projects.  Committers vote for this award.</li>
+ 				<li><strong>Top Mentor</strong> - Recognizes an individual (committer or non-committer) who makes a substantial contribution
+ 				to improving the existing Eclipse community.  The Eclipse Architecture Council will determine the winner of this award.</li>
 				<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies the welcoming of new people into the
 				Eclipse community.  This award will be presented to the individual that has answered the most questions raised on the
 				<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
