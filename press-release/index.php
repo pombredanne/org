@@ -36,11 +36,14 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20071106_cbsurvey.php">Donate to Eclipse</a> - December 3rd, 2007</li>
 		<li><a href="20071106_cbsurvey.php">Results of the Eclipse Community Survey</a> - November 6th, 2007</li>
 		<li><a href="20071105_hibachi.php">Eclipse Hibachi Project Unites Ada Suppliers in Common Environment</a> - November 5th, 2007</li>
 		<li><a href="20071101_econkeepthedate.php">Fifth Annual Eclipse Community Conference Announces Keynotes</a> - November 1st, 2007</li>
+		<li><a href="20071022eclipsedemocamp.php">See Cool Stuff, Meet Interesting People - Attend an Eclipse DemoCamp</a> - October 22nd, 2007</li>	
 		<li><a href="20071016_EclipseConCFP.php">Submit a Talk or Tutorial for EclipseCon 2008</a> - October 16th, 2007</li>
 		<li><a href="20071015_raprelease.php">Eclipse Releases First Ajax Platform Based on OSGi</a> - October 15th, 2007</li>
+		<li><a href="20071009eclpseworld_party.php">Eclipse Foundation Party at Eclipse World</a> - October 9th, 2007</li>
 		<li><a href="20070912_pdtrelease.php">Eclipse Announces New Tools for PHP Developers</a> - September 18th, 2007</li>
 		<li><a href="20070830_ESEearlyreg.php">ESE Early Registration Deadline is Thursday, September 6</a> - August 30th, 2007</li>
 		<li><a href="20070827_RCPregistration.php">Early Discount for RCP Training Ends Friday, August 31</a> - August 27th, 2007</li>
