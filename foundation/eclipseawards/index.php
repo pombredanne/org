@@ -44,13 +44,11 @@
 		<p>
 			<ol>
 				<li><strong>Top Ambassador</strong> - Recognizes an individual (committer or non-committer) who best promotes and
-				expands the Eclipse community.  Everyone can vote on this award.</li>
+				supports the Eclipse community.  Everyone can vote on this award.</li>
 				<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies support for the community
 				through newsgroups, Bugzilla, white papers, conference presentations, blogs and other forums.  Everyone can vote for
 				this award.</li>
- 				<li><strong>Top Mentor</strong> - Recognizes an individual (committer or non-committer) who makes a substantial contribution
- 				to improving the existing Eclipse community.  The Eclipse Architecture Council will determine the winner of this award.</li>
-				<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies the welcoming of new people into the
+ 				<li><strong>Most Prolific Newcomer Evangelist</strong> - This individual best exemplifies the welcoming of new people into the
 				Eclipse community.  This award will be presented to the individual that has answered the most questions raised on the
 				<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
 			</ol> 	
@@ -60,15 +58,18 @@
 		<p>
 			<ol>
 				<li><strong>Best Commercial Eclipse-Based Developer Tool</strong> - Recognizes a commercial product that provides an
-				innovative, high quality product for software developers.
+				innovative, high quality product for software developers.</li>
 				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - Recognizes an open source project (not hosted at
-				Eclipse) that provides an innovative, high quality product for software developers.
-				<li><strong>Best Commercial Equinox or RCP Application</strong> - Recognizes a commercial product that illustrates the
-				most innovative use of Eclipse Equinox or RCP for end user applications.
-				<li><strong>Best Open Source Equinox or RCP Application</strong> - Recognizes an open source project (not hosted at
-				Eclipse) that illustrates the most innovative use of Eclipse Equinox or RCP for end user applications.
+				Eclipse) that provides an innovative, high quality product for software developers.</li>
+				<li><strong>Best Commercial Equinox Application</strong> - Recognizes a commercial product that illustrates the
+				most innovative use of Eclipse Equinox for end user applications.</li>
+				<li><strong>Best Open Source Equinox Application</strong> - Recognizes an open source project (not hosted at
+				Eclipse) that illustrates the most innovative use of Eclipse Equinox for end user applications.</li>
+				<li><strong>Best Commercial RCP Application</strong> - Recognizes a commercial product that illustrates the
+				most innovative use of Eclipse RCP for end user applications.</li>
+				<li><strong>Best Open Source RCP Application</strong> - Recognizes an open source project (not hosted at
+				Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.</li>
 			</ol>
- 			<a href="./judges08.php">Review</a> the judging panels.
 		</p>
 		
 		<h3>Important Dates</h3>
@@ -96,20 +97,16 @@
 			</ul>
 		</div>
 		<div class="sideitem">
-			<h6>Top Contributor</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237"><img 
-		  		src="contributor-picture.gif" border="0"/></a></div>
+			<h6>Top Ambassador</h6>
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235"><img 
+		  		src="ambassador-picture.gif" border="0"/></a></div>
 		</div>
 		<div class="sideitem">
 			<h6>Top Committer</h6>
 			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238"><img 
 		  		src="committer-picture.gif" border="0"/></a></div>
 		</div>
-		<div class="sideitem">
-			<h6>Top Ambassador</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235"><img 
-		  		src="ambassador-picture.gif" border="0"/></a></div>
-		</div>
+
 
 	</div>
 

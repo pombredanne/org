@@ -43,12 +43,11 @@
 		<ul class="midlist">
 		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a></li>
 		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237">Nominations for Top Mentor Award</a></li>
 		</ul>
 		
 		<p>
-			NOTE: The <strong>Newcomer Evangelist Award</strong> is not open to nominations.  It will be calculated based on the
-			response to the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.
+			NOTE: The <strong>Most Prolific Newcomer Evangelist Award</strong> is not open to nominations.  It will be calculated based on the
+			number of responses posted to the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.
 		</p>
 		
 		<h2>Technology Awards</h2>

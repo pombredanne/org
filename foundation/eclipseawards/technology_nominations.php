@@ -53,14 +53,28 @@ ob_start();
 		</div>
 		
 		<div class="homeitem3col">
-			<h3>Best Commercial Equinox or RCP Application</h3>
+			<h3>Best Commercial Equinox Application</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org"></a></li>
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
-			<h3>Best Open Source Equinox or RCP Application</h3>
+			<h3>Best Open Source Equinox Application</h3>
+			<ul>
+				<li><a href="http://www.eclipse.org"></a></li>			
+			</ul>
+		</div>
+
+		<div class="homeitem3col">
+			<h3>Best Commercial RCP Application</h3>
+			<ul>
+				<li><a href="http://www.eclipse.org"></a></li>
+			</ul>
+		</div>
+		
+		<div class="homeitem3col">
+			<h3>Best Open Source RCP Application</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org"></a></li>			
 			</ul>
