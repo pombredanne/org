@@ -78,9 +78,8 @@ ob_start();
 			<ul>
 				<li><a href="http://www.eclipse.org"></a></li>			
 			</ul>
-			<br><br>
 		</div>
-		
+	<br><br>	
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
