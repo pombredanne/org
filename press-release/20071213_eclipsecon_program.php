@@ -54,7 +54,7 @@
 		 </p>
 		
 		<p>EclipseCon 2008 will be held March 17-20 at the Santa Clara Convention Center.  People that
-		<a href="http://www.eclipsecon.org/2008/index.php?page=registration/" targer="blank">register before Dec. 31, 2007 will qualify
+		<a href="http://www.eclipsecon.org/2008/index.php?page=registration/" targer="blank">register</a> before Dec. 31, 2007 will qualify
 		for the early registration price.  In addition, the first 100 individuals with paid registrations will receive a copy of
 		<a href="http://www.eclipsewtp.org/" target="blank"><i>Eclipse Web Tools Platform: Developing Java Web Applications</i></a>.
 		Register today to be a part of the best EclipseCon yet!</p>
