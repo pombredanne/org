@@ -30,8 +30,8 @@
 		Eclipse a stronger community.  There are two categories of awards - individual and technology.  Eclipse is now accepting
 		nominations for the awards, so show your love and nominate a person or product that has made a difference.</p>
 		
-		<p>In the individual category, anyone may make a nomination for the Top Ambassador, Top Committer and Top Mentor awards.  There is
-		also a Top Newcomer	Evangelist award, which is presented to the individual that answers the most questions posted on the
+		<p>In the individual category, anyone may make a nomination for the Top Ambassador and Top Committer awards.  There is
+		also a Most Prolific Newcomer	Evangelist award, which is presented to the individual that answers the most questions posted on the
 		eclipse.newcomer newsgroup.</p>
 		
 		<p>In the technology category, anyone may make a nomination for the Best Commercial Eclipse-Based Developer Tool, Best Open Source
