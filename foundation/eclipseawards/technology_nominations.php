@@ -92,6 +92,7 @@ ob_start();
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
 			</ul>
+			<br><br>
 		</div>
 	</div>
 
