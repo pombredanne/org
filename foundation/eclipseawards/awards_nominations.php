@@ -91,7 +91,6 @@
 				<li><a href="./individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="./technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
 				<li><a href="./technology_nominations.php">Current Technology Nominations</a></li>
-				<li><a href="./judges08.php">Technology Awards Judges</a></li>
 			</ul>
 		</div>
 	</div>

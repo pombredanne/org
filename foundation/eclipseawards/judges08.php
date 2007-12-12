@@ -36,25 +36,25 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Commercial Awards</h3>
 			<ul>
-				<li>Judge 1 - Company</li>
-				<li>Judge 2 - Company</li>
-				<li>Judge 3 - Company</li>
-				<li>Judge 4 - Company</li>
-				<li>Judge 5 - Company</li>
-				<li>Judge 6 - Company</li>
-				<li>Judge 7 - Company</li>
+				<li>Ryan Brooks - Boeing</li>
+				<li>Michael Cot&eacute; - RedMonk</li>
+				<li>Don Dingee - OpenSystems Publishing</li>
+				<li>Don Dunne - Boeing</li>
+				<li>Jeffrey Hammond - Forrester Research</li>
+				<li>Alan Zeichick - BZ Media</li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Open Source Awards</h3>
 			<ul>
-				<li>Judge 1 - Project</li>
-				<li>Judge 2 - Project</a></li>
-				<li>Judge 3 - Project</li>
-				<li>Judge 4 - Project</li>
-				<li>Judge 5 - Project</li>
-				<li>Judge 6 - Project</li>
-				<li>Judge 7 - Project</li>
+				<li>Doug Clarke - EclipseLink Project</li>
+				<li>Kenn Hussey - Model Development Tools (MDT) Project</li>
+				<li>Mik Kersten - Mylyn Project</li>
+				<li>Markus Knauer - g-Eclipse Project &amp; Eclipse Packaging Project (EPP)</li>
+				<li>Christian Kurzke - Tools for mobile Linux (TmL) Project</li>
+				<li>Jeff McAffer - Equinox &amp; Plugin Development Environment (PDE) Projects</li>
+				<li>Greg Watson - Parallel Tools Platform (PTP) Project</li>
+				<li>David Williams - Web Tools Platform (WTP) Project</li>
 			</ul>
 		</div>		
 	
