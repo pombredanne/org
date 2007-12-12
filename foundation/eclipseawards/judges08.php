@@ -36,25 +36,13 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Commercial Awards</h3>
 			<ul>
-				<li>Ryan Brooks - Boeing</li>
-				<li>Michael Cot&eacute; - RedMonk</li>
-				<li>Don Dingee - OpenSystems Publishing</li>
-				<li>Don Dunne - Boeing</li>
-				<li>Jeffrey Hammond - Forrester Research</li>
-				<li>Alan Zeichick - BZ Media</li>
+				<li> </li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Open Source Awards</h3>
 			<ul>
-				<li>Doug Clarke - EclipseLink Project</li>
-				<li>Kenn Hussey - Model Development Tools (MDT) Project</li>
-				<li>Mik Kersten - Mylyn Project</li>
-				<li>Markus Knauer - g-Eclipse Project &amp; Eclipse Packaging Project (EPP)</li>
-				<li>Christian Kurzke - Tools for mobile Linux (TmL) Project</li>
-				<li>Jeff McAffer - Equinox &amp; Plugin Development Environment (PDE) Projects</li>
-				<li>Greg Watson - Parallel Tools Platform (PTP) Project</li>
-				<li>David Williams - Web Tools Platform (WTP) Project</li>
+				<li> </li>
 			</ul>
 		</div>		
 	
