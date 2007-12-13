@@ -30,29 +30,38 @@
 		everyone who submitted a proposal to the program committee.  The number and quality of submissions received was tremendous so
 		the program committee had a difficult time selecting the sessions, but it has made the final program exceptionally strong.</p>
 		
-		<p>The program consists of 80 tutorials, 80 long talk sessions, and 160 short talk sessions, and is organized into 17 tracks.
+		<p>The program consists of 80 tutorials, 90 long talk sessions, and 160 short talk sessions, and is organized into 18 tracks.
 		 The different tracks reflect the diversity of the Eclipse community and include:
-		 <ul>
-		 	<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Business" target="blank">Business</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=C/C++" target="blank">C/C++</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Committer%20and%20Contributor" target="blank">Committer and Contributor</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Data%20Tooling" target="blank">Data Tooling</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Eclipse%20as%20a%20Platform" target="blank">Eclipse as a Platform</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Emerging%20Technologies" target="blank">Emerging Technologies</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Industry%20Vertical" target="blank">Industry Vertical</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Java" target="blank">Java</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Mobile%20and%20Embedded" target="blank">Mobile &amp; Embedded</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Modeling" target="blank">Modeling</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=OSGi%20DevCon" target="blank">OSGi DevCon</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Rich%20Client%20Platform" target="blank">Rich Client Platform</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Reporting" target="blank">Reporting</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=SOA" target="blank">SOA</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Test%20and%20Performance" target="blank">Test & Performance</a></li>
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Tools" target="blank">Tools</a></li> 
-			<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Web%20Tools" target="blank">Web Tools</a></li>
-		 </ul>	
+		 <table><tr>
+		 			<td>
+						 <ul>
+						 	<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Business" target="blank">Business</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=C%2FC%2B%2B" target="blank">C/C++</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Committer%20and%20Contributor" target="blank">Committer and Contributor</a> - new track on how to contribute to Eclipse</li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Data%20Tooling" target="blank">Data Tooling</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Eclipse%20as%20a%20Platform" target="blank">Eclipse as a Platform</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Emerging%20Technologies" target="blank">Emerging Technologies</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Industry%20Vertical" target="blank">Industry Vertical</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Java" target="blank">Java</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Mobile%20and%20Embedded" target="blank">Mobile &amp; Embedded</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Modeling" target="blank">Modeling</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=OSGi%20DevCon" target="blank">OSGi DevCon</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Other" target="blank">Other</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Rich%20Client%20Platform" target="blank">Rich Client Platform</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Reporting" target="blank">Reporting</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=SOA" target="blank">SOA</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Test%20and%20Performance" target="blank">Test & Performance</a></li>
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Tools" target="blank">Tools</a></li> 
+							<li><a href="http://www.eclipsecon.org/2008/index.php?page=sub/&category=Web%20Tools" target="blank">Web Tools</a></li>
+						 </ul>
+					</td>
+					<td>
+						&nbsp; &nbsp; &nbsp; <a href="http://www.eclipsecon.org/2008/"><img border="0" src="http://www.eclipsecon.org/2008/image125x125.gif"
+ 						height="125" width="125" alt="EclipseCon 2008"></a>
+					</td>
+		</tr></table>
 		 </p>
-		
+
 		<p>EclipseCon 2008 will be held March 17-20 at the Santa Clara Convention Center.  People that
 		<a href="http://www.eclipsecon.org/2008/index.php?page=registration/" targer="blank">register</a> before Dec. 31, 2007 will qualify
 		for the early registration price.  In addition, the first 100 individuals with paid registrations will receive a copy of
