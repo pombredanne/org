@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20071213_eclipsecon_program.php">The EclipseCon 2008 Technical Program Rocks!</a> - December 13th, 2007</li>
 		<li><a href="20071106_cbsurvey.php">Donate to Eclipse</a> - December 3rd, 2007</li>
 		<li><a href="20071106_cbsurvey.php">Results of the Eclipse Community Survey</a> - November 6th, 2007</li>
 		<li><a href="20071105_hibachi.php">Eclipse Hibachi Project Unites Ada Suppliers in Common Environment</a> - November 5th, 2007</li>
