@@ -66,7 +66,7 @@
 		<a href="http://www.eclipsecon.org/2008/index.php?page=registration/" targer="blank">register</a> before Dec. 31, 2007 will qualify
 		for the early registration price.  In addition, the first 100 individuals with paid registrations will receive a copy of
 		<a href="http://www.eclipsewtp.org/"><i>Eclipse Web Tools Platform: Developing Java Web Applications</i></a>.
-		<a href="http://www.eclipsewtp.org/">Register today</a> to be a part of the best EclipseCon yet!</p>
+		Register today to be a part of the best EclipseCon yet!</p>
 
 		<br><br>
 
