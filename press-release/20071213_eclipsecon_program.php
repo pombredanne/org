@@ -26,7 +26,7 @@
 		<h2>Community Bulletin</h2>
 		<h1>The EclipseCon 2008 Technical Program Rocks!</h1>
 		
-		<p>The EclipseCon 2008 technical program has been selected and is now available on the conference web site.  Thank you to
+		<p>The <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> technical program has been selected and is now available on the <a href="http://www.eclipsecon.org/2008/index.php?page=sub/conference">web site</a>.  Thank you to
 		everyone who submitted a proposal to the program committee.  The number and quality of submissions received was tremendous so
 		the program committee had a difficult time selecting the sessions, but it has made the final program exceptionally strong.</p>
 		
@@ -62,11 +62,11 @@
 		</tr></table>
 		 </p>
 
-		<p>EclipseCon 2008 will be held March 17-20 at the Santa Clara Convention Center.  People that
+		<p><a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> will be held March 17-20 at the Santa Clara Convention Center.  People that
 		<a href="http://www.eclipsecon.org/2008/index.php?page=registration/" targer="blank">register</a> before Dec. 31, 2007 will qualify
 		for the early registration price.  In addition, the first 100 individuals with paid registrations will receive a copy of
-		<a href="http://www.eclipsewtp.org/" target="blank"><i>Eclipse Web Tools Platform: Developing Java Web Applications</i></a>.
-		Register today to be a part of the best EclipseCon yet!</p>
+		<a href="http://www.eclipsewtp.org/"><i>Eclipse Web Tools Platform: Developing Java Web Applications</i></a>.
+		<a href="http://www.eclipsewtp.org/">Register today</a> to be a part of the best EclipseCon yet!</p>
 
 		<br><br>
 
