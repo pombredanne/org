@@ -26,7 +26,7 @@
 		<h2>Community Bulletin</h2>
 		<h1>The EclipseCon 2008 Technical Program Rocks!</h1>
 		
-		<p>The <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> technical program has been selected and is now available on the <a href="http://www.eclipsecon.org/2008/index.php?page=sub/conference">web site</a>.  Thank you to
+		<p>The <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> technical program has been selected and is now available on the <a href="http://www.eclipsecon.org/2008/index.php?page=sub/">conference web site</a>.  Thank you to
 		everyone who submitted a proposal to the program committee.  The number and quality of submissions received was tremendous so
 		the program committee had a difficult time selecting the sessions, but it has made the final program exceptionally strong.</p>
 		
