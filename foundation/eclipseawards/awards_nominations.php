@@ -41,8 +41,8 @@
 		</p>
 		
 		<ul class="midlist">
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056">Nominations for Top Ambassador Award</a></li>
+		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059">Nominations for Top Committer Award</a></li>
 		</ul>
 		
 		<p>
