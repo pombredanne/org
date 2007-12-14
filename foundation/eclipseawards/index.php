@@ -99,12 +99,12 @@
 		</div>
 		<div class="sideitem">
 			<h6>Top Ambassador</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235"><img 
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056"><img 
 		  		src="ambassador-picture.gif" border="0"/></a></div>
 		</div>
 		<div class="sideitem">
 			<h6>Top Committer</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238"><img 
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059"><img 
 		  		src="committer-picture.gif" border="0"/></a></div>
 		</div>
 
