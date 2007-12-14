@@ -45,9 +45,9 @@
 		</p>
 		
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168235">Nominations for Top Ambassador Award</a> - voted on by
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056">Nominations for Top Ambassador Award</a> - voted on by
 			everyone.</li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168238">Nominations for Top Committer Award</a> - voted on by
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059">Nominations for Top Committer Award</a> - voted on by
 			everyone.</li>
 			<li>The <strong>Most Prolific Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
 			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period
