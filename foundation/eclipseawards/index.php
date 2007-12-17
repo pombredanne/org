@@ -62,9 +62,9 @@
 				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - Recognizes an open source project (not hosted at
 				Eclipse) that provides an innovative, high quality product for software developers.</li>
 				<li><strong>Best Commercial Equinox Application</strong> - Recognizes a commercial product that illustrates the
-				most innovative use of Eclipse Equinox for end user applications.</li>
+				most innovative use of Eclipse Equinox.</li>
 				<li><strong>Best Open Source Equinox Application</strong> - Recognizes an open source project (not hosted at
-				Eclipse) that illustrates the most innovative use of Eclipse Equinox for end user applications.</li>
+				Eclipse) that illustrates the most innovative use of Eclipse Equinox.</li>
 				<li><strong>Best Commercial RCP Application</strong> - Recognizes a commercial product that illustrates the
 				most innovative use of Eclipse RCP for end user applications.</li>
 				<li><strong>Best Open Source RCP Application</strong> - Recognizes an open source project (not hosted at
