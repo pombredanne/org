@@ -26,17 +26,17 @@
 		<h2>Community Bulletin</h2>
 		<h1>Nominations for the Eclipse Community Awards 2008 are Open</h1>
 		
-		<p>The Eclipse Community Awards are an annual event designed to show appreciation to individuals and technologies that make
-		Eclipse a stronger community.  There are two categories of awards - individual and technology.  Eclipse is now accepting
+		<p>The <a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a> are an annual event designed to show appreciation to individuals and technologies that make
+		Eclipse a stronger community.  There are two categories of awards - individual and technology.  The Eclipse Foundation is now accepting
 		nominations for the awards, so show your love and nominate a person or product that has made a difference.</p>
 		
 		<p>In the individual category, anyone may make a nomination for the Top Ambassador and Top Committer awards.  There is
 		also a Most Prolific Newcomer	Evangelist award, which is presented to the individual that answers the most questions posted on the
 		eclipse.newcomer newsgroup.</p>
 		
-		<p>In the technology category, anyone may make a nomination for the Best Commercial Eclipse-Based Developer Tool, Best Open Source
-		Eclipse-Based Developer Tool, Best Commercial Equinox or RCP Application and Best Open Source Equinox or RCP Application awards.
-		Companies are welcome to nominate their own products.</p>
+		<p>In the technology category, anyone may make a nomination for the Best Commercial Eclipse-Based Developer Tool, 
+		Best Open Source Eclipse-Based Developer Tool, Best Commercial Equinox Application, Best Commercial RCP Application and Best Open 
+		Source Equinox Application and Best Open Source RCP Application awards.  Companies and projects are welcome to nominate their own products.</p>
 
 		<p>More details about the awards and the nomination process can be found
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">online</a>.	 Nominations for the Eclipse Community
