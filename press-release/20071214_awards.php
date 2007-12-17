@@ -45,6 +45,14 @@
 
 	</div>
 </div>
+<div id="rightcolumn">
+	<div class="sideitem">
+	<h6>Related Links</h6>
+	<ul>
+		<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
+	</ul>
+	</div>
+</div>
 
 EOHTML;
 
