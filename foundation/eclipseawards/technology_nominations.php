@@ -55,7 +55,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"></a></li>
+				<li><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a></li>
 			</ul>
 		</div>
 		
