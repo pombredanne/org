@@ -41,14 +41,14 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>			
+				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>	
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"></a></li>			
+				<li><a href="http://openrules.com">OpenRules</a></li>			
 			</ul>
 		</div>
 		
