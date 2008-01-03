@@ -41,7 +41,9 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>	
+				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
+				<li><a href="http://www.instantiations.com/windowbuilder/ ">WindowBuilder Pro</a></li>	
+				<li><a href="http://www.zend.com/en/products/studio/eclipse/">Zend Studio for Eclipse</a></li>
 			</ul>
 		</div>
 				
@@ -69,7 +71,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"></a></li>
+				<li><a href="http://www.openmakesoftware.com">OpenMake Meister</a></li>
+				<li><a href="http://www.poweredbypulse.com">Pulse</a></li>
 			</ul>
 		</div>
 		
