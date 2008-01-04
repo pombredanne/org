@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Contact Us";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Type your name here";
+	$pageKeywords	= "Contact";
+	$pageAuthor		= "";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -36,6 +36,11 @@
 		<table width="100%" border="0" cellpadding="5" cellspacing=5>
 		  <tr>
 		    <td width="37%" valign=top>Technical questions</td>
+    		<td width="63%"><a href="../../newsgroups/register.php">Register</a> 
+      		and join the <a href="../../newsgroups/">Newsgroups</a></td>
+  		</tr>
+		  <tr>
+		    <td width="37%" valign=top>Support</td>
     		<td width="63%"><a href="../../newsgroups/register.php">Register</a> 
       		and join the <a href="../../newsgroups/">Newsgroups</a></td>
   		</tr>
