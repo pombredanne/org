@@ -27,9 +27,8 @@
 		    <li><a href="directors.php">Board of Directors:</a>	    
 	          The Board of Directors oversees the policies and strategic direction of the Eclipse Foundation.
 	          <br/><br/>
-	          The 2007 elections for committer and add-in provider representatives on the Board of Directors have been 
-	          complated. Please see the <a href="../elections/">Eclipse elections home page</a> for the results, 
-	          list of candidates, key dates, and voting process.
+	          The 2008 elections for committer and add-in provider representatives on the Board of Directors are underway. 
+	          Please see the <a href="../elections/">Eclipse elections home page</a>.
 	        </li>    
 	 		<li><A href="council.php">Eclipse Councils:</A>
 	          The Eclipse Councils act to co-ordinate the activities of the Eclipse projects.
