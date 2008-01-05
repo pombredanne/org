@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2007";
+	$year="2008";
 	$candidates = get_all_candidates($year);
 	
 	#
