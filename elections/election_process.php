@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2006";
+	$year="2008";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -47,10 +47,10 @@
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the committers and the add-in providers. The number of these
 		elected representatives is a ratio of the total number of Strategic Members. 
-		<br/><br/>For 2007, there are to be
+		<br/><br/>For $year, there are to be
 		four elected committer representatives and four elected add-in provider representatives. </li>
 		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
-		<li>The terms of office for	these elected board members is one year, commencing April 1. </li>
+		<li>The term of office for	these elected board members is one year, commencing April 1. </li>
 		<li>Voting for the elected board members is done using <a href="http://en.wikipedia.org/wiki/Single_Transferable_Vote">single transferrable voting</a>.</li>
 		<li>Each Add-in Provider Member gets one vote. </li>
 		<li>Each Committer Member gets one vote. Note that committers who are employees of Member companies have
@@ -69,7 +69,7 @@
 			<h6>Quick Links</h6>
 			<ul>
 				<li><a href=".">Election Home</a></li>
-				<li><a href="nominees.php">Candidates</a></li>
+				<li><a href="nominees_under_construction.php">Candidates</a></li>
 				<li><a href="keydates.php">Key Dates</a></li>
 				<li><a href="election_process.php">Election Process</a></li>
 			</ul>

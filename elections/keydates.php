@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2007";
+	$year="2008";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -45,26 +45,26 @@
 		these elected board members is one year, commencing April 1.</p>
 		<div class="homeitem3col">
 	    <h3><a name="Dates"></a>Key Dates</h3>
-		<p>&nbsp;&nbsp;The key dates for the 2007 elections are:</p>
+		<p>&nbsp;&nbsp;The key dates for the $year elections are:</p>
 		<ul>
-		<li>December 13, 2006: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
-		the subject "Add-In Provider Nomination" or "Committer Nomination". As soon as possible after an individual 
+		<li>January 7, 2008: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
+		the subject "Add-In Provider Nomination" or "Committer Nomination." As soon as possible after an individual 
 		is nominated, the Foundation will contact the nominee to confirm their willingness to participate in the 
-		election and to serve as a add-in provider representative if elected.</li>
-		<li>January 17, 2007: Nominations close. The list of nominees and their html pages will be available on the 
-		website as soon as possible thereafter, and in no case later than January 24.
+		election and to serve if elected.</li>
+		<li>January 25, 2008: Nominations close. The list of nominees and their HTML pages will be available on the 
+		eclipse.org website as soon as possible thereafter.
 		<br>
 		<br>Each nominee will be provided with an 
 		HTML template which outlines their background and vision for Eclipse as they are nominated. If the nominee
 		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
-		via email. Content must be submitted to the Eclipse Foundation via email no later than Friday, January 19th. 
+		via email. Content must be submitted to the Eclipse Foundation via email no later than Thursday, January 31. 
 		</li>
-		<li>January 24, 2007: List of nominees and their personal pages made available on www.eclipse.org. 
+		<li>January 29, 2008: List of nominees and their personal pages made available on www.eclipse.org. 
 		Discussion of the issues on the eclipse.foundation newsgroup will be encouraged. 
 		</li>
-		<li>February 7, 2007: Voting begins.</li>
-		<li>February 21, 2007: Voting ends. </li>
-		<li>February 28, 2007: New representatives announced.</li>
+		<li>February 25, 2008: Voting begins.</li>
+		<li>March 7, 2008: Voting ends at 3pm Eastern time. </li>
+		<li>March 17, 2008: New representatives announced at the Membership Meeting at EclipseCon 2008 in Santa Clara, California.</li>
 		</ul>
 		</div>
 	</div>
@@ -73,7 +73,7 @@
 			<h6>Quick Links</h6>
 			<ul>
 				<li><a href=".">Election Home</a></li>
-				<li><a href="nominees.php">Candidates</a></li>
+				<li><a href="nominees_under_construction.php">Candidates</a></li>
 				<li><a href="keydates.php">Key Dates</a></li>
 				<li><a href="election_process.php">Election Process</a></li>
 			</ul>
