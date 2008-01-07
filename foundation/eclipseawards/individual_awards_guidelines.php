@@ -49,6 +49,8 @@
 			everyone.</li>
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059">Nominations for Top Committer Award</a> - voted on by
 			everyone.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214525">Nominations for Top Contributor Award</a> - voted on by
+			everyone.</li>
 			<li>The <strong>Most Prolific Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
 			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period
 			of calculation is from February 21, 2007 to February 21, 2008.</li>
@@ -65,6 +67,7 @@
 			for a repeat award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also 
 			deserving of recognition.
 		</p>
+		
 
 	</div>
 

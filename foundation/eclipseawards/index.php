@@ -48,6 +48,11 @@
 				<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies support for the community
 				through newsgroups, Bugzilla, white papers, conference presentations, blogs and other forums.  Everyone can vote for
 				this award.</li>
+				<li><strong>Top Contributor</strong> - Recognizes an Eclipse contributor who best exemplifies support for the community through submission of patches & comments on bugs,
+						posts to newsgroups, creation of white papers, presentations at conferences, blogs, IRC 
+						and other forums.  Top contributors make their contributions due to their passion for 
+						making Eclipse a better community.  In general, no one is paying them for the time they 
+						spend on making their Eclipse contributions. Everyone can vote on this award.
  				<li><strong>Most Prolific Newcomer Evangelist</strong> - This individual best exemplifies the welcoming of new people into the
 				Eclipse community.  This award will be presented to the individual that has answered the most questions raised on the
 				<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
