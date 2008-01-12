@@ -261,8 +261,9 @@ its rights to a jury trial in any resulting litigation. </p><br/>
 			<ul>
 			<li><a href="epl-v10.html">EPL in plain HTML</a></li>
 			<li><a href="http://www.opensource.org/licenses/eclipse-1.0.php" target="blank">The EPL on OSI&rsquo;s site</a></li>
-			<li><a href="../../legal/cpl2epl/">CPL to EPL conversion</a></li>
+			<li><a href="../../legal/cpl2epl/">CPL to EPL conversion</a></li> 
 			</ul>
+			<p align="center"><a href="http://www.opensource.org/licenses/eclipse-1.0.php" target="blank"><img align="center" src="../../images/osi-certified-60x50.gif" border="0"/>&nbsp</a></p>
 		</div>
 	</div>
 
