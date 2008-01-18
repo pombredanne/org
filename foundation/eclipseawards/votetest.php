@@ -68,11 +68,10 @@
 		    x.style.display = (flag) ? 'block' : 'none';
 		}
 		function show_voter() {
-			invi('div1',false);
-			invi('div2',true); 
+			invi('div1',true); 
+			invi('div2',true);
 			invi('div3',true);
 			invi('div4',true);
-			invi('div5',true);
 		}
 		</script>
 		
@@ -105,7 +104,7 @@
 		about Eclipse&quot;, etc.):<br>
 		<input type="text" name="reason" size="60"> </p>
 		
-		<div id="div2" class="invis">
+		<div id="div1" class="invis">
 		<h2>Vote for the Top Ambassador</h2><p><img border="0" src="http://www.eclipse.org/org/foundation/eclipseawards/ambassador-picture.gif" align="right" hspace="5" vspace="5" width="125" height="125">
 		The <b>Top Ambassador</b> award recognizes an individual (committer or non-committer) who best promotes and supports the Eclipse
 		community.</p>
@@ -138,7 +137,7 @@
 		</div>
 
 
-		<div id="div3" class="invis">
+		<div id="div2" class="invis">
 		<h2>Vote for the Top Committer</h2>
 		<p><img border="0" src="http://www.eclipse.org/org/foundation/eclipseawards/committer-picture.gif" align="right" hspace="5" vspace="5" width="125" height="125">
 		The <b>Top Committer</b> award recognizes an Eclipse committer who best exemplifies supporting the community through newsgroups,
@@ -155,45 +154,6 @@
 		"Mik Kersten",
 		"Chris Aniszczyk",
 		"David Williams"
-		 );
-		shuffle( $vote3s );
-		$inc3 = floor((count($vote3s) + 1) / 2);
-		for( $i = 0; $i < $inc3; $i++ ) {
-		 ?><tr><td><input type="radio" name="vote3" value="<?= $vote3s[$i] ?>"><?= $vote3s[$i] ?></td>
-		 <?php
-		 $j = $i + $inc3;
-		 if( $j < count($vote3s) ) {
-		 	?><td><input type="radio" name="vote3" value="<?= $vote3s[$j] ?>"><?= $vote3s[$j] ?></td>
-		 	<?php
-		 } else {
-		 	?><td>&nbsp;</td>
-		 	<?php
-		 }
-		 ?></tr><?php
-		}
-		?>
-		</table>
-		</div>
-		
-		
-		<div id="div4" class="invis">
-		<h2>Vote for the Top Contributor</h2>
-		<p><img border="0" src="http://www.eclipse.org/org/foundation/eclipseawards/contributor-picture.gif" align="right" hspace="5" vspace="5" width="125" height="125">
-		The <b>Top Contributor</b> award recognizes an individual (non-committer) who best exemplifies support for the community through
-		submission of patches &amp; comments on bugs, posts to newsgroups, creation of white papers, presentations at conferences,
-		blogs, IRC and other forums. Top contributors make their contributions due to their passion for making Eclipse a better
-		community. In general, no one is paying them for the time they spend on making their Eclipse contributions. 
-		</p><p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237" target="_blank">Eight
-		great Contributors have been nominated; we recommend
-		that you read what others have written about them while considering your vote</a>.
-		</p><p>The nominees are: (in random order) 
-		</p><p>
-		<table width="100%" border="0">
-		<?php
-		$vote2s = array(
-		"Tom Schindl",
-		"Remy Chi Jian Suen",
-		"Jacek Pospychala"
 		 );
 		shuffle( $vote2s );
 		$inc2 = floor((count($vote2s) + 1) / 2);
@@ -213,10 +173,49 @@
 		?>
 		</table>
 		</div>
+		
+		
+		<div id="div3" class="invis">
+		<h2>Vote for the Top Contributor</h2>
+		<p><img border="0" src="http://www.eclipse.org/org/foundation/eclipseawards/contributor-picture.gif" align="right" hspace="5" vspace="5" width="125" height="125">
+		The <b>Top Contributor</b> award recognizes an individual (non-committer) who best exemplifies support for the community through
+		submission of patches &amp; comments on bugs, posts to newsgroups, creation of white papers, presentations at conferences,
+		blogs, IRC and other forums. Top contributors make their contributions due to their passion for making Eclipse a better
+		community. In general, no one is paying them for the time they spend on making their Eclipse contributions. 
+		</p><p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=168237" target="_blank">Eight
+		great Contributors have been nominated; we recommend
+		that you read what others have written about them while considering your vote</a>.
+		</p><p>The nominees are: (in random order) 
+		</p><p>
+		<table width="100%" border="0">
+		<?php
+		$vote3s = array(
+		"Tom Schindl",
+		"Remy Chi Jian Suen",
+		"Jacek Pospychala"
+		 );
+		shuffle( $vote3s );
+		$inc3 = floor((count($vote3s) + 1) / 2);
+		for( $i = 0; $i < $inc3; $i++ ) {
+		 ?><tr><td><input type="radio" name="vote3" value="<?= $vote3s[$i] ?>"><?= $vote3s[$i] ?></td>
+		 <?php
+		 $j = $i + $inc3;
+		 if( $j < count($vote3s) ) {
+		 	?><td><input type="radio" name="vote3" value="<?= $vote3s[$j] ?>"><?= $vote3s[$j] ?></td>
+		 	<?php
+		 } else {
+		 	?><td>&nbsp;</td>
+		 	<?php
+		 }
+		 ?></tr><?php
+		}
+		?>
+		</table>
+		</div>
 
 
-		<div id="div5" class="invis">
-		<h2>Fifth, Press This Button</h2>
+		<div id="div4" class="invis">
+		<h2>Press This Button to Vote</h2>
 		<p><input type="submit" value="Vote!" name="B1"> </p>
 		</div>		
 		
