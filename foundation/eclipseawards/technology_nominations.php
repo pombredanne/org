@@ -42,8 +42,9 @@ ob_start();
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
-				<li><a href="http://www.myeclipseide.com ">MyEclipse</a></li>
-				<li><a href="http://www.instantiations.com/windowbuilder/ ">WindowBuilder Pro</a></li>	
+				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
+				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
+				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>	
 				<li><a href="http://www.zend.com/en/products/studio/eclipse/">Zend Studio for Eclipse</a></li>
 			</ul>
 		</div>
