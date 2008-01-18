@@ -95,10 +95,10 @@
 		
 		<p>Your full name: <input type="text" name="name" size="50"> </p>
 		<p>Your email address: <input type="text" name="email" size="45"></p>
-		<p><input type="radio" name="i_am" value="committer" onclick="javascript: show_committer();">
+		<p><input type="radio" name="i_am" value="voter" onclick="javascript: show_voter();">
 		I am an Eclipse Committer.
 		<br>My dev.eclipse.org login name is: <input type="text" name="login" size="20"></p>
-		<p><input type="radio" name="i_am" value="community" onclick="javascript: show_contributor();">
+		<p><input type="radio" name="i_am" value="voter" onclick="javascript: show_voter();">
 		I am an Eclipse Community Member because (explain why you are a community member;
 		e.g. &quot;I use Eclipse&quot;, &quot;I write plug-ins for Eclipse&quot;,
 		&quot;I pay the salaries of Eclipse Committers&quot;, &quot;I write articles
