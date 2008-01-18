@@ -107,7 +107,7 @@
 		<div id="div1" class="invis">
 		<h2>Vote for the Top Ambassador</h2><p><img border="0" src="http://www.eclipse.org/org/foundation/eclipseawards/ambassador-picture.gif" align="right" hspace="5" vspace="5" width="125" height="125">
 		The <b>Top Ambassador</b> award recognizes an individual (committer or non-committer) who best promotes and supports the Eclipse
-		community. One great Ambassador has been nominated. We recommend that you read 
+		community. One great ambassador has been nominated. We recommend that you read 
 		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056" target="_blank">what others have written about him</a> while
 		considering your vote.</p>
 		<p>The nominees are (in random order):</p>
@@ -141,7 +141,7 @@
 		<h2>Vote for the Top Committer</h2>
 		<p><img border="0" src="http://www.eclipse.org/org/foundation/eclipseawards/committer-picture.gif" align="right" hspace="5" vspace="5" width="125" height="125">
 		The <b>Top Committer</b> award recognizes an Eclipse committer who best exemplifies supporting the community through newsgroups,
-		Bugzilla, white papers, conference presentations, blogs and other forums. Five great Committers have been nominated.  We
+		Bugzilla, white papers, conference presentations, blogs and other forums. Five great committers have been nominated.  We
 		recommend that you read
 		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059" target="_blank">what others have written about them</a> while
 		considering your vote.</p>
