@@ -84,7 +84,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li><a href="http://www.escapek.org">EscapeK</a></li>			
+				<li><a href="http://www.escapek.org">EscapeK</a></li>	
+				<li><a href="http://relations-rcp.sourceforge.net/">Relations</a></li>		
 			</ul>
 		</div>
 	<br><br>	
