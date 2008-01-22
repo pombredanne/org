@@ -17,9 +17,11 @@
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+		<style>
+		.paddedlist li {	padding-bottom:7px;	}
+	</style>
 <div id="maincontent">
 	<div id="midcolumn">
-		
 		<h2>Press Release</h2>
 		<center>
 		<h1>$pageTitle</h1>
@@ -31,7 +33,7 @@
 		<p>"We are delighted to have these eleven companies express their support of EclipseCon, an event that's essential to the Eclipse community's collaborative environment,” said Mike Milinkovich, executive director of the Eclipse Foundation. “The support of these premier sponsors helps make EclipseCon an extraordinary event year after year". </p>
 
 		<p>In addition to the Gold sponsors, three other premier sponsors have been announced:</br>
-			<ul>
+			<ul class="paddedlist">
 				<li>AMD has agreed to be the hardware sponsor of the conference.   AMD will contribute several Quad-Core AMD Opteron™ processors to power the Eclipse Foundation web infrastructure, including the EclipseCon download server.  </li>
 				<li>Research In Motion has agreed to sponsor a BlackBerry® Developer Day during the conference.   Conference attendees will be able to attend in-depth technical session about the BlackBerry development platform.</li>
 				<li>IBM is sponsoring a Developer Day during EclipseCon. Attendees will be able to attend technical sessions about IBM's Eclipse-based Jazz team platform and products such as Rational Team Concert Express.</li>
