@@ -19,14 +19,15 @@
 	$html = <<<EOHTML
 <div id="maincontent">
 	<div id="midcolumn">
+		<center>
 		<h2>Press Release</h2>
 		<h1>$pageTitle</h1>
-		<p><i>AMD Announced as Hardware sponsor; BlackBerry Developer Day and Jazz Developer Day added to conference program</i></p>
+		<p><i>AMD Announced as Hardware sponsor; BlackBerry Developer Day and Jazz Developer Day added to conference program</i></p></center>
 		<p><strong>OTTAWA - January 22, 2008 - </strong>The Eclipse Foundation today announced the support of eleven industry-leading companies as Gold Sponsors for EclipseCon 2008, the annual conference of the Eclipse community.
 		</p>
 		<p>The Gold Sponsors -- Actuate, AMD, BEA, Cloudsmith, IBM, Oracle, Replay Solutions, Research In Motion (RIM), Skyway Software, SOPERA and Wind River -- will join an impressive list of keynote speakers and presenters for the fifth annual conference to be held March 17-20, 2008, in Santa Clara, CA.</p>
 		
-		<p>"We are delighted to have these eleven companies express their support of EclipseCon, an event that’s essential to the Eclipse community’s collaborative environment,” said Mike Milinkovich, executive director of the Eclipse Foundation. “The support of these premier sponsors helps make EclipseCon an extraordinary event year after year". </p>
+		<p>"We are delighted to have these eleven companies express their support of EclipseCon, an event that's essential to the Eclipse community's collaborative environment,” said Mike Milinkovich, executive director of the Eclipse Foundation. “The support of these premier sponsors helps make EclipseCon an extraordinary event year after year". </p>
 
 		<p>In addition to the Gold sponsors, three other premier sponsors have been announced:</br>
 			<ul>
