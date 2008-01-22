@@ -41,6 +41,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
@@ -54,6 +55,7 @@ ob_start();
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
 				<li><a href="http://www.eclemma.org/">EclEmma</a></li>
+				<li><a href="http://eclipse-jutils.sourceforge.net">JUtils ToString Generator Plugin for Eclipse</a></li>
 				<li><a href="http://sourceforge.net/projects/modulipse/">Modulipse</a></li>
 				<li><a href="http://openrules.com">OpenRules</a></li>			
 			</ul>
