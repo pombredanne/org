@@ -19,8 +19,9 @@
 	$html = <<<EOHTML
 <div id="maincontent">
 	<div id="midcolumn">
-		<center>
+		
 		<h2>Press Release</h2>
+		<center>
 		<h1>$pageTitle</h1>
 		<p><i>AMD Announced as Hardware sponsor; BlackBerry Developer Day and Jazz Developer Day added to conference program</i></p></center>
 		<p><strong>OTTAWA - January 22, 2008 - </strong>The Eclipse Foundation today announced the support of eleven industry-leading companies as Gold Sponsors for EclipseCon 2008, the annual conference of the Eclipse community.
