@@ -42,6 +42,7 @@ ob_start();
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
@@ -78,6 +79,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
+				<li><a href="http://www.embarcadero.com/products/eastudio/index.html">EA/Studio</a></li>
 				<li><a href="http://www.openmakesoftware.com">OpenMake Meister</a></li>
 				<li><a href="http://www.poweredbypulse.com">Pulse</a></li>
 			</ul>
