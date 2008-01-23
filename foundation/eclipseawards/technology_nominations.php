@@ -45,6 +45,7 @@ ob_start();
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
+				<li><a href="http://www.protecode.com">Protecode</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
 				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>	
 				<li><a href="http://www.zend.com/en/products/studio/eclipse/">Zend Studio for Eclipse</a></li>
@@ -82,6 +83,7 @@ ob_start();
 				<li><a href="http://www.embarcadero.com/products/eastudio/index.html">EA/Studio</a></li>
 				<li><a href="http://www.openmakesoftware.com">OpenMake Meister</a></li>
 				<li><a href="http://www.poweredbypulse.com">Pulse</a></li>
+				<li><a href="http://www.xmind.org/us/">XMIND 2008</a></li>
 			</ul>
 		</div>
 		
