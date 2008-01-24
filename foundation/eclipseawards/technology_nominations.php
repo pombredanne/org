@@ -42,7 +42,6 @@ ob_start();
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
-				<li><a href="http://www.xjtek.com/anylogic/">AnyLogic</a></li>
 				<li><a href="http://www.soyatec.com/eface">eFace</a></li>				
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
@@ -84,6 +83,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
+				<li><a href="http://www.xjtek.com/anylogic/">AnyLogic</a></li>
 				<li><a href="http://www.embarcadero.com/products/eastudio/index.html">EA/Studio</a></li>
 				<li><a href="http://www.guidancer.com">GUIdancer</a></li>
 				<li><a href="http://www.openmakesoftware.com">OpenMake Meister</a></li>
