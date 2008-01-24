@@ -42,11 +42,13 @@ ob_start();
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://www.soyatec.com/eface">eFace</a></li>				
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
 				<li><a href="http://www.protecode.com">Protecode</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
+				<li><a href="http://www.testingtech.de/products_services/ttwb_intro.php">TTworkbench</a></li>					
 				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>	
 				<li><a href="http://www.zend.com/en/products/studio/eclipse/">Zend Studio for Eclipse</a></li>
 			</ul>
@@ -67,6 +69,7 @@ ob_start();
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
 				<li><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a></li>
+				<li><a href="http://www.bea.com/framework.jsp?CNT=index.jsp&FP=/content/solutions/event_driven_soa&WT.ac=topnav_eventdriven_soa">WebLogic Event Server 2.0</a></li>
 			</ul>
 		</div>
 		
