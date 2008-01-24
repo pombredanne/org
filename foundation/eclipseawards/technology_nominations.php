@@ -69,7 +69,7 @@ ob_start();
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
 				<li><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a></li>
-				<li><a href="http://www.bea.com/framework.jsp?CNT=index.jsp&FP=/content/solutions/event_driven_soa&WT.ac=topnav_eventdriven_soa">WebLogic Event Server 2.0</a></li>
+				<li><a href="http://bea.com/framework.jsp?CNT=index.htm&FP=/content/products/weblogic/event_server/">WebLogic Event Server 2.0</a></li>
 			</ul>
 		</div>
 		
