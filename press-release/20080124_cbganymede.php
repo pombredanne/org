@@ -30,6 +30,14 @@
  		<p>This year EPP is going to produce packages for each Ganymede milestone and release candidate.  This will hopefully make it easier to test the packages before the final release and find cross-project issues.  Of course if you find issues with the packages, please report them in bugzilla.</p>
  
 	</div>
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+				<ul>
+					<li><a href="http://www.eclipse.org/epp/ganymede.php">EPP Downloads</a></li>
+				</ul>
+		</div>
+	</div>
 </div>
 
 EOHTML;
