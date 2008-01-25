@@ -43,7 +43,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.tibco.com/software/soa/activematrix_service_grid/default.jsp">ActiveMatrix Service Grid</a></li>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
-				<li><a href="http://arlanis.de/index.php?lang=en">arlanis Unversal Data Converter UDC Version 2.3</a></li>				
+				<li><a href="http://arlanis.de/index.php?lang=en">arlanis Universal Data Converter UDC Version 2.3</a></li>				
 				<li><a href="http://www.soyatec.com/eface">eFace</a></li>				
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
