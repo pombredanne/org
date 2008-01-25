@@ -46,7 +46,7 @@ ob_start();
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
-				<li><a href="http://www.myeclipseide.com">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
+				<li><a href="http://www.polarion.com/products/alm/team.php">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
 				<li><a href="http://www.polarion.com/products/svn/fasttrack.php">Polarion FastTrack</a></li>				
 				<li><a href="http://www.protecode.com">Protecode</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
