@@ -41,15 +41,18 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.tibco.com/software/soa/activematrix_service_grid/default.jsp">ActiveMatrix Service Grid</a></li>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
 				<li><a href="http://www.soyatec.com/eface">eFace</a></li>				
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
+				<li><a href="http://www.myeclipseide.com">&lt;oXygen/&gt; XML Editor</a></li>				
 				<li><a href="http://www.polarion.com/products/alm/team.php">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
 				<li><a href="http://www.polarion.com/products/svn/fasttrack.php">Polarion FastTrack</a></li>				
 				<li><a href="http://www.protecode.com">Protecode</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
+				<li><a href="https://www.sdn.sap.com/irj/sdn/nwds">SAP Netweaver&reg; Developer Studio</a></li>
 				<li><a href="http://stan4j.com/">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.de/products_services/ttwb_intro.php">TTworkbench</a></li>					
 				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>
@@ -65,7 +68,8 @@ ob_start();
 				<li><a href="http://www.eclemma.org/">EclEmma</a></li>
 				<li><a href="http://eclipse-jutils.sourceforge.net">JUtils ToString Generator Plugin for Eclipse</a></li>
 				<li><a href="http://sourceforge.net/projects/modulipse/">Modulipse</a></li>
-				<li><a href="http://openrules.com">OpenRules</a></li>			
+				<li><a href="http://openrules.com">OpenRules&reg;</a></li>
+				<li><a href="http://springide.org">Spring IDE</a></li>			
 			</ul>
 		</div>
 		
@@ -87,11 +91,15 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
+				<li><a href="http://www.tibco.com/software/soa/default.jsp">ActiveMatrix Service Bus</a></li>
 				<li><a href="http://www.xjtek.com/anylogic/">AnyLogic</a></li>
+				<li><a href="http://www.bea.com/support/guardian/">BEA Guardian&trade;</a></li>
 				<li><a href="http://www.embarcadero.com/products/eastudio/index.html">EA/Studio</a></li>
 				<li><a href="http://www.guidancer.com">GUIdancer</a></li>
 				<li><a href="http://www.openmakesoftware.com">OpenMake Meister</a></li>
+				<li><a href="http://www.openmethods.com/products.php">openVXML</a></li>
 				<li><a href="http://www.poweredbypulse.com">Pulse</a></li>
+				<li><a href="http://www.sophoracms.com/">Sophora</a></li>				
 				<li><a href="http://www.xmind.org/us/">XMIND 2008</a></li>
 			</ul>
 		</div>
@@ -100,7 +108,8 @@ ob_start();
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
 				<li><a href="http://directory.apache.org/studio">Apache Directory Studio</a></li>	
-				<li><a href="http://www.escapek.org">EscapeK</a></li>	
+				<li><a href="http://www.escapek.org">EscapeK</a></li>
+				<li><a href="http://mytourbook.sourceforge.net/ ">MyTourbook</a></li>					
 				<li><a href="http://relations-rcp.sourceforge.net/">Relations</a></li>		
 			</ul>
 		</div>
