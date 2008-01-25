@@ -52,7 +52,7 @@ ob_start();
 				<li><a href="http://www.polarion.com/products/svn/fasttrack.php">Polarion FastTrack</a></li>				
 				<li><a href="http://www.protecode.com">Protecode</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
-				<li><a href="https://www.sdn.sap.com/irj/sdn/nwds">SAP Netweaver&reg; Developer Studio</a></li>
+				<li><a href="https://www.sdn.sap.com/irj/sdn/javaee5?rid=/webcontent/uuid/f0cf5ac0-1044-2a10-9a95-d7dbf7fd618e#section4">SAP Netweaver&reg; Developer Studio</a></li>
 				<li><a href="http://stan4j.com/">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.de/products_services/ttwb_intro.php">TTworkbench</a></li>					
 				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>
