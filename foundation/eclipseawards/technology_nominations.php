@@ -45,7 +45,7 @@ ob_start();
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
 				<li><a href="http://arlanis.de/index.php?lang=en">arlanis Universal Data Converter UDC Version 2.3</a></li>				
 				<li><a href="http://www.soyatec.com/eface">eFace</a></li>	
-				<li><a href="•	http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/workshop/">BEA Workshop for WebLogic 10.1</a></li>							
+				<li><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/workshop/">BEA Workshop for WebLogic 10.1</a></li>							
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.jboss.com/products/devstudio">JBoss Developer Studio</a></li>				
