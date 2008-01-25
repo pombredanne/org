@@ -46,12 +46,14 @@ ob_start();
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
+				<li><a href="http://www.myeclipseide.com">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
 				<li><a href="http://www.polarion.com/products/svn/fasttrack.php">Polarion FastTrack</a></li>				
 				<li><a href="http://www.protecode.com">Protecode</a></li>
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
 				<li><a href="http://stan4j.com/">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.de/products_services/ttwb_intro.php">TTworkbench</a></li>					
-				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>	
+				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>
+				<li><a href="http://www.windriver.com/products/development_suite/">Wind River Workbench</a></li>					
 				<li><a href="http://www.zend.com/en/products/studio/eclipse/">Zend Studio for Eclipse</a></li>
 			</ul>
 		</div>
