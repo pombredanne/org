@@ -43,9 +43,11 @@ ob_start();
 			<ul>
 				<li><a href="http://www.tibco.com/software/soa/activematrix_service_grid/default.jsp">ActiveMatrix Service Grid</a></li>
 				<li><a href="http://www.agilej.com">AgileJ StructureViews</a></li>
+				<li><a href="http://arlanis.de/index.php?lang=en">arlanis Unversal Data Converter UDC Version 2.3</a></li>				
 				<li><a href="http://www.soyatec.com/eface">eFace</a></li>				
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
+				<li><a href="http://www.jboss.com/products/devstudio">JBoss Developer Studio</a></li>				
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
 				<li><a href="http://www.oxygenxml.com">&lt;oXygen/&gt; XML Editor</a></li>				
 				<li><a href="http://www.polarion.com/products/alm/team.php">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
@@ -66,6 +68,7 @@ ob_start();
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
 				<li><a href="http://www.eclemma.org/">EclEmma</a></li>
+				<li><a href="www.jboss.org/tools">JBoss Tools</a></li>				
 				<li><a href="http://eclipse-jutils.sourceforge.net">JUtils ToString Generator Plugin for Eclipse</a></li>
 				<li><a href="http://sourceforge.net/projects/modulipse/">Modulipse</a></li>
 				<li><a href="http://openrules.com">OpenRules&reg;</a></li>
@@ -76,6 +79,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
+				<li><a href="http://www.birt-exchange.com/modules/products/index.php?productid=3 ">BusinessReport Studio</a></li>
 				<li><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a></li>
 				<li><a href="http://bea.com/framework.jsp?CNT=index.htm&FP=/content/products/weblogic/event_server/">WebLogic Event Server 2.0</a></li>
 			</ul>
