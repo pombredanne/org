@@ -65,14 +65,15 @@ POSSIBILITY OF SUCH DAMAGE.</p>
 			<h6>Purpose</h6>
 			Use of the Eclipse Distribution License by any project at the Eclipse Foundation must 
 			be reviewed and unanimously approved by the <a href="../foundation/directors.php">Board of Directors</a>.
-			<p>The Eclipse Distribution License is a variation of the New BSD template license.</p>
+			<p>The Eclipse Distribution License is an OSI Approved Open Source License by means of the 
+			<a href="http://www.opensource.org/licenses/bsd-license.php" target="blank">New BSD License</a>.</p>
 			<h6>Related Links</h6>
 			<ul>
 			<li>The standard Eclipse license is the <a href="epl-v10.php">Eclipse Public License</a>.</li>
 			<li><a href="edl-v10.html">EDL in plain HTML</a></li>
-			<li><a href="http://www.opensource.org/licenses/eclipse-1.0.php" target="blank">The EPL on OSI&rsquo;s site</a></li> 
+			<li><a href="http://www.opensource.org/licenses/bsd-license.php" target="blank">The New BSD template on OSI&rsquo;s site</a></li> 
 			</ul>
-			<p align="center"><a href="http://www.opensource.org/licenses/eclipse-1.0.php" target="blank"><img align="center" src="../../images/osi-certified-60x50.gif" border="0"/>&nbsp</a></p>
+			<p align="center"><a href="http://www.opensource.org/licenses/bsd-license.php" target="blank"><img align="center" src="../../images/osi-certified-60x50.gif" border="0"/>&nbsp</a></p>
 		</div>
 	</div>
 
