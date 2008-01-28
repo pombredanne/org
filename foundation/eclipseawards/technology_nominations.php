@@ -49,7 +49,10 @@ ob_start();
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.jboss.com/products/devstudio">JBoss Developer Studio</a></li>
-				<li><a href="http://www.codegear.com/products/jbuilder">JBuilder 2007</a></li>				
+				<li><a href="http://www.codegear.com/products/jbuilder">JBuilder 2007</a></li>
+				<li><a href="http://www.codegear.com/products/jgear">JGear LiveSource 2007</a></li>
+								<li><a href="http://www.codegear.com/products/jgear">JGear Performance 2007</a></li>				
+				<li><a href="http://www.codegear.com/products/jgear">JGear Team 2007</a></li>				
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
 				<li><a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">Nexaweb Studio</a></li>				
 				<li><a href="http://www.oxygenxml.com">&lt;oXygen/&gt; XML Editor</a></li>				
@@ -64,6 +67,7 @@ ob_start();
 				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>
 				<li><a href="http://www.windriver.com/products/development_suite/">Wind River Workbench</a></li>					
 				<li><a href="http://www.zend.com/en/products/studio/eclipse/">Zend Studio for Eclipse</a></li>
+				<li><a href="http://www.codegear.com/products/3rdrail">3rdRail 2007</a></li>				
 			</ul>
 		</div>
 				
