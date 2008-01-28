@@ -75,7 +75,7 @@
 		}
 		</script>
 		
-		<form method="POST" action="http://www.eclipse.org/projects/fragments/eclipseawards2008votemailer.php">
+		<form method="POST" action="http://www.eclipse.org/org/foundation/eclipseawards/eclipseawards2008votemailer.php">
 		
 		<h2>How Voting Works</h2>
 		<ol>
@@ -115,7 +115,10 @@
 		<table width="100%" border="0">
 		<?php
 		$vote1s = array( 
-		"Ed Merks"
+		"Ed Merks",
+		"Philippe Ombredanne",
+		"Jeff McAffer",
+		"Tim Barnes"
 		 );
 		shuffle( $vote1s );
 		$inc1 = floor((count($vote1s) + 1) / 2);
@@ -154,7 +157,8 @@
 		"Paul Webster",
 		"Mik Kersten",
 		"Chris Aniszczyk",
-		"David Williams"
+		"David Williams",
+		"Trip Gilman"
 		 );
 		shuffle( $vote2s );
 		$inc2 = floor((count($vote2s) + 1) / 2);
@@ -191,7 +195,6 @@
 		<table width="100%" border="0">
 		<?php
 		$vote3s = array(
-		"Tom Schindl",
 		"Remy Chi Jian Suen",
 		"Jacek Pospychala"
 		 );
