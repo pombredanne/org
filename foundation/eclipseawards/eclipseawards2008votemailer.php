@@ -45,6 +45,6 @@ Thank you for your vote.
   
   mail($MailDest, $MailSubject, $MailStr, "From: lynn.gayowski@eclipse.org\n");
 
-  header("Location: http://www.eclipsecon.org/2008/index.php?page=awardsvote/thankswait");
+  header("Location: http://www.eclipse.org/org/foundation/eclipseawards/thankswait.php");
 
 ?>
