@@ -43,7 +43,7 @@ ob_start();
 			Please check your email for the confirmation message and then click on the link
 			in that message to finalize your vote.
 		</p>
-		<center><img src="image/checkmark_2007.01.27.gif" border="0"></center>
+		<center><img src="/checkmark.jpg" border="0"></center>
 
 
 
