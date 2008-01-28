@@ -35,7 +35,7 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations for the Technology Awards.  Nominations close on January 25, 2008.
+			The following is a list of nominations for the Technology Awards.  Nominations closed on January 25, 2008.
 		</p>
 		
 		<div class="homeitem3col">
@@ -49,7 +49,7 @@ ob_start();
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
 				<li><a href="http://www.jboss.com/products/devstudio">JBoss Developer Studio</a></li>
-				<li><a href="http://www.codegear.com/products/3rdrail">JBuilder 2007</a></li>				
+				<li><a href="http://www.codegear.com/products/jbuilder">JBuilder 2007</a></li>				
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
 				<li><a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">Nexaweb Studio</a></li>				
 				<li><a href="http://www.oxygenxml.com">&lt;oXygen/&gt; XML Editor</a></li>				
