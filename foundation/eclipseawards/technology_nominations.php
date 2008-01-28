@@ -48,8 +48,10 @@ ob_start();
 				<li><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/workshop/">BEA Workshop for WebLogic 10.1</a></li>							
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE">Force.com IDE</a></li>
 				<li><a href="http://www.intalio.com/main/products/designer/">Intalio|BPMS</a></li>
-				<li><a href="http://www.jboss.com/products/devstudio">JBoss Developer Studio</a></li>				
+				<li><a href="http://www.jboss.com/products/devstudio">JBoss Developer Studio</a></li>
+				<li><a href="http://www.codegear.com/products/3rdrail">JBuilder 2007</a></li>				
 				<li><a href="http://www.myeclipseide.com">MyEclipse</a></li>
+				<li><a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">Nexaweb Studio</a></li>				
 				<li><a href="http://www.oxygenxml.com">&lt;oXygen/&gt; XML Editor</a></li>				
 				<li><a href="http://www.polarion.com/products/alm/team.php">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
 				<li><a href="http://www.polarion.com/products/svn/fasttrack.php">Polarion FastTrack</a></li>				
@@ -57,6 +59,7 @@ ob_start();
 				<li><a href="http://replaysolutions.com/technology/replay-director-java.php">ReplayDIRECTOR for Java EE</a></li>
 				<li><a href="https://www.sdn.sap.com/irj/sdn/javaee5?rid=/webcontent/uuid/f0cf5ac0-1044-2a10-9a95-d7dbf7fd618e#section4">SAP Netweaver&reg; Developer Studio</a></li>
 				<li><a href="http://stan4j.com/">STAN - Structure Analysis for Java</a></li>
+				<li><a href="http://www.teamprise.com/product/plugin_eclipse.html ">Teamprise Plug-in for Eclipse</a></li>				
 				<li><a href="http://www.testingtech.de/products_services/ttwb_intro.php">TTworkbench</a></li>					
 				<li><a href="http://www.instantiations.com/windowbuilder/">WindowBuilder Pro</a></li>
 				<li><a href="http://www.windriver.com/products/development_suite/">Wind River Workbench</a></li>					
@@ -69,7 +72,7 @@ ob_start();
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>
 				<li><a href="http://www.eclemma.org/">EclEmma</a></li>
-				<li><a href="www.jboss.org/tools">JBoss Tools</a></li>				
+				<li><a href="http://www.jboss.org/tools">JBoss Tools</a></li>				
 				<li><a href="http://eclipse-jutils.sourceforge.net">JUtils ToString Generator Plugin for Eclipse</a></li>
 				<li><a href="http://sourceforge.net/projects/modulipse/">Modulipse</a></li>
 				<li><a href="http://openrules.com">OpenRules&reg;</a></li>
@@ -83,6 +86,7 @@ ob_start();
 				<li><a href="http://www.birt-exchange.com/modules/products/index.php?productid=3 ">BusinessReport Studio</a></li>
 				<li><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a></li>
 				<li><a href="http://bea.com/framework.jsp?CNT=index.htm&FP=/content/products/weblogic/event_server/">WebLogic Event Server 2.0</a></li>
+				<li><a href="http://www.innoopract.com/en/products/yoxos-eclipse-distros/yoxos-enterprise.html">Yoxos Enterprise</a></li>
 			</ul>
 		</div>
 		
@@ -99,12 +103,15 @@ ob_start();
 				<li><a href="http://www.tibco.com/software/soa/default.jsp">ActiveMatrix Service Bus</a></li>
 				<li><a href="http://www.xjtek.com/anylogic/">AnyLogic</a></li>
 				<li><a href="http://www.bea.com/support/guardian/">BEA Guardian&trade;</a></li>
+				<li><a href="http://www.bea.com/jrockit">BEA JRockit Mission Control</a></li>				
 				<li><a href="http://www.embarcadero.com/products/eastudio/index.html">EA/Studio</a></li>
 				<li><a href="http://www.guidancer.com">GUIdancer</a></li>
+				<li><a href="http://www.ibm.com/software/lotus/products/expeditor/">IBM Lotus&reg; Expeditor Software</a></li>				
 				<li><a href="http://www.openmakesoftware.com">OpenMake Meister</a></li>
 				<li><a href="http://www.openmethods.com/products.php">openVXML</a></li>
 				<li><a href="http://www.poweredbypulse.com">Pulse</a></li>
-				<li><a href="http://www.sophoracms.com/">Sophora</a></li>				
+				<li><a href="http://www.sophoracms.com/">Sophora</a></li>
+				<li><a href="http://tasktop.com/">Tasktop</a></li>								
 				<li><a href="http://www.xmind.org/us/">XMIND 2008</a></li>
 			</ul>
 		</div>
