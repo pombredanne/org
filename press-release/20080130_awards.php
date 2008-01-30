@@ -60,11 +60,11 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="index.php">Awards Categories</a></li>
-				<li><a href="technology_nominations.php">Current Technology Nominations</a></li>
-				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
-				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
-				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Awards Categories</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_nominations.php">Current Technology Nominations</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/awards_nominations.php">How to Make a Nomination</a></li>
 			</ul>
 		</div>
 	
