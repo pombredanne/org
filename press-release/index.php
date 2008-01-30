@@ -50,7 +50,7 @@ ob_start();
 		<li><a href="20071016_EclipseConCFP.php">Submit a Talk or Tutorial for EclipseCon 2008</a> - October 16th, 2007</li>
 		<li><a href="20071015_raprelease.php">Eclipse Releases First Ajax Platform Based on OSGi</a> - October 15th, 2007</li>
 		<li><a href="20071009eclpseworld_party.php">Eclipse Foundation Party at Eclipse World</a> - October 9th, 2007</li>
-		<li><a href="20070912_pdtrelease.php">Eclipse Announces New Tools for PHP Developers</a> - September 18th, 2007</li>
+		<li><a href="20070918_pdtrelease.php">Eclipse Announces New Tools for PHP Developers</a> - September 18th, 2007</li>
 		<li><a href="20070830_ESEearlyreg.php">ESE Early Registration Deadline is Thursday, September 6</a> - August 30th, 2007</li>
 		<li><a href="20070827_RCPregistration.php">Early Discount for RCP Training Ends Friday, August 31</a> - August 27th, 2007</li>
 		<li><a href="20070815_EclipseSurvey.php">Eclipse Community Survey Opens</a> - August 15th, 2007</li>
@@ -58,9 +58,9 @@ ob_start();
 		<li><a href="20070719_ESEregopen.php">Eclipse Summit Europe Registration Opens</a> - July 19th, 2007</li>
 		<li><a href="20070627_europarelease.php">Eclipse Ships Largest-Ever Release of Leading Open Source Software Development Platform</a> - June 27th 2007</li>				
 		<li><a href="20070627_europarelease.php">Eclipse liefert den bisher größten Release der führenden Open Source Software-Entwicklungsplattform aus</a> - June 27th 2007</li>
-		<li><a href="20070619_cbsummitasia">Community Bulletin: OS Summit Asia</a> - June 19th 2007</li>
+		<li><a href="20070619_cbsummitasia.php">Community Bulletin: OS Summit Asia</a> - June 19th 2007</li>
 		<li><a href="20070612cb_europareviews.php">Write a Review, Win an Eclipse Shirt</a> - June 13th 2007</li>		
-		<li><a href="20070529cb_cbsummitcall.php">Eclipse Summit Europe Call for Participation - Talks & Demo</a> - May 29th 2007</li>
+		<li><a href="20070529_cbsummitcall.php">Eclipse Summit Europe Call for Participation - Talks & Demo</a> - May 29th 2007</li>
 		<li><a href="20070420cb_eclipseparty.php">Eclipse Party at JavaOne</a> - April 20th 2007</li>
 		<li><a href="20070403embedded.php">New Project Releases Continue to Drive Adoption of Eclipse in the Embedded and Device Development Community</a> - April 3rd 2007</li>
 		<li><a href="20070306eclipseajax.php">Eclipse Foundation Announces Initiatives for Ajax Applications and Dynamic Languages</a> - March 6th 2007</li>
@@ -72,7 +72,7 @@ ob_start();
 		<li><a href="20070129_higgins.php">Bandit and Higgins Projects Bridge Multiple Identity Systems to Provide a Consistent Experience of Identity</a> - January 29th 2007</li>
 		<li><a href="20070123_dtprelease.php">Eclipse Foundation Launches Data Tools Platform 1.0</a> - January 23rd, 2007</li>
 		<li><a href="20070122_eclipsecongold.php">Gold Sponsors Announced for EclipseCon 2007</a> - January 22nd, 2007</li>
-		<li><a href="20070117cb_trainingsurvey.php">Results of Eclipse Training Survey Released</a> - January 17th, 2007</li>
+		<li><a href="20070108cb_trainingsurvey.php">Results of Eclipse Training Survey Released</a> - January 17th, 2007</li>
 		<li><a href="20070112_industryspecs.php">Eclipse Foundation joins Three Industry Specifications Groups</a> - January 12th, 2007</li>
 		<li><a href="20070108cb_webinar.php">2007 Eclipse Webinar Series Kickoff</a> - January 8th, 2007</li>
 		</ul>
