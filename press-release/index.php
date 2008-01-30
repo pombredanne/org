@@ -36,6 +36,11 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20080130_awards.php">Voting for the Individual Eclipse Community Awards is Open</a> - January 30th, 2008</li>
+		<li><a href="20080124_cbganymede.php">Ganymede M4 Packages Now Available for Testing</a> - January 24th, 2008</li>
+		<li><a href="20080122_eclipsecongold.php">EclipseCon 2008 Attracts Eleven Industry-Leading Companies as Gold Sponsors</a> - January 22nd, 2008</li>
+		<li><a href="20071219_omgsymposium.php">Eclipse &amp; OMG Symposium - Call for Contributions</a> - December 19th, 2007</li>
+		<li><a href="20071214_awards.php">Nominations for the Eclipse Community Awards 2008 are Open</a> - December 14th, 2007</li>
 		<li><a href="20071213_eclipsecon_program.php">The EclipseCon 2008 Technical Program Rocks!</a> - December 13th, 2007</li>
 		<li><a href="20071106_cbsurvey.php">Donate to Eclipse</a> - December 3rd, 2007</li>
 		<li><a href="20071106_cbsurvey.php">Results of the Eclipse Community Survey</a> - November 6th, 2007</li>
