@@ -138,7 +138,6 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-			<ul>
 				<li><a href="index.php">Awards Categories</a></li>
 				<li><a href="http://www.eclipse.org/org/press-release/20080130_awards.php">Vote for the Individual Awards</a></li>			
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
