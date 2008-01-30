@@ -28,7 +28,7 @@
 	
 		<p>Nominations for the Eclipse Community Awards in the individual category are complete and <a href="http://eclipse.org/go/awardsvote08"
 		target="blank">voting</a> has opened for the nominees.  Congratulations to all the worthy candidates!  Show your
-		appreciation to the people that have made Eclipse a stronger community by casting your vote.  The nominees are:<br><br>
+		appreciation to the people that have made Eclipse a stronger community by casting your vote.  The nominees are:
 		<ul>
 			<li><b>Top Ambassador</b>: Tim Barnes, Jeff McAffer, Ed Merks and Philippe Ombredanne</li>
 			<li><b>Top Committer</b>: Chris Aniszczyk, Nick Boldt, Trip Gilman, Mik Kersten, Paul Webster and David Williams</li>
@@ -47,7 +47,7 @@
 
 		<p>More details about the awards and the nomination process can be found
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">online</a>.	 Voting for the Eclipse Community
-		Awards will be open until February 21, 2008 at 5:00pm EST and the winner will be announced March 17, 2008 at
+		Awards will be open until <b>February 21, 2008 at 5:00pm EST</b> and the winner will be announced March 17, 2008 at
 		<a href="http://www.eclipsecon.org" target="blank">EclipseCon.</a></p>
 		
 		<p><b><a href="http://eclipse.org/go/awardsvote08" target="blank">VOTE TODAY</a>!</b></p>
