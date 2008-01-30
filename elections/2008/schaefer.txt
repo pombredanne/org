@@ -1,0 +1,65 @@
+<boardmember id="dschaefer" type="committer">
+
+	<name>Doug Schaefer</name>
+
+	<title>Engineering Manager and Eclipse CDT Project Lead</title>
+
+	<image>doug.jpg</image>
+
+	<email>doug.schaefer@windriver.com</email>
+
+	<phone>+1 613-270-2275</phone>
+
+	<contact> <![CDATA[
+		Wind River Systems
+		350 Terry Fox Drive, Suite 200
+		Kanata, Ontario, Canada
+		K2K 2W5
+	]]> </contact>
+
+	<eclipse_affiliation> <![CDATA[
+		CDT Project Lead and Committer
+		Tools PMC Member
+		Architecture Council Member
+		EclipseCon 2007, 2008 Program Committee Member
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		<p>I guess my blog, http://cdtdoug.blogspot.com, has a good record of my vision for Eclipse.
+		My main objective on the board is to work to ensure that Eclipse has the right tools and environment that enable committers to be successful.
+		There are a lot of good committers with good ideas and needs specific to their market places and a lot of them are frustrated trying to get their voice heard.
+		The board needs to have enforcable guidelines to ensure that projects are open and diverse and that Eclipse can continue to grow architecturally to be successful in new markets while ensuring stability and quality that users demand.<p>
+
+		<p>I continue to be a proponent of third party organizations that provide development services to the Eclipse community.
+		There are a number of vendors and users who have jobs large and small but who are struggling finding the right experts to satisfy those needs.
+		The board has an opportunity to provide the right tools to help bring suppliers and consumers of Eclipse-based services together.</p>
+
+		<p>I also continue with me my desire to host complete free solutions on the Eclipse servers.
+		We have seen to date over 4000 downloads of the combined EPL/GPL/LGPL licensed Wascana Desktop developer aimed at grassroots C++ developers looking for alternative IDE and SDKs for Windows development.
+		Meeting the needs of the grassroots helps ensure the future growth of Eclipse and the demand for Eclipse based products.
+		I am very interested in finding a solution that enables projects like this to be hosted and branded as Eclipse projects despite non EPL compliant licensing of some of their components.</p>
+
+		<p>Finally, working in the embedded software industry, we've seen the success of Eclipse happen there almost by accident.
+		Yet there are still face many questions as to the value that Eclipse provides both users and vendors in this space.
+		Some of the issues are architectural as I've eluded to above.
+		But I would also like to see the board provide the Foundation sufficient resources to evangelize the values of Eclipse into this market.</p>
+	]]> </vision>
+
+	<bio> <![CDATA[
+		<p>Doug is a graduate of the University of Saskatchewan where his passion for software development tools began.
+		He spend 6 years developing embedded software in the telecom industry before joining ObjecTime before ObjectTime joined Rational which later joined IBM.
+		There he worked on code generation tools and software modeling tools for the embedded market.
+		Doug's involvement in Eclipse began with the birth of the Eclipse CDT project in 2002.
+		He led IBM Rational's team that contributed to the CDT in those early days and drove the technical vision that resulted in CDT's successful source indexing strategy.
+		In 2005 he switched employers and became CDT's project lead, a position he still holds today now at Wind River.
+		Doug is also now the engineering manager for Wind River's install and licensing technology team.
+	]]> </bio>
+
+
+	<affiliation> <![CDATA[ 
+		<a href="http://www.windriver.com">Wind River Systems</a>,
+		<a href="http://wascana.sourceforge.net">Wascana Desktop Developer</a>
+	]]>
+	</affiliation>
+
+</boardmember>
