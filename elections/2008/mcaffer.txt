@@ -1,20 +1,33 @@
+<boardmember id="mcaffer" type="committer">
 <type> committer </type>
 
 	<name> Jeff McAffer </name>
 
 	<title> Equinox, Orbit and RCP team lead </title>
 
-	<image> leave this bkank, but don't forget to send us a picture! </image>
+	<image> mcaffer.jpg </image>
 
 	<email> jeff@code9.com</email>
 
-	<phone> +1 613 791 5252</phone>
+	<phone> (+1) 613-791-5252</phone>
 
-	<contact> 1203 Lampman Cr. Ottawa Ontario K2C 1P9</contact>
+	<contact> <![CDATA[
+	1203 Lampman Cr. <br>
+	Ottawa Ontario K2C 1P9<br>
+	Canada
+	]]> </contact>
 
-	<eclipse_affiliation> <a href="http://eclipse.org/equinox">Equinox</a>, <a href="http://eclipse.org/orbit">Orbit</a> and <a href="http://eclipse.org/rcp">RCP</a> lead, Eclipse project and Tools project PMC member, Architecture Council member, Eclipse Foundation Board of Directors Committer representative (2006-2007) </eclipse_affiliation>
+	<eclipse_affiliation>
+	<![CDATA[ 
+	<a href="http://eclipse.org/equinox">Equinox</a><br>
+	<a href="http://eclipse.org/orbit">Orbit</a><br>
+	<a href="http://eclipse.org/rcp">RCP</a> lead<br>
+	Eclipse project and Tools project PMC member<br>
+	Architecture Council member<br>
+	Eclipse Foundation Board of Directors Committer representative (2006-2007) 
+	]]> </eclipse_affiliation>
 
-	<vision> 
+	<vision> <![CDATA[
 <p>
 Once again the last year saw Eclipse exceed all expectations in terms of adoption, penetration and community growth and there is no sign of slowing.  The year was similarly expansive for the Eclipse Board.  We tackled many complex issues from parallel IP to the use of third party tools and infrastructure in the community to member contributions and membership value.  Together the committer representatives lobbied hard to raise and address the issues that affect the committer/contributor community and we've been very successful.  
 </p>
@@ -49,9 +62,9 @@ Over the past 9 years of Eclipse involvement I've had the pleasure of starting s
 </p>
 
 
-	</vision>
+	]]> </vision>
 
-	<bio> 
+	<bio> <![CDATA[
 Jeff McAffer leads the Eclipse <a href="http://eclipse.org/equinox
 ">Equinox OSGi</a>, <a href="http://eclipse.org/rcp">RCP</a> and <a 
 href="http://eclipse.org/orbit">Orbit</a> teams and is the founder of <a 
@@ -68,10 +81,12 @@ a Senior Technical Staff Member at IBM, work in
 distributed/parallel OO computing (Server Smalltalk, massively parallel 
 Smalltalk, etc) as well as expert systems, meta-level architectures and a 
 PhD at the University of Tokyo.
-	</bio>
+	]]> </bio>
 
-	<affiliation> <a href="http://code9.com">Code 9</a>, OSGi Core Platform Expert Group member
-	</affiliation>
+	<affiliation> <![CDATA[
+	<a href="http://code9.com">Code 9</a><br>
+	OSGi Core Platform Expert Group member
+	]]> </affiliation>
 
 		
 </boardmember>
