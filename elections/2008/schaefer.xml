@@ -1,27 +1,27 @@
-<boardmember id="dschaefer" type="committer">
+<boardmember id="schaefer" type="committer">
 
 	<name>Doug Schaefer</name>
 
 	<title>Engineering Manager and Eclipse CDT Project Lead</title>
 
-	<image>doug.jpg</image>
+	<image>schaefer.jpg</image>
 
 	<email>doug.schaefer@windriver.com</email>
 
-	<phone>+1 613-270-2275</phone>
+	<phone>(+1) 613-270-2275</phone>
 
 	<contact> <![CDATA[
-		Wind River Systems
-		350 Terry Fox Drive, Suite 200
-		Kanata, Ontario, Canada
-		K2K 2W5
+		Wind River Systems<br>
+		350 Terry Fox Drive, Suite 200<br>
+		Kanata, ON K2K 2W5<br>
+		Canada
 	]]> </contact>
 
 	<eclipse_affiliation> <![CDATA[
-		CDT Project Lead and Committer
-		Tools PMC Member
-		Architecture Council Member
-		EclipseCon 2007, 2008 Program Committee Member
+		CDT Project Lead and Committer<br>
+		Tools PMC Member<br>
+		Architecture Council Member<br>
+		EclipseCon 2007, 2008 Program Committee Member<br>
 	]]> </eclipse_affiliation>
 
 	<vision>  <![CDATA[

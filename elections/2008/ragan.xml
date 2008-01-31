@@ -1,0 +1,63 @@
+<boardmember id="ragan" type="addin">
+
+	<name>Tracy Ragan</name>
+
+	<title>Chief Operating Officer</title>
+
+	<image>ragan.jpg</image>
+
+	<email>tracy.ragan@openmakesoftware.com</email>
+
+	<phone>505-424-6440</phone>
+
+	<contact> <![CDATA[
+Openmake Software<br>
+213 W. Institute Place #404<br>
+Chicago, IL 60010<br>
+www.openmakesoftware.com ]]> </contact>
+
+	<eclipse_affiliation> <![CDATA[
+	Involvement with Eclipse has become a substantial part of my background and experience. I have
+	been involved with Eclipse in some capacity since 2002 when  I started hearing about the "Eclipse Project". At
+	that time,  I took a closer look at Eclipse and was immediately surprised by what I found, an open source effort 
+	focused around a common IDE platform. By the end of 2002, I had become a "founding steward" of this new
+	and exciting community.  I've watched the Eclipse organization grow and change, always adding my "2 cents" along the way.<br>
+	  
+	<p>During 2007 I have had the pleasure of serving on the Eclipse board representing the Eclipse Eco-system of
+	 Add-in Providers.  It is my belief that the Add-in Provider community is and will continue to be the core of 
+	 Eclipse.  Even though our strategic members our important, it is the Add-in providers who bring a well rounded commercial 
+	 market based on the Eclipse technology.</p>
+
+	<vision> <![CDATA[
+    <p>Involvement from Add-in Provider companies is a critical component of the overall success of 
+    Eclipse.  Some Add-in Providers have learned how to stay involved even as Eclipse has grown.  I 
+    believe there are many more Add-in Providers who want to be active, not passive, members of 
+    Eclipse but simply don't know how. Add-in Providers need to be better organized so that they can 
+    more easily see how to get involved.  In addition, Add-in providers need to be recognized as a 
+    core pillar of Eclipse.  This can be done through better recognition programs for active Add-in 
+    Providers and an increased focus on Add-in Providers through Public Relations contacts.  Add-in 
+    Provider contribution is important.  What we don't want is for the Eclipse organization to evolve 
+    to a place where Add-in Providers simply serve as an audience to the Strategic Members.  We are 
+    the "members at large" and represent one of the core pillars of this organization.</p>
+       		
+	]]> </vision>
+
+	<bio> <![CDATA[
+	<p>I  have served as both CEO and COO for OpenMake Software since 1995.  I started my IT career as a 
+	mainframe programmer in the mid 1980s and moved into C programming mainly in OS/2 PM by the late 1980s.  I worked 
+	as an independent consultant for 8 years before forming OpenMake Software with my partner Steve Taylor.  Since that 
+	time we have created the now emerging market of enterprise build management tools with Openmake Meister the leader and 
+	most complete solution available.  We have done this without any level of VC funding by letting our superior 
+	software fund itself.  The experience of growing OpenMake Software will be extremely valuable when is comes to 
+	serving as a member of the Eclipse Board.  </p>
+	]]> </bio>
+
+	<affiliation> <![CDATA[
+	<p>OpenMake Software is the leading vendor of Enterprise Build Management Solutions.  OpenMake Meister, our 
+	flagship product, was launched in June of 1995.  Since that time OpenMake Software has revolutionized 
+	the way developers manage their build process by mashing up the individual developer's IDE builds with 
+	the team build executed outside of the IDE. OpenMake Software enjoys close partnerships with other Eclipse 
+	Members such as Serena Software, Computer Associates, MKS Inc., and IBM.</p>
+	]]> </affiliation>
+		
+</boardmember>

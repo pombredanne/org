@@ -1,0 +1,78 @@
+
+<boardmember id="gaff" type="committer">
+
+	<name>Doug Gaff</name>
+
+	<title>Senior Manager, Wind River Systems</title>
+
+	<image>gaff.jpg</image>
+
+	<email>doug.gaff@windriver.com</email>
+
+	<phone>781-364-2295</phone>
+
+	<contact>
+		<![CDATA[
+		Wind River Systems<br>
+		350 Terry Fox Drive, Suite 200<br>
+		Kanata, ON K2K 2W5<br>
+		Canada
+		]]>
+	</contact>
+
+	<eclipse_affiliation>
+		<![CDATA[
+		<ul>
+		<li>DSDP PMC Lead</li>
+		<li>EclipseCon 2008 Program Committee Chair/li>
+		<li>Requirements and Architecture Council/li>
+		<li>Project Mentor/li>
+		<li>IP Process Working Group/li>
+		</ul>
+		]]>
+	</eclipse_affiliation>
+
+	<vision> 
+		<![CDATA[
+		<p>Eclipse is growing: projects, committers, code base, and ecosystem. Included in that growth is an ever-enlarging 
+		Board of Directors. The Board has become diverse enough that Eclipse must now have multiple distinct strategies for 
+		continued relevance in both the open source and commercial venues. The Board seems to be struggling to respond to this 
+		reality, and there's never been a better time to get involved!</p>
+		
+		<p>My vision for Eclipse and my role on the Board break down into two facets:</p>
+	<ul>
+	<li>Responding to Growth</li>
+		<ul>
+		<li>Focus on Technical Verticals that move beyond the Enterprise.<li>
+		<li>Recruiting companies to sponsor projects rather than\'a0 just use them.<li>
+		<li>Focus on streamlining the Development IP Due Diligence processes.<li>
+		</ul>
+	<li>Defining the Role of the Board<li>
+		<ul>
+		<li>Ensure the committer and user community needs are represented and perceived as relevant.<li>
+		<li>Facilitate discussions about the balance between doing good for the user community and doing good for commercial adopters.<li>
+		<li>Increase the role of the Board and Foundation in describing and evangelizing Eclipse-based commercial business models.<li>
+		</ul>
+ 	</ul>
+		]]>	
+	</vision>
+
+	<bio> 
+		<![CDATA[
+		<p>In his open source life, Doug Gaff is the PMC Lead for the Device Software Development Platform (DSDP) - an Eclipse project 
+		focused on building an extensible, standards-based platform to address a broad range of needs in the embedded and mobile 
+		software development space. Doug is also the Technical Program Chair for EclipseCon 08. In his commercial life, Doug is a 
+		Senior Engineering Manager on Wind River's commercial Eclipse-based product, Wind River Workbench. He is responsible for 
+		Eclipse open source contributions and adoption of Eclipse technology commercially. Doug has 13 years of embedded software 
+		development experience and holds a Bachelors and Masters in Electrical Engineering.</p>	 
+		]]>
+	</bio>
+
+	<affiliation> 
+		<![CDATA[
+		Wind River Systems
+		]]>
+	</affiliation>
+
+		
+</boardmember>

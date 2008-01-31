@@ -1,0 +1,72 @@
+<boardmember id="taylor" type="addin">
+
+<name> Mike Taylor </name>
+
+<title> President/CEO Instantiations </title>
+
+<image>taylor.jpg</image>
+
+<email> mike_taylor@instantiations.com </email>
+
+<phone> 503-598-4911 </phone>
+
+<contact> <![CDATA[<p><a 
+href="http://www.instantiations.com/show/taylor/mike.html">Click here to 
+learn more about Mike</a>.</p>]]> </contact>
+
+<eclipse_affiliation> <![CDATA[As one of your current Add-in Provider 
+(AIP) Board members I've strongly supported the interests of our 
+community for the past two years and would be honored to represent you again in 
+2008. 2007 was a very active year in the Eclipse Community and on the board. I won't bore you with details (if you want to read the board meeting minutes check out http://www.eclipse.org/org/foundation/minutes.php) but will say that I was a strong advocate for our AIP community. During the year I lead Eclipse Market Research and the Advertising Working Groups, both important to the continued success of Eclipse. My team and I at Instantiations supported many Eclipse-related activities in 2007 including EclipseCon, open source projects, demo camps, webinars, committees and more. We're all very involved and committed to the success of the technology and the community. Instantiations has made the Eclipse platform the core of its strategy and is <i> all Eclipse all the time.</i> 
+]]></eclipse_affiliation>
+
+<vision> <![CDATA[<p>My vision for 2008 is to:</p><ul>
+<li>continue to show up, speak up, and stand up for the interests of AIP members 
+at Eclipse Board meetings during 2008.</li>
+<li>Continue to increase ROI for Add-in Provider membership in the 
+Eclipse Foundation.</li>
+<li>Make Eclipse a powerful "profitability platform" for Add-in providers.</li>
+<li>...and of course, to assure that Eclipse technology remains the 
+best on the planet!</li>
+</ul>]]> </vision>
+
+<bio> <![CDATA[<ul>
+<li>I lead Instantiations, a company strategically committed to 
+Eclipse. Instantiations is a founding member of the Eclipse 
+Foundation, has led Eclipse open source projects, contributed code, 
+and is involved in numerous Eclipse-focused committees and community 
+activities.<li>
+
+<li>Since 1999 my professional priorities have been, and 
+continue to be, building open source and commercial technologies, 
+establishing a profitable Eclipse-based company, and growing the 
+Eclipse community. </li>
+
+<li>Chair of Eclipse Market Research Working Group (2006, 2007).</li>
+<li>Chair of the Eclipse Advertising Working Group (2007)
+<li>Chair of the Eclipse Training Working Group (2006).</li>
+<li>Member of EclipseCon 2006 Program Committee.</li>
+<li>Deeply involved in Eclipse technology and ecosystem since 1999.</li>
+<li>Former Member of Eclipse Consortium Board of Stewards.</li>
+<li>Chair of the Eclipse Marketing Committee from 2002 to 2005.</li>
+<li>Led project to establish Eclipse brand and logos.</li>
+<li>Member of Eclipse Governance Committee (that designed and formed 
+the Eclipse Foundation).</li>
+<li>Founding member of <a 
+href="http://www.eclipseplugincentral.com">EPIC</a>, a leading 
+Eclipse portal.</li>
+<li>Over 25 years of experience in the software industry.</li>
+</ul>]]> </bio>
+
+<affiliation> <![CDATA[<ul>
+<li>Instantiations, Inc, provider of WindowBuilder, RCP 
+Developer, CodePro AnalytiX, CodePro Profiler, WindowTester and GWT Designer. Instantiations is a 
+technology company totally focused on Eclipse. Instantiations has led 
+and contributed to several Eclipse open source projects and is deeply 
+involved in the Eclipse community.</li>
+<li>Founding member of the <a 
+href="http://www.eclipseplugincentral.com">Eclipse 
+Plugin Central Alliance</a>.</li>
+</ul>]]> </affiliation>
+
+</boardmember>

@@ -5,7 +5,7 @@
 
 	<title>Vice President - Technology</title>
 
-	<image>attached to email</image>
+	<image>williams.jpg</image>
 
 	<email>todd.williams@genuitec.com </email>
 
@@ -43,26 +43,27 @@
 
 	<vision> 
 		<![CDATA[
-		    Executive Summary
-		
-		    * Emphasize the requirements of the add-in provider community over other ecosystem participants
-		    * Advocate the commercial interests of add-in providers so Eclipse continues to be a sound investment
-		    * Provide time to adjust to innovations by promoting managed, predictable development cycles
-		    * Protect add-in provider value by emphasizing flexible, extensible frameworks over commercially competitive tools
-		    * Promote the expansion of Eclipse into new and emerging market segments to engender new business opportunities
+		    <p>Executive Summary</p>
+			<ul>
+		    <li>Emphasize the requirements of the add-in provider community over other ecosystem participants</li>
+		    <li>Advocate the commercial interests of add-in providers so Eclipse continues to be a sound investment</li>
+		    <li>Provide time to adjust to innovations by promoting managed, predictable development cycles</li>
+		    <li>Protect add-in provider value by emphasizing flexible, extensible frameworks over commercially competitive tools</li>
+		    <li>Promote the expansion of Eclipse into new and emerging market segments to engender new business opportunities</li>
+		    </ul>
 	
-		    The success of Eclipse stems from the unique, managed balance between the needs of its three diverse communities: the committers,
+		    <p>The success of Eclipse stems from the unique, managed balance between the needs of its three diverse communities: the committers,
 		    the add-in providers, and the end users. To gain critical mass, Eclipse began by catering to the needs of the end users. But, now that there are 
 		    hundreds of products in the add-in ecosystem and an explosion of interest in the rich client platform, the makeup of the Eclipse community is 
 		    rapidly changing and its needs will continue to change.
 	
-		    As Eclipse evolves, we must continue to delicately adjust our focus to maintain our community synergy. 
+		    <p>As Eclipse evolves, we must continue to delicately adjust our focus to maintain our community synergy. 
 	        For example, if we were to cater to the desires of the end users too heavily, 
 		    we could actually remove the incentive to becoming an add-in provider or adopting Eclipse as a platform entirely. 
 	        Since the initial investment required to build and market a product is so large, commercial product investment would simply be seen as too 
 		    risky given that our target markets would quickly be commoditized by our own platform.
 
-	        To prevent this self-commoditization, we must proactively manage the pace, transparency, and 
+	        <p>To prevent this self-commoditization, we must proactively manage the pace, transparency, and 
 		    predictability of our innovations in order to give our members time to adjust their business models appropriately. 
 		    However, to remain viable for any of us in the long-term, we must also continue to increase our efforts around creating 
 		    commercial opportunity for our members while we foster innovation within the projects, both of which will ensure that 

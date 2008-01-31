@@ -1,0 +1,76 @@
+
+<boardmember id="mcgrattan" type="addin">
+
+	<name>Emma McGrattan</name>
+
+	<title>SVP Engineering</title>
+
+	<image>mcgrattan.jpg</image>
+
+	<email>emma.mcgrattan@ingres.com</email>
+
+	<phone>(+1) 631-704-2932</phone>
+
+	<contact>
+	Ingres Corporation<br>
+	2950 Express Drive South, Suite 106<br>
+	Islandia, NY 11749-1412
+		<![CDATA[
+		
+		]]>
+	</contact>
+
+	<eclipse_affiliation>
+		<![CDATA[
+	Member Company Representative for Ingres	
+		]]>
+	</eclipse_affiliation>
+
+	<vision> 
+		<![CDATA[
+		 <p>My vision for Eclipse in 2008 is to raise the level of awareness senior IT managment. A recent study by Forrester and 
+		 1105 Media clearly indicates that Eclipse is enjoying much wider adoption in IT groups of all sizes than Senior IT management 
+		 is aware of, and it's time to educate these folks on the benefits that the adoption of Eclipse brings to the table.
+		In much the same way that Linux entered the enterprise through the mavericks in IT and was later embraced by management 
+		through the concerted efforts of companies like Red Hat, it's time for the Eclipse member companies to step up
+		the evangelist role with the IT decision makers and educate them on the productivity and cost benefits that their companies 
+		are either already enjoying, or could enjoy.</p>
+		
+		<p>I would also like to see a broader adoption of Eclipse outside of North America. Ingres has traditionally enjoyed a significant 
+		presence in Europe, South America and the Pacific Rim, areas in which Eclipse adoption is low, and I would like to brainstorm 
+		with other member companies with a footprint in these geographies to firstly understand their thoughts as to why they haven't yet 
+		woken up to Eclipse, and secondly to find ways to raise awareness and adoption.</p>
+		
+		<p>Last year it was my pleasure to introduce the Eclipse community to the Sony Playstation 3 as a platform for Eclipse deployment, 
+		and while this was done as a promotional gimmick, I'm looking forward to getting Eclipse onto the Nintendo Wii in 2008 and 
+		finding innovative and fun ways to make use of the various Wii controllers with Eclipse.</p>
+		]]>	
+	</vision>
+
+	<bio> 
+		<![CDATA[
+		<p>Emma is the SVP of Engineering responsible for the Emerging Technologies Team at Ingres. Since its formation in 2006, the Ingres
+		 Emerging Technologies Team has been responible for a number of leading edge projects including the Icebreaker family of
+		 software appliances, the Ingres Eclipse DTP plug-in, improved usability, and most notoriously for using the Sony
+		 Playstation 3 as the demonstration platform of choice for Ingres and Eclipse at a number of trade-shows. A leading authority in
+		 DBMS technologies, Emma has been instrumental in the ongoing success of the Ingres product line, and is a popular speaker
+		 at industry events world-wide.</p>
+
+		<p>Emma joined Ingres as senior vice president of Engineering from CA where she was responsible for the development, 
+		maintenance and QA of the Ingres family of products.\ Emma started her career with Ingres in 1992 as a desktop porting 
+		engineering, and since then has held a variety of senior development and management positions. Never happier than when
+		she is up to her elbows in code, Emma is also responsible for Ingres community engagement.</p>
+		
+		<p>Born in Ireland, Emma earned a bachelor's degree in electronic engineering from Dublin City University.
+		Never at a loss for words, please see Emma's blog, <a href="http://blogs.ingres.com/emmamcgrattan/">"The View from 25B</a>."</p>
+		]]>
+	</bio>
+
+	<affiliation> 
+		<![CDATA[
+		Ingres Corporation	
+		]]>
+	</affiliation>
+
+		
+</boardmember>
