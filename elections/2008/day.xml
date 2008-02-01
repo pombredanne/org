@@ -1,0 +1,91 @@
+
+<boardmember id="day" type="addin">
+
+	<name>Robert Day</name>
+
+	<title>VP Marketing</title>
+
+	<image>day.jpg</image>
+
+	<email>rday@lnxw.com</email>
+
+	<phone>(+1) 408-979-3900</phone>
+
+	<contact>
+		<![CDATA[
+		LynuxWorks<br>
+		855 Embedded Way<br>
+		San Jose CA 95138<br>
+		USA
+		]]>
+	</contact>
+
+	<eclipse_affiliation>
+		<![CDATA[
+		LynuxWorks, Add-in Provider<br>
+		Chairman, Eclipse embedded workgroup
+		]]>
+	</eclipse_affiliation>
+
+	<vision> 
+		<![CDATA[
+		<p>I believe that a common technology can unite many different worlds, and that 
+		technology is driven and developed by a community rather than a single entity. 
+		It can bring partners and competitors closer together and it can span across many 
+		different markets and types of product development. I believe that Eclipse has 
+		many characteristics that will allow it to become that single common enabling 
+		platform. The huge and growing ecosystem of companies and technologies that 
+		surrounds Eclipse, coupled with a business model that allows companies to 
+		build and sell better products will continuously evolve and enhance the 
+		technology and its applicability to more and more developers.</p>
+		
+		<p>My world has been that of embedded device development, and I see many 
+		synergies between the software development tools from embedded and the 
+		enterprise/desktop worlds that could bridge the gap between these two areas. 
+		I also see that by using a higher level of abstraction when designing systems, 
+		then hardware development and software development could also be more closely 
+		united. Eclipse certainly has the flexibility to allow these typically disparate 
+		entities to unite making the developers more productive and allowing tool 
+		vendors to integrate more effectively. I would like to encourage more 
+		collaboration between companies and their technologies that have traditionally 
+		been focused in their own domains or markets and to explore new solutions 
+		(or Eclipse projects) that will ultimately increase the productivity of 
+		developers.</p>
+		]]>	
+	</vision>
+
+	<bio> 
+		<![CDATA[
+		<p>I earned a Bachelors degree in Computer Science. My first role was programming 
+		SCADA systems (RTL/2 on a PDP-11), and then moved into programming the embedded 
+		parts of those systems in assembler and Pascal. I changed career path and worked 
+		for Microtec Research, where I developed some of the early versions of the 
+		famous XRAY debugger. I found that I enjoyed explaining the technology and 
+		products as much as developing them so I moved into a technical sales role, 
+		and spent my time explaining compiler optimizations, and demonstrating the 
+		first IDE for embedded development (MasterWorks). My career for the last 
+		10 years has been marketing, where I help bring new software products to the 
+		embedded world. I have been very active in promoting both Eclipse and Eclipse 
+		based products with both Mentor Graphics and now LynuxWorks.  I have chaired 
+		the Eclipse embedded workgroup for the last 4 years and have been focused on 
+		how to bring the embedded software world together under the common standard 
+		platform of Eclipse.  I have written many Eclipse articles and papers for 
+		embedded publications, and have presented Eclipse papers and chaired Eclipse 
+		discussions at the last four Embedded Systems Conferences and EclipseCon 2007.
+		</p>
+		<p>Articles:<br>
+		http://www.embedded-control-europe.com/know-how?kid=79<br>
+		http://www2.theiet.org/oncomms/sector/electronics/magazine.cfm?issueID=171&articleID=EF43C365-C2FF-4798-336FE1199996A34B<br> 
+		http://mae.pennnet.com/articles/article_display.cfm?Section=ARTCL&C=Depar&ARTICLE_ID=294940&KEYWORDS=eclipse&p=32<br>
+		</p>	 
+		]]>
+	</bio>
+
+	<affiliation> 
+		<![CDATA[
+		LynuxWorks
+		]]>
+	</affiliation>
+
+		
+</boardmember>
