@@ -59,7 +59,7 @@
 		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
 		via email. Content must be submitted to the Eclipse Foundation via email no later than Thursday, January 31. 
 		</li>
-		<li>January 29, 2008: List of nominees and their personal pages made available on www.eclipse.org. 
+		<li>February 4, 2008: List of nominees and their personal pages made available on www.eclipse.org. 
 		Discussion of the issues on the eclipse.foundation newsgroup will be encouraged. 
 		</li>
 		<li>February 25, 2008: Voting begins.</li>
