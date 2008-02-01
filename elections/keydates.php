@@ -73,7 +73,7 @@
 			<h6>Quick Links</h6>
 			<ul>
 				<li><a href=".">Election Home</a></li>
-				<li><a href="nominees.php">Candidates</a></li>
+				<li><a href="nominees_under_construction.php">Candidates</a></li>
 				<li><a href="keydates.php">Key Dates</a></li>
 				<li><a href="election_process.php">Election Process</a></li>
 			</ul>
