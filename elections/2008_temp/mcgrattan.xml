@@ -11,20 +11,13 @@
 
 	<phone>(+1) 631-704-2932</phone>
 
-	<contact>
+	<contact> ![CDATA[
 	Ingres Corporation<br>
 	2950 Express Drive South, Suite 106<br>
-	Islandia, NY 11749-1412
-		<![CDATA[
-		
-		]]>
-	</contact>
+	Islandia, NY 11749-1412<br>
+	]]> </contact>
 
-	<eclipse_affiliation>
-		<![CDATA[
-	Member Company Representative for Ingres	
-		]]>
-	</eclipse_affiliation>
+	<eclipse_affiliation> Member Company Representative for Ingres	</eclipse_affiliation>
 
 	<vision> 
 		<![CDATA[
