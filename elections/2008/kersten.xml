@@ -1,21 +1,29 @@
+
 <boardmember id="kersten" type="committer">
+
       <name>Mik Kersten</name>
       <title>President & CTO</title>
+      
       <image>kersten.jpg</image>
+      
       <email>mik.kersten@tasktop.com</email>
+      
       <phone>604-727-4004</phone>
+      
       <contact> <![CDATA[
 Tasktop Technologies<br>
 700 - 510 West Hastings St.<br>
 Vancouver, BC V6B 1L8<br>
 Canada
       ]]> </contact>
+      
       <eclipse_affiliation> <![CDATA[
 Mylyn Project Lead<br>
 AspectJ Project Committer<br>
 AJDT Project Committer<br>
 Architecture Council Member
       ]]> </eclipse_affiliation>
+      
       <vision>  <![CDATA[
 
 <p>I have been an Eclipse committer since early 2002 when I co-created the AspectJ project.  Like many others at the time, I was hedging my bets and developing extensions for multiple IDEs.  But after a few weeks of experience building on it, it became clear to me that Eclipse was going to be the <a href="http://tasktop.com/blog/?p=5">platform for innovation</a> in the tools space.  At that time I based this judgment almost entirely on the modularity and openness of the Platform.  Since then, I have learned a lot about the critical part that collaboration tools and community involvement play in fostering a successful ecosystem.  If elected, in addition to fulfilling the usual obligations of Committer Representative, my first priority will be evolving the tool support that facilitates collaboration in our community, and my second priority will be helping committers improve the cross-project usability of the tools that we produce.</p>
@@ -45,8 +53,10 @@ Architecture Council Member
 I believe that for the coming year, the above priorities are key to helping Eclipse move along it's trajectory of being the leading platform and ecosystem of tools.  In order to make these efforts transparent easy for committers to consume, I would blog periodically on progress towards these goals in addition to <a href="http://dev.eclipse.org/mhonarc/lists/eclipse.org-planning-council/msg01049.html">driving discussion</a> within the existing community channels.
 </p>
       ]]> </bio>
+      
       <affiliation> <![CDATA[
 Tasktop Technologies
       ]]>
       </affiliation>
+      
 </boardmember>
