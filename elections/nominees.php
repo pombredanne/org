@@ -1,4 +1,36 @@
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+<?php  			
+
+set_error_handler("ignoreDumbStuffHandler");
+function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
+  $errortype = array (
+    E_ERROR => 'Error',
+    E_WARNING => 'Warning',
+    E_PARSE => 'Parsing Error',
+    E_NOTICE => 'Notice',
+    E_CORE_ERROR => 'Core Error',
+    E_CORE_WARNING => 'Core Warning',
+    E_COMPILE_ERROR => 'Compile Error',
+    E_COMPILE_WARNING => 'Compile Warning',
+    E_USER_ERROR => 'User Error',
+    E_USER_WARNING => 'User Warning',
+    E_USER_NOTICE => 'User Notice',
+    E_STRICT => 'Runtime Notice',
+    E_RECOVERABLE_ERROR => 'Catchable Fatal Error');
+    switch($errno) {
+    	case E_NOTICE: // discard NOTICEs
+    	case E_STRICT: // discard RUNTIME notices for deprecated usages
+    		return;
+    	default:
+			echo "<p><table cellpadding=10 width=400 bgcolor=#ffcccc><tr><td><font size=+2>Trouble: </font>";
+			echo "PHP $errortype[$errno]:<br>$errmsg<br>$filename ($linenum)";
+			$mysql_error_func = 'mysql_error_check';
+			if(function_exists($mysql_error_func)) {
+				$mysql_error_func();
+			}
+			echo "</table></p>\n";
+    }
+}
+																											require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 	#*****************************************************************************
 	#
