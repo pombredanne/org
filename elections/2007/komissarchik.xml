@@ -28,20 +28,23 @@ Seattle, WA 98103
     Web Tools Platform
   </eclipse_affiliation>
 
-  <vision>
-    The Eclipse community has been tremendously successful in attracting talent and
-    growing in different areas, but we are experiencing some growing pains. One
-    of the problems that I have seen come up frequently while working on the
-    Web Tools Platform is the lack of an effective vehicle for sharing common
-    code between Eclipse projects. Typically, the only way for code to get shared
-    is to "push it down" to the Eclipse Platform. The platform team is naturally 
-    reluctant to see their project become the dumping ground for any code that 
-    two or more projects wish to share, so we end up solving the same problem
-    over and over again. Not only does it hurt everyone's productivity, but it
-    impacts the user experience. We need a novel approach to tackle this problem.
-    I'd like to see us develop a system where it is fairly easy to create micro
-    components that developers from multiple projects can collaborate on.
-  </vision>
+  <vision> <![CDATA[
+    I am a committer on the Web Tools project and a team lead
+    at BEA working on a product with close ties to Eclipse. I am also currently serving as an elected 
+    Committer Representative and I am running for re-election this year. I am running again because a lot of 
+    work remains to be done to accomplish the goals that I set out for myself when I ran for this position 
+    last year. I am passionate about bringing committers from different projects together and enabling them 
+    to be collaborate in creating a cohesive user experience rather than the silo effect that is so evident 
+    in Eclipse today. There are many aspects or reasons for the situation that we find ourselves in today. Some 
+    of them are social. Some of them are infrastructural. It is the second one where I think the Eclipse Foundation 
+    can make the biggest difference. Imagine if there was a way to easily create micro-components for projects to 
+    collaborate on a feature or two. Imagine if build was a service provided by the foundation (just like CVS) and 
+    every project didn’t have to struggle with this on their own. Some progress has been made, but there is a lot more 
+    work still left to do. If you vote for me, I promise to keep pushing to break down the silos.</p>
+ 
+	<p>Those who are interested in learning more about one aspect of what I am trying to accomplish should 
+	visit http://wiki.eclipse.org/Nexus_Project.</p>
+  ]]> </vision>
  
   <bio>
     I am a software developer with BEA Systems and have been a committer on the
