@@ -43,7 +43,6 @@ function & get_all_candidates($year = "") {
 	// Randomize the order of the candidates.
 	shuffle($candidates);
 //	usort($candidates, 'sort_candidates_cmp');
-	
 	return $candidates;
 }
 
