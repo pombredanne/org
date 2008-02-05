@@ -46,6 +46,7 @@ To ensure high <b>quality</b> and consistency across all eclipse.org projects I 
 <li>Encourage Eclipse committers and projects to blog and idle on <a href="http://wiki.eclipse.org/IRC">IRC</a> so they can experience the community</li>
 <li>Lower the barrier to entry for new Eclipse projects without sacrificing quality</li>
 <li>Ensure that Eclipse evolves to a 4.0 release without abandoning the Eclipse ecosystem and harming adoption</li>
+<li>Support the better presentation of job opportunities within the Eclipse ecosystem (see bug <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=217269">217269</a>)</li>
 </ul>
 <p>In the end, my goal is to make Eclipse thrive everywhere, be transparent about the board's activities and have the honor to represent 
 you, the committers, to my fullest abilities.</p>	
