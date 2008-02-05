@@ -101,7 +101,7 @@ EOHTML;
 					<td valign="top" style="border-bottom: dashed 1px #494949;">
 						<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
 						<br>$candidate->title
-						
+						<p>$candidate->contact</p>
 					</td>
 				</tr>
 EOHTML;

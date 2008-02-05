@@ -45,8 +45,7 @@
 		<p>$candidate->eclipse_affiliation</p>
 		<table border="0">
 			<tr valign="top"><td>e-mail:</td><td><a href="mailto:$candidate->email">$candidate->email</a></td></tr>
-			<tr valign="top"><td>Phone:</td><td>$candidate->phone</td></tr>
-			<tr valign="top"><td>Contact:</td><td>$candidate->contact</td></tr>
+			
 		</table>
 		
 		<div class="homeitem3col">
