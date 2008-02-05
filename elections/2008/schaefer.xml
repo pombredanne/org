@@ -38,11 +38,16 @@
 		We have seen to date over 4000 downloads of the combined EPL/GPL/LGPL licensed Wascana Desktop developer aimed at grassroots C++ developers looking for alternative IDE and SDKs for Windows development.
 		Meeting the needs of the grassroots helps ensure the future growth of Eclipse and the demand for Eclipse based products.
 		I am very interested in finding a solution that enables projects like this to be hosted and branded as Eclipse projects despite non EPL compliant licensing of some of their components.</p>
+		
+		<p>
+		Finally, working in the embedded software industry, we've seen the success of 
+		Eclipse happen there almost by accident. Yet we still face many questions over 
+		the value that Eclipse provides both users and vendors in this space. Some of 
+		the issues are architectural as we streatch the Eclipse Platform in new 
+		directions. However, I also see a strong need for an evangelist to provide a 
+		strong voice in this market to promote not only using Eclipse as a platform 
+		but also to have them contribute back to the community.</p>
 
-		<p>Finally, working in the embedded software industry, we've seen the success of Eclipse happen there almost by accident.
-		Yet there are still face many questions as to the value that Eclipse provides both users and vendors in this space.
-		Some of the issues are architectural as I've eluded to above.
-		But I would also like to see the board provide the Foundation sufficient resources to evangelize the values of Eclipse into this market.</p>
 	]]> </vision>
 
 	<bio> <![CDATA[
