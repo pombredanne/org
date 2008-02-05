@@ -29,36 +29,70 @@
 
 	<vision> <![CDATA[
 <p>
-Once again the last year saw Eclipse exceed all expectations in terms of adoption, penetration and community growth and there is no sign of slowing.  The year was similarly expansive for the Eclipse Board.  We tackled many complex issues from parallel IP to the use of third party tools and infrastructure in the community to member contributions and membership value.  Together the committer representatives lobbied hard to raise and address the issues that affect the committer/contributor community and we've been very successful.  
+Once again the last year saw Eclipse exceed all expectations in terms of adoption, penetration and community growth and there is no sign 
+of slowing. The year was similarly expansive for the Eclipse Board. We tackled many complex issues from parallel IP to the use of third party 
+tools and infrastructure in the community to member contributions and membership value. Together the committer representatives lobbied hard to 
+raise and address the issues that affect the committer/contributor community and we've been very successful.  
 </p>
 
 <p>
-I have been a board member for two years now and have really hit my stride.  The interactions and challenges are well worth the time committment and the results are thoroughly satisfying.  The coming year looks particularly exciting.  As you may know, I recently left IBM to start a company around Eclipse technology.  This has deepened my committment to Eclipse and focused my attention on issues that impact Eclipse as a whole.  I've highlighted a few below.
+I have been a board member for two years now and have really hit my stride. The interactions and challenges are well worth the time committment 
+and the results are thoroughly satisfying.  The coming year looks particularly exciting.  As you may know, I recently left IBM to start a company 
+around Eclipse technology.  This has deepened my committment to Eclipse and focused my attention on issues that impact Eclipse as a whole. I've
+highlighted a few below.
 </p>
 
-<p><b>Review the Bylaws</b> : The Eclipse Foundation as a legal entity will turn 5 in the next year and its corporate bylaws have served it well.  The community has evolved and it is time to review and renew the bylaws.  For example, if you work for a member company, your vote in this election is aggregated with all others from your company yielding just one election vote.  This was originally designed to level the voting playing field.  The community is past that stage now and it is time for you to have your very own vote.
+<p><b>Review the Bylaws</b>: The Eclipse Foundation as a legal entity will turn 5 in the next year and its corporate bylaws have served 
+it well. The community has evolved and it is time to review and renew the bylaws. For example, if you work for a member company, your 
+vote in this election is aggregated with all others from your company yielding just one election vote.  This was originally designed to 
+level the voting playing field. The community is past that stage now and it is time for you to have your very own vote.
 </p>
 
-<p><b>Intellectual Property management</b> : The Foundation IP team does a great job on a tough task.  The Eclipse IP process is highly valued and people trust the code they get from Eclipse.  This does not come for free however and committers are impacted by this daily it seems.  The <a href="http://www.eclipse.org/projects/dev_process/parallel-ip-process.php">parallel IP process</a> for <a href="http://www.eclipse.org/projects/dev_process/incubation-phase.php">incubators</a> has been a partial success but more work is needed to extend the notion to all projects. Dual licensing, alternative licensing for example code and facilitating development split over multiple communities will be hot topics in 2008.  IP is not particularly sexy but it is critical to the ecosystem and the health and well-being of the code base.
+<p><b>Intellectual Property management</b>: The Foundation IP team does a great job on a tough task. The Eclipse IP process is highly 
+valued and people trust the code they get from Eclipse.  This does not come for free however and committers are impacted by this daily it 
+seems. The <a href="http://www.eclipse.org/projects/dev_process/parallel-ip-process.php">parallel IP process</a> for 
+<a href="http://www.eclipse.org/projects/dev_process/incubation-phase.php">incubators</a> has been a partial success but more work is 
+needed to extend the notion to all projects. Dual licensing, alternative licensing for example code and facilitating development split 
+over multiple communities will be hot topics in 2008.  IP is not particularly sexy but it is critical to the ecosystem and the health and 
+well-being of the code base.
 </p>
 
-<p><b>Makin' it real</b> : The committer reps have made good progress in being visible to the community.  We started a <a href="http://eclipse-committer-reps.blogspot.com/">blog</a>, we show up at various member and committer events and are generally active across the broad community.  Still, I can't help the feeling that people don't really know what we do for them or why they should care who we are.  It turns out that the committer reps have considerable influence and get quite a bit done.  Over 2008 I want to look for ways to make this more tangible and tighten the feedback loop for committers.
+<p><b>Makin' it real</b>: The committer reps have made good progress in being visible to the community. We started a 
+<a href="http://eclipse-committer-reps.blogspot.com/">blog</a>, we show up at various member and committer events and are generally active 
+across the broad community.  Still, I can't help the feeling that people don't really know what we do for them or why they should care who we are. It 
+turns out that the committer reps have considerable influence and get quite a bit done.  Over 2008 I want to look for ways to make this more tangible 
+and tighten the feedback loop for committers.
 </p>
 
-<p><b>Incubation</b> : <a href="http://www.eclipse.org/projects/dev_process/incubation-phase.php">Incubators</a> have come into style over the past year with many mature projects spawning incubators.  This has been a real win.  The process for <i>graduating</i> code is however rather clunky.  Refining the development process and IP policy to support smaller, more incremental graduation of function will make the incubator mechanism even more useful to you and your projects.
+<p><b>Incubation</b>: <a href="http://www.eclipse.org/projects/dev_process/incubation-phase.php">Incubators</a> have come into style over the 
+past year with many mature projects spawning incubators.  This has been a real win.  The process for <i>graduating</i> code is however rather clunky. 
+Refining the development process and IP policy to support smaller, more incremental graduation of function will make the incubator mechanism even 
+more useful to you and your projects.
 </p>
 
-<p><b>Membership value</b> : Committers sometimes don't see the connection between membership value and their daily lives. It is actually pretty simple.  More value for members = more members = more money = more facilities, services, support for the community (that's you).  So ensuring that organizations see real value in membership is key to making your life better. Recognizing contributing companies on project pages and providing more (yet tasteful) ways of highlighting member offerings on eclipse.org properties are tangible benefits of membership.  We need to look for additional opportunities in this space.
+<p><b>Membership value</b> : Committers sometimes don't see the connection between membership value and their daily lives. It is actually 
+pretty simple. More value for members = more members = more money = more facilities, services, support for the community (that's you). So 
+ensuring that organizations see real value in membership is key to making your life better. Recognizing contributing companies on project pages 
+and providing more (yet tasteful) ways of highlighting member offerings on eclipse.org properties are tangible benefits of membership. We need 
+to look for additional opportunities in this space.
 </p>
 
-<p><b>Member contributions and project support</b> : Today's membership structure is quite disjoint.  Members pay relatively little or quite a lot.  As the ecosystem around Eclipse evolves, we should evolve the membership structure to enable those willing to contribute more to do so.  This ranges from new formal membership categories to more event sponsorship opportunities such as demo camps to encouraging and enabling members to meet their contribution goals.  Again, more member contributions = more support for the projects.
+<p><b>Member contributions and project support</b>: Today's membership structure is quite disjoint. Members pay relatively little or quite a lot. As the ecosystem around Eclipse evolves, we should evolve the membership structure to enable those willing to contribute more to do so.  This ranges from new formal membership categories to more event sponsorship opportunities such as demo camps to encouraging and enabling members to meet their contribution goals.  Again, more member contributions = more support for the projects.
 </p>
 
-<p><b>Expansion of mission</b> : Last but not least Eclipse is changing.  The past few months have seen a whole new set of projects and participants from <a href="http://eclipse.org/eclipselink">EclipseLink</a> and Oracle to <a href="http://www.eclipse.org/proposals/eilf">EILF</a> and Brox.  The upcoming <a href="http://wiki.eclipse.org/Runtime_Top-Level_Project_Draft_Charter">Eclipse Runtime project proposal</a> is a sign of things to come.  These changes will challenge some of the notions we hold about Eclipse and force the community to reassess itself.  The Eclipse Board needs to guide these changes to expand the community while protecting what we have built.  We must also look for synergies between the ever more diverse set of projects that is Eclipse.
+<p><b>Expansion of mission</b>: Last but not least Eclipse is changing. The past few months have seen a whole new set of projects and participants 
+from <a href="http://eclipse.org/eclipselink">EclipseLink</a> and Oracle to <a href="http://www.eclipse.org/proposals/eilf">EILF</a> and Brox. The 
+upcoming <a href="http://wiki.eclipse.org/Runtime_Top-Level_Project_Draft_Charter">Eclipse Runtime project proposal</a> is a sign of things to 
+come. These changes will challenge some of the notions we hold about Eclipse and force the community to reassess itself. The Eclipse Board needs 
+to guide these changes to expand the community while protecting what we have built.  We must also look for synergies between the ever more diverse 
+set of projects that is Eclipse.
 </p>
 
 <p>
-Over the past 9 years of Eclipse involvement I've had the pleasure of starting several projects and growing them into full-fledged communities.  Over the past couple years I've learned a lot about what makes committer communities tick and being an effective member of a governing body. In the coming year I will learn a lot about the business community around Eclipse -- the other half (dark side?) of Eclipse if you will. My goal in running for re-election is to combine these characteristics in plotting the course for Eclipse.
+Over the past 9 years of Eclipse involvement I've had the pleasure of starting several projects and growing them into full-fledged communities. Over 
+the past couple years I've learned a lot about what makes committer communities tick and being an effective member of a governing body. In the 
+coming year I will learn a lot about the business community around Eclipse -- the other half (dark side?) of Eclipse if you will. My goal in running 
+for re-election is to combine these characteristics in plotting the course for Eclipse.
 </p>
 
 
