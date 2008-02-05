@@ -50,9 +50,9 @@ level the voting playing field. The community is past that stage now and it is t
 
 <p><b>Intellectual Property management</b>: The Foundation IP team does a great job on a tough task. The Eclipse IP process is highly 
 valued and people trust the code they get from Eclipse. This does not come for free however and committers are impacted by this daily it 
-seems. The <a href="http://www.eclipse.org/projects/dev_process/parallel-ip-process.php">parallel IP process</a> for 
-<a href="http://www.eclipse.org/projects/dev_process/incubation-phase.php">incubators</a> has been a partial success but more work is 
-needed to extend the notion to all projects. Dual licensing, alternative licensing for example code and facilitating development split 
+seems. Some time ago I helped design the <a href="http://www.eclipse.org/projects/dev_process/parallel-ip-process.php">parallel IP process</a> 
+for <a href="http://www.eclipse.org/projects/dev_process/incubation-phase.php">incubators</a>. It has been a partial success but more 
+work is needed to extend the notion to all projects. Dual licensing, alternative licensing for example code and facilitating development split 
 over multiple communities will be hot topics in 2008. IP is not particularly sexy but it is critical to the ecosystem and the health and 
 well-being of the code base.
 </p>
