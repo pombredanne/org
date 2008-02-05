@@ -20,12 +20,15 @@
 	BNT 901 / 3B-003<br>	
 	]]> </contact>
 
-	<eclipse_affiliation> <![CDATA[
-		Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Committer<br>
-		Eclipse Communications Framework (<a href="http://www.eclipse.org/ecf">ECF</a>) Committer<br>
-		<a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>		
-		<a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer	
-	]]> </eclipse_affiliation>
+	<eclipse_affiliation> <![CDATA[ 
+                Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Committer<br> 
+                Eclipse Communications Framework (<a href="http://www.eclipse.org/ecf">ECF</a>) Committer<br> 
+                <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>                 
+                <a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer<br> 
+                                <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007, 2008)<br> 
+                EclipseCon Committer Representative (2007) 
+        ]]> </eclipse_affiliation 
+
 
 	<vision>  <![CDATA[
 		<p>My vision for Eclipse is simple, keep building the community so the Eclipse ecosystem can prosper. In order to build a prosperous 
