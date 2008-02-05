@@ -5,6 +5,7 @@
   </name>
 
   <title>
+  Staff Software Engineer
   </title>
 
   <image>komissarchik.jpg
@@ -25,36 +26,47 @@ Seattle, WA 98103<br>
 USA<br>
   ]]> </contact>
 
-  <eclipse_affiliation>
-    Web Tools Platform
-  </eclipse_affiliation>
+  <eclipse_affiliation> <![CDATA[
+    Web Tools Platform committer<br>
+	Web Tools Common Project lead<br>
+	Eclipse Foundation Board of Directors Committer Representative (2007-2008)
+  ]]> </eclipse_affiliation>
 
   <vision> <![CDATA[
-    I am a committer on the Web Tools project and a team lead
-    at BEA working on a product with close ties to Eclipse. I am also currently serving as an elected 
-    Committer Representative and I am running for re-election this year. I am running again because a lot of 
-    work remains to be done to accomplish the goals that I set out for myself when I ran for this position 
-    last year. I am passionate about bringing committers from different projects together and enabling them 
-    to be collaborate in creating a cohesive user experience rather than the silo effect that is so evident 
-    in Eclipse today. There are many aspects or reasons for the situation that we find ourselves in today. Some 
-    of them are social. Some of them are infrastructural. It is the second one where I think the Eclipse Foundation 
-    can make the biggest difference. Imagine if there was a way to easily create micro-components for projects to 
-    collaborate on a feature or two. Imagine if build was a service provided by the foundation (just like CVS) and 
-    every project didn't have to struggle with this on their own. Some progress has been made, but there is a lot more 
-    work still left to do. If you vote for me, I promise to keep pushing to break down the silos.</p>
+    <p>The last year has gone by very quickly. It has been an honor and privilege to 
+    represent the committers to Eclipse Foundation’s Board of Directors. During the 
+    course of the year, I pushed on a variety of fronts to make sure that the 
+    foundation is effectively serving committers and protecting their investment. I 
+    am active in the ongoing discussions to improve the IP Process. I have also been 
+    involved in defining a way to bring tasteful advertisement to eclipse.org as a 
+    way to improve member value and make sure that Foundation continues to be fully 
+    funded and is able to serve committers effectively.</p>
  
-	<p>Those who are interested in learning more about one aspect of what I am trying to accomplish should 
-	visit http://wiki.eclipse.org/Nexus_Project.</p>
+	<p>When I ran for this position last year, I set some specific goals for myself. 
+	While some progress has been made, a lot of work still remains. I am passionate 
+	about bringing committers from different projects together and enabling them to 
+	collaborate in creating a cohesive user experience rather than the silo effect 
+	that is so evident in Eclipse today. There are many aspects or reasons for the 
+	situation that we find ourselves in today. Some of them are social. Some of them 
+	are infrastructural. It is the second one where I think the Eclipse Foundation 
+	can make the biggest difference. Imagine if there was a way to easily create 
+	micro-components for projects to collaborate on a feature or two. Imagine if 
+	build was a service provided by the foundation (just like CVS) and every project 
+	didn't have to struggle with this on their own. Some progress has been made, but 
+	there is a lot more work still left to do. You can visit 
+	<a href="http://wiki.eclipse.org/Nexus_Project">http://wiki.eclipse.org/Nexus_Project</a> to 
+	get more information about one aspect of my efforts in this area.</p>
   ]]> </vision>
  
-  <bio>
-    I am a software developer with BEA Systems and have been a committer on the
-    Web Tools Platform since its first release. I have designed and implemented
-    the Faceted Project Framework which made it possible for people to easily
-    extend capabilities of WTP projects. In my prior life, I have worked on 
-    compilers, custom servers and network protocol design. I have graduated from 
-    the University of Washington with BS in Computer Science.
-  </bio>
+  <bio> <![CDATA[
+    <p>Konstantin is an engineering team lead at BEA Systems working on a product with 
+    close ties to Eclipse and has been a committer on the Web Tools Platform since 
+    before its first release. He has designed and implemented the Faceted Project 
+    Framework which made it possible for people to easily extend capabilities of WTP 
+    projects. In his prior life, he has worked on compilers, custom servers and network 
+    protocol design. He graduated from the University of Washington with BS in 
+    Computer Science.</p>
+  ]]>  </bio>
 
   <affiliation>
     BEA Systems, Inc.
