@@ -9,19 +9,16 @@
 
 	<email> jeff@code9.com</email>
 
-	<phone> (+1) 613-791-5252</phone>
+	<phone></phone>
 
 	<contact> <![CDATA[
-	1203 Lampman Cr. <br>
-	Ottawa, ON K2C 1P9<br>
-	Canada
 	]]> </contact>
 
 	<eclipse_affiliation>
 	<![CDATA[ 
-	<a href="http://eclipse.org/equinox">Equinox</a><br>
-	<a href="http://eclipse.org/orbit">Orbit</a><br>
-	<a href="http://eclipse.org/rcp">RCP</a> lead<br>
+	<a href="http://eclipse.org/equinox">Equinox lead</a><br>
+	<a href="http://eclipse.org/orbit">Orbit lead</a><br>
+	<a href="http://eclipse.org/rcp">RCP lead</a> lead<br>
 	Eclipse project and Tools project PMC member<br>
 	Architecture Council member<br>
 	Eclipse Foundation Board of Directors Committer representative (2006-2007) 
