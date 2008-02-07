@@ -71,6 +71,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		<p>Voting for the $year elections begins February 25 and ends on March 7 at 3pm ET.</p>
 		<b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
