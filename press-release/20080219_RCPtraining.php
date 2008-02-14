@@ -26,19 +26,18 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			The Eclipse Foundation, in partnership with Eclipse training companies Ancit Consulting, Anyware Technologies, AvantSoft,
-			BREDEX, Industrial TSI, Innoopract, The RCP Company and WeigleWilczek, are pleased to announce a series of
-			<a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">RCP training
-			classes</a>.  Classes will occur between May 19 and June 13 and will take place in Antwerp, Bangalore, Boston, Braunschweig,
-			Chicago, Copenhagen, Karlsruhe, Munich, Paris, Portland, San Jose, Sofia Antipolis, Stockholm, Stuttgart, Vienna and
-			Washington D.C.  The participating Eclipse training companies will be organizing the classes in each city 
-			and offering them at prices that are greatly reduced from their regular rates.
-		</p>	
+			The Eclipse Foundation is pleased to announce a series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
+			RCP training classes</a> between May 19 and June 13.  In partnership with Eclipse member companies Ancit Consulting, Anyware
+			Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract, The RCP Company and WeigleWilczek, the RCP training series will
+			provide in-depth education for developers building Eclipse RCP-based applications.  Classes will be offered in
+			Antwerp, Bangalore, Boston, Braunschweig, Chicago, Copenhagen, Karlsruhe, Munich, Paris, Portland, San Jose, Sofia Antipolis,
+			Stockholm, Stuttgart, Vienna and Washington D.C.
+		</p>
 		<p>	
-			The RCP training series will provide in-depth education for developers building Eclipse RCP based applications.
-			Each class will run for four days and feature instructor-led classroom instruction and in-depth hands-on labs and tutorials. 					
+			Each RCP class will run for four days and will feature instructor-led classroom teaching and hands-on labs and tutorials. 					
 			The class will help developers understand the core RCP concepts and Eclipse plug-in architecture, and provide in-depth
-			insight into SWT, JFace and other RCP components.
+			insight into SWT, JFace and other RCP components.  There will also be a review of the new &amp; noteworthy features of
+			Ganymede, the Eclipse simultaneous release occuring in June.
 		</p>
 		<p>
 			For more information, the locations, dates and registration can be found 
