@@ -42,7 +42,7 @@
 		<p>
 			For more information, the locations, dates and registration can be found 
 			<a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">here</a>.
-			Students that register before March 31, 2008 will receive a 10% early bird discount on the registration price.
+			Students that register before <b>March 31, 2008</b> will receive a 10% early bird discount on the registration price.
 		</p>
 	
 </div>
