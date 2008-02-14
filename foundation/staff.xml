@@ -94,8 +94,8 @@
 		<image>../../images/nathan.png</image>
 		<title>Web Developer</title>
 		<description>
-			<![CDATA[<p>Keep an eye out for this kid!  Besides lurking around eclipse.org he can be seen playing tennis, walking his dog, and
-			driving his new car!</p>
+			<![CDATA[<p>Keep an eye out for this kid!  Nathan joined the Eclipse in 2006 and is usually seen lurking around eclipse.org websites working his magic.
+			Hobbies include playing tennis, walking his dog, and working on whatever his latest project is!</p>
 			<br/>
 			]]>
 		</description>
@@ -115,7 +115,7 @@
 	<staffmember id="karl">
 		<name>Karl Matthias</name>
 		<title>Systems Administrator</title>
-		<image></image>
+		<image>../../images/karl.jpg</image>
 		<description>
 			<![CDATA[Karl is the Portland arm of the IT team and isn't the "new guy" at the Foundation any more (thanks Chris!).
 			When he's not supporting the infrastructure, working on the portal, or knocking items off of Bjorn's wish list, he's in the
