@@ -3,8 +3,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Community Awards";
-	$pageKeywords	= "eclipse, community, awards, EclipseCon vote";
+	$pageTitle 		= "Eclipse RCP Training Series";
+	$pageKeywords	= "eclipse, RCP, training";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -24,7 +24,6 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
-		<h1>Announcing a New Eclipse RCP Training Series</h1>
 	
 		<p>
 			The Eclipse Foundation, in partnership with Eclipse training companies Ancit Consulting, Anyware Technologies, AvantSoft,
