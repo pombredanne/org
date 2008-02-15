@@ -26,7 +26,7 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			Dut to the success of the training program Eclipse held last fall, the Foundation is
+			Due to the success of the training program Eclipse held last fall, the Foundation is
 			pleased to announce that there will be a new series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
 			RCP training classes</a> between May 19 and June 13.  In partnership with member companies Ancit Consulting, Anyware
 			Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract, The RCP Company and Weigle Wilczek, Eclipse will be offering the
