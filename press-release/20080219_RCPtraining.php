@@ -26,7 +26,7 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			As a result of the success of the training program Eclipse held last fall, the Foundation is
+			Dut to the success of the training program Eclipse held last fall, the Foundation is
 			pleased to announce that there will be a new series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
 			RCP training classes</a> between May 19 and June 13.  In partnership with member companies Ancit Consulting, Anyware
 			Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract, The RCP Company and Weigle Wilczek, Eclipse will be offering the
@@ -41,9 +41,9 @@
 			Ganymede, the Eclipse simultaneous release occurring in June.
 		</p>
 		<p>
-			For more information, the locations, dates and registration can be found 
-			<a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">here</a>.
-			Students that register before <b>March 31, 2008</b> will receive a 10% early bird discount on the registration price.
+			For more information, including locations, dates and registration, visit the <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
+			RCP Training Classes site</a>.  Students that register before <b>March 31, 2008</b> will receive a
+			10% early bird discount on the registration price.
 		</p>
 	
 </div>
