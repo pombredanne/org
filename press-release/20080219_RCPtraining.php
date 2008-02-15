@@ -26,16 +26,16 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			Due to the success of the RCP training series Eclipse held last fall, the Eclipse Foundation is
+			As a result of the success of the training program Eclipse held last fall, the Foundation is
 			pleased to announce that there will be a new series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
-			RCP training classes</a> between May 19 and June 13.  In partnership with Eclipse member companies Ancit Consulting, Anyware
+			RCP training classes</a> between May 19 and June 13.  In partnership with member companies Ancit Consulting, Anyware
 			Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract, The RCP Company and Weigle Wilczek, Eclipse will be offering the
 			RCP training series to provide in-depth education for developers building Eclipse RCP-based applications.  Classes will be offered in
 			Antwerp, Bangalore, Boston, Braunschweig, Chicago, Copenhagen, Karlsruhe, Munich, Paris, Portland, San Jose, Sofia Antipolis,
 			Stockholm, Stuttgart, Vienna and Washington D.C.
 		</p>
 		<p>	
-			Each RCP class will run for four days and will feature instructor-led classroom teaching and hands-on labs and tutorials. 					
+			Each training class will run for four days and will feature instructor-led classroom teaching and hands-on labs and tutorials. 					
 			The class will help developers understand the core RCP concepts and Eclipse plug-in architecture, and provide in-depth
 			insight into SWT, JFace and other RCP components.  There will also be a review of the new &amp; noteworthy features of
 			Ganymede, the Eclipse simultaneous release occurring in June.
