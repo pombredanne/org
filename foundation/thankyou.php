@@ -43,6 +43,13 @@
     		<td width="88%">HP for the donation of four <a href="http://www.hp.com/products1/servers/integrity/entry_level/rx2620/index.html" target="_blank">HP 
       			Integrity rx2600</a> 2-cpu Itanium systems. <br>
     		</td>
+  		</tr>  		
+  		<tr>
+    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.eclipse.org/membership/scripts/get_image.php?id=848&size=small" width="120"></td>
+    		<td width="88%">AMD for the donation of five Quad-Core AMD Opteron<sup>TM</sup> based servers to power the 
+    		Eclipse Foundation web infrastructure, including the EclipseCon download server.
+			 <br>
+    		</td>
   		</tr>
   		<tr>
     		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=656&size=small" width="120"></td>
@@ -59,7 +66,7 @@
       		with the architecture</a> for our site. </td>
   		</tr>
   		<tr>
-    		<td width="12%"><img src="../../membership/members/org-images/magmalogo.jpg" width="120"></td>
+    		<td width="12%"><img src="../../membership/members/org-images/magmalogo.jpg" width="160"></td>
     		<td width="88%"><br>
       		Magma for providing free managed firewall services for our site.<br>
       		<br>
