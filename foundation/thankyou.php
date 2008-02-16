@@ -39,18 +39,20 @@
 
 	<table width="100%" border="0" cellpadding="3" cellspacing=10>
   		<tr>
+    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.eclipse.org/membership/scripts/get_image.php?id=848&size=small" width="120"></td>
+    		<td width="88%">AMD for the donation of five <a href="http://www.amd.com/us-en/Processors/ProductInformation/0,,30_118_8825,00.html">
+    		Quad-Core AMD Opteron<sup>TM</sup> based</a>
+    		servers to power the 
+    		Eclipse Foundation web infrastructure, including the EclipseCon download server.
+			 <br>
+    		</td>
+  		</tr>
+  		<tr>
     		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=663&size=small" width="120"></td>
     		<td width="88%">HP for the donation of four <a href="http://www.hp.com/products1/servers/integrity/entry_level/rx2620/index.html" target="_blank">HP 
       			Integrity rx2600</a> 2-cpu Itanium systems. <br>
     		</td>
   		</tr>  		
-  		<tr>
-    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.eclipse.org/membership/scripts/get_image.php?id=848&size=small" width="120"></td>
-    		<td width="88%">AMD for the donation of five Quad-Core AMD Opteron<sup>TM</sup> based servers to power the 
-    		Eclipse Foundation web infrastructure, including the EclipseCon download server.
-			 <br>
-    		</td>
-  		</tr>
   		<tr>
     		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=656&size=small" width="120"></td>
     		<td width="88%"><br>
