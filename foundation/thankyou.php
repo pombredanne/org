@@ -45,28 +45,28 @@
     		</td>
   		</tr>
   		<tr>
-    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../membership/members/org-images/ibmlogosmall.gif" width="95" height="41"></td>
+    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=656&size=small" width="120"></td>
     		<td width="88%"><br>
       		IBM for the donation of three <a href="http://www-1.ibm.com/servers/eserver/pseries/hardware/entry/550.html" target="_blank">IBM 
       		eServer p5 550</a> 4-cpu servers. <br>
     		</td>
   		</tr>
   		<tr>
-    		<td width="12%"><img src="../../membership/members/org-images/intel_logo.gif" width="115" height="57"></td>
+    		<td width="12%"><img src="/membership/scripts/get_image.php?id=657&size=small" width="120"></td>
     		<td width="88%"><br>
       		Intel for the donation of eight 1.3GHz <a href="http://www.intel.com/products/processor/itanium2/index.htm" target="_blank">Intel 
       		Itanium 2 Processors</a> that went into the HP systems and for <a href="http://www.intel.com/software" target="_blank">assistance 
       		with the architecture</a> for our site. </td>
   		</tr>
   		<tr>
-    		<td width="12%"><img src="../../membership/members/org-images/magmalogo.jpg" width="160" height="41"></td>
+    		<td width="12%"><img src="../../membership/members/org-images/magmalogo.jpg" width="120"></td>
     		<td width="88%"><br>
       		Magma for providing free managed firewall services for our site.<br>
       		<br>
     		</td>
   		</tr>
   		<tr>
-    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../membership/members/org-images/novell_suselinux.gif" width="88" height="31"></td>
+    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=716&size=small" width="120"></td>
     		<td width="88%"><br>
       		Novell for donating Suse Enterprise distributions for all of our machines.<br>
     		</td>
