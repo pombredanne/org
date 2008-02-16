@@ -85,7 +85,7 @@
 	<div id="rightcolumn">
 	    <div class="sideitem">
 			<h6>Thank you!</h6>
-			<p>Our thanks to <a href="thankyou.php">
+			<p align=center>Our thanks to: <br><a href="thankyou.php">
 
 <img src="http://www.eclipse.org/membership/scripts/get_image.php?id=848&size=small" width="120">
 <img src="/membership/scripts/get_image.php?id=663&size=small" width="120">
@@ -95,7 +95,7 @@
 <img src="/membership/scripts/get_image.php?id=716&size=small" width="120">
  
 			
-			</a> for generous donations to our website infrastructure.</p>
+			</a><br> for generous donations to our website infrastructure.</p>
 		</div>
 		<div class="sideitem">
 			<h6>Related Links</h6>
