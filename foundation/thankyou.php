@@ -39,7 +39,7 @@
 
 	<table width="100%" border="0" cellpadding="3" cellspacing=10>
   		<tr>
-    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../membership/members/org-images/hplogosmall.gif" width="92" height="78"></td>
+    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=663&size=small" width="120"></td>
     		<td width="88%">HP for the donation of four <a href="http://www.hp.com/products1/servers/integrity/entry_level/rx2620/index.html" target="_blank">HP 
       			Integrity rx2600</a> 2-cpu Itanium systems. <br>
     		</td>
