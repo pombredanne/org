@@ -93,7 +93,7 @@
 		<p>The Eclipse community organizes an annual release train that provides a coordinated release of those Eclipse projects which wish to participate.   
 		The release train makes it easier for downstream consumers to adopt new releases of the projects because 1) all the 
 		projects are available on the same 
-		schedule, so you don’t have to wait for independent project schedules, and 2) a level of integration testing occurs before the final 
+		schedule, so you donï¿½t have to wait for independent project schedules, and 2) a level of integration testing occurs before the final 
 		release to help identify cross project issues. </p>
 			
 		<h3><a name="Ecosystem"></a>Ecosystem Development</h3>	
@@ -156,7 +156,7 @@
 		</div>
      	<div class="sideitem">
 			<h6>Thank you!</h6>
-			<p>Our thanks to <a href="foundation/thankyou.php">HP, IBM, Intel, Magma and Novell</a> for generous donations to our website infrastructure.</p>
+			<p>Our thanks to <a href="foundation/thankyou.php">AMD, HP, IBM, Intel, Magma and Novell</a> for generous donations to our website infrastructure.</p>
 		</div>		
 	  </div>
   </div>
