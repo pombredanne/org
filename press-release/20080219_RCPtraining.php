@@ -26,25 +26,71 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			Due to the success of the training program Eclipse held last fall, the Foundation is
-			pleased to announce that there will be a new series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
-			RCP training classes</a> between May 19 and June 13.  In partnership with member companies Ancit Consulting, Anyware
-			Technologies, AvantSoft, BREDEX, Industrial TSI, Innoopract, The RCP Company and Weigle Wilczek, Eclipse will be offering the
-			RCP training series to provide in-depth education for developers building Eclipse RCP-based applications.  Classes will be offered in
-			Antwerp, Bangalore, Boston, Braunschweig, Chicago, Copenhagen, Karlsruhe, Munich, Paris, Portland, San Jose, Sofia Antipolis,
-			Stockholm, Stuttgart, Vienna and Washington D.C.
+			The Eclipse Foundation is pleased to announce a new series of <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
+			RCP training classes</a>, to be held between May 19 and June 13.  In partnership with Eclipse member companies, the RCP
+			training series is to provide in-depth education for developers building Eclipse RCP-based applications.  Classes will be
+			offered in:
+			<ul>
+			<table>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194653" target="blank">Amsterdam</a>, Netherlands</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191609" target="blank">Munich, Germany</li></td>
+			</tr>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194661" target="blank">Antwerp</a>, Belgium</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193679" target="blank">Paris</a>, France</li></td>
+			</tr>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=192029" target="blank">Bangalore</a>, India</li></td>
+				<td><li>San Jose, United States</li></td>
+			</tr>
+			<tr>
+				<td><li>Boston, United States</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193691" target="blank">Sofia Antipolis</a>, France</li></td>
+			</tr>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191593" target="blank">Braunschweig</a>, Germany</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191521" target="blank">Stockholm</a>, Sweden</li></td>				
+			</tr>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193659" target="blank">Chennai</a>, India</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191589" target="blank">Stuttgart</a>, Germany</li></td>
+			</tr>
+			<tr>
+				<td><li>Chicago, United States</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191600" target="blank">Vienna</a>, Austria</li></td>
+			</tr>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191507" target="blank">Copenhagen</a>, Denmark</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194664" target="blank">London</a>, England</li></td>
+			</tr>
+			<tr>
+				<td><li>Washington D.C., United States</li></td>
+			</tr>
+			</table>
+			</ul>
 		</p>
+
 		<p>	
 			Each training class will run for four days and will feature instructor-led classroom teaching and hands-on labs and tutorials. 					
 			The class will help developers understand the core RCP concepts and Eclipse plug-in architecture, and provide in-depth
 			insight into SWT, JFace and other RCP components.  There will also be a review of the new &amp; noteworthy features of
-			Ganymede, the Eclipse simultaneous release occurring in June.
+			Ganymede, the Eclipse release occurring in June.
 		</p>
 		<p>
 			For more information, including locations, dates and registration, visit the <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
 			RCP Training Classes site</a>.  Students that register before <b>March 31, 2008</b> will receive a
 			10% early bird discount on the registration price.
 		</p>
+		
+		<p>
+			The participating Eclipse member companies include <a href="http://www.ancitconsulting.com" target="blank">Ancit Consulting</a>,
+			<a href="http://www.anyware-tech.com" target="blank">Anyware Technologies</a>, <a href="http://www.avantsoft.com" target="blank">AvantSoft</a>,
+			<a href="http://www.bredex.de/" target="blank">BREDEX</a>, <a href="http://www.industrial-tsi.com/" target="blank">Industrial TSI</a>,
+			<a href="http://www.innoopract.com" target="blank">Innoopract</a>, <a href="http://www.rcp-company.com" target="blank">The RCP Company</a>
+			and <a href="http://www.weiglewilczek.com" target="blank">Weigle Wilczek</a>.
+		</p>
+		<br><br>
 	
 </div>
 
