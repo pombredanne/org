@@ -55,7 +55,7 @@
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191593" target="blank">Braunschweig</a>, Germany</li></td>
 				<td width="35"></td>
-				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193691" target="blank">Sofia Antipolis</a>, France</li></td>				
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193691" target="blank">Sophia Antipolis</a>, France</li></td>				
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193659" target="blank">Chennai</a>, India</li></td>
@@ -78,7 +78,7 @@
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194793" target="blank">Washington DC</a>, United States</li></td>
 			</tr>
 			<tr>
-				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194664" target="blank">London</a>, England</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194669" target="blank">London</a>, England</li></td>
 			</ul>
 				<td width="35"></td>
 				<td>&nbsp</td>
