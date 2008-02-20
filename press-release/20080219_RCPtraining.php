@@ -31,7 +31,7 @@
 			training series is to provide in-depth education for developers building Eclipse RCP-based applications.  Classes will be
 			offered in:
 			<ul>
-			<table>
+			<table cellspacing="5">
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194653" target="blank">Amsterdam</a>, Netherlands</li></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191609" target="blank">Munich, Germany</li></td>
@@ -80,12 +80,11 @@
 		<p>	
 			Each training class will run for four days and will feature instructor-led classroom teaching and hands-on labs and tutorials. 					
 			The class will help developers understand the core RCP concepts and Eclipse plug-in architecture, and provide in-depth
-			insight into SWT, JFace and other RCP components.  There will also be a review of the new &amp; noteworthy features of
-			Ganymede, the Eclipse release occurring in June.
+			insight into SWT, JFace and other RCP components. 
 		</p>
 		<p>
 			For more information, including locations, dates and registration, visit the <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
-			RCP training classes site</a>.  Students that register before <b>March 31, 2008</b> will receive a
+			RCP training class site</a>.  Students that register before <b>March 31, 2008</b> will receive a
 			10% early bird discount on the registration price.
 		</p>
 		
