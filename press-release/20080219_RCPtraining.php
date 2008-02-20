@@ -34,15 +34,15 @@
 			<table>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194653" target="blank">Amsterdam</a>, Netherlands</li></td>
-				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194664" target="blank">London</a>, England</li></td>
-			</tr>
-			<tr>
-				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194661" target="blank">Antwerp</a>, Belgium</li></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191609" target="blank">Munich, Germany</li></td>
 			</tr>
 			<tr>
-				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=192029" target="blank">Bangalore</a>, India</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194661" target="blank">Antwerp</a>, Belgium</li></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193679" target="blank">Paris</a>, France</li></td>
+			</tr>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=192029" target="blank">Bangalore</a>, India</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=195102" target="blank">Portland</a>, United States</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194784" target="blank">Boston</a>, United States</li></td>
@@ -68,8 +68,13 @@
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193001" target="blank">Karlsruhe</a>, Germany</li></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194793" target="blank">Washington DC</a>, United States</li></td>
 			</tr>
-			</table>
+			<tr>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194664" target="blank">London</a>, England</li></td>
 			</ul>
+				<td>&nbsp</td>
+			</tr>
+			</table>
+
 		</p>
 
 		<p>	
@@ -80,7 +85,7 @@
 		</p>
 		<p>
 			For more information, including locations, dates and registration, visit the <a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month">
-			RCP Training Classes site</a>.  Students that register before <b>March 31, 2008</b> will receive a
+			RCP training classes site</a>.  Students that register before <b>March 31, 2008</b> will receive a
 			10% early bird discount on the registration price.
 		</p>
 		
