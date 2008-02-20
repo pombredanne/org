@@ -36,6 +36,8 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20080219_RCPtraining.php">Eclipse RCP Training Series</a> - February 19th, 2008</li>
+		<li><a href="20080213_riena.php">Eclipse Riena Project Enhances Building Enterprise Applications Using Eclipse RCP</a> - February 13th, 2008</li>
 		<li><a href="20080130_awards.php">Voting for the Individual Eclipse Community Awards is Open</a> - January 30th, 2008</li>
 		<li><a href="20080124_cbganymede.php">Ganymede M4 Packages Now Available for Testing</a> - January 24th, 2008</li>
 		<li><a href="20080122_eclipsecongold.php">EclipseCon 2008 Attracts Eleven Industry-Leading Companies as Gold Sponsors</a> - January 22nd, 2008</li>
