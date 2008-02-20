@@ -34,53 +34,53 @@
 			<table>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194653" target="blank">Amsterdam</a>, Netherlands</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191609" target="blank">Munich, Germany</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194661" target="blank">Antwerp</a>, Belgium</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193679" target="blank">Paris</a>, France</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=192029" target="blank">Bangalore</a>, India</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=195102" target="blank">Portland</a>, United States</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194784" target="blank">Boston</a>, United States</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="http://www.regonline.com/CalendarNET/EventCalendar.aspx?CustomerId=240004&EventId=188879&view=Month" target="blank">San Jose</a>, United States</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191593" target="blank">Braunschweig</a>, Germany</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193691" target="blank">Sofia Antipolis</a>, France</li></td>				
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193659" target="blank">Chennai</a>, India</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191521" target="blank">Stockholm</a>, Sweden</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194787" target="blank">Chicago</a>, United States</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191589" target="blank">Stuttgart</a>, Germany</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191507" target="blank">Copenhagen</a>, Denmark</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191600" target="blank">Vienna</a>, Austria</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=193001" target="blank">Karlsruhe</a>, Germany</li></td>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194793" target="blank">Washington DC</a>, United States</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194664" target="blank">London</a>, England</li></td>
 			</ul>
-				<td width="15"></td>
+				<td width="35"></td>
 				<td>&nbsp</td>
 			</tr>
 			</table>
