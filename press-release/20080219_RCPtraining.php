@@ -35,7 +35,7 @@
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194653" target="blank">Amsterdam</a>, Netherlands</li></td>
 				<td width="35"></td>
-				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191609" target="blank">Munich, Germany</li></td>
+				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=191609" target="blank">Munich</a>, Germany</li></td>
 			</tr>
 			<tr>
 				<td><li><a href="https://www.regonline.com/builder/site/Default.aspx?eventid=194661" target="blank">Antwerp</a>, Belgium</li></td>
