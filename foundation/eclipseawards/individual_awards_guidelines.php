@@ -58,7 +58,7 @@
 		
 		<p>
 			Nominations open December 14, 2007 and close January 25, 2008.  After nominations are posted, voting commences January 30,
-			2008 and finishes February 21, 2008.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2008</a>.
+			2008 and finishes February 21, 2008 at 5:00 pm EST.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2008</a>.
 		</p>
 
 		<p>
