@@ -83,7 +83,7 @@
 				<li><font color="#A9A9A9">Nominations open - December 14, 2007</font></li>
 				<li><font color="#A9A9A9">Nominations close - January 25, 2008</font></li>
 				<li><font color="#A9A9A9">Voting begins for Individual Awards - January 30, 2008</font></li>
-				<li>Voting ends for Individual Awards - February 21, 2008</font></li>
+				<li><font color="#A9A9A9">Voting ends for Individual Awards - February 21, 2008</font></li>
 				<li>Awards Announced - March 17, 2008</li>
 			</ul>
 		<br><br>	
@@ -96,7 +96,7 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/press-release/20080130_awards.php">Vote for the Individual Awards</a></li>			
+				<li><a href="index.php">Awards Categories</a></li>			
 				<li><a href="technology_nominations.php">Current Technology Nominations</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
