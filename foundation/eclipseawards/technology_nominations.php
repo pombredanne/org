@@ -138,7 +138,6 @@ ob_start();
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="index.php">Awards Categories</a></li>
 				<li><a href="index.php">Awards Categories</a></li>			
 				<li><a href="technology_nominations.php">Current Technology Nominations</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
