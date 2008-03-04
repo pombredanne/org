@@ -36,7 +36,7 @@
 		</p>
 		<p>
 			<ul>
-				<li><b>Top Ambassador</b>: Ed Merks and Jeff McAffer</li>
+				<li><b>Top Ambassador</b>: Jeff McAffer and Ed Merks</li>
 				<li><b>Top Committer</b>: Chris Aniszczyk, Mik Kersten and Paul Webster</li>
 				<li><b>Top Contributor</b>: Jacek Pospychala and Remy Chi Jian Suen</li>
 				<li><b>Top Newcomer Evangelist</b>: Mark Dexter, Walter Harley and Eric Rizzo</li>
