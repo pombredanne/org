@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20080304_AwardsFinalists.php">Finalists Announced for Eclipse Community Awards 2008</a> - March 4th, 2008</li>
 		<li><a href="20080221_higgins.php">Eclipse Releases Its First User-Centric Identity Framework</a> - February 21st, 2008</li>
 		<li><a href="20080219_RCPtraining.php">Eclipse RCP Training Series</a> - February 19th, 2008</li>
 		<li><a href="20080213_riena.php">Eclipse Riena Project Enhances Building Enterprise Applications Using Eclipse RCP</a> - February 13th, 2008</li>
