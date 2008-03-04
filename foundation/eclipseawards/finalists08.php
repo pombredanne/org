@@ -38,8 +38,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
 			<ul>
-				<li class="finalist">Ed Merks</li>
 				<li class="finalist">Jeff McAffer</li>
+				<li class="finalist">Ed Merks</li>
 				<br>
 			</ul>
 		</div>
