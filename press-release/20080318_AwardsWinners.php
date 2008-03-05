@@ -48,11 +48,11 @@
 			<li><strong>Best Commercial Eclipse-Based Developer Tool</strong>: product (<a href="website">website</a>).
 			<ul><li>The finalists are Nexaweb Studio (<a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">http://www.nexaweb.com/home/us/index.html@cid=2301.html</a>),
 			Polarion ALM Team for Subversion (<a href="http://www.polarion.com/products/alm/team.php">http://www.polarion.com/products/alm/team.php</a>)
-			and Wind River Workbench (<a href="http://www.windriver.com/products/development_suite/">http://www.windriver.com/products/development_suite/</a>).</li></ul></li>
+			and Wind River Workbench (<a href="http://www.windriver.com/products/development_suite/">http://www.windriver.com/products/development_suite</a>).</li></ul></li>
 			
 			<li><strong>Best Open Source Eclipse-Based Developer Tool</strong>: product (<a href="website">website</a>).
 			<ul><li>The finalist is EclEmma (<a href="http://www.eclemma.org">http://www.eclemma.org</a>)
-			and Spring IDE (<a href="http://springide.org/blog/">http://springide.org/blog/</a>).</li></ul></li>
+			and Spring IDE (<a href="http://springide.org/blog/">http://springide.org/blog</a>).</li></ul></li>
 			 
 			<li><strong>Best Commercial Equinox Application</strong>: product (<a href="website">website</a>).
 			<ul><li>The finalist is BusinessReport Studio (<a href="http://www.birt-exchange.com/modules/products/index.php?productid=3">http://www.birt-exchange.com/modules/products/index.php?productid=3</a>)
@@ -60,11 +60,11 @@
 			
 			<li><strong>Best Commercial RCP Application</strong>: product (<a href="website">website</a>).
 			<ul><li>The finalist is openVXML (<a href="http://www.openmethods.com/products.php">http://www.openmethods.com/products.php</a>)
-			and XMIND 2008 (<a href="http://www.xmind.org/us/">http://www.xmind.org/us/</a>).</li></ul></li>
+			and XMIND 2008 (<a href="http://www.xmind.org/us/">http://www.xmind.org/us</a>).</li></ul></li>
 						
 			<li><strong>Best Open Source RCP Application</strong>: product (<a href="website">website</a>).
-			<ul><li>The finalist is Apache Directory Studio (<a href="http://directory.apache.org/studio/">http://directory.apache.org/studio/</a>)
-			and MyTourbook (<a href="http://mytourbook.sourceforge.net/mytourbook/">http://mytourbook.sourceforge.net/mytourbook/</a>).</li></ul></li>			
+			<ul><li>The finalist is Apache Directory Studio (<a href="http://directory.apache.org/studio/">http://directory.apache.org/studio</a>)
+			and MyTourbook (<a href="http://mytourbook.sourceforge.net/mytourbook/">http://mytourbook.sourceforge.net/mytourbook</a>).</li></ul></li>			
 		</ul>
 		<p><strong>About the Eclipse Foundation</strong><br />
 		Eclipse is an open source community whose projects are focused on providing an extensible development platform and application
