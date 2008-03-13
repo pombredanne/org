@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
       	<p><br />
-        The Eclipse Foundation announced the results of the Add-in Provider and Committer elections for representatives to the board of directors. 
+        <b>OTTAWA &#150; March 14, 2008</b> &#150; The Eclipse Foundation today announced the results of the Add-in Provider and Committer elections for representatives to the board of directors. 
         <br/><br/>Congratulations to Tracy Ragan, Mike Taylor and Todd Williams for being re-elected, and Robert Day and Emma McGrattan as new Add-in Provider representatives. 
         <br/><br/>Chris Aniszczyk, Jeff McAffer and Ed Merks will be returning as Committer representatives, joined by the newly elected Doug Gaff and Mik Kersten.
         We&#146;re looking forward to working with you on the Eclipse Foundation Board of Directors. <br />
