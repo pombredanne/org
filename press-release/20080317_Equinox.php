@@ -64,7 +64,7 @@ $html = <<<EOHTML
 			operating systems (Linux, Windows, Solaris, etc).  Other component models tend to be operating system specific or tied to
 			a specific deployment tier.</li>
 			<li>Developers using Equinox have much more flexibility in assembling and customizing their application and runtime
-			platform.  Instead of a �one size fits all� approach, developers can now select components from a variety of component
+			platform.  Instead of a"one size fits all" approach, developers can now select components from a variety of component
 			producers, customize the components for their specific needs and assemble the required components to create individual
 			solutions.</li>
 			<li>Similar to how Eclipse solved the developer tools integration challenge, Equinox provides a standard integration
@@ -72,10 +72,10 @@ $html = <<<EOHTML
 			</ul>
 		</p>
 		
-		<p>�Launching the Equinox community to focus on runtimes is a natural evolution of Eclipse,� said Mike Milinkovich, Executive
-		Director of the Eclipse Foundation.  �Our community has already developed runtime projects like RCP, RAP, Swordfish, EclipseLink
+		<p>"Launching the Equinox community to focus on runtimes is a natural evolution of Eclipse," said Mike Milinkovich, Executive
+		Director of the Eclipse Foundation.  "Our community has already developed runtime projects like RCP, RAP, Swordfish, EclipseLink
 		and ECF.  This new community will help organize and foster additional projects that focus on making it easier to develop and
-		deploy software.�</p>
+		deploy software."</p>
 		
 		<p>More details about the Equinox community can be found at <a href="http://www.eclipse.org/equinox-portal" target="blank">
 		eclipse.org/equinox-portal</a>, including a white paper describing the concepts of CODA.</p>
