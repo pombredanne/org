@@ -23,8 +23,10 @@ $html = <<<EOHTML
 <div id="maincontent">
 	<div id="midcolumn">
 		<h2>Press Release</h2>
-
+		
+		<center>
 		<h1>$pageTitle</h1>
+		</center>
 		
 		<p><strong>EclipseCon 2008, SANTA CLARA, CA &#150; March 17, 2008 &#150; </strong>
 		The Eclipse Foundation today announced a new initiative to develop and promote open source runtime technology based on Equinox, a
