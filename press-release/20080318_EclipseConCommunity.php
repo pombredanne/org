@@ -214,7 +214,7 @@ $html = <<<EOHTML
 			<li><b>Skyway Software</b> announces that Skyway Visual Perspectives offers unique Eclipse plug-in capabilities for
 			Spring.  With Skyway Visual Perspectives, developers now can model their entire solution (including data structures,
 			business logic, and rich user-interfaces) or simply switch views and code whatever they need, whenever necessary.
-			<a hef="http://www.skywayperspectives.org." target="blank">Read More</a><br>
+			<a href="http://www.skywayperspectives.org." target="blank">Read More</a><br>
 			<a href="http://www.skywaysoftware.com/lp/eclipsecon2008.php" target="blank">www.skywaysoftware.com/lp/eclipsecon2008.php</a>
 			<br><br>
 			</li>
