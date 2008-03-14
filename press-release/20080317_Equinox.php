@@ -47,9 +47,9 @@ $html = <<<EOHTML
 			project (Eclipse RT).   The mission of this new top-level project is to foster, promote and house runtime efforts in the
 			Eclipse community.  The Project Management Committee (PMC) will be led by Jochen Krause (Innoopract) and Jeff McAffer
 			(Code 9), and will include Douglas Clarke (Oracle), Ricco Deutscher (Sopera) and Thomas Watson (IBM).  Eclipse RT will
-			initially include the following sub-projects:  Eclipse Communication Framework (ECF), EclipseLink, Equinox, Rich Ajax
-			Platform (RAP), Riena, and Swordfish.</li>
-			<li>A new Equinox community portal has been launched on the Eclipse web site.  The portal is focused on promoting and
+			initially include the following sub-projects:  <a href="http://www.eclipse.org/ecf/">Eclipse Communication Framework (ECF)</a>, <a href="http://www.eclipse.org/eclipselink/">EclipseLink</a>, 
+			<a href="http://www.eclipse.org/equinox/">Equinox</a>, <a href="http://www.eclipse.org/rap/">Rich Ajax Platform (RAP)</a>, <a href="http://www.eclipse.org/riena/">Riena</a>, and <a href="http://www.eclipse.org/swordfish/">Swordfish</a>.</li>
+			<li>A new <a href="http://www.eclipse.org/equinox-portal/">Equinox community portal</a> has been launched on the Eclipse web site.  The portal is focused on promoting and
 			educating developers on Equinox, OSGi and related Eclipse runtime projects.  Developers are able to download tutorials,
 			videocasts and webinars to educate them on the new approach for building software.</li>
 			<li>More than 20 companies have indicated their support and participation in the Equinox community.</li>
@@ -64,7 +64,7 @@ $html = <<<EOHTML
 			operating systems (Linux, Windows, Solaris, etc).  Other component models tend to be operating system specific or tied to
 			a specific deployment tier.</li>
 			<li>Developers using Equinox have much more flexibility in assembling and customizing their application and runtime
-			platform.  Instead of a ‘one size fits all’ approach, developers can now select components from a variety of component
+			platform.  Instead of a ï¿½one size fits allï¿½ approach, developers can now select components from a variety of component
 			producers, customize the components for their specific needs and assemble the required components to create individual
 			solutions.</li>
 			<li>Similar to how Eclipse solved the developer tools integration challenge, Equinox provides a standard integration
@@ -72,10 +72,10 @@ $html = <<<EOHTML
 			</ul>
 		</p>
 		
-		<p>“Launching the Equinox community to focus on runtimes is a natural evolution of Eclipse,” said Mike Milinkovich, Executive
-		Director of the Eclipse Foundation.  “Our community has already developed runtime projects like RCP, RAP, Swordfish, EclipseLink
+		<p>ï¿½Launching the Equinox community to focus on runtimes is a natural evolution of Eclipse,ï¿½ said Mike Milinkovich, Executive
+		Director of the Eclipse Foundation.  ï¿½Our community has already developed runtime projects like RCP, RAP, Swordfish, EclipseLink
 		and ECF.  This new community will help organize and foster additional projects that focus on making it easier to develop and
-		deploy software.”</p>
+		deploy software.ï¿½</p>
 		
 		<p>More details about the Equinox community can be found at <a href="http://www.eclipse.org/equinox-portal" target="blank">
 		eclipse.org/equinox-portal</a>, including a white paper describing the concepts of CODA.</p>
