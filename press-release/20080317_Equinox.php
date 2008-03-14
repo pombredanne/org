@@ -102,6 +102,16 @@ $html = <<<EOHTML
 
 </div>
 
+<div id="rightcolumn">
+	<div class="sideitem">
+		<h6>Related Links</h6>
+		<ul>
+			<li><a href="/equinox-portal/quotes.php">Who is using Equinox?</a></li>
+			<li><a href="/equinox-portal/whitepaper/20080310_equinox.php">Whitepaper</a></li>
+		</ul>
+	</div>
+</div>
+
 
 		
 
