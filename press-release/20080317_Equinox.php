@@ -46,7 +46,7 @@ $html = <<<EOHTML
 			<li>The Eclipse Foundation Board of Directors has approved and created a new top-level project called the Eclipse Runtime
 			project (Eclipse RT).   The mission of this new top-level project is to foster, promote and house runtime efforts in the
 			Eclipse community.  The Project Management Committee (PMC) will be led by Jochen Krause (Innoopract) and Jeff McAffer
-			(Code 9), and will include Douglas Clarke (Oracle), Ricco Deutscher (Sopera) and Thomas Watson (IBM).  Eclipse RT will
+			(Code 9), and will include Douglas Clarke (Oracle), Ricco Deutscher (SOPERA) and Thomas Watson (IBM).  Eclipse RT will
 			initially include the following sub-projects:  <a href="http://www.eclipse.org/ecf/">Eclipse Communication Framework (ECF)</a>, <a href="http://www.eclipse.org/eclipselink/">EclipseLink</a>, 
 			<a href="http://www.eclipse.org/equinox/">Equinox</a>, <a href="http://www.eclipse.org/rap/">Rich Ajax Platform (RAP)</a>, <a href="http://www.eclipse.org/riena/">Riena</a>, and <a href="http://www.eclipse.org/swordfish/">Swordfish</a>.</li>
 			<li>A new <a href="http://www.eclipse.org/equinox-portal/">Equinox community portal</a> has been launched on the Eclipse web site.  The portal is focused on promoting and
