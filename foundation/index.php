@@ -48,7 +48,7 @@
           	<li><A href="directions.php">Directions:</A>
 	          How to get to the Eclipse Foundation office in Ottawa.
           	</li>
-          	li><A href="directions_Portland.php">Directions:</A>
+          	<li><A href="directions_Portland.php">Directions:</A>
 	          How to get to the Eclipse Foundation office in Portland.
           	</li>
           </ul>
