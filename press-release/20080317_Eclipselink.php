@@ -45,10 +45,6 @@ $html = <<<EOHTML
 		
 		<p>More details about the EclipseLink project and JSR 317 can be found at: <a href="http://www.eclipse.org/eclipselink/">http://www.eclipse.org/eclipselink/</a>  <a href="http://jcp.org/en/jsr/detail?id=317">http://jcp.org/en/jsr/detail?id=317</a></p>
 		
-		
-		<p>More details about the Equinox community can be found at <a href="http://www.eclipse.org/equinox-portal" target="blank">
-		eclipse.org/equinox-portal</a>, including a white paper describing the concepts of CODA.</p>
-		
 		<p><b>About the Eclipse Foundation</b><br>
 		Eclipse is an open source community whose projects are focused on providing an extensible development platform and application
 		frameworks for building software. Eclipse provides extensible tools and frameworks that span the software development
