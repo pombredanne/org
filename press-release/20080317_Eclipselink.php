@@ -26,8 +26,9 @@ $html = <<<EOHTML
 		
 		<center>
 		<h1>$pageTitle</h1>
+		<p><i>Open Source Persistence Framework Builds on Contribution from Oracle </i></p>		
 		</center>
-		<p><i>Open Source Persistence Framework Builds on Contribution from Oracle </i></p>
+
 		<p><strong>EclipseCon 2008, SANTA CLARA, CA &#150; March 17, 2008 &#150; </strong>
 		The Eclipse Foundation today announced that Sun, the lead for the Java(TM) Persistence API (JPA) 2.0, JSR 317 standard has selected the EclipseLink project as the reference implementation. The Eclipse Persistence Services Project (EclipseLink), led by Oracle, delivers an open source runtime framework supporting key persistence standards. The EclipseLink project provides a rich set of services that address complex mapping, performance and scalability and advanced functionality required for enterprise Java applications. </p>
 		
