@@ -35,18 +35,18 @@
 			<li><strong>Top Ambassador</strong>: Ed Merks.
 				<ul><li>The finalist is Jeff McAffer.</li></ul></li>
 			<li><strong>Top Committer</strong>: Chris Aniszczyk.
-				<ul><li>The finalists are Mik Kersten / Paul Webster.</li></ul></li>
+				<ul><li>The finalists are Mik Kersten and Paul Webster.</li></ul></li>
 			<li><strong>Top Contributor</strong>:  Remy Chi Jian Suen.
 				<ul><li>The finalist is Jacek Pospychala.</li></ul></li>
 			<li><strong>Top Newcomer Evangelist</strong>: Eric Rizzo.
-				<ul><li>The finalists are Mark Dexter / Walter Harley.</li></ul></li>
+				<ul><li>The finalists are Mark Dexter and Walter Harley.</li></ul></li>
 		</ul>
 		<p>The Technology Awards recognize both Eclipse-based open source projects and commercial products. Winners were selected by a
 		panel of judges from the Eclipse community.  Nominated developer tools, Equinox applications and RCP applications were evaluated
 		on their user interfaces, innovation and comprehensiveness.</p>
 		<ul>
 			<li><strong>Best Commercial Eclipse-Based Developer Tool</strong>: Wind River Workbench (<a href="http://www.windriver.com/products/development_suite/">http://www.windriver.com/products/development_suite/</a>).
-			<ul><li>The finalists are Nexaweb Studio (<a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">http://www.nexaweb.com/home/us/index.html@cid=2301.html</a>) / 
+			<ul><li>The finalists are Nexaweb Studio (<a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">http://www.nexaweb.com/home/us/index.html@cid=2301.html</a>) and 
 			Polarion ALM Team for Subversion (<a href="http://www.polarion.com/products/alm/team.php">http://www.polarion.com/products/alm/team.php</a>).</li></ul></li>
 			
 			<li><strong>Best Open Source Eclipse-Based Developer Tool</strong>: EclEmma (<a href="http://www.eclemma.org">http://www.eclemma.org</a>).
