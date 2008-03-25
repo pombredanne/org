@@ -84,6 +84,22 @@
 		</p>
 							
 	</div>
+
+	<!-- remove the entire <div> tag to omit the right column!  -->
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Awards Categories</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners08.php">Winners &amp; Finalists</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_nominations.php">Technology Nominations</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/judges08.php">Technology Judges</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/awards_nominations.php">How to Make a Nomination</a></li>
+			</ul>
+		</div>
+	</div>	
 		
 </div>
 
