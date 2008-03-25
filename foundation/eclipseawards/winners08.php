@@ -124,9 +124,12 @@ ob_start();
 		<div class="sideitem">
 			<h6>Awards Navigation</h6>
 			<ul>
-				<li><a href="winners.php">Award Winners</a></li>
-				<li><a href="judges.php">Judges</a></li>
-				<li><a href="index.php">Explanation of Awards Categories</a></li>				
+				<li><a href="index.php">Awards Categories</a></li>
+				<li><a href="winners08.php">Winners &amp; Finalists</a></li>
+				<li><a href="technology_nominations.php">Technology Nominations</a></li>
+				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
+				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
+				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>			
 			</ul>
 		</div>
 	</div>
