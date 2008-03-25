@@ -36,13 +36,25 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Commercial Awards</h3>
 			<ul>
-				<li> </li>
+				<li>Ryan Brooks - Boeing</li>
+				<li>Michael Cot&eacute; - RedMonk</li>
+				<li>Don Dingee - Embedded Computing Design</li>
+				<li>Don Dunne - Boeing</li>
+				<li>Jeffrey Hammond - Forrester Research</li>
+				<li>Alan Zeichick - BZ Media</li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Open Source Awards</h3>
 			<ul>
-				<li> </li>
+				<li>Doug Clarke - EclipseLink Project</li>
+				<li>Kenn Hussey - Modeling Project</a></li>
+				<li>Mik Kersten - Mylyn Project</li>
+				<li>Markus Knauer - g-Eclipse &amp; Packaging Projects</li>
+				<li>Christian Kurzke - Device Software Devlopment Platform (DSDP) Project</li>
+				<li>Jeff McAffer - Equinox and Plugin Development Environment (PDE) Projects</li>
+				<li>Greg Watson - Parallel Tools Platform (PTP) Project</li>
+				<li>David Williams - Web Tools Project</li>	
 			</ul>
 		</div>		
 	
@@ -54,10 +66,12 @@ ob_start();
 			<h6>Awards Navigation</h6>
 			<ul>
 				<li><a href="index.php">Awards Categories</a></li>
-				<li><a href="awards_nominations.php">Make a Nomination</a></li>
+				<li><a href="winners08.php">Winners &amp; Finalists</a></li>
+				<li><a href="technology_nominations.php">Technology Nominations</a></li>
+				<li><a href="judges08.php">Technology Judges</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
-				<li><a href="technology_nominations.php">Current Technology Nominations</a></li>
+				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>
 			</ul>
 		</div>
 	</div>
