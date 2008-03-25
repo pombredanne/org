@@ -70,8 +70,7 @@ ob_start();
 			</ul>
 		</div>
 
-	<br><br>
-	<h2>Technology Awards Finalists</h2>
+	<h2><br>Technology Awards Finalists</h2>
 		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
 			by this year's judging panels.</p>
 
