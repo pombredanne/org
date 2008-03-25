@@ -52,7 +52,7 @@ ob_start();
 				<li>Mik Kersten - Mylyn Project</li>
 				<li>Markus Knauer - g-Eclipse &amp; Packaging Projects</li>
 				<li>Christian Kurzke - Device Software Devlopment Platform (DSDP) Project</li>
-				<li>Jeff McAffer - Equinox and Plugin Development Environment (PDE) Projects</li>
+				<li>Jeff McAffer - Equinox &amp; Plugin Development Environment (PDE) Projects</li>
 				<li>Greg Watson - Parallel Tools Platform (PTP) Project</li>
 				<li>David Williams - Web Tools Project</li>	
 			</ul>
