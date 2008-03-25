@@ -90,6 +90,7 @@
 				<li><a href="index.php">Awards Categories</a></li>
 				<li><a href="winners08.php">Winners &amp; Finalists</a></li>
 				<li><a href="technology_nominations.php">Technology Nominations</a></li>
+				<li><a href="judges08.php">Technology Judges</a></li>
 				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
 				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
 				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>
