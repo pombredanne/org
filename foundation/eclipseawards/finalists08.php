@@ -40,7 +40,6 @@ ob_start();
 			<ul>
 				<li class="finalist">Jeff McAffer</li>
 				<li class="finalist">Ed Merks</li>
-				<br>
 			</ul>
 		</div>
 		
@@ -59,7 +58,6 @@ ob_start();
 			<ul>
 				<li class="finalist">Jacek Pospychala</li>
 				<li class="finalist">Remy Chi Jian Suen</li>
-				<br>
 			</ul>
 		</div>
 
@@ -106,16 +104,14 @@ ob_start();
 			<ul>
 				<li class="finalist"><a href="http://www.openmethods.com/products.php">openVXML</a></li>
 				<li class="finalist"><a href="http://www.xmind.org/us/">XMIND 2008</a></li>
-				<br>
 			</ul>
-		</div>		
+		</div>	
+			
 		<div class="homeitem3col">
-
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://directory.apache.org/studio">Apache Directory Studio</a></li>
-				<li class="finalist"><a href="http://mytourbook.sourceforge.net/ ">MyTourbook</a></li>
-				<br>
+				<li class="finalist"><a href="http://mytourbook.sourceforge.net/">MyTourbook</a></li>
 			</ul>
 		</div>
 	
