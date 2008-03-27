@@ -56,17 +56,17 @@
 			</ul>
 			<h3>Eclipse Board Directives and Resolutions</h3>
 			<ul>
-				<li><a href="Eclipse_Using_Proprietary_Tools_Final.html">Using Proprietary Tools:</a> This is a Board Resolution outlining 
+				<li><a href="Eclipse_Using_Proprietary_Tools_Final.php">Using Proprietary Tools:</a> This is a Board Resolution outlining 
 					the policies and procedures for projects using proprietary tools in their development process.</li> 
 				<li><a href="Eclipse_Policy_and_Procedure_for_3rd_Party_Dependencies_Final.pdf">Third-Party Dependencies:</a> This document contains
 					the guidelines for the review of third-party dependencies.</li>
 				<li><a href="Eclipse_SpecOrgs_final.pdf">Standards and Specifications Policy:</a>
 					This document describes how the Eclipse Foundation and Eclipse projects 
 					interact with standards and specifications organizations.</li>
-				<li><a href="Eclipse_Project_Requirements.html">Project Requirements:</a> 
+				<li><a href="Eclipse_Project_Requirements.php">Project Requirements:</a> 
 					This document is a Board Resolution about the user interface and project data 
 					guidelines for Eclipse projects.</li>
-				<li><a href="Eclipse_Project_Usability.html">Project Usability:</a> 
+				<li><a href="Eclipse_Project_Usability.php">Project Usability:</a> 
 					This is a Board Resolution about requirements to improve project usability, 
 					initial user experience, and extensibility.</li>
 			</ul>
