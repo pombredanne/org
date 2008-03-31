@@ -37,7 +37,7 @@ $html = <<<EOHTML
 			<ul class="paddedlist" style="padding-left:10px;">
 				<li>e4 was a truly diverse community effort that involved over 1400 individuals.</li>
 				<li>e4 was developed in a record time, proving the power of the open source development model.</li>
-				<li>e4 is a significantly reduced download size, highlighting the efficiency of the e4 code.</li>
+				<li>e4 has significantly reduced the size of the download, highlighting the efficiency of the e4 code.</li>
 				<li>e4 does not require documentation, due to the user friendly approach to api development at Eclipse.</li>
 				<li>e4 will be released under all 57 OSI approved licenses, demonstrating how OSS license interoperability can work.</li>
 				<li>e4 is backward compatible; all plug-ins ever developed for any version of Eclipse, VisualAge for Java, Facebook, or Hesware's Super Zaxxon run without modification.</li>
