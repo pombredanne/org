@@ -28,7 +28,7 @@ $html = <<<EOHTML
 		<h1>$pageTitle</h1>
 		</center>
 		
-		<p><strong>SANTA CLARA, Calif., April 1, 2008 - </strong>
+		<p><strong>Ottawa, Ontario, April 1, 2008 - </strong>
 		 The Eclipse Foundation is pleased to announce the immediate availability of the next major release of the Eclipse platform, code named e4.  e4, which is supported on all known hardware and operating systems, redefines web-based applications and application development. It provides the ultimate in flexibility, extensibility and customization for embedded, mobile, desktop, server and cloud development </p>
 		
 		<p>e4 represents a significant milestone in the history of the Eclipse community.  It accomplished a number of important aspects that will propel Eclipse into the next dimension of open source communities, specifically:</p>
