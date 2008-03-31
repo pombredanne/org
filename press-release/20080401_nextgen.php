@@ -45,9 +45,9 @@ $html = <<<EOHTML
 			</ul>
 		</p>
 		
-		<p>'e4 is an amazing project and is truly something for the history books. When they first told me that all the attendees at EclipseCon were going to hack on e4 I just didn't believe it.  However, it just goes to show the Eclipse community knows how to create great technology.   I just can't believe they were able to do it in 4 days.  Congrats to all who participated in making e4 a great platform.'</p>
+		<p>"e4 is an amazing project and is truly something for the history books. When they first told me that all the attendees at EclipseCon were going to hack on e4 I just didn't believe it.  However, it just goes to show the Eclipse community knows how to create great technology.   I just can't believe they were able to do it in 4 days.  Congrats to all who participated in making e4 a great platform."</p>
 		
-		<p>"When I found my Eclipse platform committer credentials in the EclipseCon registration bag, I thought it was a joke. But after committing three patches of mine that had been sitting in Bugzilla since 2002 to HEAD, I was, like, totally convinced! I can't wait to get my committer shirt at next year's EclipseCon," </p>
+		<p>"When I found my Eclipse platform committer credentials in the EclipseCon registration bag, I thought it was a joke. But after committing three patches of mine that had been sitting in Bugzilla since 2002 to HEAD, I was, like, totally convinced! I can't wait to get my committer shirt at next year's EclipseCon." </p>
 		
 		<p>The Eclipse Foundation has also announced a change in their naming policy.  Effective immediately, all release names will be a letter and number.  The use of Jupiter moons for release names will be banned.   This new naming convention will allow for greater innovation in the Eclipse community.</p>
 		
