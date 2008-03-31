@@ -29,29 +29,43 @@ $html = <<<EOHTML
 		</center>
 		
 		<p><strong>Ottawa, Ontario, April 1, 2008 - </strong>
-		 The Eclipse Foundation is pleased to announce the immediate availability of the next major release of the Eclipse platform, code named e4.  e4, which is supported on all known hardware and operating systems, redefines web-based applications and application development. It provides the ultimate in flexibility, extensibility and customization for embedded, mobile, desktop, server and cloud development </p>
+		 The Eclipse Foundation is pleased to announce the immediate availability of the next major release of the Eclipse platform, code named e4.  e4, which is supported on all known hardware and operating systems, redefines web-based applications and application development. It provides the ultimate in flexibility, extensibility and customization for embedded, mobile, desktop, server and cloud development.</p>
 		
-		<p>e4 represents a significant milestone in the history of the Eclipse community.  It accomplished a number of important aspects that will propel Eclipse into the next dimension of open source communities, specifically:</p>
+		<p>e4 represents a significant milestone in the history of the Eclipse community.  It is not only a major rewrite of the Eclipse platform, it also accomplished a number of important aspects that will propel Eclipse into the next dimension of open source communities, specifically:</p>
 		
 		<p>
 			<ul class="paddedlist" style="padding-left:10px;">
 				<li>e4 was a truly diverse community effort that involved over 1400 individuals.</li>
-				<li>Proving the power of the open source development model, e4 was developed in a record time.</li>
-				<li>The efficiency of the e4 code has reduced the Eclipse download size to be under 245kb.</li>
-				<li>No documentation is required for e4, due to the user friendly approach to api development at Eclipse.</li>
-				<li>E4 will be released under all 57 OSI approved licenses, demonstrating how OSS license interoperability can work.</li>
-				<li>Full backward compatibility; all plug-ins ever developed for any version of Eclipse, VisualAge for Java, Facebook, or Hesware's Super Zaxxon run without modification.</li>
-				<li>Next-generation provisioning, code named "p2", anticipates your needs and downloads extended functionality mere minutes before you actually need it.</li>
+				<li>e4 was developed in a record time, proving the power of the open source development model.</li>
+				<li>e4 is a significantly reduced download size, highlighting the efficiency of the e4 code.</li>
+				<li>e4 does not require documentation, due to the user friendly approach to api development at Eclipse.</li>
+				<li>e4 will be released under all 57 OSI approved licenses, demonstrating how OSS license interoperability can work.</li>
+				<li>e4 is backward compatibility; all plug-ins ever developed for any version of Eclipse, VisualAge for Java, Facebook, or Hesware's Super Zaxxon run without modification.</li>
+				<li>e4 includes next-generation provisioning, code named "p2", which anticipates your needs and downloads extended functionality mere minutes before you actually need it.</li>
 			</ul>
 		</p>
 		
-		<p>"e4 is an amazing project and is truly something for the history books. When they first told me that all the attendees at EclipseCon were going to hack on e4 I just didn't believe it.  However, it just goes to show the Eclipse community knows how to create great technology.   I just can't believe they were able to do it in 4 days.  Congrats to all who participated in making e4 a great platform."</p>
+		<p>'e4 is an amazing project and is truly something for the history books. When they first told me that all the attendees at EclipseCon were going to hack on e4 I just didn't believe it.  However, it just goes to show the Eclipse community knows how to create great technology.   I just can't believe they were able to do it in 4 days.  Congrats to all who participated in making e4 a great platform.'</p>
 		
-		<p>"When I found my Eclipse platform committer credentials in the EclipseCon registration bag, I thought it was a joke. But after committing three patches of mine that had been sitting in Bugzilla since 2002 to HEAD, I was, like, totally convinced! I can't wait to get my committer shirt at next year's EclipseCon,"</p>
+		<p>"When I found my Eclipse platform committer credentials in the EclipseCon registration bag, I thought it was a joke. But after committing three patches of mine that had been sitting in Bugzilla since 2002 to HEAD, I was, like, totally convinced! I can't wait to get my committer shirt at next year's EclipseCon," </p>
 		
-		<p>The Eclipse Foundation has also announced a change in their naming policy.  Effective immediately, all release names will be a letter and number.  The use of Jupiter moons for release names will be banned.   This new naming convention will allow for greater innovation in the Eclipse community.  
-		e4 is available for immediate download.  Users will automatically be updated through p2.  Products built on Eclipse Classic will instantly work on e4, no porting required. </p>
+		<p>The Eclipse Foundation has also announced a change in their naming policy.  Effective immediately, all release names will be a letter and number.  The use of Jupiter moons for release names will be banned.   This new naming convention will allow for greater innovation in the Eclipse community.</p>
+		
+		<p>e4 is available for <a href="e4.swf">immediate download</a>.  Users will automatically be updated through p2.  Products built on Eclipse Classic will instantly work on e4, no porting required.</p>
 
+		<p><strong>About the Eclipse Foundation</strong><br />
+		Eclipse is an open source community whose projects are focused on providing an extensible development platform and application
+		frameworks for building software. Eclipse provides extensible tools and frameworks that span the software development lifecycle,
+		including support for modeling, language development environments for Java, C/C++ and others, testing and performance, business
+		intelligence, rich client applications and embedded development. A large, vibrant ecosystem of major technology vendors,
+		innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse
+		Platform.</p>
+		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of
+		Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org">www.eclipse.org</a>.</p>
+		<br />
+		<center># # #</center> 
+		<br />		
+		
 	</div>
 
 </div>
