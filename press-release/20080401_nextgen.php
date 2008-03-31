@@ -51,7 +51,7 @@ $html = <<<EOHTML
 		
 		<p>The Eclipse Foundation has also announced a change in their naming policy.  Effective immediately, all release names will be a letter and number.  The use of Jupiter moons for release names will be banned.   This new naming convention will allow for greater innovation in the Eclipse community.</p>
 		
-		<p>e4 is available for <a href="e4.html">immediate download</a>.  Users will automatically be updated through p2.  Products built on Eclipse Classic will instantly work on e4, no porting required.</p>
+		<p>e4 is available for <a href="e4.html" target="_blank">immediate download</a>.  Users will automatically be updated through p2.  Products built on Eclipse Classic will instantly work on e4, no porting required.</p>
 
 		<p><strong>About the Eclipse Foundation</strong><br />
 		Eclipse is an open source community whose projects are focused on providing an extensible development platform and application
