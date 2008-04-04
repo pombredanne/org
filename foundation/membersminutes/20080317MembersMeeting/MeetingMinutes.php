@@ -55,7 +55,7 @@ There were five Project Updates:
 <li><a href="equinox.pdf">Equinox</a> </li>
 <li><a href="eilf.pdf">EILF</a> </li>
 <li><a href="memory.pdf">Memory Analyzer</a> </li>
-<li><a href="OSEE.pdf">Innovations</a> </li>
+<li><a href="OSEE.pdf">OSEE</a> </li>
 </ul>
 
 </p>
