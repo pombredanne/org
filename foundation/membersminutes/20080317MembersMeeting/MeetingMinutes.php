@@ -41,7 +41,7 @@ Guest Speaker Patrick Wagstrom gave a presetation on <a href="EclipseValueChains
 <p>
 There were four New Member Introductions:
 <ul>
-<li>Etish (slides to be posted soon)</li>
+<li><a href="etish.pdf">Etishfroglogic</a></li>
 <li><a href="frog.pdf">froglogic</a> </li>
 <li><a href="siemens.pdf">Siemens</a> </li>
 <li><a href="innovations.pdf">Innovations</a> </li>
