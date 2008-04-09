@@ -1,2 +1,3 @@
-Chris is a good guy, here is where his bio would be if there were one,
-and we'd make sure it showed up in the bio section on the board page.   Blah blah.
+This is where a sample bio would be for Chris.  These will for now be stored in local files, but will
+be added to the portal.  That will allow board members to edit their own information as
+needed.
