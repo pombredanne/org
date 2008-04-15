@@ -66,7 +66,7 @@ function display_one($fname, $lname, $param, $orgid = null) {
 	if($orgid != null) {
 		$img = "
 			<div>
-			<img valign='top' src='http://www.eclipse.org/membership/scripts/get_image.php?id=$orgid&size=small'>
+			<img src='http://www.eclipse.org/membership/scripts/get_image.php?id=$orgid&size=small'>
 			</div>
 		";
 	}
@@ -83,7 +83,7 @@ function display_one($fname, $lname, $param, $orgid = null) {
 					</div>
 					<br/>
 				</td>
-				<td><!--$photo-->$img</td>
+				<td valign='top'><!--$photo-->$img</td>
 			</tr>
 			<tr>
 				<td colspan='2'>
