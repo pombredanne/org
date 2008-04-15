@@ -36,6 +36,12 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20080415_JavaOneParty.php">Eclipse Party at JavaOne 2008</a> - March 14th, 2008</li>		
+		<li><a href="20080415_embedded.php">Eclipse Expands Open Source Technologies for Embedded and Mobile Developers</a> - April 15th, 2008</li>
+		<li><a href="20080318_EclipseConCommunity.php">Eclipse Kicks Off Annual EclipseCon Conference</a> - March 18th, 2008</li>
+		<li><a href="20080318_AwardsWinners.php">Eclipse Community Awards Winners Announced</a> - March 18th, 2008</li>	
+		<li><a href="20080317_EclipseLink.php">Eclipse Announces EclipseLink Project to Deliver JPA 2.0 Refernce Implementation</a> - March 17th, 2008</li>
+		<li><a href="20080317_Equinox.php">Eclipse Announces New Runtime Initiative around Equinox</a> - March 17th, 2008</li>
 		<li><a href="20080314_NewBoard.php">Eclipse Foundation Announces 2008 Board Member Election Results</a> - March 14th, 2008</li>
 		<li><a href="20080304_AwardsFinalists.php">Finalists Announced for Eclipse Community Awards 2008</a> - March 4th, 2008</li>
 		<li><a href="20080221_higgins.php">Eclipse Releases Its First User-Centric Identity Framework</a> - February 21st, 2008</li>
