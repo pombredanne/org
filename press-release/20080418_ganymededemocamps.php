@@ -20,7 +20,7 @@
 <div id="maincontent">
 	<div id="midcolumn">
 	
-		<h1 align="center">$pageTitle</h1>
+		<h1>$pageTitle</h1>
 		
 		<h2>Community Bulletin</h2>
 		
