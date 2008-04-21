@@ -30,18 +30,18 @@
      	 The demos can be of open source projects, research projects, applications based on Eclipse, commercial products using
      	 Eclipse or anything Eclipse related that you think will be of interest to the attendees.</p>
      	 
-     	 <p><b>Where and When are DemoCamps Being Organized?</b><br><br>
+     	 <p><b>Where and When are DemoCamps Being Organized?</b><br>
      	 DemoCamps will be organized all around the world during the month of June.
      	 Check out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Ganymede_Edition">
      	 DemoCamp wiki</a> for a location near you.  Also, register to let the organizers know you will be attending.  Space may be
      	 limited at some locations.</p>
      	 
-     	 <p><b>Can I Demo My Cool Stuff?</b></br><br>
+     	 <p><b>Can I Demo My Cool Stuff?</b><br>
      	 We encourage everyone to showcase what projects and products they&#146;re developing with Eclipse, especially technology related
      	 to the Ganymede release.  Please add your name as a presenter on the wiki page for your local DemoCamp.  If there
      	 isn&#146;t a DemoCamp near you, why not try to organize one in your city? </p>
      	 
-     	 <p><b>I Want to Help Organize a DemoCamp in My City</b></br><br>
+     	 <p><b>I Want to Help Organize a DemoCamp in My City</b><br>
      	 First check out the list of cities with <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Ganymede_Edition">DemoCamps
      	 already organized</a>.  If one already exists in your area, contact the organizer and volunteer to help out.
      	 If a city in your area is not on the list, then check out the  
