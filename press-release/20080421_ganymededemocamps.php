@@ -27,7 +27,7 @@
      	<p>To celebrate the Ganymede release in June, the Eclipse Foundation is inviting individuals to organize and attend
      	<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Ganymede_Edition">Eclipse DemoCamps</a> around
      	 the world.  The DemoCamps are informal meetings where Eclipse fans can present what they&#146;re doing with Eclipse.
-     	 The demos can be of Eclipse open source projects, research projects, applications based on Eclipse, commercial products using
+     	 The demos can be of open source projects, research projects, applications based on Eclipse, commercial products using
      	 Eclipse or anything Eclipse related that you think will be of interest to the attendees.</p>
      	 
      	 <p><b>Where and When are DemoCamps Being Organized?</b><br>
