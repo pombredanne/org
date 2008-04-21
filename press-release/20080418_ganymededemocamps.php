@@ -26,9 +26,9 @@
 		
      	<p>To celebrate the Ganymede release in June, the Eclipse Foundation is inviting individuals to organize and attend
      	<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Ganymede_Edition">Eclipse DemoCamps</a> around
-     	 the world.  Eclipse DemoCamps are informal meetings where Eclipse fans can present what they&#147;re doing with Eclipse.
-     	 The demos can be of research projects, Eclipse open source projects, applications based on Eclipse, commercial products using
-     	 Eclipse or whatever you think Eclipse related that you think will be of interest to the attendees.</p>
+     	 the world.  The DemoCamps are informal meetings where Eclipse fans can present what they&#146;re doing with Eclipse.
+     	 The demos can be of Eclipse open source projects, research projects, applications based on Eclipse, commercial products using
+     	 Eclipse or anything Eclipse related that you think will be of interest to the attendees.</p>
      	 
      	 <p><b>Where and When are DemoCamps Being Organized?</b><br>
      	 DemoCamps will be organized all around the world during the month of June.
@@ -37,14 +37,14 @@
      	 limited at some locations.</p>
      	 
      	 <p><b>Can I Demo My Cool Stuff?</b></br>
-     	 We want to encourage as many people as possible to showcase what they are doing with Eclipse, especially technology related
-     	 to the Ganymede release.  We encourage you to add your name as a presenter on the wiki page for your local DemoCamp.  If there
-     	 is no DemoCamp near you, why not try to organize one in your city? </p>
+     	 We encourage everyone to showcase what projects and products they&#146;re developing with Eclipse, especially technology related
+     	 to the Ganymede release.  Please add your name as a presenter on the wiki page for your local DemoCamp.  If there
+     	 isn&#146;t a DemoCamp near you, why not try to organize one in your city? </p>
      	 
      	 <p><b>I Want to Help Organize a DemoCamp in My City</b></br>
      	 First check out the list of cities with <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Ganymede_Edition">DemoCamps
-     	 already organized</a>.  If one already exists, contact the organizer and volunteer to help out.
-     	 If your city or a city in your area is not on the list, then check out the  
+     	 already organized</a>.  If one already exists in your area, contact the organizer and volunteer to help out.
+     	 If a city in your area is not on the list, then check out the  
      	 <a href="../../community/democamp/organizedemocamp.php">details for organizing a DemoCamp.</a></p>
  
  <br><br>
