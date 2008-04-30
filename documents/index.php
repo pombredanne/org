@@ -44,7 +44,7 @@
 				<li><a href="epl-v10.php">EPL (Eclipse Public License):</a> The Eclipse Public License is the software license 
 					used by	all Eclipse projects. You can also read it in 
 					<a href="Eclipse%20EPL%202003_11_10%20Final.pdf">pdf</a> form.</li>
-				<li><a href="Eclipse%20Logo%20Agreement%20%202004_04_14%20final.pdf">Logo Agreement:</a> 
+				<li><a href="Eclipse%20Logo%20Agreement%20%202008_04_30%20final.pdf">Logo Agreement:</a> 
 					The Logo Agreement is used to allow the Eclipse Foundation to use the
 					logos of its member companies.</li>
 				<li><a href="/projects/dev_process/development_process.php">Development Process:</a> 
