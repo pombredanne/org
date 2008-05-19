@@ -1,6 +1,6 @@
 Chris Brockmann was educated in  Germany, the United Kingdom and the USA. He 
-studied business administration in Gšttingen (Germany) and 
-Winston Salem (USA) where he earned a MBA degree. He spent 10 years 
+studied business administration in G&ouml;ttingen (Germany) and 
+Winston Salem (USA) where he earned an MBA degree. He spent 10 years 
 with Baan Company's Solutions Center Automotiv, where he 
 built a strong background in production and logistics 
 planning. Later he was in charge of automotive retail solution 
