@@ -12,6 +12,8 @@ require_once("/home/data/httpd/eclipse-php-classes/system/dbconnection_foundatio
 	#
 	# History:		DB-driven version Karl Matthias
 	#				2007-07-06
+	#				Further revamping and bios added by Karl Matthias
+	#				2008-04-01
 	#
 	#
 	#****************************************************************************
@@ -43,6 +45,54 @@ function mysql_error_check() {
 	}
 }
 
+function display_one($fname, $lname, $param, $orgid = null) {
+	$name = $fname . '_' . $lname;
+	if(file_exists('boardbios/' . $name . '.php')) {
+		$content = file_get_contents('boardbios/' . $fname . '_' . $lname . '.php');
+	}
+	
+//	if(file_exists('boardbios/photos/' . $name . '.jpg')) {
+//		$photo = "
+//			<div style='border-right: 1px solid #999999; 
+//				border-bottom: 1px solid #999999;
+//				margin-right: 1em;'>
+//			<div style='border: solid 1px black; padding: 1em'
+//			<img src='boardbios/photos/$name.jpg'>
+//			</div>
+//			</div>
+//		";
+//	}
+	
+	if($orgid != null) {
+		$img = "
+			<div>
+			<img src='http://www.eclipse.org/membership/scripts/get_image.php?id=$orgid&size=small'>
+			</div>
+		";
+	}
+	
+	return 	"<tr>
+				<td>
+					<span style='font-size: large; font-weight: bold'> " .
+						 ucwords($fname) . ' ' . ucwords($lname) . " 
+					</span>
+					<br/>
+					<div style='padding-left: 1em'>
+						$param<br/><br/>
+						$content <br/><!--$img--><br/>
+					</div>
+					<br/>
+				</td>
+				<td valign='top'><!--$photo-->$img</td>
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<div style='border-bottom: dotted 1px black;'></div><br/>
+				</td>
+			</tr>
+			";
+}
+
 # Lookup the relations and return the list
 function find_relations() {
 	global $dbh;
@@ -51,7 +101,7 @@ function find_relations() {
 	/*
 	 * members with company relationships
 	 */
-	$result = mysql_query("SELECT FName, LName, Name1 " .
+	$result = mysql_query("SELECT FName, LName, Name1, Organizations.OrganizationID " .
 			"FROM  People, OrganizationContacts, Organizations " .
 			"WHERE People.PersonID = OrganizationContacts.PersonID " .
 			"	AND Relation = 'BR' " .
@@ -60,8 +110,7 @@ function find_relations() {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
-		'</td><td>' . $row[Name1] . '</td>';
+			display_one($row['FName'], $row['LName'], $row[Name1], $row['OrganizationID']);
 	}
 
 	/*
@@ -75,8 +124,8 @@ function find_relations() {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
-			'</td><td>Elected add-in provider representative</td>';
+				display_one($row['FName'], $row['LName'], 'Elected Add-in provider representative');
+
 		}
 	}
 
@@ -91,8 +140,7 @@ function find_relations() {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
-			'</td><td>Elected committer representative</td>';
+				display_one($row['FName'], $row['LName'], 'Elected committer representative');
 		}
 	}
 
@@ -101,18 +149,9 @@ function find_relations() {
 
 ob_start();
 ?>
-<div style="padding-left: 2em">
+<div style="padding-left: 5em; width: 60%">
 <h1>Eclipse Foundation Board of Directors</h1>
-		<table border="0" cellspacing="5" cellpadding="2" width="67%" >
-  		<tr>
-    		<td width="49%">
-      		<p><b>Director</b><b> </b></p>
-
-    		</td>
-    		<td width="51%">
-      		<p><b>Organization</b></p>
-    		</td>
-    		</tr>
+<table>
 <?php
 $people = find_relations($planning_relations);
 ksort($people);
