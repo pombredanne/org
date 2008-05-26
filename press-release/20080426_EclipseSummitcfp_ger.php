@@ -26,6 +26,7 @@ $html = <<<EOHTML
 
 		<center>
 		<h1>$pageTitle</h1>
+		</center>
 
 		<p><strong>Ludwigsburg, Deutschland, 26. Mai 2008.</strong> - 
 		Die Eclipse Foundation veranstaltet vom 19. – 20. November 2008 ihren dritten Europa-Jahresgipfel, den „Eclipse Summit“, in Ludwigburg. Die Konferenz stellt den bedeutendsten Event für die europäische Eclipse Community dar. Hier erhalten die Teilnehmer die aktuellsten Informationen über die Eclipse Technologie, die Eclipse Foundation und deren Mitglieder, können sich austauschen sowie Kontakte für Kooperationen knüpfen.</p>

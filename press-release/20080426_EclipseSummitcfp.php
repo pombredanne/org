@@ -26,7 +26,8 @@ $html = <<<EOHTML
 
 		<center>
 		<h1>$pageTitle</h1>
-
+		</center>
+		
 		<p><strong>Ludwigsburg, Germany – May 26, 2008</strong> - 
 		The Eclipse Foundation is pleased to announce the 3rd annual Eclipse Summit Europe on November 19-20, 2008, in Ludwigsburg, Germany. The Eclipse Summit is the Foundation’s premier event designed to create opportunities for the European Eclipse community to explore, share, and collaborate on the latest ideas and information about Eclipse and its members. </p>
 		
@@ -62,7 +63,7 @@ $html = <<<EOHTML
 	</div>
 
 </div>
-
+w
 
 		
 
