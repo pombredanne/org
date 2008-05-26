@@ -25,6 +25,7 @@ $html = <<<EOHTML
 		<h2>Press Release</h2>
 
 		<center>
+		<h1>Eclipse Summit Europe</h1>
 		<h1>$pageTitle</h1>
 		</center>
 
