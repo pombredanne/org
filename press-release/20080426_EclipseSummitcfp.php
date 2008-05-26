@@ -69,7 +69,7 @@ w
 
 EOHTML;
 
-	$html = mb_convert_encoding($html, "HTML-ENTITIES", "auto");
+	$html = @mb_convert_encoding($html, "HTML-ENTITIES", "auto");
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
