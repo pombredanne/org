@@ -33,7 +33,7 @@ $html = <<<EOHTML
 		
 		<p>The conference will be preceeded by one day of symposia followed by two days of technical and business track sessions, selected keynotes, demos and networking gatherings.  The conference is a stimulating and dynamic event for Eclipse committers, contributors, adopters, add-in providers and service providers to learn, share expertise and discover new opportunities and solutions in the Eclipse ecosystem.</p> 
 
-		<p>The conference call for papers is now open and will close September 1, 2008.  Individuals are encouraged to submit proposals that focus on 1 of 4 categories: 1) Consumer Stories; 2) Technical Demos; 3) Ganymede updates; or 4) New & Noteworthy.  Guidelines for submissions are available at <a href="http.//eclipsesummit.org/summiteurope2008/submissions">http.//eclipsesummit.org/summiteurope2008/submissions</a>.</p>
+		<p>The conference call for papers is now open and will close September 1, 2008.  Individuals are encouraged to submit proposals that focus on 1 of 4 categories: 1) Consumer Stories; 2) Technical Demos; 3) Ganymede updates; or 4) New & Noteworthy.  Guidelines for submissions are available at <a href="http://eclipsesummit.org/summiteurope2008/submissions">http://eclipsesummit.org/summiteurope2008/submissions</a>.</p>
  
 		<p>Eclipse Summit Europe sponsorship packages are also now available at <a href="http://eclipsesummit.org/summiteurope2008/sponsorship">http://eclipsesummit.org/summiteurope2008/sponsorship</a>. Attendee registration will be open later in the summer.</p>
 				
