@@ -110,7 +110,7 @@ function find_relations() {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-			display_one($row['FName'], $row['LName'], $row[Name1], $row['OrganizationID']);
+			display_one($row['FName'], $row['LName'], $row['Name1'], $row['OrganizationID']);
 	}
 
 	/*
