@@ -153,7 +153,7 @@ ob_start();
 <h1>Eclipse Foundation Board of Directors</h1>
 <table>
 <?php
-$people = find_relations($planning_relations);
+$people = find_relations();
 ksort($people);
 foreach($people as $name=>$value) {
 	echo "		<tr>$value</tr>\n";
