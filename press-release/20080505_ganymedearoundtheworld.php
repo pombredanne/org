@@ -34,9 +34,11 @@
      	<a href="http://www.eclipse.org/ganymede/aroundtheworld.php">contest page</a>.  You may also win an Eclipse shirt in a random
      	draw by submitting a brief message or photo.</p>
      	 
-     	<p>All submissions will be added to the <a href="http://www.eclipse.org/ganymede/map.php">Ganymede Around the World map</a>.
-     	Entries in all languages are welcome and contest entries must be received by July 31, 2008.  Represent your place in Eclipse&#146;s
+     	<p>All submissions will be added to the Ganymede Around the World map. Entries in all languages are
+     	welcome and contest entries must be received by July 31, 2008.  Represent your place in Eclipse&#146;s
      	global community!</p>
+     	
+     	<p><a href="http://www.eclipse.org/ganymede/map.php"><b>See Ganymede Around the World</b></a></p>
  
  <br><br>
 </div>
