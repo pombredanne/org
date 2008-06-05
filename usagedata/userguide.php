@@ -43,6 +43,12 @@ ob_start();
 }
 </style>
 
+<p>The Usage Data Collector (UDC) collects information about how individuals
+are using the Eclipse platform. This information is periodically
+uploaded to servers hosted by The Eclipse Foundation. The intent is to
+use this data to help committers and organizations better understand how
+developers are using Eclipse.</p>
+
 <p>The UDC is designed to have a minimal impact on user
 experience. The impact on performance is negligible.</p>
 

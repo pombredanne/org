@@ -32,6 +32,11 @@
 <li><a href="faq.php">Frequently Asked Questions</a></li>
 <li><a href="terms.php">Terms of Use</a></li>
 </ul>
+
+<p>Reports</p>
+<ul>
+<li><a href="results.php">Aggregate data over a 14 day period</a></li>
+</ul>
 </div>
 
 <div class="sideitem">
