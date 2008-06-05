@@ -24,7 +24,7 @@
 #****************************************************************************
 
 # Begin: page-specific settings.  Change these.
-$pageTitle 		= "UDC Frequently Asked Questions (FAQ)";
+$pageTitle 		= "UDC Data Capture and Use FAQ";
 $pageKeywords	= "Eclipse, usage data, usagedata";
 $pageAuthor		= "Wayne Beaton";
 
@@ -37,9 +37,10 @@ ob_start();
 
 <h1><?= $pageTitle ?></h1>
 <p>This FAQ is concerned with questions regarding the capture and use
-of the data by the foundation. A technical FAQ that answers questions about
-the underlying technology is available on the Eclipse Packaging Project's
-<a href="/epp/usagedata/faq.php">Usage Data Collector component FAQ</a>.</p>
+of the data by The Eclipse Foundation. A technical FAQ that answers questions about
+the underlying technology is available on the 
+<a href="/epp/usagedata/faq.php">Usage Data Collector Technical FAQ</a>
+(hosted by the Eclipse Packaging Project).</p>
 
 <dl>
 	<dt>Where is the information stored?</dt>

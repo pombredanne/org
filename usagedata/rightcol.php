@@ -31,6 +31,7 @@
 <li><a href="userguide.php">User Guide</a></li>
 <li><a href="faq.php">Frequently Asked Questions</a></li>
 <li><a href="terms.php">Terms of Use</a></li>
+</ul>
 </div>
 
 <div class="sideitem">
@@ -43,6 +44,7 @@ You can find the code for it there.</p>
 <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.epp/?root=Technology_Project">Browse the code online</a></li>
 <li><a href="/epp/usagedata/UsageData.psf">Add the code to your workspace</a></li>
 <li><a href="/epp/usagedata/faq.php">Technical FAQ</a></li>
+</ul>
 </div>
 
 </div>

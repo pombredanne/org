@@ -123,6 +123,9 @@ the Usage Data Collector</h2>
 <p>If you have any questions or would like additional information about the Eclipse
 Usage Data Collector, please contact eclipse_udc@eclipse.org.</p>
 </div>
+
+<? include "rightcol.php"; ?>
+
 </div>
 <?php
 	$html = ob_get_contents();
