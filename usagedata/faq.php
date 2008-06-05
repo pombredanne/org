@@ -72,10 +72,10 @@ the underlying technology is available on the Eclipse Packaging Project's
 
 	<p>Two different keys are used to identify the source of the uploaded
 	data. The first key identifies the workstation; this key is stored
-	locally in your &quot;user home&quot; directory. The second key
-	identifies the workspace; this key is stored in the workspace. 
-	These keys are uploaded along with the
-	usage data; they allow us to correlate data.</p>
+	locally in your &quot;user home&quot; directory. The second key, stored
+	in the workspace, identifies the workspace. 
+	These keys, which allows us to correlate data, are uploaded along with the
+	usage data.</p>
 	</dd>
 	
 	<dt>Can I see what's been uploaded?</dt>
