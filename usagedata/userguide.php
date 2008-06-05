@@ -111,7 +111,7 @@ usage data.</p>
 
 </div>
 
-<? import "rightcol.php"; ?>
+<? include "rightcol.php"; ?>
 
 </div>
 <?php
