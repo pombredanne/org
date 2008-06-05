@@ -42,6 +42,7 @@ You can find the code for it there.</p>
 <li><a href="/epp/usagedata">UDC Component</a></li>
 <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.epp/?root=Technology_Project">Browse the code online</a></li>
 <li><a href="/epp/usagedata/UsageData.psf">Add the code to your workspace</a></li>
+<li><a href="/epp/usagedata/faq.php">Technical FAQ</a></li>
 </div>
 
 </div>
