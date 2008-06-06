@@ -36,6 +36,7 @@
 <p>Reports</p>
 <ul>
 <li><a href="results.php">Aggregate data over a 14 day period</a></li>
+<li><a href="usage.php">Usage trends</a></li>
 </ul>
 </div>
 

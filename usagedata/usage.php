@@ -12,7 +12,7 @@
 
 #*****************************************************************************
 #
-# results.php
+# usage.php
 #
 # Author: 		Wayne Beaton
 # Date:			June 6, 2008
@@ -23,12 +23,9 @@
 #****************************************************************************
 
 # Begin: page-specific settings.  Change these.
-$pageTitle 		= "Usage Data Collector Results";
+$pageTitle 		= "Usage Data Collector Usage Report";
 $pageKeywords	= "Eclipse, usage data, usagedata, cortez";
 $pageAuthor		= "Wayne Beaton";
-
-$tempdir = "./.metadata/.plugins/org.eclipse.epp.usagedata.recording";
-
 ob_start();
 ?>
 <link
@@ -36,13 +33,7 @@ ob_start();
 <div id="maincontent">
 <div id="midcolumn">
 
-<style>
-.homeitem li {
-	border-style: none
-}
-</style>
-
-<? include "results.html"; ?>
+<? include "usage.html"; ?>
 
 </div>
 </div>
