@@ -23,7 +23,7 @@
 #****************************************************************************
 
 # Begin: page-specific settings.  Change these.
-$pageTitle 		= "Usage Data Collector Usage Report";
+$pageTitle 		= "Usage Data Collector Project Pairings Report";
 $pageKeywords	= "Eclipse, usage data, usagedata, cortez";
 $pageAuthor		= "Wayne Beaton";
 ob_start();
