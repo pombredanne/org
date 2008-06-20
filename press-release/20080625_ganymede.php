@@ -31,13 +31,13 @@ ob_start();
 		<h1><?=$pageTitle?></h1>
 		</center>
 		
-		<p><strong>Ottawa, Canada - June 25, 2008  - </strong>The Eclipse Foundation and the entire Eclipse community are pleased to announce the availability of the Ganymede Release, the annual release train developed by the Eclipse community. The Ganymede Release is a coordinated release of 23 different Eclipse project teams and represents over 18 million lines of code.</p>
+		<p><strong>Ottawa, Canada - June 25, 2008  - </strong>The Eclipse Foundation and the entire Eclipse community are pleased to announce the availability of the Ganymede Release, the annual release train developed by the Eclipse community. The Ganymede Release is a coordinated release of 23 different Eclipse project teams that represents over 18 million lines of code.</p>
 		<p>Ganymede delivers improvements and key features in the following areas:</p>
 		<p><strong>Equinox and Runtime Projects</strong><br/>
 			<ul class="paddedlist">
 				<li>A new provisioning system, called p2, makes it easier for Eclipse users to install and update Eclipse.</li>
 				<li>Equinox has added two new security features, including 1) a preferences-like storage for sensitive data such as passwords and login credentials. The information is encrypted using Java encryption mechanisms; and 2) the ability to easily use the Java authentication service (JAAS) in Equinox.</li>
-				<li>RAP 1.1 makes it easier to build great looking, scalable and modular web applications running on Equinox. New features include 1) the ability to customize the look & feel with Presentation Factories and CSS; and 2) the ability to store application state information on a per user basis. </li>
+				<li>RAP 1.1 makes it easier to build great-looking, scalable and modular web applications running on Equinox. New features include 1) the ability to customize the look & feel with Presentation Factories and CSS; and 2) the ability to store application state information on a per user basis. </li>
 				<li>The Eclipse Communication Framework (ECF) has added real-time shared editing and other communications features to allow developers to communicate and collaborate from within Eclipse. </li>
 			</ul>
 		</p>  
@@ -52,7 +52,7 @@ ob_start();
 				<li>A new JavaScript IDE, called JSDT, provides the same level of support for JavaScript as the JDT provides for Java. Some of the new features include code completion, quick fix, formatting and validation. </li>
 				<li>BIRT now provides an improved JavaScript editor and a new JavaScript debugger for debugging report event handlers. In addition, cross tables have been improved to support multiple measures, display measure values and totals as text or as charts, provide added support for cross table scripting and offer better filtering options. </li>
 				<li>DTP has added a new graphical SQL query editor, called the SQL Query Builder, and improved usability of connection profile creation and management for users and adopters/extenders. </li>
-				<li>WTP has improved UI support for Java EE 5: new wizards for Servlet Filters, Application Lifecycle Listeners, Session Beans, Message-Driven Beans; meta-data descriptor trees in the Project Explorer; and Bundled Libraries support for EAR projects. </li>
+				<li>WTP has improved UI support for Java EE 5: new wizards for Servlet Filters, Application Lifecycle Listeners, Session Beans and Message-Driven Beans; meta-data descriptor trees in the Project Explorer; and Bundled Libraries support for EAR projects. </li>
 				<li>Dali Java Persistence Tools has an expanded UI including a new Persistence.xml editor, new Entity and XML Mapping File wizards and JPA specific contributions to the Project Explorer. Dali has also improved configuration and validation with support for mapping with annotations, XML, or with a combination of annotations and XML.</li>
 				<li>The WTP JSF Tools Project has added features to improve web application development productivity. The release provides visual editing support for Apache MyFaces Trinidad components and enables support for future JSF 2.0 (JSR-314) enhancements such as Facelets. </li>
 			</ul>
