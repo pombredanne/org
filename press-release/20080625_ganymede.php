@@ -65,7 +65,7 @@ ob_start();
 			</ul>
 		</p>	 
 		<p><strong>Availability</strong><br/>
-		The projects in the Ganymede Release are now available for download. Seven Eclipse Packages have been created to make it easier for developers to download multiple projects. Please visit <a href="http://www.eclipse.org/ganymede/">www.eclipse.org/ganymede</a> for more information.
+		The projects in the Ganymede Release are now available for download. Seven Eclipse Packages have been created to make it easier for developers to download multiple projects. Please visit <a target="_blank" href="http://www.eclipse.org/ganymede/">www.eclipse.org/ganymede</a> for more information.
 		</p>
 		<p><strong>Supporting Quotes</strong><br/>
 		“Once again the Eclipse community has delivered our annual release train and continues to deliver innovative software in a predictable manner,” said Mike Milinkovich, Executive Director of the Eclipse Foundation. “New features like the Equinox p2 provisioning system, new modeling tools and tools that support SOA developers will be popular features for Eclipse users.” <br/>
