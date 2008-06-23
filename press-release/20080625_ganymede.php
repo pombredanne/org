@@ -23,8 +23,8 @@ ob_start();
 		.paddedlist li {padding-bottom:3px; }
 		p {padding-bottom:10px;}
 		</style>
-<div id="maincontent">
-	<div id="midcolumn">
+<div id="widecontent">
+	<div id="midcolumnwide">
 		<h2>Press Release</h2>
 
 		<center>
@@ -84,7 +84,7 @@ ob_start();
 		<a href="mailto:chantal@pageonepr.com">chantal@pageonepr.com</a><br>
 		<br>
 	</div>
-	<div id="rightcolumn">
+	<div id="rightcolumnwide">
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
@@ -92,6 +92,9 @@ ob_start();
 				<li><a href="/ganymede/map.php">Ganymede Around the World</a></li>
 			</ul>
 		</div>
+		<center>
+			<a href="http://www.eclipse.org/ganymede/"><img src="http://www.eclipse.org/ganymede/images/ganymedeFriend.jpg" border=0 alt="Ganymede is coming!" title="Ganymede is coming!" ></a>
+		</center>	
 	</div>
 </div>
 
