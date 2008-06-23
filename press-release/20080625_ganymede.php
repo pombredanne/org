@@ -35,7 +35,7 @@ ob_start();
 		<p>Ganymede delivers improvements and key features in the following areas:</p>
 		<p><strong>Equinox and Runtime Projects</strong><br/>
 			<ul class="paddedlist">
-				<li>A new provisioning system, called p2, makes it easier for Eclipse users to install and update Eclipse.</li>
+				<li>A new provisioning system, called <a href="http://wiki.eclipse.org/Equinox_p2">p2</a>, makes it easier for Eclipse users to install and update Eclipse.</li>
 				<li><a href="/equinox/">Equinox</a> has added two new security features, including 1) a preferences-like storage for sensitive data such as passwords and login credentials. The information is encrypted using Java encryption mechanisms; and 2) the ability to easily use the Java authentication service (JAAS) in Equinox.</li>
 				<li><a href="/rap/">RAP</a> 1.1 makes it easier to build great-looking, scalable and modular web applications running on Equinox. New features include 1) the ability to customize the look & feel with Presentation Factories and CSS; and 2) the ability to store application state information on a per user basis. </li>
 				<li>The <a href="/ecf/">Eclipse Communication Framework (ECF)</a> has added real-time shared editing and other communications features to allow developers to communicate and collaborate from within Eclipse. </li>
