@@ -37,8 +37,14 @@ ob_start();
 	$pairs = simplexml_load_file("proximity.xml");
 ?>
 
+<h1><?= $pageTitle ?></h1>
+
 <p>Generated on <?= $pairs['generated'] ?></p>
 	
+<p>This page shows how closely related projects are &quot;in the wild&quot;. 
+The table shows the number of users who are using the projects together.
+Note that these results are preliminary.</p>
+
 <?
 	if (array_key_exists('sort', $_GET)) {
 		$rows = array();
