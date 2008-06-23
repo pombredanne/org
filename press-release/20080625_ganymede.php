@@ -36,21 +36,21 @@ ob_start();
 		<p><strong>Equinox and Runtime Projects</strong><br/>
 			<ul class="paddedlist">
 				<li>A new provisioning system, called p2, makes it easier for Eclipse users to install and update Eclipse.</li>
-				<li><a href="/equinox/">Equinox</a> has added two new security features, including 1) a preferences-like storage for sensitive data such as passwords and login credentials. The information is encrypted using Java encryption mechanisms; and 2) the ability to easily use the Java authentication service (JAAS) in <a href="/equinox/">Equinox</a>.</li>
-				<li><a href="/rap/">RAP</a> 1.1 makes it easier to build great-looking, scalable and modular web applications running on <a href="/equinox/">Equinox</a>. New features include 1) the ability to customize the look & feel with Presentation Factories and CSS; and 2) the ability to store application state information on a per user basis. </li>
+				<li><a href="/equinox/">Equinox</a> has added two new security features, including 1) a preferences-like storage for sensitive data such as passwords and login credentials. The information is encrypted using Java encryption mechanisms; and 2) the ability to easily use the Java authentication service (JAAS) in Equinox.</li>
+				<li><a href="/rap/">RAP</a> 1.1 makes it easier to build great-looking, scalable and modular web applications running on Equinox. New features include 1) the ability to customize the look & feel with Presentation Factories and CSS; and 2) the ability to store application state information on a per user basis. </li>
 				<li>The <a href="/ecf/">Eclipse Communication Framework (ECF)</a> has added real-time shared editing and other communications features to allow developers to communicate and collaborate from within Eclipse. </li>
 			</ul>
 		</p>  
 		<p><strong>Modeling Features</strong><br/>
 			<ul class="paddedlist">
-				<li>New Ecore tools provide developers with a graphical environment for creating, editing and maintaining <a href="/modeling/emf/">EMF</a> Ecore models. </li>
-				<li>Enhanced Resource APIs in <a href="/modeling/emf/">EMF</a> have been added to fully support REST, including support for the full CRUD life cycle. </li>
+				<li>New <a href="http://www.eclipse.org/modeling/emft/?project=ecoretools">Ecore</a> tools provide developers with a graphical environment for creating, editing and maintaining <a href="/modeling/emf/">EMF</a> Ecore models. </li>
+				<li>Enhanced Resource APIs in EMF have been added to fully support REST, including support for the full CRUD life cycle. </li>
 			</ul>
 		</p>
 		<p><strong>Developer Tools</strong><br/>
 			<ul class="paddedlist">
-				<li>A new JavaScript IDE, called JSDT, provides the same level of support for JavaScript as the JDT provides for Java. Some of the new features include code completion, quick fix, formatting and validation. </li>
-				<li><a href="/birt/phoenix/">BIRT now provides an improved JavaScript editor and a new JavaScript debugger for debugging report event handlers. In addition, cross tables have been improved to support multiple measures, display measure values and totals as text or as charts, provide added support for cross table scripting and offer better filtering options. </li>
+				<li>A new JavaScript IDE, called <a href="http://wiki.eclipse.org/index.php/ATF/JSDT">JSDT</a>, provides the same level of support for JavaScript as the JDT provides for Java. Some of the new features include code completion, quick fix, formatting and validation. </li>
+				<li><a href="/birt/phoenix/">BIRT</a> now provides an improved JavaScript editor and a new JavaScript debugger for debugging report event handlers. In addition, cross tables have been improved to support multiple measures, display measure values and totals as text or as charts, provide added support for cross table scripting and offer better filtering options. </li>
 				<li><a href="/datatools/">DTP</a> has added a new graphical SQL query editor, called the SQL Query Builder, and improved usability of connection profile creation and management for users and adopters/extenders. </li>
 				<li><a href="/webtools/">WTP</a> has improved UI support for Java EE 5: new wizards for Servlet Filters, Application Lifecycle Listeners, Session Beans and Message-Driven Beans; meta-data descriptor trees in the Project Explorer; and Bundled Libraries support for EAR projects. </li>
 				<li><a href="/webtools/dali/main.php">Dali Java Persistence Tools</a> has an expanded UI including a new Persistence.xml editor, new Entity and XML Mapping File wizards and JPA specific contributions to the Project Explorer. Dali has also improved configuration and validation with support for mapping with annotations, XML, or with a combination of annotations and XML.</li>
@@ -68,7 +68,7 @@ ob_start();
 		The projects in the Ganymede Release are now available for download. Seven Eclipse Packages have been created to make it easier for developers to download multiple projects. Please visit <a target="_blank" href="http://www.eclipse.org/ganymede/">www.eclipse.org/ganymede</a> for more information.
 		</p>
 		<p><strong>Supporting Quotes</strong><br/>
-		“Once again the Eclipse community has delivered our annual release train and continues to deliver innovative software in a predictable manner,” said Mike Milinkovich, Executive Director of the Eclipse Foundation. “New features like the <a href="/equinox/">Equinox</a> p2 provisioning system, new modeling tools and tools that support SOA developers will be popular features for Eclipse users.” <br/>
+		“Once again the Eclipse community has delivered our annual release train and continues to deliver innovative software in a predictable manner,” said Mike Milinkovich, Executive Director of the Eclipse Foundation. “New features like the Equinox p2 provisioning system, new modeling tools and tools that support SOA developers will be popular features for Eclipse users.” <br/>
 		
 		
 		<p><strong>About the Eclipse Foundation</strong><br />
@@ -84,7 +84,15 @@ ob_start();
 		<a href="mailto:chantal@pageonepr.com">chantal@pageonepr.com</a><br>
 		<br>
 	</div>
-
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="/ganymede/">Ganymede</a></li>
+				<li><a href="/ganymede/map.php">Ganymede Around the World</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 
 
