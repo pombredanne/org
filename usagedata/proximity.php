@@ -43,6 +43,7 @@ ob_start();
 	
 <p>This page shows how closely related projects are &quot;in the wild&quot;. 
 The table shows the number of users who are using the projects together.
+Click on the column headers to change how the data is sorted.
 Note that these results are preliminary.</p>
 
 <?
