@@ -33,7 +33,59 @@ ob_start();
 <div id="maincontent">
 <div id="midcolumn">
 
-<? include "proximity.html"; ?>
+<? 
+	$pairs = simplexml_load_file("proximity.xml");
+?>
+
+<p>Generated on <?= $pairs['generated'] ?></p>
+	
+<?
+	if (array_key_exists('sort', $_GET)) {
+		$rows = array();
+		foreach ($pairs as $row) {
+			$rows[] = array('a'=>$row['a'],'b'=>$row['b'],'users'=>$row['users']);
+		}
+		$pairs = $rows;
+		$sort = $_GET['sort'];
+		
+		function sort_a($a, $b) {
+			$result = strcasecmp($a['a'], $b['a']);
+			if ($result == 0) return sort_users($a, $b);
+			return $result;
+		}
+		function sort_b($a, $b) {
+			return strcasecmp($a['b'], $b['b']);
+		}
+		function sort_users($a, $b) {
+			$aa = (int)$a['users'];
+			$bb = (int)$b['users'];
+			return $aa > $bb ? -1 : 1;
+		}
+		usort($pairs, "sort_$sort");
+	}
+		
+	createTable($pairs, array("Bundle"=>"a", "Is seen with..."=>"b", "Users"=>"users"));
+	
+	function createTable(&$rows, $columns) {
+		echo "<table border=\"1\">";
+		echo "<tbody>";
+		echo "<tr>";
+		foreach($columns as $title=>$attribute) {
+			echo "<th><a href=\"?sort=$attribute\">$title</a></th>";
+		}
+		echo "</tr>";
+			
+		foreach($rows as $row)  {
+			echo "<tr>";
+			foreach($columns as $title=>$attribute) {
+				echo "<td>$row[$attribute]</td>";
+			}
+			echo "</tr>";
+		} 
+		echo "</tbody>";
+		echo "</table>";
+	}
+?>
 
 </div>
 </div>
