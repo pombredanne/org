@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20080625_ganymede.php">Eclipse Delivers Its Annual Release Train</a> - June 23rd, 2008</li>
 		<li><a href="20080426_EclipseSummitcfp.php">Eclipse Summit Europe Call for Papers Now Open</a> - April 26th, 2008 </li>
 		<li><a href="20080421_ganymededemocamps.php">Eclipse DemoCamps - Ganymede Edition</a> - March 21st, 2008</li>
 		<li><a href="20080415_JavaOneParty.php">Eclipse Party at JavaOne 2008</a> - March 14th, 2008</li>		
