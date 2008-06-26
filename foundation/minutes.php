@@ -36,7 +36,7 @@
 			<h3>Members Meetings</h3>
 			<ul>
 			    <li><a target="_memonly" href="https://dev.eclipse.org/members-only/index.php">Members Minutes on/after June 24, 2008 hosted on members only content page.</a> <img src="../../images/new.gif" alt="new"></li>  			
-				<li><a href="membersminutes/20080317MembersMeeting/MeetingMinutes.php">Eclipse Members Meeting, March 17th, 2008, Santa Clara Convention Center </a> <img src="../../images/new.gif" alt="new"></li>  			
+				<li><a href="membersminutes/20080317MembersMeeting/MeetingMinutes.php">Eclipse Members Meeting, March 17th, 2008, Santa Clara Convention Center </a></li>  			
 				<li><a href="membersminutes/Eclipse%20December%202007%20Members%20Teleconference.pdf">Eclipse Members Meeting, December 18th, 2007 Teleconference Presentation Material (pdf) </a> </li>  			
 	     		<li><a href="membersminutes/20070919MarketingSymposium/MeetingMinutes.php">Eclipse Marketing Symposium, September 19, 2007 Chicago, Illinois </a> </li>  			
 	     		<li><a href="membersminutes/20070920MembersMeeting/MeetingMinutes.php">Eclipse Members Meeting, September 20, 2007 Chicago, Illinois </a></li>  			
