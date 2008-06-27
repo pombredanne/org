@@ -92,6 +92,14 @@ ob_start();
 				<li><a href="/ganymede/map.php">Ganymede Around the World</a></li>
 			</ul>
 		</div>
+		<div class="sideitem">
+			<h6>Other Languages</h6>
+			<ul>
+				<li><a href="20080625_ganymede_fre.php">French</a></li>
+				<li><a href="20080625_ganymede_ger.php">German</a></li>
+				<li><a href="20080625_ganymede_spa.php">Spanish</a></li>
+			</ul>
+		</div>
 		<center>
 			<a href="http://www.eclipse.org/ganymede/"><img src="http://www.eclipse.org/ganymede/images/ganymedeFriend.jpg" border=0 alt="Ganymede is coming!" title="Ganymede is coming!" ></a>
 		</center>	
