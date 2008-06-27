@@ -33,8 +33,7 @@ ob_start();
 		<h2>Ganymede Release abarca 23 equipos de proyectos y 18 millones de líneas de código</h2>
 		
 		<p><strong>OTTAWA, Canadá - June 25, 2008  - </strong>    La Eclipse Foundation y toda la comunidad Eclipse se complacen al anunciar la disponibilidad de Ganymede Release, el tren de lanzamiento anual desarrollado por la comunidad Eclipse. Ganymede Release es un lanzamiento coordinado de 23 equipos de proyectos de Eclipse y representa más de 18 millones líneas de código. </p>
-		<p>Ganymede ofrece mejoras y funciones claves en las siguientes áreas: </p>
-		<p>
+		<p>Ganymede ofrece mejoras y funciones claves en las siguientes áreas:
 			<ul class="paddedlist">
 				<li>Equinox y proyectos de tiempo de ejecución </li>
 				<li>Funciones de modelado </li>
