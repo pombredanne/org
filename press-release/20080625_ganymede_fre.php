@@ -19,7 +19,7 @@ $pageAuthor		= "Ian Skerrett";
 ob_start();
 ?>
 		<style>
-		.paddedlist {margin-left:10px;margin-top:-10px;}
+		.paddedlist {margin-left:20px;margin-top:-10px;}
 		.paddedlist li {padding-bottom:3px; }
 		p {padding-bottom:10px;}
 		</style>
