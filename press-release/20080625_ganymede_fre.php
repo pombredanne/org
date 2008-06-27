@@ -33,8 +33,7 @@ ob_start();
 		<h2>Le lancement Ganymede comprend 23 équipes de projet et 18 millions de lignes de code</h2>
 		
 		<p><strong>OTTAWA, Canada, juin 25, 2008  - </strong> La Fondation Eclipse et l’ensemble de la communauté Eclipse sont heureux d’annoncer le lancement Ganymede, la stratégie annuelle de lancement développée par la communauté Eclipse. Ganymede est un lancement coordonné de 23 équipes de projet Eclipse différentes qui représente plus de 18 millions de lignes de code.</p>
-		<p>Ganymede propose des améliorations et des caractéristiques clés dans les secteurs suivants :</p>
-		<p>
+		<p>Ganymede propose des améliorations et des caractéristiques clés dans les secteurs suivants :
 			<ul class="paddedlist">
 				<li>Projets Equinox et Runtime</li>
 				<li>Caractéristiques de modélisation</li>
