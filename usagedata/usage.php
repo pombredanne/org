@@ -33,7 +33,7 @@ ob_start();
 <div id="maincontent">
 <div id="midcolumn">
 
-<? include "usage.html"; ?>
+<? include "reports/usage.html"; ?>
 
 </div>
 </div>

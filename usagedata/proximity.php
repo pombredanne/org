@@ -34,7 +34,7 @@ ob_start();
 <div id="midcolumn">
 
 <? 
-	$pairs = simplexml_load_file("proximity.xml");
+	$pairs = simplexml_load_file("reports/proximity.xml");
 ?>
 
 <h1><?= $pageTitle ?></h1>
@@ -45,6 +45,8 @@ ob_start();
 The table shows the number of users who are using the projects together.
 Click on the column headers to change how the data is sorted.
 Note that these results are preliminary.</p>
+
+<p>This data is also available in <a href="reports/proximity.xml">XML form</a>.</p>
 
 <?
 	if (array_key_exists('sort', $_GET)) {

@@ -42,7 +42,7 @@ ob_start();
 }
 </style>
 
-<? include "results.html"; ?>
+<? include "reports/results.html"; ?>
 
 </div>
 </div>
