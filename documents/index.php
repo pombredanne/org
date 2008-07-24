@@ -4,7 +4,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Governance Documents";
-	$pageKeywords	= "about, documents, foundation";
+	$pageKeywords	= "about, documents, foundation, governance, bylaws, agreement";
 	$pageAuthor		= "M. Milinkovich Nov 20/05";
 	
 	# Add page-specific Nav bars here
@@ -28,12 +28,14 @@
 		<div class="homeitem3col">
 			<h3>Eclipse Foundation Documents</h3>
 			<ul>
-				<li><a href="Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws:</a> The Bylaws lay out 
-					the basic rules of governance of the Eclipse Foundation.</li>
-				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202008_07_01%20Final.pdf">Membership Agreement:</a> 
+				<li><a href="Eclipse%20BYLAWS%202008_07_24%20Final.pdf">Bylaws:</a>
+					The Bylaws lay out the basic rules of governance of the Eclipse Foundation.
+					<img src="../../images/new.gif" alt="new"></li>
+				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202008_07_24%20Final.pdf">Membership Agreement:</a> 
 					The Membership Agreement describes 
 					the rights and responsibilities for each class of member in the Eclipse 
-					Foundation.</li>
+					Foundation.
+					<img src="../../images/new.gif" alt="new"></li>
 				<li><a href="Eclipse_IP_Policy.pdf">Intellectual Property Policy:</a> 
 					The IP Policy describes the
 					policies and mechanisms that the Eclipse Foundation uses for accepting and
