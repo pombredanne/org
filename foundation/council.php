@@ -94,7 +94,7 @@ function find_relations($relations_array) {
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
 		ucwords($row['FName']) .
 		' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
 		'</td><td>' . $row[Name1] . '</td><td>appointed</td>';
 	}
 
@@ -114,7 +114,7 @@ function find_relations($relations_array) {
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
 			ucwords($row['FName']) . 
 			' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
 			'</td><td>' . '&nbsp;' . '</td><td>appointed</td>';
 		}
 	}
@@ -144,7 +144,7 @@ function find_relations($relations_array) {
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
 		ucwords($row['FName']) . 
 		ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
 		'</td><td>' . $row['Name1'] . "</td><td>" .
 		ucfirst($row['ProjectID']) . " PMC</td>";
 	}
@@ -169,7 +169,7 @@ function find_relations($relations_array) {
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
 			ucwords($row['FName']) . 
 			 ' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
 			'</td><td>' . '&nbsp;' . "</td><td>" .
 			ucfirst($row['ProjectID']) . " PMC</td>";
 		}
@@ -194,7 +194,7 @@ function find_relations($relations_array) {
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
 		ucwords($row['FName']) . 
 		' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
 		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>';
 	}
 
