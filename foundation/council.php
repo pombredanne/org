@@ -67,7 +67,7 @@ function find_relations($relations_array) {
 	$chairs = array();
 	$result = mysql_query("SELECT PersonID
 		FROM PeopleRelations
-		WHERE Relation IN ($relations)
+		WHERE Relation IN ($rel)
 		");
 	mysql_error_check();
 
