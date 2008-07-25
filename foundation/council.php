@@ -50,10 +50,30 @@ function mysql_error_check() {
 }
 
 # Lookup the relations and return the list
-function find_relations($relations) {
+function find_relations($relations_array) {
 	global $dbh;
 
+	$relations = "'" . implode( "','", $relations_array ) . "'";
 	$people = array();
+	/*
+	 * chairs
+	 */
+	$rel = 'NONE';
+	foreach( $relations_array as $r ) {
+		if( $r == 'PZ' || $r == 'AZ' || $r == 'RZ' ) {
+			$rel = $r;
+		}
+	}
+	$chairs = array();
+	$result = mysql_query("SELECT PersonID
+		FROM PeopleRelations
+		WHERE Relation IN ($relations)
+		");
+	mysql_error_check();
+
+	while($row = mysql_fetch_assoc($result)) {
+		$chairs[$row['PersonID']] = 1;
+	}
 	/*
 	 * appointed members with company relationships
 	 */
@@ -70,7 +90,9 @@ function find_relations($relations) {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+		'<td>' . ucwords($row['FName']) .
+		(isset($chairs[$row['PersonID']]) ? '*' : '') . 
+		' ' . ucwords($row['LName']) .
 		'</td><td>' . $row[Name1] . '</td><td>appointed</td>';
 	}
 
@@ -86,7 +108,9 @@ function find_relations($relations) {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+			'<td>' . ucwords($row['FName']) . 
+			(isset($chairs[$row['PersonID']]) ? '*' : '') .
+			' ' . ucwords($row['LName']) .
 			'</td><td>' . '&nbsp;' . '</td><td>appointed</td>';
 		}
 	}
@@ -112,7 +136,9 @@ function find_relations($relations) {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+		'<td>' . ucwords($row['FName']) . 
+		(isset($chairs[$row['PersonID']]) ? '*' : '') . ' ' . 
+		ucwords($row['LName']) .
 		'</td><td>' . $row['Name1'] . "</td><td>" .
 		ucfirst($row['ProjectID']) . " PMC</td>";
 	}
@@ -133,7 +159,9 @@ function find_relations($relations) {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-			'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+			'<td>' . ucwords($row['FName']) . 
+			(isset($chairs[$row['PersonID']]) ? '*' : '') . 
+			 ' ' . ucwords($row['LName']) .
 			'</td><td>' . '&nbsp;' . "</td><td>" .
 			ucfirst($row['ProjectID']) . " PMC</td>";
 		}
@@ -154,7 +182,9 @@ function find_relations($relations) {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . ucwords($row['FName']) . ' ' . ucwords($row['LName']) .
+		'<td>' . ucwords($row['FName']) . 
+		(isset($chairs[$row['PersonID']]) ? '*' : '') . 
+		' ' . ucwords($row['LName']) .
 		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>';
 	}
 
@@ -210,7 +240,7 @@ ob_start();
 	<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
 <?php
 // Requirements Council
-$requirements_relations = "'ER', 'RC'";
+$requirements_relations = array( 'ER', 'RC', 'RZ' );
 $people = find_relations($requirements_relations);
 ksort($people);
 foreach($people as $name=>$value) {
@@ -260,7 +290,7 @@ foreach($people as $name=>$value) {
 	<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
 <?php
 // Planning Council
-$planning_relations = "'EP', 'PC', 'RP'";
+$planning_relations = array( 'EP', 'PC', 'RP', 'PZ' );
 $people = find_relations($planning_relations);
 ksort($people);
 foreach($people as $name=>$value) {
@@ -296,7 +326,7 @@ foreach($people as $name=>$value) {
 	<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
 <?php
 // Architecture Council
-$architecture_relations = "'AC', 'RA', 'EA'";
+$architecture_relations = array( 'AC', 'RA', 'EA', 'AZ' );
 $people = find_relations($architecture_relations);
 ksort($people);
 foreach($people as $name=>$value) {
@@ -310,6 +340,7 @@ foreach($people as $name=>$value) {
 </ul>
 </div>
 
+<p><em>* chair</em></p>
 </div>
 <?php
 
