@@ -90,11 +90,11 @@ function find_relations($relations_array) {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . 
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
+		'<td>' .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 		ucwords($row['FName']) .
 		' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 		'</td><td>' . $row[Name1] . '</td><td>appointed</td>';
 	}
 
@@ -110,11 +110,11 @@ function find_relations($relations_array) {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-			'<td>' . 
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
-			ucwords($row['FName']) . 
+			'<td>' .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
+			ucwords($row['FName']) .
 			' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 			'</td><td>' . '&nbsp;' . '</td><td>appointed</td>';
 		}
 	}
@@ -140,11 +140,11 @@ function find_relations($relations_array) {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . 
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
-		ucwords($row['FName']) . 
-		ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
+		'<td>' .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
+		ucwords($row['FName']) .
+		' ' . ucwords($row['LName']) .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 		'</td><td>' . $row['Name1'] . "</td><td>" .
 		ucfirst($row['ProjectID']) . " PMC</td>";
 	}
@@ -165,11 +165,11 @@ function find_relations($relations_array) {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-			'<td>' . 
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
-			ucwords($row['FName']) . 
+			'<td>' .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
+			ucwords($row['FName']) .
 			 ' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 			'</td><td>' . '&nbsp;' . "</td><td>" .
 			ucfirst($row['ProjectID']) . " PMC</td>";
 		}
@@ -190,11 +190,11 @@ function find_relations($relations_array) {
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' . 
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') . 
-		ucwords($row['FName']) . 
+		'<td>' .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
+		ucwords($row['FName']) .
 		' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') . 
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>';
 	}
 
@@ -229,7 +229,7 @@ ob_start();
 		  Council is responsible for the long-term technical health of the Eclipse
 		  platforms and frameworks. More explanation of the Architecture Council
 		  can be found in the <a href="/projects/dev_process/development_process.php#4_5_Councils">Eclipse Development Process</a> and in
-		  the <a href="/projects/dev_process/architecture-council.php">guidelines and checklists</a> 
+		  the <a href="/projects/dev_process/architecture-council.php">guidelines and checklists</a>
 		  for the Architecture Council.</li>
       </ul>
       <br/>
@@ -262,10 +262,10 @@ foreach($people as $name=>$value) {
 <ul>
 
 <li>Recent minutes are tracked on the <a href="http://wiki.eclipse.org/Requirements_Council">Requirements Council WIKI Page.</a>
-   
+
 
  </li>
-    
+
 <li><a href="../councils/20070122RCMinutes.pdf">Requirements Council Meeting,
           		January 22, 2007 (.pdf)</a>
     <ul>
