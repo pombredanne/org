@@ -1,4 +1,4 @@
-Ed is a senior technical staff member at the IBM Toronto Software Lab.
+Ed Merks is a senior technical staff member at the IBM Toronto Software Lab.
 He leads the top-level <a
 href="http://www.eclipse.org/modeling/">Eclipse Modeling Project</a>
 along with Rich Gronback from Borland as well as the <a
