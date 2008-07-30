@@ -1,4 +1,4 @@
-Tracy has served as CEO and COO for OpenMake Software since 1995. She began 
+Tracy Ragan has served as CEO and COO for OpenMake Software since 1995. She began 
 her professional IT career in 1989 consulting to Fortune 500 organizations in 
 the areas of testing, configuration management and build management. It was 
 during her consulting experiences that Tracy recognized the lack of 
