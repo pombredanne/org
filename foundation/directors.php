@@ -124,7 +124,7 @@ function find_relations() {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-				display_one($row['FName'], $row['LName'], 'Elected Add-in provider representative');
+				display_one($row['FName'], $row['LName'], 'Elected Add-in Provider Representative');
 
 		}
 	}
@@ -140,7 +140,7 @@ function find_relations() {
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
-				display_one($row['FName'], $row['LName'], 'Elected committer representative');
+				display_one($row['FName'], $row['LName'], 'Elected Committer Representative');
 		}
 	}
 
