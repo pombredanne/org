@@ -1,4 +1,4 @@
-John joined IBM in 1984 with a computer science degree from Purdue University.  He’s since completed graduate
+John Kellerman joined IBM in 1984 with a computer science degree from Purdue University.  He’s since completed graduate
 degrees in Computer Engineering at North Carolina State and Business Administration at the University of North
 Carolina – Chapel Hill. He has spent the majority of his years at IBM in the development and management of
 application development tool products, including ISPF/PDF, VisualAge Smalltalk, Eclipse and Jazz.  John was
