@@ -6,7 +6,7 @@ Framework project.
 In addition, he has helped Zend evolve into a successful global Web solutions company and fostered its growth
 by securing four rounds of financing, aiding with key customer wins and supporting alliances with industry
 giants like IBM, Oracle and Microsoft.
-
+<br><br>
 Andi was named one of Computerworld’s “40 innovative IT people to watch, under the age of 40”. Also, he is
 recognized from the widely circulated technical publications he has authored and is a frequent speaker on 
 business and technology issues at global conferences.  Andi is a member of the PHP Group, the Apache Software
