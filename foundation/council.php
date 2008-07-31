@@ -309,25 +309,7 @@ foreach($people as $name=>$value) {
 ?>
 	</table>
       <ul>
-        <li><a href="../councils/20070620PCMinutes.php">Planning
-          	Council Meeting, June 20, 2007</a><img src="../../images/new.gif" alt="new"></li>
-        <li><a href="http://wiki.eclipse.org/Europa_Minutes_2007.03.04">Planning
-          	Council Meeting, March 4, 2007</a>
-        <li><a href="../councils/20070123PCMinutes.php">Planning
-          	Council Meeting, January 23, 2007</a>
-        <li><a href="../councils/20061011PCMinutes.php">Planning
-          	Council Meeting, October 11, 2006</a></li>
-        <li><a href="../councils/20060629PCMinutes.php">Planning
-          	Council Meeting, June 29, 2006</a></li>
-        <li><a href="../councils/20051215PCMinutes.php">Planning
-          	Council Meeting, December 15, 2005</a></li>
-        <li><a href="../councils/20050823PCMinutes.html">Planning
-          	Council Meeting, August 23, 2005</a></li>
-        <li><a href="../councils/20050519PCMinutes.html">Planning
-          	Council Meeting, May 19, 2005</a></li>
-        <li><a href="../councils/20041201PCMinutes.pdf">Planning Council Meeting, December 1, 2004 (.pdf)</a></li>
-        <li><a href="../councils/20040901PCMinutes.pdf">Planning Council Meeting,
-            September 1, 2004 (.pdf)</a></li>
+<li><a href="http://wiki.eclipse.org/Planning_Council">Planning Council's wiki page and meeting minutes</a>.
       </ul>
     </div>
 <div class="homeitem3col">
