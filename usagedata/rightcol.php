@@ -35,7 +35,7 @@
 
 <p>Reports</p>
 <ul>
-<li><a href="results.php">Aggregate data over a 14 day period</a></li>
+<li><a href="results.php">org.eclipse.* results</a></li>
 <li><a href="usage.php">Usage trends</a></li>
 <li><a href="proximity.php">Project pairings</a></li>
 </ul>
