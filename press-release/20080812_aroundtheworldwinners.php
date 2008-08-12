@@ -39,7 +39,7 @@
      	
      	<p>Congratulations also go out to the other top reviewers, who win Eclipse jackets:
      	<ul>
-     		<li><a href="http://beerholder.blogspot.com/2008/06/eclipse-ganymede-w00t-dtp-review-first.html" target="blank">Emiel van Rooijen - Amsterdam, The Netherlands</a></li>
+     		<li><a href="http://beerholder.blogspot.com/2008/06/eclipse-ganymede-w00t-dtp-review-first.html" target="blank">Emiel van Rooijen - Amsterdam, Netherlands</a></li>
      		<li><a href="http://blog.xemantic.com/2008/06/eclipse-ganymede-rejoicing-in-virility.html" target="blank">Kazimierz Pogoda - Szczecin, Poland</a></li>
      	</ul>
      	</p>
