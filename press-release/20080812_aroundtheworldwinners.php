@@ -31,13 +31,15 @@
      	</p>
      	
      	<p>The reviews have been judged and the results are in.  The writer of the best review receives an Eclipse jacket and a choice
-     	of a pass to EclipseCon 2009 or Eclipse Summit Europe 2008.  Congratulations to the winner:<br>
-     	<a href="http://kapo-cpp.blogspot.com/2008/06/finally-ganymede.html" target="blank">Vincenzo Cappello - Corbetta, Italy</a>
+     	of a pass to EclipseCon 2009 or Eclipse Summit Europe 2008.  Congratulations to the winner:
+     	<ul>
+     		<li><a href="http://kapo-cpp.blogspot.com/2008/06/finally-ganymede.html" target="blank">Vincenzo Cappello - Corbetta, Italy</a></li>
+     	</ul>
      	</p>
      	
      	<p>Congratulations also go out to the other top reviewers, who win Eclipse jackets:
      	<ul>
-     		<li><a href="http://beerholder.blogspot.com/2008/06/eclipse-ganymede-w00t-dtp-review-first.html" target="blank">Emiel van Rooijen - Amsterdam, The Netherland</a></li>
+     		<li><a href="http://beerholder.blogspot.com/2008/06/eclipse-ganymede-w00t-dtp-review-first.html" target="blank">Emiel van Rooijen - Amsterdam, The Netherlands</a></li>
      		<li><a href="http://blog.xemantic.com/2008/06/eclipse-ganymede-rejoicing-in-virility.html" target="blank">Kazimierz Pogoda - Szczecin, Poland</a></li>
      	</ul>
      	</p>
