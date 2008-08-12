@@ -57,6 +57,19 @@
  
  <br><br>
 </div>
+
+	<!-- remove the entire <div> tag to omit the right column!  -->
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="http://www.eclipse.org/ganymede">Ganymede</a></li>
+				<li><a href="http://www.eclipse.org/ganymede/aroundtheworld.php">Ganymede Contest</a></li>
+				<li><a href="http://www.eclipse.org/ganymede/map.php">Ganymede Map</a></li>
+			</ul>
+		</div>
+	</div>	
+
 </div>
 
 
