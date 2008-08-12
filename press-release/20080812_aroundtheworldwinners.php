@@ -24,10 +24,10 @@
 		
 		<h2>Community Bulletin</h2>
 		
-     	<p>In June and July, Eclipse held a <a href="http://www.eclipse.org/ganymede/aroundtheworld.php" target="blank">Ganymede Around
-     	the World Contest</a> for individuals to submit their reviews of the <a href="http://www.eclipse.org/ganymede/" target="blank">
+     	<p>In June and July, Eclipse held a <a href="http://www.eclipse.org/ganymede/aroundtheworld.php">Ganymede Around
+     	the World Contest</a> for individuals to submit their reviews of the <a href="http://www.eclipse.org/ganymede/">
      	Ganymede release</a>.  Over 600 reviews and messages were received from more than 70 different countries.  All submissions can
-     	be seen on the <a href="http://www.eclipse.org/ganymede/map.php" target="blank">Ganymede Around the World map</a>.
+     	be seen on the <a href="http://www.eclipse.org/ganymede/map.php">Ganymede Around the World map</a>.
      	</p>
      	
      	<p>The reviews have been judged and the results are in.  The writer of the best review receives an Eclipse jacket and a choice
