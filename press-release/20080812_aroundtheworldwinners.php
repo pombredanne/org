@@ -44,7 +44,7 @@
      	</ul>
      	</p>
      			
-     	<p>The 5 winners of the random draw are:
+     	<p>The 5 winners of the random draw for Eclipse jackets are:
      	<ul>
      		<li>Laszlo Borsos - Siofok, Hungary</li>
      		<li>Nicholas Chen - Urbana, USA</li>
