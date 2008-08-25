@@ -30,6 +30,9 @@
      	 The demos can be of open source projects, research projects, applications based on Eclipse, commercial products using
      	 Eclipse or anything Eclipse related that you think will be of interest to the attendees.</p>
      	 
+     	 <p>For this DemoCamp series, we&#146;re focusing on getting Eclipse <i>users</i> involved, so there
+     	 will be a special presentation on how non-developers can contribute to the Eclipse ecosystem.</p>
+     	 
      	 <p><b>Where and When are DemoCamps Being Organized?</b><br>
      	 DemoCamps will be organized all around the world during the month of November.
      	 Check out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Users_Edition">
