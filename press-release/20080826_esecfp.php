@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Summit Europe - Call for Papers Deadline is Septebmer 1";
+	$pageTitle 		= "Eclipse Summit Europe - Call for Papers Deadline is September 1";
 	$pageKeywords	= "eclipse, summit, europe, call for papers, cfp, submit, demo, noteworthy";
 	$pageAuthor		= "Lynn Gayowski";
 	
