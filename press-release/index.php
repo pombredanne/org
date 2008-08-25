@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20080825_esecfp.php">Eclipse Summit Europe - Call for Papers Deadline is September 1</a> - August 25, 2008</li>
 		<li><a href="20080812_aroundtheworldwinners.php">Winners of the Ganymede Around the World Contest</a> - August 12, 2008</li>
 		<li><a href="20080625_ganymede.php">Eclipse Delivers Its Annual Release Train</a> - June 23rd, 2008</li>
 		<li><a href="20080426_EclipseSummitcfp.php">Eclipse Summit Europe Call for Papers Now Open</a> - April 26th, 2008 </li>
