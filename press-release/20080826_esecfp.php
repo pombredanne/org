@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Summit Europe - Last Call for Papers";
+	$pageTitle 		= "Eclipse Summit Europe - Call for Papers Deadline is Septebmer 1";
 	$pageKeywords	= "eclipse, summit, europe, call for papers, cfp, submit, demo, noteworthy";
 	$pageAuthor		= "Lynn Gayowski";
 	
@@ -26,15 +26,15 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			Eclipse Summit Europe, the Foundation&#146;s premier event designed to created opportunities for the
-			European Eclipse community to explore, share and collaborate on the latest ideas and information about Eclipse and its
-			members, is closing its call for papers soon.  All talk submissions must be received by Monday, September 1, 2008.
+			The deadline for the Eclipse Summit Europe Call for Papers is Monday, September 1, 2008.  Eclipse Summit Europe is the
+			Eclipse Foundation&#146;s annual community event for the European Eclipse ecosystem and is scheduled for November
+			19-20 in Ludwigsburg, Germany.
 		</p>
 		
 		<p>
-			There are 4 tracks at the conference:
+			Everyone in the Eclipse community is encouraged to submit a session proposal.  There are 4 tracks at the conference:
 			<ul>
-				<li><b>Consumer Stories</b> - explore your or your company&#146;s experience using Eclipse-based technologies</li>
+				<li><b>Consumer Stories</b> - explore your company&#146;s or your experience using Eclipse-based technologies</li>
 				<li><b>Demos</b> - give a technical presentation showing code examples from your project</li>
 				<li><b>Ganymede Talks</b> - share new features and improvements coming out of Eclipse&#146;s Ganymede release</li>
 				<li><b>New &amp; Noteworthy Talks</b> - explain what innovations have already come out of your work and what you plan to
@@ -45,7 +45,7 @@
 		<p>
 			You may submit as many proposals as you want online at <a href="https://www.eclipsecon.org/submissions/">
 			eclipsecon.org/submissions</a>, using your <a href="https://bugs.eclipse.org/bugs/">Bugzilla account</a>.
-			We anticipate an even more exciting program at this year&#146;s conference and look forward to hearing from you!
+			We anticipate an exciting program at this year&#146;s conference and look forward to hearing from you!
 		<br><br>
 	</div>
 
