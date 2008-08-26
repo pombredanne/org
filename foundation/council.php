@@ -50,7 +50,7 @@ function mysql_error_check() {
 }
 
 # Lookup the relations and return the list
-function find_relations($relations_array) {
+function find_relations($relations_array, $include_year = false) {
 	global $dbh;
 
 	$relations = "'" . implode( "','", $relations_array ) . "'";
@@ -77,7 +77,7 @@ function find_relations($relations_array) {
 	/*
 	 * appointed members with company relationships
 	 */
-	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName, Name1
+	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName, Name1, year(EntryDate) as year
 		FROM PeopleRelations, People, Organizations,
 			OrganizationContacts
 		WHERE PeopleRelations.Relation IN ($relations)
@@ -95,13 +95,16 @@ function find_relations($relations_array) {
 		ucwords($row['FName']) .
 		' ' . ucwords($row['LName']) .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
-		'</td><td>' . $row[Name1] . '</td><td>appointed</td>';
+		'</td><td>' . $row['Name1'] .
+		'</td><td>appointed' .
+		($include_year ? (' (' . $row['year'] . ')') : '') .
+		'</td>';
 	}
 
 	/*
 	 * appointed members without company relationships
 	 */
-	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName
+	$result = mysql_query("SELECT distinct(People.PersonID), FName, LName, year(EntryDate) as year
 		FROM PeopleRelations, People
 		WHERE PeopleRelations.Relation IN ($relations)
 			AND People.PersonID = PeopleRelations.PersonID
@@ -111,11 +114,13 @@ function find_relations($relations_array) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
 			'<td>' .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
+			((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 			ucwords($row['FName']) .
 			' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
-			'</td><td>' . '&nbsp;' . '</td><td>appointed</td>';
+			((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
+			'</td><td>' . '&nbsp;' . '</td><td>appointed' .
+			($include_year ? (' (' . $row['year'] . ')') : '') .
+			'</td>';
 		}
 	}
 
@@ -319,7 +324,7 @@ foreach($people as $name=>$value) {
 <?php
 // Architecture Council
 $architecture_relations = array( 'AC', 'RA', 'EA', 'AZ' );
-$people = find_relations($architecture_relations);
+$people = find_relations($architecture_relations, true);
 ksort($people);
 foreach($people as $name=>$value) {
 	echo "		<tr>$value</tr>\n";
