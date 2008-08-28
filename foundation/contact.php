@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Contact Us";
-	$pageKeywords	= "Contact";
+	$pageKeywords	= "Contact,email,telephone,support,problem";
 	$pageAuthor		= "";
 	
 	# Add page-specific Nav bars here
@@ -53,7 +53,7 @@
     		<td width="63%"> Email: <b>news (at) eclipse.org</b></td>
   		</tr>
   		<tr>
-    		<td width="37%" valign=top> Joining the Eclipse Foundation</td>
+    		<td width="37%" valign=top>Joining the Eclipse Foundation</td>
     		<td width="63%">Email: <b>membership (at) eclipse.org</b></td>
   		</tr>
   		<tr>
@@ -63,6 +63,10 @@
   		<tr>
     		<td width="37%" valign=top>Eclipse.org infrastructure</td>
     		<td width="63%">Email: <b>webmaster (at) eclipse.org</b></td>
+  		</tr>
+  		<tr>
+    		<td width="37%" valign=top>General inquiries</td>
+    		<td width="63%">Email: <b>emo (at) eclipse.org</b></td>
   		</tr>
   		</table>
   		<h2>Ottawa office</h2>
