@@ -54,7 +54,17 @@ function find_relations($relations_array, $include_year = false) {
 	global $dbh;
 
 	$relations = "'" . implode( "','", $relations_array ) . "'";
+	/*
+	 * people and chairs are arrays of
+	 *	"Last, First" => the html for the row in the table
+	 *		<td>name</td><td>employer</td><td>reason</td>
+	 * each code section overwrites the results of the previous ones
+	 * if they have a result for the same person. Thus if a person is
+	 * both a PMC member and a company member, then whichever query
+	 * was *last* determines what shows for that person.
+	 */
 	$people = array();
+	$chairs = array();
 	/*
 	 * chairs
 	 */
@@ -64,13 +74,11 @@ function find_relations($relations_array, $include_year = false) {
 			$rel = $r;
 		}
 	}
-	$chairs = array();
 	$result = mysql_query("SELECT PersonID
 		FROM PeopleRelations
 		WHERE Relation = '$rel'
 		");
 	mysql_error_check();
-
 	while($row = mysql_fetch_assoc($result)) {
 		$chairs[$row['PersonID']] = 1;
 	}
@@ -87,7 +95,6 @@ function find_relations($relations_array, $include_year = false) {
 			AND Organizations.OrganizationID =
 				OrganizationContacts.OrganizationID");
 	mysql_error_check();
-
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
 		'<td>' .
@@ -125,6 +132,28 @@ function find_relations($relations_array, $include_year = false) {
 	}
 
 	/*
+	 * company members
+	 */
+	$result = mysql_query("SELECT distinct(People.PersonID),
+			Name1, FName, LName
+		FROM OrganizationContacts, Organizations, People
+		WHERE OrganizationContacts.Relation IN ($relations)
+			AND OrganizationContacts.OrganizationID =
+				Organizations.OrganizationID
+			AND OrganizationContacts.PersonID =
+				People.PersonID");
+	mysql_error_check();
+	while($row = mysql_fetch_assoc($result)) {
+		$people[ucwords($row['LName'].', '.$row['FName'])] =
+		'<td>' .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
+		ucwords($row['FName']) .
+		' ' . ucwords($row['LName']) .
+		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
+		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>';
+	}
+
+	/*
 	 * project members with company relationships
 	 */
 	$result = mysql_query("SELECT distinct(People.PersonID),
@@ -142,7 +171,6 @@ function find_relations($relations_array, $include_year = false) {
 			AND Organizations.OrganizationID =
 				OrganizationContacts.OrganizationID");
 	mysql_error_check();
-
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
 		'<td>' .
@@ -166,7 +194,6 @@ function find_relations($relations_array, $include_year = false) {
 			AND InactiveDate IS NULL
 			");
 	mysql_error_check();
-
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
@@ -178,29 +205,6 @@ function find_relations($relations_array, $include_year = false) {
 			'</td><td>' . '&nbsp;' . "</td><td>" .
 			ucfirst($row['ProjectID']) . " PMC</td>";
 		}
-	}
-
-	/*
-	 * company members
-	 */
-	$result = mysql_query("SELECT distinct(People.PersonID),
-			Name1, FName, LName
-		FROM OrganizationContacts, Organizations, People
-		WHERE OrganizationContacts.Relation IN ($relations)
-			AND OrganizationContacts.OrganizationID =
-				Organizations.OrganizationID
-			AND OrganizationContacts.PersonID =
-				People.PersonID");
-	mysql_error_check();
-
-	while($row = mysql_fetch_assoc($result)) {
-		$people[ucwords($row['LName'].', '.$row['FName'])] =
-		'<td>' .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
-		ucwords($row['FName']) .
-		' ' . ucwords($row['LName']) .
-		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
-		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>';
 	}
 
 	return $people;
