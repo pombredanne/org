@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse DemoCamps - Users Edition";
+	$pageTitle 		= "Attend or Organize an Eclipse DemoCamp";
 	$pageKeywords	= "eclipse, demo, camp, users";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -24,18 +24,15 @@
 		
 		<h2>Community Bulletin</h2>
 		
-     	<p>The Eclipse Foundation is inviting individuals to organize and attend
-     	<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Users_Edition">Eclipse DemoCamps</a> around
+     	<p>The Eclipse Foundation is inviting individuals to attend and organize
+     	<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2008">Eclipse DemoCamps</a> around
      	 the world.  The DemoCamps are informal meetings where Eclipse fans can present what they&#146;re doing with Eclipse.
      	 The demos can be of open source projects, research projects, applications based on Eclipse, commercial products using
      	 Eclipse or anything Eclipse related that you think will be of interest to the attendees.</p>
-     	 
-     	 <p>For this DemoCamp series, we&#146;re focusing on getting Eclipse <i>users</i> involved, so there
-     	 will be a special presentation on how non-developers can contribute to the Eclipse ecosystem.</p>
-     	 
+     	 	 
      	 <p><b>Where and When are DemoCamps Being Organized?</b><br>
      	 DemoCamps will be organized all around the world during the month of November.
-     	 Check out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Users_Edition">
+     	 Check out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2008">
      	 DemoCamp wiki</a> for a location near you.  Also, register to let the organizers know you will be attending.  Space may be
      	 limited at some locations.</p>
      	 
@@ -45,7 +42,7 @@
      	 isn&#146;t a DemoCamp near you, why not try to organize one in your city? </p>
      	 
      	 <p><b>I Want to Help Organize a DemoCamp in My City</b><br>
-     	 First check out the list of cities with <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_2008_-_Users_Edition">DemoCamps
+     	 First check out the list of cities with <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2008">DemoCamps
      	 already organized</a>.  If one already exists in your area, contact the organizer and volunteer to help out.
      	 If a city in your area is not on the list, then check out the  
      	 <a href="../../community/democamp/organizedemocamp.php">details for organizing a DemoCamp.</a></p>
