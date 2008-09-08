@@ -39,10 +39,11 @@ ob_start();
 		
 		
 		<p><strong>About the Eclipse Foundation</strong><br />
-		Information about Eclipse can be found at <a href="http://www.eclipse.org/">www.eclipse.org</a></p>
+		Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
+		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of
+		Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org">www.eclipse.org</a>.</p>
 		<br />
 		<center># # #</center> 
-		<br />All company/product names and service marks may be trademarks or registered trademarks of their respective companies.
 		
 		<p><b>Press Contact</b><br>
 		Chantal Yang<br>
