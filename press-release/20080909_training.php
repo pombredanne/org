@@ -33,9 +33,9 @@ ob_start();
 		
 		<h2>Eclipse Foundation members offer courses on Eclipse RCP, Equinox and Eclipse Modeling</h2>
 		
-		<p><strong>Ottawa, Canada - September 9, 2008 - </strong>The Eclipse Foundation, in partnership with 12 Eclipse Foundation members, is pleased to announce a new Eclipse Training Series to be held in 31 cities around the world.   The instructor-led training courses will be held from November 3 to December 8, 2008 and feature classes on Eclipse RCP (Basic and Advanced), Eclipse Equinox and Eclipse Modeling technologies. </p>
+		<p><strong>Ottawa, Canada - September 9, 2008 - </strong>The Eclipse Foundation, in partnership with 14 Eclipse Foundation members, is pleased to announce a new Eclipse Training Series to be held in 31 cities around the world.   The instructor-led training courses will be held from November 3 to December 13, 2008 and feature classes on Eclipse RCP (Basic and Advanced), Eclipse Equinox and Eclipse Modeling technologies. </p>
 		<p>A complete schedule of courses and course descriptions are <a href="http://www.eclipse.org/community/training/2008fall.php">now available</a>.  Students who register before October 3, 2008 will receive a 5% discount on the registration price.</p>
-		<p>The participating members are ANCIT Consulting, Anyware Technologies, AvantSoft (Eclipse University), Gerhardt Informatics, Industrial TSI, Innoopract, itemis, Jeff McAffer, Obeo, The RCP Company, Soyatec and Weigle Wilczek.</p>
+		<p>The participating members are ANCIT Consulting, Anyware Technologies, AvantSoft (Eclipse University), Chris Aniszczyk, Gerhardt Informatics, Industrial TSI, Innoopract, itemis, Jeff McAffer, Obeo, The RCP Company, Scott Lewis, Soyatec and WeigleWilczek.</p>
 		
 		
 		<p><strong>About the Eclipse Foundation</strong><br />
