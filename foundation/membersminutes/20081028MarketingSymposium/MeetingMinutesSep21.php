@@ -41,6 +41,16 @@ editors and reporters.
 </p>
 
 <p>
+<b>Social Networking and Developer Relations Programs</b> - Pieter Humphreys from Oracle <br> 
+This short talk reviews some ideas and lessons learned in leveraging social networking as an enabler for 
+developers to find and communicate with each other.  As software development knowledge worldwide becomes 
+increasing de-centralized and distributed, a strategy for knowledge and expert location becomes more and more 
+important.
+
+
+</p>
+
+<p>
 <b>Leveraging the eclipse.org Web Site</b> - Donald Smith from the Eclipse Foundation <br> 
 Donald Smith is the Director of Ecosystem Development at the Eclipse Foundation.  In this presentation, Donald will describe the 
 different ways Eclipse member companies can promote their products and services on the eclipse.org web site.
