@@ -31,7 +31,7 @@ Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful de
 <p>
 <b>Actuate Case Study</b> - Rich Guth from Actuate <br> 
 Rich Guth is the business executive responsible for Actuate's BIRT Exchange.  In this session Rich will talk about the success and
-lessons they have learnt from building a community around BIRT Exchange.
+lessons they have experienced from building a community around BIRT Exchange.
 </p>
 
 <p>
@@ -41,15 +41,15 @@ editors and reporters.
 </p>
 
 <p>
-<b>Leveraging the eclipse.org web site</b> - Donald Smith from the Eclipse Foundation <br> 
+<b>Leveraging the eclipse.org Web Site</b> - Donald Smith from the Eclipse Foundation <br> 
 Donald Smith is the Director of Ecosystem Development at the Eclipse Foundation.  In this presentation, Donald will describe the 
 different ways Eclipse member companies can promote their products and services on the eclipse.org web site.
 </p>
 
 <p>
-<b>What are developers using in Eclipse?</b> - Ian Skerrett from the Eclipse Foundation <br> 
+<b>What are Developers Using in Eclipse?</b> - Ian Skerrett from the Eclipse Foundation <br> 
 Ian Skerrett is the Director of Marketing at the Eclipse Foundation.  In this presentation, Ian will present some statistics on 
-how and what developers are using in Eclipse.  The information preesnted will be based on the data collected byt the Usage Data Collector, 
+how and what developers are using in Eclipse.  The information presented will be based on the data collected by the Usage Data Collector, 
 a new peice of technology that was added to Eclipse to gather usage information.
 </p>
 <br> <br>
