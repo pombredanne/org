@@ -20,8 +20,8 @@ ob_start();
 <h3>Agenda</h3>
 
 <p>
-<b>Getting Develoeprs to Listen</b> - Matthew Schmidt from DZone/JavaLobby <br>
- Abstract: Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful developer oriented 
+<b>Getting Developers to Listen</b> - Matthew Schmidt from DZone/JavaLobby <br>
+Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful developer oriented 
  portals. Through his  involvement with these two portals, Matthew has had first hand experience understanding 
  how developers like to learn about new technology. In this presentation, Matthew will talk about his views on 
  the right and wrong ways for getting developers to learn about your product or service.
@@ -40,6 +40,18 @@ Alan Zeichick is the Editor-in-Chief of SD Times.  Alan will talk about the do's
 editors and reporters.
 </p>
 
+<p>
+<b>Leveraging the eclipse.org web site</b> - Donald Smith from the Eclipse Foundation <br> 
+Donald Smith is the Director of Ecosystem Development at the Eclipse Foundation.  In this presentation, Donald will describe the 
+different ways Eclipse member companies can promote their products and services on the eclipse.org web site.
+</p>
+
+<p>
+<b>What are developers using in Eclipse?</b> - Ian Skerrett from the Eclipse Foundation <br> 
+Ian Skerrett is the Director of Marketing at the Eclipse Foundation.  In this presentation, Ian will present some statistics on 
+how and what developers are using in Eclipse.  The information preesnted will be based on the data collected byt the Usage Data Collector, 
+a new peice of technology that was added to Eclipse to gather usage information.
+</p>
 <br> <br>
 
 
