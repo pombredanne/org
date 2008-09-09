@@ -29,15 +29,6 @@ ob_start();
  
  
 <p>
-<b>Converting Web Traffic to Paying Customers</b> - Roy Russo from LoopFuse <br> 
-Roy Russo is the CEO of Loopfuse, a company that specializes in helping companies understand who is visiting 
-their web site.  Roy was one of the original people involved with JBoss and has extensive experience working 
-with customer like Hyperic, SpringSource and Zimbra.  In this session, Roy will talk about the different 
-techniques companies can use to qualify and nurture traffic to a corporate web site and in the end convert them 
-to a paying customer.
-</p>
-
-<p>
 <b>Actuate Case Study</b> - Rich Guth from Actuate <br> 
 Rich Guth is the business executive responsible for Actuate's BIRT Exchange.  In this session Rich will talk about the success and
 lessons they have learnt from building a community around BIRT Exchange.
