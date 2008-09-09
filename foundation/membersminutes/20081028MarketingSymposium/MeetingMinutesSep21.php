@@ -17,6 +17,8 @@ ob_start();
 <h2>Reston Virginia, Hyatt Regency Reston</h2>
 <h2>8:30am - 12:00pm</h2>
 
+<p>Please RSVP to eclipse.members@eclipse.org</p>
+
 <h3>Agenda</h3>
 
 <p>
