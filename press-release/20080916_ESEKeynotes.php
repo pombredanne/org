@@ -22,15 +22,16 @@ $html = <<<EOHTML
 	</style>
 <div id="maincontent">
 	<div id="midcolumn">
-		<h2>Press Release</h2>
+		<h2>Community Bulletin</h2>
 
 		<center>
 		<h1>$pageTitle</h1>
+		<h4>Registration is now open</h4>
 		</center>
 		
 		<p><strong>Ottawa, Canada – September 16, 2008</strong> - 
 		The Eclipse Foundation is pleased to announce the keynote speakers for the Eclipse Summit Europe conference, to be held November 19-20 in Ludwigsburg, Germany. The two keynote speakers will be:
-			<ul>
+			<ul class="paddedlist">
 				<li>David Wood, Executive VP Research at Symbian. Mr. Wood’s talk ‘Why Should the Mobile World Go Open Source?’ will be his reflections on the possible upsides and downsides when open source software systems are applied in the fast-moving helter-skelter world of mobile phones.
 				<li>Dave Thomas, Founder and Chairman of Bedarra Research Labs. Mr. Thomas’s talk ‘Next Generation Embedded Software – The Imperative Is Agility!’ will speak to new ideas in embedded product development.</li>
 			</ul>
@@ -43,10 +44,6 @@ $html = <<<EOHTML
 		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of
 		Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org" target="blank">www.eclipse.org</a>.</p>
 
-		<p><center>###</center><p>
-		
-		<p>All company/product names and service marks may be trademarks or registered trademarks of their respective companies.</p>
-				
 		<p><b>Press Contact</b><br/>
 		Ian Skerrett<br/>
 		Director of Marketing<br/>
@@ -58,7 +55,7 @@ $html = <<<EOHTML
 	</div>
 
 </div>
-w
+
 
 		
 
