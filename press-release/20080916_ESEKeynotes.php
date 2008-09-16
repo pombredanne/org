@@ -39,10 +39,6 @@ $html = <<<EOHTML
 		<p>Eclipse Summit Europe is the annual conference for the European Eclipse community.   The conference features two days of technical and business track sessions, demos, and social gatherings, preceded by one day of symposia on November 18.</p>
  
 		<p>Registration is now open for the conference. Employees of Eclipse member companies, Eclipse committers, and conference alumni will receive a 15% discount on the full registration price.  More information about the conference and registration can be found at <a href="http://www.eclipsesummit.org">http://www.eclipsesummit.org</a>.</p>
-				
-		<p><b>About the Eclipse Foundation</b><br>
-		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of
-		Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org" target="blank">www.eclipse.org</a>.</p>
 
 	</div>
 
