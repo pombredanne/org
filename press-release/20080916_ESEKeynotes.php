@@ -44,14 +44,6 @@ $html = <<<EOHTML
 		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of
 		Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org" target="blank">www.eclipse.org</a>.</p>
 
-		<p><b>Press Contact</b><br/>
-		Ian Skerrett<br/>
-		Director of Marketing<br/>
-		Eclipse Foundation<br/>
-		<a href="mailto:ian.skerrett@eclipse.org">ian.skerrett@eclipse.org</a><br>
-		+1 -613-224-9461 (ext. 227)<br>
-		<br>
-
 	</div>
 
 </div>
