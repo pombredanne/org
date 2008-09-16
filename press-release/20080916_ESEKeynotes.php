@@ -41,9 +41,14 @@ $html = <<<EOHTML
 		<p>Registration is now open for the conference. Employees of Eclipse member companies, Eclipse committers, and conference alumni will receive a 15% discount on the full registration price.  More information about the conference and registration can be found at <a href="http://www.eclipsesummit.org">http://www.eclipsesummit.org</a>.</p>
 
 	</div>
-
+	<div id="rightcolumn"><br/><br/><br/>
+			<a href="http://www.eclipsesummit.org/"><img border="0" 
+ src="http://www.eclipsecon.org/summiteurope2008/image125x125.gif" 
+ height="125" width="125" alt="Eclipse Summit Europe 2008"/></a>
+	</div>
+	
 </div>
-
+	
 
 		
 
