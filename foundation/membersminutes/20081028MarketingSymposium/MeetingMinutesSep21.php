@@ -26,8 +26,8 @@ ob_start();
 <h2 id="nmjs">New Member Jumpstart, October 27, 2008</h2>
 Reston Virginia, Hyatt Regency Reston<br>
 10:00am - 12:00pm
-<br><b>Agenda</b>
-<p> This meeting is ideally suited for people new to the Eclipse 
+<p> <b>Agenda</b><br>
+This meeting is ideally suited for people new to the Eclipse 
 Ecosystem either technical or business/marketing.   It will introduce the role of the Eclipse 
 Foundation, the governance structure and provide insight into the organization of the different projects.</p>
 
@@ -35,9 +35,10 @@ Foundation, the governance structure and provide insight into the organization o
 <h2 id="nmjs">Members Meeting, October 27, 2008</h2>
 Reston Virginia, Hyatt Regency Reston<br>
 1:00pm - 5:30pm
-<br><b>Agenda</b>
+
 <p> 
- <ul>
+<b>Agenda</b><br>
+<ul>
  <li>Executive Director Update, Mike Milinkovich</li>
  <li><a href="http://www.burtongroup.com/Aboutus/Bios/PrintBio.aspx?Id=144">Kirk Knoernschild</a>, Analyst for Burton Group Application Platform Strategies.
  <ul>
@@ -60,9 +61,10 @@ Reston Virginia, Hyatt Regency Reston<br>
 Reston Virginia, Hyatt Regency Reston<br>
 8:30am - 12:00pm</h2>
 
-<br><b>Agenda</b>
+
 
 <p>
+<b>Agenda</b><br>
 <b>Getting Developers to Listen</b> - Matthew Schmidt from DZone/JavaLobby <br>
 Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful developer oriented 
  portals. Through his  involvement with these two portals, Matthew has had first hand experience understanding 
