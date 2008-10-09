@@ -32,7 +32,7 @@ Ecosystem either technical or business/marketing.   It will introduce the role o
 Foundation, the governance structure and provide insight into the organization of the different projects.</p>
 
 
-<h2 id="nmjs">Members Meeting, October 27, 2008</h2>
+<h2 id="mm">Members Meeting, October 27, 2008</h2>
 Reston Virginia, Hyatt Regency Reston<br>
 1:00pm - 5:30pm
 
@@ -55,7 +55,7 @@ Reston Virginia, Hyatt Regency Reston<br>
 
 
 
-<h2 id="mm">Marketing Symposium, October 28, 2008<br>
+<h2 id="ms">Marketing Symposium, October 28, 2008<br>
 Reston Virginia, Hyatt Regency Reston<br>
 8:30am - 12:00pm</h2>
 
