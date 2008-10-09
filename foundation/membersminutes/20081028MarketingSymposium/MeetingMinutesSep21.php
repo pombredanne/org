@@ -23,19 +23,19 @@ ob_start();
 </ul>
 
 
-<h2 id="nmjs">New Member Jumpstart, October 27, 2008<br>
+<h2 id="nmjs">New Member Jumpstart, October 27, 2008</h2>
 Reston Virginia, Hyatt Regency Reston<br>
-10:00am - 12:00pm</h2>
-<h3>Agenda</h3>
+10:00am - 12:00pm
+<h4>Agenda</h4>
 <p> This meeting is ideally suited for people new to the Eclipse 
 Ecosystem either technical or business/marketing.   It will introduce the role of the Eclipse 
 Foundation, the governance structure and provide insight into the organization of the different projects.</p>
 
 
-<h2 id="nmjs">Members Meeting, October 27, 2008<br>
+<h2 id="nmjs">Members Meeting, October 27, 2008</h2>
 Reston Virginia, Hyatt Regency Reston<br>
-1:00pm - 5:30pm</h2>
-<h3>Agenda</h3>
+1:00pm - 5:30pm
+<h4>Agenda</h4>
 <p> 
  <ul>
  <li>Executive Director Update, Mike Milinkovich</li>
@@ -56,11 +56,11 @@ Reston Virginia, Hyatt Regency Reston<br>
 
 
 
-<h2 id="ms">Marketing Symposium, October 28, 2008<br>
+<h2 id="mm">Marketing Symposium, October 28, 2008<br>
 Reston Virginia, Hyatt Regency Reston<br>
 8:30am - 12:00pm</h2>
 
-<h3>Agenda</h3>
+<h4>Agenda</h4>
 
 <p>
 <b>Getting Developers to Listen</b> - Matthew Schmidt from DZone/JavaLobby <br>
