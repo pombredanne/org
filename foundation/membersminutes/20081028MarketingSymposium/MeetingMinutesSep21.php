@@ -12,12 +12,53 @@ ob_start();
 </head>
 
 
+<h1>Members Meeting and Marketing Symposium Agenda</h1>
 
-<h1>Marketing Symposium, October 28, 2008</h1>
-<h2>Reston Virginia, Hyatt Regency Reston</h2>
-<h2>8:30am - 12:00pm</h2>
+<p>Please RSVP for any of these meetings via email to members.meeting@eclipse.org</p>
 
-<p>Please RSVP to eclipse.members@eclipse.org</p>
+<ul>
+<li><a href="#nmjs">New Member Jumpstart</a> - Monday, October 27, 2008.  10:00am-noon.</li>
+<li><a href="#mm">Members Meeting</a> - Monday, October 27, 2008.  1:00pm-5:30pm.</li>
+<li><a href="#ms">Marketing Symposium</a> - Tuesday, October 28, 2008.  8:30am-noon.</li>
+</ul>
+
+
+<h2 id="nmjs">New Member Jumpstart, October 27, 2008<br>
+Reston Virginia, Hyatt Regency Reston<br>
+10:00am - 12:00pm</h2>
+<h3>Agenda</h3>
+<p> This meeting is ideally suited for people new to the Eclipse 
+Ecosystem either technical or business/marketing.   It will introduce the role of the Eclipse 
+Foundation, the governance structure and provide insight into the organization of the different projects.</p>
+
+
+<h2 id="nmjs">Members Meeting, October 27, 2008<br>
+Reston Virginia, Hyatt Regency Reston<br>
+1:00pm - 5:30pm</h2>
+<h3>Agenda</h3>
+<p> 
+ <ul>
+ <li>Executive Director Update, Mike Milinkovich</li>
+ <li>Kirk Knoernschild, Analyst for Burton Group Application Platform Strategies.
+ <ul>
+ <li>Title: The Enterprise and OSGi</li>
+ <li>Abstract: The OSGi Service Platform is a disruptive technology that stands to transform 
+ enterprise Java development. But to 
+ achieve greater enterprise penetration, tools and product must be built that leverage OSGi. In this brief discussion, I'll 
+ talk about the gaps, risks, and rewards of OSGi in the Enterprise.</li>
+ </ul></li>
+ <li>Membership Updates</li>
+ <li>Project Updates</li>
+ <li>New Member Introductions</li>
+ <li>Networking Reception 6-7pm</li>
+ </ul>
+</p>
+
+
+
+<h2 id="ms">Marketing Symposium, October 28, 2008<br>
+Reston Virginia, Hyatt Regency Reston<br>
+8:30am - 12:00pm</h2>
 
 <h3>Agenda</h3>
 
