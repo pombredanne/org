@@ -39,7 +39,7 @@ Reston Virginia, Hyatt Regency Reston<br>
 <p> 
  <ul>
  <li>Executive Director Update, Mike Milinkovich</li>
- <li>Kirk Knoernschild, Analyst for Burton Group Application Platform Strategies.
+ <li><a href="http://www.burtongroup.com/Aboutus/Bios/PrintBio.aspx?Id=144">Kirk Knoernschild</a>, Analyst for Burton Group Application Platform Strategies.
  <ul>
  <li>Title: The Enterprise and OSGi</li>
  <li>Abstract: The OSGi Service Platform is a disruptive technology that stands to transform 
