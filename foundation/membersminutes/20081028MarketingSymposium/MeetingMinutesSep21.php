@@ -40,14 +40,12 @@ Reston Virginia, Hyatt Regency Reston<br>
 <b>Agenda</b><br>
 <ul>
  <li>Executive Director Update, Mike Milinkovich</li>
- <li><a href="http://www.burtongroup.com/Aboutus/Bios/PrintBio.aspx?Id=144">Kirk Knoernschild</a>, Analyst for Burton Group Application Platform Strategies.
- <ul>
- <li>Title: The Enterprise and OSGi</li>
- <li>Abstract: The OSGi Service Platform is a disruptive technology that stands to transform 
+ <li><b>The Enterprise and OSGi</b>.  <a href="http://www.burtongroup.com/Aboutus/Bios/PrintBio.aspx?Id=144">Kirk Knoernschild</a> - Analyst for Burton Group Application Platform Strategies.
+<br>The OSGi Service Platform is a disruptive technology that stands to transform 
  enterprise Java development. But to 
  achieve greater enterprise penetration, tools and product must be built that leverage OSGi. In this brief discussion, I'll 
  talk about the gaps, risks, and rewards of OSGi in the Enterprise.</li>
- </ul></li>
+</li>
  <li>Membership Updates</li>
  <li>Project Updates</li>
  <li>New Member Introductions</li>
