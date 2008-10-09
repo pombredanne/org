@@ -33,7 +33,7 @@ if (!in_array($kind, array('command', 'perspective', 'view', 'editor'))) $kind =
 
 $sort = 'element';
 if (array_key_exists('sort', $_GET)) $sort = $_GET['sort'];
-if (!in_array($sort, array('element', 'use', 'users'))) $sort = 'element';
+if (!in_array($sort, array('month', 'element', 'use', 'users'))) $sort = 'element';
 
 $url = '/org/usagedata/reports/data/' . $kind . 's.csv';
 $file = $_SERVER['DOCUMENT_ROOT'] . $url;
@@ -45,6 +45,7 @@ $headers = current($csv);
 $headers = split(",", $headers);
 
 class Item {
+	var $yearmonth;
 	var $element;
 	var $useCount;
 	var $userCount;
@@ -56,11 +57,17 @@ while ($row = next($csv)) {
 	$row = split(",", $row);
 	
 	$item = new Item();
-	$item->element = current($row);
+	$item->yearmonth = current($row);
+	$item->element = next($row);
 	$item->useCount = next($row);
 	$item->userCount = next($row);
 	
 	$items[] = $item;
+}
+
+function sort_by_month($a, $b) {
+	if ($a->yearmonth == $b->yearmonth) return 0;
+	return $a->yearmonth < $b->yearmonth ? 1 : -1;		
 }
 
 function sort_by_element($a, $b) {
@@ -107,12 +114,12 @@ ob_start();
 
 <p>This information is available in <a href="<?= $url ?>">CSV format</a>.</p>
 <table border="1">
-	<tr><th><a href="?kind=<?= $kind ?>&sort=element">Element</a></th><th><a href="?kind=<?= $kind ?>&sort=use">Use Count</a></th><th><a href="?kind=<?= $kind ?>&sort=users">User Count</a></th></tr>
+	<tr><th><a href="?kind=<?= $kind ?>&sort=month">Month</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Element</a></th><th><a href="?kind=<?= $kind ?>&sort=use">Use Count</a></th><th><a href="?kind=<?= $kind ?>&sort=users">User Count</a></th></tr>
 	<?
 		foreach($items as $item) {
 			$useCount = number_format($item->useCount);
 			$userCount = number_format($item->userCount);
-			echo "<tr><td>$item->element</td><td align=\"right\">$useCount</td><td align=\"right\">$userCount</td></tr>";
+			echo "<tr><td>$item->yearmonth</td><td>$item->element</td><td align=\"right\">$useCount</td><td align=\"right\">$userCount</td></tr>";
 		}
 	?>
 </table>	
