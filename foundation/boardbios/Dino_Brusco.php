@@ -1,6 +1,6 @@
 <p>Dino Brusco is a Senior Director of the Mobile Device Business of Motorola, and 
 is responsible for delivering software development tools and services to mobile 
-application developers. Dino led the creation of Motorola’s first Eclipse-based 
+application developers. Dino led the creation of Motorola's first Eclipse-based 
 mobile application development platform.</p>
 
 <p>Dino's previous senior management experience includes VP of Marketing, VP of R&D, 
