@@ -56,7 +56,7 @@
      		
      	<h3>Description of Deliverables</h3>
      	<p>
-     	The Mobile Industry Working Group will focus on four areas:
+     	The Mobile Industry Working Group (MIWG) will focus on four areas:
      	<ol>
      		<li>The MIWG will define and maintain requirements and a roadmap that defines a complete mobile offering and encourage broader participation for different solution providers.
 			<li>The MIWG will define the technical requirements for a packaged distribution (e.g. the Eclipse MADK).  The MADK will collaborate with other Eclipse projects (e.g. the Eclipse packaging project), or create new projects as needed to implement new technology required for the MADK, to deliver an extensible MADK package.
@@ -67,7 +67,7 @@
 		
 		<p>The MIWG will not create or publish a specification as part of its deliverables.</p>
 		
-		<h3>MIWG Participation Guidelines</h3>
+		<h3>Mobile Industry Working Group (MIWG) Participation Guidelines</h3>
 		<p>The MIWG participation guidelines define the obligations for participants.  MIWG participants are 
 		expected to full-fill these obligations to be considered in good standing.
 		</p>
@@ -77,20 +77,57 @@
 			<li>Appoint at least 1 developer/technical resource to contribute to the creation of MIWG  
 			technologies, product roadmaps and/or technical documents.
 			<li>Regularly participate in all MIWG meetings and provide timely feedback on the MIWG documents.
-			<li>Provide announcement support for the MADK and ongoing promotion to mobile application developers.
+			<li>Provide announcement support for the Mobile Application Development Kit (MADK) and ongoing promotion to mobile application developers.
 		</ul> 
 		</p>
 		<p>Member Participants are required to:
 		<ul>
 			<li>Be an Eclipse Foundation Member (Solution, Associate, or Committer)
 			<li>Regularly participate in all MIWG meeting and provide timely feedback on the MIWG documents.
-			<li>For corporate members, provide announcement support for the MADK and ongoing promotion to mobile 
+			<li>For corporate members, provide announcement support for the Mobile Application Development Kit (MADK) and ongoing promotion to mobile 
 			application developers.
 		</ul>
 		</p>
 		
 		<h3>Proposed Schedule</h3>
-		<p>TBD</p>
+		<p><ul>
+		<li><p>Q4/08 - Q1/09 Publish MIWG Charter; Gather bigger community and recruit two or more 
+		(Expectation of 4) mobile industry players. </p></li>
+
+		
+
+		<li><p>Q4/08 Define technical roadmap. The goal is to create the following documents by end of December
+			<ul>
+				<li>Detailed use-cases outlining the user experience of a "Eclipse Mobile ADK"</li>
+				<li>High level requirements with straw man architecture</li>
+				<li>List of dependencies on existing Eclipse Projects</li>
+				<li>List of missing components (Plug-in granularity) and a brief description of each</li> 
+			</ul>
+		</p>	
+		</li>
+
+
+ 
+		<li><p>Q1/Q2 09 - Work with the existing projects (e.g. MTJ, TML and EPP) to create a pre-packaged Eclipse Mobile ADK in Galileo release.</p>
+	 		<p>Create an Eclipse Mobile Integration project to implement the identified missing components. 
+	 		Examples include:
+	 		<ul><li> implement a missing "SDK download / integration" UI</li>
+			<li>P2 extensions to integrate vendor SDKs into MADK</li>
+			<li>signing / deployment framework which can be extended in MTJ, TML and others</li>
+			</ul>
+			</p></li>
+		
+
+		<li>Q2/09: Work on Galileo coordinated MADK Release</li>
+
+		<li>Q3/09: Unify mobile specific features (e.g. Sign, Package, Deploy)</li>
+ 
+		<li>Q3/Q4/09: Plan for Post Galileo release</li>
+		</ul>
+	</p>
+		
+		<h3>Feedback</h3>
+		TBD
 		
  <br><br>
 </div>
