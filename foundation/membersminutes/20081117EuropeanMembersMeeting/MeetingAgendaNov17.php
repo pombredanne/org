@@ -24,10 +24,10 @@ ob_start();
 
 
 
-<h2 id="mm">Members Meeting, November 17, 2008</h2>
+<h2 id="mm">Members Meeting, November 17, 2008<br>
 Ludwigsburg, Germany
 <br>
-1:30pm - 5:30pm
+1:30pm - 5:30pm</h2>
 
 <p> 
 <b>Agenda</b><br>
@@ -46,7 +46,7 @@ a new peice of technology that was added to Eclipse to gather usage information.
  
 </p>
 
-
+<br><br><br>
 
 <h2 id="ms">Marketing Symposium, November 18, 2008<br>
 Ludwigsburg, Germany<br>
