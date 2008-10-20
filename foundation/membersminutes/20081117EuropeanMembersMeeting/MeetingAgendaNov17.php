@@ -70,7 +70,7 @@ Members of the Eclipse marketing community will give short presentations that re
 in the Eclipse community.<br>
 <ul>
 <li>How to Get Good Press - Manuela Duft - compeople </li>
-<li>Producing On-line Webinars - Stefanie Peitzker, Innovations</li>
+<li>Tips for doing successful webinars - Stefanie Peitzker, Innovations</li>
 <li>Organizing an Eclipse events in France - Jocya Leroy, Anyware Technologies</li> 
 <li>Experiences from the first Eclipse Banking Day - Joern Weigle, Weigle Wilczek</li>
 </ul>
