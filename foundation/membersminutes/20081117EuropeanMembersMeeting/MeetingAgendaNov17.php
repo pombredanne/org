@@ -17,7 +17,7 @@ ob_start();
 <p>Please RSVP for any of these meetings via email to <a href="mailto:members.meeting@eclipse.org?subject=RSVP to European Member Meeting">members.meeting@eclipse.org</p>
 
 <ul>
-<li><a href="#mm">Members Meeting</a> - Monday, November 17, 2008.  1:30pm-5:30pm.</li>
+<li><a href="#mm">Members Meeting</a> - Monday, November 17, 2008.  2:00pm-6:00pm.</li>
 <li><a href="#ms">Marketing Symposium</a> - Tuesday, 18, 2008.  8:30am-noon.</li>
 </ul>
 
@@ -27,7 +27,7 @@ ob_start();
 <h2 id="mm">Members Meeting, November 17, 2008<br>
 Ludwigsburg, Germany
 <br>
-1:30pm - 5:30pm</h2>
+2:00pm - 6:00pm</h2>
 
 <p> 
 <b>Agenda</b><br>
