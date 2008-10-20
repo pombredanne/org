@@ -18,9 +18,9 @@ ob_start();
 
 <ul>
 <li><a href="#mm">Members Meeting</a> - TELECONFERENCE, Monday, October 27, 2008.  11:30am-1:00pm (Eastern).</li>
-<li><a href="#nmjs">New Member Jumpstart</a> - Monday, October 27, 2008.  2:00pm-4:00pm.</li>
-<li><a href="#rec">Members Reception</a> - Monday, October 27, 2008.  5:00pm-7:00pm.</li>
-<li><a href="#ms">Marketing Symposium</a> - Tuesday, October 28, 2008.  8:30am-noon.</li>
+<li><a href="#nmjs">New Member Jumpstart</a> - Monday, October 27, 2008.  2:00pm-4:00pm. "Lake Audubon" room.</li>
+<li><a href="#rec">Members Reception</a> - Monday, October 27, 2008.  5:00pm-7:00pm.  "Lake Thoreau" room.</li>
+<li><a href="#ms">Marketing Symposium</a> - Tuesday, October 28, 2008.  8:30am-noon.  "Lake Anne A" room.</li>
 </ul>
 
 
@@ -67,7 +67,7 @@ is a great opportunity to mingle with Eclipse Foundation staff and your peers in
 
 
 <h2 id="ms">Marketing Symposium, October 28, 2008</h2>
-Reston Virginia, Hyatt Regency Reston, “Lake Anne A” room<br>
+Reston Virginia, Hyatt Regency Reston, “Lake Anne A” room.<br>
 8:30am - 12:00pm
 
 <p>
