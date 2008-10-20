@@ -29,7 +29,13 @@ ob_start();
 		<br>Dial-in information:
 		<br>International: +1 613 287 8000  
 		<br>US&Canada Toll Free: 866 362 7064
-		<br>Participant Code: 187860
+		<br>Finland:  990 800 2288 3502
+      	<br>France (excl. Monaco):  00 800 2288 3502
+      	<br>Germany:  00 800 2288 3502
+      	<br>Sweden:  00 800 2288 3502
+      	<br>United Kingdom:  00 800 2288 3502
+		<br>
+		<br><b>Participant Code: 187860</b>
 <br>
 <p> 
 <b>Agenda</b><br>
