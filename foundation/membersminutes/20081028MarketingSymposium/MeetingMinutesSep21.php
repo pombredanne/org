@@ -26,7 +26,7 @@ ob_start();
 
 <h2 id="mm">Members Meeting, October 27, 2008</h2>
 		8:30am PT, 11:30am ET, 16:30 CET.
-		<br>Dial-in information:
+		<br>Dial-in information:  <b>Participant Code: 187860</b>
 		<br>International: +1 613 287 8000  
 		<br>US&Canada Toll Free: 866 362 7064
 		<br>Finland:  990 800 2288 3502
@@ -34,8 +34,6 @@ ob_start();
       	<br>Germany:  00 800 2288 3502
       	<br>Sweden:  00 800 2288 3502
       	<br>United Kingdom:  00 800 2288 3502
-		<br>
-		<br><b>Participant Code: 187860</b>
 <br>
 <p> 
 <b>Agenda</b><br>
