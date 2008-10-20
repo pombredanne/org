@@ -17,25 +17,20 @@ ob_start();
 <p>Please RSVP for any of these meetings via email to members.meeting@eclipse.org</p>
 
 <ul>
-<li><a href="#nmjs">New Member Jumpstart</a> - Monday, October 27, 2008.  10:00am-noon.</li>
-<li><a href="#mm">Members Meeting</a> - Monday, October 27, 2008.  1:00pm-5:30pm.</li>
+<li><a href="#mm">Members Meeting</a> - TELECONFERENCE, Monday, October 27, 2008.  11:30am-1:00pm (Eastern).</li>
+<li><a href="#nmjs">New Member Jumpstart</a> - Monday, October 27, 2008.  2:00pm-4:00pm.</li>
+<li><a href="#rec">Members Reception</a> - Monday, October 27, 2008.  5:00pm-7:00pm.</li>
 <li><a href="#ms">Marketing Symposium</a> - Tuesday, October 28, 2008.  8:30am-noon.</li>
 </ul>
 
 
-<h2 id="nmjs">New Member Jumpstart, October 27, 2008</h2>
-Reston Virginia, Hyatt Regency Reston<br>
-10:00am - 12:00pm
-<p> <b>Agenda</b><br>
-This meeting is ideally suited for people new to the Eclipse 
-Ecosystem either technical or business/marketing.   It will introduce the role of the Eclipse 
-Foundation, the governance structure and provide insight into the organization of the different projects.</p>
-
-
 <h2 id="mm">Members Meeting, October 27, 2008</h2>
-Reston Virginia, Hyatt Regency Reston<br>
-1:00pm - 5:30pm
-
+		<br>8:30am PT, 11:30am ET, 16:30 CET.
+		<br>Dial-in information:
+		<br>International: +1 613 287 8000  
+		<br>US&Canada Toll Free: 866 362 7064
+		<br>Participant Code: 187860
+<br>
 <p> 
 <b>Agenda</b><br>
 <ul>
@@ -49,17 +44,31 @@ Reston Virginia, Hyatt Regency Reston<br>
  <li>Membership Updates</li>
  <li>Project Updates</li>
  <li>New Member Introductions</li>
- <li>Networking Reception 6-7pm</li>
  </ul>
 </p>
 
 
 
+
+<h2 id="nmjs">New Member Jumpstart, October 27, 2008</h2>
+Reston Virginia, Hyatt Regency Reston, “Lake Audubon” room.<br>
+10:00am - 12:00pm
+<p> <b>Agenda</b><br>
+This meeting is ideally suited for people new to the Eclipse 
+Ecosystem either technical or business/marketing.   It will introduce the role of the Eclipse 
+Foundation, the governance structure and provide insight into the organization of the different projects.</p>
+
+
+<h2 id="nmjs">Members Reception, October 27, 2008</h2>
+Reston Virginia, Hyatt Regency Reston, Lake Thoreau” room.<br>
+5:00pm - 7:00pm
+<p>All members of the Eclipse Foundation are welcome to attend this reception on Monday evening in Lake Thoreau.  This
+is a great opportunity to mingle with Eclipse Foundation staff and your peers in the Eclipse Ecosystem.</p>
+
+
 <h2 id="ms">Marketing Symposium, October 28, 2008<br>
-Reston Virginia, Hyatt Regency Reston<br>
+Reston Virginia, Hyatt Regency Reston, “Lake Anne A” room<br>
 8:30am - 12:00pm</h2>
-
-
 
 <p>
 <b>Agenda</b><br>
@@ -106,10 +115,6 @@ how and what developers are using in Eclipse.  The information presented will be
 a new peice of technology that was added to Eclipse to gather usage information.
 </p>
 <br> <br>
-
-
-
-
 
       </div>
   </div>
