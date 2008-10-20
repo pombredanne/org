@@ -25,7 +25,7 @@ ob_start();
 
 
 <h2 id="mm">Members Meeting, October 27, 2008</h2>
-		<br>8:30am PT, 11:30am ET, 16:30 CET.
+		8:30am PT, 11:30am ET, 16:30 CET.
 		<br>Dial-in information:
 		<br>International: +1 613 287 8000  
 		<br>US&Canada Toll Free: 866 362 7064
@@ -52,7 +52,7 @@ ob_start();
 
 <h2 id="nmjs">New Member Jumpstart, October 27, 2008</h2>
 Reston Virginia, Hyatt Regency Reston, “Lake Audubon” room.<br>
-10:00am - 12:00pm
+2:00pm - 4:00pm
 <p> <b>Agenda</b><br>
 This meeting is ideally suited for people new to the Eclipse 
 Ecosystem either technical or business/marketing.   It will introduce the role of the Eclipse 
@@ -60,15 +60,15 @@ Foundation, the governance structure and provide insight into the organization o
 
 
 <h2 id="nmjs">Members Reception, October 27, 2008</h2>
-Reston Virginia, Hyatt Regency Reston, Lake Thoreau” room.<br>
+Reston Virginia, Hyatt Regency Reston, "Lake Thoreau” room.<br>
 5:00pm - 7:00pm
 <p>All members of the Eclipse Foundation are welcome to attend this reception on Monday evening in Lake Thoreau.  This
 is a great opportunity to mingle with Eclipse Foundation staff and your peers in the Eclipse Ecosystem.</p>
 
 
-<h2 id="ms">Marketing Symposium, October 28, 2008<br>
+<h2 id="ms">Marketing Symposium, October 28, 2008</h2>
 Reston Virginia, Hyatt Regency Reston, “Lake Anne A” room<br>
-8:30am - 12:00pm</h2>
+8:30am - 12:00pm
 
 <p>
 <b>Agenda</b><br>
