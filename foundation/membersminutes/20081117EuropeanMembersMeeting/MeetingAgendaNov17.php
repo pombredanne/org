@@ -38,11 +38,7 @@ Ludwigsburg, Germany
   <li><p>New Member Introductions</p></li>
   <li><p>Marketing Update</p></li>
  <li><p>Project Updates</p></li>
- <li><p>What are Developers Using in Eclipse? - Ian Skerrett, Eclipse Foundation <br> 
-In this presentation, Ian will present some statistics on 
-how and what developers are using in Eclipse.  The information presented will be based on the data collected by the Usage Data Collector, 
-a new peice of technology that was added to Eclipse to gather usage information.</p></li>
- </ul>
+  </ul>
  
 </p>
 
