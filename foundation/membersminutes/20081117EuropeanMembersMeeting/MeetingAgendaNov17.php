@@ -37,7 +37,13 @@ Ludwigsburg, Germany
  <li><p>Membership Updates</p></li>
   <li><p>New Member Introductions</p></li>
   <li><p>Marketing Update</p></li>
- <li><p>Project Updates</p></li>
+ <li><p>Project Updates
+ 	<ul>
+ 		<li>Eclipse RT and Equinox - Jeff McAffer</li>
+ 		<li>Eclipse 4.0 (e4) - Jochen Krause</li>
+ 	</ul>
+ 	</p></li>
+ 
   </ul>
  
 </p>
