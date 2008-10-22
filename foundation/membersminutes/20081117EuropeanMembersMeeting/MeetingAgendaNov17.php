@@ -36,13 +36,15 @@ Ludwigsburg, Germany
  <li><p>Guest Speaker</p></li>
  <li><p>Membership Updates</p></li>
   <li><p>New Member Introductions</p></li>
-  <li><p>Marketing Update</p></li>
  <li><p>Project Updates
  	<ul>
  		<li>Eclipse RT and Equinox - Jeff McAffer</li>
  		<li>Eclipse 4.0 (e4) - Jochen Krause</li>
  	</ul>
  	</p></li>
+ 	<li><p>Architecture Council Update - Martin Oberhuber</p></li>
+   <li><p>Marketing Update</p></li>
+ 	
  
   </ul>
  
