@@ -29,7 +29,7 @@
 			Eclipse experts and discover what leading financial institutions, such as JP Morgan, Morgan Stanley 
 			and RBC Capital, are doing with Eclipse.
 		</p>
-		<p>A detailed agenda is <a href="http://wiki.eclipse.org/EclipseBankingDayNYC#Attendee">available</a> and additional information 
+		<p>A detailed agenda is <a href="http://wiki.eclipse.org/EclipseBankingDayNYC#Agenda">available</a> and additional information 
 		<a href="http://ianskerrett.wordpress.com/2008/10/16/announcing-eclipse-banking-day-in-nyc/">here</a>.  There is no cost to attend but you need to work for a financial 
 		institution and <a href="http://wiki.eclipse.org/EclipseBankingDayNYC#Attendee_Registration">pre-register</a>.</p>
  		<p>
