@@ -31,7 +31,10 @@
 		</p>
 		<p>A detailed agenda is <a href="http://wiki.eclipse.org/EclipseBankingDayNYC#Attendee">available.</a>  There is no cost to attend but you need to work for a financial 
 		institution and <a href="http://wiki.eclipse.org/EclipseBankingDayNYC#Attendee_Registration">pre-register</a>.</p>
- 
+ 		<p>
+ 		The Eclipse Foundation would like to thank Morgan Stanley for hosting the event at 
+ 		their location in Manhatten and our sponsors, Actuate and Sybase, who are helping to make it possible to 
+ 		have it as a no-cost event.</p>
 		  
 	</div>
 </div>
