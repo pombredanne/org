@@ -32,7 +32,7 @@
 		<p>
 		If you have expertise building and working
 		with Eclipse, share your knowledge with the Eclipse community by making a submission today.
-		The deadline for tutorial and talk submissions is <b>November 24, 2008</b>.
+		The deadline for tutorial and talk proposal is <b>November 24, 2008</b>.
 		</p>
 		
 		<p>
