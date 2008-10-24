@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Submit a Presentation for EclipseCon";
+	$pageTitle 		= "EclipseCon 2009 Call for Participation";
 	$pageKeywords	= "Eclipse Foundation, EclipseCon, open source, cfp, submission";
 	$pageAuthor		= "Lynn Gayowski";
 	
