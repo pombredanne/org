@@ -36,13 +36,13 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20081024_eclipseconcfp.php>EclipseCon 2009 Call for Participation</a> - October 24, 2008</li>
-		<li><a href="20081022_bankingdaynyc>Eclipse Banking Day in NYC</a> - October 22, 2008</li>
-		<li><a href="20081015_mtj.php>New Eclipse MTJ Release Eases Cross Platform Development for Mobile Java Applications</a> - October 15, 2008</li>
-		<li><a href="20081014eclipseworld_party.php>Eclipse Foundation Party at EclipseWorld</a> - October 14, 2008</li>	
-		<li><a href="20080916_ESEKeynotes.php>Eclipse Summit Europe Keynotes Announced</a> - September 16, 2008</li>
-		<li><a href="20080909_training.php>New Global Eclipse Training Series Launch in 31 Cities</a> - September 9, 2008</li>
-		<li><a href="20080908_novdemocamps.php>Attend or Organize an Eclipse DemoCamp</a> - September 8, 2008</li>
+		<li><a href="20081024_eclipseconcfp.php">EclipseCon 2009 Call for Participation</a> - October 24, 2008</li>
+		<li><a href="20081022_bankingdaynyc.php">Eclipse Banking Day in NYC</a> - October 22, 2008</li>
+		<li><a href="20081015_mtj.php">New Eclipse MTJ Release Eases Cross Platform Development for Mobile Java Applications</a> - October 15, 2008</li>
+		<li><a href="20081014eclipseworld_party.php">Eclipse Foundation Party at EclipseWorld</a> - October 14, 2008</li>	
+		<li><a href="20080916_ESEKeynotes.php">Eclipse Summit Europe Keynotes Announced</a> - September 16, 2008</li>
+		<li><a href="20080909_training.php">New Global Eclipse Training Series Launch in 31 Cities</a> - September 9, 2008</li>
+		<li><a href="20080908_novdemocamps.php">Attend or Organize an Eclipse DemoCamp</a> - September 8, 2008</li>
 		<li><a href="20080825_esecfp.php">Eclipse Summit Europe - Call for Papers Deadline is September 1</a> - August 25, 2008</li>
 		<li><a href="20080812_aroundtheworldwinners.php">Winners of the Ganymede Around the World Contest</a> - August 12, 2008</li>
 		<li><a href="20080625_ganymede.php">Eclipse Delivers Its Annual Release Train</a> - June 23rd, 2008</li>
