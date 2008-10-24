@@ -32,6 +32,8 @@
 		<p>
 		If you have expertise building and working
 		with Eclipse, share your knowledge with the Eclipse community by making a submission today.
+		Details on submitting can be found on the <a href="http://www.eclipsecon.org/2009/submissions">
+		EclipseCon web site</a>. 
 		The deadline for tutorial and talk proposals is <b>November 24, 2008</b>.
 		</p>
 		
