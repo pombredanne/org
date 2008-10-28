@@ -55,7 +55,7 @@ ob_start();
 
 
 <h2 id="nmjs">New Member Jumpstart, October 27, 2008</h2>
-Reston Virginia, Hyatt Regency Reston, “Lake Audubon” room.<br>
+Reston Virginia, Hyatt Regency Reston, ï¿½Lake Audubonï¿½ room.<br>
 2:00pm - 4:00pm
 <p> <b>Agenda</b><br>
 This meeting is ideally suited for people new to the Eclipse 
@@ -64,14 +64,14 @@ Foundation, the governance structure and provide insight into the organization o
 
 
 <h2 id="nmjs">Members Reception, October 27, 2008</h2>
-Reston Virginia, Hyatt Regency Reston, "Lake Thoreau” room.<br>
+Reston Virginia, Hyatt Regency Reston, "Lake Thoreauï¿½ room.<br>
 5:00pm - 7:00pm
 <p>All members of the Eclipse Foundation are welcome to attend this reception on Monday evening in Lake Thoreau.  This
 is a great opportunity to mingle with Eclipse Foundation staff and your peers in the Eclipse Ecosystem.</p>
 
 
 <h2 id="ms">Marketing Symposium, October 28, 2008</h2>
-Reston Virginia, Hyatt Regency Reston, “Lake Anne A” room.<br>
+Reston Virginia, Hyatt Regency Reston, ï¿½Lake Anne Aï¿½ room.<br>
 8:30am - 12:00pm
 
 <p>
@@ -88,6 +88,8 @@ Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful de
 <b>Actuate Case Study</b> - Rich Guth from Actuate <br> 
 Rich Guth is the business executive responsible for Actuate's BIRT Exchange.  In this session Rich will talk about the success and
 lessons they have experienced from building a community around BIRT Exchange.
+
+<a href="./Actuate Eclipse Case 3.pdf">Presentation Slides</a>
 </p>
 
 <p>
