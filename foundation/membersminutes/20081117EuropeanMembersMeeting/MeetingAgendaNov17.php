@@ -64,7 +64,7 @@ Ludwigsburg, Germany<br>
 
 <p>
 <b>Business opportunities found in the active participation with open source organizations
-</b> - Sylvain Wallez, Co-founder Anyware Technologies and past Vice President of Apache Software Foundation<br><br>
+</b> <br>Sylvain Wallez, Co-founder Anyware Technologies and past Vice President of Apache Software Foundation<br><br>
 
 Abstract:
 The rise of open source has heavily changed the sofware industry, as lots of high quality software is now available for free, and this has 
