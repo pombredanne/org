@@ -87,7 +87,7 @@ Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful de
 <p>
 <b>Actuate Case Study</b> - Rich Guth from Actuate <br> 
 Rich Guth is the business executive responsible for Actuate's BIRT Exchange.  In this session Rich will talk about the success and
-lessons they have experienced from building a community around BIRT Exchange.
+lessons they have experienced from building a community around BIRT Exchange.<br><br>
 
 <a href="./Actuate Eclipse Case 3.pdf">Presentation Slides</a>
 </p>
