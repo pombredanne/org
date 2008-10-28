@@ -63,7 +63,14 @@ Ludwigsburg, Germany<br>
 </p>
 
 <p>
-<b>How Companies Can Benefit from their Open Source Involvement</b> - Guest Speaker <br>
+<b>Business opportunities found in the active participation with open source organizations
+</b> - Sylvain Wallez, Co-founder Anyware Technologies and past Vice President of Apache Software Foundation<br><br>
+
+Abstract:
+The rise of open source has heavily changed the sofware industry, as lots of high quality software is now available for free, and this has 
+challenged the traditional business of many software publishing companies. But new opportunities have also emerged, and active participation with 
+open source organizations can be a key asset in a company in many areas: technical, business and marketing. The talk will introduce the various 
+members of an open source project's ecosystem, and how each of them can benefit in having an active role in the community.
 
 </p>
  
