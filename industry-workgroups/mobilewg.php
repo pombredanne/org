@@ -128,7 +128,7 @@
 		
 		<h3>Feedback</h3>
 	<p>Please send comments and feedback to <a href="mailto:mobile-iwg@eclipse.org">mobile-iwg@eclipse.org</a>.  Please also use the mailing list to express
-	your desire to participate in the working group.  </p>
+	your desire to participate in the working group.  Go <a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg">here</a> to subscribe to the mailing list and view the archives.</p>
 		
  <br><br>
 </div>
