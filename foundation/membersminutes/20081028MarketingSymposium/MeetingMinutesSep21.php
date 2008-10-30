@@ -80,7 +80,9 @@ Reston Virginia, Hyatt Regency Reston, �Lake Anne A� room.<br>
 Matthew Schmidt is a developer and CTO of DZone and Javalobby, two successful developer oriented 
  portals. Through his  involvement with these two portals, Matthew has had first hand experience understanding 
  how developers like to learn about new technology. In this presentation, Matthew will talk about his views on 
- the right and wrong ways for getting developers to learn about your product or service.
+ the right and wrong ways for getting developers to learn about your product or service.<br><br>
+
+<a href="./improve developer marketing.pdf">Presentation Slides</a>
 </p>
  
  
@@ -95,7 +97,9 @@ lessons they have experienced from building a community around BIRT Exchange.<br
 <p>
 <b>How to Get Good Press</b> - Alan Zeichick from SD Times and BZ Media <br> 
 Alan Zeichick is the Editor-in-Chief of SD Times.  Alan will talk about the do's and don'ts of pitching stories to
-editors and reporters.
+editors and reporters.<br><br>
+
+<a href="./it press.pdf">Presentation Slides</a>
 </p>
 
 <p>
@@ -103,7 +107,9 @@ editors and reporters.
 This short talk reviews some ideas and lessons learned in leveraging social networking as an enabler for 
 developers to find and communicate with each other.  As software development knowledge worldwide becomes 
 increasing de-centralized and distributed, a strategy for knowledge and expert location becomes more and more 
-important.
+important.<br><br>
+
+<a href="./social network.pdf">Presentation Slides</a>
 
 
 </p>
@@ -111,14 +117,18 @@ important.
 <p>
 <b>Leveraging the eclipse.org Web Site</b> - Donald Smith from the Eclipse Foundation <br> 
 Donald Smith is the Director of Ecosystem Development at the Eclipse Foundation.  In this presentation, Donald will describe the 
-different ways Eclipse member companies can promote their products and services on the eclipse.org web site.
+different ways Eclipse member companies can promote their products and services on the eclipse.org web site.<br><br>
+
+<a href="./eclipse web site.pdf">Presentation Slides</a>
 </p>
 
 <p>
 <b>What are Developers Using in Eclipse?</b> - Ian Skerrett from the Eclipse Foundation <br> 
 Ian Skerrett is the Director of Marketing at the Eclipse Foundation.  In this presentation, Ian will present some statistics on 
 how and what developers are using in Eclipse.  The information presented will be based on the data collected by the Usage Data Collector, 
-a new peice of technology that was added to Eclipse to gather usage information.
+a new peice of technology that was added to Eclipse to gather usage information.<br><br>
+
+<a href="./udc report.pdf">Presentation Slides</a>
 </p>
 <br> <br>
 
