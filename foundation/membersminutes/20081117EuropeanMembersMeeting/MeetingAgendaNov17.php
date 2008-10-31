@@ -25,6 +25,7 @@ ob_start();
 
 
 <h2 id="mm">Members Meeting, November 17, 2008<br>
+Schubartsaal Room, Forum am Schlosspark<br>
 Ludwigsburg, Germany
 <br>
 2:00pm - 6:00pm</h2>
@@ -32,17 +33,31 @@ Ludwigsburg, Germany
 <p> 
 <b>Agenda</b><br>
 <ul>
- <li><p>Executive Director Update, Mike Milinkovich</p></li>
- <li><p>Guest Speaker</p></li>
- <li><p>Membership Updates</p></li>
-  <li><p>New Member Introductions</p></li>
- <li><p>Project Updates
+ <li><p><b>Executive Director Update </b>-  Mike Milinkovich</p></li>
+ <li><p><b>The SAP Eclipse Story </b>-  Karsten Schmidt, SAP<br>
+ 
+Abstract:Eclipse as the basis of SAP NetWeaver Developer Studio is a central building block of SAP NetWeaver 
+Composition Environment. With the recent decision to base SAP's next generation Java server on OSGi and Equinox, 
+Eclipse technology will also reach into the server runtime. Karsten Schmidt, Development Project Director at SAP 
+NetWeaver Java Tools Infrastructure, will give an overview of the history and challenges of SAP's Eclipse 
+involvement, describe the current status, and provide an outlook for the future.
+</p></li>
+ <li><p><b>Project Updates</b>
  	<ul>
  		<li>Eclipse RT and Equinox - Jeff McAffer</li>
  		<li>Eclipse 4.0 (e4) - Jochen Krause</li>
  	</ul>
  	</p></li>
- 	<li><p>Architecture Council Update - Martin Oberhuber</p></li>
+<li><p><b>Introduction to Mobile Industry Working Group</b><br>
+Abstract: A new industry working group for the mobile industry is being proposed for Eclipse.  This presentation will 
+explain the purpose and vision of the Mobile Industry Working Group. </p></li>
+ 	<li><p><b>Architecture Council Update</b> - Martin Oberhuber</p></li>
+ 	<li><p><b>Planning Council Update: Galileo Release</b> - Bjorn Freeman-Benson<br>
+ 	Abstract: The next major release train is Galileo, scheduled for June 2009.  This presentation will update the membership
+on the activities for this release.</p></li>
+ 
+  <li><p>New Member Introductions</p></li>
+ 	
    <li><p>Marketing Update</p></li>
  	
  
