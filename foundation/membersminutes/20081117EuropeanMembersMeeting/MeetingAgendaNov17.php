@@ -46,6 +46,7 @@ involvement, describe the current status, and provide an outlook for the future.
  	<ul>
  		<li>Eclipse RT and Equinox - Jeff McAffer</li>
  		<li>Eclipse 4.0 (e4) - Jochen Krause</li>
+ 		<li>SMILA - Hans-Christian Brockmann</li>
  	</ul>
  	</p></li>
 <li><p><b>Introduction to Mobile Industry Working Group</b><br>
@@ -56,9 +57,9 @@ explain the purpose and vision of the Mobile Industry Working Group. </p></li>
  	Abstract: The next major release train is Galileo, scheduled for June 2009.  This presentation will update the membership
 on the activities for this release.</p></li>
  
-  <li><p>New Member Introductions</p></li>
+  <li><p><b>New Member Introductions</b></p></li>
  	
-   <li><p>Marketing Update</p></li>
+   <li><p><b>Marketing Update</b> - Ian Skerrett</p></li>
  	
  
   </ul>
