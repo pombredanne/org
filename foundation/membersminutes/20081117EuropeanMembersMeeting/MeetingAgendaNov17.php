@@ -68,9 +68,14 @@ on the activities for this release.</p></li>
 
 <br><br><br>
 
-<h2 id="ms">Marketing Symposium, November 18, 2008<br>
-Ludwigsburg, Germany<br>
-8:30am - 12:00pm</h2>
+<h2 id="ms">Marketing Symposium<br>
+November 18, 2008, 8:30am - 12:00pm<br>
+Film- und Medienzentrum<br>
+Ludwigsburg GmbH <br>
+Königsallee 43  <br>
+71638 Ludwigsburg <br>
+
+</h2>
 
 
 
