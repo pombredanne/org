@@ -30,8 +30,6 @@
 	
 		<h1>$pageTitle</h1>
 		
-		<h2>Proposed Charter</h2>
-		
 		<h3>Purpose and Scope</h3>
 		
      	<p>The application development tools used in the mobile phone industry are characterized by 
