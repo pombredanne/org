@@ -129,6 +129,8 @@
 		<h3>Feedback</h3>
 	<p>Please send comments and feedback to <a href="mailto:mobile-iwg@eclipse.org">mobile-iwg@eclipse.org</a>.  Please also use the mailing list to express
 	your desire to participate in the working group.  Go <a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg">here</a> to subscribe to the mailing list and view the archives.</p>
+	<h3>Industry Working Group Process</h3>
+	<p>The Mobile Industry Working Group will follow the <a href="http://www.eclipse.org/org/industry-workgroups/industry_wg_process.php">Eclipse Industry Working Group Process</a>.</p>
 		
  <br><br>
 </div>
