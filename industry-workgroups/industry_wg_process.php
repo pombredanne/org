@@ -30,8 +30,7 @@
 	
 		<h1>$pageTitle</h1>
 		Revision 1.0 November 5, 2008
-		
-		<h2>Proposed Charter</h2>
+
 		
 		<h3>Purpose and Scope</h3>
 		
