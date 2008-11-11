@@ -57,9 +57,17 @@ explain the purpose and vision of the Mobile Industry Working Group. </p></li>
  	Abstract: The next major release train is Galileo, scheduled for June 2009.  This presentation will update the membership
 on the activities for this release.</p></li>
  
-  <li><p><b>New Member Introductions</b></p></li>
+  <li><p><b>New Member Introductions</b>
+  <ul><li>Innovations  - Stefanie Peitzker</li>
+  </ul>
+   </p></li>
+  
+  
+  <li><p><b>European Update</b> - Ralph Mueller</p></li>
  	
    <li><p><b>Marketing Update</b> - Ian Skerrett</p></li>
+   
+   <li><p><b>Reception</b></p>
  	
  
   </ul>
