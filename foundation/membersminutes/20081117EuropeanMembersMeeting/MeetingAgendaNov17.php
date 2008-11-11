@@ -8,21 +8,17 @@ ob_start();
 ?>		
     <div id="maincontent">
 	<div id="midcolumn">
-
 </head>
-
 
 <h1>Members Meeting and Marketing Symposium Agenda</h1>
 
-<p>Please RSVP for any of these meetings via email to <a href="mailto:members.meeting@eclipse.org?subject=RSVP to European Member Meeting">members.meeting@eclipse.org</p>
+<p>Please RSVP for any of these meetings via email to <a href="mailto:members.meeting@eclipse.org?subject=RSVP
+to European Member Meeting">members.meeting@eclipse.org</p>
 
 <ul>
 <li><a href="#mm">Members Meeting</a> - Monday, November 17, 2008.  2:00pm-6:00pm.</li>
 <li><a href="#ms">Marketing Symposium</a> - Tuesday, 18, 2008.  8:30am-noon.</li>
 </ul>
-
-
-
 
 <h2 id="mm">Members Meeting, November 17, 2008<br>
 Schubartsaal Room, Forum am Schlosspark<br>
@@ -64,25 +60,20 @@ on the activities for this release.</p></li>
   
   
   <li><p><b>European Update</b> - Ralph Mueller</p></li>
- 	
-   <li><p><b>Marketing Update</b> - Ian Skerrett</p></li>
-   
+    <li><p><b>Marketing Update</b> - Ian Skerrett</p></li>
    <li><p><b>Reception</b></p>
- 	
- 
-  </ul>
+   </ul>
  
 </p>
 
-<br><br><br>
+<br><br>
 
 <h2 id="ms">Marketing Symposium<br>
 November 18, 2008, 8:30am - 12:00pm<br>
 Film- und Medienzentrum<br>
 Ludwigsburg GmbH <br>
-Königsallee 43  <br>
+K&ouml;nigsallee 43 <br>
 71638 Ludwigsburg <br>
-
 </h2>
 
 
