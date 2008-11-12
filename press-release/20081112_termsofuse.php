@@ -22,7 +22,8 @@
 		<h2>Community Bulletin</h2>
      	November 12, 2008
 		<p>
-			Effective today, the Eclipse Foundation has made a number of changes to the Eclipse.org website terms 
+			Effective today, the Eclipse Foundation has made a number of changes to the <a href="http://www.eclipse.org/legal/termsofuse.php">
+			Eclipse.org web site terms </a>
 			of use.  This document describes the conditions under which people use the eclipse.org web site, 
 			including contributions to the Eclipse community via bugzilla, mailing lists and newsgroups.   		
 		</p>
@@ -49,11 +50,13 @@
 		</ol>
 		</p>
 		<p>
-		The updated terms of use have been approved by the IP Advisory Committee of the Eclipse Board of 
+		The updated <a href="http://www.eclipse.org/legal/termsofuse.php">terms of use</a> have been approved by the IP Advisory Committee of the Eclipse Board of 
 		Directors and will become effective November 12, 2008.  Any questions or comments should be directed to 
 		<a href="mailto:license@eclipse.org">license@eclipse.org</a>.
 		</p>
-		
+		<p>
+		Reference: <a href="http://www.eclipse.org/legal/old_termsofuse.php">Previous Terms of Use</a>
+		</p><br>
 
 	</div>
 </div>
