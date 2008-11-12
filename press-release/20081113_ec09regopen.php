@@ -23,9 +23,10 @@
 		<h2>Community Bulletin</h2>
      	
 		<p>
-		Registration for EclipseCon 2009 is <a href="http://www.eclipsecon.org/2009/registration">now open</a>.  EclipseCon is the premier technical and user
-		conference focusing on the power of the Eclipse platform and it features in-depth tutorials, long-talk
-		sessions, short-talk sessions, panels and workshops. A single fee provides access to the entire conference. 
+		<a href="http://www.eclipsecon.org/2009/registration">Registration</a> for EclipseCon 2009 is now open.
+		<a href="http://www.eclipsecon.org">EclipseCon</a> will be held March 23-26 in Santa Clara, CA.  The "Very Early" registration
+		price is availabe until December 31 and gives a 40% discount off the onsite price.  
+		A single fee provides access to the entire conference. 
 		</p>
 		
 		<p>
@@ -38,9 +39,7 @@
 		</p>
 		
 		<p>
-		<a href="http://www.eclipsecon.org">EclipseCon 2009</a> will be held March 23-26 in Santa Clara, CA.  The "Very Early" registration
-		price is availabe until December 31 and gives a 40% discount off the onsite price.  Don't miss out on
-		this excellent opportunity - register for EclipseCon today!
+		Don't miss out on this excellent opportunity - register for EclipseCon today!
 		</p>
 	  
 	</div>
