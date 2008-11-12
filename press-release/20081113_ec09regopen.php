@@ -23,8 +23,8 @@
 		<h2>Community Bulletin</h2>
      	
 		<p>
-		<a href="http://www.eclipsecon.org/2009/registration">Registration</a> for EclipseCon 2009 is now open.
-		<a href="http://www.eclipsecon.org">EclipseCon</a> will be held March 23-26 in Santa Clara, CA.  The "Very Early" registration
+		Registration for <a href="http://www.eclipse.org/go/EC_SITE@cbnov13">EclipseCon 2009</a> is now open.
+		EclipseCon will be held March 23-26 in Santa Clara, CA.  The "Very Early" registration
 		price is availabe until December 31 and gives a 40% discount off the onsite price.  
 		A single fee provides access to the entire conference. 
 		</p>
@@ -39,7 +39,7 @@
 		</p>
 		
 		<p>
-		Don't miss out on this excellent opportunity - register for EclipseCon today!
+		Don't miss out on this excellent opportunity - <a href="http://www.eclipse.org/go/EC_SITE@cbnov13">register for EclipseCon</a> today!
 		</p>
 	  
 	</div>
