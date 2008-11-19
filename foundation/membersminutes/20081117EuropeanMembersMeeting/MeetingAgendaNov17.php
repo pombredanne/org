@@ -12,8 +12,6 @@ ob_start();
 
 <h1>Members Meeting and Marketing Symposium Agenda</h1>
 
-<p>Please RSVP for any of these meetings via email to <a href="mailto:members.meeting@eclipse.org?subject=RSVP
-to European Member Meeting">members.meeting@eclipse.org</p>
 
 <ul>
 <li><a href="#mm">Members Meeting</a> - Monday, November 17, 2008.  2:00pm-6:00pm.</li>
@@ -29,10 +27,12 @@ Ludwigsburg, Germany
 <p> 
 <b>Agenda</b><br>
 <ul>
- <li><p><b>Executive Director Update </b>-  Mike Milinkovich</p></li>
+ <li><p><b>Executive Director Update </b>-  Mike Milinkovich<br/>
+ <a href="./v5 Nov-08 ESE executive director report.pdf">Presentation</a></p></li>
  <li><p><b>The SAP Eclipse Story </b>-  Karsten Schmidt, SAP<br>
+ <a href="./The SAP Eclipse Story_ESE2008.pdf">Presentation</a></p></li>
  
-Abstract:Eclipse as the basis of SAP NetWeaver Developer Studio is a central building block of SAP NetWeaver 
+ Abstract:Eclipse as the basis of SAP NetWeaver Developer Studio is a central building block of SAP NetWeaver 
 Composition Environment. With the recent decision to base SAP's next generation Java server on OSGi and Equinox, 
 Eclipse technology will also reach into the server runtime. Karsten Schmidt, Development Project Director at SAP 
 NetWeaver Java Tools Infrastructure, will give an overview of the history and challenges of SAP's Eclipse 
@@ -42,13 +42,16 @@ involvement, describe the current status, and provide an outlook for the future.
  	<ul>
  		<li>Eclipse RT and Equinox - Jeff McAffer</li>
  		<li>Eclipse 4.0 (e4) - Jochen Krause</li>
- 		<li>SMILA - Hans-Christian Brockmann</li>
+ 		<li>SMILA - Hans-Christian Brockmann      <a href="./Eclipse Summit  Europe SMILA Project Update.pdf">Presentation</a></p></li>
+ 		</li>
  	</ul>
  	</p></li>
 <li><p><b>Introduction to Mobile Industry Working Group</b><br>
 Abstract: A new industry working group for the mobile industry is being proposed for Eclipse.  This presentation will 
 explain the purpose and vision of the Mobile Industry Working Group. </p></li>
- 	<li><p><b>Architecture Council Update</b> - Martin Oberhuber</p></li>
+ 	<li><p><b>Architecture Council Update</b> - Martin Oberhuber<br>
+ 	 <a href="./EAC_Update.pdf">Presentation</a></p></li>
+ 	</p></li>
  	<li><p><b>Planning Council Update: Galileo Release</b> - Bjorn Freeman-Benson<br>
  	Abstract: The next major release train is Galileo, scheduled for June 2009.  This presentation will update the membership
 on the activities for this release.</p></li>
