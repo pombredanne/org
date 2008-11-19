@@ -30,7 +30,7 @@ Ludwigsburg, Germany
  <li><p><b>Executive Director Update </b>-  Mike Milinkovich<br/>
  <a href="./v5 Nov-08 ESE executive director report.pdf">Presentation</a></p></li>
  <li><p><b>The SAP Eclipse Story </b>-  Karsten Schmidt, SAP<br>
- <a href="./The SAP Eclipse Story_ESE2008.pdf">Presentation</a></p></li>
+ <a href="./The SAP Eclipse Story.pdf">Presentation</a></p></li>
  
  Abstract:Eclipse as the basis of SAP NetWeaver Developer Studio is a central building block of SAP NetWeaver 
 Composition Environment. With the recent decision to base SAP's next generation Java server on OSGi and Equinox, 
