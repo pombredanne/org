@@ -343,10 +343,10 @@ while($obj = mysql_fetch_object($result)) {
 	$mentors[$obj->PersonID][] = $obj->ProjectID;
 }
 
-foreach($people as $name=>$value) {
+foreach($people as $name => $value) {
 	echo "		<tr>" . $value[0] . "</tr>\n";
 	if( isset($mentors[$value[1]]) ) {
-		echo "<tr><td colspan=3 align=right style='font-size: 90%'>" . implode(', ', $mentors[$value[1]] . "</td></tr>\n";
+		echo "<tr><td colspan=3 align=right style='font-size: 90%'>" . implode(', ', $mentors[$value[1]] ) . "</td></tr>\n";
 	}
 }
 ?>
