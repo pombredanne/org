@@ -121,7 +121,7 @@ function find_relations($relations_array, $include_year = false) {
 	mysql_error_check();
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
-			$people[ucwords($row['LName'].', '.$row['FName'])] =
+			$people[ucwords($row['LName'].', '.$row['FName'])] = array(
 			'<td>' .
 			((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 			ucwords($row['FName']) .
@@ -129,7 +129,7 @@ function find_relations($relations_array, $include_year = false) {
 			((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 			'</td><td>' . '&nbsp;' . '</td><td>appointed' .
 			($include_year ? (' (' . $row['year'] . ')') : '') .
-			'</td>';
+			'</td>', $row['PersonID'] );
 		}
 	}
 
@@ -146,13 +146,13 @@ function find_relations($relations_array, $include_year = false) {
 				People.PersonID");
 	mysql_error_check();
 	while($row = mysql_fetch_assoc($result)) {
-		$people[ucwords($row['LName'].', '.$row['FName'])] =
+		$people[ucwords($row['LName'].', '.$row['FName'])] = array(
 		'<td>' .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 		ucwords($row['FName']) .
 		' ' . ucwords($row['LName']) .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
-		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>';
+		'</td><td>' . $row['Name1'] . '</td><td>Strategic Developer</td>', $row['PersonID'] );
 	}
 
 	/*
@@ -174,14 +174,14 @@ function find_relations($relations_array, $include_year = false) {
 				OrganizationContacts.OrganizationID");
 	mysql_error_check();
 	while($row = mysql_fetch_assoc($result)) {
-		$people[ucwords($row['LName'].', '.$row['FName'])] =
+		$people[ucwords($row['LName'].', '.$row['FName'])] = array(
 		'<td>' .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 		ucwords($row['FName']) .
 		' ' . ucwords($row['LName']) .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 		'</td><td>' . $row['Name1'] . "</td><td>" .
-		ucfirst($row['ProjectID']) . " PMC</td>";
+		ucfirst($row['ProjectID']) . " PMC</td>", $row['PersonID'] );
 	}
 
 	/*
@@ -198,14 +198,14 @@ function find_relations($relations_array, $include_year = false) {
 	mysql_error_check();
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
-			$people[ucwords($row['LName'].', '.$row['FName'])] =
+			$people[ucwords($row['LName'].', '.$row['FName'])] = array(
 			'<td>' .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 			ucwords($row['FName']) .
 			 ' ' . ucwords($row['LName']) .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '*</b>' : '') .
 			'</td><td>' . '&nbsp;' . "</td><td>" .
-			ucfirst($row['ProjectID']) . " PMC</td>";
+			ucfirst($row['ProjectID']) . " PMC</td>", $row['PersonID'] );
 		}
 	}
 
