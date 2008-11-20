@@ -56,8 +56,10 @@ function find_relations($relations_array, $include_year = false) {
 	$relations = "'" . implode( "','", $relations_array ) . "'";
 	/*
 	 * people and chairs are arrays of
-	 *	"Last, First" => the html for the row in the table
-	 *		<td>name</td><td>employer</td><td>reason</td>
+	 *	"Last, First" => array( 
+	 *		the html for the row in the table
+	 *			<td>name</td><td>employer</td><td>reason</td>
+	 *		, PersonID )
 	 * each code section overwrites the results of the previous ones
 	 * if they have a result for the same person. Thus if a person is
 	 * both a PMC member and a company member, then whichever query
@@ -96,7 +98,7 @@ function find_relations($relations_array, $include_year = false) {
 				OrganizationContacts.OrganizationID");
 	mysql_error_check();
 	while($row = mysql_fetch_assoc($result)) {
-		$people[ucwords($row['LName'].', '.$row['FName'])] =
+		$people[ucwords($row['LName'].', '.$row['FName'])] = array(
 		'<td>' .
 		((isset($chairs[$row['PersonID']]) && $chairs[$row['PersonID']] == 1) ? '<b>' : '') .
 		ucwords($row['FName']) .
@@ -105,7 +107,7 @@ function find_relations($relations_array, $include_year = false) {
 		'</td><td>' . $row['Name1'] .
 		'</td><td>appointed' .
 		($include_year ? (' (' . $row['year'] . ')') : '') .
-		'</td>';
+		'</td>', $row['PersonID'] );
 	}
 
 	/*
@@ -263,7 +265,7 @@ $requirements_relations = array( 'ER', 'RC', 'RZ' );
 $people = find_relations($requirements_relations);
 ksort($people);
 foreach($people as $name=>$value) {
-	echo "		<tr>$value</tr>\n";
+	echo "		<tr>" . $value[0] . "</tr>\n";
 }
 ?>
   	</table>
@@ -313,7 +315,7 @@ $planning_relations = array( 'EP', 'PC', 'RP', 'PZ' );
 $people = find_relations($planning_relations);
 ksort($people);
 foreach($people as $name=>$value) {
-	echo "		<tr>$value</tr>\n";
+	echo "		<tr>" . $value[0] . "</tr>\n";
 }
 ?>
 	</table>
@@ -330,8 +332,22 @@ foreach($people as $name=>$value) {
 $architecture_relations = array( 'AC', 'RA', 'EA', 'AZ' );
 $people = find_relations($architecture_relations, true);
 ksort($people);
+
+$mentors = array();
+$result = mysql_query("SELECT PersonID, ProjectID
+		FROM PeopleProjects
+		WHERE Relation = 'ME'");
+mysql_error_check();
+while($obj = mysql_fetch_object($result)) {
+	if( !isset($mentors[$obj->PersonID]) ) $mentors[$obj->PersonID] = array();
+	$mentors[$obj->PersonID][] = $obj->ProjectID;
+}
+
 foreach($people as $name=>$value) {
-	echo "		<tr>$value</tr>\n";
+	echo "		<tr>" . $value[0] . "</tr>\n";
+	if( isset($mentors[$value[1]]) ) {
+		echo "<tr><td colspan=3 align=right style='font-size: 90%'>" . implode(', ', $mentors[$value[1]] . "</td></tr>\n";
+	}
 }
 ?>
 	</table>
