@@ -101,10 +101,8 @@
       		</td>
   		</tr>
   		<tr>
-    		<td valign=top width="37%">Phone:<br>
-      		Fax: </td>
-    		<td width="63%">+1.503.766.3150<br>
-      		+1.503.336.5121 </td>
+    		<td valign=top width="37%">Fax:</td>
+    		<td width="63%">+1.503.336.5121</td>
   		</tr>
 	</table>
 	</div>
