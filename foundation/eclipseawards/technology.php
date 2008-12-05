@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Technology Awards Nominations";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Type your name here";
+	$pageKeywords	= "eclipse, awards, technology, nomination, eclipsecon";
+	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -35,7 +35,7 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations for the Technology Awards.  Nominations close on January 30, 2009.
+			The following is a list of nominations submitted for the Technology Awards.  Nominations close on January 30, 2009.
 		</p>
 		
 		<div class="homeitem3col">
