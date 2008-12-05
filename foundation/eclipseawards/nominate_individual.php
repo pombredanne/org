@@ -36,10 +36,9 @@
 		<h2>Individual Awards</h2>
 		
 		<p>
-			Individuals may be nominated by anyone in each category.  To make a nomination visit the following Bugzilla entries.  
-			Nominations open December 8, 2008 and close January 30, 2009.  After nominations are posted, voting commences February 2,
-			2009 and finishes February 27, 2008 at 5:00 pm EST.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-			The Individual Awards are determined by a vote of the community. One vote per person, per category.
+			Individuals may be nominated by anyone in each category.  Nominations open December 8, 2008 and
+			close January 30, 2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
+			To make a nomination visit the following Bugzilla entries.
 		</p>
 		
 		<ul class="midlist">
@@ -53,9 +52,14 @@
 			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. It is not open
 			to nominations. The period of calculation is from February 27, 2008 to February 27, 2009.</li>
 		</ul>
+
+		<h2>Voting</h2>
+		The Individual Award winners are determined by a vote of the community. One vote per person, per category.  
+		After nominations close, voting commences February 2, 2009 and finishes February 27, 2008 at 5:00 pm EST.  
 		
+		<h2>Past Winners</h2>
 		<p>
-			<strong>Note:</strong> Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
+			Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
 			Therefore, to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible
 			for a repeat award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also 
 			deserving of recognition.
