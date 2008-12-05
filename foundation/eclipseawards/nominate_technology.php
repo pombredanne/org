@@ -44,7 +44,7 @@
 		</p>
 
 		<ol>
-			<li>Technology award category (see main <a href="index.php">Eclipse Community Awards page</a>)</li>
+			<li>Technology award category (choose from the <a href="index.php">Eclipse Community Awards page</a>)</li>
 			<li>Name of person submitting award</li>
 			<li>Contact information of person (telephone and e-mail)</li>
 			<li>Name of product</li>
