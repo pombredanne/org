@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "How to Make an Individual Nomination";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Type your name here";
+	$pageKeywords	= "eclipse, awards, individual, nomination, eclipsecon";
+	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -36,30 +36,10 @@
 		<h2>Individual Awards</h2>
 		
 		<p>
-			Anyone may nominate an individual in each category.	 To nominate an individual visit the following Bugzilla entries.  
-			Nominations close January 30, 2009.
-		</p>
-		
-		<ul class="midlist">
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056">Nominations for Top Ambassador Award</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059">Nominations for Top Committer Award</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214525">Nominations for Top Contributor Award</a></li>
-		</ul>
-		
-		<p>
-			NOTE: The <strong>Most Prolific Newcomer Evangelist Award</strong> is not open to nominations.  It will be calculated based on the
-			number of responses posted to the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.
-		</p>
-		
-		<h2>Guidelines</h2>
-		
-		<p>
+			Individuals may be nominated by anyone in each category.  To make a nomination visit the following Bugzilla entries.  
+			Nominations open December 8, 2008 and close January 30, 2009.  After nominations are posted, voting commences February 2,
+			2009 and finishes February 27, 2008 at 5:00 pm EST.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
 			The Individual Awards are determined by a vote of the community. One vote per person, per category.
-		</p>
-		
-		<p>
-			Individuals may be nominated by anyone in each category.  To see the Bugzilla entries for the individual nominations, visit
-			the following links.
 		</p>
 		
 		<ul class="midlist">
@@ -70,14 +50,9 @@
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214525">Nominations for Top Contributor Award</a> - voted on by
 			everyone.</li>
 			<li>The <strong>Most Prolific Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
-			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period
-			of calculation is from February 27, 2008 to February 27, 2009.</li>
+			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. It is not open
+			to nominations. The period of calculation is from February 27, 2008 to February 27, 2009.</li>
 		</ul>
-		
-		<p>
-			Nominations open December 8, 2008 and close January 30, 2009.  After nominations are posted, voting commences February 2,
-			2009 and finishes February 27, 2008 at 5:00 pm EST.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-		</p>
 		
 		<p>
 			<strong>Note:</strong> Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
