@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Community Awards";
-	$pageKeywords	= "eclipse, awards, community, nomination, eclipsecon"";
+	$pageKeywords	= "eclipse, awards, community, nomination, eclipsecon";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
