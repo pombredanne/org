@@ -36,8 +36,8 @@
 		<p>
 			The Eclipse Community Awards were created to recognize and thank the individuals and technologies that make Eclipse a
 			vibrant	community.  There are two categories of awards: 1) awards for individuals, and 2) awards for technologies and
-			products.   The awards will be presented on March 17, 2008 at <a href="http://www.eclipsecon.org/2008/">EclipseCon
-			2008</a>.
+			products.   The awards will be presented on March 23, 2009 at <a href="http://www.eclipsecon.org/2009/">EclipseCon
+			2009</a>.
 		</p>
 	
 		<h3>Individual Awards</h3>
@@ -80,11 +80,11 @@
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 14, 2007</font></li>
-				<li><font color="#A9A9A9">Nominations close - January 25, 2008</font></li>
-				<li><font color="#A9A9A9">Voting begins for Individual Awards - January 30, 2008</font></li>
-				<li><font color="#A9A9A9">Voting ends for Individual Awards - February 21, 2008 at 5:00 pm EST</font></li>
-				<li>Awards Announced - March 17, 2008</li>
+				<li>Nominations open - December 8, 2008</font></li>
+				<li>Nominations close - January 30, 2009</font></li>
+				<li>Voting begins for Individual Awards - February 2, 2009</font></li>
+				<li>Voting ends for Individual Awards - February 27, 2009 at 5:00 pm EST</font></li>
+				<li>Awards Announced - March 23, 2009</li>
 			</ul>
 		<br><br>	
 		</p>
@@ -96,29 +96,26 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="index.php">Awards Categories</a></li>
-				<li><a href="winners08.php">Winners &amp; Finalists</a></li>
-				<li><a href="technology_nominations.php">Technology Nominations</a></li>
-				<li><a href="judges08.php">Technology Judges</a></li>
-				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
-				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
-				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>
+				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
+				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
+				<li><a href="technology.php">Technology Nominations</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
 			<h6>Top Ambassador</h6>
 			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056"><img 
-		  		src="ambassador-picture.gif" border="0"/></a></div>
+		  		src="images/ambassador-diagram.gif" border="0"/></a></div>
 		</div>
 		<div class="sideitem">
 			<h6>Top Committer</h6>
 			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059"><img 
-		  		src="committer-picture.gif" border="0"/></a></div>
+		  		src="images/committer-diagram.gif" border="0"/></a></div>
 		</div>
 		<div class="sideitem">
 			<h6>Top Contributor</h6>
 			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214525"><img 
-		  		src="contributor-picture.gif" border="0"/></a></div>
+		  		src="images/contributor-diagram.gif" border="0"/></a></div>
 		</div>
 
 

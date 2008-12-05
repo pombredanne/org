@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Nominations";
+	$pageTitle 		= "How to Make an Individual Nomination";
 	$pageKeywords	= "Type, page, keywords, here";
 	$pageAuthor		= "Type your name here";
 	
@@ -37,7 +37,7 @@
 		
 		<p>
 			Anyone may nominate an individual in each category.	 To nominate an individual visit the following Bugzilla entries.  
-			Nominations close January 25, 2008.
+			Nominations close January 30, 2009.
 		</p>
 		
 		<ul class="midlist">
@@ -51,34 +51,39 @@
 			number of responses posted to the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.
 		</p>
 		
-		<h2>Technology Awards</h2>
+		<h2>Guidelines</h2>
 		
 		<p>
-			To submit a nomination for a Technology Award, send an e-mail by January 25, 2008 to <a href="mailto:awards@eclipse.org">
-			awards@eclipse.org</a> with the information indicated below.
+			The Individual Awards are determined by a vote of the community. One vote per person, per category.
 		</p>
-
-		<ol>
-			<li>Category of award</li>
-			<li>Name of person submitting award</li>
-			<li>Contact information of person (telephone and e-mail)</li>
-			<li>Name of product</li>
-			<li>URL of product</li>
-			<li>100 word description of product</li> 
-			<li>Description of the usability features</li> 
-			<li>Description of why and how the product uniquely solves a particular problem.  Ensure you also explain the problem.</li> 
-			<li>Description of the completeness of the solution, including the technology, but also documentation, white papers, tutorials, and
-			web site.  Include everything you think is important for your customers to be successful with the product.</li> 
-			<li>OPTIONAL: Feel free to send a 3-5 minute screen cam demo of your product</li> 
-		</ol>
-
-		
-		<h3>Previous Year Winners</h3>
 		
 		<p>
-			Eclipse is a large, vibrant community of many well deserving individuals and technologies.  Therefore, to ensure diversity of
-			award winners, we have decided that winners from the previous year will not be eligible for a repeat award.  This does not mean
-			that they are not deserving, it is just an acknowledgment that others are also deserving of recognition.
+			Individuals may be nominated by anyone in each category.  To see the Bugzilla entries for the individual nominations, visit
+			the following links.
+		</p>
+		
+		<ul class="midlist">
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056">Nominations for Top Ambassador Award</a> - voted on by
+			everyone.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059">Nominations for Top Committer Award</a> - voted on by
+			everyone.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214525">Nominations for Top Contributor Award</a> - voted on by
+			everyone.</li>
+			<li>The <strong>Most Prolific Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
+			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. The period
+			of calculation is from February 27, 2008 to February 27, 2009.</li>
+		</ul>
+		
+		<p>
+			Nominations open December 8, 2008 and close January 30, 2009.  After nominations are posted, voting commences February 2,
+			2009 and finishes February 27, 2008 at 5:00 pm EST.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
+		</p>
+		
+		<p>
+			<strong>Note:</strong> Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
+			Therefore, to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible
+			for a repeat award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also 
+			deserving of recognition.
 		</p>
 
 	</div>
@@ -87,13 +92,10 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="index.php">Awards Categories</a></li>
-				<li><a href="winners08.php">Winners &amp; Finalists</a></li>
-				<li><a href="technology_nominations.php">Technology Nominations</a></li>
-				<li><a href="judges08.php">Technology Judges</a></li>
-				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
-				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
-				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>
+				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
+				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
+				<li><a href="technology.php">Technology Nominations</a></li>
 			</ul>
 		</div>
 	</div>
