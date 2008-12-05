@@ -1,12 +1,12 @@
 .homeitem3col li{
-	list-style-image: url(winner.gif);
+	list-style-image: url(images/winner.gif);
 	border-style: dashed;
 	border-color: #669;
 	border-width: 0 0 1px 0;
 }
 
 .finalist {
-	list-style-image: url(finalist.gif) !important;
+	list-style-image: url(images/finalist.gif) !important;
 	border-style: dashed;
 	border-color: #669;
 	border-width: 0 0 1px 0;
