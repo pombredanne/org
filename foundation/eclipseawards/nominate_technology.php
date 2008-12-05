@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "How to Make a Technology Nomination";
-	$pageKeywords	= "Type, page, keywords, here";
-	$pageAuthor		= "Type your name here";
+	$pageKeywords	= "eclipse, awards, technology, nomination, eclipsecon";
+	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -36,8 +36,10 @@
 		<h2>Technology Awards</h2>
 		
 		<p>
-			To submit a nomination for a Technology Award, send an e-mail by January 30, 2009 to <a href="mailto:events@eclipse.org">
-			events@eclipse.org</a> with the information indicated below.
+			Open source projects and products may be nominated by anyone, and vendors are allowed to nominate their own products.
+			To submit a nomination for a Technology Award, send an e-mail to <a href="mailto:events@eclipse.org">
+			events@eclipse.org</a> with the information indicated below. Nominations open December 8, 2008 and close January 30, 2009.  Winners will be announced at
+			<a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
 		</p>
 
 		<ol>
@@ -54,22 +56,10 @@
 			<li>OPTIONAL: Feel free to send a 3-5 minute screen cam demo of your product</li> 
 		</ol>
 
-		
-		<h2>Guidelines</h2>
-		
+		<h2>Judging Criteria</h2>		
 		<p>
-			The Technology Awards are determined by a panel of judges.   The judges were selected from Eclipse-oriented editors and 
-			Eclipse project leaders.  The panel of judges determines winners based on a majority vote.
-		 </p>
-		 
-		<p>
-			Open source projects and products may be nominated by anyone, and vendors are allowed to nominate their own products.
-		</p>		
-		
-		<h3>Judging Criteria</h3>
-		
-		<p>
-			The criteria for judging the commercial and open source product awards are: 
+			The Technology Award winners are determined by a panel of judges.   The judges were selected from Eclipse-oriented editors and 
+			Eclipse project leaders.  The panel of judges determines winners based on a majority vote. The criteria for judging the commercial and open source product awards are: 
 			<ol>
 				<li>Usability and intuitiveness of the user interface - is the product user interface easy to understand?</li>
 				<li>Innovation and uniqueness - how cleverly does the product solve the problem?</li>
@@ -78,13 +68,9 @@
 			</ol>
 		</p>
 
+		<h2>Past Winners</h2>
 		<p>
-			Nominations open December 8, 2008 and close January 30, 2009.  Winners will be announced at
-			<a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-		</p>
-		
-		<p>
-			<strong>Note:</strong> Eclipse is a large, vibrant community of many well-deserving individuals and technologies.  Therefore,
+			Eclipse is a large, vibrant community of many well-deserving individuals and technologies.  Therefore,
 			to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible for a repeat
 			award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also deserving of
 			recognition.
