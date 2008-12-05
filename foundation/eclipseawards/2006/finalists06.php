@@ -111,16 +111,7 @@ ob_start();
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
-	<div id="rightcolumn">
-		<div class="sideitem">
-			<h6>Awards Navigation</h6>
-			<ul>
-				<li><a href="winners.php">Award Winners</a></li>
-				<li><a href="judges.php">Judges</a></li>
-				<li><a href="index.php">Explanation of Awards Categories</a></li>				
-			</ul>
-		</div>
-	</div>
+
 
 <?php
 	$html = ob_get_contents();
