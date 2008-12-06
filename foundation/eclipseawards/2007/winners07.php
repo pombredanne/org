@@ -14,8 +14,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Awards Winners";
-	$pageKeywords	= "eclipse, foundation, community, award, winners, 2006";
+	$pageTitle 		= "Eclipse Awards Finalists 2007";
+	$pageKeywords	= "eclipse, foundation, community, award, winners, 2007";
 	$pageAuthor		= "Nathan Gervais";
 	
 	# Add page-specific Nav bars here
@@ -30,17 +30,17 @@
 	# Paste your HTML content between the markers!	
 ob_start();
 ?>		
-<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="org/foundation/eclipseawards/layout.css" media="screen" />
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Individual Award Winners</h2>
-		<p>Presented below is the list of award winners and finalists for each of the individual awards catagories.</p>
+		<p>Presented below is the list of award finalists and winners for each of the individual awards catagories.</p>
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
 			<ul>
-				<li>Ed Burnette <b>(Winner)</b></a>
-				<li class="finalist">Erich Gamma <b>(Finalist)</b></a>
-				<li class="finalist">Pat McCarthy <b>(Finalist)</b></a>				
+				<li class="winner">Chris Aniszczyk</li>
+				<li class="finalist">Alex Blewitt <strong>(finalist)</strong></li>
+				<li class="finalist">Doug Schaefer <strong>(finalist)</strong></li>
 				<br>
 			</ul>
 		</div>		
@@ -48,28 +48,39 @@ ob_start();
 
 			<h3>Top Contributor</h3>
 			<ul>
-				<li>Linda Watson <b>(Winner)</b></a>
-				<li class="finalist">Gunnar Wagenknecht <b>(Finalist)</b></a>
-				<li class="finalist">Mik Kersten <b>(Finalist)</b></a>
+				<li class="finalist">Eugene Kuleshov <strong>(finalist)</strong></li>
+				<li class="finalist">Philippe Ombredanne <strong>(finalist)</strong></li>
+				<li class="winner">Kimberley Peter - tie</li>
+				<li class="winner">Tom Schindl - tie</li>
 				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li>Alain Magliore <b>(Winner)</b></a>
-				<li class="finalist">Ed Merks <b>(Finalist)</b></a>
-				<li class="finalist">Jeff McAffer <b>(Finalist)</b></a>				
+				<li class="finalist">Mik Kersten <strong>(finalist)</strong></li>	
+				<li class="winner">Ed Merks</li>
+				<li class="finalist">Thomas Watson <strong>(finalist)</strong></li>	
+			</ul>
+		</div>
+		<div class="homeitem3col">
+			<h3>Top Newcomer Evangelist</h3>
+			<ul>
+				<li class="finalist">Hendrik Maryns <strong>(finalist)</strong></li>	
+				<li class="winner">Daniel Megert</li>
+				<li class="finalist">Eric Rizzo <strong>(finalist)</strong></li>
 			</ul>
 		</div>
 
-	<h2>Technology Award Winners</h2>
-		<p>Presented below is the list of award winners and finalists for each of the technology awards catagories.</p>
+	<h2>Technology Award Finalists</h2>
+		<p>Presented below is the list of award finalists and winners for each of the technology awards catagories as determined
+			by this year's <a href="judges07.php">judging panels</a>.</p>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li><a href="http://gumtree.sourceforge.net/">Gumtree <b>(Winner)</b></a>
-				<li class="finalist"><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig) <b>(Finalist)</b></a>
+				<li class="finalist"><a href="http://eclipsetrader.sourceforge.net">EclipseTrader</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://portal.chronos.org/psicat-site/">PSICAT</a></li>
+				<li class="finalist"><a href="http://www.rssowl.org/">RSSOwl</a> <strong>(finalist)</strong></li>
 				<br>
 			</ul>
 		</div>		
@@ -77,34 +88,35 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php">Lombardi Software TeamWorks <b>(Winner)</b></a>
-				<li class="finalist"><a href="http://www.logicmindguide.com/demo.htm ">Logic MindGuide - Plan&Decide  <b>(Finalist)</b></a>
+				<li class="winner"><a href="http://www.tibco.com/devnet/business_studio/product_resources.jsp?tab=downloads">TIBCO Business Studio</a></li>
+				<li class="finalist"><a href="http://www.ivis.com/public/products/xprocess/index.cfm">Ivis Technologies xProcess</a> <strong>(finalist)</strong></li>
 				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
-			<h3>Best Open Source Eclipse based developer tool</h3>
+			<h3>Best Open Source Eclipse Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.radrails.org/">RadRails <b>(Winner)</b></a>	
+				<li class="finalist"><a href="http://www.eclemma.org/">EclEmma</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://eclipse-cs.sourceforge.net">eclipse-cs Checkstyle Plugin</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Commerical Eclipse based developer tool</h3>
+		<h3>Best Commerical Eclipse Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/studio/">BEA Workshop Studio 3.0 <b>(Winner)</b></a>
-				<li class="finalist"><a href="http://www.exadel.com/web/portal/products">Exadel Studio Pro 3.5  <b>(Finalist)</b></a>
-				<li class="finalist"><a href="http://www.qnx.com/products/development/">QNX Momentics Development Suite Professional Edition <b>(Finalist)</b></a>
+				<li class="finalist"><a href="http://www.adobe.com/products/flex/productinfo/overview/">Adobe Flex 2.0</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://www.qnx.com/products/development">QNX Momentics IDE</a>
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Deployment of Eclipse technology in an enterprise</h3>
+		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
-				<li><a href="http://www.ji.co.za">Compass Group Southern Africa via Jigsaw Interactive <b>(Winner)</b></a>
-				<br>
+				<li class="finalist"><a href="http://www.bardusch.de">Bardusch GmbH</a> <strong>(finalist)</strong></li>
+				<li class="winner"><a href="http://www.jpmchase.com">JPMorgan Chase</a>
+				<li class="finalist"><a href="http://www.jpl.nasa.gov/">NASA Ensemble Team</a> <strong>(finalist)</strong></li>
 			</ul>
-		</div>			
+		</div>
 		<br />
-		<a href="technology_nominations.php">A complete list of the nominees for 2006 Technology Awards can be found here.</a>
+		<a href="technology_nominations.php">A complete list of the nominees for 2007 Technology Awards can be found here.</a>
 		<br /><br />
 		</div>
 	
@@ -115,9 +127,7 @@ ob_start();
 		<div class="sideitem">
 			<h6>Awards Navigation</h6>
 			<ul>
-				<li><a href="winners.php">Award Winners</a></li>
-				<li><a href="judges.php">Judges</a></li>
-				<li><a href="index.php">Explanation of Awards Categories</a></li>				
+				<li><a href="judges07.php">Technology Awards Judges</a></li>		
 			</ul>
 		</div>
 	</div>
