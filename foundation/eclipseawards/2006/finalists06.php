@@ -30,7 +30,7 @@
 	# Paste your HTML content between the markers!	
 ob_start();
 ?>		
-<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="org/foundation/eclipseawards/layout.css" media="screen" />
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Individual Award Winners</h2>
