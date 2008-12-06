@@ -3,8 +3,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Community Awards";
-	$pageKeywords	= "eclipse, community, awards, EclipseCon, 2009";
+	$pageTitle 		= "Nominations Open for the Eclipse Community Awards 2009";
+	$pageKeywords	= "eclipse, community, awards, nominations, EclipseCon, 2009";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -24,11 +24,10 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
-		<h1>Nominations for the Eclipse Community Awards 2009 are Open</h1>
 		
 		<p>The <a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a> are an annual event designed to show appreciation to individuals and technologies that make
 		Eclipse a stronger community.  There are two categories of awards - individual and technology.  The Eclipse Foundation is now accepting
-		nominations for the awards, so show your love and nominate a person or product that has made a difference.</p>
+		nominations for the awards, so show your appreciation and nominate a person or product that has made a difference.</p>
 		
 		<p>In the individual category, anyone may make a nomination for the Top Ambassador, Top Committer and Top Contributor awards.  There is
 		also a Most Prolific Newcomer Evangelist award, which is presented to the individual that answers the most questions posted on the
@@ -41,7 +40,7 @@
 
 		<p>More details about the awards and the nomination process can be found
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">online</a>.	 Nominations for the Eclipse Community
-		Awards will be accepted until January 30, 2009 and the awards will be announced March 23, 2009 at
+		Awards will be accepted until January 30, 2009 and the winners will be announced March 23, 2009 at
 		<a href="http://www.eclipsecon.org" target="blank">EclipseCon.</a></p>
 
 	</div>
