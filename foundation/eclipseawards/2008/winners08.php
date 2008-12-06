@@ -14,8 +14,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Awards Winners";
-	$pageKeywords	= "eclipse, foundation, community, award, winners, 2006";
+	$pageTitle 		= "Eclipse Awards Winners 2008";
+	$pageKeywords	= "eclipse, foundation, community, award, winners, 2008";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -124,13 +124,7 @@ ob_start();
 		<div class="sideitem">
 			<h6>Awards Navigation</h6>
 			<ul>
-				<li><a href="index.php">Awards Categories</a></li>
-				<li><a href="winners08.php">Winners &amp; Finalists</a></li>
-				<li><a href="technology_nominations.php">Technology Nominations</a></li>
-				<li><a href="judges08.php">Technology Judges</a></li>
-				<li><a href="individual_awards_guidelines.php">Guidelines for Individual Awards</a></li>
-				<li><a href="technology_awards_guidelines.php">Guidelines for Technology Awards</a></li>
-				<li><a href="awards_nominations.php">How to Make a Nomination</a></li>			
+				<li><a href="judges08.php">Technology Judges</a></li>		
 			</ul>
 		</div>
 	</div>
