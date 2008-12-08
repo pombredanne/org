@@ -41,7 +41,7 @@
 		<p>More details about the awards and the nomination process can be found
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">online</a>.	 Nominations for the Eclipse Community
 		Awards will be accepted until January 30, 2009 and the winners will be announced March 23, 2009 at
-		<a href="http://www.eclipsecon.org" target="blank">EclipseCon.</a></p>
+		<a href="http://www.eclipsecon.org">EclipseCon.</a></p>
 
 	</div>
 </div>
