@@ -86,6 +86,10 @@
 				<li>Voting ends for Individual Awards - February 27, 2009 at 5:00 pm EST</font></li>
 				<li>Awards Announced - March 23, 2009</li>
 			</ul>
+		</p>
+		
+		<p>
+		<a href="winners08.php">See the Eclipse Community Award winners for 2008</a>
 		<br><br>	
 		</p>
 		
