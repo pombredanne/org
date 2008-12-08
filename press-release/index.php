@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20081208_awards.php">Nominations Open for the Eclipse Community Awards 2009</a> - December 8, 2008</li>
 		<li><a href="20081113_ec09regopen.php">EclipseCon 2009 Open for Registration</a> - November 13, 2008</li>
 		<li><a href="20081112_termsofuse.php">Updated Web Site Terms of Use</a> - November 12, 2008</li>
 		<li><a href="20081024_eclipseconcfp.php">EclipseCon 2009 Call for Participation</a> - October 24, 2008</li>
