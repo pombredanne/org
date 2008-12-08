@@ -108,17 +108,17 @@
 		</div>
 		<div class="sideitem">
 			<h6>Top Ambassador</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213056"><img 
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257950"><img 
 		  		src="images/ambassador-diagram.gif" border="0"/></a></div>
 		</div>
 		<div class="sideitem">
 			<h6>Top Committer</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213059"><img 
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952"><img 
 		  		src="images/committer-diagram.gif" border="0"/></a></div>
 		</div>
 		<div class="sideitem">
 			<h6>Top Contributor</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=214525"><img 
+			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953"><img 
 		  		src="images/contributor-diagram.gif" border="0"/></a></div>
 		</div>
 
