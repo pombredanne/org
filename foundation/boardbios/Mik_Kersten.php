@@ -1,4 +1,4 @@
-Mik Kersten is the President and CTO of Tasktop Technologies, lead of the 
+Mik Kersten is the CEO of Tasktop Technologies, lead of the 
 Eclipse Mylyn project, committer on the AspectJ project, and member of the 
 Eclipse Architecture Council. While a research scientist at Xerox PARC, Mik 
 implemented the first aspect-oriented programming IDE extensions. He then 
