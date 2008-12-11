@@ -48,7 +48,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"> </a></li>		
+				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>		
 			</ul>
 		</div>
 		
