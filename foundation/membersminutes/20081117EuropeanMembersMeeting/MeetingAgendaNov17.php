@@ -102,8 +102,12 @@ members of an open source project's ecosystem, and how each of them can benefit 
 <b>Short Talks and Case Studies from the Community</b><br>
 Members of the Eclipse marketing community will give short presentations that reflect their experiences of marketing
 in the Eclipse community.<br>
+
+ 		<li>SMILA - Hans-Christian Brockmann      <a href="./Eclipse Summit  Europe SMILA Project Update.pdf">Presentation</a></p></li>
+
+
 <ul>
-<li>How to Get Good Press - Manuela Duft - compeople </li>
+<li>How to Get Good Press - Manuela Duft - compeople     <a href="../20081118EuropeanMarketingSymposium/Successful-Webinars.pdf">Presentation</a></li>
 <li>Tips for doing successful webinars - Stefanie Peitzker, Innovations</li>
 <li>Organizing an Eclipse events in France - Jocya Leroy, Anyware Technologies</li> 
 <li>Experiences from the first Eclipse Banking Day - Joern Weigle, Weigle Wilczek</li>
