@@ -64,6 +64,9 @@
 	          projects; these pages describe the projects as well as the
 	          development and IP processes they follow.
           	</li>
+          	<li><a href="http://www.eclipse.org/org/industry-workgroups/">Industry Working Groups:</a>
+          		Collaborations between Eclipse Foundation Members to address specific market needs.
+          	</li>
           	
           	<li><A href="minutes.php">Meeting minutes:</A>
 	          Minutes of the Eclipse membership, board and council meetings.
