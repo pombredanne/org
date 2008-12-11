@@ -19,23 +19,23 @@ ob_start();
 <div id="midcolumn">
 <h1><?=$pageTitle;?></h1>
 <div class="homeitem3col">
-<h3><a name="WorkingGroups"></a>Eclipse Working Groups</h3>
+<h3><a name="WorkingGroups"></a>Eclipse Industry Working Groups</h3>
 <div style="margin: 5px 15px 15px 15px; ">
 
 <table cellspacing=0 width="100%">
 	<tr>
-		<th width="50%"><a href="explain/projects-table-columns.php">Group Name</a></th>
-		<th width="10%"><a href="explain/projects-table-columns.php">Homepage</a></th>
-		<th width="10%"><a href="explain/projects-table-columns.php">Mailing List</a></th>
-		<th width="10%"<a href="explain/projects-table-columns.php">Newsgroup</a></th>
+		<th width="50%">Group Name</th>
+		<th width="10%">Homepage</th>
+		<th width="10%">Mailing List</th>
+		<th width="10%">Newsgroup</th>
 	</tr>
-	
 	<tr>
-		<td>UI Best Practices</td>
-		<td align="center"><a href="http://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-		<td align="center"><a href="https://dev.eclipse.org/mailman/listinfo/ui-best-practices-working-group"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"/></a></td>
+		<td>Mobile Industry Working Group</td>
+		<td><a href="http://wiki.eclipse.org/MobileIndustryWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
+		<td><a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
 		<td></td>
-	</tr>
+	</tr>	
+
 </table>
 
 </div>
@@ -47,14 +47,10 @@ ob_start();
 
 <table cellspacing=0>
 	<tr>
-		<th width="70%"><a href="explain/projects-table-columns.php" class="info">Group Name</a></th>
-		<th width="30%"><a href="explain/projects-table-columns.php" class="info">Homepage</a></th>
+		<th width="70%">Group Name</th>
+		<th width="30%">Proposal</th>
 	</tr>
 	
-	<tr>
-		<td>Eclipse Mobile Industry Working Group</td>
-		<td><a href="http://www.eclipse.org/org/industry-workgroups/mobilewg.php"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-		<td></td>
 	</tr>
 </table>
 
