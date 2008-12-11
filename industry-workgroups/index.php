@@ -41,18 +41,7 @@ ob_start();
 </div>
 </div>
 
-<div class="homeitem3col">
-<h3><a name="WorkingGroups"></a>Proposed Working Groups</h3>
-<div style="margin: 5px 15px 15px 15px; ">
 
-<table cellspacing=0>
-	<tr>
-		<th width="70%">Group Name</th>
-		<th width="30%">Proposal</th>
-	</tr>
-	
-	</tr>
-</table>
 
 </div>
 </div>
