@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - technology.packaging</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.packaging">Eclipse Packaging Project</a></span>, version 1.1</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+          <li>
+            <a href="#appendix">
+                        Appendix
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <p>The Eclipse Packaging Project (EPP) is responsible for creating technology that makes
+      it easier for new users to consume the output of other Eclipse projects and for coordinating
+      the package releases together with the yearly release train. In order to achieve this goal,
+      EPP is active on different levels since the Europa Release 2007:</p>
+      <ul>
+      <li>
+        <b>Create entry level downloads based on defined user profiles.</b>
+        The project defined and created the EPP downloads of Java Developer, Java EE Developer,
+        C/C++ Developer and RCP Developer. These downloads are available from the main Eclipse
+        download page. In addition to that, EPP coordinates with other package maintainers the
+        creation of new package definitions and ensures that the packages are tested.
+      </li>
+      <li>
+        <b>Provide and integrate the EPP Usage Data Collector.</b>
+        The Usage Data Collector collects information about how individuals are using the Eclipse
+        platform. The intent is to use this data to help committers and organizations better
+        understand how developers are using Eclipse.
+      </li>
+      <li>
+        <b>Provide a platform that allows the creation of packages (zip/tar downloads)
+          from an update site.</b>
+        The core technology of the project will enable the creation of download packages that are
+        created by bundling Eclipse features from one or multiple Eclipse update sites.
+      </li>
+      <li>
+        <b>Create and manage a new dynamic installer.</b>
+        EPP creates a new RAP-based wizard that enables a user to choose and pick software
+        components from other Eclipse projects. The output is a customized p2-installer that guides
+        the user through the initial install process and downloads the necessary software
+        components.
+      </li>
+    </ul>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <p>All EPP releases appear simultaneously with the release train releases (here:
+        Galileo).</p>
+      <table border="1" align="center">
+        <tr>
+          <td>
+            <b>Galileo M1 - no EPP builds</b>
+          </td>
+          <td>n/a</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo M2 - no EPP builds</b>
+          </td>
+          <td>n/a</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo M3 - to be discussed: EPP builds necessary?</b>
+          </td>
+          <td>n/a</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo M4</b>
+          </td>
+          <td>2009-01-08</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo M5</b>
+          </td>
+          <td>2009-02-12</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo M6</b>
+          </td>
+          <td>2009-03-20</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo M7</b>
+          </td>
+          <td>2009-05-08</td>
+          <td>
+            <p>All packages must be defined and their content must be specified.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo RC1</b>
+          </td>
+          <td>2009-05-21</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo RC2</b>
+          </td>
+          <td>2009-05-28</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo RC3</b>
+          </td>
+          <td>2009-06-04</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo RC4</b>
+          </td>
+          <td>2009-06-11</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>Galileo RC5</b>
+          </td>
+          <td>2009-06-18</td>
+          <td/>
+        </tr>
+      </table>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <p>EPP creates its packages for Windows 32-bit, Linux 32-bit, Linux 64-bit and Mac OSX.
+      All of the packages require at least a JVM 1.5 because of the software components that are
+      included in the packages.</p>
+      <p>Source code used and developed within the project needs a JVM 1.5 or higher.
+    </p>
+      <h3>Internationalization</h3>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <h3>Galileo Packages</h3>
+      <p>EPP will create and deliver the packages for the next release train. The exact
+          content and the number of packages are subject to change and depend on the community
+          feedback and help.</p>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <p>Galileo Packages</p>
+          <ul>
+          <li>Eclipse IDE for Java EE Developers</li>
+          <li>Eclipse IDE for Java Developers</li>
+          <li>Eclipse IDE for C/C++ Developers</li>
+          <li>Eclipse Modeling Tools</li>
+          <li>Eclipse for RCP/Plug-in Developers</li>
+          <li>Eclipse IDE for Java and Report Developers</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>Dynamic Package Delivery Component</h3>
+      <p> The dynamic package delivery component provides an extensible framework for, and an
+          exemplary implementation of, a service for dynamically selecting and
+          downloading/installing installable units.</p>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <p>Preview available for Friends-of-Eclipse.</p>
+        </li>
+      </ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="appendix">Appendix </a>
+      </h2>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=technology.packaging&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

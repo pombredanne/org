@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - rt.ecf</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.ecf">Eclipse Communication Framework</a></span>, version 3.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div><p>Previously, ECF has had two major releases: <a href="http://www.eclipse.org/ecf/downloads.php">ECF 1.0.0</a> as part of <a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release">Europa Simultaneous Release</a>, and ECF 2.0.0 as part of <a href="http://wiki.eclipse.org/Ganymede_Simultaneous_Release">Ganymede Simultaneous Release</a>.  This plan describes the work for ECF 3.0.0, which will occur in June, 2009 as part of the <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">Galileo Simultaneous Release</a>.</p></div><h2><a name="release_deliverables">Release Deliverables</a></h2><div><p>The major ECF 3.0.0 release deliverables are as follows:
+     <ol><li>Contribute to <a href="http://wiki.eclipse.org/E4">E4 Project</a> via work on a common connection framework, synchronization of replicated models, and support for/use of asynchronous communication patterns</li>
+     <li>Contribute to <a href="http://wiki.eclipse.org/Equinox_p2">Equinox P2 Project</a> via additions to ECF File Transfer, and usage of ECF Discovery, and ECF Remote Services</li>
+     <li>Improve and Extend the ECF Example Applications</li>
+     <li>Enable easier creation and use of Equinox+ECF-based Server Runtimes</li>
+     <li>Harden ECF Discovery and Remote OSGi Services, create more provider implementations, and provide open reference implementations for
+     emerging standards (e.g. RFC 119)</li>
+     <li>Improve IM and Chat for usage with Eclipse</li>
+     <li>Deliver improved application integration with Eclipse projects:  Mylyn and DSDP-TM VNC screen sharing</li>
+     <li>Restructure ECF's packaging and deployment for easier external consumption</li>
+     <li>Create selected providers based upon community input about emerging popular protocols</li></ol>
+     
+     </p></div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>ECF plans on delivering milestone on the same general schedule as the <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">Galileo Simultaneous Release</a> schedule, starting with M4.  ECF has both +0 and +1 components.  The +0 components will be
+         on same release schedule as the Platform, and the +1 components will be as specified below.</div><table border="1" align="center"><tr><td><b>M4</b></td><td>12/17/2008</td><td><div/></td></tr><tr><td><b>M5</b></td><td>2/3/2009</td><td><div/></td></tr><tr><td><b>M6</b></td><td>3/16/2009</td><td><div>API Freeze</div></td></tr><tr><td><b>M7</b></td><td>5/4/2009</td><td><div>3.0.0 Feature Freeze</div></td></tr><tr><td><b>RC1</b></td><td>5/18/2009</td><td><div/></td></tr><tr><td><b>RC1</b></td><td>5/18/2009</td><td><div/></td></tr><tr><td><b>RC2</b></td><td>5/25/2009</td><td><div/></td></tr><tr><td><b>RC3</b></td><td>6/1/2009</td><td><div/></td></tr><tr><td><b>RC4</b></td><td>6/8/2009</td><td><div/></td></tr><tr><td><b>RC5</b></td><td>6/15/2009</td><td><div/></td></tr><tr><td><b>3.0.0</b></td><td>6/26/2009</td><td><div>Galileo GA</div></td></tr></table><div/><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>ECF's target environments are:
+     <ul>
+     	<li>Eclipse</li>
+     	<li>Eclipse-based Applications</li>
+     	<li>Other Equinox-Based Runtimes (e.g. Equinox servers)</li>
+     </ul>
+     </div><h3>Internationalization</h3>
+          <div>ECF doesn't perform internationalization directly, although we develop our plugins following 
+          common rules about string externalization to make the automation possible</div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div><p>ECF has a policy of maintaining API backward compatibility with minor and service releases.  API is considered all
+       exported packages (i.e. packages that do not have <pre>x-internal:=true</pre> in their Export-Package declaration.  As an example, 
+       with the following declaration in the org.eclipse.ecf MANIFEST.MF</p>
+       <pre>Export-Package: org.eclipse.ecf.core, org.eclipse.ecf.internal.core;x-internal:=true
+       </pre>
+       <p>The org.eclipse.ecf.core package is API, and the org.eclipse.ecf.internal.core package is not</p>
+       <p>Only with major releases (e.g. 2.0.0, 3.0.0) are incompatible API changes to be introduced (e.g. refactorings, renames), and even then only after discussion
+       among multiple committers.  For the parts of ECF used by the Platform (e.g. the core and file transfer bundles), NO incompatible
+       API changes will be introduced, even for major releases, in order to maintain the platform backward compatibility
+       constraints.</p>
+       </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div/><h3>Model Synchronization</h3><p>ECF's docshare capabilities will be generalized to support synchronization of distributed models of multiple forms</p><ul><li><b>Proposed</b><ul><li>[modelsync] Improve Real-Time Shared Editing for files that exist in both workspaces [<a href="http://bugs.eclipse.org/237471">237471</a>] (target milestone: ---)</li><li>[modelsync][rtcollab] Distribute resource changes to peer in real-time [<a href="http://bugs.eclipse.org/239048">239048</a>] (target milestone: ---)</li><li>[modelsync] DocShare plug-in should be split into core/ui [<a href="http://bugs.eclipse.org/234142">234142</a>] (target milestone: 2.1.0)</li></ul></li></ul><h3>Real-Time Collaboration for IDE</h3><p/><ul><li><b>Proposed</b><ul><li>[rtcollab] Provide an indication of where other users are editing [<a href="http://bugs.eclipse.org/237923">237923</a>] (target milestone: 2.1.0)</li><li>[rtcollab] DocShare should support the sharing of external files [<a href="http://bugs.eclipse.org/238040">238040</a>] (target milestone: 2.1.0)</li><li>[modelsync][rtcollab] Distribute resource changes to peer in real-time [<a href="http://bugs.eclipse.org/239048">239048</a>] (target milestone: ---)</li><li>[rtcollab] DocShare &amp; DocShare.Cola should support N way messaging [<a href="http://bugs.eclipse.org/240290">240290</a>] (target milestone: ---)</li></ul></li></ul><h3>ECF for Runtimes</h3><ul><li><b>Proposed</b><ul><li>[runtime] [IRC] Support platform proxy settings [<a href="http://bugs.eclipse.org/200256">200256</a>] (target milestone: ---)</li><li>[xmpp] [runtime] use org.eclipse.core.net.proxy API for socks proxy support [<a href="http://bugs.eclipse.org/206275">206275</a>] (target milestone: ---)</li><li>[runtime] Equinox-based XMPP server [<a href="http://bugs.eclipse.org/235844">235844</a>] (target milestone: ---)</li><li>[runtime][presence][xmpp] add use of proxy data in xmpp connections [<a href="http://bugs.eclipse.org/236455">236455</a>] (target milestone: ---)</li><li>[runtime] [msn] doesn't honor platform proxy settings [<a href="http://bugs.eclipse.org/193578">193578</a>] (target milestone: 2.0.0)</li><li>[runtime][filetransfer][test] test proxy configurations [<a href="http://bugs.eclipse.org/208012">208012</a>] (target milestone: 2.0.0)</li></ul></li></ul><h3>Remote OSGi Services</h3><p>As ECF moves to the Runtime top-level project, the ECF remote services API will be potentially use in
+	non-Eclipse runtimes and in combination with work from other projects (e.g. P2/remote Equinox managment, etc)</p><ul><li><b>Proposed</b><ul><li>[remotesvcs][Discovery] Namespace semantics for discovery need to be different [<a href="http://bugs.eclipse.org/207089">207089</a>] (target milestone: ---)</li><li>[remotesvcs][Discovery] Discovery may define a generic IServiceTypeID independent of providers [<a href="http://bugs.eclipse.org/207091">207091</a>] (target milestone: ---)</li><li>[remotesvcs] Provide org.eclipse.ecf.discovery.IDiscoveryContainerAdapter#unregisterAllServices() [<a href="http://bugs.eclipse.org/230180">230180</a>] (target milestone: 3.0.0)</li><li>[remotesvcs] Discovery may be configurable via OSGi configuration admin service [<a href="http://bugs.eclipse.org/217978">217978</a>] (target milestone: ---)</li><li>[remotesvcs] [discovery] [ui] add filtering to discovery services view [<a href="http://bugs.eclipse.org/218452">218452</a>] (target milestone: ---)</li><li>[remotesvcs] Remove create org.eclipse.ecf.discovery.identity.IServiceID by java.lang.String [<a href="http://bugs.eclipse.org/230183">230183</a>] (target milestone: ---)</li><li>[remotesvcs][r-osgi] sometime exception in r-osgi on Eclipse start [<a href="http://bugs.eclipse.org/233385">233385</a>] (target milestone: 2.0.0)</li><li>[remotesvcs] Implement RFC 119 [<a href="http://bugs.eclipse.org/249240">249240</a>] (target milestone: ---)</li><li>[remotesvcs] add asynchronous IRemoteServiceContainerAdapter.getRemoteServiceReferences() [<a href="http://bugs.eclipse.org/251897">251897</a>] (target milestone: ---)</li></ul></li></ul><h3>IM/Chat Features</h3><ul><li><b>Proposed</b><ul><li>[imchat][presence][ui] add API for contributing roster entry properties to MultiRosterView [<a href="http://bugs.eclipse.org/208713">208713</a>] (target milestone: ---)</li><li>[imchat][irc] Add support for peer to peer file transfer [<a href="http://bugs.eclipse.org/218117">218117</a>] (target milestone: ---)</li><li>[imchat] Add persistence to MultiRosterView (org.eclipse.ecf.presence.ui) [<a href="http://bugs.eclipse.org/166670">166670</a>] (target milestone: 2.1.0)</li><li>[imchat][presence] API needed for creating conferences/group chats [<a href="http://bugs.eclipse.org/182474">182474</a>] (target milestone: 1.1.0)</li></ul></li></ul><h3>Application Integration</h3><p>Currently, there are only a few examples of effective integrations of ECF with existing products.  We will focus on creating other integrations...e.g. with Mylyn and DSDP-TM's VNC implementation</p><ul><li><b>Proposed</b><ul><li>[appint] VNC-based screen sharing [<a href="http://bugs.eclipse.org/239854">239854</a>] (target milestone: ---)</li><li>[appint] Provide ability to export/import task context via ECF communications [<a href="http://bugs.eclipse.org/195737">195737</a>] (target milestone: ---)</li></ul></li></ul><h3>Packaging and Deployment</h3><p>ECF is currently deployed as a small set (2) of features via update site.  This makes the consumption of sub-components of ECF (e.g. discovery, remote services, docshare, etc) difficult.  Probably using P2, ECF will make the piecewise consumption of ECF bundles easier.</p><ul><li><b>Proposed</b><ul><li>[deploy] create features or IUs for deploying components [<a href="http://bugs.eclipse.org/249237">249237</a>] (target milestone: ---)</li></ul></li></ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=rt.ecf&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

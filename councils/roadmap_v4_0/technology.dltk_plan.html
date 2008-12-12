@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - technology.dltk</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.dltk">Dynamic Languages Toolkit</a></span>, version 1.0</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <div>Some xhtml content here. Make sure to use the prefix
+      before the elements</div>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <div>
+      <ul>
+        <li>
+          <b>DLTK source code release</b>
+          , available as versions tagged "R1_0" in the project's
+          <ul>
+            <li>
+              <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.dltk/?cvsroot=Technology_Project">DLTK CVS Repository</a>
+              ,
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>DLTK Core Frameworks:</b>
+          <ul>
+            <li>DLTK Core (runtime and SDK) (downloadable).</li>
+          </ul>
+        </li>
+        <li>
+          <b>Stand-alone components:</b>
+          <ul>
+            <li>Ruby IDE (runtime and SDK) (downloadable).</li>
+            <li>TCL IDE (runtime and SDK) (downloadable).</li>
+          </ul>
+        </li>
+        <li>
+          <b>DLTK extensions:</b>
+          <ul>
+            <li>Incr TCL (runtime and SDK) (downloadable).</li>
+            <li>XOTcl (runtime and SDK) (downloadable).</li>
+          </ul>
+        </li>
+        <li>
+          <b>Integration Components:</b>
+          <ul>
+            <li>DLTK Remote Projects via DSDP TM (runtime and SDK) (downloadable).</li>
+            <li>DLTK Mylyn Integration (runtime and SDK) (downloadable).</li>
+          </ul>
+        </li>
+        <li>
+          <b>Incubating components:</b>
+          <ul>
+            <li>Python IDE (runtime and SDK) (downloadable).</li>
+            <li>Javascript IDE (runtime and SDK) (downloadable).</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <p>
+        Release milestones will be occurring at roughly 6 week intervals, and will be aligned with the
+        <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">Galileo Simultaneous Release</a>
+        train. Milestone names start with M2 in order to clarify this relationship.
+      </p>
+      <table border="1" align="center">
+        <tr>
+          <td>
+            <b>M2</b>
+          </td>
+          <td>01-Oct-2008</td>
+          <td>
+            <div>1.0M2</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M3</b>
+          </td>
+          <td>12-Nov-2008</td>
+          <td>
+            <div>1.0M3</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M4</b>
+          </td>
+          <td>29-Dec-2008</td>
+          <td>
+            <div>1.0M4</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M5</b>
+          </td>
+          <td>06-Feb-2009</td>
+          <td>
+            <div>1.0M5</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M6</b>
+          </td>
+          <td>18-Mar-2009</td>
+          <td>
+            <div>1.0M6</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M7</b>
+          </td>
+          <td>06-May-2009</td>
+          <td>
+            <div>1.0M7 (API/Feature Freeze)</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC1</b>
+          </td>
+          <td>19-May-2009</td>
+          <td>
+            <div>1.0RC1</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC2</b>
+          </td>
+          <td>26-May-2009</td>
+          <td>
+            <div>1.0RC2</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC3</b>
+          </td>
+          <td>02-Jun-2009</td>
+          <td>
+            <div>1.0RC3</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC4</b>
+          </td>
+          <td>09-Jun-2009</td>
+          <td>
+            <div>1.0RC4</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC5</b>
+          </td>
+          <td>16-Jun-2009</td>
+          <td>
+            <div>1.0RC5</div>
+          </td>
+        </tr>
+      </table>
+      <div>
+        <p>The target date for availability of Dynamic Languages Toolkit 1.0 is:</p>
+        <ul>
+          <li>Wednesday June 26, 2009 - DLTK 1.0 Release date (with Galileo)</li>
+        </ul>
+      </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <div>
+      <p>In order to remain current, each Eclipse release is designed to run on
+        reasonably current versions of the underlying
+        operating environments.</p>
+      <p>The DLTK 1.0 depends upon on the Eclipse Platform 3.4.
+        Various sub components also depend on other Eclipse Projects,
+        namely the the Eclipse Modeling Framework (EMF) 2.3 or later and DSDP TM.
+        For this release, the core sources will be
+        written and compiled against version 5.0 of the Java Platform APIs and
+        designed to run on
+        version 5.0 of the Java Runtime
+        Environment, Standard Edition. 
+        </p>
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <div>
+      <p>
+        <strong>Source/binary Compatibility:</strong>
+        Due to active refactoring/optimization/improvement of the core DLTK frameworks
+        DLTK 1.0 will not be source/binary
+        compatible with DLTK 0.95.
+      </p>
+      <p>
+        <strong>Workspace Compatibility:</strong>
+        We intend to keep DLTK 1.0
+        upwards workspace-compatible with DLTK 0.95 unless noted.
+        This means that workspaces and
+        projects created with DLTK 0.95 can be successfully
+        opened by DLTK 1.0 and upgraded to a 1.0 workspace.
+        A workspace
+        created (or opened) by a product based on DLTK 1.0 will be unusable
+        with a product based on DLTK 0.95.
+      </p>
+      <p>
+        <b>API Contract</b>
+        APIs published for the DLTK 1.0 release will be carefully
+        reviewed prior to release, making use of "internal" packages
+        for
+        unsupported and variable implementation classes. Client plug-ins that
+        directly depend on anything other than what is
+        specified in the
+        published API are inherently unsupportable and receive no guarantees
+        about future compatibility.
+      </p>
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <h3>Project Building and Indexing</h3>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+          <li>Mixin indexing should be performed independently from the builder</li>
+          <li>Move error reporting from the editor to the ProjectBuilder.</li>
+          <li>Unsaved changes in the editor should not be reported as markers in the Problems view.</li>
+          <li>Project isolation for the the Selection, Completion, Type Inference, etc engines.</li>
+          <li>Introduce API to easily implement additional semantic checks</li>
+        </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>Indexing and search should be moved from the core to separate plugins.</li>
+          <li>Indexing should be configurable for each language separately, and only if required.</li>
+          <li>Support of multi-pass indexing and resource dependencies.</li>
+          <li>API to implement pluggable indexers</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>Core Frameworks improvements</h3>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+          <li>Fix Type Hierarchy bugs</li>
+        </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>
+            <b>Review public API</b>
+            Internal packages should be rarely used.
+          </li>
+          <li>
+            Project/buildpath management
+            <ul>
+              <li>Switch to EMF</li>
+              <li>Improve extensibility</li>
+              <li>API simplifications</li>
+            </ul>
+          </li>
+          <li>
+            <b>External application management</b>
+            Implement EMF based application management:
+            <ul>
+              <li>Interpreters</li>
+              <li>Debuggers</li>
+              <li>External checker tools</li>
+            </ul>
+          </li>
+          <li>Type inferencing engine improvements</li>
+          <li>
+            <b>Remove AST from core</b>
+            and allow each language to use it is own AST classes
+          </li>
+          <li>Implement persistent AST caching to speed up all operations</li>
+          <li>
+            <b>Debugger improvements</b>
+            <ul>
+              <li>Support of different kind of expressions</li>
+              <li>Support of different kind of breakpoints</li>
+              <li>Support of async dbgp.</li>
+              <li>Support of consoles over debug protocol.</li>
+              <li>Improve DBGP implementation quality and reliability</li>
+            </ul>
+          </li>
+          <li>
+            <b>Code assistance</b>
+            APIs needs improvements. Context information (AKA argument hinting) calls should be
+            fairly separated from code
+            completion calls. API should allow the addition of language specific features.
+          </li>
+          <li>Implement proper Runtime Model based on the current mixin model</li>
+          <li>
+            <b>Documentation view</b>
+            improvements:
+            <ul>
+              <li>Hyperlink navigation</li>
+              <li>Display documentation form multiple sources and ability to switch from one source to another</li>
+              <li>Ability to display documentation for multi-word commands (e.g. "package require ...." in TCL)</li>
+            </ul>
+          </li>
+          <li>User-defined templates for the new script files</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>Ruby IDE improvements</h3>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+          <li>Ruby source code formatter</li>
+          <li>Testing frameworks support (Test::Unit, Shoulda, RSpec)</li>
+        </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>
+            Rubygems suppport
+            <ul>
+              <li>package management (list, install, etc.)</li>
+              <li>ability to add installed gems to the project buildpath</li>
+            </ul>
+          </li>
+          <li>Implement own parser based on XRuby with automatic error recovery, correct positions for all elements,
+            etc. Implement 2 modes of parser operations: FAST for building internal models and error reporting and EXTENDED with
+            detailed information of every source token for use in editor and formatter</li>
+          <li>Cache parsed ASTs for all modules to optimize performance of the search/content assist
+            operations</li>
+          <li>
+            <b>Syntax highlighting improvements</b>
+            fix some cases with incorrect syntax highlighting. Deep use of semantic highlighting to correctly highlight all the
+            sources.
+          </li>
+          <li>Rake runnner</li>
+          <li>Checks for the common code errors (need to clarify what could be checked)</li>
+          <li>Regular Expression Tester</li>
+          <li>Spell Checking Support</li>
+          <li>Mark Occurrences</li>
+          <li>Refactoring support</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>New TCL parser</h3>
+      <p>
+          TCL everything-is-a-string concept is cool but it makes difficult any tooling support (particulary ones dealing with
+          code analysis). TCL code is also string so to parse TCL source properly any tool must know parameter types at least to
+          follow execution flow in the source. Consider TCL statement
+          <code>if a b c</code>
+          Tool must know that for the case above b and c strings are source code which may be executed and shall be handled
+          appropriately by the tool. Real life is much complex and written above is true only if c string is not equal to else
+          value... This rules (proc metadata) can not be derived (inferred) from program source, and the only way is to supply
+          this rules externally.
+          Current parser has hard-coded metadata for widely used control-flow TCL procs, such as if,
+          switch, while, etc. This allow DLTK to
+          walk through large part of user program, but this is not enough to cover user
+          programs well.
+        </p>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+          <li>Standard library metadata</li>
+          <li>Initial implementation of TCL parser based on provided metadata</li>
+          <li>Initial bundle of TCL &#1089;ode checks (procedure redefinition, unreachable code, wrong arguments, etc)</li>
+        </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>Build metadata for user-defined commands</li>
+          <li>Infer argument types for metadata of the user-defined commands</li>
+          <li>ITCL support by the new parser and metadata</li>
+          <li>XOTCL support by the new parser and metadata</li>
+          <li>Update model element parser to use new parser</li>
+          <li>Update indexing to use new parser</li>
+          <li>Update search to use new parser</li>
+          <li>Update CompletionEngine to use new parser</li>
+          <li>Update SelectionEngine to use new parser</li>
+          <li>Update semantic highlighting to use new parser</li>
+          <li>Advanced TCL checks (undefined variable, unused command or variable, more detailed reporting of the
+            mismatched command arguments, etc)</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>TCL ActiveState tools support</h3>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>tclchecker: quickfix support, pretty message formatting, incremental project checks, support new
+            options</li>
+          <li>debugger: hotswap, watchpoints, configuration function instrumentation, enhance debugging of threads or
+            spawned processes</li>
+          <li>
+            <a href="http://docs.activestate.com/tdk/4.1/#tpm_summary">Teapot</a>
+            package management support
+          </li>
+          <li>Better license management to avoid potential licensing issues with ActiveState</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>Powerful Script Console</h3>
+      <p>
+          As a Java oriented IDE (initially) Eclipse lack of powerful Console support. But developers using interpreted
+          languages
+          like TCL expect good interactive (console, shell) support from tooling. Current Eclipse Console is a simple
+          stream-based
+          output to the the window, with some coloring and pattern matching features, which is not enough for good
+          interactive
+          console.
+        </p>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>Syntax highlighting</li>
+          <li>Code assist</li>
+          <li>API Documentation</li>
+          <li>Show variable values on hover</li>
+          <li>Proper OS streams handling</li>
+          <li>Available for local and remote processes</li>
+        </ul>
+        </li>
+      </ul>
+      <h3>TCL IDE improvements</h3>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+          <li>TCL source code indenter (formatter)</li>
+          <li>
+            Man-pages and documentation should be tied to the code
+            <ul>
+              <li>At the moment tcl documentation is configured globally instead the user should be able to specify different
+                documentation for each interpreter/library</li>
+            </ul>
+          </li>
+        </ul>
+        </li>
+      </ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=technology.dltk&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - modeling.tmf</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.tmf">Textual Modeling Framework</a></span>, version Galileo</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+      <p>
+     This document lays out the feature and API set for the first release of TMF Xtext project,version 0.7.0.  
+     This project plan inherits from the Modeling Project Plan, which should be referenced when consulting this individual project plan.
+      </p>
+    </div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+The release deliverables have the same form as is found in most Eclipse projects, namely:
+      <p>
+        <ul>
+         <li>TMF Xtext source code release, available as versions tagged "R0_7" in the project's CVS repository.</li>
+		 <li>TMF Xtext SDK (includes runtime and tooling components, with sources, examples, and documentation) (downloadable and update site).</li>
+		 <li>TMF Xtext runtime binary distribution (downloadable and update site).</li>
+		 <li>TMF Xtext tests (downloadable and update site)</li>
+        </ul>
+      </p>
+    </div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+      Release milestone occurring at roughly 6 week intervals and follow the Platform milestone releases by approximately 2 weeks; 
+      that is, until the final 3.5 release of the Platform, upon which Xtext and other projects will release simultaneously. 
+      As Xtext is dependent upon the EMF, and other projects, which are scheduled to release milestones within 1 week of Platform milestones, 
+      Xtext will deliver its milestones within the following week. 
+      It is anticipated that Xtext will synchronize its release milestones with the Galileo release schedule.
+      </div><table border="1" align="center"><tr><td><b>M2</b></td><td>10/01/2008</td><td/></tr><tr><td><b>M3</b></td><td>11/12/2008</td><td/></tr><tr><td><b>M4</b></td><td>12/29/2008</td><td/></tr><tr><td><b>M5</b></td><td>02/06/2009</td><td/></tr><tr><td><b>M6</b></td><td>03/18/2009</td><td><p>API freeze</p></td></tr><tr><td><b>M7</b></td><td>05/05/2009</td><td/></tr><tr><td><b>RC1</b></td><td>05/19/2009</td><td/></tr><tr><td><b>RC2</b></td><td>05/26/2009</td><td/></tr><tr><td><b>RC3</b></td><td>06/02/2009</td><td/></tr><tr><td><b>RC4</b></td><td>06/09/2009</td><td/></tr><tr><td><b>RC5</b></td><td>06/16/2009</td><td/></tr><tr><td><b>1.0.0</b></td><td>06/28/2009</td><td/></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments.
+The Xtext project depends upon on the Platform and other projects, which are mostly "pure" Java. 
+The 3.5 release of the Eclipse Platform Project is written and compiled against version 1.4 of the Java Platform APIs, 
+and targeted to run on version 1.4 of the Java Runtime Environment, Standard Edition. 
+Xtext will target the same Java version as EMF, which currently requires Java 5.
+Eclipse Platform SDK 3.5 will be tested and validated on a number of reference platforms. 
+Xtext will be tested and validated against a subset of those listed for the platform. 
+Those available will be presented on the project download site.
+    </div><h3>Internationalization</h3>
+      <div>
+The Eclipse Platform is designed as the basis for internationalized products. 
+       The user interface elements provided by the Eclipse SDK components, including dialogs and error messages, are externalized. 
+       The English strings are provided as the default resource bundles. 
+       As a result, the Xtext project will provide English strings in its default bundles and be localized to a subset of those locales offered by the Platform. 
+       This plan will be updated to indicate which locales will be provided and the time frame for availability.
+      </div>
+    <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+Compatibility of Galileo Release: The Xtext project will be developed in 
+parallel, and released simultaneously, with the following projects.
+      <ul>
+        <li>Eclipse Platform SDK version 3.5</li>
+        <li>Eclipse Modeling Framework (EMF) version 2.5</li>
+        <li>M2T Xpand version 0.7</li>
+        <li>EMFT MWE version 0.7</li>
+      </ul>
+    </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+A list of project requirements and agreed upon implementation time frames is 
+found in this document. For the milestones listed in this document, a set of 
+overall themes is used to indicate what major set of functionalities is to be 
+concentrated on for each. These themes are presented below, while the 
+requirements document and associated Bugzilla entries are left to those wanting 
+more detailed information on each.
+      </div><h3>Core Features</h3><div>
+          As this is the first release of Xtext under the textual modeling framework, we focus a lot on core concepts
+          and features.
+        </div><ul><li><b>Committed</b><ul><li>[Generator] Generate ConcreteSyntaxValidator [<a href="http://bugs.eclipse.org/239565">239565</a>] (target milestone: ---)</li><li>[Core] Add support for enums [<a href="http://bugs.eclipse.org/242356">242356</a>] (target milestone: ---)</li><li>[core] Datatype rules on parser level [<a href="http://bugs.eclipse.org/249952">249952</a>] (target milestone: ---)</li><li>IMetamodelAccess.xpt generates wrong code for classpath based import URI's [<a href="http://bugs.eclipse.org/252860">252860</a>] (target milestone: M3)</li><li>[Parser] Make syntactic error messages configurable [<a href="http://bugs.eclipse.org/239567">239567</a>] (target milestone: ---)</li><li>Make serialization of models to DSLs work for all grammars [<a href="http://bugs.eclipse.org/248463">248463</a>] <strike>(target milestone: M3)</strike></li><li>[core] Derive common compatible type of ParenthesizedElement while generating the metamodel [<a href="http://bugs.eclipse.org/248430">248430</a>] <strike>(target milestone: M3)</strike></li><li>[Service] Service framework must support non-singleton services. [<a href="http://bugs.eclipse.org/249731">249731</a>] <strike>(target milestone: M3)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Support for more UTF-8 Letters in ID [<a href="http://bugs.eclipse.org/236892">236892</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Extensibility</h3><div>
+          One of our guiding principles is "make common things easier and rare things possible" suggests that we focus on extensibility as well as
+          on simplicity with regards to all kinds of API.
+        </div><ul><li><b>Committed</b><ul><li>Create API for Xtext generator model [<a href="http://bugs.eclipse.org/239580">239580</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Performance / Scalability</h3><div>
+          Performance and scalability improvements are one of the main reasons, 
+          why we decided to reimplement Xtext as opposed to built upon the existing code from openArchitectureWare 4.3.
+        </div><ul><li><b>Committed</b><ul><li>Rethink computation of node information in terms of performnce [<a href="http://bugs.eclipse.org/252967">252967</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>UI</h3><div>
+          Having nice tool support for Xtext based domain-specific langauge is of course one of the main requirements.
+        </div><ul><li><b>Committed</b><ul><li>[UI] The resource set used in the text editor, needs to listen on resource (Eclipse Resource API) changes [<a href="http://bugs.eclipse.org/253195">253195</a>] (target milestone: M4)</li><li>[Content Assist] Implement template proposals for Xtext CA [<a href="http://bugs.eclipse.org/241897">241897</a>] (target milestone: M4)</li><li>Xtext Project Wizard [<a href="http://bugs.eclipse.org/249734">249734</a>] <strike>(target milestone: M3)</strike></li><li>Implementation of org.eclipse.xtext.ui.common.editor.codecompletion.DefaultContentAssistProcessor [<a href="http://bugs.eclipse.org/250383">250383</a>] <strike>(target milestone: M3)</strike></li><li>[Core] Reimplement derivation of metamodel from Xtext grammar in Java [<a href="http://bugs.eclipse.org/247406">247406</a>] <strike>(target milestone: M3)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[Editor] Propagate Linking Errors as Error Markers [<a href="http://bugs.eclipse.org/252200">252200</a>] <strike>(target milestone: M3)</strike></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Documentation</h3><div>
+          Documentation is a very important asset of every framework. 
+        </div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[Bootstrapping] document bootstrapping process [<a href="http://bugs.eclipse.org/239559">239559</a>] (target milestone: M4)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Samples</h3><div>
+          Xtext is a framework for development of domain-specific languages.
+          It shall be shipped with exemplary tools showing how to use it. 
+        </div><ul><li><b>Committed</b><ul><li>[Samples] Create entity sample [<a href="http://bugs.eclipse.org/254739">254739</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix Legal Notices</a></h2><div>
+      <ul>
+        <li>Java is a trademark or a registered trademark of Sun Microsystems, Inc.</li>
+        <li>All other products or company names are mentioned for identification purposes only, and may be trademarks or service marks of their respective owners.</li>
+      </ul>
+    </div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=modeling.tmf&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

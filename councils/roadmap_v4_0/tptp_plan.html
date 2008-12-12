@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - tptp</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=tptp"> Test and Performance Tools Platform Project</a></span>, version 4.5</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+          <li>
+            <a href="#appendix">
+                        Appendix
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <div>
+<hr/>
+<p><b>Eclipse Test and Performance Tools Platform (TPTP) Project 4.5 Plan (Approved)</b></p>
+
+<p>The first part of this plan deals with the important matters of release
+deliverables, release milestones, target operating environments, and
+release-to-release compatibility. These are all things that need to be
+clear for any release, even if no features were to change.</p>
+
+<p>The remainder of the plan consists of plan items for the four projects under
+the TPTP Top-Level Project.  Each plan item covers a feature or API
+that is to be added to TPTP, or some aspect of TPTP that is to be
+improved.  Each plan item has its own entry in the TPTP bugzilla database, with a title and a concise summary
+(usually a single sentence or small paragraph) that explains the work item at a
+suitably high enough level so that everyone can readily understand what the
+work item is without having to understand the nitty-gritty detail. </p>
+
+<p>Not all plan items represent the same amount of work; some may be quite
+large, others, quite small. Some plan items may involve work that is localized
+to a single component; others may involve coordinated changes to several components;
+other may pervade the entire project. </p>
+
+<p>With the previous release as the starting point, this is the plan for how we
+will enhance and improve it.  Fixing bugs, improving test coverage,
+documentation, examples, performance tuning, usability, etc. are considered
+routine ongoing maintenance activities and are not included in this plan unless
+they would also involve a significant change to the API
+or feature set, or involve a significant amount of work. The intent of the plan
+is to account for all interesting feature work. </p>
+  </div>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <ul>
+		<li>Runtime</li>
+		<li>Source</li>
+		<li>Examples</li>
+		<li>Component Tests</li>
+		<li>Data Collection Engine for Windows (Vista, XP) 32-bit (x86) Runtime</li>
+		<li>Data Collection Engine for Windows (XP, Server 2003) 32-bit (x86)/64-bit (x86_64)Runtime</li>
+		<li>Data Collection Engine for Windows Server 2003 Itanium Runtime</li>
+		<li>Data Collection Engine for Linux 32-bit (x86)/64-bit (x86_64)Runtime</li>
+		<li>Data Collection Engine for Linux Itanium Runtime</li>
+		<li>Native Logging Implementation (All platforms)</li>
+		<li>Plugin Translatability Log </li>
+</ul>
+      <b>Notes:</b>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <div> 
+<p><a name="m_release_milestones">Release milestones</a>
+for the TPTP 4.5 release are targeted for general availability on 25-June-2008.  
+All release deliverables will be available for download as soon as the release has been tested 
+and validated in the target operating configurations.  There is a significant allocation of resource to defect removal in all iterations. The first 4 iterations will also contain the bulk of any enhancement work. The remaining iterations are used to stabilize and shut down the release. 
+Every iteration will provide a milestone driver to the Ganymede release stream.
+    </p>
+    
+<table summary="TPTP Reference Platforms" style="width: 650px;" border="1">
+
+<tr>
+<td style="width: 100px;"><b>Milestone</b></td>
+<td style="width: 100px;"><b>Start Date</b></td>
+<td style="width: 100px;"><b>End Date</b></td>
+<td style="width: 350px;"><b>Description</b></td>
+</tr>
+<tr>
+<td style="width: 100px;">Iteration 3</td>
+<td style="width: 100px;">3/10/2007</td>
+<td style="width: 100px;">14/11/2007</td>
+<td style="width: 350px;">Defect Fixing, Unit Tests and Test Automation for API</td>
+</tr>
+<tr>
+<td style="width: 100px;">Iteration 4</td>
+<td style="width: 100px;">15/11/2007</td>
+<td style="width: 100px;">4/1/2008</td>
+<td style="width: 350px;">Feature Development and additional defect fixing</td>
+</tr>
+<tr>
+<td style="width: 100px;">Iteration 5</td>
+<td style="width: 100px;">7/1/2008</td>
+<td style="width: 100px;">2/15/2008</td>
+<td style="width: 350px;">Feature Development and additional defect fixing</td>
+</tr>
+<tr>
+<td style="width: 100px;">Iteration 6</td>
+<td style="width: 100px;">2/18/2008</td>
+<td style="width: 100px;">4/4/2008</td>
+<td style="width: 350px;">Additional defect fixing and API freeze</td>
+</tr>
+<tr>
+<td style="width: 100px;">Iteration 7</td>
+<td style="width: 100px;">7/4/2008</td>
+<td style="width: 100px;">2/5/2008</td>
+<td style="width: 350px;">Critical and blocking defects</td>
+</tr>
+<tr>
+<td style="width: 100px;">Iteration 8</td>
+<td style="width: 100px;">5/5/2008</td>
+<td style="width: 100px;">6/6/2008</td>
+<td style="width: 350px;">Shutdown; Marching to 4.5 GA</td>
+</tr>
+
+</table>
+  </div>
+      <table border="1" align="center"/>
+      <div>  
+<p>For a detailed development schedule of TPTP 4.5 release, <a href="http://www.eclipse.org/tptp/home/project_info/releaseinfo/4.5/schedule.html">click
+here</a>.</p>
+  </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <p>
+In order to remain current, each TPTP release targets reasonably current versions of the underlying 
+operating environments.</p>
+      <ul>
+		<li>Java runtime (JRE) or Java Development Kit (JDK) 1.4 and 1.5</li>
+		<li><a href="http://download.eclipse.org/eclipse/downloads/">Eclipse SDK 3.4</a>
+     for Linux GTK, Linux (Motif), or Windows</li>
+		<li>Eclipse Modeling Framework (EMF) SDK <a href="http://www.eclipse.org/modeling/emf/downloads/">2.4</a>.
+     Note 2.2 is required if using Java 1.4. TPTP 4.5 is compatible with both.</li>
+		<li>XML Schema Infoset Model (XSD) SDK <a href="http://www.eclipse.org/modeling/emf/downloads/">2.4</a>.
+     Note 2.2 is required if using Java 1.4. TPTP 4.5 is compatible with both.</li>
+</ul>
+      <p>Most of the TPTP SDK is "pure" Java&#8482; code and has no direct dependence
+on the underlying operating system.  The chief dependence is therefore on
+the Java 2 Platform itself.  The TPTP 4.5 release is written and compiled
+against version 1.4 of the Java 2 Platform APIs, and targeted to run on version
+1.4 or newer of the Java 2 Runtime Environment, Standard Edition.</p>
+      <p>There are many different implementations of the Java 2 Platform running atop
+a variety of operating systems. We focus TPTP testing on a handful of popular combinations of operating system and Java 2 Platform; these are
+our reference platforms.  TPTP undoubtedly runs fine in many operating environments
+beyond the reference platforms we test.  However, since we do not
+systematically test them we cannot vouch for them.  Problems encountered
+when running TPTP on non-reference platforms that cannot be recreated on any
+reference platform will be given lower priority than problems with running TPTP
+on a reference platform.</p>
+      <p>TPTP SDK 4.5 is tested and validated on the following target reference
+platforms (this list may be updated over the course of the release cycle):</p>
+      <table summary="TPTP Reference Platforms" style="width: 650px;" border="1">
+
+<tr>
+<td style="width: 500px;"><b>OS version</b></td>
+<td style="width: 150px;"><b>Processor architecture</b></td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Enterprise Linux (RHEL) WS v4.0</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux SuSE Enterprise Server (SLES) v9</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux SuSE Enterprise Server (SLES) v10 with 2.6.5-7.97</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows Vista</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows XP with SP2</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+
+</table>
+      <p>TPTP Agent Controller 4.5 is tested and validated on the following target
+reference platforms (this list may be updated over the course of the release
+cycle):</p>
+      <table summary="TPTP Reference Platforms" style="width: 650px;" border="1">
+
+<tr>
+<td style="width: 500px;"><b>OS version</b></td>
+<td style="width: 150px;"><b>Processor architecture</b></td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Fedora v6</td>
+<td style="width: 150px;">EM64T (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Advanced Server v2.1</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Enterprise Linux (RHEL) AS v2.1 with 2.4.9-e.57</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Enterprise Linux (RHEL) AS v3.0 with Update 4</td>
+<td style="width: 150px;">IPF (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Enterprise Linux (RHEL) AS v3.0 with Update 4</td>
+<td style="width: 150px;">EM64T (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Enterprise Linux (RHEL) AS v4.0 with Update 4</td>
+<td style="width: 150px;">IPF (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux Red Hat Enterprise Linux (RHEL) WS v4.0</td>
+<td style="width: 150px;">IPF (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Linux SuSE Enterprise Server (SLES) v9 with 2.6.5-7.97</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows 2003 Server Enterprise</td>
+<td style="width: 150px;">EM64T (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows 2003 Server x64 Edition with SP1</td>
+<td style="width: 150px;">IPF (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows 2003 Server Enterprise x64 Edition with SP1</td>
+<td style="width: 150px;">EM64T (64-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows Vista</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+<tr>
+<td style="width: 500px;">Windows XP with SP2</td>
+<td style="width: 150px;">Intel x86 (32-bit)</td>
+</tr>
+
+</table>
+      <p>Although untested, TPTP should work fine on other operating systems
+that support the same operating system kernel and version. For more detailed information on the target
+operating environments for TPTP 4.5 release, 
+<a href="http://www.eclipse.org/tptp/home/project_info/releaseinfo/4.5/support.html">click
+here</a>.</p>
+      <h3>Internationalization</h3>
+      <div>
+<p>TPTP is designed as the basis for internationalized products. The user
+interface elements provided by the TPTP SDK components, including dialogs and
+error messages, are externalized. The English strings are provided as the
+default resource bundles.</p>
+
+<p>Latin-1 locales are supported by the TPTP SDK on all of the above operating
+environments; DBCS locales are supported by the TPTP SDK on the Windows, GTK,
+and Motif window systems; BIDI locales are supported by the TPTP SDK only on
+Windows operating environments. </p>
+
+<p>The TPTP SDK supports GB 18030, the new Chinese code page standard, on
+Windows XP and Linux.</p>
+
+<p>TPTP supports ICU4J starting in 4.2 release. This will significantly
+increase the number of supportable locales. Products needing to localize to
+newer locales are enabled. German, Traditional Chinese, and Arabic are
+tested.</p>
+
+<p>Note that although TPTP support all these languages, only the English
+versions of the strings are provided.</p>
+     </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <p>
+        <b>Compatibility with Previous Releases</b>
+      </p>
+      <p>TPTP 4.5 will be backward compatible with TPTP 4.4.  The following specifies
+details of the various aspects of release compatibility.</p>
+      <p>
+  <strong>API Contract Compatibility:</strong> Refer to <i><a href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API
+changes that maintain contract compatibility. TPTP SDK
+4.5 will be upwards contract-compatible with TPTP SDK 4.4 or lower. Downward
+contract compatibility is not supported. There is no guarantee that compliance
+with TPTP SDK 4.5 APIs would ensure compliance with TPTP SDK 4.0 APIs.
+</p>
+      <p><strong>Binary (plug-in) Compatibility:</strong> TPTP SDK 4.5 will be upwards binary-compatible with TPTP SDK 4.4. Downward
+plug-in compatibility is not supported. Plug-ins for TPTP SDK 4.5 will not be
+usable in TPTP SDK 4.4. Refer to <i><a href="http://eclipse.org/eclipse/development/java-api-evolution.html">Evolving
+Java-based APIs</a></i> for a discussion of the kinds of API
+changes that maintain binary compatibility. 
+</p>
+      <p><strong>Source Compatibility:</strong> TPTP
+SDK 4.5 will be upwards source-compatible with TPTP SDK 4.4. This means that
+source files written to use TPTP SDK 4.4 APIs might successfully compile and
+run against TPTP SDK 4.5 APIs, although this is not guaranteed. Downward source
+compatibility is not supported. If source files use new TPTP SDK APIs, they
+will not be usable with an earlier version of the TPTP SDK.  
+</p>
+      <p><strong>Workspace Compatibility:</strong> TPTP SDK 4.5 will be upwards workspace-compatible with TPTP SDK 4.4 unless
+noted. This means that workspaces and projects created with TPTP SDK 4.4 can be
+successfully opened by TPTP SDK 4.5 and upgraded to a 4.5 workspace. This
+includes both hidden metadata, which is localized to a particular workspace, as
+well as metadata files found within a workspace project (e.g., the .project
+file), which may propagate between workspaces via file copying or team repositories.
+Downward workspace compatibility is not supported. A workspace created (or
+opened) by a product based on TPTP 4.4 will be unusable with a product based an
+earlier version of TPTP. Visible metadata files created (or overwritten) by
+TPTP 4.5 will generally be unusable with earlier versions of TPTP.
+</p>
+      <p><strong>Non-compliant usage of API's:</strong> All non-API methods and classes, and
+certainly everything in a package with "internal" in its name,
+are considered implementation details which may vary between operating
+environment and are subject to change without notice. Client plug-ins that
+directly depend on anything other than what is specified in the TPTP SDK API are 
+inherently unsupportable and receive no guarantees about compatibility within a single 
+release much less with an earlier releases. Refer to 
+<i><a href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write
+compliant plug-ins.</p>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <div>
+<p>The TPTP PMC adopted and specialized the
+following Eclipse themes which represent the key focus areas for TPTP
+enhancements in the year ahead.</p>
+    </div>
+      <h3>Scaling Up</h3>
+      <p>
+TPTP continues to enhance the support
+of large data volumes and processing rates in areas such as data collection,
+user interface and in the persistence of trace, log and statistical models and
+execution histories. In 4.5 the test execution logs are the focus.
+      </p>
+      <h3>Enterprise Ready</h3>
+      <p>
+Changes to the data collection layers will increase
+interoperability with enterprise security infrastructure. In addition, there
+will be progressive adoption of the TPTP tools and infrastructure as a test
+platform for the project itself, which is in turn likely to drive refinements
+into the tools. An increased focus on whole-project integration testing will
+ensure effective interoperability amongst all TPTP components and the rest of
+the Eclipse environment. Self hosting continues to be a focus of the TPTP
+project.
+      </p>
+      <h3>Design for Extensibility: Be a Better Platform</h3>
+      <p>
+There will be a wide range of activities within TPTP to
+externalize APIs and define extension points, making the infrastructure more
+flexible and more generic in application. A good example of this is integration
+of TPTP with WTP and BIRT for web application testing, profiling and generation
+of customized reports of results. In the 4.5 release all dependencies on
+negotiated api were removed unless the needed api was promoted to
+public status.
+      </p>
+      <h3>Embedded Development</h3>
+      <p>
+TPTP target execution environment and remote data collection framework provide
+capabilities that are adapted for high-end embedded systems. TPTP will seek
+contributions to add support for embedded systems. We are promoting use of TPTP
+native logging capabilities on a number of embedded target systems.
+      </p>
+      <h3>Rich Client Platform</h3>
+      <p>
+TPTP will use RCP for building manual test client, log analyzer and other GUI-based
+clients in target environments. TPTP is looking for contributions to add RCP
+support to the UI testing tools.
+       </p>
+      <h3>Simple to Use</h3>
+      <p>
+The existing TPTP tools were conceived as samples, rather than as exemplary, they
+are deficient in many areas of usability and in some cases lacking in function.
+The plan is that within the domains which they target they will provide a
+high-quality user experience out of the box. We will focus on ease of use
+through enhanced user documentation, tutorials, white papers, demonstrations,
+and a wide range of enhancements to the user interface to streamline basic
+processes and clarify concepts and terminology. We are focused on improving as
+much as possible in Release 4.5, and expect need for continuing this focus
+beyond 4.5. Specifically in 4.5 the Java profiler infrastructure has been
+completely replaced along with an upgrade to the JVM TI interface.
+      </p>
+      <h3>Enable Consistent Multi-language Support</h3>
+      <p>
+In TPTP a significant effort will be applied in
+extending coverage of the trace models to represent C/C++ programs and to
+handle protocol activity (specifically HTTP) consistently with program
+activity. There will also be C/C++ APIs provided to the data collection and
+control layers.
+      </p>
+      <h3>Appealing to the Broader Community</h3>
+      <p>
+A range of initiatives will be taken to broaden the community
+of potential and actual users of TPTP. Technically this will include additional
+integration of open source test tool technologies based on JUnit, and the
+various hooks to JUnit in the JDT, more data collection agents &#8211;
+particularly focusing on open source technologies, and additional operating
+system and hardware platforms from which data can be collected. There will be
+additional marketing and an extensive outreach program to the Eclipse community
+for additional contribution and adoption..
+      </p>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="appendix">Appendix Projects</a>
+      </h2>
+      <p>The TPTP top-level project is
+comprised of four projects, managed in a coordinated fashion, across which the
+plans items are allocated. TPTP projects include:</p>
+      <ul>
+  <li><b>TPTP Platform Project </b> - Provides common infrastructure in the areas of user interface, EMF based data
+models, data collection and communications control, as well as remote execution
+environments. Additionally, the Platform provides extension points for
+leveraging or extending these capabilities in solution specific tooling or
+runtimes. This includes Eclipse workbench plug-ins as well as runtime plug-ins
+on a target and optionally remote system.</li>
+  <li><b>Testing Tools Project </b> - Provides specializations of the TPTP Platform for testing (e.g. test editors,
+trace/test conversion support), and exemplary extensible tools for specific
+testing environments. Initially this includes three test environments: JUnit,
+manual, and URL testing. These specializations provide optimized editing and
+reporting experiences for these use cases. In the cases where a unique runtime
+or an implementation of a testability interface is required, it is also
+developed in the project. For example, the manual test execution environment
+provides a remotely managed user interface specifically for collecting manual
+test progress. This manual user interface is unique from the common execution
+environment for JUnit and URL testing.</li>
+  <li><b>Tracing &amp; Profiling Tools
+Project</b> - Extends the TPTP Platform with specific data collection for Java
+and distributed applications that populate the common trace model, additional
+language and protocol support is anticipated. There are also viewers and
+analysis services that draw data from the common trace model. Capabilities are
+provided to collect and analyze heap and stack information as well as generic
+toolkits for instrumenting running applications.</li>
+   <li><b>Monitoring Tools Project </b>- Extends the TPTP Platform for
+collecting, analyzing, aggregating, and visualizing data that can be captured
+in the log and statistical models. The typical examples are the collection of
+system or application resources such as CPU or memory utilization and support
+for the viewing, aggregation, and analysis of that data. Logs can also be transformed
+into a common format and model allowing for symptom and pattern analysis. The
+correlation of the data in these models is of particular interest when it is
+associated with other model instances of statistical or log data as well as
+traces and tests.</li>  
+</ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="appendix">Appendix Features</a>
+      </h2>
+      <p>Plan items targeted for this release represent the addition of new features
+or areas where existing features will be significantly reworked or
+enhanced.  Plan items are allocated to themes and projects indicated
+above.</p>
+      <p/>
+      <h4>TPTP Platform Project Plan Items</h4>
+      <table summary="TPTP Platform Project Plan Items" style="width: 750px;" border="1">
+
+<tr>
+<td style="width: 100px;"><b>Status</b></td>
+<td style="width: 650px;"><b>Description</b></td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Automate more of the existing manual test suites. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=147907">147907</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">The example (exemplary) components within TPTP should be a separate download. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=157493">157493</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">IPv6 Support. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=165409">165409</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">TPTP report generation. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=174643">174643</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">OpenSSL SSL provider. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=206875">206875</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Eliminate JVM activation on AC startup. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196435">196435</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Ability to add property information to items in the method statistics view. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=80440">80440</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Improve interaction between upstream and downstream builds. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200351">200351</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Add option for downloading the TPTP Profiler Development SDK to the TPTP 4.5 download
+page (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210191">210191</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">HTTP Import: log on dialog not show up for some URLs. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=206260">206260</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">JVMTI standalone profiling data collection. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196744">196744</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Order of filter items execution should be more obvious. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200499">200499</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Improve usability of predefined filters at profiling. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200264">200264</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Add support for application mode in the Java 1.5+ (JVMTI) Profiler. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200251">200251</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Binary Data Transfer Format for Profiling (Scalability). 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196713">196713</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Support Java 6 Class File Format Changes. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=148629">148629</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Add contention analyses features to TPTP Profiler. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200320">200320</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Add a Getting Started Readme file to the JVMTI Profiler SDK download 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218464">218464</a>)</td>
+</tr>
+
+</table>
+      <p/>
+      <h4>TPTP Testing Tools Project Plan Items</h4>
+      <table summary="TPTP Testing Tools Project Plan Items" style="width: 750px;" border="1">
+
+<tr>
+<td style="width: 100px;"><b>Status</b></td>
+<td style="width: 650px;"><b>Description</b></td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Parallel test execution for launching multiple tests concurrently. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=162605">162605</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Reference maintenance when moving, copying, deleting, renaming, and importing/exporting test assets. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166025">166025</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Encrypted datapool variables for testing with confidential data. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=202695">202695</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Control the recorders that appear in the Generic Recorder Wizard. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=208110">208110</a>)</td>
+</tr>
+
+</table>
+      <p/>
+      <h4>TPTP Tracing And Profiling Tools Project Plan Items</h4>
+      <table summary="TPTP Tracing And Profiling Tools Project Plan Items" style="width: 750px;" border="1">
+
+<tr>
+<td style="width: 100px;"><b>Status</b></td>
+<td style="width: 650px;"><b>Description</b></td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Add per thread execution time, cycles and instructions. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=166692">166692</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">BtM annotations. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194954">194954</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Provide a full C# implementation of CBE v1.0.1 specification. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=206718">206718</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">BtM for .NET viewer enhancements. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200468">200468</a>)</td>
+</tr>
+
+</table>
+      <p/>
+      <h4>TPTP Monitoring Tools Project Plan Items</h4>
+      <table summary="TPTP Monitoring Tools Project Plan Items" style="width: 750px;" border="1">
+
+<tr>
+<td style="width: 100px;"><b>Status</b></td>
+<td style="width: 650px;"><b>Description</b></td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Refactor TPTP features to create an independent installation for the log analysis components. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=207240">207240</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Create TPTP LTA related (Eclipse) features. 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200138">200138</a>)</td>
+</tr>
+<tr>
+<td style="width: 100px;">In Plan</td>
+<td style="width: 650px;">Create TPTP LTA extension points to enhance the UI/operational refacing capability.
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=200139">200139</a>)</td>
+</tr>
+
+</table>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="appendix">Appendix Defects</a>
+      </h2>
+      <p>In addition to the targeted features for this release, we plan to reduce the
+defect backlog. Defects are prioritized based on severity, age, and resource
+availability. We encourage users to report defects and we will do our best to
+fix them in priority order. The goal is clear backlog of major/critical/blocker
+defects and make reasonable progress on fixing as many as possible.</p>
+      <p>See <a href="http://www.eclipse.org/tptp/reports/bugs/report_45.php?src=All&amp;queryType=bugs&amp;component=All">TPTP
+4.5 Defects</a> for a listing of already fixed defects, current defect targets
+and backlog.</p>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=tptp&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

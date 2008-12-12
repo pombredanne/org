@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - webtools.sourceediting</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=webtools.sourceediting">Source Editing</a></span>, version 3.1</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+          <li>
+            <a href="#appendix">
+                        Appendix
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <div>The Source Editing project is a sub-project in the
+		Eclipse WTP top level Project. Its main goal is to provide source
+		editing support for typical "web" languages and the mixing of them,
+		with a focus on making the editors extensible and easily reusable.
+		This document describes the features and the API set in the Source
+		Editing subproject for the Galileo release.</div>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <div>
+			<ul>
+				<li>Source
+					code for deliverables tagged in CVS as version tagged "R3_1_0", viewable in the WebTools_Project
+					<a href="http://dev.eclipse.org/viewcvs/">CVS repository</a>.
+    			</li>
+			</ul>
+		</div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <div>WTP Milestones follow the Eclipse release milestones by an offset of +2 as set by the <a href="http://wiki.eclipse.org/Galileo#Milestones_and_Release_Candidates">Galileo release schedule</a>.</div>
+      <table border="1" align="center">
+        <tr>
+          <td>
+            <b>M1</b>
+          </td>
+          <td>8/22/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M2</b>
+          </td>
+          <td>9/26/2008</td>
+          <td>
+            <div>(lengthened to avoid conflicting with 3.0.2)</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M3</b>
+          </td>
+          <td>11/7/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M4</b>
+          </td>
+          <td>12/19/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M5</b>
+          </td>
+          <td>2/6/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M6</b>
+          </td>
+          <td>3/20/2009</td>
+          <td>
+            <div>Feature complete, API and UI Freeze.  (EclipseCon is March 23-27)</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M7</b>
+          </td>
+          <td>5/8/2009</td>
+          <td>
+            <div>PMC review starts</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC1</b>
+          </td>
+          <td>5/22/2009</td>
+          <td>
+            <div>PMC approval required, 1 vote required</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC2</b>
+          </td>
+          <td>5/29/2009</td>
+          <td>
+            <div>PMC approval required, Normal and higher bugs only.  2 votes required</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC3</b>
+          </td>
+          <td>6/5/2009</td>
+          <td>
+            <div>Document Freeze. Major and higher bugs only.  PMC approval required, 3 votes required</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC4</b>
+          </td>
+          <td>6/12/2009</td>
+          <td>
+            <div>Only stop-ship defects, PMC approval required, 3 votes required</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC5</b>
+          </td>
+          <td>6/19/2009</td>
+          <td>
+            <div>Only <b>very</b> compelling stop-ship defects, PMC approval required, 3 votes required</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>GA</b>
+          </td>
+          <td>6/24/2009</td>
+          <td/>
+        </tr>
+      </table>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <div>WTP will support the platforms certified by the Eclipse Platform project. For a list of platforms supported in WTP 3.1, see <a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments%20Eclipse%20Target%20Operating%20Environments">Eclipse Target Operating Environments</a>.</div>
+      <h3>Internationalization</h3>
+      <div>Internationalization and Localization will be supported.</div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <div>
+        <p>Themes and their priorities communicate the main objectives of
+				the project and their importance. The following themes are derived
+				from those defined by the Eclipse Requirement council for the
+				Eclipse Galileo release and from the WTP 3.0 release themes. These
+				will be prioritized based on the community feedback. New themes
+				could be synthesized from the requirements submitted by the
+				community.
+				</p>
+        <p>
+				The sections to follow defines the plan items in the Source
+				Editing project. The plan items are grouped under the respective
+				themes where applicable. Each plan item corresponds to a new
+				feature, API or some apsects of the project that needs to be
+				improved. A plan item has an entry in the Eclipse Bugzilla system
+				that has a detailed description of the plan item. Not all plan items
+				represent the same amount of work; some may be quite large, others,
+				quite small. Although some plan items are for work that is more
+				pressing than others, the plan items appear in no particular order.
+				See the corresponding bugzilla items for up-to-date status
+				information on ongoing work and planned delivery milestones.</p>
+      </div>
+      <h3>Ease of Use</h3>
+      <div><p>
+					Features provided by WTP should be simple to use for users with
+					widely-varying backgrounds and skill sets.
+				</p>
+				<ul>
+					<li>WTP User Interface should be consistent and should follow the
+						Eclipse User Experience Guidelines. Experienced Eclipse users should
+						find few, if any, unpleasant surprises or omissions in the UI.</li>
+					<li>Usability and Accessibility reviews should be done for the
+						most common task flows. Cheat Sheets should be provided to assist
+						users in performing tasks.</li>
+					<li>WTP should provide enhanced user documentation, tutorials, white
+						papers, demonstrations.</li>
+				</ul>
+				<p>
+					<i>Ease of Use</i> plan items are designated with "EaseOfUse" in the Status Whiteboard and the "plan" keyword.
+				</p>
+				</div>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>TODO markers in JSP Scriptlets are not shown [<a href="http://bugs.eclipse.org/71558">71558</a>] <strike>(target milestone: 3.1 M1)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+            <li>Improve the XML Schema editor usability and consistency [<a href="http://bugs.eclipse.org/251557">251557</a>] (target milestone: 3.1)</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Deferred</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Scaling Up</h3>
+      <div>
+				<p>
+					Source Editing must be able to deal with development and deployment on an
+					increasingly larger and more complex scale. WTP should spend focused
+					effort on performance testing and improvement when dealing with
+					extremely large projects and workspaces, particularly where
+					extensibility is offered.
+				</p>
+				<p>
+					<i>Scaling Up</i> plan items are designated with the "plan" and "performance" keywords.
+				</p>
+				</div>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>Improve performance when editing  large XML Schema documents [<a href="http://bugs.eclipse.org/156564">156564</a>] (target milestone: 3.1)</li>
+            <li>[Semantic Highlighting]  need to support second coloring capabilities [<a href="http://bugs.eclipse.org/232752">232752</a>] (target milestone: 3.1 M4)</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Deferred</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Design for Extensibility</h3>
+      <div>
+			<p>
+				The 'P' in WTP stands for Platform, meaning Source Editing can be used by adopters to
+				extend its functionality. This theme is about continuing to ensure the
+				success of its adopters by promoting new API's and Extension points.
+				These should be backed with robust Junit tests and good documentation.
+			</p>
+			<p>
+				<i>Design for Extensibility</i> plan items are designated with the "plan" and "api" keywords.
+			</p>
+			</div>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>[Extensibility] Provide extensibility in the refactoring context menu [<a href="http://bugs.eclipse.org/253264">253264</a>] (target milestone: 3.1)</li>
+            <li>[Extensibility] Provide an extension point for alternate graphical views [<a href="http://bugs.eclipse.org/252048">252048</a>] (target milestone: 3.1)</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Deferred</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h3>All</h3>
+      <div>Following are plan items including those not yet categorized into a theme.</div>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>React to content type changes in EMF and XSD [<a href="http://bugs.eclipse.org/226967">226967</a>] (target milestone: 3.1)</li>
+            <li>Improve performance when editing  large XML Schema documents [<a href="http://bugs.eclipse.org/156564">156564</a>] (target milestone: 3.1)</li>
+            <li>Improve the XML Schema editor usability and consistency [<a href="http://bugs.eclipse.org/251557">251557</a>] (target milestone: 3.1)</li>
+            <li>[Extensibility] Provide extensibility in the refactoring context menu [<a href="http://bugs.eclipse.org/253264">253264</a>] (target milestone: 3.1)</li>
+            <li>[Extensibility] Provide an extension point for alternate graphical views [<a href="http://bugs.eclipse.org/252048">252048</a>] (target milestone: 3.1)</li>
+            <li>SSE breaks Undo behavior of other editors [<a href="http://bugs.eclipse.org/191754">191754</a>] (target milestone: 3.1)</li>
+            <li>Formatting of HTML loses indentation [<a href="http://bugs.eclipse.org/122051">122051</a>] (target milestone: 3.1)</li>
+            <li>[Search] Provide reusable XSD component selection dialogs [<a href="http://bugs.eclipse.org/256465">256465</a>] (target milestone: 3.1)</li>
+            <li>[Semantic Highlighting]  need to support second coloring capabilities [<a href="http://bugs.eclipse.org/232752">232752</a>] (target milestone: 3.1 M4)</li>
+            <li>TODO markers in JSP Scriptlets are not shown [<a href="http://bugs.eclipse.org/71558">71558</a>] <strike>(target milestone: 3.1 M1)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Deferred</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="appendix">Appendix References</a>
+      </h2>
+      <ol>
+			<li>The general WTP plan can be found <a href="http://www.eclipse.org/projects/project-plan.php?projectid=webtools">here</a>.</li>
+		</ol>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=webtools.sourceediting&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

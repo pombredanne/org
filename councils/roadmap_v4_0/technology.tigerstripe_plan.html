@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - technology.tigerstripe</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.tigerstripe">Tigerstripe</a></span>, version 1.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+			<p>
+				This is the project plan for
+				<a href="http://www.eclipse.org/tigerstripe">Tigerstripe</a>
+				1.0.0
+			</p>
+			<p>While our goal is to be ready graduate out of incubation by
+				the end of the plan, we acknowledge that we have quite a bit of work
+				ahead of us, so the detailed content of some of the future release
+				may be adjusted and certainly very much influenced by community
+				requirements.</p>
+			<p>At the time of writing of this plan, version 0.4 has just been
+				released and includes a significant refactoring of the framework to
+				enable more customization of Tigerstripe as a
+				Model-Driven-Engineering environment for the Telecommunication
+				Industry.</p>
+			<p>We are going to continue working towards graduation throughout
+				the years and will focus on removing all the remaining legacy code
+				and continue building our user and adopter communities.</p>
+			<p>
+				Our key drivers for this year are:
+				<ul>
+					<li>Making Tigerstripe a robust, scalable environment for
+						Model-Driven-Engineering with special focus on the
+						Telecommunication Industry.</li>
+					<li>Provide a customizable modeling end-user framework, as
+						we acknowledge that multiple domains within the Telecom Industry
+						have different modeling requirements.</li>
+					<li>Leverage all existing Eclipse project where applicable
+						(Modeling, buckminster, etc.) and remove redundant legacy code.</li>
+					<li>Build our communities of Users and Adopters</li>
+					<li>Aim for project graduation</li>
+				</ul>
+			</p>
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+			<p>
+				The release deliverables will be split across an intermediary 0.x
+				release (0.5 'Bora') which will will be the last build of
+				Tigerstripe with its legacy core.
+				<br/>
+				Starting with the 1.0 stream, the legacy core will be completely
+				removed and we will be relying solely on EMF objects
+			</p>
+			<p>In order to accomplish this transition, we have already started
+				building a and EMF-based version of the Tigerstripe model elements,
+				which will be available in the late maintenance releases of 0.4
+				'Alize'. </p>
+			<p>For 0.5 'Bora' we will focus on end-user customizations for the
+				modeling environment and address some of the long standing bugs in
+				Bugzilla</p>
+			<p>As of 1.0, Tigerstripe will provide a complete MDE framework,
+				that can be customized into specific domains with Telecom Industry
+				and possibly others.</p>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+				<p>
+					Our aim is to first to address some known issues in 0.4 with a few
+					quick maintenance release.
+					<br/>
+					The first couple of milestone builds for 0.5 will focus on
+					stabilization and bug fixes, in order to set up a clean slate for
+					the final EMF transition.
+					<br/>
+					The 0.5 release will deliver a user-configurable (as opposed to 0.4
+					which is driven by ext. points and programming only) modeling
+					environment.
+					<br/>
+					1.0 will mainly focus on replacing the legacy core with an EMF
+					based core, and address bugs. No major feature enhancement is
+					currently planned.
+				</p>
+			</div><table border="1" align="center"><tr><td><b>0.4.1</b></td><td>10/13/2008</td><td><div>
+				<p>First planned maintenance release for 0.4. This release will
+					mainly address a few known issues with regards Diagram Auditing and
+					Annotations in the context of Tigerstripe models under version
+					control.</p>
+				<p>Urgent bug fixes will be provided per community requests.</p>
+			</div></td></tr><tr><td><b>0.4.2</b></td><td>11/10/2008</td><td><div>
+				<p>
+					This second planned maintenance release for 0.4 will add a minor
+					functionality, while addressing another set of bugs:
+					<ul>
+						<li>Instance Diagram API: allowing to programmatically
+							create instance diagrams on-the-fly from a model.</li>
+					</ul>
+				</p>
+				<p>Some basic EMF support will be provided to read Tigerstripe
+					models into EMF objects, allowing for example the use of OCL. </p>
+			</div></td></tr><tr><td><b>0.5M0</b></td><td>12/19/2008</td><td><div>
+				<p>First milestone build of the 0.5 'Bora' release.</p>
+				<p>This release will not provide any new major enhancement but
+					will instead focus on stabilizing the underlying framework.</p>
+				<p>
+					Key areas include:
+					<ul>
+						<li>Class diagram re-work for better alignments with latest
+							GMF version. The current version was generated with GMF 1.x and
+							is starting to show limitations compared to current GMF version.</li>
+						<li>Progress on re-building existing legacy features
+							(Facets, e.g.) on EMF-based core</li>
+						<li>Backlog of bugzillas</li>
+					</ul>
+				</p>
+			</div></td></tr><tr><td><b>0.5M1</b></td><td>1/30/2009</td><td><div>
+				<p>Second milestone build of 0.5 'bora' bringing the ability
+					for end-users to define their own 'patterns' and registering them
+					as a new tool palette.</p>
+				<p>Backlog of bugzillas and progress towards EMF migration</p>
+			</div></td></tr><tr><td><b>0.5RC</b></td><td>2/20/2009</td><td><div>
+				<p>Release candidate for 0.5 'bora'</p>
+				<p>All major bugzillas to be addressed by this build</p>
+				<p>Final testing phase for 0.5</p>
+			</div></td></tr><tr><td><b>0.5</b></td><td>3/13/2009</td><td><div>
+				<p>0.5 'bora' release.</p>
+				<p>Backlog of bugzilla should be significantly reduced, and
+					end-user customization fully implemented.</p>
+			</div></td></tr><tr><td><b>1.0M0</b></td><td>end-of 04/2009</td><td><div>
+				<p>First 1.0 build.</p>
+				<p>Release number gap justified by the migration of the
+					legacy to be fully based on EMF.</p>
+				<p>Bugzilla and minor enhancement based on community
+					feedback.</p>
+			</div></td></tr><tr><td><b>1.0M1</b></td><td>end-of 05/2009</td><td><div>
+				<p>Second 1.0 build.</p>
+				<p>Focus on internationalization of Tigerstripe</p>
+				<p>Bugzilla and minor enhancement based on community
+					feedback.</p>
+			</div></td></tr><tr><td><b>1.0</b></td><td>end-of 06/2009</td><td><div>
+				<p>Target release for 1.0.</p>
+				<p>Bugzilla and minor enhancement based on community
+					feedback.</p>
+			</div></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			<p>Versions 0.4.x and 0.5 will be based on Eclipse 3.4.x.</p>
+			<p>Version 1.0 will target Eclipe 3.5</p>
+			<p>Java5 to remain the minimum requirement for Tigerstripe</p>
+		</div><h3>Internationalization</h3>
+			<div> Internationalization of Tigerstripe is
+				scheduled for 1.0M1. </div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+			<p>Compatibility at the model level will be fully
+				supported from 0.4 to 1.0 (and going forward).</p>
+			<p>Existing Tigerstripe generators will require changes to
+				accomodate migration to EMF. Migration tutorial will be provided</p>
+			<p>APIs will remain stable between 0.4 and 0.5. However, due to
+				EMF migration the legacy core APIs will change with 1.0. Tutorial
+				for existing code migration will be provided</p>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+				<p>This year will be focused on maturation and graduation for
+					Tigerstripe. So, while we will be putting efforts in the code base,
+					we will also actively work on developing our user community</p>
+			</div><h3>Appealing to the Broader Community</h3><div>
+					<p>
+						The
+						<a href="http://www.tmforum.org">TeleManagement Forum</a>
+						has adopted Tigerstripe to build next generation Telecommunication
+						standards.
+					</p>
+					<p>We will work with TMF member companies to strengthen the
+						position of Tigerstripe and develop its use across the industry</p>
+					<p>We will promote Tigerstripe through online and face-2-face
+						events as often as possible.</p>
+				</div><ul><li><b>Committed</b><div>
+					<ul>
+						<li>Up2date online documentation posted on website.</li>
+						<li>Recorded presentations and short tutorials to help get
+							started on using Tigerstripe and building custom environments on
+							top of Tigerstripe</li>
+					</ul>
+				</div></li></ul><h3>Design for Extensibility and Scalabitily</h3><div>
+					<p>
+						Tigerstripe is intended to enable Model-Driven Engineering based
+						on large models for mission critical production systems. We focus
+						on 2 key aspects:
+						<ul>
+							<li>Extensibility: allowing users and adopters to
+								customize the modeling environment to meet their specific needs.
+								This is accomplish through a series of documented extensions
+								points allowing to decorate models, work with different
+								meta-models, etc. </li>
+							<li>Scalability: with built-in features to ensure
+								that large models can be handled across geographically
+								distributed teams, with a high level of granularity.</li>
+						</ul>
+					</p>
+					<p>As part of this effort, we are working towards making
+						Tigerstripe seamlessly integrated with other existing Modeling
+						projects.</p>
+				</div><ul><li><b>Committed</b><div>
+					<ul>
+						<li>True EMF-based version of Tigerstripe, and identify other
+							candidate modeling projects for integration.</li>
+					</ul>
+				</div></li></ul><h3>MDE Framework and End-User 'turn-key' solution</h3><div>
+					<p>Tigerstripe aims at providing both an Eclipse
+						Framework for adopters to build upon, but also a end-user
+						workbench that doesn't require any programming and yet allows
+						organization to adopt MDE quickly. </p>
+					<p>
+						For every release we provide 3 features that can
+						installed/downloaded separatly:
+						<ul>
+							<li>Tigerstripe Annotation Framework: a framework to
+								annotate any resource or java element in the Eclipse workspace.
+								Definitions for the content of the annotations is done through
+								EMF's Ecore. This framework is independent of the rest of
+								Tigerstripe code, yet the Tigerstripe we provide a direct
+								integration allowing to annotation Tigerstripe model elements.</li>
+							<li>Tigerstripe Core Framework: offering all the model
+								access/edit, generation and auditing capabilities found in the
+								Tigerstripe workbench, without the UI</li>
+							<li>Tigerstripe Workbench: the end-user MDE
+								environment, including model editing, Class diagrams, Instance
+								diagrams, Facets, generation, etc.</li>
+						</ul>
+					</p>
+				</div><ul><li><b>Committed</b><div>
+					<ul>
+						<li>User-defined Modeling templates.</li>
+						<li>Performance enhancements to avoid too frequent
+							audits of models</li>
+					</ul>
+				</div></li></ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=technology.tigerstripe&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

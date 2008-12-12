@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - webtools.ejbtools</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=webtools.ejbtools">WTP EJB Tools</a></span>, version 3.1</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><p>
+    The Web Tool Platform (WTP) project provides extensible frameworks and exemplary tools to build Web and Java EE applications. 
+    This document describes the features and the API set in the EJB Tools subproject for the Galileo release.
+    </p><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+		<ul>
+		<li>WTP non-SDK package</li>
+		<li>WTP SDK Package</li>
+		<li>WST non-SDK package</li>
+		<li>WST SDK Package</li>
+		<li>The Eclipse IDE for JEE Developers package</li>
+			</ul>
+		</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><p><a href="http://www.eclipse.org/projects/project-plan.php?projectid=webtools#release_milestones">WTP Milestones</a>.</p><table border="1" align="center"/><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>WTP will support the platforms certified by the Eclipse Platform project. For a list of platforms supported in WTP 3.1, see <a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments%20Eclipse%20Target%20Operating%20Environments">Eclipse Target Operating Environments</a>
+  </p><p>.</p><h3>Internationalization</h3>
+			<p>
+        Internationalization and Localization will be supported.
+        <ul>
+            <li>Internationalization (I18N)<p>
+      Each project should be able to work in an international environment, including support for operating in different locales and processing/displaying international data (dates, strings, etc.).</p>
+    </li>
+    <li>Localization<p>
+      Each project should provide an environment that supports the localization of the technology (i.e. translation). This includes, but is not limited to, ensuring that strings are externalized for easy translation.</p> 
+</li>
+<p>Where possible, projects should use an open and transparent process to create, maintain and deliver language packs translated into multiple languages in a timely manner. The primary languages to consider are: English, Simplified Chinese, Traditional Chinese, Japanese, French, German, Spanish.</p> 
+        </ul>
+        </p>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><p>
+Themes and their priorities communicate the main objectives of the project and their importance. The following themes are derived from those defined by the Eclipse Requirement council for the Eclipse Galileo release and from the WTP 3.0 release themes. These will be prioritized based on the community feedback. New themes could be synthesized from the requirements submitted by the community.
+     </p><p>The sections to follow defines the plan items in the EJB Tools project. The plan items are grouped under the respective themes where applicable. Each plan item corresponds to a new feature, API or some apsects of the project that needs to be improved. A plan item has an entry in the Eclipse Bugzilla system that has a detailed description of the plan item.
+			Not all plan items represent the same amount of work; some may be quite large, others, quite small. Although some plan items are for work that is more pressing than others, the plan items appear in no particular order. See the corresponding bugzilla items for up-to-date status information on ongoing work and planned delivery milestones.</p><h3>Ease of Use</h3><p>
+Features provided by WTP should be simple to use for users with widely-varying backgrounds and skill sets.
+<ul>
+<li>WTP User Interface should be consistent and should follow the Eclipse User Experience Guidelines.</li>
+<li>Usability and Accessibility reviews should be done for the most common task flows. Cheat Sheets should be provided to assist users in performing tasks</li>
+<li>WTP should provide enhanced user documentation, tutorials, white papers, demonstrations. </li>
+</ul>
+</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Add delete action to DD node in Project Explorer tree. [<a href="http://bugs.eclipse.org/236626">236626</a>] (target milestone: 3.1)</li><li>Integrate Properties view with EJB artifacts [<a href="http://bugs.eclipse.org/241672">241672</a>] (target milestone: 3.1)</li><li>Better compliance with UI guidelines for EJB project wizard [<a href="http://bugs.eclipse.org/256130">256130</a>] (target milestone: 3.1)</li><li>Tools for easy EJB testing [<a href="http://bugs.eclipse.org/234138">234138</a>] (target milestone: 3.1)</li><li>Promote business methods automatically to interfaces [<a href="http://bugs.eclipse.org/237050">237050</a>] (target milestone: 3.1)</li><li>Create Default Session Bean option [<a href="http://bugs.eclipse.org/119311">119311</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Java EE 6</h3><p>
+WTP should be up-to-date with supporting the latest Java EE specification level. JSR-316 defines the latest Java EE 6 specification. The EJB Tools project should support the corresponding EJB specification respectively. JSR-318 defines the EJB 3.1 specification as part of the Java EE 6 specification. 
+</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>EJB 3.1 specification support [<a href="http://bugs.eclipse.org/241666">241666</a>] (target milestone: 3.1)</li><li>Optional local business interfaces for EJB 3.1 beans [<a href="http://bugs.eclipse.org/241667">241667</a>] (target milestone: 3.1)</li><li>Singleton session beans [<a href="http://bugs.eclipse.org/241668">241668</a>] (target milestone: 3.1)</li><li>.war packaging of EJB components [<a href="http://bugs.eclipse.org/241670">241670</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Other</h3><p>
+Following are plan items that are not yet categorized into a theme.
+        </p><ul><li><b>Committed</b><ul><li>Detach all XDoclet functionality in separate feature and plugins [<a href="http://bugs.eclipse.org/241677">241677</a>] (target milestone: 3.1 M4)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Interceptors support [<a href="http://bugs.eclipse.org/241674">241674</a>] (target milestone: 3.1)</li><li>EJB 2.x non-XDoclet support in Session Bean and Message-Driven Bean wizards [<a href="http://bugs.eclipse.org/241679">241679</a>] (target milestone: 3.1)</li><li>Javadoc plugin for ejbtools plugins [<a href="http://bugs.eclipse.org/232133">232133</a>] (target milestone: 3.1)</li><li>Add EJB metadata to DD automatically [<a href="http://bugs.eclipse.org/236621">236621</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix References</a></h2><ol>
+			<li>The general WTP plan can be found <a href="http://www.eclipse.org/projects/project-plan.php?projectid=webtools">here</a>.</li>
+		</ol><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=webtools.ejbtools&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

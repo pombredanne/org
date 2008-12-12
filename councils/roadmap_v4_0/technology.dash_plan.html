@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - technology.dash</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.dash">Dash, Tools for Committers and members</a></span>, version 1.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><p>The Dash project currently does not produce an Eclipse plug-in and thus does not have
+    a traditional release cycle. Dash currently produces tools for committers that are deployed
+    on various eclipse.org servers. These deployments are done incrementally, often daily, whenever
+    new functionality is needed. We roll these deployments up into monthly milestones for
+    reporting.</p><p>The Dash project is divided into two parts: Dash and Dash-prime. Dash is the open source
+    project and Dash-prime is the closed, internal-to-the-Foundation, code base. Even though
+    the Dash-prime code base is closed, the planning, discussions, and bug activities are open.
+    Thus this project plan covers both Dash and Dash-prime.
+    </p><h2><a name="release_deliverables">Release Deliverables</a></h2><p>The Dash project delivers server software running on eclipse.org servers (Commits Explorer and Ganymatic).
+    The Dash-prime team is also responsible for an internal Foundation application deployed on eclipse.org servers (Portal).</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><table border="1" align="center"><tr><td><b>M1</b></td><td>4/30/2008</td><td><p>April milestone</p></td></tr><tr><td><b>M2</b></td><td>5/31/2008</td><td><p>May milestone</p></td></tr><tr><td><b>M3</b></td><td>6/30/2008</td><td><p>June milestone</p></td></tr><tr><td><b>M4</b></td><td>7/31/2008</td><td><p>July milestone</p></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>Ganymatic runs on the build.eclipse.org server and requires Java 5.0 and Ant 1.7.</p><p>Commits Explorer runs on the dash.eclipse.org server and requires a current version
+    of Apache, PHP, Perl, and MySQL.</p><p>Foundation Portal runs on the portal.eclipse.org server and requires a current version
+    of Apache, PHP, and MySQL.</p><h3>Internationalization</h3>
+       <p>
+        None of the Dash deliverables are internationalized.
+        </p>
+    <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><p>
+The Dash project is not a traditional Eclipse project in that it is in
+support of the Eclipse committers and member rather than in support of adopters and users.
+Thus the Dash project has a somewhat different set of Themes and Priorities than those
+defined by the Requirements Council.
+     </p><h3>Clean the Graffiti</h3><p>
+Cleaning the Graffiti is reducing the backlog of small bugs against 
+the Dash and Dash-prime tools. The goal is to have committers feel happy about the portal 
+(it's doing what they want) and to believe that the portal team is 
+responsive to their requests (it's going in the right direction). 
+We want the Dash tools to be a benefit of Eclipse committership and not a burden.
+        </p><ul><li><b>Committed</b><ul><li>[Clean the Graffiti] Add "email me my password" to portal login page [<a href="http://bugs.eclipse.org/188005">188005</a>] (target milestone: June 08)</li><li>[Clean the Graffiti] Problem with mails sent by the Portal [<a href="http://bugs.eclipse.org/228705">228705</a>] (target milestone: May 08)</li><li>[Clean the Graffiti] Managing Documentation Requirements When Committer Changes Employer [<a href="http://bugs.eclipse.org/202950">202950</a>] (target milestone: May 08)</li><li>[Clean the Graffiti] Lat/Lon parsing in the portal [<a href="http://bugs.eclipse.org/227462">227462</a>] (target milestone: May 08)</li><li>[Clean the Graffiti] Unclear how to set "Project Web Site" on project summary page [<a href="http://bugs.eclipse.org/217342">217342</a>] (target milestone: May 08)</li><li>[Clean the Graffiti] CVS data gets listed out of sequence [<a href="http://bugs.eclipse.org/215293">215293</a>] (target milestone: May 08)</li><li>[Clean the Graffiti] "non-epl" keyword misleading [<a href="http://bugs.eclipse.org/196570">196570</a>] (target milestone: June 08)</li><li>[Clean the Graffiti] Updated subscriptions when committer email address changes [<a href="http://bugs.eclipse.org/204485">204485</a>] (target milestone: June 08)</li><li>[Clean the Graffiti] Portal pages encoded with Big5 causes rendering issues [<a href="http://bugs.eclipse.org/231185">231185</a>] (target milestone: ---)</li><li>[Clean the Graffiti] pmc action requirement not clear [<a href="http://bugs.eclipse.org/206255">206255</a>] <strike>(target milestone: May 08)</strike></li><li>[Clean the Graffiti] Allow different mailing lists for decommitterization requests [<a href="http://bugs.eclipse.org/227354">227354</a>] <strike>(target milestone: May 08)</strike></li><li>[Clean the Graffiti] Reminders for out of date meta-data addresses to project leads [<a href="http://bugs.eclipse.org/227859">227859</a>] <strike>(target milestone: ---)</strike></li><li>[Clean the Graffiti] spacing is inconsistent in portal's view of project meta [<a href="http://bugs.eclipse.org/215294">215294</a>] <strike>(target milestone: April 08)</strike></li></ul></li></ul><h3>Manage Committers</h3><p>
+Managing Committers is our theme for provide teams and team leaders tools 
+to manage their committer populations: adding new committers, removing 
+inactive committers, managing file permissions, etc.
+         </p><ul><li><b>Committed</b><ul><li>[Manage Committers] Committer Deactivation Requests Via Portal [<a href="http://bugs.eclipse.org/211921">211921</a>] <strike>(target milestone: April 08)</strike></li><li>[Manage Committers] Portal interface for removing a committer [<a href="http://bugs.eclipse.org/199502">199502</a>] <strike>(target milestone: April 08)</strike></li><li>[Manage Committers] "Committer Emeritus" status [<a href="http://bugs.eclipse.org/222350">222350</a>] <strike>(target milestone: ---)</strike></li><li>[Manage Committers] Give PMC members access to decommitterization tool [<a href="http://bugs.eclipse.org/227356">227356</a>] <strike>(target milestone: April 08)</strike></li><li>[Manage Committers] Nominations should require known address [<a href="http://bugs.eclipse.org/229120">229120</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Make The Portal More Of A Home</h3><p>
+The portal is very useful as it is. But it could be much more. It is currently 
+mostly a workflow facilitator helping project members walk the development process 
+etc. But given that most of the content is driven by a database or two, 
+there are many more possibilities that would make it more attractive 
+as a landing page for committers.
+        </p><ul><li><b>Committed</b><ul><li>[Make The Portal More Of A Home] make the portal more of a home [<a href="http://bugs.eclipse.org/206256">206256</a>] <strike>(target milestone: May 08)</strike></li><li>[Make The Portal More Of A Home] Links to project resources [<a href="http://bugs.eclipse.org/227227">227227</a>] <strike>(target milestone: ---)</strike></li><li>[Make The Portal More Of A Home] Rounded corners on portal boxes [<a href="http://bugs.eclipse.org/227862">227862</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Improve the Experience</h3><p>
+As the portal handles more of the workflow for our committers
+and members, it could become cluttered and slow. We plan to improve
+both the user interface and the infrastructure to avoid that.
+       </p><ul><li><b>Committed</b><ul><li>[Improve the Experience] Some committers have requested support for more than one email address [<a href="http://bugs.eclipse.org/209838">209838</a>] (target milestone: June 08)</li><li>[Improve the Experience] Move dash.eclipse.org to one of the new AMD servers [<a href="http://bugs.eclipse.org/226714">226714</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Submission System</h3><p>
+We're moving the formerly bugzilla-based EclipseCon submission system
+to a portal-based system. This change will enable the submission system
+to integrate with more of our databases, thus improving the user experience
+for speakers and attendees, as well as reducing the server load for generating web pages.
+        </p><ul><li><b>Committed</b><ul><li>[Submission System] Allow logins to the Portal using Bugzilla accounts [<a href="http://bugs.eclipse.org/224210">224210</a>] <strike>(target milestone: 2008-Q2)</strike></li><li>[Submission System] Add 'Submission' Component [<a href="http://bugs.eclipse.org/229485">229485</a>] <strike>(target milestone: May 08)</strike></li><li>[Submission System] Contact Address component needs to allow committers to tie a Bugzilla account to their committer account [<a href="http://bugs.eclipse.org/227669">227669</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Other</h3><p>
+Features and bugs that we plan to address in the next three months that are not yet categorized into a theme.
+        </p><ul><li><b>Proposed</b><ul><li>Need a couple more "How tos"... [<a href="http://bugs.eclipse.org/202198">202198</a>] (target milestone: June 08)</li><li>Help wanted / getting started section on standard project information pages [<a href="http://bugs.eclipse.org/226944">226944</a>] (target milestone: June 08)</li><li>Notify project teams of new approved versions of third-party code they use [<a href="http://bugs.eclipse.org/205085">205085</a>] (target milestone: June 08)</li><li>Performance monitoring for the portal itself [<a href="http://bugs.eclipse.org/204585">204585</a>] (target milestone: July 08)</li><li>Link graduation process page to other process pages [<a href="http://bugs.eclipse.org/218090">218090</a>] (target milestone: June 08)</li><li>Identification of Similar Requests Currently Pending [<a href="http://bugs.eclipse.org/205241">205241</a>] (target milestone: June 08)</li><li>Change schema checker entirely drive by the table dump [<a href="http://bugs.eclipse.org/217787">217787</a>] (target milestone: July 08)</li><li>Portal process/checklist for release reviews [<a href="http://bugs.eclipse.org/207107">207107</a>] (target milestone: May 08)</li><li>Project calendar url on standard project info page [<a href="http://bugs.eclipse.org/227857">227857</a>] (target milestone: May 08)</li><li>Database rebuilding needs to remove unused tables or swam.php breaks [<a href="http://bugs.eclipse.org/229986">229986</a>] (target milestone: July 08)</li><li>Add explain link [<a href="http://bugs.eclipse.org/177218">177218</a>] (target milestone: June 08)</li><li>Webmaster component should have link to Foundation DB and show Provisioning info [<a href="http://bugs.eclipse.org/203844">203844</a>] (target milestone: July 08)</li><li>Identification of New Release of Previously Approved Version of Code [<a href="http://bugs.eclipse.org/201846">201846</a>] <strike>(target milestone: May 08)</strike></li><li>Compare the committer-only and non-committer versions of the Guide to Legal Docs [<a href="http://bugs.eclipse.org/227464">227464</a>] <strike>(target milestone: May 08)</strike></li><li>Standard project plan format [<a href="http://bugs.eclipse.org/215301">215301</a>] <strike>(target milestone: May 08)</strike></li><li>Questions in Portal Resulting in Keyword Population [<a href="http://bugs.eclipse.org/201843">201843</a>] <strike>(target milestone: May 08)</strike></li><li>Refactor components to separate classes from factories [<a href="http://bugs.eclipse.org/204838">204838</a>] <strike>(target milestone: July 08)</strike></li><li>Member Access to Employee Committer Lists [<a href="http://bugs.eclipse.org/206684">206684</a>] <strike>(target milestone: May 08)</strike></li><li>Webmaster needs edit privileges [<a href="http://bugs.eclipse.org/206795">206795</a>] <strike>(target milestone: May 08)</strike></li><li>Send HTML emails (or combo text/HTML) [<a href="http://bugs.eclipse.org/188992">188992</a>] <strike>(target milestone: June 08)</strike></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix </a></h2><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=technology.dash&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

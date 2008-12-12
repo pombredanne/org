@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - modeling</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling">Eclipse Modeling Project</a></span>, version 1.0.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>   
+     	<p>This document lays out the feature and API set for the 2009 release of the Eclipse Modeling Project, to coincide with the <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release"> Galileo</a> release train.  This "release" of the Modeling project primarily represents a roll-up of constituent project features and API, although there are some organizational themes called out at the top-level.  With that, it is expected that Modeling projects will inherit elements of this plan in order to simplify their own, as was done for the Modeling project <a href="http://www.eclipse.org/modeling/modeling-charter.php">charter</a> as it relates to the Standard Charter.</p>
+		<p>This project plan and associated requirements are the result of an open and transparent process and includes input from those who have expressed an interest in the project. That said, the success of the project and its deliverables is soley dependent upon the contributions from its community membership. If you are interested in contributing to the project in the delivery of its stated goals, you are more than welcome!</p>
+		<p>The first part of the plan deals with the important matters of release deliverables, release milestones, target operating environments, compatibilities and dependencies. These are all things that need to be clear for any release, even if no features were to change. </p>
+		<p>The remainder of the plan consists of plan items for the project. Each plan item covers a feature or API that is to be added, or some aspect that is to be improved. Each plan item has its own entry in the Eclipse <a href="https://bugs.eclipse.org">bugzilla</a> database, with a title and a concise summary (usually a single paragraph) that explains the work item at a suitably high enough level so that everyone can readily understand what the work item is without having to understand the nitty-gritty detail.</p>
+		<p>Not all plan items represent the same amount of work; some may be quite large, others, quite small. Some plan items may involve work that is localized to a single subsystem; others may involve coordinated changes across several projects within the same top-level project; and others may involve coordination with other top-level projects. Although some plan items are for work that is more pressing that others, the plan items appear in no particular order.</p>
+		<p>With the previous release as the starting point, this is the plan for how we will enhance and improve it. Fixing bugs, improving test coverage, documentation, examples, performance tuning, usability, etc. are considered routine ongoing maintenance activities and are not included in this plan unless they would also involve a significant change to the API or feature set, or involve a significant amount of work. The intent of the plan is to account for all interesting feature work.</p>
+     </div><h2><a name="release_deliverables">Release Deliverables</a></h2><p>The release deliverables have the same form as is found in most Eclipse projects, namely:</p><ul>
+			<li> Source code release, available as versions tagged appropriately in the project's CVS repository (e.g. "R2_0").</li>
+			<li> SDK distribution (includes runtime and SDK components, with sources, examples, and documentation) (downloadable and update site).</li>
+			<li> Runtime binary distribution (downloadable and update site).</li>
+			<li> Test distribution (downloadable and update site).</li>
+		</ul><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><p>Release milestone occurring at roughly 6 week intervals and follow the Platform milestone releases by approximately 
+      	3 weeks; that is, until the final 3.5 release of the Platform, upon which Galileo and other projects will release simultaneously.</p><table border="1" align="center"><tr><td><b>M2</b></td><td>10/08/2008</td><td/></tr><tr><td><b>M3</b></td><td>11/19/2008</td><td/></tr><tr><td><b>M4</b></td><td>01/12/2009</td><td/></tr><tr><td><b>M5</b></td><td>02/16/2009</td><td/></tr><tr><td><b>M6</b></td><td>03/23/2009</td><td><div>API freeze</div></td></tr><tr><td><b>M7</b></td><td>05/11/2009</td><td/></tr><tr><td><b>RC1</b></td><td>05/25/2009</td><td/></tr><tr><td><b>RC2</b></td><td>06/01/2009</td><td/></tr><tr><td><b>RC3</b></td><td>06/08/2009</td><td/></tr><tr><td><b>RC4</b></td><td>06/15/2009</td><td/></tr><tr><td><b>GA</b></td><td>06/26/2009</td><td/></tr></table><p>The following projects/components are included in the Modeling contribution to the <a href="">Galileo</a> simultaneous release and are linked to their respective plans:</p><ul>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.emf">Eclipse Modeling Framework (EMF)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.gmf">Graphical Modeling Framework (GMF)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.mdt">Model Development Tools (MDT)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.m2m">Model-to-Model Transformation (M2M)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.m2t">Model-to-Text Transformation (M2T)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.tmf">Textual Modeling Framework (TMF)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.emft">Eclipse Modeling Framework Technology (EMFT)</a></li>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.amalgam">Modeling Amalgamation Project (Amalgam)</a></li>
+	   </ul><p>Additionally, the Modeling project contains the following projects/components:</p><ul>
+	      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=modeling.gmt">Generative Modeling Technologies (GMT)</a></li>
+	   </ul><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>In order to remain current, each Eclipse release targets reasonably current versions of the underlying operating environments.
+		The Modeling project depends upon on the Platform and other projects, which are mostly "pure" Java. The 3.5 release of the Eclipse Platform 
+		Project is written and compiled against version 1.4 of the Java Platform APIs, and targeted to run on version 1.4 of the Java Runtime Environment, 
+		Standard Edition. Eclipse Platform SDK 3.5 will be tested and validated on a number of reference platforms. Modeling includes additional projects 
+		which currently require Java 5, such as EMF.  Therefore, Modeling will be tested and validated against a subset of those listed for the platform, as outlined in their individual project plans. 
+		Those available will be presented on the Modeling download site.
+	 </p><h3>Internationalization</h3>
+       <p>The Eclipse Platform is designed as the basis for internationalized products. The user interface elements provided by the Eclipse SDK 
+	       components, including dialogs and error messages, are externalized. The English strings are provided as the default resource bundles. 
+	       As a result, the Galileo will provide English strings in its default bundles and be localized to a subset of those locales offered by the Babel project. 
+	       This plan will be updated to indicate which locales will be provided and the time frame for availability.
+       </p>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div><p>As Modeling is a collection of projects, each with its own defined compatibility policy, look to each plan linked above for details.</p></div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><p>The themes and priorites for Modeling projects are listed on their respective project plans.  Use the links above to access each plan.
+       </p><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=modeling&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

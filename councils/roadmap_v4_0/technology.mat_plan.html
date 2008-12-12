@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - technology.mat</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.mat">Memory Analyzer</a></span>, version 0.8</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+			<p>The Memory Analyzer has a rich set of features to analyze heap dumps
+			from various VM vendors. The main focus is now on
+			<strong>growing the community</strong> around the tool and,
+			hopefully, eventually maturing from incubation.</p>
+			
+			<p>The next step is releasing the currently available code base as
+			version <strong>0.7</strong>. The rationale is this: First of all,
+			we have external dependencies (the DTFJ Parser provided by IBM and 
+			distributed via IBM's Alphaworks page) which require a stable version.
+			Secondly, we hope to increase community interest by providing
+			a released version.</p>
+			
+			<p>This project plan is concerned with the development wave beyond
+			this initial 0.7 release.</p>
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+			The Memory Analyzer is delivered as
+			<ul>
+				<li>stand-along RCP version via Eclipse.Org download server.</li>
+				<li>feature to be installed into an Eclipse IDE installation using an update site.</li>
+			</ul>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+				We plan to build and publish a stable version of the Memory Analyzer on a monthly basis.
+			</div><table border="1" align="center"><tr><td><b>0.7</b></td><td>11/15/2008</td><td><div>Tentative Release Date 0.7</div></td></tr><tr><td><b>0.8</b></td><td>3/1/2009</td><td><div>Tentative Release Date 0.8</div></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			The Memory Analyzer requires Java 5 and runs on Eclipse 3.3 (Europa) and greater.
+			A stand-alone version is provided on the download server which is build with the latest
+			available platform (currently Eclipse 3.4 Ganymede). 
+		</div><h3>Internationalization</h3>
+			<div>Currently, the Memory Analyzer is not prepared to be translated. String constants
+			are not yet externalized into resource bundles.</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>Binary and source compatibility is expected for the Snapshot and Parser API.</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><h3>Comparing Heap Dumps</h3><div>
+					<p>A heap dump contains a snapshot of the Java heap at one point in time.
+						Every address is uniquely identified by its address. However, the addresses
+						do not remain stable because the Garbage Collector is constantly moving
+						objects around and thereby changing their addresses. Therefore only aggregates
+						can be compared easily.</p>
+					<ul>
+						<li><em>Compare Multiple Heap Dumps (not only two) on the Basis
+							of the Class Histogram, Class Loader Histogram and Packages.</em><br/>
+							The idea is to create a wizard which guides the user step-by-step
+							from the selection of the heap dumps to the results.
+						</li>
+						<li><em>Research Ways to Detect Leak Suspects Based on Comparing Heap Dumps.</em><br/>
+							This is a rather open topic. The idea is to find growing structures
+							like maps which could indicate a leak suspect.
+						</li>
+					</ul>
+				</div><h3>Usability Features</h3><div>
+					<p>Usability of the Memory Analyzer is important in order to attract new user groups.</p>
+					<ul>
+						<li><em>Interactively Acquire Heap Dumps. (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=229449">229449</a>)</em><br/>
+							The latest virtual machines provide interfaces to acquire a heap dump on demand. For example,
+							Sun Java 6 VM provides a JMX extension, on Unix platforms the command-line utility jmap is
+							available. This feature adds a wizard to acquire a heap dump from a virtual machine
+							running on the local computer. The goal is to ease interactive analysis of an application
+							and reduce the time for novices to get started. 
+						</li>
+						<li><em>Extend OQL to Handle Query Commands.</em><br/>
+							Reports like the component report aggregate a lot of data into a single HTML page.
+							To be able to drill down, it must be possible to go back to the heap dump
+							and retrieve the objects. This requires an extension to the OQL to
+							execute queries and a mechanism identify rows / tree nodes from the result. 
+						</li>
+						<li><em>Equinox OSGi Bundle Explorer</em><br/>
+							It should be possible to extract from the heap dump the state of the Equinox
+							runtime: bundles and their status, dependencies, registered and used services,
+							extension points etc. For a live system, this is available via the Plug-In Registry
+							Viewer (if installed), in the post-mortem case the MAT can help.
+						</li>
+					</ul>
+				</div><h3>Documentation Improvement</h3><div>
+					<p>The Memory Analyzer documentation is available as (a) help plug-in, (b) WIKI pages
+					and (c) blog postings for special topics. The documentation covers a broad range
+					of topics, but we acknowledge that it is often brief and not easily accessible
+					to non-domain experts.</p>
+					<ul>
+						<li><em>Restructure the documentation along tasks.</em><br/>
+							The documentation should concentrate on tasks ("find leaks" or "reduce footprint")
+							instead of features. This should reduce the learning curve of new users.
+						</li>
+						<li><em>Improve the context help available for heap dump inspections.</em><br/>
+							Today MAT displays a help button if a particular inspection provides context help.
+							However, right now help is only available for immediate dominators and the
+							component report. More context help is needed.
+						</li>
+						<li><em>Publish the Help Plug-in contents on the Eclipse.Org Page.</em><br/>
+							Additionally delivering the help content via web pages will make them searchable
+							via search engines like Google. This should attract new users to the tool.
+						</li>
+					</ul>
+				</div><h3>Building A Community</h3><div>
+					<p>A vibrant community is essential for the long term health of any project.
+					The Memory Analyzer is in a difficult position, because it is a niche tool
+					which not only requires some significant domain knowledge about memory analysis
+					but also is utilized only sporadically during the development of big applications.
+					</p>
+					<ul>
+						<li>Participate in the Galileo Simultaneous Release.</li>
+						<li>Demo the Memory Analyzer at the Eclipse Summit Europe.</li>
+						<li>Be responsive to questions posted to the newsgroup and Bugzilla reports.</li>
+						<li>Regularly blog about memory related topics.</li>
+					</ul>
+				</div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=technology.mat&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

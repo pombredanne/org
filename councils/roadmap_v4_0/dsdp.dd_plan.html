@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - dsdp.dd</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.dd">Device Debugging</a></span>, version 1.1</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <div>
+The primary goal of this release is to deliver additional features to the DSF framework and to add support for non-stop and multi-process debugging in the upcoming GDB debugger release.
+   </div>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <div>
+<ul><li> SPIRIT
+<ul><li> IPXACT Editor &amp; Checker (downloadable)
+</li></ul>
+</li><li> Memory
+<ul><li> Traditional Memory Rendering (downloadable)
+</li></ul>
+</li><li> DSF
+<ul><li> DSF SDK (downloadable)
+
+<ul><li> Service and concurrency APIs, base implementations, and utilities
+</li><li> Debugger services' interface definitions
+</li><li> Implementation of Platform and CDT APIs to populate debugger views with data from DSF debugger services.
+</li></ul>
+</li></ul>
+</li><li> GDB/MI
+<ul><li> GDB Debugger (downloadable)
+<ul><li> Base classes for a debugger implementation based on generic GDB/MI protocol back end.
+</li><li> Debugger implementation based on GNU GDB back end.
+</li></ul>
+
+</li><li> GDB Launch (downloadable)
+<ul><li> Launch configurations for the GDB debugger.
+</li></ul>
+</li></ul>
+</li><li> Disassembly
+<ul><li> Sub project work to be delivered as part of CDT.
+</li></ul>
+</li><li> Multi-Context
+<ul><li> Sub project work to be delivered as part of Eclipse SDK.
+</li></ul>
+</li></ul>
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <div>
+Since this is an off-train release and all dependencies come from Ganymede release, we can pick the milestone dates as we see fit.
+      </div>
+      <table border="1" align="center">
+        <tr>
+          <td>
+            <b>M1</b>
+          </td>
+          <td>7/17/2008</td>
+          <td>
+            <div/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M2</b>
+          </td>
+          <td>8/29/2008</td>
+          <td>
+            <div>Milestone with quality targets.</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M3</b>
+          </td>
+          <td>10/10/2008</td>
+          <td>
+            <div>API freeze</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M4</b>
+          </td>
+          <td>11/7/2008</td>
+          <td>
+            <div>Feature freeze</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC1</b>
+          </td>
+          <td>11/14/2008</td>
+          <td>
+            <div/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC2</b>
+          </td>
+          <td>11/21/2008</td>
+          <td>
+            <div/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>1.1</b>
+          </td>
+          <td>11/28/2008</td>
+          <td>
+            <div/>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <div>
+<p>Most of DD deliverables do not have any platform-dependent components, which means that they are supported on all platforms that their dependencies are supported on. Exceptions are listed here:</p> 
+<table rules="all" cellpadding="2">
+
+<tr>
+<td> <b>Deliverable</b> </td><td> <b>Reference Platforms</b>
+</td></tr>
+<tr>
+<td> GDB/MI </td><td> Linux - x86
+</td></tr></table>
+
+<p>Components of DD project depend on other features.  This dable describes these dependencies:</p>
+<table rules="all" cellpadding="2">
+<tr>
+<td> <b>Dependencies</b>
+</td></tr>
+<tr>
+<td> IPXACT Editor &amp; Checker 1.0
+</td><td>
+<ul><li> Platform SDK 3.4.1 
+</li><li> EMF
+
+</li></ul>
+</td></tr>
+<tr>
+<td> Traditional Memory Rendering 1.1
+</td><td>
+<ul><li> Platform SDK 3.4.1
+</li></ul>
+</td></tr>
+<tr>
+<td> DSF SDK 1.1
+</td><td>
+<ul><li> Platform SDK 3.4.1 
+</li><li> CDT 5.0.1
+
+</li></ul>
+</td></tr>
+<tr>
+<td> GDB Debugger 1.1
+</td><td>
+<ul><li> Platform SDK 3.4.1 
+</li><li> CDT 5.0
+</li><li> DSF SDK 1.1
+</li></ul>
+</td></tr>
+<tr>
+<td> GDB Launch 1.1
+
+</td><td>
+<ul><li> Platform SDK 3.4.1 
+</li><li> CDT 5.0
+</li><li> DSF SDK 1.1
+</li><li> GDB Debugger 1.1
+</li></ul>
+</td></tr></table>
+     </div>
+      <h3>Internationalization</h3>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <div/>
+      <h3>Finalize DD provisional APIs</h3>
+      <div/>
+      <h3>Additional DSF UI features</h3>
+      <div/>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>[debug view] Displayaing suspended threads only [<a href="http://bugs.eclipse.org/160042">160042</a>] (target milestone: ---)</li>
+            <li>[debug view] Argument information in stack frame labels [<a href="http://bugs.eclipse.org/160044">160044</a>] (target milestone: ---)</li>
+            <li>[Update policy] Add a time-delayed update policy for variables views. [<a href="http://bugs.eclipse.org/206933">206933</a>] (target milestone: ---)</li>
+            <li>[variables][cdi] Variables view should show globals (or should it?) [<a href="http://bugs.eclipse.org/219040">219040</a>] (target milestone: ---)</li>
+            <li>[variables][cdi] Variables view should use icons to represent types. [<a href="http://bugs.eclipse.org/219202">219202</a>] (target milestone: ---)</li>
+            <li>[variables][cdi] Variables view should allow variables to be cast to a type. [<a href="http://bugs.eclipse.org/219203">219203</a>] (target milestone: ---)</li>
+            <li>[variables view][cdi] Ehance variables view for feature parity with CDT. [<a href="http://bugs.eclipse.org/237560">237560</a>] (target milestone: 1.1)</li>
+            <li>[debug view] Retrieving limited # of stack frames. [<a href="http://bugs.eclipse.org/160041">160041</a>] <strike>(target milestone: 1.1 M1)</strike></li>
+            <li>[run control][debug view][source lookup] When stepping fast (holding down F5 key) the IP in editor does not keep up. [<a href="http://bugs.eclipse.org/214386">214386</a>] <strike>(target milestone: 1.1 M2)</strike></li>
+            <li>[source lookup] Optimize source lookup. [<a href="http://bugs.eclipse.org/241133">241133</a>] <strike>(target milestone: 1.1 M2)</strike></li>
+            <li>[update policy][debug view] Add manual refresh mode for thread list in debug view. [<a href="http://bugs.eclipse.org/202649">202649</a>] <strike>(target milestone: 1.1 M1)</strike></li>
+            <li>[update policy] Allow setting update policy for each layout node. [<a href="http://bugs.eclipse.org/202555">202555</a>] <strike>(target milestone: 1.0 M5)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Support for new GDB features</h3>
+      <div/>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>[multi-process] Support for multiple inferior processes [<a href="http://bugs.eclipse.org/237308">237308</a>] (target milestone: ---)</li>
+            <li>[processes] [multi-process] Implement a GDB service for IProcesses [<a href="http://bugs.eclipse.org/239050">239050</a>] (target milestone: 1.1 M1)</li>
+            <li>[multi-process] Support for multi-process in the IProcesses service [<a href="http://bugs.eclipse.org/240507">240507</a>] (target milestone: ---)</li>
+            <li>[non-stop] Add support for non-stop multi-threaded debugging in GDB. [<a href="http://bugs.eclipse.org/237556">237556</a>] <strike>(target milestone: 1.1)</strike></li>
+            <li>[multi-process] GDBControlDMContext should be adapted for multi-process [<a href="http://bugs.eclipse.org/241317">241317</a>] <strike>(target milestone: 1.1 M3)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=dsdp.dd&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

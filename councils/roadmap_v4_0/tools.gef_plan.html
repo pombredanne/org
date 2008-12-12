@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - tools.gef</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.gef">GEF - Graphical Editor Framework</a></span>, version 3.5.0</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <p>This document lays out the feature and API set for the
+			next feature release of the Graphical Editing Framework (GEF)
+			project, designated release 3.5.0.</p>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <p>
+			The release deliverables are:
+			<ul>
+				<li>
+					GEF source code for the release is available in the eclipse.org
+					<a href="http://dev.eclipse.org/viewcvs/index.cgi/?cvsroot=Tools_Project">CVS
+						repositories</a>
+					.
+				</li>
+				<li>GEF runtime binaries and SDK distributions
+					(downloadable).</li>
+				<li>GEF runtime binaries and SDK features on eclipse.org
+					update site
+					(install via Eclipse update manager).</li>
+			</ul>
+		</p>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <p>
+				GEF builds are available weekly as Integration builds. GEF
+				Milestone
+				Releases are approximately one week after the
+				Eclipse Milestone
+				Releases. It is anticipated that GEF will synchronize its
+				release
+				milestones with the
+				
+					Galileo release schedule
+					
+				.
+			</p>
+      <table border="1" align="center">
+        <tr>
+          <td>
+            <b>M1</b>
+          </td>
+          <td>08/20/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M2</b>
+          </td>
+          <td>09/24/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M3</b>
+          </td>
+          <td>11/05/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M4</b>
+          </td>
+          <td>12/17/2008</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M5</b>
+          </td>
+          <td>02/03/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>M6</b>
+          </td>
+          <td>03/16/2009</td>
+          <td>
+            <p>API freeze</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M7</b>
+          </td>
+          <td>05/04/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>RC1</b>
+          </td>
+          <td>05/18/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>RC2</b>
+          </td>
+          <td>05/25/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>RC3</b>
+          </td>
+          <td>06/01/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>RC4</b>
+          </td>
+          <td>06/08/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>RC5</b>
+          </td>
+          <td>06/15/2009</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>
+            <b>2.2.0</b>
+          </td>
+          <td>06/26/2009</td>
+          <td/>
+        </tr>
+      </table>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <p>
+			GEF 3.5 will support all operating environments supported by the
+			Eclipse
+			Platform itself. For a list of supported environments, refer
+			to
+			<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments">
+				Eclipse Project 3.5 plan</a>
+			for a list of reference platforms.
+		</p>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <p>GEF 3.5 will be upwards compatible with GEF 3.4 to the
+			greatest
+			extent
+			possible. Any exceptions will be noted in the 3.5
+			release notes so that
+			clients
+			can assess the impact of these changes on
+			their plug-ins and products.</p>
+      <p>
+			<b>API Contract Compatibility:</b>
+			GEF 3.5 will be upwards
+			contract-compatible with GEF 3.4 unless noted.
+			This means that programs in full
+			compliance with contracts specified
+			in 3.4 APIs will automatically be
+			in full
+			compliance with 3.5 APIs.
+			Refer to
+
+			<a href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs"> Evolving
+				Java-based APIs</a>
+
+			for a discussion of the kinds of API changes that maintain
+			contract
+			compatibility.
+		</p>
+      <p>
+			<b>Binary (plug-in) Compatibility:</b>
+			GEF 3.5 will be upwards binary-compatible with GEF 3.4 unless noted.
+			This means that plug-ins built for GEF 3.4 will continue to work
+			correctly in 3.5 without change. Plug-ins with hard-coded references
+			in
+			their plug-in manifest file to the 3.4 version of GEF
+			plug-ins will
+			work in 3.5 provided the version match rule is
+			"greaterOrEqual" or
+			"compatible" (the default); references using "perfect" or
+			"equivalent" match
+			rules will be broken. Refer to
+
+			<a href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs"> Evolving
+				Java-based APIs</a>
+
+			for a discussion of the kinds of API changes that maintain
+			binary
+			compatibility.
+		</p>
+      <p>
+			<b>Source Compatibility:</b>
+			GEF 3.5 will be upwards source-compatible
+			with GEF 3.4 to the greatest
+			extent possible. This means that source
+			files
+			written to use 3.4 APIs
+			can often be successfully compiled and run against
+			GEF
+			3.5 APIs. Since
+			source incompatibilities are easy to deal with,
+			maintaining
+			source
+			compatibility is considered much less important than maintaining
+			contract
+			and binary compatibility. The addition of a single method
+			anywhere could
+			be an incompatible source change. For this reason,
+			source-incompatibilities will not be noted.
+		</p>
+      <p>
+			<b>Non-compliant usage of API's</b>
+			: All non-API methods and classes, and
+			certainly everything in a
+			package with "internal" in its name, are considered
+			implementation
+			details which may vary between operating environment
+			and are
+			subject to
+			change without notice. Client plug-ins that directly depend on
+			anything other than what is specified as API are inherently
+			unsupportable and
+			receive no guarantees about compatibility within a
+			single release much less
+			with
+			an earlier releases. Refer to
+			<a href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">
+				How to Use the Eclipse API</a>
+			for information about how to write compliant
+			plug-ins.
+		</p>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <p>
+				The project has identified major areas of work, that
+				will be the
+				priorities for this development cycle. These areas will
+				address
+				the
+				major themes identified by the Eclipse Requirements Council (
+				<a href="http://www.eclipse.org/org/councils/roadmap_v3_0/themes_v3_0.php">Eclipse
+					2007 Themes and Priorities</a>
+				).
+			</p>
+      <h3>Consumability</h3>
+      <p>This work will make it easier to make effective use of
+					the GEF components. We seek to deliver small enhancements and
+					defect fixes that are important for our consumers.
+					We seek to
+					addresses issues that block the effective use of the GEF framework.
+					A list of those plan items related to Consumability can be found by searching Bugzilla for flag=galileo.
+				</p>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>Support the new SWT Line Attributes [<a href="http://bugs.eclipse.org/168311">168311</a>] <strike>(target milestone: 3.5 M4)</strike></li>
+            <li>Adopt API Tooling [<a href="http://bugs.eclipse.org/250996">250996</a>] <strike>(target milestone: 3.5 M3)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+            <li>ScaledGraphics does not implement setBackgroundPattern [<a href="http://bugs.eclipse.org/236652">236652</a>] (target milestone: ---)</li>
+            <li>Add Figure Providers [<a href="http://bugs.eclipse.org/154579">154579</a>] (target milestone: ---)</li>
+            <li>Add progress report to Horizontal Shift [<a href="http://bugs.eclipse.org/164736">164736</a>] (target milestone: ---)</li>
+            <li>Support customization of mouse drag behavior [<a href="http://bugs.eclipse.org/202849">202849</a>] (target milestone: ---)</li>
+            <li>Connection label is always in the center [<a href="http://bugs.eclipse.org/213058">213058</a>] (target milestone: ---)</li>
+            <li>Zest Algorithm for resizing nodes ignores the label or text in these nodes. [<a href="http://bugs.eclipse.org/213548">213548</a>] (target milestone: ---)</li>
+            <li>Add custom graph items [<a href="http://bugs.eclipse.org/215040">215040</a>] (target milestone: ---)</li>
+            <li>GraphViewer overwrites edge label on bidirectional graphs [<a href="http://bugs.eclipse.org/224753">224753</a>] (target milestone: ---)</li>
+            <li>addNode and addRelationship problem [<a href="http://bugs.eclipse.org/230375">230375</a>] (target milestone: ---)</li>
+            <li>Extended Zest Tree Layouts to Support Weighted Trees [<a href="http://bugs.eclipse.org/231319">231319</a>] (target milestone: ---)</li>
+            <li>Can not disable tooltips on GraphNode's &amp; GraphConnection's [<a href="http://bugs.eclipse.org/233571">233571</a>] (target milestone: ---)</li>
+            <li>provide horizontal variant of DirectedGraphLayoutAlgorithm [<a href="http://bugs.eclipse.org/236731">236731</a>] (target milestone: ---)</li>
+            <li>[Zest] Fisheye nodes should be removed before applying layout [<a href="http://bugs.eclipse.org/237630">237630</a>] (target milestone: ---)</li>
+            <li>[Zest] Support post layout listeners [<a href="http://bugs.eclipse.org/237632">237632</a>] (target milestone: ---)</li>
+            <li>Implement Pattern for ScaledGraphics [<a href="http://bugs.eclipse.org/132361">132361</a>] (target milestone: ---)</li>
+            <li>ScaledGraphics does not support setClip(Path) [<a href="http://bugs.eclipse.org/184651">184651</a>] (target milestone: ---)</li>
+            <li>Gradient Support [<a href="http://bugs.eclipse.org/241100">241100</a>] (target milestone: ---)</li>
+            <li>getAdvanced() should be added to Graphics [<a href="http://bugs.eclipse.org/101504">101504</a>] (target milestone: ---)</li>
+            <li>Investigate support for improved connection rendering in nested viewer [<a href="http://bugs.eclipse.org/154745">154745</a>] (target milestone: ---)</li>
+            <li>Connections outside containers [<a href="http://bugs.eclipse.org/195527">195527</a>] (target milestone: ---)</li>
+            <li>implement rotate for ScaledGraphics [<a href="http://bugs.eclipse.org/130419">130419</a>] (target milestone: ---)</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Deferred</b>
+          <ul>
+            <li>
+              <div>No items.</div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=tools.gef&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

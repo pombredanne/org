@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - datatools.enablement</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn">
+      <h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=datatools.enablement">Enablement</a></span>, version 1.7</h1>
+      <div id="toc">
+        <p>
+          <a name="toc">
+            <strong>Table of Contents</strong>
+          </a>
+        </p>
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#release_deliverables">
+                       Release Deliverables
+                    </a>
+          </li>
+          <li>
+            <a href="#release_milestones">
+                       Release Milestones
+                    </a>
+          </li>
+          <li>
+            <a href="#target_environments">
+                        Target Environments
+                    </a>
+          </li>
+          <li>
+            <a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a>
+          </li>
+          <li>
+            <a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a>
+          </li>
+        </ul>
+      </div>
+      <h2>
+        <a name="introduction">Introduction</a>
+      </h2>
+      <div>
+     <p>"Data Tools" is a vast domain, yet there are a fairly small number of foundational 
+     requirements when developing with or managing data-centric systems. A developer is 
+     interested in an environment that is easy to configure, one in which the challenges of 
+     application development are due to the problem domain, not the complexity of the tools employed. 
+     Data management, whether by a developer working on an application, or an administrator maintaining 
+     or monitoring a production system, should also provide a consistent, highly usable environment 
+     that works well with associated technologies.</p>
+     <p>The <a href="http://www.eclipse.org/datatools"><b>Data Tools Platform (DTP)</b></a>
+project provides a set of frameworks and basic tools to enable data-centric development in a variety
+of data types, including databases (via JDBC) and ODA data sources (for BIRT reporting). The frameworks
+are open to allow common interfaces (both API and user interface) across different types of data.</p>
+	 <p>DTP is broken into a number of sub-projects. This project plan focuses on the Enablement subproject, which hosts contributions specializing DTP for specific data sources.</p>
+   </div>
+      <h2>
+        <a name="release_deliverables">Release Deliverables</a>
+      </h2>
+      <div>
+   		DTP provides two main deliverables: one deliverable for developers, which includes 
+   		source code, examples, and so on; and a user or runtime deliverable that just provides 
+   		the basics for DTP use.  
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="release_milestones">Release Milestones</a>
+      </h2>
+      <p>The DTP project delivers a set of components to ease connecting to and working with data sources. Primarily DTP focuses on database (SQL development) work and ODA data sources for BIRT reporting.</p>
+      <table border="1" align="center">
+        <tr>
+          <td>
+            <b>M3</b>
+          </td>
+          <td>11/5/2008</td>
+          <td>
+            <div><p>
+					Release Train M3 +1 Date (M3 GA on 11/19/08)
+				</p>
+	  		<p>(Note that this will be the DTP 1.6.2 M1 build for now until we branch Galileo sometime the week of November 10th)</p>
+	  	</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M4</b>
+          </td>
+          <td>12/17/2008</td>
+          <td>
+            <div><p>
+					Release Train M4 +1 Date (M4 GA on 1/12/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M5</b>
+          </td>
+          <td>2/3/2009</td>
+          <td>
+            <div><p>
+					Release Train M5 +1 Date (M5 GA on 2/16/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M6</b>
+          </td>
+          <td>3/16/2009</td>
+          <td>
+            <div><p>
+					Release Train M6 +1 Date (M6 GA on 3/23/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>M7</b>
+          </td>
+          <td>5/4/2009</td>
+          <td>
+            <div><p>
+					Release Train M7 +1 Date (M7 GA on 5/11/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC1</b>
+          </td>
+          <td>5/18/2009</td>
+          <td>
+            <div><p>
+					Release Train RC1 +1 Date (RC1 GA on 5/25/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC2</b>
+          </td>
+          <td>5/25/2009</td>
+          <td>
+            <div><p>
+					Release Train RC2 +1 Date (RC2 GA on 6/1/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC3</b>
+          </td>
+          <td>6/1/2009</td>
+          <td>
+            <div><p>
+					Release Train RC3 +1 Date (RC3 GA on 6/8/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC4</b>
+          </td>
+          <td>6/8/2009</td>
+          <td>
+            <div><p>
+					Release Train RC4 +1 Date (RC4 GA on 6/15/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>RC5</b>
+          </td>
+          <td>6/15/2009</td>
+          <td>
+            <div><p>
+					Release Train RC5 +1 Date (Galileo GA on 6/26/09)
+				</p>
+			</div>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="target_environments">Target Environments</a>
+      </h2>
+      <div>
+   <p>See the main Datatools plan for target environment details.</p>
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="compatibility">Compatibility with Previous Releases</a>
+      </h2>
+      <div>
+<p>The goal of this release is to be backward compatible back to DTP 1.6.</p>
+    </div>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+      <h2>
+        <a name="themes_and_priorities">Themes and Priorities</a>
+      </h2>
+      <p>The Enablement sub-project will work on the following themes and priority for the DTP Galileo release.</p>
+      <p>(Note that "committed" items have the "plan" keyword in the BZ entry. "Proposed" items do not.)</p>
+      <h3>Enablement Priorities</h3>
+      <p>We will focus on the following:</p>
+      <ul>
+	        	<li>Continue promoting and expanding Enablement support (through community involvement) </li>
+		        <li>Continue promoting and expanding Enablement support (through providing additional exemplary tools) </li>
+		        <li>Promote Enablement-related Incubator projects where appropriate </li>
+		        <li>Package DTP as an RCP SQL Development Tool </li>
+	        </ul>
+      <ul>
+        <li>
+          <b>Committed</b>
+          <ul>
+            <li>SQL server 2000/2005/2008 improvements [<a href="http://bugs.eclipse.org/250302">250302</a>] (target milestone: Galileo)</li>
+            <li>Add Support for SQLite [<a href="http://bugs.eclipse.org/207002">207002</a>] <strike>(target milestone: Galileo)</strike></li>
+            <li>Support for Ingres [<a href="http://bugs.eclipse.org/232925">232925</a>] <strike>(target milestone: Galileo)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <b>Proposed</b>
+          <ul>
+            <li>MySQL: catalogs and schemas inconsistent with other vendors [<a href="http://bugs.eclipse.org/249013">249013</a>] (target milestone: Galileo)</li>
+            <li>MySQL SQL formatter uppercase table names [<a href="http://bugs.eclipse.org/105625">105625</a>] (target milestone: Galileo)</li>
+            <li>For SQL Server, need connection option to filter system tables [<a href="http://bugs.eclipse.org/252706">252706</a>] (target milestone: Galileo)</li>
+            <li>Allow the XML Datasource with http authentication [<a href="http://bugs.eclipse.org/246967">246967</a>] (target milestone: Galileo)</li>
+            <li>Expression editor in column bindings in the dataset column editor. Very hard to write expressions in the columns. [<a href="http://bugs.eclipse.org/251702">251702</a>] (target milestone: Galileo)</li>
+            <li>JAX-WS web service request being improperly generated. [<a href="http://bugs.eclipse.org/251285">251285</a>] (target milestone: Galileo)</li>
+            <li>CSV file location for data source is not relative and therefore not portable! [<a href="http://bugs.eclipse.org/255004">255004</a>] (target milestone: Galileo)</li>
+            <li>unable to work offline with PostgreSQL [<a href="http://bugs.eclipse.org/226704">226704</a>] (target milestone: Galileo)</li>
+            <li>Sybase enablement plug-ins should be refactored for UI/non-UI separation [<a href="http://bugs.eclipse.org/213390">213390</a>] (target milestone: Galileo)</li>
+            <li>Incorrect selection state for the XML dataset setting page [<a href="http://bugs.eclipse.org/253642">253642</a>] (target milestone: Galileo)</li>
+            <li>Problem with web service datasource (rpc soap binding) [<a href="http://bugs.eclipse.org/246558">246558</a>] <strike>(target milestone: Galileo)</strike></li>
+            <li>Ability to choose where the reponses from [<a href="http://bugs.eclipse.org/247767">247767</a>] <strike>(target milestone: Galileo)</strike></li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <a href="#toc">Table of Contents</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=datatools.enablement&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

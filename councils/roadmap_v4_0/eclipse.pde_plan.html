@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - eclipse.pde</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=eclipse.pde">PDE - Plugin Development Environment</a></span>, version 3.5</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+<hr/>
+<div style="align:center;"><big><b>Preliminary</b></big></div>
+The PDE/UI 3.5 project plan is still in preliminary state and not yet agreed upon by all parties.
+<hr/>
+
+Table of contents:
+<ul>
+  <li><a href="#release_deliverables">Release Deliverables</a></li>
+  <li><a href="#release_milestones">Release Milestones</a></li>
+  <li><a href="#target_environments">Target Environments</a></li>
+  <li><a href="#compatibility">Compatibility</a></li>
+  <li><a href="#themes">Themes and Priorities</a></li>
+</ul>
+  </div><h2><a name="release_milestones">Release Milestones</a></h2><p>      
+<a name="release_milestones">Release milestones</a>
+will be occurring at roughly 6 week intervals,
+and will be aligned with the
+<a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">
+Galileo Simultaneous Release</a> train.
+Milestone names start with M2 in order to clarify this
+relationship.
+    </p><table border="1" align="center"><tr><td><b>M1</b></td><td>08/08/2008</td><td><div>3.5M1</div></td></tr><tr><td><b>M2</b></td><td>09/18/2008</td><td><div>3.5M2</div></td></tr><tr><td><b>M3</b></td><td>10/31/2008</td><td><div>3.5M3</div></td></tr><tr><td><b>M4</b></td><td>12/12/2008</td><td><div>3.5M4</div></td></tr><tr><td><b>M5</b></td><td>01/30/2009</td><td><div>3.5M5</div></td></tr><tr><td><b>M6</b></td><td>03/13/2009</td><td><div>3.5M6 (API freeze)</div></td></tr><tr><td><b>M7</b></td><td>05/01/2009</td><td><div>3.5M7 (feature freeze)</div></td></tr></table><div>
+<p>
+The target date for availability of PDE 3.5 is:</p>
+<ul>
+	<li>Wednesday June 24, 2009 - PDE 3.5 (with Galileo)</li>
+</ul>
+    </div><p><a href="#toc">Table of Contents</a></p>
+  	<p>
+PDE is designed as the basis for internationalized
+products. The user interface elements provided by PDE components, 
+including dialogs and error messages, are externalized. The
+English strings are provided as the default resource bundles.
+The default bundles will be localized to a subset of those
+locales offered by the Platform.
+	</p>
+    <h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+<p><a name="compatibility">PDE 3.5</a> will be backward compatible with PDE 3.4.</p>
+<p>
+  <strong>API Contract Compatibility:</strong> PDE 3.5 will be 
+  compatible with PDE 3.5.
+</p>
+<p><strong>Binary (plug-in) Compatibility:</strong> PDE 3.5 will be 
+  binary compatible with PDE 3.5
+</p>
+ </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+<p><a name="themes">Plan items</a> listed below were defined according to contributor requirements,
+but in accordance with the Target Management
+<a href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+Use Cases Document</a> and the DSDP and Eclipse
+<a href="http://wiki.eclipse.org/RequirementsCouncilThemesAndPriorities#Embedded_Device_Software">
+Themes and Priorities</a>
+set forth by the Eclipse Requirements Council.
+Each plan item covers a feature or API that is to be added to the 
+Target Management deliverables, or some aspect of the Target 
+Management Project that is to be improved. Each plan item has its 
+own entry in the Eclipse bugzilla database, with a title and a 
+concise summary (usually a single paragraph) that explains the 
+work item at a suitably high enough level so that everyone can 
+readily understand what the work item is without having to understand
+the nitty-gritty detail. 
+</p>
+<p>Not all plan items represent the same amount of work; some may be quite
+large, others, quite small. Although some plan items are for work that is 
+more pressing than others, the plan items appear in no particular order.
+See the corresponding bugzilla items for up-to-date status information on
+ongoing work and planned delivery milestones.
+</p>
+<p>The current status of each plan item is noted:
+</p>
+<ul>
+  <li><b>Committed</b> plan item - A committed plan item is one that we have
+    decided to address for the release. In bugzilla, this is reflected by
+    having a concrete target milestone assigned.</li>
+  <li><b>Proposed</b> plan item - A proposed plan item is one that we are
+    considering addressing for the release. Although we are actively
+    investigating it, we are not yet in a position to commit to it, or to say
+    that we won't be able to address it. After due consideration, a proposal
+    will either be committed or deferred. In bugzilla, such items are reflected
+    by having a target milestone "3.1" or "---" assigned.</li>
+  <li><b>Deferred</b> plan item - A reasonable proposal that will not make it in
+    to this release for some reason is marked as deferred with a brief note as
+    to why it was deferred. Deferred plan items may resurface as committed plan
+    items at a later point. In bugzilla, such items are reflected by having
+    a target milestone "Future" assigned.</li>
+</ul>
+    </div><h3>Tentative: Bring TCF to Maturity</h3><p>
+We are considering to have the TCF component exit incubation and release a 1.0 version
+together with TM 3.1. This will require release engineering and packaging 
+efforts, unit tests, documentation, and cleanup and agreement on the TCF
+API's. In bugzilla, these items are tagged with <b>"[tcf]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[tcf%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [tcf] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[tcf] Debug new configuration reports "connecting" forever in case of incorrect path [<a href="http://bugs.eclipse.org/244287">244287</a>] <strike>(target milestone: 3.1 M2)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[tcf] Possibility to programatically add new communication channels to the java implementation [<a href="http://bugs.eclipse.org/243774">243774</a>] (target milestone: ---)</li><li>[tcf] Decouple the notions of messages dispatching, communication channel and serialization [<a href="http://bugs.eclipse.org/243787">243787</a>] (target milestone: ---)</li><li>[tcf] Decouple the notions of service interface, local service and remote service proxy [<a href="http://bugs.eclipse.org/243792">243792</a>] (target milestone: ---)</li><li>[tcf] Possibility to create value add server directly in the TCF java implementation [<a href="http://bugs.eclipse.org/243868">243868</a>] (target milestone: ---)</li><li>[tcf] Create TCF agent porting guide [<a href="http://bugs.eclipse.org/244451">244451</a>] (target milestone: ---)</li><li>[tcf] Provide a generic breakpoint set API [<a href="http://bugs.eclipse.org/245386">245386</a>] (target milestone: ---)</li><li>[tcf] Use a uniform prefix for the global symbols in the tcf library [<a href="http://bugs.eclipse.org/255205">255205</a>] (target milestone: ---)</li><li>[tcf] the daytime agent does not build on linux [<a href="http://bugs.eclipse.org/257261">257261</a>] (target milestone: ---)</li><li>[tcf][doc] Explain the new valueadd and example plugins in TCF Getting Started Docs [<a href="http://bugs.eclipse.org/222819">222819</a>] (target milestone: ---)</li><li>[tcf][agent] Simplify agent includes by providing master tcf.h [<a href="http://bugs.eclipse.org/224412">224412</a>] (target milestone: ---)</li><li>[tcf] daytime.agent does not build because the agent directory is hardcoded in the makefile [<a href="http://bugs.eclipse.org/254917">254917</a>] (target milestone: ---)</li><li>[tcf][api] runcontrol support for complex resume modes [<a href="http://bugs.eclipse.org/235251">235251</a>] (target milestone: ---)</li><li>[tcf][releng] Improve TCF Agent build directory structure [<a href="http://bugs.eclipse.org/225082">225082</a>] (target milestone: ---)</li><li>[tcf] Investigate compiling TCF Agent for Windows CE [<a href="http://bugs.eclipse.org/225080">225080</a>] (target milestone: ---)</li><li>[tcf][planning] Come up with a Roadmap for TCF [<a href="http://bugs.eclipse.org/225105">225105</a>] (target milestone: ---)</li><li>[tcf] Would be nice to have Shell(Terminal) subsystem over TCF [<a href="http://bugs.eclipse.org/246987">246987</a>] (target milestone: ---)</li><li>[tcf] "Kill" action is missing [<a href="http://bugs.eclipse.org/246997">246997</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Bring the WinCE component to Maturity</h3><p>
+The Windows CE connector component for RSE is scheduled to exit incubation and 
+release a 1.0 version together with TM 3.1. This will require release engineering and packaging 
+efforts, unit tests, documentation, and cleanup and agreement on the WinCE / JRapi
+API's. In bugzilla, these items are tagged with <b>"[wince]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[wince%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [wince] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[releng][wince] Trying to install WinCE on Linux with P2 gives odd error messages [<a href="http://bugs.eclipse.org/236026">236026</a>] (target milestone: 3.1 M4)</li><li>[WinCE][api] Implement IRAPISession#CeRapiInvoke [<a href="http://bugs.eclipse.org/238773">238773</a>] <strike>(target milestone: 3.1 M2)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[WinCE] Provide custom new connection wizard for WinCE devices [<a href="http://bugs.eclipse.org/231431">231431</a>] (target milestone: ---)</li><li>[WinCE] Using IRapiSession#invoke() may cause memory leak [<a href="http://bugs.eclipse.org/239969">239969</a>] (target milestone: ---)</li><li>[WinCE] Implement processes subsystem for WinCE devices [<a href="http://bugs.eclipse.org/242381">242381</a>] (target milestone: 3.1)</li><li>[WinCE] Implement helper DLL for process management [<a href="http://bugs.eclipse.org/239432">239432</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Bring the Terminal APIs to Maturity</h3><p>
+The TM Terminal Component has been in "incubation" state with only "internal" APIs for two
+releases in a row now. Adoption of the Terminal is growing, and there are requests for official
+APIs to embed the Terminal Widget, create connections programmatically, provide additional
+contributed services on top of the Terminal, and customize the Terminal Rendering (for 
+providing a hyperlink navigator like in the console). In order to further support and grow
+adoption, these APIs must be designed and exposed to community feedback before they can be
+declared final. In bugzilla, these items are tagged with <b>"[terminal]"</b> in the Summary and
+an <b>"api"</b> keyword
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[terminal%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [terminal] open</a>).
+      </p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[terminal][api] Need API to programmatically open the terminal for a specified connection [<a href="http://bugs.eclipse.org/185348">185348</a>] (target milestone: 3.1)</li><li>[terminal][api] Allow adding ITerminalStateListener to ITerminalControl [<a href="http://bugs.eclipse.org/183913">183913</a>] (target milestone: ---)</li><li>[terminal][api] ITerminalViewControl.connectTerminal() should throw exceptions on error conditions [<a href="http://bugs.eclipse.org/209291">209291</a>] (target milestone: ---)</li><li>[terminal][api] Support contributed services over Terminal connections [<a href="http://bugs.eclipse.org/224989">224989</a>] (target milestone: ---)</li><li>[terminal][api] Make the Terminal Widget an IConsole Implementation [<a href="http://bugs.eclipse.org/242373">242373</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[terminal][api] Hyperlinks support in Terminal [<a href="http://bugs.eclipse.org/201870">201870</a>] (target milestone: Future)</li></ul></li></ul><h3>Improve Release Engineering</h3><p>
+For the constantly growing TM code size and committer base, it is important to have a 
+reliable but easy-to-use release engineering system. Required features include automatic
+signing and adoption of Orbit, easy promoting to the Eclipse Servers and Galileo, 
+running automated unit tests with automatic reporting of test failures to the mailing
+lists, ability and description for running the releng build on any adopter's system.
+In bugzilla, these items are tagged with <b>"[releng]"</b> in the Summary  
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[releng%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [releng] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[releng] Migrate to new source bundle format [<a href="http://bugs.eclipse.org/224465">224465</a>] (target milestone: 3.1 M4)</li><li>[releng] Incorrect name of TM update (discovery) site in feature.xml [<a href="http://bugs.eclipse.org/247892">247892</a>] (target milestone: 3.1 M6)</li><li>[releng][wince] Trying to install WinCE on Linux with P2 gives odd error messages [<a href="http://bugs.eclipse.org/236026">236026</a>] (target milestone: 3.1 M4)</li><li>[releng] org.eclipse.rse.tests should have teamConfig/ folder in binary build [<a href="http://bugs.eclipse.org/194740">194740</a>] <strike>(target milestone: 3.1 M2)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[tcf][releng] Improve TCF Agent build directory structure [<a href="http://bugs.eclipse.org/225082">225082</a>] (target milestone: ---)</li><li>[releng] Using P2 to install "remotecdt" only from update site creates an unusable installation [<a href="http://bugs.eclipse.org/236443">236443</a>] (target milestone: ---)</li><li>[releng][bundling] RSE-tests should include junit-3.8.2 [<a href="http://bugs.eclipse.org/175683">175683</a>] (target milestone: ---)</li><li>[releng] Integrate RSE-Useractions into RSE-Runtime [<a href="http://bugs.eclipse.org/236122">236122</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Improve Unittest Coverage</h3><p>
+As the TM Codebase is growing, it is important to secure its functionality with
+unit tests against regressions. Since large portions of RSE especially are UI
+code, there should be an automated UI test suite run every night. Tests should
+automatically run on all supported host platforms against all supported target
+platforms. Adopters should be able to run a TM test suite on their own systems
+easily, and configure it for sanity checking or compliance testing their own
+connector plug-ins.  
+In bugzilla, these items are tagged with <b>"[testing]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[testing%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [testing] open</a>).
+       </p><ul><li><b>Committed</b><ul><li>[testing] Unit test failures in RSE 3.0.1 [<a href="http://bugs.eclipse.org/247908">247908</a>] (target milestone: 3.1 M4)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[testing] Need a unit test to exercise IFileService streams with multiple threads [<a href="http://bugs.eclipse.org/198661">198661</a>] (target milestone: ---)</li><li>[testing] FileServiceArchiveTest.testOpenFileFromTarArchive fails on Linux [<a href="http://bugs.eclipse.org/219686">219686</a>] (target milestone: 3.1)</li><li>[testing] FileServiceArchiveTest leaves temporary files and folders behind in TEMP dir [<a href="http://bugs.eclipse.org/222544">222544</a>] (target milestone: 3.1)</li><li>[testing] Improve ShellService Unittests [<a href="http://bugs.eclipse.org/249102">249102</a>] (target milestone: 3.1)</li><li>[testing] testcase testFTPAccessToHost_ftp_suse_com fails [<a href="http://bugs.eclipse.org/175095">175095</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Tentative: Fix and improve the EFS provider</h3><p>
+The RSE EFS provider is an important piece of integration for other projects
+to get access to remote resources. It needs to work reliably and with
+good performance.
+In bugzilla, these items are tagged with <b>"[efs]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[efs%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [efs] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[efs] Opening files that would open in Web Browser editor doesn't display file and brings up download dialog [<a href="http://bugs.eclipse.org/199582">199582</a>] (target milestone: 3.1 M4)</li><li>[ssh][efs] Symbolic links in remote project are not in sync [<a href="http://bugs.eclipse.org/238703">238703</a>] <strike>(target milestone: 3.1 M2)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[efs][ftp][performance] Typing name of New Class is slow [<a href="http://bugs.eclipse.org/205450">205450</a>] (target milestone: ---)</li><li>[efs] CVS Decorators stop working [<a href="http://bugs.eclipse.org/210828">210828</a>] (target milestone: ---)</li><li>[efs] Add plugin-specific status code to exceptions we generate [<a href="http://bugs.eclipse.org/218641">218641</a>] (target milestone: ---)</li><li>[efs] Look into using 2nd level text of SystemMessages for CoreExceptions [<a href="http://bugs.eclipse.org/218643">218643</a>] (target milestone: ---)</li><li>[efs] RSE EFS provider should implement copy() and move() efficiently [<a href="http://bugs.eclipse.org/186312">186312</a>] (target milestone: ---)</li><li>[efs] RSE EFS provider can return outdated file info [<a href="http://bugs.eclipse.org/186313">186313</a>] (target milestone: ---)</li><li>[efs] EFS Not Notified Of Rename/Delete Events [<a href="http://bugs.eclipse.org/192896">192896</a>] (target milestone: ---)</li><li>[efs] Get "invalid thread access" if cancel the creation of a remote project. [<a href="http://bugs.eclipse.org/203390">203390</a>] (target milestone: ---)</li><li>[efs] Cannot delete a directory resource from a C++ (CDT) project whilst using dstore [<a href="http://bugs.eclipse.org/206040">206040</a>] (target milestone: ---)</li><li>[efs] Problem while trying to add preferences to Remote Project. [<a href="http://bugs.eclipse.org/206258">206258</a>] (target milestone: ---)</li><li>[efs] NPE when Opening Closed Project and password not saved [<a href="http://bugs.eclipse.org/206926">206926</a>] (target milestone: ---)</li><li>[efs] Cannot delete linked folder after the RSE connection was deleted [<a href="http://bugs.eclipse.org/208911">208911</a>] (target milestone: ---)</li><li>[efs] Deadlock while starting dirty workspace [<a href="http://bugs.eclipse.org/226564">226564</a>] (target milestone: ---)</li><li>[efs] Empty project content, or not synchronized content after project open. [<a href="http://bugs.eclipse.org/232257">232257</a>] (target milestone: ---)</li><li>[efs] Cannot restore editors for RSE/EFS-backed resources [<a href="http://bugs.eclipse.org/241316">241316</a>] (target milestone: ---)</li><li>[efs] Link remote resources into workspace [<a href="http://bugs.eclipse.org/207189">207189</a>] (target milestone: ---)</li><li>[efs][ssh][performance] Eclipse hangs when importing a project that contains a linked resource for a large, slow, efs-ssh-shared file system [<a href="http://bugs.eclipse.org/219164">219164</a>] (target milestone: ---)</li><li>[efs] Renaming remote project appears to succeed, but produces an error. [<a href="http://bugs.eclipse.org/213596">213596</a>] (target milestone: ---)</li><li>[efs] RSE EFS provider URIs should support disambiguation of multiple connections to the same host [<a href="http://bugs.eclipse.org/186315">186315</a>] (target milestone: 3.1)</li><li>[efs][performance] Eclipse hangs on startup of a Workspace with a large efs-shared file system on a slow connection [<a href="http://bugs.eclipse.org/218387">218387</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[efs] Create Remote Project Action should use New Project Wizard [<a href="http://bugs.eclipse.org/201438">201438</a>] (target milestone: Future)</li><li>[efs] Request an EFS provider that makes use of RSE file caching [<a href="http://bugs.eclipse.org/212130">212130</a>] (target milestone: Future)</li><li>[efs] File content caching. [<a href="http://bugs.eclipse.org/231779">231779</a>] (target milestone: Future)</li><li>[efs] Linking Individual Files is not possible [<a href="http://bugs.eclipse.org/213621">213621</a>] (target milestone: Future)</li><li>[efs] "Create Remote Project" progress dialog cannot be sent to background [<a href="http://bugs.eclipse.org/185521">185521</a>] (target milestone: Future)</li><li>[importexport][efs] Export from Project on a remote EFS project Errors [<a href="http://bugs.eclipse.org/191482">191482</a>] (target milestone: Future)</li><li>[efs] EFS project fails to open on workbench startup [<a href="http://bugs.eclipse.org/181460">181460</a>] (target milestone: Future)</li><li>[efs] RSE EFS provider should simplify exception handling [<a href="http://bugs.eclipse.org/186314">186314</a>] (target milestone: Future)</li><li>[importexport][efs] Import to Project doesn't work with remote EFS projects [<a href="http://bugs.eclipse.org/191558">191558</a>] (target milestone: Future)</li></ul></li></ul><h3>Improve User Actions and Compile Commands</h3><p>
+The User Actions and Compile Commands component is meant to be a re-usable 
+framework, but as of TM/RSE 3.0 it does not expose any public API yet. Its
+API needs to be hardened, and functionality needs to be made reliable with
+good usability.
+In bugzilla, these items are tagged with <b>"[useractions]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[useractions%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [useractions] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[useractions] Tooltips missing for Compile and User Action menus [<a href="http://bugs.eclipse.org/239697">239697</a>] <strike>(target milestone: 3.1 M3)</strike></li><li>[useractions] Compile Commands are available on items it shouldn't [<a href="http://bugs.eclipse.org/239700">239700</a>] <strike>(target milestone: 3.1 M4)</strike></li><li>[useractions] Error Messages containing {0} [<a href="http://bugs.eclipse.org/239703">239703</a>] <strike>(target milestone: 3.1 M3)</strike></li><li>[useractions] Everytime a Compile command is selected a saving profile job is performed [<a href="http://bugs.eclipse.org/252707">252707</a>] <strike>(target milestone: 3.1 M3)</strike></li><li>[useractions] ClassCastException in SystemDynamicUserActionMenu, SystemDynamicCompileMenu [<a href="http://bugs.eclipse.org/253037">253037</a>] <strike>(target milestone: 3.1 M4)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[useractions] Move Up/Down doesn't work in Work With Named Types dialog [<a href="http://bugs.eclipse.org/243923">243923</a>] (target milestone: 3.1)</li><li>[useractions] User Actions/Compile Commands should be disabled when files or shells subsystem is missing [<a href="http://bugs.eclipse.org/222834">222834</a>] (target milestone: ---)</li><li>[useractions] Providing default user actions/compile commands [<a href="http://bugs.eclipse.org/227758">227758</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Improve Usability</h3><p>
+TM and RSE are increasingly used for mostly remote file access, but also
+other kinds of remote operations. Setup and usage should be simple, and
+users should be aided in their first-time experience wherever possible.
+This includes new much-wanted features, addition of user documentation 
+and cheat sheets, improvements in Wizards, and striving for consistency 
+across all of Eclipse / Galileo in terms of UI metaphors.
+In bugzilla, these items are tagged with <b>"[usability]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[usability%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [usability] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[usability][gsoc] Make RSE IFileService a provider for Platform/Team synchronization APIs [<a href="http://bugs.eclipse.org/185925">185925</a>] (target milestone: 3.1 M4)</li><li>[usability][dnd] Changing the sort order of hosts in the SystemView should work by drag &amp; drop [<a href="http://bugs.eclipse.org/196166">196166</a>] (target milestone: 3.1 M3)</li><li>[usability] Save conflict dialog appears when saving files in the editor [<a href="http://bugs.eclipse.org/249544">249544</a>] <strike>(target milestone: 3.1 M3)</strike></li><li>[usability] RSE Save Conflict dialog should indicate which file is in conflict [<a href="http://bugs.eclipse.org/242389">242389</a>] <strike>(target milestone: 3.1 M3)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[usability] Data in Remote Resource Property Pages doesnt allow Copy&amp;Paste [<a href="http://bugs.eclipse.org/175344">175344</a>] (target milestone: 3.1)</li><li>[usability][Table] use "Link With" icon instead of "Lock" in RSE Details View Toolbar [<a href="http://bugs.eclipse.org/193477">193477</a>] (target milestone: 3.1)</li><li>[usability][nls] Delete dialog should have a "Do not show again" checkbox [<a href="http://bugs.eclipse.org/195999">195999</a>] (target milestone: 3.1)</li><li>[usability][editors] Check editor up-to-date-status on activating a remote editor [<a href="http://bugs.eclipse.org/199418">199418</a>] (target milestone: ---)</li><li>[usability][editors] Provide a "diff files" option on the editor save conflict dialog [<a href="http://bugs.eclipse.org/199438">199438</a>] (target milestone: ---)</li><li>[usability][dnd] Error message overwritten in copy / paste if multiple "invalid transfer"errors reported [<a href="http://bugs.eclipse.org/244328">244328</a>] (target milestone: 3.1)</li><li>[usability] Expand Synchronize Cache function [<a href="http://bugs.eclipse.org/245256">245256</a>] (target milestone: 3.1)</li><li>[usability] Having command and result tie together in Shell console Currently, command and its result are in separate window. It's hard to tell which result corresponds to which command. [<a href="http://bugs.eclipse.org/232274">232274</a>] (target milestone: 3.1)</li><li>[usability] Request a "Link with Systemview" button to hightlight the remote shell's current directory [<a href="http://bugs.eclipse.org/243572">243572</a>] (target milestone: 3.1)</li><li>[usability] Specify commands to be run before remote application launch [<a href="http://bugs.eclipse.org/181517">181517</a>] (target milestone: 3.1)</li><li>[usability][ssh] Improve Error message when connecting and password has expired [<a href="http://bugs.eclipse.org/198396">198396</a>] (target milestone: ---)</li><li>[usability] Improve UI for setting the default root of a ssh connection [<a href="http://bugs.eclipse.org/210228">210228</a>] (target milestone: ---)</li><li>[usability] Cannot Copy &amp; Paste / Drag&amp;Drop remote files to Windows Explorer [<a href="http://bugs.eclipse.org/181458">181458</a>] (target milestone: 3.1)</li><li>[usability] Add Support for WAR Archives [<a href="http://bugs.eclipse.org/225211">225211</a>] (target milestone: ---)</li><li>[usability] Archives have no special icon on Linux-GTK host [<a href="http://bugs.eclipse.org/141826">141826</a>] (target milestone: ---)</li><li>[usability][nls] Consider using "rename/merge" on the conflict dialog for folders instead of "rename/overwrite" [<a href="http://bugs.eclipse.org/196329">196329</a>] (target milestone: ---)</li><li>[usability] Docs refer to "Remote Commands" view which is now "Remote Shell" [<a href="http://bugs.eclipse.org/160783">160783</a>] (target milestone: 3.1)</li><li>[usability][ftp] The username dialog should have a checkbox for anonymous access [<a href="http://bugs.eclipse.org/161212">161212</a>] (target milestone: ---)</li><li>[usability] Editor Conflict: Save as new file browse dialog should have better default [<a href="http://bugs.eclipse.org/162706">162706</a>] (target milestone: ---)</li><li>[usability][components] The Files, Processes, Shells wizard and property pages should be improved [<a href="http://bugs.eclipse.org/176490">176490</a>] (target milestone: ---)</li><li>[usability] Need an overaly icon for broken symbolic links [<a href="http://bugs.eclipse.org/216319">216319</a>] (target milestone: ---)</li><li>[usability][api] allow the user to save editor with a different name when read-only [<a href="http://bugs.eclipse.org/166302">166302</a>] (target milestone: 3.1)</li><li>[usability][components] RSE should honor capabilities for hiding features [<a href="http://bugs.eclipse.org/172650">172650</a>] (target milestone: 3.1)</li><li>[usability] Mylyn Integration for RSE [<a href="http://bugs.eclipse.org/183259">183259</a>] (target milestone: ---)</li><li>[usability] Dbl clicking a remote file should indicate progress while downloading [<a href="http://bugs.eclipse.org/187209">187209</a>] (target milestone: ---)</li><li>[usability][nls] The "port" property for FTP, SSH, Telnet should be in the New Connection Wizard [<a href="http://bugs.eclipse.org/195403">195403</a>] (target milestone: ---)</li><li>[usability][shells] SSH Only should auto-detect remote environment (for encoding) [<a href="http://bugs.eclipse.org/244404">244404</a>] (target milestone: ---)</li><li>[usability][updating] Dirty remote editors do not get notified [<a href="http://bugs.eclipse.org/143462">143462</a>] (target milestone: 3.1)</li><li>[usability] Specify commands to be run on shell startup [<a href="http://bugs.eclipse.org/181402">181402</a>] (target milestone: ---)</li><li>[usability] Adapt RSE view(s) to follow decoration style of the Eclipse platform common navigator [<a href="http://bugs.eclipse.org/238519">238519</a>] (target milestone: 3.1)</li><li>[usability] "Copy" in Properties doesn't allow for copy of only the Value [<a href="http://bugs.eclipse.org/160766">160766</a>] (target milestone: 3.1)</li><li>[usability] Choosing New &gt; Filter with a filter selected, should fill in filter values based on selection [<a href="http://bugs.eclipse.org/162888">162888</a>] (target milestone: 3.1)</li><li>[usability] Different rename behavior than standard Eclipse [<a href="http://bugs.eclipse.org/162992">162992</a>] (target milestone: ---)</li><li>[usability] Universal action needed to locate a resource in the Remote Systems View [<a href="http://bugs.eclipse.org/160105">160105</a>] (target milestone: 3.1)</li><li>[usability] Remote Monitor makes the System View unusable [<a href="http://bugs.eclipse.org/150954">150954</a>] (target milestone: ---)</li><li>[usability] Cannot Copy &amp; Paste / Drag&amp;Drop to Project Explorer [<a href="http://bugs.eclipse.org/153652">153652</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[usability] Username/Password dialog should be incorporated into New Connection wizard [<a href="http://bugs.eclipse.org/210226">210226</a>] (target milestone: Future)</li><li>[usability] Contribute a "Show in RSE" action to Resource Navigator and Project Explorer [<a href="http://bugs.eclipse.org/218227">218227</a>] (target milestone: Future)</li><li>[usability][dnd] Paste into read-only folder fails silently [<a href="http://bugs.eclipse.org/228743">228743</a>] (target milestone: Future)</li><li>[usability][dstore] RSE Server Launcher Page - UI change proposal [<a href="http://bugs.eclipse.org/233480">233480</a>] (target milestone: Future)</li><li>[usability] Configuring dstore "Running" server is not intuitive [<a href="http://bugs.eclipse.org/158726">158726</a>] (target milestone: Future)</li><li>[usability][dstore] Connecting a windows "Running" dstore server is too difficult [<a href="http://bugs.eclipse.org/160020">160020</a>] (target milestone: Future)</li><li>[usability] Support remote folder compares [<a href="http://bugs.eclipse.org/203001">203001</a>] (target milestone: Future)</li><li>[usability] Downloading multiple files should show a master progress [<a href="http://bugs.eclipse.org/149790">149790</a>] (target milestone: Future)</li></ul></li></ul><h3>Componentization</h3><p>
+TM and RSE are adopted in many diverse products. In order to increase
+adoption in RCPs, headless (server-side) applications and highly
+configurable, dynamic environments, RSE must be further split into
+re-usable components. This includes clean UI/Non-UI splitting; stripping
+of all Workspace / Resources related code into a separate plug-in; making
+enablement of subsystems more dynamic; and improved Wizards that support
+creating connections from a choice of optional subsystems rather than just
+relying on static association.
+In bugzilla, these items are tagged with <b>"[components]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[components%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [components] open</a>).
+      </p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[components] shells.ui should not depend on files.ui [<a href="http://bugs.eclipse.org/230400">230400</a>] (target milestone: 3.1)</li><li>[components][dstore][api] Request a Logging interface, to be used in either client or server [<a href="http://bugs.eclipse.org/199858">199858</a>] (target milestone: 3.1)</li><li>[components][api] Move SubsystemConfiguration and SubSystem from UI to Core [<a href="http://bugs.eclipse.org/190231">190231</a>] (target milestone: 3.1)</li><li>[usability][components] The Files, Processes, Shells wizard and property pages should be improved [<a href="http://bugs.eclipse.org/176490">176490</a>] (target milestone: ---)</li><li>[components][api] StandardCredentialProvider should not require UI if password is stored [<a href="http://bugs.eclipse.org/183771">183771</a>] (target milestone: 3.1)</li><li>[components] Remote System Details view is adding an additional column which is not within the returned property descriptors list [<a href="http://bugs.eclipse.org/193329">193329</a>] (target milestone: ---)</li><li>[components] Need generalized target descriptions [<a href="http://bugs.eclipse.org/146090">146090</a>] (target milestone: ---)</li><li>[usability][components] RSE should honor capabilities for hiding features [<a href="http://bugs.eclipse.org/172650">172650</a>] (target milestone: 3.1)</li><li>[components][api] two or more subsystems of the same kind cannot be added to the same host [<a href="http://bugs.eclipse.org/174495">174495</a>] (target milestone: ---)</li><li>[components][api][performance] Introduce subsystem configuration families [<a href="http://bugs.eclipse.org/217894">217894</a>] (target milestone: ---)</li><li>[components][performanc][api] Reduce the number of plugins [<a href="http://bugs.eclipse.org/142475">142475</a>] (target milestone: ---)</li><li>[components] RSE runtime core shows Linux connection with shell processes subsystem [<a href="http://bugs.eclipse.org/189454">189454</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[components] RSE Tempfiles should not be stored in projects [<a href="http://bugs.eclipse.org/158770">158770</a>] (target milestone: Future)</li><li>[rcp][components] Move Workspace related Actions to separate plugin [<a href="http://bugs.eclipse.org/182363">182363</a>] (target milestone: Future)</li><li>[components] Improve Subsystem enablement in the New Connection Wizard [<a href="http://bugs.eclipse.org/142493">142493</a>] (target milestone: Future)</li><li>[components][api] Creation of new subsystems should be simplified [<a href="http://bugs.eclipse.org/150928">150928</a>] (target milestone: Future)</li></ul></li></ul><h3>Avoid plugin activation and Improve Performance</h3><p>
+RSE should activate plugins only when necessary, and work with
+good overall performance.
+In bugzilla, these items are tagged with <b>"[performance]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[performance%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [performance] open</a>).
+      </p><ul><li><b>Committed</b><ul><li>[performance][api] Timeout waiting when loading SystemPreferencesManager$ModelChangeListener during startup [<a href="http://bugs.eclipse.org/246406">246406</a>] (target milestone: 3.1 M4)</li><li>[performance] Deleting Filter Pool takes a long time and causes Property View to refresh a lot [<a href="http://bugs.eclipse.org/233748">233748</a>] (target milestone: 3.1 M3)</li><li>[performance] Improve deferred loading of SystemMessages.xml [<a href="http://bugs.eclipse.org/249138">249138</a>] (target milestone: 3.1 M4)</li><li>[ssh][performance][api] Improve Sftp performance by re-using open file channels where possible [<a href="http://bugs.eclipse.org/256581">256581</a>] (target milestone: 3.1 M5)</li><li>[performance] Restoring Selection on Restart can cause the UI to freeze [<a href="http://bugs.eclipse.org/247544">247544</a>] <strike>(target milestone: 3.1 M2)</strike></li><li>[performance] Context menu takes a while to pop up when Saving Profile job is going [<a href="http://bugs.eclipse.org/252357">252357</a>] <strike>(target milestone: 3.1 M3)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[performance] RSE should not process resource changes if not relevant [<a href="http://bugs.eclipse.org/201270">201270</a>] (target milestone: 3.1)</li><li>[performance][persistence] Persistence providers are too slow [<a href="http://bugs.eclipse.org/244172">244172</a>] (target milestone: 3.1)</li><li>[performance][dstore] Right-click &gt; Disconnect on a dstore connection is slow and spawns many Jobs [<a href="http://bugs.eclipse.org/190805">190805</a>] (target milestone: ---)</li><li>[performance] Duplicate Queries between Table and Remote Systems View [<a href="http://bugs.eclipse.org/215814">215814</a>] (target milestone: 3.1)</li><li>[performance] Remove All Match's from Search Results Takes a while [<a href="http://bugs.eclipse.org/190015">190015</a>] (target milestone: 3.1)</li><li>[performance] Editor dblcklick performs remote operation in UI thread [<a href="http://bugs.eclipse.org/190774">190774</a>] (target milestone: 3.1)</li><li>[dstore][performance] Get content of large directories in groups [<a href="http://bugs.eclipse.org/257211">257211</a>] (target milestone: ---)</li><li>[performance][ftp] FTP should allow multiple concurrent uploads and downloads [<a href="http://bugs.eclipse.org/180965">180965</a>] (target milestone: ---)</li><li>[efs][ftp][performance] Typing name of New Class is slow [<a href="http://bugs.eclipse.org/205450">205450</a>] (target milestone: ---)</li><li>[performance] Direcory discovery with SSH connections. [<a href="http://bugs.eclipse.org/231770">231770</a>] (target milestone: ---)</li><li>[performance][api] Performance optimization of IFileService.list() and IFileService.listMultiple() [<a href="http://bugs.eclipse.org/236065">236065</a>] (target milestone: ---)</li><li>[performance] processes.shell.linux subsystem is slow over ssh [<a href="http://bugs.eclipse.org/175300">175300</a>] (target milestone: ---)</li><li>[components][api][performance] Introduce subsystem configuration families [<a href="http://bugs.eclipse.org/217894">217894</a>] (target milestone: ---)</li><li>[efs][ssh][performance] Eclipse hangs when importing a project that contains a linked resource for a large, slow, efs-ssh-shared file system [<a href="http://bugs.eclipse.org/219164">219164</a>] (target milestone: ---)</li><li>[ssh][performance] support supertransfer on SSH connections [<a href="http://bugs.eclipse.org/256587">256587</a>] (target milestone: ---)</li><li>[efs][performance] Eclipse hangs on startup of a Workspace with a large efs-shared file system on a slow connection [<a href="http://bugs.eclipse.org/218387">218387</a>] (target milestone: ---)</li><li>[performance] Improve efficiency of SystemView.recursiveFindAllRemoteItemFilterReferences() [<a href="http://bugs.eclipse.org/151049">151049</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[ftp][performance] FTP should support downloads in parallel to LIST commands (and multiple parallel downloads) [<a href="http://bugs.eclipse.org/198636">198636</a>] (target milestone: Future)</li><li>[performance][api] Support Lazy Population of Views and Tables [<a href="http://bugs.eclipse.org/201974">201974</a>] (target milestone: Future)</li></ul></li></ul><h3>Other</h3><p>
+Features and bugs that we plan to address in the next release cycle until 3.1 M7, that are not categorized into one of the themes above.
+Items currently under discussion include rewriting the Details View for more flexibility, improved multi-core awareness of RSE,
+and an improved logging framework.&lt;br&gt;
+In order not to overload the project plan with less important items, only those marked with a <b>"plan"</b> or <b>"investigate"</b> keyword will be
+added to the project plan. The pool of known items to add to the plan can be found from the
+associated queries
+(query: all open
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(tcf|wince|terminal|releng|testing|efs|performance|useractions|usability|components)&amp;field0-1-0=target_milestone&amp;type0-1-0=substring&amp;value0-1-0=3.&amp;field0-2-0=target_milestone&amp;type0-2-0=notequals&amp;value0-2-0=3.1">committed</a>,
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.1&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(tcf|wince|terminal|releng|testing|efs|performance|useractions|usability|components)">proposed</a>,
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(tcf|wince|terminal|releng|testing|efs|performance|useractions|usability|components)">deferred</a>
+).
+	  </p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Some RSE Logging should go to a hidden log rather than the PDE Errorlog [<a href="http://bugs.eclipse.org/196317">196317</a>] (target milestone: 3.1)</li><li>[api] Align RSE Credential Management and Keystores with Platform Equinox [<a href="http://bugs.eclipse.org/196445">196445</a>] (target milestone: ---)</li><li>[security] Adopt Equinox Secure Storage for RSE Passwords [<a href="http://bugs.eclipse.org/225320">225320</a>] (target milestone: 3.1)</li><li>Cache problems on windows with files that are only different in case [<a href="http://bugs.eclipse.org/160100">160100</a>] (target milestone: 3.1)</li><li>[api] Need a Utility to send commands and receive output without prompt [<a href="http://bugs.eclipse.org/212742">212742</a>] (target milestone: 3.1)</li><li>[contributions][api] Provide property tester implementations in parallel to the older action filters [<a href="http://bugs.eclipse.org/245039">245039</a>] (target milestone: 3.1)</li><li>Different user's connections on a single ftp host are mapped to the same temp files cache [<a href="http://bugs.eclipse.org/245260">245260</a>] (target milestone: 3.1)</li><li>[dstore] Backward compatibility: Server and Daemon should support old clients [<a href="http://bugs.eclipse.org/220892">220892</a>] (target milestone: ---)</li><li>[api] Request API to expand nodes in the system view to arbitrary level [<a href="http://bugs.eclipse.org/176461">176461</a>] (target milestone: ---)</li><li>[refresh] Refresh performs queries in the Dispatch (main) thread [<a href="http://bugs.eclipse.org/196662">196662</a>] (target milestone: 3.1)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>Do not log messages shown as a result of invalid user input [<a href="http://bugs.eclipse.org/142184">142184</a>] (target milestone: Future)</li><li>[Persistence] Granular Persistence [<a href="http://bugs.eclipse.org/197043">197043</a>] (target milestone: Future)</li><li>[filters] Grouping filters across subsystems [<a href="http://bugs.eclipse.org/164807">164807</a>] (target milestone: Future)</li><li>Dynamic filtering for the Remote System view [<a href="http://bugs.eclipse.org/170150">170150</a>] (target milestone: Future)</li><li>[api] RSE needs improved refresh policies [<a href="http://bugs.eclipse.org/173042">173042</a>] (target milestone: Future)</li><li>[api] Re-work and dramatically strip down SystemBaseAction and it's subclasses [<a href="http://bugs.eclipse.org/174557">174557</a>] (target milestone: Future)</li><li>[api] Need API to change the Statusline shown for a custom subsystems [<a href="http://bugs.eclipse.org/195995">195995</a>] (target milestone: Future)</li><li>Add Features to Remote Search view that are in the Search view [<a href="http://bugs.eclipse.org/214403">214403</a>] (target milestone: Future)</li><li>[api] Need IHostShell#waitFor(), IHostShell#writeToShellAndWait() [<a href="http://bugs.eclipse.org/164959">164959</a>] (target milestone: Future)</li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix A</a></h2><p>
+      The TM team uses Eclipse Bugzilla for all it's planning. Based on the plan item queries
+      listed above, the following consistency queries should never return any results:</p><ul>
+        <li>Target milestone "3.1", "---" or "Future" but resolved "FIXED":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.1&amp;target_milestone=Future&amp;resolution=FIXED&amp;cmdtype=doit">Query</a></li>
+        <li>Keyword "performance" but not tagged "[performance]":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;keywords_type=allwords&amp;keywords=performance&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[performance">Query</a></li>
+        <li>Component "TCF" but not tagged "[tcf]":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=TCF&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[tcf">Query</a></li>
+        <li>Component "Terminal" but not tagged "[terminal]":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Terminal&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[terminal">Query</a></li>
+        <li>Marked "FIXED" but still assigned to an "inbox":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;resolution=FIXED&amp;resolution=WORKSFORME&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=inbox&amp;cmdtype=doit">Query</a></li>
+      </ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=eclipse.pde&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>

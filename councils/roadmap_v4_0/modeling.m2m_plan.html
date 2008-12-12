@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Project Plan - modeling.m2m</title><meta name="author" content="Bjorn Freeman-Benson" />
+<meta name="keywords" content="" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css" title="small" /><link rel="alternate stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css" title="large" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css" media="screen" />
+<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie_style.css" media="screen"/> <![endif]-->
+<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/ie6_style.css" media="screen"/> <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css" media="screen" />
+<script type="text/javascript" src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/styleswitcher.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="header-graphic" class="eclipse-main">
+		<a href="http://www.eclipse.org/"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/eclipse_home_header.jpg" alt="" /></a><h1>Eclipse</h1>	
+	</div>
+	<div id="header-global-holder" class="eclipse-main-global">
+		<div id="header-global-links"><ul>
+<li><a href="http://www.eclipse.org/org/foundation/contact.php" class="first_one">Contact</a></li><li><a href="http://www.eclipse.org/legal/">Legal</a></li>
+			</ul>
+		</div>
+		<div id="header-icons">
+<a href="http://live.eclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png" width="28" height="28" alt="Eclipse Live" title="Eclipse Live" /></a>
+<a href="http://www.eclipseplugincentral.com"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png" width="28" height="28" alt="Eclipse Plugin Central" title="Eclipse Plugin Central" /></a>
+<a href="http://www.planeteclipse.org"><img src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png" width="28" height="28" alt="Planet Eclipse" title="Planet Eclipse" /></a>
+		</div>
+	</div></div><div id="header-menu"><div id="header-nav">
+		<ul>
+		<li><a class="first_one" href="http://www.eclipse.org/" target="_self">Home</a></li> 
+				<li><a  href="http://www.eclipse.org/users/" target="_self">Users</a></li> 
+				<li><a  href="http://www.eclipse.org/membership/" target="_self">Members</a></li> 
+				<li><a  href="http://www.eclipse.org/committers/" target="_self">Committers</a></li> 
+				<li><a  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></li> 
+				<li><a  href="http://www.eclipse.org/resources/" target="_self">Resources</a></li> 
+				<li><a  href="http://www.eclipse.org/projects/" target="_self">Projects</a></li> 
+				<li><a  href="http://www.eclipse.org/org/" target="_self">About Us</a></li> 
+				</ul>
+	</div>
+	<div id="header-utils">
+		<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+	 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+  		<input type="text" name="q" size="25" />
+  		<input type="submit" name="sa" value="Search" />
+		</form>
+		<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>		<ul>
+						<li class="text_size"><a class="smallText" title="Small Text" href="#" onclick="setActiveStyleSheet('small');return false;">A</a> <a class="largeText" title="Large Text" href="#" onclick="setActiveStyleSheet('large');return false;">A</a></li>
+		</ul>
+	</div></div><div id="leftcol">
+<ul id="leftnav">
+<li style="background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_fade.jpg); background-repeat: repeat-x; border-style: none;"><br /><br /><br /><br /><br /><br /><br /><br />
+</li>
+</ul>
+
+</div>
+<div id="container"><style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1><span style="font-size: 140%">Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2m">Model-to-Model Transformation (M2M)</a></span>, version 3.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>This document lays out the feature and API set for the
+			3.0 release of the ATL project, of the Eclipse M2M Project.
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+			The release deliverables have the same form as is found in most
+			Eclipse projects, namely:
+			<ul>
+				<li>ATL source code release, available as versions tagged
+					"R3_0" in the project's CVS repository.</li>
+				<li>M2M ATL SDK (includes runtime and tooling components,
+					with sources and documentation) (downloadable and update site).
+				</li>
+				<li>M2M ATL runtime binary distribution (downloadable and
+					update site).</li>
+				<li>M2M ATL examples (downloadable and update site).
+				</li>
+				<li>M2T ATL tests (downloadable and update site).</li>
+			</ul>
+		</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><p>Release milestones occur at roughly 6 week intervals
+				and follow the Platform release milestone by the Galileo-established
+				+2 delta interval.
+				ATL will synchronize its release milestones with
+				the
+				Galileo release schedule until the M4 date.
+			</p><table border="1" align="center"><tr><td><b>M4</b></td><td>12/29/2008</td><td/></tr><tr><td><b>M5</b></td><td>02/06/2009</td><td/></tr><tr><td><b>M6</b></td><td>03/18/2009</td><td><p>API freeze</p></td></tr><tr><td><b>M7</b></td><td>05/05/2009</td><td/></tr><tr><td><b>RC1</b></td><td>05/19/2009</td><td/></tr><tr><td><b>RC2</b></td><td>05/26/2009</td><td/></tr><tr><td><b>RC3</b></td><td>06/02/2009</td><td/></tr><tr><td><b>RC4</b></td><td>06/09/2009</td><td/></tr><tr><td><b>RC5</b></td><td>06/16/2009</td><td/></tr><tr><td><b>3.0</b></td><td>06/28/2009</td><td/></tr></table><div>
+				ATL produce maintenance releases to align with the Ganymede
+				Service
+				Releases
+				which includes the Eclipse Platform's 3.4.1
+				and 3.4.2
+				releases. Maintenance releases will only be published if they
+				contain new fixes.
+			</div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			In order to remain current, each Eclipse release targets
+			reasonably
+			current versions of the underlying operating environments.
+			The ATL
+			project depends upon on the Platform and other projects, which
+			are
+			mostly "pure" Java. The 3.5 release of the Eclipse Platform
+			Project
+			is written and compiled against version 1.4 of the Java
+			Platform
+			APIs, and targeted to run on version 1.4 of the Java Runtime
+			Environment, Standard Edition. ATL will target the same Java version
+			as the platform.
+		</div><h3>Internationalization</h3>
+			<div>
+				The Eclipse Platform is designed as the basis for
+				internationalized
+				products. The user interface elements provided by
+				the Eclipse SDK
+				components, including dialogs and error messages, are
+				externalized.
+				The English strings are provided as the default
+				resource bundles. As
+				a result, the ATL project will provide English
+				strings in its
+				default bundles and be localized to a subset of those
+				locales
+				offered by the Platform. This plan will be updated to
+				indicate which
+				locales will be provided and the time frame for
+				availability.
+			</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>We plan to change the API in the ATL 3.0 release but the
+			ATL language compatibility will be preserved.</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><h3>ATL 3.0 new features</h3><div>
+					Here is a list of the features we plan to integrate into the ATL
+					3.0 release.
+					<ul>
+						<li>Transformation launch API refactoring</li>
+						<li>Transformation launch UI improvement</li>
+						<li>New In-place model transformation mode</li>
+						<li>ATL transformation profiler integration</li>
+						<li>Documentation and example refactoring</li>
+						<li>Execution errors traceability improvement</li>
+						<li>ATL UI improvement</li>
+						<li>ATL debugger improvement</li>
+						<li>Transformation plugins export feature</li>
+						<li>Advanced UML profiles management</li>
+					</ul>
+				</div><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix Project Refactoring</a></h2><div>The ATL 3.0 release consists on a refactoring of the
+			current 2.0 version, in order to integrate new features</div><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix Legal Notices</a></h2><div>
+			
+				
+					Java is a trademark or a registered trademark of Sun
+					Microsystems, Inc.
+            
+				
+					All other products or company names are mentioned for
+					identification
+					purposes only,
+					and may be trademarks or service marks
+					of their respective owners.
+            
+			
+		</div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="visibility: hidden; float: right; text-align: right"><a href="?projectid=modeling.m2m&raw=1">view raw xml of project plan</a><br>
+<a href="http://www.eclipse.org/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- maincontent -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script></div><div id="footer">
+<ul id="footernav">
+<li class="first"><a href="http://www.eclipse.org/">Home</a></li>
+<li><a href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a><a href="http://www.eclipse.org/org/press-release/20081112_termsofuse.php"><img src="http://www.eclipse.org/images/updated.png" align="absmiddle" /></a></li>
+</ul>
+<p>Copyright &copy; 2008 The Eclipse Foundation. All Rights Reserved</p>
+</div></body></html>
