@@ -30,7 +30,7 @@
 	
 		<h1>$pageTitle</h1>
 		
-		<h2>Proposed Charter</h2>
+		<h2>Charter</h2>
 		
 		<h3>Purpose and Scope</h3>
 		
@@ -75,7 +75,7 @@
 		<ul>
 			<li>Be Strategic or Enterprise member
 			<li>Appoint at least 1 developer/technical resource to contribute to the creation of MIWG  
-			technologies, product roadmaps and/or technical documents.
+			technologies, roadmaps and/or technical documents.
 			<li>Regularly participate in all MIWG meetings and provide timely feedback on the MIWG documents.
 			<li>Provide announcement support for the Mobile Application Development Kit (MADK) and ongoing promotion to mobile application developers.
 		</ul> 
