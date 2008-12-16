@@ -30,31 +30,29 @@
 		continues to increase each year, so the job of the program committee is always very difficult.  Thanks to all who
 		sent in proposals.</p>
 		
-		<p>Talks at EclipseCon 2009 include XX long talk sessions and XX short talk sessions, over 20 tracks.
+		<p>Talks at EclipseCon 2009 include 80 long talk sessions and over 90 short talk sessions, over 18 tracks.
 		 The different tracks reflect the diversity of the Eclipse community and include:
 		 <table><tr>
 		 			<td>
 						 <ul>
-						 	<li><a href="http://www.eclipsecon.org" target="blank">Business and Industry</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">CDT</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Committer and Contributor</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Data Tooling</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Director's Choice</a></li>							
-							<li><a href="http://www.eclipsecon.org" target="blank">Emerging Technology</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">e4</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Java</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Linux DevCon</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Mobile and Embedded</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Modeling</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">OSGi DevCon</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Other</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Reporting</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Runtime</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">SOA</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Test and Performance</a></li>
-							<li><a href="http://www.eclipsecon.org" target="blank">Tools</a></li> 
-							<li><a href="http://www.eclipsecon.org" target="blank">UI / RCP</a></li> 
-							<li><a href="http://www.eclipsecon.org" target="blank">Web Tools</a></li>
+						 	<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Ecosystem%20-%20Business%20And%20Industry" target="blank">Business and Industry</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20IDE%20And%20Languages%20-%20CDT" target="blank">CDT</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Ecosystem%20-%20Committer%20And%20Contributor" target="blank">Committer and Contributor</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Frameworks%20-%20Data%20Tooling" target="blank">Data Tooling</a></li>			
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Ecosystem%20-%20Emerging%20Technology" target="blank">Emerging Technology</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Platform%20-%20e4" target="blank">e4</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20IDE%20And%20Languages%20-%20Java" target="blank">Java</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Frameworks%20-%20Mobile%20And%20Embedded" target="blank">Mobile and Embedded</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Frameworks%20-%20Modeling" target="blank">Modeling</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Supporting%20Technology%20-%20OSGi%20DevCon" target="blank">OSGi DevCon</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Ecosystem%20-%20Other" target="blank">Other</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Frameworks%20-%20Reporting" target="blank">Reporting</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Platform%20-%20Runtime" target="blank">Runtime</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Frameworks%20-%20SOA" target="blank">SOA</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Frameworks%20-%20Test%20And%20Performance" target="blank">Test and Performance</a></li>
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20IDE%20And%20Languages%20-%20Tools" target="blank">Tools</a></li> 
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20Platform%20-%20UI%20/%20RCP" target="blank">UI / RCP</a></li> 
+							<li><a href="http://www.eclipsecon.org/2009/sessions?category=Eclipse%20IDE%20And%20Languages%20-%20Web%20Tools" target="blank">Web Tools</a></li>
 						 </ul>
 					</td>
 					<td>
