@@ -41,42 +41,42 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.openmakesoftware.com/meister-info/">OpenMake Meister</a></li>		
+				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>		
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://andrei.gmxhome.de/anyedit/index.html">AnyEdit Tools</a></li>		
+				<li><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank">AnyEdit Tools</a></li>		
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"> </a></li>	
+				<li><a href="http://www.eclipse.org" target="blank"> </a></li>	
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best Open Source Equinox Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"> </a></li>			
+				<li><a href="http://www.eclipse.org" target="blank"> </a></li>			
 			</ul>
 		</div>
 
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"> </a></li>	
+				<li><a href="http://www.eclipse.org" target="blank"> </a></li>	
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org"> </a></li>			
+				<li><a href="http://www.eclipse.org" target="blank"> </a></li>			
 			</ul>
 		</div>
 	<br><br>	
