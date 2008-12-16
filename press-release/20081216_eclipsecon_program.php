@@ -30,7 +30,7 @@
 		continues to increase each year, so the job of the program committee is always very difficult.  Thanks to all who
 		sent in proposals.</p>
 		
-		<p>Talks at EclipseCon 2009 include 80 long talk sessions and over 90 short talk sessions, over 18 tracks.
+		<p>Talks at EclipseCon 2009 include 80 long talk sessions and over 90 short talk sessions, organized within 18 tracks.
 		 The different tracks reflect the diversity of the Eclipse community and include:
 		 <table><tr>
 		 			<td>
