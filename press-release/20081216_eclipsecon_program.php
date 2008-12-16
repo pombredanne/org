@@ -64,7 +64,7 @@
 		 </p>
 
 		<p><a href="http://www.eclipse.org/go/EC_SITE@cbdec16">EclipseCon 2009</a> will be held March 23-26 at the Santa Clara Convention Center.  People that
-		<a href="http://www.eclipse.org/go/EC_SITE@cbdec16" target="blank">register</a> before December 31, 2008 will qualify
+		<a href="http://www.eclipse.org/go/ECR_SITE@cbdec16" target="blank">register</a> before December 31, 2008 will qualify
 		for the early registration price. Sign up today to be a part of the best EclipseCon yet!</p>
 
 		<br><br>
