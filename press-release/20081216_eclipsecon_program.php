@@ -26,7 +26,7 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>The technical program for EclipseCon 2009 has been selected and is now available on the
-		<a href="http://www.eclipse.org/go/ESE_SITE@cbdec16">conference web site</a>.  The number and quality of submissions received
+		<a href="http://www.eclipse.org/go/EC_SITE@cbdec16">conference web site</a>.  The number and quality of submissions received
 		continues to increase each year, so the job of the program committee is always very difficult.  Thanks to all who
 		sent in proposals.</p>
 		
@@ -57,14 +57,14 @@
 					</td>
 					<td>
 						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-						<a href="http://www.eclipse.org/go/ESE_SITE@cbdec16"><img border="0" src="http://www.eclipsecon.org/2009/static/image/image125x125.gif"
+						<a href="http://www.eclipse.org/go/EC_SITE@cbdec16"><img border="0" src="http://www.eclipsecon.org/2009/static/image/image125x125.gif"
  						height="125" width="125" alt="EclipseCon 2009"></a>
 					</td>
 		</tr></table>
 		 </p>
 
-		<p><a href="http://www.eclipse.org/go/ESE_SITE@cbdec16">EclipseCon 2009</a> will be held March 23-26 at the Santa Clara Convention Center.  People that
-		<a href="http://www.eclipse.org/go/ESE_SITE@cbdec16" target="blank">register</a> before December 31, 2008 will qualify
+		<p><a href="http://www.eclipse.org/go/EC_SITE@cbdec16">EclipseCon 2009</a> will be held March 23-26 at the Santa Clara Convention Center.  People that
+		<a href="http://www.eclipse.org/go/EC_SITE@cbdec16" target="blank">register</a> before December 31, 2008 will qualify
 		for the early registration price. Sign up today to be a part of the best EclipseCon yet!</p>
 
 		<br><br>
