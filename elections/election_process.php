@@ -47,7 +47,7 @@
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and Enterprise Members).
 		The number of these	elected representatives is a ratio of the total number of Strategic Members. 
-		<br/><br/>For $year, there are to be
+		<br/><br/>For 2009, there are to be
 		five elected committer representatives and five elected Sustaining Member representatives. </li>
 		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
 		<li>The term of office for	these elected board members is one year, commencing April 1. </li>
