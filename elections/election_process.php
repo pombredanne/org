@@ -45,14 +45,14 @@
 		<p>&nbsp;&nbsp;The process for the Eclipse Foundation&rsquo;s annual elections is described below.</p>
 		<ul>
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the add-in providers. The number of these
-		elected representatives is a ratio of the total number of Strategic Members. 
+		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and Enterprise Members).
+		The number of these	elected representatives is a ratio of the total number of Strategic Members. 
 		<br/><br/>For $year, there are to be
-		four elected committer representatives and four elected add-in provider representatives. </li>
+		five elected committer representatives and five elected Sustaining Member representatives. </li>
 		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
 		<li>The term of office for	these elected board members is one year, commencing April 1. </li>
 		<li>Voting for the elected board members is done using <a href="http://en.wikipedia.org/wiki/Single_Transferable_Vote">single transferrable voting</a>.</li>
-		<li>Each Add-in Provider Member gets one vote. </li>
+		<li>Each Sustaining Member gets one vote. </li>
 		<li>Each Committer Member gets one vote. Note that committers who are employees of Member companies have
 		all the rights and privileges (including voting) of a Committer Member. 
 		<p>Individual committers must join the Eclipse Foundation as Committer Members by signing the 
