@@ -41,7 +41,8 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>Each year, the Eclipse Founation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
+		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and
+		Enterprise Members). The terms of office for
 		these elected board members is one year, commencing April 1.</p>
 		<div class="homeitem3col">
 	    <h3><a name="Dates"></a>Key Dates</h3>
