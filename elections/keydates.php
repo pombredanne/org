@@ -19,7 +19,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "$year Election Key Dates";
+	$pageTitle 		= "2009 Election Key Dates";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -45,7 +45,7 @@
 		these elected board members is one year, commencing April 1.</p>
 		<div class="homeitem3col">
 	    <h3><a name="Dates"></a>Key Dates</h3>
-		<p>&nbsp;&nbsp;The key dates for the $year elections are:</p>
+		<p>&nbsp;&nbsp;The key dates for the 2009 elections are:</p>
 		<ul>
 		<li>January 12, 2009: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
 		the subject "Sustaining Member Nomination" or "Committer Nomination." As soon as possible after an individual 
