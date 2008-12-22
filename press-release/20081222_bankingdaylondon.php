@@ -24,7 +24,7 @@
      	<p>
 			The Eclipse Foundation is please to announce the <a href="http://wiki.eclipse.org/EclipseBankingDayLondon">
 			Eclipse Banking Day in London</a>, on 
-			December 9, 2008.  This event is for architects, development managers and senior 
+			February 12, 2009.  This event is for architects, development managers and senior 
 			developers who work for a financial institution and use Eclipse.  It is an opportunity to learn from 
 			Eclipse experts and discover what leading financial institutions, such as J.P. Morgan, Barclays, 
 			la Caixa and Bank of East Asia are doing with Eclipse.
