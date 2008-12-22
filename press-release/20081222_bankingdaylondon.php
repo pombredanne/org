@@ -33,7 +33,7 @@
 		There is no cost to attend but you need to work for a financial institution and 
 		<a href="http://wiki.eclipse.org/EclipseBankingDayLondon#Attendee_Registration">pre-register</a>.</p>
  		<p>
- 		The Eclipse Foundation would like to thank our sponsors Actuate, itemis, Sybase and WeigleWilczek, who 
+ 		The Eclipse Foundation would like to thank our sponsors Actuate, itemis, Sybase and WeigleWilczek who 
  		are helping to make it possible to have it as a no-cost event.</p>
 		  
 	</div>
