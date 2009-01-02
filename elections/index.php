@@ -41,14 +41,15 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>Each year, the Eclipse Foundation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the add-in providers. The terms of office for
+		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and
+		Enterprise Members). The terms of office for
 		these elected board members is one year, commencing April 1.</p>
 		<p>
 		Candidates and the community are encouraged to discuss the issues on the eclipse.foundation newsgroup 
 		(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).
 		<div class="homeitem3col">
 	    <h3>2009 Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the $year elections is contained within the links below:</p>
+		<p>&nbsp;&nbsp;Information concerning the 2009 elections is contained within the links below:</p>
 		<ul>
 		<li>The <a href="nominees.php">candidates</a> for the previous 2008 election.</li>
 		<li>The <a href="keydates.php">key dates</a> for the 2009 election.</li>
