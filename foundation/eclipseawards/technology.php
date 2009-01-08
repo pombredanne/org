@@ -49,6 +49,7 @@ ob_start();
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank">AnyEdit Tools</a></li>		
+				<li><a href="http://www.eclipse4sl.org" target="blank">Eclipse4SL - Eclipse Tools for Silverlight</a></li>
 				<li><a href="http://openrules.com" target="blank">OpenRules</a></li>
 				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>	
 			</ul>
