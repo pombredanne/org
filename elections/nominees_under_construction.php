@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2008";
+	$year="2009";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -73,7 +73,7 @@ EOHTML;
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 	
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
-		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Add-in provider';
+		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
 		$html = "<h3>$type_name Candidates</h3><table border=\"0\" cellpadding=\"5\">";
 		foreach ($candidates as $candidate) {
 			if (strcmp($candidate->type, $type) != 0) continue;

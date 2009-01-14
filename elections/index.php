@@ -14,12 +14,12 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2008";
+	$year="2009";
 	$candidates = get_all_candidates($year);
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "2009 Eclipse Foundation Elections";
+	$pageTitle 		= "$year Eclipse Foundation Elections";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -48,11 +48,11 @@
 		Candidates and the community are encouraged to discuss the issues on the eclipse.foundation newsgroup 
 		(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).
 		<div class="homeitem3col">
-	    <h3>2009 Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the 2009 elections is contained within the links below:</p>
+	    <h3>$year Elections</h3>
+		<p>&nbsp;&nbsp;Information concerning the $year elections is contained within the links below:</p>
 		<ul>
-		<li>The <a href="nominees.php">candidates</a> for the previous 2008 election.</li>
-		<li>The <a href="keydates.php">key dates</a> for the 2009 election.</li>
+		<li>The <a href="nominees_under_construction.php">candidates</a> for the election.</li>
+		<li>The <a href="keydates.php">key dates</a> for the $year election.</li>
 		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
 		</ul>
 		</div>
@@ -73,7 +73,7 @@ EOHTML;
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 	
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
-		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Add-in provider';
+		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
 		$html = "<h3>$type_name Candidates</h3><table border=\"0\" cellpadding=\"5\">";
 		foreach ($candidates as $candidate) {
 			if (strcmp($candidate->type, $type) != 0) continue;

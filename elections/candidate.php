@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	$id = $_GET['id'];
-	$year = "2008";
+	$year = "2009";
 	$candidate = get_candidate($id, $year);
 	$candidates_summary = get_candidates_short_summary_as_html($year);
 	
@@ -32,7 +32,7 @@
 
 	# End: page-specific settings
 	#
-	$type_name = strcmp($candidate->type, 'committer') == 0 ? 'committer' : 'add-in provider';
+	$type_name = strcmp($candidate->type, 'committer') == 0 ? 'committer' : 'sustaining member';
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
