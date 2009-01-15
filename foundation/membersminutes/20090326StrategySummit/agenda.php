@@ -10,12 +10,13 @@ ob_start();
 	<div id="midcolumn">
 </head>
 
+<br>
 <h1>Open Source Executive Strategy Summit</h1>
 
-<br>Thursday, March 26, 2009 - 10:00am-5:00pm<br>
+<strong>Thursday, March 26, 2009 - 10:00am-5:00pm<br>
 Santa Clara Convention Center, Santa Clara, CA<br>
-(same location as EclipseCon 2009)</h2>
-<br>
+(co-located with EclipseCon 2009)</strong>
+<br><br>
 
 
 <P>The Eclipse Foundation is organizing an invitation-only one day
@@ -97,18 +98,22 @@ Innoopract&rsquo;s development culture.</P></LI>
 </OL>
 
 
-<P>The Eclipse OS Executive Strategy Summit will be held Thursday,
-March 26, 2009 at the Santa Clara Convention Center.&nbsp; This is
-the same time and location as EclipseCon, so participants will be
-able to attend EclipseCon.&nbsp; To request an invitation, please
+
+<P><Strong>Registration Information</strong></p>
+
+<p>Attendees must be executives of their organization.&nbsp; To request an invitation, please
 send an e-mail to <a href="mailto:strategysummit@eclipse.org">strategysummit@eclipse.org</a>.
-&nbsp; Attendees must be an
-executive within their organization.&nbsp; There is no cost to attend
-the Summit for representatives of Eclipse Foundation member
-companies.&nbsp; However, EclipseCon registration is required if the
-attendee wants to participate in any EclipseCon event.&nbsp; The cost
-for other participants is $500 for Summit or no cost if the attendee
-is registered for EclipseCon.</P>
+&nbsp; </p>
+
+<p>There is no cost to attend the Summit for Eclipse Foundation member companies but you must pre-register.  A $500 registration fee will be assessed to 
+individuals not associated with an Eclipse Foundation member.  </p>
+
+<p>Registration to the Summit does not include access
+to EclipseCon. Individuals that want to participate in <a href="http://www.eclipsecon.org/2009/registration">EclipseCon must register</a> for the conference. </p>
+
+<p>Space is limited for the Summit. Registration will be accepted on a first-come, first-serverd basis.</p>
+
+</P>
 
 <br>
 <br>
