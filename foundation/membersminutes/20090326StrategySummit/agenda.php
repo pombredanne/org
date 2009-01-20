@@ -22,7 +22,9 @@ Santa Clara Convention Center, Santa Clara, CA<br>
 <P>The Eclipse Foundation is organizing an invitation-only one day
 Open Source Executive Strategy Summit for  executives who
 are responsible for their organizations open
-source strategy and participation.&nbsp;&nbsp; The Summit will
+source strategy and participation.&nbsp;&nbsp; The purpose of event is to answer two questions: 
+1) 'What Open Source Strategies Are Working Today?' and 2) 'What Will Work in the Future?''  
+The Summit will
 feature industry speakers, case studies and group discussions that analyze the
 different aspects of an open source strategy, including product
 strategy, licensing, development models and community building.&nbsp;
@@ -94,6 +96,13 @@ open development model.&nbsp; He will discuss the pros and cons of
 working in an open and transparent manner and how it impact
 Innoopract&rsquo;s development culture.</P></LI>
 
+<LI><P><B>Panel Discussion: The Future of Open Source and Business</B></P>
+
+<P>  What is the future of open source in the software business?  The panelist will 
+highlight some of the trends, opportunities and challenges that see for 
+organizations adopting an open source strategy.
+</P>
+
 
 </OL>
 
@@ -111,7 +120,7 @@ individuals not associated with an Eclipse Foundation member.  </p>
 <p>Registration to the Summit does not include access
 to EclipseCon. Individuals that want to participate in <a href="http://www.eclipsecon.org/2009/registration">EclipseCon must register</a> for the conference. </p>
 
-<p>Space is limited for the Summit. Registration will be accepted on a first-come, first-serverd basis.</p>
+<p>Space is limited for the Summit. Each organization is asked to register only two individuals.  Registration will be accepted on a first-come, first-serverd basis.</p>
 
 </P>
 
