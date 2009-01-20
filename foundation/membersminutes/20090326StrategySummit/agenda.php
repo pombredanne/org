@@ -83,14 +83,14 @@ consider in your strategy to ensure it is successful.</P>	</LI>
 	
 <P>Abstract: Innoopract has been an active participant and supporter of the Eclipse community 
 since its inception. The launch of the Eclipse Rich Ajax Platform (RAP) project marked a tipping 
-point for Innoopract. It was Innoopract’s first participation in an open source project in a 
+point for Innoopract. It was Innoopract's first participation in an open source project in a 
 leadership role, providing a significant code contributions and most of the committers.
 
 </P>
 
 <P>In this presentation, Jochen Krause discusses the necessary evolution of the project team as 
 they changed their development approach to match an open development model. He will discuss the 
-pros and cons of working in an open and transparent manner and how it impact Innoopract’s development 
+pros and cons of working in an open and transparent manner and how it impact Innoopract's development 
 culture.</P></LI>
 
 <LI><P><B>Panel Discussion: The Future of Open Source and Business</B></P>
