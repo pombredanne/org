@@ -26,13 +26,13 @@
 		
 		<p><b>Ottawa, Canada - January 20, 2009</b> - The Eclipse Foundation today announced the Gold Sponsors for EclipseCon 2009, which will take place March 23-26 in Santa Clara, Calif.  Actuate, Blu Age, IBM, Red Hat, Sopera and Wind River have all agreed to act as the premier Gold Sponsors for the annual Eclipse community conference.</p>
 	
-		<p>“The support and leadership of these companies make EclipseCon a world-class conference,” said Mike Milinkovich.  “These companies also demonstrate the diversity of the Eclipse community by offering solutions in a wide variety of markets, including business intelligence, modeling, enterprise Java development, SOA runtimes and embedded development."</p>
+		<p>"The support and leadership of these companies make EclipseCon a world-class conference," said Mike Milinkovich.  "These companies also demonstrate the diversity of the Eclipse community by offering solutions in a wide variety of markets, including business intelligence, modeling, enterprise Java development, SOA runtimes and embedded development."</p>
 		
 		<p>In addition, EclipseCon 2009 will feature unique keynotes, each delivered by two speakers with complementary positions on topics relevant to the Eclipse community:
 		<ul class="paddedlist">
-			<li>“The Social Mind as a Runtime Environment: Designing Like Groups Matter,” presented by Clay Shirky, writer and expert on the social and economic effects of Internet technologies and director of the Interactive Telecommunications Program at NYU, and Jeff Atwood, CEO of stackoverflow.com </li>
-			<li>“Building Applications for the Cloud with Amazon Web Services,” delivered by Peter Vosshall, VP and distinguished engineer at Amazon.com focusing on cloud computing, and Don MacAskill, co-founder and CEO of AWS infrastructure company SmugMug.com </li>
-			<li>“Darwin Among the IDEs,” offered by Tim Wagner, principal development manager for the Microsoft Visual Studio Platform, and Kevin McGuire, IBM’s UI design usability lead for the Eclipse UI </li>
+			<li>"The Social Mind as a Runtime Environment: Designing Like Groups Matter," presented by Clay Shirky, writer and expert on the social and economic effects of Internet technologies and director of the Interactive Telecommunications Program at NYU, and Jeff Atwood, CEO of stackoverflow.com </li>
+			<li>"Building Applications for the Cloud with Amazon Web Services," delivered by Peter Vosshall, VP and distinguished engineer at Amazon.com focusing on cloud computing, and Don MacAskill, co-founder and CEO of AWS infrastructure company SmugMug.com </li>
+			<li>"Darwin Among the IDEs," offered by Tim Wagner, principal development manager for the Microsoft Visual Studio Platform, and Kevin McGuire, IBM’s UI design usability lead for the Eclipse UI </li>
 		</ul>
 		For the complete program, go to www.eclipsecon.org/2009/.   
 		</p>
@@ -40,7 +40,7 @@
 		
 		<p><strong>Register Today</strong></p>
 		<p>Registration for EclipseCon 2009 is now open. An early bird discount is available until February 14. 
-		Complimentary registration is available to press and analysts. To register, visit <a href="http://www.eclipsecon.org/2009/registration">www.eclipsecon.org/2009/registration</a>.   Sponsorship opportunities are also available for EclipseCon, more information is available at <a href="http://www.eclipsecon.org/2009/sponsorship">www.eclipsecon.org/2009/sponsorship</a>.</p>
+		Complimentary registration is available to press and analysts. To register, visit <a href="http://www.eclipsecon.org/2009/registration">www.eclipsecon.org/2009/registration</a>.   Sponsorship opportunities are also available for EclipseCon. More information is available at <a href="http://www.eclipsecon.org/2009/sponsorship">www.eclipsecon.org/2009/sponsorship</a>.</p>
 		
 		<p><strong>About the Eclipse Foundation</strong><br />
 		Information about Eclipse can be found at <a href="http://www.eclipse.org/">www.eclipse.org</a></p>
