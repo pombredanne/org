@@ -32,21 +32,20 @@
 		<ul class="paddedlist">
 			<li>"The Social Mind as a Runtime Environment: Designing Like Groups Matter," presented by Clay Shirky, writer and expert on the social and economic effects of Internet technologies and director of the Interactive Telecommunications Program at NYU, and Jeff Atwood, CEO of stackoverflow.com </li>
 			<li>"Building Applications for the Cloud with Amazon Web Services," delivered by Peter Vosshall, VP and distinguished engineer at Amazon.com focusing on cloud computing, and Don MacAskill, co-founder and CEO of AWS infrastructure company SmugMug.com </li>
-			<li>"Darwin Among the IDEs," offered by Tim Wagner, principal development manager for the Microsoft Visual Studio Platform, and Kevin McGuire, IBM’s UI design usability lead for the Eclipse UI </li>
+			<li>"Darwin Among the IDEs," offered by Tim Wagner, principal development manager for the Microsoft Visual Studio Platform, and Kevin McGuire, IBM's UI design usability lead for the Eclipse UI </li>
 		</ul>
-		For the complete program, go to www.eclipsecon.org/2009/.   
+		<p>For the complete program, go to <a href="http://www.eclipsecon.org/2009/">www.eclipsecon.org/2009/.</a>   
 		</p>
 		<p>
 		
-		<p><strong>Register Today</strong></p>
-		<p>Registration for EclipseCon 2009 is now open. An early bird discount is available until February 14. 
+		<p><b>Register Today</b><br/>
+		Registration for EclipseCon 2009 is now open. An early bird discount is available until February 14. 
 		Complimentary registration is available to press and analysts. To register, visit <a href="http://www.eclipsecon.org/2009/registration">www.eclipsecon.org/2009/registration</a>.   Sponsorship opportunities are also available for EclipseCon. More information is available at <a href="http://www.eclipsecon.org/2009/sponsorship">www.eclipsecon.org/2009/sponsorship</a>.</p>
 		
-		<p><strong>About the Eclipse Foundation</strong><br />
+		<p><b>About the Eclipse Foundation</b><br />
 		Information about Eclipse can be found at <a href="http://www.eclipse.org/">www.eclipse.org</a></p>
 		<br />
-		<center># # #</center> 
-		<br />All company/product names and service marks may be trademarks or registered trademarks of their respective companies.
+		<br />**All company/product names and service marks may be trademarks or registered trademarks of their respective companies.
 		
 	</div>
 </div>
