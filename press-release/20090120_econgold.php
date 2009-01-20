@@ -26,7 +26,7 @@
 		
 		<p><b>Ottawa, Canada - January 20, 2009</b> - The Eclipse Foundation today announced the Gold Sponsors for EclipseCon 2009, which will take place March 23-26 in Santa Clara, Calif.  Actuate, Blu Age, IBM, Red Hat, Sopera and Wind River have all agreed to act as the premier Gold Sponsors for the annual Eclipse community conference.</p>
 	
-		<p>“The support and leadership of these companies make EclipseCon a world-class conference,” said Mike Milinkovich.  “These companies also demonstrate the diversity of the Eclipse community by offering solutions in a wide variety of markets, including business intelligence, modeling, enterprise Java development, SOA runtimes and embedded development.  </p>
+		<p>“The support and leadership of these companies make EclipseCon a world-class conference,” said Mike Milinkovich.  “These companies also demonstrate the diversity of the Eclipse community by offering solutions in a wide variety of markets, including business intelligence, modeling, enterprise Java development, SOA runtimes and embedded development."</p>
 		
 		<p>In addition, EclipseCon 2009 will feature unique keynotes, each delivered by two speakers with complementary positions on topics relevant to the Eclipse community:
 		<ul class="paddedlist">
