@@ -23,7 +23,7 @@ Santa Clara Convention Center, Santa Clara, CA<br>
 Open Source Executive Strategy Summit for  executives who
 are responsible for their organizations open
 source strategy and participation.&nbsp;&nbsp; The purpose of event is to answer two questions: 
-1) 'What Open Source Strategies Are Working Today?' and 2) 'What Will Work in the Future?''  
+1) 'What Open Source Strategies Are Working Today?' and 2) 'What Will Work in the Future?'  
 The Summit will
 feature industry speakers, case studies and group discussions that analyze the
 different aspects of an open source strategy, including product
@@ -31,7 +31,7 @@ strategy, licensing, development models and community building.&nbsp;
 &nbsp;Participants will have the opportunity to learn the success factor and challenges 
 of existing open source strategies.</P>
 
-<P>The Summit agenda includes presentations and round table
+<P>The Summit agenda includes presentations and 
 discussions.&nbsp; Featured speakers include:</P>
 <OL>
 	<LI><P><B>Open Source Is Not A Business Model</B> &ndash; Matt
@@ -78,23 +78,20 @@ approach Actuate has taken, and looks at the challenges you need to
 consider in your strategy to ensure it is successful.</P>	</LI>
 
 
-	<LI><P><B>Case Study: The project lifecycle of the RAP development
-	team</B> &ndash; Jochen Krause, Innoopract 	</P>
+	<LI><P><B>Case Study: The transition of the RAP development team to Open Source </B> 
+	&ndash; Jochen Krause, Innoopract 	</P>
+	
+<P>Abstract: Innoopract has been an active participant and supporter of the Eclipse community 
+since its inception. The launch of the Eclipse Rich Ajax Platform (RAP) project marked a tipping 
+point for Innoopract. It was Innoopract’s first participation in an open source project in a 
+leadership role, providing a significant code contributions and most of the committers.
 
+</P>
 
-<P>Abstract:&nbsp; Innoopract has been an active participant and
-supporter of the Eclipse community.&nbsp; In 2006 Innopract started
-the Eclipse Rich Ajax Platform (RAP) project to accelerate their open
-source strategy.&nbsp; Eclipse RAP was Innoopract&rsquo;s first
-significant participation in an open source project, Innopract
-employees were the projects leaders and the majority of the project
-committers.</P>
-
-<P>In this presentation, Jochen Krause discusses the evolution of the
-project team as they changed their development approach to match an
-open development model.&nbsp; He will discuss the pros and cons of
-working in an open and transparent manner and how it impact
-Innoopract&rsquo;s development culture.</P></LI>
+<P>In this presentation, Jochen Krause discusses the necessary evolution of the project team as 
+they changed their development approach to match an open development model. He will discuss the 
+pros and cons of working in an open and transparent manner and how it impact Innoopract’s development 
+culture.</P></LI>
 
 <LI><P><B>Panel Discussion: The Future of Open Source and Business</B></P>
 
