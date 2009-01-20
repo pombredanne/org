@@ -41,6 +41,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe</a></li>
 				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>		
 			</ul>
