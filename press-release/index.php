@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090121_pdt.php">Eclipse Announces Latest PHP Development Tools (PDT)</a> - January 21, 2009</li>
 		<li><a href="20090120_econgold.php">Eclipse Announces Gold Sponsors for EclipseCon 2009</a> - January 20, 2009</li>
 		<li><a href="20081216_eclipsecon_program.php">EclipseCon 2009 Program Announced</a> - December 16, 2008</li>
 		<li><a href="20081208_awards.php">Nominations Open for the Eclipse Community Awards 2009</a> - December 8, 2008</li>
