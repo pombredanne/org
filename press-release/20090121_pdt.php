@@ -24,7 +24,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<p><b>Ottawa, Canada -- January 21, 2008</b> -- The Eclipse Foundation is pleased to announce a major upgrade to the popular Eclipse PHP Development Tools (PDT) project. PDT is an open source development tool that provides all the basic code editing capabilities developers need to get started developing PHP applications. The focus of the PDT 2.0 release is to add support for the object-oriented programming features of PHP and to improve the overall user experience of the PDT environment.</p>
+		<p><b>Ottawa, Canada -- January 21, 2009</b> -- The Eclipse Foundation is pleased to announce a major upgrade to the popular Eclipse PHP Development Tools (PDT) project. PDT is an open source development tool that provides all the basic code editing capabilities developers need to get started developing PHP applications. The focus of the PDT 2.0 release is to add support for the object-oriented programming features of PHP and to improve the overall user experience of the PDT environment.</p>
 	
 		<p><h3>To support the object-oriented features of PHP, PDT 2.0 now includes:</h3>
 		<ul class="paddedlist">
