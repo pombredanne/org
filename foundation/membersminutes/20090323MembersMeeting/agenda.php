@@ -28,7 +28,7 @@ members-only networking reception.  Here is the agenda:</P>
 <ul>
 <li>Executive Director Update, Mike Milinkovich</li>
 <li>Guest Speaker Matt Aslett, 451 Group, "Open Source is not a business model"</li>
-<li>Guest Speaker Jagan Nemani, Deloitte Consulting, "Lessons from World of Warcraft about co-innovation and Creation"</li>
+<li>Guest Speaker Jagan Nemani, Deloitte Consulting, "Co-innovation and Creation - Lessons from World of Warcraft"</li>
 <li>Marketing, Membership and Europe Updates (Ian Skerrett, Donald Smith, Ralph Mueller)</li>
 <li>Project Updates</li>
 <li>New Member Introductions</li>
