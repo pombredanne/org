@@ -14,13 +14,13 @@ ob_start();
 <h1>2009 Annual General Meeting of the Eclipse Foundation</h1>
 
 <strong>Monday, March 23, 2009<br>
-New Member Jumpstart - 9:30am-11:30am<b3>
+New Member Jumpstart - 9:30am-11:30am<br>
 Full Members Meeting - 1:30pm-5:30pm<br>
 Santa Clara Convention Center, Santa Clara, CA<br>
 (co-located with EclipseCon 2009)</strong>
 <br><br>
 
-<P>The annual meeting is your opportunity to better understand what is happening in the 
+<P>The annual general meeting is your opportunity to better understand what is happening in the 
 Eclipse community and what to expect in 2009.  Shortly after the meeting there will be a 
 members-only networking reception.  Here is the agenda:</P>
 
