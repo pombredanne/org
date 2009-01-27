@@ -13,42 +13,50 @@ ob_start();
 <br>
 <h1>2009 Annual General Meeting of the Eclipse Foundation</h1>
 
-<strong>Monday, March 23, 2009<br>
-New Member Jumpstart - 9:30am-11:30am<br>
-Full Members Meeting - 1:30pm-5:30pm<br>
+<p><strong>
+Monday, March 23, 2009<br>
 Santa Clara Convention Center, Santa Clara, CA<br>
-(co-located with EclipseCon 2009)</strong>
-<br><br>
+(co-located with EclipseCon 2009)<br>
+</strong><p>
 
-<P>The annual general meeting is your opportunity to better understand what is happening in the 
-Eclipse community and what to expect in 2009.  Shortly after the meeting there will be a 
-members-only networking reception.  Here is the agenda:</P>
+<p><ul>
+	<li>New Member Jumpstart - 9:30am-11:30am</li>
+	<li>Full Members Meeting - 1:30pm-5:30pm</li>
+	<li>Reception - ~7:00pm-9:00pm</li>
+</ul></p>
 
+<h3>New Member Jumpstart</h3>
+<p>The New Member Jumpstart is ideally suited for people new to the Eclipse Ecosystem either 
+technical or business/marketing.   It will introduce the role of the Eclipse Foundation, the 
+governance structure and provide insight into the organization of the different projects.</p>
 
-<ul>
+<h3>Full Members Meeting</h3>
+<p>The annual general meeting is your opportunity to better understand what is happening in the 
+Eclipse community and what to expect in 2009.    Here is the agenda:</p>
+
+<p><ul>
 <li>Executive Director Update, Mike Milinkovich</li>
 <li>Guest Speaker Matt Aslett, 451 Group, "Open Source is not a business model"</li>
 <li>Guest Speaker Jagan Nemani, Deloitte Consulting, "Co-innovation and Creation - Lessons from World of Warcraft"</li>
 <li>Marketing, Membership and Europe Updates (Ian Skerrett, Donald Smith, Ralph Mueller)</li>
 <li>Project Updates</li>
 <li>New Member Introductions</li>
-</ul>
+</ul></p>
 
-<p>The New Member Jumpstart is ideally suited for people new to the Eclipse Ecosystem either 
-technical or business/marketing.   It will introduce the role of the Eclipse Foundation, the 
-governance structure and provide insight into the organization of the different projects.</p>
+<h3>Reception</h3>
+<p>Shortly after the meeting there will be a members-only networking reception.</p>
 
-<P><Strong>Registration Information</strong></p>
+<h3>Registration Information</h3>
 
-<p>Please RSVP for the Jumpstart, Members Meeting and/or Marketing Symoposium via email to
+<p>Please RSVP for the Jumpstart, Members Meeting and/or Reception via email to
 <a href="mailto:members.meeting@eclipse.org">members.meeting@eclipse.org</a>.
 Please indicate which of the following you will attend:<br>
-* I will be attending the New Member Introduction on Monday March 23rd 9:30-11:30am<br>
-* I will be attending the Annual General Meeting of the Eclipse Membership on March 23rd, 1:30-5:30pm<br>
-* I will be attending the Annual General Meeting Reception on March 23rd, ~6/7pm-9pm<br>
+* I will be attending the New Member Introduction on Monday March 23rd, 9:30am-11:30am<br>
+* I will be attending the Annual General Meeting of the Eclipse Membership on March 23rd, 1:30pm-5:30pm<br>
+* I will be attending the Annual General Meeting Reception on March 23rd, ~7:00pm-9:00pm<br>
 </p>
 
-<p>There is no cost to attend the Members Meeting or Jumpstart.</p>
+<p>There is no cost for members to attend any of these meetings.</p>
 
 <br>
 <br>
