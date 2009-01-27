@@ -22,7 +22,7 @@ Santa Clara Convention Center, Santa Clara, CA<br>
 <p><ul>
 	<li>New Member Jumpstart - 9:30am-11:30am</li>
 	<li>Full Members Meeting - 1:30pm-5:30pm</li>
-	<li>Reception - ~7:00pm-9:00pm</li>
+	<li>Reception - ~6:30pm-9:00pm</li>
 </ul></p>
 
 <h3>New Member Jumpstart</h3>
@@ -53,7 +53,7 @@ Eclipse community and what to expect in 2009.    Here is the agenda:</p>
 Please indicate which of the following you will attend:<br>
 * I will be attending the New Member Introduction on Monday March 23rd, 9:30am-11:30am<br>
 * I will be attending the Annual General Meeting of the Eclipse Membership on March 23rd, 1:30pm-5:30pm<br>
-* I will be attending the Annual General Meeting Reception on March 23rd, ~7:00pm-9:00pm<br>
+* I will be attending the Annual General Meeting Reception on March 23rd, ~6:30pm-9:00pm<br>
 </p>
 
 <p>There is no cost for members to attend any of these meetings.</p>
