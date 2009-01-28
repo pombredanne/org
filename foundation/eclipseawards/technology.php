@@ -69,6 +69,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Equinox Application</h3>
 			<ul>
+				<li><a href="http://www.modulefusion.org" target="blank">ModuleFusion</a></li>	
 				<li><a href="http://vif.sourceforge.net/" target="blank">VIF - Virtual Forum</a></li>			
 			</ul>
 		</div>
