@@ -76,7 +76,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org" target="blank"> </a></li>	
+				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
 			</ul>
 		</div>
 		
