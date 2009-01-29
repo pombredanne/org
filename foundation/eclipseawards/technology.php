@@ -82,6 +82,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.artifactmanager.com" target="blank">Artifact Manager</a></li>
 				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
+				<li><a href="http://www.guidancer.com " target="blank">GUIdancer</a></li>	
 			</ul>
 		</div>
 		
