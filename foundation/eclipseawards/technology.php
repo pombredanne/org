@@ -49,6 +49,7 @@ ob_start();
 				<li><a href="http://www.polarion.com/products/requirements/index.php  " target="blank">Polarion Requirements 2.0</a></li>		
 				<li><a href="http://www.polarion.com/products/trackwiki/index.php" target="blank">Polarion Track &amp; Wiki</a></li>
 				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
+				<li><a href="http://www.zend.com/en/products/studio" target="blank">Zend Studio for Eclipse 6.1.1</a></li>
 			</ul>
 		</div>
 				
