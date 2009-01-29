@@ -43,6 +43,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
+				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE" target="blank">Force.com IDE</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe</a></li>
 				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>		
 				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
