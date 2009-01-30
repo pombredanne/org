@@ -108,8 +108,8 @@ ob_start();
 				<li>ATE Builder</li>
 				<li><a href="http://www.cenit.de/ecliso" target="blank">CENIT ECLISO</a></li>
 				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
-				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
 				<li>ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</li>
+				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
 				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>	
 				<li><a href="http://www.neckdiagrams.com" target="blank">Neck Diagrams</a></li>
 				<li><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
