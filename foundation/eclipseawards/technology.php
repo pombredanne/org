@@ -44,7 +44,6 @@ ob_start();
 				<li><a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116" target="blank">AVR32 Studio</a></li>
 				<li><a href="http://www.bluage.com/" target="blank">Blu Age Agile Model Transformation</a></li>
 				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
-				<li><a href="http://www.cenit.de/ecliso" target="blank">CENIT ECLISO</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro Analytix</a></li>					
 				<li><a href="http://www.protecode.com/site/index.php/solutions/products" target="blank">Developer IP Assistant</a></li>
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
@@ -105,6 +104,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.artifactmanager.com" target="blank">Artifact Manager</a></li>
 				<li>ATE Builder</li>
+				<li><a href="http://www.cenit.de/ecliso" target="blank">CENIT ECLISO</a></li>
 				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
 				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
 				<li>ECR (Enregistrement Centralis&eacute; en R&eactue;seau - Centralized Network Recording)</li>
