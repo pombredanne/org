@@ -41,16 +41,25 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116" target="blank">AVR32 Studio</a></li>
+				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
+				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro Analytix</a></li>					
 				<li><a href="http://www.protecode.com/site/index.php/solutions/products" target="blank">Developer IP Assistant</a></li>
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE" target="blank">Force.com IDE</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe</a></li>
+				<li><a href="http://www.klocwork.com/products/insight.asp" target="blank">Klocwork Insight</a></li>				
 				<li><a href="http://developer.motorola.com/docstools/motodevstudio/" target="blank">MOTODEV Studio</a></li>
+				<li><a href="http://www.myeclipseide.com" target="blank">MyEclipse</a></li>				
 				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>
-				<li><a href="http://www.polarion.com/products/requirements/index.php  " target="blank">Polarion Requirements 2.0</a></li>		
+				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
+				<li><a href="http://www.polarion.com/products/requirements/index.php" target="blank">Polarion Requirements 2.0</a></li>		
 				<li><a href="http://www.polarion.com/products/trackwiki/index.php" target="blank">Polarion Track &amp; Wiki</a></li>
+				<li><a href="http://www.prosyst.com/products/tools_mtoolkit.html" target="blank">ProSyst mToolkit</a></li>	
+				<li><a href="http://stan4j.com/" target="blank">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
+				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">WindowBuilder Pro</a></li>
 				<li><a href="http://www.zend.com/en/products/studio" target="blank">Zend Studio for Eclipse 6.1.1</a></li>
 			</ul>
 		</div>
@@ -58,8 +67,10 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.acceleo.org" target="blank">Acceleo</a></li>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank">AnyEdit Tools</a></li>		
 				<li><a href="http://www.eclipse4sl.org" target="blank">Eclipse4SL - Eclipse Tools for Silverlight</a></li>
+				<li><a href="http://www.jboss.org/tools" target="blank">JBoss Tools</a></li>
 				<li><a href="http://openrules.com" target="blank">OpenRules</a></li>
 				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>	
 			</ul>
@@ -88,13 +99,16 @@ ob_start();
 				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>	
 				<li><a href="http://www.neckdiagrams.com" target="blank">Neck Diagrams</a></li>
 				<li><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
+				<li><a href="http://www.poweredbypulse.com" target="blank">Pulse</a></li>
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
+				<li><a href="http://kompiro.org/jamcircle/en/" target="blank">JAM Circle</a></li>
 				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCrypTool</a></li>			
+				<li><a href=" http://maeviz.ncsa.uiuc.edu" target="blank">MAEviz</a></li>
 			</ul>
 		</div>
 	<br><br>	
