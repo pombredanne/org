@@ -107,7 +107,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li><a href="http://directory.apache.org/studio" target="blank">Apache Directory Studo</a></li>
+				<li><a href="http://directory.apache.org/studio" target="blank">Apache Directory Studio</a></li>
 				<li><a href="http://kompiro.org/jamcircle/en/" target="blank">JAM Circle</a></li>
 				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCrypTool</a></li>			
 				<li><a href="http://mae.cee.uiuc.edu/software_and_tools/maeviz.html" target="blank">MAEviz</a></li>
