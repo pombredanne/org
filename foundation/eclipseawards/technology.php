@@ -88,7 +88,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
-				<li><a href="http://www.prosyst.com/products/osgi_ext_smart.html" target="blank">mBedded Server Smart Home Extension</a></li>	
+				<li><a href="http://www.cas-pia.de" target="blank">CAS PIA</a></li>	
+				<li><a href="http://www.prosyst.com/products/osgi_ext_smart.html" target="blank">mBedded Server Smart Home Extension</a></li>
 			</ul>
 		</div>
 		
