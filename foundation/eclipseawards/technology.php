@@ -63,6 +63,7 @@ ob_start();
 				<li><a href="http://www.polarion.com/products/trackwiki/index.php" target="blank">Polarion Track &amp; Wiki</a></li>
 				<li><a href="http://www.prosyst.com/products/tools_mtoolkit.html" target="blank">ProSyst mToolkit</a></li>	
 				<li><a href="http://www.ibm.com/rational/rtc/  " target="blank">Rational Team Concert (RTC 1.0.1)</a></li>
+				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
 				<li><a href="http://stan4j.com/" target="blank">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
 				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">WindowBuilder Pro</a></li>
