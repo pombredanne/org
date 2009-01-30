@@ -75,6 +75,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.acceleo.org" target="blank">Acceleo</a></li>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank">AnyEdit Tools</a></li>		
+				<li><a href="http://www.open.collab.net/products/desktops/ " target="blank">CollabNet Desktop - Eclipse Edition</a></li>
 				<li><a href="http://www.eclipse4sl.org" target="blank">Eclipse4SL - Eclipse Tools for Silverlight</a></li>
 				<li><a href="http://www.jboss.org/tools" target="blank">JBoss Tools</a></li>
 				<li><a href="http://www.mvista.com/product_detail_devrocket.php" target="blank">MontaVista DevRocket 5</a></li>
@@ -119,7 +120,6 @@ ob_start();
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
 				<li><a href="http://directory.apache.org/studio" target="blank">Apache Directory Studio</a></li>
-				<li><a href="http://www.open.collab.net/products/desktops/ " target="blank">CollabNet Desktop - Eclipse Edition</a></li>
 				<li><a href="http://kompiro.org/jamcircle/en/" target="blank">JAM Circle</a></li>
 				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCrypTool</a></li>			
 				<li><a href="http://mae.cee.uiuc.edu/software_and_tools/maeviz.html" target="blank">MAEviz</a></li>
