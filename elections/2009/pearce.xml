@@ -1,0 +1,75 @@
+<boardmember id="pearce" type="addin">
+
+	<name> Shawn Pearce </name>
+
+	<title> Software Engineer </title>
+
+	<image>pearce.jpg</image>
+
+	<email> sop@google.com </email>
+
+	<eclipse_affiliation> <![CDATA[
+		Solutions Provider
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+
+<p>The Eclipse Project is an important focal point in open source
+Java development communities due to the high quality of its many
+projects.  My goals for the Eclipse Foundation are to expand upon
+this position and attract more contributors and collaborators.</p>
+
+<p>To do this I will:</p>
+<ul>
+<li>Encourage more collaboration with the Apache Software Foundation</li>
+<li>Ensure a future for Java by improving collaboration with OpenJDK</li>
+<li>Recommend increased usage of modern infrastructure tools,
+reducing contributor pain points</li>
+</ul>
+
+<p>The ASF also produces high quality projects, many of which are
+consumed by Eclipse as part of the platform.  Collaboration and
+code sharing needs to be simple for contributors, to prevent wide
+spread replication of effort.  The Eclipse Foundation should work
+with ASF to reduce the IP review required prior to bringing in ASF
+managed works.</p>
+
+<p>Eclipse and its consumers rely upon J2SE runtimes.  OpenJDK
+represents a major leap forward in ensuring the Java platform
+will always be available.  The Eclipse Foundation has a vested
+interested in maintaining the viability of the Java platform, and
+should encourage contribution to and the widespread deployment of
+open J2SE systems.</p>
+
+<p>New contributors, like Google Summer of Code students, are
+often road-blocked on gaining commit access to repositories.
+Modern distributed systems often alleviate this by permitting change
+recording at outside locations until IP agreements can be finished
+and access granted.  As the Eclipse Foundation and its members are
+very careful with their IP review processes, the foundation needs to
+encourage use of tools that make it easier for newcomers to enter
+the ecosystem and meet the requirements, without losing effort,
+history, or becoming frustrated and leaving.</p>
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+
+<p>At Google, Shawn is committed to fostering the growth of the open
+source ecosystem by supporting existing programs such as Google
+Summer of Code, and the development of new communities, like the
+Android Open Source Project.  Prior to joining Google, Shawn lead
+a development team at Bank of America building domain-specific
+plugins for the Eclipse platform.</p>
+
+<p>Outside of work, Shawn is an active contributor in the Git
+community, pushing the limits of distributed development tools.</p>
+
+	]]> </bio>
+
+	<affiliation> <![CDATA[
+		Google
+	]]>
+	</affiliation>
+
+</boardmember>
