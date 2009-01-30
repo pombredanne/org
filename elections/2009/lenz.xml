@@ -1,0 +1,53 @@
+<boardmember id="lenz" type="addin">
+
+    <name>Dr. Mario Lenz</name>
+    <title>Chief Technology Officer</title>
+
+    <image>lenz.jpg</image>
+
+    <email>mario.lenz@empolis.com</email>
+
+    <eclipse_affiliation><![CDATA[
+    For empolis, Eclipse is firstly a mature and powerful tool provider in that a lot of components and tools
+    of eclipse are in intensive use in product development at empolis, e.g. IDE as well as RCP. This is where
+    empolis does not really contribute but rather *consume* only.
+    Secondly, even more important, Eclipse is an intrinsic element of empolis' technology portfolio when 
+    it comes to developing a new platform and solutions based on and in cooperation with the open source 
+    community. empolis in particular appreciates the unique technological expertise provided by the members
+    combined with the technical flexibility and economical promises of an open source platform
+    that can open the space for commercial applications beyond what is possible in the traditional closed world
+    in particular for a company the size of empolis.]]>
+    </eclipse_affiliation>
+
+    <vision> <![CDATA[
+    My vision as a candidate for the Eclipse Board is: 
+-    Support the growth of the Eclipse Ecosystem as a pervasive industrial strength 
+        software platform for building runtime solutions with a specific focus on
+        Semantic Web technology and unstructured data management. This is the main
+        area of empolis and we feel this is generally still a white spot that should
+        be occupied by open source even before commercial vendors could claim that space.
+-    Help to establish Eclipse in research and education to make sure graduates can 
+        seamlessly be integrated into industrial SW production. This also includes
+        provisioning of reday-to-use components and framworks to R&D such that research
+        institutes can truly focus on their expertise rather than having to develop
+        infrastructure technology.
+-    Strengthen the influence of European Solution Members in the community
+-    Help to drive more technology-focussed projects inside eclipse to delivering
+        real value in the sense of customer-oriented solutions
+    ]]> </vision>
+
+    <bio> <![CDATA[
+    Dr. Mario Lenz completed his Doctorate in Computer Sciences at the Humboldt University in Berlin, 
+    majoring in Knowledge Management and minoring in Psychology. During his studies, numerous 
+    industrial cooperation projects took place. In 1999 Mario became Director of Development 
+    at tec:inno. After the integration of tec:inno into empolis and several management positions 
+    in product development, Dr. Lenz was appointed CTO and became a member of the 
+    empolis management board in 2006. 
+    ]]> </bio>
+
+
+    <affiliation> 
+        empolis GmbH
+    </affiliation>
+
+</boardmember>
