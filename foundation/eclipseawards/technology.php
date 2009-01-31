@@ -42,6 +42,7 @@ ob_start();
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.actuate.com/products/products-resources.asp?ArticleId=13955" target="blank">Actuate 10</a></li>
+				<li><a href="http://www.adobe.com/products/flex/" target="blank">Adobe Flex Builder 3</a></li>
 				<li><a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116" target="blank">AVR32 Studio</a></li>
 				<li><a href="http://www.bluage.com/" target="blank">Blu Age Agile Model Transformation</a></li>
 				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
