@@ -9,14 +9,13 @@
 	<email>eclipse-nominee-2009@lemmster.de</email>
 
 	<eclipse_affiliation> <![CDATA[
-Eclipse Communications Framework <a href="http://www.eclipse.org/ecf">(ECF)</a> Committer
-Eclipse Summer of Code <a href="http://www.eclipse.org/soc">(SOC)</a> Mentor
+Eclipse Communications Framework <a href="http://www.eclipse.org/ecf">(ECF)</a> Committer<br>
+Eclipse Summer of Code <a href="http://www.eclipse.org/soc">(SOC)</a> Mentor<br>
 Former Dali JPA tools <a href="http://www.eclipse.org/webtools/dali/main.php">Dali JPA Tools</a> Committer
 		
 	]]> </eclipse_affiliation>
 
-<vision>  <![CDATA[
-<p>
+<vision> <![CDATA[
 Eclipse is doing well. We all see and feel our accomplishments every day. 
 Therefore, one has to be careful when making any changes or adjustments to our 
 development process and community. And it is important to that any changes meet with the general acceptance of our community.
