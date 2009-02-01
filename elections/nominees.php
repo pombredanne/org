@@ -107,7 +107,7 @@ EOHTML;
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 	
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
-		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Add-in Provider';
+		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
 		$html = "<h3>$type_name Candidates</h3><table border=\"0\" cellpadding=\"5\">";
 		foreach ($candidates as $candidate) {
 			if (strcmp($candidate->type, $type) != 0) continue;
