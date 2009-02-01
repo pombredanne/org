@@ -1,0 +1,73 @@
+<boardmember id="aniszczyk" type="committer">
+
+	<name>Chris Aniszczyk</name>
+
+	<title>Software Engineer</title>
+
+	<image>aniszczyk.jpg</image>
+
+
+	<email> <![CDATA[
+	caniszczyk@gmail.com ]]> </email>
+
+	<phone>+1 860-839-2465</phone>
+
+		<contact> <![CDATA[
+	IBM Austin Labs<br>
+	11501 Burnet Road<br>
+	Austin, TX 78758-3400<br>
+	USA<br>
+	BNT 901 / 3B-003<br>	
+	]]> </contact>
+
+	<eclipse_affiliation> <![CDATA[ 
+                Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Committer<br> 
+                Eclipse Communications Framework (<a href="http://www.eclipse.org/ecf">ECF</a>) Committer<br> 
+                <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>                 
+                <a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer<br> 
+                <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007, 2008)<br> 
+                Eclipse Board Committer Representative (2007) 
+        ]]> </eclipse_affiliation>
+
+
+	<vision>  <![CDATA[
+		<p>My vision for Eclipse is simple, keep building the community so the Eclipse ecosystem can prosper. In order to build a prosperous 
+		community of committers, developers and users, there needs to be effective communication across all parties. I will use communication 
+		channels like my <a href="http://mea-bloga.blogspot.com">blog</a>, <a href="http://planet.eclipse.org">planet eclipse</a>, newsgroups, 
+		mailing lists and <a href="http://wiki.eclipse.org/IRC">IRC</a> to gather suggestions from committers, developers and users.</p>
+
+<p>I have many ideas on how to make Eclipse more successful, but my commitments will be to quality and growing the Eclipse ecosystem. The Eclipse ecosystem is expanding quickly and there needs to be an emphasis on ensuring the quality that made Eclipse successful in the first place will be represented across all projects.
+To ensure high <b>quality</b> and consistency across all eclipse.org projects I will:</p>
+<ul>
+<li>Ensure that our standards of quality are upheld by committers, new and old alike</li>
+<li>Support higher criteria for joining Eclipse release trains</li>
+<li>Make Eclipse processes transparent as possible</li>
+</ul>
+<p>To ensure Eclipse continues <b>growing</b> I will:</p>
+<ul>
+<li>Build bridges within the Eclipse ecosystem and with other open source or commercial projects</li>
+<li>Encourage Eclipse committers and projects to blog and idle on <a href="http://wiki.eclipse.org/IRC">IRC</a> so they can experience the community</li>
+<li>Lower the barrier to entry for new Eclipse projects without sacrificing quality</li>
+<li>Ensure that Eclipse evolves to a 4.0 release without abandoning the Eclipse ecosystem and harming adoption</li>
+<li>Support the better presentation of job opportunities within the Eclipse ecosystem (see bug <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=217269">217269</a>)</li>
+</ul>
+<p>In the end, my goal is to make Eclipse thrive everywhere, be transparent about the board's activities and have the honor to represent 
+you, the committers, to my fullest abilities.</p>	
+	]]> </vision>
+
+	<bio> <![CDATA[
+<p>Chris is an Eclipse committer at IBM Lotus who focuses on OSGi-related development. His primary focus these days is improving 
+Eclipse's Plug-in Development Environment (PDE) and spreading the Eclipse love inside of IBM's Lotus organization. Chris lives and breathes 
+Eclipse through evangelizing about Eclipse in his <a href="http://mea-bloga.blogspot.com">blog</a> (and various other publications).</p>
+<p>In the Eclipse community, Chris is responsible for maintaining the public forum known as <a href="http://planet.eclipse.org">PlanetEclipse</a> and 
+growing Eclipse's <a href="http://wiki.eclipse.org/index.php/IRC">IRC</a> presence. </p>
+	]]> </bio>
+
+
+	<affiliation> <![CDATA[ 		
+	IBM
+	]]>
+	</affiliation>
+
+		
+</boardmember>
