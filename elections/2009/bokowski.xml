@@ -1,0 +1,50 @@
+<boardmember id="bokowski" type="committer">
+
+	<name>Boris Bokowski</name>
+
+	<title>Senior Software Developer</title>
+
+	<image>bokowski.jpg</image>
+
+	<email>Boris_Bokowski@ca.ibm.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+		Platform UI technical lead, member of the Eclipse Architecture Council, e4 committer.
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+<p>If elected as a committer representative on the Eclipse Board of Directors, I would like to help <b>ensure the health and long-term success</b> of Eclipse.</p>
+
+<p>In particular, the following topics would be on my agenda:</p>
+
+<p><b>Make the life of committers easier.</b><br>
+We committers are doing much more than just writing code. Many of us enjoy the writing code part more than doing all the other necessary activities, for example, triaging bugs, managing lists of tasks in Bugzilla, filing contribution questionnaires and working through the IP process, ensuring proper internationalization, maintaining the IP log. Some of these have become easier recently, thanks to the previous committer representatives, and the Eclipse Foundation staff.<br>
+I believe that there are many more opportunities for streamlining and simplification. At the board level, I would push for improvements, and for spending foundation money on this if necessary. Things that come to mind are usability improvements for Bugzilla, better performance for CVS/Subversion, Bugzilla and the wiki.<br>
+In addition to this, I would argue that money would be well spent on work that benefits all projects but never gets done because there is not enough benefit for each individual project on its own: Compiling and maintaining a "new project jumpstart documentation" package, for example. Or coming up with a set of exemplary project pages as something the projects could copy and adapt.</p>
+
+<p><b>Increase and improve communication within the community.</b><br>
+I believe we could do much more as a community by improving how we communicate. Those of us who hang out on IRC know how much they benefit from being able to ask a question and quickly get an answer, but also how useful it is to know people working on other projects. In addition to trying to get more people on IRC :-), I have other ideas how we could improve communication and cross-project interaction.<br>
+For example, I like the demo camps because you get to know others in the community. How about sponsoring committer and contributor camps once a year, focusing on how we get the work done, instead of on the products and projects that are the result of that work?<br>
+Another way to foster communication would be to make dependency relationships transparent. The Foundation already provides data on CVS commits. It should be relatively easy to extend this to show, at the granularity of individual plug-ins, a list of committers who are currently maintaining each plug-in, and the Eclipse-wide dependency relationships between those plug-ins. From a perspective of the Platform, we would know who to contact about planned changes to, say, the Common Navigator, and in the other direction, it would be easy to find out who maintains, say, the draw2d component.<br>
+I would also like to see more contacts between Eclipse and other open source communities such as Apache, Mozilla, Linux, and so on. A lot of the issues that we have around how to attract contributors, how to get companies to invest in open source, how to handle issues of APIs and deprecation, and so on, must be issues in these other communities as well, and we should be able to learn from each other.</p> 
+
+<p><b>Prepare ourselves for change.</b><br>
+It is mind-boggling to see the rate of change in several areas that affect Eclipse directly. I don't know what the best answers are, but I know that we have a number of open questions and am interested in discussing them at the board level, for example:<br>
+<ul><li>The world-wide economic problems are affecting all Eclipse members, including the committer members through their employers and customers. This is both a threat, in that it is going to be harder for companies to fund development in the Eclipse context, and an opportunity, in that adoption of and collaboration through open source solutions could increase.</li>
+<li>The technology context is becoming more and more fragmented. For example, Java is  no longer the "cool language" of choice for developers, and web UIs start to become more important than desktop UIs. At Eclipse, we mainly develop using Java, and provide mostly desktop UIs. All stakeholders will have to help changing this (in the long term) to avoid ending up in a technological dead end.</li>
+<li>The number of Eclipse member companies, Eclipse projects, and Eclipse committers has increased dramatically. I suspect that our current structure (e.g. development process, PMCs, councils) will have to change to enable more scaling but I don't see this discussed.</li></ul></p>
+
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+Boris is the technical lead of the Eclipse Platform UI component and works for IBM in Ottawa, Canada. He is a member of the Eclipse Architecture Council, and an active committer on the e4 project. He is proud to have helped increase diversity at the Eclipse Platform (a little) by attracting several non-IBM contributors and helping them become committers. Before joining IBM in 2005, he wrote a commercial RCP app using EMF and GEF, co-founded and co-managed a Web 2.0 company in Germany, worked on the original Eclipse 1.0 at OTI in Ottawa, and earned a PhD in computer science at Freie Universität Berlin, Germany. He is married and a geek dad of three kids. You can find him on IRC as "borisb6i".		
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		IBM Software, Ottawa, Canada
+	]]>
+	</affiliation>
+
+		
+</boardmember>
