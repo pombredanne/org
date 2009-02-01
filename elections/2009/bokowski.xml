@@ -65,19 +65,25 @@ able to learn from each other.</p>
 <p><b>Prepare ourselves for change.</b><br>
 It is mind-boggling to see the rate of change in several areas that affect 
 Eclipse directly. I don't know what the best answers are, but I know that we 
-have a number of open questions and am interested in discussing them at the board level, for example:<br>
+have a number of open questions and am interested in discussing them at the 
+board level, for example:<br>
 <ul><li>The world-wide economic problems are affecting all Eclipse members, 
-including the committer members through their employers and customers. This is both a threat, in that it is going to be harder for companies to fund development in the Eclipse context, and an opportunity, in that adoption of and collaboration through open source solutions could increase.</li>
+including the committer members through their employers and customers. This is both 
+a threat, in that it is going to be harder for companies to fund 
+development in the Eclipse context, and an opportunity, in that adoption of 
+and collaboration through open source solutions could increase.</li>
+
 <li>The technology context is becoming more and more fragmented. For example, 
 Java is  no longer the "cool language" of choice for developers, and web UIs 
 start to become more important than desktop UIs. At Eclipse, we mainly develop 
 using Java, and provide mostly desktop UIs. All stakeholders will have to 
-help changing this (in the long term) to avoid ending up in a technological dead end.</li>
+help change this (in the long term) to avoid ending up in a technological dead end.</li>
+
 <li>The number of Eclipse member companies, Eclipse projects, and Eclipse 
 committers has increased dramatically. I suspect that our current structure 
 (e.g. development process, PMCs, councils) will have to change to enable 
-more scaling but I don't see this discussed.</li></ul></p>
-
+more scaling but I don't see this discussed.</li>
+</ul></p>
 
 	]]> </vision>
 
