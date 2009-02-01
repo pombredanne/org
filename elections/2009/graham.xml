@@ -1,0 +1,34 @@
+
+<boardmember id="graham" type="addin">
+	<name>John Graham</name>
+	<title>Senior Software Engineer</title>
+	<image>graham.jpg</image>
+	<email>jgraham@redhat.com</email>
+	<eclipse_affiliation> <![CDATA[Eclipse Data Tools Platform (DTP) PMC member, Eclipse Architecture Council member, Eclipse Planning Council member	]]>
+	</eclipse_affiliation>
+
+	<vision>  <![CDATA[The Eclipse ecosystem has remarkable diversity, both in 
+	technologies provided and  members involved. Crucial to the continuing 
+	success of Eclipse is a delicate balance where all interests are appropriately 
+	considered. As a Sustaining Member Board representative, I will help ensure 
+	that the issues important to the larger membership are considered in equal 
+	footing with the agenda of Strategic members. The Board needs to enable 
+	competition on a common platform for all members, and experienced Sustaining 
+	membership Board representation is a vital component for realizing this aim.]]>
+	</vision>
+
+	<bio> <![CDATA[John is a software engineer at JBoss, a division of Red Hat. An 
+	Eclipse plug-in since version 1 and active Eclipse community member, 
+	John originally served on the Eclipse Consortium Executive Committee. 
+	Later he was a founding member of the Eclipse Data Tools Platform (DTP) 
+	top-level project, where he served as PMC chair from 2005 through 2008. John 
+	has served on the Eclipse Board, the Eclipse Architecture and Planning 
+	Councils, and the EclipseCon Program Committee. John's 
+	blog (http://osmusings.blogspot.com/) offers popular 
+	commentary on the Eclipse community and open source in general.]]>
+	</bio>
+
+	<affiliation> <![CDATA[JBoss, a division of Red Hat (http://www.jboss.com/)]]>
+	</affiliation>
+
+</boardmember>
