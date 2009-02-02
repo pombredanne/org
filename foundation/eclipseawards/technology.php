@@ -47,6 +47,8 @@ ob_start();
 				<li><a href="http://www.bluage.com/" target="blank">Blu Age Agile Model Transformation</a></li>
 				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro Analytix</a></li>					
+				<li><a href="http://www.conformiq.com/qtronic.php" target="blank">Conformiq Qtronic</a></li>
+				<li><a href="http://www.sap.com/americas/solutions/sapbusinessobjects/sme/reporting/eclipse/index.epx" target="blank">Crystal Reports for Eclipse 2.0</a></li>
 				<li><a href="http://www.protecode.com/site/index.php/solutions/products" target="blank">Developer IP Assistant</a></li>
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
@@ -63,7 +65,8 @@ ob_start();
 				<li><a href="http://www.polarion.com/products/requirements/index.php" target="blank">Polarion Requirements 2.0</a></li>		
 				<li><a href="http://www.polarion.com/products/trackwiki/index.php" target="blank">Polarion Track &amp; Wiki</a></li>
 				<li><a href="http://www.prosyst.com/products/tools_mtoolkit.html" target="blank">ProSyst mToolkit</a></li>	
-				<li><a href="http://www.ibm.com/rational/rtc/  " target="blank">Rational Team Concert (RTC 1.0.1)</a></li>
+				<li><a href="http://www.qnx.com/products/tools/app_analysis.html" target="blank">QNX Momentics IDE - Application Profiler</a></li>
+				<li><a href="http://www.ibm.com/rational/rtc/" target="blank">Rational Team Concert (RTC 1.0.1)</a></li>
 				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
 				<li><a href="http://stan4j.com/" target="blank">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
@@ -92,6 +95,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.cas-pia.de" target="blank">CAS PIA</a></li>	
 				<li><a href="http://www.prosyst.com/products/osgi_ext_smart.html" target="blank">mBedded Server Smart Home Extension</a></li>
+				<li><a href="http://eclipsesource.com/en/products/yoxos-enterprise/ " target="blank">Yoxos Enterprise</a></li>	
 			</ul>
 		</div>
 		
@@ -111,13 +115,15 @@ ob_start();
 				<li>ATE Builder</li>
 				<li><a href="http://www.cenit.de/ecliso" target="blank">CENIT ECLISO</a></li>
 				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
+				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>	
 				<li>ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</li>
 				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
 				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>	
 				<li><a href="http://www.neckdiagrams.com" target="blank">Neck Diagrams</a></li>
 				<li><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
 				<li><a href="http://www.poweredbypulse.com" target="blank">Pulse</a></li>
-				<li><a href="http://www.crazysmoove.com/warden" target="blank">Warden</a></li>
+				<li><a href="http://tasktop.com" target="blank">Tasktop</a></li>
+				<li>Warden</li>
 			</ul>
 		</div>
 		
