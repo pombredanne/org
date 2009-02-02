@@ -35,7 +35,7 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Technology Awards.  Nominations close on January 30, 2009.
+			The following is a list of nominations submitted for the Technology Awards.  Nominations closed on January 30, 2009.
 		</p>
 		
 		<div class="homeitem3col">
