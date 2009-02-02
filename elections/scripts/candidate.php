@@ -13,7 +13,7 @@
 #****************************************************************************
 require_once("candidate_xml.php");
 
-$candidates_root = $_SERVER['DOCUMENT_ROOT'] . '/org/elections/';
+$candidates_root = getcwd() . '/';
 
 function & get_candidate($id, $year="") {
 	if (!$year) $year = date("Y"); // if no year has been provided, use the current one.
@@ -70,7 +70,7 @@ function & get_candidate_from_file($file_name, $year) {
 	
 	$image = trim($candidate->image);
 	if ($image) {
-		$image = "/org/elections/$year/$image";
+		$image = "$year/$image";
 		$candidate->image = $image;
 	}
 	
@@ -83,7 +83,7 @@ function & get_candidates_short_summary_as_html($year = "") {
 	$html = "<ul>";
 	foreach ($candidates as $candidate) {
 		$html .= "<li>";
-		$html .= "<a href=\"/org/elections/candidate.php?year=$year&id=$candidate->id\">$candidate->name</a>";
+		$html .= "<a href=\"candidate.php?year=$year&id=$candidate->id\">$candidate->name</a>";
 		$html .= "</li>";
 	}
 	$html .= "</ul>";
