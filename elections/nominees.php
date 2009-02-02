@@ -77,13 +77,29 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.
-		<div class="homeitem">
-			<a name="Candidates"></a>$committer_candidates
-		</div>
-		<div class="homeitem">
-			$addin_candidates
-		</div>
+		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.</p>
+		<table>
+			<tr>
+				<td valign="bottom">
+					<h3>Committer Candidates</h3>
+				</td>
+				<td valign="bottom">
+					<h3>Sustaining Member Candidates</h3>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<div class="homeitem">
+						<a name="Candidates"></a>$committer_candidates
+					</div>
+				</td>
+				<td valign="top">
+					<div class="homeitem">
+						$addin_candidates
+					</div>
+				</td>
+			</tr>
+		</table>
 	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
@@ -113,7 +129,7 @@ EOHTML;
 	
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
 		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
-		$html = "<h3>$type_name Candidates</h3><table border=\"0\" cellpadding=\"5\">";
+		$html = "<table border=\"0\" cellpadding=\"5\">";
 		foreach ($candidates as $candidate) {
 			if (strcmp($candidate->type, $type) != 0) continue;
 			$html .= <<<EOHTML
