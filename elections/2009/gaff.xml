@@ -1,0 +1,79 @@
+
+<boardmember id="gaff" type="committer">
+
+	<name>Doug Gaff</name>
+
+	<title>Senior Manager and DSDP PMC Lead</title>
+
+	<image>gaff.jpg</image>
+
+	<email>doug.gaff@windriver.com</email>
+
+
+	<eclipse_affiliation>
+		<![CDATA[
+		<ul>
+		<li>Eclipse Board of Directors 2008-2009</li>
+		<li>DSDP PMC Lead</li>
+		<li>EclipseCon 2008 Program Committee Chair</li>
+		<li>Planning and Architecture Councils</li>
+		<li>Project Mentor</li>
+		</ul>
+		]]>
+	</eclipse_affiliation>
+
+	<vision> 
+		<![CDATA[
+    <P>I've been serving on the Board as your elected Committer Representative for almost a year now. Here are some of 
+    my personal accomplishments in this role so far:</p>
+    <ul>
+    <li> I've been blogging the minutes of the face-to-face board meetings 
+         (<a href="http://eclipse-committer-reps.blogspot.com/2008/06/june-board-meeting.html">June</a>, 
+         <a href="http://eclipse-committer-reps.blogspot.com/2008/09/september-board-meeting.html">September</a>, 
+         <a href="http://eclipse-committer-reps.blogspot.com/2008/12/december-2008-board-meeting.html">December</a>) 
+         to enable more immediate transparency of Board activities.</li>
+    <li> I proposed and received approval for dual licensing (EPL/EDL) for the embedded runtime components in the 
+         RTSC and TM projects. This kicked off a bigger discussion (led by Jeff McAffer) about dual licensing runtimes 
+         and the need to encourage runtime reference implementations in Eclipse. </li>
+    <li> I proposed Japanese localization of the Bugzilla interface, which was approved and will be completed when 
+         Bugzilla 3.2 is deployed. </li>
+    <li> In the interest of representing the user community, Mik and I facilitated a sometimes contentious discussion 
+         with the Board about the customer-facing messaging of the Eclipse train release. </li>
+    <li> I presented several requests from the Architecture Council (see December minutes), with somewhat mixed results. </li>
+    <li> I serve on the Compensation Committee. The Comp Committee works with the Executive Director to establish 
+         quarterly objectives for the Director and Foundation. The Comp Committee also conducts the annual performance 
+         review for the Director. </li>
+    </ul>
+    <p>So why do I want you to elect me for another term?</p>
+    <ul>
+    <li> I believe I'm doing a good job representing committer issues, even when those issues don't align with the 
+         Board's interests. Much of my individual accomplishments above are focused on this effort. </li>
+    <li> I want to continue working with the rest of the Board on the strategy for the Foundation and ecosystem. 
+         I believe my execution skills and sense of vision will continue to be valuable as we guide the Foundation 
+         through these financially challenging times. </li>
+    <li> I'd like to continue my work on the Compensation Committee, as it is directly tied to the execution of the 
+         Eclipse strategy. </li>
+    <li> Working on the Board has been an excellent learning experience so far, and I'd like to continue learning. </li>
+    </ul>
+		]]>	
+	</vision>
+
+	<bio> 
+		<![CDATA[
+		<p>Doug Gaff serves on the Eclipse Board of Directors and is the PMC Lead for the Device Software Development Platform 
+		(DSDP) - an Eclipse project focused on building an extensible, standards-based platform to address a broad range of needs 
+		in the embedded and mobile software development space. In his commercial life, Doug is a 
+		Senior Engineering Manager on Wind River's commercial Eclipse-based product, Wind River Workbench. He is responsible for 
+		Eclipse open source contributions and adoption of Eclipse technology commercially. Doug has 14 years of software 
+		development and management experience and holds a Bachelors and Masters in Electrical Engineering.</p>	 
+		]]>
+	</bio>
+
+	<affiliation> 
+		<![CDATA[
+		Wind River Systems
+		]]>
+	</affiliation>
+
+		
+</boardmember>
