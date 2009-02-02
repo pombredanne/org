@@ -36,6 +36,11 @@
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+	<style>
+		#midcolumn h1, h2, h3 {
+			font-weight: bold;
+		}
+	</style>
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<img src="$candidate->image" width="150" align="right">
