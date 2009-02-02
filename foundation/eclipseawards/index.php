@@ -80,8 +80,8 @@
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li>Nominations open - December 8, 2008</font></li>
-				<li>Nominations close - January 30, 2009</font></li>
+				<li><font color="#A9A9A9">Nominations open - December 8, 2008</font></li>
+				<li><font color="#A9A9A9">Nominations close - January 30, 2009</font></li>
 				<li>Voting begins for Individual Awards - February 2, 2009</font></li>
 				<li>Voting ends for Individual Awards - February 27, 2009 at 5:00 pm EST</font></li>
 				<li>Awards Announced - March 23, 2009</li>
