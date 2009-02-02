@@ -77,7 +77,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in a random order.</p>
+		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
 		<table>
 			<tr>
 				<td valign="bottom">
