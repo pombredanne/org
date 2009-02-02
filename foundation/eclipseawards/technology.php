@@ -59,7 +59,6 @@ ob_start();
 				<li><a href="http://www.klocwork.com/products/insight.asp" target="blank">Klocwork Insight</a></li>				
 				<li><a href="http://developer.motorola.com/docstools/motodevstudio/" target="blank">MOTODEV Studio</a></li>
 				<li><a href="http://www.myeclipseide.com" target="blank">MyEclipse</a></li>				
-				<li><a href="http://m2eclipse.sonatype.org/" target="blank">m2eclipse</a></li>	
 				<li><a href="http://www.wavecom.com/m2mstudio" target="blank">M2M Studio</a></li>	
 				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>
 				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
@@ -85,6 +84,7 @@ ob_start();
 				<li><a href="http://www.eclipse4sl.org" target="blank">Eclipse4SL - Eclipse Tools for Silverlight</a></li>
 				<li><a href="http://www.jboss.org/tools" target="blank">JBoss Tools</a></li>
 				<li><a href="http://www.mvista.com/product_detail_devrocket.php" target="blank">MontaVista DevRocket 5</a></li>
+				<li><a href="http://m2eclipse.sonatype.org/" target="blank">m2eclipse</a></li>	
 				<li><a href="http://openrules.com" target="blank">OpenRules</a></li>
 				<li><a href="http://www.skywayperspectives.org/portal/web/guest/builder" target="blank">Skyway Builder Community Edition (CE)</a></li>
 				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>	
