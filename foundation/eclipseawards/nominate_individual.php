@@ -36,9 +36,9 @@
 		<h2>Individual Awards</h2>
 		
 		<p>
-			Individuals may be nominated by anyone in each category.  Nominations open December 8, 2008 and
-			close January 30, 2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-			To make a nomination visit the following Bugzilla entries.
+			Individuals may be nominated by anyone in each category.  Nominations opened December 8, 2008 and
+			closed January 30, 2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
+			To see the nominations visit the following Bugzilla entries.
 		</p>
 		
 		<ul class="midlist">
