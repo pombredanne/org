@@ -57,6 +57,7 @@
 			<li>OPTIONAL: Feel free to send a 3-5 minute screen cam demo of your product</li> 
 		</ol>
 
+		<br>
 		<h2>Judging Criteria</h2>		
 		<p>
 			The Technology Award winners are determined by a panel of judges.   The judges were selected from Eclipse-oriented editors and 
@@ -69,6 +70,7 @@
 			</ol>
 		</p>
 
+		<br>
 		<h2>Past Winners</h2>
 		<p>
 			Eclipse is a large, vibrant community of many well-deserving individuals and technologies.  Therefore,
