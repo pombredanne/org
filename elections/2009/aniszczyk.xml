@@ -1,0 +1,63 @@
+<boardmember id="aniszczyk" type="committer">
+
+	<name>Chris Aniszczyk</name>
+
+	<title>Senior Software Engineer and Evangelist</title>
+
+	<image>aniszczyk.jpg</image>
+
+
+	<email> <![CDATA[
+	zx@eclipsesource.com ]]> </email>
+
+
+	<eclipse_affiliation> <![CDATA[ 
+                Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Co-Lead<br> 
+                <a href="http://www.eclipse.org/technology/team-leaders.php">Technology</a> PMC Member<br>     
+                Eclipse Communications Framework (<a href="http://www.eclipse.org/ecf">ECF</a>) Committer<br> 
+                <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>                 
+                <a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer<br> 
+                <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007-2009)<br> 
+                Eclipse Board Committer Representative (2007-2008) 
+        ]]> </eclipse_affiliation>
+
+
+	<vision>  <![CDATA[
+		<p>My vision for Eclipse is simple, keep building the community so the Eclipse ecosystem can prosper. In order to build a prosperous 
+		community of committers, developers and users, there needs to be effective communication across all parties. I will use communication 
+		channels like my <a href="http://mea-bloga.blogspot.com">blog</a>, <a href="http://planet.eclipse.org">planet eclipse</a>, newsgroups, 
+		mailing lists and <a href="http://wiki.eclipse.org/IRC">IRC</a> to gather suggestions from committers, developers and users.</p>
+
+<p>I have many ideas on how to make Eclipse more successful, but my commitments will be to improving quality and growing the Eclipse ecosystem.
+
+To ensure high <b>quality</b> and consistency across all eclipse.org projects I will:</p>
+<ul>
+<li>Ensure that our standards of quality are upheld by committers, new and old alike</li>
+<li>Support higher criteria for joining Eclipse release trains</li>
+<li>Make Eclipse processes transparent as possible</li>
+
+</ul>
+<p>To ensure Eclipse continues <b>growing</b> I will:</p>
+<ul>
+<li>Build bridges within the Eclipse ecosystem and with other open source or commercial projects</li>
+<li>Encourage Eclipse committers and projects to blog and idle on <a href="http://wiki.eclipse.org/IRC">IRC</a> so they can experience the community</li>
+<li>Lower the barrier to entry for new Eclipse projects without sacrificing quality</li>
+<li>Help modernize the Eclipse infrastructure to include a distributed version control system like GIT</li>
+<li>Ensure that Eclipse evolves to a 4.0 release without abandoning the Eclipse ecosystem and harming adoption</li>
+</ul>
+
+<p>On the whole, my goal is to make Eclipse thrive everywhere and be transparent as possible about the board's activities. I love bringing new projects to the Eclipse ecosystem and mentoring new committers. I will pay special attention to how we can make the Eclipse development process easier for smaller and lighter weight projects. In the end, I would be honored to represent you, the committers, for another term.</p>	
+	]]> </vision>
+
+	<bio> <![CDATA[
+<p>Chris Aniszczyk is the co-lead of the Eclipse Plug-in Development Environment (PDE) project and a member of the Technology PMC. Chris tends to be all over the place inside the Eclipse community by committing on various Eclipse projects. He sits on the Eclipse Architecture Council and the Eclipse Foundation Board of Directors. Chris’s passions are blogging, software advocacy, tooling and anything Eclipse. He’s always available to discuss open-source or Eclipse over a frosty beverage.</p>
+	]]> </bio>
+
+
+	<affiliation> <![CDATA[ 		
+	EclipseSource
+	]]>
+	</affiliation>
+
+		
+</boardmember>
