@@ -37,9 +37,9 @@
 		
 		<p>
 			Products and open source projects not hosted at Eclipse and may be nominated by anyone. Vendors are allowed to nominate their own products.
-			Nominations open December 8, 2008 and close January 30, 2009.  Winners will be announced at
+			Nominations opened December 8, 2008 and closed January 30, 2009.  Winners will be announced at
 			<a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-			To submit a nomination for a Technology Award, send an e-mail to <a href="mailto:awards@eclipse.org">
+			Nominations for the Technology Award were sent by e-mail to <a href="mailto:awards@eclipse.org">
 			awards@eclipse.org</a> with the information indicated below. 
 		</p>
 
