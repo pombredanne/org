@@ -57,6 +57,8 @@
 				Eclipse community.  This award will be presented to the individual that has answered the most questions raised on the
 				<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
 			</ol> 	
+			<a href="http://eclipse.org/go/awardsvote09" target="blank">
+			<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
 		</p>
 
 		<h3>Technology Awards</h3>
@@ -82,7 +84,7 @@
 			<ul>
 				<li><font color="#A9A9A9">Nominations open - December 8, 2008</font></li>
 				<li><font color="#A9A9A9">Nominations close - January 30, 2009</font></li>
-				<li>Voting begins for Individual Awards - February 2, 2009</font></li>
+				<li><font color="#A9A9A9">Voting begins for Individual Awards - February 2, 2009</font></li>
 				<li>Voting ends for Individual Awards - February 27, 2009 at 5:00 pm EST</font></li>
 				<li>Awards Announced - March 23, 2009</li>
 			</ul>
