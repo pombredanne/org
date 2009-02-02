@@ -29,17 +29,10 @@
 		target="blank">voting</a> has opened for the nominees.  Congratulations to all the worthy candidates!  Show your
 		appreciation to the people that have made Eclipse a stronger community by casting your vote.  The nominees are:
 		<ul>
-			<li><b>Top Ambassador</b>: Nick Boldt, Paul Fremantle, Mik Kersten, Tom Schindl and James Sugrue<br>
-			(Honourable mention to Chris Aniszczyk and Ed Merks. They were both nominated but are ineligble to run since they won awards in 2008.)</li>
+			<li><b>Top Ambassador</b>: Nick Boldt, Paul Fremantle, Mik Kersten, Tom Schindl and James Sugrue</li>
 			<li><b>Top Committer</b>: Martin Oberhuber, Steffen Pingel, Thomas Watson, Jason Weathersby, Paul Webster and David Williams</li>
 			<li><b>Top Contributor</b>: Frank Becker, Benjamin Cabe, Dave Carver, Eugene Kuleshov, Miles Parker and Tom Schindl</li>
 		</ul>
-		</p>
-		
-		<p>For background on the nominees, please view the bugs that were used for nomination submissions:<br>
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257950" target="blank">Top Ambassador Nominations</a><br>
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952" target="blank">Top Committer Nominations</a><br>
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953" target="blank">Top Contributor Nominations</a><br>
 		</p>
 		
 		<p>There is also a Most Prolific Newcomer Evangelist award, which will be presented to the individual that answered the most
