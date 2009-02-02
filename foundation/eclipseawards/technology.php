@@ -59,6 +59,7 @@ ob_start();
 				<li><a href="http://www.klocwork.com/products/insight.asp" target="blank">Klocwork Insight</a></li>				
 				<li><a href="http://developer.motorola.com/docstools/motodevstudio/" target="blank">MOTODEV Studio</a></li>
 				<li><a href="http://www.myeclipseide.com" target="blank">MyEclipse</a></li>				
+				<li><a href="http://m2eclipse.sonatype.org/" target="blank">m2eclipse</a></li>	
 				<li><a href="http://www.wavecom.com/m2mstudio" target="blank">M2M Studio</a></li>	
 				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>
 				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
