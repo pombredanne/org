@@ -54,8 +54,13 @@
 		</ul>
 
 		<h2>Voting</h2>
+		<p><a href="http://eclipse.org/go/awardsvote09" target="blank">
+		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a></p>
+		
+		<p>
 		The Individual Award winners are determined by a vote of the community. One vote per person, per category.  
-		After nominations close, voting commences February 2, 2009 and finishes February 27, 2008 at 5:00 pm EST.  
+		After nominations closed, voting commenced February 2, 2009 and will finish February 27, 2008 at 5:00 pm EST.  
+		</p>
 		
 		<h2>Past Winners</h2>
 		<p>
