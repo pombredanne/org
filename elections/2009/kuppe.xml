@@ -29,39 +29,39 @@ ensure tomorrow's success.</p>
 CVS just works and the foundation staff, through their great work, make sure that the operations continue to work. However, modern 
 <a href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed version control systems (DVCS)</a> offer features which simplify our development efforts especially in distributed teams like we 
 have at Eclipse. Thus we need to pick up the deferred discussion about DVCS at Eclipse as an alternative to CVS and SVN. IP cleanliness is a concern that is as easily addressed in a DVCS as with a traditional VCS.
-</li></p><li>
+</p></li><li><p>
 Work on a <a href="http://wiki.eclipse.org/Common_Build_Infrastructure">common build server</a> which was started in 2008. Now it's time to advertise adoption and encourage acceptance througout the project landscape. This isn't just important for Galileo + N, but also for smaller projects that feel the pain in this regard.
-</li></p></li></p><li>
+</p></li><li><p>
 <a href="http://c2.com/cgi/wiki?ExtremeProgramming">eXtreme programming</a> and <a href="http://en.wikipedia.org/wiki/Scrum_(development)">SCRUM</a> are well proven tools in modern day development, though we rarely see them used in our development process. Thus we need to find better ways of exploiting these tools in our distributed and inter-company development process.
-<li>
+</p></li><li><p>
 Code patches are the fundamental contribution to Eclipse. The way we currently treat a patch is too often simply dumping it at Bugzilla. The <a href="http://wiki.eclipse.org/Development_Resources/Automatic_IP_Log#Contributors">"iplog+" flag</a> lowers the workload on the IP team and project leads, but contributors and committers still manually handle patches. Here we need a tool that automatically and continuously verifies patches against mainline, spins off builds and executes tests and sends feedback on the bug report.
-</li></p><li>
+</p></li><li><p>
 Eclipse development takes place in all timezones. While the foundation usually immediately reacts to requests during their hours of operations, a 24/7 <a href="http://wiki.eclipse.org/IT_SLA">service level agreement</a> is desirable. Thus we need better distributed resources. Though they don't have to be paid for by the foundation. It's another chance for community contributions.
-</li></p><li>
+</p></li><li><p>
 The combined outcome of implementing the above will enhance our development process. Quality will benefit and it will provide a greater agility allowing us to move from annual release trains (big bang releases) to more flexible release dates.
-<</li></p>/ul>
+</p></li></ul>
 <h3>Commercial aspects</h3>
 <ul>
 <li><p>
 Membership numbers are continuously climbing. Still, open-source development, in general, and Eclipse adoption fail for some companies. We 
 need precise statistics, draw lessons learned to form and share counter measures to make Eclipse successful for everybody.
-</li></p><li><p>
+</p></li><li><p>
 Make non-member committers eligible to vote on foundation elections or make each non-member committer a member automatically just by signing the committer agreement. We don't need an extra hurdle for membership.
-</li></p></ul>
+</p></li></ul>
 <h3>Community aspects</h3>
-<ul><p>
-<li>About Community contributions and diversity: 
+<ul>
+<li><p>About Community contributions and diversity: 
 Currently, our community mainly lives off its member companies and their paid committers. Some of our projects are even driven by single companies without external contributions. While we acknowledge the advantages commercial backing offers, we need to strive for community diversity. A key concept is rigorously lowering the entrance barriers to Eclipse participation. This starts with a proper "contributor landing page" [1] and ends with tool support mentioned previously (see technical aspects).
-</li></p>
+</p>
 <p>
 However, calling for increased diversity doesn't buy us a thriving community and ecosystem. We have to continue and intensify our efforts to allow non-code contributions. Design contests and the Babel project are just the beginning. First class documentation, quality assurance (QA), user experience or IT maintenance projects have to be set up. Here we can only learn from other open-source communities that have been running such projects for a long time. One more reason why we need to open up to those projects and their communities.
 </p>
 <p>
 But diversity doesn't stop at the paid vs. unpaid committership. Data on the percentage of women in open-source are at a scary low of 2% [2]. We have to act on this disparity and increase female participation in Eclipse. Not just for our own good of increased team productivity, but for the software industry itself that suffers from it.
-</li></p>
-<p><li>The role of young academics:
+</p></li>
+<li><p>The role of young academics:
 So far the only efforts in regards to advance young talent lies in the <a href="http://www.eclipse.org/soc">SOC</a> project. The project receives its sole funding by participating in the <a href="http://code.google.com/soc">Google Summer of Code</a>. This shouldn't be it. The foundation has to step up to its responsibility of ensuring the continuing liveliness of Eclipse by providing "fresh blood". It needs to help improve on how we bind students after Summer of Code. Having them attend EclipseCon creates a strong bond between students and Eclipse. But this is only possible with reasonable conference rates, affordable accommodation in close proximity to the conference and a traveling EclipseCon. Eventually member companies will benefit from this through better employment opportunities.
-</li></p>
+</p></li>
 </ul>
 
 <p>
