@@ -1,7 +1,7 @@
 <boardmember id="kamutzki" type="addin">
 
 	<name>Hans Kamutzki</name>
-	<title></title>
+	<title>Managing Director</title>
 
 	<image>kamutzki.jpg</image>
 
@@ -21,11 +21,11 @@
 
 	<vision> <![CDATA[
 My vision as a candidate for the Eclipse Board is: 
--	Support the growth of the Eclipse Eco System as a pervasive industrial strength 
+-	Support the growth of the Eclipse EcoSystem as a pervasive industrial strength 
 software platform for servers, clients and mobile/embedded devices. 
 -	Help to establish Eclipse in research and education to make sure graduates 
 can seamlessly be integrated into industrial SW production. 
--	Strengthen the influence of European "add in" providers in the community
+-	Strengthen the influence of European members in the community
 -	Address legal issues in the framework of European legislation raised by the 
 fact that EPL and other important provision are US law based. 
 -	Help to develop a clear understanding of the legal/commercial implications 
@@ -45,7 +45,7 @@ of the use of software under the EPL in Europe.]]>
 
 
 	<affiliation> <![CDATA[
-MicroDoc is a software consultancy and product development business founded in 
+<p>MicroDoc is a software consultancy and product development business founded in 
 1991 by Hendrik H&ouml;fer and Hans Kamutzki. In the 90, MicroDoc's focus was on 
 object oriented programming with Smalltalk. Hans Kamutzki was a main contributor 
 to a MicroDoc product called "Object for Notes", a technical Smalltalk to Lotus 
@@ -65,7 +65,7 @@ solutions (starting on the mainframe and scaling down to mobile and
 embedded devices) the Eclipse RCP/eRCP platforms are essential building 
 blocks for harmonizing the architecture in many MicroDoc projects today. As a 
 Managing Directory, Hans is in charge for the embedded Java business as well 
-as legal and contractual matters within MicroDoc today.]]>
+as legal and contractual matters within MicroDoc today.</p>]]>
 	</affiliation>
 
 </boardmember>
