@@ -1,6 +1,5 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
-require_once("/home/data/httpd/eclipse-php-classes/system/dbconnection_foundation_ro.class.php");
 	#*****************************************************************************
 	#
 	# directors.php
@@ -33,9 +32,6 @@ require_once("/home/data/httpd/eclipse-php-classes/system/dbconnection_foundatio
 	# End: page-specific settings
 	#
 
-$fdbc = new DBConnectionFoundation();
-$dbh = $fdbc->connect()
-	or die('Could not connect: ' . mysql_error());
 
 # Global Functions
 
@@ -95,18 +91,17 @@ function display_one($fname, $lname, $param, $orgid = null) {
 
 # Lookup the relations and return the list
 function find_relations() {
-	global $dbh;
+	global $App;
 
 	$people = array();
 	/*
 	 * members with company relationships
 	 */
-	$result = mysql_query("SELECT FName, LName, Name1, Organizations.OrganizationID " .
+	$result = $App->foundation_sql("SELECT FName, LName, Name1, Organizations.OrganizationID " .
 			"FROM  People, OrganizationContacts, Organizations " .
 			"WHERE People.PersonID = OrganizationContacts.PersonID " .
 			"	AND Relation = 'BR' " .
-			"	AND OrganizationContacts.OrganizationID = Organizations.OrganizationID;", $dbh);
-	mysql_error_check();
+			"	AND OrganizationContacts.OrganizationID = Organizations.OrganizationID;");
 
 	while($row = mysql_fetch_assoc($result)) {
 		$people[ucwords($row['LName'].', '.$row['FName'])] =
@@ -116,11 +111,10 @@ function find_relations() {
 	/*
 	 * elected add-in provider reps
 	 */
-	$result = mysql_query("SELECT FName, LName " .
+	$result = $App->foundation_sql("SELECT FName, LName " .
 			"FROM  People, PeopleRelations " .
 			"WHERE People.PersonID = PeopleRelations.PersonID " .
-			"	AND Relation = 'AR';", $dbh);
-	mysql_error_check();
+			"	AND Relation = 'AR';");
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
@@ -132,11 +126,10 @@ function find_relations() {
 	/*
 	 * elected committer reps
 	 */
-	$result = mysql_query("SELECT FName, LName " .
+	$result = $App->foundation_sql("SELECT FName, LName " .
 			"FROM  People, PeopleRelations " .
 			"WHERE People.PersonID = PeopleRelations.PersonID " .
-			"	AND Relation = 'CB';", $dbh);
-	mysql_error_check();
+			"	AND Relation = 'CB';");
 	while($row = mysql_fetch_assoc($result)) {
 		if( !isset($people[ucwords($row['LName'].', '.$row['FName'])]) ) {
 			$people[ucwords($row['LName'].', '.$row['FName'])] =
@@ -149,7 +142,12 @@ function find_relations() {
 
 ob_start();
 ?>
-<div style="padding-left: 5em; width: 60%">
+<style>
+#midcolumn h1, h2, h3 {
+	font-weight: bold;
+}
+</style>
+<div class="midcolumn">
 <h1>Eclipse Foundation Board of Directors</h1>
 <table>
 <?php
