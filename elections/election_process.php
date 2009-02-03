@@ -45,17 +45,18 @@
 		<p>&nbsp;&nbsp;The process for the Eclipse Foundation&rsquo;s annual elections is described below.</p>
 		<ul>
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
-<<<<<<< election_process.php
+<!-- <<<<<<< election_process.php
 		groups within the Eclipse membership: the committers and the Sustaining Members. The number of these
 		elected representatives is a ratio of the total number of Strategic Members. 
 		<br/><br/>For $year, there are to be
 		four elected committer representatives and four elected Sustaining Member representatives. </li>
 =======
+-->
 		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and Enterprise Members).
 		The number of these	elected representatives is a ratio of the total number of Strategic Members. 
-		<br/><br/>For 2009, there are to be
+<!--		<br/><br/>For 2009, there are to be
 		five elected committer representatives and five elected Sustaining Member representatives. </li>
->>>>>>> 1.12
+>>>>>>> 1.12 -->
 		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
 		<li>The term of office for	these elected board members is one year, commencing April 1. </li>
 		<li>Voting for the elected board members is done using <a href="http://en.wikipedia.org/wiki/Single_Transferable_Vote">single transferrable voting</a>.</li>
