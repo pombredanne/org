@@ -2,20 +2,20 @@
 
 	<name>Hans-Joachim Brede</name>
 
-	<title></title>
+	<title>CEO</title>
 
 	<image>brede.jpg</image>
 
 	<email>hans-joachim.brede@bredex.de</email>
 
-	<eclipse_affiliation> <![CDATA[
+	<eclipse_affiliation> <![CDATA[ <p>
 Bredex GmbH joined the Eclipse Foundation as a Solutions Member in 2007. As well as 
 using Eclipse as an IDE, we also offer RCP training. Members of Bredex have 
-worked as contributors and committers on Eclipse projects. 
+worked as contributors and committers on Eclipse projects. </p>
 		
 	]]> </eclipse_affiliation>
 
-	<vision> <![CDATA[
+	<vision> <![CDATA[ <p>
 My vision for Eclipse in 2009 is to encourage more contact between 
 European and American members. The growth of the Eclipse community on 
 both sides of the Atlantic is a great opportunity for member companies and 
@@ -24,29 +24,29 @@ I can collect and present ideas from a European perspective as well as
 communicating other ideas back to the members in Europe. The issues and 
 questions of European members play an important role in moving Eclipse on 
 as a platform and as a community. I would like to be the point-of-contact for 
-both sides to bring us closer together. 
+both sides to bring us closer together. </p>
 		
 
 	]]> </vision>
 
-	<bio> <![CDATA[
+	<bio> <![CDATA[ <p>
 Hans-Joachim (Achim) Brede is the founder of BREDEX GmbH and is one of its 
 managing directors. He has implemented and managed multiple, highly complex 
 customer projects and is responsible for the concepts in the development of 
 the automated test tool GUIdancer. Achim holds a Master in Computer Science 
 and has worked with the University of Braunschweig and Digital Equipment as 
-a technical consultant.
+a technical consultant. </p>
 		
 	]]> </bio>
 
-	<affiliation> <![CDATA[ 
+	<affiliation> <![CDATA[ <p>
 		
 Since 1987, BREDEX GmbH has been providing high quality information technology
 services in the areas of consultancy, analysis and design, software development and
 training. Based in Braunschweig, the company has a history of long term customer
 satisfaction and a focus on forward thinking, developing individual solutions that bring
 future standards to current project needs. BREDEX sells GUIdancer, which is a powerful
-and cost effective automatic test tool for Java and HTML applications.
+and cost effective automatic test tool for Java and HTML applications. </p>
 	
 	]]>
 	</affiliation>

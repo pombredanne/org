@@ -8,13 +8,13 @@
 
 	<email> mike_taylor@instantiations.com </email>
 
-	<eclipse_affiliation> <![CDATA[As one of your current Solutions Provider 
-(Add-in) Board members I've strongly supported the interests of our 
+	<eclipse_affiliation> <![CDATA[ <p> As one of your current 
+Add-in Provider (now Solutions Member) Board members I've strongly supported the interests of our 
 community for the past several years and would be honored to represent you again in 
 2009. 2008 was a very active year in the Eclipse Community and on the 
 board. I won't belabor the details (if you want to read the board 
 meeting minutes check out http://www.eclipse.org/org/foundation/minutes.php) 
-but will say that I was a strong advocate for our Solutions Provider community. 
+but will say that I was a strong advocate for our Solutions Member community. 
 During the year I lead Eclipse e4 Market Research Study (released in January 2009) 
 and contributed to many important Board discussions and decisions. My team and I 
 at Instantiations supported many Eclipse-related activities in 2008 
@@ -23,22 +23,22 @@ committees and more. We're excited that two of our co-founders, Eric Clayberg an
 Dan Rubel released the 3rd edition of their best selling book, "Eclipse Plug-ins." We 
 will continue to do the same in 2009. We're all very involved and committed to 
 the success of the technology and the community. Instantiations has made the 
-Eclipse platform the core of its strategy and is <i> all Eclipse all the time.</i>	
+Eclipse platform the core of its strategy and is <i> all Eclipse all the time.</i></p>
 	]]> </eclipse_affiliation>
 
 	<vision>  <![CDATA[<p>My vision for 2009 is to:
 	<ul>
-<li>Continue to strongly represent the interests of Solution members 
+<li>Continue to strongly represent the interests of Solution Members 
 at Eclipse Board meetings and in the greater Eclipse Community.</li>
 <li>Continue to increase ROI for Solution membership in the 
 Eclipse Foundation.</li>
 <li>Make Eclipse a powerful "profitability platform" both for Solution providers and 
 all who use it.</li>
 <li>...and of course, to assure that Eclipse technology remains the 
-best on the planet!</li></ul>
+best on the planet!</li></ul> </p>
 	]]> </vision>
 
-	<bio> <![CDATA[ <ul>
+	<bio> <![CDATA[ <p><ul>
 	<li>I lead Instantiations, a company strategically committed to 
 Eclipse. Instantiations is a founding member of the Eclipse 
 Foundation, has led Eclipse open source projects, contributed code, 
@@ -64,10 +64,10 @@ the Eclipse Foundation).</li>
 <li>Founding member of <a 
 href="http://www.eclipseplugincentral.com">EPIC</a>, a leading 
 Eclipse portal.</li>
-<li>Over 25 years of experience in the software industry.</li>	</ul>
+<li>Over 25 years of experience in the software industry.</li>	</ul> </p>
 	]]> </bio>
 
-	<affiliation> <![CDATA[ <ul>
+	<affiliation> <![CDATA[ <p> <ul>
 	<li>Instantiations, Inc, provider of WindowBuilder, RCP 
 Developer, CodePro AnalytiX, CodePro Profiler, WindowTester and GWT Designer. Instantiations is a 
 technology company totally focused on Eclipse. Instantiations has led 
@@ -75,7 +75,7 @@ and contributed to several Eclipse open source projects and is deeply
 involved in the Eclipse community.</li>
 <li>Founding member of the <a 
 href="http://www.eclipseplugincentral.com">Eclipse 
-Plugin Central Alliance</a>.</li></ul>
+Plugin Central Alliance</a>.</li></ul> </p>
 		
 	
 	]]>

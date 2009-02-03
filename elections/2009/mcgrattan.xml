@@ -10,11 +10,12 @@
 
 	<eclipse_affiliation>  Solutions Member </eclipse_affiliation>
 
-	<vision>  In the current economic crisis it becomes more important than ever to ensure that Eclipse members, regardless of membership class, understand the value that their Eclipse membership provides to them. 
+	<vision>  <![CDATA[ <p> In the current economic crisis it becomes more important than ever to ensure that Eclipse members, regardless of membership class, understand the value that their Eclipse membership provides to them. 
 My vision for the next year is that we more effectively communicate the benefits to those we represent; identify the messages that resonate and assist the EMO in maintaining the current membership level. 
-I will use communication channels like my blog, speaking engagements at conferences as well as emails as communication tools. </vision>
+I will use communication channels like my blog, speaking engagements at conferences as 
+well as emails as communication tools. </p> ]]> </vision>
 
-	<bio> Miss McGrattan has worked with Ingres since 1992 and is a pillar in 
+	<bio> <![CDATA[ <p> Miss McGrattan has worked with Ingres since 1992 and is a pillar in 
 	the Ingres community, rising through the ranks to occupy a senior leadership 
 	position. She started as a porting engineer, working on UNIX code, and is 
 	now responsible for the Ingres Emerging Technologies Team which is 
@@ -23,7 +24,7 @@ I will use communication channels like my blog, speaking engagements at conferen
 	Open Source Software (FOSS) community both in code and in promoting 
 	global open source development. Never at a loss for words, Emma also 
 	discusses open source in her blog, "The View from 25B" at 
-	http://blogs.ingres.com/emmamcgrattan.</bio>
+	http://blogs.ingres.com/emmamcgrattan. </p> ]]> </bio>
 
 	<affiliation> Ingres Corporation </affiliation>
 
