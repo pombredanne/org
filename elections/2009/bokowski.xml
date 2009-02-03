@@ -87,7 +87,7 @@ more scaling but I don't see this discussed.</li>
 
 	]]> </vision>
 
-	<bio> <![CDATA[
+	<bio> <![CDATA[ <p>
 Boris is the technical lead of the Eclipse Platform UI component and works 
 for IBM in Ottawa, Canada. He is a member of the Eclipse Architecture Council, 
 and an active committer on the e4 project. He is proud to have helped increase 
@@ -97,7 +97,7 @@ he wrote a commercial RCP app using EMF and GEF, co-founded and co-managed
 a Web 2.0 company in Germany, worked on the original Eclipse 1.0 at OTI in 
 Ottawa, and earned a PhD in computer science at Freie Universit&auml;t Berlin, 
 Germany. He is married and a geek dad of three kids. You can find him on 
-IRC as "borisb6i".		
+IRC as "borisb6i".	</p>	
 	]]> </bio>
 
 	<affiliation> <![CDATA[ 
