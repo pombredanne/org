@@ -31,7 +31,7 @@
 		</p>
 		<p>
 			The <a href="http://www.eclipsist.org/web/eclipsist2009/program">conference program</a> is now available.
-			Attendance fees are waived but you must register in advance.  Registration provides access to all presentations,
+			Attendance fees are waived but you must register in advance to attend.  Registration provides access to all presentations,
 			public receptions, lunches and the exhibit hall.
 		</p>
  		<p>
