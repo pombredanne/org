@@ -147,7 +147,7 @@ ob_start();
 	font-weight: bold;
 }
 </style>
-<div class="midcolumn">
+<div class="midcolumn" style="padding-right: 2em;">
 <h1>Eclipse Foundation Board of Directors</h1>
 <table>
 <?php
