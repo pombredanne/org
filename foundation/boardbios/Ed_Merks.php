@@ -2,8 +2,8 @@ Ed
 Merks leads the <a href="http://www.eclipse.org/emf">Eclipse Modeling Framework</a>
 project and co-leads the <a href="http://www.eclipse.org/modeling/">Eclipse
 Modeling</a> project along with Rich Gronback from Borland.&nbsp; He is a
-coauthor of the authoritative book “<a
-href="http://safari.informit.com/9780321331885">EMF: Eclipse Modeling Framework</a>”
+coauthor of the authoritative book <a
+href="http://safari.informit.com/9780321331885"><i>EMF: Eclipse Modeling Framework</i></a> 
 which is nearing completion of a second edition. He is interested in all aspects
 of Eclipse modeling and its applications.&nbsp; He is well recognized for his
 dedication to the Eclipse community, posting literally thousands of newsgroup
