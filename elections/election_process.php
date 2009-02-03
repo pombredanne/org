@@ -45,28 +45,20 @@
 		<p>&nbsp;&nbsp;The process for the Eclipse Foundation&rsquo;s annual elections is described below.</p>
 		<ul>
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
-<!-- <<<<<<< election_process.php
-		groups within the Eclipse membership: the committers and the Sustaining Members. The number of these
+		groups within the Eclipse membership: the Committers and the Sustaining Members. The number of these
 		elected representatives is a ratio of the total number of Strategic Members. 
 		<br/><br/>For $year, there are to be
-		four elected committer representatives and four elected Sustaining Member representatives. </li>
-=======
--->
-		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and Enterprise Members).
-		The number of these	elected representatives is a ratio of the total number of Strategic Members. 
-<!--		<br/><br/>For 2009, there are to be
-		five elected committer representatives and five elected Sustaining Member representatives. </li>
->>>>>>> 1.12 -->
+		four elected Committer Member representatives and four elected Sustaining Member representatives. </li>
 		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
 		<li>The term of office for	these elected board members is one year, commencing April 1. </li>
 		<li>Voting for the elected board members is done using <a href="http://en.wikipedia.org/wiki/Single_Transferable_Vote">single transferrable voting</a>.</li>
 		<li>Each Sustaining Member gets one vote. </li>
 		<li>Each Committer Member gets one vote. Note that committers who are employees of Member companies have
 		all the rights and privileges (including voting) of a Committer Member. 
-		<p>Individual committers must join the Eclipse Foundation as Committer Members by signing the 
-		<a href="../documents/Eclipse%20MEMBERSHIP%20AGMT%202005_06_16%20Final.pdf">Membership Agreement</a> in order to be allowed to vote.</p>
-		<p>All committers who are employees of a single company have their votes collapsed into a single vote 
-		in the committer elections.</p></li>
+		<br/><br/>Individual committers must join the Eclipse Foundation as Committer Members by signing the 
+		<a href="../documents/Eclipse%20MEMBERSHIP%20AGMT%202005_06_16%20Final.pdf">Membership Agreement</a> in order to be allowed to vote.
+		<br/><br/>All committers who are employees of a single company have their votes collapsed into a single vote 
+		in the committer elections.</li>
 		<li>Voting is done electronically via a web interface on <a href="/">www.eclipse.org</a>. Each eligible voter is provided
 		with the URL and a userid and password with which to vote several days in advance of the voting.</li>
 		</ul>
