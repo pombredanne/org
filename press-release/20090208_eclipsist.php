@@ -24,7 +24,7 @@
      	<p>
 			The Eclipse Foundation and Eclipse member eteration are pleased to announce
 			<a href="http://www.eclipsist.org/web/eclipsist2009/home">EclipsIST</a>, the third annual
-			Eclipse Technical and User Summit in Istanbul, Turkey.  EclipsIST takses place April 28-29, 2009. 
+			Eclipse Technical and User Summit in Istanbul, Turkey.  EclipsIST takes place April 28-29, 2009. 
 			This event is for Eclipse users, adopters, developers and businesses.
 			It is an opportunity to participate in high quality technical tutorials and sessions delivered
 			by Eclipse experts.
