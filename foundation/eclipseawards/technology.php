@@ -46,13 +46,14 @@ ob_start();
 				<li><a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116" target="blank">AVR32 Studio</a></li>
 				<li><a href="http://www.bluage.com/" target="blank">Blu Age Agile Model Transformation</a></li>
 				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
-				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro Analytix</a></li>					
 				<li><a href="http://www.conformiq.com/qtronic.php" target="blank">Conformiq Qtronic</a></li>
 				<li><a href="http://www.sap.com/americas/solutions/sapbusinessobjects/sme/reporting/eclipse/index.epx" target="blank">Crystal Reports for Eclipse 2.0</a></li>
 				<li><a href="http://www.protecode.com/site/index.php/solutions/products" target="blank">Developer IP Assistant</a></li>
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE" target="blank">Force.com IDE</a></li>
+				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">Instantiations CodePro Analytix</a></li>	
+				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">Instantiations WindowBuilder Pro</a></li>
 				<li><a href="http://www.jboss.com/products/devstudio" target="blank">JBoss Developer Studio</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe</a></li>
 				<li><a href="http://www.ilog.com/products/visualization/" target="blank">JViews 8.5</a></li>
@@ -70,7 +71,6 @@ ob_start();
 				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
 				<li><a href="http://stan4j.com/" target="blank">STAN - Structure Analysis for Java</a></li>
 				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
-				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">WindowBuilder Pro</a></li>
 				<li><a href="http://www.zend.com/en/products/studio" target="blank">Zend Studio for Eclipse 6.1.1</a></li>
 			</ul>
 		</div>
