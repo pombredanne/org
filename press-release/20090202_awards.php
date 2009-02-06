@@ -67,9 +67,9 @@ function switchMenu(obj) {
 			<li>
 			"I'd like to nominate Nick Boldt.  Look at all those fun contests he's initiated
 			this year, e.g.,<br>
-			http://divby0.blogspot.com/2008/05/ganymede-poster-contest.html<br>
-			http://divby0.blogspot.com/2008/11/eclipsecon-2009-t-shirt-design-contest.html<br>
-			http://divby0.blogspot.com/2008/11/eclipse-photoshop-challenge-better-than_25.html
+			<a href="http://divby0.blogspot.com/2008/05/ganymede-poster-contest.html">http://divby0.blogspot.com/2008/05/ganymede-poster-contest.html</a><br>
+			<a href="http://divby0.blogspot.com/2008/11/eclipsecon-2009-t-shirt-design-contest.html">http://divby0.blogspot.com/2008/11/eclipsecon-2009-t-shirt-design-contest.html</a><br>
+			<a href="http://divby0.blogspot.com/2008/11/eclipse-photoshop-challenge-better-than_25.html">http://divby0.blogspot.com/2008/11/eclipse-photoshop-challenge-better-than_25.html</a>
 			<br><br>
 			You'll find him on IRC answering questions.  You'll find him blogging, often in
 			the form of poetry set to music.  You'll find him on newsgroups like newcomers,
@@ -181,7 +181,8 @@ function switchMenu(obj) {
 			<br><br>
 			He's also managed to revive EclipseZone which is great. I particularly enjoyed
 			reading the EMF team interview
-			(http://eclipse.dzone.com/articles/eclipse-modelling-framework-qa). I can only
+			(<a href="http://eclipse.dzone.com/articles/eclipse-modelling-framework-qa">
+			http://eclipse.dzone.com/articles/eclipse-modelling-framework-qa</a>). I can only
 			hope he does more of those types of things ;) "	
 			</li>
 		</ul>
