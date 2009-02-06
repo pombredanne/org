@@ -511,8 +511,12 @@ function switchMenu(obj) {
 			<br><br>
 			From a quick search, there are about a 100 bugs Miles has created or commented
 			on in the recent past, mostly in the areas of the new SWT Cocoa port, and
-			Equinox p2. Particularly good examples of his contributions are comments in bug
-			250316, bug 255984, bug 239301, and bug 236740. I'm sure I have missed many
+			Equinox p2. Particularly good examples of his contributions are comments in
+			<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=250316">bug
+			250316</a>, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=255984">bug 255984</a>,
+			<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=239301">bug 239301</a>, and
+			<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=236740">bug 236740</a>.
+			I'm sure I have missed many
 			others."	
 			</li>
 			<li>
