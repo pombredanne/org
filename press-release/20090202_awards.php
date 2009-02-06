@@ -366,7 +366,7 @@ function switchMenu(obj) {
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description"></a>
 			Frank Becker
 		</p>
-		<div id="Frank Becker" class="switchcontent">
+		<div id="FrankBecker" class="switchcontent">
 		<p>
 		<ul>
 			<li>
@@ -428,7 +428,7 @@ function switchMenu(obj) {
 			too."
 			</li>
 			<li>
-			"+1 for Benjamin Cabé : for all the contests, contributions to PDE and his
+			"+1 for Benjamin Cab&eacute; : for all the contests, contributions to PDE and his
 			activity on bugzilla, newsgroups and mailing lists"
 			</li>
 		</ul>
