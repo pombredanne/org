@@ -200,12 +200,12 @@ function switchMenu(obj) {
 		<ul>
 			<li>
 			"I would like to also nominate Martin Oberhuber. He's done a great job leading
-			the TM project at Eclipse (http://www.eclipse.org/dsdp/tm/) but more
+			the TM project at Eclipse (<a href="http://www.eclipse.org/dsdp/tm/">http://www.eclipse.org/dsdp/tm/</a>) but more
 			importantly, he's done something I thought impossible, revive the Eclipse
 			Architecture Council (EAC). Because of Martin's leadership, the EAC has become
 			a place where committers can ask questions easily
-			(http://dev.eclipse.org/mhonarc/lists/eclipse.org-committers/msg00598.html),
-			look at open issues (http://wiki.eclipse.org/Architecture_Council/Open_Issues),
+			(<a href="http://dev.eclipse.org/mhonarc/lists/eclipse.org-committers/msg00598.html">http://dev.eclipse.org/mhonarc/lists/eclipse.org-committers/msg00598.html</a>),
+			look at open issues (<a href="http://wiki.eclipse.org/Architecture_Council/Open_Issues">http://wiki.eclipse.org/Architecture_Council/Open_Issues</a>),
 			seek mentorship and many other things.
 			<br><br>
 			Thank you Martin."	
