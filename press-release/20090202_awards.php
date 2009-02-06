@@ -370,7 +370,7 @@ function switchMenu(obj) {
 		<p>
 		<ul>
 			<li>
-			"I would like to nominate Frank Becker (<a href="mailto:Frank@Frank-Becker.de"Frank@Frank-Becker.de</a>>) for Top
+			"I would like to nominate Frank Becker (<a href="mailto:Frank@Frank-Becker.de">Frank@Frank-Becker.de</a>) for Top
 			Contributor. Frank has been an tireless contributor to the Mylyn project
 			(<a href="http://eclipse.org/mylyn">http://eclipse.org/mylyn</a>) for over a year, and has implemented a number of
 			excellent features in Mylyn (some you may have seen already, others due in
@@ -532,7 +532,7 @@ function switchMenu(obj) {
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description"></a>
 			Tom Schindl
 		</p>
-		<div id="Tom Schindlc" class="switchcontent">
+		<div id="TomSchindlc" class="switchcontent">
 		<p>
 		<ul>
 			<li>
