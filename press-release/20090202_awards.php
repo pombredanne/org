@@ -183,7 +183,7 @@ function switchMenu(obj) {
 			reading the EMF team interview
 			(<a href="http://eclipse.dzone.com/articles/eclipse-modelling-framework-qa">
 			http://eclipse.dzone.com/articles/eclipse-modelling-framework-qa</a>). I can only
-			hope he does more of those types of things ;) "	
+			hope he does more of those types of things&nbsp;;)&nbsp;"	
 			</li>
 		</ul>
 		</p>
