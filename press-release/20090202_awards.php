@@ -449,7 +449,7 @@ function switchMenu(obj) {
 			Eclipse (his own blog, newsgroups, the mailing lists, IRC, and so forth) and he
 			is really, really active. I don't know where he finds the time for all of this
 			because I'm pretty sure he's not doing all of these things on company time.
-			
+			<br><br>
 			Dave really just kind of "came out of nowhere" some time in 2007 (or early
 			2008?) and has contributed a tremendous amount to the Eclipse ecosystem since
 			then. He works closely with the WTP SSE folks in his work for XSL tooling and
