@@ -1,7 +1,7 @@
 
 <boardmember id="graham" type="addin">
 	<name>John Graham</name>
-	<title>Senior Software Engineer</title>
+	<title>Senior Software Engineer, JBoss</title>
 	<image>graham.jpg</image>
 	<email>jgraham@redhat.com</email>
 	<eclipse_affiliation> <![CDATA[Eclipse Data Tools Platform (DTP) PMC member, Eclipse Architecture Council member, Eclipse Planning Council member	]]>
