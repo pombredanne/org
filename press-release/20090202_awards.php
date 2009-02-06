@@ -329,7 +329,7 @@ function switchMenu(obj) {
 			</li>
 			<li>
 			"+1. What Chris said - Paul is an Eclipse machine.  A bitter, surly Eclipse
-			machine.  :) "
+			machine.&nbsp;&nbsp;:)&nbsp;"
 			</li>
 			<li>
 			"+1 for Paul, this is a no-brainer."
