@@ -23,9 +23,8 @@ Santa Clara Convention Center, Santa Clara, CA<br>
 Open Source Executive Strategy Summit for  executives who
 are responsible for their organizations open
 source strategy and participation.&nbsp;&nbsp; The purpose of event is to answer two questions: 
-1) 'What Open Source Strategies Are Working Today?' and 2) 'What Will Work in the Future?'  
-The Summit will
-feature industry speakers, case studies and group discussions that analyze the
+1) 'What Open Source Strategies Are Working Today?' and 2) 'What Will Work in the Future?.  
+The Summit will feature industry speakers, case studies and group discussions that analyze the
 different aspects of an open source strategy, including product
 strategy, licensing, development models and community building.&nbsp;
 &nbsp;Participants will have the opportunity to learn the success factor and challenges 
