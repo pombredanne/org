@@ -55,7 +55,7 @@ function switchMenu(obj) {
 		
 		<p>The nominees are:</p>
 		
-		<p><b><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257950">Top Ambassador</a></b></p>
+		<h3>Top Ambassador</h3>
 
 		<p><a href="javascript:switchMenu('NickBoldt');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description"></a>
@@ -90,6 +90,7 @@ function switchMenu(obj) {
 			newsgroups and IRC, and spreading the word about kiva.org :-) "
 			</li>
 		</ul>
+		
 		</p>
 		</div>	
 		
@@ -189,7 +190,12 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
-		<p><b><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Top Committer</a></b></p>
+		<p>
+		To read more about the candidates, click on the plus sign beside each name and
+		<a href="http://eclipse.dzone.com/articles/meet-years-top-ambassador" target="blank">see the DZone interview</a> with the Top Ambassador nominees.
+		</p>		
+		
+		<h3>Top Committer</h3>
 
 		<p><a href="javascript:switchMenu('MartinOberhuber');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description"></a>
@@ -359,8 +365,12 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>		
+
+		<p>
+		To read more about the candidates, click on the plus sign beside each name.
+		</p>		
 		
-		<p><b><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Top Contributor</a></b></p>
+		<h3>Top Contributor</h3>
 
 		<p><a href="javascript:switchMenu('FrankBecker');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description"></a>
@@ -556,7 +566,12 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>
-
+		
+		<p>
+		To read more about the candidates, click on the plus sign beside each name and
+		<a href="http://eclipse.dzone.com/articles/meet-years-top-contributor" target="blank">see the DZone interview</a> with the Top Contributor nominees.
+		</p>
+		
 	</div>
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
