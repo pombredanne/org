@@ -367,7 +367,8 @@ function switchMenu(obj) {
 		</div>		
 
 		<p>
-		To read more about the candidates, click on the plus sign beside each name.
+		To read more about the candidates, click on the plus sign beside each name and
+		<a href="http://eclipse.dzone.com/articles/meet-years-top-committer" target="blank">see the DZone interview</a> with the Top Committer nominees.
 		</p>		
 		
 		<h3>Top Contributor</h3>
