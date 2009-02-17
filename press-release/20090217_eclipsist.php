@@ -22,9 +22,9 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
      	<p>
-			The Eclipse Foundation and Eclipse member eteration are pleased to announce
-			<a href="http://www.eclipsist.org/web/eclipsist2009/home" target="blank">EclipsIST</a>, the third annual
-			Eclipse Technical and User Summit taking place in Istanbul, Turkey, April 28-29, 2009.
+     		Eteration and the Eclipse Foundation are pleased to announce
+			<a href="http://www.eclipsist.org/web/eclipsist2009/home" target="blank">EclipsIST</a>,
+     		the third annual Eclipse Technical and User Summit taking place in Istanbul, Turkey, April 28-29, 2009. 
 		</p>
 		<p>
 			EclipsIST 2009 is a two-day event of fully loaded parallel speaker tracks followed by a
