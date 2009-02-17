@@ -52,6 +52,7 @@ ob_start();
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE" target="blank">Force.com IDE</a></li>
+				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">Instantiations CodePro Analytix</a></li>	
 				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">Instantiations WindowBuilder Pro</a></li>
 				<li><a href="http://www.jboss.com/products/devstudio" target="blank">JBoss Developer Studio</a></li>
@@ -119,7 +120,6 @@ ob_start();
 				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>	
 				<li>ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</li>
 				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
-				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>	
 				<li><a href="http://www.neckdiagrams.com" target="blank">Neck Diagrams</a></li>
 				<li><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
 				<li><a href="http://www.poweredbypulse.com" target="blank">Pulse</a></li>
