@@ -36,6 +36,8 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090217_eclipsist.php">EclipsIST - Supporting the Turkish Eclipse Community</a> - February 17, 2009</li>
+		<li><a href="20090206_cbstrategy.php">Announcing the Open Source Executive Strategy Summit</a> - February 6, 2009</li>
 		<li><a href="20090202_awards.php">Voting for the Individual Eclipse Community Awards is Open</a> - February 2, 2009</li>
 		<li><a href="20090121_pdt.php">Eclipse Announces Latest PHP Development Tools (PDT)</a> - January 21, 2009</li>
 		<li><a href="20090120_econgold.php">Eclipse Announces Gold Sponsors for EclipseCon 2009</a> - January 20, 2009</li>
