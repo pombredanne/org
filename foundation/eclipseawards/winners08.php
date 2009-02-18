@@ -39,14 +39,14 @@ ob_start();
 			<h3>Top Ambassador</h3>
 			<ul>
 				<li class="finalist">Jeff McAffer</li>
-				<li>Ed Merks <b>(Winner)</b></li>
+				<li class="winner">Ed Merks <b>(Winner)</b></li>
 			</ul>
 		</div>	
 		
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li>Chris Aniszczyk <b>(Winner)</b></li>	
+				<li class="winner">Chris Aniszczyk <b>(Winner)</b></li>	
 				<li class="finalist">Mik Kersten</li>
 				<li class="finalist">Paul Webster</li>					
 			</ul>
@@ -56,7 +56,7 @@ ob_start();
 			<h3>Top Contributor</h3>
 			<ul>
 				<li class="finalist">Jacek Pospychala</li>
-				<li>Remy Chi Jian Suen <b>(Winner)</b></li>
+				<li class="winner">Remy Chi Jian Suen <b>(Winner)</b></li>
 			</ul>
 		</div>
 
@@ -79,14 +79,14 @@ ob_start();
 			<ul>
 				<li class="finalist"><a href="http://www.nexaweb.com/home/us/index.html@cid=2301.html">Nexaweb Studio</a></li>
 				<li class="finalist"><a href="http://www.polarion.com/products/alm/team.php">Polarion&reg; ALM <i>Team</i> for Subversion&trade;</a></li>
-				<li><a href="http://www.windriver.com/products/development_suite/">Wind River Workbench</a> <b>(Winner)</b></li>
+				<li class="winner"><a href="http://www.windriver.com/products/development_suite/">Wind River Workbench</a> <b>(Winner)</b></li>
 			</ul>
 		</div>	
 			
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.eclemma.org/">EclEmma</a> <b>(Winner)</b></li>
+				<li class="winner"><a href="http://www.eclemma.org/">EclEmma</a> <b>(Winner)</b></li>
 				<li class="finalist"><a href="http://springide.org">Spring IDE</a></li>
 				<br>
 			</ul>
@@ -95,21 +95,21 @@ ob_start();
 		<h3>Best Commercial Equinox Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.birt-exchange.com/modules/products/index.php?productid=3 ">BusinessReport Studio</a></li>
-				<li><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a> <b>(Winner)</b></li>
+				<li class="winner"><a href="http://www.bandxi.com/cyrano/index.html">CYRANO</a> <b>(Winner)</b></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.openmethods.com/products.php">openVXML</a></li>
-				<li><a href="http://www.xmind.org/us/">XMIND 2008</a> <b>(Winner)</b></li>
+				<li class="winner"><a href="http://www.xmind.org/us/">XMIND 2008</a> <b>(Winner)</b></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://directory.apache.org/studio">Apache Directory Studio</a></li>
-				<li><a href="http://mytourbook.sourceforge.net/">MyTourbook</a> <b>(Winner)</b></li>
+				<li class="winner"><a href="http://mytourbook.sourceforge.net/">MyTourbook</a> <b>(Winner)</b></li>
 			</ul>
 		</div>			
 	</div>
