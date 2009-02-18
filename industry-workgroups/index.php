@@ -31,7 +31,7 @@ ob_start();
 	</tr>
 	<tr>
 		<td>Mobile Industry Working Group</td>
-		<td><a href="http://wiki.eclipse.org/MobileIndustryWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
+		<td><a href="http://wiki.eclipse.org/EMIWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
 		<td><a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
 		<td></td>
 	</tr>	
