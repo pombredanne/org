@@ -581,9 +581,10 @@ function switchMenu(obj) {
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/individual.php">Individual Nominations</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php">Technology Nominations</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php">Make a Technology Nomination</a></li>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php">Technology Nominations</a></li>
 			</ul>
 		</div>
 	
