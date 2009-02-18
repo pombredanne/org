@@ -128,10 +128,8 @@ ob_start();
 		<br />
 		<a href="technology.php">A complete list of the nominees for the 2009 Technology Awards can be found here.</a>
 		<br /><br />
-		</div>
-	
 	</div>
-
+	
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
 		<div class="sideitem">
@@ -151,5 +149,5 @@ ob_start();
 	ob_end_clean();
 
 	# Generate the web page
-	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
+	$App->generatePage("Nova", $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
