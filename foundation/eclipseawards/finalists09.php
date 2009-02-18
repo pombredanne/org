@@ -71,7 +71,7 @@ ob_start();
 			</ul>
 		</div>			
 		<br />
-		<a href="http://www.eclipse.org/org/press-release/20090202_awards.php">A complete list of the nominees for the 2009 Individual Awards can be found here.</a>
+		<a href="individual.php">A complete list of the nominees for the 2009 Individual Awards can be found here.</a>
 		<br /><br />
 
 	<h2><br>Technology Award Winners</h2>
