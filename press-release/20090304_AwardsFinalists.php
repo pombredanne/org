@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Finalists Announced for Eclipse Community Awards 2009";
+	$pageTitle 		= "Finalists for the Eclipse Community Awards 2009";
 	$pageKeywords	= "eclipse, awards, finalists";
 	$pageAuthor		= "Lynn Gayowski";
 	
@@ -44,7 +44,7 @@
 		</p>
 		<p>
 			The Technology Awards recognize some of the best Eclipse-based open source projects and commercial products. The finalists
-			were selected from a pool of <a href="http://www.eclipse.org/org/foundation/eclipseawards/technology_nominations.php" target="blank">
+			were selected from a pool of <a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php">
 			64 nominations</a> by a panel of judges from the Eclipse community.
 		</p>
 		<p>
@@ -65,10 +65,11 @@
 			<a href="http://www.eclipse.org" target="blank">product</a></li>
 			<li><b>Best Open Source RCP Application</b>: <a href="http://www.eclipse.org" target="blank">product</a>
 			and <a href="http://www.eclipse.org" target="blank">product</a></li>
+			</ul>
 		</p>
 		<p>
-			Winners for each category will be announced at an <a href="http://www.eclipsecon.org/2008/?page=sub/&id=539" target="blank">
-			awards ceremony</a> on March 23, 2009 at <a href="http://www.eclipsecon.org" target="blank">EclipseCon</a>. 
+			Winners for each category will be announced at an <a href="http://www.eclipsecon.org/2009/sessions?id=742">
+			awards ceremony</a> on March 23, 2009 at <a href="http://www.eclipsecon.org">EclipseCon</a>. 
 		</p>
 		<br><br>
 	</div>
@@ -80,6 +81,7 @@
 			<ul>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/finalists09.php">Finalists</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/individual.php">Individual Nominations</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php">Technology Nominations</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php">Make a Technology Nomination</a></li>		
