@@ -112,21 +112,8 @@ ob_start();
 				<li><a href="http://mytourbook.sourceforge.net/">MyTourbook</a> <b>(Winner)</b></li>
 			</ul>
 		</div>			
-		<br />
-		<a href="technology_nominations.php">A complete list of the nominees for the 2008 Technology Awards can be found here.</a>
-		<br /><br />
-		</div>
-	
 	</div>
-
-	<!-- remove the entire <div> tag to omit the right column!  -->
-	<div id="rightcolumn">
-		<div class="sideitem">
-			<h6>Awards Navigation</h6>
-			<ul>
-				<li><a href="judges08.php">Technology Judges</a></li>		
-			</ul>
-		</div>
+	
 	</div>
 
 <?php
