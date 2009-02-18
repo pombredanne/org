@@ -65,7 +65,7 @@ ob_start();
 			<ul>
 				<li class="finalist">Mark Dexter</li>	
 				<li class="finalist">Walter Harley</li>
-				<li>Eric Rizzo <b>(Winner)</b></li>
+				<li class="winner">Eric Rizzo <b>(Winner)</b></li>
 			</ul>
 		</div>
 
