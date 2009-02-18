@@ -69,8 +69,10 @@ ob_start();
 				<li class="finalist">name</li>
 				<li class="finalist">name</li>
 			</ul>
-		</div>
-
+		</div>			
+		<br />
+		<a href="http://www.eclipse.org/org/press-release/20090202_awards.php">A complete list of the nominees for the 2009 Individual Awards can be found here.</a>
+		<br /><br />
 
 	<h2><br>Technology Award Winners</h2>
 		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
