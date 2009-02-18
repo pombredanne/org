@@ -30,7 +30,7 @@
 		</p>
 
 		<p>
-			The Individual Awards recognize the people who have volunteered their time to make Eclipse a vibrant and innovative
+			The Individual Awards recognize the people who have given their time to make Eclipse a vibrant and innovative
 			community. Finalists were selected by their peers in an online vote. The selection of the Top Newcomer Evangelist is based
 			on the individual that has answered the most questions raised on the eclipse.newcomer newsgroup.
 		</p>
@@ -45,7 +45,7 @@
 		<p>
 			The Technology Awards recognize some of the best Eclipse-based open source projects and commercial products. The finalists
 			were selected from a pool of <a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php">
-			64 nominations</a> by a panel of judges from the Eclipse community.
+			64 nominations</a> by a judging panels from the Eclipse community.
 		</p>
 		<p>
 			<ul>
