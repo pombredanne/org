@@ -31,8 +31,6 @@
 ob_start();
 ?>		
 
-	$html = <<<EOHTML
-
 <style type="text/css">
 .switchcontent{display:none;}
 </style>
