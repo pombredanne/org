@@ -103,6 +103,7 @@ Panelist: <br>
 <li>Steve Harris, Vice President, Oracle
 <li> Michael Enescu, CTO of Open Source Initiatives, Cisco
 <li> Mik Kersten, CEO of Tasktop
+</ul>
  
 
 </P>
