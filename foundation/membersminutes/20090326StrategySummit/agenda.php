@@ -95,9 +95,18 @@ culture.</P></LI>
 <LI><P><B>Panel Discussion: The Future of Open Source and Business</B></P>
 
 <P>  What is the future of open source in the software business?  The panelist will 
-highlight some of the trends, opportunities and challenges that see for 
-organizations adopting an open source strategy.
+highlight some of the trends, opportunities and challenges they see for 
+organizations adopting an open source strategy.<br><br>
+
+Panelist: <br>
+<ul>
+<li>Steve Harris, Vice President, Oracle
+<li> Michael Enescu, CTO of Open Source Initiatives, Cisco
+<li> Mik Kersten, CEO of Tasktop
+ 
+
 </P>
+
 
 
 </OL>
