@@ -29,8 +29,7 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-		Revision 1.0 November 5, 2008
-
+		Revision 1.1 February 20, 2009 <img src='/images/updated.png'>
 		
 		<h3>Purpose and Scope</h3>
 		
@@ -81,7 +80,7 @@
 		for IWG participants, etc.</p>
 		
 		<h3>2. Participation Structure for Industry Working Groups</h3>
-		<p>Participation in IWGs is only open to Members of the Eclipse Foundation.  Each IWG will have two types 
+		<p>Participation in IWGs is only open to certain Members of the Eclipse Foundation.  Each IWG will have two types 
 		of participants: Steering Committee Participants and Member Participants (collectively, "Participants"):</p>
 
 		<p>The <i>Steering Committee</i> Participants shall be Participants of the IWG that are Strategic or 
@@ -112,7 +111,7 @@
 			resources (development, marketing programs, etc.) 
 			</ul> </p>
 
-		<p><i>Member Participant</i> is a Member of the Eclipse Foundation who agrees to actively participate in the IWG 
+		<p><i>Member Participant</i> is a Member of the Eclipse Foundation (excluding Associate Members) who agrees to actively participate in the IWG 
 		and meets the Member Participation Guidelines.  </p>
 
 		<p>Any Member that satisfies the Member Participation Guidelines of an IWG must be permitted to be a 
