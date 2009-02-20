@@ -98,7 +98,7 @@ culture.</P></LI>
 highlight some of the trends, opportunities and challenges they see for 
 organizations adopting an open source strategy.<br><br>
 
-Panelist: <br>
+Panelist: 
 <ul>
 <li>Steve Harris, Vice President, Oracle
 <li> Michael Enescu, CTO of Open Source Initiatives, Cisco
