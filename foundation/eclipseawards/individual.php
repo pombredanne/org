@@ -54,6 +54,15 @@ function switchMenu(obj) {
 			The following is a list of nominations submitted for the Individual Awards.  Nominations closed on January 30, 2009.
 		</p>
 		
+		<p>
+			Voting for the Eclipse Community Awards will be open until <b>February 27, 2009 at
+			5:00pm EST</b> and the winner will be announced March 23, 2009 at
+		<a href="http://www.eclipsecon.org" target="blank">EclipseCon.</a></p>
+		
+		<p><a href="http://eclipse.org/go/awardsvote09" target="blank">
+		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
+		</p>		
+		
 <h3>Top Ambassador</h3>
 
 		<p><a href="javascript:switchMenu('NickBoldt');" title="Description">
