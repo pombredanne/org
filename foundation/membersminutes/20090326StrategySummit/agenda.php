@@ -100,9 +100,11 @@ organizations adopting an open source strategy.<br><br>
 
 Panelist: 
 <ul>
-<li>Steve Harris, Vice President, Oracle
-<li> Michael Enescu, CTO of Open Source Initiatives, Cisco
-<li> Mik Kersten, CEO of Tasktop
+<li>Moderator: Michael Cote, Redmonk
+<li>Steve Harris, Senior Vice President, Application Server Development, Oracle
+<li>Michael Enescu, CTO of Open Source Initiatives, Cisco
+<li>Timothy M. Golden, Senior Vice President, UNIX Engineering, Security, and Provisioning, Bank of America
+<li>Mik Kersten, CEO of Tasktop
 </ul>
  
 
