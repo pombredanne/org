@@ -29,7 +29,7 @@ $pageAuthor		= "Lynn Gayowski";
 			developers,	architects and tool vendors to learn more about RCP, Equinox OSGi and Modeling.
 			Eclipse experts	will lead the sessions, teaching theoretical knowledge as well as
 			providing practical experience through hands-on labs. Classes have been scheduled in
-			16 different cities from April 6 to May 29, 2009. 
+			19 different cities from April 6 to May 29, 2009. 
 		</p>
 		<p>
 			Students who register before March 20, 2009 will receive a 5% discount on the
