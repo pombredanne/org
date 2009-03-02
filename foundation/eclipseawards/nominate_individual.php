@@ -60,7 +60,6 @@
 		After nominations closed, voting commenced February 2, 2009 and finished February 27, 2008 at 5:00 pm EST.  
 		</p>
 		
-		<br>
 		<h2>Past Winners</h2>
 		<p>
 			Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
