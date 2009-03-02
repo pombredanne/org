@@ -29,7 +29,7 @@
 		Eclipse Riena, a platform for developing multi-tier rich client applications based on the Eclipse Rich Client Platform (RCP) and 
 		Equinox. With this release Riena leaves the Incubator status and graduates to a mature Eclipse project. 
 		The first release provides a set of major components and is now available for download at 
-		<a href="www.eclipse.org/riena">www.eclipse.org/riena</a>. </p>
+		<a href="http://www.eclipse.org/riena/">www.eclipse.org/riena</a>. </p>
 		
 		<p>Riena provides a platform for building distributed enterprise applications that simplify the user 
 		interface development and the integration of back-end systems. Core to Riena is an OSGi-based Remote 
