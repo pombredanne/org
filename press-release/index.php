@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090302riena10.php">Riena 1.0 is Now Available</a> - March 2, 2009</li>
 		<li><a href="20090217_eclipsist.php">EclipsIST - Supporting the Turkish Eclipse Community</a> - February 17, 2009</li>
 		<li><a href="20090206_cbstrategy.php">Announcing the Open Source Executive Strategy Summit</a> - February 6, 2009</li>
 		<li><a href="20090202_awards.php">Voting for the Individual Eclipse Community Awards is Open</a> - February 2, 2009</li>
@@ -90,7 +91,7 @@ ob_start();
 		<li><a href="20070731_RCPtraining.php">Eclipse RCP Training Announced</a> - July 31st, 2007</li>
 		<li><a href="20070719_ESEregopen.php">Eclipse Summit Europe Registration Opens</a> - July 19th, 2007</li>
 		<li><a href="20070627_europarelease.php">Eclipse Ships Largest-Ever Release of Leading Open Source Software Development Platform</a> - June 27th 2007</li>				
-		<li><a href="20070627_europarelease.php">Eclipse liefert den bisher größten Release der führenden Open Source Software-Entwicklungsplattform aus</a> - June 27th 2007</li>
+		<li><a href="20070627_europarelease.php">Eclipse liefert den bisher grï¿½ï¿½ten Release der fï¿½hrenden Open Source Software-Entwicklungsplattform aus</a> - June 27th 2007</li>
 		<li><a href="20070619_cbsummitasia.php">Community Bulletin: OS Summit Asia</a> - June 19th 2007</li>
 		<li><a href="20070612cb_europareviews.php">Write a Review, Win an Eclipse Shirt</a> - June 13th 2007</li>		
 		<li><a href="20070529_cbsummitcall.php">Eclipse Summit Europe Call for Participation - Talks & Demo</a> - May 29th 2007</li>
