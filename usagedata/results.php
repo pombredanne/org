@@ -126,7 +126,7 @@ ob_start();
 
 </div>
 
-<? include "rightcol.php"; ?>
+<? //include "rightcol.php"; ?>
 
 </div>
 

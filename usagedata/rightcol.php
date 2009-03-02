@@ -32,8 +32,10 @@
 <li><a href="faq.php">Frequently Asked Questions</a></li>
 <li><a href="terms.php">Terms of Use</a></li>
 </ul>
+</div>
 
-<p>Reports</p>
+<div class="sideitem">
+<h6>Reports</h6>
 <ul>
 <li><a href="results.php">org.eclipse.* results</a></li>
 <li><a href="usage.php">Usage trends</a></li>
