@@ -36,6 +36,7 @@ ob_start();
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090304_AwardsFinalists.php">Finalists for the Eclipse Community Awards 2009</a> - March 4, 2009</li>
 		<li><a href="20090302_training.php">Global Eclipse Training Series</a> - March 2, 2009</li>
 		<li><a href="20090302riena10.php">Riena 1.0 is Now Available</a> - March 2, 2009</li>
 		<li><a href="20090217_eclipsist.php">EclipsIST - Supporting the Turkish Eclipse Community</a> - February 17, 2009</li>
