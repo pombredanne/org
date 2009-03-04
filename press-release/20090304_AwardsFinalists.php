@@ -85,8 +85,9 @@
 			<h6>Awards Navigation</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners08">2008 Winners</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners08.php">2008 Winners</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners07.php">2007 Winners</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners06.php">2006 Winners</a></li>
 			</ul>
 		</div>
 	</div>
