@@ -113,6 +113,16 @@ ob_start();
 			</ul>
 		</div>			
 	</div>
+
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Awards Navigation</h6>
+			<ul>
+				<li><a href="index.php">Eclipse Community Awards</a></li>
+			</ul>
+		</div>
+	</div>
+
 	
 <?php
 	$html = ob_get_contents();
