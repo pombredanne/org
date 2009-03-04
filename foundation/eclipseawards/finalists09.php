@@ -38,36 +38,36 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
 			<ul>
-				<li class="finalist">name</li>
-				<li class="finalist">name</li>
-				<li class="finalist">name</li>
+				<li class="finalist">Nick Boldt</li>
+				<li class="finalist">Mik Kersten</li>
+				<li class="finalist">Tom Schindl</li>
 			</ul>
 		</div>	
 		
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li class="finalist">name</li>	
-				<li class="finalist">name</li>
-				<li class="finalist">name</li>					
+				<li class="finalist">Martin Oberhuber</li>	
+				<li class="finalist">Jason Weathersby</li>
+				<li class="finalist">Paul Webster</li>					
 			</ul>
 		</div>
 
 		<div class="homeitem3col">
 			<h3>Top Contributor</h3>
 			<ul>
-				<li class="finalist">name</li>
-				<li class="finalist">name</li>
-				<li class="finalist">name</li>
+				<li class="finalist">Benjamin Cabe</li>
+				<li class="finalist">Dave Carver</li>
+				<li class="finalist">Tom Schindl</li>
 			</ul>
 		</div>
 
 		<div class="homeitem3col">
 			<h3>Top Newcomer Evangelist</h3>
 			<ul>
-				<li class="finalist">name</li>	
-				<li class="finalist">name</li>
-				<li class="finalist">name</li>
+				<li class="finalist">Nick Boldt</li>	
+				<li class="finalist">Walter Harley</li>
+				<li class="finalist">Ed Merks</li>
 			</ul>
 		</div>			
 		<br />
@@ -81,48 +81,48 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
+				<li class="finalist"><a href="http://www.adobe.com/products/flex/" target="blank">Adobe Flex Builder 3</a></li>
+				<li class="finalist"><a href="http://www.guidancer.com" target="blank">Bredex GUIdancer</a></li>
+				<li class="finalist"><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">Instantiations WindowBuilder Pro</a></li>
 			</ul>
 		</div>	
 			
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
+				<li class="finalist"><a href="http://www.acceleo.org" target="blank">Acceleo</a></li>
+				<li class="finalist"><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank">AnyEdit Tools</a></li>
+				<li class="finalist"><a href="http://openrules.com" target="blank">OpenRules</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Commercial Equinox Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
+				<li class="finalist"><a href="http://www.cas-pia.de" target="blank">CAS PIA</a></li>
+				<li class="finalist"><a href="http://www.prosyst.com/products/osgi_ext_smart.html" target="blank">ProSyst mBedded Server Smart Home Extension</a></li>
+				<li class="finalist"><a href="http://eclipsesource.com/en/products/yoxos-enterprise/" target="blank">Yoxos Enterprise</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Open Source Equinox Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
+				<li class="finalist"><a href="http://www.modulefusion.org" target="blank">ModuleFusion</a></li>
+				<li class="finalist"><a href="http://vif.sourceforge.net/" target="blank">VIF - Virtual Forum</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
+				<li class="finalist"><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>
+				<li class="finalist">ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</li>
+				<li class="finalist"><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org">product</a></li>
+				<li class="finalist"><a href="http://directory.apache.org/studio" target="blank">Apache Directory Studio</a></li>
+				<li class="finalist"><a href="http://mae.cee.uiuc.edu/software_and_tools/maeviz.html" target="blank">MAEviz</a></li>
 			</ul>
 		</div>			
 		<br />
