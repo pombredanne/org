@@ -111,7 +111,7 @@ ob_start();
 		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.bardusch.de">Bardusch GmbH</a></li>
-				<li class="winner"><a href="http://www.jpmchase.com"><b>JPMorgan Chase</a>(Winner)</b></li>
+				<li class="winner"><a href="http://www.jpmchase.com"><b>JPMorgan Chase</a> (Winner)</b></li>
 				<li class="finalist"><a href="http://www.jpl.nasa.gov/">NASA Ensemble Team</a></li>
 			</ul>
 		</div>
