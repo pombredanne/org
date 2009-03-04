@@ -30,7 +30,7 @@
 	# Paste your HTML content between the markers!	
 ob_start();
 ?>		
-<link rel="stylesheet" type="text/css" href="org/foundation/eclipseawards/layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Individual Award Winners</h2>
@@ -38,9 +38,9 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
 			<ul>
-				<li>Ed Burnette <b>(Winner)</b></a>
-				<li class="finalist">Erich Gamma <b>(Finalist)</b></a>
-				<li class="finalist">Pat McCarthy <b>(Finalist)</b></a>				
+				<li class="winner"><b>Ed Burnette (Winner)</b></li>
+				<li class="finalist">Erich Gamma</li>
+				<li class="finalist">Pat McCarthy</li>				
 				<br>
 			</ul>
 		</div>		
@@ -48,18 +48,18 @@ ob_start();
 
 			<h3>Top Contributor</h3>
 			<ul>
-				<li>Linda Watson <b>(Winner)</b></a>
-				<li class="finalist">Gunnar Wagenknecht <b>(Finalist)</b></a>
-				<li class="finalist">Mik Kersten <b>(Finalist)</b></a>
+				<li class="winner"><b>Linda Watson (Winner)</b></li>
+				<li class="finalist">Gunnar Wagenknecht</li>
+				<li class="finalist">Mik Kersten</li>
 				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li>Alain Magliore <b>(Winner)</b></a>
-				<li class="finalist">Ed Merks <b>(Finalist)</b></a>
-				<li class="finalist">Jeff McAffer <b>(Finalist)</b></a>				
+				<li class="winner"><b>Alain Magliore (Winner)</b></li>
+				<li class="finalist">Ed Merks</li>
+				<li class="finalist">Jeff McAffer</li>				
 			</ul>
 		</div>
 
@@ -68,8 +68,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li><a href="http://gumtree.sourceforge.net/">Gumtree <b>(Winner)</b></a>
-				<li class="finalist"><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig) <b>(Finalist)</b></a>
+				<li class="winner"><a href="http://gumtree.sourceforge.net/"><b>Gumtree</a> (Winner)</b></li>
+				<li class="finalist"><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig)</a></li>
 				<br>
 			</ul>
 		</div>		
@@ -77,41 +77,46 @@ ob_start();
 
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php">Lombardi Software TeamWorks <b>(Winner)</b></a>
-				<li class="finalist"><a href="http://www.logicmindguide.com/demo.htm ">Logic MindGuide - Plan&Decide  <b>(Finalist)</b></a>
+				<li class="winner"><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php"><b>Lombardi Software TeamWorks</a> (Winner)</b></li>
+				<li class="finalist"><a href="http://www.logicmindguide.com/demo.htm ">Logic MindGuide - Plan&Decide</a></li>
 				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse based developer tool</h3>
 			<ul>
-				<li><a href="http://www.radrails.org/">RadRails <b>(Winner)</b></a>	
+				<li class="winner"><a href="http://www.radrails.org/"><b>RadRails</a> (Winner)</b></li>	
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse based developer tool</h3>
 			<ul>
-				<li><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/studio/">BEA Workshop Studio 3.0 <b>(Winner)</b></a>
-				<li class="finalist"><a href="http://www.exadel.com/web/portal/products">Exadel Studio Pro 3.5  <b>(Finalist)</b></a>
-				<li class="finalist"><a href="http://www.qnx.com/products/development/">QNX Momentics Development Suite Professional Edition <b>(Finalist)</b></a>
+				<li class="winner"><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/studio/"><b>BEA Workshop Studio 3.0</a> (Winner)</b></li>
+				<li class="finalist"><a href="http://www.exadel.com/web/portal/products">Exadel Studio Pro 3.5</a></li>
+				<li class="finalist"><a href="http://www.qnx.com/products/development/">QNX Momentics Development Suite Professional Edition</a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
 		<h3>Best Deployment of Eclipse technology in an enterprise</h3>
 			<ul>
-				<li><a href="http://www.ji.co.za">Compass Group Southern Africa via Jigsaw Interactive <b>(Winner)</b></a>
+				<li class="winner"><a href="http://www.ji.co.za"><b>Compass Group Southern Africa via Jigsaw Interactive</a> (Winner)</b></li>
 				<br>
 			</ul>
 		</div>			
 		<br />
 		<a href="technology_nominations.php">A complete list of the nominees for 2006 Technology Awards can be found here.</a>
 		<br /><br />
-		</div>
-	
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
-
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Awards Navigation</h6>
+			<ul>
+				<li><a href="index.php">Eclipse Community Awards</a></li>
+			</ul>
+		</div>
+	</div>
 
 <?php
 	$html = ob_get_contents();
