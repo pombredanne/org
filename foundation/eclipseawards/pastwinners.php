@@ -33,6 +33,10 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
+		<p>
+			Congratulations to all winners and finalists of the Eclipse Community Awards.
+		</p>
+		
 		<ul class="midlist">
 			<li><a href="winners08.php">2008 Eclipse Community Awards Winners</li>
 			<li><a href="winners07.php">2007 Eclipse Community Awards Winners</li>
@@ -48,6 +52,7 @@
 				<li><a href="finalists09.php">2009 Finalists</a></li>
 				<li><a href="individual.php">Individual Nominations</a></li>
 				<li><a href="technology.php">Technology Nominations</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
 			</ul>
