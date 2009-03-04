@@ -139,6 +139,7 @@ ob_start();
 				<li><a href="finalists09.php">2009 Finalists</a></li>
 				<li><a href="individual.php">Individual Nominations</a></li>
 				<li><a href="technology.php">Technology Nominations</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>		
 			</ul>
