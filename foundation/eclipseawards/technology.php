@@ -46,13 +46,13 @@ ob_start();
 				<li><a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116" target="blank">AVR32 Studio</a></li>
 				<li><a href="http://www.bluage.com/" target="blank">Blu Age Agile Model Transformation</a></li>
 				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
+				<li><a href="http://www.guidancer.com" target="blank">Bredex GUIdancer</a></li>
 				<li><a href="http://www.conformiq.com/qtronic.php" target="blank">Conformiq Qtronic</a></li>
 				<li><a href="http://www.sap.com/americas/solutions/sapbusinessobjects/sme/reporting/eclipse/index.epx" target="blank">Crystal Reports for Eclipse 2.0</a></li>
 				<li><a href="http://www.protecode.com/site/index.php/solutions/products" target="blank">Developer IP Assistant</a></li>
 				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
 				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
 				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE" target="blank">Force.com IDE</a></li>
-				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">Instantiations CodePro Analytix</a></li>	
 				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">Instantiations WindowBuilder Pro</a></li>
 				<li><a href="http://www.jboss.com/products/devstudio" target="blank">JBoss Developer Studio</a></li>
