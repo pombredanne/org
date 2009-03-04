@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Awards Finalists 2007";
+	$pageTitle 		= "Eclipse Awards Winners 2007";
 	$pageKeywords	= "eclipse, foundation, community, award, winners, 2007";
 	$pageAuthor		= "Nathan Gervais";
 	
@@ -122,15 +122,6 @@ ob_start();
 	
 	</div>
 
-	<!-- remove the entire <div> tag to omit the right column!  -->
-	<div id="rightcolumn">
-		<div class="sideitem">
-			<h6>Awards Navigation</h6>
-			<ul>
-				<li><a href="judges07.php">Technology Awards Judges</a></li>		
-			</ul>
-		</div>
-	</div>
 
 <?php
 	$html = ob_get_contents();
