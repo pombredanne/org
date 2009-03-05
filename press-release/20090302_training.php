@@ -30,7 +30,7 @@ $pageAuthor		= "Lynn Gayowski";
 			&amp; OSGi and Modeling technologies.
 			Eclipse experts	will lead the sessions, providing practical experience through classroom
 			instruction and hands-on labs. Classes have been scheduled in
-			24 different cities around the world from April 6 to May 29, 2009. 
+			28 different cities around the world from April 6 to May 29, 2009. 
 		</p>
 		<p>
 			Students who register before March 20, 2009 will receive a 5% discount on the
@@ -38,7 +38,7 @@ $pageAuthor		= "Lynn Gayowski";
 			the schedule</a> for a complete list of courses and course descriptions.	
 		</p>
 		<p>
-			Eclipse members participating in the training series are Anyware Technologies, AvantSoft
+			Eclipse members participating in the training series are ANCIT Consulting, Anyware Technologies, AvantSoft
 			(Eclipse University), EclipseSource, eteration, Gerhardt Informatics, Industrial TSI,
 			itemis, Obeo, The RCP Company, Soyatec, Third Millennium and
 			Weigle Wilczek.
