@@ -65,7 +65,7 @@
 			and <a href="http://vif.sourceforge.net/" target="blank">VIF - Virtual Forum</a></li>
 
 			<li><b>Best Commercial RCP Application</b>: <a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a>,
-			ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording) and
+			<a href="http://www.anyware-tech.com/en/st/eclipse_platform/ecr_rcp_application.html" target="blank">ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</a> and
 			<a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
 
 			<li><b>Best Open Source RCP Application</b>: <a href="http://directory.apache.org/studio" target="blank">Apache Directory Studio</a>
