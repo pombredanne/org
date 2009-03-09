@@ -118,7 +118,7 @@ ob_start();
 				<li><a href="http://www.cenit.de/ecliso" target="blank">CENIT ECLISO</a></li>
 				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
 				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>	
-				<li>ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</li>
+				<li><a href="http://www.anyware-tech.com/en/st/eclipse_platform/ecr_rcp_application.html" target="blank">ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</a></li>
 				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
 				<li><a href="http://www.neckdiagrams.com" target="blank">Neck Diagrams</a></li>
 				<li><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
