@@ -114,7 +114,7 @@ ob_start();
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>
-				<li class="finalist">ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</li>
+				<li class="finalist"><a href="http://www.anyware-tech.com/en/st/eclipse_platform/ecr_rcp_application.html" target="blank">ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</a></li>
 				<li class="finalist"><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
 			</ul>
 		</div>
