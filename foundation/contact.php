@@ -102,7 +102,7 @@
   		</tr>
   		<tr>
     		<td valign=top width="37%">Fax:</td>
-    		<td width="63%">+1.503.336.5121</td>
+    		<td width="63%">+1.503.227.2111</td>
   		</tr>
 	</table>
 	</div>
