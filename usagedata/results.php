@@ -27,15 +27,18 @@ $pageTitle 		= "Usage Data Collector Results";
 $pageKeywords	= "Eclipse, usage data, usagedata, cortez";
 $pageAuthor		= "Wayne Beaton";
 
+$kinds = array('Bundles'=>'bundle', 'Commands'=>'command', 'Perspectives'=>'perspective', 'Views'=>'view', 'Editors'=>'editor');
 $kind = 'view';
 if (array_key_exists('kind', $_GET)) $kind = $_GET['kind'];
-if (!in_array($kind, array('command', 'perspective', 'view', 'editor'))) $kind = 'view';
+if (!in_array($kind, $kinds)) $kind = 'view';
 
 $sort = 'element';
 if (array_key_exists('sort', $_GET)) $sort = $_GET['sort'];
 if (!in_array($sort, array('month', 'element', 'use', 'users'))) $sort = 'element';
 
-$url = '/org/usagedata/reports/data/' . $kind . 's.csv';
+$base_url = '/org/usagedata/reports/data/';
+$url = $base_url . $kind . 's.csv';
+$trend_url = '/org/usagedata/reports/data/' . $kind . 's_trend.csv';
 $file = $_SERVER['DOCUMENT_ROOT'] . $url;
 
 $csv = file_get_contents($file);
@@ -53,6 +56,7 @@ class Item {
 
 $items = array();
 
+$thismonth = date('Ym', strtotime("-3 month"));
 while ($row = next($csv)) {
 	$row = split(",", $row);
 	
@@ -62,6 +66,7 @@ while ($row = next($csv)) {
 	$item->useCount = next($row);
 	$item->userCount = next($row);
 	
+	if ($item->yearmonth >= $thismonth)
 	$items[] = $item;
 }
 
@@ -106,13 +111,19 @@ ob_start();
 
 <p>See also:</p>
 <ul>
-<li><a href="?kind=command&sort=<?= $sort ?>">Commands</a></li>
-<li><a href="?kind=perspective&sort=<?= $sort ?>">Perspectives</a></li>
-<li><a href="?kind=editor&sort=<?= $sort ?>">Editors</a></li>
-<li><a href="?kind=view&sort=<?= $sort ?>">Views</a></li>
+<? foreach ($kinds as $title=>$key) { ?>
+<li><a href="?kind=<?=$key ?>&sort=<?= $sort ?>"><?=$title ?></a>
+<a href="reports/data/<?= $key ?>s.csv">(csv)</a> 
+<a href="reports/data/<?= $key ?>s_trend.csv">(trend)</a></li>
+<? } ?>
 </ul>
 
-<p>This information is available in <a href="<?= $url ?>">CSV format</a>.</p>
+<p>The <em>(csv)</em> link points to a CSV version of what is displayed here. 
+The <em>(trend)</em> link points to the same data, but structured for easier trend analysis.
+Note that elements with fewer than five users are not shown.</p>
+
+<p>Only showing last three months of data. The CSV downloads above contain all data.</p>
+
 <table border="1">
 	<tr><th><a href="?kind=<?= $kind ?>&sort=month">Month</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Element</a></th><th><a href="?kind=<?= $kind ?>&sort=use">Use Count</a></th><th><a href="?kind=<?= $kind ?>&sort=users">User Count</a></th></tr>
 	<?
