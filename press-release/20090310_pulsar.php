@@ -64,6 +64,13 @@ of the Eclipse Galileo annual release.</p>
  Product Development for Genuitec. “Through collaboration with the world’s leading mobile technology 
  providers, it’s our goal to lay the groundwork for the next generation of mobile application development.”</p>
 
+<p>“We see Pulsar as an important initiative for the mobile industry and a tremendous opportunity for the 
+millions of developers on the Eclipse platform today who are interested in streamlining the development of 
+mobile applications for a variety of different devices,” said Alan Brenner, Senior Vice President, BlackBerry 
+Platform at Research In Motion (RIM). “RIM’s participation in the Pulsar initiative will help ensure that the 
+resulting platform, tools and resources are optimized to support the development of mobile applications for 
+BlackBerry smartphones.”</p>
+
 <p>“This industry initiative drives the leveraging of a state of the art development platform, so that the 
 global development community will be empowered to create applications easily, quickly and securely that 
 provide rich mobile experiences for consumers on their mobile phones,” said Vildan Hasanbegovic, Development 
