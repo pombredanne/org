@@ -35,15 +35,6 @@
 </div>
 
 <div class="sideitem">
-<h6>Reports</h6>
-<ul>
-<li><a href="results.php">org.eclipse.* results</a></li>
-<li><a href="usage.php">Usage trends</a></li>
-<!-- <li><a href="proximity.php">Project pairings</a></li>  -->
-</ul>
-</div>
-
-<div class="sideitem">
 <h6>Code</h6>
 <p>The client side of the UDC is implemented in the <a href="/epp">Eclipse Packaging Project</a> (EPP).
 You can find the code for it there.</p>
