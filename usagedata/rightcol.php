@@ -39,7 +39,7 @@
 <ul>
 <li><a href="results.php">org.eclipse.* results</a></li>
 <li><a href="usage.php">Usage trends</a></li>
-<li><a href="proximity.php">Project pairings</a></li>
+<!-- <li><a href="proximity.php">Project pairings</a></li>  -->
 </ul>
 </div>
 
