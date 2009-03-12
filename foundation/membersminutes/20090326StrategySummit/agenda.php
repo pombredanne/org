@@ -13,7 +13,8 @@ ob_start();
 <br>
 <h1>Open Source Executive Strategy Summit</h1>
 
-<strong>Thursday, March 26, 2009 - 10:00am-5:00pm<br>
+<strong>Thursday, March 26, 2009 - 9:30am-5:00pm<br>
+Great America Rooms<br>
 Santa Clara Convention Center, Santa Clara, CA<br>
 (co-located with EclipseCon 2009)</strong>
 <br><br>
