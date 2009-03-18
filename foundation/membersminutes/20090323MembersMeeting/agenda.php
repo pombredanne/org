@@ -20,9 +20,9 @@ Santa Clara Convention Center, Santa Clara, CA<br>
 </strong><p>
 
 <p><ul>
-	<li>New Member Jumpstart - 9:30am-11:30am</li>
-	<li>Full Members Meeting - 1:30pm-5:30pm</li>
-	<li>Reception - ~6:30pm-9:00pm</li>
+	<li>New Member Jumpstart - 9:30am-11:30am - Ballroom JK</li>
+	<li>Full Members Meeting - 1:30pm-5:30pm - Ballroom JK</li>
+	<li>Reception - ~6:30pm-9:00pm - Follow the sounds of partying</li>
 </ul></p>
 
 <h3>New Member Jumpstart</h3>
@@ -32,19 +32,24 @@ governance structure and provide insight into the organization of the different 
 
 <h3>Full Members Meeting</h3>
 <p>The annual general meeting is your opportunity to better understand what is happening in the 
-Eclipse community and what to expect in 2009.    Here is the agenda:</p>
+Eclipse community and what to expect in 2009. Here is the agenda:</p>
 
 <p><ul>
-<li>Executive Director Update, Mike Milinkovich</li>
 <li>Guest Speaker Matt Aslett, 451 Group, "Open Source is not a business model"</li>
 <li>Guest Speaker Jagan Nemani, Deloitte Consulting, "Co-innovation and Creation - Lessons from World of Warcraft"</li>
-<li>Marketing, Membership and Europe Updates (Ian Skerrett, Donald Smith, Ralph Mueller)</li>
-<li>Project Updates</li>
-<li>New Member Introductions</li>
+<li>BREAK</li>
+<li>Executive Director Update, Mike Milinkovich</li>
+<li>Mylyn Project Update, Mik Kersten</li>
+<li>Silverlight Development Toolkit update, Yves Yang</li>
+<li>e4 Update, Mike Milinkovich</li>
+<li>Marketing and Europe Updates (Ian Skerrett, Donald Smith, Ralph Mueller) (Time Permitting)</li>
+
 </ul></p>
 
 <h3>Reception</h3>
-<p>Shortly after the meeting there will be a members-only networking reception.</p>
+<p>At approximately 6:30pm there will be a members-only networking reception - it will be in the 
+Hyatt pool area (weather permitting) or otherwise follow the sounds of partying coming 
+from the Santa Clara Convention Center!</p>
 
 <h3>Registration Information</h3>
 
