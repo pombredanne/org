@@ -37,9 +37,10 @@ $html = <<<EOHTML
 		Hans-Joachim Brede, Hans Kamutzki and Shawn Pearce.
 		</p>
 		
-		<p>The Eclipse Foundation would also like to recognize the contributions of Mik Kersten, Emma McGrattan
-		and Tracy Ragan	who are leaving the Eclipse Board after having served positions last year. The Eclipse
-		community is very grateful for the many hours of effort these individuals contributed.
+		<p>The Eclipse Foundation would also like to recognize the contributions of Robert Day, Mik Kersten,
+		Jeff McAffer, Emma McGrattan and Tracy Ragan	who are leaving the Eclipse Board after having served
+		positions last year. The Eclipse community is very grateful for the many hours of effort these
+		individuals contributed.
 		</p>
 
 	</div>
