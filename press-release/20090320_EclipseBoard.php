@@ -22,7 +22,6 @@ $html = <<<EOHTML
 	</style>
 <div id="maincontent">
 	<div id="midcolumn">
-		<h2>Press Release</h2>
 
 		<h1>$pageTitle</h1>
 
@@ -32,11 +31,9 @@ $html = <<<EOHTML
 		representatives to the board of directors.
 		</p>
 		
-		<p>Congratulations to Chris Aniszczyk, Doug Gaff and Ed Merks for being re-elected and Boris Bokowski
-		as a new Committer representative.
-		</p>
-
-		<p>Mike Taylor will be returning as a Sustaining Member representative, along with the newly elected
+		<p>Congratulations to Chris Aniszczyk, Doug Gaff and Ed Merks for being re-elected as Committer
+		representatives. Boris Bokowski will join them as a new Committer representative. Mike Taylor will be
+		returning as a Sustaining Member representative, joined by the newly elected
 		Hans-Joachim Brede, Hans Kamutzki and Shawn Pearce.
 		</p>
 		
