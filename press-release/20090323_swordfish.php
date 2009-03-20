@@ -52,7 +52,7 @@
 	portfolio. Over the next year I expect we will see more interesting runtime technology built at Eclipse.”</p>
 
 	<p>The first release of Swordfish 0.8 will be available for download the first week of April from 
-	<a href="www.eclipse.org/swordfish/">www.eclipse.org/swordfish/</a>.</p>
+	<a href="http://www.eclipse.org/swordfish/">www.eclipse.org/swordfish/</a>.</p>
 		
 		<p><b>About the Eclipse Foundation</b><br />
 		Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
@@ -73,7 +73,7 @@
 	<div class="sideitem">
 	<h6>Related Links</h6>
 	<ul>
-		<a href="www.eclipse.org/swordfish/">Swordfish Home Page</a></li>
+		<a href="http://www.eclipse.org/swordfish/">Swordfish Home Page</a></li>
 	</ul>
 	</div>
 </div>
