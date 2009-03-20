@@ -93,6 +93,10 @@ they changed their development approach to match an open development model. He w
 pros and cons of working in an open and transparent manner and how it impact Innoopract's development 
 culture.</P></LI>
 
+<li><p><b>Market Research on Open Source Adoption</b> - Jeffrey Hammond, Forrester Research </p>
+<p>Abstract:  Jeffrey Hammond is a principal analyst with Forrester Research.   Jeffrey will present some of the 
+trends of opne source adoption derived from the recent Forrester Research's NA and European Software Survey.</p>
+
 <LI><P><B>Panel Discussion: The Future of Open Source and Business</B></P>
 
 <P>  What is the future of open source in the software business?  The panelist will 
@@ -106,6 +110,7 @@ Panelist:
 <li>Michael Enescu, CTO of Open Source Initiatives, Cisco
 <li>Timothy M. Golden, Senior Vice President, UNIX Engineering, Security, and Provisioning, Bank of America
 <li>Mik Kersten, CEO of Tasktop
+<li>Sam Ramji, Sr. Director, Platform Strategy of Microsoft
 </ul>
  
 
