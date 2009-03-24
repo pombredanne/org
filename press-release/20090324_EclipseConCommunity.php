@@ -29,25 +29,28 @@ $html = <<<EOHTML
 		<p><i>Community Members Announce New Innovations and Products</i></p>	
 
 		<p><strong>ECLIPSECON 2009, SANTA CLARA, Calif., March 24, 2009 &#150; </strong>
-		EclipseCon 2009, the sixth annual Eclipse community conference, opens today at
-		the Santa Clara Convention Center in Santa Clara, Calif.  The conference features the latest Eclipse developments
-		and provides a forum for attendees to discuss key business and technical issues facing the community.
+		EclipseCon 2009, the sixth annual Eclipse community conference, opens today at the Santa Clara Convention
+		Center in Santa Clara, Calif. The conference features the latest Eclipse developments and provides a
+		forum for attendees to discuss key business and technical issues facing the community.
 		</p>
 		
-		<p>Clay Shirky, Adjunct Professor for the Interactive Telecom Program at NYU, and Jeff Atwood, blogger and CEO of stackoverflow.com, will deliver the opening keynote
-		presentation.  Wednesday's keynote will be given by Peter Vosshall, Vice President and Distinguished Engineer at Amazon.com, and Don MacAskill, Co-founder and CEO of SmugMug,
-		and Thursday's keynote will be given by Tim Wagner, Principal Development Manager for Microsoft Visual Studio Platform and Kevin McGuire, Eclipse UI Architect and Design & Usability
-		Lead at IBM.
+		<p>Clay Shirky, Adjunct Professor for the Interactive Telecom Program at NYU, and Jeff Atwood, blogger
+		and CEO of stackoverflow.com, will deliver the opening keynote presentation. Wednesday's keynote will be
+		given by Peter Vosshall, Vice President and Distinguished Engineer at Amazon.com, and Don MacAskill,
+		Co-founder and CEO of SmugMug, and Thursday's keynote will be given by Tim Wagner, Principal Development
+		Manager for Microsoft Visual Studio Platform and Kevin McGuire, Eclipse UI Architect and Design &amp;
+		Usability Lead at IBM. 
 		</p>
 		
-		<p>EclipseCon 2009 features technical talks and tutorials on a variety of Eclipse projects and technologies, including Equinox,
-		Eclipse Rich Client Platform (RCP), Rich Ajax Platform (RAP), Mylyn, Device Developer Software Platform (DSDP), Eclipse
-		Modeling project and many others.  EclipseCon 2009 also features the OSGi DevCon.
+		<p>EclipseCon 2009 features technical talks and tutorials on a variety of Eclipse projects and
+		technologies, including Equinox, Eclipse Rich Client Platform (RCP), Rich Ajax Platform (RAP), Mylyn,
+		Device Developer Software Platform (DSDP), Eclipse Modeling project and many others. EclipseCon 2009
+		also features the OSGi DevCon. 
 		</p>
 		
-		<p>There are 36 organizations participating as conference sponsors this year, including Gold sponsors BIRT Exchange,
-		Blu Age, IBM, JBoss, Sopera, Sun Microsystems and Wind River. A number of Eclipse
-		member companies are also announcing a variety of exciting new initiatives at this year&#146;s conference, including:
+		<p>There are 36 organizations participating as conference sponsors this year, including Gold sponsors
+		BIRT Exchange, Blu Age, IBM, JBoss, Sopera, Sun Microsystems and Wind River. A number of Eclipse member
+		companies are also announcing a variety of exciting new initiatives at this year’s conference, including: 
 
 			<ul>
 
