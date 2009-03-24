@@ -55,7 +55,7 @@ $html = <<<EOHTML
 			<ul>
 
 			<li><b>Actuate Corporation</b> (NASDAQ: ACTU), the leader in delivering Rich Internet Applications
-			Without Limits&trade; and founder and co-leader of the BIRT project with the Eclipse Foundation,
+			Without Limit&trade; and founder and co-leader of the BIRT project with the Eclipse Foundation,
 			announced the creation of the Actuate BIRT Global Partner Connection.  The new program will unite
 			organizations globally using BIRT, the leading open source information application development
 			environment, and will bring together a community of technology providers offering high-valued
@@ -85,7 +85,6 @@ $html = <<<EOHTML
 			public virtual classes. All EclipseCon2009 presentations are published using innovative Flex-based
 			platform gpublication.com. AvantSoft&#146;s MyEventPortal solution enables custom portals with content,
 			networking, and community support.<br>
-			<a href="http://www.eclipseuniversity.org/pressrelease.htm" target="blank">http://www.eclipseuniversity.org/pressrelease.htm</a>
 			</li>
 
 			<li><b>Band XI International, LLC</b> is successfully commercializing the results of their US Army
@@ -117,14 +116,12 @@ $html = <<<EOHTML
 			certified open source plug-ins. The new service provides development teams with secured, reliable
 			access to an uncompromised and consistent code base and is designed to alleviate concerns about
 			source code authenticity and origin.<br>
-			<a href="http://eclipsesource.com/en/about/press-releases/en/eclipsesource-introduces-security-for-open-source-downloads/" target="blank">http://eclipsesource.com/en/about/press-releases/en/eclipsesource-introduces-security-for-open-source-downloads/</a>
 			</li>
 			
 			<li><b>Eteration, a.s.</b>, an Eclipse expert and long time committer to the Eclipse Foundation
 			announces open education and courseware for web application development. This initiative is a part
 			of the Web Tools platform project.  Eteration is a provider of services and education for
 			Enterprise Customers in Europe and Asia.<br>
-			<a href="http://www.eteration.com/web/news" target="blank">http://www.eteration.com/web/news</a>
 			</li>
 			
 			<li><b>froglogic GmbH</b> is showing a preview of Squish 4.0 at EclipseCon 2009. Squish is a
@@ -139,7 +136,6 @@ $html = <<<EOHTML
 			their WebSphere investment with WSAD/RAD project support and WebSphere 7 compatibility. Also, nWire
 			Software gives Genuitec&#146;s Pulse users a boost with innovative code exploration. And, Quest Software
 			has joined Genuitec's Pulse Network with popular Java profiler JProbe&reg;.<br>
-			<a href="http://myeclipseide.com/Article88.html" target="blank">http://myeclipseide.com/Article88.html</a>
 			</li>
 			
 			<li><b>Instantiations</b>, a leading provider of Eclipse-based software quality, security, GUI building
@@ -171,7 +167,6 @@ $html = <<<EOHTML
 			comprehensive capabilities of Oracle Fusion Middleware. Key enhancements in this release include
 			Object-Relational Mapping (ORM), Spring and Web Service tools to help reduce development complexity
 			for Java and database developers targeting Oracle platforms.<br>
-			<a href="http://www.oracle.com/us/corporate/press/index.htm" target="blank">http://www.oracle.com/us/corporate/press/index.htm</a>
 			</li>
 
 			<li><b>Perforce Software</b>, an Eclipse member company, announced the latest release of its
@@ -222,8 +217,6 @@ $html = <<<EOHTML
 			partner of the upcoming London office.  As well, itemis, ProSyst and SOPERA have joined the Eclipse
 			Training Alliance.  As an international expert network, the Eclipse Training Alliance pools the extensive
 			Eclipse knowledge of its associate companies.<br>
-			<a href="http://www.weiglewilczek.com/blog/?p=637" target="blank">http://www.weiglewilczek.com/blog/?p=637</a><br>
-			<a href="http://www.weiglewilczek.com/blog/?p=634" target="blank">http://www.weiglewilczek.com/blog/?p=634</a>
 			</li>
 			
 			</ul>
