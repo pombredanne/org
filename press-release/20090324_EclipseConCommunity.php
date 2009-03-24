@@ -85,6 +85,7 @@ $html = <<<EOHTML
 			public virtual classes. All EclipseCon2009 presentations are published using innovative Flex-based
 			platform gpublication.com. AvantSoft&#146;s MyEventPortal solution enables custom portals with content,
 			networking, and community support.<br>
+			<a href="http://www.eclipseuniversity.org/pressrelease.htm" target="blank">http://www.eclipseuniversity.org/pressrelease.htm</a>
 			</li>
 
 			<li><b>Band XI International, LLC</b> is successfully commercializing the results of their US Army
@@ -116,6 +117,7 @@ $html = <<<EOHTML
 			certified open source plug-ins. The new service provides development teams with secured, reliable
 			access to an uncompromised and consistent code base and is designed to alleviate concerns about
 			source code authenticity and origin.<br>
+			<a href="http://eclipsesource.com/en/about/press-releases/en/eclipsesource-introduces-security-for-open-source-downloads/" target="blank">http://eclipsesource.com/en/about/press-releases/en/eclipsesource-introduces-security-for-open-source-downloads/</a>
 			</li>
 			
 			<li><b>Eteration, a.s.</b>, an Eclipse expert and long time committer to the Eclipse Foundation
@@ -167,6 +169,7 @@ $html = <<<EOHTML
 			comprehensive capabilities of Oracle Fusion Middleware. Key enhancements in this release include
 			Object-Relational Mapping (ORM), Spring and Web Service tools to help reduce development complexity
 			for Java and database developers targeting Oracle platforms.<br>
+			<a href="http://www.oracle.com/us/corporate/press/018059_EN" target="blank">http://www.oracle.com/us/corporate/press/018059_EN</a>
 			</li>
 
 			<li><b>Perforce Software</b>, an Eclipse member company, announced the latest release of its
@@ -217,6 +220,8 @@ $html = <<<EOHTML
 			partner of the upcoming London office.  As well, itemis, ProSyst and SOPERA have joined the Eclipse
 			Training Alliance.  As an international expert network, the Eclipse Training Alliance pools the extensive
 			Eclipse knowledge of its associate companies.<br>
+			<a href="http://www.weiglewilczek.com/blog/?p=637" target="blank">http://www.weiglewilczek.com/blog/?p=637</a>
+			<a href="http://www.weiglewilczek.com/blog/?p=634" target="blank">http://www.weiglewilczek.com/blog/?p=634</a>				
 			</li>
 			
 			</ul>
