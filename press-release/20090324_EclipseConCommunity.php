@@ -176,6 +176,7 @@ $html = <<<EOHTML
 			Perforce Plug-in for Eclipse which integrates Eclipse with Perforce, The Fast Sofware Configuration
 			Management System. This version introduces the Synchronize view, enhanced Resolve dialog and a new
 			Integrate dialog, along with numerous performance enhancements.<br>
+			<a href="http://www.perforce.com/perforce/press/pr106_8.2EclipsePlugin.pdf" target="blank">http://www.perforce.com/perforce/press/pr106_8.2EclipsePlugin.pdf</a>
 			</li>
 			
 			<li><b>ProSyst</b>, <a href="http://www.prosyst.com" target="blank">www.prosyst.com</a>, an OSGi
