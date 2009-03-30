@@ -35,7 +35,9 @@ of existing open source strategies.</P>
 discussions.&nbsp; Featured speakers include:</P>
 <OL>
 	<LI><P><B>Open Source Is Not A Business Model</B> &ndash; Matt
-	Aslett, Analyst, &nbsp;451 Group 
+	Aslett, Analyst, &nbsp;451 Group <br>
+	<a href="./OSINABM_MattA.pdf">slides (pdf)</a>
+
 	</P>
 	<P>Abstract: Matt Aslett writes extensively on open source topics for
 		the 451 Group.&nbsp; He recently published a research paper, &lsquo;Open
@@ -47,7 +49,9 @@ discussions.&nbsp; Featured speakers include:</P>
 discuss how today companies are making money with open source.
 	</P></li>
 		<LI><P><B>Optimizing Your Open Source Licensing Decisions</B> &ndash;
-	Lawrence Rosen, Rosenlaw & Einschlag Technology Law Offices</P>
+	Lawrence Rosen, Rosenlaw & Einschlag Technology Law Offices  	<br><a href="./Licensing_LarryR.pdf">slides (pdf)</a><br><br>
+	</P>
+	
 	<P>Abstract: Lawrence Rosen is an expert on open source licensing and an active participant in 
 	open source and open standards communities. He provides legal advice to small and large companies 
 	on the legal and intellectual property considerations of an open source strategy. In this presentation, 
@@ -79,7 +83,9 @@ consider in your strategy to ensure it is successful.</P>	</LI>
 
 
 	<LI><P><B>Case Study: The transition of the RAP development team to Open Source </B> 
-	&ndash; Jochen Krause, Innoopract 	</P>
+	&ndash; Jochen Krause, Innoopract <br> 	<a href="./RAP_to_OpenSource.pdf">slides (pdf)</a><br><br>
+		</P>
+
 	
 <P>Abstract: Innoopract has been an active participant and supporter of the Eclipse community 
 since its inception. The launch of the Eclipse Rich Ajax Platform (RAP) project marked a tipping 
@@ -93,7 +99,8 @@ they changed their development approach to match an open development model. He w
 pros and cons of working in an open and transparent manner and how it impact Innoopract's development 
 culture.</P></LI>
 
-<li><p><b>Market Research on Open Source Adoption</b> - Jeffrey Hammond, Forrester Research </p>
+<li><p><b>Market Research on Open Source Adoption</b> - Jeffrey Hammond, Forrester Research <br> 	<a href="./OSS-WYPAUT3_JeffreyH.pdf">slides (pdf)</a><br><br>
+</p>
 <p>Abstract:  Jeffrey Hammond is a principal analyst with Forrester Research.   Jeffrey will present some of the 
 trends of opne source adoption derived from the recent Forrester Research's NA and European Software Survey.</p>
 
