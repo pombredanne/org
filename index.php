@@ -93,7 +93,7 @@
 		<p>The Eclipse community organizes an annual release train that provides a coordinated release of those Eclipse projects which wish to participate.   
 		The release train makes it easier for downstream consumers to adopt new releases of the projects because 1) all the 
 		projects are available on the same 
-		schedule, so you don�t have to wait for independent project schedules, and 2) a level of integration testing occurs before the final 
+		schedule, so you don't have to wait for independent project schedules, and 2) a level of integration testing occurs before the final 
 		release to help identify cross project issues. </p>
 			
 		<h3><a name="Ecosystem"></a>Ecosystem Development</h3>	
