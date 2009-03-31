@@ -36,7 +36,7 @@ discussions.&nbsp; Featured speakers include:</P>
 <OL>
 	<LI><P><B>Open Source Is Not A Business Model</B> &ndash; Matt
 	Aslett, Analyst, &nbsp;451 Group <br>
-	<a href="./OSINABM_MattA.pdf">slides (pdf)</a>
+	<a href="./OSINABM.pdf">slides (pdf)</a>
 
 	</P>
 	<P>Abstract: Matt Aslett writes extensively on open source topics for
