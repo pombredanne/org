@@ -40,7 +40,7 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>Each year, the Eclipse Founation holds elections for board members representing two very important
+		<p>Each year, the Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and
 		Enterprise Members). The terms of office for
 		these elected board members is one year, commencing April 1.</p>
