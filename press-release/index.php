@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090401_WTPeducation.php">Eclipse WebTools Education Releases Developing Web Applications with Standards Courseware </a> - April 1, 2009</li>
 		<li><a href="20090324_EclipseConCommunity.php">Doors Open for EclipseCon 2009</a> - March 24, 2009</li>
 		<li><a href="20090323_AwardsWinners.php">Eclipse Community Awards Winners Announced</a> - March 23, 2009</li>
 		<li><a href="20090323_swordfish.php">Eclipse Announces First Release of Swordfish, a Next Generation ESBs</a> - March 23, 2009</li>
