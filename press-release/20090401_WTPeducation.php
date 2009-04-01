@@ -26,8 +26,6 @@ $html = <<<EOHTML
 		
 		<h2>Community Bulletin</h2>
 
-		<p><i>Community Members Announce New Innovations and Products</i></p>	
-
 		<p>The WTP project is excited to release the first of the open courseware that will be
 		a part of the WTP Education curriculum: WTP-101 Developing Web Applications with Standards. This open
 		courseware covers developing Web Applications with Standards using W3C standard technologies, such as
