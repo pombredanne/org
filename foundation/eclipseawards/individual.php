@@ -580,6 +580,7 @@ function switchMenu(obj) {
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
 				<li><a href="winners09.php">2009 Winners</a></li>
+				<li><a href="2009/judges09.php">2009 Judges</a></li>
 				<li><a href="individual.php">Individual Nominations</a></li>
 				<li><a href="technology.php">Technology Nominations</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
