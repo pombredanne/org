@@ -28,11 +28,13 @@
 	#
 		
 	# Paste your HTML content between the markers!	
+	$html = <<<EOHTML
+	
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 
 		<p>Presented below is the list of Technology Awards judges for the 2009 Eclipse Community Awards.</p>
-		<div class="homeitem3col">
+
 			<h3>Commercial Awards</h3>
 			<ul>
 				<li>Alex Blewitt - InfoQ</li>
@@ -43,8 +45,7 @@
 				<li>Peter Varhol - TechTarget</li>
 				<li>Alan Zeichick - BZ Media</li>
 			</ul>
-		</div>
-		<div class="homeitem3col">
+
 			<h3>Open Source Awards</h3>
 			<ul>
 				<li>Chris Aniszczyk - Plugin Development Environment (PDE) Project</a></li>
@@ -57,7 +58,6 @@
 				<li>Greg Watson - Parallel Tools Platform (PTP) Project</li>
 				<li>David Williams - Web Tools Project</li>	
 			</ul>
-		</div>		
 	
 	</div>
 
@@ -68,6 +68,7 @@
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
 				<li><a href="winners09.php">2009 Winners</a></li>
+				<li><a href="2009/judges09.php">2009 Judges</a></li>
 				<li><a href="individual.php">Individual Nominations</a></li>
 				<li><a href="technology.php">Technology Nominations</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
