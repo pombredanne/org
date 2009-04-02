@@ -127,7 +127,7 @@
 			<ul>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/judges09.php">2009 Judges</a></li>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/pastwinnters.php">Past Winners</a></li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
 	</div>
