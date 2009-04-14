@@ -3,7 +3,7 @@
 
 #
 # Begin: page-specific settings.  Change these.
-$pageTitle 		= "Eclipse Community Survey: Tell us what you are using?";
+$pageTitle 		= "Eclipse Community Survey: Tell us what you are using.";
 $pageKeywords	= "eclipse, survey, feedback";
 $pageAuthor		= "Ian Skerrett";
 
@@ -27,14 +27,14 @@ $html = <<<EOHTML
 
 		<h2>Community Bulletin</h2>	
 
-		<p>The Eclipse Foundation is requesting your participation in a <a href="http://www.surveymonkey.com/s.aspx?sm=5vk3ZiS0kRFzHIncnhC6Kw_3d_3d">community survey</a>.  The intent of the survey
+		<p>The Eclipse Foundation is requesting your participation in a <a href="http://www.eclipse.org/go/spring09survey">community survey</a>.  The intent of the survey
 		is to better understand how individuals use development tools, use open source software and interact with the
-		Eclipse community.
+		Eclipse community.  The Eclipse Foundation plans to publish the survey results in June 2009.
 		</p>
-		<p> Everyone is invited to <a href="http://www.surveymonkey.com/s.aspx?sm=5vk3ZiS0kRFzHIncnhC6Kw_3d_3d">complete the survey</a>.  It should take about 5 minutes to complete.  All responses will be
-		held in confidence. The Eclipse Foundation plans to publish the results in June 2009.  
+		<p> Everyone is invited to <a href="http://www.eclipse.org/go/spring09survey">complete the survey</a> before May 15, 2009.  It should take about 5 minutes to complete.  
+		All responses will be held in confidence.  As a token of appreciation, survery participants will be entered into a draw for an opportunity to win Eclipse shirts and jackets.
 		</p>
-		<p>Thank you in advanced for your participation in the survey.</p>
+		<p>Thank you in advance for your support.</p>
 
 	</div>
 	<!-- remove the entire <div> tag to omit the right column!  -->
@@ -42,7 +42,7 @@ $html = <<<EOHTML
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.surveymonkey.com/s.aspx?sm=5vk3ZiS0kRFzHIncnhC6Kw_3d_3d">Community Survey</a></li>
+				<li><a href="http://www.eclipse.org/go/spring09survey">Community Survey</a></li>
 			</ul>
 		</div>
 	</div>	
