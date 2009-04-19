@@ -50,32 +50,6 @@
 		</description>
 	</staffmember>	
 
-	
-	<staffmember id="bjorn">
-		<name>Bjorn Freeman-Benson</name>
-		<title>
-			Director, Committer Community
-		</title>
-		<image> ../../images/bjorn.jpg </image>
-		<description> <![CDATA[ While striving to be a Renaissance Man, Bjorn keeps falling back into 
-			the clutches of conformity with engineering stereotypes such as <A 
-			href="http://www.squeak.org/">dynamic languages</A>, <A 
-			href="http://www.agilealliance.org/">software engineering</A>, <A 
-			href="http://www.juggling.org/">juggling</A> and <A 
-			href="http://www.eaa.org/">general aviation</A>. His escape attempts have been 
-			through <A href="http://www.orienteering.org/">orienteering</A>, <A 
-			href="http://www.bta4bikes.org/">bicycling</A>, <A 
-			href="http://www.friendsoftrees.org/">planting trees</A> and <A 
-			href="http://www.superboy.org/images/superboy.jpg">painting his airplane</A>. He 
-			is passionate about doing things instead of just talking about them, and he 
-			thoroughly enjoys the <A href="http://www.eclipsecon.org/">annual party</A> he 
-			helps organize for the Eclipse community.
-			<p>You can read Bjorn's blog at
-			<a href="http://eclipse-projects.blogspot.com/" target="blank">
-			http://eclipse-projects.blogspot.com/</a>.</p>
-			]]></description>
-	</staffmember>
-	
 	<staffmember id="lynn">
 		<name>Lynn Gayowski</name>
 		<image>../../images/lynn.jpg</image>
