@@ -31,7 +31,7 @@
      	 Events are planned from May 18 to June 26 and locations are listed on the
      	 <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_Galileo_2009">DemoCamp wiki</a>.</p>
 
-     	 <p>We encourage everyone to showcase what projects and products they&#146;re developing with Eclipse,
+     	 <p>We encourage individuals to showcase projects and products they&#146;re developing with Eclipse,
      	 especially technology related to the Galileo release.  The demos can be of open source projects,
      	 research projects, applications based on Eclipse, commercial products using Eclipse or anything
      	 Eclipse-related that you think will be of interest to the attendees.</p>
