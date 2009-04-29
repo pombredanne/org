@@ -1,5 +1,5 @@
-Ed
-Merks leads the <a href="http://www.eclipse.org/emf">Eclipse Modeling Framework</a>
+<img src="boardbios/photos/Ed_Merks.jpg" align="left" style="padding-right: 5px;" width="120">
+Ed Merks leads the <a href="http://www.eclipse.org/emf">Eclipse Modeling Framework</a>
 project and co-leads the <a href="http://www.eclipse.org/modeling/">Eclipse
 Modeling</a> project along with Rich Gronback from Borland.&nbsp; He is a
 coauthor of the authoritative book <a
