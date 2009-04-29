@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Dennis_Leung.jpg" align="left" style="padding-right: 5px;" width="120">
 Dennis Leung is Vice-President of Development for Oracle Fusion Middleware, leading the development teams for the 
 award-winning Oracle TopLink product, Eclipse Dali, and EclipseLink projects. Dennis has been involved in 
 providing enterprise data solutions for over 14 years and also has a background in telecommunications. He 
