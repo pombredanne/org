@@ -1,0 +1,1 @@
+<img src="boardbios/photos/Michael_Bechauf.jpg" align="left" style="padding-right: 5px;" width="120">
