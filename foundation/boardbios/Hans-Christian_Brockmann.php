@@ -1,3 +1,4 @@
+<img src="boardbios/photos/HansChristian_Brockmann.jpg" align="left" style="padding-right: 5px;" width="120">
 Chris Brockmann was educated in  Germany, the United Kingdom and the USA. He 
 studied business administration in G&ouml;ttingen (Germany) and 
 Winston Salem (USA) where he earned an MBA degree. He spent 10 years 
