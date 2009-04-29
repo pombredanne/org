@@ -1,3 +1,4 @@
+<img src="boardbios/photos/John_Kellerman.jpg" align="left" style="padding-right: 5px;" width="120">
 John Kellerman joined IBM in 1984 with a computer science degree from Purdue University.  He's since completed graduate
 degrees in Computer Engineering at North Carolina State and Business Administration at the University of North
 Carolina Chapel Hill. He has spent the majority of his years at IBM in the development and management of
