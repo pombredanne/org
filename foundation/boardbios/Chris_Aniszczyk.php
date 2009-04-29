@@ -1,4 +1,4 @@
-<img src="photos/Chris_Aniszczyk.jpg" alt="Chris Aniszczyk">
+<img src="http://www.eclipse.org/org/foundation/boardbios/photos/Chris_Aniszczyk.jpg">
 Chris Aniszczyk is the technical lead for the Eclipse Plug-in Development Environment (PDE) 
 project and principal consultant at Code 9. He tends to be all over the place inside the 
 Eclipse community by committing on various Eclipse projects. He sits on the Eclipse 
