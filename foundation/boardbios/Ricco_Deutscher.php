@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Ricco_Deutscher.jpg" align="left" style="padding-right: 5px;" width="120">
 Dr. Ricco Deutscher is CTO and co-founder of SOPERA. Before joining 
 SOPERA, Ricco Deutscher was an architecture and technology expert at 
 McKinsey and in charge of international architecture projects. In this 
