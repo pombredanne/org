@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Wolfgang_Neuhaus.jpg" align="left" style="padding-right: 5px;" width="120">
 <p>Wolfgang Neuhaus is a co-founder and member of the board of itemis AG. Previously 
 he was Chief Information Officer (CIO) of Brockhaus AG and headed a team of 
 80 software developers and consultants.</p>
