@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Paul_Lipton.jpg" align="left" style="padding-right: 5px;" width="120">
 Paul Lipton is an Advisor and Senior Architect in CA where he leads the CA Industry Standards and Open Source
 Program in the Office of the CTO. Paul has been an architect and developer of enterprise systems for over 20
 years. He has also participated in many standards organizations including OASIS and the W3C, and serves on the
