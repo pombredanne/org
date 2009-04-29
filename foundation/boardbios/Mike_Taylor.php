@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Mike_Taylor.jpg" align="left" style="padding-right: 5px;" width="120">
 <p>Mike Taylor is President, CEO, and co-founder of Instantiations, Inc. and has 
 been involved with Eclipse since late 1999. He has extensive senior management 
 experience in the enterprise software development tools arena. During 
