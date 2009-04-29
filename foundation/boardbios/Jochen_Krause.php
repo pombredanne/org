@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Jochen_Krause.jpg" align="left" style="padding-right: 5px;" width="120">
 Jochen Krause is the project lead for the Eclipse <a href="http://www.eclipse.org/rap/">Rich Ajax
 Platform (RAP)</a> project, and a member of the Board of Directors of the Eclipse Foundation.  He is CEO of
 <a href="http://www.innoopract.com">Innoopract</a>, a recognized leader in Eclipse distribution and web
