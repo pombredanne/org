@@ -1,3 +1,4 @@
+<img src="boardbios/photos/Mark_Coggins.jpg" align="left" style="padding-right: 5px;" width="120">
 Mark Coggins is Senior Vice President of Engineering 
 at <a href="http://www.actuate.com">Actuate Corporation</a>. He
 has over 20 years of management experience in the software industry, 
