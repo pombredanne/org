@@ -21,6 +21,11 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
+		
+		<a href=""http://wiki.eclipse.org/EclipseEmbeddedDayStgt">
+		<img src="http://wiki.eclipse.org/images/6/68/Eday-banner.jpg" alt="Eclipse Embedded Day" border="0">
+		</a>
+		
      	<p>
      		MicroDoc and the Eclipse Foundation are pleased to announce
 			<a href="http://wiki.eclipse.org/EclipseEmbeddedDayStgt" target="blank">Eclipse Embedded Day
