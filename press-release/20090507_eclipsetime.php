@@ -23,10 +23,12 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
      	<p>
+			<a href="http://www.eclipsetime.org" target="blank">
+			<img align="right" src="http://www.eclipsetime.org/skins/Anyware/resources/img/logo.gif" alt="Eclipse Time" border="0"></a>
      		Anyware Technologies and the Eclipse Foundation are pleased to announce
      		<a href="http://www.eclipsetime.org" target="blank">Eclipse Time</a>, a 2-day event
      		taking place in Toulouse, France, June 23-24, 2009. 
-		</p>
+     	</p>
 		<p>
 			Discover the Eclipse open source platform with business cases presented by experts.	
 			Eclipse Time features well-known speakers from the community including Eclipse
