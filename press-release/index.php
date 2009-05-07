@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090507_eclipsetime.php">Eclipse Time in Toulouse</a> - May 7, 2009</li>
 		<li><a href="20090504_embeddedday.php">Eclipse Embedded Day in Stuttgart</a> - May 4, 2009</li>
 		<li><a href="20090422_galileodemocamps.php">Celebrate Galileo at an Eclipse DemoCamp</a> - April 22, 2009</li>
 		<li><a href="20090414_CommunitySurvey.php">Eclipse Community Survey: Tell us what you are using</a> - April 14, 2009</li>
