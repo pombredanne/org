@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Time";
+	$pageTitle 		= "Eclipse Time in Toulouse";
 	$pageKeywords	= "Eclipse, Eclipse Time, Toulouse, France, Anyware";
 	$pageAuthor		= "Lynn Gayowski";
 	
