@@ -27,16 +27,16 @@
 		
       	<p>The Eclipse community is preparing to release Galileo, the annual simultaneous release, at the end
       	of June.  The release has now grown to 33 projects with over 18??? million lines of code, contributed
-      	by committers around the world.  With such a large globabl community, Eclipse wants to bring Galileo
+      	by committers around the world.  With such a large global community, Eclipse wants to bring Galileo
       	to you!</p>
 
  		<p>On June 26, the Eclipse Foundation is presenting Galileo In Action - a day of virtual meetings
  		where you can interact with project leads involved in the release and see demos of the new
  		features.  Galileo In Action is free to attend and registering gets you into all 5 sessions:
  		<ul>
- 			<li>10:00 am EST - <b>What is Galileo and Why do I Love it?</b>, presented by Doug Schaaefer
+ 			<li>10:00 am EST - <b>What is Galileo and Why do I Love it?</b>, presented by Doug Schaefer
  			(C/C++ Development Tooling)	and Brian Fitzpatrick (Data Tools Platform)</li>
- 			<li>11:00 am EST - <b>Frameworks Showcase</b>, presented by Scott Lewis (Eclipose Communication
+ 			<li>11:00 am EST - <b>Frameworks Showcase</b>, presented by Scott Lewis (Eclipse Communication
  			Framework) and Pascal Rapicault (p2)</li>
  			<li>12:00 pm EST - <b>Runtime Showcase</b>, presented by Tom Watson (Equinox) and Doug Clarke (EclipseLink)</li>
  			<li>01:00 pm EST - <b>Tools Showcase</b>, presented by Roy Ganor & Michael Spector (PHP Development
