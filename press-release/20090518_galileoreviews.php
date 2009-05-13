@@ -18,7 +18,6 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <div id="maincontent">
-	<div id="fullcolumn">
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
@@ -50,7 +49,17 @@
 
  	<br><br>
 	</div>
-	</div>
+
+	<!-- remove the entire <div> tag to omit the right column!  -->
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="/../../community/galileo/reviewcontest.php">Blogathon Details</a></li>
+				<li><a href="/../../community/galileo/galileoreviews.php">Submitted Reviews</a></li>
+			</ul>
+		</div>
+	</div>	
 </div>
 
 
