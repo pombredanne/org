@@ -23,6 +23,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
      	<p>
+     		<a href="http://wiki.eclipse.org/EclipseApplicationDeveloperDayKarlsruhe" target="blank"><img src="http://wiki.eclipse.org/images/6/60/EADD2009.jpg" width="600" height="89" border="0"><br>
      		<a href="http://wiki.eclipse.org/EclipseApplicationDeveloperDayKarlsruhe" target="blank">An Eclipse
      		Application Developer Day (EADD)</a> is being held in Karlsruhe, Germany on July 7, 2009.  This 
      		full-day event will provide an opportunity for both new experienced Eclipse developers to learn
