@@ -37,7 +37,7 @@
 		</p>
 		<p>
 			<a href="http://www.eclipsetime.org/en/eclipse_time_2009/day_1_conference/register.html" target="blank">Registration</a>
-			for the conference day is free and the workshop day is only 600 &euro; plus VAT, which includes
+			for the conference day is free and the <a href="http://www.eclipsetime.org/en/eclipse_time_2009/day_2_workshops/register.html" target="blank">workshop day</a> is only 600 &euro; plus VAT, which includes
 			attendance at 2 workshops.
 		</p>
 		<p>
