@@ -72,6 +72,8 @@
 				<li><a href="Eclipse_Project_Usability.php">Project Usability:</a> 
 					This is a Board Resolution about requirements to improve project usability, 
 					initial user experience, and extensibility.</li>
+				<li><a href="Licensing_Example_Code.pdf">Licensing Example Code:</a> 
+					This is a Board approved policy on how projects may license their example code.</li>
 			</ul>
 		</div>
 	</div>
