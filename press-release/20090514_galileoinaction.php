@@ -102,8 +102,10 @@
  			<br>
  			Presented by Jason Weathersby (Business Intelligence and Reporting Tools) and Mik Kersten (Mylyn)
  			<br><br>
- 			    * what does Galileo mean to your end customer, product delivery?
-    * what value does the release train bring? 
+ 			 Jason and Mik will take a look at Galileo from the perspective of an Eclipse adopter.  The
+ 			 release is important to Eclipse developers, but there is also an impact to the end user of
+ 			 commercial products based on Eclipse.  Jason and Mik will discuss how Galileo affects their
+ 			 product delivery and what value it brings to their end customers.
  			</li>
  		</ul>
  		</p>
