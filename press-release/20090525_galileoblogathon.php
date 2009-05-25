@@ -44,7 +44,7 @@
  		next EclipseCon 2010 or Eclipse Summit Europe 2009.</p>
 
  		<p>The top 3 and the best reviews will be selected by a panel of judges. All entries must be received by
- 		<b>July 31, 2009</b>.  For full details, see the <a href="http://www.eclipse.org/community/galileo/reviewcontest.php">
+ 		<b>July 31, 2009</b>.  For full details, see the <a href="http://www.eclipse.org/galileo/blogathon/guidelines.php.php">
  		blogathon page</a>.</p>
 
  	<br><br>
