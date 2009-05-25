@@ -28,7 +28,7 @@
       	projects</a> that are being released as part of Galileo. We will give you a 
       	<a href="http://www.eclipse.org/donate/">Friend of Eclipse</a> membership
       	or an Eclipse shirt for writing a review.  One lucky winner will also win a pass to
-      	<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a> or
+      	<a href="http://www.eclipsecon.org">EclipseCon 2010</a> or
       	<a href="http://www.eclipsecon.org/summiteurope2009/">Eclipse Summit Europe 2009</a>!</p>
 
  		<p>To enter the blogathon, all you need to do is write a review about one or more of the projects that
