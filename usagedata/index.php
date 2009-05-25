@@ -43,7 +43,7 @@ ob_start();
 }
 </style>
 
-<p>The Usage Data Collector (UDC) is included in the Ganymede packages
+<p>The Usage Data Collector (UDC) is included in the packages
 available for download from the <a href="/downloads">Eclipse Downloads page</a>. 
 The UDC collects information about how individuals
 are using the Eclipse platform. This information is periodically
@@ -79,6 +79,39 @@ including:</p>
 <p>Where possible, the UDC also captures the symbolic
 name and version of the bundle contributing the
 command/action/perspective/view/editor.</p>
+
+<p>The UDC also captures some basic information about the runtime environment:</p>
+<ul>
+	<li>Operating System</li>
+	<li>System Architecture</li>
+
+	<li>Window System</li>
+	<li>Locale</li>
+	<li>Number of processors available</li>
+	<li>And a number of system properties:
+	<ul>
+		<li>java.runtime.name</li>
+		<li>java.runtime.version</li>
+
+		<li>java.specification.name</li>
+		<li>java.specification.vendor</li>
+		<li>java.specification.version</li>
+		<li>java.vendor</li>
+		<li>java.version</li>
+		<li>java.vm.info</li>
+
+		<li>java.vm.name</li>
+		<li>java.vm.specification.name</li>
+		<li>java.vm.specification.vendor</li>
+		<li>java.vm.specification.version</li>
+		<li>java.vm.vendor</li>
+		<li>java.vm.version</li>
+
+	</ul>
+	</li>
+</ul>
+
+<p>Note that none of these properties contain file paths or anything of a personal nature.</p>
 
 <p>Please review the <a href="terms.php">Terms of Use</a>.</p>
 
