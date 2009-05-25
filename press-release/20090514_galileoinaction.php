@@ -37,9 +37,11 @@
  			<br>
  			Presented by Doug Schaefer (C/C++ Development Tooling) and Brian Fitzpatrick (Data Tools Platform)
  			<br><br>
- 			Doug and Brian will give an overview of what Galileo is and explain why Eclipse projects want to 
- 			participate in the release and what is required for them to do so.  They will describe the
- 			improvements Galileo brings to the community.
+ 			Doug and Brian will give an overview of what exactly the Galileo release is all about.  They
+ 			will explain what makes Eclipse projects want to participate in the simultaneoue release and
+ 			what is required for them to do so.  Doug and Brian will describe the improvements Galileo
+ 			brings to the community and from their perspective as project leads, what they see as the
+ 			impact to the Eclipse ecosystem.
  			</li>
  			
  			<li>11:00 am EST - <b>Frameworks Showcase</b>
@@ -79,14 +81,29 @@
  			
  			<li>01:00 pm EST - <b>Tools Showcase</b>
  			<br>
- 			Presented by Roy Ganor & Michael Spector (PHP Development Tools)
+ 			Presented by Andreas Buchen (SAP) and Roy Ganor & Michael Spector (PHP Development Tools)
  			<br><br>
+ 			The Eclipse Memory Analyzer is a fast and feature-rich Java heap analyzer that helps you find
+ 			memory leaks and reduce memory consumption.  Developers use the Memory Analyzer to analyze
+ 			productive heap dumps with hundreds of millions of objects, quickly calculate the retained
+ 			sizes of objects, see who is preventing the Garbage Collector from collecting objects, and run
+ 			reports to automatically extract leak suspects.
+ 			<br><br>
+			The PHP Development Tools project provides a framework for the Eclipse platform. The project
+			encompasses all development components necessary to develop PHP and facilitate extensibility.
+			It leverages the existing Web Tools Platform (WTP) and Dynamic Languages Toolkit (DLTK) i
+			in providing developers with PHP capabilities.
+			<br><br>
+			Andreas, Roy and Michael will talk about the new and noteworthy features their respective
+			projects will introduce in the Galileo release.
  			</li>
  			
  			<li>02:00 pm EST - <b>Galileo In Action</b>
  			<br>
  			Presented by Jason Weathersby (Business Intelligence and Reporting Tools) and Mik Kersten (Mylyn)
  			<br><br>
+ 			    * what does Galileo mean to your end customer, product delivery?
+    * what value does the release train bring? 
  			</li>
  		</ul>
  		</p>
