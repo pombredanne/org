@@ -55,8 +55,8 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="/../../community/galileo/reviewcontest.php">Blogathon Details</a></li>
-				<li><a href="/../../community/galileo/galileoreviews.php">Submitted Reviews</a></li>
+				<li><a href="/../../galileo/blogathon/guidelines.php">Blogathon Details</a></li>
+				<li><a href="/../../galileo/blogathon/reviews.php">Submitted Reviews</a></li>
 			</ul>
 		</div>
 	</div>	
