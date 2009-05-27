@@ -38,7 +38,7 @@ in and perceive open source software.  <p>
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="">Report</a></li>
+				<li><a href="./Eclipse_Survey_2009_final.pdf">Report</a></li>
 				<li><a href="http://eclipse.org/go/Survey_09">Detailed Results</a></li>
 			</ul>
 		</div>
