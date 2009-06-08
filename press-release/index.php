@@ -36,7 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20090525_galileoblogathon.php">Galileo In Action</a> - June 8, 2009</li>
+		<li><a href="20090608_galileoinaction.php">Galileo In Action</a> - June 8, 2009</li>
 		<li><a href="20090525_galileoblogathon.php">Write a Review for the Galileo Blogathon</a> - May 25, 2009</li>
 		<li><a href="20090519_EADD.php">Eclipse Application Developer Day</a> - May 19, 2009</li>		
 		<li><a href="20090507_eclipsetime.php">Eclipse Time in Toulouse</a> - May 7, 2009</li>
