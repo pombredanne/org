@@ -42,8 +42,9 @@
 			program. 
 		</p>
 		<p>
-			Eclipse Application Developer Day is supported by andrena objects, the Eclipse Foundation,
-			EclipseSource, FZI Forschungszentrum Informatik and Silverstroke.  The sponsorship provided by 
+			Eclipse Application Developer Day is sponsored by andrena objects, the Eclipse Foundation,
+			EclipseSource, FZI Forschungszentrum Informatik, SAP and Silverstroke. Bredex, instinctools and
+			itemis are contributing as mini-sponsors.  The support provided by 
 			these organizations has made it possible to offer this event free of charge to participants.
 		</p>
 		  
