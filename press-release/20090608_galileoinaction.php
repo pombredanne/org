@@ -27,7 +27,7 @@
 		
       	<p>On June 26, the Eclipse Foundation is presenting Galileo In Action - a virtual conference
  		where you can interact with project leads involved in the release and see demos of the new
- 		features. The annual simultaneous release has now grown to 33 projects with over 24 million
+ 		features. The annual simultaneous release has now grown to 33 projects with over 23 million
  		lines of code, contributed by committers around the world.  With such a large global community,
  		Eclipse wants to bring Galileo to you!</p>
 
