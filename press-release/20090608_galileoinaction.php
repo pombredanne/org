@@ -35,7 +35,7 @@
  		<ul>
  			<li>10:00 am EST - <b>What is Galileo and Why do I Love it?</b>
  			<br>
- 			Presented by Doug Schaefer (C/C++ Development Tooling) and Brian Fitzpatrick (Data Tools Platform)
+ 			Presented by Doug Schaefer (C/C++ Development Tooling) and John Graham (Data Tools Platform)
  			</li>
  			
  			<li>11:00 am EST - <b>Frameworks Showcase</b>
