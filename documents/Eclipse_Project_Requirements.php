@@ -22,7 +22,7 @@
     <div id="maincontent">
 	<div id="midcolumn">
         <h1>$pageTitle</h1>
-                
+         <div class="homeitem3col">
 <p>The following resolution was passed by the Board of Directors of the Eclipse Foundation on December 14, 2006.</p>
 <p><b>RESOLVED</b>, that the Board hereby instructs each Eclipse project to conform to the following requirements, and further instructs the EMO to ensure that all projects comply with these requirements in a timely manner.<br>
 <ol type="a">
