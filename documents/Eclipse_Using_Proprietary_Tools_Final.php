@@ -22,7 +22,7 @@
     <div id="maincontent">
 	<div id="midcolumn">
         <h1>$pageTitle</h1>
-                
+          <div class="homeitem3col"> 
 <p>The following resolution was passed by the Board of Directors of the Eclipse Foundation on June 21, 2007.</p>
 <p><b>RESOLVED</b>, that the Board hereby instructs each Eclipse project to conform to the following policy for using proprietary tools in their development process, where there is sufficient value to the project to motivate the use of such proprietary tools. The goal of this policy is to ensure that undue barriers to contributors are not introduced as the result of the use of proprietary tools by one or more projects.</p> 
 <ul>
@@ -35,8 +35,7 @@
 </ul>
 
 <p>The Board further instructs the EMO to develop a procedure to implement this policy.</p>
-
-	</div>
+</div>
 	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
