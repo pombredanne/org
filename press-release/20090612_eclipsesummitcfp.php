@@ -25,9 +25,10 @@
 		
 		<p>
 			The call for participation is now open for Eclipse Summit Europe, the Eclipse Foundation&#146;s
-			annual community event for the European	ecosystem, taking place October 27-29, 2009 in
-			Ludwigsburg, Germany. You are invited to submit proposals focused on embedded, IDEs,
-			modeling, runtime or any other topic that is of interest to the Eclipse community.	
+			annual European community event, taking place October 27-29, 2009 in
+			Ludwigsburg, Germany. You are invited to submit proposals in five categories: 1) embedded,
+			2) IDEs, 3) modeling, 4) runtime, or 5) other new & noteworthy that is of interest to the
+			Eclipse community.	
 		</p>
 		
 		<p>
