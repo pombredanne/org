@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090611_eclipsesummitcfp.php">Eclipse Summit Europe Call for Participation</a> - June 11, 2009</li>		
 		<li><a href="20090608_galileoinaction.php">Galileo In Action</a> - June 8, 2009</li>
 		<li><a href="20090527_survey09.php">Eclipse Community Survey 2009</a> - May 27, 2009</li>
 		<li><a href="20090525_galileoblogathon.php">Write a Review for the Galileo Blogathon</a> - May 25, 2009</li>
