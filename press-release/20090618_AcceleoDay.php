@@ -33,7 +33,7 @@
 		<p>
 			Topics of interest at the workshop will include MOF-to-Text language, validation with Acceleo,
 			scripting generation, comparisons to other generative engines, and integration of Acceleo in an
-			industrial tool chain. Workshop attendees are welcome to present their work in in a 20-minute demo to get feedback
+			industrial tool chain. Workshop attendees are welcome to present their work in a 20-minute demo to get feedback
 			from the community.  See the <a href="http://www.acceleo.org/wiki/index.php/Eclipse_Acceleo_Day#Call_for_participation" target="blank">event
 			page</a> for participation details. 
 		</p>
