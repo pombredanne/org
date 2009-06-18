@@ -45,12 +45,12 @@
  			
  			<li>12:00 pm EST - <b>Runtime Showcase</b>
  			<br>
- 			Presented by Tom Watson (Equinox) and Doug Clarke (EclipseLink)
+ 			Presented by Tom Watson (Equinox) and Shaun Smith (EclipseLink)
  			</li>
  			
  			<li>01:00 pm EST - <b>Tools Showcase</b>
  			<br>
- 			Presented by Andreas Buchen (SAP) and Roy Ganor & Michael Spector (PHP Development Tools)
+ 			Presented by Andreas Buchen (Memory Analyzer) and Roy Ganor & Michael Spector (PHP Development Tools)
  			</li>
  			
  			<li>02:00 pm EST - <b>Galileo In Action</b>
