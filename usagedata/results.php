@@ -17,9 +17,12 @@
 # Author: 		Wayne Beaton
 # Date:			June 6, 2008
 #
-# Description:
+# Description: This document displays the reports that are generated
+# on a weekly basis.
 #
-#
+# The reports themselves are stored in /home/data/httpd/writable/udc/reports/data,
+# which is a writable section of the website server where the udc server uploads
+# the data as it is generated.
 #****************************************************************************
 
 # Begin: page-specific settings.  Change these.
@@ -36,10 +39,9 @@ $sort = 'element';
 if (array_key_exists('sort', $_GET)) $sort = $_GET['sort'];
 if (!in_array($sort, array('month', 'element', 'use', 'users'))) $sort = 'element';
 
-$base_url = '/org/usagedata/reports/data/';
-$url = $base_url . $kind . 's.csv';
-$trend_url = '/org/usagedata/reports/data/' . $kind . 's_trend.csv';
-$file = $_SERVER['DOCUMENT_ROOT'] . $url;
+$base_url = '/home/data/httpd/writable/udc/reports/data/';
+
+$file = $base_url . $kind . 's.csv';
 
 $csv = file_get_contents($file);
 $csv = split("\n", $csv);
