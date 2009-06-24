@@ -29,7 +29,7 @@ $html = <<<EOHTML
 		<p><i>Highlights include Mac Cocoa support, Domain Specific Language modeling and updates to Equinox; multi-language support immediately available </i></p>	
 
 		<p><strong>OTTAWA, CANADA – June 24, 2009</strong> – For the sixth year in a row, the Eclipse community has 
-		delivered its annual release train on its scheduled date. Galileo, the 2009 release train, is the largest 
+		delivered its annual release train on its scheduled date. <a href="http://www.eclipse.org/galileo/">Galileo</a>, the 2009 release train, is the largest 
 		ever release from the Eclipse community, comprising 33 projects and over 24 million lines of code. Over 
 		380 committers from 44 different organizations participated to make this release possible. </p>
 		
@@ -135,6 +135,7 @@ $html = <<<EOHTML
 		</p>
 
 	</div>
+	<div id="midcolumn">
 
 </div>
 
