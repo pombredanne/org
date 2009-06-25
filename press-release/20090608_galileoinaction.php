@@ -50,7 +50,7 @@
  			
  			<li>01:00 pm EST - <b>Tools Showcase</b>
  			<br>
- 			Presented by Andreas Buchen (Memory Analyzer) and Roy Ganor & Michael Spector (PHP Development Tools)
+ 			Presented by Andreas Buchen (Memory Analyzer) and Roy Ganor (PHP Development Tools)
  			</li>
  			
  			<li>02:00 pm EST - <b>Galileo In Action</b>
