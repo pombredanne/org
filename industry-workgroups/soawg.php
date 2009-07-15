@@ -112,19 +112,7 @@
 				<li>List of missing components and a brief description of each</li>
 			</ul>
 		</p>	
-		</li>
-
-
- 
-		<li><p>Q1/Q2 09 - Work with the existing projects (e.g. MTJ, TML and EPP) to create a pre-packaged Eclipse Mobile ADK in Galileo release.</p>
-	 		<p>Create an Eclipse Mobile Integration project to implement the identified missing components. 
-	 		Examples include:
-	 		<ul><li> implement a missing "SDK download / integration" UI</li>
-			<li>P2 extensions to integrate vendor SDKs into MADK</li>
-			<li>signing / deployment framework which can be extended in MTJ, TML and others</li>
-			</ul>
-			</p></li>
-		
+		</li>		
 
 		<li>Q3/09 Start work with the existing projects (e.g. STP, Swordfish and BPEL) to create a pre-packaged Eclipse SOA platform. Major next milestones for releases of the Eclipse SOA platform are Eclipse Summit Europe 2009, EclipseCON 2010 and the Eclipse Helios Release.</li>
 
