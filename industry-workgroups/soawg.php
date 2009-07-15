@@ -53,7 +53,7 @@
 			<li>It will develop a consistent communication and promotion program to help raise the awareness of the Eclipse SOA platform in the software industry. The promotion program includes:
 				<ol>
 					<li>The establishment of a brand including logo (see a draft in the attachment), which can be used for marketing purposes under certain rules. The rules will be governed in the Eclipse SOA Industry Working Group as well.</li>
-					<li>b.	The promotion of products and services of its members around the Eclipse SOA platform on the website of the Eclipse SOA Industry Working Group.</li>					
+					<li>The promotion of products and services of its members around the Eclipse SOA platform on the website of the Eclipse SOA Industry Working Group.</li>					
 				</ol>
 			 </li>
 			 <li>It will define measurable criteria that allow interested parties outside the Eclipse SOA Industry Working Group to benefit from their commitment to the Eclipse SOA platform. The fulfilment of these criteria needs to be approved by the Steering Committee. Currently, four distinct groups of parties have been identified that should be addressed by such a program. The program does include a listing on the website of the Eclipse SOA Industry Working Group:
@@ -65,12 +65,18 @@
 				</ol>
 			 </li>
 		</ol>
-		Note, that membership in the Eclipse SOA IWG is not a prerequisite for the product vendors, add-in vendors and system integrators.  In order to provide incentives to A) form a coherent and integrated SOA platform, and B) to promote adoption, there will be a set of criteria for product vendors (type a) and system integrator (type c). This set of criteria will cover as well for the tooling and as well for the runtime. The fulfilment of either tooling only or runtime only will be not sufficient to use the logo for product vendor or system integrators.
+		</p>
+		
+		<p>Note, that membership in the Eclipse SOA IWG is not a prerequisite for the product vendors, add-in vendors and system integrators.  
+		In order to provide incentives to A) form a coherent and integrated SOA platform, and B) to promote adoption, 
+		there will be a set of criteria for product vendors and system integrator. This set of criteria will cover as well 
+		for the tooling and as well for the runtime. The fulfilment of either tooling only or runtime only will be not sufficient 
+		to use the logo for product vendor or system integrators.
 		</p>
 		
 		<p>The Eclipse SOA Industry Working Group will not create or publish a specification as part of its deliverables.</p>
 		
-		<h3>3)	Eclipse SOA Industry Working Group Participation Guidelines</h3>
+		<h3>Eclipse SOA Industry Working Group Participation Guidelines</h3>
 		<p>The Eclipse SOA Industry Working Group participation guidelines define the obligations for participants. The participants are expected to fulfil these obligations to be considered in good standing.
 		</p>
 		<p>Steering Committee Members are required to:
@@ -119,9 +125,9 @@
 			</p></li>
 		
 
-		<li>Q3 09 – Start work with the existing projects (e.g. STP, Swordfish and BPEL) to create a pre-packaged Eclipse SOA platform. Major next milestones for releases of the Eclipse SOA platform are Eclipse Summit Europe 2009, EclipseCON 2010 and the Eclipse Helios Release.</li>
+		<li>Q3/09 Start work with the existing projects (e.g. STP, Swordfish and BPEL) to create a pre-packaged Eclipse SOA platform. Major next milestones for releases of the Eclipse SOA platform are Eclipse Summit Europe 2009, EclipseCON 2010 and the Eclipse Helios Release.</li>
 
-		<li>Q3/09: Unify mobile specific features (e.g. Sign, Package, Deploy)</li>
+		<li>Q3/09 Unify mobile specific features (e.g. Sign, Package, Deploy)</li>
  
 		<li>Propose and initiate an Eclipse Service Registry/Repository project in Q4/09 as this is considered a central piece of a SOA platform.</li>
 		</ul>
