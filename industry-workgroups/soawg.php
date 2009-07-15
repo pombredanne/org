@@ -116,8 +116,6 @@
 
 		<li>Q3/09 Start work with the existing projects (e.g. STP, Swordfish and BPEL) to create a pre-packaged Eclipse SOA platform. Major next milestones for releases of the Eclipse SOA platform are Eclipse Summit Europe 2009, EclipseCON 2010 and the Eclipse Helios Release.</li>
 
-		<li>Q3/09 Unify mobile specific features (e.g. Sign, Package, Deploy)</li>
- 
 		<li>Propose and initiate an Eclipse Service Registry/Repository project in Q4/09 as this is considered a central piece of a SOA platform.</li>
 		</ul>
 	</p>
