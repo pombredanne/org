@@ -28,6 +28,7 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
+		<p> Draft: version July 15, 2009</p>
 		
 		<h2>Charter</h2>
 		
