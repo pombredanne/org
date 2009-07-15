@@ -47,8 +47,8 @@
      	The Eclipse SOA Industry Working Group will focus on the following areas:
      	<ol>
      		<li>It will define and maintain requirements and a roadmap that defines a SOA platform and encourage broader participation from different solution providers. All requirements are evaluated with respect to the overarching goal of providing an interoperable SOA Platform. Requirements to integrate with technologies that are not part of the SOA Platform are considered out of scope by the SOA IWG.</li>
-			<li>It will define the technical requirements for an Eclipse package “Eclipse SOA” and specify the set of relevant Eclipse projects (so called “Eclipse SOA projects”) to implement these requirements. The initial set of relevant projects is listed in the appendix. This set of Eclipse SOA projects will be revised on a regular basis.</li>
-			<li>It will collaborate with the Eclipse Packaging Project (EPP) to deliver an extensible Eclipse SOA package branded with a brand to be established (see 5.a.)</li>
+			<li>It will define the technical requirements for an Eclipse package "Eclipse SOA" and specify the set of relevant Eclipse projects (so called "Eclipse SOA projects") to implement these requirements. The initial set of relevant projects is listed in the appendix. This set of Eclipse SOA projects will be revised on a regular basis.</li>
+			<li>It will collaborate with the Eclipse Packaging Project (EPP) to deliver an extensible Eclipse SOA package branded with a brand to be established (see 5.1.)</li>
 			<li>It will create a set of best practices and extension mechanisms that simplify the use of the Eclipse SOA platform by a wide range of application developers and SOA vendors through a common set of test suites, training materials and documentation. (That may belong into the new top-level project)</li>
 			<li>It will develop a consistent communication and promotion program to help raise the awareness of the Eclipse SOA platform in the software industry. The promotion program includes:
 				<ol>
@@ -56,16 +56,16 @@
 					<li>b.	The promotion of products and services of its members around the Eclipse SOA platform on the website of the Eclipse SOA Industry Working Group.</li>					
 				</ol>
 			 </li>
-			 <li>6.	It will define measurable criteria that allow interested parties outside the Eclipse SOA Industry Working Group to benefit from their commitment to the Eclipse SOA platform. The fulfilment of these criteria needs to be approved by the Steering Committee. Currently, four distinct groups of parties have been identified that should be addressed by such a program. The program does include a listing on the website of the Eclipse SOA Industry Working Group:
+			 <li>It will define measurable criteria that allow interested parties outside the Eclipse SOA Industry Working Group to benefit from their commitment to the Eclipse SOA platform. The fulfilment of these criteria needs to be approved by the Steering Committee. Currently, four distinct groups of parties have been identified that should be addressed by such a program. The program does include a listing on the website of the Eclipse SOA Industry Working Group:
 				<ol>
-					<li>Product vendors: Product vendors that build products based on Eclipse SOA platform will be eligible to use the “Eclipse SOA Product” logo for the specific product and training materials.</li>
-					<li>Add-in vendors: Product vendors that create add-ins to Swordfish or any other Eclipse SOA component will be eligible to use the “Eclipse SOA Add-in” logo. </li>
-					<li>System integrators: System integrators that demonstrate their expertise in using Eclipse SOA technology in customer projects are eligible to use the “Eclipse SOA Integrator” logo. The logo can also be used for training materials by these system integrators.</li>
-					<li>d)	Industry Working Group Members: Members of the Eclipse SOA Industry Working Group contributing to the Eclipse SOA platform will be eligible to use the “Eclipse SOA Member” logo.</li>
+					<li>Product vendors: Product vendors that build products based on Eclipse SOA platform will be eligible to use the "Eclipse SOA Product" logo for the specific product and training materials.</li>
+					<li>Add-in vendors: Product vendors that create add-ins to Swordfish or any other Eclipse SOA component will be eligible to use the "Eclipse SOA Add-in" logo. </li>
+					<li>System integrators: System integrators that demonstrate their expertise in using Eclipse SOA technology in customer projects are eligible to use the "Eclipse SOA Integrator" logo. The logo can also be used for training materials by these system integrators.</li>
+					<li>Industry Working Group Members: Members of the Eclipse SOA Industry Working Group contributing to the Eclipse SOA platform will be eligible to use the "Eclipse SOA Member" logo.</li>
 				</ol>
 			 </li>
 		</ol>
-		Note, that membership in the Eclipse SOA IWG is not a prerequisite for the product vendors (type a), add-in vendors (type b) and system integrators (type c). In order to provide incentives to A) form a coherent and integrated SOA platform, and B) to promote adoption, there will be a set of criteria for product vendors (type a) and system integrator (type c). This set of criteria will cover as well for the tooling and as well for the runtime. The fulfilment of either tooling only or runtime only will be not sufficient to use the logo for product vendor or system integrators.
+		Note, that membership in the Eclipse SOA IWG is not a prerequisite for the product vendors, add-in vendors and system integrators.  In order to provide incentives to A) form a coherent and integrated SOA platform, and B) to promote adoption, there will be a set of criteria for product vendors (type a) and system integrator (type c). This set of criteria will cover as well for the tooling and as well for the runtime. The fulfilment of either tooling only or runtime only will be not sufficient to use the logo for product vendor or system integrators.
 		</p>
 		
 		<p>The Eclipse SOA Industry Working Group will not create or publish a specification as part of its deliverables.</p>
@@ -76,7 +76,7 @@
 		<p>Steering Committee Members are required to:
 		<ul>
 			<li>Be Strategic or Enterprise member of the Eclipse Foundation</li>
-			<li>Appoint at least 3 developers to implement requirements agreed in the Industry Working Group to creating the Eclipse SOA platform. These developers will work in one of the relevant Eclipse projects (“Eclipse SOA projects”) selected by the Eclipse SOA Industry Working Group. The members are free in their choice into which of the relevant projects these developers are assigned to (e.g. tooling only). </li>
+			<li>Appoint at least 3 developers to implement requirements agreed in the Industry Working Group to creating the Eclipse SOA platform. These developers will work in one of the relevant Eclipse projects ("Eclipse SOA projects") selected by the Eclipse SOA Industry Working Group. The members are free in their choice into which of the relevant projects these developers are assigned to (e.g. tooling only). </li>
 			<li>The IWG will require resources on an irregular basis working in requirements management, marketing/branding and strategy. It is expected that all steering committee members participate equally in those efforts. </li>
 			<li>Regularly participate in all Industry Working Group meetings and provide timely feedback on the Industry Working Group documents</li>
 			<li>Provide announcement support for the Eclipse SOA platform and ongoing promotion to application developers.</li>			
@@ -85,7 +85,7 @@
 		<p>Member Participants are required to:
 		<ul>
 			<li>Be an Eclipse Foundation Member (Solution, Committer)</li>
-			<li>Appoint at least 1 developer to implement requirements agreed in the Industry Working Group to creating the Eclipse SOA platform. These developers will work in one of the relevant Eclipse projects (“Eclipse SOA projects”) selected by the Eclipse SOA Industry Working Group. The members are free in their choice into which of the relevant projects these developers are assigned to (e.g. tooling only).</li>
+			<li>Appoint at least 1 developer to implement requirements agreed in the Industry Working Group to creating the Eclipse SOA platform. These developers will work in one of the relevant Eclipse projects ("Eclipse SOA projects") selected by the Eclipse SOA Industry Working Group. The members are free in their choice into which of the relevant projects these developers are assigned to (e.g. tooling only).</li>
 			<li>Regularly participate in all Industry Working Group meetings and provide timely feedback on the Industry Working Group documents.</li>
 			<li>For corporate members, provide announcement support for the Eclipse SOA platform and ongoing promotion to application developers. </li>
 		</ul>
