@@ -32,13 +32,13 @@
 		</p>
 		<p>
 			Core topics of Insurance Day include Eclipse as a platform for application development in the
-			insurance industry, leveraging Eclipse modeling technology for data exchange and cost reduction
+			insurance industry, leveraging Eclipse modeling technology for data exchange, and cost reduction
 			by collaboration with the open source community.  Talks will be held in English or German,
 			with the majority in German.	
 		</p>
 		<p>
 			Eclipse Insurance Day is sponsored by BIRT Exchange, compeople, Eclipse Foundation, EclipseSource,
-			in2solutions, Sopera and Weigle Wilczek.T he support provided by 
+			in2solutions, Sopera and Weigle Wilczek. The support provided by 
 			these organizations has made it possible to offer this event free of charge to participants.
 		</p>
 		  
