@@ -24,20 +24,21 @@
      	
 		<p>
 		Registration for <a href="http://www.eclipsecon.org/summiteurope2009/">Eclipse Summit Europe 2009</a>
-		is now open. A single fee
-		provides access to the entire conference, including technical sessions, keynotes, a symposia &amp;
-		tutorial day, networking receptions and Birds of a Feather gatherings.
+		is now open.  The fourth annual Eclipse community event will be held October 27-29 in Ludwigsburg Germany. 
+		</p>
+		<p>This year the conference will feature five tracks: Runtime, IDE, Embedded, Modeling, and Other/New & Noteworthy.  The
+		<a href="http://www.eclipsecon.org/summiteurope2009/submissions">Call of Papers</a> is now open. Individuals that are interested 
+		in presenting at the conference are encouraged to submit a proposal before August 18, 2009.  
+		The full conference agenda will be published in early September.
 		</p>
 		
-		<p>Eclipse Summit Europe will be held October 27-29 in Ludwigsburg, Germany. 
-		Eclipse Summit Europe is the Foundation's premier event for the European community, designed to
-		create opportunities to explore, share and collaborate on the latest ideas and information about
-		Eclipse and its members.
-		</p>
- 
-		<p>Employees of Eclipse member companies, Eclipse committers, and conference alumni will receive a
+		<p>The cost to attend the conference is EURO.  Employees of Eclipse Foundation member companies, Eclipse committers, and conference alumni will receive a
 		15% discount on the full registration price.  More information about the conference and
 		registration can be found at <a href="http://www.eclipsesummit.org">www.eclipsesummit.org</a>.</p>
+		
+		<p><a href="http://www.eclipsecon.org/summiteurope2009/sponsorship/">Sponsorship opportunities</a> are still avaiable for Eclipse Summit Europe.  Sponsorship is
+		a great way for organizations to gain exposure with Eclipse users.
+		</p>
 		
 		<p>
 		Don't miss out on this excellent opportunity - <a href="http://www.eclipsesummit.org">register for Eclipse Summit Europe</a> today!
