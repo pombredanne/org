@@ -43,6 +43,7 @@
 		<p>
 		Don't miss out on this excellent opportunity - <a href="http://www.eclipsesummit.org">register for Eclipse Summit Europe</a> today!
 		</p>
+		<p>Follow Eclipse Summit Europe on <a href="http://twitter.com/eclipsesummit">Twitter</a></p>
 	</div>
 	
 	<div id="rightcolumn"><br/><br/><br/>
