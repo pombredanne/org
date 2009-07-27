@@ -27,7 +27,7 @@
 		is now open.  The fourth annual Eclipse community event will be held October 27-29 in Ludwigsburg Germany. 
 		</p>
 		<p>This year the conference will feature five tracks: Runtime, IDE, Embedded, Modeling, and Other/New & Noteworthy.  The
-		<a href="http://www.eclipsecon.org/summiteurope2009/submissions">Call of Papers</a> is now open. Individuals that are interested 
+		<a href="http://www.eclipsecon.org/summiteurope2009/submissions">Call for Papers</a> is now open. Individuals that are interested 
 		in presenting at the conference are encouraged to submit a proposal before August 18, 2009.  
 		The full conference agenda will be published in early September.
 		</p>
