@@ -26,7 +26,7 @@
      		<a href="http://www.eclipse-insurance.org/en/index.html" target="blank"><img src="http://www.eclipse-insurance.org/en/img/insuranceday.png" width="600" height="77" border="0"><br>
      		<a href="http://www.eclipse-insurance.org/en/index.html" target="blank">Eclipse Insurance
      		Day</a> is being held in Cologne, Germany on September 30, 2009.  This full-day event will
-     		provide an opportunity for insurance experts, IT managers and software arcitects to
+     		provide an opportunity for insurance experts, IT managers and software architects to
      		exchange experiences, get an overview of the options Eclipse is offering for insurance
      		applications, and learn how to leverage Eclipse technology and the Eclipse community.
 		</p>
