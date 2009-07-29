@@ -32,7 +32,7 @@
 		The full conference agenda will be published in early September.
 		</p>
 		
-		<p>The cost to attend the conference is EURO.  Employees of Eclipse Foundation member companies, Eclipse committers, and conference alumni will receive a
+		<p>The cost to attend the conference is &euro;450.  Employees of Eclipse Foundation member companies, Eclipse committers, and conference alumni will receive a
 		15% discount on the full registration price.  More information about the conference and
 		registration can be found at <a href="http://www.eclipsesummit.org">www.eclipsesummit.org</a>.</p>
 		
