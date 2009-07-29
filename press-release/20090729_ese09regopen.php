@@ -36,7 +36,7 @@
 		15% discount on the full registration price.  More information about the conference and
 		registration can be found at <a href="http://www.eclipsesummit.org">www.eclipsesummit.org</a>.</p>
 		
-		<p><a href="http://www.eclipsecon.org/summiteurope2009/sponsorship/">Sponsorship opportunities</a> are still avaiable for Eclipse Summit Europe.  Sponsorship is
+		<p><a href="http://www.eclipsecon.org/summiteurope2009/sponsorship/">Sponsorship opportunities</a> are still available for Eclipse Summit Europe.  Sponsorship is
 		a great way for organizations to gain exposure with Eclipse users.
 		</p>
 		
