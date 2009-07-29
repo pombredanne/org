@@ -41,7 +41,7 @@
 		</p>
 		
 		<p>
-		Don't miss out on this excellent opportunity - <a href="http://www.eclipsesummit.org">register for Eclipse Summit Europe</a> today!
+		Don't miss out on this excellent opportunity - <a href="http://www.eclipsecon.org/summiteurope2009/registration">register for Eclipse Summit Europe</a> today!
 		</p>
 		<p>Follow Eclipse Summit Europe on <a href="http://twitter.com/eclipsesummit">Twitter</a></p>
 	</div>
