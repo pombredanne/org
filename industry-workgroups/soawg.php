@@ -129,7 +129,7 @@
 	</p>
 		
 		<h3>Feedback</h3>
-	<p>**Mailing lists whould be available on July 30, 2009*** Please send comments and feedback to <a href="mailto:soa-iwg@eclipse.org">soa-iwg@eclipse.org</a>.  Please also use the mailing list to express
+	<p>**Mailing list archives should be available on July 30, 2009*** Please send comments and feedback to <a href="mailto:soa-iwg@eclipse.org">soa-iwg@eclipse.org</a>.  Please also use the mailing list to express
 	your desire to participate in the working group.  Go <a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">here</a> to subscribe to the mailing list and view the archives.</p>
 
 
