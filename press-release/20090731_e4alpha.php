@@ -28,7 +28,7 @@
 
 	<p>The key technical areas of e4 are:
 	<ul>
-		<li>A new programming model that aggressively avoids components reaching out to, or making assumptions about their application container.
+		<li>A service-oriented programming model, based on OSGi, that provides better isolation of software components from their surround environment. 
 		<li>The GUI is represented as a uniform model that can be generically queried, manipulated, tooled, and extended, allowing for rapid design and customization of the user interface with little or no coding effort.
 		<li>Use of web styling technology (CSS), allows the presentation of user interface elements to be infinitely tweaked and reconfigured without any modification of application code.
 		<li>Bringing Eclipse runtime technology into the JavaScript world, and enabling software written in JavaScript to be executed in the Eclipse runtime.
@@ -46,16 +46,17 @@
 
 	<p>A number of resources are available to make it easier for developers to understand e4, including:
 	<ul>
-	<li>Demos and sample applications have been included to show what is possible with the release.    
+	<li><a href="http://eclipse.org/e4/development/readme/readme_e4_0.9.html#R-Demos 
+">Demos and sample applications</a> have been included to show what is possible with the release.    
 	<li>Two <a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 Webinars</a> has been scheduled for August 20 and August 26.  This on-line conference will feature e4 committers explaining different aspects of the project.  The webinars are free to attend but attendees must pre-register.  <need url>
 	<li>The <a href="http://eclipse.org/e4/resources/e4-whitepaper.php">e4 whitepaper</a> provides a technical overview of the technology.
-	<li>New and Noteworthy [NEED URL] documentation describes in more detail what is available in this release.  <need url>
+	<li><a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/e4-news-all.html ">New and Noteworthy</a> documentation describes in more detail what is available in this release.  <need url>
 	<li>Detailed project information is available on the <a href="http://wiki.eclipse.org/E4">e4 wiki</a>.
 	<li>Developers are welcome to join and participate in the <a href="https://dev.eclipse.org/mailman/listinfo/e4-dev">e4 developer mailing list</a>.
 
 	</p>
 	
-	<p>Developers can download e4 0.9 now [NEEW URL].   The first general release of e4 is expected in 2010.
+	<p>Developers can <a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/index.html">download e4 0.9 now</a>.   The first general release of e4 is expected in 2010.
 	</p>
 	</div>
 	
@@ -64,8 +65,8 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li>Download e4</li>
-				<li>New and Noteworthy</li>
+				<li><a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/index.html">Download e4</a></li>
+				<li><a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/e4-news-all.html">New and Noteworthy</a></li>
 				<li><a href="http://eclipse.org/e4/resources/e4-whitepaper.php">e4 White Paper</a></li>
 				<li><a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 Webinars</a></li>
 			</ul>
