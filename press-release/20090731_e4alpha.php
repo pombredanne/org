@@ -53,7 +53,7 @@
 	<li><a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/e4-news-all.html ">New and Noteworthy</a> documentation describes in more detail what is available in this release.  <need url>
 	<li>Detailed project information is available on the <a href="http://wiki.eclipse.org/E4">e4 wiki</a>.
 	<li>Developers are welcome to join and participate in the <a href="https://dev.eclipse.org/mailman/listinfo/e4-dev">e4 developer mailing list</a>.
-
+	</ul>
 	</p>
 	
 	<p>Developers can <a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/index.html">download e4 0.9 now</a>.   The first general release of e4 is expected in 2010.
