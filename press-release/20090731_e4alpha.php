@@ -22,17 +22,17 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
      	
-	<p>The e4 project team is please to announce the availability of the 0.9 release, an early alpha release of 
+	<p>The e4 project team is pleased to announce the availability of the 0.9 release, an early alpha release of 
 	the e4 technology.  e4, a project initiated 18 months ago, is focused on building the next generation Eclipse 
 	platform.  The e4 vision and implementation is led by a community of 53 committers.  </e>
 
 	<p>The key technical areas of e4 are:
 	<ul>
-		<li>A service-oriented programming model, based on OSGi, that provides better isolation of software components from their surround environment. 
-		<li>The GUI is represented as a uniform model that can be generically queried, manipulated, tooled, and extended, allowing for rapid design and customization of the user interface with little or no coding effort.
-		<li>Use of web styling technology (CSS), allows the presentation of user interface elements to be infinitely tweaked and reconfigured without any modification of application code.
+		<li>A service-oriented programming model, based on OSGi, that provides better isolation of software components from their surrounding environment. 
+		<li>The GUI represented as a uniform model that can be generically queried, manipulated, tooled and extended, allowing for rapid design and customization of the user interface with little or no coding effort.
+		<li>Use of web styling technology (CSS) allowing the presentation of user interface elements to be infinitely tweaked and reconfigured without any modification of application code.
 		<li>Bringing Eclipse runtime technology into the JavaScript world, and enabling software written in JavaScript to be executed in the Eclipse runtime.
-		<li>A framework for defining the design and structure of Standard Widget Toolkit (SWT) applications declaratively. This eliminates writing of repetitive boilerplate SWT code, thus reducing development cost, improving UI consistency, and enabling customized application rendering.
+		<li>A framework for defining the design and structure of Standard Widget Toolkit (SWT) applications declaratively. This eliminates writing of repetitive boilerplate SWT code, thus reducing development cost, improving UI consistency and enabling customized application rendering.
 		<li>A new port of SWT, dubbed "browser edition", that allows existing SWT applications to be executed on web platforms such as ActionScript/Flash.
 		<li>In the development tools space, a more flexible resource model that provides better support for complex project layouts.
 	</ul>
@@ -48,7 +48,7 @@
 	<ul>
 	<li><a href="http://eclipse.org/e4/development/readme/readme_e4_0.9.html#R-Demos 
 ">Demos and sample applications</a> have been included to show what is possible with the release.    
-	<li>Two <a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 Webinars</a> has been scheduled for August 20 and August 26.  This on-line conference will feature e4 committers explaining different aspects of the project.  The webinars are free to attend but attendees must pre-register.  <need url>
+	<li>Two <a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 eebinars</a> have been scheduled for August 18 and August 26.  These on-line presentations will feature e4 committers explaining different aspects of the project.  The webinars are free to attend but attendees must pre-register.  <need url>
 	<li>The <a href="http://eclipse.org/e4/resources/e4-whitepaper.php">e4 whitepaper</a> provides a technical overview of the technology.
 	<li><a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/e4-news-all.html ">New and Noteworthy</a> documentation describes in more detail what is available in this release.  <need url>
 	<li>Detailed project information is available on the <a href="http://wiki.eclipse.org/E4">e4 wiki</a>.
