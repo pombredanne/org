@@ -48,7 +48,7 @@
 	<ul>
 	<li><a href="http://eclipse.org/e4/development/readme/readme_e4_0.9.html#R-Demos 
 ">Demos and sample applications</a> have been included to show what is possible with the release.    
-	<li>Two <a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 eebinars</a> have been scheduled for August 18 and August 26.  These on-line presentations will feature e4 committers explaining different aspects of the project.  The webinars are free to attend but attendees must pre-register.  <need url>
+	<li>Two <a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 webinars</a> have been scheduled for August 18 and August 26.  These on-line presentations will feature e4 committers explaining different aspects of the project.  The webinars are free to attend but attendees must pre-register.  <need url>
 	<li>The <a href="http://eclipse.org/e4/resources/e4-whitepaper.php">e4 whitepaper</a> provides a technical overview of the technology.
 	<li><a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/e4-news-all.html ">New and Noteworthy</a> documentation describes in more detail what is available in this release.  <need url>
 	<li>Detailed project information is available on the <a href="http://wiki.eclipse.org/E4">e4 wiki</a>.
