@@ -40,14 +40,14 @@
 
 		<p>
 			Guidelines for submissions are available at
-			<a href="http://www.eclipsecon.org/summiteurope2009/submissions">http://www.eclipsecon.org/summiteurope2009/submissions</a>.
+			<a href="http://www.eclipse.org/go/ESEcfp@cbjun11">http://www.eclipsecon.org/summiteurope2009/submissions</a>.
 			The deadline to submit is August 18, 2009. We anticipate an exciting program at this
 			year&#146;s conference and look forward to hearing from you!
 		</p>
  
 		<p>
 			Please note as well that attendee registration will open in July and conference
-			<a href="http://www.eclipsecon.org/summiteurope2009/sponsorship/">
+			<a href="http://www.eclipse.org/go/ESEsponsor@cbjun11">
 			sponsorship packages</a> are already available.	
 		</p>
 
