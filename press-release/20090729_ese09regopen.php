@@ -23,20 +23,20 @@
 		<h2>Community Bulletin</h2>
      	
 		<p>
-		Registration for <a href="http://www.eclipsecon.org/summiteurope2009/">Eclipse Summit Europe 2009</a>
+		Registration for <a href="http://www.eclipse.org/go/ESEweb@cbjul29">Eclipse Summit Europe 2009</a>
 		is now open.  The fourth annual Eclipse community event will be held October 27-29 in Ludwigsburg Germany. 
 		</p>
 		<p>This year the conference will feature five tracks: Runtime, IDE, Embedded, Modeling, and Other/New & Noteworthy.  The
-		<a href="http://www.eclipsecon.org/summiteurope2009/submissions">Call for Papers</a> is now open. Individuals that are interested 
+		<a href="http://www.eclipse.org/go/ESEcfp@cbjul29">Call for Papers</a> is now open. Individuals that are interested 
 		in presenting at the conference are encouraged to submit a proposal before August 18, 2009.  
 		The full conference agenda will be published in early September.
 		</p>
 		
 		<p>The cost to attend the conference is &euro;450.  Employees of Eclipse Foundation member companies, Eclipse committers, and conference alumni will receive a
 		15% discount on the full registration price.  More information about the conference and
-		registration can be found at <a href="http://www.eclipsesummit.org">www.eclipsesummit.org</a>.</p>
+		registration can be found at <a href="http://www.eclipse.org/go/ESEweb@cbjul29">www.eclipsesummit.org</a>.</p>
 		
-		<p><a href="http://www.eclipsecon.org/summiteurope2009/sponsorship/">Sponsorship opportunities</a> are still available for Eclipse Summit Europe.  Sponsorship is
+		<p><a href="http://www.eclipse.org/go/ESEsponsor@cbjul29">Sponsorship opportunities</a> are still available for Eclipse Summit Europe.  Sponsorship is
 		a great way for organizations to gain exposure with Eclipse users.
 		</p>
 		
