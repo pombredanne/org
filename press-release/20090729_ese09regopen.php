@@ -47,7 +47,7 @@
 	</div>
 	
 	<div id="rightcolumn"><br/><br/><br/>
-	<a href="http://www.eclipsesummit.org/"><img border="0" src="http://www.eclipsecon.org/summiteurope2009/datedimage/image125x125.gif" height="125" width="125" alt="Eclipse Summit Europe 2009"/></a>
+	<a href="http://www.eclipse.org/go/ESEweb@cbjul29"><img border="0" src="http://www.eclipsecon.org/summiteurope2009/datedimage/image125x125.gif" height="125" width="125" alt="Eclipse Summit Europe 2009"/></a>
 	</div>
 	
 </div>
