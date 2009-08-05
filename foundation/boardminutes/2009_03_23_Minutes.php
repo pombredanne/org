@@ -585,7 +585,7 @@ the defacto standard.&nbsp; Robert wished the Board the best in the
 coming year.&nbsp; </SPAN>
 </P>
 <P><SPAN LANG="en-US"><B><U>Invited Speakers:</U></B></SPAN></P>
-<P><SPAN LANG="en-US"><A HREF="http://www.johnhagel.com/">John Hagel</A>,
+<P><SPAN LANG="en-US"><A HREF="http://www.johnhagel.com/" target="_blank">John Hagel</A>,
 Deloitte Center for Edge Innovation provided a presentation focused
 on what was needed to succeed in today&rsquo;s economic climate.&nbsp;
 John indicated that companies needed to be more adaptive in this
