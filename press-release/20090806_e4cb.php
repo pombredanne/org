@@ -27,16 +27,17 @@
 		<a href="http://download.eclipse.org/e4/downloads/drops/R-0.9-200907291930/index.html"
 		target="blank">Download e4 0.9</a> now to try it out.
 		
-		<h4>e4 Feedback Contest</h4>
+		<h4><a href="http://www.eclipse.org/community/e4contest/guidelines.php">e4 Feedback Contest</a></h4>
 		
 		<p>The Eclipse Foundation wants to hear what you think of e4. Enter the Feedback Contest by
 		writing a review, explaining what you like or don't like about e4.
 		Entries can be written in any language. Publish the review on your blog, a newsgroup or portal, and
 		send us the link at <a href="mailto:e4-reviews@eclipse.org">e4-reviews@eclipse.org</a> by
-		August 31, 2009. Five entries will be selected at random to win an Eclipse polo shirt. For full details, see the <a href="http://www.eclipse.org/community/e4contest/guidelines.php">
+		August 31, 2009. Five entries will be selected at random to win an Eclipse polo shirt. For full
+		details, see the <a href="http://www.eclipse.org/community/e4contest/guidelines.php">
  		Feedback Contest guidelines</a>.</p>
 
-		<h4>e4 Webinars</h4>
+		<h4><a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 Webinars</a></h4>
 		 		
  		<p>The Eclipse Foundation is presenting 2 webinars on August 18 and August 26. Join the
  		webinars to learn more about e4 and chat with the committers who are making it happen.
