@@ -44,7 +44,12 @@
  		Give your feedback live!  To register, send an email to <a href="mailto:webinar-e4@eclipse.org">
  		webinar-e4@eclipse.org</a>. Abstracts and more information on the webinars are available at the
  		<a href="http://www.eclipse.org/community/e4webinar/abstracts.php">e4 Webinars page</a>.</p>
- 		 
+
+  		<p>For an entertaining promotional video, see 
+ 		<a href="http://www.youtube.com/watch?v=4uZVnSTYBYA" target="blank">e4 Webinars from the Eclipse Foundation</a> on YouTube:<br><br>
+		<a href="http://www.youtube.com/watch?v=4uZVnSTYBYA" target="blank"><img src="../../community/e4webinar/e4_webinizzles.png" width="200" height="120" alt="e4 webinars"></a>
+		</p>
+				
  	</div>
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
