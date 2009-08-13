@@ -1,4 +1,4 @@
-<img src="boardbios/photos/Todd_Williams.jpg" align="left" style="padding-right: 5px;" width="120">
+<img src="boardbios/photos/Todd_E.Williams.jpg" align="left" style="padding-right: 5px;" width="120">
 <p>Todd Williams is Vice President of Technology and co-founder of Genuitec and has been involved with Eclipse since its public 
 launch in 2001. He is a recognized speaker and author on Eclipse technologies and his publications include a 2002 article 
 that  became the genesis of the Eclipse rich-client platform.</p>
