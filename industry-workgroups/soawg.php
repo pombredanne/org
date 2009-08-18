@@ -129,12 +129,13 @@
 	</p>
 		
 		<h3>Feedback</h3>
-	<p>**Mailing list archives should be available on July 30, 2009*** Please send comments and feedback to <a href="mailto:soa-iwg@eclipse.org">soa-iwg@eclipse.org</a>.  Please also use the mailing list to express
+	<p>Please send comments and feedback to <a href="mailto:soa-iwg@eclipse.org">soa-iwg@eclipse.org</a>.  Please also use the mailing list to express
 	your desire to participate in the working group.  Go <a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">here</a> to subscribe to the mailing list and view the archives.</p>
 
 
 	<h3>Industry Working Group Process</h3>
-	<p>The Eclipse SOA Initative will follow the <a href="http://www.eclipse.org/org/industry-workgroups/industry_wg_process.php">Eclipse Industry Working Group Process</a>.</p>
+	<p>The Eclipse SOA Initative will follow the <a href="http://www.eclipse.org/org/industry-workgroups/industry_wg_process.php">Eclipse 
+	Industry Working Group Process</a>.</p>
 		
  <br><br>
 </div>
