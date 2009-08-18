@@ -37,7 +37,7 @@ ob_start();
 					</tr>	
 					<tr>
 						<td>SOA Industry Working Group</td>
-						<td><a href=http://www.eclipse.org/org/industry-workgroups/soawg.php"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"> (Proposal)</a></td>
+						<td><a href="http://www.eclipse.org/org/industry-workgroups/soawg.php"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"> (Proposal)</a></td>
 						<td><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
 						<td></td>
 					</tr>	
