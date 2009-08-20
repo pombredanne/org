@@ -23,6 +23,6 @@
 	$Nav->addCustomNav("Editors", "reports/csv.php?kind=editor", "_self", 1);
 	$Nav->addCustomNav("Perspectives", "reports/csv.php?kind=perspective", "_self", 1);
 	$Nav->addCustomNav("Commands", "reports/csv.php?kind=command", "_self", 1);
-	$Nav->addCustomNav("Geography", "reports/data/geo.csv", "_self", 1);
+	$Nav->addCustomNav("Geography", "reports/csv.php?geo", "_self", 1);
 
 ?>
