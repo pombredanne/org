@@ -23,7 +23,6 @@
 #****************************************************************************
 
 <?php
-header ("Content-type: application/csv\nContent-Disposition: \"inline; filename=data.csv\"")
 
 $kinds = array('Bundles'=>'bundle', 'Commands'=>'command', 'Perspectives'=>'perspective', 'Views'=>'view', 'Editors'=>'editor');
 
@@ -32,6 +31,9 @@ if (array_key_exists('kind', $_GET)) $kind = $_GET['kind'];
 if (!in_array($kind, $kinds)) $kind = 'view';
 
 $file_name = $kind . "s.csv";
+
+
+header ("Content-type: application/csv\nContent-Disposition: \"inline; filename=$file_name\"");
 
 include "/home/data/httpd/writable/udc/reports/data/$file_name";
 ?>
