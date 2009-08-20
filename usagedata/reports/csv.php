@@ -28,10 +28,12 @@ $kind = 'view';
 if (array_key_exists('kind', $_GET)) $kind = $_GET['kind'];
 if (!in_array($kind, $kinds)) $kind = 'view';
 
-$file_name = $kind . "s.csv";
+$trend = array_key_exists('trend', $_GET);
 
+$file_name = $kind . "s" . ($trend ? "_trend" : "") . ".csv";
 
-header ("Content-type: text/csv\nContent-Disposition: \"inline; filename=$file_name\"");
+header ("Content-type: text/csv");
+header ("Content-Disposition: \"inline; filename=$file_name\"");
 
 include "/home/data/httpd/writable/udc/reports/data/$file_name";
 ?>
