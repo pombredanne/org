@@ -115,8 +115,8 @@ ob_start();
 <ul>
 <? foreach ($kinds as $title=>$key) { ?>
 <li><a href="?kind=<?=$key ?>&sort=<?= $sort ?>"><?=$title ?></a>
-<a href="reports/data/<?= $key ?>s.csv">(csv)</a> 
-<a href="reports/data/<?= $key ?>s_trend.csv">(trend)</a></li>
+<a href="reports/csv.php?kind=<?= $key?>">(csv)</a> 
+<a href="reports/csv.php?kind=<?= $key ?>&trend">(trend)</a></li>
 <? } ?>
 </ul>
 
