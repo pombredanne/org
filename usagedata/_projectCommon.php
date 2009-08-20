@@ -18,11 +18,11 @@
 	$Nav->addCustomNav("Views, Editors, ...", "results.php", "_self", 1);	
 	
 	$Nav->addNavSeparator("Reports (cvs)", null);
-	$Nav->addCustomNav("Bundles", "reports/data/bundles.csv", "_self", 1);
-	$Nav->addCustomNav("Views", "reports/data/views.csv", "_self", 1);
-	$Nav->addCustomNav("Editors", "reports/data/editors.csv", "_self", 1);
-	$Nav->addCustomNav("Perspectives", "reports/data/perspectives.csv", "_self", 1);
-	$Nav->addCustomNav("Commands", "reports/data/commands.csv", "_self", 1);
+	$Nav->addCustomNav("Bundles", "reports/csv.php?kind=bundle", "_self", 1);
+	$Nav->addCustomNav("Views", "reports/csv.php?kind=view", "_self", 1);
+	$Nav->addCustomNav("Editors", "reports/csv.php?kind=editor", "_self", 1);
+	$Nav->addCustomNav("Perspectives", "reports/csv.php?kind=perspective", "_self", 1);
+	$Nav->addCustomNav("Commands", "reports/csv.php?kind=command", "_self", 1);
 	$Nav->addCustomNav("Geography", "reports/data/geo.csv", "_self", 1);
 
 ?>
