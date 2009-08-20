@@ -31,7 +31,7 @@ if (!in_array($kind, $kinds)) $kind = 'view';
 $file_name = $kind . "s.csv";
 
 
-header ("Content-type: application/csv\nContent-Disposition: \"inline; filename=$file_name\"");
+header ("Content-type: text/csv\nContent-Disposition: \"inline; filename=$file_name\"");
 
 include "/home/data/httpd/writable/udc/reports/data/$file_name";
 ?>
