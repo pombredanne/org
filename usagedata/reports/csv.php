@@ -22,8 +22,6 @@
 #
 #****************************************************************************
 
-<?php
-
 $kinds = array('Bundles'=>'bundle', 'Commands'=>'command', 'Perspectives'=>'perspective', 'Views'=>'view', 'Editors'=>'editor');
 
 $kind = 'view';
