@@ -52,6 +52,8 @@ $headers = split(",", $headers);
 class Item {
 	var $yearmonth;
 	var $element;
+	var $bundleId;
+	var $bundleVersion;
 	var $useCount;
 	var $userCount;
 }
@@ -65,6 +67,8 @@ while ($row = next($csv)) {
 	$item = new Item();
 	$item->yearmonth = current($row);
 	$item->element = next($row);
+	$item->bundleId = next($row);
+	$item->bundleVersion = next($row);
 	$item->useCount = next($row);
 	$item->userCount = next($row);
 	
@@ -127,12 +131,12 @@ Note that elements with fewer than five users are not shown.</p>
 <p>Only showing last three months of data. The CSV downloads above contain all data.</p>
 
 <table border="1">
-	<tr><th><a href="?kind=<?= $kind ?>&sort=month">Month</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Element</a></th><th><a href="?kind=<?= $kind ?>&sort=use">Use Count</a></th><th><a href="?kind=<?= $kind ?>&sort=users">User Count</a></th></tr>
+	<tr><th><a href="?kind=<?= $kind ?>&sort=month">Month</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Element</a></th><th><a href="?kind=<?= $kind ?>&sort=element">BundleId</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Bundle Version</a></th><th><a href="?kind=<?= $kind ?>&sort=use">Use Count</a></th><th><a href="?kind=<?= $kind ?>&sort=users">User Count</a></th></tr>
 	<?
 		foreach($items as $item) {
 			$useCount = number_format($item->useCount);
 			$userCount = number_format($item->userCount);
-			echo "<tr><td>$item->yearmonth</td><td>$item->element</td><td align=\"right\">$useCount</td><td align=\"right\">$userCount</td></tr>";
+			echo "<tr><td>$item->yearmonth</td><td>$item->element</td><td>$item->bundleId</td><td>$item->bundleVersion</td><td align=\"right\">$useCount</td><td align=\"right\">$userCount</td></tr>";
 		}
 	?>
 </table>	
