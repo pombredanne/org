@@ -12,8 +12,8 @@
 	#****************************************************************************
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Pulsar - Eclipse Mobile Tools Platform";
-	$pageKeywords	= "eclipse pulsar, mobile, working group";
+	$pageTitle 		= "SOA Initiative";
+	$pageKeywords	= "eclipse soa, soa, working group";
 	$pageAuthor		= "Eclipse Foundation, Inc.";
 	
 	# Add page-specific Nav bars here
