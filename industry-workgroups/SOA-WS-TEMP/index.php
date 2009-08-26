@@ -80,6 +80,23 @@
 		<div id="rightcolumn">
 
 			<div class="sideitem">
+				<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>
+				<div class="modal noBG">
+					<ul>
+						<li class=""> 
+						<a href="http://www.itemis.com/itemis-ag/language=en/2638/research" class="link">Research on Model Driven Software</a><br/>
+						<span class="posted">2009/08/30</span>
+						</li>
+						<li class=""> 
+						<a href="http://www.itemis.com/itemis-ag/language=en/2642/education-and-coaching" class="link">Education and Coaching</a><br/>
+						<span class="posted">2009/08/30</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<div class="sideitem">
 				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"/></a>
 				<div class="modal noBG">
 					<ul>
