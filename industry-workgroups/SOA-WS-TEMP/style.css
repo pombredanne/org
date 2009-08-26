@@ -6,9 +6,12 @@
 	margin-bottom:20px;
 }
 
+.homeitem { margin-top:10px; }
+
 .block {
 	float:left;
 	width:100%;
+	padding-left:15px
 }
 
 .block .image {
