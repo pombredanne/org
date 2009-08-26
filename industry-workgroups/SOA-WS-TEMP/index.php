@@ -40,7 +40,7 @@
 			<div class="homeitem">
 				<div class="block">
 					<div class="image">
-						<a href="quickinstall/"><img src="http://dev.eclipse.org/huge_icons/emblems/emblem-symbolic-link.png"/></a>
+						<a href="./gettingstarted.php"><img src="http://dev.eclipse.org/huge_icons/emblems/emblem-symbolic-link.png"/></a>
 					</div>
 					<div class="text">
 						<h4><a href="quickinstall/">Getting Started</a></h4>
