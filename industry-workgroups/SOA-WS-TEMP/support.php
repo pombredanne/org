@@ -30,18 +30,18 @@
 	<div id="midcolumn">
 
 
-			<h1>Looking for Pulsar Support?  </h1>
+
+
+			<h1>Looking for SOA Initiative Support?  </h1>
 			<h2>Try one of these discussion forums.</h2>
 			<ol>
-				<li>Questions Specific to Pulsar</li>
-				<p><a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.wg.pulsar">Pulsar Newsgroup</a></p>
-				<li>Questions specific to a particular SDK try the following discussion forums:<br/>
-					<ul>
-						<li><a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.ercp">Eclipse eRCP</a>
-						<li><a href="http://community.developer.motorola.com/mtrl/">MOTODEV Discussion Forum</a>
-						<li><a href="http://discussion.forum.nokia.com/forum/index.php">Nokia Forum Discussion Forum</a>
-					</ul>
-					</p>
+				<li>Questions Specific to SOA Initiative</li>
+				<p><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">SOA Initiative Mailing List</a></p>
+
+				<li>SOA Resources at Eclipse</li>
+				<p><a href="http://live.eclipse.org/search/node/SOA/">Webinars</a></p>
+
+
 			</ol>
 	</div>	
 

@@ -35,8 +35,8 @@
 				<img src='eclipsesoa.png'/>
 			</div>
 			<p class="description">
-			The Eclipse SOA Initiative defines, implements and promotes a common Equinox-based 
-			SOA platform including both design time and runtime components.</P>
+			Eclipse SOA Platform is a runtimes and tools integration platform for SOA developers. It makes easy 
+			to get the environment you need for developing and executing SOA.</P>
 			<div class="homeitem">
 				<div class="block">
 					<div class="image">
@@ -44,7 +44,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="quickinstall/">Getting Started</a></h4>
-						<p>Look here to get up to speed on the SOA Initiative</p> 
+						<p>How to choose, install and configure your package</p> 
 					</div>
 				</div>
 				<div class="block">
@@ -52,28 +52,31 @@
 						<a href=""><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="http://www.eclipse.org/downloads/packages/pulsar-mobile-java-developers/galileor">Download Pulsar</a></h4>
-						<p>Download the SOA Initative Package</p> 
+						<h4><a href="http://www.eclipse.org/downloads/packages/pulsar-mobile-java-developers/galileor">Download</a></h4>
+						<p>Download the package that suits your needs.</p> 
 					</div>
-				</div>					
+				</div>			
+						
 				<div class="block">
 					<div class="image">
-						<a href="http://live.eclipse.org"><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"/></a>
+						<a href="./participants.php"><img src="http://dev.eclipse.org/huge_icons/categories/applications-internet.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="http://live.eclipse.org/search/node/SOA/">Webinars</a></h4>
-						<p>Check out some Webinars</p> 
+						<h4><a href="./participants.php">SOA Initiative Participants</a></h4>
+						<p>More about the SOA Initiative Participants</p> 
 					</div>
 				</div>
+				
 				<div class="block">
 					<div class="image">
 						<a href=""><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="./support.php">SOA Initiative Support</a></h4>
-						<p>Looking for help with SOA?</p> 
+						<h4><a href="./support.php">Community, Support and Service</a></h4>
+						<p>Looking for help?  Want more?</p> 
 					</div>
 				</div>
+
 			
 			</div>
 		</div>
@@ -106,6 +109,23 @@
 						</li>
 						<li class=""> 
 						<a href="http://www.obeo.fr/pages/acceleo/en" class="link">Transforming Models</a><br/>
+						<span class="posted">2009/08/30</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+
+			<div class="sideitem">
+				<a href="http://web.progress.com/index.html"><img src="progress120.gif"/></a>
+				<div class="modal noBG">
+					<ul>
+						<li class=""> 
+						<a href="http://web.progress.com/products/products.html" class="link">Capabilities to Power your Progress</a><br/>
+						<span class="posted">2009/08/30</span>
+						</li>
+						<li class=""> 
+						<a href="http://web.progress.com/solutions/solutions.html" class="link">Business Event Processing</a><br/>
 						<span class="posted">2009/08/30</span>
 						</li>
 					</ul>
