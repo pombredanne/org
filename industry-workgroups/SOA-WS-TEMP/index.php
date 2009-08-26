@@ -61,7 +61,7 @@
 						<a href="http://live.eclipse.org"><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="http://live.eclipse.org/node/682">Webinars</a></h4>
+						<h4><a href="http://live.eclipse.org/search/node/SOA/">Webinars</a></h4>
 						<p>Check out some Webinars</p> 
 					</div>
 				</div>
@@ -105,7 +105,7 @@
 						<span class="posted">2009/08/30</span>
 						</li>
 						<li class=""> 
-						<a href="http://www.sopera.de/en/downloads/sopera-asf-32/ " class="link">Downloads</a><br/>
+						<a href="http://www.sopera.de/en/downloads/sopera-asf-32/ " class="link">Sopera Downloads</a><br/>
 						<span class="posted">2009/08/30</span>
 						</li>
 					</ul>
