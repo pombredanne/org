@@ -36,7 +36,7 @@ ob_start();
 <h3>Sponsors</h3>
 <p>
 	Thanks to the following companies for sponsoring the Strategy Summit:<br><br>
-	<img src="http://www.eclipse.org/membership/scripts/get_image.php?id=857&size=small">	
+	<img src="http://www.eclipse.org/artwork/images/eclipse_pos_logo_fc_sm.jpg">	
 </p>
 
 
@@ -52,7 +52,7 @@ ob_start();
 		</li>
 
 		<li><b>Title coming soon</b> &ndash;
-		Richard Seibt
+		Richard Seibt, Open Source Business Foundation
 		<br><br>
 		Abstract: Coming soon
 		</li>
@@ -70,7 +70,7 @@ ob_start();
 		</li>
 
 		<li><b>OSS Legal Issues</b> &ndash;
-		Martin Braun
+		Martin Braun, WilmerHale
 		<br><br>
 		Abstract: Coming soon
 		</li>
