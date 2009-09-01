@@ -70,12 +70,12 @@ ob_start();
 		</li>
 
 		<li><b>OSS Legal Issues</b> &ndash;
-		Markus Loeffler, McKinsey & Company
+		Martin Braun
 		<br><br>
 		Abstract: Coming soon
 		</li>
 
-		<li><b>OSS Legal Issues</b> &ndash;
+		<li><b>OSS Strategies</b> &ndash;
 		Markus Loeffler, McKinsey & Company
 		<br><br>
 		Abstract: Coming soon
