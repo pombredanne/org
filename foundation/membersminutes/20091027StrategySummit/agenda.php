@@ -73,13 +73,7 @@ ob_start();
 		scholarship to study in the United States. In 1996 he won a Carleton University Teaching Award and
 		in 2007 a Carleton University Leadership Breakthrough Award. 
 		</li>
-
-		<li><b>Title coming soon</b> &ndash;
-		Richard Seibt, Open Source Business Foundation
-		<br><br>
-		Abstract: Coming soon
-		</li>
-			
+		
 		<li><b>Title coming soon</b> &ndash;
 		Dr. Stephan Ferber, Robert Bosch GmbH
 		<br><br>
