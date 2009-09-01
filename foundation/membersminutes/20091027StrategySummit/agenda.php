@@ -45,10 +45,33 @@ ob_start();
 	The Summit agenda includes presentations and discussions. Featured speakers include:
 	<ol>
 
-		<li><b>OSS Maturity Model and Ecosystems</b> &ndash;
+		<li><b>Lessons Learned by Building Ecosystems Modeled on Eclipse</b> &ndash;
 		Tony Bailetti, Carleton University
 		<br><br>
-		Abstract: Coming soon
+		<b>Abstract:</b> The talk describes the key lessons learned from (i) designing the Coral CEA and Lead to
+		Win ecosystems and (ii) using the maturity model for company engagement with ecosystems anchored
+		around open source projects.  The objective of the Coral CEA ecosystem is to enable programmers to
+		easily embed communications-related web services into IT applications and commercialize innovative
+		applications globally.
+		<br><br>
+		The worldwide market for communications enabled applications in 2010 is
+		expected to be in the $1.6-$3.3 billion range. It has high potential for sustainable growth over
+		the long term. The Lead to Win ecosystem is designed to create jobs and retain talent in a
+		geographical region. The maturity model identifies the different ways a company can interact with
+		an ecosystem. The talk is most relevant to senior managers interested in benefitting from their
+		companies' interactions with open source projects.
+		<br><br>
+		<b>About Tony:</b> Dr. Tony Bailetti is the Director of Ontario's Talent First Network and the
+		Executive Director of Coral CEA. He founded Lead to Win in 2002 and was part of the faculty that
+		delivered the original program. Professor Bailetti holds a tenured faculty appointment in both the
+		Eric Sprott School of Business and the Department of Systems and Computer Engineering at Carleton
+		University. His teaching and research interests are in commercialization of new technology. He was
+		the Director of Carleton University's School of Business from 1981 to 1988 and worked at
+		Bell-Northern Research (today a part of Nortel) from 1988 to 1992. Professor Bailetti has
+		published in engineering management journals such as IEEE Transactions on Engineering Management,
+		Journal of Product Innovation Management, Research Policy, and R&D Management. He won a Fulbright
+		scholarship to study in the United States. In 1996 he won a Carleton University Teaching Award and
+		in 2007 a Carleton University Leadership Breakthrough Award. 
 		</li>
 
 		<li><b>Title coming soon</b> &ndash;
