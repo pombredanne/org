@@ -95,8 +95,8 @@ ob_start();
 		Group. He joined the firm in 2009. Dr. Braun specializes in outsourcing, information technology and
 		data protection law. He has advised both customers and vendors in business process outsourcing and
 		information technology projects. In the area of software licensing, Dr. Braun is well-known for his
-		expertise in open source software. Dr. Braun is a member of the German-American Lawyers’ Association
-		(DAJV), the German-Japanese Law Association, the German Lawyers’ Association (DAV),	the
+		expertise in open source software. Dr. Braun is a member of the German-American Lawyers' Association
+		(DAJV), the German-Japanese Law Association, the German Lawyers' Association (DAV),	the
 		International Technology Law Association (ITechLaw), the European Outsourcing Association Germany
 		e.V., the German Association for Data Protection and Data Security (GDD), the German Association
 		for Law and Information Technology (DGRI), the International Association for Contract and
@@ -109,9 +109,9 @@ ob_start();
 		Markus L&ouml;effler, McKinsey & Company
 		<br><br>
 		Abstract: Coming soon
-		
+		<br><br>
 		<b>About Markus:</b> Dr. Markus L&ouml;ffler is a Principal with McKinsey & Company, based in Stuttgart,
-		Germany. He co-leads the Business Technology Office’s global Technology Infrastructure practice
+		Germany. He co-leads the Business Technology Office's global Technology Infrastructure practice
 		and is a leader in the IT Architecture practice. He is a core team member of the newly established
 		McKinsey Technology Initiative (MTI). This is a multi-year effort to explore the impact of
 		technology on business and economy. Mr. L&ouml;ffler advises clients primarily in the industrial
