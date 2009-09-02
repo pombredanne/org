@@ -81,7 +81,7 @@ ob_start();
 		</li>
 
 		<li><b>Title coming soon</b> &ndash;
-		SAP
+		Harald Mueller, SAP
 		<br><br>
 		Abstract: Coming soon
 		</li>
@@ -90,12 +90,36 @@ ob_start();
 		Martin Braun, WilmerHale
 		<br><br>
 		Abstract: Coming soon
+		<br><br>
+		<b>About Martin:</b> Dr. Martin Braun is a counsel in tWilmerHale's German Corporate Practice
+		Group. He joined the firm in 2009. Dr. Braun specializes in outsourcing, information technology and
+		data protection law. He has advised both customers and vendors in business process outsourcing and
+		information technology projects. In the area of software licensing, Dr. Braun is well-known for his
+		expertise in open source software. Dr. Braun is a member of the German-American Lawyers’ Association
+		(DAJV), the German-Japanese Law Association, the German Lawyers’ Association (DAV),	the
+		International Technology Law Association (ITechLaw), the European Outsourcing Association Germany
+		e.V., the German Association for Data Protection and Data Security (GDD), the German Association
+		for Law and Information Technology (DGRI), the International Association for Contract and
+		Commercial Management (IACCM), the Frankfurter Juristische Gesellschaft and the Gesellschaft der
+		Freunde Universit&auml;t Heidelberg e.V. Dr. Braun is ranked as a recommended individual in the
+		area of Information Technology and Outsourcing (JUVE 2008/09, 2007/08 and 2006/07).
 		</li>
 
 		<li><b>OSS Strategies</b> &ndash;
-		Markus Loeffler, McKinsey & Company
+		Markus L&ouml;effler, McKinsey & Company
 		<br><br>
 		Abstract: Coming soon
+		
+		<b>About Markus:</b> Dr. Markus L&ouml;ffler is a Principal with McKinsey & Company, based in Stuttgart,
+		Germany. He co-leads the Business Technology Office’s global Technology Infrastructure practice
+		and is a leader in the IT Architecture practice. He is a core team member of the newly established
+		McKinsey Technology Initiative (MTI). This is a multi-year effort to explore the impact of
+		technology on business and economy. Mr. L&ouml;ffler advises clients primarily in the industrial
+		and high tech sectors. He focuses on technology-enabled business strategies, IT infrastructure and
+		architechture, and IT performance management. Mr. L&ouml;ffler has lead IT infrastructure
+		transformations for major users and providers of infrastructure. Before joining McKinsey, he was an
+		assistant at the Max-Planck-Institute for Quantum Optics, Germany. Mr. L&ouml;ffler has a doctorate
+		in physics.
 		</li>
 
 	</ol>
