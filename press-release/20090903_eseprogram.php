@@ -23,7 +23,7 @@
 		<h2>Community Bulletin</h2>
      	
       	<p>The Eclipse Foundation is pleased to announce the keynote speakers and technical program for the
-      	upcoming <a href="http://www.eclipsecon.org/summiteurope2009">Eclipse Summit Europe</a>
+      	upcoming <a href="http://www.eclipse.org/go/ESEweb@cbsep3">Eclipse Summit Europe</a>
       	(ESE) conference to be held October 27-29 in Ludwigsburg, Germany.
       	ESE is the annual Eclipse European community conference that features sessions, tutorials and
       	symposia on the latest Eclipse technologies.</p> 
@@ -34,13 +34,13 @@
 		Mr. Syme is the creator of the F# programming language. His keynote is titled "Taking Functional
 		Programming into the Mainstream".</p>
 		 		
- 		<p>The <a href="http://www.eclipsecon.org/summiteurope2009/sessions?">technical program</a>
+ 		<p>The <a href="http://www.eclipse.org/go/ESEprogram@cbsep3">technical program</a>
  		for Eclipse Summit Europe is now available. This year the program focuses
  		on five different tracks: 1) Runtime, 2) Modeling, 3) Embedded, 4) IDEs, and 5) Other New &amp;
  		Noteworthy. The program includes in-depth technical content from Eclipse experts and industry case
  		studies from Eclipse users.  Attendees can choose from 80 sessions in total.</p>
  		
- 		<p><a href="http://www.eclipsecon.org/summiteurope2009/registration/">Registration is now open</a>
+ 		<p><a href="http://www.eclipse.org/go/ESEregister@cbsep3">Registration is now open</a>
  		for Eclipse Summit Europe. Attendees are encouraged to register and
  		book hotel rooms as early as possible.</p>
  		
