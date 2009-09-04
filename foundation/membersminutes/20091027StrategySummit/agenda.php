@@ -86,23 +86,20 @@ ob_start();
 		Abstract: Coming soon
 		</li>
 
-		<li><b>OSS Legal Issues</b> &ndash;
+		<li><b>Open Source Software, the EPL and the Eclipse Ecosystem - Legal Aspects</b> &ndash;
 		Martin Braun, WilmerHale
 		<br><br>
-		Abstract: Coming soon
+		Abstract: In comparison with other open source licenses, the EPL has a number of special
+		characteristics. These characteristics make it particularly well-suited for the use in the
+		enterprise. The way the Eclipse Foundation operates, especially the IP review process, are
+		additional assets. The presentation will present the characteristics and legal aspects of the
+		Eclipse ecosystem and the EPL.
 		<br><br>
-		<b>About Martin:</b> Dr. Martin Braun is a counsel in WilmerHale's German Corporate Practice
-		Group. He joined the firm in 2009. Dr. Braun specializes in outsourcing, information technology and
-		data protection law. He has advised both customers and vendors in business process outsourcing and
-		information technology projects. In the area of software licensing, Dr. Braun is well-known for his
-		expertise in open source software. Dr. Braun is a member of the German-American Lawyers' Association
-		(DAJV), the German-Japanese Law Association, the German Lawyers' Association (DAV),	the
-		International Technology Law Association (ITechLaw), the European Outsourcing Association Germany
-		e.V., the German Association for Data Protection and Data Security (GDD), the German Association
-		for Law and Information Technology (DGRI), the International Association for Contract and
-		Commercial Management (IACCM), the Frankfurter Juristische Gesellschaft and the Gesellschaft der
-		Freunde Universit&auml;t Heidelberg e.V. Dr. Braun is ranked as a recommended individual in the
-		area of Information Technology and Outsourcing (JUVE 2008/09, 2007/08 and 2006/07).
+		<b>About Martin:</b> Dr. Martin Braun (<a href="mailto:martin.braun@wilmerhale.com">artin.braun@wilmerhale.com</a>)
+		is a lawyer in the Frankfurt office of the international law firm WilmerHale. His focus areas are
+		software, information technology, outsourcing, data protection and compliance. He has been
+		advising on all legal aspects of open source software for many years, where is is also regularly
+		speaking and writing.
 		</li>
 
 		<li><b>OSS Strategies</b> &ndash;
