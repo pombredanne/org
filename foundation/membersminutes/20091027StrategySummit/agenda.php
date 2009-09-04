@@ -91,7 +91,7 @@ ob_start();
 		<br><br>
 		Abstract: Coming soon
 		<br><br>
-		<b>About Martin:</b> Dr. Martin Braun is a counsel in tWilmerHale's German Corporate Practice
+		<b>About Martin:</b> Dr. Martin Braun is a counsel in WilmerHale's German Corporate Practice
 		Group. He joined the firm in 2009. Dr. Braun specializes in outsourcing, information technology and
 		data protection law. He has advised both customers and vendors in business process outsourcing and
 		information technology projects. In the area of software licensing, Dr. Braun is well-known for his
