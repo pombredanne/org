@@ -18,7 +18,7 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <div id="maincontent">
-	<div id="fullcolumn"
+	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
