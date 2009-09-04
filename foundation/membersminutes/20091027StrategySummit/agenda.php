@@ -80,10 +80,19 @@ ob_start();
 		Abstract: Coming soon
 		</li>
 
-		<li><b>Title coming soon</b> &ndash;
+		<li><b>Insights into Open Source Experiences and the SAP Internal Evolution of Open Source</b> &ndash;
 		Harald Mueller, SAP
 		<br><br>
-		Abstract: Coming soon
+		Abstract: This talk will give some insights into SAP and the internal evolution of open source and
+		open standards. Several open source use cases will be presented and compared with SAP proprietary
+		technologies. Furthermore, details on the SAP open source strategy and the engagement in open
+		source projects will be presented. 
+		<br><br>
+		About Harald:</b> Harald is head of the Java Server &amp; Infrastructure development team at SAP.
+		He is responsible for the Java EE Application Server and the Development Tools based on Eclipse.
+		SAP is one of the founding members of the Eclipse Foundation and started as a so-called
+		"Strategic Consumer". Since June 2009, SAP raised its membership level to "Strategic Developer",
+		meaning that SAP will have at least 8 developers assigned full time to the Eclipse project. 
 		</li>
 
 		<li><b>Open Source Software, the EPL and the Eclipse Ecosystem - Legal Aspects</b> &ndash;
