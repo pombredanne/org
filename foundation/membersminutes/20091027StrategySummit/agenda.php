@@ -114,7 +114,7 @@ ob_start();
 			Eclipse ecosystem and the EPL.
 		</p>
 		<p>
-			<b>About Martin:</b> Dr. Martin Braun (<a href="mailto:martin.braun@wilmerhale.com">artin.braun@wilmerhale.com</a>)
+			<b>About Martin:</b> Dr. Martin Braun (<a href="mailto:martin.braun@wilmerhale.com">martin.braun@wilmerhale.com</a>)
 			is a lawyer in the Frankfurt office of the international law firm WilmerHale. His focus areas are
 			software, information technology, outsourcing, data protection and compliance. He has been
 			advising on all legal aspects of open source software for many years, where is is also regularly
