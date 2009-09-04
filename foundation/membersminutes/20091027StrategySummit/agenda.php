@@ -62,6 +62,8 @@ ob_start();
 			an ecosystem. The talk is most relevant to senior managers interested in benefitting from their
 			companies' interactions with open source projects.
 		</p>
+		<div style="float: left; margin-left: 0em; margin-right: 1em;">
+		<img src="speakers/Tony_Bailetti.jpg" width="75" align="top" alt="Tony Bailetti" border="0"></div>
 		<p>
 			<b>About Tony:</b> Dr. Tony Bailetti is the Director of Ontario's Talent First Network and the
 			Executive Director of Coral CEA. He founded Lead to Win in 2002 and was part of the faculty that
@@ -95,6 +97,8 @@ ob_start();
 			technologies. Furthermore, details on the SAP open source strategy and the engagement in open
 			source projects will be presented. 
 		</p>
+		<div style="float: left; margin-left: 0em; margin-right: 1em;">
+		<img src="speakers/Harald_Mueller.jpg" width="75" align="top" alt="Harald Mueler" border="0"></div>
 		<p>
 			<b>About Harald:</b> Harald is head of the Java Server &amp; Infrastructure development team at SAP.
 			He is responsible for the Java EE Application Server and the Development Tools based on Eclipse.
@@ -113,12 +117,15 @@ ob_start();
 			additional assets. The presentation will present the characteristics and legal aspects of the
 			Eclipse ecosystem and the EPL.
 		</p>
+		<div style="float: left; margin-left: 0em; margin-right: 1em;">
+		<img src="speakers/Martin_Braun.jpg" width="75" align="top" alt="Martin Braun" border="0"></div>
 		<p>
 			<b>About Martin:</b> Dr. Martin Braun (<a href="mailto:martin.braun@wilmerhale.com">martin.braun@wilmerhale.com</a>)
 			is a lawyer in the Frankfurt office of the international law firm WilmerHale. His focus areas are
 			software, information technology, outsourcing, data protection and compliance. He has been
 			advising on all legal aspects of open source software for many years, where is is also regularly
 			speaking and writing.
+			<br><br>
 		</p>		
 		<p>
 			<b>5. Open Source Software Strategies</b> &ndash;
@@ -127,6 +134,8 @@ ob_start();
 		<p>
 			<b>Abstract:</b> Coming soon
 		</p>
+		<div style="float: left; margin-left: 0em; margin-right: 1em;">
+		<img src="speakers/Markus_Loeffler.jpg" width="75" align="top" alt="Markus Loeffler" border="0"></div>
 		<p>
 			<b>About Markus:</b> Dr. Markus L&ouml;ffler is a Principal with McKinsey & Company, based in Stuttgart,
 			Germany. He co-leads the Business Technology Office's global Technology Infrastructure practice
