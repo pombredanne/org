@@ -45,6 +45,7 @@ $pageAuthor		= "Lynn Gayowski";
 		<p>
 			Take advantage of this excellent learning opportunity and register for an Eclipse training
 			class today!
+		</p>
 	</div>
 		
 	<!-- remove the entire <div> tag to omit the right column!  -->
