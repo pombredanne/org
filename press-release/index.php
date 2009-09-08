@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20090908_training.php">Global Eclipse Training Series</a> - September 8, 2009</li>
 		<li><a href="20090903_eseprogram.php">Keynotes and Technical Program Announced for Eclipse Summit Europe 2009</a> - September 3, 2009</li>
 		<li><a href="20090806_e4cb.php">Join the e4 Feedback Contest & Webinars</a> - August 6, 2009</li>
 		<li><a href="20090731_e4alpha.php">Early Alpha Release of e4</a> - July 31, 2009</li>
