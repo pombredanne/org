@@ -62,6 +62,12 @@
 				<li>Abridged Minutes 
           			- <a href="boardminutes/2009_06_17-18_Minutes.php">June 17-18, 
           			2009 (html)</a><img src="../../images/new.gif" alt="new"></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2009_05_20_Minutes.php">May 20, 
+          			2009 (html)</a><img src="../../images/new.gif" alt="new"></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2009_04_15_Minutes.php">April 15, 
+          			2009 (html)</a><img src="../../images/new.gif" alt="new"></li>
 				<li>Abridged Minutes 
           			- <a href="boardminutes/2009_03_23_Minutes.php">March 23, 
           			2009 (html)</a></li>
