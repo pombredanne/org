@@ -18,7 +18,6 @@ $pageAuthor		= "Lynn Gayowski";
 # Paste your HTML content between the EOHTML markers!
 	$html = <<<EOHTML
 <div id="maincontent">
-	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
@@ -56,7 +55,6 @@ $pageAuthor		= "Lynn Gayowski";
 				<li><a href="/community/training/classes.php">Eclipse Training, Fall 2009</a></li>
 			</ul>
 		</div>
-	</div>
 	</div>
 </div>
 
