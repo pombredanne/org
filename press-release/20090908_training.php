@@ -43,8 +43,9 @@ $pageAuthor		= "Lynn Gayowski";
 			itemis, Obeo, The RCP Company, Soyatec and 	Weigle Wilczek.
 		</p>
 		<p>
-			Take advantage of this excellent learning opportunity and register for an Eclipse training
-			class today!
+			Take advantage of this excellent learning opportunity and
+			<a href="http://www.eclipse.org/community/training/classes.php">register</a> for an Eclipse
+			training class today!
 		</p>
 	</div>
 		
