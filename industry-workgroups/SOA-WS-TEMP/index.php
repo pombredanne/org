@@ -38,6 +38,19 @@
 			Eclipse SOA Platform is a runtimes and tools integration platform for SOA developers. It makes easy 
 			to get the environment you need for developing and executing SOA.</P>
 			<div class="homeitem">
+
+
+				<div class="block">
+					<div class="image">
+						<a href=""><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>
+					</div>
+					<div class="text">
+						<h4><a href="http://www.eclipse.org/downloads/">Download</a></h4>
+						<p>Download the package that suits your needs.</p> 
+					</div>
+				</div>	
+				
+
 				<div class="block">
 					<div class="image">
 						<a href="./gettingstarted.php"><img src="http://dev.eclipse.org/huge_icons/emblems/emblem-symbolic-link.png"/></a>
@@ -47,15 +60,7 @@
 						<p>How to choose, install and configure your package</p> 
 					</div>
 				</div>
-				<div class="block">
-					<div class="image">
-						<a href=""><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>
-					</div>
-					<div class="text">
-						<h4><a href="http://www.eclipse.org/downloads/">Download</a></h4>
-						<p>Download the package that suits your needs.</p> 
-					</div>
-				</div>			
+		
 						
 				<div class="block">
 					<div class="image">
@@ -81,72 +86,29 @@
 			</div>
 		</div>
 		<div id="rightcolumn">
-
+		<p class="description">Initiative Members</p>
+		
 			<div class="sideitem">
 				<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>
-				<div class="modal noBG">
-					<ul>
-						<li class=""> 
-						<a href="http://www.itemis.com/itemis-ag/language=en/2638/research" class="link">Research on Model Driven Software</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-						<li class=""> 
-						<a href="http://www.itemis.com/itemis-ag/language=en/2642/education-and-coaching" class="link">Education and Coaching</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-					</ul>
-				</div>
 			</div>
 			
 			
 			<div class="sideitem">
 				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"/></a>
-				<div class="modal noBG">
-					<ul>
-						<li class=""> 
-						<a href="http://www.obeo.fr/pages/mda-and-productivity/en" class="link">MDA and Productivity</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-						<li class=""> 
-						<a href="http://www.obeo.fr/pages/acceleo/en" class="link">Transforming Models</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-					</ul>
-				</div>
 			</div>
 			
 
 			<div class="sideitem">
 				<a href="http://web.progress.com/index.html"><img src="progress120.gif"/></a>
-				<div class="modal noBG">
-					<ul>
-						<li class=""> 
-						<a href="http://web.progress.com/products/products.html" class="link">Capabilities to Power your Progress</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-						<li class=""> 
-						<a href="http://web.progress.com/solutions/solutions.html" class="link">Business Event Processing</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-					</ul>
-				</div>
+			</div>
+
+			<div class="sideitem">
+				<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>
 			</div>
 			
 			
 			<div class="sideitem">
 				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"/></a>
-				<div class="modal noBG">
-					<ul>
-						<li class=""> 
-						<a href="http://www.sopera.de/en/community/eclipse-soa-initiative/" class="link">SOA at Eclipse</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-						<li class=""> 
-						<a href="http://www.sopera.de/en/downloads/sopera-asf-32/ " class="link">Sopera Downloads</a><br/>
-						<span class="posted">2009/08/30</span>
-						</li>
-					</ul>
-				</div>
 			</div>
 
 
