@@ -37,9 +37,9 @@
 			<p class="description">
 			Eclipse SOA Platform is a runtimes and tools integration platform for SOA developers. It makes easy 
 			to get the environment you need for developing and executing SOA.</P>
+
+
 			<div class="homeitem">
-
-
 				<div class="block">
 					<div class="image">
 						<a href=""><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>

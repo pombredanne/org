@@ -12,8 +12,7 @@
 
 .block {
 	float:left;
-	width:100%;
-	padding-left:75px
+	width:48%;
 }
 
 .block .image {
