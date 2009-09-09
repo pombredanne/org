@@ -29,7 +29,30 @@
 	?>	
 	<div id="midcolumn">
 
-	<h1>About the Eclipse SOA Initiative</h1>
+	<h1>Goals of the Eclipse SOA Initiative</h1>
+     	<p>The goal of the proposed Industry Working Group, to be called the "Eclipse SOA Initiative", will be to define, implement and promote a common 
+     	Equinox-based SOA platform including both 
+     	design time and runtime components. By adopting this platform the different vendor platforms achieve interoperability. The Eclipse SOA Initiative will be 
+     	the forum for collaboration between the industry players on the vendor and user side to define and deliver a common SOA platform, it will facilitate 
+     	collaboration between existing SOA-related Eclipse projects, and initiate new projects based on identified un-met requirements.
+     	</p>
+     	<p>
+     	The Eclipse SOA Initiative will focus on the following areas:
+     	<ol>
+     		<li>It will define and maintain requirements and a roadmap that defines a SOA platform and encourage broader participation from different solution providers. All requirements are evaluated with respect to the overarching goal of providing an interoperable SOA Platform. Requirements to integrate with technologies that are not part of the SOA Platform are considered out of scope by the SOA IWG.</li>
+			<li>It will define the technical requirements for an Eclipse package "Eclipse SOA" and specify the set of relevant Eclipse projects (so called "Eclipse SOA projects") to implement these requirements. The initial set of relevant projects is listed in the appendix. This set of Eclipse SOA projects will be revised on a regular basis.</li>
+			<li>It will collaborate with the Eclipse Packaging Project (EPP) to deliver an extensible Eclipse SOA package branded with a brand to be established (see 5.1.)</li>
+			<li>It will create a set of best practices and extension mechanisms that simplify the use of the Eclipse SOA platform by a wide range of application developers and SOA vendors through a common set of test suites, training materials and documentation. (That may belong into the new top-level project)</li>
+			<li>It will develop a consistent communication and promotion program to help raise the awareness of the Eclipse SOA platform in the software industry. </li>
+			 <li>It will define measurable criteria that allow interested parties outside the Eclipse SOA Initiative to benefit from their commitment to the Eclipse SOA platform. </li>
+		</ol>
+		</p>
+
+	<h1>The Eclipse SOA Initiative Charter</h1>
+	<ol>
+	<li><a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">The Eclipse SOA Initiative Proposal.</a></li>
+	</ol>
+
 
 
 
