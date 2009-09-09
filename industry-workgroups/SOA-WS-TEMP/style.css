@@ -1,5 +1,7 @@
 @CHARSET "ISO-8859-1";
 
+#header { display:none }
+
 #banner {
 	text-align:center;
 	width:100%;
