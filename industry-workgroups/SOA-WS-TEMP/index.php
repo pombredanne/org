@@ -89,7 +89,7 @@
 		
 		
 		<div id="rightcolumn">
-		<p>Initiative Members</p>
+		<p><h2>Initiative Members<h2></p>
 		
 			<div class="sideitem">
 				<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>

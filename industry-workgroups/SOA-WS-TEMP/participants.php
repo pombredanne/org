@@ -29,8 +29,11 @@
 	?>	
 	<div id="midcolumn">
 
+	<h1>About the Eclipse SOA Initiative</h1>
 
-	<h1>Learn more about the Eclipse SOA Initiative Participants</h1>
+
+
+	<h1>About the Eclipse SOA Initiative Participants</h1>
 
 <h2>Steering Committee Participants</h2>
 <p>

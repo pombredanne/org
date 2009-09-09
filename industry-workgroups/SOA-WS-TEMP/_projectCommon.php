@@ -12,8 +12,9 @@
 	# these are optional
 	$Nav->setLinkList( array() );
 	$Nav->addNavSeparator("SOA Initiative", "/industry-workgroups/SOA-WS-TEMP/");
+	$Nav->addCustomNav("Home", "/industry-workgroups/SOA-WS-TEMP/", "_self", 1);
 	$Nav->addCustomNav("Getting Started", "/industry-workgroups/SOA-WS-TEMP/quickinstall", "_self", 1);
 	$Nav->addCustomNav("Download SOA Initiative Package", "http://www.eclipse.org/downloads/", "_self", 1);
-	$Nav->addCustomNav("Webinars", "http://live.eclipse.org/", "_self", 1);
-	$Nav->addCustomNav("Support", "", "_self", 1);
+	$Nav->addCustomNav("About the Consortium", "/participants.php", "_self", 1);
+	$Nav->addCustomNav("Community and Support", "", "_self", 1);
 ?>
