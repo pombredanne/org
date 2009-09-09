@@ -67,8 +67,8 @@
 						<a href="./participants.php"><img src="http://dev.eclipse.org/huge_icons/categories/applications-internet.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="./participants.php">SOA Initiative Participants</a></h4>
-						<p>More about the SOA Initiative Participants</p> 
+						<h4><a href="./participants.php">SOA Initiative Consortium</a></h4>
+						<p>More about the SOA Initiative and the Participants</p> 
 					</div>
 				</div>
 				
