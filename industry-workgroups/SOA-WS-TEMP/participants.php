@@ -49,9 +49,7 @@
 		</p>
 
 	<h1>The Eclipse SOA Initiative Charter</h1>
-	<ol>
-	<li><a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">The Eclipse SOA Initiative Proposal.</a></li>
-	</ol>
+	<a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">The Eclipse SOA Initiative Proposal.</a>
 
 
 
