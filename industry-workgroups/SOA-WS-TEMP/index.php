@@ -99,10 +99,6 @@
 			
 
 			<div class="sideitem">
-				<a href="http://web.progress.com/index.html"><img src="progress120.gif"/></a>
-			</div>
-
-			<div class="sideitem">
 				<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>
 			</div>
 			

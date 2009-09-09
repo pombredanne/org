@@ -44,11 +44,6 @@ itemis AG is an independent IT consulting company supporting its customers in pl
 	OBEO We bring to our customers efficiency and improved productivity in software development. Acceleo (OpenSource MDA code generator : http://www.acceleo.org) and Obeo agility, our Application Lifecycle Management solutions, are fully based on eclipse and EMF environments, covering design, development, maintenance and re-engineering phases. Obeo is involved in several Eclipse projects (Eclipse modeling, Eclipse STP) and is leader of the EMF Compare project (http://www.eclipse.org/emft/projects/compare/).
 </p>
 
-<p>		
-				<a href="http://web.progress.com/index.html"><img src="progress120.gif"/></a>
-Progress Software Corporation (NASDAQ: PRGS) provides application infrastructure software for the development, deployment, integration and management of business applications. We strive to increase your business’ effectiveness by offering you the most effective and open set of infrastructure products possible.
-</p>
-
 
 <p>		
 				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"/></a>
@@ -56,8 +51,9 @@ Sopera GmbH is a service provider dedicated solely to the SOA strategy. The mana
 </p>
 
 <h2>Member Participants</h2>
-<p>SoftwareAG (PLACEHOLDER)</p>
-
+<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>
+Software AG is a global leader in mission-critical software infrastructure and advanced Service-Oriented Architecture 
+(SOA) solutions.</p></p>
 
 	</div>	
 
