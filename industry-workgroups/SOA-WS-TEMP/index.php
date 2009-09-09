@@ -46,7 +46,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="http://www.eclipse.org/downloads/">Download</a></h4>
-						<p>Download the package that suits your needs.</p> 
+						<p>Download the SOA IWG Package</p> 
 					</div>
 				</div>	
 				
@@ -57,7 +57,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="quickinstall/">Getting Started</a></h4>
-						<p>How to choose, install and configure your package</p> 
+						<p>Quick install instructions</p> 
 					</div>
 				</div>
 		
@@ -68,7 +68,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="./participants.php">SOA Initiative Consortium</a></h4>
-						<p>More about the SOA Initiative and the Participants</p> 
+						<p>About the SOA Initiative and Participants</p> 
 					</div>
 				</div>
 				
