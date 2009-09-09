@@ -38,7 +38,7 @@ $pageAuthor		= "Lynn Gayowski";
 			the schedule</a> for a complete list of courses and course descriptions.	
 		</p>
 		<p>
-			Eclipse members participating in the training series are ANCIT Consulting, AvantSoft
+			Eclipse members participating in the training series are AvantSoft
 			(Eclipse University), EclipseSource, Gerhardt Informatics, Industrial TSI,
 			itemis, Obeo, The RCP Company, Soyatec and 	Weigle Wilczek.
 		</p>
