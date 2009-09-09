@@ -85,8 +85,11 @@
 			
 			</div>
 		</div>
+		
+		
+		
 		<div id="rightcolumn">
-		<p class="description">Initiative Members</p>
+		<p>Initiative Members</p>
 		
 			<div class="sideitem">
 				<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>
