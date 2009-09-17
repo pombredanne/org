@@ -23,9 +23,16 @@
 
 	# End: page-specific settings
 	#
-	include('newsfeeds.php');
-	$sopera =  rss_to_small_news_html("sopera.rss", 2);	
-	# Place your html content in a file called content/en_pagename.php
+	
+	$participants = array (
+		'<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>',
+		'<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"/></a>',
+		'<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>',
+		'<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"/></a>'
+		); 
+		
+	shuffle($participants); 
+
 	ob_start();
 	?>	
 	<div id="fullcolumn" class="galileo">
@@ -90,27 +97,15 @@
 		
 		<div id="rightcolumn">
 		<p><h2>Initiative Members<h2></p>
-		
-			<div class="sideitem">
-				<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>
-			</div>
-			
-			
-			<div class="sideitem">
-				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"/></a>
-			</div>
-			
+<?
+	foreach ($participants as $p) {
+		echo '<div class="sideitem">';
+			echo $p; 
+		echo '</div>';
+	}
 
-			<div class="sideitem">
-				<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>
-			</div>
-			
-			
-			<div class="sideitem">
-				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"/></a>
-			</div>
-
-
+?>
+	
 
 		</div>	
 	</div>
