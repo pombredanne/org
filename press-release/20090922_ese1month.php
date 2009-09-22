@@ -35,7 +35,7 @@
  		morning.  You can check out details on these activities at the
  		<a href="http://www.eclipsecon.org/summiteurope2009/extras/">Extras page</a>.</p>
  		
- 		<p><a href="http://www.eclipse.org/go/ESEregister@cbsep3">Register</a> for Eclipse Summit Europe
+ 		<p><a href="http://www.eclipse.org/go/ESEregister@cbsep22">Register</a> for Eclipse Summit Europe
  		today!  Members of the Eclipse Foundation, committers and
       	conference alumni will receive a 15% discount off the full registration price.</p>
  		
