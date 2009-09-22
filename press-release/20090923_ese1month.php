@@ -23,9 +23,8 @@
 		<h2>Community Bulletin</h2>
      	
       	<p><a href="http://www.eclipse.org/go/ESEweb@cbsep22">Eclipse Summit Europe</a> (ESE) starts soon
-      	in Ludwigsburg, Germany on October 27. If you or your colleagues are planning to attend, now is a
-      	good time to register and book your hotel room. Members of the Eclipse Foundation, committers and
-      	conference alumni will receive a 15% discount off the full registration price.</p> 
+      	in Ludwigsburg, Germany on October 27. Now is a good time to register and book your hotel room if
+      	you would like to attend.</p> 
 				
  		<p>The conference program is full of technical sessions, business talks and networking opportunities.
  		The tutorial &amp; symposia day on October 27 is followed by 2 conference days on October 28-29.
@@ -37,7 +36,8 @@
  		<a href="http://www.eclipsecon.org/summiteurope2009/extras/">Extras page</a>.</p>
  		
  		<p><a href="http://www.eclipse.org/go/ESEregister@cbsep3">Register</a> for Eclipse Summit Europe
- 		today!</p>
+ 		today!  Members of the Eclipse Foundation, committers and
+      	conference alumni will receive a 15% discount off the full registration price.</p>
  		
  	</div>
 	
