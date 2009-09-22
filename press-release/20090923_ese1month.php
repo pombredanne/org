@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Register Today for Eclipse Summit Europe 2009";
+	$pageTitle 		= "Eclipse Summit Europe Starts in 1 Month - Register Today";
 	$pageKeywords	= "eclipse, summit, europe, program, register";
 	$pageAuthor		= "Lynn Gayowski";
 	
@@ -24,15 +24,17 @@
      	
       	<p><a href="http://www.eclipse.org/go/ESEweb@cbsep22">Eclipse Summit Europe</a> (ESE) starts soon
       	in Ludwigsburg, Germany on October 27. Now is a good time to register and book your hotel room if
-      	you would like to attend.</p> 
+      	you would like to attend, as it's just 1 month away.</p> 
 				
  		<p>The conference program is full of technical sessions, business talks and networking opportunities.
  		The tutorial &amp; symposia day on October 27 is followed by 2 conference days on October 28-29.
  		There are over 80 sessions scheduled, including updates from Eclipse projects, business talks,
- 		industry experience reports and more. Several new conference "extras" have been planned, to give
+ 		industry experience reports and more.</p>
+
+ 		<p>Several new conference "extras" have been planned, to give
  		you a chance to meet informally with members of the community.  Microsoft is sponsoring a Library
- 		Caf&eacute; Instantations is hosting a poster reception and exercise sessions will take place each
- 		morning.  You can check out details on these activities at the
+ 		Caf&eacute;, Instantations is hosting a poster reception and exercise sessions will take place each
+ 		morning.  You can check out details about these activities on the
  		<a href="http://www.eclipsecon.org/summiteurope2009/extras/">Extras page</a>.</p>
  		
  		<p><a href="http://www.eclipse.org/go/ESEregister@cbsep3">Register</a> for Eclipse Summit Europe
