@@ -49,7 +49,7 @@
 			<div class="homeitem">
 				<div class="block">
 					<div class="image">
-						<a href=""><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>
+						<a href="./download.php"><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>
 					</div>
 					<div class="text">
 						<h4><a href="./download.php">Download</a></h4>
@@ -81,7 +81,7 @@
 				
 				<div class="block">
 					<div class="image">
-						<a href=""><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png"/></a>
+						<a href="./community.php"><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png"/></a>
 					</div>
 					<div class="text">
 						<h4><a href="./community.php">Community, Support and Service</a></h4>
