@@ -29,12 +29,7 @@
 	?>	
 	<div id="midcolumn">
 
-	<h1>Road Map </h1>
-	<p>Full details of the roadmap can be found at 
-	<a href="./roadmap/roadmap0.5.pdf" target="_new">Road Map 0.5 (September 3, 2009)</a>(PDF).  A 
-	snapshot of the roadmap can be found by clicking the image below.
-		<a href="./roadmap/roadmap0.5.png"><img src="./roadmap/roadmap0.5THUMB.png" ></a> 
-	</p>
+
 	<h1>Free Community Services</h1>
 	<p>Below are a list of places where users can learn more and provide feedback on the Eclipse SOA Package.
 	Users are also encouraged to provide feedback and interact with specific projects related to the 
@@ -62,7 +57,6 @@
 				</ul>	
 			</td>
 		</tr>
-
 		<tr>
 			<td valign='top'> <img src='./logos/obeo120.png' align='left' /> </td>
 			<td valign='top'> <b>OBEO</b><br />
@@ -72,10 +66,15 @@
 					
 				</ul>	
 			</td>
-		</tr>
-		
-		
+		</tr>		
 	</table>
+	</p>
+
+	<h1>Road Map </h1>
+	<p>Full details of the roadmap can be found at 
+	<a href="./roadmap/roadmap0.5.pdf" target="_new">Road Map 0.5 (September 3, 2009)</a>(PDF).  A 
+	snapshot of the roadmap can be found by clicking the image below.
+		<a href="./roadmap/roadmap0.5.png"><img src="./roadmap/roadmap0.5THUMB.png" ></a> 
 	</p>
 
 	</div>	
