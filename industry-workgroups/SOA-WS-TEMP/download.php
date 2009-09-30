@@ -60,7 +60,7 @@
 
 			<tr class='tableData'>
 				<td valign='top'><a href='http://eclipse.org/go/DISTRO_OBEO_GALILEO@IWGPAGE'>
-				<img class='distrologo' src='/downloads/distros/images/obeo64x64.png' align='left' /></a>
+				<img class='distrologo' src='/downloads/distros/images/obeo.png' align='left' /></a>
 				</td><td valign='top'><a href='http://eclipse.org/go/DISTRO_OBEO_GALILEO@IWGPAGE'>
 				<b>OBEO</b></a><br />Dedicated to modeling, providing base framework, editors, graphical 
 				modelers, model to model transformation and code generation for Eclipse.</td>
