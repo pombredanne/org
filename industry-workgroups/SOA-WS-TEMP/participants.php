@@ -44,7 +44,7 @@
 			<li>It will collaborate with the Eclipse Packaging Project (EPP) to deliver an extensible Eclipse SOA package branded with a brand to be established (see 5.1.)</li>
 			<li>It will create a set of best practices and extension mechanisms that simplify the use of the Eclipse SOA platform by a wide range of application developers and SOA vendors through a common set of test suites, training materials and documentation. (That may belong into the new top-level project)</li>
 			<li>It will develop a consistent communication and promotion program to help raise the awareness of the Eclipse SOA platform in the software industry. </li>
-			 <li>It will define measurable criteria that allow interested parties outside the Eclipse SOA Initiative to benefit from their commitment to the Eclipse SOA platform. </li>
+			<li>It will define measurable criteria that allow interested parties outside the Eclipse SOA Initiative to benefit from their commitment to the Eclipse SOA platform. </li>
 		</ol>
 		</p>
 
@@ -58,24 +58,24 @@
 
 <h2>Steering Committee Participants</h2>
 <p>
-				<a href="http://www.itemis.com/"><img src="itemis120.png" align="left" style="padding:6px;"/></a>
+				<a href="http://www.itemis.com/"><img src="itemis120.png" align="left" style="padding:8px;"/></a>
 itemis AG is an independent IT consulting company supporting its customers in planning, realizing and implementing of business solutions. Specializing in model driven technologies since its inception in 2003, itemis is one of the driving forces behind the well-known openArchitectureWare project and the Eclipse Modeling Project. Our team of software architects and engineers delivers leading-edge services and technologies for Eclipse and Eclipse-based modeling solutions.	
 </p>		
 	
 
 <p>		
-				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png" align="left"  style="padding:6px;"/></a>
+				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png" align="left"  style="padding:8px;"/></a>
 	OBEO We bring to our customers efficiency and improved productivity in software development. Acceleo (OpenSource MDA code generator : http://www.acceleo.org) and Obeo agility, our Application Lifecycle Management solutions, are fully based on eclipse and EMF environments, covering design, development, maintenance and re-engineering phases. Obeo is involved in several Eclipse projects (Eclipse modeling, Eclipse STP) and is leader of the EMF Compare project (http://www.eclipse.org/emft/projects/compare/).
 </p>
 
 
 <p>		
-				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif" align="left" style="padding:6px;"/></a>
+				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif" align="left" style="padding:8px;"/></a>
 Sopera GmbH is a service provider dedicated solely to the SOA strategy. The managing director of the Bonn-based IT company is Dr. Ricco Deutscher, former McKinsey technology expert and experienced software company founder. The company emerged from an SOA development unit attached to Deutsche Post, the latter having begun work on a service-oriented platform (SOP) as early as 2000. Founded in March 2007 and now independent of Deutsche Post, Sopera GmbH continues to work in close partnership with the logistics player. Focus of operations is the ongoing joint development of the SOA framework SOPERA. This software was created by an in-house development team at Deutsche Post and relies on open standards and modular components.
 </p>
 
 <h2>Member Participants</h2>
-<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png" align="left" style="padding:6px;"/></a>
+<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png" align="left" style="padding:8px;"/></a>
 Software AG is a global leader in mission-critical software infrastructure and advanced Service-Oriented Architecture 
 (SOA) solutions.</p></p>
 
