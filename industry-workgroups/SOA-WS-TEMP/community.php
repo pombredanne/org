@@ -30,6 +30,11 @@
 	<div id="midcolumn">
 
 	<h1>Road Map </h1>
+	<ul>
+		<li><a href="./roadmap/roadmap0.5.pdf" target="_new">Road Map 0.5 (September 3, 2009)</a> (PDF)</li>
+		<li><a href="./roadmap/roadmap0.5.png"><img src="./roadmap/roadmap0.5THUMB.png" align="left"></a>Click image for full size.</li>
+		
+	</ul>
 
 	<h1>Free Community Services</h1>
 		<ul>
