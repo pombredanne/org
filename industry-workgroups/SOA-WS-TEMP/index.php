@@ -63,7 +63,7 @@
 						<a href="./gettingstarted.php"><img src="http://dev.eclipse.org/huge_icons/emblems/emblem-symbolic-link.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="quickinstall/">Getting Started</a></h4>
+						<h4><a href="./gettingstarted.php">Getting Started</a></h4>
 						<p>Quick install instructions</p> 
 					</div>
 				</div>
