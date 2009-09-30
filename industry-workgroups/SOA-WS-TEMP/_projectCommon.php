@@ -14,7 +14,7 @@
 	$Nav->addNavSeparator("SOA Initiative", "/industry-workgroups/SOA-WS-TEMP/");
 	$Nav->addCustomNav("Home", "/industry-workgroups/SOA-WS-TEMP/", "_self", 1);
 	$Nav->addCustomNav("Getting Started", "/industry-workgroups/SOA-WS-TEMP/quickinstall", "_self", 1);
-	$Nav->addCustomNav("Download SOA", "http://www.eclipse.org/downloads/", "_self", 1);
+	$Nav->addCustomNav("Download SOA Pkg", "http://www.eclipse.org/downloads/", "_self", 1);
 	$Nav->addCustomNav("Consortium", "/participants.php", "_self", 1);
 	$Nav->addCustomNav("Community&Support", "", "_self", 1);
 ?>
