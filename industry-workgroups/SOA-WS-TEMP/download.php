@@ -34,7 +34,10 @@
 	
 
 			<h1>Download the Eclipse SOA Platform</h1>
-			<h2>Download from Eclipse.org</h2>
+			<p>Choose from a package hosted at Eclipse.org, one of our participating member distros, or from a 
+			a customized package including additional software from one of the working group participants.</p>
+			
+			<h2>Download from eclipse.org</h2>
 			<p><a href="http://www.eclipse.org/downloads/packages/eclipse-soa-platform-java-and-soa-developers/galileosr1">
 			
 			<img src="/downloads/images/soa.jpg" align="left" style="padding:8px;"> 
@@ -42,9 +45,6 @@
 			<br>Eclipse SOA Platform is a runtimes and tools integration platform for SOA developers. It makes 
 			easy to get the environment you need for developing and executing SOA. It includes a Java IDE, 
 			Swordfish Tooling, the Plugin Development Environment (PDE), an XML Editor and a WSDL Editor.</p>
-
-			<h2>Customized Packages from Working Group Participants</h2>
-			<p> COMING SOON! </p>
 
 			<h2>Get it faster from a Member Distros</h2>
 			<p>  
@@ -57,8 +57,10 @@
 		<b>SOPERA</b></a><br />Fast and free download of Eclipse Galileo powered by SOPERA, Specialist 
 		for Eclipse-based SOA Solutions.</td></tr>
 		</table>
-			
 			</p>
+
+			<h2>Customized Packages from Working Group Participants</h2>
+			<p> COMING SOON! </p>
 
 	</div>	
 
