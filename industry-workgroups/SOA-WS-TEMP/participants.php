@@ -49,7 +49,7 @@
 		</p>
 
 	<h1>The Eclipse SOA Initiative Charter</h1>
-	<a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">The Eclipse SOA Initiative Proposal.</a>
+	<p> <a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">The Eclipse SOA Initiative Proposal.</a> </p>
 
 
 
@@ -58,7 +58,7 @@
 
 <h2>Steering Committee Participants</h2>
 <p>
-				<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>
+				<a href="http://www.itemis.com/"><img src="itemis120.png" align="left" hspace="6"/></a>
 itemis AG is an independent IT consulting company supporting its customers in planning, realizing and implementing of business solutions. Specializing in model driven technologies since its inception in 2003, itemis is one of the driving forces behind the well-known openArchitectureWare project and the Eclipse Modeling Project. Our team of software architects and engineers delivers leading-edge services and technologies for Eclipse and Eclipse-based modeling solutions.	
 </p>		
 	
