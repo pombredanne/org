@@ -39,7 +39,7 @@ $pageAuthor		= "Lynn Gayowski";
 		</p>
 		<p>
 			Eclipse members participating in the training series are AvantSoft
-			(Eclipse University), EclipseSource, Gerhardt Informatics, Industrial TSI,
+			(Eclipse University), EclipseSource, eteration, Gerhardt Informatics, Industrial TSI,
 			itemis, Obeo, The RCP Company, Soyatec and 	Weigle Wilczek.
 		</p>
 		<p>
