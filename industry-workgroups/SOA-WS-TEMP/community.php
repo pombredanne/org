@@ -30,19 +30,22 @@
 	<div id="midcolumn">
 
 	<h1>Road Map </h1>
-	Full details of the roadmap can be found at 
-	<a href="./roadmap/roadmap0.5.pdf" target="_new">Road Map 0.5 (September 3, 2009)</a>(PDF).
-	<a href="./roadmap/roadmap0.5.png"><img src="./roadmap/roadmap0.5THUMB.png" align="left"></a>  Click image for full size.
-
+	<p>Full details of the roadmap can be found at 
+	<a href="./roadmap/roadmap0.5.pdf" target="_new">Road Map 0.5 (September 3, 2009)</a>(PDF).  A 
+	snapshop of the roadmap can be found by clicking the image below.
+		<a href="./roadmap/roadmap0.5.png"><img src="./roadmap/roadmap0.5THUMB.png" ></a> 
+	</p>
 	<h1>Free Community Services</h1>
+	<p>
 		<ul>
 		<li><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP&component=soa-package">Report a Bug</a></li>
-		<li>a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">Join Working Group Mail List</a></li>
-		<li>a href="http://dev.eclipse.org/mhonarc/lists/soa-iwg">View Mail List Arvhices</a></li>
+		<li><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">Join Working Group Mail List</a></li>
+		<li><a href="http://dev.eclipse.org/mhonarc/lists/soa-iwg">View Mail List Arvhices</a></li>
 		</ul>
+	</p>
 	
 	<h1>Commercial Services</h1>
-
+	<p>
 	<table>
 		<tr>
 			<td valign='top'> <img src='./sopera120.gif' align='left' /> </td>
@@ -56,7 +59,7 @@
 		</tr>
 		
 	</table>
-
+	</p>
 
 	</div>	
 
