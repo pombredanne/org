@@ -25,10 +25,10 @@
 	#
 	
 	$participants = array (
-		'<a href="http://www.itemis.com/"><img src="itemis120.png"/></a>',
-		'<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"/></a>',
-		'<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>',
-		'<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"/></a>'
+		'<a href="http://www.itemis.com/"><img src="./logos/itemis120.png"/></a>',
+		'<a href="http://www.obeo.fr/index.php?lang=en"><img src="./logos/obeo120.png"/></a>',
+		'<a href="http://www.softwareag.com/corporate/default.asp"><img src="./logos/softwareag120.png"/></a>',
+		'<a href="http://www.sopera.de/en/home/"><img src="./logos/sopera120.gif"/></a>'
 		); 
 		
 	shuffle($participants); 
