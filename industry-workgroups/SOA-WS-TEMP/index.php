@@ -99,7 +99,7 @@
 		<p><h2>Initiative Members<h2></p>
 <?
 	foreach ($participants as $p) {
-		echo '<div class="sideitem">';
+		echo '<div class="sideitem" style="text-align:center;">';
 			echo $p; 
 		echo '</div>';
 	}
