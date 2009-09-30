@@ -46,16 +46,27 @@
 			easy to get the environment you need for developing and executing SOA. It includes a Java IDE, 
 			Swordfish Tooling, the Plugin Development Environment (PDE), an XML Editor and a WSDL Editor.</p>
 
-			<h2>Get it faster from a Member Distros</h2>
+			<h2>Get it faster from a Member Distro</h2>
 			<p>  
 
 		<table class="contentTable">
-		<tr class='tableData'>
-		<td valign='top'><a href='http://eclipse.org/go/DISTRO_SOPERA_GALILEO@IWGPAGE'>
-		<img class='distrologo' src='/downloads/distros/images/sopera64x64.png' align='left' /></a>
-		</td><td valign='top'><a href='http://eclipse.org/go/DISTRO_SOPERA_GALILEO@IWGPAGE'>
-		<b>SOPERA</b></a><br />Fast and free download of Eclipse Galileo powered by SOPERA, Specialist 
-		for Eclipse-based SOA Solutions.</td></tr>
+			<tr class='tableData'>
+				<td valign='top'><a href='http://eclipse.org/go/DISTRO_SOPERA_GALILEO@IWGPAGE'>
+				<img class='distrologo' src='/downloads/distros/images/sopera64x64.png' align='left' /></a>
+				</td><td valign='top'><a href='http://eclipse.org/go/DISTRO_SOPERA_GALILEO@IWGPAGE'>
+				<b>SOPERA</b></a><br />Fast and free download of Eclipse Galileo powered by SOPERA, Specialist 
+				for Eclipse-based SOA Solutions.</td>
+			</tr>
+
+			<tr class='tableData'>
+				<td valign='top'><a href='http://eclipse.org/go/DISTRO_OBEO_GALILEO@IWGPAGE'>
+				<img class='distrologo' src='/downloads/distros/images/obeo64x64.png' align='left' /></a>
+				</td><td valign='top'><a href='http://eclipse.org/go/DISTRO_OBEO_GALILEO@IWGPAGE'>
+				<b>OBEO</b></a><br />Dedicated to modeling, providing base framework, editors, graphical 
+				modelers, model to model transformation and code generation for Eclipse.</td>
+			</tr>
+
+
 		</table>
 			</p>
 
