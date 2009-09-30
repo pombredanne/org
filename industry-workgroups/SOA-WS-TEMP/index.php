@@ -95,7 +95,7 @@
 		
 		
 		
-		<div id="rightcolumn" style="text-align:left;">
+		<div id="rightcolumn" style="text-align:center;">
 		<p><h2>Initiative Members<h2></p>
 <?
 	foreach ($participants as $p) {
