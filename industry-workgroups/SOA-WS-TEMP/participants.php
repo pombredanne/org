@@ -58,24 +58,24 @@
 
 <h2>Steering Committee Participants</h2>
 <p>
-				<a href="http://www.itemis.com/"><img src="itemis120.png" align="left" hspace="6"/></a>
+				<a href="http://www.itemis.com/"><img src="itemis120.png" align="left" hspace="6" vspace="6"/></a>
 itemis AG is an independent IT consulting company supporting its customers in planning, realizing and implementing of business solutions. Specializing in model driven technologies since its inception in 2003, itemis is one of the driving forces behind the well-known openArchitectureWare project and the Eclipse Modeling Project. Our team of software architects and engineers delivers leading-edge services and technologies for Eclipse and Eclipse-based modeling solutions.	
 </p>		
 	
 
 <p>		
-				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"/></a>
+				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png"  align="left" hspace="6" vspace="6"/></a>
 	OBEO We bring to our customers efficiency and improved productivity in software development. Acceleo (OpenSource MDA code generator : http://www.acceleo.org) and Obeo agility, our Application Lifecycle Management solutions, are fully based on eclipse and EMF environments, covering design, development, maintenance and re-engineering phases. Obeo is involved in several Eclipse projects (Eclipse modeling, Eclipse STP) and is leader of the EMF Compare project (http://www.eclipse.org/emft/projects/compare/).
 </p>
 
 
 <p>		
-				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"/></a>
+				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif"  align="left" hspace="6" vspace="6"/></a>
 Sopera GmbH is a service provider dedicated solely to the SOA strategy. The managing director of the Bonn-based IT company is Dr. Ricco Deutscher, former McKinsey technology expert and experienced software company founder. The company emerged from an SOA development unit attached to Deutsche Post, the latter having begun work on a service-oriented platform (SOP) as early as 2000. Founded in March 2007 and now independent of Deutsche Post, Sopera GmbH continues to work in close partnership with the logistics player. Focus of operations is the ongoing joint development of the SOA framework SOPERA. This software was created by an in-house development team at Deutsche Post and relies on open standards and modular components.
 </p>
 
 <h2>Member Participants</h2>
-<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png"/></a>
+<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png" align="left" hspace="6" vspace="6"/></a>
 Software AG is a global leader in mission-critical software infrastructure and advanced Service-Oriented Architecture 
 (SOA) solutions.</p></p>
 
