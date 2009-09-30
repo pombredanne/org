@@ -43,7 +43,7 @@
 			<img src="/downloads/images/soa.jpg" align="left" style="padding:12px;"> 
 			Eclipse SOA Platform for Java and SOA Developers (137 MB)</a>  
 			<br>Eclipse SOA Platform is a runtimes and tools integration platform for SOA developers. It makes 
-			easy to get the environment you need for developing and executing SOA. It includes a Java IDE, 
+			it easy to get the environment you need for developing and executing SOA. It includes a Java IDE, 
 			Swordfish Tooling, the Plugin Development Environment (PDE), an XML Editor and a WSDL Editor.</p>
 
 			<h2>Get it faster from a Member Distro</h2>

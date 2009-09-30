@@ -32,31 +32,49 @@
 	<h1>Road Map </h1>
 	<p>Full details of the roadmap can be found at 
 	<a href="./roadmap/roadmap0.5.pdf" target="_new">Road Map 0.5 (September 3, 2009)</a>(PDF).  A 
-	snapshop of the roadmap can be found by clicking the image below.
+	snapshot of the roadmap can be found by clicking the image below.
 		<a href="./roadmap/roadmap0.5.png"><img src="./roadmap/roadmap0.5THUMB.png" ></a> 
 	</p>
 	<h1>Free Community Services</h1>
-	<p>
+	<p>Below are a list of places where users can learn more and provide feedback on the Eclipse SOA Package.
+	Users are also encouraged to provide feedback and interact with specific projects related to the 
+	IWG such as <a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.swordfish">Swordfish</a>
+	and <a href="http://www.eclipse.org/projects/project_summary.php?projectid=stp">SOA Tools</a>.
+	
 		<ul>
 		<li><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP&component=soa-package">Report a Bug</a></li>
 		<li><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">Join Working Group Mail List</a></li>
-		<li><a href="http://dev.eclipse.org/mhonarc/lists/soa-iwg">View Mail List Arvhices</a></li>
+		<li><a href="http://dev.eclipse.org/mhonarc/lists/soa-iwg">View Mail List Archives</a></li>
 		</ul>
 	</p>
 	
 	<h1>Commercial Services</h1>
 	<p>
+	A rich and vibrant ecosystem has emerged around the SOA Initiave and the various projects involved.  Please explore
+	the Participating members below to learn more.
 	<table>
 		<tr>
-			<td valign='top'> <img src='./sopera120.gif' align='left' /> </td>
+			<td valign='top'> <img src='./logos/sopera120.gif' align='left' /> </td>
 			<td valign='top'> <b>SOPERA</b><br />
 				<ul>
-					<li><a href="http://www.sopera.de/en/shop-download/trainings-shop/">Eclipse SOA Workshop</a> and other training.</a></li>
+					<li><a href="http://www.sopera.de/en/shop-download/trainings-shop/">Eclipse SOA Workshop</a> and other training</a></li>
 					<li><a href="http://www.sopera.de/en/support/service-support/">Comprehensive SOA Support and Maintenance</a></li>
 					
 				</ul>	
 			</td>
 		</tr>
+
+		<tr>
+			<td valign='top'> <img src='./logos/obeo120.png' align='left' /> </td>
+			<td valign='top'> <b>OBEO</b><br />
+				<ul>
+					<li><a href="http://obeo.fr/pages/training/en">SCA and other training</a></li>
+					<li><a href="http://obeo.fr/pages/obeo-designer/en">Obeo and SCA</a></li>
+					
+				</ul>	
+			</td>
+		</tr>
+		
 		
 	</table>
 	</p>

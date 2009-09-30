@@ -49,8 +49,8 @@
 		</p>
 
 	<h1>The Eclipse SOA Initiative Charter</h1>
-	<p> <a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">The Eclipse SOA Initiative Proposal.</a> </p>
-
+	<p> Full details can be found on the
+	<a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">Eclipse SOA Initiative Proposal.</a> </p>
 
 
 
@@ -64,7 +64,7 @@ itemis AG is an independent IT consulting company supporting its customers in pl
 	
 
 <p>		
-				<a href="http://www.obeo.fr/index.php?lang=en"><img src="./logos/obeo120.png" align="left"  style="padding:8px;"/></a>
+				<a href="http://www.obeo.fr/index.php?lang=en"><img src="./logos/obeo120.png" align="left"  style="padding:4px;"/></a>
 	OBEO We bring to our customers efficiency and improved productivity in software development. Acceleo (OpenSource MDA code generator : http://www.acceleo.org) and Obeo agility, our Application Lifecycle Management solutions, are fully based on eclipse and EMF environments, covering design, development, maintenance and re-engineering phases. Obeo is involved in several Eclipse projects (Eclipse modeling, Eclipse STP) and is leader of the EMF Compare project (http://www.eclipse.org/emft/projects/compare/).
 </p>
 
