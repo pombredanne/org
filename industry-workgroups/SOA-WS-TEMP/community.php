@@ -40,7 +40,6 @@
 	Users are also encouraged to provide feedback and interact with specific projects related to the 
 	IWG such as <a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.swordfish">Swordfish</a>
 	and <a href="http://www.eclipse.org/projects/project_summary.php?projectid=stp">SOA Tools</a>.
-	
 		<ul>
 		<li><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP&component=soa-package">Report a Bug</a></li>
 		<li><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">Join Working Group Mail List</a></li>
