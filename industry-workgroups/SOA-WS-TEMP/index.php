@@ -84,7 +84,7 @@
 						<a href=""><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="./support.php">Community, Support and Service</a></h4>
+						<h4><a href="./community.php">Community, Support and Service</a></h4>
 						<p>Looking for help?  Want more?</p> 
 					</div>
 				</div>
