@@ -52,7 +52,7 @@
 						<a href=""><img src="http://dev.eclipse.org/huge_icons/actions/go-bottom.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="http://www.eclipse.org/downloads/">Download</a></h4>
+						<h4><a href="./download.php">Download</a></h4>
 						<p>Download the SOA IWG Package</p> 
 					</div>
 				</div>	
