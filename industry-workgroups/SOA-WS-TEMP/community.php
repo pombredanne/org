@@ -29,20 +29,32 @@
 	?>	
 	<div id="midcolumn">
 
+	<h1>Road Map </h1>
+
+	<h1>Free Community Services</h1>
+		<ul>
+		<li><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP&component=soa-package">Report a Bug</a></li>
+		<li>a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">Join Working Group Mail List</a></li>
+		<li>a href="http://dev.eclipse.org/mhonarc/lists/soa-iwg">View Mail List Arvhices</a></li>
+		</ul>
+	
+	<h1>Commercial Services</h1>
+
+	<table>
+		<tr>
+			<td valign='top'> <img src='./sopera120.gif' align='left' /> </td>
+			<td valign='top'> <b>SOPERA</b><br />
+				<ul>
+					<li><a href="http://www.sopera.de/en/shop-download/trainings-shop/">Eclipse SOA Workshop</a> and other training.</a></li>
+					<li><a href="http://www.sopera.de/en/support/service-support/">Comprehensive SOA Support and Maintenance</a></li>
+					
+				</ul>	
+			</td>
+		</tr>
+		
+	</table>
 
 
-
-			<h1>Looking for SOA Initiative Support?  </h1>
-			<h2>Try one of these discussion forums.</h2>
-			<ol>
-				<li>Questions Specific to SOA Initiative</li>
-				<p><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg">SOA Initiative Mailing List</a></p>
-
-				<li>SOA Resources at Eclipse</li>
-				<p><a href="http://live.eclipse.org/search/node/SOA/">Webinars</a></p>
-
-
-			</ol>
 	</div>	
 
 	<?

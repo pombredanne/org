@@ -11,10 +11,10 @@
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
 	$Nav->setLinkList( array() );
-	$Nav->addNavSeparator("SOA Initiative", "org/industry-workgroups/SOA-WS-TEMP/");
-	$Nav->addCustomNav("Home", "org/industry-workgroups/SOA-WS-TEMP/", "_self", 1);
-	$Nav->addCustomNav("Getting Started", "org/industry-workgroups/SOA-WS-TEMP/quickinstall", "_self", 1);
+	$Nav->addNavSeparator("SOA Initiative", "");
+	$Nav->addCustomNav("Home", "", "_self", 1);
+	$Nav->addCustomNav("Getting Started", "./gettingstarted.php", "_self", 1);
 	$Nav->addCustomNav("Download SOA Pkg", "./download.php", "_self", 1);
-	$Nav->addCustomNav("Community&Support", "org/participants.php", "_self", 1);
-	$Nav->addCustomNav("Consortium", "", "_self", 1);
+	$Nav->addCustomNav("Community&Support", "./community.php", "_self", 1);
+	$Nav->addCustomNav("Consortium", "./participants.php", "_self", 1);
 ?>
