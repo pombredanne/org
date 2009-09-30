@@ -64,18 +64,18 @@ itemis AG is an independent IT consulting company supporting its customers in pl
 	
 
 <p>		
-				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png" style="padding:6px;"/></a>
+				<a href="http://www.obeo.fr/index.php?lang=en"><img src="obeo120.png" align="left"  style="padding:6px;"/></a>
 	OBEO We bring to our customers efficiency and improved productivity in software development. Acceleo (OpenSource MDA code generator : http://www.acceleo.org) and Obeo agility, our Application Lifecycle Management solutions, are fully based on eclipse and EMF environments, covering design, development, maintenance and re-engineering phases. Obeo is involved in several Eclipse projects (Eclipse modeling, Eclipse STP) and is leader of the EMF Compare project (http://www.eclipse.org/emft/projects/compare/).
 </p>
 
 
 <p>		
-				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif" style="padding:6px;"/></a>
+				<a href="http://www.sopera.de/en/home/"><img src="sopera120.gif" align="left" style="padding:6px;"/></a>
 Sopera GmbH is a service provider dedicated solely to the SOA strategy. The managing director of the Bonn-based IT company is Dr. Ricco Deutscher, former McKinsey technology expert and experienced software company founder. The company emerged from an SOA development unit attached to Deutsche Post, the latter having begun work on a service-oriented platform (SOP) as early as 2000. Founded in March 2007 and now independent of Deutsche Post, Sopera GmbH continues to work in close partnership with the logistics player. Focus of operations is the ongoing joint development of the SOA framework SOPERA. This software was created by an in-house development team at Deutsche Post and relies on open standards and modular components.
 </p>
 
 <h2>Member Participants</h2>
-<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png" style="padding:6px;"/></a>
+<p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="softwareag120.png" align="left" style="padding:6px;"/></a>
 Software AG is a global leader in mission-critical software infrastructure and advanced Service-Oriented Architecture 
 (SOA) solutions.</p></p>
 
