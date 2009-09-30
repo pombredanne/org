@@ -40,7 +40,7 @@
 			<h2>Download from eclipse.org</h2>
 			<p><a href="http://www.eclipse.org/downloads/packages/eclipse-soa-platform-java-and-soa-developers/galileosr1">
 			
-			<img src="/downloads/images/soa.jpg" align="left" style="padding:8px;"> 
+			<img src="/downloads/images/soa.jpg" align="left" style="padding:12px;"> 
 			Eclipse SOA Platform for Java and SOA Developers (137 MB)</a>  
 			<br>Eclipse SOA Platform is a runtimes and tools integration platform for SOA developers. It makes 
 			easy to get the environment you need for developing and executing SOA. It includes a Java IDE, 
