@@ -14,7 +14,7 @@
 	$Nav->addNavSeparator("SOA Initiative", "");
 	$Nav->addCustomNav("Home", "./", "_self", 1);
 	$Nav->addCustomNav("Download SOA Pkg", "./download.php", "_self", 1);
-	$Nav->addCustomNav("Consortium", "./participants.php", "_self", 1);
+	$Nav->addCustomNav("SOA Consortium", "./participants.php", "_self", 1);
 	$Nav->addCustomNav("Getting Started", "./gettingstarted.php", "_self", 1);
 	$Nav->addCustomNav("Community&Support", "./community.php", "_self", 1);
 ?>
