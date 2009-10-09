@@ -53,7 +53,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="./download.php">Download</a></h4>
-						<p>Download the SOA IWG Package</p> 
+						<p>Download the SOA Platform Package</p> 
 					</div>
 				</div>	
 				
@@ -84,7 +84,7 @@
 						<a href="./community.php"><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png"/></a>
 					</div>
 					<div class="text">
-						<h4><a href="./community.php">Community, Support and Service</a></h4>
+						<h4><a href="./community.php">Community, Support & Service</a></h4>
 						<p>Looking for help?  Want more?</p> 
 					</div>
 				</div>
