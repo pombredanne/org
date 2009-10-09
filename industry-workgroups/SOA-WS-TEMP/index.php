@@ -64,7 +64,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="./gettingstarted.php">Getting Started</a></h4>
-						<p>Quick install instructions</p> 
+						<p>Quick introduction how to install and use the SOA Platform Package</p> 
 					</div>
 				</div>
 		
@@ -85,7 +85,7 @@
 					</div>
 					<div class="text">
 						<h4><a href="./community.php">Community, Support & Service</a></h4>
-						<p>Looking for help?  Want more?</p> 
+						<p>Become part of the community. Looking for commercial services?</p> 
 					</div>
 				</div>
 
