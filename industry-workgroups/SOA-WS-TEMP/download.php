@@ -72,7 +72,8 @@
 
 			<h2>Customized Packages from Working Group Participants</h2>
 			<p>
-			<tr class='tableData'>
+			<table>
+			<tr>
 				<td><img src='/downloads/distros/images/obeo.png'/></td>
 				<td>
 					The Eclipse SOA/SCA Obeo Distro is a runtimes and tools integration platform for SOA/SCA developers.
