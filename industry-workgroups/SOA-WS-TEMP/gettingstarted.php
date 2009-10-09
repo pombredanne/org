@@ -32,12 +32,14 @@
 
 
 		<h1>Getting Started</h1>  			
-		<ol> <li> 					
+		<ul> <li> 					
 		<h2>First Steps with the Eclipse SOA Platform for Java and SOA Developers</h2> 						
 		<p>This webinar will guide you through the process of using the Eclipse SOA Platform for Java and SOA Developers. 
 		You will learn how to generate service provider and consumer from an existing WSDL using the Swordfish tooling. You will 
-		also learn how to setup a suitable target platform and execute these particpants.</p> 				</li> 			
-		</ol>  
+		also learn how to setup a suitable target platform and execute these particpants. <br> 
+		CONTENT COMING SOON!
+		</p> 				</li> 			
+		</ul>  
 
 	</div>	
 
