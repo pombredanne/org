@@ -73,10 +73,12 @@
 			<h2>Customized Packages from Working Group Participants</h2>
 			<p>
 			<tr class='tableData'>
-				<td valign='top'><img class='distrologo' src='/downloads/distros/images/obeo.png' align='left' /></td>
+				<td><img src='/downloads/distros/images/obeo.png'/></td>
 				<td>
 					The Eclipse SOA/SCA Obeo Distro is a runtimes and tools integration platform for SOA/SCA developers.
-					It includes the official <a href="http://www.eclipse.org/downloads/packages/eclipse-soa-platform-java-and-soa-developers/galileosr1">Eclipse SOA Platform</a>, and the following Eclipse tools:
+					It includes the official 
+					<a href="http://www.eclipse.org/downloads/packages/eclipse-soa-platform-java-and-soa-developers/galileosr1">Eclipse SOA Platform</a>, 
+					and the following Eclipse tools:
 					<ul>
 						<li><a href="http://www.eclipse.org/stp/sca/">SCA Tools</a>,</li>
 						<li><a href="http://www.eclipse.org/bpel/">BPEL Editor</a>,</li>
@@ -89,8 +91,8 @@
 					
 					Downloads:
 					<ul>
-					<li>Windows platform: <a href="http://www.obeo.fr/download/soa/galileo-sr1/eclipse-soasca-galileo-SR1-obeo-win32.zip">eclipse-soasca-galileo-SR1-obeo-win32.zip</a> (size: 390M).</li>
-					<li>Linux platform: <a href="http://www.obeo.fr/download/soa/galileo-sr1/eclipse-soasca-galileo-SR1-obeo-linux-gtk.tar.gz">eclipse-soasca-galileo-SR1-obeo-linux-gtk.tar.gz</a> (size: 387M).</li>
+						<li>Windows platform: <a href="http://www.obeo.fr/download/soa/galileo-sr1/eclipse-soasca-galileo-SR1-obeo-win32.zip">eclipse-soasca-galileo-SR1-obeo-win32.zip</a> (size: 390M).</li>
+						<li>Linux platform: <a href="http://www.obeo.fr/download/soa/galileo-sr1/eclipse-soasca-galileo-SR1-obeo-linux-gtk.tar.gz">eclipse-soasca-galileo-SR1-obeo-linux-gtk.tar.gz</a> (size: 387M).</li>
 					</ul>
 				</td>
 			</tr></table>
