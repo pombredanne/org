@@ -16,5 +16,5 @@
 	$Nav->addCustomNav("Download Package", "./download.php", "_self", 1);
 	$Nav->addCustomNav("SOA Consortium", "./participants.php", "_self", 1);
 	$Nav->addCustomNav("Getting Started", "./gettingstarted.php", "_self", 1);
-	$Nav->addCustomNav("Community and Support", "./community.php", "_self", 1);
+	$Nav->addCustomNav("<table><tr><td>Community and Support</td></tr></table>", "./community.php", "_self", 1);
 ?>
