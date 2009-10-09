@@ -71,8 +71,25 @@
 			</p>
 
 			<h2>Customized Packages from Working Group Participants</h2>
-			<p> COMING SOON! </p>
+			<p>
+The Eclipse SOA/SCA Obeo Distro is a runtimes and tools integration platform for SOA/SCA developers.
+It includes the official <a href="http://www.eclipse.org/downloads/packages/eclipse-soa-platform-java-and-soa-developers/galileosr1">Eclipse SOA Platform</a>, and the following Eclipse tools:
+<ul>
+<li><a href="http://www.eclipse.org/stp/sca/">SCA Tools</a>,</li>
+<li><a href="http://www.eclipse.org/bpel/">BPEL Editor</a>,</li>
+<li><a href="http://www.eclipse.org/bpmn/">BPMN Modeler</a>, </li>
+<li><a href="http://www.eclipse.org/modeling/emft/?project=compare#compare">EMF Compare</a> (to compare SCA, BPEL and BPMN files),</li>
+<li><a href="http://www.eclipse.org/modeling/m2t/?project=acceleo">Acceleo</a> (to generate code automatically), and</li>
+<li><a href="http://www.eclipse.org/subversive/">Subversive</a>.</li>
+</ul>
+Moreover, this package provides also 2 open source SCA runtimes: <a href="http://tuscany.apache.org/">Apache Tuscany</a> 1.5 and <a href="http://frascati.ow2.org/">OW2 FraSCAti</a> 1.0.1.
 
+Downloads:
+<ul>
+<li>Windows platform: <a href="http://www.obeo.fr/download/soa/galileo-sr1/eclipse-soasca-galileo-SR1-obeo-win32.zip">eclipse-soasca-galileo-SR1-obeo-win32.zip</a> (size: 390M).</li>
+<li>Linux platform: <a href="http://www.obeo.fr/download/soa/galileo-sr1/eclipse-soasca-galileo-SR1-obeo-linux-gtk.tar.gz">eclipse-soasca-galileo-SR1-obeo-linux-gtk.tar.gz</a> (size: 387M).</li>
+</ul>
+</p>
 	</div>	
 
 	<?

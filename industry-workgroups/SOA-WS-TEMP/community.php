@@ -51,8 +51,8 @@
 			<td valign='top'> <img src='./logos/sopera120.gif' align='left' /> </td>
 			<td valign='top'> <b>SOPERA</b><br />
 				<ul>
-					<li><a href="http://www.sopera.de/en/shop-download/trainings-shop/">Eclipse SOA Workshop</a> and other training</a></li>
-					<li><a href="http://www.sopera.de/en/support/service-support/">Comprehensive SOA Support and Maintenance</a></li>
+					<li><a href=" http://www.sopera.de/en/shop-download/trainings-shop/?tx_iccshop_pi1%5Bcat_id%5D=884ccc26-1b5a-95b1-427f-49c0c7e87582&tx_iccshop_pi1%5Bproduct_id%5D=83bc0236-3612-23e5-76c4-4a2cfa456617">Eclipse SOA Workshop</a> and <a href="http://www.sopera.de/en/shop-download/trainings-shop/">other training</a> </li>
+					<li>Developer Support for the Eclipse SOA Platform  (link coming soon)</li>
 					
 				</ul>	
 			</td>
