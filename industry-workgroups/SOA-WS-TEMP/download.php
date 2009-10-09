@@ -54,8 +54,8 @@
 				<td valign='top'><a href='http://eclipse.org/go/DISTRO_SOPERA_GALILEO@IWGPAGE'>
 				<img class='distrologo' src='/downloads/distros/images/sopera64x64.png' align='left' /></a>
 				</td><td valign='top'><a href='http://eclipse.org/go/DISTRO_SOPERA_GALILEO@IWGPAGE'>
-				<b>SOPERA</b></a><br />Fast and free download of Eclipse Galileo powered by SOPERA, Specialist 
-				for Eclipse-based SOA Solutions.</td>
+				<b>SOPERA</b></a><br />Download Eclipse SOA Platform and Swordfish. Try SOPERA ASF - the leading 
+				Open Source SOA Platform</td>
 			</tr>
 
 			<tr class='tableData'>
