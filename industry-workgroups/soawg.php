@@ -99,7 +99,7 @@
 		</p>
 		<p>Member Participants are required to:
 		<ul>
-			<li>Be an Eclipse Foundation Member (Solution, Committer)</li>
+			<li>Be a voting Eclipse Foundation Member (Committer, Solution, Enterprise or Strategic)</li>
 			<li>Appoint at least 1 developer to implement requirements agreed in the Industry Working Group to creating the Eclipse SOA platform. These developers will work in one of the relevant Eclipse projects ("Eclipse SOA projects") selected by the Eclipse SOA Initative. The members are free in their choice into which of the relevant projects these developers are assigned to (e.g. tooling only).</li>
 			<li>Regularly participate in all Industry Working Group meetings and provide timely feedback on the Industry Working Group documents.</li>
 			<li>For corporate members, provide announcement support for the Eclipse SOA platform and ongoing promotion to application developers. </li>
