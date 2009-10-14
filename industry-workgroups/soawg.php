@@ -13,7 +13,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse SOA Iniative";
+	$pageTitle 		= "Eclipse SOA Initiative";
 	$pageKeywords	= "soa, developers, eclipse";
 	$pageAuthor		= "Donald Smith";
 	
