@@ -50,7 +50,7 @@
 
 	<h1>The Eclipse SOA Initiative Charter</h1>
 	<p> Full details can be found on the
-	<a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">Eclipse SOA Initiative Proposal.</a> </p>
+	<a href="http://www.eclipse.org/org/industry-workgroups/soawg.php">Eclipse SOA Initiative Charter</a> page.</p>
 
 
 
@@ -77,7 +77,10 @@ Sopera GmbH is a service provider dedicated solely to the SOA strategy. The mana
 <h2>Member Participants</h2>
 <p>	<a href="http://www.softwareag.com/corporate/default.asp"><img src="./logos/softwareag120.png" align="left" style="padding:8px;"/></a>
 Software AG is a global leader in mission-critical software infrastructure and advanced Service-Oriented Architecture 
-(SOA) solutions.</p></p>
+(SOA) solutions.</p>
+
+<h2>Individual Participants</h2>
+<p>Scott Lewis, Composent, Inc.</p>
 
 	</div>	
 
