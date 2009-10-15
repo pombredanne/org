@@ -36,7 +36,9 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20091015_novdemocamps.php">Join the Eclipse community for a DemoCamp Near You</a> - October 15, 2009</li>
 		<li><a href="20091007_pulsar.php">Eclipse Pulsar Gains Momentum with Mobile Industry Leaders</a> - October 7, 2009</li>
+		<li><a href="20091002modelingday.php">Announcing Eclipse Modeling Day in NYC and Toronto; Register Now</a> - October 2, 2009</li>
 		<li><a href="20090922_ese1month.php">Eclipse Summit Europe Starts in One Month - Register Today</a> - September 22, 2009</li>
 		<li><a href="20090908_training.php">Global Eclipse Training Series</a> - September 8, 2009</li>
 		<li><a href="20090903_eseprogram.php">Keynotes and Technical Program Announced for Eclipse Summit Europe 2009</a> - September 3, 2009</li>
