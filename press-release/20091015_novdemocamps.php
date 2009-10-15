@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Join the Eclipse community for a DemoCamp Near You";
+	$pageTitle 		= "Join the Eclipse Community for a DemoCamp Near You";
 	$pageKeywords	= "eclipse, demo, camp";
 	$pageAuthor		= "Ian Skerrett";
 	
