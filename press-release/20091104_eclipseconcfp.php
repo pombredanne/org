@@ -22,14 +22,14 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-		<p>It is time to start thinking about submitting a talk for <a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.  The submission systems is 
+		<p>It is time to start thinking about submitting a talk for <a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.  The submission system is 
 		running, the program committee is ready, so now it is up to you to <a href="http://www.eclipsecon.org/2010/submissions/">submit a great talk.</a> </p> 
 
  		<p>This year the conference is being organized around three themes: 
 		<ul>
-			<li><strong>Making with Eclipse</strong> – how people use Eclipse to create great software. 
-			<li><strong>Making at Eclipse</strong> – state-of-the-nation talks about Eclipse projects and how people can use the technology. 
-			<li><strong>Making Community</strong> – how can Eclipse projects and the wider Eclipse community continue to grow and prosper. 
+			<li><strong>Making with Eclipse</strong> - how people use Eclipse to create great software. 
+			<li><strong>Making at Eclipse</strong> - state-of-the-nation talks about Eclipse projects and how people can use the technology. 
+			<li><strong>Making Community</strong> - how can Eclipse projects and the wider Eclipse community continue to grow and prosper. 
 		</ul>
 		</p>
 
@@ -40,7 +40,7 @@
 		created it using Eclipse technology, but please no sales pitches. </p>
 
 		<p>The deadline for <a href="http://www.eclipsecon.org/2010/submissions/">submissions</a> is December 18.  
-		The program will be selected by January 8, 2010, so don’t be late.</p>
+		The program will be selected by January 8, 2010, so don't be late.</p>
 
 		<p>EclipseCon 2010 is March 22-25, 2010 in Santa Clara, CA.  Individuals can now <a href="http://www.eclipsecon.org/2010/registration/">register</a> for the conference 
 		and organizations can now sign-up as a sponsor.  </p>
