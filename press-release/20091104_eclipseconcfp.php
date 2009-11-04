@@ -22,7 +22,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-		<p>It is time to start thinking about submitting a talk for EclipseCon 2010.  The submission systems is 
+		<p>It is time to start thinking about submitting a talk for <a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.  The submission systems is 
 		running, the program committee is ready, so now it is up to you to <a href="http://www.eclipsecon.org/2010/submissions/">submit a great talk.</a> </p> 
 
  		<p>This year the conference is being organized around three themes: 
