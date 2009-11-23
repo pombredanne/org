@@ -2,7 +2,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse in the Large Webinar";
+	$pageTitle 		= "Eclipse In The Large Webinar";
 	$pageKeywords	= "eclipse, enterprise";
 	$pageAuthor		= "Donald Smith";
 	
@@ -19,26 +19,27 @@
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		<p><em>This page is DRAFT, not complete and not yet meant to be shared.</em></p>
 		<h2>Community Bulletin</h2>
 		
-		<p>IT departments of large entrprises face unique challenges deploying Eclipse to thousands, 
+		<p>IT departments of large enterprises face unique challenges deploying Eclipse to thousands, 
 		and even tens of thousands of their developers.  Join us on December 14th, 2009 for a webinar that 
 		will include
 		speakers from Cisco, Morgan Stanley and eBay about some of the key challenges they face,
 		and steps they have taken to address.</p> 
 		
-		<p>Format and Agenda:
+		<p>Format and Agenda:<br>
 		Each speaker will present for up to 20 minutes, followed by up to 10 minutes Q&A.  Each speaker
-		has idendified four key topics they find most challenging and will discuss:
+		has identified four key topics they find most challenging and will discuss:
 		<ul>
 			<li>Dennis Vaughn, Cisco</li>
 				<ul>
 					<li>Scalability (65k + source files)</li>
 					<li>Diverse Deployments (Geographically, NFS, OS/Versions)</li>
-					<li>Engineering Environment Diveristy (Legacy Tools, Acquisitions)</li>
+					<li>Engineering Environment Diversity (Legacy Tools, Acquisitions)</li>
 					<li>Working Culture - (Curmudgeons versus New Hires, ROI versus VI/Emacs)</li>
 				</ul>
-			<li>Miles Daffin, Mogan Stanley</li>
+			<li>Miles Daffin, Morgan Stanley</li>
 				<ul>
 					<li>TBD</li>
 					<li>TBD</li>
@@ -49,7 +50,7 @@
 				<ul>
 					<li>Scalability (100k + source files)</li>
 					<li>Deployment (individualized workspaces)</li>
-					<li>Usage Tracking (who is using what, and what isues are in what versions)</li>
+					<li>Usage Tracking (who is using what, and what issues are in what versions)</li>
 					<li>Manifest Maintenance (OSGi Bundle/Package versions)</li>
 				</ul>
 		</ul>
