@@ -115,8 +115,7 @@ ob_start();
 				<li class="finalist"><a href="http://www.jpl.nasa.gov/">NASA Ensemble Team</a></li>
 			</ul>
 		</div>
-		<br />
-		<a href="technology_nominations.php">A complete list of the nominees for 2007 Technology Awards can be found here.</a>
+
 		<br /><br />
 
 	</div>
