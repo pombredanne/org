@@ -39,14 +39,14 @@ ob_start();
 		</p>
 		
 		<div class="homeitem3col">
-			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
+			<h3>Best Commerical Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
-			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
+			<h3>Best Open Source Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
@@ -55,9 +55,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commercial Equinox Application</h3>
 			<ul>
-				<li><a href="http://www.cas-pia.de" target="blank">CAS PIA</a></li>	
-				<li><a href="http://www.prosyst.com/products/osgi_ext_smart.html" target="blank">mBedded Server Smart Home Extension</a></li>
-				<li><a href="http://eclipsesource.com/en/products/yoxos-enterprise/ " target="blank">Yoxos Enterprise</a></li>	
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		
@@ -81,6 +79,28 @@ ob_start();
 				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
+		
+		<div class="homeitem3col">
+			<h3>Most Open Project</h3>
+			<ul>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
+			</ul>
+		</div>
+		
+		<div class="homeitem3col">
+			<h3>Most Popular Commercial Product</h3>
+			<ul>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
+			</ul>
+		</div>
+		
+		<div class="homeitem3col">
+			<h3>Most Popular Project</h3>
+			<ul>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
+			</ul>
+		</div>		
+		
 	<br><br>	
 	</div>
 
