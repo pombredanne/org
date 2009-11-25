@@ -43,18 +43,18 @@
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
+				<li><strong>Most Active Committer</strong> - An Eclipse committer with a high number of
+				commits that have made a difference in the quality of Eclipse.</li>
+				<li><strong>Top Blogger</strong> - A blogger on Planet Eclipse with a large number of blog posts
+				that provides insightful information to the Eclipse community.
+				<li><strong>Top Bug Fixer</strong> - An Eclipse committer that has improved Eclipse by fixing
+				a high number of bugs.</li>		
 				<li><strong>Top Committer</strong> - The best all-around Eclipse committer who exemplifies support for the
 				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
-				<li><strong>Most Active Committer</strong> - An Eclipse committer with a high number of
-				commits that have made a difference in the quality of Eclipse.</li>	
-				<li><strong>Top Bug Fixer</strong> - An Eclipse committer that has improved Eclipse by fixing
-				a high number of bugs.</li>				
 				<li><strong>Top Contributor</strong> - The best all-around Eclipse contributor who exemplifies support for
 				the community through forums, submission of patches and comments on bugs, tutorials, conference
 				presentations, blogs and other areas. In general, contributors are not paid by anyone for their
 				Eclipse contributions.</li>
-				<li><strong>Top Blogger</strong> - A blogger on Planet Eclipse with a large number of blog posts
-				that provides insightful information to the Eclipse community.
  				<li><strong>Top Newcomer Evangelist</strong> - An individual who best exemplifies the welcoming
  				of new people into the Eclipse community by answering questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
@@ -63,13 +63,7 @@
 
 		<h3>Technology Awards</h3>
 		<p>
-			<ol>
-				<li><strong>Most Open Project</strong> - A project that best exemplifies transparency through
-				their code access, communications and open source practices. </li>			
-				<li><strong>Most Popular Commercial Product</strong> - An Eclipse-based commercial product
-				used and loved by the community.</li>
-				<li><strong>Most Popular Project</strong> - An open source project used and loved by the
-				Eclipse community.</li>							
+			<ol>						
 				<li><strong>Best Commercial Eclipse-Based Developer Tool</strong> - A commercial product that provides an
 				innovative, high quality product for software developers.</li>
 				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - An open source project (not hosted at
@@ -82,7 +76,13 @@
 				most innovative use of Eclipse RCP for end user applications.</li>
 				<li><strong>Best Open Source RCP Application</strong> - An open source project (not hosted at
 				Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.</li>
-			</ol>
+				<li><strong>Most Open Project</strong> - A project that best exemplifies transparency through
+				their code access, communications and open source practices. </li>			
+				<li><strong>Most Popular Commercial Product</strong> - An Eclipse-based commercial product
+				used and loved by the community.</li>
+				<li><strong>Most Popular Project</strong> - An open source project used and loved by the
+				Eclipse community.</li>	
+				</ol>
 		</p>
 		
 		<h3>Important Dates</h3>
