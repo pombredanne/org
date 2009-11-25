@@ -103,8 +103,8 @@
 				<li><a href="index.php">Eclipse Community Awards</a></li>
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
-				<li><a href="individual.php">Individual Nominations</a></li>
-				<li><a href="technology.php">Technology Nominations</a></li>
+				<li><a href="individual.php">Individual Nominees</a></li>
+				<li><a href="technology.php">Technology Nominees</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
