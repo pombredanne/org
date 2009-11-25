@@ -43,13 +43,13 @@
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Top Committer</strong> - An Eclipse committer who best exemplifies support for the
+				<li><strong>Top Committer</strong> - The best all-around Eclipse committer who exemplifies support for the
 				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
 				<li><strong>Most Active Committer</strong> - An Eclipse committer with a high number of
 				commits that have made a difference in the quality of Eclipse.</li>	
 				<li><strong>Top Bug Fixer</strong> - An Eclipse committer that has improved Eclipse by fixing
 				a high number of bugs.</li>				
-				<li><strong>Top Contributor</strong> - An Eclipse contributor who best exemplifies support for
+				<li><strong>Top Contributor</strong> - The best all-around Eclipse contributor who exemplifies support for
 				the community through forums, submission of patches and comments on bugs, tutorials, conference
 				presentations, blogs and other areas. In general, contributors are not paid by anyone for their
 				Eclipse contributions.</li>
