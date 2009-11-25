@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Community Awards";
-	$pageKeywords	= "eclipse, awards, community, nomination, eclipsecon";
+	$pageKeywords	= "eclipse, awards, community, nomination, eclipsecon, 2010";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -36,8 +36,8 @@
 		<p>
 			The Eclipse Community Awards were created to recognize and thank the individuals and technologies that make Eclipse a
 			vibrant	community.  There are two categories of awards: 1) awards for individuals, and 2) awards for technologies and
-			products.   The awards will be presented on March 23, 2009 at <a href="http://www.eclipsecon.org/2009/">EclipseCon
-			2009</a>.
+			products.   The awards will be presented on March 22, 2009 at <a href="http://www.eclipsecon.org/2010/">EclipseCon
+			2010</a>.
 		</p>
 	
 		<h3>Individual Awards</h3>
@@ -80,17 +80,12 @@
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 8, 2008</font></li>
-				<li><font color="#A9A9A9">Nominations close - January 30, 2009</font></li>
-				<li><font color="#A9A9A9">Voting begins for Individual Awards - February 2, 2009</font></li>
-				<li><font color="#A9A9A9">Voting ends for Individual Awards - February 27, 2009 at 5:00 pm EST</font></li>
-				<li>Awards Announced - March 23, 2009</li>
+				<li><font color="#A9A9A9">Nominations open - December 7, 2008</font></li>
+				<li>Nominations close - January 29, 2009</font></li>
+				<li>Voting begins for Individual Awards - February 1, 2009</font></li>
+				<li>Voting ends for Individual Awards - February 26, 2009 at 5:00 pm EST</font></li>
+				<li>Awards Announced - March 22, 2009</li>
 			</ul>
-		</p>
-		
-		<p>
-		<a href="winners08.php">See the Eclipse Community Award winners for 2008</a>
-		<br><br>	
 		</p>
 		
 	</div>
@@ -108,23 +103,7 @@
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
-		<div class="sideitem">
-			<h6>Top Ambassador</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257950"><img 
-		  		src="images/ambassador-diagram.gif" border="0"/></a></div>
-		</div>
-		<div class="sideitem">
-			<h6>Top Committer</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952"><img 
-		  		src="images/committer-diagram.gif" border="0"/></a></div>
-		</div>
-		<div class="sideitem">
-			<h6>Top Contributor</h6>
-			<div align="center"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953"><img 
-		  		src="images/contributor-diagram.gif" border="0"/></a></div>
-		</div>
-
-
+		
 	</div>
 
 EOHTML;
