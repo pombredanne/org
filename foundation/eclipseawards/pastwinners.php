@@ -38,7 +38,7 @@
 		</p>
 		
 		<ul class="midlist">
-			<li><a href="winners09.php">2008 Eclipse Community Awards Winners</li>
+			<li><a href="winners09.php">2009 Eclipse Community Awards Winners</li>
 			<li><a href="winners08.php">2008 Eclipse Community Awards Winners</li>
 			<li><a href="winners07.php">2007 Eclipse Community Awards Winners</li>
 			<li><a href="winners06.php">2006 Eclipse Community Awards Winners</li>
