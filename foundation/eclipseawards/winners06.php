@@ -103,8 +103,7 @@ ob_start();
 				<br>
 			</ul>
 		</div>			
-		<br />
-		<a href="technology_nominations.php">A complete list of the nominees for 2006 Technology Awards can be found here.</a>
+
 		<br /><br />
 	</div>
 
