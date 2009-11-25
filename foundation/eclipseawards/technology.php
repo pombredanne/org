@@ -35,60 +35,20 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Technology Awards.  Nominations closed on January 30, 2009.
+			The following is a list of nominations submitted for the Technology Awards.  Nominations close on January 29, 2009.
 		</p>
 		
 		<div class="homeitem3col">
 			<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.actuate.com/products/products-resources.asp?ArticleId=13955" target="blank">Actuate 10</a></li>
-				<li><a href="http://www.adobe.com/products/flex/" target="blank">Adobe Flex Builder 3</a></li>
-				<li><a href="http://www.atmel.com/dyn/products/tools_card.asp?tool_id=4116" target="blank">AVR32 Studio</a></li>
-				<li><a href="http://www.bluage.com/" target="blank">Blu Age Agile Model Transformation</a></li>
-				<li><a href="http://www.bluenog.com/" target="blank">Bluenog ICE</a></li>
-				<li><a href="http://www.guidancer.com" target="blank">Bredex GUIdancer</a></li>
-				<li><a href="http://www.conformiq.com/qtronic.php" target="blank">Conformiq Qtronic</a></li>
-				<li><a href="http://www.sap.com/americas/solutions/sapbusinessobjects/sme/reporting/eclipse/index.epx" target="blank">Crystal Reports for Eclipse 2.0</a></li>
-				<li><a href="http://www.protecode.com/site/index.php/solutions/products" target="blank">Developer IP Assistant</a></li>
-				<li><a href="http://www.embarcadero.com/products/db_optimizer/" target="blank">Embarcadero DB Optimizer</a></li>
-				<li><a href="http://www.enea.com/EPiBrowser/Literature%20(pdf)/Pdf/Not%20leadgenerating/Datasheets%20and%20Brochures/Optima_DS%20Final.pdf" target="blank">Enea Optima</a></li>
-				<li><a href="http://wiki.apexdevnet.com/index.php/Force.com_IDE" target="blank">Force.com IDE</a></li>
-				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">Instantiations CodePro Analytix</a></li>	
-				<li><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank">Instantiations WindowBuilder Pro</a></li>
-				<li><a href="http://www.jboss.com/products/devstudio" target="blank">JBoss Developer Studio</a></li>
-				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe</a></li>
-				<li><a href="http://www.ilog.com/products/visualization/" target="blank">JViews 8.5</a></li>
-				<li><a href="http://www.klocwork.com/products/insight.asp" target="blank">Klocwork Insight</a></li>				
-				<li><a href="http://developer.motorola.com/docstools/motodevstudio/" target="blank">MOTODEV Studio</a></li>
-				<li><a href="http://www.myeclipseide.com" target="blank">MyEclipse</a></li>				
-				<li><a href="http://www.wavecom.com/m2mstudio" target="blank">M2M Studio</a></li>	
-				<li><a href="http://www.openmakesoftware.com/meister-info/" target="blank">OpenMake Meister</a></li>
-				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
-				<li><a href="http://www.polarion.com/products/requirements/index.php" target="blank">Polarion Requirements 2.0</a></li>		
-				<li><a href="http://www.polarion.com/products/trackwiki/index.php" target="blank">Polarion Track &amp; Wiki</a></li>
-				<li><a href="http://www.prosyst.com/products/tools_mtoolkit.html" target="blank">ProSyst mToolkit</a></li>	
-				<li><a href="http://www.qnx.com/products/tools/app_analysis.html" target="blank">QNX Momentics IDE - Application Profiler</a></li>
-				<li><a href="http://www.ibm.com/rational/rtc/" target="blank">Rational Team Concert (RTC 1.0.1)</a></li>
-				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
-				<li><a href="http://stan4j.com/" target="blank">STAN - Structure Analysis for Java</a></li>
-				<li><a href="http://www.testingtech.com/products/ttworkbench.php" target="blank">TTworkbench</a></li>
-				<li><a href="http://www.zend.com/en/products/studio" target="blank">Zend Studio for Eclipse 6.1.1</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.acceleo.org" target="blank">Acceleo</a></li>
-				<li><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank">AnyEdit Tools</a></li>		
-				<li><a href="http://www.open.collab.net/products/desktops/ " target="blank">CollabNet Desktop - Eclipse Edition</a></li>
-				<li><a href="http://www.eclipse4sl.org" target="blank">Eclipse4SL - Eclipse Tools for Silverlight</a></li>
-				<li><a href="http://www.jboss.org/tools" target="blank">JBoss Tools</a></li>
-				<li><a href="http://www.mvista.com/product_detail_devrocket.php" target="blank">MontaVista DevRocket 5</a></li>
-				<li><a href="http://m2eclipse.sonatype.org/" target="blank">m2eclipse</a></li>	
-				<li><a href="http://openrules.com" target="blank">OpenRules</a></li>
-				<li><a href="http://www.skywayperspectives.org/portal/web/guest/builder" target="blank">Skyway Builder Community Edition (CE)</a></li>
-				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>	
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		
@@ -104,37 +64,21 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Equinox Application</h3>
 			<ul>
-				<li><a href="http://www.modulefusion.org" target="blank">ModuleFusion</a></li>	
-				<li><a href="http://vif.sourceforge.net/" target="blank">VIF - Virtual Forum</a></li>			
-				<li><a href="http://wso2.com/products/wso2-carbon/" target="blank">WSO2 Carbon Unified Management Console</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 
 		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
-				<li><a href="http://www.artifactmanager.com" target="blank">Artifact Manager</a></li>
-				<li>ATE Builder</li>
-				<li><a href="http://www.cenit.de/ecliso" target="blank">CENIT ECLISO</a></li>
-				<li><a href="http://www.pluck-n-play.com" target="blank">Chord Scale Generator</a></li>	
-				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>	
-				<li><a href="http://www.anyware-tech.com/en/st/eclipse_platform/ecr_rcp_application.html" target="blank">ECR (Enregistrement Centralis&eacute; en R&eacute;seau - Centralized Network Recording)</a></li>
-				<li><a href="http://www.ditaworks.com" target="blank">[go:xDoc] DITAworks</a></li>
-				<li><a href="http://www.neckdiagrams.com" target="blank">Neck Diagrams</a></li>
-				<li><a href="http://demos.netcetera.ch/nets" target="blank">NeTS - Network-wide Track Management System</a></li>
-				<li><a href="http://www.poweredbypulse.com" target="blank">Pulse</a></li>
-				<li><a href="http://tasktop.com" target="blank">Tasktop</a></li>
-				<li>Warden</li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li><a href="http://directory.apache.org/studio" target="blank">Apache Directory Studio</a></li>
-				<li><a href="http://kompiro.org/jamcircle/en/" target="blank">JAM Circle</a></li>
-				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCrypTool</a></li>			
-				<li><a href="http://mae.cee.uiuc.edu/software_and_tools/maeviz.html" target="blank">MAEviz</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 	<br><br>	
@@ -146,13 +90,11 @@ ob_start();
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="winners09.php">2009 Winners</a></li>
-				<li><a href="judges09.php">2009 Judges</a></li>
-				<li><a href="individual.php">Individual Nominations</a></li>
-				<li><a href="technology.php">Technology Nominations</a></li>
-				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
+				<li><a href="individual.php">Individual Nominees</a></li>
+				<li><a href="technology.php">Technology Nominees</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
 	</div>
