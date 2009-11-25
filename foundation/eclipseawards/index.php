@@ -45,16 +45,17 @@
 			<ol>
 				<li><strong>Top Committer</strong> - An Eclipse committer who best exemplifies support for the
 				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
-				<li><strong>Most Active Committer</strong> - The Eclipse committer with the highest number of
-				commits.</li>	
-				<li><strong>Top Bug Fixer</strong> - The Eclipse committer with the highest number of bugs
-				closed.</li>				
+				<li><strong>Most Active Committer</strong> - An Eclipse committer with a high number of
+				commits that have made a difference in the quality of Eclipse.</li>	
+				<li><strong>Top Bug Fixer</strong> - An Eclipse committer that has improved Eclipse by fixing
+				a high number of bugs.</li>				
 				<li><strong>Top Contributor</strong> - An Eclipse contributor who best exemplifies support for
 				the community through forums, submission of patches and comments on bugs, tutorials, conference
 				presentations, blogs and other areas. In general, contributors are not paid by anyone for their
 				Eclipse contributions.</li>
-				<li><strong>Top Blogger</strong> - The blogger on Planet Eclipse with the most blog posts.
- 				<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies the welcoming
+				<li><strong>Top Blogger</strong> - A blogger on Planet Eclipse with a large number of blog posts
+				that provides insightful information to the Eclipse community.
+ 				<li><strong>Top Newcomer Evangelist</strong> - An individual who best exemplifies the welcoming
  				of new people into the Eclipse community by answering questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
 			</ol> 	
