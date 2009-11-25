@@ -43,36 +43,43 @@
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Top Ambassador</strong> - Recognizes an individual (committer or non-committer) who best promotes and
-				supports the Eclipse community.  Everyone can vote on this award.</li>
-				<li><strong>Top Committer</strong> - Recognizes an Eclipse committer who best exemplifies support for the community
-				through newsgroups, Bugzilla, white papers, conference presentations, blogs and other forums.  Everyone can vote for
-				this award.</li>
-				<li><strong>Top Contributor</strong> - Recognizes an Eclipse contributor who best exemplifies support for the community through submission of patches & comments on bugs,
-						posts to newsgroups, creation of white papers, presentations at conferences, blogs, IRC 
-						and other forums.  Top contributors make their contributions due to their passion for 
-						making Eclipse a better community.  In general, no one is paying them for the time they 
-						spend on making their Eclipse contributions. Everyone can vote on this award.
- 				<li><strong>Most Prolific Newcomer Evangelist</strong> - This individual best exemplifies the welcoming of new people into the
-				Eclipse community.  This award will be presented to the individual that has answered the most questions raised on the
-				<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup.</li>
+				<li><strong>Top Committer</strong> - An Eclipse committer who best exemplifies support for the
+				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
+				<li><strong>Most Active Committer</strong> - The Eclipse committer with the highest number of
+				commits.</li>	
+				<li><strong>Top Bug Fixer</strong> - The Eclipse committer with the highest number of bugs
+				closed.</li>				
+				<li><strong>Top Contributor</strong> - An Eclipse contributor who best exemplifies support for
+				the community through forums, submission of patches and comments on bugs, tutorials, conference
+				presentations, blogs and other areas. In general, contributors are not paid by anyone for their
+				Eclipse contributions.</li>
+				<li><strong>Top Blogger</strong> - The blogger on Planet Eclipse with the most blog posts.
+ 				<li><strong>Top Newcomer Evangelist</strong> - This individual best exemplifies the welcoming
+ 				of new people into the Eclipse community by answering questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
+ 				Newcomers forum</a>.</li>
 			</ol> 	
 		</p>
 
 		<h3>Technology Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Best Commercial Eclipse-Based Developer Tool</strong> - Recognizes a commercial product that provides an
+				<li><strong>Most Open Project</strong> - A project that best exemplifies transparency through
+				their code access, communications and open source practices. </li>			
+				<li><strong>Most Popular Commercial Product</strong> - An Eclipse-based commercial product
+				used and loved by the community.</li>
+				<li><strong>Most Popular Project</strong> - An open source project used and loved by the
+				Eclipse community.</li>							
+				<li><strong>Best Commercial Eclipse-Based Developer Tool</strong> - A commercial product that provides an
 				innovative, high quality product for software developers.</li>
-				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - Recognizes an open source project (not hosted at
+				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - An open source project (not hosted at
 				Eclipse) that provides an innovative, high quality product for software developers.</li>
-				<li><strong>Best Commercial Equinox Application</strong> - Recognizes a commercial product that illustrates the
+				<li><strong>Best Commercial Equinox Application</strong> - A commercial product that illustrates the
 				most innovative use of Eclipse Equinox.</li>
-				<li><strong>Best Open Source Equinox Application</strong> - Recognizes an open source project (not hosted at
+				<li><strong>Best Open Source Equinox Application</strong> - An open source project (not hosted at
 				Eclipse) that illustrates the most innovative use of Eclipse Equinox.</li>
-				<li><strong>Best Commercial RCP Application</strong> - Recognizes a commercial product that illustrates the
+				<li><strong>Best Commercial RCP Application</strong> - A commercial product that illustrates the
 				most innovative use of Eclipse RCP for end user applications.</li>
-				<li><strong>Best Open Source RCP Application</strong> - Recognizes an open source project (not hosted at
+				<li><strong>Best Open Source RCP Application</strong> - An open source project (not hosted at
 				Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.</li>
 			</ol>
 		</p>
