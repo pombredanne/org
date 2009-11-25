@@ -73,10 +73,6 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
-		<p>
-		To read more about the candidates, click on the plus sign beside each name.
-		</p>		
-
 		<h3>Top Blogger</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
@@ -95,10 +91,6 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>	
-
-		<p>
-		To read more about the candidates, click on the plus sign beside each name.
-		</p>		
 
 		<h3>Top Bug Fixer</h3>
 
@@ -119,10 +111,6 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
-		<p>
-		To read more about the candidates, click on the plus sign beside each name.
-		</p>
-
 		<h3>Top Committer</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
@@ -142,10 +130,6 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
-		<p>
-		To read more about the candidates, click on the plus sign beside each name.
-		</p>
-
 		<h3>Top Contributor</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
@@ -164,10 +148,6 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>	
-
-		<p>
-		To read more about the candidates, click on the plus sign beside each name.
-		</p>
 
 		<h3>Top Newcomer Evangelist</h3>
 
@@ -189,7 +169,7 @@ function switchMenu(obj) {
 		</div>	
 
 		<p>
-		To read more about the candidates, click on the plus sign beside each name.
+		To read comments submitted for each candidate, click on their name.
 		</p>
 		
 	</div>
