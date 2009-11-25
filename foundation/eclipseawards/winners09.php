@@ -70,8 +70,7 @@ ob_start();
 				<li class="winner">Ed Merks (Winner)</li>
 			</ul>
 		</div>			
-		<br />
-		<a href="individual.php">A complete list of the nominees for the 2009 Individual Awards can be found here.</a>
+
 		<br /><br />
 
 	<h2><br>Technology Award Winners</h2>
@@ -125,8 +124,7 @@ ob_start();
 				<li class="finalist"><a href="http://mae.cee.uiuc.edu/software_and_tools/maeviz.html" target="blank">MAEviz</a></li>
 			</ul>
 		</div>			
-		<br />
-		<a href="technology.php">A complete list of the nominees for the 2009 Technology Awards can be found here.</a>
+
 		<br /><br />
 	</div>
 	
