@@ -54,7 +54,7 @@ function switchMenu(obj) {
 			The following is a list of nominations submitted for the Individual Awards.  Nominations close on January 29, 2009.
 		</p>
 		
-		<h3>Top Committer</h3>
+		<h3>Most Active Committer</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
@@ -77,7 +77,7 @@ function switchMenu(obj) {
 		To read more about the candidates, click on the plus sign beside each name.
 		</p>		
 
-		<h3>Most Active Committer</h3>
+		<h3>Top Blogger</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
@@ -123,7 +123,7 @@ function switchMenu(obj) {
 		To read more about the candidates, click on the plus sign beside each name.
 		</p>
 
-		<h3>Top Contributor</h3>
+		<h3>Top Committer</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
@@ -146,7 +146,7 @@ function switchMenu(obj) {
 		To read more about the candidates, click on the plus sign beside each name.
 		</p>
 
-		<h3>Top Blogger</h3>
+		<h3>Top Contributor</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
