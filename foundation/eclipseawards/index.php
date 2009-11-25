@@ -64,9 +64,9 @@
 		<h3>Technology Awards</h3>
 		<p>
 			<ol>						
-				<li><strong>Best Commercial Eclipse-Based Developer Tool</strong> - A commercial product that provides an
+				<li><strong>Best Commercial Developer Tool</strong> - A commercial product that provides an
 				innovative, high quality product for software developers.</li>
-				<li><strong>Best Open Source Eclipse-Based Developer Tool</strong> - An open source project (not hosted at
+				<li><strong>Best Open Source Developer Tool</strong> - An open source project (not hosted at
 				Eclipse) that provides an innovative, high quality product for software developers.</li>
 				<li><strong>Best Commercial Equinox Application</strong> - A commercial product that illustrates the
 				most innovative use of Eclipse Equinox.</li>
