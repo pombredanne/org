@@ -102,10 +102,10 @@
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
-				<li><a href="nominate_individual.php">Make a Project Nomination</a></li>				
+				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
-				<li><a href="individual.php">Project Nominees</a></li>
+				<li><a href="project.php">Project Nominees</a></li>
 				<li><a href="technology.php">Technology Nominees</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
