@@ -34,15 +34,17 @@ ob_start();
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Individual Award Finalists</h2>
-		<p>Presented below is the list of award finalists for each of the individual awards catagories.</p>
+		<p>Presented below is the list of award finalists for each of the individual awards catagories as
+		determined by votes from the community.</p>
+
 		<div class="homeitem3col">
-			<h3>Top Ambassador</h3>
+			<h3>Top Bug Fixer</h3>
 			<ul>
+				<li class="finalist"></li>	
 				<li class="finalist"></li>
-				<li class="finalist"></li>
-				<li class="finalist"></li>
+				<li class="finalist"></li>					
 			</ul>
-		</div>	
+		</div>
 		
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
@@ -74,6 +76,32 @@ ob_start();
 		<a href="individual.php">A complete list of the nominees for the 2010 Individual Awards can be found here.</a>
 		<br /><br />
 
+	<h2><br>Project Award Winners</h2>
+		<p>Presented below is the list of award finalists for each of the individual awards catagories as
+		determined by votes from the community.</p>
+			
+		<div class="homeitem3col">
+		<h3>Best New Feature or Project</h3>
+			<ul>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+			</ul>
+		</div>	
+			
+		<div class="homeitem3col">
+			<h3>Most Open Project</h3>
+			<ul>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+			</ul>
+		</div>
+		<br />
+		<a href="project.php">A complete list of the nominees for the 2010 Project Awards can be found here.</a>
+		<br /><br />
+	</div>
+
 	<h2><br>Technology Award Winners</h2>
 		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
 			by this year's judging panels.</p>
@@ -81,48 +109,34 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Best Commerical Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.adobe.com/products/flex/" target="blank"></a></li>
-				<li class="finalist"><a href="http://www.guidancer.com" target="blank"></a></li>
-				<li class="finalist"><a href="http://www.instantiations.com/windowbuilder/index.html?id=1" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>	
 			
 		<div class="homeitem3col">
 			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.acceleo.org" target="blank"></a></li>
-				<li class="finalist"><a href="http://andrei.gmxhome.de/anyedit/index.html" target="blank"></a></li>
-				<li class="finalist"><a href="http://openrules.com" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Commercial Equinox Application</h3>
+		<h3>Best Equinox Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.cas-pia.de" target="blank"></a></li>
-				<li class="finalist"><a href="http://www.prosyst.com/products/osgi_ext_smart.html" target="blank"></a></li>
-				<li class="finalist"><a href="http://eclipsesource.com/en/products/yoxos-enterprise/" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Open Source Equinox Application</h3>
+			<h3>Best RCP Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.modulefusion.org" target="blank"></a></li>
-				<li class="finalist"><a href="http://vif.sourceforge.net/" target="blank"></a></li>
-			</ul>
-		</div>
-		<div class="homeitem3col">
-			<h3>Best Commercial RCP Application</h3>
-			<ul>
-				<li class="finalist"><a href="http://www.pluck-n-play.com" target="blank"></a></li>
-				<li class="finalist"><a href="http://www.anyware-tech.com/en/st/eclipse_platform/ecr_rcp_application.html" target="blank"></a></li>
-				<li class="finalist"><a href="http://demos.netcetera.ch/nets" target="blank"></a></li>
-			</ul>
-		</div>
-		<div class="homeitem3col">
-			<h3>Best Open Source RCP Application</h3>
-			<ul>
-				<li class="finalist"><a href="http://directory.apache.org/studio" target="blank"></a></li>
-				<li class="finalist"><a href="http://mae.cee.uiuc.edu/software_and_tools/maeviz.html" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
+				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>			
 		<br />
