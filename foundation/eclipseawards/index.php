@@ -43,10 +43,6 @@
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Most Active Committer</strong> - An Eclipse committer with a high number of
-				commits that have made a difference in the quality of Eclipse.</li>
-				<li><strong>Top Blogger</strong> - A blogger on Planet Eclipse with a large number of blog posts
-				that provides insightful information to the Eclipse community.
 				<li><strong>Top Bug Fixer</strong> - An Eclipse committer that has improved Eclipse by fixing
 				a high number of bugs.</li>		
 				<li><strong>Top Committer</strong> - The best all-around Eclipse committer who exemplifies support for the
@@ -60,7 +56,17 @@
  				Newcomers forum</a>.</li>
 			</ol> 	
 		</p>
-
+		
+		<h3>Project Awards</h3>
+		<p>
+			<ol>						
+				<li><strong>Best New Feature or Project</strong> - An Eclipse-based commercial product
+				used and loved by the community.</li>
+				<li><strong>Most Open Project</strong> - A project that best exemplifies transparency through
+				their communications and open source practices. </li>	
+				</ol>
+		</p>
+		
 		<h3>Technology Awards</h3>
 		<p>
 			<ol>						
@@ -68,21 +74,12 @@
 				innovative, high quality product for software developers.</li>
 				<li><strong>Best Open Source Developer Tool</strong> - An open source project (not hosted at
 				Eclipse) that provides an innovative, high quality product for software developers.</li>
-				<li><strong>Best Commercial Equinox Application</strong> - A commercial product that illustrates the
-				most innovative use of Eclipse Equinox.</li>
-				<li><strong>Best Open Source Equinox Application</strong> - An open source project (not hosted at
-				Eclipse) that illustrates the most innovative use of Eclipse Equinox.</li>
-				<li><strong>Best Commercial RCP Application</strong> - A commercial product that illustrates the
-				most innovative use of Eclipse RCP for end user applications.</li>
-				<li><strong>Best Open Source RCP Application</strong> - An open source project (not hosted at
-				Eclipse) that illustrates the most innovative use of Eclipse RCP for end user applications.</li>
-				<li><strong>Most Open Project</strong> - A project that best exemplifies transparency through
-				their code access, communications and open source practices. </li>			
-				<li><strong>Most Popular Commercial Product</strong> - An Eclipse-based commercial product
-				used and loved by the community.</li>
-				<li><strong>Most Popular Project</strong> - An open source project used and loved by the
-				Eclipse community.</li>	
-				</ol>
+				<li><strong>Best Equinox Application</strong> - A commercial product or open source project
+				(not hosted at Eclipse) that illustrates the most innovative use of Eclipse Equinox.</li>
+				<li><strong>Best RCP Application</strong> - A commercial product or open source project
+				(not hosted at Eclipse) that illustrates the most innovative use of Eclipse RCP for end user
+				applications.</li>
+			</ol>
 		</p>
 		
 		<h3>Important Dates</h3>
