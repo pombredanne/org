@@ -74,7 +74,7 @@
 		<ul>
 			<li>Registration: email <a href="mailto:webinar-eclipse@eclipse.org">webinar-eclipse@eclipse.org</a></li>
 			<li>Date: December 14, 2009</li>
-			<li>Time: 9:00 am PST, 12:00 pm EST, 5:00 pm GMT, 6:00 pm CEST -
+			<li>Time: 9:00 am PST / 12:00 pm EST / 5:00 pm GMT / 6:00 pm CEST -
 			<a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=12&day=14&year=2009&hour=17&min=0&sec=0&p1=0" target=”blank”>Convert to other time zones</a></li>
 		</ul>
 		
