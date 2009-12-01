@@ -23,7 +23,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-		<p>There are 2 weeks left to <a href="http://www.eclipsecon.org/2010/submissions/">submit your
+		<p>There are 2 weeks left to <a href="http://www.eclipse.org/go/EC10_cfp@cbdec2">submit your
 		talk</a> for EclipseCon 2010! The call for participation deadline is <b>December 18</b>.</p>
 
 		<p>As a special bonus, if you submit ahead of the deadline by December 10, you will be eligible for
@@ -41,13 +41,13 @@
 		</ul>
 		</p>
 
-		<p>Contribute to the community by <a href="http://www.eclipsecon.org/2010/submissions/">making a proposal</a>
+		<p>Contribute to the community by <a href="http://www.eclipse.org/go/EC10_cfp@cbdec2">making a proposal</a>
 		or <a href="https://www.eclipsecon.org/submissions/2010/search.php?search=*">reviewing submissions</a>.
 		Don't miss out on the early bird program selection!
 		</p>
 
-		<p>EclipseCon 2010 is March 22-25, 2010 in Santa Clara, CA. <a href="http://www.eclipsecon.org/2010/registration/">Registration</a>
-		is already open and <a href="http://www.eclipsecon.org/2010/sponsorshipprospectus/">sponsorship
+		<p>EclipseCon 2010 is March 22-25, 2010 in Santa Clara, CA. <a href="http://www.eclipse.org/go/EC10_register@cbdec2">Registration</a>
+		is already open and <a href="http://www.eclipse.org/go/EC10_sponsor@cbdec2">sponsorship
 		packages</a> are available.</p>
 
 
