@@ -2,7 +2,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse In The Large Webinar";
+	$pageTitle 		= "Join the Eclipse In The Large Webinar";
 	$pageKeywords	= "eclipse, enterprise";
 	$pageAuthor		= "Donald Smith";
 	
@@ -77,9 +77,7 @@
 			<li>Time: 9:00 am PST / 12:00 pm EST / 5:00 pm GMT / 6:00 pm CEST -
 			<a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=12&day=14&year=2009&hour=17&min=0&sec=0&p1=0" target=”blank”>Convert to other time zones</a></li>
 		</ul>
-		
 		</p>
- 
 
  	</div>
  	</div>
