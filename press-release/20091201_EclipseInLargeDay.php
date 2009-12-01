@@ -70,7 +70,7 @@
 		
 		<p><b>Webinar Details:</b><br>
 		This webinar is open to the public via web conference - to ensure your spot, please register now by
-		email to <a href="mailto:events@eclipse.org">live@eclipse.org</a>.
+		email to <a href="mailto:live@eclipse.org">live@eclipse.org</a>.
 		<ul>
 			<li>Registration: email <a href="mailto:live@eclipse.org">live@eclipse.org</a></li>
 			<li>Date: December 14, 2009</li>
