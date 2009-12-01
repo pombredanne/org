@@ -68,8 +68,8 @@
 		</ul>
 		</p>
 		
-		<p>This webinar is open to the public via web conference - to ensure your system is compatible,
-		please register in advance [LINK TBD].
+		<p>This webinar is open to the public via web conference - to ensure your system is compatible, and ensure
+		your spot, please register now [LINK TBD].
 		<ul>
 			<li>Registration link [TBD]</li>
 			<li>Date: December 14, 2009</li>
