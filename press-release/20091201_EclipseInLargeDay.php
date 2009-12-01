@@ -19,7 +19,6 @@
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p><em>This page is DRAFT, not complete and not yet meant to be shared.</em></p>
 		<h2>Community Bulletin</h2>
 		
 		<p>IT departments of large enterprises face unique challenges deploying Eclipse to thousands, 
@@ -68,12 +67,12 @@
 		</ul>
 		</p>
 		
-		<p>This webinar is open to the public via web conference - to ensure your system is compatible, and ensure
-		your spot, please register now [LINK TBD].
+		<p>This webinar is open to the public via web conference - to ensure your spot, please register now by
+		email to <a href="mailto:events@eclipse.org">events@eclipse.org</a>.
 		<ul>
-			<li>Registration link [TBD]</li>
+			<li>Registration: email <a href="mailto:events@eclipse.org">events@eclipse.org</a></li>
 			<li>Date: December 14, 2009</li>
-			<li>Time: 9am Pacific, Noon Eastern, 17:00 CET</li>
+			<li>Time: 9:00 am PST, 12:00 pm EST, 5:00 pm GMT, 6:00 pm CEST</li>
 		</ul>
 
 	
