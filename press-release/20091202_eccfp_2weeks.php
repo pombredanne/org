@@ -24,7 +24,7 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>There are 2 weeks left to <a href="http://www.eclipsecon.org/2010/submissions/">submit your
-		talk</a> for EclipseCon 2010.</p> 
+		talk</a> for EclipseCon 2010!</p> 
 
 		<p>EclipseCon will feature talks on a wide variety of subjects, including e4, mobile & embedded,
 		modeling, runtime, tools and more! Remember that this year, the conference is being organized
