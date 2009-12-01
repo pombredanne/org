@@ -17,69 +17,71 @@
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <div id="maincontent">
+	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
 		<p>IT departments of large enterprises face unique challenges deploying Eclipse to thousands, 
-		and even tens of thousands of their developers.  Join us on December 14th, 2009 for a webinar that 
+		and even tens of thousands, of their developers.  Join us on December 14, 2009 for a webinar that 
 		will include
 		speakers from Cisco, Morgan Stanley and eBay about some of the key challenges they face,
-		and steps they have taken to address.</p> 
+		and steps they have taken to address these issues.</p> 
 		
-		<p>Format and Agenda:<br>
-		Each speaker will present for up to 20 minutes, followed by up to 10 minutes Q&A.  Each speaker
-		has identified four key topics they find most challenging and will discuss:
+		<p><b>Format and Agenda:</b><br>
+		Each speaker will present for up to 20 minutes, followed by up to 10 minutes of Q&A.  Each speaker
+		has identified key topics they find most challenging.  They will discuss:
 		<ul>
-			<li>Dennis Vaughn, Cisco</li>
+			<li><b>Dennis Vaughn, Cisco</b></li>
 				<ul>
 					<li>Scalability (65k + source files)</li>
-					<li>Diverse Deployments (Geographically, NFS, OS/Versions)</li>
-					<li>Engineering Environment Diversity (Legacy Tools, Acquisitions)</li>
-					<li>Working Culture - (Curmudgeons versus New Hires, ROI versus VI/Emacs)</li>
+					<li>Diverse Deployments (geographically, NFS, OS/Versions)</li>
+					<li>Engineering Environment Diversity (legacy tools, acquisitions)</li>
+					<li>Working Culture (curmudgeons versus new hires, ROI versus VI/Emacs)</li>
 				</ul>
-			<li>Miles Daffin, Morgan Stanley</li>
+			<li><b>Miles Daffin, Morgan Stanley</b></li>
 				<ul>
-					<li>Enterprise constraints and their consequences for Eclipse Provisioning
+					<li>Enterprise Constraints and their Consequences for Eclipse Provisioning
 					<ul>
 						<li>Zen and the Art of creating and maintaining a private Eclipse environment behind the corporate firewall</li> 
-						<li>Enterprise Eclipse Provisioning Requirements - functional and non-functional</li>
+						<li>Enterprise Eclipse provisioning requirements - functional and non-functional</li>
 						<li>Meeting the requirements - how have we coped?</li>
-						<li>What problems still exist? (Global configuration and increasing security.)</li>
+						<li>What problems still exist? (global configuration and increasing security.)</li>
 					</ul></li>
 					
-					<li>Next steps: further reduce Total Cost of Ownership and provide more useful features as needed
+					<li>Next Steps: Further Reduce Total Cost of Ownership and Provide more Useful Features as Needed
 						<ul>
-							<li>Improve B3 Tooling to make Aggregation builds (mirrors) easier to debug</li>
-							<li>Automation of Aggregation builds</li>
+							<li>Improve B3 tooling to make aggregation builds (mirrors) easier to debug</li>
+							<li>Automation of aggregation builds</li>
 							<li>Workspace provisioning</li>
 							<li>Usage Tracking</li>
 						</ul>
 					</li>
 				</ul>
-			<li>Joep Rottinghuis, eBay</li>
+			<li><b>Joep Rottinghuis, eBay</b></li>
 				<ul>
 					<li>Scalability (100k + source files)</li>
 					<li>Deployment (individualized workspaces)</li>
 					<li>Usage Tracking (who is using what, and what issues are in what versions)</li>
-					<li>Manifest Maintenance (OSGi Bundle/Package versions)</li>
+					<li>Manifest Maintenance (OSGi bundle/package versions)</li>
 				</ul>
 		</ul>
 		</p>
 		
-		<p>This webinar is open to the public via web conference - to ensure your spot, please register now by
+		<p><b>Webinar Details:</b><br>
+		This webinar is open to the public via web conference - to ensure your spot, please register now by
 		email to <a href="mailto:events@eclipse.org">events@eclipse.org</a>.
 		<ul>
 			<li>Registration: email <a href="mailto:events@eclipse.org">events@eclipse.org</a></li>
 			<li>Date: December 14, 2009</li>
-			<li>Time: 9:00 am PST, 12:00 pm EST, 5:00 pm GMT, 6:00 pm CEST</li>
+			<li>Time: 9:00 am PST, 12:00 pm EST, 5:00 pm GMT, 6:00 pm CEST -
+			<a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=12&day=14&year=2009&hour=17&min=0&sec=0&p1=0" target=”blank”>Convert to other time zones</a></li>
 		</ul>
-
-	
 		
 		</p>
  
 
+ 	</div>
  	</div>
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
