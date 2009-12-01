@@ -36,6 +36,9 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20091201_EclipseInLargeDay.php">Eclipse In The Large Webinar</a> - December 1, 2009</li>
+		<li><a href="20091105_lastchanceEclipseDay.php">Last Chance to Register for Eclipse Modeling and EclipseRT Days</a> - November 5, 2009</li>
+		<li><a href="20091104_eclipseconcfp.php">EclipseCon 2010 Call for Papers is Now Open</a> - November 4, 2009</li>
 		<li><a href="20091015_novdemocamps.php">Join the Eclipse Community for a DemoCamp Near You</a> - October 15, 2009</li>
 		<li><a href="20091007_pulsar.php">Eclipse Pulsar Gains Momentum with Mobile Industry Leaders</a> - October 7, 2009</li>
 		<li><a href="20091002modelingday.php">Announcing Eclipse Modeling Day in NYC and Toronto; Register Now</a> - October 2, 2009</li>
