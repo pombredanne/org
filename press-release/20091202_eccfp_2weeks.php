@@ -28,8 +28,8 @@
 
 		<p>As a special bonus, if you submit ahead of the deadline by December 10, you will be eligible for
 		the early bird program selection.  The program committee will pick 5 great talks for the EclipseCon
-		schedule from those submitted by December 10 and the submitters will also be awarded an Eclipse shirt.
-		The early bird talks will be announced December&nbsp;14.</p> 
+		schedule from those submitted by December 10.  The submitters of the 5 chosen talks will also be
+		awarded an Eclipse shirt. The early bird selections will be announced December&nbsp;14.</p> 
 
 		<p>EclipseCon will feature talks on a wide variety of subjects, including e4, mobile & embedded,
 		modeling, runtime, tools and more! This year, the conference is being organized
