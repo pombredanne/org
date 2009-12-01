@@ -37,7 +37,7 @@
 		<ul>
 			<li><strong>Making with Eclipse</strong> - how people use Eclipse to create great software. 
 			<li><strong>Making at Eclipse</strong> - state-of-the-nation talks about Eclipse projects and how people can use the technology. 
-			<li><strong>Making Community</strong> - how can Eclipse projects and the wider Eclipse community continue to grow and prosper. 
+			<li><strong>Making Community</strong> - how Eclipse projects and the wider Eclipse community can continue to grow and prosper. 
 		</ul>
 		</p>
 
