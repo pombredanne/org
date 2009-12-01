@@ -3,8 +3,8 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "2 Weeks Left for the EclipseCon Call for Papers";
-	$pageKeywords	= "eclipse, eclipsecon, call for papers";
+	$pageTitle 		= "EclipseCon Call for Papers Closes Dec. 18 - Special Selection for Early Submissions";
+	$pageKeywords	= "eclipse, eclipsecon, call for papers, 2010, submissions, early bird";
 	$pageAuthor		= "Ian Skerrett";
 	
 	# Add page-specific Nav bars here
@@ -24,10 +24,15 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>There are 2 weeks left to <a href="http://www.eclipsecon.org/2010/submissions/">submit your
-		talk</a> for EclipseCon 2010!</p> 
+		talk</a> for EclipseCon 2010! The call for participation deadline is <b>December 18</b>.</p>
+
+		<p>As a special bonus, if you submit ahead of the deadline by December 10, you will be eligible for
+		the early bird program selection.  The program committee will pick 5 great talks for the EclipseCon
+		schedule from those submitted by December 10 and the submitters will also be awarded an Eclipse shirt.
+		The early bird talks will be announced December&nbsp;14.</p> 
 
 		<p>EclipseCon will feature talks on a wide variety of subjects, including e4, mobile & embedded,
-		modeling, runtime, tools and more! Remember that this year, the conference is being organized
+		modeling, runtime, tools and more! This year, the conference is being organized
 		around three themes: 
 		<ul>
 			<li><strong>Making with Eclipse</strong> - how people use Eclipse to create great software. 
@@ -38,10 +43,12 @@
 
 		<p>Contribute to the community by <a href="http://www.eclipsecon.org/2010/submissions/">making a proposal</a>
 		or <a href="https://www.eclipsecon.org/submissions/2010/search.php?search=*">reviewing submissions</a>.
-		The call for participation deadline is December 18.</p>
+		Don't miss out on the early bird program selection!
+		</p>
 
 		<p>EclipseCon 2010 is March 22-25, 2010 in Santa Clara, CA. <a href="http://www.eclipsecon.org/2010/registration/">Registration</a>
-		is already open.</p>
+		is already open and <a href="http://www.eclipsecon.org/2010/sponsorshipprospectus/">sponsorship
+		packages</a> are available.</p>
 
 
  	</div>
