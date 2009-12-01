@@ -41,7 +41,7 @@
 				</ul>
 			<li>Miles Daffin, Morgan Stanley</li>
 				<ul>
-					<li>Enterprise constraints and their consequences for Eclipse Provisionin
+					<li>Enterprise constraints and their consequences for Eclipse Provisioning
 					<ul>
 						<li>Zen and the Art of creating and maintaining a private Eclipse environment behind the corporate firewall</li> 
 						<li>Enterprise Eclipse Provisioning Requirements - functional and non-functional</li>
@@ -52,8 +52,8 @@
 					<li>Next steps: further reduce Total Cost of Ownership and provide more useful features as needed
 						<ul>
 							<li>Improve B3 Tooling to make Aggregation builds (mirrors) easier to debug</li>
-							<li>Automate Aggregation builds?</li>
-							<li>Workspace provisioning?</li>
+							<li>Automation of Aggregation builds</li>
+							<li>Workspace provisioning</li>
 							<li>Usage Tracking</li>
 						</ul>
 					</li>
