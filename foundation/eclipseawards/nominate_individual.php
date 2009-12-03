@@ -50,7 +50,6 @@
 		</ul>
 
 		<h2>Determining Winners</h2>
-	
 		<p>
 		The Individual Award winners will be determined by a vote of the community. One vote per person, per category.  
 		After nominations close on January 29, 2009, voting will run from February 1-26, 2009, 5:00 pm EST.  
