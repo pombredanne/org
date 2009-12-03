@@ -37,13 +37,17 @@
 		<li>Top Contributor</li>
 		<li>Top Newcomer Evangelist</li>
 		</ul>
+		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_individual.php">Make an
+		Individual Award Nomination</a>
 
 		<p><strong>Project Award categories:</strong></p>
 		<ul>
 		<li>Most Innovative New Feature or Eclipse Project</li>
 		<li>Most Open Project</li>
 		</ul>
-
+		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_project.php">Make an
+		Project Award Nomination</a>
+		
 		<p><strong>Technology Award categroies:</strong></p>
 		<ul>
 		<li>Best Commercial Developer Tool</li>
@@ -51,13 +55,15 @@
 		<li>Best EclipseRT Applicatiom</li>
 		<li>Best RCP Application</li>
 		</ul>
+		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php">Make a
+		Technology Award Nomination</a>
 		
 		<p>Anyone can submit a nomination and you are welcome to nominate your own projects, products and
 		applications. More details about the awards and the nomination process can be found on the
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards
 		page</a>. Nominations will be accepted until January 29, 2010 and the winners will be announced
 		at <a href="http://www.eclipsecon.org">EclipseCon</a>, March 22-25, 2010.</p>
-
+		
 	</div>
 </div>
 <div id="rightcolumn">
