@@ -39,14 +39,14 @@ ob_start();
 		</p>
 		
 		<div class="homeitem3col">
-			<h3>Best New Feature or Project</h3>
+			<h3>Shiny New Toy Award</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
-			<h3>Most Open Project</h3>
+			<h3>Open Sesame Award</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
