@@ -35,7 +35,7 @@
 		
 		<p>
 			The Eclipse Community Awards were created to recognize and thank contributions to a vibrant Eclipse
-			vcommunity.  There are three categories of awards: 1) awards for individuals, 2) awards for projects, and
+			community.  There are three categories of awards: 1) awards for individuals, 2) awards for projects, and
 			3) awards for technologies and products.  The awards will be presented on March 22, 2009 at
 			<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.
 		</p>
