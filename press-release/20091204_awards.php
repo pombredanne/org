@@ -27,17 +27,33 @@
 		
 		<p>The <a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community
 		Awards</a> are an annual event designed to show appreciation for contributions that make Eclipse
-		a stronger community.  There are three categories of awards - individual, project and technology.
-		The Eclipse Foundation is now accepting nominations for the awards, so show your gratitude and
-		nominate a person, project or product that has made a difference to you.</p>
+		a stronger community.  There are three categories of awards - individuals, Eclipse projects and 
+		technologies. The Eclipse Foundation is now accepting nominations for the awards, so show your
+		gratitude and nominate a person, Eclipse project or product that has made a difference to you.</p>
 		
-		<p>The Individual Award categories are Top Committer, Top Contributor and Top Newcomer Evangelist.
-		The Project Award categories are Most Innovative New Feature or Eclipse Project and Most Open
-		Project. The Technology Award categroies are Best Commercial Developer Tool, Best Open
-		Source Developer Tool, Best EclipseRT Applicatiom and Best RCP Application.  Anyone can submit
-		a nomination and you are welcome to nominate your own projects, products and applications.</p>
+		<p><strong>Individual Award categories:</strong></p>
+		<ul>
+		<li>Top Committer</li>
+		<li>Top Contributor</li>
+		<li>Top Newcomer Evangelist</li>
+		</ul>
 
-		<p>More details about the awards and the nomination process can be found on the
+		<p><strong>Project Award categories:</strong></p>
+		<ul>
+		<li>Most Innovative New Feature or Eclipse Project</li>
+		<li>Most Open Project</li>
+		</ul>
+
+		<p><strong>Technology Award categroies:</strong></p>
+		<ul>
+		<li>Best Commercial Developer Tool</li>
+		<li>Best Open Source Developer Tool</li>
+		<li>Best EclipseRT Applicatiom</li>
+		<li>Best RCP Application</li>
+		</ul>
+		
+		<p>Anyone can submit a nomination and you are welcome to nominate your own projects, products and
+		applications. More details about the awards and the nomination process can be found on the
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards
 		page</a>. Nominations will be accepted until January 29, 2010 and the winners will be announced
 		at <a href="http://www.eclipsecon.org">EclipseCon</a>, March 22-25, 2010.</p>
