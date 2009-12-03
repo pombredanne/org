@@ -77,7 +77,7 @@ function switchMenu(obj) {
 
 		<p><a href="javascript:switchMenu('LarsVogel');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			Name1</a>
+			Lars Vogel</a>
 		</p>
 		<div id="LarsVogel" class="switchcontent">
 		<p>
