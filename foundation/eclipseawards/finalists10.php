@@ -91,7 +91,6 @@ ob_start();
 		<br />
 		<a href="project.php">A complete list of the nominees for the 2010 Project Awards can be found here.</a>
 		<br /><br />
-	</div>
 
 	<h2><br>Technology Award Winners</h2>
 		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
