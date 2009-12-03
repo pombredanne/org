@@ -38,15 +38,6 @@ ob_start();
 		determined by votes from the community.</p>
 
 		<div class="homeitem3col">
-			<h3>Top Bug Fixer</h3>
-			<ul>
-				<li class="finalist"></li>	
-				<li class="finalist"></li>
-				<li class="finalist"></li>					
-			</ul>
-		</div>
-		
-		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
 				<li class="finalist"></li>	
@@ -81,7 +72,7 @@ ob_start();
 		determined by votes from the community.</p>
 			
 		<div class="homeitem3col">
-		<h3>Best New Feature or Project</h3>
+		<h3>Shiny New Toy Award</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
@@ -90,7 +81,7 @@ ob_start();
 		</div>	
 			
 		<div class="homeitem3col">
-			<h3>Most Open Project</h3>
+			<h3>Open Sesame Award</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
@@ -124,7 +115,7 @@ ob_start();
 			</ul>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best Equinox Application</h3>
+		<h3>Best EclipseRT Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
