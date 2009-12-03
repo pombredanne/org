@@ -39,7 +39,7 @@
 			Individuals may be nominated by anyone in each category.  All that's required to make a nomination
 			is to list the individual's name and a paragraph on why you think they are worthy of an award in
 			the appropriate Bugzilla entry link below. Nominations opened December 3, 2009 and will close January 29,
-			2010.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
+			2010.  Winners will be announced at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>
 
 		<h2>Nomination Links</h2>
