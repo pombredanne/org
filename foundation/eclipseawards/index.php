@@ -34,50 +34,55 @@
 		<h1>$pageTitle</h1>
 		
 		<p>
-			The Eclipse Community Awards were created to recognize and thank contributions to a vibrant Eclipse
-			community.  There are three categories of awards: 1) awards for individuals, 2) awards for projects, and
-			3) awards for technologies and products.  The awards will be presented on March 22, 2010 at
+			The Eclipse Community Awards recognize the best of the Eclipse community.  There are three categories of awards: 1) Individuals, 2) Eclipse Projects, and
+			3) Technologies and Products.  The awards will be announced at
 			<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.
 		</p>
 	
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Top Committer</strong> - The best all-around Eclipse committer who exemplifies support for the
+				<li><strong>Top Committer</strong> - The Eclipse committer who best exemplifies support for the
 				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
-				<li><strong>Top Contributor</strong> - The best all-around Eclipse contributor who exemplifies support for
-				the community through forums, submission of patches and comments on bugs, tutorials, conference
-				presentations, blogs and other areas. In general, contributors are not paid by anyone for their
+				<li><strong>Top Contributor</strong> - The individual who best exemplifies support for
+				the Eclipse community through forums, submission of patches, comments on bugs, tutorials, conference
+				presentations, blogs, IRC and other areas. Contributors are the individuals that participate due to their
+				passion for the community and technology.  Typically, they are not paid for their
 				Eclipse contributions.</li>
  				<li><strong>Top Newcomer Evangelist</strong> - An individual who best exemplifies the welcoming
  				of new people into the Eclipse community by answering questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
 			</ol> 	
+			Nominations are <a href="nominate_individual.php">now open for Individual Awards.</a>
 		</p>
 		
-		<h3>Project Awards</h3>
+		<h3>Eclipse Project Awards</h3>
 		<p>
 			<ol>						
-				<li><strong>Shiny New Toy Award</strong> - A feature from an Eclipse project or an Eclipse project
+				<li><strong>Best New Feature or Eclipse Project Award ("Shiny New Toy Award")</strong> - 
+						A feature added to an Eclipse project or an Eclipse project
 				introduced in the last 12 months that is used and loved by the community.</li>
-				<li><strong>Open Sesame Award</strong> - A project that best exemplifies open source and
-				transparency through their communications and open source practices. </li>	
+				<li><strong>Most Open Project Award</strong> - An Eclipse project that best exemplifies the openness,
+				transparency and diversity expected of great open source projects. </li>	
 				</ol>
+			Nominations are <a href="nominate_project.php">now open for Eclipse Project Awards.</a>
+
 		</p>
 		
 		<h3>Technology Awards</h3>
 		<p>
 			<ol>						
 				<li><strong>Best Commercial Developer Tool</strong> - A commercial product that provides an
-				innovative, high quality product for software developers.</li>
+				innovative, high quality tool for software developers.</li>
 				<li><strong>Best Open Source Developer Tool</strong> - An open source project (not hosted at
-				Eclipse) that provides an innovative, high quality product for software developers.</li>
+				Eclipse) that provides an innovative, high quality tool for software developers.</li>
 				<li><strong>Best EclipseRT Application</strong> - An application, commercial product or open
-				source project (not hosted at Eclipse) that illustrates the most innovative use of Eclipse
-				Runtime.</li>
+				source project (not hosted at Eclipse) that illustrates the most innovative use of EclipseRT technology.</li>
 				<li><strong>Best RCP Application</strong> - An end-user desktop application (not hosted at
 				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
 			</ol>
+			Nominations are <a href="nominate_technology.php">now open for Technology Awards.</a>
+
 		</p>
 		
 		<h3>Important Dates</h3>
@@ -87,7 +92,7 @@
 				<li>Nominations close - January 29, 2010</font></li>
 				<li>Voting begins for Individual Awards - February 1, 2010</font></li>
 				<li>Voting ends for Individual Awards - February 26, 2010 at 5:00 pm EST</font></li>
-				<li>Awards Announced - March 22, 2010</li>
+				<li>Awards Announced at EclipseCon 2010 - March 22-25</li>
 			</ul>
 		</p>
 		
@@ -99,9 +104,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
-				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
-				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
+				<li><a href="nominate_individual.php">Individual Nominations</a></li>
+				<li><a href="nominate_project.php">Project Nominations</a></li>				
+				<li><a href="nominate_technology.php">Technology Nominations</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
