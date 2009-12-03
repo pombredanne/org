@@ -59,7 +59,7 @@
 		<h2>Past Winners</h2>
 		<p>
 			You will notice that there are no past winners listed for the Project category as it is new
-			to the Eclipse Community Awards.
+			to the Eclipse Community Awards this year.
 		</p>
 
 	</div>
