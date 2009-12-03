@@ -54,25 +54,6 @@ function switchMenu(obj) {
 			The following is a list of nominations submitted for the Individual Awards.  Nominations close on January 29, 2009.
 		</p>
 		
-		<h3>Top Bug Fixer</h3>
-
-		<p><a href="javascript:switchMenu('Name1');" title="Description">
-		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			Name1</a>
-		</p>
-		<div id="Name1" class="switchcontent">
-		<p>
-		<ul>
-			<li>
-			Comment 1	
-			</li>
-			<li>
-			Comment 2
-			</li>
-		</ul>
-		</p>
-		</div>	
-
 		<h3>Top Committer</h3>
 
 		<p><a href="javascript:switchMenu('Name1');" title="Description">
