@@ -14,8 +14,8 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "How to Make an Individual Nomination";
-	$pageKeywords	= "eclipse, awards, individual, nomination, eclipsecon";
+	$pageTitle 		= "How to Make a Project Nomination";
+	$pageKeywords	= "eclipse, awards, project, nomination, eclipsecon";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -33,35 +33,33 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<h2>Individual Awards</h2>
+		<h2>Project Awards</h2>
 		
 		<p>
-			Individuals may be nominated by anyone in each category.  All that's required to make a nomination
-			is to list the individual's name and a paragraph on why you think they are worthy of an award in
-			the appropriate Bugzilla entry link below. Nominations opened December 3, 2009 and will close January 29,
-			2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
+			The Project Awards are for Eclipse projects and features. Nominations may be submitted by anyone
+			in each category and committers are welcome to nominate their own projects. All that's
+			required to make a nomination is to list the project or feature and a paragraph on why you
+			think it's worthy of an award in the appropriate Bugzilla entry link below. Nominations opened
+			December 3, 2009 and will close January 29,	2009.  Winners will be announced at
+			<a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
 		</p>
 
 		<h2>Nomination Links</h2>
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominate a Top Committer</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate a Top Contributor</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate a Top Newcomer Evangelist</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominate for the Shiny New Toy Award</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate for the Open Sesame Award</a></li>
 		</ul>
 
 		<h2>Determining Winners</h2>
 		<p>
-		The Individual Award winners will be determined by a vote of the community. One vote per person, per category.  
+		The Project Award winners will be determined by a vote of the community. One vote per person, per category.  
 		After nominations close on January 29, 2009, voting will run from February 1-26, 2009, 5:00 pm EST.  
 		</p>
 		
 		<h2>Past Winners</h2>
 		<p>
-			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
-			diversity of award winners, we have decided that individuals are not eligible in any category
-			they have already won in the previous 3 years.  Individuals can also only win one category per
-			year. There are certainly individuals deserving of multiple awards, however we would like to
-			acknowledge others also worthy of recognition.
+			You will notice that there are no past winners listed for the Project category as it is new
+			to the Eclipse Community Awards.
 		</p>
 
 	</div>
