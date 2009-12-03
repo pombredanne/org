@@ -36,7 +36,7 @@
 		<p>
 			The Eclipse Community Awards recognize the best of the Eclipse community.  There are three award categories: 1) Individuals, 2) Eclipse Projects, and
 			3) Technologies and Products.  Award winners will be announced at
-			<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.
+			<a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>
 	
 		<h3>Individual Awards</h3>
@@ -54,7 +54,7 @@
  				answered the most questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
 			</ol> 	
-			Nominations are <a href="nominate_individual.php">now open for Individual Awards.</a>
+			<a href="nominate_individual.php">Nominations are now open for Individual Awards.</a>
 			<br>
 		</p>
 		
@@ -67,7 +67,7 @@
 				<li><strong>Most Open Project</strong> - An Eclipse project that best exemplifies the openness,
 				transparency and diversity expected of great open source projects. </li>	
 				</ol>
-			Nominations are <a href="nominate_project.php">now open for Eclipse Project Awards.</a>
+			<a href="nominate_project.php">Nominations are now open for Eclipse Project Awards.</a>
 			<br>
 
 		</p>
@@ -84,7 +84,7 @@
 				<li><strong>Best RCP Application</strong> - An end-user desktop application (not hosted at
 				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
 			</ol>
-			Nominations are <a href="nominate_technology.php">now open for Technology Awards.</a>
+			<a href="nominate_technology.php">Nominations are now open for Technology Awards.</a>
 			<br>
 		</p>
 		
