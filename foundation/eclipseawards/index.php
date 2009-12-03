@@ -34,17 +34,15 @@
 		<h1>$pageTitle</h1>
 		
 		<p>
-			The Eclipse Community Awards were created to recognize and thank the individuals and technologies that make Eclipse a
-			vibrant	community.  There are two categories of awards: 1) awards for individuals, and 2) awards for technologies and
-			products.   The awards will be presented on March 22, 2009 at <a href="http://www.eclipsecon.org/2010/">EclipseCon
-			2010</a>.
+			The Eclipse Community Awards were created to recognize and thank contributions to a vibrant Eclipse
+			vcommunity.  There are three categories of awards: 1) awards for individuals, 2) awards for projects, and
+			3) awards for technologies and products.  The awards will be presented on March 22, 2009 at
+			<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.
 		</p>
 	
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
-				<li><strong>Top Bug Fixer</strong> - An Eclipse committer that has improved Eclipse by fixing
-				a high number of bugs.</li>		
 				<li><strong>Top Committer</strong> - The best all-around Eclipse committer who exemplifies support for the
 				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
 				<li><strong>Top Contributor</strong> - The best all-around Eclipse contributor who exemplifies support for
@@ -60,10 +58,10 @@
 		<h3>Project Awards</h3>
 		<p>
 			<ol>						
-				<li><strong>Best New Feature or Project</strong> - An Eclipse-based commercial product
-				used and loved by the community.</li>
-				<li><strong>Most Open Project</strong> - A project that best exemplifies transparency through
-				their communications and open source practices. </li>	
+				<li><strong>Shiny New Toy Award</strong> - A feature from an Eclipse project or an Eclipse project
+				introduced in the last 12 months that is used and loved by the community.</li>
+				<li><strong>Open Sesame Award</strong> - A project that best exemplifies open source and
+				transparency through their communications and open source practices. </li>	
 				</ol>
 		</p>
 		
@@ -74,18 +72,18 @@
 				innovative, high quality product for software developers.</li>
 				<li><strong>Best Open Source Developer Tool</strong> - An open source project (not hosted at
 				Eclipse) that provides an innovative, high quality product for software developers.</li>
-				<li><strong>Best Equinox Application</strong> - A commercial product or open source project
-				(not hosted at Eclipse) that illustrates the most innovative use of Eclipse Equinox.</li>
-				<li><strong>Best RCP Application</strong> - A commercial product or open source project
-				(not hosted at Eclipse) that illustrates the most innovative use of Eclipse RCP for end user
-				applications.</li>
+				<li><strong>Best EclipseRT Application</strong> - An application, commercial product or open
+				source project (not hosted at Eclipse) that illustrates the most innovative use of Eclipse
+				Runtime.</li>
+				<li><strong>Best RCP Application</strong> - An end-user desktop application (not hosted at
+				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
 			</ol>
 		</p>
 		
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 7, 2008</font></li>
+				<li><font color="#A9A9A9">Nominations open - December 3, 2008</font></li>
 				<li>Nominations close - January 29, 2009</font></li>
 				<li>Voting begins for Individual Awards - February 1, 2009</font></li>
 				<li>Voting ends for Individual Awards - February 26, 2009 at 5:00 pm EST</font></li>
@@ -104,9 +102,6 @@
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
-				<li><a href="individual.php">Individual Nominees</a></li>
-				<li><a href="project.php">Project Nominees</a></li>
-				<li><a href="technology.php">Technology Nominees</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
