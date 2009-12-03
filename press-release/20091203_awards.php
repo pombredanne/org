@@ -62,7 +62,7 @@
 		applications. More details about the awards and the nomination process can be found on the
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards
 		page</a>. Nominations will be accepted until January 29, 2010 and the winners will be announced
-		at <a href="http://www.eclipsecon.org">EclipseCon</a>, March 22-25, 2010.</p>
+		at <a href="http://www.eclipse.org/go/EC10_web@cbawddec3">EclipseCon</a>, March 22-25, 2010.</p>
 		
 	</div>
 </div>
