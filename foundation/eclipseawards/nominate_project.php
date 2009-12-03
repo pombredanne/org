@@ -52,8 +52,9 @@
 
 		<h2>Determining Winners</h2>
 		<p>
-		The Project Award winners will be determined by a vote of the community. One vote per person, per category.  
-		After nominations close on January 29, 2009, voting will run from February 1-26, 2009, 5:00 pm EST.  
+		The Project Award winners will be determined by a vote of the community. Each person will get
+		to vote once per category. After nominations close on January 29, 2009, voting will run from
+		February 1-26, 2009, 5:00 pm EST.  
 		</p>
 		
 		<h2>Past Winners</h2>
