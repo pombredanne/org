@@ -47,8 +47,8 @@
 
 		<h2>Nomination Links</h2>
 		<ul class="midlist">
-			<li><a href="hhttps://bugs.eclipse.org/bugs/show_bug.cgi?id=296859">Nominate for the Most Innovative New Feature or Project</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate for the Most Open Project</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296859">Nominate for the Most Innovative New Feature or Project</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296860">Nominate for the Most Open Project</a></li>
 		</ul>
 
 		<h2>Determining Winners</h2>
