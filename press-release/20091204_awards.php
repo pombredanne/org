@@ -29,23 +29,18 @@
 		Awards</a> are an annual event designed to show appreciation for contributions that make Eclipse
 		a stronger community.  There are three categories of awards - individual, project and technology.
 		The Eclipse Foundation is now accepting nominations for the awards, so show your gratitude and
-		nominate a person, project or product that has made a difference.</p>
+		nominate a person, project or product that has made a difference to you.</p>
 		
-		<p>In the individual category, anyone may make a nomination for the Top Committer, Top Contributor
-		and Top Newcomer Evangelist awards.
-		</p>
-
-		<p>In the project category, anyone may make a nomination for the Shiny New Toy and Open Sesame
-		awards.</p>
-		
-		<p>In the technology category, anyone may make a nomination for the Best Commercial Eclipse-Based
-		Developer Tool, Best Open Source Eclipse-Based Developer Tool, Best EclipseRT Applicatiom and Best
-		RCP Application awards. Companies are welcome to nominate their own products.</p>
+		<p>The Individual Award categories are Top Committer, Top Contributor and Top Newcomer Evangelist.
+		The Project Award categories are Most Innovative New Feature or Eclipse Project and Most Open
+		Project. The Technology Award categroies are Best Commercial Developer Tool, Best Open
+		Source Developer Tool, Best EclipseRT Applicatiom and Best RCP Application.  Anyone can submit
+		a nomination and you are welcome to nominate your own projects, products and applications.</p>
 
 		<p>More details about the awards and the nomination process can be found on the
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards
 		page</a>. Nominations will be accepted until January 29, 2010 and the winners will be announced
-		March 22, 2010 at <a href="http://www.eclipsecon.org">EclipseCon.</a></p>
+		at <a href="http://www.eclipsecon.org">EclipseCon</a>, March 22-25, 2010.</p>
 
 	</div>
 </div>
