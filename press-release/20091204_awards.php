@@ -38,7 +38,7 @@
 		<li>Top Newcomer Evangelist</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_individual.php">Make an
-		Individual Award Nomination</a></p>
+		Individual Award Nomination</a><br><br></p>
 
 		<p><strong>Project Award categories:</strong>
 		<ul>
@@ -46,7 +46,7 @@
 		<li>Most Open Project</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_project.php">Make an
-		Project Award Nomination</a></p>
+		Project Award Nomination</a><br><br></p>
 		
 		<p><strong>Technology Award categroies:</strong>
 		<ul>
@@ -56,7 +56,7 @@
 		<li>Best RCP Application</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php">Make a
-		Technology Award Nomination</a></p>
+		Technology Award Nomination</a><br><br></p>
 		
 		<p>Anyone can submit a nomination and you are welcome to nominate your own projects, products and
 		applications. More details about the awards and the nomination process can be found on the
