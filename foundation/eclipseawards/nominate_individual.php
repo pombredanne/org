@@ -62,7 +62,7 @@
 			diversity of award winners, we have decided that individuals are not eligible in any category
 			they have already won for 3 years.  Individuals can also only win one category per year.
 			There are certainly individuals deserving of multiple awards, however we would like to
-			acknowlede others are also worthy of recognition.
+			acknowledge others are also worthy of recognition.
 		</p>
 
 	</div>
