@@ -35,7 +35,7 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Project Awards.  Nominations close on January 29, 2009.
+			The following is a list of nominations submitted for the Project Awards.  Nominations close on January 29, 2010.
 		</p>
 		
 		<div class="homeitem3col">
