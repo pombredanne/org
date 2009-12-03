@@ -53,7 +53,7 @@ ob_start();
 		</div>
 		
 		<div class="homeitem3col">
-			<h3>Best Equinox Application</h3>
+			<h3>Best EclipseRT Application</h3>
 			<ul>
 				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
