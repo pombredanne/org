@@ -42,7 +42,7 @@
 			think it's worthy of an award in the appropriate Bugzilla entry link below. The Most Innovative New Feature or Project 
 			award is for features and new projects introduced in 2009.  Nominations opened
 			December 3, 2009 and will close January 29,	2010.  Winners will be announced at
-			<a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
+			<a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>
 
 		<h2>Nomination Links</h2>
