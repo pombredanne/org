@@ -40,16 +40,10 @@
 			Eclipse.  Nominations may be submitted by anyone and vendors are welcome to nominate their
 			own products. To submit, complete the questionnaire below and e-mail it to				
 			<a href="mailto:awards@eclipse.org">awards@eclipse.org</a>. Answers can simply be addressed
-			in the body or your e-mail or in a MS Word .doc or OpenOffice
-						
+			in the body or your e-mail or in a MS Word or OpenOffice attachment.			
 			Nominations opened December 3, 2009 and will close January 29,
 			2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
-		
-		
-
-
- 
-		</p>
+		</p>		
 		
 		<h2>Nomination Questionnair</h2>
 		<ol>
@@ -62,8 +56,9 @@
 			<li>Description of the usability features</li> 
 			<li>Description of why and how the product uniquely solves a particular problem.  Ensure you also explain the problem.</li> 
 			<li>Description of the completeness of the solution, including the technology, but also documentation, white papers, tutorials, and
-			web site.  Include everything you think is important for your customers to be successful with the product.</li> 
-			<li>OPTIONAL: Feel free to send a 3-5 minute screen cam demo of your product</li> 
+			web site.  Include everything you think is important for your customers to be successful with the product. Please provide
+			links to any additional documentation rather than as e-mail attachments for easier distribution to the judging panel.</li> 
+			<li>OPTIONAL: Feel free to make a 3-5 minute screen cam demo of your product and provide the link</li> 
 		</ol>
 
 		<br>
