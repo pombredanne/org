@@ -50,7 +50,8 @@
 				passion for the community and technology.  Typically, they are not paid for their
 				Eclipse contributions.</li>
  				<li><strong>Top Newcomer Evangelist</strong> - An individual who best exemplifies the welcoming
- 				of new people into the Eclipse community by answering questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
+ 				of new people into the Eclipse community. This award will be presented to the individual that has
+ 				answered the most question in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
 			</ol> 	
 			Nominations are <a href="nominate_individual.php">now open for Individual Awards.</a>
