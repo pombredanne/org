@@ -60,9 +60,9 @@
 		<p>
 			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
 			diversity of award winners, we have decided that individuals are not eligible in any category
-			they have already won for 3 years.  Individuals can also only win one category per year.
-			There are certainly individuals deserving of multiple awards, however we would like to
-			acknowledge others are also worthy of recognition.
+			they have already won in the previous 3 years.  Individuals can also only win one category per
+			year. There are certainly individuals deserving of multiple awards, however we would like to
+			acknowledge others also worthy of recognition.
 		</p>
 
 	</div>
