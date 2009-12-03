@@ -75,18 +75,18 @@ function switchMenu(obj) {
 
 		<h3>Top Contributor</h3>
 
-		<p><a href="javascript:switchMenu('Name1');" title="Description">
+		<p><a href="javascript:switchMenu('LarsVogel');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Name1</a>
 		</p>
-		<div id="Name1" class="switchcontent">
+		<div id="LarsVogel" class="switchcontent">
 		<p>
 		<ul>
 			<li>
-			Comment 1	
+			Lars Vogel (<a href="http://vogella.de" target="blank">http://vogella.de</a>) for his useful articles, blog posts, bug reports/enhancement proposals and tweets.	
 			</li>
 			<li>
-			Comment 2
+			+1 for Lars (vogella.de)
 			</li>
 		</ul>
 		</p>
