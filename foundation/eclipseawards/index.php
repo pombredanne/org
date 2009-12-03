@@ -94,7 +94,7 @@
 				<li>Nominations close - January 29, 2010</font></li>
 				<li>Voting begins for Individual Awards - February 1, 2010</font></li>
 				<li>Voting ends for Individual Awards - February 26, 2010 at 5:00 pm EST</font></li>
-				<li>Awards Announced at EclipseCon 2010 - March 22-25</li>
+				<li>Awards Announced at EclipseCon 2010 - March 22-25, 2010</li>
 			</ul>
 		</p>
 		
