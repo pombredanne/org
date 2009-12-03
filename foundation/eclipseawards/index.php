@@ -34,8 +34,8 @@
 		<h1>$pageTitle</h1>
 		
 		<p>
-			The Eclipse Community Awards recognize the best of the Eclipse community.  There are three categories of awards: 1) Individuals, 2) Eclipse Projects, and
-			3) Technologies and Products.  The awards will be announced at
+			The Eclipse Community Awards recognize the best of the Eclipse community.  There are three award categories: 1) Individuals, 2) Eclipse Projects, and
+			3) Technologies and Products.  Award winners will be announced at
 			<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.
 		</p>
 	
@@ -54,6 +54,7 @@
  				Newcomers forum</a>.</li>
 			</ol> 	
 			Nominations are <a href="nominate_individual.php">now open for Individual Awards.</a>
+			<br>
 		</p>
 		
 		<h3>Eclipse Project Awards</h3>
@@ -66,6 +67,7 @@
 				transparency and diversity expected of great open source projects. </li>	
 				</ol>
 			Nominations are <a href="nominate_project.php">now open for Eclipse Project Awards.</a>
+			<br>
 
 		</p>
 		
@@ -82,7 +84,7 @@
 				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
 			</ol>
 			Nominations are <a href="nominate_technology.php">now open for Technology Awards.</a>
-
+			<br>
 		</p>
 		
 		<h3>Important Dates</h3>

@@ -46,8 +46,8 @@
 
 		<h2>Nomination Links</h2>
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominate for the Shiny New Toy Award</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate for the Open Sesame Award</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominate for Most Innovative New Feature or Project</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate for Most Open Project Award</a></li>
 		</ul>
 
 		<h2>Determining Winners</h2>
@@ -70,9 +70,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
-				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
-				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
+				<li><a href="nominate_individual.php">Individual Nomination</a></li>
+				<li><a href="nominate_project.php">Project Nomination</a></li>				
+				<li><a href="nominate_technology.php">Technology Nomination</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
