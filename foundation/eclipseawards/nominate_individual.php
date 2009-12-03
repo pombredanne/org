@@ -36,36 +36,33 @@
 		<h2>Individual Awards</h2>
 		
 		<p>
-			Individuals may be nominated by anyone in each category.  Nominations opened December 8, 2008 and
-			closed January 30, 2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-			To see the nominations visit the following Bugzilla entries.
+			Individuals may be nominated by anyone in each category.  All that's required to make a nomination
+			is to list the individual's name and a paragraph on why you think they are worthy of an award in
+			the appropriate Bugzilla entry linked below. Nominations opened December 3, 2009 and will close January 29,
+			2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
 		</p>
-		
+
+		<h2>Nomination Links</h2>
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257950">Nominations for Top Ambassador Award</a> - voted on by
-			everyone.</li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominations for Top Committer Award</a> - voted on by
-			everyone.</li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominations for Top Contributor Award</a> - voted on by
-			everyone.</li>
-			<li>The <strong>Most Prolific Newcomer Evangelist Award</strong> is awarded to the individual that answered the most questions posted on
-			the <a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.newcomer">eclipse.newcomer</a> newsgroup. It is not open
-			to nominations. The period of calculation is from February 27, 2008 to February 27, 2009.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominations for Top Committer</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominations for Top Contributor</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominations for Top Newcomer Evangelist</a></li>
 		</ul>
 
 		<h2>Voting</h2>
 	
 		<p>
 		The Individual Award winners are determined by a vote of the community. One vote per person, per category.  
-		After nominations closed, voting commenced February 2, 2009 and finished February 27, 2008 at 5:00 pm EST.  
+		After nominations close on January 29, 2009, voting will run from February 1-26, 2009, 5:00 pm EST.  
 		</p>
 		
 		<h2>Past Winners</h2>
 		<p>
-			Eclipse is a large, vibrant community of many well-deserving individuals and technologies.
-			Therefore, to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible
-			for a repeat award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also 
-			deserving of recognition.
+			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
+			diversity of award winners, we have decided that individuals are not eligible in any category
+			they have already won for 3 years.  Individuals can also only win one category per year.
+			There are certainly individuals deserving of multiple awards, however we would like to
+			acknowlede others are also worthy of recognition.
 		</p>
 
 	</div>
@@ -78,9 +75,6 @@
 				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
 				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
 				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
-				<li><a href="individual.php">Individual Nominees</a></li>
-				<li><a href="project.php">Project Nominees</a></li>
-				<li><a href="technology.php">Technology Nominees</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
