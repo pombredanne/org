@@ -45,7 +45,7 @@
 		<li>Most Innovative New Feature or Eclipse Project</li>
 		<li>Most Open Project</li>
 		</ul>
-		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_project.php">Make an
+		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_project.php">Make a
 		Project Award Nomination</a><br><br></p>
 		
 		<p><strong>Technology Award categroies:</strong>
