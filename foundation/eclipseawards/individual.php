@@ -51,7 +51,7 @@ function switchMenu(obj) {
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Individual Awards.  Nominations close on January 29, 2009.
+			The following is a list of nominations submitted for the Individual Awards.  Nominations close on January 29, 2010.
 		</p>
 		
 		<h3>Top Committer</h3>
