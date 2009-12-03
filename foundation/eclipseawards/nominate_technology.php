@@ -45,7 +45,7 @@
 			2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
 		</p>		
 		
-		<h2>Nomination Questionnair</h2>
+		<h2>Nomination Questionnaire</h2>
 		<ol>
 			<li>Technology award category (choose from the <a href="index.php">Eclipse Community Awards page</a>)</li>
 			<li>Name of person submitting award</li>
