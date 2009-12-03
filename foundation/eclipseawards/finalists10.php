@@ -72,7 +72,7 @@ ob_start();
 		determined by votes from the community.</p>
 			
 		<div class="homeitem3col">
-		<h3>Shiny New Toy Award</h3>
+		<h3>Most Innovative New Feature or Eclipse Project</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
@@ -81,7 +81,7 @@ ob_start();
 		</div>	
 			
 		<div class="homeitem3col">
-			<h3>Open Sesame Award</h3>
+			<h3>Most Open Project</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
@@ -98,7 +98,7 @@ ob_start();
 			by this year's judging panels.</p>
 			
 		<div class="homeitem3col">
-		<h3>Best Commerical Eclipse-Based Developer Tool</h3>
+		<h3>Best Commerical Developer Tool</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
@@ -107,7 +107,7 @@ ob_start();
 		</div>	
 			
 		<div class="homeitem3col">
-			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
+			<h3>Best Open Source Developer Tool</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
 				<li class="finalist"><a href="http://www.eclipse.org" target="blank"></a></li>
