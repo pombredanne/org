@@ -52,7 +52,7 @@
 		<ul>
 		<li>Best Commercial Developer Tool</li>
 		<li>Best Open Source Developer Tool</li>
-		<li>Best EclipseRT Applicatiom</li>
+		<li>Best EclipseRT Application</li>
 		<li>Best RCP Application</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php">Make a
