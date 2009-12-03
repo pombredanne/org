@@ -34,7 +34,6 @@
 		<h1>$pageTitle</h1>
 		
 		<h2>Technology Awards</h2>
-		
 		<p>
 			The Technology Awards are for applications, products and open source projects not hosted at
 			Eclipse.  Nominations may be submitted by anyone and vendors are welcome to nominate their
@@ -61,12 +60,11 @@
 			<li>OPTIONAL: Feel free to make a 3-5 minute screen cam demo of your product and provide the link</li> 
 		</ol>
 
-		<br>
 		<h2>Determining Winners</h2>		
 		<p>
 			The Technology Award winners are determined by a panel of judges selected from Eclipse-oriented editors and 
 			Eclipse project leaders.  The panel of judges determines winners based on a majority vote. The
-			criteria for judging the awards are: 
+			criteria for judging the awards are:
 			<ol>
 				<li>Usability and intuitiveness of the user interface - is the product user interface easy to understand?</li>
 				<li>Innovation and uniqueness - how cleverly does the product solve the problem?</li>
@@ -75,20 +73,13 @@
 			</ol>
 		</p>
 
-		<br>
 		<h2>Past Winners</h2>
 		<p>
 			Eclipse is a large, vibrant community of many well-deserving technologies. Therefore, to ensure
 			diversity of award winners, we have decided that applications, products and projects are not
-			eligible in any category
-			they have already won in the previous 3 years.  Individuals can also only win one category per
-			year. There are certainly individuals deserving of multiple awards, however we would like to
-			acknowledge others also worthy of recognition.		
-
-			Eclipse is a large, vibrant community of many well-deserving individuals and technologies.  Therefore,
-			to ensure diversity of award winners, we have decided that winners from the previous year will not be eligible for a repeat
-			award.  This does not mean that they are not deserving, it is just an acknowledgment that others are also deserving of
-			recognition.
+			eligible in any category they have already won in the previous 3 years.  They can also only
+			win one category per year. There are certainly technologies deserving of multiple awards,
+			however we would like to acknowledge others also worthy of recognition.		
 		</p>
 
 	</div>
