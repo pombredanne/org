@@ -36,13 +36,22 @@
 		<h2>Technology Awards</h2>
 		
 		<p>
-			Products and open source projects not hosted at Eclipse and may be nominated by anyone. Vendors are allowed to nominate their own products.
-			Nominations opened December 8, 2008 and closed January 30, 2009.  Winners will be announced at
-			<a href="http://www.eclipsecon.org/">EclipseCon 2009</a>.
-			Nominations for the Technology Award were sent by e-mail to <a href="mailto:awards@eclipse.org">
-			awards@eclipse.org</a> with the information indicated below. 
-		</p>
+			The Technology Awards are for applications, products and open source projects not hosted at
+			Eclipse.  Nominations may be submitted by anyone and vendors are welcome to nominate their
+			own products. To submit, complete the questionnaire below and e-mail it to				
+			<a href="mailto:awards@eclipse.org">awards@eclipse.org</a>. Answers can simply be addressed
+			in the body or your e-mail or in a MS Word .doc or OpenOffice
+						
+			Nominations opened December 3, 2009 and will close January 29,
+			2009.  Winners will be announced at <a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
+		
+		
 
+
+ 
+		</p>
+		
+		<h2>Nomination Questionnair</h2>
 		<ol>
 			<li>Technology award category (choose from the <a href="index.php">Eclipse Community Awards page</a>)</li>
 			<li>Name of person submitting award</li>
