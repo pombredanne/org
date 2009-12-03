@@ -36,7 +36,7 @@
 		<p>
 			The Eclipse Community Awards were created to recognize and thank contributions to a vibrant Eclipse
 			community.  There are three categories of awards: 1) awards for individuals, 2) awards for projects, and
-			3) awards for technologies and products.  The awards will be presented on March 22, 2009 at
+			3) awards for technologies and products.  The awards will be presented on March 22, 2010 at
 			<a href="http://www.eclipsecon.org/2010/">EclipseCon 2010</a>.
 		</p>
 	
@@ -83,11 +83,11 @@
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 3, 2008</font></li>
-				<li>Nominations close - January 29, 2009</font></li>
-				<li>Voting begins for Individual Awards - February 1, 2009</font></li>
-				<li>Voting ends for Individual Awards - February 26, 2009 at 5:00 pm EST</font></li>
-				<li>Awards Announced - March 22, 2009</li>
+				<li><font color="#A9A9A9">Nominations open - December 3, 2009</font></li>
+				<li>Nominations close - January 29, 2010</font></li>
+				<li>Voting begins for Individual Awards - February 1, 2010</font></li>
+				<li>Voting ends for Individual Awards - February 26, 2010 at 5:00 pm EST</font></li>
+				<li>Awards Announced - March 22, 2010</li>
 			</ul>
 		</p>
 		
