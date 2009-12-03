@@ -46,8 +46,10 @@
 		<ul class="midlist">
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296856" target="blank">Nominate a Top Committer</a></li>
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Nominate a Top Contributor</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296858" target="blank">Nominate a Top Newcomer Evangelist</a></li>
 		</ul>
+		<p>The <strong>Top Newcomer Evangelist</strong> award is given to the individual that answered the
+		most questions posted on the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">Newcomer
+		forum</a>. It is not open to nominations. The period of calculation is from February 26, 2009 to February 26, 2010.</p>		
 
 		<h2>Determining Winners</h2>
 		<p>
