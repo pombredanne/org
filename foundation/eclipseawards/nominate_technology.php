@@ -46,7 +46,11 @@
 		
 		<h2>Nomination Questionnaire</h2>
 		<ol>
-			<li>Technology award category (choose from the <a href="index.php">Eclipse Community Awards page</a>)</li>
+			<li>Technology award category - choose one:<br>
+				* Best Commercial Developer Tool<br>
+				* Best Open Source Developer Tool<br>
+				* Best EclipseRT Application<br>
+				* Best RCP Application</li>
 			<li>Name of person submitting award</li>
 			<li>Contact information of person (telephone and e-mail)</li>
 			<li>Name of product</li>
