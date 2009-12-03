@@ -40,7 +40,7 @@
 			in each category and committers are welcome to nominate their own projects. All that's
 			required to make a nomination is to list the project or feature and a paragraph on why you
 			think it's worthy of an award in the appropriate Bugzilla entry link below. Nominations opened
-			December 3, 2009 and will close January 29,	2009.  Winners will be announced at
+			December 3, 2009 and will close January 29,	2010.  Winners will be announced at
 			<a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
 		</p>
 
@@ -53,8 +53,8 @@
 		<h2>Determining Winners</h2>
 		<p>
 		The Project Award winners will be determined by a vote of the community. Each person will get
-		to vote once per category. After nominations close on January 29, 2009, voting will run from
-		February 1-26, 2009, 5:00 pm EST.  
+		to vote once per category. After nominations close on January 29, 2010, voting will run from
+		February 1-26, 2010, 5:00 pm EST.  
 		</p>
 		
 		<h2>Past Winners</h2>
