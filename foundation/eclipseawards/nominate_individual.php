@@ -49,7 +49,7 @@
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate a Top Newcomer Evangelist</a></li>
 		</ul>
 
-		<h2>Voting</h2>
+		<h2>Determining Winners</h2>
 	
 		<p>
 		The Individual Award winners will be determined by a vote of the community. One vote per person, per category.  
