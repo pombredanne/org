@@ -61,8 +61,8 @@
 		<p>
 			<ol>						
 				<li><strong>Best New Feature or Eclipse Project Award ("Shiny New Toy Award")</strong> - 
-						A feature added to an Eclipse project or an Eclipse project
-				introduced in the last 12 months that is used and loved by the community.</li>
+						A feature added to an existing Eclipse project or a new Eclipse project
+				introduced in 2009 that is used and loved by the community.</li>
 				<li><strong>Most Open Project Award</strong> - An Eclipse project that best exemplifies the openness,
 				transparency and diversity expected of great open source projects. </li>	
 				</ol>
@@ -106,9 +106,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="nominate_individual.php">Individual Nominations</a></li>
-				<li><a href="nominate_project.php">Project Nominations</a></li>				
-				<li><a href="nominate_technology.php">Technology Nominations</a></li>
+				<li><a href="nominate_individual.php">Make an Individual Nominations</a></li>
+				<li><a href="nominate_project.php">Make a Project Nominations</a></li>				
+				<li><a href="nominate_technology.php">Make a Technology Nominations</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>

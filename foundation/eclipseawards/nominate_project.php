@@ -39,7 +39,8 @@
 			The Project Awards are for Eclipse projects and features. Nominations may be submitted by anyone
 			in each category and committers are welcome to nominate their own projects. All that's
 			required to make a nomination is to list the project or feature and a paragraph on why you
-			think it's worthy of an award in the appropriate Bugzilla entry link below. Nominations opened
+			think it's worthy of an award in the appropriate Bugzilla entry link below. The Most Innovative New Feature or Project 
+			award is for features and new projects introduced in 2009.  Nominations opened
 			December 3, 2009 and will close January 29,	2010.  Winners will be announced at
 			<a href="http://www.eclipsecon.org/">EclipseCon 2010</a>.
 		</p>
@@ -70,9 +71,9 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="nominate_individual.php">Individual Nomination</a></li>
-				<li><a href="nominate_project.php">Project Nomination</a></li>				
-				<li><a href="nominate_technology.php">Technology Nomination</a></li>
+				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
+				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
+				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
