@@ -31,24 +31,24 @@
 		technologies. The Eclipse Foundation is now accepting nominations for the awards, so show your
 		gratitude and nominate a person, Eclipse project or product that has made a difference to you.</p>
 		
-		<p><strong>Individual Award categories:</strong></p>
+		<p><strong>Individual Award categories:</strong>
 		<ul>
 		<li>Top Committer</li>
 		<li>Top Contributor</li>
 		<li>Top Newcomer Evangelist</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_individual.php">Make an
-		Individual Award Nomination</a>
+		Individual Award Nomination</a></p>
 
-		<p><strong>Project Award categories:</strong></p>
+		<p><strong>Project Award categories:</strong>
 		<ul>
 		<li>Most Innovative New Feature or Eclipse Project</li>
 		<li>Most Open Project</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_project.php">Make an
-		Project Award Nomination</a>
+		Project Award Nomination</a></p>
 		
-		<p><strong>Technology Award categroies:</strong></p>
+		<p><strong>Technology Award categroies:</strong>
 		<ul>
 		<li>Best Commercial Developer Tool</li>
 		<li>Best Open Source Developer Tool</li>
@@ -56,7 +56,7 @@
 		<li>Best RCP Application</li>
 		</ul>
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php">Make a
-		Technology Award Nomination</a>
+		Technology Award Nomination</a></p>
 		
 		<p>Anyone can submit a nomination and you are welcome to nominate your own projects, products and
 		applications. More details about the awards and the nomination process can be found on the
