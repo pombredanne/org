@@ -48,7 +48,7 @@
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_project.php">Make a
 		Project Award Nomination</a><br><br></p>
 		
-		<p><strong>Technology Award categroies:</strong>
+		<p><strong>Technology Award categories:</strong>
 		<ul>
 		<li>Best Commercial Developer Tool</li>
 		<li>Best Open Source Developer Tool</li>
