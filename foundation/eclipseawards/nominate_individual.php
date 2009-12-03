@@ -44,9 +44,9 @@
 
 		<h2>Nomination Links</h2>
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nomination a Top Committer</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nomination a Top Contributor</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nomination a Top Newcomer Evangelist</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257952">Nominate a Top Committer</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate a Top Contributor</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257953">Nominate a Top Newcomer Evangelist</a></li>
 		</ul>
 
 		<h2>Voting</h2>
