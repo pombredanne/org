@@ -56,8 +56,8 @@
 			<li>Description of the usability features</li> 
 			<li>Description of why and how the product uniquely solves a particular problem.  Ensure you also explain the problem.</li> 
 			<li>Description of the completeness of the solution, including the technology, but also documentation, white papers, tutorials, and
-			web site.  Include everything you think is important for your customers to be successful with the product. Please provide
-			links to any additional documentation rather than as e-mail attachments for easier distribution to the judging panel.</li> 
+			other resources.  Include everything you think is important for your customers to be successful with the product. Please provide
+			links to any additional resources rather than attaching the resources themselves to your e-mail.  This will ensure easier distribution to the judging panel.</li> 
 			<li>OPTIONAL: Feel free to make a 3-5 minute screen cam demo of your product and provide the link</li> 
 		</ol>
 
