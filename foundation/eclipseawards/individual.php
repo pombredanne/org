@@ -55,18 +55,81 @@ function switchMenu(obj) {
 		
 		<h3>Top Committer</h3>
 
-		<p><a href="javascript:switchMenu('Name1');" title="Description">
+		<p><a href="javascript:switchMenu('KevinBarnes');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			Name1</a>
+			Kevin Barnes</a>
 		</p>
-		<div id="Name1" class="switchcontent">
+		<div id="KevinBarnes" class="switchcontent">
 		<p>
 		<ul>
 			<li>
-			Comment 1	
+			Kevin Barnes for making Eclipse on Cocoa such an awesome experience.
+			</li>
+		</ul>
+		</p>
+		</div>
+
+		<p><a href="javascript:switchMenu('DaveCarver');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Dave Carver</a>
+		</p>
+		<div id="DaveCarver" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate Dave Carver. His repeated engagements for the Eclipse community, his contributions to the Eclipse ecosystem beyond his project, his regular blogging and the energy he brings make him someone I look up to.
 			</li>
 			<li>
-			Comment 2
+			+1 for Dave Carver.
+			</li>
+		</ul>
+		</p>
+		</div>	
+
+		<p><a href="javascript:switchMenu('AndyClement');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Andy Clement</a>
+		</p>
+		<div id="Andy Clement" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			[Andrew Eisenberg and] Andy Clement for fixing bugs in no time and great support on the mailing lists.
+			<br><br>
+			I would like to point out that they both have been very responsive and helpful.
+			</li>
+		</ul>
+		</p>
+		</div>
+		
+		<p><a href="javascript:switchMenu('AndrewEisenberg');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Andrew Eisenberg</a>
+		</p>
+		<div id="AndrewEisenberg" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			Andrew Eisenberg [and Andy Clement] for fixing bugs in no time and great support on the mailing lists.
+			<br><br>
+			I would like to point out that they both have been very responsive and helpful.
+			</li>
+		</ul>
+		</p>
+		</div>
+
+		<p><a href="javascript:switchMenu('KimMoir');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Kim Moir</a>
+		</p>
+		<div id="KimMoir" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			Kim Moir for keeping so many builds going despite hardware, network and other infrastructure problems.
+			</li>
+			<li>
+			Like Kevin, I would like to nominate Kim Moir for her endless patience not just with hardware, network and infrastructure but also with all the committer failures ;-)
 			</li>
 		</ul>
 		</p>
