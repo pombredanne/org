@@ -40,23 +40,6 @@ ob_start();
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 
-		<p><a href="javascript:switchMenu('Name1');" title="Description">
-		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			Name1</a>
-		</p>
-		<div id="Name1" class="switchcontent">
-		<p>
-		<ul>
-			<li>
-			Comment 1	
-			</li>
-			<li>
-			Comment 2
-			</li>
-		</ul>
-		</p>
-		</div>	
-
 		<p><a href="javascript:switchMenu('b3');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			b3</a>
