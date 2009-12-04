@@ -90,7 +90,7 @@ function switchMenu(obj) {
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Andy Clement</a>
 		</p>
-		<div id="Andy Clement" class="switchcontent">
+		<div id="AndyClement" class="switchcontent">
 		<p>
 		<ul>
 			<li>
