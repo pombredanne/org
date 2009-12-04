@@ -37,20 +37,57 @@ ob_start();
 		<p>
 			The following is a list of nominations submitted for the Project Awards.  Nominations close on January 29, 2010.
 		</p>
-		
-		<div class="homeitem3col">
-			<h3>Most Innovative New Feature or Eclipse Project</h3>
-			<ul>
-				<li><a href="http://www.eclipse.org" target="blank"></a></li>
-			</ul>
-		</div>
 				
-		<div class="homeitem3col">
-			<h3>Most Open Project</h3>
-			<ul>
-				<li><a href="http://www.eclipse.org" target="blank"></a></li>
-			</ul>
+		<h3>Most Innovative New Feature or Eclipse Project</h3>
+
+		<p><a href="javascript:switchMenu('Name1');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Name1</a>
+		</p>
+		<div id="Name1" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			Comment 1	
+			</li>
+			<li>
+			Comment 2
+			</li>
+		</ul>
+		</p>
+		</div>	
+
+		<h3>Most Open Project</h3>
+
+		<p><a href="javascript:switchMenu('Mylyn');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Mylyn</a>
+		</p>
+		<div id="Mylyn" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			A wild and productive community like the one that serves Mylyn cannot be fostered and maintained without a preternatural dedication to open-ness.
+			</li>
+		</ul>
+		</p>
+
+		<p><a href="javascript:switchMenu('XML');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			XML (part of WTP Incubator)</a>
+		</p>
+		<div id="XML" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			David Carver, the lead, has exemplified open development precepts in his active recruitment of contributions and committers, as well as communications of status, open-ness of testing and coverage, commitment to outreach and update through his blog and twitter.
+			</li>
+		</ul>
+		</p>
+		
+		
 		</div>
+
 		
 	<br><br>	
 	</div>
