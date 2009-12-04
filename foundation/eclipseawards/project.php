@@ -40,18 +40,33 @@ ob_start();
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 
-		<p><a href="javascript:switchMenu('Name1');" title="Description">
+		<p><a href="javascript:switchMenu('b3');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			Name1</a>
+			b3</a>
 		</p>
-		<div id="Name1" class="switchcontent">
+		<div id="b3" class="switchcontent">
 		<p>
 		<ul>
 			<li>
-			Comment 1	
+			b3 is the most innovative thing that we have, with the most potential everything that we do in the Eclipse consumer and committer communities.	
 			</li>
+		</ul>
+		</p>
+		</div>
+		
+		<p><a href="javascript:switchMenu('Jetty');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Jetty OSGi Integration</a>
+		</p>
+		<div id="Jetty" class="switchcontent">
+		<p>
+		<ul>
 			<li>
-			Comment 2
+			I'd like to nominate Hugues Malphettes on his Jetty osgi integration. Jetty on it's own is a pretty significant addition to eclipse from this year (but I would not be so bold to self nominate :).   Hugues work takes the improvied OSGi bundles of jetty-7 and makes them available either as a standard HttpService, an RFC-66 webapplication or as custom jetty contexts.  All web bundles deployed will use a common jetty service.
+			<br><br>
+			Through this work, not only is a first class HTTP server and servlet container available to OSGi developers, but the innovations of jetty such as async servlets and WebSocket server will now be simply usable.
+			<br><br>
+			Read about it here: <a href="http://wiki.eclipse.org/Jetty/Feature/Jetty_OSGi" target="blank">http://wiki.eclipse.org/Jetty/Feature/Jetty_OSGi</a> and here: <a href="http://wiki.eclipse.org/Jetty/Tutorial/Jetty-OSGi_SDK" target="blank">http://wiki.eclipse.org/Jetty/Tutorial/Jetty-OSGi_SDK</a>
 			</li>
 		</ul>
 		</p>
@@ -72,6 +87,7 @@ ob_start();
 		</ul>
 		</p>
 
+
 		<p><a href="javascript:switchMenu('XML');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			XML (part of WTP Incubator)</a>
@@ -84,7 +100,7 @@ ob_start();
 			</li>
 		</ul>
 		</p>
-		
+		</div>
 		
 		</div>
 
