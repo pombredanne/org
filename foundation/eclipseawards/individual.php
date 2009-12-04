@@ -46,7 +46,6 @@ function switchMenu(obj) {
 		.paddedlist li {	padding-bottom:7px;	}
 	</style>
 
-
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		
@@ -87,6 +86,15 @@ function switchMenu(obj) {
 			</li>
 			<li>
 			+1 for Lars (vogella.de)
+			</li>
+			<li>
+			+1 for Lars - his commitment to communicating the subtleties of Eclipse technical capabilities is fantastic, and the fact that *he constantly updates* is the clincher, in my mind.
+			</li>
+			<li>
+			+1 for Lars (<a href="http://vogella.de" target="blank">http://vogella.de</a>)
+			</li>
+			<li>
+			+1
 			</li>
 		</ul>
 		</p>
