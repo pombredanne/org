@@ -41,28 +41,28 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank"></a>Submit your tool here!</li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank">Submit your tool here!</a></li>
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
 			<h3>Best Open Source Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank"></a>Submit your tool here!</li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank">Submit your tool here!</a></li>
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best EclipseRT Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank"></a>Submit your application here!</li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank">Submit your application here!</a></li>
 			</ul>
 		</div>
 	
 		<div class="homeitem3col">
 			<h3>Best RCP Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank"></a>Submit your application here!</li>
+				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank">Submit your application here!</a></li>
 			</ul>
 		</div>
 		
