@@ -31,6 +31,21 @@
 ob_start();
 ?>		
 
+<style type="text/css">
+.switchcontent{display:none;}
+</style>
+
+<script type="text/javascript">
+function switchMenu(obj) {
+	var el = document.getElementById(obj);
+	el.style.display = ( el.style.display != "block" )? 'block':'none' 
+}
+</script>	
+	
+	<style>
+		.paddedlist li {	padding-bottom:7px;	}
+	</style>
+
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		
