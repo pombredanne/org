@@ -96,6 +96,9 @@ function switchMenu(obj) {
 			<li>
 			+1
 			</li>
+			<li>
+			+1 for Lars
+			</li>
 		</ul>
 		</p>
 		</div>	
