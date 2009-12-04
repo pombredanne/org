@@ -101,7 +101,7 @@ function switchMenu(obj) {
 			</li>
 		</ul>
 		</p>
-
+		</div>
 
 		<p><a href="javascript:switchMenu('XML');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
