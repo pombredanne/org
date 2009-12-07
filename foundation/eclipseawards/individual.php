@@ -79,6 +79,9 @@ function switchMenu(obj) {
 			<li>
 			I would like to nominate Boris Bokowski for top committer.  Boris manages to work on all things platform and is one of the driving forces behind e4.  While many sit on the side lines and criticize, Boris steps up and leads by example. Also, like many excellent committers, Boris's work on Eclipse is not isolated to his working hours.  I have had many conversations on IRC with Boris at all hours of the night.
 			</li>
+			<li>
+			You've been faster a second than me :-) +1 for Boris
+			</li>
 		</ul>
 		</p>
 		</div>
@@ -144,6 +147,12 @@ function switchMenu(obj) {
 			</li>
 			<li>
 			Like Kevin, I would like to nominate Kim Moir for her endless patience not just with hardware, network and infrastructure but also with all the committer failures ;-)
+			</li>
+			<li>
+			While I have nominated Boris, I would also like to give a +1 to Kim.  Spend a few days on release engineering and you soon realize just how challenging a job this is.
+			</li>
+			<li>
+			+1 for Kim!
 			</li>
 		</ul>
 		</p>
