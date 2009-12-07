@@ -69,6 +69,20 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('BorisBokowski');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Boris Bokowski</a>
+		</p>
+		<div id="BorisBokowski" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate Boris Bokowski for top committer.  Boris manages to work on all things platform and is one of the driving forces behind e4.  While many sit on the side lines and criticize, Boris steps up and leads by example. Also, like many excellent committers, Boris's work on Eclipse is not isolated to his working hours.  I have had many conversations on IRC with Boris at all hours of the night.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('DaveCarver');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Dave Carver</a>
