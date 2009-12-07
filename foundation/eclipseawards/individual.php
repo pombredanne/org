@@ -135,6 +135,20 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
+		<p><a href="javascript:switchMenu('AndrewOverholt');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Andrew Overholt</a>
+		</p>
+		<div id="AndrewOverholt" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate Andrew Overholt for his work on the Linux Tools project. Andrew has really helped put a lot of life into the project for the past year or two and more and more Linux distribution are starting to have updated Eclipse packages in their package repository. Andrew also closely follows the EDP with N&N postings, release review requests, and committer elections and retirement.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<h3>Top Contributor</h3>
 
 		<p><a href="javascript:switchMenu('LarsVogel');" title="Description">
