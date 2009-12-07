@@ -186,6 +186,22 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('DavidWilliams');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			David Williams</a>
+		</p>
+		<div id="DavidWilliams" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate David Williams. His work at Eclipse is extensive, from WTP source editing to organizing the Planning Council. Furthermore, he's the man behind the curtain in order to keep the annual release train trucking. In my opinion, without him, the annual release train wouldn't happen.
+			<br><br>
+			Thank you for your hard work David.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<h3>Top Contributor</h3>
 
 		<p><a href="javascript:switchMenu('LarsVogel');" title="Description">
