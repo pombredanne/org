@@ -149,6 +149,20 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('RemySuen');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Remy Suen</a>
+		</p>
+		<div id="RemySuen" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			Remy is a tireless, enthusiastic member of the Eclipse community.  He toils on IRC, helping newbies and the experienced alike.  He writes articles, tracks tonnes of bugs, and is a general conduit of information between people.  Remy is also a very talented developer and is now contributing his skills to the Platform team.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<h3>Top Contributor</h3>
 
 		<p><a href="javascript:switchMenu('LarsVogel');" title="Description">
