@@ -204,6 +204,20 @@ function switchMenu(obj) {
 
 		<h3>Top Contributor</h3>
 
+		<p><a href="javascript:switchMenu('JamesSugrue');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			James Sugrue</a>
+		</p>
+		<div id="JamesSugrue" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would also like to nominate James Sugrue (<a href="http://eclipse.dzone.com/users/jsugrue" target="blank">http://eclipse.dzone.com/users/jsugrue</a>) for his work on evangelizing Eclipse at EclipseZone/DZone.
+			</li>
+		</ul>
+		</p>
+		</div>
+		
 		<p><a href="javascript:switchMenu('LarsVogel');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Lars Vogel</a>
@@ -228,6 +242,9 @@ function switchMenu(obj) {
 			</li>
 			<li>
 			+1 for Lars
+			</li>
+			<li>
+			+1 for Lars :-)
 			</li>
 		</ul>
 		</p>
