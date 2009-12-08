@@ -23,6 +23,15 @@
 			 <br>
     		</td>
   		</tr>
+  		
+  		<tr>
+    		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=901&size=small" width="120"></td>
+    		<td width="88%">Cisco, for making our networking infrastructure
+    			<a href="http://www.cisco.com/en/US/products/index.html" target="_blank"> 
+      				Gigabit Ready</a> with firewalls, load balancers and switches. <br>
+    		</td>
+  		</tr>  
+  		
   		<tr>
     		<td width="12%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/membership/scripts/get_image.php?id=663&size=small" width="120"></td>
     		<td width="88%">HP for the donation of four <a href="http://www.hp.com/products1/servers/integrity/entry_level/rx2620/index.html" target="_blank">HP 
