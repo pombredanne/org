@@ -82,6 +82,9 @@ function switchMenu(obj) {
 			<li>
 			You've been faster a second than me :-) +1 for Boris
 			</li>
+			<li>
+			+1 for Boris who I've noticed has also been pushing gently on Platform UI issues
+			</li>			
 		</ul>
 		</p>
 		</div>
@@ -153,6 +156,9 @@ function switchMenu(obj) {
 			</li>
 			<li>
 			+1 for Kim!
+			</li>
+			<li>
+			+1 Kim too, who's cheerful and direct approach is precisely what is needed, especially when things aren't going as expected.
 			</li>
 		</ul>
 		</p>
