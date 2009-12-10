@@ -184,6 +184,9 @@ function switchMenu(obj) {
 			<br><br>
 			Markus continuously develops and maintains the CDT core which consists of the C/C++ parser, indexer, semantic resolution, refactoring and other components. He has also developed most of the UI tooling based on the CDT core. The list of individual features he has worked on is endless. C++ is an incredibly difficult language to handle in an IDE, and Markus has stepped up with innovative solutions to many difficult problems. Also he presents at eclipsecon every year, answers questions on the cdt-dev list and constantly tracks bugzilla activity. Markus' work is one of the main reasons that eclipse is now considered an industry leading C/C++ IDE.
 			</li>
+			<li>
+			+1 for Markus Schorn
+			</li>
 		</ul>
 		</p>
 		</div>
