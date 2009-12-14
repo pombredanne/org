@@ -2,7 +2,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Join the Eclipse In The Large Webinar";
+	$pageTitle 		= "View the Eclipse in the Large Webinar";
 	$pageKeywords	= "eclipse, enterprise";
 	$pageAuthor		= "Donald Smith";
 	
@@ -23,11 +23,14 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>IT departments of large enterprises face unique challenges deploying Eclipse to thousands, 
-		and even tens of thousands, of their developers.  Join us on December 14, 2009 for a webinar that 
-		will include
+		and even tens of thousands, of their developers.  Join us for a webinar that 
+		includes
 		speakers from Cisco, Morgan Stanley and eBay about some of the key challenges they face,
 		and steps they have taken to address these issues.</p> 
+
+		<h4><a href="http://live.eclipse.org/node/848" target="blank">View the Webinar Recording</a></h4>
 		
+		<br>
 		<p><b>Format and Agenda:</b><br>
 		Each speaker will present for up to 20 minutes, followed by up to 10 minutes of Q&A.  Each speaker
 		has identified key topics they find most challenging.  They will discuss:
@@ -69,13 +72,8 @@
 		</p>
 		
 		<p><b>Webinar Details:</b><br>
-		This webinar is open to the public via web conference - to ensure your spot, please register now by
-		email to <a href="mailto:webinar-eclipse@eclipse.org">webinar-eclipse@eclipse.org</a>.
 		<ul>
-			<li>Registration: email <a href="mailto:webinar-eclipse@eclipse.org">webinar-eclipse@eclipse.org</a></li>
-			<li>Date: December 14, 2009</li>
-			<li>Time: 9:00 am PST / 12:00 pm EST / 5:00 pm GMT / 6:00 pm CET -
-			<a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=12&day=14&year=2009&hour=17&min=0&sec=0&p1=0" target=”blank”>Convert to other time zones</a></li>
+			<li>Recorded Date: December 14, 2009</li>
 		</ul>
 		</p>
 
