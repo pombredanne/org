@@ -178,6 +178,22 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('PrakashRangaraj');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Prakash GR Rangaraj</a>
+		</p>
+		<div id="PrakashRangaraj" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate Prakash GR. 
+			<br><br>
+			His technical blogs on Commands Framework, presentations in Eclipse Summit India, Demo camps in Bangalore and forum support are appreciable.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('MarkusSchorn');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Markus Schorn</a>
