@@ -41,7 +41,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.blackberry.com/developers/webeclipse " target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
+				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
 				<li><a href="http://wireframesketcher.com" target="blank">WireframeSketcher</a></li>
 			</ul>
 		</div>
