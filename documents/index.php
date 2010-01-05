@@ -35,12 +35,12 @@
 					The Membership Agreement describes 
 					the rights and responsibilities for each class of member in the Eclipse 
 					Foundation.
-					</li>
+					<img src="../../images/updated.gif" alt="updated"></li>
 				<li><a href="Eclipse_IP_Policy.pdf">Intellectual Property Policy:</a> 
 					The IP Policy describes the
 					policies and mechanisms that the Eclipse Foundation uses for accepting and
 					licensing the intellectual property developed by Eclipse projects.
-					<img src="../../images/new.gif" alt="new"></li>
+					</li>
 				<li><a href="Eclipse%20ANTITRUST%202003_11_10%20Final.pdf">Anti-Trust Policy:</a> The Anti-Trust Compliance Policy describes 
 					the code of conduct required by all Eclipse Foundation Members to ensure
 					compliance with anti-trust laws.</li>
