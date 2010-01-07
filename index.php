@@ -156,7 +156,7 @@
 		</div>
      	<div class="sideitem">
 			<h6>Thank you!</h6>
-			<p>Our thanks to <a href="foundation/thankyou.php">AMD, HP, IBM, Intel, Magma and Novell</a> for generous donations to our website infrastructure.</p>
+			<p>Our thanks to <a href="foundation/thankyou.php">AMD, Cisco, HP, IBM, Intel, Novell and Primus</a> for generous donations to our website infrastructure.</p>
 		</div>		
 	  </div>
   </div>
