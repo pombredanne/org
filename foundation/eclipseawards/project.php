@@ -55,6 +55,20 @@ function switchMenu(obj) {
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 
+		<p><a href="javascript:switchMenu('amp');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Agent Modeling Platform (AMP)</a>
+		</p>
+		<div id="amp" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			OK, I have to be super cheesy and nominate my own project, AMP. <a href="http://eclipse.org/amp/">http://eclipse.org/amp/</a> It may not be obvious immediately obvious what you can do with it, but you gotta admit it's different. :D
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('b3');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			b3</a>
