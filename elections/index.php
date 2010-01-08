@@ -51,14 +51,14 @@
 		these elected board members is one year, commencing April 1.</p>
 		<p>
 		Candidates and the community are encouraged to discuss the issues on the 
-		(<a href="http://www.eclipse.org/forums/eclipse.foundation">foundation forum</a>).
+		<a href="http://www.eclipse.org/forums/eclipse.foundation">Foundation forum</a>.
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
-		<p>&nbsp;&nbsp;Information concerning the $year elections is contained within the links below:</p>
+		Information concerning the $year elections is contained within the links below.
 		<ul>
-		<li>The <a href="nominees_under_construction.php">candidates</a> for the election.</li>
-		<li>The <a href="keydates.php">key dates</a> for the $year election.</li>
-		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
+		<li>The <a href="nominees_under_construction.php">candidates</a> for the election</li>
+		<li>The <a href="keydates.php">key dates</a> for the $year elections</li>
+		<li>The Eclipse Foundation <a href="election_process.php">election process</a></li>
 		</ul>
 		</div>
 	</div>
