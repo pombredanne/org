@@ -42,7 +42,7 @@
 		<h1>$pageTitle</h1>
 		<div class="homeitem3col">
 	    <h3>Election Process</h3>
-		<p>&nbsp;&nbsp;The process for the Eclipse Foundation&rsquo;s annual elections is described below.</p>
+		<The process for the Eclipse Foundation&rsquo;s annual elections is described below.
 		<ul>
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the Committers and the Sustaining Members. The number of these

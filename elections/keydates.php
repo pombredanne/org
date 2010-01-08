@@ -56,9 +56,10 @@
 		eclipse.org website as soon as possible thereafter.
 		<br>
 		<br>Each nominee will be provided with an 
-		HTML template which outlines their background and vision for Eclipse as they are nominated. If the nominee
+		HTML template that outlines their background and vision for Eclipse as they are nominated. If the nominee
 		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
-		via email. Content must be submitted to the Eclipse Foundation via email no later than January 31. 
+		via email. Content must be submitted to the Eclipse Foundation via email no later 
+		than February 1. 
 		</li>
 		<li>February 1, $year: Deadline for nominees to return their content to emo@.</li>
 		<li>February 3, $year: List of nominees and their personal pages made available on www.eclipse.org. 
