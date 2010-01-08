@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2009";
+	$year="2010";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -50,14 +50,13 @@
 		Enterprise Members). The terms of office for
 		these elected board members is one year, commencing April 1.</p>
 		<p>
-		Candidates and the community are encouraged to discuss the issues on the eclipse.foundation newsgroup 
-		(<a href="news://news.eclipse.org/eclipse.foundation">news</a>, <a href="/newsportal/thread.php?group=eclipse.foundation">html</a>).
+		Candidates and the community are encouraged to discuss the issues on the 
+		(<a href="http://www.eclipse.org/forums/eclipse.foundation">foundation forum</a>).
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
 		<p>&nbsp;&nbsp;Information concerning the $year elections is contained within the links below:</p>
 		<ul>
-		<li>The <a href="/org/press-release/20090320_EclipseBoard.php">winners</a> for the $year election.</li>
-		<li>The <a href="nominees.php">candidates</a> for the election.</li>
+		<li>The <a href="nominees_under_construction.php">candidates</a> for the election.</li>
 		<li>The <a href="keydates.php">key dates</a> for the $year election.</li>
 		<li>The Eclipse Foundation <a href="election_process.php">election process.</a></li>
 		</ul>
