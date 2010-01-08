@@ -46,7 +46,7 @@
 		these elected board members is one year, commencing April 1.</p>
 		<div class="homeitem3col">
 	    <h3><a name="Dates"></a>Key Dates</h3>
-		<p>&nbsp;&nbsp;The key dates for the $year elections are:</p>
+		The key dates for the $year elections are:
 		<ul>
 		<li>January 11, $year: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
 		the subject "Sustaining Member Nomination" or "Committer Nomination." As soon as possible after an individual 
