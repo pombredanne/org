@@ -50,7 +50,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank">Submit your tool here!</a></li>
+				<li><a href="http://www.www.umlet.com" target="blank">UMLet</a></li>
 			</ul>
 		</div>
 		
