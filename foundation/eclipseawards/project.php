@@ -126,7 +126,7 @@ function switchMenu(obj) {
 		<ul>
 			<li>
 			I'd like to nominate the RT Equinox p2 project as one of the most open projects.  This project has new committers that have come on board from EclipseSource, Cloudsmith and an individual in the academic community (Universit&eacute; d'Artois).  
-			<br></br>
+			<br><br>
 			They are very responsive and helpful to questions on the mailing list. They have had a number of blog entries on p2 that have been very useful to the community (I've learned a lot :-)
 			</li>
 		</ul>
