@@ -296,6 +296,9 @@ function switchMenu(obj) {
 			<li>
 			+1 for Lars
 			</li>
+			<li>
+			A huge +1 for Lars. Find a cool Eclipse related topic, and I bet Lars already covered it in one of its articles or blog posts! :)
+			</li>
 		</ul>
 		</p>
 		</div>	
