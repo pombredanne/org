@@ -293,6 +293,9 @@ function switchMenu(obj) {
 			<li>
 			+1 for Lars (vogella.de)
 			</li>
+			<li>
+			+1 for Lars
+			</li>
 		</ul>
 		</p>
 		</div>	
