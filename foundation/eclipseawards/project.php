@@ -101,6 +101,20 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
+		<p><a href="javascript:switchMenu('TMFXtext');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Textual Modeling Framework (TMF) Xtext</a>
+		</p>
+		<div id="TMFXtext" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate TMF Xtext. May be not the most innovative, but textual DSLs are clearly a way of the future - and Xtext has unimpaired code quality and user support among Eclipse projects.
+			</li>
+		</ul>
+		</p>
+		</div>	
+
 		<h3>Most Open Project</h3>
 
 		<p><a href="javascript:switchMenu('Mylyn');" title="Description">
