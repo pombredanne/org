@@ -160,6 +160,9 @@ function switchMenu(obj) {
 			<li>
 			+1 Kim too, who's cheerful and direct approach is precisely what is needed, especially when things aren't going as expected.
 			</li>
+			<li>
+			+1 for Kim too, I couldn't agree more with Ian in comment 10.
+			</li>
 		</ul>
 		</p>
 		</div>	
@@ -222,6 +225,20 @@ function switchMenu(obj) {
 		<ul>
 			<li>
 			Remy is a tireless, enthusiastic member of the Eclipse community.  He toils on IRC, helping newbies and the experienced alike.  He writes articles, tracks tonnes of bugs, and is a general conduit of information between people.  Remy is also a very talented developer and is now contributing his skills to the Platform team.
+			</li>
+		</ul>
+		</p>
+		</div>
+
+		<p><a href="javascript:switchMenu('FrancisUpton');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Francis Upton</a>
+		</p>
+		<div id="FrancisUpton" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate Francis Upton for the incredibly great job he's doing in the Common Navigator Framework area.		
 			</li>
 		</ul>
 		</p>
