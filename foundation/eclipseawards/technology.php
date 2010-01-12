@@ -43,6 +43,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
 				<li><a href="http://wireframesketcher.com" target="blank">WireframeSketcher</a></li>
+				<li><a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
 			</ul>
 		</div>
 				
