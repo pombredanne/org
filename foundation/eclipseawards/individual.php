@@ -281,6 +281,22 @@ function switchMenu(obj) {
 
 		<h3>Top Contributor</h3>
 
+		<p><a href="javascript:switchMenu('LaurensHolst');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Laurens Holst</a>
+		</p>
+		<div id="LaurensHolst" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate Laurens Holst for his countless bug reports in JSDT project. JSDT is one of those many small and very constrained projects, where you rarely hear back from committer. Despite that, Laurens keeps reporting any bugs he finds for 1.5 year now. That's extremely long and I don't recall anyone else, excluding committers and adopters, who would stick so long with such hopeless task! (to be fair ~50% of Laurens bugs have been fixed, cudos JSDT team)
+			<br><br>
+			It's wonderful to have such users like Laurens and would be cool to see similar people nominated here too.		
+			</li>
+		</ul>
+		</p>
+		</div>
+		
 		<p><a href="javascript:switchMenu('JamesSugrue');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			James Sugrue</a>
