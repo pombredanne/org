@@ -89,6 +89,22 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('NickBoldt');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Nick Boldt</a>
+		</p>
+		<div id="NickBoldt" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate Nick Boldt for building and advocating currently the simplest working Eclipse build environment - Athena. His work made it really simple to setup automated builds for new projects and has saved tons of releng pains for those who have moved to Athena.
+			<br><br>
+			His commitment to Athena, fixing it's bugs and work on documentation quickly gathered a helpful community around this project, which now makes Athena safer choice over other build systems.			
+			</li>			
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('DaveCarver');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Dave Carver</a>
