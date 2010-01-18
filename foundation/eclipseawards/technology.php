@@ -51,6 +51,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Developer Tool</h3>
 			<ul>
+				<li><a href="http://andrei.gmxhome.de/anyedit/index.html " target="blank">AnyEdit Tools</a></li>
+				<li><a href="http://andrei.gmxhome.de/skins/index.html" target="blank">Extended VS Presentation</a></li>
 				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>
 			</ul>
 		</div>
