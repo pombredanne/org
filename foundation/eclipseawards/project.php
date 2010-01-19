@@ -117,6 +117,20 @@ function switchMenu(obj) {
 
 		<h3>Most Open Project</h3>
 
+		<p><a href="javascript:switchMenu('e4');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			e4</a>
+		</p>
+		<div id="e4" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate the e4 project.  I think it's by far as open as they can be.		
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('p2');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Equinox p2</a>
