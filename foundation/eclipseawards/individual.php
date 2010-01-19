@@ -231,6 +231,20 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>
+
+		<p><a href="javascript:switchMenu('EikeStepper');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Eike Stepper</a>
+		</p>
+		<div id="EikeStepper" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			+1 for Eike Stepper. Great work @CDO and tremendous presence and support in the newsgroup.
+			</li>
+		</ul>
+		</p>
+		</div>
 		
 		<p><a href="javascript:switchMenu('RemySuen');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
