@@ -213,6 +213,20 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('PascalRapicault');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Pascal Rapicault</a>
+		</p>
+		<div id="PascalRapicault" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate Pascal Rapicault for his leadership on the Equinox p2 project. Overhauling the Eclipse update system was a tough task and he and his team have done a great job.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('MarkusSchorn');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Markus Schorn</a>
