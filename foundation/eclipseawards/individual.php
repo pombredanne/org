@@ -118,6 +118,11 @@ function switchMenu(obj) {
 			<li>
 			+1 for Dave Carver.
 			</li>
+			<li>
+			+1 for David Carver.
+			<br><br>
+			His enthusiasm, knowledge and help with everything "hairy" (process stuff, build stuff, legal stuff, ...) is turning Eclipse into an excellent XML tool, one milestone at a time.		
+			</li>
 		</ul>
 		</p>
 		</div>	
