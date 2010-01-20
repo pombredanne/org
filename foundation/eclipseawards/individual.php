@@ -231,6 +231,9 @@ function switchMenu(obj) {
 			<li>
 			I would like to nominate Pascal Rapicault for his leadership on the Equinox p2 project. Overhauling the Eclipse update system was a tough task and he and his team have done a great job.
 			</li>
+			<li>
+			As someone who has worked as a p2 committer under Pascal's leadership, I give a big +1 to this nomination.  p2 has seen some diversification lately, and this is a direct result of Pascal's hard work.  It was Pascal's mentorship that helped me earn my p2 commit rights, and IMHO, a committers ability to mentor oteher members of the Eclipse community should weigh heavily in these awards.		
+			</li>
 		</ul>
 		</p>
 		</div>
