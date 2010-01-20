@@ -43,7 +43,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
 				<li><a href="http://www.justinmind.com/wireframe/justinmind_prototyper" target="blank">Justinmind Prototyper</a></li>
-				<li><a href="http://www.oxygenxml.com" target="blank"> <oXygen/> XML Editor </a></li>
+				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor </a></li>
 				<li><a href="http://wireframesketcher.com" target="blank">WireframeSketcher</a></li>
 				<li><a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
 			</ul>
