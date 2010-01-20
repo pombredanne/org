@@ -101,6 +101,21 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
+		<p><a href="javascript:switchMenu('M2TXpand');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Model to Text (M2T) Xpand</a>
+		</p>
+		<div id="M2TXpand" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'm going to add xpand as well. (That makes two noms from me. :)) Or perhaps it would be better to combine them into xpand/xtxt since they're such complimentary technologies and the oaw guys brought them to eclipse at the same time. I think they surely qualify as innovative -- they could change the way we do a lot of things.
+			</li>
+		</ul>
+		</p>
+		</div>	
+
+
 		<p><a href="javascript:switchMenu('TMFXtext');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Textual Modeling Framework (TMF) Xtext</a>
