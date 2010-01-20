@@ -137,6 +137,20 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
+		<p><a href="javascript:switchMenu('SWTCocoa');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Standard Widget Toolkit (SWT) Cocoa Port</a>
+		</p>
+		<div id="SWTCocoa" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate SWT's Cocoa port. The Cocoa port made 64 bit applications possible on mac (allowing for Java 6 use on Leopard), provided new SWT tooling to simplify the generation of native code and reduce barriers to entry for potential new contributors, and was well tested and very usable from its first release with Eclipse 3.5. The SWT Cocoa port has quickly become the "go to" solution for Eclipse Developers on mac.			
+			</li>
+		</ul>
+		</p>
+		</div>	
+
 		<p><a href="javascript:switchMenu('TMFXtext');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Textual Modeling Framework (TMF) Xtext</a>
