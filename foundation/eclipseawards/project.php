@@ -101,6 +101,28 @@ function switchMenu(obj) {
 		</p>
 		</div>	
 
+		<p><a href="javascript:switchMenu('M2TAcceleo');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Model to Text (M2T) Acceleo</a>
+		</p>
+		<div id="M2TAcceleo" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate Acceleo as it revamped code generation with features we've never seen before. 
+			<br><<br>
+			Two features in particular are catching the eye:<br>
+			* The  like the template based search&replace completion one can use to quickly get a generator template from an existing example.<br>
+			* The code/model <-> model/code traceability enabling efficient navigation from the code to the corresponding model element.
+			<br><br>
+			Here is a screencast demonstrating these features : <a href="http://literate.modeling.free.fr/modeling/acceleo/create-from-example-with-advanced-completion-1.htm" target="blank">http://literate.modeling.free.fr/modeling/acceleo/create-from-example-with-advanced-completion-1.htm</a>
+			<br><br>
+			No other code generator in the world provide that :)
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('M2TXpand');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Model to Text (M2T) Xpand</a>
@@ -114,7 +136,6 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>	
-
 
 		<p><a href="javascript:switchMenu('TMFXtext');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
