@@ -110,7 +110,7 @@ function switchMenu(obj) {
 		<ul>
 			<li>
 			I would like to nominate Acceleo as it revamped code generation with features we've never seen before. 
-			<br><<br>
+			<br><br>
 			Two features in particular are catching the eye:<br>
 			* The  like the template based search&replace completion one can use to quickly get a generator template from an existing example.<br>
 			* The code/model <-> model/code traceability enabling efficient navigation from the code to the corresponding model element.
