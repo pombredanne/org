@@ -177,6 +177,9 @@ function switchMenu(obj) {
 			<li>
 			I'd like to nominate the e4 project.  I think it's by far as open as they can be.		
 			</li>
+			<li>
+			+1 for e4. The process to get commit rights is very lightweight - express interest and the voting begins :-)		
+			</li>
 		</ul>
 		</p>
 		</div>
