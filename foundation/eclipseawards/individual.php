@@ -198,6 +198,9 @@ function switchMenu(obj) {
 			<li>
 			I'd like to nominate Andrew Overholt for his work on the Linux Tools project. Andrew has really helped put a lot of life into the project for the past year or two and more and more Linux distribution are starting to have updated Eclipse packages in their package repository. Andrew also closely follows the EDP with N&N postings, release review requests, and committer elections and retirement.
 			</li>
+			<li>
+			+1 for Andrew Overholt for being an always helpful, pro-active community member.			
+			</li>
 		</ul>
 		</p>
 		</div>
@@ -307,6 +310,9 @@ function switchMenu(obj) {
 			</li>
 			<li>
 			+1 for David Williams
+			</li>
+			<li>
+			+1 for David Williams, whose tireless efforts towards a release train and Orbit are indispensable. David's communication is always friendly, patient, technically accurate with that spice of humor that makes our lives better.			
 			</li>
 		</ul>
 		</p>
