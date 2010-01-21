@@ -41,7 +41,7 @@
 			<li>Dr. Jeff Norris, Supervisor of the Planning Software Systems Group at the NASA Jet Propulsion Laboratory presenting <i>Building Mission-Critical Tools with Eclipse for NASA Robots</i></li>
 		</ul>  
 		
-		<p>The complete conference program is available at <a href="http://www.eclipse.org/go/EC10_program@CBJan21">www.eclipsecon.org/2010/sessions/</a>.</p>
+		<p>The complete conference program is available at <a href="http://www.eclipse.org/go/EC10_program@CBJan21">www.eclipsecon.org/2010/sessions</a>.</p>
 		
 		<p>Registration for EclipseCon 2010 is now open, with a 20% early discount being offered until February
 		14. To register, visit <a href="http://www.eclipse.org/go/EC10_register@CBJan21">www.eclipsecon.org/2010/registration</a>.
