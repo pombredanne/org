@@ -82,6 +82,28 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>
+
+		<p><a href="javascript:switchMenu('EMFCDO');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Eclipse Modeling Framework (EMF) Connected Data Objects (CDO)</a>
+		</p>
+		<div id="EMFCDO" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate CDO.
+			<br><br> 
+			EMF's great in bringing modelling to people at very low costs. EMF solves a lot of pains when you have to elaborate a model layer (domain models, presentation models, generation models etc.). 
+			<br><br>
+			CDO greatly enhances EMF in several areas and brings'em at very low cost (just regenerate your models and switch your user code to use sessions, transactions, etc.). 
+			<br><br>
+			CDO brings a true 3-tier architecture to models and enables a multi-user experience (sessions, transactions, etc), extends persistency to use RDBM'ses, keeps model instances in sync, offers versioning (and soon branching) and scales pretty well up to huge models.
+			<br><br>
+			To sum up, I'd pretend CDO is a pretty convincing step to take if you already use EMF.
+			</li>
+		</ul>
+		</p>
+		</div>
 		
 		<p><a href="javascript:switchMenu('Jetty');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
