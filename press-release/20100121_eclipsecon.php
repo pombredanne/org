@@ -69,6 +69,7 @@
 	<div class="sideitem">
 	<h6>Related Links</h6>
 	<ul>
+		<li><a href="http://www.eclipse.org/go/EC10_program@CBJan21">EclipseCon Program</a></li>
 		<li><a href="http://www.eclipse.org/go/EC10_register@CBJan21">EclipseCon Registration</a></li>
 		<li><a href="http://www.eclipse.org/go/EC10_sponsor@CBJan21">EclipseCon Sponsorship</a></li>
 	</ul>
