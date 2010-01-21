@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100121_eclipsecon.php">EclipseCon 2010 Program and Gold Sponsors Announced</a> - January 21, 2010</li>
 		<li><a href="20091203_awards.php">Nominations Open for the Eclipse Community Awards 2010</a> - December 3, 2009</li>
 		<li><a href="20091201_eclipsecon_earlycfp.php">Early EclipseCon Submissions Qualify for Early Bird Selection</a> - December 1, 2009</li>
 		<li><a href="20091201_EclipseInLargeDay.php">Join the Eclipse In The Large Webinar</a> - December 1, 2009</li>
