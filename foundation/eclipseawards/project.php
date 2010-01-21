@@ -91,7 +91,7 @@ function switchMenu(obj) {
 		<p>
 		<ul>
 			<li>
-			I would like to nominate the EclipseLink project (<a href="http://www.eclipse.org/eclipselink" target="blank">http://www.eclipse.org/eclipselink</a>) for the 'Most Innovative New Feature or Eclipse Project' award for its delivery of two Java Community Process (JCP) reference implementations in 2009 (<a href="http://www.eclipse.org/eclipselink/downloads/ri.php" targer="blank">http://www.eclipse.org/eclipselink/downloads/ri.php</a>).  EclipseLink is the first Eclipse project to deliver JCP reference implementations and has firmly established the Eclipse Foundation as a key contributor to the Java platform.
+			I would like to nominate the EclipseLink project (<a href="http://www.eclipse.org/eclipselink" target="blank">http://www.eclipse.org/eclipselink</a>) for the 'Most Innovative New Feature or Eclipse Project' award for its delivery of two Java Community Process (JCP) reference implementations in 2009 (<a href="http://www.eclipse.org/eclipselink/downloads/ri.php" target="blank">http://www.eclipse.org/eclipselink/downloads/ri.php</a>).  EclipseLink is the first Eclipse project to deliver JCP reference implementations and has firmly established the Eclipse Foundation as a key contributor to the Java platform.
 			<br><br> 
 			EclipseLink 1.1.0 (March 2009) is the reference implementation of Service Data Objects (SDO) 2.1.1
 			<br><br>
