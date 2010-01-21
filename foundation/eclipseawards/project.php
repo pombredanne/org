@@ -83,6 +83,28 @@ function switchMenu(obj) {
 		</p>
 		</div>
 
+		<p><a href="javascript:switchMenu('EclipseLink');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			EclipseLink</a>
+		</p>
+		<div id="EclipseLink" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I would like to nominate the EclipseLink project (<a href="http://www.eclipse.org/eclipselink" target="blank">http://www.eclipse.org/eclipselink</a>) for the 'Most Innovative New Feature or Eclipse Project' award for its delivery of two Java Community Process (JCP) reference implementations in 2009 (<a href="http://www.eclipse.org/eclipselink/downloads/ri.php" targer="blank">http://www.eclipse.org/eclipselink/downloads/ri.php</a>).  EclipseLink is the first Eclipse project to deliver JCP reference implementations and has firmly established the Eclipse Foundation as a key contributor to the Java platform.
+			<br><br> 
+			EclipseLink 1.1.0 (March 2009) is the reference implementation of Service Data Objects (SDO) 2.1.1
+			<br><br>
+			EclipseLink 2.0.0 (December 2009) is the reference implementation of Java Persistence (JPA) 2.0
+			<br><br>
+			While infrastructure is rarely though of as 'sexy', these are major development efforts that contribute both to the Eclipse and the wider Java ecosystems advancing standards.  In 2009 the EclipseLink project delivered its first release train bundles in Galileo (JavaEE & Modelling) but has also been shipped in a number of leading open source and commercial products including Oracle WebLogic, GlassFish, Spring Framework, and JOnAS (EasyBeans).  Also in 2009 the EclipseLink project added committers from SAP who plan to leverage EclipseLink JPA in NetWeaver. 
+			<br><br>
+			As expected from any JCP reference implementation EclipseLink supports both Java SE and EE, but as an Eclipse RT project EclipseLink also delivers bundles and fragments that enable their usage within any OSGi framework along with advanced support for Equinox.  OSGi support has also enabled the Teneo project to bring Java standard persistence support to EMF.  EclipseLink is unique in it's support for Java persistence services in OSGi and RCP applications.	
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('EMFCDO');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Eclipse Modeling Framework (EMF) Connected Data Objects (CDO)</a>
