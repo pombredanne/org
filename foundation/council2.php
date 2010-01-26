@@ -85,9 +85,11 @@ $sql = "SELECT
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
 			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
 			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
+			left join PeopleProjects on (People.PersonId = PeopleProjects.PersonID and PeopleProjets.InactiveDate IS NULL)
 		WHERE 
-			(PeopleRelations.Relation in ($relations) OR OrganizationContacts.Relation = 'CC')
-			AND InactiveDate IS NULL";
+			PeopleRelations.Relation in ($relations)
+			PeopleProjects.Relation in ($relations);
+			OR OrganizationContacts.Relation = 'CC');
 
 $result = $App->foundation_sql($sql);
 while( $row = mysql_fetch_assoc($result) ) {
