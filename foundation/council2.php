@@ -83,8 +83,8 @@ $sql = "SELECT
 			year(EntryDate) as year			
 		FROM People
 			join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
-			left join OrganizationsContacts on (OrganizationContacts.PersonID = People.PersonID)
-			left join Organization on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
+			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
+			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
 		WHERE 
 			PeopleRelations.Relation in ($relations)";
 
