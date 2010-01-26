@@ -73,6 +73,7 @@ class Councillor {
 }
 
 $councillors = array();
+$relations = "'" . implode( "','", $all_relations ) . "'";
 $sql = "SELECT 
 			distinct(People.PersonID) as id, 
 			FName as firstName, 
@@ -83,7 +84,7 @@ $sql = "SELECT
 		FROM PeopleRelations, People, Organizations,
 			OrganizationContacts
 		WHERE 
-			PeopleRelations.Relation in ($all_relations)
+			PeopleRelations.Relation in ($relations)
 			AND People.PersonID = PeopleRelations.PersonID
 			AND OrganizationContacts.PersonID = People.PersonID
 			AND Organizations.OrganizationID = OrganizationContacts.OrganizationID";
