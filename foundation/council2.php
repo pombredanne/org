@@ -78,7 +78,7 @@ $sql = "SELECT
 			distinct(People.PersonID) as id, 
 			People.FName as firstName, 
 			People.LName as lastName, 
-			Organization.Name1 as organization, 
+			Organizations.Name1 as organization, 
 			PeopleRelations.Relation as relation, 
 			PeopleProjects.Relation as projectRelation,
 			OrganizationContacts.Relation as organizationRelation,
@@ -86,7 +86,7 @@ $sql = "SELECT
 			year(PeopleRelations.EntryDate) as year			
 		FROM People
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID and PeopleRelations.Relation in ($relations))
-			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID and OrganizationContacts = 'CC')
+			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID and OrganizationContacts.Relation = 'CC')
 			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
 			left join PeopleProjects on (People.PersonId = PeopleProjects.PersonID and PeopleProjects.Relation in ($relations) and PeopleProjects.InactiveDate IS NULL)
 		WHERE
