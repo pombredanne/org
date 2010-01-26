@@ -76,17 +76,17 @@ $councillors = array();
 $relations = "'" . implode( "','", $all_relations ) . "'";
 $sql = "SELECT 
 			distinct(People.PersonID) as id, 
-			FName as firstName, 
-			LName as lastName, 
-			Name1 as organization, 
+			People.FName as firstName, 
+			People.LName as lastName, 
+			Organization.Name1 as organization, 
 			PeopleRelations.Relation as relation, 
 			PeopleProjects.Relation as projectRelation,
 			OrganizationContacts.Relation as organizationRelation,
 			PeopleProjects.ProjectID as project,
-			year(EntryDate) as year			
+			year(PeopleRelations.EntryDate) as year			
 		FROM People
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID and PeopleRelations.Relation in ($relations))
-			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
+			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID and OrganizationContacts = 'CC')
 			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
 			left join PeopleProjects on (People.PersonId = PeopleProjects.PersonID and PeopleProjects.Relation in ($relations) and PeopleProjects.InactiveDate IS NULL)
 		WHERE
