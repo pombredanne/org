@@ -82,11 +82,12 @@ $sql = "SELECT
 			PeopleRelations.Relation as relation, 
 			year(EntryDate) as year			
 		FROM People
-			join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
+			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
 			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
 			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
 		WHERE 
-			PeopleRelations.Relation in ($relations)";
+			(PeopleRelations.Relation in ($relations) OR OrganizationContacts.Relation = 'CC')
+			AND InactiveDate IS NULL";
 
 $result = $App->foundation_sql($sql);
 while( $row = mysql_fetch_assoc($result) ) {
