@@ -81,13 +81,12 @@ $sql = "SELECT
 			Name1 as organization, 
 			PeopleRelations.Relation as relation, 
 			year(EntryDate) as year			
-		FROM PeopleRelations, People, Organizations,
-			OrganizationContacts
+		FROM People
+			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
+			left join Organizations on (OrganizationContacts.PersonID = People.PersonID)
+			left join OrganizationContacts on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
 		WHERE 
-			PeopleRelations.Relation in ($relations)
-			AND People.PersonID = PeopleRelations.PersonID
-			AND OrganizationContacts.PersonID = People.PersonID
-			AND Organizations.OrganizationID = OrganizationContacts.OrganizationID";
+			PeopleRelations.Relation in ($relations)";
 
 $result = $App->foundation_sql($sql);
 while( $row = mysql_fetch_assoc($result) ) {
