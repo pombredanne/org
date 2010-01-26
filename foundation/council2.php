@@ -85,7 +85,7 @@ $sql = "SELECT
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID and PeopleRelations.Relation in ($relations))
 			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
 			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
-			left join PeopleProjects on (People.PersonId = PeopleProjects.PersonID and PeopleProjects.Relation in ($relations) and PeopleProjets.InactiveDate IS NULL)
+			left join PeopleProjects on (People.PersonId = PeopleProjects.PersonID and PeopleProjects.Relation in ($relations) and PeopleProjects.InactiveDate IS NULL)
 		";
 
 $result = $App->foundation_sql($sql);
