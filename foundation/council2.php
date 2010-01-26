@@ -80,6 +80,8 @@ $sql = "SELECT
 			LName as lastName, 
 			Name1 as organization, 
 			PeopleRelations.Relation as relation, 
+			PeopleProjects.Relation as projectRelation,
+			PeopleProjects.ProjectID as project,
 			year(EntryDate) as year			
 		FROM People
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID and PeopleRelations.Relation in ($relations))
@@ -87,7 +89,8 @@ $sql = "SELECT
 			left join Organizations on (Organizations.OrganizationID = OrganizationContacts.OrganizationID)
 			left join PeopleProjects on (People.PersonId = PeopleProjects.PersonID and PeopleProjects.Relation in ($relations) and PeopleProjects.InactiveDate IS NULL)
 		WHERE
-			NOT (PeopleRelations.Relation IS NULL AND PeopleProjects.Relation is NULL)";
+			NOT (PeopleRelations.Relation IS NULL AND PeopleProjects.Relation is NULL)
+			OR OrganizationContacts.Relation = 'CC'";
 
 $result = $App->foundation_sql($sql);
 while( $row = mysql_fetch_assoc($result) ) {
