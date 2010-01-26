@@ -107,7 +107,9 @@ while( $row = mysql_fetch_assoc($result) ) {
 		$councillor->year = $row['year'];
 		$councillors[$id] = $councillor;
 	}
-	$councillor->relations[] = $row['relation'];
+	if ($row['relation']) $councillor->relations[] = $row['relation'];
+	if ($row['projectRelation']) $councillor->relations[] = $row['projectRelation'];
+	if ($row['organizationRelation']) $councillor->relations[] = $row['organizationRelation'];
 }
 
 function render_councillors(&$councillors) {
