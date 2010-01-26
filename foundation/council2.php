@@ -112,10 +112,10 @@ function render_councillors(&$councillors) {
 			$relations .= "$relation ";
 		}
 		echo "<tr>";
-		echo "<td>$councillor->firstName $councillor->lastName</td>"
-		echo "<td>$councillor->organization</td>"
-		echo "<td>$councillor->year</td>"
-		echo "<td>$relations</td>"
+		echo "<td>$councillor->firstName $councillor->lastName</td>";
+		echo "<td>$councillor->organization</td>";
+		echo "<td>$councillor->year</td>";
+		echo "<td>$relations</td>";
 		echo "</tr>\n";
 	}
 	echo "</table>";
