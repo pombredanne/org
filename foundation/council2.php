@@ -161,18 +161,18 @@ while( $row = mysql_fetch_assoc($result) ) {
 		$councillor->organization = $row['organization'];
 		$councillors[$id] = $councillor;
 	}
-	if (in_array($all_relations, $row['peopleRelation'])) {
+	if (in_array($row['peopleRelation'], $all_relations)) {
 		$relation = new PeopleRelation();
 		$relation->code = $row['peopleRelation'];
 		$relation->year = $row['year'];
 		$councillor->relations[] = $relation;
 	}
-	if (in_array($all_relations, $row['projectRelation'])) {
+	if (in_array($row['projectRelation'], $all_relations)) {
 		$relation = new ProjectRelation();
 		$relation->code = $row['projectRelation'];
 		$councillor->relations[] = $relation;
 	} 
-	if (in_array($all_relations, $row['organizationRelation']))  {
+	if (in_array($row['organizationRelation'], $all_relations))  {
 		$relation = new OrganizationRelation();
 		$relation->code = $row['organizationRelation'];
 		$councillor->relations[] = $relation;
@@ -182,7 +182,7 @@ while( $row = mysql_fetch_assoc($result) ) {
 function render_councillors(&$councillors) {
 	echo "<table width=\"95%\" border=\"0\" cellspacing=\"0\" cellpadding=\"1\" align=\"center\">";
 	foreach($councillors as $councillor) {
-		$relations = 'x';
+		$relations = 'y';
 		foreach($councillor->relations as $relation) {
 			$relations .= "$relation->code ";
 		}
