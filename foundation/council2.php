@@ -76,7 +76,7 @@ abstract class Relation {
 	var $code;
 }
 
-class PersonRelation extends Relation {
+class PeopleRelation extends Relation {
 	var $year;
 	
 	function __toString() {
@@ -184,7 +184,7 @@ while( $row = mysql_fetch_assoc($result) ) {
 		
 		$relation = new PeopleRelation();
 		$relation->code = $code;
-//		$relation->year = $row['year'];
+		$relation->year = $row['year'];
 		$councillor->relations[$key] = $relation;
 	}
 	
