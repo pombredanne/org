@@ -69,7 +69,7 @@
     		<td width="63%">Email: <b>emo (at) eclipse.org</b></td>
   		</tr>
   		</table>
-  		<h2>Ottawa office</h2>
+  		<h2>Office</h2>
   		<table width="100%" border="0" cellpadding="5" cellspacing=5>
   		<tr>
     		<td valign=top width="37%">Address:</td>
