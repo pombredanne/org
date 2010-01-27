@@ -184,18 +184,24 @@ while( $row = mysql_fetch_assoc($result) ) {
 //		$councillor->relations[] = $relation;
 //	}
 	$code = $row['projectRelation'];
-	$key = "project-$code";
 	if (is_council_relation($code)) {
+		$project = $row['project']
+		$key = "project-$code";
+	
 		$relation = new ProjectRelation();
 		$relation->code = $code;
-		$relation->project = $row['project'];
+		$relation->project = $project;
 		$councillor->relations[$key] = $relation;
 	} 
-//	if (is_council_relation($row['organizationRelation']))  {
-//		$relation = new OrganizationRelation();
-//		$relation->code = $row['organizationRelation'];
-//		$councillor->relations[] = $relation;
-//	};
+	
+	$code = $row['organizationRelation']
+	if (is_council_relation($code))  {
+		$key = "org-$code";
+	
+		$relation = new OrganizationRelation();
+		$relation->code = $code;
+		$councillor->relations[$key] = $relation;
+	};
 }
 
 function render_councillors(&$councillors) {
