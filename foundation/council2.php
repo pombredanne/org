@@ -48,7 +48,7 @@ class Councillor {
 	var $firstName;
 	var $lastName;
 	var $organization;
-	var $relationships = array();
+	var $relations = array();
 	var $year;
 		
 	function is_chair() {
@@ -72,6 +72,61 @@ class Councillor {
 	}
 }
 
+abstract class Relation {
+	var $code;
+		
+    public function __toString()
+    {
+        return $this->code;
+    }
+	
+}
+
+class PersonRelation extends Relation {
+	var $year;
+	
+	function isPersonRelation() {
+		return true;
+	}
+	
+	function isOrganizationRelation() {
+		return false;
+	}
+
+	function isProjectRelation() {
+		return false;
+	}
+}
+
+class ProjectRelation extends Relation {
+	function isPersonRelation() {
+		return false;
+	}
+	
+	function isOrganizationRelation() {
+		return false;
+	}
+
+	function isProjectRelation() {
+		return true;
+	}
+}
+
+class OrganizationRelation extends Relation {	
+	function isPersonRelation() {
+		return false;
+	}
+	
+	function isOrganizationRelation() {
+		return true;
+	}
+
+	function isProjectRelation() {
+		return true;
+	}
+}
+
+
 $councillors = array();
 $relations = "'" . implode( "','", $all_relations ) . "'";
 $sql = "SELECT 
@@ -79,11 +134,11 @@ $sql = "SELECT
 			People.FName as firstName, 
 			People.LName as lastName, 
 			Organizations.Name1 as organization, 
-			PeopleRelations.Relation as relation, 
+			PeopleRelations.Relation as peopleRelation,
+			year(PeopleRelations.EntryDate) as year, 
 			PeopleProjects.Relation as projectRelation,
 			OrganizationContacts.Relation as organizationRelation,
-			PeopleProjects.ProjectID as project,
-			year(PeopleRelations.EntryDate) as year			
+			PeopleProjects.ProjectID as project			
 		FROM People
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
 			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
@@ -104,12 +159,24 @@ while( $row = mysql_fetch_assoc($result) ) {
 		$councillor->firstName = $row['firstName'];
 		$councillor->lastName = $row['lastName'];
 		$councillor->organization = $row['organization'];
-		$councillor->year = $row['year'];
 		$councillors[$id] = $councillor;
 	}
-	if ($row['relation']) $councillor->relations[] = $row['relation'];
-	if ($row['projectRelation']) $councillor->relations[] = $row['projectRelation'];
-	if ($row['organizationRelation']) $councillor->relations[] = $row['organizationRelation'];
+	if (in_array($all_relations, $row['peopleRelation'])) {
+		$relation = new PeopleRelation();
+		$relation->code = $row['peopleRelation'];
+		$relation->year = $row['year'];
+		$councillor->relations[] = $relation;
+	}
+	if (in_array($all_relations, $row['projectRelation'])) {
+		$relation = new ProjectRelation();
+		$relation->code = $row['projectRelation'];
+		$councillor->relations[] = $relation;
+	} 
+	if (in_array($all_relations, $row['organizationRelation']))  {
+		$relation = new OrganizationRelation();
+		$relation->code = $row['organizationRelation'];
+		$councillor->relations[] = $relation;
+	};
 }
 
 function render_councillors(&$councillors) {
