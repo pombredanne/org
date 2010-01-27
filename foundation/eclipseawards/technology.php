@@ -42,6 +42,8 @@ ob_start();
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
+				<li><a href="http://www.ExcelsiorJET.com" target="blank">Excelsior JET</a></li>
+				<li><a href="http://www.guidancer.com" target="blank">GUIDancer</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe&reg;</a></li>
 				<li><a href="http://www.justinmind.com/wireframe/justinmind_prototyper" target="blank">Justinmind Prototyper</a></li>
 				<li><a href="http://www.model2code.com" target="blank">M2Flex</a></li>
