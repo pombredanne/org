@@ -182,7 +182,7 @@ while( $row = mysql_fetch_assoc($result) ) {
 function render_councillors(&$councillors) {
 	echo "<table width=\"95%\" border=\"0\" cellspacing=\"0\" cellpadding=\"1\" align=\"center\">";
 	foreach($councillors as $councillor) {
-		$relations = '';
+		$relations = 'x';
 		foreach($councillor->relations as $relation) {
 			$relations .= "$relation->code ";
 		}
