@@ -184,11 +184,12 @@ while( $row = mysql_fetch_assoc($result) ) {
 //		$councillor->relations[] = $relation;
 //	}
 	$code = $row['projectRelation'];
+	$key = "project-$code";
 	if (is_council_relation($code)) {
 		$relation = new ProjectRelation();
 		$relation->code = $code;
 		$relation->project = $row['project'];
-		$councillor->relations[] = $relation;
+		$councillor->relations[$key] = $relation;
 	} 
 //	if (is_council_relation($row['organizationRelation']))  {
 //		$relation = new OrganizationRelation();
