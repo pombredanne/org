@@ -147,7 +147,7 @@ $sql = "SELECT
 		WHERE
 			PeopleRelations.Relation in ($relations)
 			OR PeopleProjects.Relation in ($relations)
-			OR OrganizationContacts.Relation in ($relations)'";
+			OR OrganizationContacts.Relation in ($relations)";
 
 $result = $App->foundation_sql($sql);
 while( $row = mysql_fetch_assoc($result) ) {
