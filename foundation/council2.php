@@ -168,11 +168,11 @@ while( $row = mysql_fetch_assoc($result) ) {
 //		$relation->year = $row['year'];
 //		$councillor->relations[] = $relation;
 //	}
-//	if (is_council_relation($row['projectRelation'])) {
-//		$relation = new ProjectRelation();
-//		$relation->code = $row['projectRelation'];
-//		$councillor->relations[] = $relation;
-//	} 
+	if (is_council_relation($row['projectRelation'])) {
+		$relation = new ProjectRelation();
+		$relation->code = $row['projectRelation'];
+		$councillor->relations[] = $relation;
+	} 
 //	if (is_council_relation($row['organizationRelation']))  {
 //		$relation = new OrganizationRelation();
 //		$relation->code = $row['organizationRelation'];
