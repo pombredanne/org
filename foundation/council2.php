@@ -162,22 +162,22 @@ while( $row = mysql_fetch_assoc($result) ) {
 		$councillor->organization = $row['organization'];
 		$councillors[$id] = $councillor;
 	}
-	if (is_council_relation($row['peopleRelation'])) {
-		$relation = new PeopleRelation();
-		$relation->code = $row['peopleRelation'];
-		$relation->year = $row['year'];
-		$councillor->relations[] = $relation;
-	}
-	if (is_council_relation($row['projectRelation'])) {
-		$relation = new ProjectRelation();
-		$relation->code = $row['projectRelation'];
-		$councillor->relations[] = $relation;
-	} 
-	if (is_council_relation($row['organizationRelation']))  {
-		$relation = new OrganizationRelation();
-		$relation->code = $row['organizationRelation'];
-		$councillor->relations[] = $relation;
-	};
+//	if (is_council_relation($row['peopleRelation'])) {
+//		$relation = new PeopleRelation();
+//		$relation->code = $row['peopleRelation'];
+//		$relation->year = $row['year'];
+//		$councillor->relations[] = $relation;
+//	}
+//	if (is_council_relation($row['projectRelation'])) {
+//		$relation = new ProjectRelation();
+//		$relation->code = $row['projectRelation'];
+//		$councillor->relations[] = $relation;
+//	} 
+//	if (is_council_relation($row['organizationRelation']))  {
+//		$relation = new OrganizationRelation();
+//		$relation->code = $row['organizationRelation'];
+//		$councillor->relations[] = $relation;
+//	};
 }
 
 function render_councillors(&$councillors) {
