@@ -126,6 +126,22 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>
+
+		<p><a href="javascript:switchMenu('GEF3D');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Eclipse Modeling Framework (EMF) Connected Data Objects (CDO)</a>
+		</p>
+		<div id="GEF3D" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			I'd like to nominate GEF3D. 
+			<br><br>
+			Explanation (Although I've some bias about it...): &nbsp; 3D is becoming more and more popular. GEF3D brings 3D to software development and modeling (and Eclipse). GEF3D enables graphically editing of multiple models and visualization of inter-model connections -- which is typically required in model-driven approaches. With GEF3D, you can use benefits of 3D without the need to actually program 3D or start from scratch, since you can reuse existing 2D editors (IMHO this actually is the most innovative part). A good example is Kristian Duske's 3D-GMF-Mapping editor. However, you can do much more 3D with GEF3D, as AGF (Agent Graphics Framework, part of AMP) by Miles Parker demonstrates.
+			</li>
+		</ul>
+		</p>
+		</div>
 		
 		<p><a href="javascript:switchMenu('Jetty');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
