@@ -199,7 +199,8 @@ function render_councillors(&$councillors) {
 	foreach($councillors as $councillor) {
 		$relations = 'y';
 		foreach($councillor->relations as $relation) {
-			$relations .= "$relation ";
+			$x = $relation->__toString();
+			$relations .= "$x ";
 		}
 		echo "<tr>";
 		echo "<td>$councillor->firstName $councillor->lastName</td>";
