@@ -177,12 +177,17 @@ while( $row = mysql_fetch_assoc($result) ) {
 		$councillor->organization = $row['organization'];
 		$councillors[$id] = $councillor;
 	}
-//	if (is_council_relation($row['peopleRelation'])) {
-//		$relation = new PeopleRelation();
-//		$relation->code = $row['peopleRelation'];
-//		$relation->year = $row['year'];
-//		$councillor->relations[] = $relation;
-//	}
+	
+	$code = $row['peopleRelation'];
+	if (is_council_relation($code)) {
+		$key = "people-$code";
+		
+		$relation = new PeopleRelation();
+		$relation->code = $code;
+		$relation->year = $row['year'];
+		$councillor->relations[$key] = $relation;
+	}
+	
 	$code = $row['projectRelation'];
 	if (is_council_relation($code)) {
 		$project = $row['project'];
