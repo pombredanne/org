@@ -180,12 +180,12 @@ while( $row = mysql_fetch_assoc($result) ) {
 	
 	$code = $row['peopleRelation'];
 	if (is_council_relation($code)) {
-//		$key = "people-$code";
-//		
-//		$relation = new PeopleRelation();
-//		$relation->code = $code;
+		$key = "people-$code";
+		
+		$relation = new PeopleRelation();
+		$relation->code = $code;
 //		$relation->year = $row['year'];
-//		$councillor->relations[$key] = $relation;
+		$councillor->relations[$key] = $relation;
 	}
 	
 	$code = $row['projectRelation'];
