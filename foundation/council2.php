@@ -74,12 +74,6 @@ class Councillor {
 
 abstract class Relation {
 	var $code;
-		
-    public function __toString()
-    {
-        return $this->code;
-    }
-	
 }
 
 class PersonRelation extends Relation {
@@ -149,6 +143,13 @@ $sql = "SELECT
 			OR PeopleProjects.Relation in ($relations)
 			OR OrganizationContacts.Relation in ($relations)";
 
+function is_council_relation($relation) {
+	global $all_relations;
+	
+	if (!$relation) return false;
+	return in_array($relation, $all_relations);
+}
+
 $result = $App->foundation_sql($sql);
 while( $row = mysql_fetch_assoc($result) ) {
 	$id = $row['id'];
@@ -161,18 +162,18 @@ while( $row = mysql_fetch_assoc($result) ) {
 		$councillor->organization = $row['organization'];
 		$councillors[$id] = $councillor;
 	}
-	if (in_array($row['peopleRelation'], $all_relations)) {
+	if (is_council_relation($row['peopleRelation'])) {
 		$relation = new PeopleRelation();
 		$relation->code = $row['peopleRelation'];
 		$relation->year = $row['year'];
 		$councillor->relations[] = $relation;
 	}
-	if (in_array($row['projectRelation'], $all_relations)) {
+	if (is_council_relation($row['projectRelation'])) {
 		$relation = new ProjectRelation();
 		$relation->code = $row['projectRelation'];
 		$councillor->relations[] = $relation;
 	} 
-	if (in_array($row['organizationRelation'], $all_relations))  {
+	if (is_council_relation($row['organizationRelation']))  {
 		$relation = new OrganizationRelation();
 		$relation->code = $row['organizationRelation'];
 		$councillor->relations[] = $relation;
