@@ -323,6 +323,22 @@ function switchMenu(obj) {
 
 		<h3>Top Contributor</h3>
 
+		<p><a href="javascript:switchMenu('MattHall');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Matt Hall</a>
+		</p>
+		<div id="MattHall" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			If I got this category right this year one can nominate committers here as well if their Eclipse Contributions are done in their spare time.
+			<br><br>
+			So I'd like to nominate Matt Hall for his amazing work on Eclipse Databinding and pushing it in new directions in 3.5 and 3.6.
+			</li>
+		</ul>
+		</p>
+		</div>
+
 		<p><a href="javascript:switchMenu('LaurensHolst');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
 			Laurens Holst</a>
