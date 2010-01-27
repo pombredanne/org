@@ -129,7 +129,7 @@ function switchMenu(obj) {
 
 		<p><a href="javascript:switchMenu('GEF3D');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			Eclipse Modeling Framework (EMF) Connected Data Objects (CDO)</a>
+			GEF3D</a>
 		</p>
 		<div id="GEF3D" class="switchcontent">
 		<p>
