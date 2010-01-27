@@ -79,6 +79,10 @@ abstract class Relation {
 class PersonRelation extends Relation {
 	var $year;
 	
+	function __toString() {
+		return "Person($this->code)";
+	}
+	
 	function isPersonRelation() {
 		return true;
 	}
@@ -93,6 +97,11 @@ class PersonRelation extends Relation {
 }
 
 class ProjectRelation extends Relation {
+	function __toString() {
+		return "Project($this->code)";
+	}
+	
+	
 	function isPersonRelation() {
 		return false;
 	}
@@ -107,6 +116,10 @@ class ProjectRelation extends Relation {
 }
 
 class OrganizationRelation extends Relation {	
+	function __toString() {
+		return "Org($this->code)";
+	}
+	
 	function isPersonRelation() {
 		return false;
 	}
@@ -186,7 +199,7 @@ function render_councillors(&$councillors) {
 	foreach($councillors as $councillor) {
 		$relations = 'y';
 		foreach($councillor->relations as $relation) {
-			$relations .= "$relation->code ";
+			$relations .= "$relation ";
 		}
 		echo "<tr>";
 		echo "<td>$councillor->firstName $councillor->lastName</td>";
