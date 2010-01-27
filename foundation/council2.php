@@ -179,14 +179,14 @@ while( $row = mysql_fetch_assoc($result) ) {
 	}
 	
 	$code = $row['peopleRelation'];
-//	if (is_council_relation($code)) {
+	if (is_council_relation($code)) {
 //		$key = "people-$code";
 //		
 //		$relation = new PeopleRelation();
 //		$relation->code = $code;
 //		$relation->year = $row['year'];
 //		$councillor->relations[$key] = $relation;
-//	}
+	}
 	
 	$code = $row['projectRelation'];
 	if (is_council_relation($code)) {
@@ -215,7 +215,7 @@ function render_councillors(&$councillors) {
 		$relations = 'y';
 		foreach($councillor->relations as $relation) {
 			$x = $relation->__toString();
-			$relations .= "$x ";
+			$relations .= "$z ";
 		}
 		echo "<tr>";
 		echo "<td>$councillor->firstName $councillor->lastName</td>";
