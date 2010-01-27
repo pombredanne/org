@@ -97,8 +97,10 @@ class PersonRelation extends Relation {
 }
 
 class ProjectRelation extends Relation {
+	var $project;
+	
 	function __toString() {
-		return "Project($this->code)";
+		return "$this->project($this->code)";
 	}
 	
 	
@@ -144,8 +146,8 @@ $sql = "SELECT
 			PeopleRelations.Relation as peopleRelation,
 			year(PeopleRelations.EntryDate) as year, 
 			PeopleProjects.Relation as projectRelation,
-			OrganizationContacts.Relation as organizationRelation,
-			PeopleProjects.ProjectID as project			
+			PeopleProjects.ProjectID as project,			
+			OrganizationContacts.Relation as organizationRelation
 		FROM People
 			left join PeopleRelations on (People.PersonID = PeopleRelations.PersonID)
 			left join OrganizationContacts on (OrganizationContacts.PersonID = People.PersonID)
@@ -185,6 +187,7 @@ while( $row = mysql_fetch_assoc($result) ) {
 	if (is_council_relation($code)) {
 		$relation = new ProjectRelation();
 		$relation->code = $code;
+		$relation->project = $row['project'];
 		$councillor->relations[] = $relation;
 	} 
 //	if (is_council_relation($row['organizationRelation']))  {
