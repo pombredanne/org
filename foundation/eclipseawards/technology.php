@@ -61,6 +61,7 @@ ob_start();
 			<ul>
 				<li><a href="http://andrei.gmxhome.de/anyedit/index.html " target="blank">AnyEdit Tools</a></li>
 				<li><a href="http://andrei.gmxhome.de/skins/index.html" target="blank">Extended VS Presentation</a></li>
+				<li><a href="http://www.safisystems.com" target="blank">SafiWorkshop</a></li>
 				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>
 			</ul>
 		</div>
