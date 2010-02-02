@@ -276,7 +276,7 @@ function switchMenu(obj) {
 
 		<p><a href="javascript:switchMenu('XML');" title="Description">
 		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
-			XML (part of WTP Incubator)</a>
+			XML Tools in Web Tools Platform (WTP) Incubator</a>
 		</p>
 		<div id="XML" class="switchcontent">
 		<p>
