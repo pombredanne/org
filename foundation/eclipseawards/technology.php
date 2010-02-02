@@ -46,6 +46,7 @@ ob_start();
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro AnalytiX</a></li>
 				<li><a href="http://www.ExcelsiorJET.com" target="blank">Excelsior JET</a></li>
 				<li><a href="http://www.guidancer.com" target="blank">GUIDancer</a></li>
+				<li><a href="http://developers.intervoice.com" target="blank">Interaction Composer</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe&reg;</a></li>
 				<li><a href="http://www.justinmind.com/wireframe/justinmind_prototyper" target="blank">Justinmind Prototyper</a></li>
 				<li><a href="http://www.model2code.com" target="blank">M2Flex</a></li>
