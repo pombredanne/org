@@ -77,6 +77,7 @@ ob_start();
 			<ul>
 				<li><a href="http://www.ditaworks.com" target="blank">DITAworks Eclipse Help Package</a></li>
 				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCryp Tool</a></li>
+				<li><a href="http://www.postergenius.com" target="blank">PosterGenius</a></li>
 				<li><a href="http://www.pavone.com/structurebuilder_eclipse" target="blank">PAVONE Structure Builder</a></li>
 			</ul>
 		</div>
