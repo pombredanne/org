@@ -38,7 +38,11 @@
 			3) Technologies and Products.  Award winners will be announced at
 			<a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>
-	
+
+		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
+		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
+		</p>	
+		
 		<h3>Individual Awards</h3>
 		<p>
 			<ol>
