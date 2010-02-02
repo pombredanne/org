@@ -54,7 +54,7 @@
  				answered the most questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
 			</ol> 	
-			<a href="nominate_individual.php">Nominations are now open for Individual Awards.</a>
+			<a href="individual.php">Nominations are now closed for Individual Awards.</a>
 			<br>
 		</p>
 		
@@ -67,7 +67,7 @@
 				<li><strong>Most Open Project</strong> - An Eclipse project that best exemplifies the openness,
 				transparency and diversity expected of great open source projects. </li>	
 				</ol>
-			<a href="nominate_project.php">Nominations are now open for Eclipse Project Awards.</a>
+			<a href="project.php">Nominations are now closed for Eclipse Project Awards.</a>
 			<br>
 
 		</p>
@@ -84,7 +84,7 @@
 				<li><strong>Best RCP Application</strong> - An end-user desktop application (not hosted at
 				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
 			</ol>
-			<a href="nominate_technology.php">Nominations are now open for Technology Awards.</a>
+			<a href="technology.php">Nominations are now closed for Technology Awards.</a>
 			<br>
 		</p>
 		
@@ -92,8 +92,8 @@
 		<p>
 			<ul>
 				<li><font color="#A9A9A9">Nominations open - December 3, 2009</font></li>
-				<li>Nominations close - January 29, 2010</font></li>
-				<li>Voting begins for Individual Awards - February 1, 2010</font></li>
+				<li><font color="#A9A9A9">Nominations close - January 29, 2010</font></li>
+				<li>Voting begins for Individual Awards - February 2, 2010</font></li>
 				<li>Voting ends for Individual Awards - February 26, 2010 at 5:00 pm EST</font></li>
 				<li>Awards Announced at EclipseCon 2010 - March 22-25, 2010</li>
 			</ul>
@@ -107,13 +107,13 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
-				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
-				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
 				<li><a href="technology.php">Technology Nominees</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
+				<li><a href="nominate_individual.php">Make an Individual Nomination</a></li>
+				<li><a href="nominate_project.php">Make a Project Nomination</a></li>				
+				<li><a href="nominate_technology.php">Make a Technology Nomination</a></li>
 			</ul>
 		</div>
 		
