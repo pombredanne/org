@@ -2,7 +2,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Voting for the Individual Eclipse Community Awards is Open";
+	$pageTitle 		= "Voting is Open for the Eclipse Community Awards";
 	$pageKeywords	= "eclipse, community, awards, EclipseCon, vote";
 	$pageAuthor		= "Lynn Gayowski";
 	
@@ -37,17 +37,15 @@ function switchMenu(obj) {
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 	
-		<p>Nominations for the Eclipse Community Awards in the individual and project categories are complete and <a href="http://eclipse.org/go/awardsvote10"
-		target="blank">voting</a> has opened for the nominees.  Congratulations to all the worthy candidates!  Show your
+		<p>Nominations for the Eclipse Community Awards are complete and
+		<a href="http://eclipse.org/go/awardsvote10" target="blank">voting</a> has opened for the individual
+		and project category nominees.  Congratulations to all the worthy candidates!  Show your
 		appreciation to the people that have made Eclipse a stronger community by casting your vote.</p>
-	
-		<p>There is also a Most Prolific Newcomer Evangelist award, which will be presented to the individual that answered the most
-		questions posted on the eclipse.newcomer newsgroup.</p>
 
 		<p>More details about the awards and the nomination process can be found
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">online</a>.	 Voting for the Eclipse Community
 		Awards will be open until <b>February 26, 2010 at 5:00pm EST</b> and the winner will be announced March 22, 2010 at
-		<a href="http://www.eclipsecon.org" target="blank">EclipseCon.</a></p>
+		<a href="http://www.eclipse.org/go/EC10_web@cbfeb2">EclipseCon.</a></p>
 		
 		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
 		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
