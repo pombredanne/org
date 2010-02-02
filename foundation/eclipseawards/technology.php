@@ -41,6 +41,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
+				<li><a href="http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp" target="blank">BlackBerry Java Plug-in for Eclipse</a></li>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro AnalytiX</a></li>
 				<li><a href="http://www.ExcelsiorJET.com" target="blank">Excelsior JET</a></li>
