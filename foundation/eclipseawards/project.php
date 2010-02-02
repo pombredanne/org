@@ -50,7 +50,7 @@ function switchMenu(obj) {
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Project Awards.  Nominations close on January 29, 2010.
+			The following is a list of nominations submitted for the Project Awards.  Nominations closed on January 29, 2010.
 		</p>
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
