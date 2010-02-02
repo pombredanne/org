@@ -99,7 +99,7 @@ function switchMenu(obj) {
 			<li>e4</li>
 			<li>Equinox p2</li>
 			<li>Mylyn</li>
-			<li>XML (part of WTP Incubator)</li>			
+			<li>XML Tools in Web Tools Platform (WTP) Incubator</li>			
 		</ul>
 		
 	</div>
