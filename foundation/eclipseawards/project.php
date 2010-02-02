@@ -52,6 +52,10 @@ function switchMenu(obj) {
 		<p>
 			The following is a list of nominations submitted for the Project Awards.  Nominations closed on January 29, 2010.
 		</p>
+
+		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
+		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
+		</p>
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 
