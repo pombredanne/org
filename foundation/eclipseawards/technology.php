@@ -45,6 +45,7 @@ ob_start();
 				<li><a href="http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp" target="blank">BlackBerry Java Plug-in for Eclipse</a></li>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro AnalytiX</a></li>
+				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>
 				<li><a href="http://www.ExcelsiorJET.com" target="blank">Excelsior JET</a></li>
 				<li><a href="http://www.guidancer.com" target="blank">GUIDancer</a></li>
 				<li><a href="http://developers.intervoice.com" target="blank">Interaction Composer</a></li>
