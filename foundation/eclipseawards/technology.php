@@ -56,7 +56,6 @@ ob_start();
 				<li><a href="http://www.nwiresoftware.com/" target="blank">nWire</a></li>
 				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
 				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
-				<li><a href="http://www.instantiations.com/windowbuilder/pro/ " target="blank">WindowBuilder Pro</a></li>
 				<li><a href="http://www.instantiations.com/windowtester/index.html" target="blank">WindowTester Pro</a></li>
 				<li><a href="http://wireframesketcher.com" target="blank">WireframeSketcher</a></li>
 				<li><a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
