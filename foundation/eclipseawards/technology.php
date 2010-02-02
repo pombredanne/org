@@ -82,6 +82,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best RCP Application</h3>
 			<ul>
+				<li><a href="http://www.bioclipse.net" target="blank">Bioclipse</a></li>
 				<li><a href="http://www.ditaworks.com" target="blank">DITAworks Eclipse Help Package</a></li>
 				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCryp Tool</a></li>
 				<li><a href="http://www.postergenius.com" target="blank">PosterGenius</a></li>
