@@ -40,7 +40,7 @@
 			own products. To submit, complete the questionnaire below and e-mail it to				
 			<a href="mailto:awards@eclipse.org">awards@eclipse.org</a>. Answers can simply be addressed
 			in the body or your e-mail or in a MS Word or OpenOffice attachment.			
-			Nominations opened December 3, 2009 and will close January 29,
+			Nominations opened December 3, 2009 and closed January 29,
 			2010.  Winners will be announced at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>		
 		
