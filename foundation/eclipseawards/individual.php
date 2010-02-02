@@ -50,7 +50,7 @@ function switchMenu(obj) {
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Individual Awards.  Nominations closed on January 29, 2010.
+			The following is a list of nominations submitted for the Individual Awards.  Nominations closed on January 29, 2010. Voting is open until February 26, 2010 at 5:00 pm EST.
 		</p>
 
 		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
