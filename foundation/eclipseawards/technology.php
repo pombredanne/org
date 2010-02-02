@@ -42,7 +42,7 @@ ob_start();
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
 				<li><a href="http://www.atlassian.com/eclipse" target="blank">Atlassian Connector for Eclipse</a></li>
-				<li><a href="http://www.birt-exchange.com/be/marketplace/app-showcase/" target="blank">BIRT Mashboard App</a></li>
+				<li><a href="http://www.birt-exchange.com/be/marketplace/app-showcase/" target="blank">BIRT Mashboard Application</a></li>
 				<li><a href="http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp" target="blank">BlackBerry Java Plug-in for Eclipse</a></li>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
 				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro AnalytiX</a></li>
@@ -56,6 +56,7 @@ ob_start();
 				<li><a href="http://www.nwiresoftware.com/" target="blank">nWire</a></li>
 				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
 				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
+				<li><a href="http://www.instantiations.com/windowbuilder/pro/ " target="blank">WindowBuilder Pro</a></li>
 				<li><a href="http://www.instantiations.com/windowtester/index.html" target="blank">WindowTesterPro</a></li>
 				<li><a href="http://wireframesketcher.com" target="blank">WireframeSketcher</a></li>
 				<li><a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
