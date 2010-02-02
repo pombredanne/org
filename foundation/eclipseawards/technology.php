@@ -69,7 +69,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best EclipseRT Application</h3>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/nominate_technology.php" target="blank">Submit your application here!</a></li>
+				<li><a href="http://eclipsesource.com/en/products/" target="blank">Yoxos Eclipse Distribution</a></li>
 			</ul>
 		</div>
 	
