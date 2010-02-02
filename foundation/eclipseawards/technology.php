@@ -41,6 +41,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
+				<li><a href="http://www.atlassian.com/eclipse" target="blank">Atlassian Connector for Eclipse</a></li>
 				<li><a href="http://www.birt-exchange.com/be/marketplace/app-showcase/" target="blank">BIRT Mashboard App</a></li>
 				<li><a href="http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp" target="blank">BlackBerry Java Plug-in for Eclipse</a></li>
 				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
