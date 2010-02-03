@@ -20,7 +20,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "$year Board Candidate: $candidate->name";
+	$pageTitle 		= "$year Board Candidate:<br>$candidate->name";
 	$pageKeywords	= "article, articles, tutorial, tutorials, how-to, howto, whitepaper, whitepapers, white, paper";
 	$pageAuthor		= "Type your name here";
 	
