@@ -100,10 +100,6 @@
 		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse
 		projects. Full details of Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org">www.eclipse.org</a>.
 		</p>
-		
-		<p>All company/product names and service marks may be trademarks or registered trademarks of
-		their respective companies.
-		</p>
 
 		<p><strong>About OMG</strong><br />
 			OMG&trade; is an international, open membership, not-for-profit computer industry standards
