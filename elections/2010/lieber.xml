@@ -1,0 +1,31 @@
+<boardmember id="lieber" type=" {addin} ">
+
+	<name>Adam Lieber </name>
+
+	<title>General Manager, IntalioWorks </title>
+
+	<image> lieber.jpg </image>
+
+	<email>alieber@intalio.com </email>
+
+	<eclipse_affiliation> <![CDATA[
+		Sustaining member
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		The Eclipse Foundation has had enormous success in spreading its tooling related projects to developers and products worldwide. On the Board, I would continue to sponsor that, as well as the spread of its runtime technologies, which is IntalioWorks strength. Taking Eclipse presence in tooling and runtime to the next level will take sponsorship of more member companies, more brand focused on the breadth of the Foundation's offerings that now go far beyond its origins, as well as technical sponsorship for Git/SVN/CVS and bug processes among others to help get technologies adopted more easily. Jetty has an extremely successful track record of attracting collaboration with other projects, communities, and products, and from my exposure to that, I hope to help continue and to help boost the Eclipse Foundations presence in the future, and value to its members. Further, my experience in adjusting Jetty's processes for entry into the foundation will help highlight ways Eclipse can possibly streamline in the future in growth. And, as part of Intalio's additional contributing presence in SOA, WTP, and MDT projects, as well as Architecture Council, we have a wide set of exposure to help gather helpful suggestions.
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+		Adam is General Manager of IntalioWorks, which includes the BPMS, Jetty, and Cometd offerings from Intalio, and operates with a commercial open source model in 15 countries around the world. Previously, he was CEO of Webtide, which focused on services for Jetty and Cometd, where he helped bring the Jetty project to the Eclipse Foundation Runtime project. Previously, he was a co-founder of Gluecode Software, a pioneer in commercial open source offerings, which was acquired by IBM, where he lead worldwide sales for the group. 
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		IntalioWorks
+	
+	]]>
+	</affiliation>
+
+		
+</boardmember>
