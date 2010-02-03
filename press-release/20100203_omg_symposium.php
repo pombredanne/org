@@ -27,7 +27,7 @@
 		<h1>$pageTitle</h1>
 
      	<p>	
-			Needham, MA, USA and Ottawa, ON, Canada – February 3, 2010 – <a href="http://www.omg.org" target="blank">
+			Needham, MA, USA and Ottawa, ON, Canada - February 3, 2010 - <a href="http://www.omg.org" target="blank">
 			OMG&trade;</a> and the Eclipse Foundation have issued a Call for Participation for the 2nd
 			Biannual Symposium on Eclipse Open Source Software and OMG Open Specifications to be held
 			June 23, 2010 in Minneapolis, Minn., USA. The submission deadline is February 24. For more
@@ -77,7 +77,7 @@
 		
 		<p>
 			Interested individuals or organizations are invited to submit a brief (up to 600 words)
-			position paper by February 24, 2010 using this web form (please select “Presentation”):
+			position paper by February 24, 2010 using this web form (please select "Presentation"):
 			<a href="http://www.omg.org/abstracts" target="blank">http://www.omg.org/abstracts</a>.
 		</p>
 
