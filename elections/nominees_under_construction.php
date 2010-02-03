@@ -53,7 +53,7 @@
 		<li>Adam Lieber</li>
 		<li>Shawn Pearce</li>
 		</ul>
-		<p><b>The individual candiate pages will be available on February 8, 2010.</b></p>
+		<p><b>The individual candidate pages will be available on February 8, 2010.</b></p>
 		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
