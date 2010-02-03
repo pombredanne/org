@@ -1,0 +1,45 @@
+<boardmember id="schaefer" type="committer">
+
+	<name>Doug Schaefer</name>
+
+	<title>Engineering Manager, Eclipse Ecosystem Development</title>
+
+	<image>schaefer.jpg</image>
+
+	<email>doug.schaefer@windriver.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+CDT Project Lead, Tools PMC Member, Architecture Council Member, EclipseCon Program Committee
+		
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+<p>Over the last 8 years the Eclipse community has managed to build up an incredible asset that is Eclipse in all it's forms from run-times to tools and beyond. We need to make sure we have the right processes, procedures and policies at Eclipse to ensure that the community remains strong and grows. We need to make sure that Eclipse is friendly to both business and individuals. It'll take both to continue with our success. For Eclipse to remain competitive we need to ensure that talent is allowed to flourish and that new ideas are encouraged and accepted. There is a bit of a culture change that needs to happen at Eclipse to enable that and as a member of the Eclipse Board, I can help drive that change.</p>
+
+<p>As a committer representative on the Eclipse Board, a big part of my job would be to make sure our committers have the tools they need to be successful. Distributed version control is a great example of a simple tooling change that makes it so much easier for committers to do work off-stream, to try out new ideas, to implement fixes quickly for their downstream customers, while making it easy push the contributions upstream to share with the community. We need to ensure that we continue this momentum and make sure we support the realities of daily life for the committers.</p>
+
+<p>When coming up with a Vision for Eclipse, I must think of all the Eclipse-related open source projects that exist in the greater community at SourceForge, Google Code, GitHub, and others. Eclipse is much bigger than what exists on the Foundation servers. We need to recognize them and open the door to bring those projects home. To continue to be successful, Eclipse needs to be all inclusive, to be the meeting ground for everyone working on Eclipse technologies. Yes, we still need to ensure the needs of our membership is met with the policies we have today, but our membership is diverse. We need to ensure that Eclipse meets the needs of all.</p>
+
+<p>I've documented much of my vision for Eclipse at my blog, http://cdtdoug.blogspot.com. There is no discounting my passion for Eclipse, the CDT in particular, and the community that builds it and the community that it serves. The job isn't done yet and Eclipse will have to continuously reinvent itself. The policies set out by the Board have a huge influence on that and we need to make sure that the community continues to thrive, to ensure we individually thrive from our participation in that community.</p>
+
+		
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+<p>Doug has 15 years experience building tools for software development. 7 of those years he has been an Eclipse committer with four years as project lead of the CDT project, one of the most diverse and widely adopted Eclipse projects outside of the Java space. It's been quite a ride on the CDT with many ups and downs, but today, Doug has helped grow the CDT now stronger than it has ever been with 20 committers and over 400,000 downloads and a steady patch arrival rate.</p>
+
+<p>Doug is at Wind River Systems where he has recently taken on a new role of ecosystem manager with a technical focus on nurturing the Eclipse projects to which Wind River and many other companies and individuals contribute for all our benefit.</p>
+
+		
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+Wind River Systems
+		
+	
+	]]>
+	</affiliation>
+
+		
+</boardmember>
