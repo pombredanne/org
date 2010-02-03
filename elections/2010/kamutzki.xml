@@ -1,8 +1,10 @@
 <boardmember id="kamutzki" type="addin">
 
 <name>Hans Kamutzki</name>
-<title>Managing Director<br>
-MicroDoc</title>
+<title> <![CDATA[
+Managing Director<br>
+MicroDoc
+ ]]> </title>
 <image>kamutzki.jpg</image>
 <email>hka@microdoc.com</email>
 
