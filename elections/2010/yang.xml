@@ -1,0 +1,88 @@
+<boardmember id="yang" type=" addin">
+	<name>Yves YANG</name>
+	<title>CEO</title>
+	<image>yang.jpg</image>
+	<email>yves.yang@soyatec.com</email>
+	<eclipse_affiliation> <![CDATA[
+	Eclipse Solutions member
+	]]> </eclipse_affiliation>
+	<vision>  <![CDATA[
+<p>Eclipse is the most vibrant and active open source community in the Java components
+and tooling arena. The Eclipse platform was first targeted at building an extensible IDE component
+framework. It has since evolved into a general-purpose platform for building extensible
+software applications of all kinds in desktop environment. 
+
+<p>Now, Eclipse IDE is widely adopted by most of the software providers and industries. 
+However, the adoption of Eclipse's runtime platform in domain application is limited
+due to the complexity of UI development and the lack of Web support application
+environments. Eclipse's main obstacle is to be used widely in ERP and BPMS in Manufacturing,
+Supply Chain, Finances, Customer Relationship Management (CRM), Human Resources, 
+Warehouse Management and Decision Support System. The traditional UI development in
+programming language in eclipse presents the following drawbacks:
+<ul>
+ 
+    <li>High technology pre-requisite as UI developer</li>
+    <liDifficult to separate UI appearance and business logic</li>
+    <liPoor reusability and low extensibility</li>
+    <liVery hard to build powerful development tools</li>
+</ul>
+
+<p>In the meantime, software market has changed dramatically. More and more
+applications are now deployed in diverse environments as web servers, 
+web browsers and embedded clients applications. Some new technologies emerge and
+become mature like Animiation, Data Binding, Declarative UI, Visual Design tools and
+MDE engineering system. Some integrated UI solutions are available in other development languages and
+environments to develop fashion application. </p>
+
+<p>A new flexible and high extensible solution is absolutely necessary to simplify
+development of software components and component-based applications to meet the
+demands of the ever changing computing landscape.
+
+Soyatec has worked on this area since early 2006. And all of our research and
+development have  contributed in eclipse e4 for XWT and two visual designers and in
+modeling PMF for UI generation.</p> 
+
+<p>All these actions show that Yves Yang, CEO of Soyatec: 1) quickly understood the
+purpose, impacts and interests of Eclipse for the software community, 2) the role to
+be an active and contributive Eclipse member, 3) the connections that can be established either
+between Eclipse members or between the Eclipse community and external software
+actors, such as Microsoft.</p>
+
+<p>reover, all these contributions reflect the values of Soyatec: being innovative
+and offering high-level technical and industry reliable solutions, 
+which are profitable to the whole Eclipse community and software industry.</p>
+
+<p>All these reasons converge today toward Yves YANG's will to continue to share these
+values on the Eclipse Foundation Board of Directors' level.</p>
+	
+	]]> </vision>
+	<bio> <![CDATA[
+Yves YANG has more than 20 years of experience in OO software development and deep
+knowledge mainly on ODBMS first, and then Eclipse since 2002. 
+
+As an architect, he has worked in several important applications in Telecom, Defense
+and Finance. He has a rich experience in industry software development and has a
+good understanding of market needs.
+
+In eclipse, he was the chief architect of the first Eclipse UML plugin from 2002 to
+early 2006. Today, he is the project leader of ESL, VE and PMF eclipse projects, 
+and he is one of the main contributors of the e4 project. He leads and develops a
+declarative UI (XWT) and two Visual tools: XWT Designer and e4 Workbench Designer. 
+
+His activities focus mainly on the Modeling UI, Declarative UI, Visual UI Tools, and
+the adoption of eclipse solutions by software industry. His main contributions are:
+
+1.        Developing the first UML solution in eclipse, which was widely used by the
+eclipse community during 2002 and 2005.
+2.        Helping Microsoft to join the eclipse community 
+3.        Important contribution in the e4 project by developing a complete and industry
+reliable declarative UI solution for eclipse (XWT) with two Visual tools: e4
+Workbench Designer and XWT Designer.
+
+	]]> </bio>
+	<affiliation> <![CDATA[
+	AFDEL (French Association of Software Provider)
+	SYSTEM@TIC PARIS-REGION / A World Class ICT Cluster dedicated to complex systems
+	]]>
+	</affiliation>
+</boardmember>
