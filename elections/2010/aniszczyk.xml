@@ -1,0 +1,61 @@
+<boardmember id="aniszczyk" type="committer">
+
+	<name>Chris Aniszczyk</name>
+
+	<title>Senior Software Engineer and Evangelist, EclipseSource</title>
+
+	<image>aniszczyk.jpg</image>
+
+
+	<email> <![CDATA[
+	zx@eclipsesource.com ]]> </email>
+
+
+	<eclipse_affiliation> <![CDATA[ 
+                Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Co-Lead<br> 
+                <a href="http://www.eclipse.org/technology/team-leaders.php">Technology</a> PMC Member<br>
+                <a href="http://www.eclipse.org/egit">EGit</a> / JGit Committer<br> 
+                <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>                 
+                <a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer<br> 
+                <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007-2010)<br> 
+                Eclipse Board Committer Representative (2007-2010)
+        ]]> </eclipse_affiliation>
+
+
+	<vision>  <![CDATA[
+		<p>My vision for Eclipse is simple, keep building the <b>community</b> so the Eclipse ecosystem can prosper. We have a unique open source community at Eclipse that is comprised of two main parties: individuals and companies. We need to keep both parties in mind and make it easier for both individuals and companies to be successful at Eclipse. As a committer representative, I will continue to support committers and bring forward any concerns. My passion lies with growing the Eclipse ecosystem and making sure its constituents are happy. I have demonstrated my passion over the last few years via action. I have introduced new contributors to the Eclipse ecosystem, mentored many committers and <a href="http://www.eclipse.org/egit">attracted</a> <a href="http://www.eclipse.org/swtbot">new</a> <a href="http://www.eclipse.org/gef3d">projects</a>.</p>
+
+<p>To ensure Eclipse continues to grow and thrive I will particularly focus on:</p>
+<ul>
+<li>Continue modernizing the Eclipse infrastructure around GIT and project hosting</li>
+<li>Push the Eclipse Marketplace to become an appstore for the Eclipse ecosystem</li>
+<li>Push the idea of a global bundle repository for Eclipse, akin to Maven Central</li>
+<li>Make it easier for projects to crowdsource their documentation efforts</li>
+<li>Build bridges within the Eclipse ecosystem and with other open source or commercial projects</li>
+<li>Encourage Eclipse committers and projects to participate in the community via blogs, forums and other communication channels</li>
+<li>Lower the barrier to entry for new projects without sacrificing the quality Eclipse is known for</li>
+<li>Evangelize and grow the e4 and EclipseRT efforts</li>
+<li>Ensure Eclipse processes are transparent as possible</li>
+</ul>
+
+<p>On the whole, my goal is to make Eclipse thrive and be transparent as possible about the board's activities. I love bringing new projects to the Eclipse ecosystem and mentoring new committers. I will pay special attention to how we can make the Eclipse development process easier for smaller projects. In the end, I would be honored to represent you, the committers, for another term.</p>	
+	]]> </vision>
+
+	<bio> <![CDATA[
+<p>Chris Aniszczyk is the co-lead of the Eclipse Plug-in Development Environment (PDE) project and a Senior Software Engineer at EclipseSource. 
+He is the co-author of The Eclipse Rich Client Platform (Addison-Wesley) book and has been recognized by the Eclipse Community 
+Awards as <b>Top Ambassador</b> and <b>Top Committer</b>. Chris tends to be all over the place inside the Eclipse 
+community by committing on various Eclipse projects. He sits on the Eclipse Architecture Council, Eclipse Planning Council 
+and has the honor to represent the committers on the Eclipse Foundation's Board of Directors. Chris's passions are 
+modularity, <a href="http://aniszczyk.org">blogging</a>, tooling and anything Eclipse.</p> 
+<p>He's always available to discuss opensource or Eclipse over a frosty beverage.</p>
+	]]> </bio>
+
+
+	<affiliation> <![CDATA[ 		
+	EclipseSource
+	]]>
+	</affiliation>
+
+		
+</boardmember>
