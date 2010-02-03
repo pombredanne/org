@@ -25,7 +25,8 @@
 	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-
+		<h2>June 23, 2010, Minneapolis, Minnesota</h2>
+		
      	<p>	
 			Needham, MA, USA and Ottawa, ON, Canada - February 3, 2010 - <a href="http://www.omg.org" target="blank">
 			OMG&trade;</a> and the Eclipse Foundation have issued a Call for Participation for the 2nd
