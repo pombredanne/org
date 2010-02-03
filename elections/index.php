@@ -56,7 +56,7 @@
 	    <h3>$year Elections</h3>
 		Information concerning the $year elections is contained within the links below.
 		<ul>
-		<li>The <a href="nominees.php">candidates</a> for the election</li>
+		<li>The <a href="nominees_under_construction.php">candidates</a> for the election</li>
 		<li>The <a href="keydates.php">key dates</a> for the $year elections</li>
 		<li>The Eclipse Foundation <a href="election_process.php">election process</a></li>
 		</ul>
