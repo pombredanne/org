@@ -37,7 +37,7 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2>$year Committer Candidates</h2>
+		<h2>Committer Candidates</h2>
 		<ul>
 		<li>Chris Aniszczyk</li>
 		<li>Boris Bokowski</li>
