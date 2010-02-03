@@ -37,7 +37,7 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<b>This page is currently under construction while we are in the $year nomination phase.
+		<b>This page is currently under construction while we are finalizing the $year candidate pages.
 		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
