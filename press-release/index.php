@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100203_omg_symposium.php">Call for Participation: 2nd Biannual Symposium on Eclipse Open Source Software & OMG Open Specifications</a> - February 3, 2010</li>
 		<li><a href="20100202_awardsvote.php">Voting is Open for the Eclipse Community Awards</a> - February 2, 2010</li>
 		<li><a href="20100121_eclipsecon.php">EclipseCon 2010 Program and Gold Sponsors Announced</a> - January 21, 2010</li>
 		<li><a href="20091203_awards.php">Nominations Open for the Eclipse Community Awards 2010</a> - December 3, 2009</li>
