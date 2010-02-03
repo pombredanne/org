@@ -37,7 +37,23 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<b>This page is currently under construction while we are finalizing the $year candidate pages.
+		<h2>$year Committer Candidates</h2>
+		<ul>
+		<li>Chris Aniszczyk</li>
+		<li>Boris Bokowski</li>
+		<li>Bjorn Freeman-Benson</li>
+		<li>Ed Merks</li>
+		<li>Doug Schaefer</li>
+		</ul>
+		<h2>Sustaining Member Candidates</h2>
+		<ul>
+		<li>Hans-Joachim Brede</li>
+		<li>Hans Kamutzki</li>
+		<li>Mik Kersten</li>
+		<li>Adam Lieber</li>
+		<li>Shawn Pearce</li>
+		</ul>
+		<p>The individual candiate pages will be available on February 8, 2010.</p>
 		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
