@@ -45,7 +45,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2009";
+	$year="2010";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -77,6 +77,8 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
+		<p>Voting in the 2010 elections begins on February 22, 2010, and ends on March 12, 2010 at 3pm Eastern time.</p>
+		
 		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
 		<table>
 			<tr>
@@ -84,7 +86,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 					<h3>Committer Candidates</h3>
 				</td>
 				<td valign="bottom">
-					<h3>Sustaining Member Candidates</h3>
+					<h3>Solutions Member Candidates</h3>
 				</td>
 			</tr>
 			<tr>
