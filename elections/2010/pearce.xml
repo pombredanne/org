@@ -1,0 +1,71 @@
+<boardmember id="pearce" type="addin">
+
+	<name> Shawn Pearce </name>
+
+	<title> Software Engineer </title>
+
+	<image>pearce.jpg  </image>
+
+	<email> sop@google.com </email>
+
+	<eclipse_affiliation> <![CDATA[
+		Solutions Provider
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+
+<p>Entering 2010 the Eclipse Foundation is facing many challenges.
+</p>
+
+<p>The number of projects that desire to join a release train
+has been increasing every year, placing more work on the IP team
+during each release cycle.  The development process needs to evolve
+and become more streamlined, so that more projects can join the
+foundation, follow its development model, and still release as
+part of the release train.  Wayne Beaton has already proposed some
+changes, and as a board member I will support these efforts, and
+continue to encourage further process improvements.</p>
+
+<p>The foundation is dealing with increasingly difficult revenue
+issues.  As a trade association dependent upon membership dues,
+the foundation relies upon its membership to pay all of its
+operating costs.  But, as membership fluctuates due to external
+market conditions, the foundation finds itself struggling to
+meet member requests.  Going forward the board needs to help the
+foundation identify ways to diversify revenue, and make membership
+a more valuable investment for all of the member companies.</p>
+
+<p>New contributors are the life-blood of any open source project,
+but are often road-blocked gaining commit access to repositories.
+Modern distributed systems often alleviate this by permitting change
+recording at outside locations until IP agreements can be finished
+and access granted.  As the Eclipse Foundation and its members
+are very careful with their IP review processes, the foundation
+needs to encourage use of tools that make it easier for newcomers
+to enter the ecosystem and meet the requirements, without losing
+effort, history, or becoming frustrated and leaving.  Moving the
+foundation's repositories from CVS/SVN to Git is a huge leap forward,
+and something I will continue to support while on the board.</p>
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+
+<p>At Google, Shawn is committed to fostering the growth of the open
+source ecosystem by supporting existing programs such as Google
+Summer of Code, and the development of new communities, like the
+Android Open Source Project.  Prior to joining Google, Shawn lead
+a development team at Bank of America building domain-specific
+plugins for the Eclipse platform.</p>
+
+<p>Outside of work, Shawn is an active contributor in the Git
+community, pushing the limits of distributed development tools.</p>
+
+	]]> </bio>
+
+	<affiliation> <![CDATA[
+		Google
+	]]>
+	</affiliation>
+
+</boardmember>
