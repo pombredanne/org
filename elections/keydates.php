@@ -63,7 +63,7 @@
 		</li>
 		<li>February 1, $year: Deadline for nominees to return their content to emo@.</li>
 		<li>February 3, $year: List of nominees made available on www.eclipse.org.
-		<li>February 8, &year: Candidates personal pages made available on www.eclipse.org.
+		<li>February 8, $year: Candidates personal pages made available on www.eclipse.org.
 		Discussion of the issues on the eclipse.foundation newsgroup will be encouraged. 
 		</li>
 		<li>February 22, $year: Voting begins.</li>
