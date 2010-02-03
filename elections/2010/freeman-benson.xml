@@ -1,0 +1,46 @@
+<boardmember id="bjorn" type="committer">
+
+	<name>Bjorn Freeman-Benson</name>
+
+	<title><![CDATA[
+Director of Engineering, <a href="http://www.newrelic.com/">New Relic</a>	]]></title>
+
+	<image>  </image>
+
+	<email>bjorn@bjornfreemanbenson.com</email>
+
+	<eclipse_affiliation><![CDATA[
+<ul>
+<li>EclipseCon 2005, 2006, 2007, 2008, 2009 Conference Chair</li>
+<li>Eclipse Summit Europe 2006, 2007, 2008, 2009 Conference Chair</li>
+<li>Eclipse Board of Directors 2004-2005</li>
+<li>Planning and Architecture Councils (Chair & Member) 2005-2009</li>
+<li>Technology PMC Lead 2006-2009</li>
+<li>WTP PMC Lead 2004</li>
+<li>Dash Project Lead 2005-2009</li>
+<li><a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.emft.b3">b3 Committer</a></li>
+</ul>
+	]]></eclipse_affiliation>
+
+	<vision> <![CDATA[
+Like <a href="http://en.wikipedia.org/wiki/Zaphod_Beeblebrox">Zaphod Beeblebrox</a>, I'm the candidate you want to vote for. You've read <a href="http://eclipse-projects.blogspot.com/">my blog</a> and you know that I believe the Foundation should be doing more for the committers. A lot more. And especially the independent and small company committers. I want the Foundation to be viable in the long-term, and I believe that to be viable it needs to be valuable to the committers, and to do that, the Foundation has to change. I want to be your voice in that change.
+<p>
+There are many solid candidates running for the three open committer rep positions, but here's why I think you vote for me:
+<ol><li><span style="font-weight: bold;">I've been on the Board before</span> and I know how it operates. Even Mike said that I was one of the most effective Board members during my previous term. I'm confident that I will be one of the most effective members again. You want an effective representative.
+</li><li><span style="font-weight: bold;">I've been on the inside of the Foundation</span> and I know how it operates. I know the right questions to ask to make sure that the committers are getting the straight dope and the appropriate resources. If you've seen any board at work, you'll know that management tailors its presentations <a href="http://eclipse-projects.blogspot.com/2009/12/declining-resources-on-eclipse-core.html">to present the best picture</a> and thus without deep knowledge of the inner workings, <a href="http://www.footnoted.org/my-big-fat-deal/the-problem-with-boards-of-directors/">board members</a> are handicapped in their inquiry and oversight. My inside knowledge will eliminate that problem for, you, the committers.
+</li><li><span style="font-weight: bold;">I've proposed specific reforms</span> that will dramatically improve the situation for committers and contributors, e.g., moving the IP burden from the producers to the consumers (<a href="http://eclipse-projects.blogspot.com/2009/04/ip-burden.html">April 2009</a>), and a less constrained "what it means to be an Eclipse project" (<a href="http://eclipse-projects.blogspot.com/2010/01/foundation-as-service.html">January 2010</a>), and many others. I will push for significant reforms for the committers and contributors: especially you smaller, independent and non-corporate committers.
+</li><li><span style="font-weight: bold;">I will advocate for a larger percentage of the Foundation budget</span> providing direct value for the contributors. There are many ways that the Foundation could help the projects without directly hiring developers. For example, the Foundation should have someone actively helping each project enable and encourage community contributions (setting up processes, writing "quick start" guides, recruiting up bug triage volunteers, etc). And the Foundation should have a wiki-editor to curate the <a href="http://wiki.eclipse.org/Main_Page">Eclipsepedia</a> and make it into something we can be proud of (<a href="http://c2.com/cgi/wiki?WardCunningham">Ward himself</a> explains that wikis are best when curated) ... The ideas are endless, but they need someone forceful to advocate them at the Board.
+</li><li><span style="font-weight: bold;">I will communicate with you.</span> You deserve to know what's going on. Neither rain nor sleet nor verbal attacks will silence me. I will keep <a href="http://eclipse-committer-reps.blogspot.com/">the committer rep blog</a> up to date by posting after each monthly Board meeting (instead of e.g. just twice a year). <a href="http://eclipse-projects.blogspot.com/2009/11/its-trade-association.html">I will not repeat just the party line</a>. I will hold weekly office hours on IRC with rotating times optimized for the Americas, Europe, India, and East Asia (noon EST one week, 3pm CET the next week, 9am IST, 9am JST, and then repeat).</li></ol>
+I'm a small-time committer, but I'm independent. The big company committers are represented by their Strategic board members, but the independent and non-corporate committers also need someone at the table. I will be your representative at that table.
+	]]></vision>
+
+	<bio><![CDATA[
+Bjorn is proud to be part of the engineering team at <a href="http://www.newrelic.com/">New Relic</a>, officially as the Director of Engineering, but unofficially as a software psychologist. He spends his day listening to the software tell him about its troubles, and then works to resolve those problems, be they technical, process, or people-related. He's passionate about delivering value to customers and about Eclipse committers. Bjorn has worked in open source, closed source, big companies, small companies (Eclipse, Amazon, Rational, Gemstone, OTI, …). He loves to talk at length about his passion for <a href="http://www.us.orienteering.org/">orienteering</a> and his <a href="http://www.superboy.org/whysuperboy.htm">love of flying</a>.
+	]]></bio>
+
+	<affiliation><![CDATA[ 
+<a href="http://www.newrelic.com/">New Relic</a>
+	]]></affiliation>
+		
+</boardmember>
+
