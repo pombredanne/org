@@ -52,6 +52,7 @@
 		<li>Mik Kersten</li>
 		<li>Adam Lieber</li>
 		<li>Shawn Pearce</li>
+		<li>Yves Yang</li>
 		</ul>
 		<p><b>The individual candidate pages will be available on February 8, 2010.</b></p>
 		
