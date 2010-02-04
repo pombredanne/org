@@ -87,7 +87,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 					Candidates</h3>
 				</td>
 				<td valign="bottom">
-					<h3>Sustaining Member Candidates</h3>
+					<h3>Solutions Member Candidates</h3>
 				</td>
 			</tr>
 			<tr>
