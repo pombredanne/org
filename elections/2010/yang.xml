@@ -27,13 +27,13 @@ due to the complexity of UI development and the lack of Web support application
 environments. Eclipse's main obstacle is to be used widely in ERP and BPMS in Manufacturing,
 Supply Chain, Finances, Customer Relationship Management (CRM), Human Resources, 
 Warehouse Management and Decision Support System. The traditional UI development in
-programming language in eclipse presents the following drawbacks:
+programming language in Eclipse presents the following drawbacks:
 <ul>
  
     <li>High technology pre-requisite as UI developer</li>
-    <liDifficult to separate UI appearance and business logic</li>
-    <liPoor reusability and low extensibility</li>
-    <liVery hard to build powerful development tools</li>
+    <li>Difficult to separate UI appearance and business logic</li>
+    <li>Poor reusability and low extensibility</li>
+    <li>Very hard to build powerful development tools</li>
 </ul>
 
 <p>In the meantime, software market has changed dramatically. More and more
@@ -48,7 +48,7 @@ development of software components and component-based applications to meet the
 demands of the ever changing computing landscape.
 
 Soyatec has worked on this area since early 2006. And all of our research and
-development have  contributed in eclipse e4 for XWT and two visual designers and in
+development have  contributed in Eclipse e4 for XWT and two visual designers and in
 modeling PMF for UI generation.</p> 
 
 <p>All these actions show that Yves Yang, CEO of Soyatec: 1) quickly understood the
@@ -73,13 +73,13 @@ As an architect, he has worked in several important applications in Telecom, Def
 and Finance. He has a rich experience in industry software development and has a
 good understanding of market needs.
 
-In eclipse, he was the chief architect of the first Eclipse UML plugin from 2002 to
-early 2006. Today, he is the project leader of ESL, VE and PMF eclipse projects, 
+In Eclipse, he was the chief architect of the first Eclipse UML plugin from 2002 to
+early 2006. Today, he is the project leader of ESL, VE and PMF Eclipse projects, 
 and he is one of the main contributors of the e4 project. He leads and develops a
 declarative UI (XWT) and two Visual tools: XWT Designer and e4 Workbench Designer. 
 
 His activities focus mainly on the Modeling UI, Declarative UI, Visual UI Tools, and
-the adoption of eclipse solutions by software industry.
+the adoption of Eclipse solutions by the software industry.
 
 	]]> </bio>
 	
