@@ -137,7 +137,7 @@ EOHTML;
 			if (strcmp($candidate->type, $type) != 0) continue;
 			$html .= <<<EOHTML
 				<tr>
-					<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img src="$candidate->image" width="75"></a></td>
+					<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img src="$candidate->image"></a></td>
 					<td valign="top" style="border-bottom: dashed 1px #494949;">
 						<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
 						<br>$candidate->title
