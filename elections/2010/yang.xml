@@ -1,11 +1,20 @@
 <boardmember id="yang" type=" addin">
+
 	<name>Yves Yang</name>
-	<title>CEO</title>
+	
+	<title>CEO, Soyatec</title>
+	
 	<image>yang.jpg</image>
+	
 	<email>yves.yang@soyatec.com</email>
+	
 	<eclipse_affiliation> <![CDATA[
-	Eclipse Solutions member
+	Presentation Modeling Framework Lead<br>
+   Eclipse for Siverlight Lead<br>
+   Visual Editor Lead<br>
+   e4 committer
 	]]> </eclipse_affiliation>
+	
 	<vision>  <![CDATA[
 <p>Eclipse is the most vibrant and active open source community in the Java components
 and tooling arena. The Eclipse platform was first targeted at building an extensible IDE component
@@ -48,7 +57,7 @@ be an active and contributive Eclipse member, 3) the connections that can be est
 between Eclipse members or between the Eclipse community and external software
 actors, such as Microsoft.</p>
 
-<p>reover, all these contributions reflect the values of Soyatec: being innovative
+<p>Moreover, all these contributions reflect the values of Soyatec: being innovative
 and offering high-level technical and industry reliable solutions, 
 which are profitable to the whole Eclipse community and software industry.</p>
 
@@ -70,18 +79,13 @@ and he is one of the main contributors of the e4 project. He leads and develops 
 declarative UI (XWT) and two Visual tools: XWT Designer and e4 Workbench Designer. 
 
 His activities focus mainly on the Modeling UI, Declarative UI, Visual UI Tools, and
-the adoption of eclipse solutions by software industry. His main contributions are:
-
-1.        Developing the first UML solution in eclipse, which was widely used by the
-eclipse community during 2002 and 2005.
-2.        Helping Microsoft to join the eclipse community 
-3.        Important contribution in the e4 project by developing a complete and industry
-reliable declarative UI solution for eclipse (XWT) with two Visual tools: e4
-Workbench Designer and XWT Designer.
+the adoption of eclipse solutions by software industry.
 
 	]]> </bio>
+	
 	<affiliation> <![CDATA[
-	AFDEL (French Association of Software Provider)
+	Soyatec<br>
+	AFDEL (French Association of Software Provider)<br>
 	SYSTEM@TIC PARIS-REGION / A World Class ICT Cluster dedicated to complex systems
 	]]>
 	</affiliation>
