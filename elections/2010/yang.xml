@@ -9,7 +9,7 @@
 	<email>yves.yang@soyatec.com</email>
 	
 	<eclipse_affiliation> <![CDATA[
-	Presentation Modeling Framework Lead<br>
+	Presentation Modeling Framework Lead<abr>
    Eclipse for Siverlight Lead<br>
    Visual Editor Lead<br>
    e4 committer
@@ -37,9 +37,9 @@ programming language in Eclipse presents the following drawbacks:
 </ul>
 
 <p>In the meantime, the software market has changed dramatically. More and more
-applications are now deployed in diverse environments as web servers, 
+applications are now deployed in diverse environments such 3as web servers, 
 web browsers and embedded clients applications. Some new technologies emerge and
-become mature like Animiation, Data Binding, Declarative UI, Visual Design tools and
+become mature like Animation, Data Binding, Declarative UI, Visual Design tools and
 MDE engineering system. Some integrated UI solutions are available in other development languages and
 environments to develop fashion application. </p>
 
@@ -61,8 +61,8 @@ actors, such as Microsoft.</p>
 and offering high-level technical and industry reliable solutions, 
 which are profitable to the whole Eclipse community and software industry.</p>
 
-<p>All these reasons converge today toward Yves Yang's will to continue to share these
-values on the Eclipse Foundation Board of Directors level.</p>
+<p>The will of Yves Yang is to continue to share these
+values at the level of the Eclipse Foundation Board of Directors.</p>
 	
 	]]> </vision>
 	<bio> <![CDATA[
