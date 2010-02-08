@@ -11,13 +11,13 @@
 	<eclipse_affiliation>Tasktop</eclipse_affiliation>
 
 	<vision> <![CDATA[
-<p>Eclipse has reached a stage of maturity that enables Sustaining Members to play an increasingly primary role in driving the direction of Eclipse.  As Sustaining Members, we represent the largest volume of the Eclipse membership, and in 2010 our impact on Eclipse and the value we receive from participating are poised for substantial growth.</p>
+<p>Eclipse has reached a stage of maturity that enables Sustaining Members to play an primary role in driving the direction of Eclipse.  As Sustaining Members, we represent the largest volume of the Eclipse membership. In 2010 our impact on Eclipse and the value we receive from participating are poised for substantial growth.</p>
 
 <p>I've been closely engaged with both the technology and the business aspects of the Eclipse ecosystem since the outset in 2001.  I've worked directly with many Solution Member companies and watched some Eclipse business models flourish while others have failed. Starting a successful company around Eclipse has given me a pragmatic perspective on how to participate in the platform while growing both product and service revenues on Eclipse-based offerings.  As a Sustaining Member representative, my duty will be to apply that knowledge to help make your Eclipse-based efforts successful.</p>
 
 <p>Succeeding in Eclipse means striking a balance between the member, committer and user communities.  As board representative, my priorities will be to:</p>
 	<ul>
-		<li><b>Facilitate reaching users:</b> Marketing in a vendor-neutral open source ecosystem can be far from obvious, and reaching the very broad Eclipse user base is needed for both the commercial success of individual members and of Eclipse as a whole.  I have been closely involved in <a target="_blank" href="http://tasktop.com/blog/eclipse/growing-open-source-ecosystems-install">improving the install story</a> for Eclipse solutions and the upcoming <a target="_blank" href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296131">Eclipse Marketplace</a> client.  These efforts will provide the next generation of opportunities to get your solution into Eclipse users' hands.
+		<li><b>Facilitate reaching users:</b> Marketing in a vendor-neutral open source ecosystem can be far from obvious, and reaching the very broad Eclipse user base is needed for both the commercial success of members and of Eclipse as a whole.  I have been closely involved in <a target="_blank" href="http://tasktop.com/blog/eclipse/growing-open-source-ecosystems-install">improving the install story</a> for Eclipse solutions and the upcoming <a target="_blank" href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296131">Eclipse Marketplace</a> client.  These efforts will provide the next generation of opportunities to get your solution into Eclipse users' hands.
 		<li><b>Lower the barrier to engaging with projects:</b> With product releases and other pressures, too often the step of getting directly involved with an Eclipse project that you build on does not make the cost/benefit cut.  But not getting involved has the longer-term cost of incompatibilities and overhead.  Lowering the bar for direct participation will provide members with better access to the collaboration and contributor community that make Eclipse a great open source ecosystem.  On the Mylyn project we have had over 800 bugs and feature requests resolved by community contributions.  I will use my experience of making this work for Mylyn to help lower the overhead of participation with existing projects so that similar benefits are accessible to more members.</li>
 		<li><b>Listen to members:</b> My job will be to represent your needs on the board, and I will work with the other representatives to actively seek out feedback from all Solution Members.  I helped make the needs of individual committers heard as a committer representative on the Eclipse board, and will ensure that your needs are represented in discussions and decisions made at the board level.</li>
 	</ul>
@@ -51,7 +51,7 @@ Dr. Mik Kersten is the CEO of Tasktop Technologies and lead of the Eclipse Mylyn
 
 	<affiliation>
 
-	<a target="_blank" href="http://tasktop.com">Tasktop Technologies</a>
+	<a target="_blank" href="http://tasktop.com">Tasktop Technologies</a> and <a target="_blank" href="http://eclipse.org/mylyn">Eclipse Mylyn</a>
 	
 	</affiliation>
 </boardmember>
