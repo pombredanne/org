@@ -30,11 +30,11 @@ Eclipse community and what to expect in 2010. Here is the agenda:</p>
 
 <p><ol>
 <li>Introductions</li>
-<li>Guest Speaker Jeffrey Hammond, Forrester Research, "Application Development Trends in 2010 and Beyond"</li>
+<li>Application Development Trends in 2010 and Beyond - Guest Speaker Jeffrey Hammond, Forrester Research</li>
 <li>Project Updates</li>
-<li>Executive Director Report, Mike Milinkovich, Eclipse Foundation</li>
-<li>Panel Discussion, "Eclipse Foundation in 2015"</li>
-</0l></p>
+<li>Executive Director Report - Mike Milinkovich, Eclipse Foundation</li>
+<li>Eclipse Foundation in 2015 Panel Discussion</li>
+</ol></p>
 
 <h3>Reception</h3>
 <p>At approximately 5:45pm there will be a members-only networking reception - it will be in the 
