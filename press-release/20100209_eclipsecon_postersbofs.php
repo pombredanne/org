@@ -49,6 +49,7 @@
 			Submit your poster and BOF proposals today at
 			<a href="http://www.eclipsecon.org/2010/submissions/">http://www.eclipsecon.org/2010/submissions</a>
 			and start planning for your unconference presentations.
+		</p>
 		
 	</div>
 </div>
