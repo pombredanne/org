@@ -22,16 +22,16 @@
 				<li><a href="#cloud">cloud</a></li>
 				<li><a href="#RT">eclipseRT</a></li>
 				<li><a href="#Etc">TBD PLACE HOLDER</a></li>
-			</ol>
+			</ol></li>
 			<li><a href="#Unique">The Road Map Process</a></li>	
 
 		</ol>
 		
 	    <h2><a name="introduction"></a>Introduction</h2>
-		<p>As required by the Eclipse Development Process, this document describes the 2008 Eclipse Roadmap.</p>
+		<p>As required by the Eclipse Development Process, this document describes the 2010 Eclipse Roadmap.</p>
 
 		<p>The Roadmap is intended to be a living document which will see future iterations. This document is the 
-		fourth version of the Eclipse Roadmap, and is labeled as version 4.0. In order to preserve this document 
+		fifth version of the Eclipse Roadmap, and is labeled as version 5.0. In order to preserve this document 
 		while the underlying information evolves, the pages have been frozen by copying them from their original 
 		project hosted locations.</p>
 
@@ -42,7 +42,7 @@
 		Roadmap. This does not mean that every new project must be explicitly envisaged by the Roadmap. It does 
 		mean that new projects cannot be inconsistent with the stated directions of Eclipse. In particular, Eclipse 
 		expects that incubator projects created in the Technology PMC will cover areas not explicitly described 
-		in the Roadmap. </p>
+		in the Roadmap.</p>
 
 		<a name="background"></a><h2>Background</h2>
 		<p>As defined on our website, the role of the Foundation is:
@@ -51,7 +51,7 @@
 		platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software 
 		across the lifecycle. The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the 
 		Eclipse projects and helps cultivate both an open source community and an ecosystem of complementary products 
-		and services.</i>
+		and services.</i><br>
 
 		<p>As defined in our Bylaws the Purposes of the Eclipse Foundation are:
 		</p>
@@ -60,7 +60,9 @@
 		that they verify the utility of the Eclipse frameworks, illustrate the appropriate use of those frameworks, 
 		and support the development and maintenance of the Eclipse Platform itself; Eclipse Platform tools are 
 		extensible in that their functionality is accessible via documented programmatic interfaces. The 
-		purpose of Eclipse Foundation Inc., (the "Eclipse Foundation"), is to advance the creation, evolution, promotion, and support of the Eclipse Platform and to cultivate both an open source community and an ecosystem of complementary products, capabilities, and services.</i>
+		purpose of Eclipse Foundation Inc., (the "Eclipse Foundation"), is to advance the creation, evolution,
+		 promotion, and support of the Eclipse Platform and to cultivate both an open source community and an 
+		ecosystem of complementary products, capabilities, and services.</i><br>
 		
 		<a name="strategic"></a><h2>Strategic Goals</h2>
 		<p>The following are the strategic goals of Eclipse.
@@ -81,14 +83,16 @@
 		<li> Create value for all its membership classes. The Eclipse Foundation exists to serve its members 
 		whose primary interest in leveraging Eclipse technologies in commercial offerings such as products a
 		nd services. The Eclipse Foundation will focus its energies to ensure that commercial opportunity 
-		exists within the Eclipse ecosystem.<br /><br />Committers are also members of the Eclipse Foundation 
+		exists within the Eclipse ecosystem. 
+		
+		<br /><br />Committers are also members of the Eclipse Foundation 
 		and are in many ways its backbone. The Eclipse Foundation and its staff will continue to look for 
-		opportunities to continually improve its service to its project community throughout 2009.<br /><br /></li>
+		opportunities to continually improve its service to its project community throughout 2010.<br /><br /></li>
 		
 		<li> Foster growth of the ecosystem, particularly in verticals. The creation of a large community of 
 		commercial and open source organizations which rely on and/or complement Eclipse technology has been 
 		a major factor in the success of Eclipse. Each time Eclipse technology is used in the development of 
-		a product, service or application the Eclipse community is strengthened. Our goal in 2009 is to focus 
+		a product, service or application the Eclipse community is strengthened. Our goal in 2010 is to focus 
 		our attention on the creation of industry working groups and new Eclipse projects which focus on 
 		particular industry segments such as mobile, automotive, insurance and finance.<br /><br /></li>
 		</ol>
