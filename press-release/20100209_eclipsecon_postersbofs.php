@@ -27,22 +27,18 @@
 		<h1>$pageTitle</h1>
 		
      	<p>	
-			The call for posters and Birds of a Feather (BoF) sessions at EclipseCon is open. It's not
-			too late to be a part of the program!
+			The <a href="http://www.eclipsecon.org/2010/submissions/">call for posters and Birds of a
+			Feather (BOF) sessions</a> at EclipseCon is open. It's not too late to be a part of the program!
 		</p>
 		
 		<p>
-			Posters will be presented during the Wednesday evening reception.  It's a great way to present
-		   	your topic informally while people browse the poster displays and enjoy a few beverages.
+			Posters are a great way to present your Eclipse topic informally while people browse the
+			displays and enjoy a few beverages. Posters will be presented during the Wednesday evening
+			reception. BOFs are informal, one-hour gatherings of people who want to talk about
+			a particular topic. They are scheduled for the evenings, after the receptions, and they
+			serve as a great way to continue conversations that have been started during the day.
 		</p>
-
-		<p>
-			Birds of a Feather sessions are informal, one-hour gatherings of people who want to talk about
-			a particular topic. BOFs are scheduled for the evenings, after the receptions, and serve as
-			a great way to continue the conversations that have been started that day. They are open to
-			everyone.
-     	</p>
-     	
+ 	
      	<p>
      		New to EclipseCon is the Unconference. Monday through Wednesday, you can present an Eclipse-related
      		talk by signing up each evening at 5:30pm in the registration area. It's first-come,
@@ -50,11 +46,9 @@
 		</p>
 
 		<p>
-			The Program Committee will send invitations to prospective session leaders in early March
-			2010. The final symposium agenda and registration details will be available on March 17,
-			2010 and posted at: <a href="http://www.omg.org/news/meetings/tc/mn/special-events/Eclipse.htm" target="blank">
-			http://www.omg.org/news/meetings/tc/mn/special-events/Eclipse.htm</a>.
-		</p>
+			Submit your poster and BOF proposals today at
+			<a href="http://www.eclipsecon.org/2010/submissions/">http://www.eclipsecon.org/2010/submissions/</a>
+			and start planning for your unconference presentations!
 		
 	</div>
 </div>
