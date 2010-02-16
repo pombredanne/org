@@ -52,6 +52,8 @@ ob_start();
 				<li><a href="http://www.guidancer.com" target="blank">GUIDancer</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe&reg;</a></li>
 				<li><a href="http://www.justinmind.com/wireframe/justinmind_prototyper" target="blank">Justinmind Prototyper</a></li>
+				<li><a href="http://www.genuitec.com/mobile" target="blank">MobiOne</a></li>	
+				<li><a href="http://myeclipseide.com" target="blank">MyEclipse 8.0</a></li>				
 				<li><a href="http://www.model2code.com" target="blank">M2Flex</a></li>
 				<li><a href="http://www.nwiresoftware.com/" target="blank">nWire</a></li>
 				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
