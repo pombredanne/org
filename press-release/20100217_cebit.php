@@ -29,8 +29,8 @@
 		<h2>Eclipse Foundation participates in new CeBIT theme island - showcases member company products and projects</h2>
 		
      	<p>	
-			The Eclipse Foundation announced today that they will participate in <a href="http://www.cebit.de" target="blank">CeBIT 2010</a> with a themed
-			exhibit in the Open Source Forum.  The exhibit will include Foundation members Actuate,
+			The Eclipse Foundation announced today that they will participate in CeBIT 2010 with a <a href="http://wiki.eclipse.org/index.php/CeBIT2010" target="blank">themed
+			exhibit in the Open Source Forum</a>.  The exhibit will include Foundation members Actuate,
 			Bredex, EclipseSource and SOPERA.
 		</p>
 		
