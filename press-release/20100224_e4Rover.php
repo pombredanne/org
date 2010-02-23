@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "e4Rover Mars Challenge";
+	$pageTitle 		= "e4-Rover Mars Challenge at EclipseCon";
 	$pageKeywords	= "eclipse, e4, mars, rover, challenge, contest, robot, nasa, eclipsecon";
 	$pageAuthor		= "Lynn Gayowski";
 	
@@ -31,7 +31,7 @@
 			<img src="http://www-mipl.jpl.nasa.gov/vicar/vicar330/html/pgs/ug/images/nasa_logo_only.GIF" style="float:right" width="100">	
 			Do you have what it takes to be a rocket scientist? <a href="http://www.eclipse.org/go/EC10_web@cbfeb24">EclipseCon 2010</a>
 			will be your opportunity to play with the top guns. The Eclipse Foundation, in collaboration
-			with NASA JPL, are organizing the e4Rover Mars Challenge. EclipseCon attendees will
+			with NASA JPL, are organizing the e4-Rover Mars Challenge. EclipseCon attendees will
 			participate in a contest to create the very best robotic control system to drive a robot
 			across a prototypical Mars landscape. The grand prize winner will be receive an opportunity
 			to visit the <a href="http://www-robotics.jpl.nasa.gov/facilities/index.cfm">NASA robotics lab</a>
@@ -41,10 +41,10 @@
 		<h4>Robots and Eclipse</h4>
 		
 		<p>
-			Jeff Norris from the NASA Jet Propulsion Lab will be featured as the keynote speaker at
-			EclipseCon 2010. Jeff will present how NASA has used Eclipse technology to build a software
+			Jeff Norris from the NASA Jet Propulsion Lab will be featured as the <a href="http://www.eclipsecon.org/2010/sessions/?page=sessions&id=1600">
+			keynote speaker at EclipseCon 2010</a>. Jeff will present how NASA has used Eclipse technology to build a software
 			platform for planning and controlling the Mars and Lunar rover missions. Building on the
-			theme of robotics and Eclipse, the e4Rover Mars Challenge highlights how developers can use
+			theme of robotics and Eclipse, the e4-Rover Mars Challenge highlights how developers can use
 			Eclipse e4 to build client software to control a Lego Mindstorm robot. Participants will use
 			an e4 client to control a live Lego Mindstorm robot through a series of tasks to compete for
 			points. Participants will be encouraged to extend and customize the e4 client to improve the
@@ -58,7 +58,7 @@
 		</p>
 
 		<p>
-			Contest details will be available online before the start of EclipseCon as well as at the
+			<a href="http://www.eclipsecon.org/2010/">EclipseCon</a> is the annual Eclipse community conference on March 22-25 in Santa Clara, CA.  Contest details will be available online before the start of EclipseCon as well as at the
 			conference.
 		</p>	
 		
