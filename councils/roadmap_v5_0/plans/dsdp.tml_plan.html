@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - dsdp.tml</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker2.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tml">Tools for mobile Linux</a>, version 0.4</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+		<p><b><h1>14 July 2009.  THIS DOCUMENT IS NOT YET OFFICIAL.</h1></b></p>
+			<p>
+				The TmL project provides support to integrate device and
+				emulators into the Eclipse IDE and test enterprise
+				applications using a simulated end-to-end environment.
+			</p>
+			<p>
+				The TmL project currently is the incubation phase. the most
+				recent release, version 0.3, coincided with the Galileo 
+				simultaneous release.  The TmL project is
+				divided into these components: </p>
+				<ul>
+					<li>Device Framework is responsible for supporting emulators and devices</li> 
+					<li>VNC Viewer contains the libraries and plugins responsible for provide 
+					VNC connectivity. </li>
+					<li>/proc tools provide diagnostic information from the Linux /proc pseudo-filesystem</li>
+				</ul>
+				<p>The project has received contributions from MontaVista and Nokia in the past year.
+				There is interest in the project from Symbian, ACCESS, and Palm Inc.
+			</p>
+			<p>
+				Currently, engineers at Eldorado assigned to the project 
+				are Daniel Franco and Mauren Brenner.  Eric Cloninger of Motorola 
+				is the lead for the	project. Christian Kurzke of Motorola operates
+				as the architectural advisor.
+			</p>
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+			<ul>
+				<li>
+					<b>Tools for mobile Linux source code release 0.3</b>, available as versions tagged
+					"dsdp_tml_release_0_3_0" in the project's CVS repository.
+					<ul>
+						<li>
+							<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tml.device/?cvsroot=DSDP_Project">
+								Device Framework 
+							</a>
+						</li>
+						<li>
+							<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.vnc/?cvsroot=DSDP_Project">
+								VNC Component 
+							</a>
+						</li>
+						<li>
+							<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.vnc/?cvsroot=DSDP_Project">
+								/proc tools
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<li>
+				<b>Stand-alone components:</b>
+				<ul>
+					<li>VNC component (downloadable).</li>
+					<li>Protocol component (downloadable).</li>
+				</ul>
+			</li>
+			<li>
+				<b>Samples for Device Framework:</b>
+				<ul>
+					<li>
+						Tutorial to download and run the emulators
+						sample code in Device Framework (downloadable).
+					</li>
+				</ul>
+			</li>
+			<p>
+				<b>Notes:</b>
+				<br/>
+				All stand-alone components will have an integration part
+				that makes them work inside the TmL framework. If
+				necessary each stand-alone component could be used
+				outside of the TmL.
+			</p>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+				<p>
+					The TmL team has made 3 releases to date. 
+					These releases are used by several Motorola MOTODEV Studio products and may be 
+					used in upcoming Montavista products. The TmL team will release TmL 0.4.0 in 
+					4Q2009, following the release of Eclipse 3.5.1.  This version will contain bug
+					fixes and API additions. 
+				</p>
+			</div><table border="1" align="center"><tr><td><b>0.1</b></td><td>10/10/2008</td><td><div>Release TmL 0.1 based on Eclipse Ganymede.</div></td></tr><tr><td><b>0.2</b></td><td>1/14/2009</td><td><div>Release TmL 0.2 based on Eclipse Ganymede 3.4.1, containing code contribution for DeviceType (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=236476">236476</a>).</div></td></tr><tr><td><b>0.3</b></td><td>06/25/2009</td><td><div>TmL 0.3 shipped with Eclipse Galileo 3.5</div></td></tr><tr><td><b>0.4</b></td><td>10/14/2009</td><td><div>TmL 0.4 ships after Eclipse Galileo SR1 (date tentative)</div></td></tr></table><div>
+				<p>
+					The target date for availability of Tools for Mobile
+					Linux 0.4 is:
+				</p>
+				<ul>
+					<li>
+						Wednesday October 14, 2009 - TmL 0.4 Release date
+						(post Galileo SR1)
+					</li>
+				</ul>
+			</div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			<p>
+			<ul>
+				<li>The Tools for mobile Linux Project 0.1 depends upon on
+				the Eclipse Platform 3.4.</li>
+				<li>The Tools for mobile Linux Project 0.2 depends upon on
+				the Eclipse Platform 3.4.1.</li>
+				<li>The Tools for mobile Linux Project 0.3 depends upon on
+				the Eclipse Platform 3.5.</li>
+				<li>The Tools for mobile Linux Project 0.4 depends upon on
+				the Eclipse Platform 3.5.1.</li>
+				</ul>
+			</p>
+			<p>
+				The Tools for mobile Linux deliverables will be tested
+				and validated against a subset of the reference
+				platforms listed in the
+				<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_5.html#TargetOperatingEnvironments">
+					Eclipse Platform 3.5 Project Plan
+				</a>
+				(this list is updated over the course of the release
+				cycle).
+			</p>
+			<table summary="Tools for mobile Linux Reference Platforms" style="width: 821px;" border="1">
+				
+					<tr bgcolor="#cccccc">
+						<th colspan="5">
+							<div align="center">
+								<strong>
+									<font size="+1">
+										Tools for mobile Linux Reference
+										Platforms
+									</font>
+								</strong>
+							</div>
+						</th>
+					</tr>
+					<tr>
+						<td width="205">
+							<b>Operating system</b>
+						</td>
+						<td width="59">
+							<b>OS version</b>
+						</td>
+						<td width="76">
+							<b>Processor architecture</b>
+						</td>
+						<td width="59">
+							<b>Window system</b>
+						</td>
+						<td width="453">
+							<b>Java 2 Platform</b>
+						</td>
+					</tr>
+					<tr>
+						<td width="205">Microsoft Windows</td>
+						<td width="59">Vista SP1, XP SP2</td>
+						<td width="76">x86-32</td>
+						<td width="59">Win32</td>
+						<td width="453">
+							Sun Java 2 Standard Edition 5.0 Update 14 for Microsoft Windows
+						</td>
+					</tr>
+					<tr>
+						<td width="205">Microsoft Windows</td>
+						<td width="59">XP SP2</td>
+						<td width="76">x86-32</td>
+						<td width="59">Win32</td>
+						<td width="453">
+							IBM 32-bit SDK for Windows, Java 2 Technology Edition 5.0, SR5
+						</td>
+					</tr>
+					<tr>
+						<td width="205">Red Hat Enterprise Linux</td>
+						<td width="59">5</td>
+						<td width="76">x86-32</td>
+						<td width="59">GTK</td>
+						<td width="453">
+							Sun Java 2 Standard Edition 5.0 Update 14 for Linux x86
+						</td>
+					</tr>
+					<tr>
+						<td width="205">
+							SUSE Linux Enterprise Desktop
+						</td>
+						<td width="59">10, SP2</td>
+						<td width="76">x86-32</td>
+						<td width="59">GTK</td>
+						<td width="453">
+							IBM 32-bit SDK for Linux on Intel architecture,
+							Java 2 Technology Edition 1.4.2 SR7
+						</td>
+					</tr>
+					<tr>
+						<td width="205">Ubuntu</td>
+						<td width="59">8.0.x (Hardy Heron)</td>
+						<td width="76">x86-32</td>
+						<td width="59">GTK</td>
+						<td width="453">--
+						</td>
+					</tr>
+					<tr>
+						<td width="205">
+							Apple Mac OS X (
+							<i>not tested for TmL 0.3</i>
+							)
+						</td>
+						<td width="59">10.5</td>
+						<td width="76">x86</td>
+						<td width="59">Carbon</td>
+						<td width="453">
+							Apple Java 2 Platform Standard Edition
+							(J2SE) 5, service release 4
+						</td>
+					</tr>
+				
+			</table>
+		</div>
+			<div>
+				<p><h3>Internationalization</h3></p>
+				<p>TmL 0.1 and 0.2 will be delivered using English strings.</p>
+				<p>
+					TmL 0.3 will be delivered using English strings
+					stored in external resource bundles. Strings may
+					be localized to another language for 0.3 as part of 
+					<a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.babel">the Babel project</a>.
+				</p>
+				<p>
+					TmL 0.4 will be delivered using English strings
+					stored in external resource bundles.
+				</p>
+			</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+		<p>API backward compatiblity between TML 0.1 to 0.2</p>
+		<p>The extension point org.eclipse.tml.device was changed to 
+		org.eclipse.tml.deviceType. The new extension allow to devices 
+		sharing services using the isAbstract option.</p>
+		<p>For API changes, Ramp Down Policies are at the links below.</p>
+		<ul>
+		<li><a href="http://wiki.eclipse.org/DSDP/TML/Ramp_down_policy_0.1">TmL 0.1 Ramp Down Policy</a></li>
+		<li><a href="http://wiki.eclipse.org/DSDP/TML/Ramp_down_policy_0.2">TmL 0.2 Ramp Down Policy</a></li>
+		<li><a href="http://wiki.eclipse.org/DSDP/TML/Ramp_down_policy_0.3">TmL 0.3 Ramp Down Policy</a></li>
+		</ul>
+		 			
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+				<p><b>Note: </b>The TmL project team is working to move target milestones to coincide with
+				the updated release schedule, as of September 22, 2008.  The <i>committed, proposed, and deferred</i>
+				items below will work once these changes are made.
+				</p>
+			</div><h3>Transition to a new project focused on all mobile developers</h3><div>
+					<p>
+					The TmL project and the MTJ project have many overlapping objectives
+					and results.  Both projects take a subset of the mobile development
+					task and provide tools for it based on the needs of Java ME or Linux
+					developers.
+					</p>
+					<p>In reality, both projects are creating general-purpose tools that 
+					could be used by all mobile developers if there were a place to put these
+					tools.  Toward that goal, we are looking to create a new project that 
+					contains the parts of TmL and MTJ that make sense for a common audience.</p>
+					<p>If the proposal is accepted, after TmL 0.4.0, no active development will
+					occur in the TmL named branches, but in the new tree.  The functionality will
+					still exist, as will the TmL repositories, but no new development will occur
+					inside the TmL repository.</p>
+					<p><b>Status:</b> As of 16 July 2009, the documents to drive this are being
+					circulated among interested parties.</p>
+				</div><h3>2008 Theme: Bring TmL to a stable release cycle</h3><div>
+					<p>
+						Up until April 2008, the TmL team was working to
+						make the original charter of TmL operational and
+						usable in Motorola's MOTODEV products. No
+						efforts were made to create an official release
+						as there was no community interested in using
+						it. In May 2008, the TmL team received its first
+						outside code contribution, which brought us to
+						the realization that we need to put what we have
+						"to bed", as it were, and start planning for the
+						future.
+					</p>
+					<p><b>Status:</b> As of 16 July 2009, the TmL team
+					has made 3 public releases, including being on the 
+					Galileo Simultaneous Release. We consider this Theme 
+					to be completed successfully.</p>
+				</div><h3>2008 Theme: Get on the Galileo release train</h3><div>
+					<p>
+						We wish to bring TmL into a mainstream project
+						by being on the Galileo Simultaneous release.
+						Toward this goal, we are getting build scripts
+						running, creating update sites, planning
+						milestones, and ensuring that the project is
+						running as transparently as possible by
+						transacting business in an open fashion, voting
+						on project decisions via the portal, and
+						conducting bi-weekly open meetings.
+					</p>
+					<p><b>Status:</b> As of 25 June 2009, the TmL team
+					satisfied the requirements of the Eclipse Galileo
+					train and shipped.  We consider this Theme 
+					to be completed successfully.</p>
+				</div><h3>2008 Theme: Design architecture for sustaining development</h3><div>
+					<p>
+						Discussing the architecture of TmL during the
+						open meeting calls, one of the contributors
+						suggested a different way to structure the
+						architecture of the TmL components to allow for
+						more flexible adaptation by companies adopting
+						the project in their own products. The result of
+						these discussions is a restructuring of the
+						underlying classes to meet this new
+						architecture.
+					</p>
+					<p><b>Status:</b> As of 16 January 2009, these changes
+					are in the 0.2 release of TmL. We consider this Theme 
+					to be completed successfully.</p>
+				</div><h3>Common packages</h3><div>
+					<p>
+						Common classes, logging utilities , i18n,
+						documentation, core APIs
+					</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Device Framework</h3><div>
+					<p>Device framework</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Build a Device Proxy framework for end-to-end Simulation</h3><div>
+					<p>Device Proxy</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>VNC Viewer</h3><div>
+					<p>VNC Viewer and protocol</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Create useful diagnostic tools for Linux developers</h3><div>
+					<p>/proc filesystem</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=dsdp.tml&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

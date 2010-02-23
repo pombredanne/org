@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - rt.jetty</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker3.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.jetty">rt.jetty</a>, version 7.0.x.y</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><p>
+			Jetty provides server and clients for HTTP and Websocket plus a javax.servlet container.  
+			The Jetty 7 version targets the 2.5 servlet specification and the 1.5 JVM.
+			The Jetty 8 version targets the 3.0 servlet specification and the 1.6 JVM.
+			
+		</p><p>
+			The plan deals with the important matters of release deliverables, release milestones,			
+			target operating environments, and release-to-release compatibility. 
+			These are all things that need to be clear for any release, even if no features were to change.
+	    </p><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+    		We will continue to publish artifacts into the central maven repository
+    		as we have done all along for our other user bases.  Primary download bundles will be determined as well but we intend to retain
+    		our traditional jetty download bundle in addition to other eclipse oriented packaging.  An update site is available and will be 
+    		provided for all eclipse releases.
+    	</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><p>      
+  				Release milestones will be occurring at roughly 4-6 week intervals.
+  			</p><table border="1" align="center"><tr><td><b>M0</b></td><td>03/04/2009</td><td><div>7.0.0.M0</div></td></tr><tr><td><b>M1</b></td><td>21/04/2009</td><td><div>7.0.0.M1</div></td></tr><tr><td><b>M2</b></td><td>18/05/2009</td><td><div>7.0.0.M2</div></td></tr><tr><td><b>M3</b></td><td>22/06/2009</td><td><div>7.0.0.M3</div></td></tr><tr><td><b>M4</b></td><td>01/07/2009</td><td><div>7.0.0.M4</div></td></tr><tr><td><b>RC0</b></td><td>09/07/2009</td><td><div>7.0.0.RC0</div></td></tr><tr><td><b>RC1</b></td><td>15/07/2009</td><td><div>7.0.0.RC1</div></td></tr><tr><td><b>RC2</b></td><td>22/07/2009</td><td><div>7.0.0.RC2</div></td></tr><tr><td><b>RC3</b></td><td>29/07/2009</td><td><div>7.0.0.RC3</div></td></tr><tr><td><b>RC4</b></td><td>18/08/2009</td><td><div>7.0.0.RC4</div></td></tr><tr><td><b>RC5</b></td><td>27/08/2009</td><td><div>7.0.0.RC5</div></td></tr><tr><td><b>7.0.0.v20091005</b></td><td>05/10/2009</td><td><div>7.0.0.v20091005 - published</div></td></tr><tr><td><b>7.0.1.v20091125</b></td><td>25/11/2009</td><td><div>7.0.1.v20091125 - published</div></td></tr><tr><td><b>7.1.0.v201001??</b></td><td>?/01/2010</td><td><div>7.1.0.v201001??</div></td></tr></table><div>
+				<p>
+					Individual, milestone level plans for the components that make up the Eclipse Project can be found 
+		  			on the <a href="http://wiki.eclipse.org/Jetty/ProjectPlan">Jetty Project Plan page</a>
+		  			on the Eclipse wiki.
+		  		</p>
+				<p>
+					Our target is to maintain and innovate with 7.x.y.z releases based on the servlet api version 2.5.
+					We also intend to release a version 8.x.y.z of jetty based on the servlet api version 3.0 once that is available
+					and maintain parallel development on these two codebases, exactly how jetty development has proceeded historically.
+	  			</p>
+			</div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>
+			Jetty closely follows the requirements of the servlet-api version that it implements and works with.  As such JDK/JRE versions and other dependency versions are dictated to us by the spec in question.
+		</p><p>
+         Starting with the Jetty 7.1.x releases we will have JSP support once more only using eclipse IP approved dependencies.
+      </p><p>
+			So, the Jetty project will support:
+			<ul>
+	    		<li>JDK/JRE 1.5.x and up</li>
+	    	</ul>	
+  		</p><h3>Internationalization</h3>
+    		<p>     			
+     			Jetty does not currently ship with internationalized exceptions or documentation. 
+     		</p>
+ 		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><p>Packaging changes (org.mortbay.jetty -&gt; org.eclipse.jetty) have broken the seamless transition from previous versions of jetty.</p><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><p>
+   				The project several stated major areas of work that will be the priorities for this and future development cycle. 
+   			</p><h3>Component Oriented Design</h3><p>
+		      At its core, Jetty is a simply a set of components that fufill the role of a web server and adding on additional functionalities are a matter of adding additional components to the system.  JMX, JNDI, Servlets, an asynchronous http client, are all components that can be added to an application with a minimal amount of effort.  This is a overridding goal and design philosophy behind Jetty.  We strive to make it as easy to deploy your application by copying a war file as it is to embed jetty directly into your application and in many cases you can add webserver functionality to your application in less then 5 or 6 lines of code.
+		    </p><h3>Light Weight Web Server and Servlet Engine</h3><p>
+		      The internals of jetty are designed around efficient use of the available resources and jetty works extremely well in many different environments.  Since jetty 6 the internals have made extensive use of NIO and the scaling benefits that such technology provides.  With the Continuations concept in place, jetty is able to allow modern 2.5 servlets to scale to previously unattainable hieghts as it provides a mechanism by which the servlet connection can be suspended out of the stack and reused for other incoming connections.  This technique is what has allowed jetty to scale to 20k simulatious connections for a servlet application.
+		    </p><h3>Embedded Use</h3><p>
+		      Jetty runs on a variety of platforms including Android and other cell phone platforms.  This has been effort for the jetty team for many years and jetty has run on a large variety of devices as a result.  Phones, switches and other network applicances can be found with jetty running on them.  
+		    </p><p>
+		      This is not to say that jetty can only be embedded on devices, it is also key for being deployed inside of various applications and containers.  Jetty maintains an integration with jboss and is increasingly working with OSGI for servicing the HTTPService community at large.  This is in fact a large reason that jetty decided to work with the eclipse community at a greater level to facilitate this sort of usage scenario.
+		    </p><h3>Tooling and IDE Integration</h3><p>
+		      Jetty also intends to support and work with other maintainers of IDE integrations as well as increase the native support of servlet and application development with jetty plugins and tooling options.
+		    </p><h3>Emerging protocol support</h3><p>
+		      Protocols such as Websocket, SPDY and BWTP have been proposed as ways to improve bidirectional web applications (aka comet). The Jetty project will implement, evaluate,
+		      improve and assist the standardization of these emerging protocols.
+		    </p><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=rt.jetty&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

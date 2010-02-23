@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - modeling.m2t.jet</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker1.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2t.jet">Java Emitter Templates (JET2)</a>, version 1.1</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+     <p>
+     This plan covers the fourth release of the M2T JET component of the modeling.m2t project, to be labled 1.1.0. 
+     The release is part of the <a href="http://wiki.eclipse.org/Helios">Helios Simultaneous Release</a>.
+     It describes the features and API for the release. 
+     This project plan inherits from the Modeling Project Plan, which should be reference when consulting this plan.
+     This plan is a living document - it will be updated at every
+     iteration to reflect progress and changing priorities.
+     </p>
+     </div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+     <p>
+     The release deliverables will consist of the following components:
+     </p>
+     <ul>
+        <li>M2T JET Runtime</li>
+        <li>M2T JET SDK</li>
+        <li>M2T JET Editor</li>
+        <li>M2T JET Tests</li>
+        <li>M2T JET Examples</li>
+        <li>M2T JET All-in-One, combining all of the above</li>
+     </ul>
+     <p>Note: These components may be further refined as part of the <b>More Modular Implementation</b> theme.</p>
+     </div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+         <p>
+         The project will follow the Helios +1 schedule as defined by the <a href="http://www.google.com/calendar/embed?src=gchs7nm4nvpm837469ddj9tjlk%40group.calendar.google.com&amp;ctz=America/New_York">Google Calendar</a>.
+         Milestones occur at roughly 6 week intervals, and follow the Eclipse Platform milestones by approximately 1 week.
+         </p>
+         </div><table border="1" align="center"><tr><td><b>M1</b></td><td>08/17/2009</td><td><div/></td></tr><tr><td><b>M2</b></td><td>09/28/2009</td><td><div/></td></tr><tr><td><b>M3</b></td><td>11/09/2009</td><td><div/></td></tr><tr><td><b>M4</b></td><td>12/14/2009</td><td><div/></td></tr><tr><td><b>M5</b></td><td>02/01/2010</td><td><div/></td></tr><tr><td><b>M6</b></td><td>03/15/2010</td><td><div>API Freeze</div></td></tr><tr><td><b>M7</b></td><td>05/03/2010</td><td><div>Feature Freeze</div></td></tr><tr><td><b>RC1</b></td><td>05/17/2010</td><td><div/></td></tr><tr><td><b>RC2</b></td><td>05/24/2010</td><td><div/></td></tr><tr><td><b>RC3</b></td><td>05/31/2010</td><td><div/></td></tr><tr><td><b>RC4</b></td><td>06/07/2010</td><td><div/></td></tr><tr><td><b>Helios Final</b></td><td>06/16/2010</td><td><div/></td></tr><tr><td><b>1.1</b></td><td>06/23/2010</td><td/></tr></table><div>
+      <p>M2T JET will also produces maintenance releases to align with the Galileo Service Release (SR)
+      schedule. Additional releases may be scheduled if there is client demand. The scheduled maintenance
+      releases are:</p>
+      <ul>
+      <li>Friday, September 25, 2009 - M2T JET 1.0.1 (Galileo SR1)</li>
+      <li>Friday, February 26, 2010 - M2T JET 1.0.2 (Galileo SR2)</li>
+      </ul>
+      <p>The 
+      <a href="http://www.eclipse.org/modeling/m2t/news/relnotes.php?project=jet">M2T JET release notes page</a> 
+      shows the issues resolved in each release.</p>
+      </div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+     <p>
+        In order to remain current, each Eclipse release targets reasonably
+        current versions of the underlying operating environments. The M2T JET
+        project depends upon on the Eclipse Platform and other projects,
+        which are mostly "pure" Java<sup>TM</sup>. The 3.6
+        release of the Eclipse Platform Project is written and compiled
+        against version 1.4 of the Java Platform APIs, and targeted to run on
+        version 1.4 of the Java Runtime Environment, Standard Edition. M2T JET
+        will target the same Java version as the Eclipse Platform Project. 
+        Eclipse Platform SDK 3.6 will be tested and validated on a
+        number of reference platforms. M2T JET will be tested and validated
+        against a subset of those listed for the platform.
+     </p>
+     </div><h3>Internationalization</h3>
+          <div>
+          <p>
+The Eclipse Platform is designed as the basis
+for internationalized products. The user interface elements provided
+by the Eclipse SDK components, including dialogs and error messages,
+are externalized. The English strings are provided as the default
+resource bundles. As a result, the M2T JET
+project will provide English strings in its default bundles and be
+localized to a subset of those locales offered by the Platform. This
+plan will be updated to indicate which locales will be provided and
+the time frame for availability.
+          </p>
+          </div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+       <p>
+Compatibility of Release 1.1.0: The M2T JET project
+will be developed in parallel, and released simultaneously, with the
+following projects: 
+</p>
+<ul>
+    <li>Eclipse Platform SDK version 3.6</li>
+    <li>Eclipse Modeling Framework (EMF) version 2.6</li>
+    <li>Unified Modeling Language (UML2) version 3.1</li>
+</ul>
+<p>
+As stated above, each milestone release of the
+M2T JET project will be compatible with the
+corresponding milestones from these projects.
+       </p>
+       </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+         <p>
+The new functionality of this release is organized into themes.
+A brief description of each theme is provided here. 
+Bugzilla entries are provided for those wanting more detailed information.
+         </p>
+         </div><h3>More Modular Implementation</h3><div>
+        <p>
+        The JET implentation is currently monolothic, requiring significant portions of the Eclipse platform
+        (Workspace, Build, Debug and JDT) as well as EMF. 
+        A more modular implementation will allow JET templates and transformations can be executed 
+        other environments environments such as OSGi applications and RCP applications.
+        As a stretch goal, support execution in only a JRE.
+        </p>
+        <p>
+        In addition, make the expression language used in a template plugable. JET currently uses XPath
+        to navigate all model types (and provides an extension framework to adapt other languages). However,
+        some model types are more naturally accessed by other languages. Examples: OCL for UML, EL for Java 
+        objects.
+        </p>
+        </div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Make JET more modular [<a href="http://bugs.eclipse.org/288512">288512</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=modeling.m2t.jet&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

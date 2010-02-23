@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - modeling.m2m.atl</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker3.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2m.atl">ATL - Atlas Transformation Language</a>, version 3.1</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>This document lays out the feature and API set for the
+			3.1 release of the ATL project, of the Eclipse M2M Project.
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+			The release deliverables have the same form as is found in most
+			Eclipse projects, namely:
+			<ul>
+				<li>ATL source code release, available as versions tagged
+					"R3_1" in the project's CVS repository.</li>
+				<li>M2M ATL SDK (includes runtime and tooling components,
+					with sources and documentation) (downloadable and update site).
+				</li>
+				<li>M2M ATL runtime binary distribution (downloadable and
+					update site).</li>
+				<li>M2M ATL examples (downloadable and update site).
+				</li>
+				<li>M2T ATL tests (downloadable and update site).</li>
+			</ul>
+		</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+Release milestones occur at roughly 6 week intervals 
+and follow the Platform release milestone by the Helios-established +2 delta interval.
+The final ATL 3.1 release will available simultaneously 
+with the 3.6 release of the Platform and all the other Helios projects.
+         </div><table border="1" align="center"><tr><td><b>M2</b></td><td>09/29/2009</td><td/></tr><tr><td><b>M3</b></td><td>11/10/2009</td><td/></tr><tr><td><b>M4</b></td><td>12/15/2009</td><td/></tr><tr><td><b>M5</b></td><td>02/02/2010</td><td/></tr><tr><td><b>M6</b></td><td>03/16/2010</td><td><div>API freeze</div></td></tr><tr><td><b>M7</b></td><td>05/04/2010</td><td><div>Feature Freeze</div></td></tr><tr><td><b>RC1</b></td><td>05/18/2010</td><td/></tr><tr><td><b>RC2</b></td><td>05/25/2010</td><td/></tr><tr><td><b>RC3</b></td><td>06/01/2010</td><td/></tr><tr><td><b>RC4</b></td><td>06/08/2010</td><td/></tr><tr><td><b>Final</b></td><td>06/15/2010</td><td/></tr></table><div>
+ATL will produce maintenance releases to align with the Galileo Service Releases
+which includes the Eclipse Platform's 3.4.1 and 3.4.2 releases.
+ATL may produce additional interim maintenance releases.  
+Maintenance releases will only be published if they contain new fixes.
+          
+            
+Friday, September 26, 2008 - ATL 3.0.1 maintenance release for Galileo Service Release 1.
+            
+            
+Friday, February 28, 2009 - ATL 3.0.2 maintenance release for Galileo Service Release 2.
+            
+            
+Version numbers are subject to change should there be be any additional maintenance releases.
+            
+           
+        </div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			In order to remain current, each Eclipse release targets
+			reasonably
+			current versions of the underlying operating environments.
+			The ATL
+			project depends upon on the Platform and other projects, which
+			are
+			mostly "pure" Java. The 3.5 release of the Eclipse Platform
+			Project
+			is written and compiled against version 1.4 of the Java
+			Platform
+			APIs, and targeted to run on version 1.4 of the Java Runtime
+			Environment, Standard Edition. ATL will target the same Java version
+			as the platform.
+		</div><h3>Internationalization</h3>
+			<div>
+				The Eclipse Platform is designed as the basis for
+				internationalized
+				products. The user interface elements provided by
+				the Eclipse SDK
+				components, including dialogs and error messages, are
+				externalized.
+				The English strings are provided as the default
+				resource bundles. As
+				a result, the ATL project will provide English
+				strings in its
+				default bundles and be localized to a subset of those
+				locales
+				offered by the Platform. This plan will be updated to
+				indicate which
+				locales will be provided and the time frame for
+				availability.
+			</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>Most of the 3.0 APIs will be compatible with ATL 3.1.</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><h3>Utilities</h3><ul><li><b>Committed</b></li></ul><ul><li><b>Proposed</b><ul>
+					<li>ATL Debugger improvement: EMFVM compatibility, presentation</li>
+					<li>ATL profiler integration</li>
+					<li>Transformation plugins export feature</li>
+				</ul></li></ul><ul><li><b>Deferred</b></li></ul><h3>ATL Editor</h3><ul><li><b>Committed</b></li></ul><ul><li><b>Proposed</b><ul>
+						<li>Content assist improvement (templates, OCL expressions)</li>
+						<li>New features like "open declaration"</li>
+						<li>Syntax colors improvement</li>
+						<li>Outline simplification</li>
+					</ul></li></ul><ul><li><b>Deferred</b></li></ul><h3>ATL Language</h3><ul><li><b>Committed</b></li></ul><ul><li><b>Proposed</b><ul>
+						<li>Refining mode improvement: element deletion support, refining on composite models</li>
+						<li>Syntax shortcuts implementation</li>
+					</ul></li></ul><ul><li><b>Deferred</b></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix Legal Notices</a></h2><div>
+			
+				
+					Java is a trademark or a registered trademark of Sun
+					Microsystems, Inc.
+            
+				
+					All other products or company names are mentioned for
+					identification
+					purposes only,
+					and may be trademarks or service marks
+					of their respective owners.
+            
+			
+		</div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=modeling.m2m.atl&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

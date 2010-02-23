@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - dsdp.mtj</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker1.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.mtj">Mobile Tools for Java</a>, version 1.0.1</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+			<p>
+				The goal of the Mobile Tools for Java
+				<sup>
+					<small>TM</small>
+				</sup>
+				(MTJ) project is to extend existing Eclipse frameworks to
+				support
+				mobile device Java application development. MTJ will enable
+				developers to develop, debug and deploy mobile Java
+				applications to
+				emulators and real devices. The base code of MTJ is
+				<a href="http://www.eclipseme.org"> EclipseME</a>
+				version 1.7.9.
+			</p>
+			<p>
+			DSDP MTJ recently graduated as an Eclipse Project. MTJ 1.0 was released with 
+			Galileo Train and several new features are available on it. A complete listy
+			is available on the <a href="http://www.eclipse.org/dsdp/mtj/development/releasenotes/MTJ1.0/newsNoteworthy.php"> News and note worthy.</a>
+			MTJ is also a major component of <a href="http://www.eclipse.org/pulsar"> Eclipse Pulsar Distribution</a>, which is an Eclipse
+			package that targets mobile application developers.  
+            </p>
+            <p>
+			
+			Next MTJ release will be part of Galileo Service Release 1 with a target date of Sep/25/2009.
+			The main focus of this release is bug fixes. The plan is to address as much as possible
+			all issues that are raised from the community after the 1.0 release. Besides that,
+			there were several requests from the community to improve MTJ documentation and this is going to be
+			one of the targets on the next release. It will also be necessary to do some house cleaning of the releng build system.  
+			</p>
+			<p>
+			DSDP 1.0.1 scope is listed below
+				<ul>
+					<li>Fix major bugs of MTJ 1.0,</li>
+					<li>Improve User Documentation,</li>
+					<li>Releng house cleaning.</li>
+				</ul>
+			</p>
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+			<p>
+				There are three main deliverables on DADP Mobile Tools for Java
+				project:
+			</p>
+			<ul>
+				<li>MTJ SDK that includes all binaries and source files,</li>
+				<li>MTJ Runtime that includes only the binaries,</li>
+				<li>MTJ Examples that includes examples of how to use each of MTJ
+					APIs.</li>
+				<li>Eclipse Pulsar Specific Package.</li>
+			</ul>
+			<p>
+				The source code repository is available at the
+				<a href="http://dev.eclipse.org/viewsvn/index.cgi/org.eclipse.mtj/?root=DSDP_SVN"> MTJ SVN Repository</a>
+				.
+				Besides that, it will also be included as deliverables, a set of project documentation:
+				<ul>
+					<li>Update Requirements Document,</li>
+					<li>Update Manual Test Procedure Document and</li>
+				</ul>
+				The above documentation is available on the <a href="http://wiki.eclipse.org/DSDP/MTJ#Documents"> Project Wiki</a> 				
+			</p>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+				Below is a list of all milestones of this release. Those dates
+				care aligned with Eclipse Galileo Train SR1 milestones dates.
+				MTJ is integrated on the train with a +1 offset of each milestone.
+			</div><table border="1" align="center"><tr><td><b>RC1</b></td><td>AUG/25/2009</td><td><div>1.0.1 RC1 (API + Feature freeze)</div></td></tr><tr><td><b>RC2</b></td><td>SEP/01/2009</td><td><div>1.0.1 RC2 (Bug Fixes)</div></td></tr><tr><td><b>RC3</b></td><td>SEP/08/2009</td><td><div>1.0.1 RC3 (Documentation and major bug fixes Only)</div></td></tr><tr><td><b>RC4</b></td><td>SEP/15/2009</td><td><div>1.0.1 RC4 (Documentation and major bug fixes Only)</div></td></tr><tr><td><b>GA</b></td><td>SEP/25/2009</td><td><div>1.0.1 GA</div></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			<p>
+				MTJ Deliverables will be tested on the following platforms
+</p>
+
+			<table summary="Mobile Tools for Java Reference Platforms" style="width: 821px;" border="1">
+				
+					<tr bgcolor="#cccccc">
+						<th colspan="6">
+							<div align="center">
+								<strong>
+									<font size="+1">Mobile Tools for Java Reference
+										Platforms</font>
+								</strong>
+							</div>
+						</th>
+					</tr>
+					<tr>
+						<td width="205">
+							<b>Operating system</b>
+						</td>
+						<td width="59">
+							<b>OS version</b>
+						</td>
+						<td width="76">
+							<b>Processor architecture</b>
+						</td>
+						<td width="59">
+							<b>Window system</b>
+						</td>
+						<td width="300">
+							<b>Java 2 Platform</b>
+						</td>
+						<td width="220">
+							<b>JavaME SDK</b>
+						</td>
+					</tr>
+					<tr>
+						<td width="205">Microsoft Windows</td>
+						<td width="59">XP</td>
+						<td width="76">x86</td>
+						<td width="59">Win32</td>
+						<td width="300"> Sun Java 2 Standard Edition 5.0 Update 14
+							for
+							Microsoft Windows </td>
+						<td width="220">MOTODEV SDK for JavaME 1.3</td>
+					</tr>
+					<tr>
+						<td width="205">Microsoft Windows</td>
+						<td width="59">XP</td>
+						<td width="76">x86</td>
+						<td width="59">Win32</td>
+						<td width="300"> Sun Java 2 Standard Edition 5.0 Update 14
+							for
+							Microsoft Windows </td>
+						<td width="220">Sun Java Wireless Toolkit 2.5.2 for CLDC</td>
+					</tr>
+					<tr>
+						<td width="205">Microsoft Windows</td>
+						<td width="59">XP</td>
+						<td width="76">x86</td>
+						<td width="59">Win32</td>
+						<td width="300"> Sun Java 2 Standard Edition 5.0 Update 14
+							for
+							Microsoft Windows </td>
+						<td width="220">Nokia Series 40 Developer Platform 2.0 SDK</td>
+					</tr>
+					<tr>
+						<td width="205">Red Hat Enterprise Linux</td>
+						<td width="59">WS 4 update 2</td>
+						<td width="76">x86</td>
+						<td width="59">GTK</td>
+						<td width="300"> Sun Java 2 Standard Edition 5.0 Update 14
+							for Linux
+							x86</td>
+						<td width="220">Sun Java Wireless Toolkit 2.5.2 for CLDC</td>
+					</tr>
+					<tr>
+						<td width="205">Apple Mac OS X</td>
+						<td width="59">10.5</td>
+						<td width="76">x86</td>
+						<td width="59">Carbon</td>
+						<td width="300">
+							Apple Java 2 Platform Standard Edition (J2SE) 5,
+							service release 4
+						</td>
+						<td width="220">Mpowerplayer build 1185</td>
+					</tr>
+					<tr>
+						<td width="205">Apple Mac OS X</td>
+						<td width="59">10.5</td>
+						<td width="76">x86</td>
+						<td width="59">Carbon</td>
+						<td width="300">
+							Apple Java 2 Platform Standard Edition (J2SE) 5,
+							service release 4
+						</td>
+						<td width="220">Microemu 2.0.3</td>
+					</tr>
+				
+			</table>
+
+			<p>
+				Although untested, MTJ should work fine on other OSes that
+				support
+				the same window system. For Win32: NT, 2000, Vista, and Server
+				2003;
+				SWT HTML viewer requires Internet Explorer 5 (or higher).
+				For GTK on
+				other Linux systems: version 2.2.1 of the GTK+ widget
+				toolkit
+				and
+				associated libraries (GLib, Pango).
+</p>
+		</div><h3>Internationalization</h3>
+			<div>
+				<p>
+					DSDT Mobile Tools for Java is completely preparaded to be used by
+					localized products. All of its UI components have externalized
+					strings. English is provided as the default language, but MTJ is part 
+					of Eclipse Babel and the community helps to generate other translations.
+                </p>
+			</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+			<p>
+				In terms of compatibility, there are three main aspects that need
+				to be considered.
+            </p>
+			<p>
+				<strong>API Contract Compatibility:</strong>
+				MTJ API will keep the contract compatibility on 1.0.1 release.
+			</p>
+			<p>
+				<strong>SDK Workspace format compatibility:</strong>
+				Currently there is no plan to change the format that the imported
+				SDKs are stored.
+			</p>
+			<p>
+				<strong>MIDlet Workspace format compatibility:</strong>
+				Currently there is no plan to change the MIDlet project format on the 1.0.1 release.
+			</p>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+				<p>
+					Plan items listed below are based on the original planning
+					objectives
+					that were established on the Mobile Tools for Java
+					Project 1.0.1.
+</p>
+			</div><h3>Fix and Improve</h3><ul><li><b>Committed</b><ul><li>[fiximprove][SDK]: MTJ keep references of removed SDKs [<a href="http://bugs.eclipse.org/282738">282738</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Unable to import Java ME platform SDK 3.0 configurations [<a href="http://bugs.eclipse.org/273298">273298</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Inconsistent launch behavior [<a href="http://bugs.eclipse.org/273670">273670</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] Remove warnings from template Display Manager [<a href="http://bugs.eclipse.org/278990">278990</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [SignEnhancements]: Issue with Signing keystore locator window (file browser) [<a href="http://bugs.eclipse.org/279105">279105</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][SDK] : dsdp-mtj-runtime-1.0 is so slowly when import mobile devices [<a href="http://bugs.eclipse.org/281605">281605</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Correct/Improve preverification [<a href="http://bugs.eclipse.org/281733">281733</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][debug]: Cant debug in eclipse. [<a href="http://bugs.eclipse.org/281815">281815</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][debug]: Debugger broken. eclipse 3.5 sucks [<a href="http://bugs.eclipse.org/281818">281818</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Import project functionality throws exceptions [<a href="http://bugs.eclipse.org/284310">284310</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : The Eclipse folder does not support blank spaces. [<a href="http://bugs.eclipse.org/284461">284461</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: EmptyOutlinePage illegally implements IPage via ISortableContentOutlinePage [<a href="http://bugs.eclipse.org/287960">287960</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : User defined exclusion paths are not being kept by jmunit. [<a href="http://bugs.eclipse.org/288165">288165</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: At New Project wizard there is no option to select Working Set [<a href="http://bugs.eclipse.org/245896">245896</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]:  The location editor doesn't provides the Quick Fix feature [<a href="http://bugs.eclipse.org/257367">257367</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Enhancements on the project creation wizard [<a href="http://bugs.eclipse.org/261873">261873</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][SDK]: Importing a SDK that does not provide Manifest.mf fails [<a href="http://bugs.eclipse.org/278171">278171</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][SDK]: Match runtime SDKs and devices against installed ones [<a href="http://bugs.eclipse.org/284262">284262</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [AppDescEditor]: Review Optional / Over the air / Push registry Application Descriptor tabs. [<a href="http://bugs.eclipse.org/284452">284452</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Stack trace source linkage does not create links to emulators that print bci [<a href="http://bugs.eclipse.org/284571">284571</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Enablement state of the specific configuration Combo control [<a href="http://bugs.eclipse.org/284737">284737</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][SDK]:  Device importing. WTK 3.0.0 devices have incorrect Configuration and Profile values upon import. [<a href="http://bugs.eclipse.org/284768">284768</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Proguard root directory is misplaced [<a href="http://bugs.eclipse.org/285288">285288</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]:  Localization Data model does not implements semantic validation [<a href="http://bugs.eclipse.org/285589">285589</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] Error when selecting project preverification properties page [<a href="http://bugs.eclipse.org/285763">285763</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]: The Localization Data should accept the acute accent [<a href="http://bugs.eclipse.org/286873">286873</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: User defined symbol sets not exported during antenna export for MTJ 1.0.1RC3 [<a href="http://bugs.eclipse.org/289186">289186</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][proguard]: Add proguard preverifier [<a href="http://bugs.eclipse.org/234139">234139</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] Build editor does not show new source folders [<a href="http://bugs.eclipse.org/284790">284790</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: "Symbol Set Definitions" screen does not enable "Add" button [<a href="http://bugs.eclipse.org/246717">246717</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [AppDescEditor]: The "MIDlet Jar URL" field does not validate the name of the file [<a href="http://bugs.eclipse.org/246783">246783</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [AppDescEditor]: Application descriptor does not inform error on the "Package Explorer" [<a href="http://bugs.eclipse.org/246787">246787</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]: Externalize Strings [<a href="http://bugs.eclipse.org/251154">251154</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]: Ant Task to Generate Bundles [<a href="http://bugs.eclipse.org/251158">251158</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [unittestsupport]: Disabling JMUnit causes confusion [<a href="http://bugs.eclipse.org/264521">264521</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Problem when try to import a project without copy the files to the workspace [<a href="http://bugs.eclipse.org/270157">270157</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [SignEnhancements]: Add security permissions for more MIDP compatible JSRs [<a href="http://bugs.eclipse.org/276087">276087</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : MTJ extension points should handle dynamic add/remove of plugins [<a href="http://bugs.eclipse.org/276095">276095</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [localization]: Problem in Localization functionality [<a href="http://bugs.eclipse.org/278954">278954</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Project error after changing sdk folder location [<a href="http://bugs.eclipse.org/278955">278955</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Cannot create package after adding or deleting devices [<a href="http://bugs.eclipse.org/278984">278984</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][antenna] : Duplicated dependencies in mtj-build.xml [<a href="http://bugs.eclipse.org/280544">280544</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Do not scrub "deployed" subdirectories [<a href="http://bugs.eclipse.org/281596">281596</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Wrong classpath when moving MIDlets [<a href="http://bugs.eclipse.org/282552">282552</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Non public top level classes are not being packaged. [<a href="http://bugs.eclipse.org/283705">283705</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] build.properties out of sync [<a href="http://bugs.eclipse.org/283772">283772</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] [AppDescEditor]: Lower the User Defined JAD editor tab priority [<a href="http://bugs.eclipse.org/284432">284432</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Execution broken after refactoring (rename) class name [<a href="http://bugs.eclipse.org/284939">284939</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]:  Localization editor should be able to synchronize locale entries [<a href="http://bugs.eclipse.org/285298">285298</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] Avoid changing build state machine state when Java Builder is invoked alone. [<a href="http://bugs.eclipse.org/285432">285432</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : Fix some empty tasks on the generated mtj-build.xml file. [<a href="http://bugs.eclipse.org/285440">285440</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: MTJBuildPropertiesResourceListener Throws NullPointerException on Project Creation [<a href="http://bugs.eclipse.org/285712">285712</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] : L10nBuilder is avoiding properties files to be packaged when removing them during clean. [<a href="http://bugs.eclipse.org/286593">286593</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: org.eclipse.mtj.ui\icons has a great number of unused icons [<a href="http://bugs.eclipse.org/286614">286614</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: Illegal instantiation of MTJRuntime [<a href="http://bugs.eclipse.org/286618">286618</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: JavaSourceViewer illegally extends ProjectionViewer [<a href="http://bugs.eclipse.org/286620">286620</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: Illegal implementation of IMTJCoreConstants [<a href="http://bugs.eclipse.org/286621">286621</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove] The MotorolaDeviceImporter have fields never read locally [<a href="http://bugs.eclipse.org/286624">286624</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: The TestCase's import clauses are not added to TestSuit class [<a href="http://bugs.eclipse.org/287429">287429</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][antenna]: Antenna export is not including reference to third party libraries into the mtj-build.xml build path. [<a href="http://bugs.eclipse.org/287468">287468</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: MTJProjectionViewer illegally extends ProjectionViewer [<a href="http://bugs.eclipse.org/287956">287956</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: ConfigManageComponent illegally instantiates MTJRuntimeList [<a href="http://bugs.eclipse.org/287957">287957</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][API Usage Problem]: PreprocessedSourceMapper illegally implements SourceMapper [<a href="http://bugs.eclipse.org/287964">287964</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Update JMUnit Test Suit [<a href="http://bugs.eclipse.org/287965">287965</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: The same name used on two areas on the project creation [<a href="http://bugs.eclipse.org/288113">288113</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: The text of the entries table appears selected [<a href="http://bugs.eclipse.org/288115">288115</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][localization]: Problems to select an item on the Localization table [<a href="http://bugs.eclipse.org/288117">288117</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove][AppDescEditor]: JAD file descriptor does not include the midlet icon file name [<a href="http://bugs.eclipse.org/288230">288230</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[fiximprove]: Add button "Validate" in default preverifier settings [<a href="http://bugs.eclipse.org/244007">244007</a>] <strike>(target milestone: 1.0.1)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[fiximprove][API Usage Problem]: Issue with MTJ API [<a href="http://bugs.eclipse.org/292790">292790</a>] (target milestone: ---)</li><li>[fiximprove]: Define a way to select default domain for a SDK [<a href="http://bugs.eclipse.org/297344">297344</a>] (target milestone: ---)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[fiximprove][Device] : Problem when change a device that is in use on the workspace [<a href="http://bugs.eclipse.org/276084">276084</a>] (target milestone: Future)</li><li>[fiximprove][Device] : Can not create a MIDlet project for a renamed Device [<a href="http://bugs.eclipse.org/277078">277078</a>] (target milestone: Future)</li><li>[fiximprove][SDK] : Automatically search for UEI SDKs [<a href="http://bugs.eclipse.org/239971">239971</a>] (target milestone: Future)</li><li>[fiximprove] : Launch of emulator produces an incorrect jar file [<a href="http://bugs.eclipse.org/273720">273720</a>] (target milestone: Future)</li><li>[fiximprove] [AppDescEditor]: No preferences for the JAD editor [<a href="http://bugs.eclipse.org/274009">274009</a>] (target milestone: Future)</li><li>[fiximprove][antenna] :  Investigate Antenna functionality for Mac OS [<a href="http://bugs.eclipse.org/279129">279129</a>] (target milestone: Future)</li><li>[fiximprove]: Report MTJ bugs directly from Help Menu [<a href="http://bugs.eclipse.org/284609">284609</a>] (target milestone: Future)</li><li>[fiximprove]: Use "Babel Pseudo Translation Test" to verify our translatability [<a href="http://bugs.eclipse.org/285600">285600</a>] (target milestone: Future)</li><li>[fiximprove][SDK]: Device editing. Leaving preverifier field blank is not allowed, but should be. [<a href="http://bugs.eclipse.org/286528">286528</a>] (target milestone: Future)</li><li>[fiximprove][API Usage Problem]: AbstractDeviceEditorPage.editDevice declared as non-API type AbstractMIDPDevice [<a href="http://bugs.eclipse.org/286619">286619</a>] (target milestone: Future)</li><li>[fiximprove][antenna]: Ant buildfile External Tool Configuration is broken for buildfiles shared across projects [<a href="http://bugs.eclipse.org/287364">287364</a>] (target milestone: Future)</li><li>[fiximprove][API Usage Problem]: EmptyOutlinePage illegally implements IPage via ISortableContentOutlinePage [<a href="http://bugs.eclipse.org/287958">287958</a>] (target milestone: Future)</li><li>[fiximprove][API Usage Problem]: JADPropertiesEditorPage.createStringFieldEditor(FormToolkit, Composite, DescriptorPropertyDescription) has non-API return type ExtendedStringFieldEditor [<a href="http://bugs.eclipse.org/287959">287959</a>] (target milestone: Future)</li><li>[fiximprove][API Usage Problem]: ListDescriptorPropertyDescription illegally extends DescriptorPropertyDescription [<a href="http://bugs.eclipse.org/287961">287961</a>] (target milestone: Future)</li><li>[fiximprove][API Usage Problem]:  MTJCore.getDeviceMatchCache() has non-API return type IDeviceMatchCache [<a href="http://bugs.eclipse.org/287962">287962</a>] (target milestone: Future)</li><li>[fiximprove]: Exceptions during project build [<a href="http://bugs.eclipse.org/288289">288289</a>] (target milestone: Future)</li><li>[fiximprove]: Flag disallowed Java SE keywords as errors in the editor, e.g. finalize() and native [<a href="http://bugs.eclipse.org/297336">297336</a>] (target milestone: Future)</li><li>[fiximprove][localization]: Localization doesn't change correctly the Locale tree view [<a href="http://bugs.eclipse.org/287615">287615</a>] (target milestone: Future)</li><li>[fiximprove]: java.lang.NoClassDefFoundError on emulator launch [<a href="http://bugs.eclipse.org/287904">287904</a>] (target milestone: Future)</li><li>[fiximprove]: MIDlet javadoc [<a href="http://bugs.eclipse.org/239977">239977</a>] (target milestone: Future)</li><li>[fiximprove]: Review MTJ Preferences page layout [<a href="http://bugs.eclipse.org/240669">240669</a>] (target milestone: Future)</li><li>[fiximprove]: Preverification is extremely slow / loops when automatic build is enabled [<a href="http://bugs.eclipse.org/283113">283113</a>] (target milestone: Future)</li><li>[fiximprove][localization]: Up/Down buttons get into wrong enabled/disabled state [<a href="http://bugs.eclipse.org/286447">286447</a>] <strike>(target milestone: Future)</strike></li></ul></li></ul><h3>Documentation</h3><ul><li><b>Committed</b><ul><li>[docs]: New &amp; Noteworthy [<a href="http://bugs.eclipse.org/285597">285597</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Getting Started &gt; Creating a MIDlet project [<a href="http://bugs.eclipse.org/288481">288481</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Getting Started &gt; Creating a simple MIDlet [<a href="http://bugs.eclipse.org/288483">288483</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Getting Started &gt; Running a Java ME MIDlet [<a href="http://bugs.eclipse.org/288485">288485</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Getting Started &gt; Debuging a Java ME MIDlet [<a href="http://bugs.eclipse.org/288486">288486</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Getting Started &gt; Add localization support to a MIDlet [<a href="http://bugs.eclipse.org/288487">288487</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Getting Started &gt; Writing and running JMUnit tests [<a href="http://bugs.eclipse.org/288488">288488</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Tasks &gt; Adding preprocessing support to a MIDlet project [<a href="http://bugs.eclipse.org/288500">288500</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs] Java ME Development User Guide &gt; Tasks &gt; Signing MIDlet suites [<a href="http://bugs.eclipse.org/288501">288501</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Tasks &gt; JMUnit &gt; Disable JMunit [<a href="http://bugs.eclipse.org/288502">288502</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Editors &gt; Application Descriptor Editor [<a href="http://bugs.eclipse.org/288509">288509</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Editors &gt; Device Editor [<a href="http://bugs.eclipse.org/288515">288515</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Launchers [<a href="http://bugs.eclipse.org/288516">288516</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Preferences &gt; Over the Air Preferences [<a href="http://bugs.eclipse.org/288518">288518</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Preferences &gt; Preverification Preference [<a href="http://bugs.eclipse.org/288519">288519</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Property Pages &gt; Java ME [<a href="http://bugs.eclipse.org/288522">288522</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]: Add a note about Proguard path [<a href="http://bugs.eclipse.org/281094">281094</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]: Document new build.properties format. [<a href="http://bugs.eclipse.org/284934">284934</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]: Update user documentation to cover the enhancements on the project creation wizard [<a href="http://bugs.eclipse.org/285147">285147</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs][antenna]:  The "Antenna Support" section on User documentation is outdated [<a href="http://bugs.eclipse.org/285164">285164</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]: Update user documentation [<a href="http://bugs.eclipse.org/285705">285705</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]: Localization Data editor user documentation should be updated [<a href="http://bugs.eclipse.org/286570">286570</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[docs]: #include preprocessor directive documentation is wrong [<a href="http://bugs.eclipse.org/287317">287317</a>] <strike>(target milestone: 1.0.1)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[docs] Cannot import SE SDK While it has been done in Windows Vista Premium [<a href="http://bugs.eclipse.org/295813">295813</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[docs]  Java ME Development User Guide &gt; Tasks &gt; Localize Strings [<a href="http://bugs.eclipse.org/288508">288508</a>] (target milestone: Future)</li><li>[docs]  Java ME Development User Guide &gt; Reference &gt; Preferences [<a href="http://bugs.eclipse.org/288520">288520</a>] (target milestone: Future)</li></ul></li></ul><h3>Build system</h3><ul><li><b>Committed</b><ul><li>[releng]: Update org.objectweb.asm dependency from version 3.0.0 to 3.1.0 [<a href="http://bugs.eclipse.org/264956">264956</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[releng]: Set up API Tooling on build [<a href="http://bugs.eclipse.org/282159">282159</a>] <strike>(target milestone: 1.0.1)</strike></li><li>[releng]: Change downloads to be p2 repositories [<a href="http://bugs.eclipse.org/284132">284132</a>] <strike>(target milestone: 1.0.1)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[releng]: Investigate how to port releng to Athena Common Build [<a href="http://bugs.eclipse.org/285578">285578</a>] (target milestone: Future)</li><li>[releng]: write FAQ for MTJ developers [<a href="http://bugs.eclipse.org/238123">238123</a>] (target milestone: Future)</li><li>[releng]: include RSS in build [<a href="http://bugs.eclipse.org/238139">238139</a>] (target milestone: Future)</li></ul></li></ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=dsdp.mtj&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

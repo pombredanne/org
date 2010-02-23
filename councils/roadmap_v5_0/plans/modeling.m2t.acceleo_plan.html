@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - modeling.m2t.acceleo</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker2.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.m2t.acceleo">Acceleo</a>, version 3.0.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+     This document lays out the feature and API set for the 3.0.0 release of the M2T Acceleo project.  
+     The Acceleo component is an open source component under the Eclipse Modeling / Model-To-Text (M2T) project.
+     Its primary goal is to provide an implementation of the MOF Model-To-Text OMG standard.
+     For Helios, this is the first time we plan to graduate under Eclipse. We also plan to grow the version number from 1.0.0 to 3.0.0 because
+     the last release of Acceleo outside of Eclipse was the 2.6.0 version (Acceleo.org). We are also in the process of transferring the community,
+     and for a community point of view, it is clearer to graduate and set the new Eclipse version as 3.0.0.
+     </div><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+    The release deliverables have the same form as is found in most Eclipse projects, namely:
+	<ul>
+		<li>Acceleo SDK (includes runtime and tooling components, with sources, examples, and documentation) (downloadable and update site).</li>
+		<li>Acceleo runtime binary distribution (downloadable and update site).</li>
+		<li>Acceleo examples (downloadable and update site)</li>
+		<li>Acceleo tests (downloadable and update site)</li>
+	</ul>
+	</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+         The implementation will be compliant with the advanced feature compliance level of the MOF Model-To-Text OMG language (No Macro and alternative syntax).
+         Acceleo will synchronize its release milestones with the Helios release schedule.
+         </div><table border="1" align="center"><tr><td><b>M1</b></td><td>08/18/2009</td><td><div/></td></tr><tr><td><b>M2</b></td><td>09/29/2009</td><td><div/></td></tr><tr><td><b>M3</b></td><td>11/10/2009</td><td><div/></td></tr><tr><td><b>M4</b></td><td>12/15/2009</td><td><div/></td></tr><tr><td><b>M5</b></td><td>02/02/2010</td><td><div/></td></tr><tr><td><b>M6</b></td><td>03/16/2010</td><td><div>API Freeze</div></td></tr><tr><td><b>M7</b></td><td>05/04/2010</td><td><div>Feature Freeze</div></td></tr><tr><td><b>RC1</b></td><td>05/18/2010</td><td><div/></td></tr><tr><td><b>RC2</b></td><td>05/25/2010</td><td><div/></td></tr><tr><td><b>RC3</b></td><td>06/01/2010</td><td><div/></td></tr><tr><td><b>RC4</b></td><td>06/08/2010</td><td><div/></td></tr><tr><td><b>Helios Final</b></td><td>06/16/2010</td><td><div/></td></tr><tr><td><b>3.0</b></td><td>06/23/2010</td><td/></tr></table><div/><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+     The acceleo project depends upon on the Platform and other projects, which are mostly "pure" Java.
+     Acceleo will be available on Eclipse Ganymede, Galileo, and Helios. 
+     EMF is used by the Acceleo execution engine for accessing the models. 
+     The MDT-OCL component is reused to edit, parse, and interpret OCL as a sub-language of Acceleo. 
+     acceleo will target the same Java version as EMF, which currently requires Java 5.
+     Eclipse Platform SDK 3.6 will be tested and validated on a number of reference platforms. 
+     Acceleo will be tested and validated against a subset of those listed for the platform. 
+     </div><h3>Internationalization</h3>
+          <div>
+          <p>
+The Eclipse Platform is designed as the basis
+for internationalized products. The user interface elements provided
+by the Eclipse SDK components, including dialogs and error messages,
+are externalized. The English strings are provided as the default
+resource bundles. As a result, the Acceleo
+project will provide English strings in its default bundles and be
+localized to a subset of those locales offered by the Platform. This
+plan will be updated to indicate which locales will be provided and
+the time frame for availability.
+          </p>
+          </div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+       The acceleo 3.0 version will be compatible with the 0.8 version.
+       </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div/><h3>Advanced feature compliance</h3><ul>
+        <li>Standalone Component.</li>
+        <li>Advanced feature compliance level of the MOF Model-To-Text language.</li>
+		<li>Keep the user code you typed manually : User tags and JMerge support.</li>
+		<li>Complete Acceleo Runtime library.</li>
+		<li>Java developer facilities : Java extensions and Properties files.</li>
+		<li>Files encoding.</li>
+		<li>MTL Syntax Documentation.</li>
+			</ul><h3>Eclipse IDE components</h3><ul>
+        <li>2 modes for the Eclipse Builder : The fully OMG standard mode and the EMF addict mode.</li>
+        <li>Advanced code completion and quick fixes to create a template from an example.</li>
+        <li>Overrides View : Show the workspace and the plugin generators to make it possible to override easily the behavior of the code generation.</li>
+        <li>Traceability information : The Result view to show the synchronization between the code and the model.</li>
+        <li>Export a generator as a plugin and build a generator on the Eclipse build server.</li>
+        <li>Debug and Profile a code generation.</li>
+        <li>Real time syntax error detection.</li>
+        <li>IDE Documentation.</li>
+        	</ul><h3>Integration with other tools</h3><ul>
+	    <li>Workflow facilities for acceleo.</li>
+	    <li>Compatibility with other Eclipse modeling projects like QVTo, ATL, JET, and Xpand.</li>
+	    <li>A wizard to migrate an Acceleo template from the 2.6 version to the 3.0 version.</li>
+	    	</ul><h3>Examples</h3><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=modeling.m2t.acceleo&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

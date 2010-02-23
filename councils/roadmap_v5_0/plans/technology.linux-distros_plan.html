@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - technology.linux-distros</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker2.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.linux-distros">Linux Tools</a>, version 1.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><p>
+			The Linux Tools project is a two-faceted
+			project. Firstly, it develops tools and frameworks for
+			writing tools for Linux developers.  Secondly, it provides
+			a place for Linux
+			distributions to
+			collaboratively overcome issues surrounding
+			distribution packaging of
+			Eclipse technology. The project will
+			produce both best practices and tools
+			related to packaging.
+		</p><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+			The Linux Tools project delivers tools as
+			Eclipse plugins which are used primarily by Linux developers
+			and
+			packagers. The project also aims to deliver various
+			scripts,
+			techniques, and tarballs which ease the process of
+			packaging Eclipse
+			technology for Linux distributions.
+		</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><table border="1" align="center"><tr><td><b>0.1</b></td><td>2009-01-16</td><td><p>First release</p><p>
+				Latest ChangeLog and specfile editor releases, first
+				release of plugin building and packaging
+				tools (RPM Stubby), resurrected
+				OProfile plugin, initial eclipse.org release of
+				autotools, libhover, valgrind, and systemtap
+				editor plugins.
+			</p></td></tr><tr><td><b>0.2RC</b></td><td>2009-04-01</td><td><p>Release candidate build towards 0.2</p><p>
+				initial cachegrind support
+				improved OProfile privilege-escalation
+			</p></td></tr><tr><td><b>0.2</b></td><td>2009-05-11</td><td><p>0.2 release</p><p>
+				initial cachegrind support,
+				improved OProfile privilege-escalation,
+				pre- and post-build steps for autotool'd projects,
+				compare support for RPM .spec files,
+				mass BIRT chart interactivity,
+				greatly improved test coverage,
+				many bugfixes
+			</p></td></tr><tr><td><b>0.3</b></td><td>2009-08-19</td><td><p>0.3 release</p><p>
+				wiki-based help documentation,
+				initial integration of SystemTapGUI contribution,
+				integration of SystemTap editor and SystemTapGUI,
+				more robust Valgrind interaction,
+				manual control of OProfile daemon,
+				3.5 SDK packaging tools (eclipse-build)
+			</p></td></tr><tr><td><b>0.4</b></td><td>2009-11-23</td><td><p>0.4 release</p><p>
+				integration of GProf contribution,
+				3.5.1 SDK packaging tools (eclipse-build),
+				plugin building scripts (package-build),
+				SDK test running scripts,
+				Systemtap-backed call graph functionality,
+			</p></td></tr><tr><td><b>0.4.1</b></td><td>2009-12-21</td><td><p>0.4.1 bug-fix release</p><p>
+				Bug fixes for 0.4.0:  https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;target_milestone=0.4.1;product=Linux Tools;classification=Technology
+			</p></td></tr><tr><td><b>0.5</b></td><td>2010-02-17</td><td><p>0.5 release</p><p>
+				integration of LTTng contribution,
+				further improvements to ease distro consumption of eclipse-build,
+				integration of GCov contribution,
+				initial release of man page viewer,
+				initial release of SystemTap GUI dashboard
+			</p></td></tr><tr><td><b>1.0</b></td><td>2010 Q3</td><td><p>1.0 release</p><p>
+				SDK packaging tools:  3.5.x eclipse-build, SDK tests, plugin building scripts, testing scripts, scripts for running SDK tests against distro packages;
+				Native development tools: Tracing tools, Systemtap integration, Autotools, libhover, ChangeLog, OProfile, Valgrind, GProf, LTTng
+			</p></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>
+			For releases &lt;= 0.2, the tools run with Eclipse 3.4.x (some may still require
+			updating from 3.3 in places) and require Java 5.0. Some
+			tools -- notable the autotools and profiling plugins -- require CDT &gt;= 5.0.0 (6.0 for our 0.3 release and greater).
+			For releases &gt;= 0.3, the tools run with Eclipse 3.5.x and related dependencies.
+		</p><p>
+			The packaging tools not delivered as Eclipse plugins have
+			varying requirements but generally require basic tools such
+			as bash, sh, sed, awk, grep, etc.
+		</p><h3>Internationalization</h3>
+			<p>
+				The tools aim to have all strings externalized so as to
+				facilitate internationalization. At present, no
+				translations are provided.  See bug #261255 and bug #261256.
+			</p>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><p>
+				The Linux Tools project differs in aims
+				from
+				many Eclipse projects. It enables adopters of
+				Eclipse technology but
+				often through help with
+				consumption and not always through APIs. It also
+				aims to be a
+				place for collaboration among Linux distributions.
+				The project also aims to bring Eclipse technology to
+				Linux
+				developers by providing tools targetted at Linux
+				developers --
+				specifically those programming in C and
+				C++.
+			</p><h3>Getting the Eclipse SDK into Linux distributions</h3><p>
+					Most Linux distributions require all packages
+					included
+					therein to be built directly from source
+					code. This theme
+					encompasses the project goal of
+					assisting distributions in their
+					building and
+					packaging of the Eclipse SDK as well as
+					standardizing
+					practices and any patches needed. It
+					also aims to encourage and aid
+					distributions in
+					their attempts to drive unit test results down to
+					zero.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Create a formatter for spec files [<a href="http://bugs.eclipse.org/287309">287309</a>] (target milestone: ---)</li><li>[eclipse-build] Make SWT's Makefile see Debian's default JDK location like it does for Fedora [<a href="http://bugs.eclipse.org/291670">291670</a>] (target milestone: ---)</li><li>[eclipse-build] Ease usage of system-installed dependencies (JARs) [<a href="http://bugs.eclipse.org/280688">280688</a>] (target milestone: ---)</li><li>[eclipse-build] Ensure eclipse-build can be used by Debian OOTB [<a href="http://bugs.eclipse.org/286650">286650</a>] (target milestone: ---)</li><li>[eclipse-build] Ensure eclipse-build can be used by Fedora OOTB [<a href="http://bugs.eclipse.org/286822">286822</a>] (target milestone: ---)</li><li>[eclipse-build] Document disk space requirements for eclipse-build [<a href="http://bugs.eclipse.org/286827">286827</a>] (target milestone: ---)</li><li>[eclipse-build] Straighten out headless test running on Debian [<a href="http://bugs.eclipse.org/291680">291680</a>] (target milestone: ---)</li><li>[eclipse-build] SWT's browser code can't see XULRunner libraries on Debian unstable [<a href="http://bugs.eclipse.org/291758">291758</a>] (target milestone: ---)</li><li>[eclipse-build] Clean up spawning of separate JVM and eclipse binary processes [<a href="http://bugs.eclipse.org/291776">291776</a>] (target milestone: ---)</li><li>[eclipse-build] do not install unused files [<a href="http://bugs.eclipse.org/292472">292472</a>] (target milestone: ---)</li><li>[eclipse-build] all shell scripts should fail on error [<a href="http://bugs.eclipse.org/292870">292870</a>] (target milestone: ---)</li><li>[eclipse-build] Install just platform [<a href="http://bugs.eclipse.org/293731">293731</a>] (target milestone: ---)</li><li>[eclipse-build] Initialize .so files [<a href="http://bugs.eclipse.org/294113">294113</a>] (target milestone: ---)</li><li>[eclipse-build] Put JDT and SDK bits into dropins [<a href="http://bugs.eclipse.org/294114">294114</a>] (target milestone: ---)</li><li>[eclipse-build] Put SWT and RCP into independent installation locations [<a href="http://bugs.eclipse.org/294115">294115</a>] (target milestone: ---)</li><li>Please rename the version string in fetched source tarball name [<a href="http://bugs.eclipse.org/294249">294249</a>] (target milestone: ---)</li><li>[eclipse-build] 100% success with SDK tests [<a href="http://bugs.eclipse.org/295095">295095</a>] (target milestone: ---)</li><li>[eclipse-build] 3 failures in org.eclipse.jdt.ui.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295096">295096</a>] (target milestone: ---)</li><li>[eclipse-build] 3 failures, 1 error in org.eclipse.jdt.ui.tests LeakTestSuite (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295097">295097</a>] (target milestone: ---)</li><li>[eclipse-build] 2 failures in org.eclipse.pde.ui.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295098">295098</a>] (target milestone: ---)</li><li>[eclipse-build] 26 failures, 2 errors in org.eclipse.pde.build.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295099">295099</a>] (target milestone: ---)</li><li>[eclipse-build] 1 error in org.eclipse.team.tests.core (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295100">295100</a>] (target milestone: ---)</li><li>[eclipse-build] 12 failures in org.eclipse.ui.parts.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295101">295101</a>] (target milestone: ---)</li><li>[eclipse-build] 39 failures, 7 errors in org.eclipse.ui.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295102">295102</a>] (target milestone: ---)</li><li>[eclipse-build] 1 failure in org.eclipse.jface.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295103">295103</a>] (target milestone: ---)</li><li>[eclipse-build] Run org.eclipse.equinox.p2.tests [<a href="http://bugs.eclipse.org/295129">295129</a>] (target milestone: ---)</li><li>[eclipse-build] Run org.eclipse.equinox.p2.tests.ui [<a href="http://bugs.eclipse.org/295130">295130</a>] (target milestone: ---)</li><li>[eclipse-build] Run org.eclipse.team.tests.cvs.core [<a href="http://bugs.eclipse.org/295131">295131</a>] (target milestone: ---)</li><li>[eclipse-build] Do we need to run org.eclipse.update.tests.core? [<a href="http://bugs.eclipse.org/295132">295132</a>] (target milestone: ---)</li><li>[eclipse-build] Do we need to run org.eclipse.releng.tests? [<a href="http://bugs.eclipse.org/295133">295133</a>] (target milestone: ---)</li><li>[eclipse-build] Investigate running org.eclipse.ui.tests.performance [<a href="http://bugs.eclipse.org/295134">295134</a>] (target milestone: ---)</li><li>[eclipse-build] Build and run org.eclipse.jdt.compiler.tool.tests [<a href="http://bugs.eclipse.org/295135">295135</a>] (target milestone: ---)</li><li>eclipse-build does not respect CC, CFLAGS and LDFLAGS [<a href="http://bugs.eclipse.org/298531">298531</a>] (target milestone: ---)</li><li>Rpm editor should support different layouts [<a href="http://bugs.eclipse.org/299994">299994</a>] (target milestone: ---)</li><li>[eclipse-build] Re-generate eclipse-build-generatedScripts.tar.bz2 and eclipse-build-additionalArchs.tar.bz2 [<a href="http://bugs.eclipse.org/302647">302647</a>] (target milestone: ---)</li><li>Support running SDK tests against _installed_ SDK [<a href="http://bugs.eclipse.org/249205">249205</a>] (target milestone: ---)</li><li>The SDK source contains binary files [<a href="http://bugs.eclipse.org/303447">303447</a>] (target milestone: ---)</li></ul></li></ul><h3>Getting plugins into Linux distributions</h3><p>
+					Getting plugins into Linux distributions relates to
+					the
+					project's goal of making it easier to build and
+					package Eclipse
+					plugins for Linux distributions. At
+					present it includes shell
+					scripts and best practice
+					documentation. In the future, we aim to
+					provide
+					Eclipse plugins to help packagers.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Create a formatter for spec files [<a href="http://bugs.eclipse.org/287309">287309</a>] (target milestone: ---)</li><li>[eclipse-build] Make SWT's Makefile see Debian's default JDK location like it does for Fedora [<a href="http://bugs.eclipse.org/291670">291670</a>] (target milestone: ---)</li><li>[eclipse-build] Ease usage of system-installed dependencies (JARs) [<a href="http://bugs.eclipse.org/280688">280688</a>] (target milestone: ---)</li><li>[eclipse-build] Ensure eclipse-build can be used by Debian OOTB [<a href="http://bugs.eclipse.org/286650">286650</a>] (target milestone: ---)</li><li>[eclipse-build] Ensure eclipse-build can be used by Fedora OOTB [<a href="http://bugs.eclipse.org/286822">286822</a>] (target milestone: ---)</li><li>[eclipse-build] Document disk space requirements for eclipse-build [<a href="http://bugs.eclipse.org/286827">286827</a>] (target milestone: ---)</li><li>[eclipse-build] Straighten out headless test running on Debian [<a href="http://bugs.eclipse.org/291680">291680</a>] (target milestone: ---)</li><li>[eclipse-build] SWT's browser code can't see XULRunner libraries on Debian unstable [<a href="http://bugs.eclipse.org/291758">291758</a>] (target milestone: ---)</li><li>[eclipse-build] Clean up spawning of separate JVM and eclipse binary processes [<a href="http://bugs.eclipse.org/291776">291776</a>] (target milestone: ---)</li><li>[eclipse-build] do not install unused files [<a href="http://bugs.eclipse.org/292472">292472</a>] (target milestone: ---)</li><li>[eclipse-build] all shell scripts should fail on error [<a href="http://bugs.eclipse.org/292870">292870</a>] (target milestone: ---)</li><li>[eclipse-build] Install just platform [<a href="http://bugs.eclipse.org/293731">293731</a>] (target milestone: ---)</li><li>[eclipse-build] Initialize .so files [<a href="http://bugs.eclipse.org/294113">294113</a>] (target milestone: ---)</li><li>[eclipse-build] Put JDT and SDK bits into dropins [<a href="http://bugs.eclipse.org/294114">294114</a>] (target milestone: ---)</li><li>[eclipse-build] Put SWT and RCP into independent installation locations [<a href="http://bugs.eclipse.org/294115">294115</a>] (target milestone: ---)</li><li>Please rename the version string in fetched source tarball name [<a href="http://bugs.eclipse.org/294249">294249</a>] (target milestone: ---)</li><li>[eclipse-build] 100% success with SDK tests [<a href="http://bugs.eclipse.org/295095">295095</a>] (target milestone: ---)</li><li>[eclipse-build] 3 failures in org.eclipse.jdt.ui.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295096">295096</a>] (target milestone: ---)</li><li>[eclipse-build] 3 failures, 1 error in org.eclipse.jdt.ui.tests LeakTestSuite (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295097">295097</a>] (target milestone: ---)</li><li>[eclipse-build] 2 failures in org.eclipse.pde.ui.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295098">295098</a>] (target milestone: ---)</li><li>[eclipse-build] 26 failures, 2 errors in org.eclipse.pde.build.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295099">295099</a>] (target milestone: ---)</li><li>[eclipse-build] 1 error in org.eclipse.team.tests.core (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295100">295100</a>] (target milestone: ---)</li><li>[eclipse-build] 12 failures in org.eclipse.ui.parts.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295101">295101</a>] (target milestone: ---)</li><li>[eclipse-build] 39 failures, 7 errors in org.eclipse.ui.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295102">295102</a>] (target milestone: ---)</li><li>[eclipse-build] 1 failure in org.eclipse.jface.tests (x86_64; Fedora 12; 0.4RC5) [<a href="http://bugs.eclipse.org/295103">295103</a>] (target milestone: ---)</li><li>[eclipse-build] Run org.eclipse.equinox.p2.tests [<a href="http://bugs.eclipse.org/295129">295129</a>] (target milestone: ---)</li><li>[eclipse-build] Run org.eclipse.equinox.p2.tests.ui [<a href="http://bugs.eclipse.org/295130">295130</a>] (target milestone: ---)</li><li>[eclipse-build] Run org.eclipse.team.tests.cvs.core [<a href="http://bugs.eclipse.org/295131">295131</a>] (target milestone: ---)</li><li>[eclipse-build] Do we need to run org.eclipse.update.tests.core? [<a href="http://bugs.eclipse.org/295132">295132</a>] (target milestone: ---)</li><li>[eclipse-build] Do we need to run org.eclipse.releng.tests? [<a href="http://bugs.eclipse.org/295133">295133</a>] (target milestone: ---)</li><li>[eclipse-build] Investigate running org.eclipse.ui.tests.performance [<a href="http://bugs.eclipse.org/295134">295134</a>] (target milestone: ---)</li><li>[eclipse-build] Build and run org.eclipse.jdt.compiler.tool.tests [<a href="http://bugs.eclipse.org/295135">295135</a>] (target milestone: ---)</li><li>eclipse-build does not respect CC, CFLAGS and LDFLAGS [<a href="http://bugs.eclipse.org/298531">298531</a>] (target milestone: ---)</li><li>Rpm editor should support different layouts [<a href="http://bugs.eclipse.org/299994">299994</a>] (target milestone: ---)</li><li>[eclipse-build] Re-generate eclipse-build-generatedScripts.tar.bz2 and eclipse-build-additionalArchs.tar.bz2 [<a href="http://bugs.eclipse.org/302647">302647</a>] (target milestone: ---)</li><li>Support running SDK tests against _installed_ SDK [<a href="http://bugs.eclipse.org/249205">249205</a>] (target milestone: ---)</li><li>The SDK source contains binary files [<a href="http://bugs.eclipse.org/303447">303447</a>] (target milestone: ---)</li></ul></li></ul><h3>Improve ChangeLog plugin</h3><p>
+					Many open source projects use GNU-style ChangeLog files to
+					manage their changes. These plugins help writing ChangeLogs and
+					provide an editor for ChangeLog files. Although these plugins are
+					largely mature, we should continue to fix any bugs and increase
+					their robustness.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Colourization wrong if no file specified. [<a href="http://bugs.eclipse.org/179547">179547</a>] (target milestone: ---)</li><li>filename colour spills into change description [<a href="http://bugs.eclipse.org/179546">179546</a>] (target milestone: ---)</li><li>ChangeLog should link with Quick Fix [<a href="http://bugs.eclipse.org/179550">179550</a>] (target milestone: ---)</li><li>Need ChangeLog icon [<a href="http://bugs.eclipse.org/214248">214248</a>] (target milestone: ---)</li><li>Improve and create JUnit tests for Changelog GNU formatter [<a href="http://bugs.eclipse.org/224801">224801</a>] (target milestone: ---)</li><li>ChangeLogAction should refresh in a thread [<a href="http://bugs.eclipse.org/256180">256180</a>] (target milestone: ---)</li><li>Content Assist to stub out a new Changelog entry [<a href="http://bugs.eclipse.org/259262">259262</a>] (target milestone: ---)</li><li>Removed methods are not listed in the changelog [<a href="http://bugs.eclipse.org/299974">299974</a>] (target milestone: ---)</li></ul></li></ul><h3>Make OProfile easy to use from within Eclipse</h3><p>
+					OProfile is a very commonly used Linux profiling
+					tool. The
+					project aims to deliver seamless
+					OProfile-based profiling of CDT
+					projects, integrated
+					into the workbench.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>overlapping bitmasks makes invalid event unit masks [<a href="http://bugs.eclipse.org/261917">261917</a>] (target milestone: ---)</li><li>Find better way to do non-root opcontrol invocation across distros [<a href="http://bugs.eclipse.org/265646">265646</a>] (target milestone: ---)</li><li>oprofile view tree filtering [<a href="http://bugs.eclipse.org/273332">273332</a>] (target milestone: ---)</li><li>[opxml] reduce opxml's reliance on internal oprofile data structures [<a href="http://bugs.eclipse.org/273337">273337</a>] (target milestone: ---)</li><li>[opxml] Clean up and document opxml code [<a href="http://bugs.eclipse.org/273870">273870</a>] (target milestone: ---)</li><li>add indicator of no samples from previous profile to oprofile view [<a href="http://bugs.eclipse.org/274361">274361</a>] (target milestone: ---)</li><li>cancelling 1st root password prompt does not abort launch [<a href="http://bugs.eclipse.org/274574">274574</a>] (target milestone: ---)</li><li>OProfile sessions should be exportable [<a href="http://bugs.eclipse.org/277591">277591</a>] (target milestone: ---)</li><li>No profiling data generated - wrong image filter? [<a href="http://bugs.eclipse.org/296228">296228</a>] (target milestone: ---)</li><li>OProfile fails when project name contains a space [<a href="http://bugs.eclipse.org/303000">303000</a>] (target milestone: ---)</li><li>Colourize hot spots in code [<a href="http://bugs.eclipse.org/249181">249181</a>] (target milestone: ---)</li><li>[opxml] profiling binary with only shared library samples shows no results [<a href="http://bugs.eclipse.org/267969">267969</a>] (target milestone: ---)</li><li>Unify user interaction of profiling tools [<a href="http://bugs.eclipse.org/273872">273872</a>] (target milestone: ---)</li><li>Use p2 to install native fragments [<a href="http://bugs.eclipse.org/260431">260431</a>] (target milestone: ---)</li></ul></li></ul><h3>Improve RPM specfile editor and related plugins</h3><p>
+					We should continue to add features to and improve the
+					robustness of the RPM specfile editor and its related plugins.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Figure out SCM type and add its URL if we have it [<a href="http://bugs.eclipse.org/260872">260872</a>] (target milestone: ---)</li><li>If a feature has fragments, rpmstubby should put it in libdir [<a href="http://bugs.eclipse.org/260876">260876</a>] (target milestone: ---)</li><li>For SVN repos, rpm stubby-generated fetch script shouldn't use for loop [<a href="http://bugs.eclipse.org/260878">260878</a>] (target milestone: ---)</li><li>Create RCP app. of .spec editor [<a href="http://bugs.eclipse.org/273903">273903</a>] (target milestone: ---)</li><li>Extend RPM Stubby to work with non-.rpm packages [<a href="http://bugs.eclipse.org/273906">273906</a>] (target milestone: ---)</li><li>Add support for adding/removing BuildRequires/Requires to the form editor [<a href="http://bugs.eclipse.org/277851">277851</a>] (target milestone: ---)</li><li>Add menu for building RPMs [<a href="http://bugs.eclipse.org/279648">279648</a>] (target milestone: ---)</li><li>The RPM Editor's double click strategy is a bit mad [<a href="http://bugs.eclipse.org/294555">294555</a>] (target milestone: ---)</li><li>Provide ability to download Sources with url [<a href="http://bugs.eclipse.org/299193">299193</a>] (target milestone: ---)</li><li>Integrate with man page viewer [<a href="http://bugs.eclipse.org/299861">299861</a>] (target milestone: ---)</li><li>declared "release" variable with no value set causes a stackoverflow exception in eclipse when the Release: tag references the variable. [<a href="http://bugs.eclipse.org/300355">300355</a>] (target milestone: ---)</li><li>Add tabs for build/install sections to the form editor [<a href="http://bugs.eclipse.org/277852">277852</a>] (target milestone: ---)</li></ul></li></ul><h3>Integrate the GNU Autotools into the Eclipse workbench</h3><p>
+					This set of plugins allows projects that are
+					built using
+					the
+					GNU Autotools (automake, autoconf,
+					etc.) to be developed using
+					the
+					CDT. It relies upon
+					the CDT build mechanisms. This code was
+					submitted in
+					September 2008 and is currently undergoing parallel
+					IP
+					review. Goals include managing new file addition to
+					targets, small
+					wizards to ease creation of various
+					build targets, and tools to
+					export an "autotooled"
+					build.
+				</p><ul><li><b>Committed</b><ul><li>Make targets in autotools projects use wrong paths for target invocation in subdirectories [<a href="http://bugs.eclipse.org/269974">269974</a>] (target milestone: 0.4)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li>New Makefile.am (wizard) [<a href="http://bugs.eclipse.org/249188">249188</a>] (target milestone: ---)</li><li>New configure.ac wizard [<a href="http://bugs.eclipse.org/249189">249189</a>] (target milestone: ---)</li><li>NPE on console [<a href="http://bugs.eclipse.org/278185">278185</a>] (target milestone: ---)</li><li>Editor exception opening Makefile.am [<a href="http://bugs.eclipse.org/280581">280581</a>] (target milestone: ---)</li><li>Configure view background *and* text black [<a href="http://bugs.eclipse.org/281391">281391</a>] (target milestone: ---)</li><li>glib, gdk, dbus (, others?) header files not found when building gnome-terminal [<a href="http://bugs.eclipse.org/281393">281393</a>] (target milestone: ---)</li><li>Write unit tests for autotools plugins [<a href="http://bugs.eclipse.org/281700">281700</a>] (target milestone: ---)</li><li>Use PackageKit to install packages for missing pkg-config modules [<a href="http://bugs.eclipse.org/281702">281702</a>] (target milestone: ---)</li><li>[autoconf editor] Create model node for pkg-config elements [<a href="http://bugs.eclipse.org/281703">281703</a>] (target milestone: ---)</li><li>Binaries category in Project Explorer missing after restart of Eclipse [<a href="http://bugs.eclipse.org/281878">281878</a>] (target milestone: ---)</li><li>Adding a make target needs too much time [<a href="http://bugs.eclipse.org/283392">283392</a>] (target milestone: ---)</li><li>Include path discovery doesn't find C++ header path [<a href="http://bugs.eclipse.org/289581">289581</a>] (target milestone: ---)</li><li>Converting an C autotools based project into a C++ lost changes such as build configurations [<a href="http://bugs.eclipse.org/289834">289834</a>] (target milestone: ---)</li><li>"configure: WARNING: you should use --build, --host, --target" Always Shown [<a href="http://bugs.eclipse.org/293994">293994</a>] (target milestone: ---)</li><li>autoreconf started from build directory [<a href="http://bugs.eclipse.org/303613">303613</a>] (target milestone: ---)</li><li>Fail to add non-existing variables to configure flags [<a href="http://bugs.eclipse.org/303616">303616</a>] (target milestone: ---)</li><li>No F2 support for Autoconf editor hover if outline node selected [<a href="http://bugs.eclipse.org/249190">249190</a>] (target milestone: ---)</li><li>Allow a manual restart of configure, automake, ... once flags such as CPPFLAGS change [<a href="http://bugs.eclipse.org/281813">281813</a>] (target milestone: ---)</li></ul></li></ul><h3>Provide library hover help framework for C/C++ libraries</h3><p>
+					This set of plugins provides a framework to
+					provide editor hover help for
+					various popular libraries a developer may need
+					for C/C++ development.  A new library can add
+					hover help for its interfaces simply by creating
+					a special xml file and using the libhover
+					extension.  Ideally, library maintainers would
+					create the information from existing doc files
+					and add it to their packages.
+					Goals include providing hover help for
+					many popular C libraries, allowing selection of
+					hover help per project, and promoting library
+					providers to create these plugins as part of
+					their own build process.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Universal libhover file format [<a href="http://bugs.eclipse.org/282190">282190</a>] (target milestone: ---)</li><li>Parse media wiki for hover help (crowdsource code documentation) [<a href="http://bugs.eclipse.org/301579">301579</a>] (target milestone: ---)</li></ul></li></ul><h3>Provide an editor for Systemtap scripts</h3><p>
+					This plugin offers an editor for Systemtap scripts. Syntax
+					highlighting and completion are initial items that will be
+					delivered. Also see
+					<a href="http://picobot.org/wordpress/?p=31">
+						Phil Muldoon's blog entry introducing the project.</a>
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Externalize bundleName and bundleProvider in plugin/feature.properties [<a href="http://bugs.eclipse.org/282039">282039</a>] (target milestone: ---)</li><li>[callgraph] Recover partial data from SystemTap crash [<a href="http://bugs.eclipse.org/295735">295735</a>] (target milestone: ---)</li><li>[callgraph] Auto-resize canvas [<a href="http://bugs.eclipse.org/288985">288985</a>] (target milestone: ---)</li></ul></li></ul><h3>Make valgrind tools easy to use from within Eclipse</h3><p>
+					Valgrind is a set of tools very commonly used to diagnose
+					memory-related issues among other things.
+					We intend to make using
+					valgrind tools from within Eclipse very simple. Integrating the
+					output of
+					the valgrind tools into the IDE will be a focus as will be
+					simplicity.
+				</p><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Investigate CDT Debug integration [<a href="http://bugs.eclipse.org/269687">269687</a>] (target milestone: ---)</li><li>Add filtering option to output [<a href="http://bugs.eclipse.org/269732">269732</a>] (target milestone: ---)</li><li>Investigate modifying existing launch configurations for use with Profiling tools [<a href="http://bugs.eclipse.org/273336">273336</a>] (target milestone: ---)</li><li>Callgrind support [<a href="http://bugs.eclipse.org/273873">273873</a>] (target milestone: ---)</li><li>BIRT charting for callgrind [<a href="http://bugs.eclipse.org/273874">273874</a>] (target milestone: ---)</li><li>helgrind support [<a href="http://bugs.eclipse.org/273876">273876</a>] (target milestone: ---)</li><li>Create a template for suppression file editor [<a href="http://bugs.eclipse.org/289274">289274</a>] (target milestone: ---)</li></ul></li></ul><h3>Integrate Linux tracing functioning within Eclipse</h3><p>
+					Tracing frameworks such as SystemTap and LTTng enable
+					users to solve complex problems through data analysis.
+					We aim to provide a framework for working with tracing toolkits
+					and provide an exemplary implementation for LTTng.
+				</p><ul><li><b>Committed</b></li></ul><ul><li><b>Proposed</b></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix </a></h2><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=technology.linux-distros&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

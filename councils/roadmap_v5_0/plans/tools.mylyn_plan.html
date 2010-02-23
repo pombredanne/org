@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - tools.mylyn</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<!--[if IE]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+					<div id="promotion"> 
+		<a href="http://eclipse.org/go/EC10_web@spotlight">
+			<img src="/home/promotions/econ10/speaker1.png" alt="Register for EclipseCon 2010"/>
+		</a>
+	</div>
+				</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.mylyn">Mylyn</a>, version 3.4</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+      <p>The first goal
+	of <a href="http://www.eclipse.org/mylyn">Mylyn</a> is to make
+	task and context management seamlessly integrated with the
+	Eclipse Platform by providing rich and extensible frameworks for
+	task repository connectors, structure bridges and team
+	support. The second goal is to provide a reference implementation
+	of the Task-Focused UI for the Eclipse SDK. This includes
+	structure bridges for the artifacts supported by the SDK which
+	include Java, PDE, Ant and generic files. It also includes the
+	Bugzilla Connector as the reference task repository
+	implementation, and CVS integration as the reference team
+	support. Additional features can be considered based on the
+	availability community contributions and resources.
+      </p>
+    </div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+      <ul>
+	<li><b>Tasks Framework</b></li>
+	<li><b>Task-focused Interface</b>
+	  <ul>
+	    <li>Focused UI</li>
+	    <li>Eclipse IDE Bridge</li>
+	    <li>Java Development Bridge</li>
+	    <li>Plug-in Development Bridge</li>
+	    <li>Team Support Bridge</li>
+	    <li>C/C++ Development Bridge</li>
+	  </ul>
+	</li>
+	<li><b>Bugzilla Connector</b></li>
+	<li><b>JIRA Connector</b></li>
+	<li><b>Trac Connector</b></li>
+	<li><b>WikiText</b></li>
+	<li><b>SDK Features</b>
+	  <ul>
+	    <li>Mylyn SDK</li>
+	    <li>Mylyn Extras SDK</li>
+	    <li>Mylyn WikiText SDK</li>
+	  </ul>
+	</li>
+      </ul>
+    </div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+      			<p>The plan and roadmap dates are listed in the Mylyn Calendar 
+      			(view as <a href="http://www.google.com/calendar/ical/kq3ed9c0latktst29lrl8nffu0%40group.calendar.google.com/public/basic.ics">iCal</a> 
+      			or <a href="http://www.google.com/calendar/embed?src=kq3ed9c0latktst29lrl8nffu0%40group.calendar.google.com">html</a>) and on the 
+      			<a href="http://www.eclipse.org/projects/timeline/">Eclipse project timeline</a>.</p> 
+			</div><table border="1" align="center"><tr><td><b>3.3.1</b></td><td>12/15/2009</td><td><div>Service Release</div></td></tr><tr><td><b>3.3.2</b></td><td>01/27/2010</td><td><div>Service Release</div></td></tr><tr><td><b>3.2.3</b></td><td>02/26/2010</td><td><div>Service Release (Galileo SR2)</div></td></tr><tr><td><b>3.4</b></td><td>06/23/2010</td><td><div>Major Release</div></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+      <p>Mylyn is designed to run on version 1.5.0 of the Java
+	Runtime Environment, Standard Edition.</p> 
+
+      <p>Mylyn will support the following Eclipse releases:
+
+	<ul>
+	  <li>Eclipse 3.6</li>
+	  <li>Eclipse 3.5</li>
+	  <li>Eclipse 3.4</li>
+	</ul>
+	
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=280832">Support for Eclipse 3.3</a> has been discontinued. 
+      </p>
+
+      <p>
+	<table summary="Test Platforms" style="width: 821px;" border="1">
+	  
+	    <tr style="background:#cccccc">
+	      <th colspan="6" align="center">
+		<big><strong>Test Platforms</strong></big>
+	      </th>
+	    </tr>
+	    <tr>
+	      <td><b>Operating system</b></td>
+	      <td><b>OS version</b></td>
+	      <td><b>Processor architecture</b></td>
+	      <td><b>Window system</b></td>
+	      <td><b>Java 2 Platform</b></td>
+	      <td><b>Eclipse Release</b></td>
+	    </tr>
+	    <th colspan="6" align="center">
+	      <big><strong>Manual Tests</strong></big>
+	    </th>
+	    <tr>
+	      <td>Ubuntu Linux</td>
+	      <td>9.10</td>
+	      <td>x86-32</td>
+	      <td>GTK</td>
+	      <td>Sun Java 2 Standard Edition 6.0 Update 15</td>
+	      <td>Eclipse 3.6 (latest milestone)</td>
+	    </tr>
+	    <tr>
+	      <td>Ubuntu Linux</td>
+	      <td>8.04</td>
+	      <td>x86-32</td>
+	      <td>GTK</td>
+	      <td>Sun Java 2 Standard Edition 6.0 Update 11</td>
+	      <td>Eclipse 3.5.1 (latest milestone)</td>
+	    </tr>
+	    <tr>
+	      <td>Microsoft Windows</td>
+	      <td>Vista</td>
+	      <td>x86-32</td>
+	      <td>Win32</td>
+	      <td>Sun Java 2 Standard Edition 5.0 Update 14</td>
+	      <td>Eclipse 3.5.1</td>
+	    </tr>
+	    <tr>
+	      <td>Apple Mac OS X</td>
+	      <td>10.5</td>
+	      <td>Power</td>
+	      <td>Cocoa</td>
+	      <td>Apple Java 2 Platform Standard Edition (J2SE) 5, service release 4</td>
+		  <td>Eclipse 3.5.1</td>
+	    </tr>
+	    <tr>
+	      <td>Microsoft Windows</td>
+	      <td>XP</td>
+	      <td>x86-32</td>
+	      <td>Win32</td>
+	      <td>Sun Java 2 Standard Edition 5.0 Update 14</td>
+	      <td>Eclipse 3.4.2</td>
+	    </tr>
+	    <th colspan="6" align="center">
+	      <big><strong>Automated Tests</strong></big>
+	    </th>
+	    <tr>
+	      <td>Ubuntu Linux</td>
+	      <td>8.04</td>
+	      <td>x86-64</td>
+	      <td>GTK</td>
+	      <td>Sun Java 2 Standard Edition 6.0 Update 17</td>
+	      <td>Eclipse 3.6, 3.5, Eclipse 3.4</td>
+	    </tr>
+	  
+	</table>
+      </p>
+    </div><h3>Internationalization</h3>
+			<div>
+	Strings in all non-incubation plug-ins and features will be externalized and available for translation through Eclipse Babel. See <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=215116">bug 215116</a>
+	for details.
+      		</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+      <p><strong>API Contract Compatibility:</strong> Mylyn 3.4 will be backward compatible with Mylyn 3.0.
+      </p>
+      <p><strong>Binary (plug-in) Compatibility:</strong> Mylyn 3.4 will be binary compatible with Mylyn 3.0. 
+      </p>
+      <p><strong>Source Compatibility:</strong> Mylyn 3.4 will not by be source compatible with previous versions.  
+      </p>
+      <p><strong>Workspace Compatibility:</strong> We intend to keep Mylyn
+	3.4 upwards workspace-compatible with all versions higher than Mylyn 2.0 unless noted. 
+	This means that workspaces created with Mylyn 2.0 can be successfully 
+	opened by Mylyn 3.4 and upgraded to a 3.4 workspace.
+      </p>
+    </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+	<p>
+	  In addition to using the planned themes listed below, we need to
+	  continue prioritizing the ongoing input of our growing user
+	  community. Committers should prioritize bugs in the following order.
+	  This order need not be used if a bug contains a community
+	  contribution of a patch, in which case the quality of the patch
+	  determines the priority.
+	</p>
+	<p>
+	  <ul>
+	    <li>Framework APIs: Tasks, Context, Team, Monitor, Standalone and Headless Use</li>		
+ 	    <li>UI: Task List, Task Editor, Task-focused Interface</li>
+ 	    <li>Connectors: Bugzilla (reference implementation), JIRA (community supported), Trac (committer supported)</li>
+ 	    <li>WikiText</li>
+	  </ul>
+	</p>
+	<p>
+	  <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Tools&amp;product=Mylyn&amp;target_milestone=3.4&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;emailtype1=substring&amp;email1=&amp;emailtype2=notregexp&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">All bug scheduled for Mylyn 3.4</a>
+	</p>
+      </div><h3>Framework and API</h3><div/><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>produce Java API for OSLC CM 1.0 [<a href="http://bugs.eclipse.org/281711">281711</a>] <strike>(target milestone: 3.4)</strike></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>User Interface</h3><div/><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>consider generalizing the Task Repositories view to support other ALM repositories [<a href="http://bugs.eclipse.org/252681">252681</a>] (target milestone: 3.4)</li><li>improve Bugzilla Connector compatibility [<a href="http://bugs.eclipse.org/290614">290614</a>] (target milestone: 3.4)</li><li>support for Bugzilla 3.6 [<a href="http://bugs.eclipse.org/302654">302654</a>] (target milestone: 3.4)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=tools.mylyn&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2010 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>
