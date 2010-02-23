@@ -46,17 +46,17 @@
 			committers or membership. The Corporate Donor program allows these companies to financially
 			sponsor the Eclipse Foundation and thus support the services the Foundation provides to the
 			overall community. The Corporate Sponsor Program will recognize three tiers of sponsors:
-			1) Platinum Sponsor for sponsorship of more than $100K, 2) Gold Sponsor for sponsorship of
-			more than $25K and 3) Silver Sponsor for sponsorship of more than $5K. Companies that have
+			1) Platinum Sponsor for sponsorship of more than $100K USD, 2) Gold Sponsor for sponsorship of
+			more than $25K USD and 3) Silver Sponsor for sponsorship of more than $5K USD. Companies that have
 			already joined the program include Cisco, Amazon Web Services, IBM and Novell.
 		</p>
  	
      	<p>
      		The Eclipse Foundation has also extended the membership criteria to make it easier for small
      		technology companies to join as members of the Foundation. The Eclipse Board has approved
-     		a $1,500 Solutions Membership Dues for organizations with annual corporate revenues less than
-     		$1 million and not more than ten employees or contractors on staff. Previously, the lowest
-     		membership option available was $5,000. Companies that have already taken advantage of this
+     		a $1,500 USD Solutions Membership Dues for organizations with annual corporate revenues less than
+     		$1 million USD and not more than ten employees or contractors on staff. Previously, the lowest
+     		membership option available was $5,000 USD. Companies that have already taken advantage of this
      		change and joined the Eclipse Foundation include Modular Mind and ANCiT Consulting.
 		</p>
 
