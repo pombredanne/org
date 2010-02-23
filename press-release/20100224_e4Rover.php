@@ -53,8 +53,8 @@
  	
      	<p>
      		<a href="http://eclipse.org/e4/">e4</a> is the next generation of Eclipse platform focused on
-     		making it easier to build sophisticated client applications. e4 is planning their 1.0 release
-     		for July 2010.
+     		making it easier to build sophisticated client applications. You don't need to be a rocket scientist 
+     		to develop with e4, but e4 certainly simplifies the life of a rocket scientist!
 		</p>
 
 		<p>
