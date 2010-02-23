@@ -46,7 +46,7 @@
 			platform for planning and controlling the Mars and Lunar rover missions. Building on the
 			theme of robotics and Eclipse, the e4-Rover Mars Challenge highlights how developers can use
 			Eclipse e4 to build client software to control a Lego Mindstorm robot. Participants will use
-			an e4 client to control a live Lego Mindstorm robot through a series of tasks to compete for
+			an e4 client to control a live LEGO Mindstorm robot through a series of tasks to compete for
 			points. Participants will be encouraged to extend and customize the e4 client to improve the
 			control of the robot and increase their chances of collecting more points.
 		</p>
@@ -58,7 +58,7 @@
 		</p>
 
 		<p>
-			<a href="http://www.eclipsecon.org/2010/">EclipseCon</a> is the annual Eclipse community conference on March 22-25 in Santa Clara, CA.  Contest details will be available online before the start of EclipseCon as well as at the
+			<a href="http://www.eclipsecon.org/2010/">EclipseCon</a> is the annual Eclipse community conference to be held March 22-25 in Santa Clara, CA.  Contest details will be available online before the start of EclipseCon as well as at the
 			conference.
 		</p>	
 		
