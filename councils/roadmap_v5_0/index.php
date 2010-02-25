@@ -35,7 +35,7 @@
 				<li> This Preamble provides some background on Eclipse and the Foundation, and identifies the 
 				strategic goals of Eclipse. It also provides a brief overview of the scope of future projects</li>
 				<li> The <a href="LINKME">Themes and Priorities</a> which has been developed by the Eclipse Councils.</li>
-				<li> The <a href="/plans/index.html">Platform Release Plan</a> which has been developed by the Eclipse 
+				<li> The <a href="./plans/index.html">Platform Release Plan</a> which has been developed by the Eclipse 
 				Planning Council.</li>
 			</ol>
 		
