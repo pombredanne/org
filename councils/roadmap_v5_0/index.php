@@ -43,15 +43,19 @@
 		mean that new projects cannot be inconsistent with the stated directions of Eclipse. In particular, Eclipse 
 		expects that incubator projects created in the Technology PMC will cover areas not explicitly described 
 		in the Roadmap.</p>
+		
+		<p>New in the version 5.0 iteration of the Road Map is a focus on projects that are part of the next planned
+		release train code named "Helios" with a release date of June 2010.  For example, project plan listings
+		are plans for Helios from the projects that are part of that release train.</p>
 
 		<a name="background"></a><h2>Background</h2>
 		<p>As defined on our website, the role of the Foundation is:
 		</p>
-		<i>Eclipse is an open source community, whose projects are focused on building an open development 
+		<p><i>Eclipse is an open source community, whose projects are focused on building an open development 
 		platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software 
 		across the lifecycle. The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the 
 		Eclipse projects and helps cultivate both an open source community and an ecosystem of complementary products 
-		and services.</i><br>
+		and services.</i></p>
 
 		<p>As defined in our Bylaws the Purposes of the Eclipse Foundation are:
 		</p>
@@ -65,7 +69,7 @@
 		ecosystem of complementary products, capabilities, and services.</i><br>
 		
 		<a name="strategic"></a><h2>Strategic Goals</h2>
-		<p>The following are the strategic goals of Eclipse.
+		<p>The following are the strategic goals of the Eclipse Foundation.
 		</p>
 		<ol><li> Establish Eclipse as a leading provider of open source runtime technologies. At least since 
 		2004, Eclipse projects have been shipping innovative runtime technologies such as Equinox and the 
@@ -95,11 +99,40 @@
 		a product, service or application the Eclipse community is strengthened. Our goal in 2010 is to focus 
 		our attention on the creation of industry working groups and new Eclipse projects which focus on 
 		particular industry segments such as mobile, automotive, insurance and finance.<br /><br /></li>
-		</ol>
-				
+	
+		<li>Run a good ship.  This Eclipse Foundation employs several staff and represents hundreds of 
+		stakeholders.  It is important that the Foundation be a well run organization internally and
+		externally.</li>
+		
+		<li>Continue to grow a diversified revenue model.  Reliance on a single source of renvenue to 
+		fund the foundation puts at greater risk of being negatively impacted by
+		industry specific business cycles.  It is a goal of the Eclipse Foundation to 
+		ensure revenue sources from multiple types of organizations, and seek other sources such 
+		as events and sponsorships.</li>
+		
+		<li>Ensure adequate resources are invested in the core technology platform.  Although Eclipse
+		hosts well over 100 different projects, many depend on a core set of projects to continue
+		to evolve and innovate.  It is important the new entants be encouraged to participate in
+		these core projects and be informed of the importance and need for their support.
+		</li>
+		
+	</ol>
 				
 		<a name="#futures"></a><h2>Future Directions</h2>
-		<p>Lorem Ipsum whateverum.</p>
+
+		<p>The goal of the Roadmap is to provide the Eclipse ecosystem with guidance and visibility 
+		on the future directions of the Eclipse open source community, and to involve the Eclipse 
+		membership in a dialog about those future directions. In that vein, this section discusses 
+		our current vision of the future as a set of future projects that expand the value of the 
+		ecosystem for all of its members.</p>
+
+		<p>The Themes and Priorities document prepared by the Requirements Council describes a number 
+		of requirements and focus areas for the existing Eclipse projects.</p>
+
+		<p>In addition to the Themes and Priorities requirements on existing projects in Helios, we envision 
+		future growth in Eclipse projects in the following major areas. These are areas in which we 
+		envision starting new projects in 2010-2011, not areas in which we envision having completed 
+		Eclipse-quality standards-based frameworks and tooling. </p>
 		
 		<a name="#cloud"></a><h2>Cloud</h2>
 		<p>Cloudium</p>
