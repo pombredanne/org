@@ -60,10 +60,10 @@
 			<h3>Board of Directors Meetings</h3>
 			<ul>
 				<li>Abridged Minutes 
-          			- <a href="boardminutes/2009_12_9-10.Minutes">December 9-10, 
+          			- <a href="boardminutes/2009_12_9-10.Minutes.php">December 9-10, 
           			2009 (html)</a><img src="../../images/new.gif" alt="new"></li>
    				<li>Abridged Minutes 
-          			- <a href="boardminutes/2009_09_16_Minutes">September 16, 
+          			- <a href="boardminutes/2009_09_16_Minutes.php">September 16, 
           			2009 (html)</a><img src="../../images/new.gif" alt="new"></li>
 				<li>Abridged Minutes 
           			- <a href="boardminutes/2009_06_17-18_Minutes.php">June 17-18, 
