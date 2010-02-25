@@ -33,7 +33,7 @@
 			will be your opportunity to play with the top guns. The Eclipse Foundation, in collaboration
 			with NASA JPL, are organizing the e4-Rover Mars Challenge. EclipseCon attendees will
 			participate in a contest to create the very best robotic control system to drive a robot
-			across a prototypical Mars landscape. The grand prize winner will be receive an opportunity
+			across a prototypical Mars landscape. The grand prize winner will receive an opportunity
 			to visit the <a href="http://www-robotics.jpl.nasa.gov/facilities/index.cfm">NASA robotics lab</a>
 			in Los Angeles, CA.
 		</p>
