@@ -30,6 +30,15 @@
 	    <h2><a name="introduction"></a>Introduction</h2>
 		<p>As required by the Eclipse Development Process, this document describes the 2010 Eclipse Roadmap.</p>
 
+		<p>There are three main sections to this document:</p>
+			<ol>
+				<li> This Preamble provides some background on Eclipse and the Foundation, and identifies the 
+				strategic goals of Eclipse. It also provides a brief overview of the scope of future projects</li>
+				<li> The <a href="LINKME">Themes and Priorities</a> which has been developed by the Eclipse Councils.</li>
+				<li> The <a href="/plans/index.html">Platform Release Plan</a> which has been developed by the Eclipse 
+				Planning Council.</li>
+			</ol>
+		
 		<p>The Roadmap is intended to be a living document which will see future iterations. This document is the 
 		fifth version of the Eclipse Roadmap, and is labeled as version 5.0. In order to preserve this document 
 		while the underlying information evolves, the pages have been frozen by copying them from their original 
@@ -142,32 +151,23 @@
 		
 		<a href="#process"></a><h2>The Roadmap Process</h2>
 
-		<p>The Roadmap is intended to be a living document which will see future iterations. This document 
-		is the fourth version of the Eclipse Roadmap, and is labeled as version 4.0. In order to preserve this 
-		document while the underlying information evolves, the pages have been frozen by copying them from 
-		their original project hosted locations.</p>
-		
-		<p>The goal of the Roadmap is to provide the Eclipse ecosystem with guidance and visibility on the 
-		future directions of the Eclipse open source community. An important element in this visibility is 
-		that the Roadmap help the EMO and the Board of Directors in determining which projects will be accepted 
-		by Eclipse during the life of this revision of the Roadmap. In other words, new projects must be 
-		consistent with the Roadmap. This does not mean that every new project must be explicitly envisaged by 
-		the Roadmap. It does mean that new projects cannot be inconsistent with the stated directions of Eclipse. 
-		In particular, Eclipse expects that incubator projects created in the Technology PMC will cover areas not 
-		explicitly described in the Roadmap.</p>
-		
-		<p>There are three main sections to this document:</p>
-			<ol>
-				<li> This Preamble provides some background on Eclipse and the Foundation, and identifies the 
-				strategic goals of Eclipse. It also provides a brief overview of the scope of future projects</li>
-				<li> The Themes and Priorities</a> which has been developed by the Eclipse Requirements Council.</li>
-				<li> The <a href="platformplan.html">Platform Release Plan</a> which has been developed by the Eclipse 
-				Planning Council.</li>
-			</ol>
 
 
+		<p>The process of creating the Eclipse Roadmap is described in the Eclipse Development Process. 
+		The key pieces are:</p>
+		<ul>
+        <li>The Councils proposing a set of Themes and Priorities 
+        that realize the Purposes and that respond to requirements elicited from the Strategic Developers, Strategic 
+        Consumers, Sustaining Members, and other constituents of the Ecosystem. The EMO ensures that the Planning 
+        Council and the Development teams have access to all requirements. Updates to the purposes are likely to 
+        require updates to the Roadmap and its associated themes and priorities; proposed Roadmap updates may also be 
+        motivated by new technologies or opportunities. </li>
 
-
+        <li>The process of producing or updating the Roadmap is expected to be iterative. An initial set of Themes and 
+        Priorities may be infeasible to implement in the desired timeframe; subsequent consideration may reveal new 
+        implementation alternatives or critical requirements that alter the team's perspective on priorities. The 
+        EMO orchestrates interaction among and within the three Councils to drive the Roadmap to convergence. </li>
+		</ul>
 		
       </div>
       <div id="rightcolumn">
@@ -183,7 +183,7 @@
 		</div>
      	<div class="sideitem">
 			<h6>Thank you!</h6>
-			<p>Our thanks to <a href="foundation/thankyou.php">AMD, Cisco, HP, IBM, Intel, Novell and Primus</a> for generous donations to our website infrastructure.</p>
+			<p>Our thanks to <a href="/corporate_sponsors/">our many corporate sponsors</a> for generous donations to our infrastructure.</p>
 		</div>		
 	  </div>
   </div>
