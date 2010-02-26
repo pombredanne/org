@@ -38,10 +38,6 @@
 			3) Technologies and Products.  Award winners will be announced at
 			<a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>
-
-		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
-		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
-		</p>	
 		
 		<h3>Individual Awards</h3>
 		<p>
@@ -98,7 +94,7 @@
 				<li><font color="#A9A9A9">Nominations open - December 3, 2009</font></li>
 				<li><font color="#A9A9A9">Nominations close - January 29, 2010</font></li>
 				<li><font color="#A9A9A9">Voting begins for Individual & Project Awards - February 2, 2010</font></li>
-				<li>Voting ends for Individual & Project Awards - February 26, 2010 at 5:00 pm EST</font></li>
+				<li><font color="#A9A9A9">Voting ends for Individual & Project Awards - February 26, 2010 at 5:00 pm EST</font></li>
 				<li>Awards Announced at EclipseCon 2010 - March 22-25, 2010</li>
 			</ul>
 		</p>
