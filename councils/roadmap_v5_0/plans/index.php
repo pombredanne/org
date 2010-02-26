@@ -13,6 +13,8 @@
     <div id="maincontent">
 	<div id="midcolumn">
         <h1><a name="top"></a>$pageTitle</h1>
+<p>The following projects from the Helios release have created Project Plans that you can review at the links
+below.</p>
 
 <ul>
 	<li><a href="birt_plan.html">birt</a></li>

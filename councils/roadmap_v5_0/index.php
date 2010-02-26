@@ -34,7 +34,7 @@
 			<ol>
 				<li> This Preamble provides some background on Eclipse and the Foundation, and identifies the 
 				strategic goals of Eclipse. It also provides a brief overview of the scope of future projects</li>
-				<li> The <a href="LINKME">Themes and Priorities</a> which has been developed by the Eclipse Councils.</li>
+				<li> The <a href="http://wiki.eclipse.org/RequirementsCouncilThemesAndPriorities">Themes and Priorities</a> which has been developed by the Eclipse Councils. [TO BE FROZEN ON MARCH 5th]</li> 
 				<li> The <a href="./plans/index.php">Platform Release Plan</a> which has been developed by the Eclipse 
 				Planning Council.</li>
 			</ol>
@@ -144,10 +144,20 @@
 		Eclipse-quality standards-based frameworks and tooling. </p>
 		
 		<a name="#cloud"></a><h2>Cloud</h2>
-		<p>Cloudium</p>
+		<p>Projects such as Amazons AWS tooling build on the eclipse platform give instant credibility
+		to eclipse as a important piece of the strategy for cloud tool providers.  Eclipse has a role to play
+		in the entire development lifecycle from development, deployment to testing and QA. 
+		
+		In addition to tools, OSGi and Equinox will play an important role in the cloud.  The ability to 
+		maintain configurations and deployments in large scale applications will be essential to
+		scaling the cloud.		 
+		</p>
 
 		<a name="#RT"></a><h2>eclipseRT</h2>
-		<p>Runtiunum.</p>
+		<p>EclipseRT will continnue to grow and evolve.  The recent Gemini and Virgo projects at eclipse 
+		demonstrate the community is starting to associate Eclipse as a great place to do runtimes.  The
+		key uniter of the various runtime technologies at eclipse continues to be OSGi as the kernal, but
+		it is plausible for some other complementary techology to become an eclipse project.</p>
 		
 		<a href="#process"></a><h2>The Roadmap Process</h2>
 
