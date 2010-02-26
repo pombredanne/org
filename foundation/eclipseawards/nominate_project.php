@@ -54,12 +54,8 @@
 		<h2>Determining Winners</h2>
 		<p>
 		The Project Award winners will be determined by a vote of the community. Each person will get
-		to vote once per category. After nominations close on January 29, 2010, voting will run from
+		to vote once per category. After nominations closed on January 29, 2010, voting ran from
 		February 2-26, 2010, 5:00 pm EST.  
-		</p>
-
-		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
-		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
 		</p>		
 		
 		<h2>Past Winners</h2>
