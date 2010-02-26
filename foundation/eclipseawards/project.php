@@ -50,7 +50,7 @@ function switchMenu(obj) {
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Project Awards.  Nominations closed on January 29, 2010. Voting is open until February 26, 2010 at 5:00 pm EST.
+			The following is a list of nominations submitted for the Project Awards.  Nominations closed on January 29, 2010 and voting closed February 26, 2010.  Winners will be announced March 22 at EclipseCon.
 		</p>
 
 		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
