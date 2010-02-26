@@ -52,10 +52,6 @@ function switchMenu(obj) {
 		<p>
 			The following is a list of nominations submitted for the Project Awards.  Nominations closed on January 29, 2010 and voting closed February 26, 2010.  Winners will be announced March 22 at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
 		</p>
-
-		<p><a href="http://eclipse.org/go/awardsvote10" target="blank">
-		<img src="http://www.eclipse.org/membership/vote2008/vote.jpg"></a>
-		</p>
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 
