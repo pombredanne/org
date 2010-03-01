@@ -19,8 +19,10 @@
 			<li><a href="#strategic">Strategic Goals</a></li>
 			<li><a href="#futures">Future Directions</a>
 			<ol>
+				<li><a href="#e4">Eclipse 4.0</a></li>
 				<li><a href="#cloud">cloud</a></li>
 				<li><a href="#RT">eclipseRT</a></li>
+				<li><a href="#web">web development</a></li>
 				<li><a href="#Etc">TBD PLACE HOLDER</a></li>
 			</ol></li>
 			<li><a href="#process">The Road Map Process</a></li>	
@@ -83,24 +85,31 @@
 		<ol><li> Establish Eclipse as a leading provider of open source runtime technologies. At least since 
 		2004, Eclipse projects have been shipping innovative runtime technologies such as Equinox and the 
 		Rich Client Platform. The last several years have seen steady growth in runtime technologies at Eclipse. 
-		At the same time, there has been rapid growth in the interest in OSGi, which is the standard upon 
-		which Eclipse is based. Moving forward, we expect to see rapid growth in Eclipse runtime technologies.
+		At the same time, there has been rapid growth in interest in OSGi, which is the standard upon 
+		which the Eclipse plug-in model is based. Moving forward, we expect to see rapid growth in both the
+		projects building and the adoption of Eclipse runtime technologies.
 		<br /><br /></li>
 		
 		<li> Maintain global leadership in open source tools platforms. As an open development platform, 
 		Eclipse provides support for multiple operating environments and multiple programming languages. 
 		The goal of Eclipse is to define for the industry a development platform which is freely licensed, 
 		open source and provides support for the full breadth of the application lifecycle, in many disparate 
-		problem domains, across the development and deployment platforms of choice.<br /><br /></li>
+		problem domains, across the development and deployment platforms of choice. In particular, as rich 
+		internet application development becomes more mainstream, we anticipate new projects at Eclipse to 
+		address the needs of that community.<br /><br /></li>
 		
-		<li> Create value for all its membership classes. The Eclipse Foundation exists to serve its members 
-		whose primary interest in leveraging Eclipse technologies in commercial offerings such as products a
-		nd services. The Eclipse Foundation will focus its energies to ensure that commercial opportunity 
-		exists within the Eclipse ecosystem. 
+		<li> Create value for all its membership classes. The Eclipse Foundation serves many members 
+		whose primary interest in leveraging Eclipse technologies in commercial offerings such as products
+		and services. The Eclipse Foundation will focus its energies to ensure that commercial opportunity 
+		exists within the Eclipse ecosystem. Look for continuous improvements to 
+		<a href="http://marketplace.eclipse.org/">Eclipse Marketplace</a>, and other initiatives for the 
+		benefits of members.
 		
 		<br /><br />Committers are also members of the Eclipse Foundation 
 		and are in many ways its backbone. The Eclipse Foundation and its staff will continue to look for 
-		opportunities to continually improve its service to its project community throughout 2010.<br /><br /></li>
+		opportunities to continually improve services to its project community throughout 2010.
+		Look for enhancements to our web, download, code management, build and other key components of
+		project infrastructure in 2010.<br /><br /></li>
 		
 		<li> Foster growth of the ecosystem, particularly in verticals. The creation of a large community of 
 		commercial and open source organizations which rely on and/or complement Eclipse technology has been 
@@ -122,7 +131,7 @@
 		<li>Ensure adequate resources are invested in the core technology platform.  Although Eclipse
 		hosts well over 100 different projects, many depend on a core set of projects to continue
 		to evolve and innovate.  It is important the new entants be encouraged to participate in
-		these core projects and be informed of the importance and need for their support.
+		these core projects and be informed of the importance of and need for their support.
 		</li>
 		
 	</ol>
@@ -143,6 +152,16 @@
 		envision starting new projects in 2010-2011, not areas in which we envision having completed 
 		Eclipse-quality standards-based frameworks and tooling. </p>
 		
+		<a name="#e4"></a><h2>Eclipse 4.0</h2>
+		<p>2010 will see the first major release of the Eclipse Platform since 2004. The major goals 
+		of <a href="/e4/">this new release</a> include:<ul>
+		<li>Making it easier to write plugins</li>
+    	<li>Allowing better control over the look of Eclipse based products</li>
+    	<li>Providing a uniform, pervasive platform across computing environments (Web / RIA, Desktop, Server, Cloud, Embedded)</li>
+    	<li>Increasing diversity of contributors to the platform</li>
+    	<li>Maintaining backward compatibility for API-clean clients</li></ul></p>
+			
+		
 		<a name="#cloud"></a><h2>Cloud</h2>
 		<p>Projects such as Amazons AWS tooling build on the eclipse platform give instant credibility
 		to eclipse as a important piece of the strategy for cloud tool providers.  Eclipse has a role to play
@@ -159,9 +178,13 @@
 		key uniter of the various runtime technologies at eclipse continues to be OSGi as the kernal, but
 		it is plausible for some other complementary techology to become an eclipse project.</p>
 		
+		<a name="#web"></a><h2>Web Development</h2>
+		<p>Eclipse tools have historically had a very strong correlation with the Java language. However,
+		with the rapid growth of Rich Internet Application languages and technologies such as JavaScript
+		and Ajax, the Eclipse community must support the requirements of these developers as well. Eclipse 
+		will begin to invest in re-tooling the Eclipse platform with the needs of Web developers in mind. </p>
+		
 		<a href="#process"></a><h2>The Roadmap Process</h2>
-
-
 
 		<p>The process of creating the Eclipse Roadmap is described in the Eclipse Development Process. 
 		The key pieces are:</p>
