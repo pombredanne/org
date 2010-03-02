@@ -94,9 +94,9 @@
 		Eclipse provides support for multiple operating environments and multiple programming languages. 
 		The goal of Eclipse is to define for the industry a development platform which is freely licensed, 
 		open source and provides support for the full breadth of the application lifecycle, in many disparate 
-		problem domains, across the development and deployment platforms of choice. In particular, as rich 
-		internet application development becomes more mainstream, we anticipate new projects at Eclipse to 
-		address the needs of that community.<br /><br /></li>
+		problem domains, across the development and deployment platforms of choice. In particular, as Rich 
+		Internet Application development becomes more mainstream, we anticipate new projects at Eclipse to 
+		address the needs of that community.</li>
 		
 		<li> Create value for all its membership classes. The Eclipse Foundation serves many members 
 		whose primary interest in leveraging Eclipse technologies in commercial offerings such as products
@@ -109,21 +109,21 @@
 		and are in many ways its backbone. The Eclipse Foundation and its staff will continue to look for 
 		opportunities to continually improve services to its project community throughout 2010.
 		Look for enhancements to our web, download, code management, build and other key components of
-		project infrastructure in 2010.<br /><br /></li>
+		project infrastructure in 2010.</li>
 		
 		<li> Foster growth of the ecosystem, particularly in verticals. The creation of a large community of 
 		commercial and open source organizations which rely on and/or complement Eclipse technology has been 
 		a major factor in the success of Eclipse. Each time Eclipse technology is used in the development of 
 		a product, service or application the Eclipse community is strengthened. Our goal in 2010 is to focus 
 		our attention on the creation of industry working groups and new Eclipse projects which focus on 
-		particular industry segments such as mobile, automotive, insurance and finance.<br /><br /></li>
+		particular industry segments such as mobile, automotive, insurance and finance.</li>
 	
 		<li>Run a good ship.  This Eclipse Foundation employs several staff and represents hundreds of 
 		stakeholders.  It is important that the Foundation be a well run organization internally and
 		externally.</li>
 		
-		<li>Continue to grow a diversified revenue model.  Reliance on a single source of renvenue to 
-		fund the foundation puts at greater risk of being negatively impacted by
+		<li>Continue to grow a diversified revenue model.  Reliance on a single source of revenue to 
+		fund the Foundation puts at greater risk of being negatively impacted by
 		industry specific business cycles.  It is a goal of the Eclipse Foundation to 
 		ensure revenue sources from multiple types of organizations, and seek other sources such 
 		as events and sponsorships.</li>
@@ -155,7 +155,7 @@
 		<a name="#e4"></a><h2>Eclipse 4.0</h2>
 		<p>2010 will see the first major release of the Eclipse Platform since 2004. The major goals 
 		of <a href="/e4/">this new release</a> include:<ul>
-		<li>Making it easier to write plugins</li>
+		<li>Making it easier to write plug-ins</li>
     	<li>Allowing better control over the look of Eclipse based products</li>
     	<li>Providing a uniform, pervasive platform across computing environments (Web / RIA, Desktop, Server, Cloud, Embedded)</li>
     	<li>Increasing diversity of contributors to the platform</li>
@@ -163,8 +163,8 @@
 			
 		
 		<a name="#cloud"></a><h2>Cloud</h2>
-		<p>Projects such as Amazons AWS tooling build on the eclipse platform give instant credibility
-		to eclipse as a important piece of the strategy for cloud tool providers.  Eclipse has a role to play
+		<p>Projects such as Amazons AWS tooling build on the Eclipse Platform give instant credibility
+		to Eclipse as a important piece of the strategy for cloud tool providers.  Eclipse has a role to play
 		in the entire development lifecycle from development, deployment to testing and QA. 
 		
 		In addition to tools, OSGi and Equinox will play an important role in the cloud.  The ability to 
@@ -173,10 +173,10 @@
 		</p>
 
 		<a name="#RT"></a><h2>eclipseRT</h2>
-		<p>EclipseRT will continnue to grow and evolve.  The recent Gemini and Virgo projects at eclipse 
+		<p>EclipseRT will continue to grow and evolve.  The recent Gemini and Virgo projects at Eclipse 
 		demonstrate the community is starting to associate Eclipse as a great place to do runtimes.  The
-		key uniter of the various runtime technologies at eclipse continues to be OSGi as the kernal, but
-		it is plausible for some other complementary techology to become an eclipse project.</p>
+		key uniter of the various runtime technologies at Eclipse continues to be OSGi as the kernel, but
+		it is plausible for some other complementary technology to become an Eclipse project.</p>
 		
 		<a name="#web"></a><h2>Web Development</h2>
 		<p>Eclipse tools have historically had a very strong correlation with the Java language. However,
@@ -197,7 +197,7 @@
         motivated by new technologies or opportunities. </li>
 
         <li>The process of producing or updating the Roadmap is expected to be iterative. An initial set of Themes and 
-        Priorities may be infeasible to implement in the desired timeframe; subsequent consideration may reveal new 
+        Priorities may be infeasible to implement in the desired time frame; subsequent consideration may reveal new 
         implementation alternatives or critical requirements that alter the team's perspective on priorities. The 
         EMO orchestrates interaction among and within the three Councils to drive the Roadmap to convergence. </li>
 		</ul>
