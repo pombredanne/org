@@ -22,8 +22,7 @@
 				<li><a href="#e4">Eclipse 4.0</a></li>
 				<li><a href="#cloud">cloud</a></li>
 				<li><a href="#RT">eclipseRT</a></li>
-				<li><a href="#web">web development</a></li>
-				<li><a href="#Etc">TBD PLACE HOLDER</a></li>
+				<li><a href="#web">Web Development</a></li>
 			</ol></li>
 			<li><a href="#process">The Road Map Process</a></li>	
 
@@ -189,8 +188,8 @@
 		<p>The process of creating the Eclipse Roadmap is described in the Eclipse Development Process. 
 		The key pieces are:</p>
 		<ul>
-        <li>The Councils proposing a set of Themes and Priorities 
-        that realize the Purposes and that respond to requirements elicited from the Strategic Developers, Strategic 
+        <li>The Councils propose a set of Themes and Priorities 
+        that realize the purposes and that respond to requirements elicited from the Strategic Developers, Strategic 
         Consumers, Sustaining Members, and other constituents of the ecosystem. The EMO ensures that the Planning 
         Council and the Development teams have access to all requirements. Updates to the purposes are likely to 
         require updates to the Roadmap and its associated themes and priorities; proposed Roadmap updates may also be 
