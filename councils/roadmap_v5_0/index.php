@@ -191,7 +191,7 @@
 		<ul>
         <li>The Councils proposing a set of Themes and Priorities 
         that realize the Purposes and that respond to requirements elicited from the Strategic Developers, Strategic 
-        Consumers, Sustaining Members, and other constituents of the Ecosystem. The EMO ensures that the Planning 
+        Consumers, Sustaining Members, and other constituents of the ecosystem. The EMO ensures that the Planning 
         Council and the Development teams have access to all requirements. Updates to the purposes are likely to 
         require updates to the Roadmap and its associated themes and priorities; proposed Roadmap updates may also be 
         motivated by new technologies or opportunities. </li>
