@@ -60,7 +60,7 @@
 		<p>
 			<a href="http://www.eclipse.org/go/EC10_web@cbfeb24">EclipseCon</a> is the annual Eclipse community conference to be held March 22-25 in Santa Clara, CA.  Contest details will be available online before the start of the conference.
 		</p>	
-		
+	</div>
 	</div>
 </div>
 
