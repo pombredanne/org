@@ -80,7 +80,7 @@ class PeopleRelation extends Relation {
 	var $year;
 	
 	function __toString() {
-		return "Person($this->code)";
+		return "People($this->code)";
 	}
 	
 	function isPersonRelation() {
