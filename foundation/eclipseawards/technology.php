@@ -49,7 +49,7 @@ ob_start();
 				<li><a href="http://developers.intervoice.com" target="blank">Convergys Interaction Composer</a></li>
 				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>
 				<li><a href="http://www.ExcelsiorJET.com" target="blank">Excelsior JET</a></li>
-				<li><a href="http://www.guidancer.com" target="blank">GUIDancer</a></li>
+				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>
 				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe&reg;</a></li>
 				<li><a href="http://www.justinmind.com/wireframe/justinmind_prototyper" target="blank">Justinmind Prototyper</a></li>
 				<li><a href="http://www.genuitec.com/mobile" target="blank">MobiOne</a></li>	
