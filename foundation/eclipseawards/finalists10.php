@@ -110,7 +110,8 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Open Source Developer Tool</h3>
 			<ul>
-				<li class="finalist">There is 1 winner in this category with no additional finalists. The winning tool will be announced at the Eclipse Awards ceremony.</li>
+				<li class="finalist">There is 1 winner in this category with no additional finalists. The winning tool will be announced at the Eclipse Awards ceremony.
+				<a href="technology.php">See all nominees</a>.</li>
 			</ul>
 		</div>
 		<div class="homeitem3col">
