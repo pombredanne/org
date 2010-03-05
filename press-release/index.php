@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100305_awardsfinalists.php">Eclipse Awards Finalists 2010</a> - March 5, 2010</li>
 		<li><a href="20100217_cebit.php">Eclipse Foundation at CeBIT</a> - February 17, 2010</li>
 		<li><a href="20100209_eclipsecon_postersbofs.php">Submit a Poster or BoF for EclipseCon</a> - February 9, 2010</li>
 		<li><a href="20100203_omg_symposium.php">Call for Participation: 2nd Biannual Symposium on Eclipse Open Source Software & OMG Open Specifications</a> - February 3, 2010</li>
