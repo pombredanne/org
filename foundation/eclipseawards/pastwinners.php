@@ -50,6 +50,7 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="finalists10.php">Finalists</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
 				<li><a href="technology.php">Technology Nominees</a></li>
