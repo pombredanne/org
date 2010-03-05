@@ -51,7 +51,7 @@
 		</p>
 		<p>
 			<ul>
-				<li><b>Most Open Project</b>: e4, Equniox p2, Mylyn and XML Tools in Web Tools Platform (WTP) Incubator</li>
+				<li><b>Most Open Project</b>: e4, Equinox p2, Mylyn and XML Tools in Web Tools Platform (WTP) Incubator</li>
 				<li><b>Most Innovative New Feature or Eclipse Project</b>: EclipseLink, Standard Widget Toolkit (SWT) Cocoa Port and Textual Modeling Framework (TMF) Xtext</li>
 			</ul>
 		</p>
