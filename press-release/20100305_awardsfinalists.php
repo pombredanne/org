@@ -67,7 +67,7 @@
 			<a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
 
 			<li><b>Best Open Source Developer Tool:</b> There is 1 winner in this category with no
-			additional finalists. The winning tool will be announced at the Eclipse Awards ceremony. <a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php" target="blank">See all nominees</a>.</li> 
+			additional finalists. The winning tool will be announced at the Eclipse Awards ceremony. <a href="http://www.eclipse.org/org/foundation/eclipseawards/technology.php">See all nominees</a>.</li> 
 
 			<li><b>Best EclipseRT Application</b>: <a href="http://www.actuate.com/products/iserver/iserver-enterprise/" target="blank">BIRT iServer Enterprise</a>
 			and <a href="http://www.springsource.org/dmserver" target="blank">SpringSource dm Server</a></li>
