@@ -37,6 +37,8 @@ ob_start();Tha
 		<hr size="1" />
 		<ul>
 		<li><a href="20100305_awardsfinalists.php">Eclipse Awards Finalists 2010</a> - March 5, 2010</li>
+		<li><a href="20100224_e4Rover.php">e4-Rover Mars Challenge at EclipseCon</a> - February 24, 2010</li>
+		<li><a href="20100223_memberoptions.php">Eclipse Foundation Broadens Participation Options for Community Members</a> - February 23, 2010</li>
 		<li><a href="20100217_cebit.php">Eclipse Foundation at CeBIT</a> - February 17, 2010</li>
 		<li><a href="20100209_eclipsecon_postersbofs.php">Submit a Poster or BoF for EclipseCon</a> - February 9, 2010</li>
 		<li><a href="20100203_omg_symposium.php">Call for Participation: 2nd Biannual Symposium on Eclipse Open Source Software & OMG Open Specifications</a> - February 3, 2010</li>
