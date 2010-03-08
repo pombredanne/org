@@ -57,7 +57,7 @@
 		<div class="sideitem">
 			<h6>Awards Navigation</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
+				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training Series, Spring 2010</a></li>
 			</ul>
 		</div>
 	</div>
