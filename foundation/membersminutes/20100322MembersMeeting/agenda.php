@@ -41,7 +41,7 @@
 		<ol>
 			<li>Introductions</li>
 			<li>Application Development Trends in 2010 and Beyond - Guest Speaker Jeffrey Hammond, Forrester Research</li>
-			<li>Project Updates</li>
+			<li>Project Updates: e4, Gemini, Virgo</li>
 			<li>Executive Director Report - Mike Milinkovich, Eclipse Foundation</li>
 			<li>Eclipse Foundation in 2015 Panel Discussion</li>
 		</ol>
@@ -51,6 +51,7 @@
 		<p>
 		At approximately 5:45pm there will be a members-only networking reception - it will be in the 
 		Hyatt pool area (weather permitting) or otherwise follow the sounds of partying in the Hyatt!
+		Thanks to Oracle for sponsoring the Member Reception.
 		</p>
 
 		<h3>Registration Information</h3>
