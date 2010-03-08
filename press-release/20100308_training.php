@@ -43,7 +43,7 @@
 		</p>
 		<p>
 			Eclipse members participating in the training series are AvantSoft, EclipseSource,
-			Industrial TSI, Obeo, The RCP Company, Soyatec and	Weigle Wilczek.
+			Industrial TSI, Obeo, The RCP Company and Weigle Wilczek.
 		</p>
 		<p>
 			Take advantage of this excellent learning opportunity and register for an Eclipse training
