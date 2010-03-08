@@ -29,7 +29,7 @@
 		<h2>New sub-projects will strengthen growing Mylyn ecosystem</h2>
 		
 		<p>
-			<b>Ottawa, Canada - March 8, 2010 -</b> The Eclipse Foundation today announced new initiatives to support the ongoing growth of the Eclipse Mylyn ecosystem.  The open source Mylyn project is a widely extended framework for integrating task and application lifecycle management (ALM) tools with the Eclipse IDE. The project will create new sub-projects representing key IDE/ALM integration categories. New projects include: the "Tasks" project for integrating task and change management; "SCM" for integrating source code management; "Build" for integrating build management and continuous integration, and "Review" for collaborative code review. The new sub-project leadership will support a broader range of leading Agile vendors contributing to the ongoing evolution of Mylyn.  
+			<b>Ottawa, Canada - March 8, 2010 -</b> The Eclipse Foundation today announced new initiatives to support the ongoing growth of the Eclipse Mylyn ecosystem.  The open source Mylyn project is a widely extended framework for integrating task and application lifecycle management (ALM) tools with the Eclipse IDE. The project will create new sub-projects representing key IDE/ALM integration categories. New projects include: the "Tasks" project for integrating task and change management; "SCM" for integrating source code management; "Build" for integrating build management and continuous integration; and "Review" for collaborative code review. The new sub-project leadership will support a broader range of leading Agile vendors contributing to the ongoing evolution of Mylyn.  
 		</p>
 
 		<p>
