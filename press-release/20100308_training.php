@@ -28,8 +28,8 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			The Eclipse Foundation and Eclipse member companies are pleased to announce the spring 2010
-			training class series.  The training is an excellent opportunity for software
+			The Eclipse Foundation and Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">spring 2010
+			training class series</a>.  The training is an excellent opportunity for software
 			developers and architects to learn more about Eclipse Rich Client Platform (RCP), Equinox
 			&amp; OSGi and Modeling technologies.
 			Eclipse experts	will lead the sessions, providing practical experience through classroom
