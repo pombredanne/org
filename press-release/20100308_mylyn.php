@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Mylyn Enables Agile Aim for Eclipse";
+	$pageTitle 		= "Mylyn Enables Agile ALM for Eclipse";
 	$pageKeywords	= "eclipse, mylyn, agile";
 	$pageAuthor		= "Lynn Gayowski";
 	
