@@ -17,12 +17,10 @@
         
 <h1>Theme Categorization</h1>
 
-<p>Eclipse themes are described in one of four categories.</p>
+<p>Eclipse themes are described in one of two categories.</p>
 <ul>
     <li>Active themes are those that are ongoing and changing. From time to time, some Active themes will become Persistent and Pervasive.</li>
     <li>Persistent and Pervasive themes are not time or release specific. Persistent and Pervasive themes are not only a signal of importance, but permanence.</li>
-    <li>Deferred Themes are not an indication of priority, but are an indication that there are technical or resource inhibitors preventing them from becoming an Active Theme. Deferred themes are a signal to the ecosystem that help is needed.</li>
-    <li>Pending Themes are new and interesting themes that have not yet been properly explored and discussed to become an Active theme. </li>
 </ul>
     
 <h1>Active Themes</h1>
@@ -115,7 +113,7 @@
 <h2>Multi-Core CPU</h2>
 <p>Due to power constraints, there is a trend towards multiple cores on a CPU instead of merely increasing the CPU frequency. Eclipse could enable developers to write multi-threaded programs to take advantage of the increasing miltiple cores. Moreover, Eclipse itself could be optimized where possible for running on multiple cores.</p>
 
-<h2>64-bit CPU</p>
+<h2>64-bit CPU</h2>
 <p>Diverse application software such as payroll, datawarehousing, and reporting now routinely manipulate large amounts of data that exceed 2GB. Using 64-bit CPUs enables these applications to manipulate large data in memory rather than having to write and read intermediate results to much slower disks.</p>
 
 <p>The availability of 64-bit CPUs and matching 64-bit versions of supported OSs is growing, not only on the server but on the desktop. As these 64-bit environments become more popular and Eclipse technology-based server applications become more prevalent, Eclipse could be optimized to run within these environments and aide developers who building on, and/or targeting to, 64-bit solutions.</p>
@@ -202,6 +200,7 @@
     <li>Enabling source files written in multiple languages within the same project.</li> 
 </ul>
 
+<br>
 <h1>Persistent & Pervasive Themes</h1>
 
 <h2>Accessibility Compliance</h2>
