@@ -46,9 +46,7 @@
 		<ul>
 		<li>Each year, the Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the Committers and the Solutions Members. The number of these
-		elected representatives is a ratio of the total number of Strategic Members. 
-		<br/><br/>For $year, there are 
-		three elected Committer Member representatives and three elected Solutions Member representatives. </li>
+		elected representatives is a ratio of the total number of Strategic Members.</li>
 		<li>These elections are held pursuant to Sections 3.3 and 3.5 of the Eclipse Foundation <a href="../documents/Eclipse%20BYLAWS%202003_11_10%20Final.pdf">Bylaws</a>.</li>
 		<li>The term of office for	these elected board members is one year, commencing April 1. </li>
 		<li>Voting for the elected board members is done using <a href="http://en.wikipedia.org/wiki/Single_Transferable_Vote">single transferrable voting</a>.</li>
