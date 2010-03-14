@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Labs Guidelines";
+	$pageTitle 		= "Eclipse Labs User Guidelines";
 	$pageKeywords	= "eclipse, labs";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -35,7 +35,7 @@
 		
 		<b>DRAFT Proposal.  NOT FOR PUBLIC LINKING</b><br>
 		
-		<P>Welcome to Eclipse Labs, a place to build cool new open source projects based on Eclipse.  Eclipse Labs is a collaboration 
+		<P>Welcome to Eclipse Labs, a place to build open source projects based on the Eclipse platform.  Eclipse Labs is a collaboration 
 		between the Eclipse Foundation and Google Code.  We ask all projects hosted on Eclipse Labs to respect and follow these guidelines.  
 		</P>
 	<ol>
@@ -45,7 +45,7 @@
 	<LI>Projects hosted on Eclipse Labs are not considered official Eclipse Foundation projects. Therefore, we ask project owners to respect the 
 	<a href="http://www.eclipse.org/legal/logo_guidelines.php">Eclipse Foundation trademark guidelines</a>, including 1) not using Eclipse or an existing Eclipse project name in your Eclipse Labs
 	project name, and 2) not using org.eclipse as the prefix for your bundle or package name.  We would encourage you to use
-	org.eclipselabs as the prefix for your bundle names.  In general, projects hosted on Eclipse Labs should not portray themselves as
+	org.eclipselabs as your namespace.  In general, projects hosted on Eclipse Labs should not portray themselves as
 	official Eclipse Foundation projects.
 	<LI>Projects hosted on Eclipse Labs are expected to be either Eclipse plugins or built using Eclipse technology.  Therefore, the open source license for
 	your project must be the Eclipse Public License (EPL) or one of	these compatible license: Apache 2.0, MIT License, Mozilla Public
