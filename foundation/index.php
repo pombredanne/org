@@ -90,7 +90,7 @@
 	<div id="rightcolumn">
 	    <div class="sideitem">
 			<h6>Thank you!</h6>
-			<p>Our thanks to our many <a href="/corporate_sponsors/">Corporate Sponsors</a> for their generous donations to our infrastructure.</p>
+			<p>Thanks to our many <a href="/corporate_sponsors/">Corporate Sponsors</a> for their generous donations to our infrastructure.</p>
 		</div>
 		<div class="sideitem">
 			<h6>Related Links</h6>
