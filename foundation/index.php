@@ -90,17 +90,7 @@
 	<div id="rightcolumn">
 	    <div class="sideitem">
 			<h6>Thank you!</h6>
-			<p align=center>Our thanks to: <br><a href="thankyou.php">
-
-<img src="http://www.eclipse.org/membership/scripts/get_image.php?id=848&size=small" width="120">
-<img src="/membership/scripts/get_image.php?id=663&size=small" width="120">
-<img src="/membership/scripts/get_image.php?id=656&size=small" width="120">
-<img src="/membership/scripts/get_image.php?id=657&size=small" width="120">
-<img src="../../membership/members/org-images/magmalogo.jpg" width="160">
-<img src="/membership/scripts/get_image.php?id=716&size=small" width="120">
- 
-			
-			</a><br> for generous donations to our website infrastructure.</p>
+			<p>Our thanks to our many <a href="/corporate_sponsors/">Corporate Sponsors</a> for their generous donations to our infrastructure.</p>
 		</div>
 		<div class="sideitem">
 			<h6>Related Links</h6>
