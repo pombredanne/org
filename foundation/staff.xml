@@ -97,18 +97,6 @@
 		]]> </description>
 	</staffmember>
 
-	<staffmember id="karl">
-		<name>Karl Matthias</name>
-		<title>Systems Administrator</title>
-		<image>../../images/karl.jpg</image>
-		<description>
-			<![CDATA[Karl is the Portland arm of the IT team and web mechanic for EclipseCon.
-			When he's not supporting the infrastructure, working on the portal, or supporting the conferences and the community, he's in the
-			garage restoring his 1969 Alfa Romeo GTV, building bicycles, or riding classic 10 speeds.
-			]]>
-		</description>
-	</staffmember>
-
 	<staffmember id="mike">
 		<name>Mike Milinkovich</name>
 		<title>Executive Director</title>
