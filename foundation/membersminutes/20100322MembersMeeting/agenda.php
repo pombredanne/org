@@ -30,7 +30,7 @@
 
 		<ul>
 			<li>Full Members Meeting - 1:30pm-5:00pm - Camino Real Room</li>
-			<li>Reception - 5:45pm-7:15pm - Hyatt pool area outside</li>
+			<li>Reception - 5:45pm-7:15pm - Magnolia Room</li>
 		</ul>
 
 		<h3>Full Members Meeting</h3>
@@ -49,8 +49,8 @@
 
 		<h3>Reception</h3>
 		<p>
-		At approximately 5:45pm there will be a members-only networking reception - it will be in the 
-		Hyatt pool area (weather permitting) or otherwise follow the sounds of partying in the Hyatt!
+		At approximately 5:45pm there will be a members-only networking reception.  It will be in the 
+		Magnolia room.
 		Thanks to Oracle for sponsoring the Member Reception.
 		</p>
 
