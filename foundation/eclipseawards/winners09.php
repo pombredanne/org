@@ -34,7 +34,7 @@ ob_start();
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 		<h2>Individual Award Finalists</h2>
-		<p>Presented below is the list of award finalists for each of the individual awards catagories.</p>
+		<p>Presented below is the list of award winners and finalists for each of the individual awards catagories.</p>
 		<div class="homeitem3col">
 			<h3>Top Ambassador</h3>
 			<ul>
@@ -74,7 +74,7 @@ ob_start();
 		<br /><br />
 
 	<h2><br>Technology Award Winners</h2>
-		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
+		<p>Presented below is the list of award winners and finalists for each of the technology awards catagories as determined
 			by this year's judging panels.</p>
 			
 		<div class="homeitem3col">
