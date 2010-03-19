@@ -72,7 +72,7 @@ ob_start();
 			</ul>
 		</div>
 
-	<h2>Technology Award Finalists</h2>
+	<h2>Technology Award Winners</h2>
 		<p>Presented below is the list of award finalists and winners for each of the technology awards catagories as determined
 			by this year's judging panels.</p>
 		<div class="homeitem3col">
