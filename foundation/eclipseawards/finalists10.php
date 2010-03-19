@@ -69,7 +69,7 @@ ob_start();
 		<br /><br />
 
 	<h2><br>Project Award Finalists</h2>
-		<p>Presented below is the list of award finalists for each of the individual awards catagories as
+		<p>Presented below is the list of award finalists for each of the project awards catagories as
 		determined by votes from the community.</p>
 			
 		<div class="homeitem3col">
