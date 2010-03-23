@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100322_awardswinners.php">Eclipse Community Awards Winners Announced</a> - March 22, 2010</li>
 		<li><a href="20100308_training.php">Register for the Eclipse Spring Training Series</a> - March 8, 2010</li>
 		<li><a href="20100308_mylyn.php">Mylyn Enables Agile Aim for Eclipse</a> - March 8, 2010</li>
 		<li><a href="20100305_awardsfinalists.php">Eclipse Awards Finalists 2010</a> - March 5, 2010</li>
