@@ -27,7 +27,7 @@
 
 		<p>Ottawa, Canada - April 1, 2010 - The Eclipse Foundation announced today that after rounds of community feedback and market testing they have selected a new logo to help broaden the appeal of the Eclipse to a younger demographic.</p>
 		<p>"Eclipse is always looking to expand our community", said Mike Milinkovich, Executive Director at the Eclipse Foundation.  "Children are the future and we need to get them using Eclipse as early as possible".</p>		
-		<p>Ian Skerrett, Director of Marketing at the Eclipse Foundation spearheaded the initiative.  "At first I was hesistant to initiate a change to our branding.  Eclipse is very well known.  But once I sat in on one of the market tests, I was floored.  The looks on the children's faces when they launched Eclipse for the first time was a real eye opener."</p>
+		<p>Ian Skerrett, Director of Marketing at the Eclipse Foundation spearheaded the initiative.  "At first I was hesistant to initiate a change to our branding.  The Eclipse brand is very well known around the world.  But once I sat in on one of the market tests, I was floored, the looks on the children's faces when they launched Eclipse for the first time was a real eye opener."</p>
 		<p>For more information about the new logo and branding, visit our <a href="http://en.wikipedia.org/wiki/April_Fools%27_Day">new branding page</a>.</p>
 		
 	</div>
