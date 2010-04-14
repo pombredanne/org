@@ -22,7 +22,7 @@
 	</style>
 
 <div id="maincontent">
-	<div id="fullcolumn">
+
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 			
@@ -40,8 +40,18 @@
 		
 		
 	</div>
-</div>
 
+
+	<!-- remove the entire <div> tag to omit the right column!  -->
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="http://www.surveymonkey.com/s/eclipse2010">Take the Survey</a>	</ul>
+		</div>
+	</div>
+
+	</div>
 EOHTML;
 
 
