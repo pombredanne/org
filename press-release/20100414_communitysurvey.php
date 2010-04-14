@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Community Survey: Tell Us What You Are Doing?";
+	$pageTitle 		= "Eclipse Community Survey: Tell Us What You Are Doing";
 	$pageKeywords	= "eclipse, survey, feedback";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -29,10 +29,11 @@
 
 	<p>
 	The Eclipse Foundation wants to better understand how you develop software, use Eclipse and interact with open source communities.  Therefore, we are asking people to give us 
-	their feedback by participating in the Eclipse Community Survey 2010.  The results will be published by the Eclipse Foundation in June 2010.
+	their feedback by participating in the <a href="http://www.surveymonkey.com/s/eclipse2010">Eclipse Community Survey 2010</a>.  The results will be published by the Eclipse Foundation in June 2010.
 	</p>
 	<p>Everyone is invited to complete the survey before May 15, 2010. It should take less than 10 minutes to complete. All responses will be held in confidence. As a token of appreciation, 
-	survey participants will be entered into a draw for an opportunity to win Eclipse shirts and grand prize of a pass to Eclipse Summit Europe 2010 or EclipseCon2011.
+	survey participants will be entered into a draw for an opportunity to win Eclipse shirts and grand prize of a pass to <a href="http://www.eclipsecon.org/summiteurope2010/">Eclipse Summit Europe 2010</a>
+	or <a href="http://www.eclipsecon.org/2011/">EclipseCon 2011</a>.
 	</p>
 
 	<p>Thank you in advance for your time and support.</p>
