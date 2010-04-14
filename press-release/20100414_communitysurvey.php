@@ -47,7 +47,7 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.surveymonkey.com/s/eclipse2010">Take the Survey</a>	</ul>
+				<li><a href="http://www.surveymonkey.com/s/eclipse2010">Take the Survey Now</a>	</ul>
 		</div>
 	</div>
 
