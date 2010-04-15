@@ -10,4 +10,3 @@ projects in Europe and Asia. He founded brox IT-Solutions GmbH in
 massive amounts of available information. In 2008 brox and 
 partners proposed to the SMILA (previously EILF) project to become the 
 new open-architecture standard for handling unstructured information.  
- 
