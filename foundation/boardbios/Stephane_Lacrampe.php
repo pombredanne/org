@@ -7,4 +7,3 @@ France, where he learned about technical and methodological aspects of working w
 Stephane Lacrampe founded his own private company, Obeo, with two other associates in 2005, in order to
 provide innovative modeling and reverse engineering solutions based on Eclipse technologies. He is now in
 charge of growing the company and also focuses on growing the French Eclipse community.
-
