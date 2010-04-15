@@ -36,7 +36,8 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
-		<li><a href="20100322_awardswinners.php">Announcing EclipseCon 2011, March 21-24 in Santa Clara</a> - March 25, 2010</li>
+		<li><a href="20100415_BankingDay.php">Register for Eclipse Banking Day 2011</a> - April 15, 2010</li>
+		<li><a href="20100325_eclipsecon2011.php">Announcing EclipseCon 2011, March 21-24 in Santa Clara</a> - March 25, 2010</li>
 		<li><a href="20100324_eclipsert.php">EclipseRT Community Continues to Grow with New Projects and Contributors</a> - March 23, 2010</li>
 		<li><a href="20100322_awardswinners.php">Eclipse Community Awards Winners Announced</a> - March 22, 2010</li>
 		<li><a href="20100308_training.php">Register for the Eclipse Spring Training Series</a> - March 8, 2010</li>
