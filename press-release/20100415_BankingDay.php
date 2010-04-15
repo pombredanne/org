@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Banking Day Day";
+	$pageTitle 		= "Register for Eclipse Banking Day 2011";
 	$pageKeywords	= "Eclipse, banking, denmark";
 	$pageAuthor		= "Lynn Gayowski";
 	
