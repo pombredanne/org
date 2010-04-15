@@ -8,5 +8,5 @@ infrastructures, large scale distributed software architectures, and optimizatio
 of development processes, techniques and tools. Prior to Genuitec, Todd served as Enterprise Architect for
 Viewlocity's Global Supply Chain Event Management Suite, 
 Senior Consulting Architect at Objectspace, and Parallel Systems Consultant for Mobil's Advanced Research Center.  He 
-holds a B.S. in Computer Science from Texas A&M University and an M.S. in Computer Science from the University of Texas at Dallas.</p>
-
+holds a B.S. in Computer Science from Texas A&M University and an M.S. in Computer Science from the University of Texas
+at Dallas.</p>
