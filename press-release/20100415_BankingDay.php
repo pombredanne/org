@@ -3,8 +3,8 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Register for Eclipse Banking Day 2010";
-	$pageKeywords	= "Eclipse, banking, denmark";
+	$pageTitle 		= "Register for Eclipse Banking Day in Copenhagen";
+	$pageKeywords	= "Eclipse, banking, denmark, copenhagen";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -23,21 +23,21 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
      	<p>
-     		<a href="http://wiki.eclipse.org/Eclipse_Banking_Day_2010" target="blank">Eclipse Banking
-     		Day</a> is being held in Lyngby, Denmark on June 1, 2010.  This full-day event will
+     		<a href="http://wiki.eclipse.org/Eclipse_Banking_Day_Copenhagen" target="blank">Eclipse Banking
+     		Day in Copenhagen</a> is being held in Denmark on June 1, 2010.  This full-day event will
      		provide an opportunity for senior technical developers, architects and managers in the finance
      		industry to learn how to better leverage Eclipse technology and the Eclipse community as part
      		of their development strategy.  Eclipse experts and leading financial institutions such as
      		Danske Bank, JP Morgan and Nordea will present what work they are doing with Eclipse.
 		</p>	
 		<p>
-			Core topics of Banking Day include Eclipse RCP as a platform for application development in the
+			Core topics of Banking Day in Copenhagen include Eclipse RCP as a platform for application development in the
 			banking industry, leveraging Eclipse modeling technology and Eclipse runtime projects like RAP
-			and Swordfish. Mike Milinkovich, Executive Director of the Eclipse Foundation, will open Banking
-			Day with a keynote presentation.
+			and Swordfish. Mike Milinkovich, Executive Director of the Eclipse Foundation, will open the day
+			with a keynote presentation.
 		</p>
 		<p>
-			Eclipse Banking Day is sponsored by BSI AG, the Eclipse Foundation, EclipseSource, IBM, Instantiations, Purple Scout,
+			Eclipse Banking Dayin Copenhagen is sponsored by BSI AG, the Eclipse Foundation, EclipseSource, IBM, Instantiations, Purple Scout,
 			ReportSoft, Sopera and the RCP Company. The support provided by 
 			these organizations has made it possible to offer this event free of charge to participants.
 		</p>
