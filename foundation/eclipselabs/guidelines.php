@@ -43,8 +43,8 @@
 	<LI>The Eclipse Foundation supports Eclipse Labs by promoting the service to the Eclipse community.  The Eclipse Labs name is used by permission of
 	the Eclipse Foundation, Inc.
 	<LI>Projects hosted on Eclipse Labs are not considered official Eclipse Foundation projects. Therefore, we ask project owners to respect the 
-	<a href="http://www.eclipse.org/legal/logo_guidelines.php">Eclipse Foundation trademark guidelines</a>, including 1) not using Eclipse or an existing Eclipse project name in your Eclipse Labs
-	project name, and 2) not using org.eclipse as the prefix for your bundle or package name.  We would encourage you to use
+	<a href="http://www.eclipse.org/legal/logo_guidelines.php">Eclipse Foundation trademark guidelines</a>, including 1) not using Eclipse or an existing Eclipse project 
+	name in your Eclipse Labs project name, and 2) not using org.eclipse as the prefix for your bundle or package name.  We would encourage you to use
 	org.eclipselabs as your namespace.  In general, projects hosted on Eclipse Labs should not portray themselves as
 	official Eclipse Foundation projects.
 	<LI>Projects hosted on Eclipse Labs are expected to be either Eclipse plugins or built using Eclipse technology.  Therefore, the open source license for
@@ -52,8 +52,7 @@
 	License or New BSD.
 	<LI>We expect some projects on Eclipse Labs will eventually move to become Eclipse Foundation projects.  If you wish for this option to be available to
 	your project we suggest you do the following: a) select the EPL as your initial license, b) keep track of all contributions and ensure
-	they are contributed under the EPL.  You might consider having your committers sign a version of the Eclipse Committer Agreement [link
-	to a template agreement]c) do not include or linked to any code that is licensed under GPL and LGPL.  Unfortunately, those licenses are
+	they are contributed under the EPL.  c) do not include or linked to any code that is licensed under GPL and LGPL.  Unfortunately, those licenses are
 	not approved for use by Eclipse projects.  
 	
 	<LI>Each Eclipse Labs project is encouraged to list their project on the <a href="http://marketplace.eclipse.org/">Eclipse Marketplace</a>.  
