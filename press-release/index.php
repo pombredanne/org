@@ -66,7 +66,7 @@ ob_start();Tha
 		<li><a href="20090731_e4alpha.php">Early Alpha Release of e4</a> - July 31, 2009</li>
 		<li><a href="20090729_ese09regopen.php">Eclipse Summit Europe 2009 Open for Registration</a> - July 29, 2009</li>
 		<li><a href="20090727_InsuranceDay.php">Eclipse Insurance Day</a> - July 27, 2009</li>
-		<li><a href="20090618_galileo.php">Eclipse Galileo Release Now Available</a> - June 24, 2009</li>		
+		<li><a href="20090624_galileo.php">Eclipse Galileo Release Now Available</a> - June 24, 2009</li>		
 		<li><a href="20090618_AcceleoDay.php">Eclipse Acceleo Day</a> - June 18, 2009</li>
 		<li><a href="20090611_eclipsesummitcfp.php">Eclipse Summit Europe Call for Participation</a> - June 11, 2009</li>		
 		<li><a href="20090608_galileoinaction.php">Galileo In Action</a> - June 8, 2009</li>
