@@ -36,6 +36,8 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100504_democamps.php">Celebrate Helios and e4 at an Eclipse DemoCamp</a> - May 4, 2010</li>
+		<li><a href="20100421_soaiwg.php">Eclipse Announces New SOA Initiative</a> - April 21, 2010</li>
 		<li><a href="20100415_BankingDay.php">Register for Eclipse Banking Day 2011</a> - April 15, 2010</li>
 		<li><a href="20100414_communitysurvey.php">Eclipse Community Survey: Tell Us What You Are Doing</a> - April 14, 2010</li>
 		<li><a href="20100325_eclipsecon2011.php">Announcing EclipseCon 2011, March 21-24 in Santa Clara</a> - March 25, 2010</li>
