@@ -24,8 +24,8 @@
 		
 		<h2>Community Bulletin</h2>
 
-		<p>Members of the Eclipse community will be celebrating the Helios release at the end of June and the e4
-		release in July at
+		<p>Members of the Eclipse community will be celebrating the Helios release and the e4
+		release at
 		<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010">DemoCamps</a> around the world from the last week of May until June 30.
 		Typically a DemoCamp consists of a series of short demos and presentations from developers building new
 		and interesting solutions with Eclipse.  It is a great way to discover and learn about new Eclipse
@@ -34,7 +34,7 @@
 
 		<p>Check-out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_Helios_2010">list of cities hosting
 		DemoCamps</a> and consider signing up to demo what you
-		are doing with Eclipse.  If not, plan to attend and enjoy meeting some interesting Eclipse people.</p>
+		are doing with Eclipse.  Plan to attend and enjoy meeting some interesting Eclipse people.</p>
 		
  <br><br>
 	</div>
