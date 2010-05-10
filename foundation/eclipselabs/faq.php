@@ -45,8 +45,15 @@
 	
 	<li><b>I have a technical questions about Eclipse Labs.  How do I get support?</b><br><br>
 	
-	<p>Please contact the normal Google Code Project Hosting support channels.  Help is available at <a href="http://code.google.com/p/support/">code.google.com/p/support/</a>	
+	<p>Please contact the normal Google Code Project Hosting support channels.  Help is available at <a href="http://code.google.com/p/support/">code.google.com/p/support/</a>	</p>
+	</li>
 
+	<li><b>What are the rules of hosting a project on Eclipse Labs?</b><br><br>
+	
+	<p>All projects hosted on Eclipse Labs agreed to the standard Google Code Project Hosting <a href="http://code.google.com/projecthosting/terms.html">terms of use</a> and 
+	the <a href="http://eclipse.org/org/foundation/eclipselabs/guidelines.php">Eclipse Labs User Guidelines.</a></p>
+	</li>
+	
 	<li><b>Are projects on Eclipse Labs official Eclipse projects?</b><br><br>
 
 	<p>No, Eclipse Labs projects are not official Eclipse Foundation projects.   Eclipse Labs projects are not hosted by the
@@ -57,10 +64,7 @@
 	annual Eclipse release trains, unless they are included in an official Eclipse project.</p>
 	</li>
 	
-	<li><b>What are the rules of hosting a project on Eclipse Labs?<b></br></br>
-	
-	<p>All projects hosted on Eclipse Labs agreed to the standard Google Code Project Hosting <a href="http://code.google.com/projecthosting/terms.html">terms of use</a> and 
-	the <a href="http://eclipse.org/org/foundation/eclipselabs/guidelines.php"Eclipse Labs User Guidelines.</a>
+
 
 	<li><b>When should I consider using Eclipse Labs vs starting a project at the Eclipse Foundation?</b><br><br>
 
