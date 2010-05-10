@@ -56,6 +56,11 @@
 	including 1) include the word Eclipse in their name, 2) use the org.eclipse namespace for their bundles names, or 3) participate in the 
 	annual Eclipse release trains, unless they are included in an official Eclipse project.</p>
 	</li>
+	
+	<li><b>What are the rules of hosting a project on Eclipse Labs?<b></br></br>
+	
+	<p>All projects hosted on Eclipse Labs agreed to the standard Google Code Project Hosting <a href="http://code.google.com/projecthosting/terms.html">terms of use</a> and 
+	the <a href="http://eclipse.org/org/foundation/eclipselabs/guidelines.php"Eclipse Labs User Guidelines.</a>
 
 	<li><b>When should I consider using Eclipse Labs vs starting a project at the Eclipse Foundation?</b><br><br>
 
