@@ -104,6 +104,9 @@
 	<p>Projects hosted at Eclipse Labs are expected to be Eclipse plugins or built with Eclipse technology.  Therefore, the open source license you choose must be compatible with the Eclipse
 	Public Licenese (EPL).   These licenses are the compatible licenses available at Google Code Project Hosting.</p>
 		
+	
+	<p>
+	Last Update: May 10, 2010</p>
 
 	</div>
 
