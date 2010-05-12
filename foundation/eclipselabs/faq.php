@@ -32,13 +32,14 @@
 
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		Date: May 13, 2010<br><br>
 		
-		<b>DRAFT Proposal.  NOT FOR PUBLIC LINKING</b><br>
+
 		
 <ol>
 	<li><b>What is Eclipse Labs?</b> <br><br>
 
-	<p>Eclipse Labs is a community of open source projects that build technology based on the Eclipse platform.   It provides the infrastructure services 
+	<p><a href="www.eclipselabs.org>Eclipse Labs</a> is a community of open source projects that build technology based on the Eclipse platform.   It provides the infrastructure services 
 	typically  required by open source projects, such as code repositories, bug tracking, project web sites/wiki.  Eclipse Labs is hosted by 
 	Google Code Project Hosting, so it will be very familiar to developers already using Google Code Project Hosting.
 	</p></li>
@@ -51,7 +52,7 @@
 	<li><b>What are the rules of hosting a project on Eclipse Labs?</b><br><br>
 	
 	<p>All projects hosted on Eclipse Labs agreed to the standard Google Code Project Hosting <a href="http://code.google.com/projecthosting/terms.html">terms of use</a> and 
-	the <a href="http://eclipse.org/org/foundation/eclipselabs/guidelines.php">Eclipse Labs User Guidelines.</a></p>
+	the <a href="http://www.eclipse.org/org/foundation/eclipselabs/guidelines.php">Eclipse Labs User Guidelines.</a></p>
 	</li>
 	
 	<li><b>Are projects on Eclipse Labs official Eclipse projects?</b><br><br>
@@ -64,8 +65,6 @@
 	annual Eclipse release trains, unless they are included in an official Eclipse project.</p>
 	</li>
 	
-
-
 	<li><b>When should I consider using Eclipse Labs vs starting a project at the Eclipse Foundation?</b><br><br>
 
 	<p>There are a number of benefits and obligations for hosting a project at the Eclipse Foundation.   The benefits for your project include:
@@ -95,8 +94,16 @@
 
 	<li><b>I have an existing project on Google Code, can I migrate it to Eclipse Labs?</b><br><br>
 
-	<p>Google is providing the ability to migrate existing projects to Eclipse Labs.   Details are at [url]</p></li>
-
+	<p>If you have an existing project on Google Code that you would like to migrate to Eclipse Labs, file an issue <a href="http://code.google.com/p/support/issues/entry?template=Migration%20request">here</a>. 
+	Once an issue is filed, you will be contacted within the next 48 hours with instructions for how to migrate your project.</p></li>
+	
+	<li><b>How can I identify where my P2 repository is located?</b><br><br>
+	
+	<p>We are asking all projects on Eclipse Labs to identify the location of their <a href="http://wiki.eclipse.org/Equinox_p2_Getting_Started_for_Releng">P2 repository </a>, so in the future it will be 
+	possible to create a composite repository for all Eclispe Labs projects.  To identify the location of your P2 repo, go to the Admin tab and click on the 'Project Summary' sub-tab in 
+	your project. In the 'Project Summary' sub-tab, add a Link under the Link heading. Set the Link text to 'p2repo' and the link url to the url for the p2 repository . Save your changes.</p>
+	
+	
 	<li><b>Why can't I use Git?</b><br><br>
 
 	<p>Google Code Project Hosting only provide support for Subversion and Mercurial.  Eclipse Labs is hosted at Google Code Project Hosting
@@ -108,9 +115,7 @@
 	<p>Projects hosted at Eclipse Labs are expected to be Eclipse plugins or built with Eclipse technology.  Therefore, the open source license you choose must be compatible with the Eclipse
 	Public Licenese (EPL).   These licenses are the compatible licenses available at Google Code Project Hosting.</p>
 		
-	
-	<p>
-	Last Update: May 10, 2010</p>
+
 
 	</div>
 

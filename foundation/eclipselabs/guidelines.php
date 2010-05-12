@@ -33,13 +33,13 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<b>DRAFT Proposal.  NOT FOR PUBLIC LINKING</b><br>
+		Date: May 13, 2010<br><br><br>
 		
-		<P>Welcome to Eclipse Labs, a place to build open source projects based on the Eclipse platform.  Eclipse Labs is a collaboration 
+		<P>Welcome to <a href="http://www.eclipselabs.org">Eclipse Labs</a>, a place to build open source projects based on the Eclipse platform.  Eclipse Labs is a collaboration 
 		between the Eclipse Foundation and Google Code.  We ask all projects hosted on Eclipse Labs to respect and follow these guidelines.  
 		</P>
 	<ol>
-	<LI>Eclipse Labs is part of Google Code.  Users of Eclipse Labs must agree to the current Google Code Terms of Use.
+	<LI>Eclipse Labs is part of Google Code.  Users of Eclipse Labs must agree to the current <a href="http://code.google.com/projecthosting/terms.html">Google Code Terms of Use</a>.
 	<LI>The Eclipse Foundation supports Eclipse Labs by promoting the service to the Eclipse community.  The Eclipse Labs name is used by permission of
 	the Eclipse Foundation, Inc.
 	<LI>Projects hosted on Eclipse Labs are not considered official Eclipse Foundation projects. Therefore, we ask project owners to respect the 
