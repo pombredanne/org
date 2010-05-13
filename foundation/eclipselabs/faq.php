@@ -39,7 +39,7 @@
 <ol>
 	<li><b>What is Eclipse Labs?</b> <br><br>
 
-	<p><a href="www.eclipselabs.org>Eclipse Labs</a> is a community of open source projects that build technology based on the Eclipse platform.   It provides the infrastructure services 
+	<p><a href="www.eclipselabs.org">Eclipse Labs</a> is a community of open source projects that build technology based on the Eclipse platform.   It provides the infrastructure services 
 	typically  required by open source projects, such as code repositories, bug tracking, project web sites/wiki.  Eclipse Labs is hosted by 
 	Google Code Project Hosting, so it will be very familiar to developers already using Google Code Project Hosting.
 	</p></li>
