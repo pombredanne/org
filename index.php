@@ -140,7 +140,7 @@
 			press release</a> announcing the creation of the independent organization.</p>
 
 			<p>For software licensing, website terms of use, and legal FAQs, please see our <a href="http://www.eclipse.org/legal/">legal stuff</a> page. 
-			Eclipse logos and graphics are found on our eclipse <a href="http://www.eclipse.org/artwork/main.html">logos page.</a></p>
+			Eclipse logos and graphics are found on our eclipse <a href="http://www.eclipse.org/artwork/index.php">logos page.</a></p>
 
       </div>
       <div id="rightcolumn">
