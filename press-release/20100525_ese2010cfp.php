@@ -24,8 +24,8 @@
 		<h2>Community Bulletin</h2>
 		
 		<p>
-			The Eclipse Summit Europe (ESE) 2010 call for participation is <a href="http://www.eclipsecon.org/summiteurope2010/submissions/?page=submissions">now open</a>. You are invited to submit proposals in four categories: 1) Embedded,
-			2) e4, 3) Modeling, and 4) Runtime.  ESE 2010 will take place November 2-4, 2010 in Ludwigsburg, Germany. 
+			The Eclipse Summit Europe (ESE) 2010 call for participation is <a href="http://www.eclipsecon.org/summiteurope2010/submissions/?page=submissions">now open</a>. You are invited to submit proposals in five categories: 1) Embedded,
+			2) e4, 3) Modeling, 4) Runtime and 5) Other / New & Noteworthy.  ESE 2010 will take place November 2-4, 2010 in Ludwigsburg, Germany. 
 		</p>
 		
 		<p>
