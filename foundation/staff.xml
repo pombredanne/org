@@ -128,20 +128,6 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		</description>
 	</staffmember>
 
-    <staffmember id="gabe">
-    	<name>Gabe O'Brien</name>
-    	<title>Darn Good Programmer</title>
-		<image>../../images/gabe.jpg </image>
-    	<description>
-	    	<![CDATA[<p>
-	    	Being a darn good developer takes time, patience, and a good sense of humor.
-	    	Beside hacking away at code, Gabe enjoys silk screening on anything that will
-	    	sit still, working in the garden, and writing poetry (which is a lot like
-	    	writing code only everyone can read it).</p>
-	    	]]>
-    	</description>
-    </staffmember>
-
 	<staffmember id="denis">
 		<name>Denis Roy</name>
 		<title>Manager, IT Infrastructure</title>
@@ -190,9 +176,8 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<title>Systems Administrator</title>
 		<image> ../../images/mattfire.jpg </image>
 		<description>
-			<![CDATA[ Matt spends his days putting out fires, so afterwards he tends to
-			start them in the kitchen.  And as a change of pace from rebuilding data, there's always
-			rebuilding old cars.
+			<![CDATA[ Matt spends his time triaging the Webmaster inbox and putting out fires.  If you can't take the heat,
+			 stay out of the data center. 
 			&nbsp; <br/> &nbsp; <br/>
 			]]>
 		</description>
