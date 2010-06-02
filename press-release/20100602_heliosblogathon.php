@@ -24,7 +24,7 @@
 		
 		<h2>Community Bulletin</h2>
 		
-      	<p> We want to hear what you think of the <a href="http://wiki.eclipse.org/Helios#Projects">Eclipse
+      	<p> We want to hear what you think of the <a href="http://eclipse.org/helios/projects.php">Eclipse
       	projects</a> that are being released as part of Helios. We will give you a 
       	an Eclipse shirt for writing a review.  One lucky winner will also win a pass to
       	<a href="http://www.eclipsecon.org/2011">EclipseCon 2011</a> or
