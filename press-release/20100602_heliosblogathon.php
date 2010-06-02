@@ -39,7 +39,7 @@
  		content.  We aren't looking for long essays, so 3 to 5 points of what you like or don't like about
  		one or more Helios projects is enough. Eclipse is a global community, so feel free to write
  		the review in your native language. You can also write multiple reviews, however we will only award
- 		one shirt per person. The top 3 reviews will also receive Eclipse jackets and the best review will
+ 		one shirt per person. The top 3 reviews will receive Eclipse jackets and the best review will
  		receive a pass to the next EclipseCon 2011 or Eclipse Summit Europe 2010.</p>
 
  		<p>The top 3 and the best reviews will be selected by a panel of judges. All entries must be received by
