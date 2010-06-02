@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Write a Review for the Galileo Blogathon";
+	$pageTitle 		= "Write a Review for the Helios Blogathon";
 	$pageKeywords	= "eclipse, helios, review, blog, blogathon, contest";
 	$pageAuthor		= "Lynn Gayowski";
 	
