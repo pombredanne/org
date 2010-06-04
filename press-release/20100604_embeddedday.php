@@ -54,7 +54,7 @@
 		<p>
 			Eclipse Embedded Day in Stuttgart would like to thank the event's sponsors: the Eclipse Foundation, EclipseSource,
 			Microdoc, the Open Source Business Foundation and Open Source Region Stuttgart/Wirtschaftsf&ouml;rderung
-			Region Suttgart.
+			Region Stuttgart.
 		</p>
 		  
 	</div>
