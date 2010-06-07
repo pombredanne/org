@@ -34,7 +34,7 @@
  		<p>Helios In Action is free to attend and registering gets you into all sessions:
  		<ul>
  			<li><b>Linux Tools</b> - Andrew Overholt (Red Hat)</li>
-  			<li><b>EMF Code Generation Capabilities</b> - Kenn Hussey (Cloudsmith)</li>
+  			<li><b>EMF on the Web</b> - Kenn Hussey (Cloudsmith)</li>
   			 <li><b>Eclipse Git Team Provider</b> - Chris Aniszczyk (Red Hat)</li>
   			 <li><b>JavaScript Development Tools</b> - Simon Kaegi (IBM)</li>			
   			 <li><b>Java EE Standards Support from Web Tools</b> - Naci Dai (eteration)</li>
