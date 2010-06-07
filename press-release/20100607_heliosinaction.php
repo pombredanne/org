@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Helios In Action";
+	$pageTitle 		= "Join the Helios In Action Virtual Conference";
 	$pageKeywords	= "eclipse, helios, action, webinar, release";
 	$pageAuthor		= "Lynn Gayowski";
 	
