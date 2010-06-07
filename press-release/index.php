@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100607_heliosinaction.php">Join the Helios in Action Virtual Conference</a> - June 7, 2010</li>
 		<li><a href="20100604_embeddedday.php">Eclipse Embedded Day in Stuttgart</a> - June 4, 2010</li>
 		<li><a href="20100602_heliosblogathon.php">Write a Review for the Helios Blogathon</a> - June 2, 2010</li>
 		<li><a href="20100525_ese2010cfp.php">Eclipse Summit Europe 2010 Call for Participation</a> - May 25, 2010</li>
