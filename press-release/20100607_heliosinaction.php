@@ -41,6 +41,7 @@
   			 <li><b>Marketplace Client & p2 Discovery Connector</b> - Mik Kersten (Tasktop Technologies)</li>	
   			 <li><b>Modeling</b> - Ed Merks</li>
   			 <li><b>Eclipse Runtime (RT)</b> - Jeff McAffer (EclipseSource)</li>
+  			 <li><b>10 Reasons to Install Helios</b> - Ian Bull (EclipseSource)</li>
   		</ul>
  		</p>
  		
