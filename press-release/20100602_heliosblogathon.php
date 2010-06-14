@@ -55,7 +55,7 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="/../../helios/blogathon/guidelines.php">Blogathon Details</a></li>
-				<li><a href="/../../helios/blogathon/reviews.php">Submitted Reviews</a></li>
+				<li><a href="/../../helios/blogathon/reviews.php">2010 Helios Reviews</a></li>
 				<li><a href="/../../helios/blogathon/2009reviews.php">2009 Winning Reviews</a></li>
 			</ul>
 		</div>
