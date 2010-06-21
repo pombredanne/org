@@ -9,5 +9,5 @@ Interactive Development Environments, developers of the
 provide tool support for UML. He has an undergraduate degree
 in International Relations and a masters degree in Computer Science from
 Stanford University, and is the author of 
-<a href="http://www.immortalgame.com">four crime novels</a> set 
+<a href="http://www.markcoggins.com/">five crime novels</a> set 
 in the Silicon Valley.
