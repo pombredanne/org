@@ -31,7 +31,7 @@
 	$html = <<<EOHTML
 
 	<div id="midcolumn">
-		<h1><a name="top">$pageTitle</h1>
+		<h1><a name="top">$pageTitle</a></h1>
         <ul>
 			<li><a href="#members">Members Meetings</a></li>
 			<li><a href="#board">Board of Directors Meetings</a></li>
@@ -39,7 +39,7 @@
 		</ul>
 		
 		<div class="homeitem3col">
-			<h3><a name="members">Members Meetings</h3>
+			<h3><a name="members">Members Meetings</a></h3>
 			<ul>
 			    <li><a target="_memonly" href="https://dev.eclipse.org/members-only/index.php">Members Minutes on/after June 24, 2008 is hosted on members only content page.</a> <img src="../../images/new.gif" alt="new"></li>  			
 				<li><a href="membersminutes/20080317MembersMeeting/MeetingMinutes.php">Eclipse Members Meeting, March 17th, 2008, Santa Clara Convention Center </a></li>  			
@@ -63,7 +63,7 @@
 			</ul>
 		</div>
 		<div class="homeitem3col">
-			<h3><a name="board">Board of Directors Meetings</h3>
+			<h3><a name="board">Board of Directors Meetings</a></h3>
 			<ul><li>Abridged Minutes 
           			- <a href="boardminutes/2010_03_22_Minutes.php">March 22, 
           			2010 (html)</a><img src="../../images/new.gif" alt="new"></li>
@@ -158,7 +158,7 @@
 			</ul>	
 		</div>
 		<div class="homeitem3col">
-			<h3><a name="councils">Council Meetings</h3>
+			<h3><a name="councils">Council Meetings</a></h3>
 			<ul>
        		<li><a href="council.php">Council Meeting minutes are categorized on the council page.</a></li>
  			</ul>	
