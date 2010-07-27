@@ -22,20 +22,22 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-		
-      	<p>OTTAWA, Canada - July 28, 2010 - The Eclipse Foundation is pleased to announce the availability of Eclipse SDK 4.0, the next generation Eclipse platform.  Eclipse has a very large and successful ecosystem of 
+
+	    <h2>Community Bulletin</h2>
+	    
+      	<p>July 28, 2010 - The Eclipse Foundation is pleased to announce the availability of Eclipse SDK 4.0, the next generation Eclipse platform.  Eclipse has a very large and successful ecosystem of 
       	plugin providers and RCP application developers.  Eclipse 4.0 introduces new features that make it easier for the members of the ecosystem to build and assemble Eclipse plugins and RCP applications.  </p>  
       	
 		<p>Some of the new features introduced in Eclipse 4.0 include:
 			<ul>
-			<li>A model-based user interface to specifying the widgets in an application's user interface.  This provides the developer a lot more flexibility to design a modern looking UI and remove the 'IDE-ness' that was often introduced into RCP applications.
+			<li>A model-based user interface framework to specifying the widgets in an application's user interface.  This provides the developer a lot more flexibility to design a modern looking UI and remove the 'IDE-ness' that was often introduced into RCP applications.
 			<li>A new CSS-based declarative mechanism for application styling allows you to change the skin of an application with CSS style sheets.
-			<li>A new services-oriented programming model makes it easier to use the services provided by the Eclipse platform.  
+			<li>A services-oriented programming model makes it easier to use the services provided by the Eclipse platform.  
 			</ul>
 		</p>
 		
-		<p>Eclipse 4.0 is for early adopters of Eclipse technology.  It is highly recommended that plug-in and RCP developers should begin to migrate their existing solutions to the 4.0 platform.   Full binary 
-		compatibility with API from previous platform releases makes the migration process as simple as possible.		</p>
+		<p>Eclipse 4.0 is for early adopters of Eclipse technology.  It is highly recommended that plug-in and RCP developers begin to migrate their existing solutions to the 4.0 platform.   Full binary 
+		compatibility with API from previous Eclipse 3.x platform releases makes the migration process as simple as possible.		</p>
 		
 		<p>Users of Eclipse tools, such as the Eclipse Java IDE (JDT) or Eclipse Web Tools, are not expected to benefit from migrating to Eclipse 4.0 at this time.  Users will benefit from the new user interface 
 		improvements in Eclipse 4.0 but they will need to wait for the value-add tools and plugins provided by other Eclipse Foundation projects and the broader ecosystem to migrate to the 4.0 platform.</p>
@@ -49,8 +51,10 @@
 		</ul>
 		</p>
 		
-		<p>More information about Eclipse 4.0, including the download, can be found at <a href="http://www.eclipse.org/eclipse4">eclipse.org/eclipse4</a>.  The Eclipse e4 incubation projects can be downloaded from a p2 update sites located at <insert url>.
+		<p>More information about Eclipse 4.0, including the download, can be found at <a href="http://www.eclipse.org/eclipse4">eclipse.org/eclipse4</a>.  The Eclipse e4 incubation projects can be downloaded from a 
+		p2 update sites located at <insert url>.  </p>
 		
+	
 				
       	
       	<b>About the Eclipse Foundation</b>
