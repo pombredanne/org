@@ -24,7 +24,7 @@
 		<h2>Community Bulletin</h2>
 		
 		<a href="http://wiki.eclipse.org/EclipseTestingDay201">
-		<img src="http://wiki.eclipse.org/images/f/fc/EclispeTestingDay11.png" alt="Eclipse Testing Day" border="0">
+		<img src="http://wiki.eclipse.org/images/f/fc/EclispeTestingDay11.png" width="250" alt="Eclipse Testing Day" border="0">
 		</a>
 		
      	<p>
