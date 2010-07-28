@@ -25,7 +25,7 @@
 
 	    <h2>Community Bulletin</h2>
 	    
-      	<p>July 28, 2010 - The Eclipse Foundation is pleased to announce the availability of Eclipse SDK 4.0, the next generation Eclipse platform.  Eclipse has a very large and successful ecosystem of 
+      	<p>July 28, 2010 - The Eclipse Foundation is pleased to announce the availability of <a href="http://www.eclipse.org/eclipse4/">Eclipse SDK 4.0</a>, the next generation Eclipse platform.  Eclipse has a very large and successful ecosystem of 
       	plugin providers and RCP application developers.  Eclipse 4.0 introduces new features that make it easier for the members of the ecosystem to build and assemble Eclipse plugins and RCP applications.  </p>  
       	
 		<p>Some of the new features introduced in Eclipse 4.0 include:
@@ -52,7 +52,7 @@
 		</p>
 		
 		<p>More information about Eclipse 4.0, including the download, can be found at <a href="http://www.eclipse.org/eclipse4">eclipse.org/eclipse4</a>.  The Eclipse e4 incubation projects can be downloaded from a 
-		p2 update sites located at <insert url>.  </p>
+		p2 repository located at http://download.eclipse.org/e4/updates/2010 . </p>
 		
 	
 				
