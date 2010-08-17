@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100818_gov_ent_days.php">Attend Eclipse Government Day or Eclipse Enterprise Days</a> - August 18, 2010</li>
 		<li><a href="20100628_testingday.php">Attend Eclipse Testing Day in Darmstadt</a> - June 28, 2010</li>
 		<li><a href="20100623_heliosrelease.php">Eclipse Helios Annual Release Train Has Arrived</a> - June 23, 2010</li>
 		<li><a href="20100607_heliosinaction.php">Join the Helios in Action Virtual Conference</a> - June 7, 2010</li>
