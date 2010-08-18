@@ -74,6 +74,9 @@
 					initial user experience, and extensibility.</li>
 				<li><a href="Licensing_Example_Code.pdf">Licensing Example Code:</a> 
 					This is a Board approved policy on how projects may license their example code.</li>
+				<li><a href="LGPL_API_Policy.pdf">Usage of LGPL APIs in Eclipse Projects:</a> 
+					This is a Board approved policy on how Eclipse projects may make limited use of APIs 
+					licensed under the LGPL. </li>					
 			</ul>
 		</div>
 	</div>
