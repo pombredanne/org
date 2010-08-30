@@ -57,7 +57,7 @@
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
 		<div class="sideitem">
-			<h6>Awards Navigation</h6>
+			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training, Spring 2010</a></li>
 			</ul>
