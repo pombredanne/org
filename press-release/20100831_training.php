@@ -33,7 +33,7 @@
 			developers and architects to learn more about Eclipse Rich Client Platform (RCP), BIRT and Modeling technologies.
 			Eclipse experts	will lead the sessions, providing practical experience through classroom
 			instruction and hands-on labs. Virtual and on-site classes have been scheduled in
-			several countries from Septebmer 20 to November 5, 2010. 
+			several countries from September 20 to November 5, 2010. 
 		</p>
 		<p>
 			Students who register at least 2 weeks in advance will receive a 10% discount on the
@@ -42,7 +42,7 @@
 		</p>
 		<p>
 			Eclipse members participating in the training series are <a href="http://www.avantsoft.com/" target="blank">AvantSoft</a>,
-			<a href="http://eclipsesource.com" target="blank">EclipseSource</a>, <a href="http://www.industrial-tsi.com/" target="blank">
+			<a href="http://www.industrial-tsi.com/" target="blank">
 			Industrial TSI</a>, <a href="http://www.obeo.fr/" target="blank">Obeo</a>, <a href="http://www.opcoach.com/" target="blank">OPCoach</a>, <a href="http://rcp-company.com/" target="blank">The
 			RCP Company</a> and <a href="http://www.weiglewilczek.com/index.php?id=29&L=1" target="blank">Weigle Wilczek</a>.
 		</p>
