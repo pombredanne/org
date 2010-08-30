@@ -28,7 +28,7 @@
 		<h2>Community Bulletin</h2>
 	
 		<p>
-			The Eclipse Foundation and Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">spring 2010
+			The Eclipse Foundation and Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">fall 2010
 			training class series</a>.  The training is an excellent opportunity for software
 			developers and architects to learn more about Eclipse Rich Client Platform (RCP), BIRT and Modeling technologies.
 			Eclipse experts	will lead the sessions, providing practical experience through classroom
@@ -56,9 +56,9 @@
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
 		<div class="sideitem">
-			<h6>Awards Navigation</h6>
+			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training, Spring 2010</a></li>
+				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training, Fall 2010</a></li>
 			</ul>
 		</div>
 	</div>
