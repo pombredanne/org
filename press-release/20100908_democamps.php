@@ -24,20 +24,24 @@
 		
 		<h2>Community Bulletin</h2>
 
-		<p>During the month of November members of the Eclipse community will be hosting
+		<p>During the month of November, the Eclipse community will be hosting
 		<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2009">DemoCamps</a> in cities around the world.
 		Typically a DemoCamp consists of a series of short demos and presentations from developers building new
 		and interesting solutions with Eclipse.  It is a great way to discover and learn about new Eclipse
-		technology.  There is also lots of time for informal conversation and networking, so DemoCamps are a
+		technology.  There are also many opportunities for informal conversation and networking, so DemoCamps are a
 		great way to connect with colleagues and friends.</p>
 
 		<p>For this DemoCamp series we're introducting a new program to reach out to the academic and student
 		communities.  Building on the success of our regular DemoCamp series, we invite
-		university students and professors to organize Eclipse Campus DemoCamps.</p>
+		university students and professors to <a href="http://www.eclipse.org/community/democamp/organizecampus.php">organize Eclipse Campus DemoCamps</a>.
+		Campus DemoCamps are special because demos will be presented by students and professors on topics like class
+		projects using Eclipse, overviews of Eclipse projects, tips and tricks in Eclipse and anything
+		else Eclipse-related of interest to students.</p>
 		
 		<p>Check-out the <a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2010">list of cities hosting
 		DemoCamps</a> and consider signing up to demo what you
-		are doing with Eclipse.  Plan to attend and enjoy meeting some interesting Eclipse people.</p>
+		are doing with Eclipse, or <a href="http://www.eclipse.org/community/democamp/organizedemocamp.php">organize your own event</a>.
+		We look forward to seeing you!</p>
 		
  <br><br>
 	</div>
