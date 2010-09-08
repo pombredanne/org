@@ -31,7 +31,7 @@
 		technology.  There are also many opportunities for informal conversation and networking, so DemoCamps are a
 		great way to connect with colleagues and friends.</p>
 
-		<p>For this series we're introducting a new program to reach out to the academic and student
+		<p>For this series, the Foundation is introducing a new program to reach out to the academic and student
 		communities.  Building on the success of our regular DemoCamp series, we invite
 		university students and professors to <a href="http://www.eclipse.org/community/democamp/organizecampus.php">organize Campus DemoCamps</a>.
 		Campus DemoCamps are special because demos will be presented by students and professors on topics like class
