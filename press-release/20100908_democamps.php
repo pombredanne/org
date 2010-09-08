@@ -25,7 +25,7 @@
 		<h2>Community Bulletin</h2>
 
 		<p>During the month of November, the Eclipse community will be hosting
-		<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2009">DemoCamps</a> in cities around the world.
+		<a href="http://wiki.eclipse.org/Eclipse_DemoCamps_November_2010">DemoCamps</a> in cities around the world.
 		Typically a DemoCamp consists of a series of short demos and presentations from developers building new
 		and interesting solutions with Eclipse.  It is a great way to discover and learn about new Eclipse
 		technology.  There are also many opportunities for informal conversation and networking, so DemoCamps are a
