@@ -29,7 +29,7 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-		Revision 1.1 February 20, 2009 <img src='/images/updated.png'>
+		Revision 1.2 September 10, 2010 <img src='/images/updated.png'>
 		
 		<h3>Purpose and Scope</h3>
 		
@@ -83,10 +83,10 @@
 		<p>Participation in IWGs is only open to certain Members of the Eclipse Foundation.  Each IWG will have two types 
 		of participants: Steering Committee Participants and Member Participants (collectively, "Participants"):</p>
 
-		<p>The <i>Steering Committee</i> Participants shall be Participants of the IWG that are Strategic or 
-		Enterprise Members of Eclipse, to the extent they agree to actively participate in the IWG Steering 
-		Committee and to the extent they satisfy the Member Participation Guidelines (as defined herein) as 
-		announced by the IWG Steering Committee.  </p>
+		<p>The <i>Steering Committee</i> Participants shall be Participants of the IWG who
+		agree to actively participate in the IWG Steering Committee and which satisfy the Steering
+		Committee Participants requirements set forth in the Member Participation Guidelines (as defined herein) as 
+		determined by the IWG Steering Committee.  </p>
 
 		<p>The Steering Committee is responsible for writing and maintaining an IWG Charter (a "IWG Charter") 
 		consisting of the following:
@@ -102,16 +102,20 @@
 			objective, fair, reasonable and non-discriminatory standards and must not be designed to exclude or i
 			mpose commercially unreasonable terms on any particular Member or group of Members.   That said, 
 			the expectation is that the Steering Committee Participant Guidelines will expect a greater 
-			investment of time, effort and resources than the Guidelines for the Member Participant.  The Member 
+			investment of time, effort and resources than the Guidelines for the Member Participants.  The Member 
+			Participation Guidelines will also specify the Eclipse Foundation membership level requirements for 
+			Steering Committee Participants and Member Participants of the IWG. The Member 
 			Participation Guidelines must be based on Eclipse meritocratic principles that allow for a community 
-			of Members to grow within a IWG.  The Eclipse Executive Director will have final approval on IWG 
+			of Members to grow within an IWG.  The Eclipse Foundation Executive Director will have final approval on IWG 
 			Member Participation Guidelines (including any modifications thereof). </li>
 			<li>An identification of the technology features/components that are the focus of the IWG 
 			<li>A statement of resource commitments for all Participants in that IWG  that will cover external 
 			resources (development, marketing programs, etc.) 
 			</ul> </p>
 
-		<p><i>Member Participant</i> is a Member of the Eclipse Foundation (excluding Associate Members) who agrees to actively participate in the IWG 
+		<p><i>Member Participant</i> is a Member of the Eclipse Foundation (excluding Associate Members other 
+		than research institutions, academic institutions or government agencies specifically approved 
+		by the Steering Committee) ) who agrees to actively participate in the IWG 
 		and meets the Member Participation Guidelines.  </p>
 
 		<p>Any Member that satisfies the Member Participation Guidelines of an IWG must be permitted to be a 
@@ -136,8 +140,8 @@
 <b>Proposal Phase</b>
 
 	<p>Any Eclipse Strategic or Enterprise Member(s) (an "Initiating Member(s)") can draft a draft IWG Charter 
-	and request the Eclipse Executive Director to make it available in the appropriate area on Eclipse.org.  
-	Upon the Eclipse Executive Director's approval of the draft Charter, the Executive Director will do so, and 
+	and request the Eclipse Foundation Executive Director to make it available in the appropriate area on Eclipse.org.  
+	Upon the Eclipse Foundation Executive Director's approval of the draft Charter, the Executive Director will do so, and 
 	an e-mail will be circulated announcing the availability of the draft Charter for review.  The Proposal Phase 
 	will commence upon the distribution of that e-mail. </p>
 
@@ -170,7 +174,7 @@
 	</p>
 
 	<p>At the end of the Proposal Phase, subject to the Initiating Member's compliance with the terms of this 
-	Policy, and the Eclipse Executive Director's approval of the Charter, and based on the feedback from the 
+	Policy, and the Eclipse Foundation Executive Director's approval of the Charter, and based on the feedback from the 
 	Eclipse community and in consultation with the proposed IWG Steering Committee, the Eclipse Foundation 
 	Executive Director will determine whether to create the IWG.  Once the IWG is created, a notification will be 
 	sent to the Members with the initial list of Participants and an invitation to other Members to participate.  
