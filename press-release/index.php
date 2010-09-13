@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20100913_EclipseDayRome.php">Register for Eclipse Day in Rome</a> - September 13, 2010</li>
 		<li><a href="20100908_democamps.php">Join us for Eclipse DemoCamps and Campus DemoCamps</a> - September 8, 2010</li>
 		<li><a href="20100830_training.php">Register for the Eclipse Fall Training Series</a> - August 30, 2010</li>
 		<li><a href="20100818_gov_ent_days.php">Attend Eclipse Government Day or Eclipse Enterprise Days</a> - August 18, 2010</li>
