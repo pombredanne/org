@@ -28,14 +28,14 @@
 		<p>
      		<a href="http://www.spagoworld.org/xwiki/bin/view/openevents/" target="blank">Eclipse
      		Day in Rome</a> is being held on October 5, 2010. It is the first event taking place in Italy
-     		focusing on the enterprise adoption of Eclipse-based solutions.  
+     		that is focused on the enterprise adoption of Eclipse-based solutions.  
 		</p>	
 		<p>
 			The main topics that Eclipse Day in Rome will explore are service-oriented architectures, integration and
 			interoperability domains, and there will be specific use cases from the Eclipse ecosystem. Companies
-			will not only share their use cases of open source software, they will also address emerging issues
+			will not only share their experiences using open source software, they will also address emerging issues
 			on its adoption to support the complexity of new IT architectures.  Eclipse experts from 
-			Deutshce Post, Microsoft, Red Hat and many more companies will present.  
+			Deutshce Post, Microsoft, Red Hat and many more companies will be presenting.  
 		</p>
 		<p>
 			If you are an IT manager, CIO, CTO, software architect, development manager or senior developer
