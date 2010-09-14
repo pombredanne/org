@@ -61,6 +61,9 @@
 				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training, Fall 2010</a></li>
 			</ul>
 		</div>
+		<a href="../../community/training/classes.php">
+		<img src="../../community/training/traininggraphic_125x125.jpg" alt="Eclipse Training" border="0">
+		</a>
 	</div>
 </div>
 
