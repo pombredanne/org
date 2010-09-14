@@ -35,7 +35,7 @@
 			interoperability domains, and there will be specific use cases from the Eclipse ecosystem. Companies
 			will not only share their experiences using open source software, they will also address emerging issues
 			on its adoption to support the complexity of new IT architectures.  Eclipse experts from 
-			Deutshce Post, Microsoft, Red Hat and many more companies will be presenting.  
+			Deutsche Post DHL, Engineering Group, Microsoft, Red Hat, SOPERA and many more companies will be presenting.  
 		</p>
 		<p>
 			If you are an IT manager, CIO, CTO, software architect, development manager or senior developer
