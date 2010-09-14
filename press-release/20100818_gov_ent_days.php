@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Attend Eclipse Government Day or Eclipse Enterprise Days";
+	$pageTitle 		= "Attend Eclipse Government Day";
 	$pageKeywords	= "Eclipse, Government, Enterprise";
 	$pageAuthor		= "Donald Smith";
 	
@@ -26,9 +26,8 @@
 		
      	<p>
      		Along with sponsors including Actuate, BandXI, EclipseSource, Oracle and Open Source for America,
-     		the Eclipse Foundation is pleased to announce both the 
-     		<a href="http://wiki.eclipse.org/Eclipse_Government_Day">Eclipse Government Day</a>
-     		and <a href="http://wiki.eclipse.org/Eclipse_Enterprise_Days">Eclipse Enterprise Days</a>.	    		
+     		the Eclipse Foundation is pleased to announce the 
+     		<a href="http://wiki.eclipse.org/Eclipse_Government_Day">Eclipse Government Day</a>.	    		
 		</p>
 		<p>
 			<a href="http://wiki.eclipse.org/Eclipse_Government_Day">Eclipse in Government Day</a>,
@@ -38,15 +37,8 @@
 			industries. This day is targeted primarily for technical managers, architects and 
 			directors who oversee and use Eclipse technology on a daily basis in Government. 
 		</p>
-		<p>
-		<a href="http://wiki.eclipse.org/Eclipse_Enterprise_Days">Eclipse Enterprise Days </a>,
-		October 13-14, 2010 in Reston, VA, 
-		is a two-day-long event that shows insights into how Eclipse technology 
-		scales UP and OUT. OUT to thousands of developers within organizations, and UP to hundreds of 
-		plugins and millions of lines of code. 
-		</p>
 		<p>	
-		Both events are limited to a number of attendees -- please RSVP ASAP following the instructions
+		This event is limited to a number of attendees -- please RSVP ASAP following the instructions
 		on each event page.	We hope you can join us!
 		</p>
 		  
