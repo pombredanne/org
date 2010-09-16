@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Summit Europe 2010 Program Annouced";
+	$pageTitle 		= "Eclipse Summit Europe 2010 Program Announced";
 	$pageKeywords	= "eclipse summit europe, eclipse";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -33,17 +33,17 @@
 				<li>Prof. Hendrik Speck, Professor of Digital Media at the University of Application Sciences Kaiserslautem, will present "Code and Belief" based on his work in media theory, 
 				philosophy and open source.
 				<li>Dr. Jeff Norris, NASA Jet Propulsion Laboratory, will discuss how NASA is using Eclipse for the misison control and operation software for the NASA rover missions.  Dr. Norris was a 
-				very popular keynote speaker at the recent EclipseCon 2009 conference.
-				<li>Dr. Gunter D&uuml;ck, IBM Distiguished Engineer and Chief Technologist for strategic direction and cultural change, will present "The Industrialization of the Services Sector" will 
-				explore how IT professionsals need to change their working and learning habits in a knowledge society.
+				very popular keynote speaker at the recent EclipseCon 2010 conference.
+				<li>Dr. Gunter D&uuml;ck, IBM Distiguished Engineer and Chief Technologist for strategic direction and cultural change, will present "The Industrialization of the Services Sector" an 
+				exploration of how IT professionsals need to change their working and learning habits in a knowledge society.
 			</ul>
 		</p>
 		
 		<p>
-		The <a href="http://www.eclipsecon.org/summiteurope2010/table/?page=table">Eclipse Summit Europe technical program</a> has also been announced.  The conference will featured over 80 different technical sessions, tutorials and symposiums, on topics including Eclipse Modeling, 
+		The <a href="http://www.eclipsecon.org/summiteurope2010/table/?page=table">Eclipse Summit Europe technical program</a> has also been announced.  The conference will feature over 80 different technical sessions, tutorials and symposia, on topics including Eclipse Modeling, 
 		Eclipse Runtime and the new Eclipse 4.0 platform.  Attendees will enjoy plenty of opportunities to meet and learn from Eclipse experts and fellow community members.
 		</p>
-		<p>Registration for Eclipse Summit Europe is <a href="http://www.eclipsecon.org/summiteurope2010/registration/?page=registration">now open.</a>  The cost to pre-register is &euro;500 (US$600) and the onsite fee is &euro;550 (US$726).  Eclipse Foundation members and ESE alumni will receive a 15% discount on the registration prices.</p>
+		<p>Registration for Eclipse Summit Europe is <a href="http://www.eclipsecon.org/summiteurope2010/registration/?page=registration">now open.</a>  The cost to pre-register is &euro;500 (US$660) and the onsite fee is &euro;550 (US$726).  Eclipse Foundation members and ESE alumni will receive a 15% discount on the registration prices.</p>
 	
       	<b>About the Eclipse Foundation</b>
 		<p>Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
