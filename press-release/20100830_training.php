@@ -42,7 +42,7 @@
 		</p>
 		<p>
 			Eclipse members participating in the training series are <a href="http://www.avantsoft.com/" target="blank">AvantSoft</a>,
-			<a href="http://www.industrial-tsi.com/" target="blank">
+			<a href="http://eclipsesource.com/en/services/eclipse-training/" target="blank">EclipseSource</a>, <a href="http://www.industrial-tsi.com/" target="blank">
 			Industrial TSI</a>, <a href="http://www.obeo.fr/" target="blank">Obeo</a>, <a href="http://www.opcoach.com/" target="blank">OPCoach</a>, <a href="http://rcp-company.com/" target="blank">The
 			RCP Company</a>, <a href="http://www.rcp-vision.com" target="blank">RCP Vision</a> and <a href="http://www.weiglewilczek.com/index.php?id=29&L=1" target="blank">Weigle Wilczek</a>.
 		</p>
