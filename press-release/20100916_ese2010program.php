@@ -25,7 +25,7 @@
 
 	    <h2>Community Bulletin</h2>
 	    
-      	<p>September 16, 2010 - The Eclipse Foundation is pleased to announce the keynotes and technical program for the upcoming <a href="http://www.eclipsecon.org/summiteurope2010/">Eclipse Summit Europe (ESE)</a> conference.  	ESE is the
+      	<p>September 16, 2010 - The Eclipse Foundation is pleased to announce the keynotes and technical program for the upcoming fifth annual <a href="http://www.eclipsecon.org/summiteurope2010/">Eclipse Summit Europe (ESE)</a> conference.  	ESE is the
       	annual Eclipse European community event planned for November 2-4, 2010 in Ludwigsburg Germany.</p>
       	
 		<p>The conference features three keynote speakers:
@@ -43,7 +43,7 @@
 		The <a href="http://www.eclipsecon.org/summiteurope2010/table/?page=table">Eclipse Summit Europe technical program</a> has also been announced.  The conference will featured over 80 different technical sessions, tutorials and symposiums, on topics including Eclipse Modeling, 
 		Eclipse Runtime and the new Eclipse 4.0 platform.  Attendees will enjoy plenty of opportunities to meet and learn from Eclipse experts and fellow community members.
 		</p>
-		<p>Registration for Eclipse Summit Europe is <a href="http://www.eclipsecon.org/summiteurope2010/registration/?page=registration">now open.</a>  The cost to pre-register is &euro;500 (US$600)and the onsite fee is &euro;550 (US$726).</p>
+		<p>Registration for Eclipse Summit Europe is <a href="http://www.eclipsecon.org/summiteurope2010/registration/?page=registration">now open.</a>  The cost to pre-register is &euro;500 (US$600) and the onsite fee is &euro;550 (US$726).  Eclipse Foundation members and ESE alumni will receive a 15% discount on the registration prices.</p>
 	
       	<b>About the Eclipse Foundation</b>
 		<p>Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
