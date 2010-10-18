@@ -31,8 +31,7 @@
 			<a href="http://www.eclipsedayparis.com" target="blank">Eclipse Day Paris</a> takes place November 5,
 			2010 and is a day-long event to explore Eclipse projects and topics for the French community.
 			The event is ideal for IT decision makers, software architects and process and methods engineers that
-			are interested in using Eclipse.
-			
+			are interested in using Eclipse.			
 		</p>
 		<p>
 			Eclipse Day Paris will feature Eclipse experts presenting innovations within the Eclipse projects, and
