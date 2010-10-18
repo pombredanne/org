@@ -37,8 +37,8 @@
 		<p>
 			Eclipse Day Paris will feature Eclipse experts presenting innovations within the Eclipse projects, and
 			organizations discussing how they benefit from using Eclipse for their needs. The event will bring
-			members of the Eclipse ecosystem together to discuss the following themes: 1) Data Management; 2) Eclipse 4.0;
-			3) Embedded; 4) Modeling; and 5) Runtime.
+			members of the Eclipse ecosystem together to discuss the following themes: Data Management, Eclipse 4.0,
+			Embedded, Modeling and Runtime.
 			See the event page	for a <a href="http://www.eclipsedayparis.com/?page=Agenda&lang=en" target="blank">full agenda</a>.  
 		</p>
 		<p>	
