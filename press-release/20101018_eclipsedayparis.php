@@ -24,31 +24,25 @@
 		<h2>Community Bulletin</h2>
 		
 		<a href="http://www.eclipsedayparis.com">
-		<img src="http://www.eclipsedayparis.com/img/BandeauTitre.png" width="250" alt="Eclipse Day Paris" border="0">
+		<img src="http://www.eclipsedayparis.com/img/BandeauTitre.png" width="500" alt="Eclipse Day Paris" border="0">
 		</a>
 		
      	<p>
 			<a href="http://www.eclipsedayparis.com" target="blank">Eclipse Day Paris</a> takes place November 5,
 			2010 and is a day-long event to explore Eclipse projects and topics for the French community.
-			The event i ideal for IT decision makers, software architects and process and methods engineers that
+			The event is ideal for IT decision makers, software architects and process and methods engineers that
 			are interested in using Eclipse.
 			
 		</p>
 		<p>
-			Eclipse Day Paris will feature Eclipse experts presenting innovations within the Eclipse projects and
+			Eclipse Day Paris will feature Eclipse experts presenting innovations within the Eclipse projects, and
 			organizations discussing how they benefit from using Eclipse for their needs. The event will bring
-			members of the Eclipse ecosystem together to discuss the following themes:
-			<ul>
-			<li>Data Management</li>
-			<li>Eclipse 4.0</li>
-			<li>Embedded</li>
-			<li>Modeling</li>
-			<li>Runtime</li>
-			</ul>
+			members of the Eclipse ecosystem together to discuss the following themes: 1) Data Management; 2) Eclipse 4.0;
+			3) Embedded; 4) Modeling; and 5) Runtime.
 			See the event page	for a <a href="http://www.eclipsedayparis.com/?page=Agenda&lang=en" target="blank">full agenda</a>.  
 		</p>
 		<p>	
-			We hope you can join us!  <a href="http://www.eclipsedayparis.com/?page=Registration&lang=en" target="blank">Register</a>
+			We hope you can join in for Eclipse Day Paris!  <a href="http://www.eclipsedayparis.com/?page=Registration&lang=en" target="blank">Register</a>
 			while space is still available.			
 		</p>
 		  
