@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Attend Eclipse Day Paris";
+	$pageTitle 		= "Registration is Open for Eclipse Embedded Day Spain";
 	$pageKeywords	= "Eclipse, event, day, Paris, France";
 	$pageAuthor		= "Lynn Gayowski";
 	
