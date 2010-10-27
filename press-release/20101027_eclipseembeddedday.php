@@ -4,7 +4,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Registration is Open for Eclipse Embedded Day Spain";
-	$pageKeywords	= "Eclipse, event, day, Paris, France";
+	$pageKeywords	= "Eclipse, event, day, Spain, embedded";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
