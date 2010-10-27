@@ -31,13 +31,13 @@
      		The European Software Institute-Technalia is pleased to announce
 			<a href="http://www.esi.es/eclipseembeddedday/" target="blank">Eclipse Embedded Day Spain</a>, which
 			takes place November 9, 2010. The event is a day-long
-			conference for technical experts, developers, users and researchers from the Spanish embedded systems
+			conference for technical experts, software developers, Eclipse users and researchers from the Spanish embedded systems
 			community.
 		</p>
 		<p>
 			Eclipse Embedded Day will explore the challenges in industrial environments, new scientific and
 			technological developments in Eclipse for embedded systems, and how to transfer new research and
-			development technology to current challenges.  See the program page
+			development technology to current embedded needs.  See the program page
 			for a <a href="http://www.esi.es/eclipseembeddedday/index.php?op=4" target="blank">full agenda</a>.  
 		</p>
 		<p>	
