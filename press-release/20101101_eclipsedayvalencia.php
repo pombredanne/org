@@ -32,7 +32,7 @@
 		<p>
 			Conselleria de Infraestructruras y Transporte (CIT) of the Valencian Community Regional Government is
 			organizing MOSKittDay together with EclipseDay. CIT is a member of the Eclipse Foundation and heads the
-			MOSKitt (Modeling Software Kitt) project in the development of an open source CASE tool based on Eclipse.
+			MOSKitt (Modeling Software Kit) project in the development of an open source CASE tool based on Eclipse.
 			Registration for both events is free, but you must fill out a
 			<a href="http://www.moskitt.org/eng/3moskittday_inscripcion/" target="blank">registration form</a>
 			in advance.
