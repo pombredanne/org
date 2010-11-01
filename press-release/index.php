@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20101101_eclipsedayvalencia.php">Sign up to Attend EclipseDay in Valencia</a> - November 1, 2010</li>
 		<li><a href="20101027_eclipseembeddedday.php">Registration is Open for Eclipse Embedded Day Spain</a> - October 27, 2010</li>
 		<li><a href="20101018_eclipsedayparis.php">Attend Eclipse Day Paris</a> - October 18, 2010</li>
 		<li><a href="20100916_ese2010program.php">Eclipse Summit Europe 2010 Program Announced</a> - September 16, 2010</li>
