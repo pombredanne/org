@@ -3,8 +3,8 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Registration for EclipseDay in Valencia is Open";
-	$pageKeywords	= "Eclipse, spain, valencia, bpmn, uml";
+	$pageTitle 		= "Sign up to Attend EclipseDay in Valencia";
+	$pageKeywords	= "Eclipse, spain, valencia, bpmn, uml, modeling";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
