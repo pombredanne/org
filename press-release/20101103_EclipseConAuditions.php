@@ -39,7 +39,7 @@
 		1. <a href="http://www.eclipsecon.org/2011/submissions/?page=submissions">Submit an EclipseCon proposal</a><br>
 		2. Send an e-mail to <a href="mailto:audition@eclipse.org">audition@eclipse.org</a> with your name and
 		the link to your proposal<br><br>
-		The deadline to apply for an audition is November 12, 2010. The winner of the
+		The deadline to apply for an audition is November 15, 2010. The winner of the
 		EclipseCon Audition Sessions will receive a speaker slot at EclipseCon.</p>
 		
 		<p>As a reminder, November 17, 2010 is the deadline to be considered for one of EclipseCon's top five
