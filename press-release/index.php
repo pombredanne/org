@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20101103_EclipseConAuditions.php">Announcing the EclipseCon Audition Sessions</a> - November 3, 2010</li>
 		<li><a href="20101102_virgo.php">Eclipse Makes Available New Release of Eclipse Virgo</a> - November 2, 2010</li>
 		<li><a href="20101101_eclipsedayvalencia.php">Sign up to Attend EclipseDay in Valencia</a> - November 1, 2010</li>
 		<li><a href="20101027_eclipseembeddedday.php">Registration is Open for Eclipse Embedded Day Spain</a> - October 27, 2010</li>
