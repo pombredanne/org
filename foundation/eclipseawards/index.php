@@ -93,7 +93,7 @@
 			<ul>
 				<li><font color="#A9A9A9">Nominations open - December 6, 2010</font></li>
 				<li>Nominations close - January 28, 2011</font></li>
-				<li>Voting begins for Individual & Project Awards - February 1, 2011</font></li>
+				<li>Voting begins for Individual & Project Awards - January 31, 2011</font></li>
 				<li>Voting ends for Individual & Project Awards - February 25, 2011 at 5:00 pm EST</font></li>
 				<li>Awards Announced at EclipseCon 2010 - March 21, 2011</li>
 			</ul>
