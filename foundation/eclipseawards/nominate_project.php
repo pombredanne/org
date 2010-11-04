@@ -38,11 +38,11 @@
 		<p>
 			The Project Awards are for Eclipse projects and features. Nominations may be submitted by anyone
 			in each category and committers are welcome to nominate their own projects. All that's
-			required to make a nomination is to list the project or feature and a paragraph on why you
+			required to make a nomination is to list the project or feature and a few points on why you
 			think it's worthy of an award in the appropriate Bugzilla entry link below. The Most Innovative New Feature or Project 
-			award is for features and new projects introduced in 2009.  Nominations opened
-			December 3, 2009 and closed January 29,	2010.  Winners were announced at
-			<a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
+			award is for features and new projects introduced in 2010.  Nominations open
+			December 6, 2010 and close January 28, 2011.  Winners will be announced at
+			<a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 
 		<h2>Nomination Links</h2>
@@ -54,14 +54,17 @@
 		<h2>Determining Winners</h2>
 		<p>
 		The Project Award winners will be determined by a vote of the community. Each person will get
-		to vote once per category. After nominations closed on January 29, 2010, voting ran from
-		February 2-26, 2010, 5:00 pm EST.  
+		to vote once per category. After nominations close on January 28, 2011, voting will run from
+		January 31, 2011 - February 25, 2011, 5:00 pm EST.  
 		</p>		
 		
 		<h2>Past Winners</h2>
 		<p>
-			You will notice that there are no past winners listed for the Project category as it is new
-			to the Eclipse Community Awards this year.
+			Eclipse is a large, vibrant community of many well-deserving projects. Therefore, to ensure
+			diversity of award winners, we have decided that projects are not eligible in any category
+			they have already won in the previous 3 years.  Projects can also only win one category per
+			year. There are certainly projects deserving of multiple awards, however we would like to
+			acknowledge others also worthy of recognition.
 		</p>
 
 	</div>
@@ -71,8 +74,6 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="winners10.php">2010 Winners</a></li>
-				<li><a href="judges10.php">2010 Judges</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
