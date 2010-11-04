@@ -38,7 +38,7 @@
 		<p>
 			Individuals may be nominated by anyone in each category.  All that's required to make a nomination
 			is to list the individual's name and a few points on why you think they are worthy of an award in
-			the appropriate Bugzilla entry link below. Nominations open December 2, 2010 and close January 28,
+			the appropriate Bugzilla entry link below. Nominations open December 6, 2010 and close January 28,
 			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 
@@ -55,7 +55,7 @@
 		<p>
 		The Individual Award winners will be determined by a vote of the community. Each person will get
 		to vote once per category. After nominations close on January 28, 2011, voting will run from
-		February 1-25, 2011, 5:00 pm EST.  
+		January 31, 2011 - February 25, 2011, 5:00 pm EST.  
 		</p>	
 		
 		<h2>Past Winners</h2>
