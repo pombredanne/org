@@ -40,8 +40,8 @@
 			own products. To submit, complete the questionnaire below and e-mail it to				
 			<a href="mailto:awards@eclipse.org">awards@eclipse.org</a>. Answers can simply be addressed
 			in the body or your e-mail or in a MS Word or OpenOffice attachment.			
-			Nominations opened December 3, 2009 and closed January 29,
-			2010.  Winners were announced at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
+			Nominations open December 6, 2010 and close January 28, 2011.
+			Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>		
 		
 		<h2>Nomination Questionnaire</h2>
@@ -93,8 +93,6 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="winners10.php">2010 Winners</a></li>
-				<li><a href="judges10.php">2010 Judges</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
