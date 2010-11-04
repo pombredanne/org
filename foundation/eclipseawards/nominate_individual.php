@@ -37,9 +37,9 @@
 		
 		<p>
 			Individuals may be nominated by anyone in each category.  All that's required to make a nomination
-			is to list the individual's name and a paragraph on why you think they are worthy of an award in
-			the appropriate Bugzilla entry link below. Nominations opened December 3, 2009 and closed January 29,
-			2010.  Winners were announced at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
+			is to list the individual's name and a few points on why you think they are worthy of an award in
+			the appropriate Bugzilla entry link below. Nominations open December 2, 2010 and close January 28,
+			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 
 		<h2>Nomination Links</h2>
@@ -48,14 +48,14 @@
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Nominate a Top Contributor</a></li>
 			<li>The <strong>Top Newcomer Evangelist</strong> award is given to the individual that answered the
 		most questions posted on the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">Newcomer
-		forum</a>. It is not open to nominations. The period of calculation is from February 26, 2009 to February 26, 2010.</li>		
+		forum</a>. It is not open to nominations. The period of calculation is from February 25, 2010 to February 25, 2011.</li>		
 		</ul>
 		
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual Award winners will be determined by a vote of the community. Each person will get
-		to vote once per category. After nominations closed on January 29, 2010, voting ran from
-		February 2-26, 2010, 5:00 pm EST.  
+		to vote once per category. After nominations close on January 28, 2011, voting will run from
+		February 1-25, 2011, 5:00 pm EST.  
 		</p>	
 		
 		<h2>Past Winners</h2>
@@ -74,8 +74,6 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="winners10.php">2010 Winners</a></li>
-				<li><a href="judges10.php">2010 Judges</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
