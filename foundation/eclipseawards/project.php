@@ -50,7 +50,7 @@ function switchMenu(obj) {
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Project Awards.  Nominations closed on January 29, 2010 and voting closed February 26, 2010.  Winners were announced March 22 at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
+			The following is a list of nominations submitted for the Project Awards.  Nominations close on January 28, 2011 and voting will take place January 31 - February 25, 2011.  Winners will be announced March 21 at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 				
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
