@@ -35,67 +35,34 @@ ob_start();
 		<h1><?= $pageTitle ?></h1>
 		
 		<p>
-			The following is a list of nominations submitted for the Technology Awards.  Nominations closed on January 29, 2010 and submissions were sent to a judging panel. Winners were announced March 22 at <a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
+			The following is a list of nominations submitted for the Technology Awards.  Nominations close on January 28, 2011.  Submissions will be reviewed by a judging panel and winners will be announced March 21 at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 		
 		<div class="homeitem3col">
 			<h3>Best Commerical Developer Tool</h3>
 			<ul>
-				<li><a href="http://www.atlassian.com/eclipse" target="blank">Atlassian Connector for Eclipse</a></li>
-				<li><a href="http://www.birt-exchange.com/be/marketplace/app-showcase/" target="blank">BIRT Mashboard Application</a></li>
-				<li><a href="http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp" target="blank">BlackBerry Java Plug-in for Eclipse</a></li>
-				<li><a href="http://www.blackberry.com/developers/webeclipse" target="blank">BlackBerry Web Plug-in for Eclipse</a></li>
-				<li><a href="http://www.instantiations.com/codepro/analytix/about.html" target="blank">CodePro AnalytiX</a></li>
-				<li><a href="http://developers.intervoice.com" target="blank">Convergys Interaction Composer</a></li>
-				<li><a href="http://www.deltopia.com" target="blank">DeltaWalker</a></li>
-				<li><a href="http://www.ExcelsiorJET.com" target="blank">Excelsior JET</a></li>
-				<li><a href="http://www.guidancer.com" target="blank">GUIdancer</a></li>
-				<li><a href="http://www.quest.com/jprobe" target="blank">JProbe&reg;</a></li>
-				<li><a href="http://www.justinmind.com/wireframe/justinmind_prototyper" target="blank">Justinmind Prototyper</a></li>
-				<li><a href="http://www.genuitec.com/mobile" target="blank">MobiOne</a></li>	
-				<li><a href="http://myeclipseide.com" target="blank">MyEclipse 8.0</a></li>				
-				<li><a href="http://www.model2code.com" target="blank">M2Flex</a></li>
-				<li><a href="http://www.nwiresoftware.com/" target="blank">nWire</a></li>
-				<li><a href="http://www.oxygenxml.com" target="blank">&lt;oXygen/&gt; XML Editor</a></li>
-				<li><a href="http://www.springsource.com/products/suite/sts" target="blank">SpringSource Tool Suite</a></li>
-				<li><a href="http://www.instantiations.com/windowtester/index.html" target="blank">WindowTester Pro</a></li>
-				<li><a href="http://wireframesketcher.com" target="blank">WireframeSketcher</a></li>
-				<li><a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 				
 		<div class="homeitem3col">
 			<h3>Best Open Source Developer Tool</h3>
 			<ul>
-				<li><a href="http://andrei.gmxhome.de/anyedit/index.html " target="blank">AnyEdit Tools</a></li>
-				<li><a href="http://andrei.gmxhome.de/skins/index.html" target="blank">Extended VS Presentation</a></li>
-				<li><a href="http://groovy.codehaus.org/Eclipse+Plugin" target="blank">Groovy-Eclipse</a></li>
-				<li><a href="http://www.safisystems.com" target="blank">SafiWorkshop</a></li>
-				<li><a href="http://www.umlet.com" target="blank">UMLet</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
 			<h3>Best EclipseRT Application</h3>
 			<ul>
-				<li><a href="http://www.actuate.com/products/iserver/iserver-enterprise/ " target="blank">BIRT iServer Enterprise</a></li>
-				<li><a href="http://www.poweredbypulse.com/" target="blank">Pulse 3.0</a></li>
-				<li><a href="http://redview.org" target="blank">redView</a></li>
-				<li><a href="http://www.springsource.org/dmserver" target="blank">SpringSource dm Server</a></li>
-				<li><a href="http://eclipsesource.com/en/products/" target="blank">Yoxos Eclipse Distribution</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 	
 		<div class="homeitem3col">
 			<h3>Best RCP Application</h3>
 			<ul>
-				<li><a href="http://www.bioclipse.net" target="blank">Bioclipse</a></li>
-				<li><a href="http://www.bonitasoft.com/products/overview.php" target="blank">Bonita Open Solution 5.0</a></li>
-				<li><a href="http://www.ditaworks.com" target="blank">DITAworks Eclipse Help Package</a></li>
-				<li><a href="http://jcryptool.sourceforge.net" target="blank">JCryp Tool</a></li>
-				<li><a href="http://www.postergenius.com" target="blank">PosterGenius</a></li>
-				<li><a href="http://www.pavone.com/structurebuilder_eclipse" target="blank">PAVONE Structure Builder</a></li>
-				<li><a href="http://tasktop.com" target="blank">Tasktop Pro</a></li>
+				<li><a href="http://www.eclipse.org" target="blank"></a></li>
 			</ul>
 		</div>
 		
@@ -108,8 +75,6 @@ ob_start();
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="winners10.php">2010 Winners</a></li>
-				<li><a href="judges10.php">2010 Judges</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
