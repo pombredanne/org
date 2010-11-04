@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Community Awards";
-	$pageKeywords	= "eclipse, awards, community, nomination, eclipsecon, 2010";
+	$pageKeywords	= "eclipse, awards, community, nomination, eclipsecon, 2011";
 	$pageAuthor		= "Lynn Gayowski";
 	
 	# Add page-specific Nav bars here
@@ -36,7 +36,7 @@
 		<p>
 			The Eclipse Community Awards recognize the best of the Eclipse community.  There are three award categories: 1) Individuals, 2) Eclipse Projects, and
 			3) Technologies and Products.  Award winners will be announced at
-			<a href="http://www.eclipse.org/go/EC10_web@awards">EclipseCon 2010</a>.
+			<a href="http://www.eclipsecon.org/">EclipseCon 2011</a>.
 		</p>
 		
 		<h3>Individual Awards</h3>
@@ -62,8 +62,8 @@
 		<p>
 			<ol>						
 				<li><strong>Most Innovative New Feature or Eclipse Project ("Shiny New Toy Award")</strong> - 
-				A feature added to an existing Eclipse project in 2009 or a new Eclipse project
-				introduced in 2009 that is used and loved by the community.</li>
+				A feature added to an existing Eclipse project in 2010 or a new Eclipse project
+				introduced in 2010 that is used and loved by the community.</li>
 				<li><strong>Most Open Project</strong> - An Eclipse project that best exemplifies the openness,
 				transparency and diversity expected of great open source projects. </li>	
 				</ol>
@@ -91,11 +91,11 @@
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 3, 2009</font></li>
-				<li><font color="#A9A9A9">Nominations close - January 29, 2010</font></li>
-				<li><font color="#A9A9A9">Voting begins for Individual & Project Awards - February 2, 2010</font></li>
-				<li><font color="#A9A9A9">Voting ends for Individual & Project Awards - February 26, 2010 at 5:00 pm EST</font></li>
-				<li>Awards Announced at EclipseCon 2010 - March 22, 2010</li>
+				<li><font color="#A9A9A9">Nominations open - December 2, 2010</font></li>
+				<li><font color="#A9A9A9">Nominations close - January 28, 2011</font></li>
+				<li><font color="#A9A9A9">Voting begins for Individual & Project Awards - February 1, 2011</font></li>
+				<li><font color="#A9A9A9">Voting ends for Individual & Project Awards - February 25, 2011 at 5:00 pm EST</font></li>
+				<li>Awards Announced at EclipseCon 2010 - March 21, 2011</li>
 			</ul>
 		</p>
 		
@@ -107,8 +107,6 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="winners10.php">2010 Winners</a></li>
-				<li><a href="judges10.php">2010 Judges</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
 				<li><a href="individual.php">Individual Nominees</a></li>
 				<li><a href="project.php">Project Nominees</a></li>
