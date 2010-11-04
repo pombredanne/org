@@ -54,7 +54,7 @@
  				answered the most questions in the <a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=89&S=84d05ba26b219892893183d865c7b633">
  				Newcomers forum</a>.</li>
 			</ol> 	
-			<a href="individual.php">Nominations are now closed for Individual Awards.</a>
+			<a href="individual.php">Make an individual award nomination</a>
 			<br>
 		</p>
 		
@@ -67,7 +67,7 @@
 				<li><strong>Most Open Project</strong> - An Eclipse project that best exemplifies the openness,
 				transparency and diversity expected of great open source projects. </li>	
 				</ol>
-			<a href="project.php">Nominations are now closed for Eclipse Project Awards.</a>
+			<a href="project.php">Make a project award nomination</a>
 			<br>
 
 		</p>
@@ -84,14 +84,14 @@
 				<li><strong>Best RCP Application</strong> - An end-user desktop application (not hosted at
 				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
 			</ol>
-			<a href="technology.php">Nominations are now closed for Technology Awards.</a>
+			<a href="technology.php">Make a technology award nomination.</a>
 			<br>
 		</p>
 		
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 2, 2010</font></li>
+				<li><font color="#A9A9A9">Nominations open - December 6, 2010</font></li>
 				<li><font color="#A9A9A9">Nominations close - January 28, 2011</font></li>
 				<li><font color="#A9A9A9">Voting begins for Individual & Project Awards - February 1, 2011</font></li>
 				<li><font color="#A9A9A9">Voting ends for Individual & Project Awards - February 25, 2011 at 5:00 pm EST</font></li>
