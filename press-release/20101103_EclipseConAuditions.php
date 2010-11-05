@@ -45,7 +45,7 @@
 		17, 2010. The winner of the EclipseCon Audition Sessions will receive a speaker slot at EclipseCon.</p>
 		
 		<p>As a reminder, November 17, 2010 is the deadline to be considered for one of EclipseCon's top five
-		early picks. The program committee will select 5 speakers from the proposals submited before November 17.
+		early picks. The program committee will select 5 speakers from the proposals submitted before November 17.
 		The final deadline for all submissions is November 30, 2010.</p>
 		
 		<p><a href="http://www.eclipsecon.org/2011/">EclipseCon 2011</a> is March 21-24 in Santa Clara,
