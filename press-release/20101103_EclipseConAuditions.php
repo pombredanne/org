@@ -58,7 +58,7 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="20101103_EclipseConAuditions.php">What are EclipseCon Auditions?</a></li>							
-				<li><a href="https://www2.gotomeeting.com/register/646158018">Watch the EclipseCon Auditions</a></li>
+				<li><a href="http://live.eclipse.org/node/989">Watch the EclipseCon Auditions</a></li>
 				<li><a href="../../community/EclipseConAuditions2010.php">EclipseCon Audition Agenda</a></li>
 				<li><a href="http://www.eclipsecon.org/2011/submissions/?page=submissions">Propose an EclipseCon Talk</a></li>
 			</ul>
