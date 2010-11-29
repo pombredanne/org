@@ -84,6 +84,22 @@ function switchMenu(obj) {
 		</ul>
 		</p>
 		</div>
+		
+		<h3>Top Newcomer Evangelist</h3>
+
+		<p><a href="javascript:switchMenu('ContributorName');" title="Description">
+		<img src="http://www.eclipse.org/newsgroups/images/plus.gif" alt="Description" title="Description">
+			Your Newcomer Evangelist Nomination</a>
+		</p>
+		<div id="ContributorName" class="switchcontent">
+		<p>
+		<ul>
+			<li>
+			Comment
+			</li>
+		</ul>
+		</p>
+		</div>
 
 		<p>
 		To read comments submitted for each candidate, click on their name.
