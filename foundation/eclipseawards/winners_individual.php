@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Individual Community Awards Hall of Fame";
+	$pageTitle 		= "Eclipse Community Individual Awards Hall of Fame";
 	$pageKeywords	= "eclipse, foundation, community, award, winners, individual";
 	$pageAuthor		= "Lynn Gayowski";
 	
