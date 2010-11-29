@@ -39,70 +39,22 @@
 		
 		<h3>Individual Awards</h3>	
 		<h4>Description</h2>
-		<h4>Nominate</h2>
-		<h4>Current Nominees</h2>
+		<h4><a href="nominatenew.php">Nominate</a></h2>
+		<h4><a href="individual.php">Current Nominees</a></h2>
 		<h4>Past Winners</h2>
 		
 		<h3>Project Awards</h3>
 		<h4>Description</h2>
-		<h4>Nominate</h2>
-		<h4>Current Nominees</h2>
+		<h4><a href="nominatenew.php">Nominate</a></h2>
+		<h4><a href="project.php">Current Nominees</a></h2>
 		<h4>Past Winners</h2>
 		
 		<h3>Technology Awards</h3>
 		<h4>Description</h2>
-		<h4>Nominate</h2>
-		<h4>Current Nominees</h2>
+		h4><a href="nominatenew.php">Nominate</a></h2>
+		<h4><a href="technology.php">Current Nominees</a></h2>
 		<h4>Past Winners</h2>		
-		
-		<p>
-			<ol>
-				<li><strong>Top Committer</strong> - The Eclipse committer who best exemplifies support for the
-				community through forums, Bugzilla, tutorials, conference presentations, blogs and other areas.</li>
-				<li><strong>Top Contributor</strong> - The individual who best exemplifies support for
-				the Eclipse community through forums, submission of patches, comments on bugs, tutorials, conference
-				presentations, blogs, IRC and other areas. Contributors are the individuals that participate due to their
-				passion for the community and technology.  Typically, they are not paid for their
-				Eclipse contributions.</li>
- 				<li><strong>Top Newcomer Evangelist</strong> - The individual who best exemplifies the welcoming
- 				of new people into the Eclipse community, such as through answering questions on the Newcomers forum,
- 				blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media
- 				sites and helping on IRC.</li>	
-			</ol> 	
-			<a href="individual.php">Make an individual award nomination</a>
-			<br>
-		</p>
-		
-		<h3>Eclipse Project Awards</h3>
-		<p>
-			<ol>						
-				<li><strong>Most Innovative New Feature or Eclipse Project ("Shiny New Toy Award")</strong> - 
-				A feature added to an existing Eclipse project in 2010 or a new Eclipse project
-				introduced in 2010 that is used and loved by the community.</li>
-				<li><strong>Most Open Project</strong> - An Eclipse project that best exemplifies the openness,
-				transparency and diversity expected of great open source projects. </li>	
-				</ol>
-			<a href="project.php">Make a project award nomination</a>
-			<br>
-
-		</p>
-		
-		<h3>Technology Awards</h3>
-		<p>
-			<ol>						
-				<li><strong>Best Commercial Developer Tool</strong> - A commercial product that provides an
-				innovative, high quality tool for software developers.</li>
-				<li><strong>Best Open Source Developer Tool</strong> - An open source project (not hosted at
-				Eclipse) that provides an innovative, high quality tool for software developers.</li>
-				<li><strong>Best EclipseRT Application</strong> - An application, commercial product or open
-				source project (not hosted at Eclipse) that illustrates the most innovative use of EclipseRT technology.</li>
-				<li><strong>Best RCP Application</strong> - An end-user desktop application (not hosted at
-				 Eclipse) that illustrates the most innovative use of Eclipse RCP.</li>
-			</ol>
-			<a href="technology.php">Make a technology award nomination.</a>
-			<br>
-		</p>
-		
+			
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
