@@ -31,7 +31,6 @@
 ob_start();
 ?>		
 <link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
-	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 
@@ -46,14 +45,23 @@ ob_start();
 			<p>
 				<br>
 				<a href="index.php">See More Information on the Eclipse Community Awards</a>
-			</p>
-				
+			</p>	
 		</div>	
-		</div>		
+	</div>		
 		
-	</div>
-	
 	<!-- remove the entire <div> tag to omit the right column!  -->
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="individual.php">Individual Nominees</a></li>
+				<li><a href="project.php">Project Nominees</a></li>
+				<li><a href="technology.php">Technology Nominees</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
+			</ul>
+		</div>
+	</div>
 
 <?php
 	$html = ob_get_contents();
