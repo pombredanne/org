@@ -57,7 +57,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li class="winner"><b>Alain Magliore (Winner)</b></li>
+				<li class="winner"><b>Alain Magloire (Winner)</b></li>
 				<li class="finalist">Ed Merks</li>
 				<li class="finalist">Jeff McAffer</li>				
 			</ul>
