@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Project Community Awards Hall of Fame";
+	$pageTitle 		= "Eclipse Community Project Awards Hall of Fame";
 	$pageKeywords	= "eclipse, foundation, community, award, winners, project";
 	$pageAuthor		= "Lynn Gayowski";
 	
@@ -38,8 +38,8 @@ ob_start();
 		<div class="homeitem3col">
 			<table>
 				<tr>
-					<td><img src="images/individual/Chris_Aniszczyk.jpg" width="75"></td><td><b>Chris Aniszczyk</b><br>Top Committer 2009<br>Top Ambassador 2007</td>
-					<td><img src="images/individual/Nick_Boldt.png" width="75"></td><td><b>Nick Boldt</b><br>Top Ambassador 2009</td>
+					<td><img src="images/project/e4.png" width="75"></td><td><b>e4</b><br>Most Open Project</td>
+					<td><img src="images/project/Xtext.png" width="75"></td><td><b>Textual Modeling Framework (TMF) Xtext</b><br>Most Innovative New Feature or Eclilpse Project 2010</td>
 				</tr>
 			</table>
 			
