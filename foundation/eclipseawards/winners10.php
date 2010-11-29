@@ -131,6 +131,10 @@ ob_start();
 			<h6>Awards Navigation</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="individual.php">Individual Nominees</a></li>
+				<li><a href="project.php">Project Nominees</a></li>
+				<li><a href="technology.php">Technology Nominees</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
 	</div>
