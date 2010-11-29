@@ -39,9 +39,9 @@
 		
 		<h3>Past Winners by Category</h3>
 		<ul class="midlist">
-			<li><a href="winners_individual.php">Eclipse Community Individual Awards Winners</li>
-			<li><a href="winners_project.php">Eclipse Community Project Awards Winners</li>
-			<li><a href="winners_technology.php">Eclipse Community Technology Awards Winners</li>
+			<li><a href="winners_individual.php">Eclipse Community Individual Awards Winners</a></li>
+			<li><a href="winners_project.php">Eclipse Community Project Awards Winners</a></li>
+			<li><a href="winners_technology.php">Eclipse Community Technology Awards Winners</a></li>
 		</ul>		
 		
 		<h3>Past Winners by Year</h3>
