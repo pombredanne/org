@@ -50,7 +50,7 @@
 		<p>
 			<a href="individual.php">Current Nominees</a>
 			&nbsp; &nbsp; | &nbsp; &nbsp;
-			<a href="winners.individual.php">Past Winners</a>
+			<a href="winners_individual.php">Past Winners</a>
 		</p>		
 		
 		<h2>Project Nominations</h2>
@@ -61,7 +61,7 @@
 		<p>
 			<a href="project.php">Current Nominees</a>
 			&nbsp; &nbsp; | &nbsp; &nbsp;
-			<a href="winners.project.php">Past Winners</a>
+			<a href="winners_project.php">Past Winners</a>
 		</p>
 		
 		<h2>Technology Nominations</h2>
@@ -74,7 +74,7 @@
 		<p>
 			<a href="technology.php">Current Nominees</a>
 			&nbsp; &nbsp; | &nbsp; &nbsp;
-			<a href="winners.technology.php">Past Winners</a>
+			<a href="winners_technology.php">Past Winners</a>
 		</p>
 		
 		<h2>Determining Winners</h2>
