@@ -42,19 +42,22 @@
 		<h4><a href="nominatenew.php">Nominate</a></h2>
 		<h4><a href="individual.php">Current Nominees</a></h2>
 		<h4>Past Winners</h2>
+		<br>
 		
 		<h3>Project Awards</h3>
 		<h4>Description</h2>
 		<h4><a href="nominatenew.php">Nominate</a></h2>
 		<h4><a href="project.php">Current Nominees</a></h2>
 		<h4>Past Winners</h2>
+		<br>
 		
 		<h3>Technology Awards</h3>
 		<h4>Description</h2>
-		h4><a href="nominatenew.php">Nominate</a></h2>
+		<h4><a href="nominatenew.php">Nominate</a></h2>
 		<h4><a href="technology.php">Current Nominees</a></h2>
 		<h4>Past Winners</h2>		
-			
+		<br>
+		
 		<h3>Important Dates</h3>
 		<p>
 			<ul>
