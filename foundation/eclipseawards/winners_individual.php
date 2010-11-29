@@ -31,43 +31,42 @@
 ob_start();
 ?>		
 <link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
-	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1><?= $pageTitle ?></h1>
 
 		<div class="homeitem3col">
 			<table>
 				<tr>
-					<td><img src="images/individual/Chris_Aniszczyk.jpg" width="75"></td><td><b>Chris Aniszczyk</b><br>Top Committer 2009<br>Top Ambassador 2007</td>
-					<td><img src="images/individual/Nick_Boldt.png" width="75"></td><td><b>Nick Boldt</b><br>Top Ambassador 2009</td>
+					<td><img src="images/individual/Chris_Aniszczyk.jpg" width="60"></td><td><b>Chris Aniszczyk</b><br>Top Committer 2009<br>Top Ambassador 2007</td>
+					<td><img src="images/individual/Nick_Boldt.png" width="60"></td><td><b>Nick Boldt</b><br>Top Ambassador 2009</td>
 				</tr>
 				<tr>
-					<td><img src="images/individual/Ed_Burnette.jpg" width="75"></td><td><b>Ed Burnette</b><br>Top Ambassador 2006</td>			
-					<td><img src="images/individual/Benjamin_Cabe.png" width="75"></td><td><b>Benjamin Cab&eacute;</b><br>Top Contributor 2009</td>			
+					<td><img src="images/individual/Ed_Burnette.jpg" width="60"></td><td><b>Ed Burnette</b><br>Top Ambassador 2006</td>			
+					<td><img src="images/individual/Benjamin_Cabe.png" width="60"></td><td><b>Benjamin Cab&eacute;</b><br>Top Contributor 2009</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Walter_Harley.jpg" width="75"></td><td><b>Walter Harley</b><br>Top Newcomer Evangelist 2010</td>			
-					<td><img src="images/individual/Blank_Picture.png" width="75"></td><td><b>Alain Magloire</b><br>Top Committer 2006</td>			
+					<td><img src="images/individual/Walter_Harley.jpg" width="60"></td><td><b>Walter Harley</b><br>Top Newcomer Evangelist 2010</td>			
+					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Alain Magloire</b><br>Top Committer 2006</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Daniel_Megert.jpg" width="75"></td><td><b>Daniel Megert</b><br>Top Newcomer Evangelist 2007</td>			
-					<td><img src="images/individual/Ed_Merks.jpg" width="75"></td><td><b>Ed Merks</b><br>Top Newcomer Evangelist 2009<br>Top Ambassador 2008<br>Top Committer 2007</td>			
+					<td><img src="images/individual/Daniel_Megert.jpg" width="60"></td><td><b>Daniel Megert</b><br>Top Newcomer Evangelist 2007</td>			
+					<td><img src="images/individual/Ed_Merks.jpg" width="60"></td><td><b>Ed Merks</b><br>Top Newcomer Evangelist 2009<br>Top Ambassador 2008<br>Top Committer 2007</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Kimberley_Peter.jpg" width="75"></td><td><b>Kimberley Peter</b><br>Top Contributor 2007</td>			
-					<td><img src="images/individual/Eric_Rizzo.jpg" width="75"></td><td><b>Eric Rizzo</b><br>Top Newcomer Evangelist 2008</td>			
+					<td><img src="images/individual/Kimberley_Peter.jpg" width="60"></td><td><b>Kimberley Peter</b><br>Top Contributor 2007</td>			
+					<td><img src="images/individual/Eric_Rizzo.jpg" width="60"></td><td><b>Eric Rizzo</b><br>Top Newcomer Evangelist 2008</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Tom_Schindl.png" width="75"></td><td><b>Tom Schindl</b><br>Top Contributor 2007</td>			
-					<td><img src="images/individual/Eike_Stepper.png" width="75"></td><td><b>Eike Stepper</b><br>Top Committer 2010</td>			
+					<td><img src="images/individual/Tom_Schindl.png" width="60"></td><td><b>Tom Schindl</b><br>Top Contributor 2007</td>			
+					<td><img src="images/individual/Eike_Stepper.png" width="60"></td><td><b>Eike Stepper</b><br>Top Committer 2010</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Remy_Suen.jpeg" width="75"></td><td><b>Remy Chi Jian Suen</b><br>Top Contributor 2008</td>			
-					<td><img src="images/individual/Lars_Vogel.png" width="75"></td><td><b>Lars Vogel</b><br>Top Contributor 2010</td>			
+					<td><img src="images/individual/Remy_Suen.jpeg" width="60"></td><td><b>Remy Chi Jian Suen</b><br>Top Contributor 2008</td>			
+					<td><img src="images/individual/Lars_Vogel.png" width="60"></td><td><b>Lars Vogel</b><br>Top Contributor 2010</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Linda_Watson.jpeg" width="75"></td><td><b>Linda Watson</b><br>Top Contributor 2006</td>			
-					<td><img src="images/individual/Paul_Webster.png" width="75"></td><td><b>Paul Webster</b><br>Top Committer 2009</td>			
+					<td><img src="images/individual/Linda_Watson.jpeg" width="60"></td><td><b>Linda Watson</b><br>Top Contributor 2006</td>			
+					<td><img src="images/individual/Paul_Webster.png" width="60"></td><td><b>Paul Webster</b><br>Top Committer 2009</td>			
 				</tr>
 			</table>
 			
@@ -77,11 +76,21 @@ ob_start();
 			</p>
 				
 		</div>	
-		</div>		
-		
 	</div>
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="individual.php">Individual Nominees</a></li>
+				<li><a href="project.php">Project Nominees</a></li>
+				<li><a href="technology.php">Technology Nominees</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
+			</ul>
+		</div>
+	</div>
 
 <?php
 	$html = ob_get_contents();
