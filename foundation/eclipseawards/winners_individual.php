@@ -69,11 +69,6 @@ ob_start();
 					<td><img src="images/individual/Paul_Webster.png" width="60"></td><td><b>Paul Webster</b><br>Top Committer 2009</td>			
 				</tr>
 			</table>
-			
-			<p>
-				<br>
-				<a href="index.php">See More Information on the Eclipse Community Awards</a>
-			</p>
 				
 		</div>	
 	</div>
