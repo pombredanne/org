@@ -42,10 +42,6 @@ ob_start();
 				</tr>
 			</table>
 			
-			<p>
-				<br>
-				<a href="index.php">See More Information on the Eclipse Community Awards</a>
-			</p>	
 		</div>	
 	</div>		
 		
