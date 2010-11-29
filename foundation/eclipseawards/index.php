@@ -60,12 +60,12 @@
 			<a href="project.php">Current Nominees</a>
 		</p>
 		
-		<h2>Mae a Technology Nomination</h2>
+		<h2>Make a Technology Nomination</h2>
 		<ul class="midlist">
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Application</a> - An application that illustrates the most innovative use of Eclipse technology.</li>	
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Developer Tool</a> - A commercial or open source product that provides an innovative, high quality tool for software developers.</li>
-			<li><a href="http://marketplace.eclipse.org" target="blank">Best Mobile Product</a> - An Eclipse-based product for mobile devices that </li>
-			<li><a href="http://marketplace.eclipse.org" target="blank">Best Modeling Product</a> - An Eclipse-based modeling product that</li>
+			<li><a href="http://marketplace.eclipse.org" target="blank">Best Mobile Product</a> - An Eclipse-based product that best addresses the needs of mobile developers. </li>
+			<li><a href="http://marketplace.eclipse.org" target="blank">Best Modeling Product</a> - An Eclipse-based product that best addresses the needs of modeling developers.</li>
 		</ul>
 		<p>
 			<a href="technology.php">Current Nominees</a>
