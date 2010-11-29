@@ -41,7 +41,7 @@
 			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 
-		<h2>Individual Nominations</h2>
+		<h2>Make an Individual Nomination</h2>
 		<ul class="midlist">
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296856" target="blank">Top Committer</a> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.</li>
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Top Contributor</a> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.</li>
@@ -49,22 +49,18 @@
 		</ul>		
 		<p>
 			<a href="individual.php">Current Nominees</a>
-			&nbsp; &nbsp; | &nbsp; &nbsp;
-			<a href="winners_individual.php">Past Winners</a>
 		</p>		
 		
-		<h2>Project Nominations</h2>
+		<h2>Make a Project Nomination</h2>
 		<ul class="midlist">
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296861" target="blank">Most Innovative New Feature or Project</a> - A feature added to an existing Eclipse project in 2010 or a new Eclipse project introduced in 2010 that is used and loved by the community.</li>
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296860" target="blank">Most Open Project</a> - An Eclipse project that best exemplifies the openness, transparency and diversity expected of great open source projects.</li>
 		</ul>
 		<p>
 			<a href="project.php">Current Nominees</a>
-			&nbsp; &nbsp; | &nbsp; &nbsp;
-			<a href="winners_project.php">Past Winners</a>
 		</p>
 		
-		<h2>Technology Nominations</h2>
+		<h2>Mae a Technology Nomination</h2>
 		<ul class="midlist">
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Application</a> - An application that illustrates the most innovative use of Eclipse technology.</li>	
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Developer Tool</a> - A commercial or open source product that provides an innovative, high quality tool for software developers.</li>
@@ -73,8 +69,6 @@
 		</ul>
 		<p>
 			<a href="technology.php">Current Nominees</a>
-			&nbsp; &nbsp; | &nbsp; &nbsp;
-			<a href="winners_technology.php">Past Winners</a>
 		</p>
 		
 		<h2>Determining Winners</h2>
@@ -86,6 +80,9 @@
 		</p>	
 		
 		<h2>Past Winners</h2>
+		<p>
+			<a href="pastwinners.php">See the Past Winners of the Eclipse Community Awards</a>
+		</p>
 		<p>
 			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
 			diversity of award winners, we have decided that nominees are not eligible in any category
