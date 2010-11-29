@@ -39,18 +39,18 @@
 		
 		<h3>Past Winners by Category</h3>
 		<ul class="midlist">
-			<li><a href="winners_individual.php">Eclipse Community Individual Awards Winners</a></li>
-			<li><a href="winners_project.php">Eclipse Community Project Awards Winners</a></li>
-			<li><a href="winners_technology.php">Eclipse Community Technology Awards Winners</a></li>
+			<li><a href="winners_individual.php">Individual Award Winners</a></li>
+			<li><a href="winners_project.php">Project Award Winners</a></li>
+			<li><a href="winners_technology.php">Technology Award Winners</a></li>
 		</ul>		
 		
 		<h3>Past Winners by Year</h3>
 		<ul class="midlist">
-			<li><a href="winners10.php">2010 Eclipse Community Awards Winners</li>
-			<li><a href="winners09.php">2009 Eclipse Community Awards Winners</li>
-			<li><a href="winners08.php">2008 Eclipse Community Awards Winners</li>
-			<li><a href="winners07.php">2007 Eclipse Community Awards Winners</li>
-			<li><a href="winners06.php">2006 Eclipse Community Awards Winners</li>
+			<li><a href="winners10.php">2010 Award Winners</li>
+			<li><a href="winners09.php">2009 Award Winners</li>
+			<li><a href="winners08.php">2008 Award Winners</li>
+			<li><a href="winners07.php">2007 Award Winners</li>
+			<li><a href="winners06.php">2006 Award Winners</li>
 		</ul>
 	</div>
 
