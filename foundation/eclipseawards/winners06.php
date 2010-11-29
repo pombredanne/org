@@ -46,14 +46,6 @@ ob_start();
 		</div>		
 		<div class="homeitem3col">
 
-			<h3>Top Contributor</h3>
-			<ul>
-				<li class="winner"><b>Linda Watson (Winner)</b></li>
-				<li class="finalist">Gunnar Wagenknecht</li>
-				<li class="finalist">Mik Kersten</li>
-				<br>
-			</ul>
-		</div>
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
@@ -63,18 +55,39 @@ ob_start();
 			</ul>
 		</div>
 
+			<h3>Top Contributor</h3>
+			<ul>
+				<li class="winner"><b>Linda Watson (Winner)</b></li>
+				<li class="finalist">Gunnar Wagenknecht</li>
+				<li class="finalist">Mik Kersten</li>
+				<br>
+			</ul>
+		</div>
+
 	<h2>Technology Award Winners</h2>
 		<p>Presented below is the list of award winners and finalists for each of the technology awards catagories.</p>
 		<div class="homeitem3col">
-			<h3>Best Open Source RCP Application</h3>
+		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
-				<li class="winner"><a href="http://gumtree.sourceforge.net/"><b>Gumtree</a> (Winner)</b></li>
-				<li class="finalist"><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig)</a></li>
+				<li class="winner"><a href="http://www.ji.co.za"><b>Compass Group Southern Africa via Jigsaw Interactive</a> (Winner)</b></li>
 				<br>
 			</ul>
 		</div>		
 		<div class="homeitem3col">
-
+		<h3>Best Commerical Eclipse-Based Developer Tool</h3>
+			<ul>
+				<li class="winner"><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/studio/"><b>BEA Workshop Studio 3.0</a> (Winner)</b></li>
+				<li class="finalist"><a href="http://www.exadel.com/web/portal/products">Exadel Studio Pro 3.5</a></li>
+				<li class="finalist"><a href="http://www.qnx.com/products/development/">QNX Momentics Development Suite Professional Edition</a></li>
+			</ul>
+		</div>
+		<div class="homeitem3col">
+			<h3>Best Open Source Eclipse-Based Developer Tool</h3>
+			<ul>
+				<li class="winner"><a href="http://www.radrails.org/"><b>RadRails</a> (Winner)</b></li>	
+			</ul>
+		</div>
+		<div class="homeitem3col">
 			<h3>Best Commercial RCP Application</h3>
 			<ul>
 				<li class="winner"><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php"><b>Lombardi Software TeamWorks</a> (Winner)</b></li>
@@ -83,26 +96,13 @@ ob_start();
 			</ul>
 		</div>
 		<div class="homeitem3col">
-			<h3>Best Open Source Eclipse based developer tool</h3>
+			<h3>Best Open Source RCP Application</h3>
 			<ul>
-				<li class="winner"><a href="http://www.radrails.org/"><b>RadRails</a> (Winner)</b></li>	
-			</ul>
-		</div>
-		<div class="homeitem3col">
-		<h3>Best Commerical Eclipse based developer tool</h3>
-			<ul>
-				<li class="winner"><a href="http://www.bea.com/framework.jsp?CNT=index.htm&FP=/content/products/workshop/studio/"><b>BEA Workshop Studio 3.0</a> (Winner)</b></li>
-				<li class="finalist"><a href="http://www.exadel.com/web/portal/products">Exadel Studio Pro 3.5</a></li>
-				<li class="finalist"><a href="http://www.qnx.com/products/development/">QNX Momentics Development Suite Professional Edition</a></li>
-			</ul>
-		</div>
-		<div class="homeitem3col">
-		<h3>Best Deployment of Eclipse technology in an enterprise</h3>
-			<ul>
-				<li class="winner"><a href="http://www.ji.co.za"><b>Compass Group Southern Africa via Jigsaw Interactive</a> (Winner)</b></li>
+				<li class="winner"><a href="http://gumtree.sourceforge.net/"><b>Gumtree</a> (Winner)</b></li>
+				<li class="finalist"><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig)</a></li>
 				<br>
 			</ul>
-		</div>			
+		</div>
 
 		<br /><br />
 	</div>
