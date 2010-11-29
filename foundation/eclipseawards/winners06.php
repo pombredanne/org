@@ -41,7 +41,6 @@ ob_start();
 				<li class="winner"><b>Ed Burnette (Winner)</b></li>
 				<li class="finalist">Erich Gamma</li>
 				<li class="finalist">Pat McCarthy</li>				
-				<br>
 			</ul>
 		</div>		
 		<div class="homeitem3col">
@@ -60,7 +59,6 @@ ob_start();
 				<li class="winner"><b>Linda Watson (Winner)</b></li>
 				<li class="finalist">Gunnar Wagenknecht</li>
 				<li class="finalist">Mik Kersten</li>
-				<br>
 			</ul>
 		</div>
 
