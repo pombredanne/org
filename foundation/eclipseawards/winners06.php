@@ -70,7 +70,6 @@ ob_start();
 		<h3>Best Deployment of Eclipse Technology in an Enterprise</h3>
 			<ul>
 				<li class="winner"><a href="http://www.ji.co.za"><b>Compass Group Southern Africa via Jigsaw Interactive</a> (Winner)</b></li>
-				<br>
 			</ul>
 		</div>		
 		<div class="homeitem3col">
@@ -92,7 +91,6 @@ ob_start();
 			<ul>
 				<li class="winner"><a href="http://www.lombardisoftware.com/bpm-software-teamworks.php"><b>Lombardi Software TeamWorks</a> (Winner)</b></li>
 				<li class="finalist"><a href="http://www.logicmindguide.com/demo.htm ">Logic MindGuide - Plan&Decide</a></li>
-				<br>
 			</ul>
 		</div>
 		<div class="homeitem3col">
@@ -100,7 +98,6 @@ ob_start();
 			<ul>
 				<li class="winner"><a href="http://gumtree.sourceforge.net/"><b>Gumtree</a> (Winner)</b></li>
 				<li class="finalist"><a href="http://udig.refractions.net/">User-friendly Desktop Internet GIS (uDig)</a></li>
-				<br>
 			</ul>
 		</div>
 
