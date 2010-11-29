@@ -33,25 +33,31 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<h2>Individual Awards</h2>
-		
 		<p>
 			Individuals, projects and technologies may be nominated by anyone in each category.  Self nominations
 			are welcome. Nominations open December 6, 2010 and close January 28,
 			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 
-		<h2>Make an Individual Nomination</h2>
+		<h2>Individual Nominations</h2>
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296856" target="blank">Nominate a Top Committer</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Nominate a Top Contributor</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Top Newcomer Evangelist</a></li>		
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296856" target="blank">Top Committer</a> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Top Contributor</a> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296857" target="blank">Top Newcomer Evangelist</a> - The individual who best welcomes new people into the Eclipse community through the Newcomers forum, blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media sites and IRC.</li>		
 		</ul>
 		
 		<h2>Make a Project Nomination</h2>
 		<ul class="midlist">
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296861" target="blank">Nominate for the Most Innovative New Feature or Project</a></li>
-			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296860" target="blank">Nominate for the Most Open Project</a></li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296861" target="blank">Most Innovative New Feature or Project</a> - A feature added to an existing Eclipse project in 2010 or a new Eclipse project introduced in 2010 that is used and loved by the community.</li>
+			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296860" target="blank">Most Open Project</a> - An Eclipse project that best exemplifies the openness, transparency and diversity expected of great open source projects.</li>
+		</ul>
+		
+		<h2>Make a Technology Nomination</h2>
+		<ul class="midlist">
+			<li><a href="http://marketplace.eclipse.org" target="blank">Best Application</a> - An application that illustrates the most innovative use of Eclipse technology.</li>	
+			<li><a href="http://marketplace.eclipse.org" target="blank">Best Developer Tool</a> - A commercial or open source product that provides an innovative, high quality tool for software developers.</li>
+			<li><a href="http://marketplace.eclipse.org" target="blank">Best Mobile Product</a> - An Eclipse-based product for mobile devices that </li>
+			<li><a href="http://marketplace.eclipse.org" target="blank">Best Modeling Product</a> - An Eclipse-based modeling product that</li>
 		</ul>
 		
 		<h2>Determining Winners</h2>
