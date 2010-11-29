@@ -41,7 +41,7 @@ ob_start();
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Apache Directory Studio</b><br>Best Open Source RCP Application 2009</td>
 				</tr>
 				<tr>
-					<td><img src="iimages/individual/Blank_Picture.png" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006</td>
+					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006</td>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
 				</tr>
 				<tr>
@@ -83,7 +83,7 @@ ob_start();
 												
 				</tr>		
 				<tr>
-					<td><img src="iimages/individual/Blank_Picture.png" width="60"></td><td><b>TIBCO Business Studio</b><br>Best Commercial RCP Application 2007</td>		
+					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>TIBCO Business Studio</b><br>Best Commercial RCP Application 2007</td>		
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Wind River Workbench</b><br>Best Commercial Developer Tool 2008</td>																
 				</tr>
 				<tr>			
