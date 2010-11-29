@@ -37,6 +37,14 @@
 			Congratulations to all past winners of the Eclipse Community Awards.
 		</p>
 		
+		<h3>Past Winners by Category</h3>
+		<ul class="midlist">
+			<li><a href="winners_individual.php">Eclipse Community Individual Awards Winners</li>
+			<li><a href="winners_project.php">Eclipse Community Project Awards Winners</li>
+			<li><a href="winners_technology.php">Eclipse Community Technology Awards Winners</li>
+		</ul>		
+		
+		<h3>Past Winners by Year</h3>
 		<ul class="midlist">
 			<li><a href="winners10.php">2010 Eclipse Community Awards Winners</li>
 			<li><a href="winners09.php">2009 Eclipse Community Awards Winners</li>
