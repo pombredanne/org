@@ -24,7 +24,7 @@
 		
 		<h2>Community Bulletin</h2>
 
-		<p>The EclipseCon Program Committee is holding another series of auditions on December&nbsp;15, 2010.
+		<p>The EclipseCon program committee is holding another series of auditions on December&nbsp;15, 2010.
 		 If you're interested in speaking at EclipseCon, the audition sessions are your chance to present a short
 		 version of your talk proposal to the program committee and the Eclipse community.  These auditions are
 		 your last chance to demonstrate ideas that the words in your submission couldn't fully capture.
