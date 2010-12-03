@@ -37,57 +37,57 @@ ob_start();
 		<div class="homeitem3col">
 			<table>
 				<tr>
-					<td><img src="images/technology/Acceleo.jpg" width="60"></td><td><b>Acceleo</b><br>Best Open Source Developer Tool 2009</td>
-					<td><img src="images/technology/ApacheDirStudio.jpeg" width="60"></td><td><b>Apache Directory Studio</b><br>Best Open Source RCP Application 2009</td>
+					<td><img src="images/technology/Acceleo.jpg" width="60"></td><td><b>Acceleo</b><br>Best Open Source Developer Tool 2009<br><br></td>
+					<td><img src="images/technology/ApacheDirStudio.jpeg" width="60"></td><td><b>Apache Directory Studio</b><br>Best Open Source RCP Application 2009<br><br></td>
 				</tr>
 				<tr>
-					<td><img src="images/technology/BEA.gif" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006</td>
-					<td><img src="images/technology/BredexGUIdancer.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
+					<td><img src="images/technology/BEA.gif" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006<br><br></td>
+					<td><img src="images/technology/BredexGUIdancer.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010<br><br></td>
 				</tr>
 				<tr>
-					<td><img src="images/technology/ChordScaleGen.png" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009</td>
-					<td><img src="images/technology/CompassGroup.jpg" width="60"></td><td><b>Compass Group Southern Africa via Jigsaw Interactive</b><br>Best Deployment of Eclipse Technology in an Enterprise 2006</td>
+					<td><img src="images/technology/ChordScaleGen.png" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009<br><br></td>
+					<td><img src="images/technology/CompassGroup.jpg" width="60"></td><td><b>Compass Group Southern Africa via Jigsaw Interactive</b><br>Best Deployment of Eclipse Technology in an Enterprise 2006<br><br></td>
 				</tr>
 				<tr>	
-					<td><img src="images/technology/Cyrano.jpeg" width="60"></td><td><b>CYRANO</b><br>Best Commercial Equinox Application 2008</td>
-					<td><img src="images/technology/EclEmma.gif" width="60"></td><td><b>EclEmma</b><br>Best Open Source Developer Tool 2008</td>
+					<td><img src="images/technology/Cyrano.jpeg" width="60"></td><td><b>CYRANO</b><br>Best Commercial Equinox Application 2008<br><br></td>
+					<td><img src="images/technology/EclEmma.gif" width="60"></td><td><b>EclEmma</b><br>Best Open Source Developer Tool 2008<br><br></td>
 				</tr>
 				<tr>	
-					<td><img src="images/technology/eclipse-cs.png" width="60"></td><td><b>eclipse-cs Checkstyle Plugin</b><br>Best Open Source Developer Tool 2007</td>
-					<td><img src="images/technology/Groovy.png" width="60"></td><td><b>Groovy-Eclipse</b><br>Best Open Source Developer Tool 2010</td>
+					<td><img src="images/technology/eclipse-cs.png" width="60"></td><td><b>eclipse-cs Checkstyle Plugin</b><br>Best Open Source Developer Tool 2007<br><br></td>
+					<td><img src="images/technology/Groovy.png" width="60"></td><td><b>Groovy-Eclipse</b><br>Best Open Source Developer Tool 2010<br><br></td>
 				</tr>
 				<tr>
-					<td><img src="images/technology/GumTree.png" width="60"></td><td><b>Gumtree</b><br>Best Open Source RCP Application 2006</td>	
-					<td><img src="images/technology/Instantiations.jpg" width="60"></td><td><b>Instantiations WindowBuilder Pro</b><br>Best Commercial Developer Tool 2009</td>			
+					<td><img src="images/technology/GumTree.png" width="60"></td><td><b>Gumtree</b><br>Best Open Source RCP Application 2006<br><br></td>	
+					<td><img src="images/technology/Instantiations.jpg" width="60"></td><td><b>Instantiations WindowBuilder Pro</b><br>Best Commercial Developer Tool 2009<br><br></td>			
 				</tr>
 				<tr>
-					<td><img src="images/technology/JPMorgan.gif" width="60"></td><td><b>JPMorgan Chase</b><br>Best Deployment of Eclipse Technology in an Enterprise 2007</td>			
-					<td><img src="images/technology/Lombardi.jpeg" width="60"></td><td><b>Lombardi Software TeamWorks</b><br>Best Commercial RCP Application 2006</td>			
+					<td><img src="images/technology/JPMorgan.gif" width="60"></td><td><b>JPMorgan Chase</b><br>Best Deployment of Eclipse Technology in an Enterprise 2007<br><br></td>			
+					<td><img src="images/technology/Lombardi.jpeg" width="60"></td><td><b>Lombardi Software TeamWorks</b><br>Best Commercial RCP Application 2006<br><br></td>			
 				</tr>
 				<tr>
-					<td><img src="images/technology/ModuleFusion.jpg" width="60"></td><td><b>ModuleFusion</b><br>Best Open Source Equinox Application 2009</td>
-					<td><img src="images/technology/MyTourbook.jpeg" width="60"></td><td><b>MyTourbook</b><br>Best Open Source RCP Application 2008</td>			
+					<td><img src="images/technology/ModuleFusion.jpg" width="60"></td><td><b>ModuleFusion</b><br>Best Open Source Equinox Application 2009<br><br></td>
+					<td><img src="images/technology/MyTourbook.jpeg" width="60"></td><td><b>MyTourbook</b><br>Best Open Source RCP Application 2008<br><br></td>			
 				</tr>
 				<tr>
-					<td><img src="images/technology/ProSyst.jpeg" width="60"></td><td><b>ProSyst mBedded Server Smart Home Extension</b><br>Best Commercial Equinox Application 2009</td>			
-					<td><img src="images/technology/PSICAT.gif" width="60"></td><td><b>PSICAT</b><br>Best Open Source RCP Application 2007</td>						
+					<td><img src="images/technology/ProSyst.jpeg" width="60"></td><td><b>ProSyst mBedded Server Smart Home Extension</b><br>Best Commercial Equinox Application 2009<br><br></td>			
+					<td><img src="images/technology/PSICAT.gif" width="60"></td><td><b>PSICAT</b><br>Best Open Source RCP Application 2007<br><br></td>						
 				</tr>
 				<tr>
-					<td><img src="images/technology/QNX.gif" width="60"></td><td><b>QNX Momentics IDE</b><br>Best Commercial Developer Tool 2007</td>			
-					<td><img src="images/technology/RadRails.jpeg" width="60"></td><td><b>RadRails</b><br>Best Open Source Developer Tool 2006</td>	
+					<td><img src="images/technology/QNX.gif" width="60"></td><td><b>QNX Momentics IDE</b><br>Best Commercial Developer Tool 2007<br><br></td>			
+					<td><img src="images/technology/RadRails.jpeg" width="60"></td><td><b>RadRails</b><br>Best Open Source Developer Tool 2006<br><br></td>	
 								
 				</tr>
 				<tr>	
-					<td><img src="images/technology/SpringSource.jpeg" width="60"></td><td><b>SpringSource dm Server</b><br>Best EclipseRT Application 2010</td>
-					<td><img src="images/technology/Tasktop.jpeg" width="60"></td><td><b>Tasktop Pro</b><br>Best RCP Application 2010</td>			
+					<td><img src="images/technology/SpringSource.jpeg" width="60"></td><td><b>SpringSource dm Server</b><br>Best EclipseRT Application 2010<br><br></td>
+					<td><img src="images/technology/Tasktop.jpeg" width="60"></td><td><b>Tasktop Pro</b><br>Best RCP Application 2010<br><br></td>			
 												
 				</tr>		
 				<tr>
-					<td><img src="images/technology/TIBCO.jpeg" width="60"></td><td><b>TIBCO Business Studio</b><br>Best Commercial RCP Application 2007</td>		
-					<td><img src="images/technology/WindRiver.jpg" width="60"></td><td><b>Wind River Workbench</b><br>Best Commercial Developer Tool 2008</td>																
+					<td><img src="images/technology/TIBCO.jpeg" width="60"></td><td><b>TIBCO Business Studio</b><br>Best Commercial RCP Application 2007<br><br></td>		
+					<td><img src="images/technology/WindRiver.jpg" width="60"></td><td><b>Wind River Workbench</b><br>Best Commercial Developer Tool 2008<br><br></td>																
 				</tr>
 				<tr>			
-					<td><img src="images/technology/XMIND.jpeg" width="60"></td><td><b>XMIND 2008</b><br>Best Commercial RCP Application 2008</td>
+					<td><img src="images/technology/XMIND.jpeg" width="60"></td><td><b>XMIND 2008</b><br>Best Commercial RCP Application 2008<br><br></td>
 					<td></td><td></td>			
 				</tr>
 			</table>
