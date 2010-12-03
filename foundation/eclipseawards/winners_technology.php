@@ -45,7 +45,7 @@ ob_start();
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
 				</tr>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009</td>
+					<td><img src="images/technology/ChordScaleGen.gif" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009</td>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Compass Group Southern Africa via Jigsaw Interactive</b><br>Best Deployment of Eclipse Technology in an Enterprise 2006</td>
 				</tr>
 				<tr>	
@@ -58,14 +58,14 @@ ob_start();
 				</tr>
 				<tr>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Gumtree</b><br>Best Open Source RCP Application 2006</td>	
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Instantiations WindowBuilder Pro</b><br>Best Commercial Developer Tool 2009</td>			
+					<td><img src="images/technology/Instantiations.png" width="60"></td><td><b>Instantiations WindowBuilder Pro</b><br>Best Commercial Developer Tool 2009</td>			
 				</tr>
 				<tr>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>JPMorgan Chase</b><br>Best Deployment of Eclipse Technology in an Enterprise 2007</td>			
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Lombardi Software TeamWorks</b><br>Best Commercial RCP Application 2006</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>ModuleFusion</b><br>Best Open Source Equinox Application 2009</td>
+					<td><img src="images/technology/2009Blank.jpg" width="60"></td><td><b>ModuleFusion</b><br>Best Open Source Equinox Application 2009</td>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>MyTourbook</b><br>Best Open Source RCP Application 2008</td>			
 				</tr>
 				<tr>
