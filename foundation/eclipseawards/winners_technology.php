@@ -37,11 +37,11 @@ ob_start();
 		<div class="homeitem3col">
 			<table>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Acceleo</b><br>Best Open Source Developer Tool 2009</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Apache Directory Studio</b><br>Best Open Source RCP Application 2009</td>
+					<td><img src="images/technology/Acceleo.jpg" width="60"></td><td><b>Acceleo</b><br>Best Open Source Developer Tool 2009</td>
+					<td><img src="images/technology/ApacheDirStudio.jpeg" width="60"></td><td><b>Apache Directory Studio</b><br>Best Open Source RCP Application 2009</td>
 				</tr>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006</td>
+					<td><img src="images/technology/BEA.gif" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006</td>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
 				</tr>
 				<tr>
