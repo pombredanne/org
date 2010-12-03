@@ -61,12 +61,12 @@ ob_start();
 					<td><img src="images/technology/Instantiations.jpg" width="60"></td><td><b>Instantiations WindowBuilder Pro</b><br>Best Commercial Developer Tool 2009</td>			
 				</tr>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>JPMorgan Chase</b><br>Best Deployment of Eclipse Technology in an Enterprise 2007</td>			
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Lombardi Software TeamWorks</b><br>Best Commercial RCP Application 2006</td>			
+					<td><img src="images/technology/JPMorgan.gif" width="60"></td><td><b>JPMorgan Chase</b><br>Best Deployment of Eclipse Technology in an Enterprise 2007</td>			
+					<td><img src="images/technology/Lombardi/jpeg" width="60"></td><td><b>Lombardi Software TeamWorks</b><br>Best Commercial RCP Application 2006</td>			
 				</tr>
 				<tr>
 					<td><img src="images/technology/2009Blank.jpg" width="60"></td><td><b>ModuleFusion</b><br>Best Open Source Equinox Application 2009</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>MyTourbook</b><br>Best Open Source RCP Application 2008</td>			
+					<td><img src="images/technology/MyTourbook.jpeg" width="60"></td><td><b>MyTourbook</b><br>Best Open Source RCP Application 2008</td>			
 				</tr>
 				<tr>
 					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>ProSyst mBedded Server Smart Home Extension</b><br>Best Commercial Equinox Application 2009</td>			
