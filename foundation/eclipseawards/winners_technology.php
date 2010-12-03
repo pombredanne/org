@@ -70,10 +70,10 @@ ob_start();
 				</tr>
 				<tr>
 					<td><img src="images/technology/ProSyst.jpeg" width="60"></td><td><b>ProSyst mBedded Server Smart Home Extension</b><br>Best Commercial Equinox Application 2009</td>			
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>PSICAT</b><br>Best Open Source RCP Application 2007</td>						
+					<td><img src="images/technology/PSICAT.gif" width="60"></td><td><b>PSICAT</b><br>Best Open Source RCP Application 2007</td>						
 				</tr>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>QNX Momentics IDE</b><br>Best Commercial Developer Tool 2007</td>			
+					<td><img src="images/technology/QNX.gif" width="60"></td><td><b>QNX Momentics IDE</b><br>Best Commercial Developer Tool 2007</td>			
 					<td><img src="images/technology/RadRails.jpeg" width="60"></td><td><b>RadRails</b><br>Best Open Source Developer Tool 2006</td>	
 								
 				</tr>
