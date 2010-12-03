@@ -45,19 +45,19 @@ ob_start();
 					<td><img src="images/technology/BredexGUIdancer.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
 				</tr>
 				<tr>
-					<td><img src="images/technology/ChordScaleGen.gif" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Compass Group Southern Africa via Jigsaw Interactive</b><br>Best Deployment of Eclipse Technology in an Enterprise 2006</td>
+					<td><img src="images/technology/ChordScaleGen.png" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009</td>
+					<td><img src="images/technology/CompassGroup.jpg" width="60"></td><td><b>Compass Group Southern Africa via Jigsaw Interactive</b><br>Best Deployment of Eclipse Technology in an Enterprise 2006</td>
 				</tr>
 				<tr>	
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>CYRANO</b><br>Best Commercial Equinox Application 2008</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>EclEmma</b><br>Best Open Source Developer Tool 2008</td>
+					<td><img src="images/technology/Cyrano.jpeg" width="60"></td><td><b>CYRANO</b><br>Best Commercial Equinox Application 2008</td>
+					<td><img src="images/technology/EclEmma.gif" width="60"></td><td><b>EclEmma</b><br>Best Open Source Developer Tool 2008</td>
 				</tr>
 				<tr>	
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>eclipse-cs Checkstyle Plugin</b><br>Best Open Source Developer Tool 2007</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Groovy-Eclipse</b><br>Best Open Source Developer Tool 2010</td>
+					<td><img src="images/technology/eclipse-cs.png" width="60"></td><td><b>eclipse-cs Checkstyle Plugin</b><br>Best Open Source Developer Tool 2007</td>
+					<td><img src="images/technology/Groovy.png" width="60"></td><td><b>Groovy-Eclipse</b><br>Best Open Source Developer Tool 2010</td>
 				</tr>
 				<tr>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Gumtree</b><br>Best Open Source RCP Application 2006</td>	
+					<td><img src="images/technology/GumTree.png" width="60"></td><td><b>Gumtree</b><br>Best Open Source RCP Application 2006</td>	
 					<td><img src="images/technology/Instantiations.jpg" width="60"></td><td><b>Instantiations WindowBuilder Pro</b><br>Best Commercial Developer Tool 2009</td>			
 				</tr>
 				<tr>
