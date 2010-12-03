@@ -42,7 +42,7 @@ ob_start();
 				</tr>
 				<tr>
 					<td><img src="images/technology/BEA.gif" width="60"></td><td><b>BEA Workshop Studio 3.0</b><br>Best Commercial Developer Tool 2006</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
+					<td><img src="images/technology/BredexGUIdancer.png" width="60"></td><td><b>Bredex GUIdancer</b><br>Best Commercial Developer Tool 2010</td>
 				</tr>
 				<tr>
 					<td><img src="images/technology/ChordScaleGen.gif" width="60"></td><td><b>Chord Scale Generator</b><br>Best Commercial RCP Application 2009</td>
