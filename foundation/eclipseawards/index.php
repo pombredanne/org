@@ -41,7 +41,7 @@
 			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 		</p>
 
-		<h2>Make an Individual Nomination</h2>
+		<h2>Individual Nominations</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
 			<br><a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
@@ -54,26 +54,20 @@
 			</li>		
 		</ul>				
 		
-		<h2>Make a Project Nomination</h2>
+		<h2>Project Nominations</h2>
 		<ul class="midlist">
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296861" target="blank">Most Innovative New Feature or Project</a> - A feature added to an existing Eclipse project in 2010 or a new Eclipse project introduced in 2010 that is used and loved by the community.</li>
 			<li><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296860" target="blank">Most Open Project</a> - An Eclipse project that best exemplifies the openness, transparency and diversity expected of great open source projects.</li>
 		</ul>
-		<p>
-			<a href="project.php">Current Nominees</a>
-		</p>
 		
-		<h2>Make a Technology Nomination</h2>
+		<h2>Technology Nominations</h2>
 		<ul class="midlist">
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Application</a> - An application that illustrates the most innovative use of Eclipse technology.</li>	
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Developer Tool</a> - A commercial or open source product that provides an innovative, high quality tool for software developers.</li>
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Mobile Product</a> - An Eclipse-based product that best addresses the needs of mobile developers. </li>
 			<li><a href="http://marketplace.eclipse.org" target="blank">Best Modeling Product</a> - An Eclipse-based product that best addresses the needs of modeling developers.</li>
 		</ul>
-		<p>
-			<a href="technology.php">Current Nominees</a>
-		</p>
-		
+
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
