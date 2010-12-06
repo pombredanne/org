@@ -75,7 +75,7 @@
 			<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
 			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Current Nominees</a>
 			</li>
-			<li><b>Best Modeling Product</b> - An Eclipse-based product that best addresses the needs of modeling developers.
+			<li><b>Best Modeling Product</b> - An Eclipse-based product that best addresses the needs of the modeling industry.
 			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current Nominees</a>
 			</li>
 		</ul>
