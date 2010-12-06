@@ -73,10 +73,10 @@
 			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Current Nominees</a>
 			</li>
 			<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
-			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Current Nominees</a>
 			</li>
 			<li><b>Best Modeling Product</b> - An Eclipse-based product that best addresses the needs of modeling developers.
-			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current Nominees</a>
 			</li>
 		</ul>
 
