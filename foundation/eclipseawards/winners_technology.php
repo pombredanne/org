@@ -87,7 +87,7 @@ ob_start();
 					<td><img src="images/technology/WindRiver.jpg" width="60"></td><td><b>Wind River Workbench</b><br>Best Commercial Developer Tool 2008<br><br></td>																
 				</tr>
 				<tr>			
-					<td><img src="images/technology/XMIND.jpeg" width="60"></td><td><b>XMIND 2008</b><br>Best Commercial RCP Application 2008<br><br></td>
+					<td><img src="images/technology/XMIND.jpeg" width="60"></td><td><b>XMIND 2008</b><br>Best Commercial RCP Application 2008<br><br>ec</td>
 					<td></td><td></td>			
 				</tr>
 			</table>
@@ -101,10 +101,6 @@ ob_start();
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
-				<li><a href="individual.php">Individual Nominees</a></li>
-				<li><a href="project.php">Project Nominees</a></li>
-				<li><a href="technology.php">Technology Nominees</a></li>
-				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
 	</div>
