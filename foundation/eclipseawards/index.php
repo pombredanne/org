@@ -104,13 +104,6 @@
 		<p>
 			<a href="mailto:awards@eclipse.org">awards@eclipse.org</a>
 		</p>
-		<p>
-			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
-			diversity of award winners, we have decided that nominees are not eligible in any category
-			they have already won in the previous 3 years.  Nominees can also only win one category per
-			year. There are certainly many deserving of multiple awards, however we would like to
-			acknowledge others also worthy of recognition.
-		</p>
 		
 		<h2>Important Dates</h2>
 		<p>
