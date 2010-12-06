@@ -53,6 +53,7 @@ ob_start();
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
+				<li><a href="pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
 	</div>
