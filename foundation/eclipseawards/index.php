@@ -44,13 +44,13 @@
 		<h2>Make an Individual Nomination</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
-			<a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
 			</li>
 			<li><b>Top Contributor</b> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.
-			<a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Current Nominees</a>
 			</li>
 			<li><b>Top Newcomer Evangelist</b> - The individual who best welcomes new people into the Eclipse community through the Newcomers forum, blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media sites and IRC.
-			<a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist " target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist " target="blank">Current Nominees</a>
 			</li>		
 		</ul>		
 		<p>
