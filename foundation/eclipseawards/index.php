@@ -52,10 +52,7 @@
 			<li><b>Top Newcomer Evangelist</b> - The individual who best welcomes new people into the Eclipse community through the Newcomers forum, blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media sites and IRC.
 			<br><a href="http://marketplace.eclipse.org/node/add/individual-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist " target="blank">Current Nominees</a>
 			</li>		
-		</ul>		
-		<p>
-			<a href="individual.php">Current Nominees</a>
-		</p>		
+		</ul>				
 		
 		<h2>Make a Project Nomination</h2>
 		<ul class="midlist">
