@@ -99,6 +99,29 @@
 			year. There are certainly many deserving of multiple awards, however we would like to
 			acknowledge others also worthy of recognition.
 		</p>
+		
+		<h2>Questions</h2>
+		<p>
+			<a href="mailto:awards@eclipse.org">awards@eclipse.org</a>
+		</p>
+		<p>
+			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
+			diversity of award winners, we have decided that nominees are not eligible in any category
+			they have already won in the previous 3 years.  Nominees can also only win one category per
+			year. There are certainly many deserving of multiple awards, however we would like to
+			acknowledge others also worthy of recognition.
+		</p>
+		
+		<h2>Important Dates</h2>
+		<p>
+			<ul>
+				<li><font color="#A9A9A9">Nominations open - December 7, 2010</font></li>
+				<li>Nominations close - January 28, 2011</font></li>
+				<li>Voting begins for Individual & Project Awards - January 31, 2011</font></li>
+				<li>Voting ends for Individual & Project Awards - February 25, 2011 at 5:00 pm EST</font></li>
+				<li>Awards Announced at EclipseCon 2010 - March 21, 2011</li>
+			</ul>
+		</p>
 
 	</div>
 	</div>
