@@ -67,10 +67,10 @@
 		<h2>Technology Nominations</h2>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
-			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Current Nominees</a>
 			</li>	
 			<li><b>Best Developer Tool</b> - A commercial or open source product that provides an innovative, high quality tool for software developers.
-			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
+			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Current Nominees</a>
 			</li>
 			<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
 			<br><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current Nominees</a>
