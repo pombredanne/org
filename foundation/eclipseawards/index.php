@@ -39,6 +39,8 @@
 			and technologies may be nominated by anyone in each category.  Self nominations
 			are welcome. Nominations open December 7, 2010 and close January 28,
 			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
+			To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi">
+			Bugzilla account</a>.
 		</p>
 
 		<h2>Individual Nominations</h2>
