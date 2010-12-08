@@ -37,7 +37,7 @@
 		<p>
 			The Eclipse Community Awards recognize the best of the Eclipse community. Individuals, projects
 			and technologies may be nominated by anyone in each category.  Self nominations
-			are welcome. Nominations open December 7, 2010 and close January 28,
+			are welcome. Nominations open December 8, 2010 and close January 28,
 			2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.
 			To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi">
 			Bugzilla account</a>.
@@ -110,7 +110,7 @@
 		<h2>Important Dates</h2>
 		<p>
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 7, 2010</font></li>
+				<li><font color="#A9A9A9">Nominations open - December 8, 2010</font></li>
 				<li>Nominations close - January 28, 2011</font></li>
 				<li>Voting begins for Individual & Project Awards - January 31, 2011</font></li>
 				<li>Voting ends for Individual & Project Awards - February 25, 2011 at 5:00 pm EST</font></li>
