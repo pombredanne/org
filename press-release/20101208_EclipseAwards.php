@@ -24,7 +24,7 @@
 		
 		<h2>Community Bulletin</h2>
 
-		<p>The Eclipse Community Awards 2011 have opened for nominations.  Help Eclipse honour the best individuals,
+		<p>The Eclipse Community Awards 2011 are open for nominations.  Help Eclipse honour the best individuals,
 		projects and technologies from our community by telling us about your favourites.</p>
 		
 		<p>
