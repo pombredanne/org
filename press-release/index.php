@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20101208_EclipseAwards.php">Eclipse Community Awards 2011 Open for Nominations</a> - December 8, 2010</li>
 		<li><a href="20101202_EclipseConAuditions2.php">EclipseCon Audition Sessions, Take 2</a> - December 2, 2010</li>
 		<li><a href="20101103_EclipseConAuditions.php">Announcing the EclipseCon Audition Sessions</a> - November 3, 2010</li>
 		<li><a href="20101102_virgo.php">Eclipse Makes Available New Release of Eclipse Virgo</a> - November 2, 2010</li>
