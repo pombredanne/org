@@ -32,7 +32,7 @@
 		<ul>
 			<li><a href="http://marketplace.eclipse.org/node/add/individual-nominations">Individual Awards</a> - Top Committer, Top Contributor and Top Newcomer Evangelist</li>
 			<li><a href="http://marketplace.eclipse.org/node/add/project-nominations">Project Awards</a> - Most Innovative New Feature or Project and Most Open Project</li>
-			<li><a href="http://marketplace.eclipse.org/node/add/individual-nominations">Technology Awards</a> - Best Application, Best Developer Tool, Best Mobile Product and Best Modeling Product</li>
+			<li><a href="http://marketplace.eclipse.org/node/add/product-nominations">Technology Awards</a> - Best Application, Best Developer Tool, Best Mobile Product and Best Modeling Product</li>
 		</ul>
 		</p>
 		
