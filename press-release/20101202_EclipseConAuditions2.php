@@ -48,7 +48,10 @@
 		
 		<p><a href="http://www.eclipsecon.org/2011/">EclipseCon 2011</a> is March 21-24 in Santa Clara,
 		California.  Very early registration is now open and sponsorship packages are available.</p>
-			
+
+		<p><b>Update from December 16:</b> Congratulations to Serge Beauchamp, <a href="https://www.eclipsecon.org/submissions/2011/view_talk.php?id=2200" target="blank"><i>Deadlocks: The beginning of the end</i></a>
+		for winning	the EclipseCon Audition Sessions, Take 2!</p>		
+		
  <br><br>
 	</div>
 	<div id="rightcolumn">
