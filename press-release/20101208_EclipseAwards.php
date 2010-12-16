@@ -20,33 +20,34 @@
 <div id="maincontent">
 	<div id="midcolumn">
 	
-		<h1>$pageTitle</h1>
-		
-		<h2>Community Bulletin</h2>
 
+		<h1>$pageTitle</h1>
+				
+		<h2>Community Bulletin</h2>
+		
 		<p>The Eclipse Community Awards 2011 are open for nominations.  Help Eclipse honour the best individuals,
 		projects and technologies from our community by telling us about your favourites.</p>
-		
-		<p>
-		There are 9 titles to be awarded this year:
+
+		<p>There are 9 titles to be awarded this year:
 		<ul>
 			<li><a href="http://marketplace.eclipse.org/node/add/individual-nominations">Individual Awards</a> - Top Committer, Top Contributor and Top Newcomer Evangelist</li>
 			<li><a href="http://marketplace.eclipse.org/node/add/project-nominations">Project Awards</a> - Most Innovative New Feature or Project and Most Open Project</li>
 			<li><a href="http://marketplace.eclipse.org/node/add/product-nominations">Technology Awards</a> - Best Application, Best Developer Tool, Best Mobile Product and Best Modeling Product</li>
 		</ul>
 		</p>
-		
+
 		<p>The Individual and Project Award winners will be determined by a vote of the community. The Technology
 		Award winners will be determined by a panel of judges selected from Eclipse-oriented editors and Eclipse
 		project leaders.  All winners will be announced at <a href="http://www.eclipsecon.org/2011/">EclipseCon 2011</a>.</p>
 		
 		<p>The deadline for nominations is <b>January 28, 2011</b>.  You can check out the <a href="../foundation/eclipseawards/index.php">
 		awards page</a> for further details on the categories and the awards guidelines.</p>
-			
+		
  <br><br>
 	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
+			<img src="../foundation/eclipseawards/images/EclipseAwardsLogo.png" alt="Eclipse Awards" height="125">
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="../foundation/eclipseawards/index.php">Eclipse Awards</a></li>							
