@@ -24,7 +24,7 @@
 
 	    <h2>Community Bulletin</h2>
 	    
-      	<p>The Eclipse Foundation is pleased to announce the technical program for EclipseCon 2011.  The 4-day conference programm will feature 20 in-depth tutorials and over 100 sessions convering a wide
+      	<p>The Eclipse Foundation is pleased to announce the <a href="https://www.eclipsecon.org/submissions/2011/search.php?search=accepted">technical program</a> for EclipseCon 2011.  The 4-day conference programm will feature 20 in-depth tutorials and over 100 sessions convering a wide
       	range of topics, including Eclipse Modeling, OSGi, EclipseRT, mobile development, Eclipse 4 and much more.</p>
       	<p>EclipseCon is scheduled for March 21-24, 2011 in Santa Clara, CA.  Attendees that <a href="http://www.eclipsecon.org/2011/registration/?page=registration">register before December 31, 2010</a> will quliafy for the very early-bird discount price.</p>
 
