@@ -65,10 +65,10 @@
 		
 		<h2>Project Nominations</h2>
 		<ul class="midlist">
-			<li><b>Most Innovative New Feature or Project</b> - A feature added to an existing Eclipse project in 2010 or a new Eclipse project introduced in 2010 that is used and loved by the community.
+			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2010 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2010 that is used and loved by the community.
 			<br><a href="http://marketplace.eclipse.org/node/add/project-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Current Nominees</a>
 			</li>
-			<li><b>Most Open Project</b> - An Eclipse project that best exemplifies the openness, transparency and diversity expected of great open source projects.
+			<li><b>Most Open Project</b> - A project hosted by the Eclipse Foundation that best exemplifies the openness, transparency and diversity expected of great open source projects.
 			<br><a href="http://marketplace.eclipse.org/node/add/project-nominations" target="blank">Nominate</a>  |  <a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Current Nominees</a>
 			</li>
 		</ul>
