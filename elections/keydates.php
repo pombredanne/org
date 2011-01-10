@@ -61,7 +61,7 @@
 		via email. Content must be submitted to the Eclipse Foundation via email no later 
 		than January 31. 
 		</li>
-		<li>February 31, $year: Deadline for nominees to return their content to emo@.</li>
+		<li>January 31, $year: Deadline for nominees to return their content to emo@.</li>
 		<li>February 2, $year: List of nominees made available on www.eclipse.org.
 		<li>February 8, $year: Candidate personal pages made available on www.eclipse.org.
 		Discussion of the issues on the eclipse.foundation forum will be encouraged. 
