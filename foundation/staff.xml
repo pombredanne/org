@@ -24,24 +24,11 @@
 		]]> </description>
 	</staffmember>
 
-	<staffmember id="barb">
-		<name>Barb Cochrane</name>
-		<image>../../images/barb.jpg</image>
-		<title>Intellectual Property Management</title>
-		<description>
-			<![CDATA[
-				Barb joined Eclipse in August 2007.  Outside Eclipse, Barb likes to travel,
-				cook and spend time with family and friends.  During the winter months, she
-				occasionally finds new ways to injure herself while skating on the canal or
-				 flailing down one of the local ski hills.</p>
-			]]>
-		</description>
-	</staffmember>
 
 	<staffmember id="sharonc">
 		<name>Sharon Corbett-Gütz</name>
 		<image>../../images/sharonc.jpg</image>
-		<title>Intellectual Property Analyst</title>
+		<title>Intellectual Property Management</title>
 		<description>
 		<![CDATA[<p>When remote from Eclipse, Sharon C. is a fulltime soccer mom and dedicated footie fan.  Sharon can usually be found
 		heading out with her son to a practice, game or tournament.</p>
