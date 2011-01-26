@@ -1,5 +1,36 @@
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
-
+<?php  
+set_error_handler("ignoreDumbStuffHandler");
+function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
+  $errortype = array (
+    E_ERROR => 'Error',
+    E_WARNING => 'Warning',
+    E_PARSE => 'Parsing Error',
+    E_NOTICE => 'Notice',
+    E_CORE_ERROR => 'Core Error',
+    E_CORE_WARNING => 'Core Warning',
+    E_COMPILE_ERROR => 'Compile Error',
+    E_COMPILE_WARNING => 'Compile Warning',
+    E_USER_ERROR => 'User Error',
+    E_USER_WARNING => 'User Warning',
+    E_USER_NOTICE => 'User Notice',
+    E_STRICT => 'Runtime Notice',
+    E_RECOVERABLE_ERROR => 'Catchable Fatal Error');
+    switch($errno) {
+    	case E_NOTICE: // discard NOTICEs
+    	case E_STRICT: // discard RUNTIME notices for deprecated usages
+    		return;
+    	default:
+			echo "<p><table cellpadding=10 width=400 bgcolor=#ffcccc><tr><td><font size=+2>Trouble: </font>";
+			echo "PHP $errortype[$errno]:<br>$errmsg<br>$filename ($linenum)";
+			$mysql_error_func = 'mysql_error_check';
+			if(function_exists($mysql_error_func)) {
+				$mysql_error_func();
+			}
+			echo "</table></p>\n";
+    }
+}
+			
+																											require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 	#*****************************************************************************
 	#
 	# template.php
@@ -32,26 +63,53 @@
 	# End: page-specific settings
 	#
 	
+	$committer_candidates = get_candidates_list_as_html($candidates, $year, 'committer');
+	$addin_candidates = get_candidates_list_as_html($candidates, $year, 'addin');
+
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+	<style>
+		#midcolumn h1, h2, h3 {
+			font-weight: bold;
+		}
+	</style>
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<b>This page is currently under construction while we are in the $year nomination phase.
 		
-		<div class="homeitem">
-			<a name="Candidates"></a>$committer_candidates
-		</div>
-		<div class="homeitem">
-			$addin_candidates
-		</div>
+		<p>Voting in the 2010 elections begins on February 22, 2010, and ends on March 12, 2010 at 3pm Eastern time.</p>
+		
+		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
+		<table>
+			<tr>
+				<td valign="bottom">
+					<h3>Committer<br>
+					Candidates</h3>
+				</td>
+				<td valign="bottom">
+					<h3>Solutions Member Candidates</h3>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<div class="homeitem">
+						<a name="Candidates"></a>$committer_candidates
+					</div>
+				</td>
+				<td valign="top">
+					<div class="homeitem">
+						$addin_candidates
+					</div>
+				</td>
+			</tr>
+		</table>
 	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Quick Links</h6>
 			<ul>
 				<li><a href=".">Election Home</a></li>
-				<li><a href="nominees_under_construction.php">Candidates</a></li>
+				<li><a href="nominees.php">Candidates</a></li>
 				<li><a href="keydates.php">Key Dates</a></li>
 				<li><a href="election_process.php">Election Process</a></li>
 			</ul>
@@ -74,7 +132,7 @@ EOHTML;
 	
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
 		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
-		$html = "<h3>$type_name Candidates</h3><table border=\"0\" cellpadding=\"5\">";
+		$html = "<table border=\"0\" cellpadding=\"5\">";
 		foreach ($candidates as $candidate) {
 			if (strcmp($candidate->type, $type) != 0) continue;
 			$html .= <<<EOHTML
@@ -83,7 +141,7 @@ EOHTML;
 					<td valign="top" style="border-bottom: dashed 1px #494949;">
 						<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
 						<br>$candidate->title
-						<p>$candidate->contact</p>
+						
 					</td>
 				</tr>
 EOHTML;
