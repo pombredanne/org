@@ -36,6 +36,7 @@ ob_start();Tha
 		<h2>Current Press Releases</h2>
 		<hr size="1" />
 		<ul>
+		<li><a href="20110126_eclipsecon.php">EclipseCon 2011 Gold Sponsors and Technical Program Announced</a> - January 26, 2011</li>
 		<li><a href="20101208_EclipseAwards.php">Eclipse Community Awards 2011 Open for Nominations</a> - December 8, 2010</li>
 		<li><a href="20101202_EclipseConAuditions2.php">EclipseCon Audition Sessions, Take 2</a> - December 2, 2010</li>
 		<li><a href="20101103_EclipseConAuditions.php">Announcing the EclipseCon Audition Sessions</a> - November 3, 2010</li>
