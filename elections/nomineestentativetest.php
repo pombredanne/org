@@ -45,7 +45,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2010";
+	$year="2011";
 	$candidates = get_all_candidates($year);
 	
 	#
