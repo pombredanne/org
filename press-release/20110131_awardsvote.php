@@ -77,7 +77,7 @@ function switchMenu(obj) {
 		<h3><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Top Newcomer Evangelist</a></h3>
 		<ul>
 			<li>Boris Bokowski</li>
-			<li>C&eacutedric Brun</li>
+			<li>C&eacute;edric Brun</li>
 			<li>Ayushman Jain</li>
 			<li>Werner Keil</li>
 			<li>James Sugrue</li>
