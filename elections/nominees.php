@@ -1,4 +1,4 @@
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+<<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 	#*****************************************************************************
 	#
@@ -37,7 +37,29 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<b>This page is currently under construction while we are in the $year nomination phase.
+		
+		<p>
+			Voting for the 2011 Board of Directors candidates will take place February 22-March 11, 2011.
+		</p>
+			
+		<h2>Committer Candidates</h2>
+		<ul>
+		<li>Chris Aniszczyk</li>
+		<li>Boris Bokowski</li>
+		<li>Ed Merks</li>
+		<li>Gunnar Wagenknecht</li>
+		</ul>
+		<h2>Sustaining Member Candidates</h2>
+		<ul>
+		<li>Tim Barnes, OpenMethods</li>
+		<li>Weber Canova, TOTVS</li>
+		<li>Eric Clayberg, Google</li>
+		<li>John Cunningham, Band XI</li>
+		<li>Hans Kamutzki, MicroDoc</li>
+		<li>Mik Kersten, Tasktop Technologies</li>
+		<li>Adam Lieber, Intalio</li>
+		</ul>
+		<p><b>The individual candidate pages will be available on February 8, 2011.</b></p>
 		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
