@@ -45,7 +45,7 @@ function switchMenu(obj) {
 		<p>More details about the awards and the nomination process can be found on the 
 		<a href="http://www.eclipse.org/org/foundation/eclipseawards/">awards page</a>.	 Voting for the Eclipse Community
 		Awards will be open until <b>February 25, 2011 at 5:00pm EST</b> and the winner will be announced March 21, 2011 at
-		<a href="http://www.eclipsecon.org/2011/">EclipseCon.</a></p>
+		EclipseCon.</p>
 		
 		<p><a href="http://www.surveymonkey.com/s/eclipseawards2011" target="blank">
 		<img src="http://www.eclipse.org/org/foundation/eclipseawards/images/votenow.jpg"></a>
@@ -53,7 +53,7 @@ function switchMenu(obj) {
 		
 		<p>The nominees are:</p>	
 		
-		<h3>Top Committer</h3>
+		<h3><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Top Committer</a></h3>
 		<ul>	
 			<li>John Arthorne</li>
 			<li>Laurent Goubet</li>
@@ -66,7 +66,7 @@ function switchMenu(obj) {
 			<li>Sebastian Zarnekow</li>
 		</ul>
 
-		<h3>Top Contributor</h3>
+		<h3><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Top Contributor</a></h3>
 		<ul>
 			<li>Brian de Alwis</li>
 			<li>Kenn Hussey</li>
@@ -74,7 +74,7 @@ function switchMenu(obj) {
 			<li>James Sugrue</li>
 		</ul>
 		
-		<h3>Top Newcomer Evangelist</h3>
+		<h3><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Top Newcomer Evangelist</a></h3>
 		<ul>
 			<li>Boris Bokowski</li>
 			<li>C&eacutedric Brun</li>
@@ -84,7 +84,7 @@ function switchMenu(obj) {
 			<li>Frans Thamura</li>
 		</ul>
 
-		<h3>Most Innovative New Feature or Eclipse Project</h3>
+		<h3><a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Most Innovative New Feature or Eclipse Project</a></h3>
 		<ul>
 			<li>Agent Modeling Platform (AMP)</li>
 			<li>EGit</li>
@@ -95,7 +95,7 @@ function switchMenu(obj) {
 			<li>UOMo</li>				
 		</ul>
 
-		<h3>Most Open Project</h3>
+		<h3><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Most Open Project</a></h3>
 		<ul>
 			<li>e4</li>
 			<li>Modeling Amalgamation</li>			
