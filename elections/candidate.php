@@ -59,7 +59,7 @@
 		</div>
 				
 		<div class="homeitem3col">
-			<h3>About the candidate</h3>
+			<h3>About the Candidate</h3>
 			<blockquote>$candidate->bio</blockquote>
 		</div>
 		
