@@ -1,12 +1,12 @@
 <boardmember id="lieber" type="addin">
 
-	<name>Adam Lieber </name>
+	<name>Adam Lieber</name>
 
-	<title>General Manager, Intalio </title>
+	<title>General Manager, Intalio</title>
 
-	<image> lieber.jpg </image>
+	<image>lieber.jpg</image>
 
-	<email>alieber@intalio.com </email>
+	<email>alieber@intalio.com</email>
 
 	<eclipse_affiliation> <![CDATA[
 		Sustaining member
@@ -18,7 +18,6 @@
 		Additionally, I hope to further technical sponsorship for Git/SVN/CVS and bug processes among others to help get technologies adopted more easily. Jetty has an extremely successful track record of attracting collaboration with other projects, communities, and products, and from my exposure to that, I hope to help continue and to help boost the Eclipse Foundations presence in the future, such as with projects like Orion. 
 		<br><br>
 		Further, my experience in adjusting Jetty's processes for entry into the foundation will help highlight ways Eclipse can possibly streamline in the future in growth. And, as part of Intalio's additional contributing presence in SOA, WTP, and MDT projects, as well as Architecture Council, we have a wide set of exposure to help gather helpful suggestions.
-
 	]]> </vision>
 
 	<bio> <![CDATA[
@@ -27,9 +26,7 @@
 
 	<affiliation> <![CDATA[ 
 		Intalio
-	
 	]]>
 	</affiliation>
-
 		
 </boardmember>
