@@ -1,0 +1,36 @@
+<boardmember id="lieber" type=" {addin} ">
+
+	<name>Eric Clayberg</name>
+
+	<title>Software Engineering Manager, Google</title>
+
+	<image>clayberg.jpg</image>
+
+	<email>clayberg@google.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+		I have been involved with Eclipse since 1999 when Instantiations was first briefed on it by IBM and have been a strong supporter of Eclipse community interests ever since. I co-authored Eclipse: Commercial Quality Plug-ins and Eclipse Plug-ins and have presented at every EclipseCon since the very first. At Instantiations, we were heavily committed to Eclipse since its inception, and my team was responsible for creating the very first commercial Eclipse add-on, CodePro, and the award-winning WindowBuilder product for SWT, Swing and GWT development. We participated in several different Eclipse projects and were a founding member of the Eclipse Plugin Central Alliance. After Google's acquisition of Instantiations in 2010, I spearheaded the effort to re-release all of Instantiations' popular commercial tools (WindowBuilder, CodePro AnalytiX and WindowTester) as free Google offerings and also drove the effort to contribute the WindowBuilder and CodePro Profiler IP to Eclipse as two new open source projects.
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		My vision for 2011 is to:
+		<ul>
+   			<li>Show up, speak up, and stand up for the interests of AIP members at Eclipse Board meetings during 2011.</li>
+    		<li>Continue to increase ROI for Add-in Provider membership in the Eclipse Foundation</li>
+    		<li>Bring Google-scale thinking, inventiveness and clout to Eclipse</li>
+    		<li>To assure that Eclipse technology remains the best on the planet!</li>
+    	</ul>
+	]]> </vision>
+
+	<bio> <![CDATA[
+		I am now a Software Engineering Manager on the Google Plugin for Eclipse (GPE) team at Google and a former co-founder of Instantiations (acquired by Google in 2010). I am a seasoned software technologist, product developer, entrepreneur, and manager with more than 20 years of commercial software development experience, including 14 years of experience with Java and 11 years with Eclipse. I was responsible for creating more than a dozen commercial Java, Eclipse and Smalltalk products including the award winning WindowBuilder Pro, CodePro, and VA Assist product lines. I hold a Bachelor of Science degree from MIT, an MBA from Harvard, and am co-author of Eclipse Plug-ins (3rd Edition, Dec 2008), Addison Wesley, 2008. ISBN: 0-321-55346-2 (http://www.qualityeclipse.com).
+		<br><br>
+		On a personal note, I am married with two kids and a dog. I am involved in various community activities and am Cub Master for my son's Cub Scout Pack. I have a passion for classic coin-op video games and have one of the largest collections in the country (featured on HGTV's "Incredible Basements" in 2003).
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		Google, Inc. is the provider of a number of well known Eclipse add-ons including the Google Plug-in for Eclipse (GPE), Android Development Tools (ADT), WindowBuilder (SWT, Swing and GWT Designer), CodePro AnalytiX and WindowTester and the contributor and sponsor of the new WindowBuilder open source project at Eclipse. Google is a multinational public cloud computing and Internet search technologies corporation.
+	]]>
+	</affiliation>
+		
+</boardmember>
