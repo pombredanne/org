@@ -57,6 +57,7 @@ function switchMenu(obj) {
 		<ul>	
 			<li>John Arthorne</li>
 			<li>Laurent Goubet</li>
+			<li>Kenn Hussey</li>
 			<li>Andrew Niefer</li>
 			<li>Shawn Pearce</li>
 			<li>Tom Schindl</li>
@@ -69,7 +70,6 @@ function switchMenu(obj) {
 		<h3><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Top Contributor</a></h3>
 		<ul>
 			<li>Brian de Alwis</li>
-			<li>Kenn Hussey</li>
 			<li>Dariusz Luksza</li>
 			<li>James Sugrue</li>
 		</ul>
