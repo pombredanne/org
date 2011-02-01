@@ -1,0 +1,37 @@
+<boardmember id="merks" type="committer">
+
+	<name>Ed Merks</name>
+
+	<title>President, Macro Modeling</title>
+
+	<image>merks.jpg</image>
+
+	<email>Ed.Merks@gmail.com</email>
+
+	<eclipse_affiliation> <![CDATA[		
+		Eclipse Modeling Project Lead<br>
+		Eclipse Modeling Framework Project Lead
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		Managing the Eclipse foundation in tough economic times is becoming increasingly more difficult.  Money spent on membership dues comes under greater scrutiny in a financially constrained climate. This translates into a downward pressure on membership, which translates directly into downward pressure on the foundation's budget.  Innovative ideas need to be explored for diversifying the revenue base and though decisions need to be made for effectively investing the foundation's limited funds.  As a committer representative, I will continue to ensure that the developer's perspective is taken into consideration in all deliberations at the board.
+		<br><br>
+		One of the great things about Eclipse is its diversity and its openness. Compound that with a wealth of freely-available, commerical-quality software and you have the winning combination that is Eclipse. Unfortunately, though, life is a trade-off.  Diversity and openness are difficult to manage: its challenging for a sizable group to share a unified vision and it's far easier to critique a proposed solution than it is to synthesize a new one.  In the end, it's all too easy for good intentions to accomplish nothing.  Worst of all, freely-available software doesn't drive a single penny of revenue, regardless of quality and quantity.  As a result, the "tragedy of the commons" continues to plague us.  Ask yourself, why are builds the bane of the developers existence?  Aren't we all needing to solve this same problem again and again?  So let's do it really well just once. Of course the solution is obvious, but who should foot the bill to solve it well?  What would they gain by doing so?
+		<br><br>
+		Freetardation is another insidious problem. Everyone expects more and more for less and less. Large organizations with deep pockets derive huge value from Eclipse while contributing essentially nothing. The same can be said for the hungry hoards of individual consumers, quick to complain when instant gratification falls short.  Also of concern are the <a href="http://ed-merks.blogspot.com/2008/04/teflon-programming.html" target="blank">Teflon programmers</a>.  As developers, we all love to create cool exciting new software, but stable, robust, well-tested, carefully-documented solutions with reliable long-term support are the lifeblood that sustains the ecosystem.  These too all tough very tough problems with no obvious solutions.
+		<br><br>
+		As a committer representative with years of experience, I believe I have valuable insights to bring to the board.  I am realistic about what's possible and what isn't.  I am helpful, constructive, and creative, I listen well, and I can be counted upon to act in the best interests of Eclipse as a whole.  I would be honored to serve Eclipse as your representative for yet another term.
+	]]> </vision>
+
+	<bio> <![CDATA[
+		Ed Merks founded his own small consulting company, <a href="http://www.macromodeling.com/" target="blank">Macro Modeling</a>.  He is a coauthor of the authoritative book "<a href="http://www.informit.com/store/product.aspx?isbn=9780321331885" target="blank">EMF: Eclipse Modeling Framework</a>" which is published as a second expanded edition.   He has been an elected member of the <a href="http://www.eclipse.org/org/foundation/directors.php" target="blank">Eclipse Foundation Board of Directors for the past four years and has been recognized by the Eclipse Community Awards as Top New Comer Evangelist, Top Ambassador, and Top Committer.  Ed is well known for his dedication to the Eclipse community, posting literally thousands of newsgroup answers each year.  He spent 16 years at IBM, achieving the level of Senior Technical Staff Member after completing his Ph.D. at Simon Fraser University.  He is a partner of <a href="http://www.itemis.com/" target="blank">itemis AG</a> and <a href="http://www.cloudsmith.com/" target="blank">Cloudsmith</a>.  His experience in modeling technology spans 25 years.
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		<a href="http://www.macromodeling.com/" target="blank">Macro Modeling</a>, President<br>
+		<a href="http://www.itemis.com/" target="blank">itemis AG</a>, Partner<br>
+		<a href="http://www.cloudsmith.com/" target="blank">Cloudsmith</a>, Partner
+	]]>
+	</affiliation>
+		
+</boardmember>
