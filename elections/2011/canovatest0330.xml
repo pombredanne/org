@@ -1,0 +1,28 @@
+<boardmember id="canova" type="addin">
+
+	<name>Weber George Canova</name>
+
+	<title>Chief Innovation and Technology Officer, TOTVS</title>
+
+	<image>canova.jpg</image>
+
+	<email>weber@totvs.com.br</email>
+
+	<eclipse_affiliation> <![CDATA[
+		Solutions Member
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		Coming soon
+	]]> </vision>
+
+	<bio> <![CDATA[
+		Mr. Canova, 48, is TOTVS’ Chief Innovation and Technology Officer. He received a degree in electrical engineering from the Escola de Engenharia Mauá in 1982. Mr. Canova began his career as a programming team coordinator in 1984. He participated in the development and implementation of the internal applications and systems of AGF Companhia de Seguros Gerais from 1986 to 1988 and was responsible for the implementation of systems, installation and management for medium and large corporations from 1988 to 1990. Mr. Canova joined the Company in 1995 acting as the IT coordinator and, as the group´s current Executive Technology Director. Mr. Canova is responsible for TOTVS development platform. The platform has a virtual machine, a smart client user interface, a RDBMS connector and a developer environment ( now based on Eclipse ).  
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		TOTVS
+	]]>
+	</affiliation>
+		
+</boardmember>
