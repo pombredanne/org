@@ -1,0 +1,53 @@
+<boardmember id="bokowski" type="committer">
+
+	<name>Boris Bokowski</name>
+
+	<title>Senior Software Developer, IBM</title>
+
+	<image>bokowski.jpg</image>
+
+	<email>Boris_Bokowski@ca.ibm.com</email>
+
+	<eclipse_affiliation> <![CDATA[		
+		Platform UI technical lead, Member of the Eclipse Architecture Council, 
+		<a href="http://dash.eclipse.org/dash/commits/web-app/summary.cgi?project=y&year=x&login=bbokowski">Committer</a> on the Platform, e4, and Orbit projects.
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		<p>I care about Eclipse, the health of the Eclipse ecosystem, and the long-term success of Eclipse. Obviously, my day job is Eclipse-related, but there are deeper reasons for this as well:
+		<ul><li>On a technical level, I value the core Eclipse principles of producing well-structured, componentized software, and to develop software to be open and extensible.</li>
+		<li>On an economic level, it makes sense to me to be collaborating on "plumbing" or infrastructure, like a tide that raises all boats.</li>
+		<li>And finally, on a personal level, I very much enjoy the openness, fairness, and overall friendliness of the Eclipse community.</li></ul></p>
+		
+		<p>My main focus during the past year was on helping to get Orion off the ground, the new endeavor to create a web-based tooling platform at Eclipse. This aligns with one of the seven strategic goals that the Board (with my involvement) has set for the Eclipse Foundation: <i>Establish Eclipse web technology as a leading open source web application platform.</i></p>
+		<p>While the existing Eclipse platform will remain the open source IDE and RCP platform of choice for many years to come, I believe that it is important for the health of the Eclipse ecosystem to have a story that is compatible with the emerging standard software delivery platform, the Internet. Orion has had a good start so far, and I am optimistic that it will become a project with involvement from several companies as well as individual committers. My position on the Board of Directors provided me with easy access to many of the decision makers who fund large parts of the development at Eclipse. If re-elected for the Board of Directors, I would continue to be a voice for making sure enough resources are invested in the commons at Eclipse.</p>
+		<p>Looking back over both years of being on the Board, I am proud of the following accomplishments. Of course, these are not accomplishments for which I could take credit personally, but I played a part in them:
+		<ul><li><b>New strategic goals</b><br>The Board of Directors sets strategic goals, and the executive director is measured by how well he steers Eclipse towards these goals. In 2009, two new strategic goals were added:
+		<ol><li><i>Continue to grow a diversified revenue model</i>: The bulk of the revenue of the Eclipse Foundation comes from its strategic and enterprise members. This puts the Eclipse Foundation at risk when just one or two large strategic or enterprise members step down or don't renew. Unfortunately, not much can be done about this in the short term, but having it recognized as a strategic goal is a good thing.</li>
+		<li><b>App Store</b><br>After many unsuccessful attempts in the past, the committer representatives successfully pushed for a board resolution to take the Eclipse Marketplace (formerly known as EPIC) to a new level, to enable an ecosystem of free and commercial offerings - plug-ins or Eclipse-based products - similar to other app stores. Due to budget constraints, and an unclear cost/benfit ratio, only a few first steps towards this goal have been undertaken so far, but the existence of the Eclipse Marketplace in its current form is a great step in the right direction.</li>
+		<li><b>Git</b><br>Git is very interesting on many levels – as an eventual replacement for the standard VCM client that ships with the Eclipse SDK, as a way to make it easier to contribute, or to maintain branches of Eclipse projects, and as a way to change the way in which Eclipse projects can work collaboratively. Thanks to consistent nagging by the committer representatives, and patient explanations as to why this would be a good thing, the board and the Eclipse Foundation are now on board, and Eclipse is moving in this direction. As a result, most Eclipse projects are now available as mirrored Git repositories, the EGit and JGit projects are making good progress towards a first-class Git client, and a number of new and existing Eclipse projects have switched to Git as their versioning system.</li>
+		<li><b>Friends of Eclipse</b>The Friends of Eclipse program existed for quite a while now - it is a way for individual users of Eclipse to donate. The donated money used to go into the Eclipse Foundation funds and pays for some of the server bandwidth, webmaster staff, and servers used by Eclipse projects. However, there is no clear relationship - the money is not earmarked for specific purposes and could be spent differently. In 2010, the committer representatives were able to change the Friends of Eclipse program to make it more directly benefit Eclipse users, projects, and committers. Proposals for how to use the funds can be submitted (in Bugzilla), and the elected committer representatives have a say in which proposals get funded.</li>
+		</ul><p>
+		
+		<p>If I am re-elected as a committer representative on the Eclipse Board of Directors, I would like to continue to work with the other board members, the executive director, and the Foundation staff towards:
+		<ul><li><b>Making the life of committers easier.</b><br>
+		We committers are doing much more than just writing code. Many of us enjoy the writing code part more than doing all the other necessary activities, for example, triaging bugs, managing lists of tasks in Bugzilla, filing contribution questionnaires and working through the IP process, ensuring proper internationalization, maintaining the IP log. Some of these have become easier, but there are many more opportunities for streamlining and simplification.<br>
+		At the board level, I would push for improvements that increase the productivity of all committers. For example, I believe that resources would be well spent on work that benefits all projects but never gets done because there is not enough benefit for each individual project on its own.</li>
+		<li><b>Increase and improve communication within the community.</b><br>
+		Those of us who hang out on IRC know how much they benefit from being able to ask a question and quickly get an answer, but also how useful it is to know people working on other projects. The Eclipse community that has formed on Twitter is another example of how social connections between people are benefiting those who participate. I support all initiatives that bring members of the ecosystem together, from demo camps and Eclipse Days to our conferences EclipseCon and Eclipse Summit Europe, because establishing personal relationships is the most effective way to improve communication and collaboration.<br>
+		I am also trying to be very open towards other open source communities such as Apache, Mozilla, Linux, and so on. A lot of the issues that we have around how to attract contributors, how to get companies to invest in open source, how to handle issues of APIs and deprecation, and so on, are issues in these other communities as well, and we need to learn from each other.</li>
+		<li><b>Keep Eclipse on its toes.</b><br>
+		It is mind-boggling to see the rate of change in several areas that affect Eclipse directly, for example economic challenges, and technology platform changes on the client and server side. I don't know what the best answers are, but I know that it is important to look ahead and make sure that Eclipse is in a position to respond, and in some cases, drive these changes. For this, we need people on the Eclipse Board of Directors with a good sense for how the technology landscape is changing. While the Board is not in a position to direct what projects are doing, it is important for the individual board members to know in which direction core projects at Eclipse are going – in many cases, the company representatives on the board are directly involved in decisions about how their company contributes to Eclipse.</li>
+		</ul></p>
+	]]> </vision>
+
+	<bio> <![CDATA[
+		<p>Boris leads the Eclipse Platform UI project and co-leads the new Orion effort at Eclipse. He works for IBM in Ottawa, Canada. He is proud to have helped increase diversity at the Eclipse Platform by attracting several non-IBM contributors and committers, and by lowering the barrier of entry through the e4 incubator project. Before joining IBM in 2005, he wrote a commercial RCP app using EMF and GEF, co-founded and co-managed a Web 2.0 company in Germany, worked on the original Eclipse 1.0 at OTI in Ottawa, and earned a PhD in computer science at Freie Universität Berlin, Germany. He is married and a geek dad of three kids. You can find him on IRC as "borisb6i".</p>
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		IBM Software Lab, Ottawa, Canada
+	]]>
+	</affiliation>
+		
+</boardmember>
