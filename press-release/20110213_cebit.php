@@ -25,6 +25,8 @@
 	<div id="fullcolumn">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+
+		<h2>Community Bulletin</h2>
 		
      	<p>	
 			The Eclipse Foundation announced today that they will participate in CeBIT 2011 with an exhibit
