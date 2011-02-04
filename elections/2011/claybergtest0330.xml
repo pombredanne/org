@@ -9,7 +9,7 @@
 	<email>clayberg@google.com</email>
 
 	<eclipse_affiliation> <![CDATA[
-		I have been involved with Eclipse since 1999 when Instantiations was first briefed on it by IBM and have been a strong supporter of Eclipse community interests ever since. I co-authored Eclipse: Commercial Quality Plug-ins and Eclipse Plug-ins and have presented at every EclipseCon since the very first. At Instantiations, we were heavily committed to Eclipse since its inception, and my team was responsible for creating the very first commercial Eclipse add-on, CodePro, and the award-winning WindowBuilder product for SWT, Swing and GWT development. We participated in several different Eclipse projects and were a founding member of the Eclipse Plugin Central Alliance. After Google's acquisition of Instantiations in 2010, I spearheaded the effort to re-release all of Instantiations' popular commercial tools (WindowBuilder, CodePro AnalytiX and WindowTester) as free Google offerings and also drove the effort to contribute the WindowBuilder and CodePro Profiler IP to Eclipse as two new open source projects. I am now spearheading the Google Plugin for Eclipse product. 
+		I have been involved with Eclipse since 1999 when Instantiations was first briefed on it by IBM and have been a strong supporter of Eclipse community interests ever since. I co-authored Eclipse: Commercial Quality Plug-ins and Eclipse Plug-ins and have presented at every EclipseCon since the very first. At Instantiations, we were heavily committed to Eclipse since its inception, and my team was responsible for creating the very first commercial Eclipse add-on, CodePro, and the award-winning WindowBuilder product for SWT, Swing and GWT development. We participated in several different Eclipse projects and were a founding member of the Eclipse Plugin Central Alliance. After Google's acquisition of Instantiations in 2010, I spearheaded the effort to re-release all of Instantiations' popular commercial tools (WindowBuilder, CodePro AnalytiX and WindowTester) as free Google offerings and also drove the effort to contribute the WindowBuilder and CodePro Profiler IP to Eclipse as two new open source projects. I am now managing the Google Plugin for Eclipse project and am Project Lead for the new WindowBuilder project at Eclipse.org. 
 	]]> </eclipse_affiliation>
 
 	<vision>  <![CDATA[
@@ -29,7 +29,7 @@
 	]]> </bio>
 
 	<affiliation> <![CDATA[ 
-		Google provides a number of well known Eclipse add-ons including the Google Plug-in for Eclipse (GPE), Android Development Tools (ADT), WindowBuilder (SWT, Swing and GWT Designer), CodePro AnalytiX and WindowTester and the contributor and sponsor of the new WindowBuilder open source project at Eclipse. Google is a multinational public cloud computing and Internet search technologies corporation.
+		Google provides a number of well known Eclipse add-ons including the Google Plug-in for Eclipse (GPE), Android Development Tools (ADT), WindowBuilder (SWT, Swing and GWT Designer), CodePro AnalytiX and WindowTester and is the contributor and sponsor of the new WindowBuilder open source project at Eclipse. Google is a multinational public cloud computing and Internet search technologies corporation.
 	]]>
 	</affiliation>
 		
