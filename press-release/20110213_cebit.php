@@ -69,7 +69,13 @@
 			applications can be professionally documented "out-of-the-box". 		
 		</p>
 		<p>
-			itemis paragraph
+			
+			itemis is a Strategic Member of the Eclipse Foundation and a market leader in the area of
+			model-driven software development based on Eclipse. itemis develops frameworks and tools like
+			'Xtext' for domain-specific modeling of Enterprise Applications, Embedded Systems and
+			Business Applications for mobile devices, and focuses on generator development and Eclipse
+			technologies. itemis harmonizes development methods with tool development to support customers.
+			software development process and to develop solutions especially tailored to customers' needs.
 		</p>
 		<p>
 			Talend paragraph
