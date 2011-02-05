@@ -15,6 +15,8 @@
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
 	$year="2011";
+	$number_sustaining="three";
+	$number_committer="three":
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -54,7 +56,8 @@
 		<a href="http://www.eclipse.org/forums/eclipse.foundation">Foundation forum</a>.
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
-		Information concerning the $year elections is contained within the links below.
+		For $year, members will elect $number_sustaining Sustaining Member representative, and $number_committer
+		Committer representatives. Information concerning the $year elections is contained within the links below.
 		<ul>
 		<li>The <a href="nominees.php">candidates</a> for the election</li>
 		<li>The <a href="keydates.php">key dates</a> for the $year elections</li>
