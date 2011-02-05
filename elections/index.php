@@ -16,7 +16,7 @@
 	//$id = $_GET['id'];
 	$year="2011";
 	$sustaining="three";
-	$committer="three":
+	$committer="three";
 	$candidates = get_all_candidates($year);
 	
 	#
