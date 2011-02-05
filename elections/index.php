@@ -15,8 +15,8 @@
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
 	$year="2011";
-	$number_sustaining="three";
-	$number_committer="three":
+	$sustaining="three";
+	$committer="three":
 	$candidates = get_all_candidates($year);
 	
 	#
