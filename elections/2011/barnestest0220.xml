@@ -1,0 +1,27 @@
+<boardmember id="barnes" type="addin">
+
+	<name>Tim Barnes</name>
+
+	<title> <![CDATA[Managing Partner, OpenMethods]]> </title>
+
+	<image>barnes.jpg</image>
+	
+	<email>tim@openmethods.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+		Solutions Member
+	 ]]> </eclipse_affiliation>
+
+	<vision> <![CDATA[
+
+	]]></vision>
+
+	<bio><![CDATA[
+
+	]]></bio>
+		Tim Barnes, the Managing Partner for OpenMethods, formerly worked for Genesys Telecommunication Labs. Tim initially worked in professional services specializing in IVR and CRM integration. He then moved to Expert Services, supporting large scale beta-product implementations as well as, performing research and field trials for proposed products and services. From Expert Services, Tim moved to Product Management to lead the development and launch of the Genesys G+ Adapter Program. Specifically, Tim designed and managed the development of the G+ Adapter for Siebel 2000, Siebel 7, Siebel 7.5, Peoplesoft CRM (Vantive), and the Genesys Integration Server (GIS). Prior to working at Genesys, Tim worked for Sprint Local Telephone Division designing, implementing and maintaining a variety of IVR platforms including Nortel Open, Periphonics, and InterVoice.
+	<affiliation><![CDATA[ 
+		OpenMethods
+	]]></affiliation>
+			
+</boardmember>
