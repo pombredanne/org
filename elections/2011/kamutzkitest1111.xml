@@ -21,26 +21,22 @@
 
 		<p>Membership: Even though the Board has introduced a number of improvements to the membership model, there's still work to do.
 		The current membership model still makes it hard for many companies to justify payment of the membership fees to the Eclipse foundation ("why pay for something we can get for free anyway?"). 
-
 		My vision for the Eclipse membership model is to generate more immediate membership value for a large number of small and mid sized companies 
 		(committers and consumers), while keeping the large companies interested in staying in the foundation. 
-		In my opinon, some of the foundations offerings (like the option to get long term support for outdated releases) should become "members only" benefits, while others (like joining a project) should remain open for anybody
-		who complies with the rules of the foundation.
-
-		This will make the Eclipse Foundation more robust against economical threats caused by member fluctuation.
-
-		I also want to work on a program that activates the community members to more actively participate in the development of the eco-system and the foundation.</p>
+		In my opinon, some of the foundation's offerings (like the option to get long term support for outdated releases) should become "members only" benefits, while others (like joining a project) should remain open for anybody
+		who complies with the rules of the foundation. This will make the Eclipse Foundation more robust against economic threats caused by member fluctuation.
+		I also want to work on a program that motivates the community members to more actively participate in the development of the eco-system and the foundation.</p>
 
 		<p>Visibility and representation: Im my vision for Eclipse, the foundation will designate a dedicated evangelist whose sole responsibility is to publicly represent the Eclipse in the software community and beyond.
 		Even if budgetary constraints don't allow to hire someone now, this is still a goal which should be pursued for the near future. </p>
 
 		<p>Technology: It is essential to maintain, and possibliy expand the momentum that Eclipse has in the Java world. At the same time, Eclipse has to open up for new technologies to stay on top of the
 		commercial open source movement. The core strength of Eclipse (managed IP progress, well governed open source projects) can be propagated to virtually any significant up to date IT technology. So my vision is
-		to see the Eclipse project moving into new technology domains like Java Script etc.</p>
+		to see the Eclipse project moving into new technology domains like JavaScript etc.</p>
 	]]></vision>
 
 	<bio><![CDATA[
-		Hans Kamutzki is co-founder and Managing Director of MicroDoc, Munich. 
+		Hans Kamutzki is co-founder and Managing Director of MicroDoc. 
 		He studied Physics and Computer Science in Bonn and Munich, Germany and focused on realtime image processing and 
 		process control in the early days of his professional work. For a "device and algorithm for the automatic detection of 
 		objects" he was co-awarded a German and European patent. After many years of development and project management practice in 
