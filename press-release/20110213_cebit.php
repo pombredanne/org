@@ -78,7 +78,10 @@
 			software development process and to develop solutions especially tailored to customers' needs.
 		</p>
 		<p>
-			Talend paragraph
+			SOPERA and Talend will present their joint open source middleware product portfolio. This includes
+			enterprise-ready solutions in the area of application and data integration. In addition, the
+			companies will present their roadmap and first components of a lightweight integration platform,
+			targeting developers as well as small and medium-sized companies.
 		</p>
 		<p>
 			Tasktop Technologies is the market leader in task integration for Eclipse. Tasktop Technologies
