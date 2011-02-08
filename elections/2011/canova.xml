@@ -1,0 +1,32 @@
+<boardmember id="canova" type="addin">
+
+	<name>Weber Canova</name>
+
+	<title>Chief Innovation and Technology Officer, TOTVS</title>
+
+	<image>canova.jpg</image>
+
+	<email>weber@totvs.com.br</email>
+
+	<eclipse_affiliation> <![CDATA[
+		Solutions Member
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+		<p>As the first Director Member of Latin America in the Eclipse Foundation my main objective is to create and improve the Eclipse Foundation in new markets and countries, like Brazil, Argentina, Chile and others.</p>
+
+		<p>I am the CTO of the largest software company in Latin America, with an ecosystem with more than 55.000 developers (including employees, customers, consultants, etc.). I’ll use this great ecosystem to spread the Eclipse Foundation, its projects and products, but also gather all the particular needs from our developers and companies and share those with the Eclipse Community to make it even stronger. This great ecosystem represents also a unique opportunity for new projects and  products.</p>
+
+		<p>By being a Director at the Eclipse Foundation, I’ll act as an evangelist, spreading all the Eclipse products and projects to enhance its quality. I’ll sponsor community projects and gather and implement ideas to keep the balance between performance, innovation and quality.</p> 
+	]]> </vision>
+
+	<bio> <![CDATA[
+		Mr. Canova, 48, is TOTVS’ Chief Innovation and Technology Officer. He received a degree in electrical engineering from the Escola de Engenharia Mauá in 1982. Mr. Canova began his career as a programming team coordinator in 1984. He participated in the development and implementation of the internal applications and systems of AGF Companhia de Seguros Gerais from 1986 to 1988 and was responsible for the implementation of systems, installation and management for medium and large corporations from 1988 to 1990. Mr. Canova joined the Company in 1995 acting as the IT coordinator and, as the group´s current Executive Technology Director. Mr. Canova is responsible for TOTVS development platform. The platform has a virtual machine, a smart client user interface, a RDBMS connector and a developer environment ( now based on Eclipse ).  
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		TOTVS
+	]]>
+	</affiliation>
+		
+</boardmember>
