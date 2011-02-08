@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2010";
+	$year="2011";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -41,20 +41,20 @@
 		<ul>
 		<li>Chris Aniszczyk</li>
 		<li>Boris Bokowski</li>
-		<li>Bjorn Freeman-Benson</li>
 		<li>Ed Merks</li>
-		<li>Doug Schaefer</li>
+		<li>Gunnar Wagenknecht</li>
 		</ul>
 		<h2>Sustaining Member Candidates</h2>
 		<ul>
-		<li>Hans-Joachim Brede</li>
+		<li>Tim Barnes</li>
+		<li>Weber George Canova</li>
+		<li>Eric Clayberg</li>
+		<li>John Cunningham</li>
 		<li>Hans Kamutzki</li>
 		<li>Mik Kersten</li>
 		<li>Adam Lieber</li>
-		<li>Shawn Pearce</li>
-		<li>Yves Yang</li>
 		</ul>
-		<p><b>The individual candidate pages will be available on February 8, 2010.</b></p>
+		<p><b>The individual candidate pages will be available on February 8, 2011.</b></p>
 		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
