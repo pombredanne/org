@@ -87,7 +87,7 @@ ob_start();
 					<td><img src="images/technology/WindRiver.jpg" width="60"></td><td><b>Wind River Workbench</b><br>Best Commercial Developer Tool 2008<br><br></td>																
 				</tr>
 				<tr>			
-					<td><img src="images/technology/XMIND.jpeg" width="60"></td><td><b>XMIND 2008</b><br>Best Commercial RCP Application 2008<br><br>ec</td>
+					<td><img src="images/technology/XMIND.jpeg" width="60"></td><td><b>XMIND 2008</b><br>Best Commercial RCP Application 2008<br><br></td>
 					<td></td><td></td>			
 				</tr>
 			</table>
