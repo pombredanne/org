@@ -10,10 +10,9 @@
 
 	<eclipse_affiliation> <![CDATA[		
 		Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Committer<br> 
-        <a href="http://www.eclipse.org/technology/team-leaders.php">Technology</a> PMC Member<br>
-        <a href="http://www.eclipse.org/mylyn">Mylyn</a> PMC Member<br>
-        <a href="http://www.eclipse.org/egit">EGit</a> / JGit Committer<br> 
-        <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>                 
+        <a href="http://www.eclipse.org/technology/team-leaders.php">Technology</a> and Mylyn PMC Member<br>
+        <a href="http://www.eclipse.org/egit">EGit</a> / JGit Committer<br>
+        <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>               
         <a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer<br> 
         <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007-2011)<br> 
         Eclipse Board Committer Representative (2007-2011)
@@ -21,11 +20,15 @@
 
 	<vision>  <![CDATA[
 		<p>My overall vision for Eclipse is simple, keep building the <b>community</b> so the Eclipse ecosystem can prosper. We have a unique open source community at Eclipse that is comprised of a variety of parties, from individuals to academics to businesses. We need to keep all parties in mind and make it easier for everyone to be successful at Eclipse without alienating anyone.</p>
-		<p>While writing this, it's amazing to reflect that Eclipse has been around for a decade. The amount of technological progress and change has been staggering... from thin clients, to thick clients and back again. In order to remain vibrant and relevant, Eclipse will have to deal with legacy and also look towards the future. With the e4 project, we are making progress to modernize the existing rich client platform which is important to the majority of our current users. However, in early 2011, Eclipse announced the Orion project which looks towards a future where browser-based tool integration platforms are going to be important. The Orion project will also attract new types of developers to eclipse.org and we'll have to make sure they are accomodated for.</p>
-		<p>In the end, as a committer representative, I will continue to support committers and bring forward any concerns. My passion lays with growing the Eclipse ecosystem and making sure its constituents are happy. I have demonstrated my passion over the last few years via action. I have introduced new contributors to the Eclipse ecosystem, mentored many committers and <a href="http://www.eclipse.org/egit">attracted</a> <a href="http://www.eclipse.org/libra">new</a> <a href="http://www.eclipse.org/gef3d">projects</a>. I have also been one of the major proponents in bringing Git to eclipse.org, from bringing the proposal to the board to actually committing on the respective EGit and JGit projects.</p>
+		
+		<p>While writing this, it's amazing to reflect that Eclipse has been around for a decade. The amount of technological progress and change has been staggering.. In order to remain vibrant and relevant, Eclipse will have to deal with legacy but also look towards the future. With the e4 project, we are making progress to modernize the existing code base and rich client platform that is important to the majority of our current users. However, in early 2011, Eclipse announced the Orion project which looks towards a future where browser-based tool integration platforms are going to be important. The web space is new for eclipse.org and the Orion project will attract new types of developers to eclipse.org and we'll have to make sure they're accomodated for. Furthermore, we'll have to continue to modernize our eclipse.org infrastructure with Git as the backbone for version control to alleviate some resources from maintaining the current three version control systems.</p>
+
+		<p>In the end, as a committer representative, I will continue to support committers and bring forward any concerns. My passion lays with growing the Eclipse ecosystem and making sure its constituents are happy. I have demonstrated my passion over the last few years via action. I have introduced new contributors to the Eclipse ecosystem, mentored many committers and <a href="http://www.eclipse.org/egit">attracted</a> <a href="http://www.eclipse.org/libra">new</a> <a href="http://www.eclipse.org/gef3d">projects</a>. I have also been one of the major proponents in bringing Git to eclipse.org, from bringing the proposal to the board to actually committing and pushing on the respective EGit and JGit projects.</p>
+
 		<p>To ensure Eclipse continues to grow and thrive I will particularly focus on:</p>
 		<ul>
 			<li>Continue modernizing the Eclipse infrastructure around Git and make sure the move is done by end of 2011</li>
+			<li>Simplify the IP logging process by taking advantage of git-notes</li>
 			<li>Push the Foundation to consider hosting a eclipse.org wide Gerrit instance for code review</li>
 			<li>Make way for Eclipse's entry into the web development community with Orion</li>
 			<li>Push the Eclipse Marketplace to become an appstore for the Eclipse ecosystem</li>
@@ -35,7 +38,8 @@
 			<li>Evangelize and grow the e4, Orion and EclipseRT efforts</li>
 			<li>Ensure Eclipse processes are transparent and lightweight as possible</li>
 		</ul>
-		<p>On the whole, my goal is to make Eclipse thrive and be transparent as possible about the board's activities. I love bringing new projects to the Eclipse ecosystem and mentoring new committers. I will pay special attention to how we can make the Eclipse development process easier for smaller projects. In the end, I would be honored to represent you, the committers, for another term.</p>	
+
+	<p>On the whole, my goal is to make Eclipse thrive and be transparent as possible about the board's activities. I love bringing new projects to the Eclipse ecosystem and mentoring new committers. I will pay special attention to how we can make the Eclipse development process easier for smaller projects. In the end, I would be honored to represent you, the committers, for another term.</p>	
 	]]> </vision>
 
 	<bio> <![CDATA[
