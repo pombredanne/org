@@ -29,19 +29,19 @@
 		<h2>Community Bulletin</h2>
 		
      	<p>	
-			The Eclipse Foundation is pleased to announce at the upcoming CeBit trade show, the Eclipse Foundation 
-			and member companies have organized a special in an Eclipse Pavillion to showcase the technology and solutions available from the Eclipse community.
+			The Eclipse Foundation is pleased to announce at the upcoming CeBIT trade show a special Eclipse Pavillion which will
+			showcase technology and solutions available from the Eclipse community.
 			Eclipse Foundation members Actuate, Bredex, EclipseSource, *instinctools, itemis, Talend and
-			Tasktop Technologies will highlight many diverse technologies such as BI,
+			Tasktop Technologies will participate in the Pavillion and showcase many diverse technologies such as BI,
 			testing, provisioning, runtimes, documentation, data integration and task integration.  CeBIT is one of the largest 
 			IT industry trade shows, being held March 1-5, 2011 in Hannover, Germany.
 		</p>
 		
 		<p>
 			"CeBIT attendees will have a great opportunity to experience first-hand the range and diversity of the 
-			Eclipse ecosystems," says Mike Milinkovich, Executive Director of the Eclipse
-			Foundation.  "The companies participating in the Eclipse Pavillion will be showcasing some of the latest Eclipse-based open source 
-			and commercial innovations.  I'd encourage all attendees to visit the Pavillion to see the range of solutions available" - QUOTE NOT YET APPROVED
+			Eclipse ecosystem," says Mike Milinkovich, Executive Director of the Eclipse
+			Foundation.  "The companies participating in the Eclipse Pavillion will be showcasing some of the latest innovations in Eclipse-based open source 
+			and commercial solutions.  I'd encourage all attendees to visit the Pavillion to see the range of solutions available" - QUOTE NOT YET APPROVED
 		</p>
 
 		<p>
