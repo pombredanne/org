@@ -29,7 +29,7 @@
 		<h2>Community Bulletin</h2>
 		
      	<p>	
-			The Eclipse Foundation is pleased to announce at the upcoming CeBIT trade show a special Eclipse Pavillion which will
+			The Eclipse Foundation is pleased to announce a special Eclipse Pavillion at the upcoming CeBIT trade show which will
 			showcase technology and solutions available from the Eclipse community.
 			Eclipse Foundation members Actuate, Bredex, EclipseSource, *instinctools, itemis, Talend and
 			Tasktop Technologies will participate in the Pavillion and showcase many diverse technologies such as BI,
