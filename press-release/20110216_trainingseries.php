@@ -29,11 +29,11 @@
 	
 		<p>
 			The Eclipse Foundation and Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">Spring 2011
-			training class series</a>.  The training is an excellent opportunity for software
-			developers and architects to learn more about Eclipse Rich Client Platform (RCP), OSGi and Modeling technologies.
+			training class series</a>.  These training classes are an excellent opportunity for software
+			developers and architects to learn more about Eclipse Rich Client Platform (RCP), Eclipse Equinox, OSGi and Modeling technologies.
 			Eclipse experts	will lead the sessions, providing practical experience through classroom
 			instruction and hands-on labs. Virtual and on-site classes have been scheduled in
-			several countries from April 26 to May <XXX>, 2011. 
+			several countries from April 25 to May 26, 2011. 
 		</p>
 		<p>
 			Students who register at least 2 weeks in advance will receive a 10% discount on the
@@ -43,7 +43,7 @@
 		<p>
 			Eclipse members participating in the training series are <a href="http://www.avantsoft.com/" target="blank">AvantSoft</a>,
 			<a href="http://eclipsesource.com/en/services/eclipse-training/" target="blank">EclipseSource</a>, <a href="http://www.industrial-tsi.com/" target="blank">
-			Industrial TSI</a>, <a href="http://www.obeo.fr/" target="blank">Obeo</a>, <a href="http://www.opcoach.com/" target="blank">OPCoach</a>, <a href="http://rcp-company.com/" target="blank">The
+			Jasmine Conseil</a>, <a href="" target="blank">Industrial TSI</a>, <a href="http://www.obeo.fr/" target="blank">Obeo</a>, <a href="http://www.opcoach.com/" target="blank">OPCoach</a>, <a href="http://rcp-company.com/" target="blank">The
 			RCP Company</a> and <a href="http://www.rcp-vision.com" target="blank">RCP Vision</a>
 		</p>
 		<p>
