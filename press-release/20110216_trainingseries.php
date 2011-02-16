@@ -42,8 +42,8 @@
 		</p>
 		<p>
 			Eclipse members participating in the training series are <a href="http://www.avantsoft.com/" target="blank">AvantSoft</a>,
-			<a href="http://eclipsesource.com/en/services/eclipse-training/" target="blank">EclipseSource</a>, <a href="http://www.industrial-tsi.com/" target="blank">
-			Jasmine Conseil</a>, <a href="" target="blank">Industrial TSI</a>, <a href="http://www.obeo.fr/" target="blank">Obeo</a>, <a href="http://www.opcoach.com/" target="blank">OPCoach</a>, <a href="http://rcp-company.com/" target="blank">The
+			<a href="http://eclipsesource.com/en/services/eclipse-training/" target="blank">EclipseSource</a>, <a href="http://www.jasmineconseil.com/" target="blank">
+			Jasmine Conseil</a>, <a href="http://www.industrial-tsi.com/" target="blank">Industrial TSI</a>, <a href="http://www.obeo.fr/" target="blank">Obeo</a>, <a href="http://www.opcoach.com/" target="blank">OPCoach</a>, <a href="http://rcp-company.com/" target="blank">The
 			RCP Company</a> and <a href="http://www.rcp-vision.com" target="blank">RCP Vision</a>
 		</p>
 		<p>
@@ -62,7 +62,7 @@
 			</ul>
 		</div>
 		<a href="../../community/training/classes.php">
-		<img src="../../community/training/traininggraphic_125x125.jpg" alt="Eclipse Training" border="0">
+		<img src="../../community/training/traininggraphic_125x125.png" alt="Eclipse Training" border="0">
 		</a>
 	</div>
 </div>
