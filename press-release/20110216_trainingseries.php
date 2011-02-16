@@ -58,7 +58,7 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training, Fall 2010</a></li>
+				<li><a href="http://www.eclipse.org/community/training/classes.php">Eclipse Training, Spring 2011</a></li>
 			</ul>
 		</div>
 		<a href="../../community/training/classes.php">
