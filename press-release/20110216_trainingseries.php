@@ -29,7 +29,7 @@
 	
 		<p>
 			The Eclipse Foundation and Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">Spring 2011
-			training class series</a>.  These training classes are an excellent opportunity for software
+			Training Series</a>.  These training classes are an excellent opportunity for software
 			developers and architects to learn more about Eclipse Rich Client Platform (RCP), Eclipse Equinox, OSGi and Modeling technologies.
 			Eclipse experts	will lead the sessions, providing practical experience through classroom
 			instruction and hands-on labs. Virtual and on-site classes have been scheduled in
