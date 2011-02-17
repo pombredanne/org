@@ -45,7 +45,11 @@
 		</p>
 
 		<p>
-			Actuate paragraph
+			Actuate is showcasing its premier open source report development technology, BIRT (Business 
+			Intelligence Reporting Tools). Visitors will be given an insight into BIRT's extensive capabilities 
+			and enhanced end user functionality, with a choice of deployment options incorporating on-premise, 
+			cloud and mobile BIRT applications. Live demonstrations include end user interactivity, data 
+			analytics and dash-boarding.
 		</p>
 		<p>
 			BREDEX test experts will be available at the Eclipse Island to talk about quality assurance
@@ -62,13 +66,12 @@
 			Eclipse technologies.			
 		</p>
 		<p>
-			*instinctools offers software and service for custom Eclipse and Java applications. Their
-			software engineers have been successfully developing innovative software solutions in
-			different industries for over 10 years. Market leaders in Information Technology are counting
-			on *instinctools when it comes to the development of their Eclipse-based prototypes and
-			software products. With DITAworks, *instinctools offers an integrated authoring platform for
-			structured documentation using the single-source principle. With DITAworksEclipse, Eclipse
-			applications can be professionally documented "out-of-the-box". 		
+			*instinctools provides Eclipse-based software and services. Their software engineers have been 
+			successfully developing innovative software solutions in different industries for over 10 years. 
+			Market leaders in Information Technology are counting on *instinctools when it comes to the development 
+			of their Eclipse-based software products. With DITAworks, *instinctools offers an integrated 
+			authoring platform for structured documentation using the single-source principle. With DITAworksEclipse, 
+			Eclipse applications can be professionally documented "out-of-the-box".				
 		</p>
 		<p>
 			
