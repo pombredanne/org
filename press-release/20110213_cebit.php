@@ -41,7 +41,7 @@
 			"CeBIT attendees will have a great opportunity to experience first-hand the range and diversity of the 
 			Eclipse ecosystem," says Mike Milinkovich, Executive Director of the Eclipse
 			Foundation.  "The companies participating in the Eclipse Pavillion will be showcasing some of the latest innovations in Eclipse-based open source 
-			and commercial solutions.  I'd encourage all attendees to visit the Pavillion to see the range of solutions available" - QUOTE NOT YET APPROVED
+			and commercial solutions.  I'd encourage all attendees to visit the Pavillion to see the range of solutions available" 
 		</p>
 
 		<p>
