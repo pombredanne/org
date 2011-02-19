@@ -58,7 +58,7 @@
      	group will also provision the resources to create, ship and maintain the platform.</p>
      	
      	<p>The EAIWG will conduct a gap analysis, identifying the gap between needed and available functionality in the current Eclipse technology platform. 
-     	ased on this analysis, a prioritized roadmap will be created to implement the missing functions.</p>
+     	Based on this analysis, a prioritized roadmap will be created to implement the missing functions.</p>
      	
      	<p>In addition, the EAIWG may provision other initiatives. These initiatives shall support definition, management and execution of the 
      	engineering electronic development in the automotive supply chain.</p>
@@ -70,7 +70,7 @@
      	
 		<p>The Participation Guidelines define the obligations and rights of the participants of the EAIWG.</p>
 		
-		<p>The founding participants agree that the guiding principle of of governance shall be based on meritocracy. This means that those 
+		<p>The founding participants agree that the guiding principle of governance shall be based on meritocracy. This means that those 
 		companies that provide the resources will be empowered to make the important decision of the EAIWG.</p>
 		
 		<h4>Steering Committee</h4>
@@ -88,7 +88,7 @@
 			<li>specify requirements for the Member Participants of the EAIWG, and</li>
 			<li>be a member of the Eclipse Foundation, at the Solution, Enterprise or Strategic level.</li>
 		</ul>
-		The members of the steering committee will  appoint the IWG Chair. She/he will be be the employee of a Steering Committee Member company.</p>
+		The members of the steering committee will appoint the IWG Chair. She/he will be an employee of a Steering Committee Member company.</p>
 		 
 		<h4>Member Participant</h4>
 		
