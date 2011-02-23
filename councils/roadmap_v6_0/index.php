@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "BOARD DRAFT Eclipse RoadMap v5";
+	$pageTitle 		= "BOARD DRAFT Eclipse RoadMap v6";
 	$pageKeywords	= "about, documents, history";
 	$pageAuthor		= "Donald Smith";
 		
@@ -19,7 +19,7 @@
 			<li><a href="#strategic">Strategic Goals</a></li>
 			<li><a href="#futures">Future Directions</a>
 			<ol>
-				<li><a href="#e4">Eclipse 4.0</a></li>
+				<li><a href="#e4">Eclipse 4.x</a></li>
 				<li><a href="#cloud">cloud</a></li>
 				<li><a href="#RT">eclipseRT</a></li>
 				<li><a href="#web">Web Development</a></li>
@@ -29,19 +29,19 @@
 		</ol>
 		
 	    <h2><a name="introduction"></a>Introduction</h2>
-		<p>As required by the Eclipse Development Process, this document describes the 2010 Eclipse Roadmap.</p>
+		<p>As required by the Eclipse Development Process, this document describes the 2011 Eclipse Roadmap.</p>
 
 		<p>There are three main sections to this document:</p>
 			<ol>
 				<li> This Preamble provides some background on Eclipse and the Foundation, and identifies the 
 				strategic goals of Eclipse. It also provides a brief overview of the scope of future projects</li>
-				<li> The <a href="./themes50.php">Themes and Priorities</a> which has been developed by the Eclipse Councils.</li> 
+				<li> The <a href="./themes60.php">Themes and Priorities</a> which has been developed by the Eclipse Councils.</li> 
 				<li> The <a href="./plans/index.php">Platform Release Plan</a> which has been developed by the Eclipse 
 				Planning Council.</li>
 			</ol>
 		
 		<p>The Roadmap is intended to be a living document which will see future iterations. This document is the 
-		fifth version of the Eclipse Roadmap, and is labeled as version 5.0. In order to preserve this document 
+		fifth version of the Eclipse Roadmap, and is labeled as version 6.0. In order to preserve this document 
 		while the underlying information evolves, the pages have been frozen by copying them from their original 
 		project hosted locations.</p>
 
@@ -54,9 +54,6 @@
 		expects that incubator projects created in the Technology PMC will cover areas not explicitly described 
 		in the Roadmap.</p>
 		
-		<p>New in the version 5.0 iteration of the Road Map is a focus on projects that are part of the next planned
-		release train code named "Helios" with a release date of June 2010.  For example, project plan listings
-		are plans for Helios from the projects that are part of that release train.</p>
 
 		<a name="background"></a><h2>Background</h2>
 		<p>As defined on our website, the role of the Foundation is:
