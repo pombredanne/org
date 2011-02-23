@@ -148,8 +148,8 @@
 		envision starting new projects in 2010-2011, not areas in which we envision having completed 
 		Eclipse-quality standards-based frameworks and tooling. </p>
 		
-		<a name="#e4"></a><h2>Eclipse 4.0</h2>
-		<p>2010 will see the first major release of the Eclipse Platform since 2004. The major goals 
+		<a name="#e4"></a><h2>Eclipse 4.x</h2>
+		<p>2011 will see another release of the Eclipse 4 stream, Eclipse 4.1. The major goals 
 		of <a href="/e4/">this new release</a> include:<ul>
 		<li>Making it easier to write plug-ins</li>
     	<li>Allowing better control over the look of Eclipse based products</li>
@@ -199,9 +199,8 @@
 		</ul>
 		
       </div>
-      <div id="rightcolumn">
       
- 
+      <div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>

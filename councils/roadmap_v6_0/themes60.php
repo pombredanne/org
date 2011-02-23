@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse 2010 Themes and Priorities";
+	$pageTitle 		= "Eclipse 2011 Themes and Priorities";
 	$pageKeywords	= "about, documents, history";
 	$pageAuthor		= "Donald Smith";
 		
