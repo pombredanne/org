@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - tools.sequoyah</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.sequoyah">Sequoyah</a>, version 2.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+		<p><b><h1>13 December 2010</h1></b></p>
+			<p>
+				Sequoyah project's purpose is to be focused on the needs
+				of all mobile developers. Inheriting components from TmL, 
+				MTJ and Pulsar projects, Sequoyah intends to remove the 
+				artificial barriers of Linux and Java in order to 
+				provide a home for all Eclipse mobile developers.
+			</p>
+			<p>
+				Sequoyah currently contains the following components:</p>
+				<ul>
+					<li>
+					Device Framework, responsible for providing an extensible 
+					platform to support mobile devices and their aggregated services.
+					</li> 
+					<li>
+					VNC Protocol, a scratch implementation of RFB protocol to 
+					support visualize the frame buffer content. It can also promote 
+					the protocol communication interface between devices and Sequoyah 
+					device framework.
+					</li>
+					<li>
+					VNC Viewer, contains the libraries and plug-ins responsible 
+					for providing VNC connectivity.
+					</li>
+					<li>
+					Localization Framework, responsible for providing extensible support 
+					for any mobile application to be adapted for a specific region 
+					or language by adding locale-specific components and translating 
+					text. A reference-implementation for the Android platform is provided.
+					</li>
+					<li>					
+					Automation Test Framework, which objective is to allow the creation 
+					of automated test cases in an easy way. The user will be able to 
+					specify test requirements, purposes, steps and assertions written 
+					in an procedural language. 
+					</li>
+					<li>
+					Android NDK integration, responsible for providing support for Android 
+					native applications development.  
+					</li>					
+					<li>
+					SDK Discovery, used in the QuickInstall view in Pulsar. 
+					This view enables you to easily manage Software 
+					Development Kits (SDKs) from within Eclipse Pulsar. 
+					</li>
+					<li>
+					Release Engineering (Releng), provides frameworks to do the builds 
+					and run automated tests. 
+					</li>
+				</ul>
+				<p>Sequoyah is currently responsible for Pulsar components, 
+				such as: branding, perspective and signing.
+			</p>
+			<p>
+				There is interest in the project from Motorola, RIM, Wind River and Nokia, 
+				among others.
+			</p>
+			<p>
+				Currently, Sequoyah committers are: 
+				<ul>
+					<li>Daniel Franco; Eldorado</li>
+					<li>Daniel Pastore; Eldorado</li>
+					<li>Marcel Gorri; Eldorado</li>
+					<li>Doug Schaefer; Wind River</li>
+					<li>David Dubrow; Nokia</li>
+				</ul>
+				Eric Cloninger of Motorola is the lead for the project. 
+			</p>
+
+		</div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+			<p>
+				Sequoyah components present in the project's SVN repository are:</p>
+				<ul>
+					<li>Device Framework</li> 
+					<li>VNC Protocol</li>
+					<li>VNC Viewer</li>
+					<li>Localization</li>
+					<li>Pulsar Feature</li>
+					<li>SDK Discovery</li>
+					<li>Android NDK Support</li>
+				</ul>
+			<p>Stand-alone components will be provided when appropriate. </p>				
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+				<p>
+					Currently Sequoyah has regular releases used by several Motorola MOTODEV Studio products.
+					Such releases can be found in <a href="http://www.eclipse.org/projects/project-plan.php?projectid=eclipse#target_environments">
+					Sequoyah's download page</a>.
+					The Sequoyah team will release a 2.0 product with Eclipse Indigo in June 2011. 
+				</p>
+			</div><table border="1" align="center"/><div>
+				<p>
+					The target date for Sequoyah releases are:
+				</p>
+				<ul>
+					<li>
+						Friday, February 25, 2011 - Sequoyah / Helios  SR2 Release date					
+					</li>
+					<li>
+						Wednesday, June 22, 2011 - Sequoyah / Indigo Release date
+					</li>
+					<li>
+						Friday, September 23, 2011 - Sequoyah / Indigo  SR1 Release date					
+					</li>
+					<li>
+						Friday, February 24, 2012 - Sequoyah / Indigo  SR2 Release date					
+					</li>
+				</ul>
+			</div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			<p>
+			<ul>
+				<li>The Sequoyah Project 2.0 depends upon on the Eclipse Platform 3.7 (Indigo).</li>
+				</ul>
+			</p>
+			<p>
+				The Sequoyah deliverables will be tested and validated against a subset of 
+				the reference platforms listed in the
+				<a href="http://www.eclipse.org/projects/project-plan.php?projectid=eclipse#target_environments">
+					Eclipse Platform 3.7 (Indigo) Project Plan
+				</a>
+				(this list is updated over the course of the release cycle).
+			</p>
+			<table summary="Sequoyah Reference Platforms" style="width: 821px;" border="1">
+				
+					<tr bgcolor="#cccccc">
+						<th colspan="5">
+							<div align="center">
+								<strong>
+									<font size="+1">
+										Sequoyah Reference Platforms
+									</font>
+								</strong>
+							</div>
+						</th>
+					</tr>
+					<tr>
+						<td width="205">
+							<b>Operating system</b>
+						</td>
+						<td width="59">
+							<b>Version</b>
+						</td>
+						<td width="100">
+							<b>Hardware</b>
+						</td>
+						<td width="400">
+							<b>JRE</b>
+						</td>
+						<td width="70">
+							<b>Windowing System</b>
+						</td>
+					</tr>
+					<tr>
+						<td width="205">Microsoft Windows</td>
+						<td width="59">XP, 7</td>
+						<td width="100">x86, x86_64</td>
+						<td width="400">
+							Sun Java 6 Update 22 | Sun Java 5 Update 22
+						</td>
+						<td width="59">Win32</td>				
+					</tr>
+					<tr>
+						<td width="205">Ubuntu</td>
+						<td width="59">10.04</td>
+						<td width="100">x86, x86_64</td>
+						<td width="400">
+							Sun Java 6 Update 22
+						</td>
+						<td width="59">GTK</td>						
+					</tr>
+					<tr>
+						<td width="205">
+							Apple Mac OS X
+						</td>
+						<td width="59">10.6.5</td>
+						<td width="100">Universal 32/64 bit</td>
+						<td width="400">
+							Apple Java 1.6 Update 22
+						</td>
+						<td width="59">Cocoa</td>						
+					</tr>
+				
+			</table>
+		</div>
+			<div>
+				<p><h3>Internationalization</h3></p>
+				<p>Sequoyah releases are integrated with Babel project, 
+				using English strings stored in external resource bundles.</p>
+			</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+		<p><b>API Contract Compatibility:</b> Sequoyah 2.0 will not be compatible 
+		with Sequoyah 1.0.</p>
+		
+		<p><b>Binary (plug-in) Compatibility:</b> Sequoyah 2.0 will not be binary 
+		compatible with Sequoyah 1.0.</p>
+		
+		<p><b>Source Compatibility:</b> Sequoyah 2.0  will likely not be source 
+		compatible with Sequoyah 1.0.</p>
+				
+		<p><b>Device Compatibility:</b> Sequoyah has a backward compatibility 
+		module specific for devices created by TmL. This way, devices created in 
+		previous TmL versions will be recognized by Sequoyah. Forward device 
+		compatibility is not supported. A device created (or opened) by a product 
+		based on Sequoyah will be unusable with a product based on TmL.</p>
+		
+		<p><b>API Contract:</b> APIs published for Sequoyah releases will be 
+		carefully reviewed prior to each release, making use of "internal" packages for 
+		unsupported and variable implementation classes. Client plug-ins that directly 
+		depend on anything other than what is specified in the published API are 
+		inherently unsupportable and receive no guarantees about future compatibility. 
+		Refer to How to Use the Eclipse API for information about how to write compliant plug-ins.</p>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+				<p>Plan items listed below were defined according to contributor requirements, 
+				but in accordance with Sequoyah team. Each plan item covers a feature or API 
+				that is to be added to the Sequoyah deliverables, or some aspect of the Sequoyah 
+				Project that is to be improved. </p>
+				<p>
+				 The current status of each plan item is noted:
+				</p>
+				<ul>
+					<li>
+						<b>Committed plan item:</b> A committed plan item is one that we have decided 
+						to address for 2.0 release. 
+					</li>
+					<li>
+						<b>Proposed plan item:</b> A proposed plan item is one that we are considering 
+						addressing for 2.0 release. Although we are actively investigating it, we are 
+						not yet in a position to commit to it, or to say that we won't be able to address 
+						it. After due consideration, a proposal will either be committed or deferred.
+					</li>
+					<li>
+						<b>Deferred plan item:</b> A reasonable proposal that will not make it in to this 
+						release for some reason is marked as deferred with a brief note as to why it was 
+						deferred. Deferred plan items may resurface as committed plan items at a later point.
+					</li>
+					
+				</ul>				
+				
+			</div><h3>Migrating Sequoyah to Tools Project</h3><div>
+					<p>
+					Due to <a href="http://wiki.eclipse.org/DSDP/Restructuring_Review">
+					DSDP Restructuring</a>, the Sequoyah Project will move to Tools. 
+					Also, the Mobile Tools for Java (MTJ) project will become a Sequoyah subproject.  
+					This restructuring is already ongoing.
+					</p>	
+				</div><h3>Indigo release train</h3><div>
+					<p>
+						In order to be part of Indigo Simultaneous release, we are updating build 
+						scripts and update sites, planning milestones, and 
+						ensuring that the project is running as transparently as possible by 
+						transacting business in an open fashion, voting on project decisions 
+						via the portal, and conducting bi-weekly open meetings.
+					</p>
+					<p><b>Status:</b> As of 13 December 2010, the Sequoyah Project is already in the
+					Indigo train, and the team is working to satisfy the requirements of the train.</p>
+				</div><h3>Automation Test Framework and Jubula</h3><div>
+					<p>
+					Currently software for mobile platforms is getting more and more complex. To ensure 
+					the quality of such programs is a task rather laborious and time consuming, always 
+					prone to human error. In order to address this need, Sequoyah is proposing the
+					Automation Test Framework. The objective of this framework is to allow the creation 
+					of automated test cases in an easy way. The user will be able to specify test 
+					requirements, purposes, steps and assertions written in a procedural language as 
+					if this user was writing the test document itself.
+					
+					There is another initiative in the testing area in the Eclipse Foundation, the <a href="http://www.eclipse.org/proposals/jubula/">Jubula</a> 
+					project. The Jubula functional testing tool is based on the premise that automated 
+					acceptance tests are just as important as the project code, and should adhere to the 
+					same best practices (modularity, reusability, and readability) without requiring that 
+					any code be produced. This places the power of testing in the hands of the testers 
+					and improves accessibility for customers who may want to monitor the tests.
+					
+					Sequoyah team is already contacting Jubula team in order to determine a way in which 
+					both projects can work collaboratively towards our common goal of providing an 
+					easy-to-use and	powerful testing framework. 
+					</p>
+				</div><h3>Roadmap</h3><div>
+					<p>
+					Future plans for Sequoyah project are always discussed with our community and users.
+					Some possible features to be implemented in the future are:
+										
+					<ul>
+						<li>Provide support to other localizable resources, such as images, sounds, videos and layouts</li>
+						<li>PDE Localization Support</li> 					
+						<li>Provide a framework for test automation</li>
+					</ul>
+					</p>
+				</div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=tools.sequoyah&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

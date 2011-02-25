@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - technology.subversive</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=technology.subversive">Subversive - SVN Team Provider</a>, version Indigo</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><p>
+			Subversive provides you a probability
+			to use supported SVN clients easily directly from your workbench. Friendly user interface
+			of Subversive makes it much more comfortable to operate repositories.
+			All SVN operations are supported and there are no difficulties while working with
+			command line from now on.
+		</p><p>
+			The plan deals with the important matters of release deliverables, release milestones,			
+			target operating environments, and release-to-release compatibility. 
+			These are all things that need to be clear for any release, even if no features were to change.
+	    </p><h2><a name="release_deliverables">Release Deliverables</a></h2><p>
+    		The Subversive plug-in itself, including Mylyn integration and localizations,
+    		is distributed from Eclipse.org both via update-site and archive download. 
+    		The other integrations and Subversive SVN Connectors needed to get Subversive
+    		to work with SVN can be found on Polarion Software site. The archived copies
+    		for Polarion distributed parts are not available.
+    	</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><p>      
+  				Release milestones will be occurring at roughly 6 week intervals, and will be aligned with the
+  				<a href="http://wiki.eclipse.org/Indigo_Simultaneous_Release">Indigo Simultaneous Release</a> train.
+  			</p><table border="1" align="center"><tr><td><b>M5</b></td><td>30 Jan 2011</td><td><div>M5</div></td></tr><tr><td><b>M6</b></td><td>13 Mar 2011</td><td><div>M6</div></td></tr><tr><td><b>M7</b></td><td>01 May 2011</td><td><div>M7</div></td></tr><tr><td><b>RC1</b></td><td>15 May 2011</td><td><div>RC1</div></td></tr><tr><td><b>RC2</b></td><td>22 May 2011</td><td><div>RC2</div></td></tr><tr><td><b>RC3</b></td><td>29 May 2011</td><td><div>RC3</div></td></tr><tr><td><b>RC4</b></td><td>05 Jun 2011</td><td><div>RC4</div></td></tr></table><div>
+				<p>
+					Individual, milestone level plans for the components that make up the Eclipse Project can be found 
+		  			on the <a href="http://wiki.eclipse.org/Eclipse/Indigo_Plan">Eclipse Project Indigo Plan page</a>
+		  			on the Eclipse wiki.
+		  		</p>
+				<p>
+					Our target is to complete 3.7 in late June 2010, in alignment with Indigo.
+	  				All release deliverables will be available for download as soon as the release has been
+	  				tested and validated in the target operating configurations listed below.
+	  			</p>
+			</div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>
+			New Subversive builds do not support nor Eclipse 3.3 and earlier, nor JRE 1.4. In the future this solution should allow us to make project code more clean and stable.
+		</p><p>
+			So, the Subversive project will support:
+			<ul>
+	    		<li>Eclipse Platform 3.4.x and higher</li>
+	    		<li>JDK/JRE 1.5.x and higher</li>	    		
+	    		<li>SVN version 1.1.x-1.5.x using SVN 1.5 compatible connectors.</li>
+	    		<li>SVN version 1.1.x-1.6.x using SVN 1.6 compatible connectors.</li>
+	    	</ul>	
+  		</p><h3>Internationalization</h3>
+    		<p>     			
+     			The user interface elements provided by Subversive, including dialogs and
+     			error messages, are externalized. The English strings are provided as the default resource bundles. 
+     		</p>
+ 		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><p>Compatible with 0.7.x versions</p><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><p>
+   				The project has identified major areas of work, that will be the
+   				priorities for this development cycle. 
+   			</p><h3>Enhancements</h3><p>
+					<ul>
+					
+						<li>
+							Add SVN 1.7 support	(if released in time)			
+						</li>
+											
+						<li>
+							Improve Team Annotate with useful default value and display excluded range
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=296239">296239</a>
+						</li>
+
+						<li>
+							[Synchronize View] Improvement: Allow to create a new empty change set 
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=258661">258661</a>
+						</li>
+						
+						<li>
+							SVN Change Sets model does not always display date and author information
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=294852">294852</a>
+						</li>
+						
+						<li>
+							Subversive installation instructions are out of date
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=286051">286051</a>
+						</li>						
+
+						<li>
+							Documentation Grammar/Spelling
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=293311">293311</a>
+						</li>
+
+						
+						
+						<li>
+							Remove Subversive menu in Help
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=229495">229495</a> <font color="green">[done]</font>
+						</li>
+
+						<li>
+							Update SVN Kit version
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=334452">334452</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							There is no access to the SVN 1.6-related method signatures
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333211">333211</a> <font color="green">[done]</font>
+						</li>						
+
+						<li>
+							Allow repository creation with the latest SVN Kit-based connector
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333202">333202</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							Remove SVN 1.4-related connectors from the discovery feature list
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=326831">326831</a> <font color="green">[done]</font>
+						</li>
+						
+						<li>
+							Update javahl binaries
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=326829">326829</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							IWorkspaceRoot.findFilesForLocation() is deprecated
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=331373">331373</a> <font color="green">[done]</font>
+						</li>
+						
+						<li>
+							IWorkspaceRoot.findContainersForLocation() is deprecated
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=331188">331188</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							Eclipse-LazyStart option is deprecated in Eclipse 3.3 and later versions
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=331003">331003</a> <font color="green">[done]</font>
+						</li>
+						
+						<li>
+							Avoid deprecated method calls in the native connectors
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333210">333210</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							Ability to reject incoming changes (make Mark as Merged active)
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=297821">297821</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							Properties conflict on project makes Subversive totally unusable
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=283999">283999</a> <font color="green">[done]</font>
+						</li>								
+						
+						<li>
+							Subversive should not set forcibly svn:mime-type to text/plain
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322772">322772</a> <font color="green">[done]</font>
+						</li>								
+																													
+						<li>
+							Calls to the deprecated function in the SelectPatchFilePage
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=332775">332775</a> <font color="green">[done]</font>
+						</li>	
+						
+					</ul>
+				</p><h3>Bug Fixing</h3><p>
+					We have lot of issue reports and tip for improvements on our tracker. Most important of
+					these reports should be processed until Subversive is released.
+										
+					<ul>
+					
+						<li>
+							Extremely poor refreshLocalResourceImpl performance
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=259287">259287</a>
+						</li>					
+					
+						<li>
+							SVN repositories view blocks UI thread
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=295110">295110</a>
+						</li>						
+					
+						<li>
+							Show Annotation from SVN Repositories opens two editors
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=331285">331285</a>
+						</li>						
+					
+						<li>
+							"Show History" keypress leaves focus in editor view
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=328987">328987</a>
+						</li>						
+					
+						
+					
+						<li>
+							Lots of warnings in the build.properties files
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330843">330843</a> <font color="green">[done]</font>
+						</li>	
+						
+						<li>
+							Incorrect SVN connectors compatibility version
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=328564">328564</a> <font color="green">[done]</font>
+						</li>																						
+									
+						<li>
+							Incorrect version of JavaHL 1.6.x connector plugin
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=328561">328561</a> <font color="green">[done]</font>
+						</li>	
+						
+						<li>
+							Unreasonable error message when communication with server fails [ID-JS430]
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322316">322316</a> <font color="green">[done]</font>
+						</li>	
+						
+						<li>
+							Remove duplicated code parts
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=333061">333061</a> <font color="green">[done]</font>
+						</li>	
+						
+						<li>
+							Pressing Cancel during compare results in invalid GUI message (no differences)
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=328820">328820</a> <font color="green">[done]</font>
+						</li>	
+						
+						<li>
+							There is compilation issue in the core plug-in under Eclipse 3.7
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=332528">332528</a> <font color="green">[done]</font>
+						</li>	
+						
+						<li>
+							Finish to create new SVN repository and share project in single operation fails
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330780">330780</a> <font color="green">[done]</font>
+						</li>	
+																																										
+						<li>
+							"Negative revision numbers are not allowed" error while performing "Mark As Merged" operation
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330737">330737</a> <font color="green">[done]</font>
+						</li>	
+																																										
+						<li>
+							Use Shell from the FileModificationValidationContext if possible
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330638">330638</a> <font color="green">[done]</font>
+						</li>	
+																																										
+						<li>
+							Eclipse 3.5 discovery feature connector source code produces compilation errors
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330637">330637</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							SVNTeamModificationValidator does not take into account LockProposeUtility.proposeLock(..) returned status
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330290">330290</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							Finish button on "Select Resource" dialog not enabled until a different revision is selected
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329756">329756</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							SWTException when Subversive UI plugin starts in a worker thread
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=326684">326684</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							NPE starting target workspace
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=328149">328149</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							Subversive does not start correctly under Eclipse 3.5.x with discovery feature enabled
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=326834">326834</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							Discovery feature do not starts under Eclipse 3.6
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=326564">326564</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							The conflict editor ignores custom file encoding on the right hand side, uses encoding from container instead
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=325122">325122</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							Resolving Tree Conflicts - Apply Local Changes doesn't work on 2.2.2
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=320843">320843</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							NPE in SVNRemoteStorage
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=324394">324394</a> <font color="green">[done]</font>
+						</li>	
+
+						<li>
+							Tag pattern in SVNFetchFactory to restrictive, i.e. no dots allowed
+							<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=285836">285836</a> <font color="green">[done]</font>
+						</li>	
+																																				
+					</ul>  					
+						
+				</p><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=technology.subversive&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

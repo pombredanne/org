@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - modeling.mdt.uml2</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.mdt.uml2">MDT UML2</a>, version 3.2.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+<p>
+This document lays out the feature and API set for the
+next release of the Eclipse UML2 API (MDT UML2)
+Project, version 3.2.0. This project plan inherits from the Modeling
+Project Plan, which should be referenced when consulting this
+individual project plan.
+</p>
+     </div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+The release deliverables have the same form as is found in most Eclipse projects, namely:
+<ul>
+<li>MDT UML2 source code release, available as versions tagged "R3_2" in the project's CVS repository.</li>
+<li>MDT UML2 SDK (includes runtime, sources, examples, and documentation) (downloadable and update site).</li>
+<li>MDT UML2 runtime binary distribution (downloadable and update site).</li>
+<li>MDT UML2 stand-alone binary distribution (downloadable).</li>
+<li>MDT UML2 tests (downloadable)</li>
+</ul>
+     </div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+Release milestone occurring at roughly 6 week intervals and follow the
+Platform milestone releases by approximately 1 day; that is, until the
+final 3.7 release of the Platform, upon which MDT UML2 and other projects
+will release simultaneously. As MDT UML2 is a dependency of numerous
+other projects, MDT UML2 will deliver its milestones within one day of
+the Eclipse Platform. It is anticipated that MDT UML2 will synchronize its
+milestones with the Helios milestone schedule.
+         </div><table border="1" align="center"><tr><td><b>M1</b></td><td>08/16/2010</td><td/></tr><tr><td><b>M2</b></td><td>09/27/2010</td><td/></tr><tr><td><b>M3</b></td><td>11/08/2010</td><td/></tr><tr><td><b>M4</b></td><td>12/13/2010</td><td/></tr><tr><td><b>M5</b></td><td>01/31/2011</td><td/></tr><tr><td><b>M6</b></td><td>03/14/2011</td><td><div>API Freeze</div></td></tr><tr><td><b>M7</b></td><td>05/02/2011</td><td><div>Feature Freeze</div></td></tr><tr><td><b>RC1</b></td><td>05/16/2011</td><td/></tr><tr><td><b>RC2</b></td><td>05/23/2011</td><td/></tr><tr><td><b>RC3</b></td><td>05/30/2011</td><td/></tr><tr><td><b>RC4</b></td><td>06/06/2011</td><td/></tr><tr><td><b>Indigo</b></td><td>06/22/2011</td><td/></tr></table><div>
+MDT UML2 will produce maintenance releases to align with the Helios SR
+releases, that includes the Eclipse Platform 3.6.1 and 3.6.2 releases.
+MDT UML2 may produce interim maintenance releases in addition to these in
+order to satisfy clients requests.
+<ul>
+  <li>Friday, September 24, 2010 - MDT UML2 3.1.1 maintenance release (Helios Service Release 1)</li>
+  <li>Friday, February 25, 2011 - MDT UML2 3.1.2 maintenance release (Helios Service Release 2)</li>
+  <li>A list of issues indicated for the 3.1.x maintenance stream can be found in
+      bugzilla, or by using links on maintenance stream build pages.</li>
+</ul> 
+      </div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+        In order to remain current, each Eclipse release targets reasonably
+        current versions of the underlying operating environments. The Eclipse
+        Unified Modeling Language (MDT UML2) project depends upon on the
+        Platform and other projects, which are mostly "pure" Java. The 3.7
+        release of the Eclipse Platform Project is written and compiled
+        against versions 1.5 and 1.6 of the Java Platform APIs, and targeted to run on
+        version 1.5 of the Java Runtime Environment, Standard Edition. MDT UML2
+        will target the same Java version as EMF, which currently also requires
+        Java 5. Eclipse Platform SDK 3.7 will be tested and validated on a
+        number of reference platforms. MDT UML2 will be tested and validated
+        against a subset of those listed for the platform.
+     </div><h3>Internationalization</h3>
+          <div>
+The Eclipse Platform is designed as the basis
+for internationalized products. The user interface elements provided
+by the Eclipse SDK components, including dialogs and error messages,
+are externalized. The English strings are provided as the default
+resource bundles. As a result, the MDT UML2
+project will provide English strings in its default bundles and be
+localized to a subset of those locales offered by the Platform. This
+plan will be updated to indicate which locales will be provided and
+the time frame for availability.
+          </div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+Compatibility of Release 3.2: The MDT UML2 project
+will be developed in parallel, and released simultaneously, with the
+following projects. As stated above, each milestone release of the
+MDT UML2 project will be compatible with the
+corresponding milestones for each of these projects, and delivered the
+appropriate offset.
+<ul>
+    <li>Eclipse Platform SDK version 3.7</li>
+    <li>Eclipse Modeling Framework (EMF) version 2.7</li>
+ </ul>
+Therefore, the MDT UML2 initial release will be
+compatible with these versions and will publish binary and source
+compatibilities with migration guides on subsequent releases.
+       </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+A list of project requirements and agreed upon
+implementation time frames is found in this document. For the
+milestones listed in this document, a set of overall themes is used
+to indicate what major set of functionalities is to be concentrated
+on for each. These themes are presented below, while the requirements
+document and associated Bugzilla entries are left to those wanting
+more detailed information on each.
+         </div><h3>Service, Support, and Maintenance</h3><div>
+The MDT UML2 project has a proven track record of quality and reliability.
+Service and support will take priority over new development work; commitments and schedules are subject to arbitrary change, slippage, or even deferral.
+                </div><ul><li><b>Committed</b><ul><li>Keep up with EMF 2.7 changes [<a href="http://bugs.eclipse.org/323181">323181</a>] (target milestone: RC)</li><li>[UML validation] error unexpected with InterfaceRealization [<a href="http://bugs.eclipse.org/323000">323000</a>] <strike>(target milestone: M3)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>Connecting UML2 to CDO [<a href="http://bugs.eclipse.org/267222">267222</a>] (target milestone: Indigo)</li><li>Support for UML 2.3 [<a href="http://bugs.eclipse.org/290042">290042</a>] (target milestone: Indigo)</li><li>Support for UML 2.4 [<a href="http://bugs.eclipse.org/327039">327039</a>] (target milestone: Indigo)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix Legal Notices</a></h2><div>
+<ul>
+<li>Java is a trademark or a registered trademark of Sun Microsystems, Inc.</li>
+<li>UML and OMG are trademarks or registered trademark of the Object Management Group<sup>TM</sup>, Inc.</li>
+<li>All other products or company names are mentioned for identification purposes only, and
+    may be trademarks or service marks of their respective owners.</li>
+</ul>
+        </div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=modeling.mdt.uml2&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

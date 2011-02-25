@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - modeling.emf.cdo</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.emf.cdo">CDO Model Repository</a>, version 4.0</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+This document lays out the feature and API set for the
+third release of the CDO Model Repository
+Project (CDO), version 4.0. This project plan inherits from the Modeling
+Project Plan, which should be referenced when consulting this
+individual project plan.
+     </div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+The release deliverables have the same form as is found in most Eclipse projects, namely:
+<ul>
+<li><b>CDO Dawn Codegen</b> (Contains the code generation aspects for graphical collaboration support over CDO.)</li>
+<li><b>CDO Dawn Examples</b> (Contains example plugins to demonstrate a range of functions of Dawn.)</li>
+<li><b>CDO Dawn Runtime</b> (Contains the runtime aspects for graphical collaboration support over CDO.)</li>
+<li><b>CDO Dawn SDK</b> (Includes Runtime, Codegen, Tools, Examples, Documentation and Source.)</li>
+<li><b>CDO Gastro Example</b> (Contains the CDO Gastro RCP plugins, models and sources.)</li>
+<li><b>CDO Model Repository Client</b> (Contains the CDO client core and user interface plugins.)</li>
+<li><b>CDO Model Repository Definitions</b> (Contains the EMF-based definition and wiring plugins for CDO.)</li>
+<li><b>CDO Model Repository Documentation</b> (Contains the documentation of the CDO SDK.)</li>
+<li><b>CDO Model Repository EPP</b> (Contains a minimum CDO client and server environment for the Eclipse Modeling package.)</li>
+<li><b>CDO Model Repository Examples</b> (Contains the CDO example plugin, models and sources.)</li>
+<li><b>CDO Model Repository SDK</b> (Includes Client, Server, Tools, Examples, Documentation and Source.)</li>
+<li><b>CDO Model Repository Server</b> (Contains the CDO server plugins.)</li>
+<li><b>CDO Model Repository Server DB</b> (Contains the DBStore plugins.)</li>
+<li><b>CDO Model Repository Server DB4O</b> (Contains the DB4O Store bundle. Ensure that DB4O Driver is already installed! Visit http://net4j.sourceforge.net/update for a p2 repository that contains DB4O Driver.)</li>
+<li><b>CDO Model Repository Server Hibernate</b> (Contains the HibernateStore and Teneo integration plugins. Ensure that Hibernate is already installed! Visit http://net4j.sourceforge.net/update for a p2 repository that contains Hibernate.)</li>
+<li><b>CDO Model Repository Server Objectivity</b> (Contains the Objectivity Store and stubbed jar file bundle. For runtime, ensure that you have Objectivity /DB installed!)</li>
+<li><b>CDO Model Repository Server Product</b> (Contains the product definition of an installable CDO server.)</li>
+<li><b>CDO Model Repository Tests</b> (Contains the CDO test plugins, models and sources.)</li>
+<li><b>CDO Release Engineering Version Tool</b> (Contains the release engineering plugins and extensions.)</li>
+<li><b>Net4j DB Framework</b> (Contains the database core framework and database adapter plugins for Derby, Mysql, HSQLDB and PostgreSQL. Additional database drivers are available via http://net4j.sourceforge.net/update. Read the license informations.)</li>
+<li><b>Net4j DB Framework Derby Adapter</b> (Contains the Derby Adapter matching the Net4j DB Framework and the database driver bundle for Derby.)</li>
+<li><b>Net4j DB Framework H2 Adapter</b> (Contains the H2 Adapter matching the Net4j DB Framework and the database driver bundle for H2.)</li>
+<li><b>Net4j DB Framework HSQLDB Adapter</b> (Contains the HSQLDB Adapter matching the Net4j DB Framework BUT NOT the database driver bundle for HSQLDB. This needs to be installed separately, for example from http://net4j.sourceforge.net/update)</li>
+<li><b>Net4j DB Framework MYSQL Adapter</b> (Contains the MYSQL Adapter matching the Net4j DB Framework BUT NOT the database driver bundle for MYSQL. This needs to be installed separately, for example from http://net4j.sourceforge.net/update)</li>
+<li><b>Net4j DB Framework PostgreSQL Adapter</b> (Contains the PostgreSQL Adapter matching the Net4j DB Framework BUT NOT the database driver bundle for PostgreSQL. This needs to be installed separately, for example from http://net4j.sourceforge.net/update)</li>
+<li><b>Net4j Signalling Platform Definitions</b> (Contains the EMF-based definition and wiring plugins for Net4j.)</li>
+<li><b>Net4j Signalling Platform Examples</b> (Contains the general Net4j examples, the buddies collaboration + chat examples and the experimental JMS provider implementation plugins, as well as all sources.)</li>
+<li><b>Net4j Signalling Platform Runtime</b> (Contains the Net4j core and transport provider plugins, e.g. tcp, jvm and http.)</li>
+<li><b>Net4j Signalling Platform SDK</b> (Includes Runtime, UI, DB, Examples, Documentation and Source.)</li>
+<li><b>Net4j Signalling Platform Tests</b> (Contains the Net4j test plugins and sources.)</li>
+<li><b>Net4j Signalling Platform UI</b> (Contains the Net4j user interface and utilities user interface plugins. </li>
+</ul>
+     </div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+Release milestone occurring at roughly 6 week intervals and follow the
+Platform milestone releases by approximately 1 week; that is, until the
+final 3.7 release of the Platform, upon which CDO and other projects
+will release simultaneously. CDO will deliver its milestones within one week of
+the Eclipse Platform. It is anticipated that CDO will synchronize its
+milestones with the Helios milestone schedule.
+         </div><table border="1" align="center"><tr><td><b>M1</b></td><td>08/17/2010</td><td/></tr><tr><td><b>M2</b></td><td>09/28/2010</td><td/></tr><tr><td><b>M3</b></td><td>11/09/2010</td><td/></tr><tr><td><b>M4</b></td><td>12/14/2010</td><td/></tr><tr><td><b>M5</b></td><td>02/01/2011</td><td/></tr><tr><td><b>M6</b></td><td>03/15/2011</td><td><div>API freeze</div></td></tr><tr><td><b>M7</b></td><td>05/03/2011</td><td><div>Feature Freeze</div></td></tr><tr><td><b>RC1</b></td><td>05/17/2011</td><td/></tr><tr><td><b>RC2</b></td><td>05/24/2011</td><td/></tr><tr><td><b>RC3</b></td><td>05/31/2011</td><td/></tr><tr><td><b>RC4</b></td><td>06/07/2011</td><td/></tr><tr><td><b>Final</b></td><td>06/22/2011</td><td/></tr></table><div>
+CDO will produce maintenance releases to align with the Helios SR
+releases, that includes the Eclipse Platform 3.6.x release.
+CDO may produce interim maintenance releases in addition to these in
+order to satisfy client requests. Maintenance releases will only be published
+if they have any new fixes to offer.
+<ul>
+  <li>09/24/2010 - CDO 3.0.1 maintenance release (Helios Service Release 1)</li>
+  <li>02/25/2011 - CDO 3.0.2 maintenance release (Helios Service Release 2)</li>
+  <li>A list of issues indicated for the 3.0.x maintenance stream can be found in
+      bugzilla, or by using links on maintenance stream build pages.</li>
+</ul>
+      </div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+In order to remain current, each Eclipse release targets reasonably
+current versions of the underlying operating environments. The CDO Model Repository
+Project (CDO) depends upon on the
+Platform and other projects, which are mostly "pure" Java<sup>TM</sup>. CDO
+will target the same Java version as EMF Core, which currently requires
+Java 5. Eclipse Platform SDK 3.7 will be tested and validated on a
+number of reference platforms. CDO will be tested and validated
+against a subset of those listed for the platform.
+     </div><h3>Internationalization</h3>
+          <div>
+The CDO Model Repository is a runtime technology with most of the
+components having no user interface. The remaining user interface
+parts of CDO are considered exemplary and thus no attention has been
+paid to externalize them for internationalization.
+          </div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+The 4.0 release of the CDO Model Repository will contain a large set of new
+functionality and an enhanced API as driven by the community. Therefore CDO
+will not be binary compatible with previous releases. Careful attention
+has been paid to minimize the API related changes and the resulting impact
+to existing applications based upon CDO.
+       </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+A list of project requirements and agreed upon
+implementation time frames is found in this document. For the
+milestones listed in this document, a set of overall themes is used
+to indicate what major set of functionalities is to be concentrated
+on for each. These themes are presented below, while the requirements
+document and associated Bugzilla entries are left to those wanting
+more detailed information on each.
+         </div><h3>Power to the People</h3><div>
+Major improvements in the API and configuration will give clients considerably more
+control over the behaviour and performance of their repositories and sessions.
+                </div><ul><li><b>Committed</b><ul><li>Provide common query language (OCL) [<a href="http://bugs.eclipse.org/256931">256931</a>] <strike>(target milestone: ---)</strike></li><li>Make EObjects available at the server-side [<a href="http://bugs.eclipse.org/273562">273562</a>] <strike>(target milestone: ---)</strike></li><li>Enabling reconnects to enhance fault tolerance [<a href="http://bugs.eclipse.org/278181">278181</a>] <strike>(target milestone: ---)</strike></li><li>Sticky views [<a href="http://bugs.eclipse.org/290032">290032</a>] <strike>(target milestone: ---)</strike></li><li>[Dawn] Develop collaborative support for GMF on CDO [<a href="http://bugs.eclipse.org/308232">308232</a>] <strike>(target milestone: ---)</strike></li><li>Provide a mechanism to prevent containment cycles [<a href="http://bugs.eclipse.org/316444">316444</a>] <strike>(target milestone: ---)</strike></li><li>[Hibernate] Support queryXRefs() [<a href="http://bugs.eclipse.org/329796">329796</a>] <strike>(target milestone: ---)</strike></li><li>Add support for streaming of large byte arrays / BLOB [<a href="http://bugs.eclipse.org/284307">284307</a>] <strike>(target milestone: ---)</strike></li><li>Support remote cross referencing with a convenient API on the client and SPI on the server for the stores to implement [<a href="http://bugs.eclipse.org/300149">300149</a>] <strike>(target milestone: ---)</strike></li><li>Provide an option which prevents removal of still referenced objects [<a href="http://bugs.eclipse.org/316434">316434</a>] <strike>(target milestone: ---)</strike></li><li>Provide revision deltas through CDOViewInvalidationEvent, if available [<a href="http://bugs.eclipse.org/318443">318443</a>] <strike>(target milestone: ---)</strike></li><li>Provide a CDOConflictResolver that uses a CDOMerger [<a href="http://bugs.eclipse.org/319090">319090</a>] <strike>(target milestone: ---)</strike></li><li>Add a system property for the TCPAcceptor listen port [<a href="http://bugs.eclipse.org/320076">320076</a>] <strike>(target milestone: ---)</strike></li><li>Allow write through commits on FailOverParticipant [<a href="http://bugs.eclipse.org/320355">320355</a>] <strike>(target milestone: ---)</strike></li><li>Provide a callback which informs about replication progress [<a href="http://bugs.eclipse.org/322552">322552</a>] <strike>(target milestone: ---)</strike></li><li>Provide an Activator base class that loads/stores a config object during start/stop [<a href="http://bugs.eclipse.org/324453">324453</a>] <strike>(target milestone: ---)</strike></li><li>Provide API to create CDOResourceFolders [<a href="http://bugs.eclipse.org/324504">324504</a>] <strike>(target milestone: ---)</strike></li><li>Allow CDOResource to be saved to XMI directly (export) [<a href="http://bugs.eclipse.org/324506">324506</a>] <strike>(target milestone: ---)</strike></li><li>[UI] Provide pluggable UI wizard framework for container element creation [<a href="http://bugs.eclipse.org/324523">324523</a>] <strike>(target milestone: ---)</strike></li><li>Make CDOCommonView and CommitContext a CDORevisionProvider [<a href="http://bugs.eclipse.org/325189">325189</a>] <strike>(target milestone: M2)</strike></li><li>Provide public factory methods for CDORevisionManager instances [<a href="http://bugs.eclipse.org/325778">325778</a>] <strike>(target milestone: M2)</strike></li><li>Provide FailoverMonitor server and FailoverAgents to coordinate fail-over scenarios [<a href="http://bugs.eclipse.org/325928">325928</a>] <strike>(target milestone: ---)</strike></li><li>Support IRepository.Handlers for read and write access at the same time [<a href="http://bugs.eclipse.org/327140">327140</a>] <strike>(target milestone: ---)</strike></li><li>Make dirty state of local transactions available for server-side queries [<a href="http://bugs.eclipse.org/327388">327388</a>] <strike>(target milestone: ---)</strike></li><li>Split CDOTransactionHandler in two parts [<a href="http://bugs.eclipse.org/327417">327417</a>] <strike>(target milestone: ---)</strike></li><li>Provide an extensible CDO Server Browser [<a href="http://bugs.eclipse.org/327535">327535</a>] <strike>(target milestone: ---)</strike></li><li>Make availability of locks with timeouts more obvious [<a href="http://bugs.eclipse.org/329005">329005</a>] <strike>(target milestone: ---)</strike></li><li>Provide a DB Adapter for DB2 [<a href="http://bugs.eclipse.org/330072">330072</a>] <strike>(target milestone: ---)</strike></li><li>Backup/Restore Functionality [<a href="http://bugs.eclipse.org/330235">330235</a>] <strike>(target milestone: ---)</strike></li><li>Provide OSGi console commands to start/stop/list/export/import repositories [<a href="http://bugs.eclipse.org/332355">332355</a>] <strike>(target milestone: ---)</strike></li><li>Provide ability to remerge a branch (specify source range) [<a href="http://bugs.eclipse.org/333058">333058</a>] <strike>(target milestone: ---)</strike></li><li>Support Ecore instances [<a href="http://bugs.eclipse.org/333076">333076</a>] <strike>(target milestone: ---)</strike></li><li>Would like to have all commit sets in a log file [<a href="http://bugs.eclipse.org/333460">333460</a>] <strike>(target milestone: ---)</strike></li><li>Support locally detached objects in queryXRefs() [<a href="http://bugs.eclipse.org/333644">333644</a>] <strike>(target milestone: ---)</strike></li><li>Provide a ReferentialIntegrityException with full XRef infos [<a href="http://bugs.eclipse.org/333663">333663</a>] <strike>(target milestone: ---)</strike></li><li>Make it easier to create XA transactions [<a href="http://bugs.eclipse.org/335105">335105</a>] <strike>(target milestone: ---)</strike></li><li>[DB] Implement user-defined typeMapping support [<a href="http://bugs.eclipse.org/285426">285426</a>] <strike>(target milestone: ---)</strike></li><li>[DB] Support queryXRefs() [<a href="http://bugs.eclipse.org/318998">318998</a>] <strike>(target milestone: ---)</strike></li><li>Support cross-referencing (XRef) for abstract classes and class hierarchies [<a href="http://bugs.eclipse.org/331619">331619</a>] <strike>(target milestone: ---)</strike></li><li>CDOObjects should throw an exception when references to other views are added [<a href="http://bugs.eclipse.org/305527">305527</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Appealing to a Broader Community</h3><div>
+The CDO project has a proven record of robustness and flexibility.  However,
+in the past best results could only be achieved with EMF models specifically
+generated for the usage with CDO. The upcoming 3.0 release will be less invasive
+to the client models and applications by being better aligned with EMF and other standards.
+                </div><ul><li><b>Committed</b><ul><li>Create a lazy self-attaching adapter for CDOObject [<a href="http://bugs.eclipse.org/247141">247141</a>] <strike>(target milestone: Galileo)</strike></li><li>Update content of cdo homepage [<a href="http://bugs.eclipse.org/328479">328479</a>] <strike>(target milestone: ---)</strike></li><li>Add an example for setting up server-side failover tolerance [<a href="http://bugs.eclipse.org/325721">325721</a>] <strike>(target milestone: ---)</strike></li><li>Provide a URI format that contains connection information [<a href="http://bugs.eclipse.org/326186">326186</a>] <strike>(target milestone: ---)</strike></li><li>Enhance URI fragment format [<a href="http://bugs.eclipse.org/327408">327408</a>] <strike>(target milestone: ---)</strike></li><li>Example for an Offline-Server in CDO [<a href="http://bugs.eclipse.org/329237">329237</a>] <strike>(target milestone: ---)</strike></li><li>Make the assignment of permanent IDs predictable [<a href="http://bugs.eclipse.org/333800">333800</a>] <strike>(target milestone: ---)</strike></li><li>Make CDOView thread-safe [<a href="http://bugs.eclipse.org/335080">335080</a>] <strike>(target milestone: ---)</strike></li><li>[Mongo] Create a MongoDBStore [<a href="http://bugs.eclipse.org/337152">337152</a>] <strike>(target milestone: ---)</strike></li><li>Give support to Open Source object-oriented database (DB4O) [<a href="http://bugs.eclipse.org/252255">252255</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Lighter, Faster and Better</h3><div>
+The CDO project has a proven track record of quality, reliability, and extensibility
+but all these aspects can be continuously improved.
+Existing and new clients often desire more functionality from the framework
+while long established clients generally desire mostly improvements in performance.
+Often these two are at odds since additional extensibility often has a performance cost
+and any changes, even performance boosting ones, potentially impact reliability.
+Every effort will be made to introduce new capabilities
+so that they have negligible impact on established clients
+based on the guiding principle:
+if you don't use it,
+you don't pay for it.
+Because service and support has and always will take priority over new development work,
+development commitments and schedules are subject to arbitrary change, slippage, or even deferral.
+Be sure to establish direct communication to ensure that any hard commitments
+are seen as that by the development team itself!
+                </div><ul><li><b>Committed</b><ul><li>Change type of CDOSessionInvalidationEvent.getView() to CDOTransaction [<a href="http://bugs.eclipse.org/250376">250376</a>] <strike>(target milestone: M4)</strike></li><li>Clean up relation between Session and SessionConfig [<a href="http://bugs.eclipse.org/327296">327296</a>] <strike>(target milestone: ---)</strike></li><li>[DB] MySQL reserved words updated [<a href="http://bugs.eclipse.org/331192">331192</a>] <strike>(target milestone: ---)</strike></li><li>Better Exception message for lock conflicts [<a href="http://bugs.eclipse.org/329133">329133</a>] <strike>(target milestone: ---)</strike></li><li>Create common access mechanism for SharedIcons [<a href="http://bugs.eclipse.org/329632">329632</a>] <strike>(target milestone: ---)</strike></li><li>Refactor server-side signals to take the protocol instead of the channel [<a href="http://bugs.eclipse.org/285470">285470</a>] <strike>(target milestone: ---)</strike></li><li>Use change deltas to optimize the local revision cache [<a href="http://bugs.eclipse.org/291728">291728</a>] <strike>(target milestone: ---)</strike></li><li>Obtain locks before timestamp creation [<a href="http://bugs.eclipse.org/299897">299897</a>] <strike>(target milestone: ---)</strike></li><li>Removing precondition for the prefetching to work effectively [<a href="http://bugs.eclipse.org/318919">318919</a>] <strike>(target milestone: ---)</strike></li><li>Remove IFailOverStrategy [<a href="http://bugs.eclipse.org/326908">326908</a>] <strike>(target milestone: ---)</strike></li><li>Determine base timestamp for new branches on the server (if not set by the client) [<a href="http://bugs.eclipse.org/327094">327094</a>] <strike>(target milestone: ---)</strike></li><li>Provide an optimized mechanism to determine an EEnumLiteral from an Enumerator value instance [<a href="http://bugs.eclipse.org/327318">327318</a>] <strike>(target milestone: ---)</strike></li><li>Consolidate revision cache implementations [<a href="http://bugs.eclipse.org/327984">327984</a>] <strike>(target milestone: ---)</strike></li><li>Cleanup package org.eclipse.emf.internal.cdo [<a href="http://bugs.eclipse.org/333382">333382</a>] <strike>(target milestone: ---)</strike></li><li>Remove the Comparable interface from CDOBranchPoint's super types [<a href="http://bugs.eclipse.org/335186">335186</a>] <strike>(target milestone: ---)</strike></li><li>[DB] Provide a memory sensitive implementation of IObjectTypeCache [<a href="http://bugs.eclipse.org/305962">305962</a>] <strike>(target milestone: ---)</strike></li><li>Caching subtype-relationships in the CDOPackageRegistry [<a href="http://bugs.eclipse.org/332912">332912</a>] <strike>(target milestone: ---)</strike></li></ul></li></ul><h3>Eclipse 4.1</h3><div>
+No support, no testing on 4.1
+				</div><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix A: Legal Notices</a></h2><div>
+<ul>
+<li>Java is a trademark or a registered trademark of Sun Microsystems, Inc.</li>
+<li>All other products or company names are mentioned for identification purposes only, and
+    may be trademarks or service marks of their respective owners.</li>
+</ul>
+        </div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=modeling.emf.cdo&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

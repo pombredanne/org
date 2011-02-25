@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - birt</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=birt">Business Intelligence and Reporting Tools (BIRT)</a>, version 3.7</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div><p>This document lays out the feature and API set for the next feature release of the Eclipse BIRT project after 2.6, designated release 3.7.</p>
+<p>Plans do not materialize out of nowhere, nor are they entirely static. To ensure the planning process is transparent and open to the entire
+Eclipse community, plans are posted in an embryonic form and then revised from time to time throughout the release cycle.</p>
+<p>The first part of the plan deals with the important matters of release deliverables, release milestones, target operating environments, and
+release-to-release compatibility. These are all things that need to be clear for any release, even if no features were to change.</p>
+<p>The remainder of the plan consists of plan items for the projects under the Eclipse BIRT project. Each plan item covers a feature or API that
+is to be added, or some aspect that is to be improved. Each plan item has its own entry in the Eclipse bugzilla database, with a title and a concise
+summary(usually a single paragraph) that explains the work item at a suitably high enough level so that everyone can readily understand what the work item
+is without having to understand the nitty-gritty detail.</p><p>Please send comments about this draft plan to the <a href="mailto:birt-dev@eclipse.org">BIRT Developer</a> mailing list.</p></div><h2><a name="release_deliverables">Release Deliverables</a></h2><p>This release of BIRT will focus on providing the same downloads as BIRT 2.6.</p><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div><p>The BIRT 3.7 Release will follow the Indigo simultaneous release milestone schedule.
+		  </p>			
+			<p>For information about new features assigned to each milestone please refer to the <a href="https://bugs.eclipse.org/bugs">bugzilla
+			database</a>. The bugzilla database will be updated on an ongoing basis as the plan progresses.</p>
+		</div><table border="1" align="center"><tr><td><b>M1</b></td><td>8/17/2010</td><td><div>
+3.7 M1</div></td></tr><tr><td><b>M2</b></td><td>9/28/2010</td><td><div>
+3.7 M2</div></td></tr><tr><td><b>M3</b></td><td>11/10/2010</td><td><div>3.7 M3</div></td></tr><tr><td><b>M4</b></td><td>12/14/2010</td><td><div>3.7 M4</div></td></tr><tr><td><b>M5</b></td><td>02/08/2011</td><td><div>3.7 M5</div></td></tr><tr><td><b>M6</b></td><td>03/15/2011</td><td><div>3.7 M6</div></td></tr><tr><td><b>M7</b></td><td>05/03/2011</td><td><div>3.7 M7</div></td></tr><tr><td><b>RC1</b></td><td>05/17/2011</td><td><div>3.7 RC1</div></td></tr><tr><td><b>RC2</b></td><td>05/24/2011</td><td><div>3.7 RC2</div></td></tr><tr><td><b>RC3</b></td><td>05/31/2011</td><td><div>3.7 RC3</div></td></tr><tr><td><b>RC4</b></td><td>06/07/2011</td><td><div>Final</div></td></tr></table><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><p>In order to remain current, each release of an Eclipse project targets reasonably current versions of underlying operating environments and
+		other Eclipse projects on which it depends.</p><p>Most of Eclipse, and all of BIRT, is "pure" Java code and has no direct dependence on the underlying operating system. For BIRT, the chief
+		dependence is on the Eclipse Platform, Graphical Editor Framework (GEF), Modeling Framework (EMF), and on the Java 2 Platform that runs it. </p><p>The Eclipse BIRT 3.7 release depends on the following compatibility stacks:</p><p><b>BIRT 3.7 Reference Stack for JDK 1.5</b></p><ul>
+  		<li>Java 2 platform Java Development Kit (JDK) 1.5</li>
+  		<li>Eclipse Platform Runtime Binary 3.7, 4.1</li>
+  		<li>Graphical Editor Framework (GEF) Runtime 3.7</li>
+  		<li>Eclipse Modeling Framework (EMF) 2.7</li>
+  		<li>Data Tools Platform Project 1.9 (DTP)</li>
+  		<li>Web Tools Project (WTP) 3.3</li>
+		</ul><p><b>BIRT 3.7 Reference Stack for JDK 1.6</b> (This is only a proposal and depends on whether various projects provide support for JDK 1.6)</p><ul>
+  		<li>Java 2 platform Java Development Kit (JDK) 1.6 </li>
+  		<li>Eclipse Platform Runtime Binary 3.7, 4.1 </li>
+  		<li>Graphical Editor Framework (GEF) Runtime 3.7 </li>
+  		<li>Eclipse Modeling Framework (EMF) 2.7 </li>
+  		<li>Data Tools Platform Project (DTP) 1.9 </li>
+  		<li>Web Tools Project (WTP) 3.3</li>
+		</ul><p>The Eclipse Platform and BIRT run in a variety of operating environments. Testing is focused on a handful of popular combinations
+		of operating system and Java 2 Platform; these are our reference platforms. Eclipse BIRT undoubtedly runs fine in many
+		operating environments beyond the reference platforms we test. However, since we do not systematically test them we cannot vouch for them. Problems encountered
+		when running Eclipse BIRT on non-reference platforms that cannot be recreated on any reference platform will be given lower priority than problems with
+		running Eclipse BIRT on a reference platform.</p><p>For BIRT 3.7, the project team plans to tests and validate the following reference platforms:</p><table style="width: 825px; height: 188px;" border="1">
+		  
+		    <tr bgcolor="#cccccc">
+		      <th colspan="4">
+        	    <div align="center"> <b><font size="+1">Eclipse BIRT Report Framework 3.7 and Eclipse BIRT RCP Report Designer 3.7
+				Reference Platforms</font></b></div>
+		      </th>
+		    </tr>
+			<tr>
+		      <td width="205"><b>Operating system</b></td>
+		      <td width="76"><b>Processor architecture</b></td>
+		      <td width="59"><b>Window system</b></td>
+		      <td width="453"><b>Java 2 Platform</b></td>
+		    </tr>
+		    <tr>
+		      <td width="205">Microsoft Windows 7</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">Win32</td>
+		      <td>Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">Microsoft Windows XP</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">Win32</td>
+		      <td>Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">Microsoft Windows Server 2003</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">Win32</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td>Microsoft Windows Vista</td>
+		      <td>Intel x86</td>
+		      <td>Win32</td>
+		      <td>Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">
+		      Red Hat Enterprise Linux WS 4.0<br/>
+      		  Red Hat Enterprise Linux AS 4.0, 5.0
+		      </td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">GTK</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		  
+		</table><br/><table border="1">
+		  
+		    <tr bgcolor="#cccccc">
+		      <th colspan="4">
+      	      <div align="center"> <b><font size="+1">Eclipse BIRT Runtime 3.7 and Eclipse BIRT Charts 3.7 Reference Platforms</font></b></div>
+		      </th>
+		    </tr>
+		    <tr>
+		      <td width="205"><b>Operating system</b></td>
+		      <td width="76"><b>Processor architecture</b></td>
+		      <td width="59"><b>Window system</b></td>
+		      <td width="453"><b>Java 2 Platform</b></td>
+		    </tr>
+		    <tr>
+		      <td width="205">Microsoft Windows 7</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">Win32*</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">Microsoft Windows XP</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">Win32*</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">Microsoft Windows Server 2003</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">Win32*</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td>Microsoft Windows Vista</td>
+		      <td>Intel x86</td>
+		      <td>Win32*</td>
+		      <td>Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">Red Hat Enterprise Linux WS 4.0, 5.0<br/>
+      		  Red Hat Enterprise Linux AS 4.0, 5.0</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">GTK*</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		    <tr>
+		      <td width="205">SUSE Linux Enterprise Server 9</td>
+		      <td width="76">Intel x86</td>
+		      <td width="59">YaST*</td>
+		      <td width="453">Sun Java 2 Standard Edition, version 1.5, 1.6</td>
+		    </tr>
+		  
+		</table><div>*Window system only required when displaying charts within SWT or SWING windows.</div><br/><br/><table border="1">
+		  
+		    <tr bgcolor="#cccccc">
+		      <th colspan="1">
+      		     <div align="center"> <b><font size="+1">BIRT Application Server Reference Platform</font></b></div>
+		      </th>
+		    </tr>
+		    <tr>
+		      <td width="405">Apache Tomcat 5.5.x, 6.0.16</td>
+		    </tr>
+		    <tr>
+			  <td width="405">JBoss AS 5.0</td>
+		    </tr>
+		    <tr>
+			  <td width="405">Oracle Weblogic Application Server 8.1, 9.0, 9.2, 10.3</td>
+		    </tr>
+		    <tr>
+			  <td width="405">IBM Websphere Application Server 6.1, 7.0</td>
+		    </tr>
+		  
+		</table><br/><table border="1">
+		  
+		    <tr bgcolor="#cccccc">
+		      <th colspan="1">
+      		      <div align="center"> <b><font size="+1">BIRT JDBC Reference Platforms</font></b></div>
+		      </th>
+		    </tr>
+		    <tr>
+		      <td width="405">MySQL Connector/J 3.x JDBC driver</td>
+		    </tr>
+		    <tr>
+		      <td width="405">Derby V10.5.1.1 JDBC driver</td>
+		    </tr>
+		    <tr>
+		      <td width="405">Actuate DataDirect JDBC drivers</td>
+		    </tr>
+
+		  
+		</table><br/><table border="1">
+		  
+		    <tr bgcolor="#cccccc">
+		      <th colspan="1">
+      		      <div align="center"> <b><font size="+1">BIRT Browsers and Viewers Reference Platforms</font></b></div>
+		      </th>
+		    </tr>
+		    <tr>
+		      <td width="405">Mozilla Firefox 2.0, 3.0 </td>
+		    </tr>
+<tr>
+		      <td width="405">Safari 4 </td>
+		    </tr>
+<tr>
+		      <td width="405">Google Chrome 4 </td>
+		    </tr>
+
+		    <tr>
+		      <td width="405">Microsoft Internet Explorer 7.0, 8.0</td>
+		    </tr>
+		    <tr>
+		      <td width="405">Adobe Acrobat Reader 7.0, 8.0, 9.0</td>
+		    </tr>
+		
+		</table><br/><span style="font-weight: bold;"><a name="CommunityOperatingEnvironments" id="CommunityOperatingEnvironments">Community
+		Tested Operating Environments</a></span><p>Due to the finite resources available to the BIRT project, we would like to encourage the BIRT community to contribute to testing BIRT in
+		operating environments other than those listed as target operating environments for the 3.7 release of BIRT and to share this
+		information with the rest of the community. If you have been able to test BIRT in a non-targeted operating environment please take a few
+		minutes to update this <a href="http://wiki.eclipse.org/BIRT_Community_Tested_Operating_Environments_for_3.7">wiki
+		page</a> and report this information there. If you have encountered bugs during your testing, please report these in
+		bugzilla.</p><h3>Internationalization</h3>
+          <div>
+          	<p>Eclipse is designed as the basis for internationalized products. The user interface elements provided by the various Eclipse projects, including
+			dialogs and error messages, are externalized. The English strings for BIRT are provided as the default resource bundles. Translations are provided
+			with this release for French (fr_FR), German (de_DE), Spanish (es_ES), Japanese (ja_JP), Simplified Chinese (zh_CN), and Korean (ko_KR).</p>
+		</div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>		
+       	<p>BIRT 3.7 will be compatible with earlier versions of BIRT to the greatest extent possible. The nature and scope of some of the key plan items for
+		BIRT 3.7 are such that the only feasible solutions might break compatibility. In other regards, BIRT 3.7 will be compatible with 2.x and 1.x. We also
+		aim to minimize the effort required to port an existing plug-in to the 3.7 APIs.</p>
+		<b>Compatibility of Release 3.7 with Prior Releases</b>
+
+		<p>BIRT 3.7 will be compatible with prior releases of BIRT unless noted otherwise. The detailed compatibility statement is listed below.
+		In this statement, "BIRT" refers to all BIRT components: BIRT Report Framework, BIRT Runtime, and BIRT Chart SDK.</p>
+		<p><b>API Contract Compatibility:</b> BIRT 3.7 will be upwards contract-compatible with BIRT prior releases except in those areas noted in the <a href="http://wiki.eclipse.org/BIRT_Migration_Guide">Eclipse BIRT Migration Guide</a>. Downward contract compatibility is not supported. In other words there is no guarantee that
+		compliance with BIRT 3.7 APIs will ensure compliance with prior BIRT release APIs. Refer to general Eclipse document on <a href="http://wiki.eclipse.org/index.php/Evolving_Java-based_APIs">Evolving
+		APIs</a> for a discussion on the kinds of API changes that maintain contract compatibility.</p>
+
+		<p><b>Binary (plug-in) Compatibility:</b> The BIRT 3.7 plug-in framework will be upwards binary-compatible with prior BIRT release plug-ins except in those areas noted in the <a href="http://wiki.eclipse.org/BIRT_Migration_Guide">Eclipse BIRT Migration Guide</a>. This means that plug-ins (including extension plug-ins) for prior BIRT releases will be upwards binary-compatible with BIRT 3.7 unless noted otherwise. Downward plug-in compatibility is not supported. In other words plug-ins for BIRT 3.7 will not be usable in prior BIRT releases. </p>
+
+		<p><b>Source Compatibility:</b> BIRT 3.7 will be upwards source-compatible with prior BIRT releases except in those areas noted in the <a href="http://wiki.eclipse.org/BIRT_Migration_Guide">Eclipse BIRT Migration Guide</a>. This means that source files written to use prior BIRT release APIs will successfully compile and run against BIRT 3.7 APIs. Downward
+		source compatibility is not supported. If source files use new BIRT APIs, they will not be usable with an earlier version of BIRT.</p>
+
+		<p><b>Report Design Compatibility:</b> BIRT 3.7 will be upwards report design compatible with prior BIRT releases except in those areas noted in the <a href="http://wiki.eclipse.org/BIRT_Migration_Guide">Eclipse BIRT Migration Guide</a>. This means that reports created with prior BIRT releases can be successfully opened by BIRT 3.7 and upgraded to a 3.7 format.</p>
+
+		<p><b>Non-compliant usage of API's: </b> All non-API methods and classes, and certainly everything in a package with "internal" in its name, are
+		considered implementation details which may vary between operating environment and are subject to change without notice. Client plug-ins that directly depend
+		on anything other than what is specified in the BIRT API are inherently unsupportable and receive no guarantees about compatibility within a
+		single release much less with an earlier releases.</p>
+	</div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+         	<p>Continuing on the themes for previous releases of BIRT, the BIRT project's overriding release 3.7 theme remains extending the Eclipse platform to
+			provide infrastructure and tools that allow application developers to design, deploy, generate and view reports within their applications. In this
+			context,the BIRT project also adopts and supports key themes within the overall Eclipse planning process.</p>
+         </div><h3>Simplify Deployment of BIRT Runtime</h3><div>BIRT users and prospects have expressed the opinion that the BIRT runtime is not easy to deploy. To address this, the current theme aims to simplify the file structure and class loading of the runtime package.  
+        	</div><ul><li><b>Proposed</b><ul><li>Packaging birt runtime as single jar and deploying [<a href="http://bugs.eclipse.org/230149">230149</a>] (target milestone: 3.7.0)</li></ul></li></ul><h3>Support OpenDocument File (ODF) Format</h3><div>OpenOffice is very popular, especially within the BIRT user base. This theme aims to provide native support for OpenOffice by extending BIRT with an OpenDocument file format (ODF) emitter.
+        	</div><ul><li><b>Proposed</b><ul><li>Support for OpenOffice [<a href="http://bugs.eclipse.org/278313">278313</a>] (target milestone: 3.7.0)</li></ul></li></ul><h3>Eclipse 4.1</h3><div>The mission of the e4 project is to build a next generation platform for pervasive, component-based applications and tools. As per the e4 documentation, it is targeted to be backward-compatible to Eclipse 3.x. This theme aims to test compatibility with e4. 
+        	</div><ul><li><b>Proposed</b><ul><li>Test compatibility with e4 [<a href="http://bugs.eclipse.org/334326">334326</a>] <strike>(target milestone: 3.7.0)</strike></li></ul></li></ul><h3>Misc</h3><div>This theme aims to address the misc. enhancement requests and bugs listed below.
+        	</div><ul><li><b>Proposed</b><ul><li>Viewtime value of field does evaluate correctly when exporting to PDF [<a href="http://bugs.eclipse.org/330577">330577</a>] (target milestone: 3.7.0)</li><li>page breaks on table occur if the table is not visible [<a href="http://bugs.eclipse.org/331541">331541</a>] (target milestone: 3.7.0)</li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix : Help Wanted</a></h2><div>We welcome any contributions from the community towards the BIRT project. This help can be in the form of adding new functionality to BIRT, 
+     submitting bug fixes/enhancements to the current BIRT code and testing BIRT on new platforms. 
+     <br/>Please refer to <a href="https://bugs.eclipse.org/bugs/buglist.cgi?keywords=helpwanted;query_format=advanced;keywords_type=allwords;bug_status=NEW;classification=BIRT;product=BIRT">this bugzilla query</a> for 
+     the list of enhancements that we need help on. 
+     For more information on how you can contribute to the BIRT project, refer to <a href="http://www.eclipse.org/birt/phoenix/project/contribute.php">How to Contribute to the BIRT Project</a>
+     </div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=birt&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

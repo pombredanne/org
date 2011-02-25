@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - webtools.sourceediting</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=webtools.sourceediting">WTP Source Editing</a>, version 3.3 (Indigo)</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>The Source Editing project is a project in the
+			Eclipse WTP top-level Project. Its main goal is to provide source
+			editing support for
+			typical web languages and the intermixing of them,
+			with a focus on making
+			the editors extensible and easily reusable.
+			This document describes
+			the features and the API set in the Source
+			Editing project for the
+			WTP 3.3 release.</div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+			<ul>
+				<li>Source
+					code for deliverables tagged in CVS as version tagged
+					"R3_3_0", viewable in the WebTools_Project
+					<a href="http://dev.eclipse.org/viewcvs/index.cgi/sourceediting/?root=WebTools_Project">CVS repository</a>
+					.
+				</li>
+			</ul>
+		</div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><p>
+				Source Editing adheres to the overall <a href="http://www.eclipse.org/projects/project-plan.php?projectid=webtools#release_milestones">WTP Milestone Schedule</a>
+				.
+			</p><table border="1" align="center"/><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+			WTP Source Editing will support the platforms certified by the Eclipse Platform
+			project.  For a list of platforms supported, see
+			<a href="http://www.eclipse.org/projects/project-plan.php?projectid=eclipse#target_environments">Eclipse Target Operating Environments</a>
+			.
+		</div><h3>Internationalization</h3>
+			<div>Internationalization and Localization will be supported.</div>
+		<p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+				<p>Themes and their priorities communicate the main objectives of
+					the project and their importance. These will be prioritized based
+					on the community feedback. New themes could be synthesized from the
+					requirements submitted by the community.
+				</p>
+				<p>
+					The sections to follow defines the plan items in the Source
+					Editing project. The plan items are grouped under the respective
+					themes where applicable. Each plan item corresponds to a new
+					feature, API or some aspects of the project that needs to be
+					improved. A plan item has an entry in the Eclipse Bugzilla system
+					that has a detailed description of the plan item. Not all plan
+					items
+					represent the same amount of work; some may be quite large,
+					others,
+					quite small. Although some plan items are for work that is
+					more
+					pressing than others, the plan items appear in no particular
+					order.
+					See the corresponding bugzilla items for up-to-date status
+					information on ongoing work and planned delivery milestones.</p>
+			</div><h3>Ease of Use</h3><div>
+					<p>
+						Features provided by WTP should be simple to use for users with
+						widely-varying backgrounds and skill sets.
+				</p>
+					<ul>
+						<li>WTP User Interface should be consistent and should follow the
+							Eclipse User Experience Guidelines. Experienced Eclipse users
+							should
+							find few, if any, unpleasant surprises or omissions in the
+							UI.</li>
+						<li>Usability and Accessibility reviews should be done for the
+							most common task flows. Cheat Sheets should be provided to assist
+							users in performing tasks.</li>
+						<li>WTP should provide enhanced user documentation, tutorials,
+							white
+							papers, demonstrations.</li>
+					</ul>
+					<p>
+						<i>Ease of Use</i>
+						plan items are designated with "EaseOfUse" in the Status
+						Whiteboard and the "plan" keyword.
+					</p>
+				</div><ul><li><b>Committed</b><ul><li>Register jsp to web.xml is not user friendly [<a href="http://bugs.eclipse.org/242240">242240</a>] (target milestone: 3.3 M6)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Scaling Up</h3><div>
+					<p>
+						Source Editing must be able to deal with development and
+						deployment on
+						an
+						increasingly large and more complex scale. Source Editing
+						should spend focused
+						effort on performance testing and improvement
+						when dealing with
+						extremely large projects and workspaces,
+						particularly where
+						extensibility is offered.
+				</p>
+					<p>
+						<i>Scaling Up</i>
+						plan items are designated with the "plan" and "performance"
+						keywords together.
+					</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Design for Extensibility</h3><div>
+					<p>
+						The 'P' in WTP stands for Platform, meaning Source Editing can
+						be
+						used by adopters to
+						extend its functionality. This theme is about
+						continuing to ensure the
+						success of its adopters by promoting new
+						APIs and Extension
+						points.
+						These should be backed with robust JUnit
+						tests and good documentation.
+					</p>
+					<p>
+						<i>Design for Extensibility</i>
+						plan items are designated with the "plan" and "api" keywords together.
+					</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Quality</h3><div>
+					<p>
+						Source Editing is one of the most heavily used projects within WTP and
+						carries a correspondingly weighty bug report list because of it. Items
+						under this theme are meant to address the backlog of bug reports not
+						concerning performance and is not to include enhancements. It is
+						expected that these require a significant enough amount of time to
+						merit inclusion within the plan. Items under this theme are only to be
+						chosen by Committers.
+					</p>
+					<p>
+						<i>Quality</i>
+						plan items are designated with the "plan" keyword and "qplan"
+						within the status whiteboard.
+					</p>
+				</div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Everything</h3><div>Following are plan items including those not yet categorized
+					into a theme.</div><ul><li><b>Committed</b><ul><li>[tests] Taglib index unit tests are unstable [<a href="http://bugs.eclipse.org/213754">213754</a>] (target milestone: 3.3)</li><li>[fomatting] Formatting of HTML loses indentation [<a href="http://bugs.eclipse.org/122051">122051</a>] <strike>(target milestone: 3.3)</strike></li><li>[editor] Offer extension for "Toggle Comment" command [<a href="http://bugs.eclipse.org/246636">246636</a>] <strike>(target milestone: 3.3)</strike></li><li>one java ee 6 schema is missing for CDI beans.xml [<a href="http://bugs.eclipse.org/309745">309745</a>] <strike>(target milestone: 3.3 M5)</strike></li><li>Register jsp to web.xml is not user friendly [<a href="http://bugs.eclipse.org/242240">242240</a>] (target milestone: 3.3 M6)</li></ul></li></ul><ul><li><b>Proposed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Deferred</b><ul><li>[undo] SSE Undo stack different from standard operation history [<a href="http://bugs.eclipse.org/191754">191754</a>] (target milestone: Future)</li><li>[api][doc] SSE SourceParser Interfaces should be made API and documented [<a href="http://bugs.eclipse.org/270708">270708</a>] (target milestone: Future)</li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix References</a></h2><ul>
+			<li>
+				The general WTP plan can be found
+				<a href="http://www.eclipse.org/projects/project-plan.php?projectid=webtools">here</a>
+				.
+			</li>
+		</ul><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=webtools.sourceediting&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>

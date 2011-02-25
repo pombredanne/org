@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project Plan - modeling.mdt.ocl</title><meta name="author" content="Bjorn Freeman-Benson" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/yui/2.6.0/build/menu/assets/skins/sam/menu.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/reset.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/header.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/footer.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/visual.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/print.css" media="print" />
+	<!--[if lte IE 7]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie_style.css" media="screen"/> <![endif]-->
+	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
+	<!-- Dependencies --> 
+	<!-- Source File -->
+	</head>
+
+<body>
+	<div id="novaWrapper">		<div id="clearHeader">
+			<div id="logo">
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+							</div>
+			<div id="otherSites">
+				<div id="sites">
+				<ul id="sitesUL">
+					<li><a href='http://marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="http://dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<div>Eclipse Marketplace</div></a></li>
+					<li><a href='http://live.eclipse.org'><img alt="Eclipse Live" src="http://dev.eclipse.org/custom_icons/audio-input-microphone-bw.png"/>&nbsp;<div>Eclipse Live</div></a></li>
+		    		<li><a href='https://bugs.eclipse.org/bugs/'><img alt="Bugzilla" src="http://dev.eclipse.org/custom_icons/system-search-bw.png"/>&nbsp;<div>Bugzilla</div></a></li>
+		    		<li><a href='http://www.eclipse.org/forums/'><img alt="Forums" src="http://dev.eclipse.org/large_icons/apps/internet-group-chat.png"/>&nbsp;<div>Eclipse Forums</div></a></li>
+		    		<li><a href='http://www.planeteclipse.org/'><img alt="Planet Eclipse" src="http://dev.eclipse.org/large_icons/devices/audio-card.png"/>&nbsp;<div>Planet Eclipse</div></a></li>
+		    		<li><a href='http://wiki.eclipse.org/'><img alt="Eclipse Wiki" src="http://dev.eclipse.org/custom_icons/accessories-text-editor-bw.png"/>&nbsp;<div>Eclipse Wiki</div></a></li>
+		    		<li><a href='http://portal.eclipse.org'><img alt="MyFoundation Portal" src="http://dev.eclipse.org/custom_icons/preferences-system-network-proxy-bw.png"/><div>My Foundation Portal</div></a></li>
+		    	</ul>
+		    	</div>
+			</div>		
+		</div>
+
+	<div id="header">			
+		<div id="menu">
+			<ul>
+						<li><a href="/" target="_self">Home</a></li> 
+			<li><a href="/downloads/" target="_self">Downloads</a></li> 
+			<li><a href="/users/" target="_self">Users</a></li> 
+			<li><a href="/membership/" target="_self">Members</a></li> 
+			<li><a href="/committers/" target="_self">Committers</a></li> 
+			<li><a href="/resources/" target="_self">Resources</a></li> 
+			<li><a href="/projects/" target="_self">Projects</a></li> 
+			<li><a href="/org/" target="_self">About Us</a></li> 
+				</ul>
+		</div>
+
+		<div id="search">
+				<form action="http://www.google.com/cse" id="searchbox_017941334893793413703:sqfrdtd112s">
+			 	<input type="hidden" name="cx" value="017941334893793413703:sqfrdtd112s" />
+		  		<input id="searchBox" type="text" name="q" size="25" />
+		  		<input id="searchButton" type="submit" name="sa" value="Search" />
+				</form>
+			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s&lang=en"></script>			
+		</div>
+	</div>
+		<div id="novaContent" class="faux">		<br style="clear:both;height:1em;"/>
+	<div id="leftcol">
+<ul id="leftnav">
+<li class="separator"><a class="separator" href="/projects/">
+				Projects<img src="/eclipse.org-common/themes/Nova/images/separator.png"/></a></li>
+<li><a href="/projects/whatsnew.php" target="_self">What's New?</a></li>
+<li><a href="/projects/listofprojects.php" target="_self">List of Projects</a></li>
+<li><a href="/projects/searchpage.php" target="_self">Search through Projects...</a></li>
+<li><a href="/projects/dev_process/index-quick.php" target="_self">Rules &amp; Processes</a></li>
+<li><a href="/projects/dev_process/index.php" target="_self">FAQ</a></li>
+<li><a href="/projects/tools" target="_self">Tools for committers</a></li>
+</ul>
+
+</div>
+<style>
+h2 {
+	border-bottom: 2px solid gray;
+}
+h3 {
+	border-bottom: 1px dotted gray;
+}
+</style>
+<div id="fullcolumn">
+<div id="midcolumn">
+<div xmlns="http://www.w3.org/1999/xhtml" id="rendered-plan">
+  <div id="maincontent">
+    <div id="midcolumn"><h1>
+                    Project Plan For
+                        <a href="http://www.eclipse.org/projects/project_summary.php?projectid=modeling.mdt.ocl">MDT OCL (Object Constraint Language)</a>, version Indigo</h1><div id="toc"><p><a name="toc"><strong>Table of Contents</strong></a></p><ul><li><a href="#introduction">Introduction</a></li><li><a href="#release_deliverables">
+                       Release Deliverables
+                    </a></li><li><a href="#release_milestones">
+                       Release Milestones
+                    </a></li><li><a href="#target_environments">
+                        Target Environments
+                    </a></li><li><a href="#compatibility">
+                        Compatibility with Previous Releases
+                    </a></li><li><a href="#themes_and_priorities">
+                        Themes and Priorities
+                    </a></li><li><a href="#appendix">
+                        Appendix
+                    </a></li></ul></div><h2><a name="introduction">Introduction</a></h2><div>
+<p>
+This document lays out the feature and API set for the
+sixth annual release of the Eclipse Object Constraint Language (MDT OCL)
+Project, version 3.1.0 or 3.2.0. The Indigo release will be 3.1.0 unless an interim
+release is required in order to provide intermediate support in the event that EMF
+or UML2 deviate from Helios compatibility during the Indigo cycle.
+
+A late requirement to use Xtext rather than IMP to support editing meant that many 3.0.0 facilities
+were not fully developed in time for release 3.0.0. Resolution of evaluator issues and library usability
+were held back, and the editors provided only as examples. Interim milestones, or if necessary an interim
+3.1.0 release, are intended to resolve quality issues in the editors.
+The 3.1.0 or 3.2.0 release (for Indigo) should prepare for full integration
+of the new editors and make the library model-driven. Switchover of the old APIs to the new functionality
+and renaming of examples plugins should occur immediately after Indigo so that OCL clients have the
+entire Indigo+1 development cycle to exploit the enhancements that will appear in 4.0.0.
+
+New external APIs are planned to provide interchangeability with alternate OCL products.
+The existing external APIs should be unaffected, will be deprecated after Indigo, but may be
+retained indefinitely as simple wrappers on the new APIs.
+
+New semi-internal parsing APIs are planned to resolve a number of hard problems and to provide
+compatibility between the LPG and Xtext parsers. The existing semi-internal parsing APIs will
+be retained in so far as possible, but will be deprecated in Indigo. The project team anticipates
+working with major consumers in the release after Indigo to assist in migration to the new APIs.
+</p>
+<p>
+<i><b>Note</b> that, since the 
+<a href="http://www.omg.org/cgi-bin/doc?ptc/10-02-01.pdf">OMG OCL 2.2</a>
+standard suffers from significant ambiguities and conflicts making a compliant implementation impossible,
+<b>MDT OCL 3.1.0</b> release is best endeavours to establish a coherent interpretation
+of the OMG OCL 2.2 and to prototype resolutions for the OMG OCL 2.3 standards. Two of the MDT/OCL
+committers are also members of the OMG Revision Task Force that resolves the specification issues.</i>
+</p>
+<p>
+</p>
+<p>
+<i>
+A guide aimed to help users to migrate from MDT OCL 3.0.0 releases to MDT OCL 4.0.0 release
+will be provided.
+</i>
+</p>
+     </div><h2><a name="release_deliverables">Release Deliverables</a></h2><div>
+The release deliverables for the MDT OCL 3.1 or 3.2 release have the same form as 
+is found in most Eclipse projects, namely:
+<ul>
+<li>MDT OCL SDK (includes runtime, sources, examples, and documentation) (downloadable and update site).</li>
+<li>MDT OCL runtime binary distribution (downloadable and update site).</li>
+<li>MDT OCL stand-alone binary distribution (downloadable).</li>
+<li>MDT OCL tests (downloadable)</li>
+<li>MDT OCL examples (downloadable)</li>
+</ul>
+MDT OCL 3.1.0  source code will be available as versions tagged "R3_1" in the project's CVS repository.
+     </div><p><a href="#toc">Table of Contents</a></p><h2><a name="release_milestones">Release Milestones</a></h2><div>
+Release milestones occur at roughly 6 week intervals and follow the
+Platform milestone releases by approximately 1 week; that is, until the
+final 3.7 release of the Platform, upon which MDT OCL and other projects
+will release simultaneously. As MDT OCL is a dependency of numerous
+other projects, MDT OCL Core will deliver its milestones at the +1
+schedule in accordance with the schedule below. MDT OCL Tools will deliver
+at the +3 schedule (two days later).
+         </div><table border="1" align="center"><tr><td><b>3.1.0M1</b></td><td>Monday 18 August 2010</td><td/></tr><tr><td><b>3.1.0M2</b></td><td>Monday 27 September 2010</td><td/></tr><tr><td><b>3.1.0M3</b></td><td>Monday 8 November 2010</td><td/></tr><tr><td><b>3.1.0M4</b></td><td>Monday 13 December 2010</td><td/></tr><tr><td><b>3.1.0M5</b></td><td>Monday 31 January 2011</td><td/></tr><tr><td><b>3.1.0M6</b></td><td>Monday 14 March 2011</td><td><div>API freeze</div></td></tr><tr><td><b>3.1.0M7</b></td><td>Monday 2 May 2011</td><td><div>Feature Freeze</div></td></tr><tr><td><b>3.1.0RC1</b></td><td>Monday 16 May 2011</td><td/></tr><tr><td><b>3.1.0RC2</b></td><td>Monday 23 May 2011</td><td/></tr><tr><td><b>3.1.0RC3</b></td><td>Monday 30 May 2011</td><td/></tr><tr><td><b>3.1.0RC4</b></td><td>Monday 6 June 2011</td><td/></tr><tr><td><b>Indigo</b></td><td>Monday 22 June 2011</td><td/></tr></table><div>
+MDT OCL may produce interim maintenance releases in addition to these in
+order to satisfy clients requests.
+      </div><p><a href="#toc">Table of Contents</a></p><h2><a name="target_environments">Target Environments</a></h2><div>
+        In order to remain current, each Eclipse release targets reasonably
+        current versions of the underlying operating environments. The Eclipse
+        Object Constraint Language (MDT OCL) project depends upon on the
+        Platform and other projects, which are mostly "pure" Java. The 3.7
+        release of the Eclipse Platform Project is written and compiled
+        against version 5.0 of the Java Platform APIs, and targeted to run on
+        version 5.0 of the Java Runtime Environment, Standard Edition. MDT OCL
+        will target the same Java version as EMF and UML2, which currently require
+        Java 5. Eclipse Platform SDK 3.7 will be tested and validated on a
+        number of reference platforms. MDT OCL will be tested and validated
+        against a subset of those listed for the platform.
+     </div><h3>Internationalization</h3>
+          <div>
+The Eclipse Platform is designed as the basis
+for internationalized products. The user interface elements provided
+by the Eclipse SDK components, including dialogs and error messages,
+are externalized. The English strings are provided as the default
+resource bundles. As a result, the MDT OCL
+project will provide English strings in its default bundles and be
+localized to a subset of those locales offered by the Platform.
+          </div>
+     <p><a href="#toc">Table of Contents</a></p><h2><a name="compatibility">Compatibility with Previous Releases</a></h2><div>
+The MDT OCL 3.1 or 3.2 project
+will be developed in parallel, and released simultaneously, with the
+following projects. 
+<ul>
+    <li>Eclipse Platform SDK version 3.7</li>
+    <li>Eclipse Modeling Framework (EMF) version 2.7</li>
+    <li>Model Development Tools (MDT) UML2 version 3.2</li>
+</ul>
+<p>
+As described above, the MDT OCL 3.1.0 release should address usability of the editors.
+The main OCL plugins should be unaffected,
+but the associated examples plugins may be revised significantly.
+
+Again as described above, the MDT OCL 4.0.0 release for Indigo+1 will introduce significant new APIs
+with a view to deprecating existing ones, which will be retained whereever possible to
+allow consumers to migrate with assistance after Indigo.  
+</p>
+<p>
+<i>
+A guide aimed to help users to migrate from MDT OCL 3.0 releases to MDT OCL 4.0.0 release
+will be provided.
+</i>
+</p>
+       </div><p><a href="#toc">Table of Contents</a></p><h2><a name="themes_and_priorities">Themes and Priorities</a></h2><div>
+A list of project requirements and agreed upon
+implementation time frames is found in this document. For the
+milestones listed in this document, a set of overall themes is used
+to indicate what major set of functionalities is to be concentrated
+on for each. These themes are presented below, while the requirements
+document and associated Bugzilla entries are left to those wanting
+more detailed information on each.
+         </div><h3>Compliance</h3><div>
+This theme addresses issues related to the OMG OCL 2.2 specification adoption. The bugs related to the inherited deviations
+of the MDT OCL implementation from the OCL 2.0 specification (and consequently, OCL 2.2) also appear here.
+
+It is anticipated that fixes for the majority of the target 4.0.0 will appear in the
+revised MDT/OCL Examples code in 3.1.0, but this will not be promoted to replace the
+traditional behaviour until 4.0.0.
+                </div><ul><li><b>Committed</b><ul><li>[evaluator] OCL evaluation exception on comparing Real with 'OclInvalid' and 'null' values [<a href="http://bugs.eclipse.org/191027">191027</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library,evaluator] Collections must conform to OclAny [<a href="http://bugs.eclipse.org/290680">290680</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] Add support for toString() [<a href="http://bugs.eclipse.org/152207">152207</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library,validator,evaluator] The type of TypeExp should be classifier (C) [<a href="http://bugs.eclipse.org/190150">190150</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[ast] Detailed EssentialOCL model inconsistencies [<a href="http://bugs.eclipse.org/215110">215110</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] Set operations like including(obj) and excluding(obj) should be specialized for OrederedSet [<a href="http://bugs.eclipse.org/246962">246962</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] Provide support for oclType() operation per OMG OCL 2.1 RTF [<a href="http://bugs.eclipse.org/259031">259031</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] Wrong behavior of the OCL boolean operations [<a href="http://bugs.eclipse.org/267223">267223</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] Introduce a shortcut for String concatenation [<a href="http://bugs.eclipse.org/281710">281710</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] OclVoid and OclInvalid handling [<a href="http://bugs.eclipse.org/282882">282882</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] The MDT-OCL Ecore binding is not 'OCL' [<a href="http://bugs.eclipse.org/283052">283052</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] Null values are ignored in collection literals [<a href="http://bugs.eclipse.org/283518">283518</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] Tuple type resolution failure with product operation [<a href="http://bugs.eclipse.org/284129">284129</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] Miscellaneous TupleType problems [<a href="http://bugs.eclipse.org/286737">286737</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] OCL discards values from lists returned by eoperations [<a href="http://bugs.eclipse.org/287052">287052</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[tests] Standard operations implementation issues [<a href="http://bugs.eclipse.org/287977">287977</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] Collection::first has bad undefined return [<a href="http://bugs.eclipse.org/288566">288566</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[validator] iterators are not validated [<a href="http://bugs.eclipse.org/288573">288573</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[analyzer] Add qualified navigation paths [<a href="http://bugs.eclipse.org/288575">288575</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] null is not the singleton instance of OclVoid [<a href="http://bugs.eclipse.org/290315">290315</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] Inadequate support for large integers [<a href="http://bugs.eclipse.org/290605">290605</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] oclIsKindOf() incorrectly checks for OclAny type [<a href="http://bugs.eclipse.org/291444">291444</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[parser] Too many exists/forAll iterators should be a semantic error [<a href="http://bugs.eclipse.org/296990">296990</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] NumberUtil.isDouble() is unsatisafctory [<a href="http://bugs.eclipse.org/299477">299477</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] OrderedSet.insertAt can create a duplicate [<a href="http://bugs.eclipse.org/299862">299862</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] CollectionUtil.flatten problems [<a href="http://bugs.eclipse.org/299882">299882</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] OclAny::oclAsType() doesn't check the source type [<a href="http://bugs.eclipse.org/299959">299959</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[analyzer] oclIsInState() incorrectly treats implicit collect shorthand [<a href="http://bugs.eclipse.org/299966">299966</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[evaluator] Object identity not respected in all Collection operations [<a href="http://bugs.eclipse.org/301352">301352</a>] <strike>(target milestone: 4.0.0)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[analyzer] Use ExpressionInOcl.generatedType [<a href="http://bugs.eclipse.org/297394">297394</a>] (target milestone: 4.0.0)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Release Currency</h3><div>
+The MDT OCL project will maintain currency with its
+dependencies, in particular with the EMF and MDT UML2 projects.
+                </div><ul><li><b>Committed</b><ul><li><div>No items.</div></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[ast] OCLExpression.name can be incorrectly cached [<a href="http://bugs.eclipse.org/313048">313048</a>] (target milestone: 4.0.0)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Usability</h3><div>
+This theme addresses the need for extensibility and usability improvements
+of the MDT OCL language implementation and APIs.
+
+It is anticipated that fixes for the majority of the target 4.0.0 will appear in the
+revised MDT/OCL Examples code in 3.1.0, but this will not be promoted to replace the
+traditional behaviour until 4.0.0.
+                </div><ul><li><b>Committed</b><ul><li>[environment] UMLReflection.getOCLType considered dangerous [<a href="http://bugs.eclipse.org/183496">183496</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] oclstdlib.ecore is not a first class resource [<a href="http://bugs.eclipse.org/196873">196873</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[editor] SaveAs in Ecore2Ecore [<a href="http://bugs.eclipse.org/318120">318120</a>] <strike>(target milestone: 4.0.0)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[ast] Problems with Resolution of hierarchical-name-based fragment URIs of ECORE [<a href="http://bugs.eclipse.org/194568">194568</a>] (target milestone: 4.0.0)</li><li>[console] Syntax help (auto-completion) for types within current package [<a href="http://bugs.eclipse.org/233622">233622</a>] (target milestone: 4.0.0)</li><li>[console] Overhaul the OCL Example [<a href="http://bugs.eclipse.org/259922">259922</a>] (target milestone: 4.0.0)</li><li>[environment,registry] Ecore meta classes in subpackages not usable in oclIsTypeOf [<a href="http://bugs.eclipse.org/276519">276519</a>] (target milestone: 4.0.0)</li><li>[synthesis] Introduce a CodeSynthesis 'Visitor' [<a href="http://bugs.eclipse.org/279638">279638</a>] (target milestone: 4.0.0)</li><li>[environment] OCLProblemHandler behaviour with multiple errors is poor [<a href="http://bugs.eclipse.org/282568">282568</a>] (target milestone: 4.0.0)</li><li>[evaluator] On the fly OpaqueExpression parsing [<a href="http://bugs.eclipse.org/286931">286931</a>] (target milestone: 4.0.0)</li><li>[console] No duplicates violation saving an OCL Interpreter constraint [<a href="http://bugs.eclipse.org/289660">289660</a>] (target milestone: 4.0.0)</li><li>[ast] Optionally persist comments and token locations [<a href="http://bugs.eclipse.org/303442">303442</a>] (target milestone: 4.0.0)</li><li>[evaluator] pre and post conditions are ignored [<a href="http://bugs.eclipse.org/303686">303686</a>] (target milestone: 4.0.0)</li><li>[console] Position at end of line after Page-Up/Down [<a href="http://bugs.eclipse.org/315654">315654</a>] (target milestone: 4.0.0)</li><li>[console] Use Xtext editor [<a href="http://bugs.eclipse.org/315655">315655</a>] (target milestone: 4.0.0)</li><li>[console] Support Complete OCL [<a href="http://bugs.eclipse.org/315656">315656</a>] (target milestone: 4.0.0)</li><li>[ast,editor] UML alignment [<a href="http://bugs.eclipse.org/315719">315719</a>] (target milestone: 4.0.0)</li><li>[releng] src folders not distinct in source plugin [<a href="http://bugs.eclipse.org/315984">315984</a>] (target milestone: 4.0.0)</li><li>[editor] aliases used in OCLinEcore constraints are volatile [<a href="http://bugs.eclipse.org/316192">316192</a>] (target milestone: 4.0.0)</li><li>[editor] Inconsistent keyword serialisation [<a href="http://bugs.eclipse.org/317398">317398</a>] (target milestone: 4.0.0)</li><li>[editor] Support OCL editing in UML2 editor [<a href="http://bugs.eclipse.org/318076">318076</a>] (target milestone: 4.0.0)</li><li>[editor] Support OCL validation of live UML model instances [<a href="http://bugs.eclipse.org/318077">318077</a>] (target milestone: 4.0.0)</li><li>[editor] Evolve OCLinEcore editor to UnifiedOCL [<a href="http://bugs.eclipse.org/318078">318078</a>] (target milestone: 4.0.0)</li><li>[registry] Make the Registry more widely used [<a href="http://bugs.eclipse.org/318081">318081</a>] (target milestone: 4.0.0)</li><li>[validator] Use OCL expression of constraints [<a href="http://bugs.eclipse.org/318092">318092</a>] (target milestone: 4.0.0)</li><li>[analyzer] NegativeArraySizeException in org.eclipse.ocl.lpg.AbstractBasicEnvironment.parserError(int, int, int, String) [<a href="http://bugs.eclipse.org/277620">277620</a>] (target milestone: 4.0.0)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><h3>Specification</h3><div>
+This theme addresses issues related to prototyping resolutions of problems in the OMG OCL 2.2 specification and enhancements in future specifications. OMG issues
+will be raised and RTF proposed resolutions submitted in order to  
+
+It is anticipated that fixes for the majority of the target 4.0.0 will appear in the
+revised MDT/OCL Examples code in 3.1.0, but this will not be promoted to replace the
+traditional behaviour until 4.0.0.
+                </div><ul><li><b>Committed</b><ul><li>[evaluator] UnlimitedNaturalExp anomalies [<a href="http://bugs.eclipse.org/190461">190461</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[library] UnlimitedNatural erroneously conforms to Real [<a href="http://bugs.eclipse.org/261008">261008</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[language] Refine OMG Issue 14197: OCL 2.0, 2.1 inconsistent definition of null and invalid [<a href="http://bugs.eclipse.org/291721">291721</a>] <strike>(target milestone: 4.0.0)</strike></li><li>[analyzer] Problems redefining operations on subtypes [<a href="http://bugs.eclipse.org/299967">299967</a>] <strike>(target milestone: 4.0.0)</strike></li></ul></li></ul><ul><li><b>Proposed</b><ul><li>[language] Inconsistent Set signature deduction [<a href="http://bugs.eclipse.org/184329">184329</a>] (target milestone: 4.0.0)</li><li>[analyzer] parsing of forward references in init part of def statement [<a href="http://bugs.eclipse.org/187679">187679</a>] (target milestone: 4.0.0)</li><li>[language] Add support for clients to define additional operations with generic signatures (template operations) [<a href="http://bugs.eclipse.org/192907">192907</a>] (target milestone: 4.0.0)</li><li>[analyzer] Collection.getName() should include package qualification [<a href="http://bugs.eclipse.org/241407">241407</a>] (target milestone: 4.0.0)</li><li>[language] Constraints are not distinguishable [<a href="http://bugs.eclipse.org/264927">264927</a>] (target milestone: 4.0.0)</li><li>[language,evaluator] Support overridden oclIsUndefined [<a href="http://bugs.eclipse.org/291220">291220</a>] (target milestone: 4.0.0)</li><li>[language,parser] TupleLiteralExpCS variables need a type [<a href="http://bugs.eclipse.org/292627">292627</a>] (target milestone: 4.0.0)</li><li>[language] Implement Type Constructors [<a href="http://bugs.eclipse.org/293622">293622</a>] (target milestone: 4.0.0)</li><li>[language] Define and implement regular expression matching [<a href="http://bugs.eclipse.org/293732">293732</a>] (target milestone: 4.0.0)</li><li>[ast] Eliminate CollectionLiteralExp.kind [<a href="http://bugs.eclipse.org/297390">297390</a>] (target milestone: 4.0.0)</li><li>[analyzer] Source Collection Literals for arrow operations must be resolved at run-time [<a href="http://bugs.eclipse.org/299841">299841</a>] (target milestone: 4.0.0)</li><li>[evaluator] Collection.sum should work for user-defined types [<a href="http://bugs.eclipse.org/299843">299843</a>] (target milestone: 4.0.0)</li><li>[analyzer] Cannot specify CollectionType in type operations on OclAny [<a href="http://bugs.eclipse.org/299957">299957</a>] (target milestone: 4.0.0)</li><li>[library, evaluator] Collection(T)::sum() does not use T::+(T) [<a href="http://bugs.eclipse.org/301351">301351</a>] (target milestone: 4.0.0)</li><li>[language] selectAsType suggestion [<a href="http://bugs.eclipse.org/309459">309459</a>] (target milestone: 4.0.0)</li><li>[analyzer] Distinguish explicit _'xxx' usage [<a href="http://bugs.eclipse.org/318089">318089</a>] (target milestone: 4.0.0)</li></ul></li></ul><ul><li><b>Deferred</b><ul><li><div>No items.</div></li></ul></li></ul><p><a href="#toc">Table of Contents</a></p><h2><a name="appendix">Appendix Legal Notices</a></h2><div>
+<ul>
+<li>Java is a trademark or a registered trademark of Oracle Corporation.</li>
+<li>OCL and OMG are trademarks or registered trademark of the Object Management Group, Inc.</li>
+<li>All other products or company names are mentioned for identification purposes only, and
+    may be trademarks or service marks of their respective owners.</li>
+</ul>
+        </div><p><a href="#toc">Table of Contents</a></p></div>
+  </div>
+</div>
+<div style="float: right; text-align: right"><a href="?projectid=modeling.mdt.ocl&raw=1">view raw xml of project plan</a><br>
+<a href="/projects/dev_process/project-status-infrastructure.php">from project meta-data key "projectplanurl"</a></div>
+
+</div> <!-- midcolumn -->
+</div> <!-- fullcolumn -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-910670-2']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>		
+
+		<br style="clear:both;height:1em;"/>&nbsp;
+		</div> 		
+		<div id="clearFooter"></div>
+			<div id="footer">
+			<ul id="footernav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/legal/privacy.php">Privacy Policy</a></li>
+				<li><a href="/legal/termsofuse.php">Terms of Use</a></li>
+				<li><a href="/legal/copyright.php">Copyright Agent</a></li>
+				<li><a href="/legal/">Legal</a></li>
+				<li><a href="/org/foundation/contact.php">Contact Us</a></li>
+			</ul>
+			<span id="copyright">Copyright &copy; 2011 The Eclipse Foundation. All Rights Reserved.</span>
+		</div>
+	</div> </body>		
+</html>
