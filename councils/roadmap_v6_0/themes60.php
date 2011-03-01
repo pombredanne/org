@@ -30,7 +30,8 @@
 
 <h3>Windows XP, 7 and Beyond</h3>
 
-<p>Approximately 80% of Eclipse download requests are for the Windows OS. Windows 7 will be important as both a platform used by developers, as well as one to which the resultant applications and/or products will be deployed.</p>
+<p>Approximately 80% of Eclipse download requests are for the Windows OS. Windows 7 
+is important as both a platform used by developers, as well as one to which the resultant applications and/or products will be deployed.</p>
 
 <p>Given Eclipse's ongoing use in the development of enterprise software, support for use of the Eclipse platform is desirable across the popular Windows OS variants.</p>
 
@@ -65,6 +66,8 @@
 <h2>Rich Internet Applications (RIA)</h2>
 <p>Flex, Ajax and other "Web 2.0" technology (see Wikipedia discussion on Web 2.0) has enabled the development of a new generation of web sites that provide a rich and user-friendly experience in a wide variety of applications. While the initial adopters of this technology have been social web sites, it's adoption is increasingly seen in business applications such as CRM systems.</p>
 <p>As developers shift from the development of traditional web sites to Web 2.0-style sites, the role of Eclipse as a development framework for these applications must be considered. In order to retain these developers, the Eclipse platform could provide strong support for developing applications that leverage Web 2.0 technologies such as Flex, Ajax and Web Services APIs.</p>
+<p>The Orion Project is an example of such technology.  Orion endeavors to provide a development platform and tools for developers of RIA.
+More an increased investment in projects such as Orion is expected and encouraged.</p>
 
 <h2>Embedded Device Software</h2>
 <p>This theme describes additions to Eclipse to provide standardization and extensibility to enable embedded tools providers, real-time operating system providers, semiconductor vendors, and hardware developers to create embedded-specific capabilities on top of standard Eclipse projects such as the Platform, JDT, eRCP, CDT, and TPTP. These capabilities could include the following.</p>
@@ -74,7 +77,6 @@
     <li> Build a remote target launching, exploring, and management framework with extensible real-time operating system visibility. This framework will provide complex launching capabilities for deploying multiple target images to multiple devices.</li>
     <li> Enable C++ GUI application design, build, and deployment for mobile devices running any operating system. Also enable vendors to customize run-time libraries for their operating systems.</li>
     <li> Provide mobile Java application development support for J2ME mobile profiles, including extensible frameworks for devices and emulators and capabilities for application build and deployment, code obfuscation, code optimization, image signing, and localization.</li>
-    <li> Complete the 1.0 release of the embedded Rich Client Platform.</li>
     <li> Enable mobile Linux application development, including design, development, debug, and deployment of cross-compiled applications.</li>
     <li> Provide embedded testing capabilities - monitoring, profiling, and unit testing. </li>
 </ul>
