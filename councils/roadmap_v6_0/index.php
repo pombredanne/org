@@ -20,9 +20,10 @@
 			<li><a href="#futures">Future Directions</a>
 			<ol>
 				<li><a href="#e4">Eclipse 4.x</a></li>
+				<li><a href="#orion">Orion</a></li>
 				<li><a href="#cloud">cloud</a></li>
 				<li><a href="#RT">eclipseRT</a></li>
-				<li><a href="#web">Web Development</a></li>
+				<li><a href="#big">Big Data</a></li>
 			</ol></li>
 			<li><a href="#process">The Road Map Process</a></li>	
 
@@ -156,12 +157,27 @@
     	<li>Providing a uniform, pervasive platform across computing environments (Web / RIA, Desktop, Server, Cloud, Embedded)</li>
     	<li>Increasing diversity of contributors to the platform</li>
     	<li>Maintaining backward compatibility for API-clean clients</li></ul></p>
-    	<p>The progress of Eclipse 4 has been very positive and as early as 2012 it may be the major
+    	<p>The progress of Eclipse 4 has been very positive and in June, 2012 it may be the major
     	version of Eclipse used in the distros hosted at the Eclipse downloads page.</p>
-			
+
+    	<a name="#orion"></a><h2>Orion</h2>
 		
+    	<p>Eclipse tools have historically had a very strong correlation with the Java language. However,
+		with the rapid growth of Rich Internet Application languages and technologies such as JavaScript
+		and Ajax, the Eclipse community must support the requirements of these developers as well. Eclipse 
+		will begin to invest in re-tooling the Eclipse platform with the needs of Web developers in mind. </p>
+		
+    	<p>Orion launched in early 2011 and continue to receive emphasis and promotion throughout the
+		year.  Orion is <em>not</em> targeted
+		at the classic Eclipse Developer, but is instead targeted at Web and RIA developers.  This new
+		development model and target audience will even futher diversify and grow our community in
+		new and exciting directions. 
+    	</p>
+		
+    	
 		<a name="#cloud"></a><h2>Cloud</h2>
-		<p>Projects such as Amazons AWS tooling build on the Eclipse Platform give instant credibility
+		<p>Projects such as Amazons AWS tooling and
+		the Beanstalk product built on the Eclipse Platform give instant credibility
 		to Eclipse as a important piece of the strategy for cloud tool providers.  Eclipse has a role to play
 		in the entire development lifecycle from development, deployment to testing and QA. 
 		
@@ -171,16 +187,20 @@
 		</p>
 
 		<a name="#RT"></a><h2>eclipseRT</h2>
-		<p>EclipseRT will continue to grow and evolve.  The recent Gemini and Virgo projects at Eclipse 
-		demonstrate the community is starting to associate Eclipse as a great place to do runtimes.  The
+		<p>The Indigo release train in 2011 will see for the first time an EclipseRT Package
+		available, and we expect EclipseRT will continue to grow and evolve.  The Gemini and Virgo projects at Eclipse 
+		continue to demonstrate the community is starting to associate Eclipse as a great place to do runtimes.  The
 		key uniter of the various runtime technologies at Eclipse continues to be OSGi as the kernel, but
 		it is plausible for some other complementary technology to become an Eclipse project.</p>
 		
-		<a name="#web"></a><h2>Web Development</h2>
-		<p>Eclipse tools have historically had a very strong correlation with the Java language. However,
-		with the rapid growth of Rich Internet Application languages and technologies such as JavaScript
-		and Ajax, the Eclipse community must support the requirements of these developers as well. Eclipse 
-		will begin to invest in re-tooling the Eclipse platform with the needs of Web developers in mind. </p>
+		<a name="#big"></a><h2>Big Data</h2>
+		<p>The growing popularity of Apache Hadoop and a strong Java based ecosystem
+		around it, has lead to a number of organizations building "Bid Data Tooling" on the
+		Eclipse Platform.  Aster Data and Karmashpere are two examples of such
+		organizations with Eclipse based products.  We expect this trend to continue 
+		through 2011 with more Eclipse based tools in support of "Big Data" applications.</p>
+		
+		
 		
 		<a href="#process"></a><h2>The Roadmap Process</h2>
 
