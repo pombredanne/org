@@ -40,8 +40,8 @@
 				Planning Council.</li>
 			</ol>
 		
-		<p>The Roadmap is intended to be a living document which will see future iterations. This document is the 
-		fifth version of the Eclipse Roadmap, and is labeled as version 6.0. In order to preserve this document 
+		<p>The Roadmap is intended to be an ongoing document which undergoes incremental iterations. This document is the 
+		sixth version of the Eclipse Roadmap, and is labeled as version 6.0. In order to preserve this document 
 		while the underlying information evolves, the pages have been frozen by copying them from their original 
 		project hosted locations.</p>
 
@@ -56,7 +56,7 @@
 		
 
 		<a name="background"></a><h2>Background</h2>
-		<p>As defined on our website, the role of the Foundation is:
+		<p>As defined on our website, the role of the Eclipse Foundation is:
 		</p>
 		<p><i>Eclipse is an open source community, whose projects are focused on building an open development 
 		platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software 
@@ -145,8 +145,8 @@
 
 		<p>In addition to the Themes and Priorities requirements on existing projects in Helios, we envision 
 		future growth in Eclipse projects in the following major areas. These are areas in which we 
-		envision starting new projects in 2010-2011, not areas in which we envision having completed 
-		Eclipse-quality standards-based frameworks and tooling. </p>
+		envision further growth in 2011-2012, and Eclipse-quality standards-based frameworks and tooling
+		in these areas begin to become a reality. </p>
 		
 		<a name="#e4"></a><h2>Eclipse 4.x</h2>
 		<p>2011 will see another release of the Eclipse 4 stream, Eclipse 4.1. The major goals 
@@ -156,6 +156,8 @@
     	<li>Providing a uniform, pervasive platform across computing environments (Web / RIA, Desktop, Server, Cloud, Embedded)</li>
     	<li>Increasing diversity of contributors to the platform</li>
     	<li>Maintaining backward compatibility for API-clean clients</li></ul></p>
+    	<p>The progress of Eclipse 4 has been very positive and as early as 2012 it may be the major
+    	version of Eclipse used in the distros hosted at the Eclipse downloads page.</p>
 			
 		
 		<a name="#cloud"></a><h2>Cloud</h2>
