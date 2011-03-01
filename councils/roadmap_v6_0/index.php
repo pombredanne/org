@@ -21,9 +21,9 @@
 			<ol>
 				<li><a href="#e4">Eclipse 4.x</a></li>
 				<li><a href="#orion">Orion</a></li>
-				<li><a href="#cloud">cloud</a></li>
-				<li><a href="#RT">eclipseRT</a></li>
-				<li><a href="#big">Big Data</a></li>
+				<li><a href="#model">Modeling</a></li>
+				<li><a href="#RT">EclipseRT</a></li>
+				<li><a href="#cloud">Cloud</a></li>
 			</ol></li>
 			<li><a href="#process">The Road Map Process</a></li>	
 
@@ -63,18 +63,18 @@
 		platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software 
 		across the lifecycle. The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the 
 		Eclipse projects and helps cultivate both an open source community and an ecosystem of complementary products 
-		and services.</i></p>
+		and services.</p></i>
 
 		<p>As defined in our Bylaws the Purposes of the Eclipse Foundation are:
 		</p>
-		<i>The Eclipse technology is a vendor-neutral, open development platform supplying 
+		<p><i>The Eclipse technology is a vendor-neutral, open development platform supplying 
 		frameworks and exemplary, extensible tools (the "Eclipse Platform"). Eclipse Platform tools are exemplary in 
 		that they verify the utility of the Eclipse frameworks, illustrate the appropriate use of those frameworks, 
 		and support the development and maintenance of the Eclipse Platform itself; Eclipse Platform tools are 
 		extensible in that their functionality is accessible via documented programmatic interfaces. The 
 		purpose of Eclipse Foundation Inc., (the "Eclipse Foundation"), is to advance the creation, evolution,
 		 promotion, and support of the Eclipse Platform and to cultivate both an open source community and an 
-		ecosystem of complementary products, capabilities, and services.</i><br>
+		ecosystem of complementary products, capabilities, and services.</i></p>
 		
 		<a name="strategic"></a><h2>Strategic Goals</h2>
 		<p>The following are the strategic goals of the Eclipse Foundation.
@@ -125,10 +125,12 @@
 		ensure revenue sources from multiple types of organizations, and seek other sources such 
 		as events and sponsorships.</li>
 		
-		<li>Ensure adequate resources are invested in the core technology platform.  Although Eclipse
-		hosts well over 100 different projects, many depend on a core set of projects to continue
-		to evolve and innovate.  It is important the new entants be encouraged to participate in
-		these core projects and be informed of the importance of and need for their support.
+		<li>Establish Eclipse web technology as a leading open source web application platform. There is 
+		no doubt that development in the web for the web (or in the cloud for the cloud)
+		is becoming increasingly important. The recent lunch of the Eclipse Orion initiative is a 
+		first step towards extending the Eclipse Platform towards making it more relevant for web 
+		developers. The Eclipse Foundation will put its resources towards increasing adoption of and
+		contributions to Orion.
 		</li>
 		
 	</ol>
@@ -154,7 +156,6 @@
 		of <a href="/e4/">this new release</a> include:<ul>
 		<li>Making it easier to write plug-ins</li>
     	<li>Allowing better control over the look of Eclipse based products</li>
-    	<li>Providing a uniform, pervasive platform across computing environments (Web / RIA, Desktop, Server, Cloud, Embedded)</li>
     	<li>Increasing diversity of contributors to the platform</li>
     	<li>Maintaining backward compatibility for API-clean clients</li></ul></p>
     	<p>The progress of Eclipse 4 has been very positive and in June, 2012 it may be the major
@@ -173,8 +174,21 @@
 		development model and target audience will even futher diversify and grow our community in
 		new and exciting directions. 
     	</p>
+				
+		<a name="#model"></a><h2>Modeling</h2>
+		<p>The growing popularity of modeling and model-driven development has been an important driver
+		for Eclipse projects for some time. We expect the momentum to grow even stronger in 2011. Eclipse-based modeling
+		technologies such as Papyrus and Sphinx have become increasingly important for dealing with large, complex 
+		systems engineering and safety-critical systems. The Xtext project for supporting Domain Specific Languages
+		has also generated enormous interest.</p>
 		
-    	
+    	<a name="#RT"></a><h2>EclipseRT</h2>
+		<p>The Indigo release train in 2011 will see for the first time an EclipseRT Package
+		available, and we expect EclipseRT will continue to grow and evolve.  The Gemini and Virgo projects at Eclipse 
+		continue to demonstrate the community is starting to associate Eclipse as a great place to do runtimes.  The
+		key uniter of the various runtime technologies at Eclipse continues to be the Equinox implementation of the
+		OSGi standard.</p>
+		
 		<a name="#cloud"></a><h2>Cloud</h2>
 		<p>Projects such as Amazons AWS tooling and
 		the Beanstalk product built on the Eclipse Platform give instant credibility
@@ -186,21 +200,6 @@
 		scaling the cloud.		 
 		</p>
 
-		<a name="#RT"></a><h2>eclipseRT</h2>
-		<p>The Indigo release train in 2011 will see for the first time an EclipseRT Package
-		available, and we expect EclipseRT will continue to grow and evolve.  The Gemini and Virgo projects at Eclipse 
-		continue to demonstrate the community is starting to associate Eclipse as a great place to do runtimes.  The
-		key uniter of the various runtime technologies at Eclipse continues to be OSGi as the kernel, but
-		it is plausible for some other complementary technology to become an Eclipse project.</p>
-		
-		<a name="#big"></a><h2>Big Data</h2>
-		<p>The growing popularity of Apache Hadoop and a strong Java based ecosystem
-		around it, has lead to a number of organizations building "Bid Data Tooling" on the
-		Eclipse Platform.  Aster Data and Karmashpere are two examples of such
-		organizations with Eclipse based products.  We expect this trend to continue 
-		through 2011 with more Eclipse based tools in support of "Big Data" applications.</p>
-		
-		
 		
 		<a href="#process"></a><h2>The Roadmap Process</h2>
 
