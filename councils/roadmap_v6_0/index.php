@@ -153,7 +153,7 @@
 		
 		<a name="#e4"></a><h2>Eclipse 4.x</h2>
 		<p>2011 will see another release of the Eclipse 4 stream, Eclipse 4.1. The major goals 
-		of <a href="/e4/">this new release</a> include:<ul>
+		of <a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/eclipse/development/plans/eclipse_project_plan_4_1.xml ">this new release</a> include:<ul>
 		<li>Making it easier to write plug-ins</li>
     	<li>Allowing better control over the look of Eclipse based products</li>
     	<li>Increasing diversity of contributors to the platform</li>
