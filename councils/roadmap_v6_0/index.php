@@ -127,9 +127,9 @@
 		
 		<li>Establish Eclipse web technology as a leading open source web application platform. There is 
 		no doubt that development in the web for the web (or in the cloud for the cloud)
-		is becoming increasingly important. The recent lunch of the Eclipse Orion initiative is a 
-		first step towards extending the Eclipse Platform towards making it more relevant for web 
-		developers. The Eclipse Foundation will put its resources towards increasing adoption of and
+		is becoming increasingly important. The recent launch of the Eclipse Orion initiative is a 
+		first step towards making the Eclipse Platform more relevant for web developers. The 
+		Eclipse Foundation will put its resources towards increasing adoption of and
 		contributions to Orion.
 		</li>
 		
