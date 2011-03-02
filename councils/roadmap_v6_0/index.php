@@ -3,7 +3,7 @@
 
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "BOARD DRAFT Eclipse RoadMap v6";
+	$pageTitle 		= "COMMUNITY REVIEW DRAFT Eclipse RoadMap v6";
 	$pageKeywords	= "about, documents, history";
 	$pageAuthor		= "Donald Smith";
 		
