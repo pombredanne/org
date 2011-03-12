@@ -57,7 +57,8 @@
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
 		The $year elections have concluded. Members elected $sustaining Sustaining Member representative, and $committer
-		Committer representatives. Information concerning the $year elections is contained within the links below.
+		Committer representatives. Each year the winners are announced 
+			at the Board Meeting held during EclipseCon. Information concerning the $year elections is contained within the links below.
 		<ul>
 		<li>The <a href="nominees.php">candidates</a> for the election</li>
 		<li>The <a href="keydates.php">key dates</a> for the $year elections</li>
