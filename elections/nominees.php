@@ -77,7 +77,10 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		
-		<p>Voting in the 2011 elections begins on February 22, 2011, and ends on March 11, 2011 at 3pm Eastern time.</p>
+		<p>
+			Voting for the 2011 Board of Directors candidates has concluded. Each year the winners are announced 
+			at the Board Meeting held during EclipseCon.
+		</p>
 		
 		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
 		<table>

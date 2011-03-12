@@ -47,16 +47,16 @@
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>The Eclipse Foundation is holding elections for board members representing two very important
+		<p>The Eclipse Foundation holds elections for board members representing two very important
 		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and
 		Enterprise Members). The terms of office for
-		these elected board members will be one year, commencing April 1.</p>
+		these elected board members is one year, commencing April 1.</p>
 		<p>
 		Candidates and the community are encouraged to discuss the issues on the 
 		<a href="http://www.eclipse.org/forums/eclipse.foundation">Foundation forum</a>.
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
-		For $year, members will elect $sustaining Sustaining Member representative, and $committer
+		The $year elections have concluded. Members elected $sustaining Sustaining Member representative, and $committer
 		Committer representatives. Information concerning the $year elections is contained within the links below.
 		<ul>
 		<li>The <a href="nominees.php">candidates</a> for the election</li>
@@ -65,6 +65,7 @@
 		</ul>
 		</div>
 	</div>
+
 	
 <!--</div>-->
 <script language="javascript">
