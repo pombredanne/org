@@ -72,7 +72,7 @@ while ($row = next($csv)) {
 	$item->useCount = next($row);
 	$item->userCount = next($row);
 	
-	if ($item->yearmonth >= $thismonth)
+//	if ($item->yearmonth >= $thismonth)
 	$items[] = $item;
 }
 
@@ -127,8 +127,6 @@ ob_start();
 <p>The <em>(csv)</em> link points to a CSV version of what is displayed here. 
 The <em>(trend)</em> link points to the same data, but structured for easier trend analysis.
 Note that elements with fewer than five users are not shown.</p>
-
-<p>Only showing last three months of data. The CSV downloads above contain all data.</p>
 
 <table border="1">
 	<tr><th><a href="?kind=<?= $kind ?>&sort=month">Month</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Element</a></th><th><a href="?kind=<?= $kind ?>&sort=element">BundleId</a></th><th><a href="?kind=<?= $kind ?>&sort=element">Bundle Version</a></th><th><a href="?kind=<?= $kind ?>&sort=use">Use Count</a></th><th><a href="?kind=<?= $kind ?>&sort=users">User Count</a></th></tr>
