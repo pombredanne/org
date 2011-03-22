@@ -31,11 +31,12 @@
 		<p>
 			The Eclipse Foundation is pleased to announce 
 			<a href="http://www.eclipsecon.org/europe2011/">EclipseCon
-			2011</a>, to take place November 2-4, in Ludwigsburg, Germany.  The conference program will be
+			Europe 2011</a>, to take place November 2-4, in Ludwigsburg, Germany.  The conference program will be
 			chaired by Bernd Kolb.
 		</p>
 		<p>
-			EclipseCon is the conference for anyone involved in Eclipse. As an Eclipse user, EclipseCon is where
+			Formerly known as "Eclipse Summit Europe", EclipseCon Europe is the conference for anyone 
+			involved in Eclipse. As an Eclipse user, EclipseCon is where
 			you will learn about the latest Eclipse products as well as picking up those valuable how-to tips
 			from the experts and user groups. As an Eclipse developer, EclipseCon is where you collaborate with
 			your colleages and do whiteboard planning for the next generation of APIs and features. As an
