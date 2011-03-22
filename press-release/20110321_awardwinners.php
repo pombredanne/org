@@ -56,7 +56,7 @@
 		<p>
 		<ul>
 			<li><strong>Most Open Project</strong>: e4
-				<ul><li>The finalists is Modeling Amalgamation.</li></ul></li>
+				<ul><li>The finalist is Modeling Amalgamation.</li></ul></li>
 			<li><strong>Most Innovative New Feature or Eclipse Project</strong>:  EGit
 				<ul><li>The finalists are Extended Editing Framework (EEF), and Mylyn Builds</li></ul></li>
 		</ul>
