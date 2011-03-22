@@ -44,7 +44,7 @@
 				<ul><li>The finalists are Brian de Alwis and James Sugrue</li></ul></li>
 			<li><strong>Top Newcomer Evangelist</strong>: Boris Bokowski
 				<ul><li>The finalists are Cedric Brun and James Sugrue.</li></ul></li>
-			<li<strong>Lifetime Contribution Award</strong>: David Williams
+			<li><strong>Lifetime Contribution Award</strong>: David Williams
 		</ul>
 		</p>
 
@@ -108,7 +108,6 @@
 			<h6>Awards Navigation</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/judges10.php">2011 Judges</a></li>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/pastwinners.php">Past Winners</a></li>
 			</ul>
 		</div>
