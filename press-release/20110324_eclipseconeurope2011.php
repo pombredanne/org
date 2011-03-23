@@ -52,7 +52,7 @@
 			
 			To sign up for
 			sponsorship information, please <a href="mailto:exhibitors11@eclipse.org?subject=EclipseCon Europe 2011 Sponsor Info">
-			contact us.</a>.
+			contact us.</a>
 		</p>
 
 		<br><br>
