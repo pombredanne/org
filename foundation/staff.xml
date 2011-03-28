@@ -62,7 +62,7 @@
 
 	<staffmember id="allison">
 		<name>Allison Kelly</name>
-		<title><![CDATA[ Ecosystem Development Support]]></title>
+		<title><![CDATA[Ecosystem Development Support]]></title>
 		<image> ../../images/allison.jpg </image>
 		<description> <![CDATA[
 			<p>Allison joined the Eclipse Foundation in March 2009.  Her focus is on membership
@@ -70,6 +70,16 @@
 			traveling, spending time with family and friends and dreams of living in a warmer
 			climate someday!</p>
 		]]> </description>
+	</staffmember>
+
+	<staffmember id="perri">
+		<name>Perri Lavergne</name>
+		<title>Ecosystem Development Support</title>
+		<image>../../images/perri.bmp</image>
+		<description> <![CDATA[
+			<p>Perri joined the Eclipse Foundation in May 2010. Her focus is on membership retention and development. Outside of work Perri enjoys spending time with family and friends, medical research, volunteer work for organizations dealing with children with special needs, running, cooking and baking. Perri hopes to one day accomplish her long time dream of a unique before and after school program for teens with special needs.</p>
+		]]>
+		</description>
 	</staffmember>
 
 	<staffmember id="mike">
