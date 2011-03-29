@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Hot New Product Showcase Winner";
+	$pageTitle 		= "Eclipse Hot New Product Showcase Winners";
 	$pageKeywords	= "eclipse foundation, awards, community, winners, 2011";
 	$pageAuthor		= "Donald Smith";
 	
@@ -37,12 +37,13 @@
 		</p>
 
 		<p>"We are super excited to get this award from the Eclipse community", noted 
-		Chronon Systems CTO Prashant Deva, "It is validation of many year’s hard work.  Eclipse provided 
+		Chronon Systems CTO Prashant Deva, "It is validation of many year's hard work.  Eclipse provided 
 		us a great platform to build our unique technology." 
 		</p>
 		<p>
-			The new product showcase award is awarded to the hottest 
-			Eclipse-based product built or released in the last year.  Honorable mentions go
+			The new product showcase award is given to the hottest 
+			Eclipse-based product, as voted by EclipseCon attendees, 
+			built or released in the last year.  Honorable mentions went
 			to the new <a href="http://eclipsesource.com/en/yoxos/yoxos-5/">Yoxos Launcher from EclipseSource</a>
 			and <a href="http://wiki.eclipse.org/Reviews/R4E/User_Guide">Review4Eclipse (demoed by Ericsson)</a>.
 		</p>
