@@ -43,7 +43,7 @@
 		<p>
 			The new product showcase award is given to the hottest 
 			Eclipse-based product, as voted by EclipseCon attendees, 
-			built or released in the last year.  Honorable mentions went
+			built or released in the last year.  Honourable  mentions went
 			to the new <a href="http://eclipsesource.com/en/yoxos/yoxos-5/">Yoxos Launcher from EclipseSource</a>
 			and <a href="http://wiki.eclipse.org/Reviews/R4E/User_Guide">Review4Eclipse (demoed by Ericsson)</a>.
 		</p>
