@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Hot New Product Showcase Winners";
+	$pageTitle 		= "Chronon Time Travelling Debugger wins first ever Eclipse New Product Showcase";
 	$pageKeywords	= "eclipse foundation, awards, community, winners, 2011";
 	$pageAuthor		= "Donald Smith";
 	
