@@ -3,20 +3,16 @@
 	<staffmember id="wayne">
 		<name>Wayne Beaton</name>
 		<title>Director of Open Source Projects</title>
-		<image>../../images/polarbear.gif</image>
-		<description>
-			Wayne is the Director of Open Source Projects at the Eclipse Foundation. 
+		<image>../../images/wayne.jpg</image>
+		<description><![CDATA[
+			<p>Wayne is the Director of Open Source Projects at the Eclipse Foundation. 
 			He spends his days working with the many Eclipse projects, learning about 
 			Eclipse technology, and making sure that everybody knows just how cool it 
-			all really is. Wayne is also the editor-in-chief of Eclipse Corner, PMC 
-			member of the Mylyn, Technology, and TPTP Projects, Project Lead for the 
-			Dash, Examples, and Woolsey Projects, and an advisor for osbootcamp. In 
-			1982, he received the prestigious Chief Scouts Award from then-Governor 
-			General Edward Schreyer. In 1984 his team was selected to represent 
-			beautiful British Columbia in the Kinsmen Voyageur Relay. In his spare 
-			time, he writes down meaningless accomplishments from his youth in a 
-			lame attempt to impress the reader.
-		</description>
+			all really is. When not working, he can usually be found watching his kids
+			play hockey at one of the many local arenas.</p>
+			<p>Wayne authors the 
+			<a href="http://waynebeaton.wordpress.com/" target="blank">Eclipse Hints, Tips, and Random Musings</a> blog.</p>
+		]]></description>
 	</staffmember>
 
 	<staffmember id="janet">
@@ -38,7 +34,6 @@
 		<description>
 		<![CDATA[<p>When remote from Eclipse, Sharon C. is a fulltime soccer mom and dedicated footie fan.  Sharon can usually be found
 		heading out with her son to a practice, game or tournament.</p>
-		<br/>
 		]]>
 		</description>
 	</staffmember>
@@ -48,9 +43,10 @@
 		<image>../../images/nathan.png</image>
 		<title>Web Developer</title>
 		<description>
-			<![CDATA[<p>Keep an eye out for this kid!  Nathan joined Eclipse in 2006 and is usually seen lurking around eclipse.org websites working his magic.
-			Hobbies include playing tennis, walking his dog, and working on whatever his latest project is!</p>
-			<br/>
+			<![CDATA[<p>Keep an eye out for this kid!  Nathan joined 
+			Eclipse in 2006 and is usually seen lurking around eclipse.org 
+			websites working his magic. Hobbies include playing tennis, 
+			walking his dog, and working on whatever his latest project is!</p>
 			]]>
 		</description>
 	</staffmember>
@@ -60,22 +56,12 @@
 		<image>../../images/anne.png</image>
 		<title>Conference Queen</title>
 		<description>
-			<![CDATA[When not in front of a monitor, Anne prefers activities that involve wearing a helmet--horseback riding, skiing,
-			and cycling. One of her favorite books is <i>The Chicago Manual of Style</i>, so if you need help with the nitpicking
-			details of writing in English, she's happy to help.]]>
+			<![CDATA[<p>When not in front of a monitor, Anne prefers activities 
+			that involve wearing a helmet--horseback riding, skiing,
+			and cycling. One of her favorite books is <i>The Chicago Manual 
+			of Style</i>, so if you need help with the nitpicking
+			details of writing in English, she's happy to help.</p>]]>
 		</description>
-	</staffmember>
-
-	<staffmember id="allison">
-		<name>Allison Kelly</name>
-		<title><![CDATA[Ecosystem Development Support]]></title>
-		<image> ../../images/allison.jpg </image>
-		<description> <![CDATA[
-			<p>Allison joined the Eclipse Foundation in March 2009.  Her focus is on membership
-			retention and supporting business development. Outside of work she enjoys cooking,
-			traveling, spending time with family and friends and dreams of living in a warmer
-			climate someday!</p>
-		]]> </description>
 	</staffmember>
 
 	<staffmember id="perri">
@@ -83,7 +69,13 @@
 		<title>Ecosystem Development Support</title>
 		<image>../../images/perri.png</image>
 		<description> <![CDATA[
-			<p>Perri joined the Eclipse Foundation in May 2010. Her focus is on membership retention and development. Outside of work Perri enjoys spending time with family and friends, medical research, volunteer work for organizations dealing with children with special needs, running, cooking and baking. Perri hopes to one day accomplish her long time dream of a unique before and after school program for teens with special needs.</p>
+			<p>Perri joined the Eclipse Foundation in May 2010. Her focus is on 
+			membership retention and development. Outside of work Perri enjoys 
+			spending time with family and friends, medical research, volunteer 
+			work for organizations dealing with children with special needs, 
+			running, cooking and baking. Perri hopes to one day accomplish her 
+			long time dream of a unique before and after school program for 
+			teens with special needs.</p>
 		]]>
 		</description>
 	</staffmember>
@@ -110,11 +102,12 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<image>../../images/ralph.jpg </image>
 		<description>
 			<![CDATA[<p>
-			Ralph's role at the Eclipse Foundation is focused on growing the Eclipse Ecosystem
+			Ralph's role at the Eclipse Foundation is focused on growing 
+			the Eclipse Ecosystem
 			across Europe. </p>
-			<p>Ralph's passion outside of work is golf, both as a player and as a coach for children
-			just starting the game. He's also helped both Mike and Donald to improve their games.
-			</p>
+			<p>Ralph's passion outside of work is golf, both as a player 
+			and as a coach for children just starting the game. He's also 
+			helped both Mike and Donald to improve their games.</p>
 			]]>
 		</description>
 	</staffmember>
@@ -124,7 +117,11 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<title>Director, IT Services</title>
 		<image>../../images/denis.jpg </image>
 		<description>
-			<![CDATA[<p>In the office, Denis spends his time in front of a Linux command prompt.  Leisure activities include going to the cottage with my daughter, drag racing and snowmobiling.<br /><br />You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</p><br/><br/>]]>
+			<![CDATA[<p>In the office, Denis spends his time in front of a 
+			Linux command prompt.  Leisure activities include going to the 
+			cottage with my daughter, drag racing and snowmobiling.</p>
+			<p>You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, 
+			and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</p>]]>
 		</description>
 	</staffmember>
 
@@ -147,16 +144,15 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<image> ../../images/donald.jpg </image>
 		<description>
 			<![CDATA[
-			After a very busy 2005 completing an MBA, designing a new house and getting
+			<p>After a very busy 2005 completing an MBA, designing a new house and getting
 			married, Donald joined Eclipse to begin 2006 with his now seemingly infinite
 			free time.  Donald has over a decade of experience with enterprise software
 			including product management, marketing, engineering and consulting.  He has
 			spoken on various topics at most major Java conferences including Java One,
 			TSSS, JAOO, CSS, Sun Tech Days and others.  Donald's role at Eclipse is to
-			help foster the development of the ecosystem.
-			<br/> &nbsp; <br/>
-			You can read Donald's blog at <a href="http://eclipse-ecosystem.blogspot.com/" target="blank">
-			http://eclipse-ecosystem.blogspot.com/</a>.
+			help foster the development of the ecosystem.</p>
+			<p>You can read Donald's blog at <a href="http://eclipse-ecosystem.blogspot.com/" target="blank">
+			http://eclipse-ecosystem.blogspot.com/</a>.</p>
 			]]>
 		</description>
 	</staffmember>
@@ -165,10 +161,9 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<name>Matt Ward</name>
 		<title>Systems Administrator</title>
 		<image> ../../images/mattfire.jpg </image>
-		<description>
-			<![CDATA[ Matt spends his time triaging the Webmaster inbox and putting out fires.  If you can't take the heat,
-			 stay out of the data center. 
-			&nbsp; <br/> &nbsp; <br/>
+		<description><![CDATA[
+			<p>Matt spends his time triaging the Webmaster inbox and putting out 
+			fires.  If you can't take the heat, stay out of the data center.</p>
 			]]>
 		</description>
 	</staffmember>
