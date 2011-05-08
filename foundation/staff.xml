@@ -64,6 +64,18 @@
 		</description>
 	</staffmember>
 
+	<staffmember id="allison">
+		<name>Allison Kelly</name>
+		<title><![CDATA[Ecosystem Development Support]]></title>
+		<image> ../../images/allison.jpg </image>
+		<description> <![CDATA[
+			<p>Allison joined the Eclipse Foundation in March 2009.  Her focus is on membership
+			retention and supporting business development. Outside of work she enjoys cooking,
+			traveling, spending time with family and friends and dreams of living in a warmer
+			climate someday!</p>
+		]]> </description>
+	</staffmember>
+	
 	<staffmember id="perri">
 		<name>Perri Lavergne</name>
 		<title>Ecosystem Development Support</title>
@@ -167,7 +179,6 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 			]]>
 		</description>
 	</staffmember>
-
 
 	<staffmember id="sharon">
 		<name>Sharon Wolfe</name>
