@@ -130,10 +130,10 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<title>Director, Marketing</title>
 		<image>../../images/ian.jpg </image>
 		<description>
-			<![CDATA[ Ian takes care of the marketing activities at the Eclipse Foundation.
+			<![CDATA[<p>Ian takes care of the marketing activities at the Eclipse Foundation.
 			Although our community is the Eclipse marketing machine,  Ian supports the projects and member
 			companies to increase the awareness of all the cool stuff happening at Eclipse.
-			You can read his blog at <a href="http://ianskerrett.wordpress.com/" target="blank">http://ianskerrett.wordpress.com/</a>.
+			You can read his blog at <a href="http://ianskerrett.wordpress.com/" target="blank">http://ianskerrett.wordpress.com/</a>.</p>
 			]]>
 		</description>
 	</staffmember>
@@ -173,13 +173,13 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		<name>Sharon Wolfe</name>
 		<title>Office Manager</title>
 		<image> ../../images/sharon.jpg </image>
-		<description>
-			Sharon has been with the Eclipse Foundation since July 2004.  In addition
+		<description><![CDATA[
+			<p>Sharon has been with the Eclipse Foundation since July 2004.  In addition
 			to her Office Manager responsibilities, Sharon assists with marketing activities and also
 			organizes or assists with the planning of various meetings and conferences.  Sharon thanks
 			Mike every day for opening a proper office because she was going stir crazy working out
-			of the home office in her basement!
-		</description>
+			of the home office in her basement!</p>
+		]]></description>
 	</staffmember>
 
 </staffmembers>
