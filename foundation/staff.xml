@@ -64,18 +64,6 @@
 		</description>
 	</staffmember>
 
-	<staffmember id="allison">
-		<name>Allison Kelly</name>
-		<title><![CDATA[Ecosystem Development Support]]></title>
-		<image> ../../images/allison.jpg </image>
-		<description> <![CDATA[
-			<p>Allison joined the Eclipse Foundation in March 2009.  Her focus is on membership
-			retention and supporting business development. Outside of work she enjoys cooking,
-			traveling, spending time with family and friends and dreams of living in a warmer
-			climate someday!</p>
-		]]> </description>
-	</staffmember>
-	
 	<staffmember id="perri">
 		<name>Perri Lavergne</name>
 		<title>Ecosystem Development Support</title>
@@ -150,24 +138,6 @@ http://dev.eclipse.org/blogs/mike/</a>.</p>
 		</description>
 	</staffmember>
 
-	<staffmember id="donald">
-		<name>Donald Smith</name>
-		<title>Director, Ecosystem Development</title>
-		<image> ../../images/donald.jpg </image>
-		<description>
-			<![CDATA[
-			<p>After a very busy 2005 completing an MBA, designing a new house and getting
-			married, Donald joined Eclipse to begin 2006 with his now seemingly infinite
-			free time.  Donald has over a decade of experience with enterprise software
-			including product management, marketing, engineering and consulting.  He has
-			spoken on various topics at most major Java conferences including Java One,
-			TSSS, JAOO, CSS, Sun Tech Days and others.  Donald's role at Eclipse is to
-			help foster the development of the ecosystem.</p>
-			<p>You can read Donald's blog at <a href="http://eclipse-ecosystem.blogspot.com/" target="blank">
-			http://eclipse-ecosystem.blogspot.com/</a>.</p>
-			]]>
-		</description>
-	</staffmember>
 
 	<staffmember id="matt">
 		<name>Matt Ward</name>
