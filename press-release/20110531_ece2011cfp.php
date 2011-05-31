@@ -26,7 +26,7 @@
 		<p>The EclipseCon Europe (ECE) 2011 <a href="http://www.eclipsecon.org/europe2011/content/submissions-are-open">Call for Papers</a> is now open!</p> 
 		
 		<p>We are looking for high-quality talks on a variety of topics. This year's themes are Eclipse Technology, Building Industry Solutions, 
-		Community and Collaboration, and Other. The submission deadline is August 17. We encourage you to submit early, since the community and the 
+		Community and Collaboration, and Other. We encourage you to submit early, since the community and the 
 		program committee will be reviewing, commenting on, and voting for submissions between now and the submission deadline on August 17.</p> 
 
 		<p>Details about submitting, speaker policies, and sponsorships are on the <a href="http://www.eclipsecon.org/europe2011">ECE website</a>.</p> 
