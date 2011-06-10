@@ -1,9 +1,10 @@
-?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include("_projectCommon.php");    # All on the same line to unclutter the user's desktop'
+<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include("_projectCommon.php");    # All on the same line to unclutter the user's desktop'
 
+	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Community Survey 2011";
-	$pageKeywords	= "eclipse, survey, open source developer";
+	$pageTitle 		= "Results of the Eclipse Community Survey 2011";
+	$pageKeywords	= "elipse, orion, javascript, html";
 	$pageAuthor		= "Ian Skerrett";
 	
 	# Add page-specific Nav bars here
@@ -16,6 +17,10 @@
 	
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+	<style>
+		.paddedlist li {	padding-bottom:7px;	}
+	</style>
+	
 <div id="maincontent">
 	<div id="midcolumn">
 	
@@ -25,7 +30,7 @@
 		
   <p>The Eclipse Foundation has released the results of the Eclipse Community Survey 2011.  The purpose of the survey 
 is to better understand how the Eclipse community uses Eclipse and open source software and how people participate
-in and perceive open source software.  <p>
+in and perceive open source software.  </p>
 
 <p>The <a href="http://www.eclipse.org/org/community_survey/Eclipse_Survey_2011_Report.pdf">Open Source Developer Report</a> is 
 a report and analysis of the survey results.  Detailed survey results are available <a href="http://www.eclipse.org/org/community_survey/Summary_Data_2011.ods">here</a>[ods]</p>
