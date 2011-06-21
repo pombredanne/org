@@ -53,7 +53,7 @@
 <li>Eclipse Marketplace Client now supports drag and drop installation of Eclipse-based solutions directly into Eclipse making it significantly easier to install new solutions.
 </ul>
 
-<strong>New Innovation in Eclipse Modeling</strong>
+<strong>Neuerungen bei der Eclipse-Modellierung</strong>
 <ul>
 <li>Xtext 2.0 hat wichtige neue Funktionen für domainspezifische Sprachen (DSLs) hinzugefügt: 1) die Fähigkeit, DSLs mit eingebetteten Java-ähnlichen Expressions zu erzeugen; 2) Xtend, eine neue Template-Sprache, die eine straffe und integrierte Code-Erzeugung in die Eclipse-Tooling-Umgebung ermöglicht; 3) ein neues Refactoring-Framework für DSLs
 <li>Acceleo 3.1 integriert die Code-Erzeugung in Ant- und Maven-Build-Chains und bietet eine verbesserte Ausstattung für die Bearbeitung von Generatoren.
@@ -73,7 +73,7 @@
 <li>Riena 3.0 unterstützt jetzt die Erzeugung von Webbrowser-Anwendungen durch die Nutzung von Eclipse RAP.
 </ul>
 
-<strong>Zitat zum Release</strong>
+<strong>Zitat zum Release</strong><br>
 „Wir sind sehr stolz darauf, wie jedes Jahr pünktlich einen weiteren Release Train aus der Eclipse Community feiern zu können“, so Mike Milinkovich, Executive Director der Eclipse Foundation.
  „Dieses Release zeichnet sich durch eine lange Liste neuer Funktionen aus, die besonders für Java-Entwickler interessant sind. Funktionen wie Git-Unterstützung, Maven- und 
  Hudson-Integration, ein großartiger GUI-Builder in WindowBuilder und unser neues Jubula-Testtool werden, da bin ich mir sicher, die Entwickler-Gemeinde dazu veranlassen, Indigo 
