@@ -29,7 +29,7 @@
 		
 		
   <p><strong>Ottawa, Canada - June 22, 2011</strong> - La fondation Eclipse est heureuse d'annoncer l'arrivée de Indigo, la sortie simultanée annuelle pour 2011. Pour la huitième année 
-  consécutive, la communauté Eclipse a livré simultanément ses projets à l'heure. Indigo est disponible dès maintenant au téléchargement à l'adresse suivante : www.eclipse.org/downloads.
+  consécutive, la communauté Eclipse a livré simultanément ses projets à l'heure. Indigo est disponible dès maintenant au téléchargement à l'adresse suivante : <a href="http://www.eclipse.org/downloads">www.eclipse.org/downloads</a>.
   </p>
 
 <strong>Les chiffres clés</strong>

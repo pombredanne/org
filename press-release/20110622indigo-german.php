@@ -29,7 +29,7 @@
 		
 		
   <p><strong>Ottawa, Canada - June 22, 2011</strong> - Die Eclipse Foundation freut sich, bekannt geben zu können, dass der jährliche Indigo Release Train für 2011 nun verfügbar ist. 
-  Dies ist das achte Jahr in Folge, in dem die Eclipse Community termingerecht ein koordiniertes Release veröffentlicht. Indigo steht ab sofort unter www.eclipse.org/downloads zum Download bereit.</p>
+  Dies ist das achte Jahr in Folge, in dem die Eclipse Community termingerecht ein koordiniertes Release veröffentlicht. Indigo steht ab sofort unter <a href="http://www.eclipse.org/downloads">www.eclipse.org/downloads</a> zum Download bereit.</p>
 
 <strong>Wichtigste Zahlen zu Indigo</strong>
 <ul>
