@@ -1,5 +1,5 @@
 <?php
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include("_projectCommon.php");    # All on the same line to unclutter the user's desktop'
+																													require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include("_projectCommon.php");    # All on the same line to unclutter the user's desktop'
 
 	
 	#
@@ -29,21 +29,21 @@
 		
 		
   <p><strong>Ottawa, Canada - June 22, 2011</strong> - The Eclipse Foundation is pleased to announce the availability of Indigo, the 2011 annual release train.  This is the eighth 
-  successive year in which the Eclipse community has shipped a coordinated release on schedule.  Indigo is available for immediate download from <a ref="http://www.eclipse.org/downloads">eclipse.org/downloads</a>.</p>
+  successive year in which the Eclipse community has shipped a coordinated release on schedule.  Indigo is available for immediate download from <a href="http://www.eclipse.org/downloads">www.eclipse.org/downloads</a>.</p>
 
-<p><strong>Indigo Key Stats</strong><br><br>
+<strong>Indigo Key Stats</strong>
 <ul>
 <li>62 project teams participated in Indigo
 <li>46 million lines of code released on the same day (calculated by Ohloh)
 <li>408 developers (committers) contributed code
 <li>49 organizations collaborated on Ithe release
-<li>10 pre-defined packages enable easy download and use</p>
+<li>10 pre-defined packages enable easy download and use
 </ul>
-</p>
+
 <p>Highlights of the Indigo release include important new functionality for Java developers, innovations in modeling technology, and advancements in Eclipse runtime technology.
 </p>
 
-<p><strong>Key New Features for Java Developers</strong>
+<strong>Key New Features for Java Developers</strong>
 <ul>
 <li>EGit 1.0 release provides first-class support for Java developers using Git for source code management
 <li>WindowBuilder, a world-class Eclipse-based GUI builder, is now available as an Eclipse open source project
@@ -52,8 +52,8 @@
 <li>Mylyn 3.6 supports Hudson build monitoring directly from the Eclipse workspace
 <li>Eclipse Marketplace Client now supports drag and drop installation of Eclipse-based solutions directly into Eclipse making it significantly easier to install new solutions.
 </ul>
-</p>
-<p><strong>New Innovation in Eclipse Modeling</strong><br>
+
+<strong>New Innovation in Eclipse Modeling</strong>
 <ul>
 <li>Xtext 2.0 has added significant new features for domain-specific languages (DSLs): 1) the ability to create DSLs with embedded Java-like expressions; 2) Xtend, a new template language that allows tightly integrated code generation into the Eclipse tooling environment; and 3) a new refactoring framework for DSLs.
 <li>Acceleo 3.1 integrates code generation into Ant and Maven build chains, and includes improved generator editing facilities.
@@ -63,12 +63,23 @@
 <li>EMF Compare 1.2 brings dedicated UML support and is more fully integrated with the SCM.
 <li>EMF Facet, a  new project, allows extension of an existing Ecore metamodel without modification.
 </ul>
-</p>
-<p><strong>EclipseRT Advancements</strong><br>
+
+
+<strong>EclipseRT Advancements</strong><br>
+<ul>
 <li>EclipseLink 2.3 supports multi-tenant JPA Entities, making it possible to incorporate JPA persistency into SaaS-style applications.
 <li>Equinox 3.7 now implements the OSGi 4.3 specification, including use of generic signatures, generic capabilities, and requirements for bundles.
 <li>Eclipse Communication Framework (ECF) implements OSGi 4.2 Remote Service and Remote Service Admin standards.
 <li>Riena 3.0 now supports the creation of web browser applications using Eclipse RAP.
+</ul>
+
+	<strong>About the Eclipse Foundation</strong>
+	<p>Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible 
+	frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major 
+	technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the 
+	Eclipse Platform.</p>
+	<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse 
+	and the Eclipse Foundation are available at www.eclipse.org.	</p>
 
 	</div>
 
@@ -77,6 +88,9 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
+				<li><a href="http://eclipse.org/indigo/">Indigo Site</a></li>
+				<li><a href="http://eclipse.org/indigo/friends.php">Indigo 500</a></li>
+				<li><a href="http://eclipse.org/downloads">Download</a></li>
 			</ul>
 		</div>
 	</div>	
