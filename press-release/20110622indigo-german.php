@@ -45,12 +45,12 @@
 
 <strong>Wichtigste neue Funktionen für Java-Entwickler</strong>
 <ul>
-<li>EGit 1.0 release provides first-class support for Java developers using Git for source code management
-<li>WindowBuilder, a world-class Eclipse-based GUI builder, is now available as an Eclipse open source project
-<li>Automated functional GUI testing for Java and HTML applications is included via Jubula
-<li>m2eclipse brings tight integration with Maven and the Eclipse workspace, enabling developers to work with Maven projects directly from Eclipse
-<li>Mylyn 3.6 supports Hudson build monitoring directly from the Eclipse workspace
-<li>Eclipse Marketplace Client now supports drag and drop installation of Eclipse-based solutions directly into Eclipse making it significantly easier to install new solutions.
+<li>EGit 1.0 Release bietet erstklassigen Support für Java-Entwickler, die Git für das Quellcode-Management verwenden.
+<li>WindowBuilder, der hervorragende GUI-Builder auf Eclipse-Basis, ist jetzt als Eclipse-Open-Source-Projekt verfügbar.
+<li>Mit Jubula ist ein automatisiertes GUI-Testtool für Java- und HTML-Anwendungen mit eingeschlossen.
+<li>m2eclipse sorgt für eine straffe Integration mit Maven und dem Eclipse-Workspace, Entwickler können nun direkt aus Eclipse mit Maven-Projekten arbeiten.
+<li>Mylyn 3.6 unterstützt Hudson-Build-Monitoring direkt aus dem Eclipse-Workspace.
+<li>Eclipse Marketplace Client unterstützt jetzt die Drag-and-Drop-Installation von Lösungen auf Eclipse-Basis direkt in Eclipse, was die Installation neuer Lösungen erheblich vereinfacht.
 </ul>
 
 <strong>Neuerungen bei der Eclipse-Modellierung</strong>
