@@ -98,7 +98,7 @@ constructeur d'IHM avec WindowBuilder, et notre nouvel outil de test Jubula, j'e
 
 
 EOHTML;
-	$html = mb_convert_encoding($html, "HTML-ENTITIES", "auto");
+	$html = mb_convert_encoding($html, "HTML-ENTITIES", "ISO-8859-1");
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
