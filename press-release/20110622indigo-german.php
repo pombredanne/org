@@ -97,7 +97,7 @@
 
 
 EOHTML;
-	$html = mb_convert_encoding($html, "HTML-ENTITIES", "UTF-8");
+	$html = mb_convert_encoding($html, "HTML-ENTITIES", "ISO-8859-1");
 	# Generate the web page
 	$App->generatePage($theme, $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
