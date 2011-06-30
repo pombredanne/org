@@ -335,7 +335,7 @@ $people = find_relations($architecture_relations, true);
 ksort($people);
 
 $mentors = array();
-$result = mysql_query("SELECT PP.PersonID, PP.ProjectID, P.UrlIndex FROM PeopleProjects PP INNER JOIN Projects P ON PP.ProjectId = P.ProjectID  WHERE Relation = 'ME'");
+$result = mysql_query("SELECT PP.PersonID, PP.ProjectID, P.UrlIndex FROM PeopleProjects PP INNER JOIN Projects P ON PP.ProjectId = P.ProjectID  WHERE Relation = 'ME' and InActive is null");
 mysql_error_check();
 while($obj = mysql_fetch_object($result)) {
 	if( !isset($mentors[$obj->PersonID]) ) $mentors[$obj->PersonID] = array();
