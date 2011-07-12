@@ -3,7 +3,7 @@
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Announcing EclipseCon 2012";
 	$pageKeywords	= "eclipse, Indigo, conference, eclipsecon";
-	$pageAuthor		= "Ian Skerrett";
+	$pageAuthor		= "Anne Jacko";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank)
