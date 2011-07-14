@@ -23,14 +23,12 @@
 		
 		<h2>Community Bulletin</h2>
 		
-		<p>EclipseCon North America is moving! The Eclipse Foundation is pleased to announce that EclipseCon 2012 will be 
-		March 26-29 at the Hyatt Regency in Reston, Virginia, outside Washington, D.C. We are excited about the great new location, 
-		and about moving to the east coast of the U.S.</p> 
+		<p>The Eclipse Foundation is pleased to announce that EclipseCon 2012 is moving to a new location in Reston, Virginia, just 
+		outside Washington, D.C. The annual Eclipse conference will be March 26-29 at the Hyatt Regency Reston. The new location 
+		will make it easier for European and east coast residents to participate in EclipseCon North America.</p>
 		
-		<p>Doug Schaefer of Wind River is Program Chair, and we expect to announce the rest of the committee 
-		shortly. The new website is coming soon, as well as the Call for Papers. Follow us 
-		on <a href="http://twitter.com/eclipsecon">Twitter</a> and 
-		<a href="http://www.facebook.com/pages/Eclipse/259655700571">Facebook</a> for updates.</p> 
+		<p>Doug Schaefer of Wind River is Program Chair and the conference Call for Papers will go out in mid-September. 
+		Updates will be posted on Twitter and Facebook.</p> 
 
 		<p>Be sure to save the dates, and we look forward to seeing you in Reston next March.</p> 
 
