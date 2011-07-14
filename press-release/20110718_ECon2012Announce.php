@@ -1,7 +1,7 @@
 <?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include("_projectCommon.php");    # All on the same line to unclutter the user's desktop'
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Announcing EclipseCon 2012";
+	$pageTitle 		= "New Location Announced for EclipseCon 2012";
 	$pageKeywords	= "eclipse, Indigo, conference, eclipsecon";
 	$pageAuthor		= "Anne Jacko";
 	
@@ -28,7 +28,8 @@
 		will make it easier for European and east coast residents to participate in EclipseCon 2012.</p>
 		
 		<p>Doug Schaefer of Wind River is Program Chair and the conference Call for Papers will go out in mid-September. 
-		Updates will be posted on Twitter and Facebook.</p> 
+		Updates will be posted on <a href="http://twitter.com/eclipsecon">Twitter</a> and 
+		<a href="http://www.facebook.com/pages/Eclipse/259655700571">Facebook</a>.</p> 
 
 		<p>Be sure to save the dates, and we look forward to seeing you in Reston next March.</p> 
 
