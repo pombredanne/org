@@ -28,7 +28,7 @@
 		<h1>$pageTitle</h1>
 		
 		<br>
-  <p>The Eclipse Foundation, in collaboraiton with Oracle, is pleased to announce the Java 7 Summit, to be held at the upcoming <a href="http://www.eclipsecon.org/europe2011/">EclipseCon Europe</a> in Ludwigsburg, Germany on 
+  <p>The Eclipse Foundation, in collaboration with Oracle, is pleased to announce the Java 7 Summit, to be held at the upcoming <a href="http://www.eclipsecon.org/europe2011/">EclipseCon Europe</a> in Ludwigsburg, Germany on 
   November 2-4, 2011. The Java 7 Summit offers Java developers and architects an opportunity to gain in-depth technical education on the new innovations introduced into the recent 
   <a href="http://www.oracle.com/us/corporate/events/java7/index.html">Java 7 release</a>.</p>
   
