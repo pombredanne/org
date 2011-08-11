@@ -26,11 +26,9 @@
 		<p>Registration is now open for Eclipse Testing Day 2011, scheduled for September 7 in Neuss, Germany. Topics range from 
 		acceptance testing and usability testing to build processes and test processes. Testing Day is a unique opportunity to 
 		hear from the experts on testing, test processes, and the associated tools and technology. 
-		</p> 
+		Along with the talks, attendees can see what's new from the Testing Day sponsoring companies.</p>
 
-		<p>Along with the talks, attendees can see what's new from the Testing Day sponsoring companies.</p>
-
-		<p>For agenda, registration, prices (including discounts for Eclipse members and students), sponsoring companies, and venue details, 
+		<p>For venue, agenda, registration, prices (including discounts for Eclipse members and students), and sponsors,  
 		see the <a href="http://wiki.eclipse.org/Eclipse_Testing_Day_2011">Eclipse Testing Day wiki page</a>.</p>	
 				
  	<br><br>
