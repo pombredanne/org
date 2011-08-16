@@ -30,12 +30,12 @@
 			<ul>
 				<li><a href="Eclipse%20BYLAWS%202011_08_15%20Final.pdf">Bylaws:</a>
 					The Bylaws lay out the basic rules of governance of the Eclipse Foundation.
-					</li>
+					<img src="../../images/updated.gif" alt="updated"></li>
 				<li><a href="Eclipse%20MEMBERSHIP%20AGMT%202010_01_05%20Final.pdf">Membership Agreement:</a> 
 					The Membership Agreement describes 
 					the rights and responsibilities for each class of member in the Eclipse 
 					Foundation.
-					<img src="../../images/updated.gif" alt="updated"></li>
+					</li>
 				<li><a href="Eclipse_IP_Policy.pdf">Intellectual Property Policy:</a> 
 					The IP Policy describes the
 					policies and mechanisms that the Eclipse Foundation uses for accepting and
