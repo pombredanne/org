@@ -26,7 +26,7 @@
 		<p>The Eclipse Foundation is pleased to announce the <a href="http://www.eclipsecon.org/europe2011/content/keynotes">keynote presenters</a> 
 		for EclipseCon Europe 2011 (ECE), the premier European event for the Eclipse community.</p> 
 		
-		<uL>
+		<ul>
 		<li>John Swainson, former vice-president at IBM, will reflect on IBM's decision to open-source Eclipse in 2001, and the impact of that decision on the software industry</li>
 		<li>David Cuartielles, an inventor of Arduino, will talk about this popular open-source hardware platform</li>
 		<li>Bran Selic, an expert on designing large-scale industrial software systems, will present <i>Model-Based Software Engineering in Industry: Revolution, Evolution, or Smoke?</i></li>
