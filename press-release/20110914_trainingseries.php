@@ -58,7 +58,7 @@
 			</ul>
 		</div>
 		<a href="../../community/training/classes.php">
-		<img src="../../community/training/images/promo2011.png" alt="Eclipse Training" border="0">
+		<img src="../../community/training/images/promo2011.jpg" alt="Eclipse Training" border="0">
 		</a>
 	</div>
 </div>
