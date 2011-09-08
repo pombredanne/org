@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Register for the Eclipse Spring 2011 Training Series";
+	$pageTitle 		= "Register for the Eclipse Fall 2011 Training Series";
 	$pageKeywords	= "eclipse, training, rcp, osgi, modeling";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -58,7 +58,7 @@
 			</ul>
 		</div>
 		<a href="../../community/training/classes.php">
-		<img src="../../community/training/traininggraphic_125x125.png" alt="Eclipse Training" border="0">
+		<img src="../../community/training/images/promo2011.png" alt="Eclipse Training" border="0">
 		</a>
 	</div>
 </div>
