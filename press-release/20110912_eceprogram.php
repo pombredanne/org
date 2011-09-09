@@ -32,7 +32,7 @@
   <p><strong>Ottawa, Canada - September 12, 2011</strong> - The Eclipse community will celebrate the 10th  birthday of the Eclipse open-source project at the upcoming <a href="http://eclipsecon.org/europe2011/">EclipseCon Europe</a>
   conference, to be held November 2 - 4, 2011 in Ludwigsburg, Germany. The annual Eclipse European community conference will feature a 10th birthday party and a retrospective keynote by 
   former IBM executive John Swainson on the 2001 release of Eclipse into the open-source community. This event will kick off a series of birthday parties around the world to celebrate the 
-  important milestone./p>
+  important milestone.</p>
   
 
   <p>In addition to John Swainson, two other keynote speakers will be featured at EclipseCon Europe:
