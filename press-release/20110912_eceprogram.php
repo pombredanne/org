@@ -4,7 +4,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "EclipseCon Europe to Celebrate 10 Years of Eclipse ";
+	$pageTitle 		= "EclipseCon Europe to Celebrate 10 Years of Eclipse";
 	$pageKeywords	= "elipse, automotive, autosar";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -45,8 +45,8 @@
   will educate and enlighten the attendees on what is possible when using Eclipse in model-driven development, mobile development, and enterprise application development and deployment. 
   Industry case studies will highlight how major European organizations are using Eclipse to improve their software development practices.
 </p>
-<p>EclipseCon Europe, in collaboration with Oracle, will also host the Java 7 Summit, a dedicated track to educating attendees on the technology innovations in the recent Java 7 release.  Attendees will
-have the opportunity to learn how to migrate to the new Java 7 release and take advantage of the many new features.</p>
+<p>EclipseCon Europe, in collaboration with Oracle, will also host the Java 7 Summit, a dedicated track to educate attendees on the technology innovations in the recent Java 7 release.  Attendees 
+of the Java 7 Summit will have the opportunity to learn how to migrate to the new Java 7 release and take advantage of the many new features.</p>
 
 <p>EclipseCon Europe is supported by 23 corporate sponsors. The Premium sponsors for this year's conference include BSI, compeople, IBM, MicroDoc, OnPositive, Oracle, SAP, Sierra Wireless, 
 and Xored.
