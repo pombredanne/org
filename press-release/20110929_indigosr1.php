@@ -29,7 +29,7 @@
 
 		
 		<br>
-  <p><strong>Ottawa, Canada ï¿½ September 27, 2011</strong> ï¿½ The Eclipse Foundation is pleased to announce the recent Eclipse Indigo SR1 release includes full production level support 
+  <p><strong>Ottawa, Canada – September 27, 2011</strong> – The Eclipse Foundation is pleased to announce the recent Eclipse Indigo SR1 release includes full production level support 
   for Java 7, the recent major release of the Java SDK.  Developers can now use Eclipse JDT to develop Java applications that take advantage of the new Java 7 features.  
 
 <p>The new Eclipse JDT release will include the following for Java 7 support:<br>
@@ -46,8 +46,8 @@
 See What's <a href="http://www.eclipse.org/jdt/ui/r3_8/Java7news/whats-new-java-7.html">New for Java 7</a> for the complete feature list. </p>
 <br><br>
 
-<p>ï¿½Java 7 is a significant release for moving the Java community and platform forwardï¿½, explains Mike Milinkovich, Executive Director, Eclipse Foundation.  ï¿½The new Eclipse support for the 
-new language features is an important step in having the wider developer community adopt the new features in their application development.ï¿½</p>
+<p>“Java 7 is a significant release for moving the Java community and platform forward”, explains Mike Milinkovich, Executive Director, Eclipse Foundation.  “The new Eclipse support for the 
+new language features is an important step in having the wider developer community adopt the new features in their application development.”</p>
 
 
 <p>"Java remains critical to our customers' success," said Sal Vella, Vice President Architecture and Technology, IBM.  "IBM's work with Eclipse in helping form Java 7 and our support of 
