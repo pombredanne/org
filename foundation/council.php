@@ -244,19 +244,15 @@ $result = $App->foundation_sql("SELECT PP.PersonID, PP.ProjectID, P.UrlIndex FRO
 
 while($obj = mysql_fetch_object($result)) {
 	if( !isset($mentors[$obj->PersonID]) ) $mentors[$obj->PersonID] = array();
-	if( $obj->UrlIndex != "" ) {
-		$mentors[$obj->PersonID][] = "<a href='" . $obj->UrlIndex . "'>" . $obj->ProjectID . "</a>";
-	}
-	else {
-		$mentors[$obj->PersonID][] = $obj->ProjectID;
-	}
 
+	// WTB While we're here... set the link to go to the project info page.
+	$mentors[$obj->PersonID][] = "<a href=\"/projects/project.php?id=$obj->ProjectID\">$obj->ProjectID</a>";
 }
 
 foreach($people as $name => $value) {
 	echo "		<tr>" . $value[0] . "</tr>\n";
 	if( isset($mentors[$value[1]]) ) {
-		echo "<tr><td colspan=3 align=right style='font-size: 90%'>" . implode(', ', $mentors[$value[1]] ) . "</td></tr>\n";
+		echo "<tr><td colspan=\"3\" align=\"right\" style=\"padding-left:20px;font-size: 90%\">Mentor for: " . implode(', ', $mentors[$value[1]] ) . "</td></tr>\n";
 	}
 }
 ?>
