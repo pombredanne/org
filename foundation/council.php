@@ -240,7 +240,17 @@ $people = find_relations($architecture_relations, true);
 ksort($people);
 
 $mentors = array();
-$result = $App->foundation_sql("SELECT PP.PersonID, PP.ProjectID, P.UrlIndex FROM PeopleProjects PP INNER JOIN Projects P ON PP.ProjectId = P.ProjectID  WHERE Relation = 'ME' and InactiveDate is null");
+$result = $App->foundation_sql("
+	SELECT 
+		PP.PersonID, PP.ProjectID, P.UrlIndex, P.ProjectPhase 
+	FROM PeopleProjects PP 
+		INNER JOIN Projects P ON PP.ProjectId = P.ProjectID 
+	WHERE 
+		P.IsActive 
+		and P.ProjectPhase like 'Incubation%' 
+		and Relation = 'ME' 
+		and InactiveDate is null
+");
 
 while($obj = mysql_fetch_object($result)) {
 	if( !isset($mentors[$obj->PersonID]) ) $mentors[$obj->PersonID] = array();
