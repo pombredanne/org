@@ -27,8 +27,20 @@ ob_start();
 						<th width="50%">Group Name</th>
 						<th width="10%">Homepage</th>
 						<th width="10%">Mailing List</th>
-						<th width="10%">Newsgroup</th>
+						<th width="10%">Wiki</th>
 					</tr>
+					<tr>
+						<td>Polarsys Working Group</td>
+						<td><a href="http://wiki.eclipse.org/Polarsys"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
+						<td><a href=""><img src=""></a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>M2M Industry Working Group</td>
+						<td><a href="http://wiki.eclipse.org/Machine-to-Machine"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
+						<td><a href=""><img src=""></a></td>
+						<td></td>
+					</tr>										
 					<tr>
 						<td>Mobile Industry Working Group</td>
 						<td><a href="http://wiki.eclipse.org/EMIWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
