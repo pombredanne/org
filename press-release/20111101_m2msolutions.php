@@ -20,16 +20,7 @@ $pageAuthor		= "Christopher Guindon";
 $html = <<<EOHTML
 	<style>
 		#headline{font-style:italic;font-size:1.2em;line-height:1.6em;}
-		blockquote{
- 			font-size:14px;
- 			line-height:22px;
-  			margin-top: 10px;
- 			margin-bottom: 20px;
-  			margin-left: 50px;
-  			padding-left: 15px;
-  			border-left: 3px solid #ccc;
-}
-		
+	
 	</style>
 	
 <div id="maincontent">
@@ -47,7 +38,7 @@ $html = <<<EOHTML
 <p>The market for M2M solutions is growing, but rapid growth is hindered by incompatible platforms and protocols that require developers to continually reinvent solutions that have already been created. This situation slows innovation and creates maintenance and upgrade problems as deployments evolve over time. The founding members of the Industry Working Group believe the creation of open tools, open protocols, open interfaces and open application programming interfaces (APIs) are the best approach to addressing these problems, bringing tremendous value to the M2M ecosystem.</p>
  
  
- <blockquote>&#8220;The Eclipse Machine-to-Machine Industry Working Group and the related open source projects will enable customers to integrate physical world systems into their enterprise solutions,&#8221; said Dr. Angel Diaz, vice president, software standards, IBM Software Group. &#8220;Data is being captured today as never before, the Eclipse M2M initiative helps expand the spectrum of information and intelligence into the systems and processes that make the world work and become a smarter planet.&#8221;</blockquote>
+ <p>&#8220;The Eclipse Machine-to-Machine Industry Working Group and the related open source projects will enable customers to integrate physical world systems into their enterprise solutions,&#8221; said Dr. Angel Diaz, vice president, software standards, IBM Software Group. &#8220;Data is being captured today as never before, the Eclipse M2M initiative helps expand the spectrum of information and intelligence into the systems and processes that make the world work and become a smarter planet.&#8221;</p>
 <p>The M2M Industry Working Group is the umbrella for M2M-related Eclipse projects for open source, the first of which is the Koneki project. The goal of Koneki is to provide M2M solution developers with tools that ease the development, simulation, testing/debugging and deployment of such solutions. The initial open source contributions provide a common set of tools and APIs that simplify development of solutions across multiple environments (such as Linux, Java, and proprietary environments such as Open AT® from Sierra Wireless), as well as standard communications protocols. The benefit to M2M customers is more flexibility, with systems that are interoperable and don’t lock them into a long-term relationship with a single solution vendor. Sierra Wireless has made the first significant contribution to the Koneki project, providing a full-featured embedded development environment for the Lua programming language.</p>
 <p>&#8220;We consider it critically important to provide the M2M developer community with the tools and support needed to deploy applications as efficiently as possible, and ensure that they can be easily maintained over time. Because of this, we have been developing Eclipse-based tools for many years,&#8221; said Emmanuel Walckenaer, Senior Vice President and General Manager, Solutions and Services for Sierra Wireless. &#8220;This collaboration with the Eclipse Foundation and our other working group partners is an extension of our commitment to build an open M2M ecosystem, not only for the benefit of our customers, but also for the long-term development of the industry.&#8221;</p>
 <p>Sierra Wireless is a premium sponsor of EclipseCon Europe, happening this week in Ludwigsburg, Germany, and developers attending the event are welcome to contact the onsite team for more information about the M2M Industry Working Group and the Koneki project. Developers unable to attend the event are invited to visit <a href="http://www.sierrawireless.com/productsandservices/AirVantage/Koneki.aspx" target="_blank">http://www.sierrawireless.com/productsandservices/AirVantage/Koneki.aspx</a> for more information about Sierra Wireless initiatives that support M2M application development, as well as the open source tools and libraries the company makes available to the developer community.</p> 
