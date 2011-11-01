@@ -96,8 +96,7 @@ Phone: +1 (604) 232 1445<br/>
 			<ul>
 				<li><a href="http://wiki.eclipse.org/M2MIWG_charter_draft" target="_blank">The M2M Industry Working Group charter</a></li>
 				<li><a href="http://www.eclipse.org/koneki/" target="_blank">The Koneki project</a></li>
-				<li><a href="http://www.sierrawireless.com" target="_blank">Sierra Wireless</a></li>
-				<li><a href="http://www.eurotech.com" target="_blank">Eurotech</a></li>
+
 				
 			</ul>
 		</div>
