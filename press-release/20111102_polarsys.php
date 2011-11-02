@@ -77,7 +77,7 @@ Eclipse Foundation<br/>
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.polarsys.org">polarsys.org</a></li>
+				<li><a href="http://www.polarsys.org" target="_blank">polarsys.org</a></li>
 			</ul>
 		</div>
 	</div>	
