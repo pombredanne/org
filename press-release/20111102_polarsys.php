@@ -72,7 +72,7 @@ Eclipse Foundation<br/>
 
 	</div>
 
-	<!-- remove the entire <div> tag to omit the right column!
+	<!-- remove the entire <div> tag to omit the right column! -->
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
@@ -82,7 +82,7 @@ Eclipse Foundation<br/>
 		</div>
 	</div>	
 </div>
-  -->
+ 
 
 EOHTML;
 	$html = mb_convert_encoding($html, "HTML-ENTITIES", "ISO-8859-1");
