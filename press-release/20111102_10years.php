@@ -74,7 +74,7 @@ passionate individuals has made Eclipse a worldwide industry success.  Moving fo
 innovation and collaboration. The next ten years are going to be just as exciting!  Projects like Orion, Xtext, Mylyn, JGit, Virgo will keep Eclipse an exciting place.”</p>
 
 <p>"IBM is proud of its 10-year affiliation with the Eclipse Foundation, from founding member to one of the most active advocates of 
-Eclipse-based technology and product development"  said Sal Valla, Vice President Architecture and Technology, IBM. "It is vitally important 
+Eclipse-based technology and product development"  said Sal Vella, Vice President Architecture and Technology, IBM. "It is vitally important 
 to encourage and enable open, transparent technology communities based on open standards and open source collaboration.  The committers, 
 Eclipse Foundation, member companies and users have brought not just technical innovation, but organizational and governance innovation as 
 well, all of which will endure." 
