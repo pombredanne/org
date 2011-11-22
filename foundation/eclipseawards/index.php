@@ -28,7 +28,7 @@
 	#
 		
 	# Paste your HTML content between the EOHTML markers!	
-	$html = <<<EOHTML
+	$html = <<<EOHTML?>
 
 	<div id="fullcolumn">
 	<div id="midcolumn">
@@ -41,7 +41,7 @@
 				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi" target="_blank">
 				Bugzilla account</a>. Self nominations	are welcome. Nominations will open on December 5th, 2011 and will close January 27,
 				2012.  Winners will be announced at <a href="http://www.eclipsecon.org/2012/" target="_blank">EclipseCon 2012</a>.						
-				</td>
+			  </td>
 				<td>
 				<img src="images/EclipseAwardsLogo.png" alt="Eclipse Awards" height="125">
 				</td>
@@ -51,42 +51,45 @@
 		<a href="http://www.surveymonkey.com/s/eclipseawards2011" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
 		-->
 		<h2>Individual Nominations</h2>
+        <p><a href="http://marketplace.eclipse.org/admin/node/add/individual-nominations" target="_blank">Submit a Nomination</a></p>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
-			<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Nominees</a>	-->
 			</li>
 			<li><b>Top Contributor</b> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.
-			<br><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Nominees</a>	-->
 			</li>
 			<li><b>Top Newcomer Evangelist</b> - The individual who best welcomes new people into the Eclipse community through the Newcomers forum, blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media sites and IRC.
-			<br><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Nominees</a>	-->
 			</li>		
 		</ul>				
 		
 		<h2>Project Nominations</h2>
+        <p><a href="http://marketplace.eclipse.org/admin/node/add/project-nominations" target="_blank">Submit a Nomination</a></p>
 		<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2011 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2011 that is used and loved by the community.
-			<br>
-			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Nominees</a>
+			<!--<br>
+			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Nominees</a>	-->
 			</li>
 			<li><b>Most Open Project</b> - A project hosted by the Eclipse Foundation that best exemplifies the openness, transparency and diversity expected of great open source projects.
-			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Nominees</a>	-->
 			</li>
 		</ul>
 		
 		<h2>Technology Nominations</h2>
+        <p><a href="http://marketplace.eclipse.org/admin/node/add/product-nominations" target="_blank">Submit a Nomination</a></p>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Nominees</a>	-->
 			</li>	
 			<li><b>Best Developer Tool</b> - A commercial or open source product that provides an innovative, high quality tool for software developers.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Nominees</a>	-->
 			</li>
 			<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Nominees</a>	-->
 			</li>
 			<li><b>Best Modeling Product</b> - An Eclipse-based product that best addresses the needs of the modeling industry.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Nominees</a>
+			<!--<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Nominees</a>	-->
 			</li>
 		</ul>
 
