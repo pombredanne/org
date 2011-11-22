@@ -14,9 +14,9 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Community Awards 2011";
+	$pageTitle 		= "Eclipse Community Awards 2012";
 	$pageKeywords	= "eclipse, awards, individual, project, technology, nomination, eclipsecon";
-	$pageAuthor		= "Lynn Gayowski";
+	$pageAuthor		= "Christopher Guindon";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -35,21 +35,21 @@
 				
 		<table>
 			<tr>
-				<td>
+			  <td>
 				<h1>$pageTitle</h1>
 				The Eclipse Community Awards recognize the best of the Eclipse community. Individuals, projects
-				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi">
-				Bugzilla account</a>. Self nominations	are welcome. Nominations opened December 8, 2010 and closed January 28,
-				2011.  Winners will be announced at <a href="http://www.eclipsecon.org">EclipseCon 2011</a>.						
+				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi" target="_blank">
+				Bugzilla account</a>. Self nominations	are welcome. Nominations will open on December 5th, 2011 and will close January 27,
+				2012.  Winners will be announced at <a href="http://www.eclipsecon.org/2012/" target="_blank">EclipseCon 2012</a>.						
 				</td>
 				<td>
 				<img src="images/EclipseAwardsLogo.png" alt="Eclipse Awards" height="125">
 				</td>
 			</tr>
 		</table>
-		
+		<!--
 		<a href="http://www.surveymonkey.com/s/eclipseawards2011" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
-
+		-->
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
@@ -65,8 +65,9 @@
 		
 		<h2>Project Nominations</h2>
 		<ul class="midlist">
-			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2010 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2010 that is used and loved by the community.
-			<br><a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Nominees</a>
+			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2011 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2011 that is used and loved by the community.
+			<br>
+			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Nominees</a>
 			</li>
 			<li><b>Most Open Project</b> - A project hosted by the Eclipse Foundation that best exemplifies the openness, transparency and diversity expected of great open source projects.
 			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Nominees</a>
@@ -92,7 +93,7 @@
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
-		get to vote once per category from January 31, 2011 - February 25, 2011, 5:00 pm EST.  The Technology
+		get to vote once per category from January 30, 2012 - February 24, 2012, 5:00 pm EST.  The Technology
 		Award winners will be determined by a panel of judges selected from Eclipse-oriented editors and
 		Eclipse project leaders. The panel of judges will determine winners based on a majority vote.   
 		</p>	
@@ -115,16 +116,16 @@
 		</p>
 		
 		<h2>Important Dates</h2>
-		<p>
+	
 			<ul>
-				<li><font color="#A9A9A9">Nominations open - December 8, 2010</font></li>
-				<li><font color="#A9A9A9">Nominations close - January 28, 2011</font></li>
-				<li><font color="#A9A9A9">Voting begins for Individual & Project Awards - January 31, 2011</font></li>
-				<li>Voting ends for Individual & Project Awards - February 25, 2011 at 5:00 pm EST</font></li>
-				<li>Finalists Announced - March 8, 2011</font></li>
-				<li>Winners Announced at EclipseCon - March 21, 2011</li>
+				<li>Nominations open - December 5, 2011</li>
+				<li>Nominations close - January 27, 2012</li>
+				<li>Voting begins for Individual & Project Awards - January 30, 2012</li>
+				<li>Voting ends for Individual & Project Awards - February 24, 2011 at 5:00 pm EST</li>
+				<li>Finalists Announced - March 9, 2012</li>
+				<li>Winners Announced at EclipseCon - March 26, 2012</li>
 			</ul>
-		</p>
+		
 
 	</div>
 	</div>
