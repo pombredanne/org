@@ -28,7 +28,7 @@
 	#
 		
 	# Paste your HTML content between the EOHTML markers!	
-	$html = <<<EOHTML?>
+	$html = <<<EOHTML
 
 	<div id="fullcolumn">
 	<div id="midcolumn">
