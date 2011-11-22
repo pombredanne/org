@@ -46,6 +46,7 @@
 		
 		<h3>Past Winners by Year</h3>
 		<ul class="midlist">
+			<li><a href="winners11.php">2011 Award Winners</li>
 			<li><a href="winners10.php">2010 Award Winners</li>
 			<li><a href="winners09.php">2009 Award Winners</li>
 			<li><a href="winners08.php">2008 Award Winners</li>
