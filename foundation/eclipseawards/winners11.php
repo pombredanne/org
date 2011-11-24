@@ -46,7 +46,7 @@ ob_start();
         
         	<ul>
 	
-				<li class="winner">Sebastian Zarnekow  (Winner)</li>					
+				<li class="winner">David Williams (Winner)</li>					
 			</ul>
         </div>
 
