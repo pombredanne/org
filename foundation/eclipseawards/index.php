@@ -43,7 +43,7 @@
 				2012.  Winners will be announced at <a href="http://www.eclipsecon.org/2012/" target="_blank">EclipseCon 2012</a>.						
 			  </td>
 				<td>
-				<img src="images/EclipseAwardsLogo.png" alt="Eclipse Awards" height="125">
+				<img src="images/EclipseAwardsLogo.gif" alt="Eclipse Awards" height="125">
 				</td>
 			</tr>
 		</table>
