@@ -85,9 +85,9 @@
 			<li><b>Best Developer Tool</b> - A commercial or open source product that provides an innovative, high quality tool for software developers.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Nominees</a>	
 			</li>
-			<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
+			<!--<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Nominees</a>
-			</li>
+			</li>-->
 			<li><b>Best Modeling Product</b> - An Eclipse-based product that best addresses the needs of the modeling industry.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Nominees</a>
 			</li>
@@ -96,7 +96,9 @@
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
-		get to vote once per category from January 30, 2012 - February 24, 2012, 5:00 pm EST.  The Technology
+		get to vote once per category from January 30, 2012 - February 24, 2012, 5:00 pm EST.  </p>
+		
+		<p>The Technology
 		Award winners will be determined by a panel of judges selected from Eclipse-oriented editors and
 		Eclipse project leaders. The panel of judges will determine winners based on a majority vote.   
 		</p>	
