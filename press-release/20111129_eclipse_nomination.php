@@ -29,7 +29,7 @@
 
 	
 		
-<p><strong>Ottawa, Canada – November 29, 2011</strong> –  The Eclipse  Community Awards 2012 are open for nominations. Help recognize  individuals, projects and technologies that have made an impact  within the Eclipse community by telling us about your favorites&rsquo;.</p>
+<p><strong>Ottawa, Canada – November 29, 2011</strong> –  The <a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php" target="_blank">Eclipse  Community Awards</a> 2012 are open for nominations. Help recognize  individuals, projects and technologies that have made an impact  within the Eclipse community by telling us about your favorites&rsquo;.</p>
 <p> Please submit your  nominations by clicking on the links below:</p>
 <ul>
   <li>
@@ -60,7 +60,7 @@ Eclipse Foundation<br/>
 
 	</div>
 
-	<!-- remove the entire <div> tag to omit the right column! -->
+	<!-- remove the entire <div> tag to omit the right column! 
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
