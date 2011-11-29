@@ -39,6 +39,7 @@
 		
 		<h3>Past Winners by Category</h3>
 		<ul class="midlist">
+			<li><a href="winners_lifetime.php">Lifetime Award Winners</a></li>
 			<li><a href="winners_individual.php">Individual Award Winners</a></li>
 			<li><a href="winners_project.php">Project Award Winners</a></li>
 			<li><a href="winners_technology.php">Technology Award Winners</a></li>
