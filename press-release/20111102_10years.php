@@ -108,7 +108,8 @@ More information about the 10th birthday at available at <a href="http://eclipse
 				<li><a href="http://eclipse.org/10years/">10 Years of Eclipse</a></li>
 			</ul>
 		</div>
-	</div>	
+	</div>-->	
+</div>
 </div>
 
 
