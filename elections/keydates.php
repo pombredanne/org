@@ -14,7 +14,7 @@
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2011";
+	$year="2012";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -48,27 +48,28 @@
 	    <h3><a name="Dates"></a>Key Dates</h3>
 		The key dates for the $year elections are:
 		<ul>
-		<li>January 10, $year: Nominations open. Nominations are to be sent as an email to emo@eclipse.org, with 
+		<li>January 16, $year: Nominations open. Nominations are to be sent as an email to elections@eclipse.org, with 
 		the subject "Sustaining Member Nomination" or "Committer Nomination." As soon as possible after an individual 
 		is nominated, the Foundation will contact the nominee to confirm their willingness to participate in the 
 		election and to serve if elected.</li>
-		<li>January 28, $year: Nominations close. The list of nominees and their HTML pages will be available on the 
+		<li>February 2, $year: Nominations close. The list of nominees and their HTML pages will be available on the 
 		eclipse.org website as soon as possible thereafter.
 		<br>
 		<br>Each nominee will be provided with an 
 		HTML template that outlines their background and vision for Eclipse as they are nominated. If the nominee
 		does not have an HTML editor handy, plain text submissions for formatting by the EMO staff will be accepted 
 		via email. Content must be submitted to the Eclipse Foundation via email no later 
-		than January 31. 
+		than February 7. 
 		</li>
-		<li>January 31, $year: Deadline for nominees to return their content to emo@.</li>
-		<li>February 2, $year: List of nominees made available on www.eclipse.org.
-		<li>February 8, $year: Candidate personal pages made available on www.eclipse.org.
+		<li>February 7, $year: Deadline for nominees to return their content to emo@.</li>
+		<li>February 9, $year: List of nominees made available on www.eclipse.org.
+		<li>February 9, $year: Individual candidate pages ready for candidate review.</li>
+		<li>February 13, $year: Candidate personal pages made available on www.eclipse.org.
 		Discussion of the issues on the eclipse.foundation forum will be encouraged. 
 		</li>
-		<li>February 22, $year: Voting begins.</li>
-		<li>March 11, $year: Voting ends at 3pm Eastern time. </li>
-		<li>March 21, $year: New representatives announced at the Membership Meeting at EclipseCon $year in Santa Clara, California.</li>
+		<li>February 27, $year: Voting begins.</li>
+		<li>March 16, $year: Voting ends at 3pm Eastern time. </li>
+		<li>March 26, $year: New representatives announced at the Membership Meeting at EclipseCon $year.</li>
 		</ul>
 		</div>
 	</div>
