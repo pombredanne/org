@@ -45,7 +45,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2012";
+	$year="2011";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -63,9 +63,6 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	# End: page-specific settings
 	#
 	
-	$committer_candidates = get_candidates_list_as_html($candidates, $year, 'committer');
-	$addin_candidates = get_candidates_list_as_html($candidates, $year, 'addin');
-
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
 <!--<div id="maincontent">-->
