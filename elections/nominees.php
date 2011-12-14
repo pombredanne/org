@@ -45,7 +45,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2011";
+	$year="2012";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -68,51 +68,24 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
-	<style>
-		#midcolumn h1, h2, h3 {
-			font-weight: bold;
-		}
-	</style>
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		<b>This page is currently under construction while we are in the $year nomination phase.
 		
-		<p>
-			Voting for the 2011 Board of Directors candidates has concluded. Each year the winners are announced 
-			at the Board Meeting held during EclipseCon.
-		</p>
-		
-		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
-		<table>
-			<tr>
-				<td valign="bottom">
-					<h3>Committer<br>
-					Candidates</h3>
-				</td>
-				<td valign="bottom">
-					<h3>Sustaining Member Candidates</h3>
-				</td>
-			</tr>
-			<tr>
-				<td valign="top">
-					<div class="homeitem">
-						<a name="Candidates"></a>$committer_candidates
-					</div>
-				</td>
-				<td valign="top">
-					<div class="homeitem">
-						$addin_candidates
-					</div>
-				</td>
-			</tr>
-		</table>
+		<div class="homeitem">
+			<a name="Candidates"></a>$committer_candidates
+		</div>
+		<div class="homeitem">
+			$addin_candidates
+		</div>
 	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Quick Links</h6>
 			<ul>
 				<li><a href=".">Election Home</a></li>
-				<li><a href="nominees.php">Candidates</a></li>
+				<!-- <li><a href="nominees_under_construction.php">Candidates</a></li> -->
 				<li><a href="keydates.php">Key Dates</a></li>
 				<li><a href="election_process.php">Election Process</a></li>
 			</ul>
