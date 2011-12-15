@@ -15,13 +15,11 @@
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
 	$year="2012";
-	$sustaining="three";
-	$committer="three";
 	$candidates = get_all_candidates($year);
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Foundation Elections";
+	$pageTitle 		= "$year Board Candidates";
 	$pageKeywords	= "foundation, governance, board, elections";
 	$pageAuthor		= "Mike & Wayner";
 	
@@ -34,39 +32,31 @@
 	# End: page-specific settings
 	#
 	
-	$committer_candidates = get_candidates_list_as_html($candidates, $year, 'committer');
-	$addin_candidates = get_candidates_list_as_html($candidates, $year, 'addin');
-
 	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
-	<style>
-		#midcolumn h1, h2, h3 {
-			font-weight: bold;
-		}
-	</style>
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>The Eclipse Foundation holds elections for board members representing two very important
-		groups within the Eclipse membership: the committers and the Sustaining Members (Solutions Members and
-		Enterprise Members). The terms of office for
-		these elected board members is one year, commencing April 1.</p>
-		<p>
-		Candidates and the community are encouraged to discuss the issues on the 
-		<a href="http://www.eclipse.org/forums/eclipse.foundation">Foundation forum</a>.
-		<div class="homeitem3col">
-	    <h3>$year Elections</h3>
-		The $year elections have concluded. Members elected $sustaining Sustaining Member representative, and $committer
-		Committer representatives. Each year the winners are announced 
-			at the Board Meeting held during EclipseCon. Information concerning the $year elections is contained within the links below.
-		<ul>
-		<li>The <a href="nominees_open.php">candidates</a> for the election</li>
-		<li>The <a href="keydates.php">key dates</a> for the $year elections</li>
-		<li>The Eclipse Foundation <a href="election_process.php">election process</a></li>
-		</ul>
+		<b>This page is currently under construction while we are in the $year nomination phase.
+		
+		<div class="homeitem">
+			<a name="Candidates"></a>$committer_candidates
+		</div>
+		<div class="homeitem">
+			$addin_candidates
 		</div>
 	</div>
-
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Quick Links</h6>
+			<ul>
+				<li><a href=".">Election Home</a></li>
+				<!-- <li><a href="nominees_under_construction.php">Candidates</a></li> -->
+				<li><a href="keydates.php">Key Dates</a></li>
+				<li><a href="election_process.php">Election Process</a></li>
+			</ul>
+		</div>
+	</div>
 	
 <!--</div>-->
 <script language="javascript">
