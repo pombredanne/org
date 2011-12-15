@@ -68,8 +68,6 @@ The Eclipse Foundation is a not-for-profit, member supported corporation that ho
  
  
 
-<
-
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
