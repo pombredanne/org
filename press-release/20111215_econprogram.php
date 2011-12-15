@@ -34,13 +34,13 @@
   Reston, Virginia. The conference will be co-located with the new Agile ALM Connect conference and the annual OSGi DevCon.
   </p>
 
-<p>The keynotes for EclipseCon 2012 feature three important industry trends:
+<p>The <a href="http://www.eclipsecon.org/2012/keynotes">keynotes</a> for EclipseCon 2012 feature three important industry trends:
 <ul>
-<li>Open Web Platform. Alex Russell from the Google Chrome development team will talk about the rising importance of JavaScript, HTML5, and 
+<li><strong>Open Web Platform.</strong> Alex Russell from the Google Chrome development team will talk about the rising importance of JavaScript, HTML5, and 
 CSS as the open web application platform.
-<li>Open Hardware. Peter Semmelhack of Bug Labs and K. Venkatesh Prasad of Ford Motor Company will present their vision of combining open 
+<li><strong>Open Hardware.</strong> Peter Semmelhack of Bug Labs and K. Venkatesh Prasad of Ford Motor Company will present their vision of combining open 
 source hardware and software to create an application platform for the car of the future.
-<li>Future Developer Tool Chains. Mik Kersten, creator of Eclipse Mylyn and CEO of Tasktop Technologies, will talk about the future of ALM 
+<li><strong>Future Developer Tool Chains.</strong> Mik Kersten, creator of Eclipse Mylyn and CEO of Tasktop Technologies, will talk about the future of ALM 
 and how many developers are starting to externalize their development work, just as they are use social networking tools to externalize 
 their relationships.
 </ul>
