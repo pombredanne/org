@@ -2,9 +2,9 @@
 
 #*****************************************************************************
 #
-# Article.php
+# candidate.php
 #
-# Author: 		Wayne Beaton
+# Author: 		Karl Matthias
 # Date:			2005-11-07
 #
 # Description: This file defines the Article class which is used to define,
