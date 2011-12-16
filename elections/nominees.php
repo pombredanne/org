@@ -136,18 +136,24 @@ EOHTML;
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
 		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
 		$html = "<table border=\"0\" cellpadding=\"5\">";
-		foreach ($candidates as $candidate) {
-			if (strcmp($candidate->type, $type) != 0) continue;
-			$html .= <<<EOHTML
-				<tr>
-					<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img width="75" src="$candidate->image"></a></td>
-					<td valign="top" style="border-bottom: dashed 1px #494949;">
-						<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
-						<br>$candidate->title
-						
-					</td>
-				</tr>
+		
+		if(count($candidates) == 0) {
+			$html .= "<tr><td>There are no candidates at this time.</td></tr>";
+		}
+		else {
+			foreach ($candidates as $candidate) {
+				if (strcmp($candidate->type, $type) != 0) continue;
+				$html .= <<<EOHTML
+					<tr>
+						<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img width="75" src="$candidate->image"></a></td>
+						<td valign="top" style="border-bottom: dashed 1px #494949;">
+							<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
+							<br>$candidate->title
+							
+						</td>
+					</tr>
 EOHTML;
+			}
 		}
 		$html .= "</table>";
 		
