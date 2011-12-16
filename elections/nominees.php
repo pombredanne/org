@@ -78,7 +78,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<h1>$pageTitle</h1>
 		
 		<p>
-			Voting for the 2011 Board of Directors candidates has concluded. Each year the winners are announced 
+			The list of candidates will be published February 9, 2012. Each year the winners are announced 
 			at the Board Meeting held during EclipseCon.
 		</p>
 		
