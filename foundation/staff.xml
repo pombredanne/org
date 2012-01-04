@@ -49,6 +49,16 @@
 			]]>
 		</description>
 	</staffmember>
+	
+		<staffmember id="chrisguindon">
+		<name>Christopher Guindon</name>
+		<image>../../images/chrisguindon.jpg</image>
+		<title>Web Developer</title>
+		<description>
+			<![CDATA[<p>Chris is the newest addition to the Eclipse Foundation web development team. When he’s not at a computer, which is rare, Chris spends his time relaxing with his girlfriend and two cats, playing the drums, watching a habs game or at the top of a hill snowboarding. </p>
+			]]>
+		</description>
+	</staffmember>
 
 	<staffmember id="anne">
 		<name>Anne Jacko</name>
