@@ -26,14 +26,14 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-
-	<p><strong>Ottawa, Canada – January, 25, 2012</strong> – The Eclipse Foundation is pleased to announce the Gold sponsors for the upcoming EclipseCon 2012 conference in Reston, Virginia on March 26-29, 2012.   Actuate, IBM, Oracle, Red Hat and SAP have all agreed to be the premier sponsors of the annual Eclipse community event.</p>
+<br/>
+	<p><strong>Ottawa, Canada – January, 25, 2012</strong> – The Eclipse Foundation is pleased to announce the Gold sponsors for the upcoming <a href="http://www.eclipsecon.org/2012 target="_blank">EclipseCon 2012</a> conference in Reston, Virginia on March 26-29, 2012.   Actuate, IBM, Oracle, Red Hat and SAP have all agreed to be the premier sponsors of the annual Eclipse community event.</p>
 
 <p>“We are thrilled to have Actuate, IBM, Oracle, Red Hat and SAP be Gold sponsors for EclipseCon,” explains Mike Milinkovich, Executive Director of the Eclipse Foundation.  “The companies are leaders in the Eclipse community and we welcome their ongoing support.”</p>
 
 <p>EclipseCon 2012 is a 4 day technical conference featuring 120 session and 16 tutorials.  This year the conference features tracks on Domain Specific Languages, Modeling, EclipseRT, Eclipse 4, Mobile and Embedded Development.   A new co-located conference, Agile ALM Connect, has been added to the program which will focus on the tools and practices across the entire software development lifecycle.</p>   
 
-<p>Registration for EclipseCon and Agile ALM Connect is now open.   People that register by February 14, 2012 receive an early registration discount.  Sponsorship opportunities are also still available for companies to spotlight their products to the Eclipse and Agile ALM community. </p>
+<p>Registration for EclipseCon and <a href="http://www.eclipsecon.org/2012/agilealm target="_blank">Agile ALM Connect</a> is now open.   People that register by February 14, 2012 receive an early registration discount.  Sponsorship opportunities are also still available for companies to spotlight their products to the Eclipse and Agile ALM community. </p>
 
 
 <p><strong>About the Eclipse Foundation</strong><br/>
@@ -53,7 +53,7 @@ Eclipse is an open source community, whose projects are focused on building an o
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipsecon.org/2012" target="_blank">eclipsecon.org/2012</a></li>
+				<li><a href="http://www.eclipsecon.org/2012" target="_blank">EclipseCon 2012</a></li>
 			</ul>
 		</div>
 	</div>	
