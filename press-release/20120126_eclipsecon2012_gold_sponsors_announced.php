@@ -39,7 +39,7 @@
 <p><strong>About the Eclipse Foundation</strong><br/>
 Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
 
-<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse and the Eclipse Foundation are available at www.eclipse.org.</p>
+<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse and the Eclipse Foundation are available at <a href="http://www.eclipse.org/" target="_blank">www.eclipse.org/</a>.</p>
 
 <p>All company/product names and service marks may be trademarks or registered trademarks of their respective companies.</p>
 		
@@ -48,7 +48,7 @@ Eclipse is an open source community, whose projects are focused on building an o
 
 	</div>
 
-	<!-- remove the entire <div> tag to omit the right column! 
+
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Related Links</h6>
@@ -57,7 +57,7 @@ Eclipse is an open source community, whose projects are focused on building an o
 			</ul>
 		</div>
 	</div>	
-	-->
+
 </div>
  
 
