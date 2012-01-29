@@ -51,7 +51,7 @@
 		<a href="http://www.surveymonkey.com/s/eclipseawards2011" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
 		-->
 		<h2>Individual Nominations</h2>
-        <p><a href="http://marketplace.eclipse.org/admin/node/add/individual-nominations" target="_blank">Submit a Nomination</a></p>
+        <p>Nominations are now closed.  The winners will be announced at EclipseCon 2012</p>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
 			<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current nominees</a>	
@@ -65,8 +65,8 @@
 		</ul>				
 		
 		<h2>Project Nominations</h2>
-        <p><a href="http://marketplace.eclipse.org/admin/node/add/project-nominations" target="_blank">Submit a Nomination</a></p>
-		<ul class="midlist">
+        <p>Nominations are now closed.  The winners will be announced at EclipseCon 2012</p>
+				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2011 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2011 that is used and loved by the community.
 			<br>
 			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Current nominees</a>
@@ -77,7 +77,8 @@
 		</ul>
 		
 		<h2>Technology Nominations</h2>
-        <p><a href="http://marketplace.eclipse.org/admin/node/add/product-nominations" target="_blank">Submit a Nomination</a></p>
+        <p>Nominations are now closed.  The winners will be announced at EclipseCon 2012</p>
+		
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Current nominees</a>	
