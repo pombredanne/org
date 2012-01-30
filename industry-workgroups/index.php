@@ -31,7 +31,7 @@ ob_start();
 					</tr>
 					<tr>
 						<td>Polarsys Working Group</td>
-						<td><a href="http://wiki.eclipse.org/Polarsys"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
+						<td><a href="http://www.polarsys.org"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
 						<td><a href="https://dev.eclipse.org/mailman/listinfo/polarsys-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
 						<td></td>
 					</tr>
@@ -55,7 +55,7 @@ ob_start();
 					</tr>	
 					<tr>
 						<td>Automotive Industry Working Group</td>
-						<td><a href="autowg.php"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
+						<td><a href="http://wiki.eclipse.org/Auto_IWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
 						<td><a href="https://dev.eclipse.org/mailman/listinfo/auto-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
 						<td></td>
 					</tr>	
