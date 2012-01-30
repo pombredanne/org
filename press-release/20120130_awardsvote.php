@@ -63,17 +63,18 @@
 		<h3><a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Most Innovative New Feature or Eclipse Project</a></h3>
 		<ul>
 		<li>Eclipse Jubula Project
-			<li>Eclipse Code Recommendations</li>
+			<li>Code Recommenders</li>
 			<li>Orion</li>
-			<li>Xtend and Xtext 2.2</li>
+			<li>Xtend</li>
+			<li>Xtext</li>
 			<li>Intent</li>
 			<li>Saphire</li>
-			<li>Eclipse Model Focusing Tools</li>			
+			<li>Model Focusing Tools</li>			
 		</ul>
 
 		<h3><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Most Open Project</a></h3>
 		<ul>
-			<li>Eclipse Community Framework</li>
+			<li>Eclipse Communication Framework</li>
 			<li>GMF Tooling</li>
 			<li>C/C++ Development Tooling (CDT)</li>	
 		</ul>
