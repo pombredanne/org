@@ -46,12 +46,13 @@
 			<li>Daniel Megert</li>	
 		</ul>
 
+		<!--
 		<h3><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Top Contributor</a></h3>
 		<ul>
 			<li>Alex Blewitt</li>
 			<li>Stephan Herrmann</li>
 		</ul>
-		
+		-->
 		<h3><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Top Newcomer Evangelist</a></h3>
 		<ul>
 			<li>Russell Bateman</li>
