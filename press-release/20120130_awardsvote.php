@@ -28,10 +28,10 @@
 	
 		<p>Nominations for the Eclipse Community Awards are complete and <a href="http://www.surveymonkey.com/s/eclipseawards2012" target="_blank">voting</a> has opened for the individual and project category nominees. Congratulations to all the worthy candidates! Show your appreciation to the people that have made Eclipse a stronger community by casting your vote.</p>
 
-		<p>More details about the awards and the nomination process can be found on the <a href="http://www.eclipse.org/org/foundation/eclipseawards/" target="_blank">awards page</a>. Voting for the Eclipse Community Awards will be open until <strong>February 24, 2012 at 5:00pm EST</strong> and the winner will be announced March 26, 2012 at EclipseCon.</p>
+		<p>More details about the awards and the nomination process can be found on the <a href="/org/foundation/eclipseawards/" target="_blank">awards page</a>. Voting for the Eclipse Community Awards will be open until <strong>February 24, 2012 at 5:00pm EST</strong> and the winner will be announced March 26, 2012 at EclipseCon.</p>
 		
 		<p><a href="http://www.surveymonkey.com/s/eclipseawards2012" target="blank">
-		<img src="http://www.eclipse.org/org/foundation/eclipseawards/images/votenow.jpg"></a>
+		<img src="/org/foundation/eclipseawards/images/votenow.jpg"></a>
 		</p>		
 		
 		<p>The nominees are:</p>	
@@ -62,21 +62,21 @@
 
 		<h3><a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Most Innovative New Feature or Eclipse Project</a></h3>
 		<ul>
-		<li>Eclipse Jubula Project
-			<li>Code Recommenders</li>
-			<li>Orion</li>
-			<li>Xtend</li>
-			<li>Xtext</li>
-			<li>Intent</li>
-			<li>Saphire</li>
-			<li>Model Focusing Tools</li>			
+			<li><a href="/projects/project.php?id=technology.jubula">Jubula</a></li>
+			<li><a href="/projects/project.php?id=technology.recommenders">Code Recommenders</a></li>
+			<li><a href="/projects/project.php?id=eclipse.orion">Orion</a></li>
+			<li><a href="/projects/project.php?id=tools.xtend">Xtend</a></li>
+			<li><a href="/projects/project.php?id=modeling.tmf.xtext">Xtext</a></li>
+			<li><a href="/projects/project.php?id=mylyn.docs.intent">Intent</a></li>
+			<li><a href="/projects/project.php?id=technology.sapphire">Saphire</a></li>
+			<li><a href="/projects/project.php?id=mylyn.context.mft">Model Focusing Tools</a></li>			
 		</ul>
 
 		<h3><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Most Open Project</a></h3>
 		<ul>
-			<li>Eclipse Communication Framework</li>
-			<li>GMF Tooling</li>
-			<li>C/C++ Development Tooling (CDT)</li>	
+			<li><a href="/projects/project.php?id=rt.ecf">Eclipse Communication Framework</a></li>
+			<li><a href="/projects/project.php?id=modeling.gmp.gmf-tooling">GMF Tooling</a></li>
+			<li><a href="/projects/project.php?id=tools.cdt">C/C++ Development Tooling (CDT)</a></li>	
 		</ul>
 		
 	</div>
