@@ -39,7 +39,7 @@
 		<h3><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Top Committer</a></h3>
 		<ul>	
 			<li>Sven Efftinge</li>
-			<li>Silenio Quarty</li>
+			<li>Silenio Quarti</li>
 			<li>Markus Schorn</li>
 			<li>Kim Moir</li>
 			<li>Zhao Zhongwei</li>
