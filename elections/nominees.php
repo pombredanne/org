@@ -71,7 +71,14 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<b>This page is currently under construction while we are in the $year nomination phase.
+		<p>
+		<b>This page is currently under construction while we are in the $year nomination phase.</b>
+		</p>
+		
+		<p>
+		The list of candidates will be published by February 9, 2012. Each year the winners are announced 
+		at the Board Meeting held during EclipseCon.
+		</p>
 		
 		<div class="homeitem">
 			<a name="Candidates"></a>$committer_candidates
