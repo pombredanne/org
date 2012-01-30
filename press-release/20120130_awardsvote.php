@@ -68,7 +68,7 @@
 			<li><a href="/projects/project.php?id=tools.xtend">Xtend</a></li>
 			<li><a href="/projects/project.php?id=modeling.tmf.xtext">Xtext</a></li>
 			<li><a href="/projects/project.php?id=mylyn.docs.intent">Intent</a></li>
-			<li><a href="/projects/project.php?id=technology.sapphire">Saphire</a></li>
+			<li><a href="/projects/project.php?id=technology.sapphire">Sapphire</a></li>
 			<li><a href="/projects/project.php?id=mylyn.context.mft">Model Focusing Tools</a></li>			
 		</ul>
 
