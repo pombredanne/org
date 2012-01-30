@@ -28,7 +28,7 @@
 	
 		<p>Nominations for the Eclipse Community Awards are complete and <a href="http://www.surveymonkey.com/s/eclipseawards2012" target="_blank">voting</a> has opened for the individual and project category nominees. Congratulations to all the worthy candidates! Show your appreciation to the people that have made Eclipse a stronger community by casting your vote.</p>
 
-		<p>More details about the awards and the nomination process can be found on the <a href="http://www.eclipse.org/org/foundation/eclipseawards/" target="_blank">awards page</a>. Voting for the Eclipse Community Awards will be open until <br/><strong>February 24, 2012 at 5:00pm EST</strong> and the winner will be announced March 26, 2012 at EclipseCon.</p>
+		<p>More details about the awards and the nomination process can be found on the <a href="http://www.eclipse.org/org/foundation/eclipseawards/" target="_blank">awards page</a>. Voting for the Eclipse Community Awards will be open until <strong>February 24, 2012 at 5:00pm EST</strong> and the winner will be announced March 26, 2012 at EclipseCon.</p>
 		
 		<p><a href="http://www.surveymonkey.com/s/eclipseawards2012" target="blank">
 		<img src="http://www.eclipse.org/org/foundation/eclipseawards/images/votenow.jpg"></a>
