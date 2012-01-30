@@ -127,7 +127,7 @@
 				<li>Nominations open - December 5, 2011</li>
 				<li>Nominations close - January 27, 2012</li>
 				<li>Voting begins for Individual & Project Awards - January 30, 2012</li>
-				<li>Voting ends for Individual & Project Awards - February 24, 2011 at 5:00 pm EST</li>
+				<li>Voting ends for Individual & Project Awards - February 24, 2012 at 5:00 pm EST</li>
 				<li>Finalists Announced - March 9, 2012</li>
 				<li>Winners Announced at EclipseCon - March 26, 2012</li>
 			</ul>
