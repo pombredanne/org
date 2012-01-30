@@ -45,7 +45,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	
 	include("scripts/candidate.php");	
 	//$id = $_GET['id'];
-	$year="2011";
+	$year="2012";
 	$candidates = get_all_candidates($year);
 	
 	#
@@ -78,7 +78,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<h1>$pageTitle</h1>
 		
 		<p>
-			Voting for the 2011 Board of Directors candidates has concluded. Each year the winners are announced 
+			The list of candidates will be published February 9, 2012. Each year the winners are announced 
 			at the Board Meeting held during EclipseCon.
 		</p>
 		
@@ -136,18 +136,24 @@ EOHTML;
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
 		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
 		$html = "<table border=\"0\" cellpadding=\"5\">";
-		foreach ($candidates as $candidate) {
-			if (strcmp($candidate->type, $type) != 0) continue;
-			$html .= <<<EOHTML
-				<tr>
-					<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img width="75" src="$candidate->image"></a></td>
-					<td valign="top" style="border-bottom: dashed 1px #494949;">
-						<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
-						<br>$candidate->title
-						
-					</td>
-				</tr>
+		
+		if(count($candidates) == 0) {
+			$html .= "<tr><td>There are no candidates at this time.</td></tr>";
+		}
+		else {
+			foreach ($candidates as $candidate) {
+				if (strcmp($candidate->type, $type) != 0) continue;
+				$html .= <<<EOHTML
+					<tr>
+						<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img width="75" src="$candidate->image"></a></td>
+						<td valign="top" style="border-bottom: dashed 1px #494949;">
+							<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
+							<br>$candidate->title
+							
+						</td>
+					</tr>
 EOHTML;
+			}
 		}
 		$html .= "</table>";
 		
