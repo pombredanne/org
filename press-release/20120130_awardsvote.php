@@ -34,7 +34,7 @@
 		<img src="/org/foundation/eclipseawards/images/votenow.jpg"></a>
 		</p>		
 		
-		<p>The nominees are:</p>	
+		<p>The qualified nominees are:</p>	
 		
 		<h3><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Top Committer</a></h3>
 		<ul>	
