@@ -71,22 +71,23 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<p>
-		<b>This page is currently under construction while we are in the $year nomination phase.</b>
-		</p>
+		<h2>Committer Candidates</h2>
+		<ul>
+		<li>John Arthorne</li>
+		<li>Ed Merks</li>
+		<li>Gunnar Wagenknecht</li>
+		<li>Chris Aniszczyk</li>
+		</ul>
 		
-		<p>
-		The list of candidates will be published by February 9, 2012. Each year the winners are announced 
-		at the Board Meeting held during EclipseCon.
-		</p>
+		<h2>Sustaining Member Candidates</h2>
+		<ul>		
+		<li>Hans Kamutzki</li>
+		<li>Eric Clayberg</li>
+		<li>Christian Dupuis</li>
+		<li>Mik Kersten</li>
+		</ul>
+		<p><b>The individual candidate pages will be available on February 13, 2012.</b></p>
 		
-		<div class="homeitem">
-			<a name="Candidates"></a>$committer_candidates
-		</div>
-		<div class="homeitem">
-			$addin_candidates
-		</div>
-	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Quick Links</h6>
