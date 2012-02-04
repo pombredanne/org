@@ -35,6 +35,10 @@
 		<h2>Need to contact someone at Eclipse.org?</h2>
 		<table width="100%" border="0" cellpadding="5" cellspacing=5>
 		  <tr>
+		    <td width="37%" valign=top>Report a bug</td>
+    		<td width="63%"><a href="https://dev.eclipse.org/site_login/createaccount.php">Register</a> 
+      		and <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi">report</a> a bug</td>
+  		</tr><tr>
 		    <td width="37%" valign=top>Technical questions</td>
     		<td width="63%"><a href="../../newsgroups/register.php">Register</a> 
       		and join the <a href="../../newsgroups/">Newsgroups</a></td>
