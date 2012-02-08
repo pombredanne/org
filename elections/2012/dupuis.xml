@@ -46,14 +46,14 @@
 	became clear that there is a lot that Eclipse could offer as part of the platform to support 
 	Cloud platforms and vendors.
 		<ul>
-		<li> Eclipse, through the WTP project, managed to build a platform for traditional 
+		<li>Eclipse, through the WTP project, managed to build a platform for traditional 
 		application server vendors to extend for their server runtimes. This has led to a 
 		flourishing ecosystem of providers for nearly every application server in the market. 
 		I think a similar effort is required to provide extension mechanisms for cloud providers 
 		to plug in their PaaS and IaaS offerings. This goes beyond simple deploy-start-stop scenarios 
 		and will include, for example, provisioning and configuring platform services in a Cloud environment.
 		</li>
-		<li> More and more components of the development lifecycle are moving into the Cloud. I think 
+		<li>More and more components of the development lifecycle are moving into the Cloud. I think 
 		it is only natural for cloud providers to host editing or IDE solutions in close proximity 
 		to the application code. There is a unique opportunity to work with the various cloud providers to 
 		position Orion as the editing solution of choice in those environments.
