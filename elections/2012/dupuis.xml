@@ -12,11 +12,21 @@
 		
 	]]> </eclipse_affiliation>
 
-	<vision>  <![CDATA[<p>Over the past several years I've been an active user of Eclipse technologies and used the Eclipse platform to build open source and commercial solutions like Spring IDE or the SpringSource Tool Suite. During my extensive experience in open source development, I have come to recognize the unique value that the Eclipse Foundation brings to the intersection of open source and corporate software development. In conjunction with a large, active and vocal community, the Eclipse Foundation had helped to define the primacy of the developer as an agent of change in the world of enterprise software. </p>
+	<vision>  <![CDATA[<p>Over the past several years I've been an active user of Eclipse technologies and 
+	used the Eclipse platform to build open source and commercial solutions like Spring IDE or the SpringSource 
+	Tool Suite. During my extensive experience in open source development, I have come to recognize the unique 
+	value that the Eclipse Foundation brings to the intersection of open source and corporate software development. 
+	In conjunction with a large, active and vocal community, the Eclipse Foundation had helped to define the primacy 
+	of the developer as an agent of change in the world of enterprise software. </p>
 
-	<p>Within recent times we've seen the rise of the Cloud, an ever increasing number of mobile devices accessing the internet and an insane amount of data being captured each day. Without question these developments affect the ways developers are building the next generation of applications; a completely new set of application styles, frameworks and tools is emerging to support these new demands. </p>
+	<p>Within recent times we've seen the rise of the Cloud, an ever increasing number of mobile devices accessing 
+	the internet and an insane amount of data being captured each day. Without question these developments affect 
+	the ways developers are building the next generation of applications; a completely new set of application 
+	styles, frameworks and tools is emerging to support these new demands. </p>
 
-	<p>This poses a challenge for Eclipse and its ecosystem; there are certain areas in which the Eclipse ecosystem could put additional focus to maintain its momentum and market leading position. In case the Eclipse community elects me to the Board of Directors, I would like to help making this a reality.</p>
+	<p>This poses a challenge for Eclipse and its ecosystem; there are certain areas in which the Eclipse 
+	ecosystem could put additional focus to maintain its momentum and market leading position. In case 
+	the Eclipse community elects me to the Board of Directors, I would like to help making this a reality.</p>
 
 	<p>My vision for Eclipse in 2012:</p>
 
@@ -26,11 +36,21 @@
 	<li> More and more components of the development lifecycle are moving into the Cloud. I think it is only natural for cloud providers to host editing or IDE solutions in close proximity to the application code. There is a unique opportunity to work with the various cloud providers to position Orion as the editing solution of choice in those environments.</li></ul>
 	</li></ul>]]> </vision>
 
-	<bio> <![CDATA[Christian Dupuis is Director, R&D for the SpringSource division of VMware with responsibilities for the complete Spring project offerings, including the Spring Framework. From the very early days of Spring, Christian worked with the Spring team around Rod Johnson and others in the open source space. In 2004 Christian co-founded the well known Spring IDE open source project that brings development tools for the Spring projects to the Eclipse platform. 
+	<bio> <![CDATA[Christian Dupuis is Director, R&D for the SpringSource division of VMware with 
+	responsibilities for the complete Spring project offerings, including the Spring Framework. 
+	From the very early days of Spring, Christian worked with the Spring team around Rod Johnson 
+	and others in the open source space. In 2004 Christian co-founded the well known Spring IDE 
+	open source project that brings development tools for the Spring projects to the Eclipse platform. 
 	
-	More recently Christian was responsible for the implementation of the Cloud Foundry Integration for Eclipse which gives developers easy access to VMware's multi-language, multi-framework PaaS. He is also actively involved in moving the SpringSource dm Server Tools into Eclipse Virgo project.
+	More recently Christian was responsible for the implementation of the Cloud Foundry Integration for 
+	Eclipse which gives developers easy access to VMware's multi-language, multi-framework PaaS. He is 
+	also actively involved in moving the SpringSource dm Server Tools into Eclipse Virgo project.
 	
-	Christian has been developing Java enterprise applications since 1997. During this time, Christian designed complex software architectures with a focus on multi-tiered, web-based, client-server applications using enterprise Java technologies and the Spring Framework. Prior to joining SpringSource, Christian worked as consultant and project manager for one of the leading global technology consulting firms in the financial sector in central Europe.]]>
+	Christian has been developing Java enterprise applications since 1997. During this time, Christian 
+	designed complex software architectures with a focus on multi-tiered, web-based, client-server 
+	applications using enterprise Java technologies and the Spring Framework. Prior to joining SpringSource, 
+	Christian worked as consultant and project manager for one of the leading global technology consulting 
+	firms in the financial sector in central Europe.]]>
 	</bio>
 
 	<affiliation> <![CDATA[ 
