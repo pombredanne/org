@@ -1,0 +1,68 @@
+<boardmember id="wagenknecht" type="committer">
+
+	<name>Gunnar Wagenknecht</name>
+
+	<title>CTO</title>
+
+	<image>wagenknecht.jpg</image>
+
+	<email>gunnar@wagenknecht.org</email>
+
+	<eclipse_affiliation> <![CDATA[
+Planet Eclipse Creator
+Technology PMC Lead
+Gyrex Lead
+Committer on Gyrex, Orbit, RAP Incubator
+Contributor to Equinox, EclipseLink, Gemini and PDE
+Architecture Council member
+EclipseCon Program Committee (2006, 2012)
+
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+
+Eclipse is an exceptional community. In my opinion the most important
+piece of this community is a vivid and steady flow of manifold
+contributions coming from member companies, committers, adopters and
+users. I'm a strong supporter of the Eclipse community, it's openness
+and diversity across the board. When initiating Planet Eclipse back in
+2005 it wasn't just to raise the voice of the Eclipse community on the
+web but also to give community members a chance to raise their voice to
+be heard within the community.
+
+My vision for 2012 is to ensure that the committer interests are
+properly represented at the Eclipse Board meetings. I intend to actively
+participate in ongoing as well as to initiate new discussions on topics
+which aid improving the life and work of committers and contributors at
+Eclipse projects.
+
+Another important part of my work will be to ensure that enough funding
+is available to provide first-class infrastructure services to
+committers. With Git and Gerrit coming to Eclipse projects there is a new door open
+for contributions. I'll strive for simplifying the current processes involving 
+Bugzilla, IPZilla and patches to lower the barrier for new contributors.
+
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+Gunnar is a software engineer who loves server and application 
+architectures especially those involving Equinox/OSGi. In his primary 
+role at AGETO he is thrilled to work on open source software, emerging 
+platforms and technologies, and to help companies understand Eclipse and 
+OSGi and execute on their business objectives in an open source context. 
+He has been a member of the Eclipse Community since its beginning and 
+he is a prolific contributor with many years of experience on numerous 
+Eclipse projects; Gunnar leads the Technology PMC and is a member of the 
+Eclipse Architecture Council. Apart from Eclipse he loves chatting about 
+fishing, diving and his family and other things that matters over a good 
+beer or a glass of dry, barrel aged red wine. 
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+	AGETO
+	]]>
+	</affiliation>
+
+		
+</boardmember>
