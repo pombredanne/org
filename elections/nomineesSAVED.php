@@ -78,7 +78,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<h1>$pageTitle</h1>
 		
 		<p>
-			The list of candidates will be published February 9, 2012. Each year the winners are announced 
+			Voting begins on February 27, 2012 and ends on March 16 at 3pm ET. The winners will be announced 
 			at the Board Meeting held during EclipseCon.
 		</p>
 		
