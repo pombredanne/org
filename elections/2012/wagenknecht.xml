@@ -2,45 +2,50 @@
 
 	<name>Gunnar Wagenknecht</name>
 
-	<title>CTO</title>
+	<title>CTO, AGETO</title>
 
 	<image>wagenknecht.jpg</image>
 
 	<email>gunnar@wagenknecht.org</email>
 
 	<eclipse_affiliation> <![CDATA[
-Planet Eclipse Creator
-Technology PMC Lead
-Gyrex Lead
-Committer on Gyrex, Orbit, RAP Incubator
-Contributor to Equinox, EclipseLink, Gemini and PDE
-Architecture Council member
-EclipseCon Program Committee (2006, 2012)
+<a href="http://planeteclipse.org/planet/">Planet Eclipse</a> Creator<br/>
+<a href="http://www.eclipse.org/technology/">Technology</a> PMC Lead<br/>
+<a href="http://www.eclipse.org/gyrex/">Gyrex</a> Lead<br/>
+Committer on Gyrex, Orbit, RAP Incubator<br/>
+Contributor to Equinox, EclipseLink, Gemini and PDE<br/>
+Architecture Council member<br/>
+<a href="http://www.eclipsecon.org/">EclipseCon</a> Program Committee (2006, 2012)
 
 	]]> </eclipse_affiliation>
 
 	<vision>  <![CDATA[
 
+<p>
 Eclipse is an exceptional community. In my opinion the most important
 piece of this community is a vivid and steady flow of manifold
-contributions coming from member companies, committers, adopters and
+contributions coming from committers, member companies, adopters and
 users. I'm a strong supporter of the Eclipse community, it's openness
 and diversity across the board. When initiating Planet Eclipse back in
 2005 it wasn't just to raise the voice of the Eclipse community on the
 web but also to give community members a chance to raise their voice to
 be heard within the community.
-
+</p><p>
 My vision for 2012 is to ensure that the committer interests are
 properly represented at the Eclipse Board meetings. I intend to actively
 participate in ongoing as well as to initiate new discussions on topics
 which aid improving the life and work of committers and contributors at
 Eclipse projects.
-
+</p><p>
 Another important part of my work will be to ensure that enough funding
 is available to provide first-class infrastructure services to
-committers. With Git and Gerrit coming to Eclipse projects there is a new door open
-for contributions. I'll strive for simplifying the current processes involving 
-Bugzilla, IPZilla and patches to lower the barrier for new contributors.
+committers around the globe. With Git and Gerrit coming to Eclipse projects 
+there is a new door open for contributions. I'll strive for simplifying the 
+processes to lower the barrier for new contributors further. I also like to 
+initiate discussions about interesting tools that might help Eclipse projects 
+running more smoothly.
+</p>
+
 
 
 	]]> </vision>
@@ -60,7 +65,7 @@ beer or a glass of dry, barrel aged red wine.
 	]]> </bio>
 
 	<affiliation> <![CDATA[ 
-	AGETO
+	AGETO, Jena, Germany
 	]]>
 	</affiliation>
 
