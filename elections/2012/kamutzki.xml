@@ -1,0 +1,71 @@
+<boardmember id="kamutzki" type="addin">
+
+	<name>Hans Kamutzki</name>
+
+	<title> <![CDATA[Managing Director, MicroDoc]]> </title>
+
+	<image>kamutzki.jpg</image>
+	
+	<email>hka@microdoc.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+		MicroDoc has been an Eclipse add-in member for many years and Eclipse is a core element of MicroDoc's 
+		company strategy. MicroDoc has donated "Java Bindings for OpenVG", a vector graphics library 
+		for mobile devices, to the eRCP project. Hans is currently serving his third term as a Sustaining 
+		Member Representative on the Board of Directors of the Eclipse Foundation, is a member of the 
+		Eclipse Finance Committee, and has recently been elected to be a member of the IP Advisory 
+		Board.]]> </eclipse_affiliation>
+
+	<vision> <![CDATA[
+		<p>Serving as an Sustaining Member Representative on the Board of Directors of the 
+		Eclipse Foundation in my third term, I see ongoing challenges and opportunities 
+		for the Eclipse Ecosystem:
+		</p>		
+		<p>
+		While Eclipse needs to maintain its leading position in the Java IDE and runtime world, it is necessary 
+		to open up the Eclipse ecosystem for new technologies. During my term as a Board member, I supported 
+		every proposal and resolution that opens up Eclipse to non-Java projects and I plan to 
+		continue to do so in the future. The core strength of the Eclipse Foundation (managed IP progress, 
+		well governed open source projects) should be applicable to any serious open source project with 
+		commercial attitude. I also support the idea of cooperating with other open source communities to 
+		help users to easily integrate the "best of all worlds" software components.
+		</p>
+		<p>
+		My vision for the Eclipse membership model is to generate more tangible membership value for 
+		small and mid-sized companies (committers and consumers), while keeping the large companies 
+		interested in staying in the Foundation. The "long term support" initiative and the industry 
+		working groups are good examples for increased member value. I will support future 
+		initiatives for industry working groups and hope that these groups help to grow the community 
+		and make the Eclipse Foundation financially robust - so we all can benefit from using Eclipse 
+		software in the future. I also want to work on a program that activates the quiet community members to 
+		more actively participate in the development of the ecosystem and the Foundation. 
+		</p>
+	]]></vision>
+
+	<bio><![CDATA[
+		Hans Kamutzki is co-founder and Managing Director of MicroDoc, Munich. 
+		He studied Physics and Computer Science in Bonn and Munich, Germany and focused on realtime image 
+		processing and process control in the early days of his professional work. For a "device and algorithm 
+		for the automatic detection of objects" he was co-awarded a German and European patent. After many 
+		years of development and project management practice in Smalltalk and Java, Hans now runs the 
+		Embedded Java operations at MicroDoc. 
+	]]></bio>
+
+	<affiliation><![CDATA[ 
+		MicroDoc is a software consultancy and product development business founded in 1991 by Hendrik Hoefer and 
+		Hans Kamutzki. In the 90s, MicroDoc's focus was on object oriented programming with Smalltalk. Hans Kamutzki 
+		was a main contributor to a MicroDoc product called "Objects for Notes," a technical Smalltalk to Lotus Notes gateway 
+		that was licensed to IBM in 1995. He worked as a technical and operational liaison between MicroDoc and IBM and spent 
+		several months with integration work in the RTP labs in Raleigh, NC and on other lab engagements. Even before 
+		Java became mainstream, MicroDoc invested in this technology and provided a number of product components to 
+		the international market of reusable components. Among these products are Java based persistence frameworks, 
+		an EJB persistency container and a variety of migration and quality assurance tools as well as some contributions 
+		to IBM's VisualAge for Java product. MicroDoc's work with Eclipse started in 2002 with an IDE migration project for a 
+		large airline. Eclipse has become a universal tool within MicroDoc since then. Eclipse is used as a development platform, 
+		but also heavily as a runtime environment for RCP and eRCP clients and server applications. As MicroDoc is building 
+		end-to-end solutions (starting on the mainframe and scaling down to mobile and embedded devices), the Eclipse RCP/eRCP platforms are 
+		essential building blocks for harmonizing the architecture in many MicroDoc projects today. As a Managing Director, Hans is in 
+		charge of the embedded Java business as well as legal and contractual matters within MicroDoc today.
+	]]></affiliation>
+			
+</boardmember>
