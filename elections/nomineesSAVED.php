@@ -79,7 +79,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		
 		<p>
 			Voting begins on February 27, 2012 and ends on March 16 at 3pm ET. The winners will be announced 
-			at the Board Meeting held during EclipseCon.
+			at the Membership Meeting held during EclipseCon.
 		</p>
 		
 		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
