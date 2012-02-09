@@ -2,11 +2,11 @@
 
 	<name>Chris Aniszczyk</name>
 
-	<title>Principal Software Engineer and Evangelist, Red Hat</title>
+	<title>Manager, Open Source (Twitter)</title>
 
 	<image>aniszczyk.jpg</image>
 
-	<email>zx@redhat.com</email>
+	<email>zx@twitter.com</email>
 
 	<eclipse_affiliation> <![CDATA[		
 		Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Committer<br> 
@@ -14,37 +14,55 @@
         <a href="http://www.eclipse.org/egit">EGit</a> / JGit Committer<br>
         <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>               
         <a href="http://planet.eclipse.org">PlanetEclipse.org</a> Maintainer<br> 
-        <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007-2011)<br> 
-        Eclipse Board Committer Representative (2007-2011)
+        <a href="http://www.eclipsecon.org">EclipseCon</a> Program Committee (2007-2012)<br> 
+        Eclipse Board Committer Representative (2007-2012)
 	]]> </eclipse_affiliation>
 
 	<vision>  <![CDATA[
-		<p>My overall vision for Eclipse is simple, keep building the <b>community</b> so the Eclipse ecosystem can prosper. We have a unique open source community at Eclipse that is comprised of a variety of parties, from individuals to academics to businesses. We need to keep all parties in mind and make it easier for everyone to be successful at Eclipse without alienating anyone.</p>
+		<p>My overall vision for Eclipse is simple, keep building the <b>community</b> so the Eclipse ecosystem can prosper. 
+		We have a unique open source community at Eclipse that is comprised of a variety of parties, from individuals to 
+		academics to companies. We need to keep all parties in mind, whether an individual or corporation, and make it 
+		easier for everyone to be successful at Eclipse.</p>
 		
-		<p>While writing this, it's amazing to reflect that Eclipse has been around for a decade. The amount of technological progress and change has been staggering.. In order to remain vibrant and relevant, Eclipse will have to deal with legacy but also look towards the future. With the e4 project, we are making progress to modernize the existing code base and rich client platform that is important to the majority of our current users. However, in early 2011, Eclipse announced the Orion project which looks towards a future where browser-based tool integration platforms are going to be important. The web space is new for eclipse.org and the Orion project will attract new types of developers to eclipse.org and we'll have to make sure they're accomodated for. Furthermore, we'll have to continue to modernize our eclipse.org infrastructure with Git as the backbone for version control to alleviate some resources from maintaining the current three version control systems.</p>
+		<p>Eclipse has been around for over a decade and in that decade, the amount of technological progress and 
+		change has been staggering. In order to remain vibrant and relevant, Eclipse will have to manage its 
+		legacy and existing adopters but also look towards the future. In terms of supporting our traditional 
+		and existing community, Eclipse 4.2 be the featured release during Juno to help us evolve away from the 
+		Eclipse 3.X codebase. Furthermore, an <a href="http://wiki.eclipse.org/LTS/Charter">industry working group</a> was 
+		established recently to focus on long-term support which is important to many adopters within the ecosystem.</p>
 
-		<p>In the end, as a committer representative, I will continue to support committers and bring forward any concerns. My passion lays with growing the Eclipse ecosystem and making sure its constituents are happy. I have demonstrated my passion over the last few years via action. I have introduced new contributors to the Eclipse ecosystem, mentored many committers and <a href="http://www.eclipse.org/egit">attracted</a> <a href="http://www.eclipse.org/libra">new</a> <a href="http://www.eclipse.org/gef3d">projects</a>. I have also been one of the major proponents in bringing Git to eclipse.org, from bringing the proposal to the board to actually committing and pushing on the respective EGit and JGit projects.</p>
+		<p>
+		In terms of the future, the Eclipse <a href="http://eclipse.org/orion">Orion</a> project is 
+		starting to gain traction by having its components be embedded within the Firefox 10 release. 
+		The Eclipse Foundation should continue to foster the development of web technology at eclipse.org and 
+		push the boundaries of what is possible with tooling on the web.</p>
 
 		<p>To ensure Eclipse continues to grow and thrive I will particularly focus on:</p>
+		
 		<ul>
-			<li>Continue modernizing the Eclipse infrastructure around Git and make sure the move is done by end of 2011</li>
-			<li>Simplify the IP logging process by taking advantage of git-notes</li>
-			<li>Push the Foundation to consider hosting a eclipse.org wide Gerrit instance for code review</li>
-			<li>Make way for Eclipse's entry into the web development community with Orion</li>
-			<li>Push the Eclipse Marketplace to become an appstore for the Eclipse ecosystem</li>
+			<li>Continue modernizing the Eclipse infrastructure around Git and Gerrit; complete it by end of 2012</li>
+			<li>Push the Foundation to consider make it easier to accept contributions from GitHub and Bitbucket</li>
+			<li>Foster interactions with the web development community and Orion</li>
 			<li>Build bridges within the Eclipse ecosystem and with other open source and commercial projects</li>
 			<li>Encourage Eclipse committers and projects to participate in the community via blogs, forums and other communication channels</li>
 			<li>Lower the barrier to entry for new projects without sacrificing the quality Eclipse is known for</li>
-			<li>Evangelize and grow the e4, Orion and EclipseRT efforts</li>
 			<li>Ensure Eclipse processes are transparent and lightweight as possible</li>
 		</ul>
-
-	<p>On the whole, my goal is to make Eclipse thrive and be transparent as possible about the board's activities. I love bringing new projects to the Eclipse ecosystem and mentoring new committers. I will pay special attention to how we can make the Eclipse development process easier for smaller projects. In the end, I would be honored to represent you, the committers, for another term.</p>	
-	]]> </vision>
+		
+		<p>On the whole, my goal is to make Eclipse thrive and be transparent as possible about the board's 
+		activities. I love bringing new projects to the Eclipse ecosystem and mentoring new committers. I will pay 
+		special attention to how we can make the Eclipse development process easier for smaller projects. In the end, 
+		I would be honored to represent you, the committers, for another term.</p>		
+		]]> </vision>
 
 	<bio> <![CDATA[
-		<p>Chris Aniszczyk tends to be all over the place inside the Eclipse community by committing on various projects and helping new eclipse.org projects off the ground. He's a Principal Software Engineer and Evangelist at Red Hat. He is the co-author of The Eclipse Rich Client Platform (Addison-Wesley) book and has been recognized by the Eclipse Community Awards as <b>Top Ambassador</b> and <b>Top Committer</b>. He sits on the Eclipse Architecture Council, Eclipse Planning Council and has the honor to represent the committers on the Eclipse Foundation's Board of Directors. Chris's passions are modularity, <a href="http://aniszczyk.org">evangelism</a>, open source and anything Eclipse.</p> 
-		<p>He's always available to discuss opensource or Eclipse over a frosty beverage.</p>
+		<p>
+		Chris Aniszczyk (<a href="http://twitter.com/cra">@cra</a>) is a software architect by trade with a 
+		passion for software evangelism, open source and building communities. At Twitter, he's responsible for 
+		creating their open source program office and managing their open source strategy. He also has the honor 
+		to sit on the Eclipse Architecture and Planning councils. In a previous life, he traveled the world and 
+		consulted companies on Eclipse technology. He also lead and hacked on many eclipse.org and linux related 
+		projects. In his spare time, you'll find him running, cycling or doing yoga.</p>		
 	]]> </bio>
 
 	<affiliation> <![CDATA[ 
