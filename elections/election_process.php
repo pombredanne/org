@@ -55,8 +55,7 @@
 		all the rights and privileges (including voting) of a Committer Member. 
 		<br/><br/>Individual committers must join the Eclipse Foundation as Committer Members by signing the 
 		<a href="../documents/Eclipse%20MEMBERSHIP%20AGMT%202005_06_16%20Final.pdf">Membership Agreement</a> in order to be allowed to vote.
-		<br/><br/>All committers who are employees of a single company have their votes collapsed into a single vote 
-		in the committer elections.</li>
+		</li>
 		<li>Voting is done electronically via a web interface on <a href="/">www.eclipse.org</a>. Each eligible voter is provided
 		with the URL and a userid and password with which to vote several days in advance of the voting.</li>
 		</ul>
