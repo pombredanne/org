@@ -66,28 +66,47 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 	$committer_candidates = get_candidates_list_as_html($candidates, $year, 'committer');
 	$addin_candidates = get_candidates_list_as_html($candidates, $year, 'addin');
 
-		# Paste your HTML content between the EOHTML markers!	
+	# Paste your HTML content between the EOHTML markers!	
 	$html = <<<EOHTML
+	<style>
+		#midcolumn h1, h2, h3 {
+			font-weight: bold;
+		}
+	</style>
 <!--<div id="maincontent">-->
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2>Committer Candidates</h2>
-		<ul>
-		<li>John Arthorne</li>
-		<li>Ed Merks</li>
-		<li>Gunnar Wagenknecht</li>
-		<li>Chris Aniszczyk</li>
-		</ul>
 		
-		<h2>Sustaining Member Candidates</h2>
-		<ul>		
-		<li>Hans Kamutzki</li>
-		<li>Eric Clayberg</li>
-		<li>Christian Dupuis</li>
-		<li>Mik Kersten</li>
-		</ul>
-		<p><b>The individual candidate pages will be available on February 13, 2012.</b></p>
+		<p>
+			Voting begins on February 27, 2012 and ends on March 16 at 3pm ET. The winners will be announced 
+			at the Membership Meeting held during EclipseCon.
+		</p>
 		
+		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
+		<table>
+			<tr>
+				<td valign="bottom">
+					<h3>Committer<br>
+					Candidates</h3>
+				</td>
+				<td valign="bottom">
+					<h3>Sustaining Member Candidates</h3>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<div class="homeitem">
+						<a name="Candidates"></a>$committer_candidates
+					</div>
+				</td>
+				<td valign="top">
+					<div class="homeitem">
+						$addin_candidates
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Quick Links</h6>
@@ -116,19 +135,25 @@ EOHTML;
 	
 	function get_candidates_list_as_html(&$candidates, $year, $type) {
 		$type_name = strcmp($type, 'committer') == 0 ? 'Committer' : 'Sustaining Member';
-		$html = "<h3>$type_name Candidates</h3><table border=\"0\" cellpadding=\"5\">";
-		foreach ($candidates as $candidate) {
-			if (strcmp($candidate->type, $type) != 0) continue;
-			$html .= <<<EOHTML
-				<tr>
-					<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img src="$candidate->image" width="75"></a></td>
-					<td valign="top" style="border-bottom: dashed 1px #494949;">
-						<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
-						<br>$candidate->title
-						<p>$candidate->contact</p>
-					</td>
-				</tr>
+		$html = "<table border=\"0\" cellpadding=\"5\">";
+		
+		if(count($candidates) == 0) {
+			$html .= "<tr><td>There are no candidates at this time.</td></tr>";
+		}
+		else {
+			foreach ($candidates as $candidate) {
+				if (strcmp($candidate->type, $type) != 0) continue;
+				$html .= <<<EOHTML
+					<tr>
+						<td valign="top"><a href="candidate.php?year=$year&id=$candidate->id"><img width="75" src="$candidate->image"></a></td>
+						<td valign="top" style="border-bottom: dashed 1px #494949;">
+							<strong><a href="candidate.php?year=$year&id=$candidate->id">$candidate->name</a></strong>
+							<br>$candidate->title
+							
+						</td>
+					</tr>
 EOHTML;
+			}
 		}
 		$html .= "</table>";
 		
