@@ -76,7 +76,7 @@
 			<li><strong>Best Modeling Tool</strong>: <a href="http://www.bonitasoft.com/">Bonita Open Solutions</a>
 			<ul><li>The finalists are <a href="http://www.actifsource.com/">actifsource</a> and <a href="http://www.obeodesigner.com/">Obeo Designer</a></li></ul></li>
 
-			<li><strong>Best Moble Tool</strong>: <a href="http://developer.motorola.com/docstools/motodevstudio/">MOTODEV Studio for Android</a>
+			<li><strong>Best Mobile Tool</strong>: <a href="http://developer.motorola.com/docstools/motodevstudio/">MOTODEV Studio for Android</a>
 			<ul><li>The finalist is <a href="http://genuitec.com/mobile">MobiOne Studio</a></li></ul></li>
 						
 			<li><strong>Best RCP Application</strong>: <a href="http://www.openchrom.net/">OpenChrom</a>
