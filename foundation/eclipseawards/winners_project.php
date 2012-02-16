@@ -37,8 +37,12 @@ ob_start();
 		<div class="homeitem3col">
 			<table>
 				<tr>
-					<td><img src="images/project/e4.png" width="60"></td><td><b>e4</b><br>Most Open Project 2010</td>
+					<td><img src="images/project/e4.png" width="60"></td><td><b>e4</b><br>Most Open Project 2011<br/>Most Open Project 2010</td>
 				</tr>
+				<tr>
+					<td><img src="images/project/egit.jpg" width="60"></td><td><b>EGit</b><br>Most Innovative New Feature or Eclipse Project 2011</td>
+				</tr>
+				
 				<tr>
 					<td><img src="images/project/Xtext.png" width="60"></td><td><b>Textual Modeling Framework (TMF) Xtext</b><br>Most Innovative New Feature or Eclilpse Project 2010</td>
 				</tr>
