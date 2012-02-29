@@ -108,7 +108,7 @@
 				<li><a href="http://www.actuate.com/" target="_blank">Actuate</a></li>
 				<li><a href="http://www.birt-exchange.com/" target="_blank">BIRT</a></li>
 				<li> <a href="http://www.bredexsw.com/" target="_blank">BREDEX GmbH</a></li>
-				<li><a href="http://eclipsesource.com" target="_blank">www.eclipsesource.com</a></li>
+				<li><a href="http://eclipsesource.com" target="_blank">EclipseSource</a></li>
 				<li><a href="http://www.itemis.de/" target="_blank">itemis</a></li>
 				<!-- <li><a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></li> -->
 				<li><a href="http://www.tasktop.com" target="_blank">Tasktop Technologies</a></li>
