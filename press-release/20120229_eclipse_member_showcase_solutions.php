@@ -27,6 +27,7 @@
 		<h1>$pageTitle</h1>
 		
 		
+
 <p>Eclipse  ecosystem members co-operate to present open source for business at  CeBIT</p>
 
 <p>29  February 2012 - The Eclipse Foundation announced today that it will  be at CeBIT 2012 in Hannover, Germany, with six co-operating Eclipse  ecosystem members and a redesigned Eclipse Theme Island. In its 3rd  year at CeBIT, the Eclipse Foundation Island provides a unique  opportunity to learn about Eclipse open source software and the  businesses, institutions and individual developers that make up the  community.</p>
@@ -60,7 +61,7 @@
 
 <p><strong>About  Actuate</strong></p>
 
-<p>Actuate  founded and co-leads the Eclipse BIRT open source project.  ActuateOne™ is a unified suite of products for rapidly developing  and deploying BIRT-based custom Business Intelligence applications  and information applications. Applications built with ActuateOne  provide one user experience regardless of task or skill level; are  supported by one server for any deployment including cloud and are  built with one BIRT design that can access and integrate any data  source - including high volume print streams. ActuateOne adds rich  data visualisations, including interactivity, dashboards, analytics,  scorecards and deployment options to web and mobile BIRT  applications, helping organizations drive revenue through higher  customer satisfaction and improved operational performance.</p>
+<p>Actuate  founded and co-leads the Eclipse BIRT open source project.  ActuateOne&#8482; is a unified suite of products for rapidly developing  and deploying BIRT-based custom Business Intelligence applications  and information applications. Applications built with ActuateOne  provide one user experience regardless of task or skill level; are  supported by one server for any deployment including cloud and are  built with one BIRT design that can access and integrate any data  source - including high volume print streams. ActuateOne adds rich  data visualisations, including interactivity, dashboards, analytics,  scorecards and deployment options to web and mobile BIRT  applications, helping organizations drive revenue through higher  customer satisfaction and improved operational performance.</p>
 
 <p>Actuate  has over 5,000 customers globally in a diverse range of business  areas including financial services and the public sector. Founded in  1993, Actuate is headquartered in San Mateo, California, with offices  worldwide. Actuate is listed on NASDAQ under the symbol BIRT. For  more information, visit the company's web site at <a href="http://www.actuate.com/" target="_blank">www.actuate.com</a> or visit the BIRT community at <a href="http://www.birt-exchange.com/" target="_blank">www.birt-exchange.com</a>.</p>
 
@@ -78,12 +79,12 @@
 
 <p><strong>About  itemis</strong></p>
 
-<p>itemis  AG, having its headquarters in Lünen, is an independent  IT-consulting company. The company  was founded in 2003 and by now employs 160 associates at several  sites in Germany  as well as in France, Canada and Switzerland.</p>
+<p>itemis  AG, having its headquarters in L&#252;nen, is an independent  IT-consulting company. The company  was founded in 2003 and by now employs 160 associates at several  sites in Germany  as well as in France, Canada and Switzerland.</p>
 
 <p>itemis  AG is a branch neutral technology leader in the field of automatized  software  development. It offers software development tools and  services for the markets of business applications, applications for  mobile devices and embedded systems. Research and training are  additional specialties.</p>
 
 
-<p>itemis  is one of the strategic Eclipse members located in Germany. Wolfgang  Neuhaus, founder of itemis AG and Ed Merks, Eclipse Modeling Project  Lead, are members of the board of the »Eclipse-Foundation«. Further  information about the company and the YAKINDU products can be found  at <a href="http://www.itemis.de/" target="_blank">www.itemis.de</a> as well as <a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></p>
+<p>itemis  is one of the strategic Eclipse members located in Germany. Wolfgang  Neuhaus, founder of itemis AG and Ed Merks, Eclipse Modeling Project  Lead, are members of the board of the &#187;Eclipse-Foundation&#171;. Further  information about the company and the YAKINDU products can be found  at <a href="http://www.itemis.de/" target="_blank">www.itemis.de</a> as well as <a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></p>
 
 
 
@@ -91,7 +92,7 @@
 
 <p>Tasktop  Technologies aims to transform the productivity of software delivery  by unifying Application Lifecycle Management (ALM) and empowering  developers with task-focused tools.</p>
 
-<p>Tasktop  invented the task-focused interface and created the popular Eclipse  Mylyn project, which transformed the developer&rsquo;s IDE experience to  center around ALM tool-based collaboration. Building on top of Mylyn,  Tasktop has been unifying the ALM landscape with its broad ecosystem  of ALM partnerships that connect disparate tools from leading Agile,  enterprise ALM and open source offerings. Tasktop&rsquo;s Task  Federation™ technology builds on this ecosystem to unify  heterogeneous ALM stacks by allowing developers, testers and managers  to work within their best-of-breed tools of choice, while  automatically maintaining traceability and visibility across ALM  artifacts. The company&rsquo;s Tasktop Sync provides the only real-time  bidirectional and fully automated synchronization between ALM  servers. Tasktop Dev is the developer-centric ALM interface for the  Eclipse and Visual Studio IDEs, making it dramatically easier for  developers to work and collaborate, while keeping ALM tools  up-to-date with development activity. For more information visit  <a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a></p>
+<p>Tasktop  invented the task-focused interface and created the popular Eclipse  Mylyn project, which transformed the developer&rsquo;s IDE experience to  center around ALM tool-based collaboration. Building on top of Mylyn,  Tasktop has been unifying the ALM landscape with its broad ecosystem  of ALM partnerships that connect disparate tools from leading Agile,  enterprise ALM and open source offerings. Tasktop&rsquo;s Task  Federation&#8482; technology builds on this ecosystem to unify  heterogeneous ALM stacks by allowing developers, testers and managers  to work within their best-of-breed tools of choice, while  automatically maintaining traceability and visibility across ALM  artifacts. The company&rsquo;s Tasktop Sync provides the only real-time  bidirectional and fully automated synchronization between ALM  servers. Tasktop Dev is the developer-centric ALM interface for the  Eclipse and Visual Studio IDEs, making it dramatically easier for  developers to work and collaborate, while keeping ALM tools  up-to-date with development activity. For more information visit  <a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a></p>
 
 	
 		
@@ -103,8 +104,12 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="../foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
-				<li><a href="../foundation/eclipseawards/pastwinners.php">Past Winners</a></li>
+				<li><a href="http://www.actuate.com/" target="_blank">www.actuate.com</a></li>
+				<li><a href="http://www.birt-exchange.com/" target="_blank">www.birt-exchange.com</a></li>
+				<li> <a href="http://www.bredexsw.com/" target="_blank">www.bredexsw.com</a></li>
+				<li><a href="http://www.itemis.de/" target="_blank">www.itemis.de</a></li>
+				<li><a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></li>
+				<li><a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a></li>
 			</ul>
 		</div>
 </div>	
