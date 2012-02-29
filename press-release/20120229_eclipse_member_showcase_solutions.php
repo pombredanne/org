@@ -29,7 +29,7 @@
 		
 		
 
-<p>Eclipse  ecosystem members co-operate to present open source for business at  CeBIT</p>
+<p>Eclipse  ecosystem members co-operate to present open source for business at  CeBIT.</p>
 
 <p>29  February 2012 - The Eclipse Foundation announced today that it will  be at CeBIT 2012 in Hannover, Germany, with six co-operating Eclipse  ecosystem members and a redesigned Eclipse Theme Island. In its 3rd  year at CeBIT, the Eclipse Foundation Island provides a unique  opportunity to learn about Eclipse open source software and the  businesses, institutions and individual developers that make up the  community.</p>
 
@@ -71,12 +71,12 @@
 
 <p>Since  1987, BREDEX GmbH has been providing high quality information  technology services in the areas of consultancy, analysis and design,  software development, quality assurance and training. Based in  Braunschweig, the company has a history of long term customer  satisfaction and a focus on forward thinking, developing individual  solutions that bring future standards to current project needs.</p>
 
-<p>BREDEX  is a strategic member of the Eclipse Foundation and is the company  behind the Eclipse Jubula Project, a powerful and cost effective  automatic test tool for Java and HTML applications. BREDEX also  develops GUIdancer, a tool based on Jubula with added value and  comfort for testers and test managers.  For more information: <a href="http://www.bredexsw.com/" target="_blank">www.bredexsw.com</a> .</p>
+<p>BREDEX  is a strategic member of the Eclipse Foundation and is the company  behind the Eclipse Jubula Project, a powerful and cost effective  automatic test tool for Java and HTML applications. BREDEX also  develops GUIdancer, a tool based on Jubula with added value and  comfort for testers and test managers.  For more information: <a href="http://www.bredexsw.com/" target="_blank">www.bredexsw.com</a>.</p>
 
 <p><strong>About  EclipseSource Incorporated</strong></p>
 <p>EclipseSource  brings together recognized experts from key Eclipse projects and  delivers the ability to meet the demanding technical requirements of  commercial adopters. EclipseSource provides a complete range of  products and services from fundamental technology development,  production and developer support, training and mentoring to  commercial management and provisioning solutions.</p>
 
-<p>With  leadership roles in several Eclipse projects, EclipseSource provides  coverage for key Eclipse technologies including RCP, Equinox OSGi,  Modeling and Provisioning. EclipseSource has developed Yoxos 5, an  Eclipse distribution and management solution and has recently  released a multi-platform OSGi-based framework for bringing  server-based applications to the desktop, web, mobile web and native  mobile devices.  The organization has staff in North America and  Europe and a truly global customer base ranging from Fortune 100  corporations to individual developers. More information is available  on http://eclipsesource.com</p>
+<p>With  leadership roles in several Eclipse projects, EclipseSource provides  coverage for key Eclipse technologies including RCP, Equinox OSGi,  Modeling and Provisioning. EclipseSource has developed Yoxos 5, an  Eclipse distribution and management solution and has recently  released a multi-platform OSGi-based framework for bringing  server-based applications to the desktop, web, mobile web and native  mobile devices.  The organization has staff in North America and  Europe and a truly global customer base ranging from Fortune 100  corporations to individual developers. More information is available  on <a href="http://eclipsesource.com" target="_blank">www.eclipsesource.com</a>.</p>
 
 <p><strong>About  itemis</strong></p>
 
@@ -85,7 +85,7 @@
 <p>itemis  AG is a branch neutral technology leader in the field of automatized  software  development. It offers software development tools and  services for the markets of business applications, applications for  mobile devices and embedded systems. Research and training are  additional specialties.</p>
 
 
-<p>itemis  is one of the strategic Eclipse members located in Germany. Wolfgang  Neuhaus, founder of itemis AG and Ed Merks, Eclipse Modeling Project  Lead, are members of the board of the &#187;Eclipse-Foundation&#171;. Further  information about the company and the YAKINDU products can be found  at <a href="http://www.itemis.de/" target="_blank">www.itemis.de</a> as well as <a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></p>
+<p>itemis  is one of the strategic Eclipse members located in Germany. Wolfgang  Neuhaus, founder of itemis AG and Ed Merks, Eclipse Modeling Project  Lead, are members of the board of the &#187;Eclipse-Foundation&#171;. Further  information about the company and the YAKINDU products can be found  at <a href="http://www.itemis.de/" target="_blank">www.itemis.de</a> as well as <a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a>.</p>
 
 
 
@@ -93,7 +93,7 @@
 
 <p>Tasktop  Technologies aims to transform the productivity of software delivery  by unifying Application Lifecycle Management (ALM) and empowering  developers with task-focused tools.</p>
 
-<p>Tasktop  invented the task-focused interface and created the popular Eclipse  Mylyn project, which transformed the developer&rsquo;s IDE experience to  center around ALM tool-based collaboration. Building on top of Mylyn,  Tasktop has been unifying the ALM landscape with its broad ecosystem  of ALM partnerships that connect disparate tools from leading Agile,  enterprise ALM and open source offerings. Tasktop&rsquo;s Task  Federation&#8482; technology builds on this ecosystem to unify  heterogeneous ALM stacks by allowing developers, testers and managers  to work within their best-of-breed tools of choice, while  automatically maintaining traceability and visibility across ALM  artifacts. The company&rsquo;s Tasktop Sync provides the only real-time  bidirectional and fully automated synchronization between ALM  servers. Tasktop Dev is the developer-centric ALM interface for the  Eclipse and Visual Studio IDEs, making it dramatically easier for  developers to work and collaborate, while keeping ALM tools  up-to-date with development activity. For more information visit  <a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a></p>
+<p>Tasktop  invented the task-focused interface and created the popular Eclipse  Mylyn project, which transformed the developer&rsquo;s IDE experience to  center around ALM tool-based collaboration. Building on top of Mylyn,  Tasktop has been unifying the ALM landscape with its broad ecosystem  of ALM partnerships that connect disparate tools from leading Agile,  enterprise ALM and open source offerings. Tasktop&rsquo;s Task  Federation&#8482; technology builds on this ecosystem to unify  heterogeneous ALM stacks by allowing developers, testers and managers  to work within their best-of-breed tools of choice, while  automatically maintaining traceability and visibility across ALM  artifacts. The company&rsquo;s Tasktop Sync provides the only real-time  bidirectional and fully automated synchronization between ALM  servers. Tasktop Dev is the developer-centric ALM interface for the  Eclipse and Visual Studio IDEs, making it dramatically easier for  developers to work and collaborate, while keeping ALM tools  up-to-date with development activity. For more information visit  <a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a>.</p>
 
 	
 		
@@ -108,6 +108,7 @@
 				<li><a href="http://www.actuate.com/" target="_blank">Actuate</a></li>
 				<li><a href="http://www.birt-exchange.com/" target="_blank">BIRT</a></li>
 				<li> <a href="http://www.bredexsw.com/" target="_blank">BREDEX GmbH</a></li>
+				<li><a href="http://eclipsesource.com" target="_blank">www.eclipsesource.com</a></li>
 				<li><a href="http://www.itemis.de/" target="_blank">itemis</a></li>
 				<!-- <li><a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></li> -->
 				<li><a href="http://www.tasktop.com" target="_blank">Tasktop Technologies</a></li>
