@@ -20,6 +20,7 @@
 
 	<style>
 		.paddedlist li {	padding-bottom:7px;	}
+		.center{text-align:center;}
 	</style>
 	
 <div id="maincontent">
@@ -51,7 +52,7 @@
 </ul>
 <p>Visit  the Eclipse Foundation at CeBIT 2012 in Hall 2, Block  D58, Stand 170. </p>
 
-    <p align="center">- 30 -</p>
+    <p class="center">- 30 -</p>
 
 <p><strong>About  the Eclipse Foundation</strong></p>
 
