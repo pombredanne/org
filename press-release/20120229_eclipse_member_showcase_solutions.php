@@ -105,12 +105,12 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.actuate.com/" target="_blank">www.actuate.com</a></li>
-				<li><a href="http://www.birt-exchange.com/" target="_blank">www.birt-exchange.com</a></li>
-				<li> <a href="http://www.bredexsw.com/" target="_blank">www.bredexsw.com</a></li>
-				<li><a href="http://www.itemis.de/" target="_blank">www.itemis.de</a></li>
-				<li><a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></li>
-				<li><a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a></li>
+				<li><a href="http://www.actuate.com/" target="_blank">Actuate</a></li>
+				<li><a href="http://www.birt-exchange.com/" target="_blank">BIRT</a></li>
+				<li> <a href="http://www.bredexsw.com/" target="_blank">BREDEX GmbH</a></li>
+				<li><a href="http://www.itemis.de/" target="_blank">itemis</a></li>
+				<!-- <li><a href="http://www.yakindu.de/" target="_blank">www.yakindu.de</a></li> -->
+				<li><a href="http://www.tasktop.com" target="_blank">Tasktop Technologies</a></li>
 			</ul>
 		</div>
 </div>	
