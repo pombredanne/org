@@ -52,36 +52,26 @@
 </ul>
 <p>Visit  the Eclipse Foundation at CeBIT 2012 in Hall 2, Block  D58, Stand 170. </p>
 
-    <p class="center">- 30 -</p>
+<p class="center">- 30 -</p>
 
-<p><strong>About  the Eclipse Foundation</strong></p>
-
-<p>Eclipse  is an open source community, whose projects are focused on building  an open development platform comprised of extensible frameworks,  tools and runtimes for building, deploying and managing software  across the lifecycle. A large, vibrant ecosystem of major technology  vendors, innovative start-ups, universities and research institutions  and individuals extend, complement and support the Eclipse Platform.</p>
-
+<p><strong>About  the Eclipse Foundation<br>
+</strong>Eclipse  is an open source community, whose projects are focused on building  an open development platform comprised of extensible frameworks,  tools and runtimes for building, deploying and managing software  across the lifecycle. A large, vibrant ecosystem of major technology  vendors, innovative start-ups, universities and research institutions  and individuals extend, complement and support the Eclipse Platform.</p>
 <p>The  Eclipse Foundation is a not-for-profit, member supported corporation  that hosts the Eclipse projects. Full details of Eclipse and the  Eclipse Foundation are available at <a href="http://www.eclipse.org/">www.eclipse.org</a>.</p>
 
-<p><strong>About  Actuate</strong></p>
-
-<p>Actuate  founded and co-leads the Eclipse BIRT open source project.  ActuateOne&#8482; is a unified suite of products for rapidly developing  and deploying BIRT-based custom Business Intelligence applications  and information applications. Applications built with ActuateOne  provide one user experience regardless of task or skill level; are  supported by one server for any deployment including cloud and are  built with one BIRT design that can access and integrate any data  source - including high volume print streams. ActuateOne adds rich  data visualisations, including interactivity, dashboards, analytics,  scorecards and deployment options to web and mobile BIRT  applications, helping organizations drive revenue through higher  customer satisfaction and improved operational performance.</p>
-
+<p><strong>About  Actuate<br>
+</strong>Actuate  founded and co-leads the Eclipse BIRT open source project.  ActuateOne&#8482; is a unified suite of products for rapidly developing  and deploying BIRT-based custom Business Intelligence applications  and information applications. Applications built with ActuateOne  provide one user experience regardless of task or skill level; are  supported by one server for any deployment including cloud and are  built with one BIRT design that can access and integrate any data  source - including high volume print streams. ActuateOne adds rich  data visualisations, including interactivity, dashboards, analytics,  scorecards and deployment options to web and mobile BIRT  applications, helping organizations drive revenue through higher  customer satisfaction and improved operational performance.</p>
 <p>Actuate  has over 5,000 customers globally in a diverse range of business  areas including financial services and the public sector. Founded in  1993, Actuate is headquartered in San Mateo, California, with offices  worldwide. Actuate is listed on NASDAQ under the symbol BIRT. For  more information, visit the company's web site at <a href="http://www.actuate.com/" target="_blank">www.actuate.com</a> or visit the BIRT community at <a href="http://www.birt-exchange.com/" target="_blank">www.birt-exchange.com</a>.</p>
 
-<p><strong>About  Bredex GmbH</strong></p>
-
-
-<p>Since  1987, BREDEX GmbH has been providing high quality information  technology services in the areas of consultancy, analysis and design,  software development, quality assurance and training. Based in  Braunschweig, the company has a history of long term customer  satisfaction and a focus on forward thinking, developing individual  solutions that bring future standards to current project needs.</p>
-
+<p><strong>About  Bredex GmbH<br>
+</strong>Since  1987, BREDEX GmbH has been providing high quality information  technology services in the areas of consultancy, analysis and design,  software development, quality assurance and training. Based in  Braunschweig, the company has a history of long term customer  satisfaction and a focus on forward thinking, developing individual  solutions that bring future standards to current project needs.</p>
 <p>BREDEX  is a strategic member of the Eclipse Foundation and is the company  behind the Eclipse Jubula Project, a powerful and cost effective  automatic test tool for Java and HTML applications. BREDEX also  develops GUIdancer, a tool based on Jubula with added value and  comfort for testers and test managers.  For more information: <a href="http://www.bredexsw.com/" target="_blank">www.bredexsw.com</a>.</p>
 
-<p><strong>About  EclipseSource Incorporated</strong></p>
-<p>EclipseSource  brings together recognized experts from key Eclipse projects and  delivers the ability to meet the demanding technical requirements of  commercial adopters. EclipseSource provides a complete range of  products and services from fundamental technology development,  production and developer support, training and mentoring to  commercial management and provisioning solutions.</p>
-
+<p><strong>About  EclipseSource Incorporated<br>
+</strong>EclipseSource  brings together recognized experts from key Eclipse projects and  delivers the ability to meet the demanding technical requirements of  commercial adopters. EclipseSource provides a complete range of  products and services from fundamental technology development,  production and developer support, training and mentoring to  commercial management and provisioning solutions.</p>
 <p>With  leadership roles in several Eclipse projects, EclipseSource provides  coverage for key Eclipse technologies including RCP, Equinox OSGi,  Modeling and Provisioning. EclipseSource has developed Yoxos 5, an  Eclipse distribution and management solution and has recently  released a multi-platform OSGi-based framework for bringing  server-based applications to the desktop, web, mobile web and native  mobile devices.  The organization has staff in North America and  Europe and a truly global customer base ranging from Fortune 100  corporations to individual developers. More information is available  on <a href="http://eclipsesource.com" target="_blank">www.eclipsesource.com</a>.</p>
 
-<p><strong>About  itemis</strong></p>
-
-<p>itemis  AG, having its headquarters in L&#252;nen, is an independent  IT-consulting company. The company  was founded in 2003 and by now employs 160 associates at several  sites in Germany  as well as in France, Canada and Switzerland.</p>
-
+<p><strong>About  itemis<br>
+</strong>itemis  AG, having its headquarters in L&#252;nen, is an independent  IT-consulting company. The company  was founded in 2003 and by now employs 160 associates at several  sites in Germany  as well as in France, Canada and Switzerland.</p>
 <p>itemis  AG is a branch neutral technology leader in the field of automatized  software  development. It offers software development tools and  services for the markets of business applications, applications for  mobile devices and embedded systems. Research and training are  additional specialties.</p>
 
 
@@ -89,10 +79,8 @@
 
 
 
-<p><strong>About  Tasktop Technologies</strong></p>
-
-<p>Tasktop  Technologies aims to transform the productivity of software delivery  by unifying Application Lifecycle Management (ALM) and empowering  developers with task-focused tools.</p>
-
+<p><strong>About  Tasktop Technologies<br>
+</strong>Tasktop  Technologies aims to transform the productivity of software delivery  by unifying Application Lifecycle Management (ALM) and empowering  developers with task-focused tools.</p>
 <p>Tasktop  invented the task-focused interface and created the popular Eclipse  Mylyn project, which transformed the developer&rsquo;s IDE experience to  center around ALM tool-based collaboration. Building on top of Mylyn,  Tasktop has been unifying the ALM landscape with its broad ecosystem  of ALM partnerships that connect disparate tools from leading Agile,  enterprise ALM and open source offerings. Tasktop&rsquo;s Task  Federation&#8482; technology builds on this ecosystem to unify  heterogeneous ALM stacks by allowing developers, testers and managers  to work within their best-of-breed tools of choice, while  automatically maintaining traceability and visibility across ALM  artifacts. The company&rsquo;s Tasktop Sync provides the only real-time  bidirectional and fully automated synchronization between ALM  servers. Tasktop Dev is the developer-centric ALM interface for the  Eclipse and Visual Studio IDEs, making it dramatically easier for  developers to work and collaborate, while keeping ALM tools  up-to-date with development activity. For more information visit  <a href="http://www.tasktop.com" target="_blank">www.tasktop.com</a>.</p>
 
 	
