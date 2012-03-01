@@ -25,22 +25,18 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <h2>Community Bulletin</h2>
-<p> The Eclipse Foundation congratulates the finalists for the 2012 Eclipse Community Awards. Winners for each
-  category will be announced on March 21, 2011 during an evening reception at <a href="http://www.eclipsecon.org/2012/">EclipseCon 2012</a>. </p>
-<p> The Individual Awards recognize the people who have given their time to make Eclipse a vibrant and progressive
-  community. Finalists were selected by their peers in an online vote. </p>
+<p> The Eclipse Foundation congratulates the finalists for the 2011 Eclipse Community Awards. Winners for each category will be announced on March 26, 2012during an evening reception at <a href="http://www.eclipsecon.org/2012/">EclipseCon 2012</a>. </p>
+<p> The Individual Awards recognize the people who have given their time to make Eclipse a vibrant and progressive community. Finalists were selected by their peers in an online vote.</p>
 <ul>
   <li><b>Top Committer</b>: Sven Efftinge, Daniel Megert,  and Kim Moir</li>
   <li><b>Top Newcomer Evangelist</b>: Russell Bateman, Lars Vogel,  and Lu Yang</li>
 </ul>
-<p> The Project Awards feature Eclipse projects that display innovation and foster community.
-  Finalists were selected by their peers in an online vote. </p>
+<p> The Project Awards feature Eclipse projects that display innovation and foster community. Finalists were selected by their peers in an online vote. </p>
 <ul>
   <li><b>Most Open Project</b>: C/C++ Development Tooling, Eclipse Communication Framework, GMF Tooling</li>
   <li><b>Most Innovative New Feature or Eclipse Project</b>: Code recommenders, Orion, Xtend</li>
 </ul>
-<p> The Technology Awards recognize some of the best Eclipse-based tools and applications. The finalists
-  were selected from a pool of nominations by a judging panel from the Eclipse community. </p>
+<p> The Technology Awards recognize some of the best Eclipse-based tools and applications. The finalists were selected from a pool of nominations by a judging panel from the Eclipse community. </p>
 <ul>
 
   <li><b>Best Modeling Product</b>: <a href="http://maintainj.com/" target="_blank">MaintainJ</a> and <a href="http://www.umlet.com/" target="_blank">UMLet</a></li>
