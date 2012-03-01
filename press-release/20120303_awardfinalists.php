@@ -25,7 +25,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <h2>Community Bulletin</h2>
-<p> The Eclipse Foundation congratulates the finalists for the 2011 Eclipse Community Awards. Winners for each category will be announced on March 26, 2012during an evening reception at <a href="http://www.eclipsecon.org/2012/">EclipseCon 2012</a>. </p>
+<p> The Eclipse Foundation congratulates the finalists for the 2011 Eclipse Community Awards. Winners for each category will be announced on March 26, 2012 during an evening reception at <a href="http://www.eclipsecon.org/2012/">EclipseCon 2012</a>. </p>
 <p> The Individual Awards recognize the people who have given their time to make Eclipse a vibrant and progressive community. Finalists were selected by their peers in an online vote.</p>
 <ul>
   <li><b>Top Committer</b>: Sven Efftinge, Daniel Megert,  and Kim Moir</li>
