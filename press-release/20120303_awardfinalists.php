@@ -33,14 +33,14 @@
 </ul>
 <p> The Project Awards feature Eclipse projects that display innovation and foster community. Finalists were selected by their peers in an online vote. </p>
 <ul>
-  <li><b>Most Open Project</b>: C/C++ Development Tooling, Eclipse Communication Framework, GMF Tooling</li>
-  <li><b>Most Innovative New Feature or Eclipse Project</b>: Code recommenders, Orion, Xtend</li>
+  <li><b>Most Open Project</b>: <a href="http://www.eclipse.org/cdt/" target="_blank">C/C++ Development Tooling</a>, <a href="http://www.eclipse.org/ecf/" target="_blank">Eclipse Communication Framework</a>, <a href="http://www.eclipse.org/projects/project.php?id=modeling.gmp.gmf-tooling" target="_blank">GMF Tooling</a></li>
+  <li><b>Most Innovative New Feature or Eclipse Project</b>: <a href="http://www.eclipse.org/recommenders/" target="_blank">Eclipse Code Recommenders</a>, <a href="http://www.eclipse.org/orion/" target="_blank">Orion</a>, <a href="http://www.eclipse.org/Xtext/" target="_blank">Xtend</a></li>
 </ul>
 <p> The Technology Awards recognize some of the best Eclipse-based tools and applications. The finalists were selected from a pool of nominations by a judging panel from the Eclipse community. </p>
 <ul>
 
   <li><b>Best Modeling Product</b>: <a href="http://maintainj.com/" target="_blank">MaintainJ</a> and <a href="http://www.umlet.com/" target="_blank">UMLet</a></li>
-  <li><b>Best Developer Tool</b>: <a href="http://bndtools.org/" target="_blank">Bndtools</a>, <a href="http://www.chrononsystems.com/products/chronon-time-travelling-debugger" target="_blank">Chronon  Time Traveling Debugger</a>,  and <a href="http://www.arm.com/products/tools/software-tools/ds-5/community-edition/index.php" target="_blank">DS-5  Community Edition</a>
+  <li><b>Best Developer Tool</b>: <a href="http://bndtools.org/" target="_blank">Bndtools</a>, <a href="http://www.chrononsystems.com/products/chronon-time-travelling-debugger" target="_blank">Chronon  Time Travelling Debugger</a>,  and <a href="http://www.arm.com/products/tools/software-tools/ds-5/community-edition/index.php" target="_blank">DS-5  Community Edition</a>
   </li>
   <li><b>Best Application</b>: <a href="http://www.bonitasoft.com/" target="_blank">Bonita  Open Solution</a>, <a href="http://www.diligent-it.com/files/ea2012/CCTVnet.html" target="_blank">CCTVnet</a> ,and <a href="http://www.justinmind.com/prototyper/features-build" target="_blank">Justinmind  Prototyper</a> </li>
 </ul>
