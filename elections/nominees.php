@@ -78,7 +78,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<h1>$pageTitle</h1>
 		
 		<p>
-			Voting is now closed for the 2012 elections. Thanks for everyone who voted. The winners will be announced at <a href="http://www.eclipsecon.org/2012">EclipseCon 2012</a>.
+			Voting is now closed for the 2012 elections. Thanks to everyone who voted. The winners will be announced at <a href="http://www.eclipsecon.org/2012">EclipseCon 2012</a>.
 		</p>
 		
 		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
