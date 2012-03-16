@@ -56,7 +56,8 @@
 		<a href="http://www.eclipse.org/forums/eclipse.foundation">Foundation forum</a>.
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
-		Information concerning the $year elections is contained within the links below.
+	    <p>Voting for the 2012 elections closed on March 16. The winners will be announced at <a href="http://www.eclipsecon.org/2012">EclipseCon 2012</a>.</p>
+		<p>Information concerning the $year elections is contained within the links below.</p>
 		<ul>
 		<li>The <a href="nominees.php">candidates</a> for the election</li>
 		<li>The <a href="keydates.php">key dates</a> for the $year elections</li>
