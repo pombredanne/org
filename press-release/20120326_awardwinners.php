@@ -35,7 +35,7 @@
     <ul><li>The finalists are Russell Bateman and Lu Yang</li></ul>
   <li><strong>Lifetime Contribution Award</strong>: Ed Merks</li>
 </ul>
-<p> The  Project Awards recognize Eclipse projects for introducing innovative  new features and fostering an open community. Finalists were selected  by their peers in an online vote.</p>
+<p> The  Project Awards recognize Eclipse projects for introducing innovative  new features and fostering an open community. Winners were selected  by their peers in an online vote.</p>
 <ul>
   <li><strong>Most Open Project</strong>: <a href="http://www.eclipse.org/ecf/">Eclipse Communication Framework</a></li>
     <ul><li>The finalists are <a href="http://www.eclipse.org/cdt/">C/C++ Development Tooling</a> and <a href="http://www.eclipse.org/projects/project.php?id=modeling.gmp.gmf-tooling">GMF Tooling</a></li></ul>
@@ -43,7 +43,7 @@
     <ul><li>The finalists are <a href="http://www.eclipse.org/orion/">Orion</a> and <a href="http://www.eclipse.org/Xtext/">Xtend</a></ul>
 </ul>
 <p> Technology  Awards recognize Eclipse-based open source projects and commercial  products. Winners were selected by a panel of judges from the Eclipse  community. Products were evaluated on their user interfaces,  innovation and completeness of their solutions.</p>
-<ul><li><strong>Best Developer Tool</strong>:&nbsp;<a href="http://www.chrononsystems.com/">Chronon Time travelling Debugger</a></li>
+<ul><li><strong>Best Developer Tool</strong>:&nbsp;<a href="http://www.chrononsystems.com/">Chronon Time Travelling Debugger</a></li>
     <ul><li>The finalists are <a href="http://bndtools.org/">Bndtools</a> and <a href="http://www.arm.com/products/tools/software-tools/ds-5/community-edition/index.php">DS-5 Community Edition</a>.</li></ul>
   <li><strong>Best  	Modeling Product</strong>:&nbsp;<a href="http://maintainj.com/">MaintainJ</a></li>
     <ul>
