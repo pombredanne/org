@@ -38,13 +38,14 @@
 		    <td width="37%" valign=top>Report a bug</td>
     		<td width="63%"><a href="https://dev.eclipse.org/site_login/createaccount.php">Register</a> 
       		and <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi">report</a> a bug</td>
-  		</tr><tr>
-		    <td width="37%" valign=top>Technical questions</td>
-    		<td width="63%"><a href="../../newsgroups/register.php">Register</a> 
-      		and join the <a href="../../newsgroups/">Newsgroups</a></td>
   		</tr>
-		  <tr>
-		    <td width="37%" valign=top>Support</td>
+  		<tr>
+		    <td width="37%" valign=top>Technical questions / Support (via HTTP)</td>
+    		<td width="63%"><a href="https://dev.eclipse.org/site_login/createaccount.php">Register</a> 
+      		and join the <a href="../../forums/">Forums</a></td>
+  		</tr>
+  		<tr>
+		    <td width="37%" valign=top>Technical questions / Support (via NNTP)</td>
     		<td width="63%"><a href="../../newsgroups/register.php">Register</a> 
       		and join the <a href="../../newsgroups/">Newsgroups</a></td>
   		</tr>
