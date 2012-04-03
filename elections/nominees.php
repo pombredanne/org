@@ -78,11 +78,10 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<h1>$pageTitle</h1>
 		
 		<p>
-			The $year elections have concluded.
+			The $year elections have concluded. The list of candidates has been retained below to help document the election process.
 		</p>
-		
-		<!-- Temporarily remove display of candidates while elections are not happening
-		<p><b>Note:</b> To ensure maximum fairness to all, each list of candidates is presented in random order.</p>
+				
+		<p><b>Note:</b> To ensure maximum fairness to all, the list of candidates is presented in random order.</p>
 		<table>
 			<tr>
 				<td valign="bottom">
@@ -106,7 +105,6 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 				</td>
 			</tr>
 		</table>
-		-->
 	</div>
 	
 
@@ -115,7 +113,7 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 			<h6>Quick Links</h6>
 			<ul>
 				<li><a href=".">Election Home</a></li>
-				<!-- <li><a href="nominees.php">Candidates</a></li> -->
+				<li><a href="nominees.php">$year Candidates</a></li>
 				<li><a href="keydates.php">$year Key Dates</a></li>
 				<li><a href="election_process.php">Election Process</a></li>
 			</ul>
