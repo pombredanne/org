@@ -25,6 +25,7 @@
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
+		<h2>Community Bulletin</h2>
 		
 <p> The Eclipse Foundation is pleased to announce the results of the 2012 Board of Directors elections.</p>
 <p> The elected Committer Member representatives for 2012 are</p>
