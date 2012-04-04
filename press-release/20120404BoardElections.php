@@ -28,24 +28,21 @@
 		<h2>Community Bulletin</h2>
 		
 <p> The Eclipse Foundation is pleased to announce the results of the 2012 Board of Directors elections.</p>
-<p> The elected Committer Member representatives for 2012 are</p>
+<p> The elected Committer Member representatives for 2012 are
 <ul>
 <li>Chris Aniszczyk</li>
 <li>John Arthorne</li>
 <li>Ed Merks</li>
 </ul>
+</p>
 
-<p>The elected Sustaining Member representative for 2012 are</p>
+<p>The elected Sustaining Member representative for 2012 are
 <ul>
 <li>Eric Clayberg (Google)</li>
 <li>Hans Kamutzki (MicroDoc)</li>
 <li>Mik Kersten (Tasktop)</li>
 </ul>
-
-
-<p> Eclipse  is an open source community, whose projects are focused on building  an open development platform comprised of extensible frameworks,  tools and runtimes for building, deploying and managing software  across the lifecycle. A large, vibrant ecosystem of major technology  vendors, innovative start-ups, universities and research institutions  and individuals extend, complement and support the Eclipse Platform.</p>
-<p> The  Eclipse Foundation is a not-for-profit, member supported corporation  that hosts the Eclipse projects. Full details of Eclipse and the  Eclipse Foundation are available at <a href="http://www.eclipse.org/"><strong>www.eclipse.org</strong></a>.</p>
-<p> All company/product names and service marks may be trademarks or  registered trademarks of their respective companies</p>
+</p>
 
 	</div>		
 </div>
