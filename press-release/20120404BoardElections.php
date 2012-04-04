@@ -36,7 +36,7 @@
 </ul>
 </p>
 
-<p>The elected Sustaining Member representative for 2012 are
+<p>The elected Sustaining Member representatives for 2012 are
 <ul>
 <li>Eric Clayberg (Google)</li>
 <li>Hans Kamutzki (MicroDoc)</li>
