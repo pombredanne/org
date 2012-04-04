@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse  Community Award Winners Announced";
+	$pageTitle 		= "Eclipse Board of Directors Election Results";
 	$pageKeywords	= "eclipse, community, awards, winners";
 	$pageAuthor		= "Anne Jacko";
 	
