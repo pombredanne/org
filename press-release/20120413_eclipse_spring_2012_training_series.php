@@ -25,7 +25,7 @@
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<br/><br/>
+		<br/>
 		<p>The Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php" target="_blank">Spring 2012 Training Series</a>. These training classes are an excellent opportunity for software developers and architects to learn more about Eclipse Rich Client Platform (RCP), Eclipse BIRT, Eclipse Equinox/OSGi and Modeling technologies. Eclipse experts will lead the sessions, providing practical experience through classroom instruction and hands-on labs. Virtual and on-site classes have been scheduled in several countries from May 21 to June 29, 2012.</p>
 		<p> <a href="http://www.eclipse.org/community/training/classes.php" target="_blank">See the schedule</a> for a complete list of courses and course descriptions.</p>
 
