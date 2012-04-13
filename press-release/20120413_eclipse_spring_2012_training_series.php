@@ -37,16 +37,16 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-            	<a href="http://www.eclipse.org/community/training/classes.php" target="_blank">Spring 2012 Training Series</a>
-				<a href="www.actuate.com/home/" target="_blank">Actuate</a>
-                <a href="http://www.avantsoft.com/" target="_blank">AvantSoft</a>
-                <a href="http://eclipsesource.com/en/services/eclipse-training/" target="_blank">EclipseSource</a>
-                <a href="http://industrial-tsi.com/" target="_blank">Industrial TSI</a>
-                <a href="http://www.modumind.com/" target="_blank">Modular Mind</a>
-                <a href="http://www.obeo.fr/" target="_blank">Obeo</a>
-                <a href="http://www.opcoach.com/">OPCoach</a>
-                <a href="http://www.rcp-vision.com/?lang=en" target="_blank">RCP Vision</a>
-                <a href="www.suprematic.net/de" target="_blank">Suprematic Solutions</a>
+            	<li><a href="http://www.eclipse.org/community/training/classes.php" target="_blank">Spring 2012 Training Series</a></li>
+				<li><a href="www.actuate.com/home/" target="_blank">Actuate</a></li>
+                <li><a href="http://www.avantsoft.com/" target="_blank">AvantSoft</a></li>
+                <li><a href="http://eclipsesource.com/en/services/eclipse-training/" target="_blank">EclipseSource</a></li>
+                <li><a href="http://industrial-tsi.com/" target="_blank">Industrial TSI</a></li>
+                <li><a href="http://www.modumind.com/" target="_blank">Modular Mind</a></li>
+                <li><a href="http://www.obeo.fr/" target="_blank">Obeo</a></li>
+                <li><a href="http://www.opcoach.com/">OPCoach</a></li>
+                <li><a href="http://www.rcp-vision.com/?lang=en" target="_blank">RCP Vision</a></li>
+                <li><a href="www.suprematic.net/de" target="_blank">Suprematic Solutions</a></li>
 			</ul>
 		</div>
 	</div>
