@@ -194,4 +194,16 @@ Read Andrew's Blog</a>
 		]]></description>
 	</staffmember>
 
+	<staffmember id="tha">
+		<name>Thanh Ha</name>
+		<title>Release Engineer</title>
+		<image> ../../images/tha.jpg </image>
+		<description><![CDATA[
+			<p>Thanh is an open source enthusiest who loves to tinker with new technology
+			 as a user and developer. When not at a computer he enjoys spending time 
+			 outside rollerblading.</p>
+		]]></description>
+	</staffmember>
+
+
 </staffmembers>
