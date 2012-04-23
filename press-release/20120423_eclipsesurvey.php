@@ -27,11 +27,11 @@
 		<h1>$pageTitle</h1>
 		<h2>Community Bulletin</h2>
 		
-<p> The Eclipse Foundation would like to have your input into the <a href="http://www.surveymonkey.com/s/eclipse_survey">Eclipse Community Survey</a>.  
+<p> The Eclipse Foundation would like your participation in the <a href="http://www.surveymonkey.com/s/eclipse_survey">Eclipse Community Survey</a>.  
 This annual survey helps document the requirements and trends within the Eclipse developer community.  The survey results will be published in June 2012.  </p>
-<p>Everyone in the Eclipse community is encouraged to complete this <a href="http://www.surveymonkey.com/s/eclipse_survey">online survey.</a>   It should take between 5-10 minutes to complete.   
-As a token of appreciation, all respondents will be entered into a draw for a chance to win a pass to EclipseCon Europe or EclipseCon NA and 
-Eclipse shirts.  The deadline to particiate in the survey is May 15, 2012.</p>
+<p>Everyone in the Eclipse community is encouraged to complete the <a href="http://www.surveymonkey.com/s/eclipse_survey">online survey.</a>   It should take between 5-10 minutes to provide your feedback.   
+As a token of appreciation, all respondents will be entered into a draw for a chance to Eclipse shirts and win a pass to EclipseCon Europe or EclipseCon NA.  
+The deadline to particiate in the survey is May 15, 2012.</p>
 
 	</div>		
 </div>
