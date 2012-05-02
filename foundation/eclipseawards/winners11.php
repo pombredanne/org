@@ -87,7 +87,7 @@ ob_start();
 			<ul>
 				<li class="finalist">Mylyn Builds</li>
 				<li class="finalist">Extended Editing Framework (EEF)</li>
-				<li class="winner">EGit</li>
+				<li class="winner">EGit (Winner)</li>
 			</ul>
 		</div>	
 			
