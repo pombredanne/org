@@ -37,10 +37,12 @@ ob_start();
 		<div class="homeitem3col">
 			<table>
 				<tr>
-					<td><img src="images/lifetime/david-williams-award.jpg" width="60"></td>
-					<td><b>David Williams</b><br>Lifetime Achievement Award 2011</td>
-					
+					<td><img src="images/lifetime/ed-merks-award.jpg" width="60"></td><td><b>Ed Merks</b><br>Lifetime Achievement Award 2012</td>			
 				</tr>
+				<tr>
+					<td><img src="images/lifetime/david-williams-award.jpg" width="60"></td><td><b>David Williams</b><br>Lifetime Achievement Award 2011</td>			
+				</tr>
+				
 				
 			</table>
 				
