@@ -37,6 +37,12 @@ ob_start();
 		<div class="homeitem3col">
 			<table>
 				<tr>
+					<td><img src="images/project/code-r.jpg" width="60"></td><td><b>Eclipse Code Recommenders</b><br>Most Innovative New Feature or Eclipse Project 2012</td>
+				</tr>
+				<tr>
+					<td><img src="images/project/com-f.jpg" width="60"></td><td><b>Eclipse Communication Framework</b><br>Most Open Project 2012</td>
+				</tr>
+				<tr>
 					<td><img src="images/project/e4.png" width="60"></td><td><b>e4</b><br>Most Open Project 2011<br/>Most Open Project 2010</td>
 				</tr>
 				<tr>
