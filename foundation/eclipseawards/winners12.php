@@ -64,8 +64,8 @@ ob_start();
 			<ul>
 			
 				
-				<li class="finalist">Stephan Herrmann <span class="winner">(Winner)</span></li>
-                <li class="finalist">Alex Blewitt <span class="winner">(Winner)</span></li>
+				<li class="winner">Stephan Herrmann <span class="winner">(Winner)</span></li>
+                <li class="winner">Alex Blewitt <span class="winner">(Winner)</span></li>
 			</ul>
 		</div>
 
