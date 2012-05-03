@@ -38,45 +38,60 @@ ob_start();
 			<table>
 				<tr>
 					<td><img src="images/individual/Chris_Aniszczyk.jpg" width="60"></td><td><b>Chris Aniszczyk</b><br>Top Committer 2009<br>Top Ambassador 2007</td>
-					<td><img src="images/individual/boris_bokowski.jpg" width="60"></td><td><b>Boris Bokowski</b><br>Top Newcomer Evangelist 2011</td>
+                    <td><img src="images/individual/alex-blewitt.jpg" width="60"></td><td><b>Alex Blewitt</b><br>Top Contributor 2012</td>
+					
 				</tr>
 				<tr>
+                	<td><img src="images/individual/boris_bokowski.jpg" width="60"></td><td><b>Boris Bokowski</b><br>Top Newcomer Evangelist 2011</td>
 					<td><img src="images/individual/Nick_Boldt.png" width="60"></td><td><b>Nick Boldt</b><br>Top Ambassador 2009</td>
-					<td><img src="images/individual/Ed_Burnette.jpg" width="60"></td><td><b>Ed Burnette</b><br>Top Ambassador 2006</td>			
+					
 						
 				</tr>
 				<tr>
+                	<td><img src="images/individual/Ed_Burnette.jpg" width="60"></td><td><b>Ed Burnette</b><br>Top Ambassador 2006</td>			
 					<td><img src="images/individual/Benjamin_Cabe.png" width="60"></td><td><b>Benjamin Cab&eacute;</b><br>Top Contributor 2009</td>		
-					<td><img src="images/individual/Walter_Harley.jpg" width="60"></td><td><b>Walter Harley</b><br>Top Newcomer Evangelist 2010</td>			
+							
 						
 				</tr>
 				<tr>
-					<td><img src="images/individual/dariusz_luksza.jpg" width="60"></td><td><b>Dariusz Luksza</b><br>Top Contributor 2011</td>
-					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Alain Magloire</b><br>Top Committer 2006</td>			
+                	<td><img src="images/individual/sven-efftinge.jpg" width="60"></td><td><b>Sven Efftinge</b><br>Top Committer 2012</td>
+
+                	<td><img src="images/individual/Walter_Harley.jpg" width="60"></td><td><b>Walter Harley</b><br>Top Newcomer Evangelist 2010</td>	
+					
 				</tr>
+                <tr>
+                    <td><img src="images/individual/stephan-herrmann.jpg" width="60"></td><td><b>Stephan Herrmann</b><br>Top Contributor 2012</td>
+                	<td><img src="images/individual/dariusz_luksza.jpg" width="60"></td><td><b>Dariusz Luksza</b><br>Top Contributor 2011</td>
+						                   
+                 </tr>   
 				<tr>
-				
+					<td><img src="images/individual/Blank_Picture.png" width="60"></td><td><b>Alain Magloire</b><br>Top Committer 2006</td>		
 					<td><img src="images/individual/Daniel_Megert.jpg" width="60"></td><td><b>Daniel Megert</b><br>Top Newcomer Evangelist 2007</td>			
-					<td><img src="images/individual/Ed_Merks.jpg" width="60"></td><td><b>Ed Merks</b><br>Top Newcomer Evangelist 2009<br>Top Ambassador 2008<br>Top Committer 2007</td>			
+						
 				</tr>
 				<tr>
+                	<td><img src="images/individual/Ed_Merks.jpg" width="60"></td><td><b>Ed Merks</b><br>Top Newcomer Evangelist 2009<br>Top Ambassador 2008<br>Top Committer 2007</td>	
 					<td><img src="images/individual/Kimberley_Peter.jpg" width="60"></td><td><b>Kimberley Peter</b><br>Top Contributor 2007</td>			
-					<td><img src="images/individual/Eric_Rizzo.jpg" width="60"></td><td><b>Eric Rizzo</b><br>Top Newcomer Evangelist 2008</td>			
+							
 				</tr>
 				<tr>
+                <td><img src="images/individual/Eric_Rizzo.jpg" width="60"></td><td><b>Eric Rizzo</b><br>Top Newcomer Evangelist 2008</td>	
 					<td><img src="images/individual/Tom_Schindl.png" width="60"></td><td><b>Tom Schindl</b><br>Top Contributor 2007</td>			
-					<td><img src="images/individual/Eike_Stepper.png" width="60"></td><td><b>Eike Stepper</b><br>Top Committer 2010</td>			
+					
 				</tr>
 				<tr>
+                <td><img src="images/individual/Eike_Stepper.png" width="60"></td><td><b>Eike Stepper</b><br>Top Committer 2010</td>			
 					<td><img src="images/individual/Remy_Suen.jpeg" width="60"></td><td><b>Remy Chi Jian Suen</b><br>Top Contributor 2008</td>			
-					<td><img src="images/individual/Lars_Vogel.png" width="60"></td><td><b>Lars Vogel</b><br>Top Contributor 2010</td>			
+						
 				</tr>
 				<tr>
+                	<td><img src="images/individual/Lars_Vogel.png" width="60"></td><td><b>Lars Vogel</b><br>Top Newcomer Evangelist 2012<br>Top Contributor 2010</td>	
 					<td><img src="images/individual/Linda_Watson.jpeg" width="60"></td><td><b>Linda Watson</b><br>Top Contributor 2006</td>			
-					<td><img src="images/individual/Paul_Webster.png" width="60"></td><td><b>Paul Webster</b><br>Top Committer 2009</td>			
+							
 				</tr>
 				
 				<tr>
+                <td><img src="images/individual/Paul_Webster.png" width="60"></td><td><b>Paul Webster</b><br>Top Committer 2009</td>	
 				<td><img src="images/individual/sebastian_zamekow.jpg" width="60"></td><td><b>Sebastian Zarnekow</b><br>Top Committer 2011</td>	
 				<td>&nbsp;</td>	
 				</tr>
