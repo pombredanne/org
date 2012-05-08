@@ -103,7 +103,7 @@
 		and online portals, books, etc, are all key to the success of the Eclipse community.</p>
 
 		<p>To assist in the development of the Eclipse ecosystem, the Eclipse Foundation organizes a number of activities, including co-operative 
-		marketing events with Member companies, community conferences (<a href="http://www.eclipsecon.org/2007/">EclipseCon</a> and <a href="http://www.eclipsecon.org/summiteurope2006/">Eclipse Summit Europe</a>), 
+		marketing events with Member companies, <a href="http://www.eclipsecon.org">community conferences</a>, 
 		online resource catalogs (<a href="http://www.eclipseplugincentral.com">EPIC</a> and <a href="http://live.eclipse.org/">Eclipse Live</a>), 
 		bi-annual Members meetings and other programs to promote the entire Eclipse community.</p>
 
