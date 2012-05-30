@@ -29,7 +29,7 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-		Revision 1.2 September 10, 2010 <img src='/images/updated.png'>
+		Revision 1.3 May 30, 2012 <img src='/images/updated.png'>
 		
 		<h3>Purpose and Scope</h3>
 		
