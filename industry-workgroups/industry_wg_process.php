@@ -144,8 +144,8 @@
 
 	<p>The Proposal Phase will last no less than thirty (30) days.</p>
 
-	<p>During the Proposal Phase, an individual designated by the Initiating Member(s) shall work with Members to 
-	produce a proposed Charter.  Among other things, during the Proposal Phase, the Initiating Member will work 
+	<p>During the Proposal Phase, one or more individuals designated by the Initiating Member(s) shall work with Members to 
+	produce a proposed Charter.  Among other things, during the Proposal Phase, the Initiating Member(s) will work 
 	with the Members to<br>
 	<ul><li>Define the IWG name, goal, and description 
 	<li>Define the IWG's scope in terms of explicit inclusions and explicit exclusions
