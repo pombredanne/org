@@ -29,7 +29,7 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-		Revision 1.3 May 30, 2012 <img src='/images/updated.png'>
+		Revision 1.4 May 30, 2012 <img src='/images/updated.png'>
 		
 		<h3>Purpose and Scope</h3>
 		
@@ -99,8 +99,8 @@
 				</ul>
 			<li>The guidelines for each of the Steering Committee Participants and Member Participants in the 
 			IWG ("Member Participation Guidelines").  The Member Participation Guidelines in both cases must be 
-			objective, fair, reasonable and non-discriminatory standards and must not be designed to exclude or i
-			mpose commercially unreasonable terms on any particular Member or group of Members.   That said, 
+			objective, fair, reasonable and non-discriminatory standards and must not be designed to exclude or
+			impose commercially unreasonable terms on any particular Member or group of Members.   That said, 
 			the expectation is that the Steering Committee Participant Guidelines will expect a greater 
 			investment of time, effort and resources than the Guidelines for the Member Participants.  The Member 
 			Participation Guidelines will also specify the Eclipse Foundation membership level requirements for 
@@ -115,7 +115,7 @@
 
 		<p><i>Member Participant</i> is a Member of the Eclipse Foundation (excluding Associate Members other 
 		than research institutions, academic institutions or government agencies specifically approved 
-		by the Steering Committee) ) who agrees to actively participate in the IWG 
+		by the Steering Committee) who agrees to actively participate in the IWG 
 		and meets the Member Participation Guidelines.  </p>
 
 		<p>Any Member that satisfies the Member Participation Guidelines of an IWG must be permitted to be a 
@@ -161,12 +161,12 @@
 		<li>all IWG meetings are recorded via minutes and posted to a newsgroup, mailing list and/or wiki 
 		available to all Members.  Minutes will include the names of all participating Members, and record any 
 		decisions made by the IWG. 
-		<li> all Materials, including drafts, are available in a public forum available to all Members.
+		<li>unless stipulated in the IWG Charter, all Materials, including drafts, are available in a public forum available to all Members.
 	</ul
 	<li>Engage the Members to solicit additional IWG participation and define ways the IWG can be leveraged 
 	across Eclipse.
 	<li>Recruit Members of the IWG, including both Participating Members and Steering Committee Members. In addition, 
-	recruit the IWG Chair(s). The Chair(s) must be employees of a Steering Committee Participant. 
+	recruit the IWG Chair(s). The Chair(s) must be employees of a Steering Committee Participants. 
 	The Chair(s) shall act as both the Chair(s) of the IWG as a whole, and of the Steering Committee.
 	</ul>
 	</p>
