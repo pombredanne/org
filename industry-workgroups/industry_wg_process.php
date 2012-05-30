@@ -129,17 +129,14 @@
 		and activities, and will have equal rights of access and participation in the development of all 
 		Materials, including  Marketing Programs, Material development, mailing lists and wikis.</p>
 
-		<p>There is no additional charge or membership fee for Eclipse Members to be a Participant in an IWG.  
-		However, it is expect that IWG Participants may require additional financial or development resources to 
-		undertake Marketing Programs or Material development, all as set out in the Charter.  It is the Steering 
-		Committee's responsibility to articulate the policy for how these additional resources are raised from 
-		the Participants.</p>
+		<p>Unless decided by the IWG Steering Committee and stated in the IWG Charter, there shall be no additional 
+		charges or fees for Eclipse Members to be a Participant in an IWG. </p>
 		
 		<h3>3. Working Group Lifecycle</h3>
 <p>Following is a description of the lifecycle of an IWG.  </p>
 <b>Proposal Phase</b>
 
-	<p>Any Eclipse Strategic or Enterprise Member(s) (an "Initiating Member(s)") can draft a draft IWG Charter 
+	<p>Any Eclipse Strategic, Enterprise, or Solution Member(s) (an "Initiating Member(s)") can create a draft IWG Charter 
 	and request the Eclipse Foundation Executive Director to make it available in the appropriate area on Eclipse.org.  
 	Upon the Eclipse Foundation Executive Director's approval of the draft Charter, the Executive Director will do so, and 
 	an e-mail will be circulated announcing the availability of the draft Charter for review.  The Proposal Phase 
@@ -168,8 +165,9 @@
 	</ul
 	<li>Engage the Members to solicit additional IWG participation and define ways the IWG can be leveraged 
 	across Eclipse.
-	<li>Recruit an IWG Chair(s).  The Chair(s) must be employees of an Eclipse Foundation Strategic or Enterprise 
-	member company.
+	<li>Recruit Members of the IWG, including both Participating Members and Steering Committee Members. In addition, 
+	recruit the IWG Chair(s). The Chair(s) must be employees of a Steering Committee Participant. 
+	The Chair(s) shall act as both the Chair(s) of the IWG as a whole, and of the Steering Committee.
 	</ul>
 	</p>
 
