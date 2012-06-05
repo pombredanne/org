@@ -103,12 +103,6 @@
 	possible to create a composite repository for all Eclispe Labs projects.  To identify the location of your P2 repo, go to the Admin tab and click on the 'Project Summary' sub-tab in 
 	your project. In the 'Project Summary' sub-tab, add a Link under the Link heading. Set the Link text to 'p2repo' and the link url to the url for the p2 repository . Save your changes.</p>
 	
-	
-	<li><b>Why can't I use Git?</b><br><br>
-
-	<p>Google Code Project Hosting only provide support for Subversion and Mercurial.  Eclipse Labs is hosted at Google Code Project Hosting
-	 so we use their code managements systems.</p></li>
-
 	<li><b>Why is the open source license selection restricted to EPL or Apache 2.0, MIT License, Mozilla Public
 	License or New BSD.</b><br><br>
 
