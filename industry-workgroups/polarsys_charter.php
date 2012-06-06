@@ -66,14 +66,14 @@ tool chains must remain operational.</P>
 <p>The
 Polarsys Industry Working Group (IWG) aims at answering these needs
 by</P>
-<ul>
+<blockquote><ul>
 <li>Providing
 a set of industry-friendly open source tools, frameworks, and
 components</li>
 <li>Providing
 collaborative means to make open innovation easier</li>
 <li>Fostering
-exchanges between academics and industrial partner</li>
+exchanges between academics and industry partners</li>
 <li>Operating
 dedicated software repositories, build chains, test facilities, etc.</li>
 <li>Managing
@@ -91,13 +91,13 @@ certification</li>
 <li>Recognizing
 project maturity and company know-how and commitment through a
 branding process that is available only to Polarsys IWG Member organizations</li>
-</ul>
+</ul></blockquote>
 
 <H2><A NAME="Core_domains"></A>Core Domains</H2>
 <P>Polarsys
 focuses on techniques, frameworks and tools to fulfill its goal and
 vision, including</p>
-<ul>
+<blockquote><ul>
 <li>Modeling &ndash; systems, hardware and software
 Code
 analysis (static analysis)</li>
@@ -113,7 +113,7 @@ methods, simulation, and early validation</li>
 components (RTOS, middleware, etc.)
 <li>SoC (System on Chip) simulation and hardware logic (VHDL, SystemC,
 etc.)</li>
-</ul>
+</ul></blockquote>
 <p>Other
 domain specific techniques and tools may be proposed for acceptance
 by the IWG Steering Committee.</p>
@@ -121,7 +121,7 @@ by the IWG Steering Committee.</p>
 <H2><A NAME="Component_Management"></A>Component
 Management</H2>
 <P>Polarsys
-does not intend to re-develop components. A lot of very good
+does not intend to systematically re-develop components. A lot of very good
 solutions answering some Polarsys needs already exist in open
 source. But most of the time, specific issues like durability or
 certification are not taken into account. In this case, Polarsys
@@ -141,16 +141,16 @@ kits, etc.).</P>
 <H2><A NAME="Governance_and_Precedence"></A>Governance
 and Precedence</H2>
 <H4>Applicable Documents</H4>
-<ul>
+<blockquote><ul>
 <li><A HREF="../documents/Eclipse%20BYLAWS%202011_08_15%20Final.pdf">Eclipse
 Bylaws</A></li>
 <li><A HREF="../industry-workgroups/industry_wg_process.php">Industry
 Working Group Process</A></li>
-<li><A HREF="../documents/Eclipse%20MEMBERSHIP%20AGMT%202010_01_05%20Final.pdf"><FONT COLOR="#3366bb">Eclipse
+<li><A HREF="../documents/Eclipse%20MEMBERSHIP%20AGMT%202010_01_05%20Final.pdf">Eclipse
 Membership Agreement</A></li>
 <li><A HREF="http://www.eclipse.org/projects/dev_process/development_process.php">Eclipse
 Development Process</A></li>
-</ul>
+</ul></blockquote>
 
 <P>All
 Polarsys Members must be parties to the Eclipse Membership agreement,
@@ -197,8 +197,8 @@ membership</H3>
 Committee Members</H4>
 <P >Steering
 Committee Members are organizations that view Polarsys as a strategic
-industrial working group and are investing resources to sustain its
-activities. Typical Steering Committee Members include industrial
+industry working group and are investing resources to sustain its
+activities. Typical Steering Committee Members include industry
 users of the technologies and projects supported by Polarsys.</P>
 <P STYLE="margin-left: 1.5cm; margin-bottom: 0.13cm; background: #ffffff; line-height: 0.49cm"><A NAME="Polarsys_Steering_Committee_Member_Fees"></A>
 <B>Polarsys
@@ -419,8 +419,8 @@ Participant Member Fees</B></P>
 <H4><A NAME="Guests"></A>Guests</H4>
 <P>Guests
 are organizations who have been invited for one year by the Steering
-Committee of Polarsys to participate to some aspects of the
-activities of the Industrial Working Group. Typical guests includes
+Committee of Polarsys to participate in some aspects of the
+activities of the Industry Working Group. Typical guests includes
 R&amp;D partners, academic entities, and potential future full-fledged
 members who want to have an closer look before deciding on their
 strategy. When guests are invited to a Polarsys body for 
@@ -479,7 +479,7 @@ Membership Summary</H3>
 	<TR>
 		<TD WIDTH=170 >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm">Member
-			of the Architecture Board</P>
+			of the Architecture Committee</P>
 		</TD>
 		<TD WIDTH=123 >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm">X</P>
@@ -515,7 +515,7 @@ Membership Summary</H3>
 	<TR>
 		<TD WIDTH=170 >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm">Member
-			of Change Control Boards</P>
+			of Project Planning Committees</P>
 		</TD>
 		<TD WIDTH=123 >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm">X</P>
@@ -713,8 +713,7 @@ Membership Summary</H3>
 </TABLE>
 
 <P>
-Services
-are detailed in the section&nbsp;<A NAME="Services"></A>.</P>
+Services are detailed in the <A href="#Services" class=jump>Services</A> section.</P>
 <P>All
 matters related to Membership in the Eclipse Foundation and the
 Polarsys IWG will be governed by the Eclipse Foundation Bylaws,
@@ -830,7 +829,7 @@ request of the Steering Committee.></P>
 <H2 ><A NAME="Governance"></A>Governance</H2>
 <P>Polarsys
 is designed as</P>
-<ul>
+<blockquote><ul>
 <li>a
 user driven organization</li>
 <li>a
@@ -839,11 +838,11 @@ service providers</li>
 <li>a
 means to organize the community of each project or component so that
 users and developers define the roadmap collaboratively</li>
-</ul>
+</ul></blockquote>
 <p>In
 order to implement these principles, the following governance bodies
 have been defined (each a &quot;body&quot;):</P>
-<ul>
+<blockquote><ul>
 <li>The
 Steering Committee</li>
 
@@ -851,20 +850,18 @@ Steering Committee</li>
 General Assembly</li>
 
 <li>The
-Architecture Board</li>
+Architecture Committee</li>
 
 <li>The
 Quality &amp; Branding Committee</li>
 
-<li>Change
-Control Boards</li>
+<li>Project Planning Committees</li>
 
 <li>Project
 Management Committees</li>
-</ul>
+</ul></blockquote>
 
-<H3 ><A NAME="Common_Dispositions"></A>Common
-Dispositions</H3>
+<H3 ><A NAME="Common_Dispositions"></A>Common Dispositions</H3>
 <P>The
 dispositions below apply to all Polarsys bodies, unless otherwise
 specified. For all matters related to membership action, including
@@ -905,7 +902,7 @@ meeting at which a quorum is present.</P>
 and Dates of elections</H4>
 <P >This
 section only applies to the Steering Committee, the Architecture
-Board and the Quality &amp; Branding Committee.</P>
+Committee and the Quality &amp; Branding Committee.</P>
 <P>All
 representatives shall hold office until their respective successors
 are appointed or elected, as applicable. There shall be no
@@ -949,55 +946,38 @@ excluded from body meetings and all representatives shall receive
 notice of the meeting as specified above; however, body meetings need
 not be delayed or rescheduled merely because one or more of the
 representatives cannot attend or participate so long as at least a
-quorum of the body (as defined in Section&nbsp;<A NAME="Quorum">Quorum</A>&nbsp;above)
+quorum of the body (as defined in the 
+<A href="#Common_Dispositions" class=jump>Common Dispositions</A> section above)
 is represented at the body meeting. Electronic voting shall be
 permitted in conjunction with any and all meetings of the body, the
 subject matter of which requires a vote of the body to be delayed
 until each such representative in attendance has conferred
-with his or her respectivemember organization as set forth in
-Section&nbsp;<A NAME="Voting">Voting</A>&nbsp;above.</P>
+with his or her respective member organization as set forth in the 
+<A href="#Voting" class=jump>Voting</A> section above.</P>
 <br/><strong><A NAME="Actions"></A>Actions</strong>
 <P >The
 body may undertake an action only if it was identified in a body
 meeting notice or otherwise identified in a notice of special
 meeting.</P>
 <H4 ><A NAME="Invitations"></A>Invitations</H4>
-<P >The
-body may invite any Polarsys member to any of its meetings. These
+<P >The body may invite any Polarsys member to any of its meetings. These
 invited attendees have no right of vote.</P>
-<H3 ><A NAME="Steering_Committee"></A>Steering
-Committee</H3>
+<H3 ><A NAME="Steering_Committee"></A>Steering Committee</H3>
 <H4 ><A NAME="Powers_and_Duties"></A>Powers and Duties</H4>
-<P >Steering
-committee members are required to</P>
-<ul>
-<li>Define
-the strategy of the IWG</li>
-
-<li>Define
-the global roadmap</li>
-
-<li>Discuss
-and amend the charter and the participation agreement</li>
-
-<li>Define
-the budget and fees each year</li>
-
-<li>Define
-and follow maketing and communication activities</li>
-
-<li>Invite
-guest members</li>
-</ul>
+<P>Steering committee members are required to:</P>
+<blockquote><ul>
+<li>Define the strategy of the IWG</li>
+<li>Define the global roadmap</li>
+<li>Discuss and amend the charter and the participation agreement</li>
+<li>Define the budget and fees each year</li>
+<li>Define and follow maketing and communication activities</li>
+<li>Invite guest members</li>
+</ul></blockquote>
 
 <H4 ><A NAME="Composition"></A>Composition</H4>
-<P >
-Each
-Steering Committee Member of the IWG has a seat on the Steering
+<P >Each Steering Committee Member of the IWG has a seat on the Steering
 Committee.</P>
-<P >
-At
-least one seat is allocated to Participant Members. An additional
+<P >At least one seat is allocated to Participant Members. An additional
 seat on the Committee shall be allocated to the Participant Members
 for every additional five (5) seats beyond one (1) allocated to
 Steering Committee Members. Participant Member seats are allocated
@@ -1027,127 +1007,89 @@ the General Assembly.</P>
 Management</H4>
 <P >The
 General Assembly meets at least once a year.</P>
-<H3 ><A NAME="Architecture_Board"></A>Architecture
-Board</H3>
-<H4 ><A NAME="Powers_and_Duties_3"></A>Powers and
-Duties</H4>
-<P >Architecture
-Board members are required to:</P>
-<P >
-<li>Ensure
-the technical consistency of Polarsys projects</P>
-<P >
-<li>Ensure
-that Polarsys projects achieve VLTS objectives</P>
-<P >
-<li>Recommend
-technologies</P>
-<P >
-<li>Establish
-technical guidelines</P>
-<P >
-<li>The
-Architecture Board validates new project proposals</P>
+<H3 ><A NAME="Architecture_Committee"></A>Architecture Committee</H3>
+<H4 ><A NAME="Powers_and_Duties_3"></A>Powers and Duties</H4>
+<P >Architecture Committee members are required to:</P>
+<blockquote><ul>
+<li>Ensure the technical consistency of Polarsys projects</li>
+<li>Ensure that Polarsys projects achieve VLTS objectives</li>
+<li>Recommend technologies</li>
+<li>Establish technical guidelines</li>
+<li>The Architecture Committee validates new project proposals</li>
+</ul></blockquote>
+
 <H4 ><A NAME="Composition_3"></A>Composition</H4>
-<P >
-<li>Each
-Steering Committee Member of the IWG has a seat on the Architecture
-Board.</P>
-<P >
-<li>Each
-Change Control Board elects one of its members to the Architecture
-Board.</P>
-<P >
-<li>The
-Architecture Board elects a chairman who reports to the Steering
+<blockquote><ul>
+<li>Each Steering Committee Member of the IWG has a seat on the Architecture Committee.</li>
+<li>Each Project Planning Committee elects one of its members to the Architecture Committee.</li>
+<li>The Architecture Committee elects a chairman who reports to the Steering
 Committee. This chairman is elected among the members of the
-Architecture Board. He will serves from April 1 to March 31 of each
+Architecture Committee. He will serves from April 1 to March 31 of each
 calendar year, or until his successor is elected and qualified, or as
-otherwise provided for in this Charter.</P>
+otherwise provided for in this Charter.</li>
+</ul></blockquote>
+
 <H4 ><A NAME="Meeting_Management_3"></A>Meeting
 Management</H4>
 <P >The
-Architecture Board meets at least twice a year.</P>
+Architecture Committee meets at least twice a year.</P>
 <H3 ><A NAME="The_Quality_and_Branding_Committee"></A>The
 Quality and Branding Committee</H3>
-<H4 ><A NAME="Powers_and_Duties_4"></A>Powers and
-Duties</H4>
-<P >The
-Quality and Branding Committee members are required to:</P>
-<P >
-<li>Ensure
-the consistency of Branding process and attribute maturity labels
-(see Branding Charter Wiki Page)</P>
-<P >
-<li>Define
-the IWG quality kit and maturity process</P>
-<P >
-<li>Validate
-that the projects conform to the IWG quality kit</P>
-<P >
-<li>Validate
-that the projects apply the IP Process</P>
+<H4 ><A NAME="Powers_and_Duties_4"></A>Powers and Duties</H4>
+<P >The Quality and Branding Committee members are required to:</P>
+<blockquote><ul>
+<li>Ensure the consistency of Branding process and attribute maturity labels
+(see Branding Charter Wiki Page)</li>
+<li>Define the IWG quality kit and maturity process</li>
+<li>Validate that the projects conform to the IWG quality kit</li>
+<li>Validate that the projects apply the IP Process</li>
+</ul></blockquote>
+
 <H4 ><A NAME="Composition_4"></A>Composition</H4>
-<P >
-<li>Each
-Steering Committee Member of the IWG has a seat on the Quality and
-Branding Committee.</P>
-<P >
-<li>At
-least one seat is allocated to Participant Members. An additional
+<blockquote><ul>
+<li>Each Steering Committee Member of the IWG has a seat on the Quality and
+Branding Committee.</li>
+<li>At least one seat is allocated to Participant Members. An additional
 seat on the Committee shall be allocated to the Participant Members
 for every additional five (5) seats beyond one (1) allocated to
 Steering Committee Members. Participant Member seats are allocated
 following the Eclipse &quot;Single Transferable Vote&quot;, as
-defined in the Eclipse Bylaws.</P>
-<P >
-<li>The
-Quality &amp; Branding Committee elects a chairman who reports to the
+defined in the Eclipse Bylaws.</li>
+<li>The Quality &amp; Branding Committee elects a chairman who reports to the
 Steering Committee. This chairman is elected among the members of the
 Quality &amp; Branding Committee. He will serves from April 1 to
 March 31 of each calendar year, or until his successor is elected and
-qualified, or as otherwise provided for in this Charter.</P>
-<H4 ><A NAME="Meeting_Management_4"></A>Meeting
-Management</H4>
-<P >The
-Quality and Branding Committee meets at least twice a year.</P>
-<H3 ><A NAME="Change_Control_Boards"></A>Change
-Control Boards</H3>
-<P >Each
-component or release train (bundle) in the IWG are driven by a Change
-Control Board.</P>
-<H4 ><A NAME="Powers_and_Duties_5"></A>Powers and
-Duties</H4>
-<P >Change
-Control Boards members are required to:</P>
-<P >
-<li>Instantiate
-IWG global roadmaps for the project</P>
-<P >
-<li>Apply
-the Architecture Board recommendations</P>
-<P >
-<li>Plan
-and arbitrate defects fixes and improvements implementation.</P>
-<P >
-<li>Ensure
-the relationships with the technical team of the project.</P>
+qualified, or as otherwise provided for in this Charter.</li>
+</ul></blockquote>
+
+<H4 ><A NAME="Meeting_Management_4"></A>Meeting Management</H4>
+<P >The Quality and Branding Committee meets at least twice a year.</P>
+<H3 ><A NAME="Project_Planning_Committees"></A>Project Planning Committees</H3>
+<P >Each component or release train (bundle) in the IWG are driven by a Project Planning Committee.</P>
+<H4 ><A NAME="Powers_and_Duties_5"></A>Powers and Duties</H4>
+<P >Project Planning Committees members are required to:</P>
+<blockquote><ul>
+<li>Instantiate IWG global roadmaps for the project</li>
+<li>Apply the Architecture Committee recommendations</li>
+<li>Plan and arbitrate defects fixes and improvements implementation.</li>
+<li>Ensure the relationships with the technical team of the project.</li>
+</ul></blockquote>
+
 <H4 ><A NAME="Composition_5"></A>Composition</H4>
-<P >
-<li>Each
-Steering Committee or Participant Member of the IWG can have a seat
-on the Change Control Board.</P>
-<P >
-<li>Each
-Change Control Board elects a chairman who will represent it to the
-Architecture Board. This chairman is elected among the members of
-each Change Control Board. He will serves from April 1 to March 31 of
+<blockquote><ul>
+<li>Each Steering Committee or Participant Member of the IWG can have a seat
+on the Project Planning Committee.</li>
+<li>Each Project Planning Committee elects a chairman who will represent it to the
+Architecture Committee. This chairman is elected among the members of
+each Project Planning Committee. He will serves from April 1 to March 31 of
 each calendar year, or until his successor is elected and qualified,
-or as otherwise provided for in this Charter.</P>
+or as otherwise provided for in this Charter.</li>
+</ul></blockquote>
+
 <H4 ><A NAME="Meeting_Management_5"></A>Meeting
 Management</H4>
 <P >The
-Change Control Boards meet at least twice a year.</P>
+Project Planning Committees meet at least twice a year.</P>
 <H3 ><A NAME="Project_Management_Committees"></A>Project
 Management Committees</H3>
 <P >Any
