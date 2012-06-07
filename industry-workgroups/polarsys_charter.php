@@ -727,9 +727,8 @@ of Polarsys after the date of the termination.</P>
 
 <P>The
 private assets of terminated members, such as test cases or custom build
-chains, shall be archived and the archive sent back to their copyright
-holders under an open source license specified by the Steering
-Committee. The private assets of members terminated can be removed from
+chains, shall be archived and the archive returned to the terminated
+member. The private assets of members terminated can be removed from
 Polarsys storages forty-five (45) days after the termination.
 Nevertheless, the terminated member can request to the Steering
 Committee that their archived private assets be stored for two (2) years.
