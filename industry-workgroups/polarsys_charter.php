@@ -192,7 +192,7 @@ detailed in the <A HREF="../documents/Eclipse%20MEMBERSHIP%20AGMT%202010_01_05%2
 Membership Agreement.</P>
 
 <H3 ><A NAME="Classes_of_membership"></A>Classes of
-membership</H3>
+Membership</H3>
 <H4 ><A NAME="Steering_Committee_Members"></A>Steering
 Committee Members</H4>
 <P >Steering
@@ -210,7 +210,7 @@ Steering Committee Member Fees</B></P>
 		</TD>
 		<TD >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><B>Eclipse
-			Solution<BR>Membership</B></P>
+			Solutions<BR>Membership</B></P>
 		</TD>
 		<TD >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><B>Polarsys<BR>Membership</B></P>
@@ -315,7 +315,7 @@ Participant Member Fees</B></P>
 		</TD>
 		<TD >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><B>Eclipse
-			Solution<BR>Membership</B></P>
+			Solutions<BR>Membership</B></P>
 		</TD>
 		<TD >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><B>Polarsys<BR>Membership</B></P>
