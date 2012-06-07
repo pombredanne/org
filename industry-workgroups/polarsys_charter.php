@@ -449,7 +449,7 @@ Membership Summary</H3>
 		</TD>
 		<TD WIDTH=113 >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><B>Polarsys
-			Solution Member</B></P>
+			Solutions Member</B></P>
 		</TD>
 		<TD >
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><B>Committer</B></P>
