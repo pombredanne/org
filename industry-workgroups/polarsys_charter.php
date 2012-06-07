@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "* * * DRAFT - Not for Publication * * *<br/>Eclipse Polarsys Industry Working Group Charter";
+	$pageTitle 		= "* * * DRAFT - Not for Publication * * *<br/>Polarsys Industry Working Group Charter";
 	$pageKeywords	= "aerospace, systems, engineering, polarsys, safety, iwg, charter, eclipse";
 	$pageAuthor		= "Mike Milinkovich";
 	
@@ -61,7 +61,7 @@ products have life cycles from 30 to 70 years. During this time, the
 tool chains must remain operational.</li>
 </ul></blockquote>
 
-<p>The
+<p>The 
 Polarsys Industry Working Group (IWG) aims at answering these needs
 by: </P>
 <blockquote><ul>
