@@ -184,7 +184,7 @@ review process will be followed by all Polarsys open source projects.</P>
 entity must be at least a <A HREF="../../membership/become_a_member/membershipTypes.php#solutions">Solutions
 Member</A> of
 the Eclipse Foundation, have executed the IWG Participation
-Agreement, and adhere to the requirements set forth in this Charter. The Eclipse Solution Member fees appear
+Agreement, and adhere to the requirements set forth in this charter. The Eclipse Solution Member fees appear
 in the tables below for convenience only; they are determined as
 described in the <A HREF="../documents/Eclipse%20BYLAWS%202011_08_15%20Final.pdf">Eclipse
 Bylaws</A> and
@@ -497,7 +497,7 @@ Membership Summary</H3>
 	<TR>
 		<TD WIDTH=170>
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm">Quality
-			&amp; Branding Committee</P>
+			and Branding Committee</P>
 		</TD>
 		<TD WIDTH=123>
 			<P ALIGN=CENTER STYLE="border: none; padding: 0cm">X</P>
@@ -853,7 +853,7 @@ General Assembly</li>
 Architecture Committee</li>
 
 <li>The
-Quality &amp; Branding Committee</li>
+Quality and Branding Committee</li>
 
 <li>Project Planning Committees</li>
 
@@ -899,10 +899,10 @@ representatives in good standing represented at a Steering Committee
 meeting at which a quorum is present.</P>
 
 <H4 ><A NAME="Term_and_Dates_of_elections"></A>Term
-and Dates of elections</H4>
+and Dates of Elections</H4>
 <P >This
 section only applies to the Steering Committee, the Architecture
-Committee and the Quality &amp; Branding Committee.</P>
+Committee and the Quality and Branding Committee.</P>
 <P>All
 representatives shall hold office until their respective successors
 are appointed or elected, as applicable. There shall be no
@@ -914,28 +914,28 @@ Committee Members</strong>
 <P>Steering
 Committee member representatives shall serve in such capacity until
 their removal by their respective appointing member
-organization or as otherwise provided for in this Charter.</P>
+organization or as otherwise provided for in this charter.</P>
 <br/><strong><A NAME="Elected_representatives"></A>Elected
 Representatives</strong>
 <P>Elected
 representatives shall each serve one-year terms and shall be elected
 to serve from April 1 to March 31 of each calendar year, or until
 their respective successors are elected and qualified, or as
-otherwise provided for in this Charter. Procedures governing
+otherwise provided for in this charter. Procedures governing
 elections of representatives may be established pursuant to
 resolutions of the Steering Committee provided that such resolutions
-are not inconsistent with any provision of this Charter.</P>
+are not inconsistent with any provision of this charter.</P>
 
-<H4 ><A NAME="Meetings_Management"></A>Meetings
+<H4 ><A NAME="Meetings_Management"></A>Meeting
 Management</H4>
-<br/><strong><A NAME="Place_of_meetings"></A>Place of meetings</strong>
+<br/><strong><A NAME="Place_of_meetings"></A>Place of Meetings</strong>
 <P>All
 meetings may be held at any place that has been designated from
 time-to-time by resolution of the corresponding body. All meetings
 may be held remotely using phone calls, video calls, or any other means
 as designated from time-to-time by resolution of the corresponding
 body.</P>
-<br/><strong><A NAME="Regular_meetings"></A>Regular meetings</strong>
+<br/><strong><A NAME="Regular_meetings"></A>Regular Meetings</strong>
 <P >No
 body meeting will be deemed to have been validly held unless a notice
 of same has been provided to each of the representative in Good
@@ -964,7 +964,7 @@ meeting.</P>
 invited attendees have no right of vote.</P>
 <H3 ><A NAME="Steering_Committee"></A>Steering Committee</H3>
 <H4 ><A NAME="Powers_and_Duties"></A>Powers and Duties</H4>
-<P>Steering committee members are required to:</P>
+<P>Steering committee members are required to</P>
 <blockquote><ul>
 <li>Define the strategy of the IWG</li>
 <li>Define the global roadmap</li>
@@ -975,20 +975,20 @@ invited attendees have no right of vote.</P>
 </ul></blockquote>
 
 <H4 ><A NAME="Composition"></A>Composition</H4>
-<P >Each Steering Committee Member of the IWG has a seat on the Steering
+<P >Each Steering Committee member of the IWG has a seat on the Steering
 Committee.</P>
-<P >At least one seat is allocated to Participant Members. An additional
-seat on the Committee shall be allocated to the Participant Members
+<P >At least one seat is allocated to participant members. An additional
+seat on the committee shall be allocated to the participant members
 for every additional five (5) seats beyond one (1) allocated to
-Steering Committee Members. Participant Member seats are allocated
-following the Eclipse &quot;Single Transferable Vote&quot;, as
+Steering Committee members. Participant member seats are allocated
+following the Eclipse &quot;single transferable vote&quot;, as
 defined in the Eclipse Bylaws.</P>
 <P >
 The
 Steering Committee elects among its members a chairman who will
 represent the IWG. They will serve from April 1 to March 31 of each
 calendar year, or until their respective successors are elected and
-qualified, or as otherwise provided for in this Charter.</P>
+qualified, or as otherwise provided for in this charter.</P>
 <H4 ><A NAME="Meeting_Management"></A>Meeting
 Management</H4>
 <P >The
@@ -1009,13 +1009,13 @@ Management</H4>
 General Assembly meets at least once a year.</P>
 <H3 ><A NAME="Architecture_Committee"></A>Architecture Committee</H3>
 <H4 ><A NAME="Powers_and_Duties_3"></A>Powers and Duties</H4>
-<P >Architecture Committee members are required to:</P>
+<P >Architecture Committee members are required to</P>
 <blockquote><ul>
 <li>Ensure the technical consistency of Polarsys projects</li>
 <li>Ensure that Polarsys projects achieve VLTS objectives</li>
 <li>Recommend technologies</li>
 <li>Establish technical guidelines</li>
-<li>The Architecture Committee validates new project proposals</li>
+<li>Validate new project proposals</li>
 </ul></blockquote>
 
 <H4 ><A NAME="Composition_3"></A>Composition</H4>
@@ -1026,7 +1026,7 @@ General Assembly meets at least once a year.</P>
 Committee. This chairman is elected among the members of the
 Architecture Committee. He will serves from April 1 to March 31 of each
 calendar year, or until his successor is elected and qualified, or as
-otherwise provided for in this Charter.</li>
+otherwise provided for in this charter.</li>
 </ul></blockquote>
 
 <H4 ><A NAME="Meeting_Management_3"></A>Meeting
@@ -1036,54 +1036,54 @@ Architecture Committee meets at least twice a year.</P>
 <H3 ><A NAME="The_Quality_and_Branding_Committee"></A>The
 Quality and Branding Committee</H3>
 <H4 ><A NAME="Powers_and_Duties_4"></A>Powers and Duties</H4>
-<P >The Quality and Branding Committee members are required to:</P>
+<P >The Quality and Branding Committee members are required to</P>
 <blockquote><ul>
-<li>Ensure the consistency of Branding process and attribute maturity labels
-(see Branding Charter Wiki Page)</li>
+<li>Ensure the consistency of the branding process and attribute maturity labels
+(see the Branding Charter Wiki Page)</li>
 <li>Define the IWG quality kit and maturity process</li>
 <li>Validate that the projects conform to the IWG quality kit</li>
-<li>Validate that the projects apply the IP Process</li>
+<li>Validate that the projects apply the IP process</li>
 </ul></blockquote>
 
 <H4 ><A NAME="Composition_4"></A>Composition</H4>
 <blockquote><ul>
-<li>Each Steering Committee Member of the IWG has a seat on the Quality and
+<li>Each Steering Committee member of the IWG has a seat on the Quality and
 Branding Committee.</li>
-<li>At least one seat is allocated to Participant Members. An additional
-seat on the Committee shall be allocated to the Participant Members
+<li>At least one seat is allocated to participant members. An additional
+seat on the committee shall be allocated to the participant members
 for every additional five (5) seats beyond one (1) allocated to
-Steering Committee Members. Participant Member seats are allocated
-following the Eclipse &quot;Single Transferable Vote&quot;, as
+Steering Committee members. Participant member seats are allocated
+following the Eclipse &quot;single transferable vote&quot;, as
 defined in the Eclipse Bylaws.</li>
-<li>The Quality &amp; Branding Committee elects a chairman who reports to the
+<li>The Quality and Branding Committee elects a chairman who reports to the
 Steering Committee. This chairman is elected among the members of the
-Quality &amp; Branding Committee. He will serves from April 1 to
+Quality and Branding Committee. He will serves from April 1 to
 March 31 of each calendar year, or until his successor is elected and
-qualified, or as otherwise provided for in this Charter.</li>
+qualified, or as otherwise provided for in this charter.</li>
 </ul></blockquote>
 
 <H4 ><A NAME="Meeting_Management_4"></A>Meeting Management</H4>
 <P >The Quality and Branding Committee meets at least twice a year.</P>
 <H3 ><A NAME="Project_Planning_Committees"></A>Project Planning Committees</H3>
-<P >Each component or release train (bundle) in the IWG are driven by a Project Planning Committee.</P>
+<P >Each component or release train (bundle) in the IWG is driven by a Project Planning Committee.</P>
 <H4 ><A NAME="Powers_and_Duties_5"></A>Powers and Duties</H4>
-<P >Project Planning Committees members are required to:</P>
+<P >Project Planning Committee members are required to</P>
 <blockquote><ul>
 <li>Instantiate IWG global roadmaps for the project</li>
 <li>Apply the Architecture Committee recommendations</li>
-<li>Plan and arbitrate defects fixes and improvements implementation.</li>
-<li>Ensure the relationships with the technical team of the project.</li>
+<li>Plan and arbitrate defects fixes and improvements implementation</li>
+<li>Ensure the relationships with the technical team of the project</li>
 </ul></blockquote>
 
 <H4 ><A NAME="Composition_5"></A>Composition</H4>
 <blockquote><ul>
-<li>Each Steering Committee or Participant Member of the IWG can have a seat
+<li>Each Steering Committee or participant member of the IWG can have a seat
 on the Project Planning Committee.</li>
 <li>Each Project Planning Committee elects a chairman who will represent it to the
 Architecture Committee. This chairman is elected among the members of
 each Project Planning Committee. He will serves from April 1 to March 31 of
 each calendar year, or until his successor is elected and qualified,
-or as otherwise provided for in this Charter.</li>
+or as otherwise provided for in this charter.</li>
 </ul></blockquote>
 
 <H4 ><A NAME="Meeting_Management_5"></A>Meeting
