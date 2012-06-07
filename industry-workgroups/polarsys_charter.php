@@ -153,7 +153,7 @@ Development Process</A></li>
 </ul></blockquote>
 
 <P>All
-Polarsys Members must be parties to the Eclipse Membership agreement,
+Polarsys Members must be parties to the Eclipse Membership Agreement,
 including the requirement set forth in Section 2.2 to follow the
 Bylaws and then-current policies of the Eclipse Foundation. In the
 event of any conflict between the terms set forth in this Polarsys
@@ -184,7 +184,7 @@ review process will be followed by all Polarsys open source projects.</P>
 entity must be at least a <A HREF="../../membership/become_a_member/membershipTypes.php#solutions">Solutions
 Member</A> of
 the Eclipse Foundation, have executed the IWG Participation
-Agreement, and adhere to the requirements set forth in this charter. The Eclipse Solution Member fees appear
+Agreement, and adhere to the requirements set forth in this charter. The Eclipse Solutions Member fees appear
 in the tables below for convenience only; they are determined as
 described in the <A HREF="../documents/Eclipse%20BYLAWS%202011_08_15%20Final.pdf">Eclipse
 Bylaws</A> and
@@ -196,9 +196,9 @@ membership</H3>
 <H4 ><A NAME="Steering_Committee_Members"></A>Steering
 Committee Members</H4>
 <P >Steering
-Committee Members are organizations that view Polarsys as a strategic
+Committee members are organizations that view Polarsys as a strategic
 industry working group and are investing resources to sustain its
-activities. Typical Steering Committee Members include industry
+activities. Typical Steering Committee members include industry
 users of the technologies and projects supported by Polarsys.</P>
 <P STYLE="margin-left: 1.5cm; margin-bottom: 0.13cm; background: #ffffff; line-height: 0.49cm"><A NAME="Polarsys_Steering_Committee_Member_Fees"></A>
 <B>Polarsys
@@ -299,7 +299,7 @@ Steering Committee Member Fees</B></P>
 <H4><A NAME="Participant_members"></A>Participant
 Members</H4>
 <P>Participant
-Members are organizations that view Polarsys as an important part of
+members are organizations that view Polarsys as an important part of
 their corporate and product strategy and offer products and services
 based on, or with, Polarsys. These organizations want to participate
 in the development of the Polarsys ecosystem. Typical Participant
@@ -430,7 +430,7 @@ participation agreement.</P>
 
 <H4><A NAME="Committers"></A>Committers</H4>
 <P>Committer
-Members are individuals who through a process of meritocracy defined
+members are individuals who through a process of meritocracy defined
 by the Eclipse Development Process are able to contribute and commit
 code to Polarsys projects for which they are responsible. Committers may be members by virtue of working
 for a member organization, or may choose to complete the membership
@@ -715,7 +715,7 @@ Membership Summary</H3>
 <P>
 Services are detailed in the <A href="#Services" class=jump>Services</A> section.</P>
 <P>All
-matters related to Membership in the Eclipse Foundation and the
+matters related to membership in the Eclipse Foundation and the
 Polarsys IWG will be governed by the Eclipse Foundation Bylaws,
 Membership Agreement, and Eclipse Industry Working Group Process.
 These matters include, without limitation delinquency, payment of
@@ -723,17 +723,17 @@ dues, termination, resignation, reinstatement, assignment, and the
 distribution of assets upon dissolution.</P>
 
 <P>Members
-who resign, or otherwise terminate their membership in the Polarsys
-IWG, lose their rights to access and use the private assets and data
+who resign or otherwise terminate their membership in the Polarsys
+IWG lose their rights to access and use the private assets and data
 of Polarsys after the date of the termination.</P>
 
 <P>The
-private data of terminated Members, such as test cases or custom build
+private data of terminated members, such as test cases or custom build
 chains, shall be archived and the archive sent back to their copyright
 holders under an open source license specified by the Steering
-Committee. The private data of Members terminated can be removed from
+Committee. The private data of members terminated can be removed from
 Polarsys storages forty-five (45) days after the termination.
-Nevertheless, the terminated Member can request to the Steering
+Nevertheless, the terminated member can request to the Steering
 Committee that their archived private data be stored for two (2) years.
 This request shall be sent within thirty (30) days after the
 termination and is accepted at the sole discretion of the
@@ -741,7 +741,7 @@ Steering Committee.</P>
 
 <P>The
 survival of any licenses to Polarsys private assets acquired by a
-Member during the period of membership shall be as specified in the
+member during the period of membership shall be as specified in the
 license.</P>
 
 <H2><A NAME="Services"></A>Services</H2>
@@ -754,7 +754,7 @@ forums, project mailing lists, and other services provided as the
 open source collaboration infrastructure are publicly visible.
 Committers have write access to this infrastructure, and as such have
 the rights and obligations as set forth in the Eclipse Development
-Process and the various Eclipse Committer Agreements. The catalog of
+Process and the various Eclipse committer agreements. The catalog of
 Polarsys components is part of this collaboration infrastructure.</P>
 
 <H3><A NAME="LTS_build_and_test_infrastructure"></A>LTS
@@ -775,7 +775,7 @@ long term support releases (post SR2) are only accessible to Polarsys
 member companies. Such binary code may not be redistributed unless it
 is integrated into, or updates, a commercial software product or
 custom-developed software, and is distributed pursuant to an Object
-Code Lcense.</P>
+Code License.</P>
 <H3><A NAME="Hosting_custom_builds_on_the_Polarsys_in"></A>
 Hosting Custom Build on the Polarsys Infrastructure</H3>
 <P >This
@@ -830,12 +830,12 @@ request of the Steering Committee.></P>
 <P>Polarsys
 is designed as</P>
 <blockquote><ul>
-<li>a
+<li>A
 user driven organization</li>
-<li>a
+<li>A
 means to foster a vibrant and sustainable ecosystem of components and
 service providers</li>
-<li>a
+<li>A
 means to organize the community of each project or component so that
 users and developers define the roadmap collaboratively</li>
 </ul></blockquote>
@@ -938,8 +938,8 @@ body.</P>
 <br/><strong><A NAME="Regular_meetings"></A>Regular Meetings</strong>
 <P >No
 body meeting will be deemed to have been validly held unless a notice
-of same has been provided to each of the representative in Good
-Standing at least thirty (30) calendar days prior to such meeting,
+of same has been provided to each of the representative in good
+standing at least thirty (30) calendar days prior to such meeting,
 which notice will identify all potential actions to be undertaken by
 the body at the body meeting. No representative will be intentionally
 excluded from body meetings and all representatives shall receive
@@ -975,20 +975,23 @@ invited attendees have no right of vote.</P>
 </ul></blockquote>
 
 <H4 ><A NAME="Composition"></A>Composition</H4>
-<P >Each Steering Committee member of the IWG has a seat on the Steering
-Committee.</P>
-<P >At least one seat is allocated to participant members. An additional
+<blockquote><ul>
+<li>Each Steering Committee member of the IWG has a seat on the Steering
+Committee.</li>
+<li>At least one seat is allocated to participant members. An additional
 seat on the committee shall be allocated to the participant members
 for every additional five (5) seats beyond one (1) allocated to
 Steering Committee members. Participant member seats are allocated
 following the Eclipse &quot;single transferable vote&quot;, as
-defined in the Eclipse Bylaws.</P>
-<P >
+defined in the Eclipse Bylaws.</li>
+<li>
 The
 Steering Committee elects among its members a chairman who will
 represent the IWG. They will serve from April 1 to March 31 of each
 calendar year, or until their respective successors are elected and
-qualified, or as otherwise provided for in this charter.</P>
+qualified, or as otherwise provided for in this charter.</li>
+</ul></blockquote>
+
 <H4 ><A NAME="Meeting_Management"></A>Meeting
 Management</H4>
 <P >The
