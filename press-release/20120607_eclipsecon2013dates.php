@@ -37,9 +37,8 @@ located at the Seaport Hotel and World Trade Center.  More details about Eclipse
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://eclipse.org/paho/">Eclipse Paho project</a></li>
-				<li><a href="http://eclipse.org/koneki/">Eclipse  Koneki project</a></li>
-				<li><a href="http://wiki.eclipse.org/Machine-to-Machine">Information about the M2M IWG</a></li>
+				<li><a href="http://www.eclipsecon.org/europe2012/">EclipseCon Europe</a></li>
+				<li><a href="http://www.seaportboston.com/">Seaport Hotel and World Trade Center</a></li>
 			</ul>
 		</div>
 	</div>
