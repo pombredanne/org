@@ -305,7 +305,7 @@ based on, or with, Polarsys. These organizations want to participate
 in the development of the Polarsys ecosystem. Typical Participant
 members are services providers for the technologies and products
 supported by Polarsys.</P>
-<P><A NAME="Polarsys_Participant_Member_Fees"></A>
+<P STYLE="margin-left: 1.5cm; margin-bottom: 0.13cm; background: #ffffff; line-height: 0.49cm"><A NAME="Polarsys_Participant_Member_Fees"></A>
 <B>Polarsys
 Participant Member Fees</B></P>
 <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 BGCOLOR="#ffffff">
@@ -758,7 +758,7 @@ Process and the various Eclipse committer agreements. The catalog of
 Polarsys components is part of this collaboration infrastructure.</P>
 
 <H3><A NAME="LTS_build_and_test_infrastructure"></A>LTS
-build and Test Infrastructure</H3>
+Build and Test Infrastructure</H3>
 <P>Additionally,
 Polarsys aims to provide a specific build and test infrastructure for long term support. This infrastructure will enable build and test of
 specific long term releases for a duration of up to 10 years in a
@@ -794,7 +794,7 @@ levels</A>. This
 evaluation is done collaboratively by component developers, component
 integrators, and component users.</P>
 <H3><A NAME="Access_to_qualification_kits"></A>Access
-to qualification kits</H3>
+to Qualification Kits</H3>
 <P>Many
 Polarsys components are used in the development of certified and
 qualified embedded software. As
