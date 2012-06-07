@@ -38,34 +38,32 @@ security, transportation, energy, health care or telecommunications &ndash;
 safety-critical and embedded systems development must meet several
 important requirements.</P>
 
-<H4>Innovation</H4>
-<P>Ensuring
+<blockquote><ul>
+<li><strong>Innovation:</strong> Ensuring
 the highest levels of safety, reliability, service, and performance
 implies a continuous effort of research and development, not only
 with the products themselves but also with the development methods
-and tools.</P>
+and tools.</li>
 
-<H4>Computer Assistance and Automation</H4>
-<P>The
+<li><strong>Computer Assistance and Automation:</strong> The
 numerous and complex operations required to develop and maintain
 industrial systems imply a high level of automation based on software
-tools.</P>
+tools.</li>
 
-<H4>Certification</H4>
-<P>From
+<li><strong>Certification:</strong> From
 DO178 to ISO26262 and ECSS 40, the development of safety-critical and
 embedded systems has to comply with strict regulations impacting not
 only the final product, but also the development process and the
-tools used to build it.</P>
+tools used to build it.</li>
 
-<H4>Very Long Term Support</H4>
-<P>Typical
+<li><strong>Very Long Term Support:</strong> Typical
 products have life cycles from 30 to 70 years. During this time, the
-tool chains must remain operational.</P>
+tool chains must remain operational.</li>
+</ul></blockquote>
 
 <p>The
 Polarsys Industry Working Group (IWG) aims at answering these needs
-by</P>
+by: </P>
 <blockquote><ul>
 <li>Providing
 a set of industry-friendly open source tools, frameworks, and
@@ -728,13 +726,13 @@ IWG lose their rights to access and use the private assets and data
 of Polarsys after the date of the termination.</P>
 
 <P>The
-private data of terminated members, such as test cases or custom build
+private assets of terminated members, such as test cases or custom build
 chains, shall be archived and the archive sent back to their copyright
 holders under an open source license specified by the Steering
-Committee. The private data of members terminated can be removed from
+Committee. The private assets of members terminated can be removed from
 Polarsys storages forty-five (45) days after the termination.
 Nevertheless, the terminated member can request to the Steering
-Committee that their archived private data be stored for two (2) years.
+Committee that their archived private assets be stored for two (2) years.
 This request shall be sent within thirty (30) days after the
 termination and is accepted at the sole discretion of the
 Steering Committee.</P>
@@ -746,7 +744,7 @@ license.</P>
 
 <H2><A NAME="Services"></A>Services</H2>
 <H3><A NAME="Open_source_collaboration_infrastructure"></A>
-Open Source Collaboration Infrastructure</H3>
+Collaboration Infrastructure</H3>
 <P>The
 Polarsys IWG leverages the usual Eclipse open source collaboration
 infrastructure. As such, source code repositories, Bugzilla, wikis,
@@ -756,6 +754,10 @@ Committers have write access to this infrastructure, and as such have
 the rights and obligations as set forth in the Eclipse Development
 Process and the various Eclipse committer agreements. The catalog of
 Polarsys components is part of this collaboration infrastructure.</P>
+<p>In addition, a private, members-only collaboration infrastructure for 
+the exclusive use of Members of the Polarsys Industry Working Group
+will be provided. Access rights to, and the licensing terms for, this infrastructure
+will be determinted by the Steering Committee, with the approval of the EMO.</p> 
 
 <H3><A NAME="LTS_build_and_test_infrastructure"></A>LTS
 Build and Test Infrastructure</H3>
@@ -823,8 +825,9 @@ order to promote the maturation of research prototypes and to foster
 open innovation, Polarsys provides the ability to host members'
 time-limited private projects that may become new Polarsys
 components. Private projects may only be initiated by Steering
-Committee members. Guests may participate in private projects at the
-request of the Steering Committee.></P>
+Committee members. The Steering Committee, with the approval of the EMO, will 
+establish the licensing requirements for private projects. Guests may participate 
+in private projects at the request of the Steering Committee.</P>
 
 <H2 ><A NAME="Governance"></A>Governance</H2>
 <P>Polarsys
