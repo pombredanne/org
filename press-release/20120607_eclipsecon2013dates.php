@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "EclipseCon 2013 Coming to Boston";
+	$pageTitle 		= "EclipseCon 2013 Is Coming to Boston";
 	$pageKeywords	= "eclipsecon eclipse java conference";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -29,7 +29,7 @@
 <p>The Eclipse Foundation is pleased to announce that EclipseCon North America 2013 will be held March 25-28, 2013 in Boston, MA.  The conference will be
 located at the Seaport Hotel and World Trade Center.  More details about EclipseCon 2013 and the call for speakers will be made available in September, 2012.
 
-<p>The next EclipseCon Europe is scheduled for October 23-25 in Ludwigsburg, Germany.</p>
+<p>In the meantime, the next EclipseCon Europe is scheduled for October 23-25 in Ludwigsburg, Germany.</p>
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
