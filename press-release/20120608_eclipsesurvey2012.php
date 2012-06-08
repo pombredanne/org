@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Result of 2012 Eclipse Community Survey";
+	$pageTitle 		= "Resuls of Eclipse Community Survey 2012";
 	$pageKeywords	= "eclipse, survey, open source";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -26,10 +26,8 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>The Eclipse Foundation has released the results of the Eclipse Community Survey 2012. The purpose of the survey is to better understand 
-how the Eclipse community uses Eclipse and open source software and how people participate in and perceive open source software. A 
-<a href="http://www.slideshare.net/IanSkerrett/eclipse-survey-2012-report-final">report</a>, an <a href="http://ianskerrett.wordpress.com/2012/06/08/eclipse-community-survey-result-for-2012/">analysis</a>
-and the detailed data <a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.ods>[ods]</a> <a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.xls">[xls]</a> are all available.</p>
+<p>The Eclipse Foundation has released the results of the Eclipse Community Survey 2012. A <a href="http://www.slideshare.net/IanSkerrett/eclipse-survey-2012-report-final">report</a>, an <a href="http://ianskerrett.wordpress.com/2012/06/08/eclipse-community-survey-result-for-2012/">analysis</a>
+and the detailed data <a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.ods">[ods]</a> <a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.xls">[xls]</a> are all available.</p>
 
 
 	</div>
@@ -40,7 +38,7 @@ and the detailed data <a href="http://eclipse.org/org/community_survey/Survey_Fi
 			<h6>Related Links</h6>
 			<ul>
 				<li><a href="http://www.slideshare.net/IanSkerrett/eclipse-survey-2012-report-final">Report</a></li>
-				<li><a href="">Analysis</a>http://ianskerrett.wordpress.com/2012/06/08/eclipse-community-survey-result-for-2012/</li>
+				<li><a href="http://ianskerrett.wordpress.com/2012/06/08/eclipse-community-survey-result-for-2012/">Analysis</a></li>
 				<li>Detailed Data<a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.ods">[ods]</a><a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.xls">[xls]</a></li>
 			</ul>
 		</div>
