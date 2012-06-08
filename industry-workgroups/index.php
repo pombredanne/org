@@ -20,46 +20,77 @@ ob_start();
 	<div id="midcolumn">
 	<h1><?=$pageTitle;?></h1>
 		<div class="homeitem3col">
-			<h3><a name="WorkingGroups"></a>Eclipse Industry Working Groups</h3>
+			<p>Eclipse IWGs are established to facilitate the collaboration between Eclipse Foundation Members. 
+				The collaboration is intended to focus, promote and augment Eclipse technologies to meet 
+				the needs of specific industries. The collaboration can take the form of the development of 
+				materials for use by a specific community and/or joint marketing programs to promote Eclipse 
+				in a certain industry. Unlike Eclipse open source projects that are open to participation by 
+				anyone, participation in an Eclipse IWG is open only to Eclipse Members.</p>
+			<h3>Current Eclipse Industry Working Groups</h3>
 			<div style="margin: 5px 15px 15px 15px; ">
 				<table cellspacing=0 width="100%">
 					<tr>
-						<th width="50%">Group Name</th>
-						<th width="10%">Homepage</th>
-						<th width="10%">Mailing List</th>
-						<th width="10%">Wiki</th>
+						<th width="50%"><strong>Group Name</strong></th>
+						<th width="10%"><strong>Homepage</strong></th>
+						<th width="10%"><strong>Charter</strong></th>
+						<th width="10%"><strong>Mailing List</strong></th>
+						<th width="10%"><strong>Wiki</strong></th>
 					</tr>
 					<tr>
-						<td>Polarsys Working Group</td>
-						<td><a href="http://www.polarsys.org"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-						<td><a href="https://dev.eclipse.org/mailman/listinfo/polarsys-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
-						<td></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Automotive</td>
+						<td><a href="http://wiki.eclipse.org/Auto_IWG"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="autowg.php"><img src="/home/categories/images/html.png"></a></td>
+						<td><a href="https://dev.eclipse.org/mailman/listinfo/auto-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
+						<td><a href="http://wiki.eclipse.org/Auto_IWG"><img src="/home/categories/images/wiki.gif"></a></td>
+					</tr>				
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Long-Term Support</td>
+						<td><a href="http://wiki.eclipse.org/LTS"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="ltsiwg_charter.php"><img src="/home/categories/images/html.png"></a></td>
+						<td><a href="https://dev.eclipse.org/mailman/listinfo/lts-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
+						<td><a href="http://wiki.eclipse.org/LTS"><img src="/home/categories/images/wiki.gif"></a></td>
+					</tr>						
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Machine-to-Machine</td>
+						<td><a href="http://wiki.eclipse.org/Machine-to-Machine"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="m2miwg_charter.php"><img src="/home/categories/images/html.png"></a></td>
+						<td><a href="https://dev.eclipse.org/mailman/listinfo/m2m-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
+						<td><a href="http://wiki.eclipse.org/Machine-to-Machine"><img src="/home/categories/images/wiki.gif"></a></td>
+					</tr>						
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Polarsys</td>
+						<td><a href="http://www.polarsys.org"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="polarsys_charter.php"><img src="/home/categories/images/html.png"></a></td>
+						<td><a href="https://dev.eclipse.org/mailman/listinfo/polarsys-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
+						<td><a href="http://wiki.eclipse.org/Polarsys"><img src="/home/categories/images/wiki.gif"></a></td>
 					</tr>
+				</table>
+			</div>
+
+			<h3>Inactive Eclipse Industry Working Groups</h3>
+				<div style="margin: 5px 15px 15px 15px; ">
+				<table cellspacing=0 width="100%">
 					<tr>
-						<td>M2M Industry Working Group</td>
-						<td><a href="http://wiki.eclipse.org/Machine-to-Machine"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-						<td><a href="https://dev.eclipse.org/mailman/listinfo/m2m-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
-						<td></td>
-					</tr>										
+						<th width="50%"><strong>Group Name</strong></th>
+						<th width="10%"><strong>Homepage</strong></th>
+						<th width="10%"><strong>Charter</strong></th>
+						<th width="10%"><strong>Mailing List</strong></th>
+						<th width="10%"><strong>Wiki</strong></th>
+					</tr>		
 					<tr>
-						<td>Mobile Industry Working Group</td>
-						<td><a href="http://wiki.eclipse.org/EMIWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-						<td><a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
-						<td></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Mobile (Pulsar)</td>
+						<td><a href="http://wiki.eclipse.org/EMIWG"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="mobilewg.php"><img src="/home/categories/images/html.png"></a></td>
+						<td><a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
+						<td><a href="http://wiki.eclipse.org/EMIWG"><img src="/home/categories/images/wiki.gif"></a></td>
 					</tr>	
 					<tr>
-						<td>SOA Industry Working Group</td>
-						<td><a href="soawg.php"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-						<td><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;SOA</td>
+						<td><a href="soawg.php"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="soawg.php"><img src="/home/categories/images/html.png"></a></td>
+						<td><a href="https://dev.eclipse.org/mailman/listinfo/soa-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
 						<td></td>
 					</tr>	
-					<tr>
-						<td>Automotive Industry Working Group</td>
-						<td><a href="http://wiki.eclipse.org/Auto_IWG"><img src="http://www.eclipse.org/home/categories/images/wiki.gif"></a></td>
-						<td><a href="https://dev.eclipse.org/mailman/listinfo/auto-iwg"><img src="http://www.eclipse.org/home/categories/images/mailinglist.gif"></a></td>
-						<td></td>
-					</tr>	
-					
 				</table>
 			</div>
 		</div>
