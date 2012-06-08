@@ -39,7 +39,7 @@ and the detailed data <a href="http://eclipse.org/org/community_survey/Survey_Fi
 			<ul>
 				<li><a href="http://www.slideshare.net/IanSkerrett/eclipse-survey-2012-report-final">Report</a></li>
 				<li><a href="http://ianskerrett.wordpress.com/2012/06/08/eclipse-community-survey-result-for-2012/">Analysis</a></li>
-				<li>Detailed Data<a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.ods">[ods]</a><a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.xls">[xls]</a></li>
+				<li>Detailed Data <a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.ods">[ods]</a> <a href="http://eclipse.org/org/community_survey/Survey_Final_Results_2012.xls">[xls]</a></li>
 			</ul>
 		</div>
 	</div>
