@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Resuls of Eclipse Community Survey 2012";
+	$pageTitle 		= "Results of Eclipse Community Survey 2012";
 	$pageKeywords	= "eclipse, survey, open source";
 	$pageAuthor		= "Ian Skerrett";
 	
