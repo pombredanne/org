@@ -20,13 +20,13 @@ ob_start();
 	<div id="midcolumn">
 	<h1><?=$pageTitle;?></h1>
 		<div class="homeitem3col">
-			<p>Eclipse IWGs are established to facilitate the collaboration between Eclipse Foundation Members. 
+			<p>Eclipse Industry Working Groups (IWGs) are established to facilitate the collaboration between Eclipse Foundation Members. 
 				The collaboration is intended to focus, promote and augment Eclipse technologies to meet 
 				the needs of specific industries. The collaboration can take the form of the development of 
 				materials for use by a specific community and/or joint marketing programs to promote Eclipse 
 				in a certain industry. Unlike Eclipse open source projects that are open to participation by 
 				anyone, participation in an Eclipse IWG is open only to Eclipse Members.</p>
-			<h3>Current Eclipse Industry Working Groups</h3>
+			<h3>Current IWGs</h3>
 			<div style="margin: 5px 15px 15px 15px; ">
 				<table cellspacing=0 width="100%">
 					<tr>
@@ -67,7 +67,7 @@ ob_start();
 				</table>
 			</div>
 
-			<h3>Inactive Eclipse Industry Working Groups</h3>
+			<h3>Inactive IWGs</h3>
 				<div style="margin: 5px 15px 15px 15px; ">
 				<table cellspacing=0 width="100%">
 					<tr>
@@ -79,7 +79,7 @@ ob_start();
 					</tr>		
 					<tr>
 						<td>&nbsp;&nbsp;&nbsp;&nbsp;Mobile (Pulsar)</td>
-						<td><a href="http://wiki.eclipse.org/EMIWG"><img src="/home/categories/images/homepage.gif"></a></td>
+						<td><a href="/pulsar/"><img src="/home/categories/images/homepage.gif"></a></td>
 						<td><a href="mobilewg.php"><img src="/home/categories/images/html.png"></a></td>
 						<td><a href="https://dev.eclipse.org/mailman/listinfo/mobile-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
 						<td><a href="http://wiki.eclipse.org/EMIWG"><img src="/home/categories/images/wiki.gif"></a></td>
