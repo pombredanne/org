@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "* * * DRAFT - Not for Publication * * *<br/>Eclipse Long Term Support Industry Working Group Charter";
+	$pageTitle 		= "Eclipse Long Term Support Industry Working Group Charter";
 	$pageKeywords	= "aerospace, systems, engineering, polarsys, safety, iwg, charter, eclipse";
 	$pageAuthor		= "Mike Milinkovich";
 	
