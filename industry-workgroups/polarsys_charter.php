@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "* * * DRAFT - Not for Publication * * *<br/>Polarsys Industry Working Group Charter";
+	$pageTitle 		= "Polarsys Industry Working Group Charter";
 	$pageKeywords	= "aerospace, systems, engineering, polarsys, safety, iwg, charter, eclipse";
 	$pageAuthor		= "Mike Milinkovich";
 	
@@ -29,7 +29,7 @@
 	<div id="midcolumn">
 	
 		<h1>$pageTitle</h1>
-		<br/><strong>June 8, 2012</strong>
+		<br/><strong>June 12, 2012</strong>
 		
 <H2>Goals and Vision</H2>
 <P>In
