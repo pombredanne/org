@@ -99,7 +99,9 @@ ob_start();
 		<div class="sideitem">
 			<h6>Working Group Process Document</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/industry-workgroups/industry_wg_process.php">Working Group Process Document</a></li>
+				<li><a href="industry_wg_process.php">Industry Working Group<br/>Process Document</a></li>
+				<li><a href="IWG_Participation_Agreement.pdf">Industry Working Group<br/>Participation Agreement</a></li>
+				
 			</ul>
 		</div>
 	</div>
