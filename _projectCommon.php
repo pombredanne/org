@@ -8,6 +8,7 @@
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank)
 	$Nav->addNavSeparator("About Us", 	"index.php");
+	$Nav->addCustomNav("Annual Report", "/org/foundation/reports/2012_annual_report.php", "_self", 1);
 	$Nav->addCustomNav("Foundation", "/org/foundation/", "_self", 1);	
 	$Nav->addCustomNav("Governance", "/org/documents/", "_self", 1);
 	$Nav->addCustomNav("Legal Resources", "/legal/", "_self", 1);

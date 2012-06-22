@@ -62,7 +62,9 @@
           	<li><a href="http://www.eclipse.org/org/industry-workgroups/">Industry Working Groups:</a>
           		Collaborations between Eclipse Foundation Members to address specific market needs.
           	</li>
-          	
+          	<li><A href="/org/foundation/reports/2012_annual_report.php">Annual report:</A>
+	          Each year the Eclipse Foundation publishes an annual report.
+          	</li>
           	<li><A href="minutes.php">Meeting minutes:</A>
 	          Minutes of the Eclipse membership, board and council meetings.
           	</li>  

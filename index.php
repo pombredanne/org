@@ -26,7 +26,8 @@
 			<li><a href="#history">What is the history of Eclipse?</a></li>
 		</ul>
 	    <h3><a name="about"></a>What is Eclipse and the Eclipse Foundation?</h3>
-		<p>Eclipse is an open source community, whose projects are focused on building an open development platform comprised of 
+	    <p>Eclipse is a community for individuals and organizations who wish to collaborate on commercially-friendly open source software.
+		Its projects are focused on building an open development platform comprised of 
 		extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. The Eclipse Foundation 
 		is a not-for-profit, member supported corporation that hosts the <a href="http://www.eclipse.org/projects">Eclipse projects</a> and 
 		helps cultivate both an open source community and an ecosystem of complementary products and services.</p>
