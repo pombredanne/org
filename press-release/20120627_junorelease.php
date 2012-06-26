@@ -43,7 +43,7 @@ participation of 40+ Eclipse member companies.</p>
 </ul>
 </p>
 <p>"Each year the commitment and dedication of the Eclipse committers demonstrate that Eclipse is a great example of open source 
-distributed development that ships on a predictable schedule, and scales to tens of millions of lines of code,” explains Mike Milinkovich, 
+distributed development that ships on a predictable schedule, and scales to tens of millions of lines of code," explains Mike Milinkovich, 
 Executive Director of the Eclipse Foundation. "I am especially happy Juno is based on the Eclipse 4.2 platform, thus providing a stable 
 platform for continued innovation in the Eclipse community."</p>
 <p>More information about Juno, the projects of Juno, and downloads is available at <a href="http://eclipse.org/juno/">eclipse.org/juno</a>.</p>
