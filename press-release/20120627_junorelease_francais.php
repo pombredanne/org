@@ -28,7 +28,7 @@
 <br>
 <p><strong>Ottawa,Canada - June 27, 2012</strong> - Ottawa, Canada – 27 Juin, 2012 – Comme le veut la tradition de fin Juin, la communauté 
 Eclipse célèbre la sortie simultanée d’Eclipse qui cette année se nomme Juno. Pour la 9ème année consécutive la communauté a mené à bon port 
-cette version, toujours de plus en plus importante. Juno représente le travail de 72 équipes de projets impliquant 445 committers sur 55 
+cette version, toujours de plus en plus importante. Juno représente le travail de 72 équipes de projets impliquant 445 committers sur 55 millions de
 lignes de code, et la participation de plus de 40 organismes membres de la fondation Eclipse.</p>
 
 <p>Pour cette sortie la taille rend difficile le listing exhaustif des nouvelles fonctionnalités, mais voici quelques-unes des principales :
@@ -41,13 +41,13 @@ intelligente. Code Recommenders analyse comment les applications utilisent des A
 bonnes pratiques. Ensuite il fournit des conseils pertinents au développeur essayant de construire des applications utilisant ces API Java. 
 Comme Amazon vous recommande des achats, Code Recommenders recommande une bonne utilisation d’API.
 <li>Eclipse <a href="http://www.eclipse.org/virgo/">Virgo</a> embarque le nouveau noyau Nano qui fournit la possibilité de construire de très petites applications web basées sur OSGi.
-<li>Le nouveau  <a href="http://www.eclipse.org/koneki/">projet Konekit</a> fournit un IDE pour Lua. Lua est un 
+<li>Le nouveau  <a href="http://www.eclipse.org/koneki/">projet Koneki</a> fournit un IDE pour Lua. Lua est un 
 langage de script, pouvant être embarqué, populaire dans l’industrie du jeu et de plus en plus utilisé dans l’industrie M2M. Koneki est une 
 part importante de l’initiative autour de l’Industry Working Group M2M.
 <li><a href="http://www.eclipse.org/Xtext/">Xtext</a> a ajouté le support pour le débogage intégré de DSLs basés sur des JVM utilisant Xtext, et une plus fine intégration avec le Java Development Tools (JDT).
 <li>Eclipse <a href="http://www.eclipse.org/equinox/">Equinox</a> embarque l’implémentation de référence des nouvelles spécifications OSGi R5.
 <li>Deux nouveaux packages ont été ajoutés : 1) Un IDE Eclipse pour Développeur de Logiciel Automobile contenant les outils et les 
-frameworks nécessaire pour le développement de logiciels automobiles embarqués. Il est le résultat d’un travail complété par l’Eclipse 
+frameworks nécessaires pour le développement de logiciels automobiles embarqués. Il est le résultat d’un travail complété par l’Eclipse 
 Automotive Industry Working Group. 2) Eclipse for Mobile Developers simplifie, pour les développeurs, le téléchargement et l’utilisation 
 d’Eclipse avec nombre de SDK mobiles, incluant le SDK Android.
 </ul>
