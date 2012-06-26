@@ -26,7 +26,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p><strong>Ottawa,Canada - June 27, 2012</strong> - Ottawa, Canada – 27 Juin, 2012 – Comme le veut la tradition de fin Juin, la communauté 
+<p><strong>Ottawa, Canada - June 27, 2012</strong> - Ottawa, Canada – 27 Juin, 2012 – Comme le veut la tradition de fin Juin, la communauté 
 Eclipse célèbre la sortie simultanée d’Eclipse qui cette année se nomme Juno. Pour la 9ème année consécutive la communauté a mené à bon port 
 cette version, toujours de plus en plus importante. Juno représente le travail de 72 équipes de projets impliquant 445 committers sur 55 millions de
 lignes de code, et la participation de plus de 40 organismes membres de la fondation Eclipse.</p>

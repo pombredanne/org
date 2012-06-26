@@ -26,7 +26,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p><strong>Ottawa,Canada - June 27, 2012</strong> - As is the tradition for the end of June, the Eclipse community celebrates the release of the annual 
+<p><strong>Ottawa, Canada - June 27, 2012</strong> - As is the tradition for the end of June, the Eclipse community celebrates the release of the annual 
 Eclipse release train, this year code-named Juno.  This is the ninth year the community has shipped a release train, and each year the 
 release gets bigger.  Juno represents the work of 72 project teams by 445 open source committers on 55 million lines of code, and the 
 participation of 40+ Eclipse member companies.</p>
