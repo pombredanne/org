@@ -26,7 +26,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p><strong>Ottawa, Canada – June 27, 2012</strong> – As is the tradition for the end of June, the Eclipse community celebrates the release of the annual 
+<p><strong>Ottawa,Canada - June 27, 2012</strong> - As is the tradition for the end of June, the Eclipse community celebrates the release of the annual 
 Eclipse release train, this year code-named Juno.  This is the ninth year the community has shipped a release train, and each year the 
 release gets bigger.  Juno represents the work of 72 project teams by 445 open source committers on 55 million lines of code, and the 
 participation of 40+ Eclipse member companies.</p>
@@ -42,9 +42,9 @@ participation of 40+ Eclipse member companies.</p>
 <li>Two new packages have been introduced: 1) Eclipse IDE for Automotive Software Developer contains the tools and framework required for embedded automotive software development. It is the result of the work completed by the Eclipse Automotive Industry Working Group. 2) Eclipse for Mobile Developers will make it easier for developers to download and use Eclipse with a variety of mobile SDKs, including the Android SDK.
 </ul>
 </p>
-<p> “Each year the commitment and dedication of the Eclipse committers demonstrate that Eclipse is a great example of open source 
+<p>"Each year the commitment and dedication of the Eclipse committers demonstrate that Eclipse is a great example of open source 
 distributed development that ships on a predictable schedule, and scales to tens of millions of lines of code,” explains Mike Milinkovich, 
-Executive Director of the Eclipse Foundation. “I am especially happy Juno is based on the Eclipse 4.2 platform, thus providing a stable 
+Executive Director of the Eclipse Foundation. "I am especially happy Juno is based on the Eclipse 4.2 platform, thus providing a stable 
 platform for continued innovation in the Eclipse community."</p>
 <p>More information about Juno, the projects of Juno, and downloads is available at <a href="http://eclipse.org/juno/">eclipse.org/juno</a>.</p>
 
