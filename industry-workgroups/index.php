@@ -20,7 +20,7 @@ ob_start();
 	<div id="midcolumn">
 	<h1><?=$pageTitle;?></h1>
 		<div class="homeitem3col">
-			<p>Eclipse Industry Working Groups (IWGs) are established to facilitate the collaboration between Eclipse Foundation Members. 
+			<p>Eclipse Industry Working Groups (IWGs) are established to facilitate collaboration between Eclipse Foundation Members. 
 				The collaboration is intended to focus, promote and augment Eclipse technologies to meet 
 				the needs of specific industries. The collaboration can take the form of the development of 
 				materials for use by a specific community and/or joint marketing programs to promote Eclipse 
