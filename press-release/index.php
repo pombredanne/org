@@ -28,7 +28,7 @@
 	#
 		
 	# Paste your HTML content between the markers!	
-ob_start();Tha
+ob_start();
 ?>		
 
 	<div id="midcolumn">
