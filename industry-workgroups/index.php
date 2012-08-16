@@ -44,9 +44,9 @@ ob_start();
 						<td><a href="http://wiki.eclipse.org/Auto_IWG"><img src="/home/categories/images/wiki.gif"></a></td>
 					</tr>				
 					<tr>
-						<td>&nbsp;&nbsp;&nbsp;&nbsp;LocationTech (in progress)</td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;LocationTech</td>
 						<td><a href="http://wiki.eclipse.org/Location"><img src="/home/categories/images/homepage.gif"></a></td>
-						<td></td>
+						<td><a href="locationtech_charter.php"><img src="/home/categories/images/html.png"></td>
 						<td><a href="https://dev.eclipse.org/mailman/listinfo/location-iwg"><img src="/home/categories/images/mailinglist.gif"></a></td>
 						<td><a href="http://wiki.eclipse.org/Location"><img src="/home/categories/images/wiki.gif"></a></td>
 					</tr>										
