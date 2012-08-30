@@ -26,7 +26,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>The Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">Fall 2012 Training Series</a>. 
+<p>The Eclipse member companies are pleased to announce the <a href="http://www.eclipse.org/community/training/classes.php">Fall 2012 Training Series</a>. 
 
 We are pleased to introduce two new courses, Eclipse4 RCP and Building OSGI/RCP with Maven/Tycho.
 
@@ -34,9 +34,9 @@ These training classes are an excellent opportunity for software developers and 
 
 
 
-<p><a href="http://www.eclipse.org/community/training/classes.php">See the schedule</a> for a complete list of courses and course descriptions.</p>
+<p><a href="http://www.eclipse.org/community/training/classes.php">See the schedule</a> for a complete list of courses and course descriptions.</p>
 
-<p>Eclipse members participating in the training series are <a href="http://www.actuate.com/home/" target="_blank">Actuate</a>, <a href="http://www.avantsoft.com/" target="_blank">AvantSof</a>t, <a href="http://eclipsesource.com/en/services/eclipse-training/" target="_blank">EclipseSource</a>, <a href="http://industrial-tsi.com/" target="_blank">Industrial TSI</a>, <a href="http://www.modumind.com/" target="_blank">Modular Mind</a>, <a href="http://www.obeo.fr/" target="_blank">Obeo</a>, <a href="http://www.opcoach.com/" target="_blank">OPCoach</a>, <a href="http://www.rcp-vision.com/?lang=en" target="_blank">RCP Vision</a>, <a href="http://www.suprematic.net/de" target="_blank">Suprematic Solutions</a>, <a href="http://charleskelly.com/eclipse_training.htm" target="_blank">Third Millenium</a>, and Committer Members Lars Vogel and Pascal  Rapicault.</p>
+<p>Eclipse members participating in the training series are <a href="http://www.actuate.com/home/" target="_blank">Actuate</a>, <a href="http://www.avantsoft.com/" target="_blank">AvantSoft</a>, <a href="http://eclipsesource.com/en/services/eclipse-training/" target="_blank">EclipseSource</a>, <a href="http://industrial-tsi.com/" target="_blank">Industrial TSI</a>, <a href="http://www.modumind.com/" target="_blank">Modular Mind</a>, <a href="http://www.obeo.fr/" target="_blank">Obeo</a>, <a href="http://www.opcoach.com/" target="_blank">OPCoach</a>, <a href="http://www.rcp-vision.com/?lang=en" target="_blank">RCP Vision</a>, <a href="http://www.suprematic.net/de" target="_blank">Suprematic Solutions</a>, <a href="http://charleskelly.com/eclipse_training.htm" target="_blank">Third Millenium</a>, and Committer Members Lars Vogel and Pascal  Rapicault.</p>
 
 <p>Take advantage of this excellent learning opportunity and register for an Eclipse training class today!</p>
 
