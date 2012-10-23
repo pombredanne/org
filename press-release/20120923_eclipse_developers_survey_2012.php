@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Developers Survey 2012";
+	$pageTitle 		= "Eclipse Survey: Big data, reporting and visualization";
 	$pageKeywords	= "eclipse survey, developers survey";
 	$pageAuthor		= "Christopher Guindon";
 	
