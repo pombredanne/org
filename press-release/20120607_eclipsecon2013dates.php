@@ -26,10 +26,10 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>The Eclipse Foundation is pleased to announce that EclipseCon North America 2013 will be held March 25-28, 2013 in Boston, MA.  The conference will be
+<p>The Eclipse Foundation is pleased to announce that <a href="http://www.eclipsecon.org/2013/>EclipseCon North America 2013</a> will be held March 25-28, 2013 in Boston, MA.  The conference will be
 located at the Seaport Hotel and World Trade Center.  More details about EclipseCon 2013 and the call for speakers will be made available in September, 2012.
 
-<p>In the meantime, the next EclipseCon Europe is scheduled for October 23-25 in Ludwigsburg, Germany.</p>
+<p>EclipseCon 2013 Call for Papers is <a href="http://www.eclipsecon.org/2013/econsubmissions">now open</a>. Deadline for submission is November 19, 2013.</p>
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
@@ -37,7 +37,7 @@ located at the Seaport Hotel and World Trade Center.  More details about Eclipse
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipsecon.org/europe2012/">EclipseCon Europe</a></li>
+				<li><a href="http://www.eclipsecon.org/2013/">EclipseCon 2013</a></li>
 				<li><a href="http://www.seaportboston.com/">Seaport Hotel and World Trade Center</a></li>
 			</ul>
 		</div>
