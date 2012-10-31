@@ -26,8 +26,8 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>The Eclipse Foundation is pleased to announce that <a href="http://www.eclipsecon.org/2013/>EclipseCon North America 2013</a> will be held March 25-28, 2013 in Boston, MA.  The conference will be
-located at the Seaport Hotel and World Trade Center.  More details about EclipseCon 2013 and the call for speakers will be made available in September, 2012.
+<p>The Eclipse Foundation is pleased to announce that <a href="http://www.eclipsecon.org/2013/">EclipseCon North America 2013</a> will be held March 25-28, 2013 in Boston, MA.  The conference will be
+located at the Seaport Hotel and World Trade Center.  More details about EclipseCon 2013 and the call for speakers will be made available in September, 2012. </p>
 
 <p>EclipseCon 2013 Call for Papers is <a href="http://www.eclipsecon.org/2013/econsubmissions">now open</a>. Deadline for submission is November 19, 2013.</p>
 	</div>
