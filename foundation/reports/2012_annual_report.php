@@ -233,7 +233,7 @@ events.</P>
 <H2 CLASS="western">Financials</H2>
 <P>The Eclipse Foundation's fiscal year end is December 31. Our
 auditors are the firm Deloitte &amp; Touche, LLP. The Eclipse
-Foundation is incorporated in the State of Delaware, USA as a 501(c)3
+Foundation is incorporated in the State of Delaware, USA as a 501(c)6
 not-for-profit. Its headquarters is located in Ottawa, Canada.</P>
 <P>2011 was a solid year financially for the Eclipse Foundation.
 Despite losing Nokia as a major funder, and Strategic Developer
