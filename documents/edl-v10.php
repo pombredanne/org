@@ -1,4 +1,4 @@
-<?php  																														require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());    # All on the same line to unclutter the user's desktop'
 
 	#*****************************************************************************
 	#
@@ -33,8 +33,6 @@
 	<div id="midcolumn">
 		<h1>$pageTitle  - v 1.0</h1>
 
-
-
 <p>Copyright (c) 2007, Eclipse Foundation, Inc. and its licensors. </p>
 
 <p>All rights reserved.</p>
@@ -63,8 +61,8 @@ POSSIBILITY OF SUCH DAMAGE.</p>
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>OSI Approved</h6>The Eclipse Distribution License is an OSI Approved Open Source License by means of the 
-			<a href="http://www.opensource.org/licenses/bsd-license.php" target="blank">New BSD License</a>.
-			<p align="center"><a href="http://www.opensource.org/licenses/bsd-license.php" target="blank"><img align="center" src="../../images/osi-certified-60x50.gif" border="0"/>&nbsp</a></p>
+			<a href="http://www.opensource.org/licenses/BSD-3-Clause" target="blank">New BSD License</a>.
+			<p align="center"><a href="http://www.opensource.org/licenses/BSD-3-Clause" target="blank"><img align="center" src="../../images/osi-certified-60x50.gif" border="0"/>&nbsp</a></p>
 			<h6>Purpose</h6>
 			Use of the Eclipse Distribution License by any project at the Eclipse Foundation must 
 			be reviewed and unanimously approved by the <a href="../foundation/directors.php">Board of Directors</a>.
