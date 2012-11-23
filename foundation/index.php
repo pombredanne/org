@@ -25,7 +25,8 @@
 	    <h3>People</h3>
 	      <ul>
 		    <li><a href="directors.php">Board of Directors:</a>	    
-	          The Board of Directors oversees the policies and strategic direction of the Eclipse Foundation.
+	          The Board of Directors oversees the policies and strategic direction of the Eclipse Foundation. You can find the minutes
+	          of the Board meetings <a href="minutes.php#board">here</a>.
 	          <br/><br/>
 	          For more information about Board elections, please see the <a href="../elections/">Eclipse elections home page</a>.
 	        </li>    
