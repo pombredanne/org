@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Community Awards 2012";
+	$pageTitle 		= "Eclipse Community Awards 2013";
 	$pageKeywords	= "eclipse, awards, individual, project, technology, nomination, eclipsecon";
 	$pageAuthor		= "Christopher Guindon";
 	
