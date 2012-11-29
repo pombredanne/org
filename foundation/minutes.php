@@ -42,8 +42,20 @@
 		<div class="homeitem3col">
 			<h3><a name="board">Board of Directors Meetings</a></h3>
 			<ul><li>Abridged Minutes 
-          			- <a href="boardminutes/2012_02_15_Minutes.php">February 15, 
+          			- <a href="boardminutes/2012_06_19-20_Minutes.php">June 19-20, 
           			2012 (html)</a><img src="../../images/new.gif" alt="new"> </li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2012_05_16_Minutes.php">May 16, 
+          			2012 (html)</a><img src="../../images/new.gif" alt="new"> </li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2012_04_18_Minutes.php">April 18, 
+          			2012 (html)</a><img src="../../images/new.gif" alt="new"> </li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2012_03_26_Minutes.php">March 26, 
+          			2012 (html)</a><img src="../../images/new.gif" alt="new"> </li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2012_02_15_Minutes.php">February 15, 
+          			2012 (html)</a></li>
           		<li>Abridged Minutes 
           			- <a href="boardminutes/2012_01_18_Minutes.php">January 18, 
           			2012 (html)</a>
