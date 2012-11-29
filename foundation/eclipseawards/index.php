@@ -38,7 +38,7 @@
 			  <td>
 				<h1>$pageTitle</h1>
 				The Eclipse Community Awards recognize the best of the Eclipse community. Individuals, projects
-				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi" target="_blank">
+				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://dev.eclipse.org/site_login/createaccount.php" target="_blank">
 				Bugzilla account</a>. Self nominations	are welcome. Nominations will open on December 10th, 2012 and will close January 28,
 				2013.  Winners will be announced at <a href="http://www.eclipsecon.org/2013/" target="_blank">EclipseCon 2013</a>.						
 			  </td>
@@ -111,7 +111,7 @@
 		
 		<h2>Past Winners</h2>
 		<p>
-			<a href="pastwinners.php">See the Past Winners of the Eclipse Community Awards</a>
+			<a href="pastwinners.php" target="_blank">See the Past Winners of the Eclipse Community Awards</a>
 		</p>
 		<p>
 			Eclipse is a large, vibrant community of many well-deserving individuals. Therefore, to ensure
