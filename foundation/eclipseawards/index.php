@@ -39,8 +39,8 @@
 				<h1>$pageTitle</h1>
 				The Eclipse Community Awards recognize the best of the Eclipse community. Individuals, projects
 				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://bugs.eclipse.org/bugs/createaccount.cgi" target="_blank">
-				Bugzilla account</a>. Self nominations	are welcome. Nominations will open on December 5th, 2011 and will close January 27,
-				2012.  Winners will be announced at <a href="http://www.eclipsecon.org/2012/" target="_blank">EclipseCon 2012</a>.						
+				Bugzilla account</a>. Self nominations	are welcome. Nominations will open on December 10th, 2012 and will close January 28,
+				2013.  Winners will be announced at <a href="http://www.eclipsecon.org/2013/" target="_blank">EclipseCon 2013</a>.						
 			  </td>
 				<td>
 				<img src="images/EclipseAwardsLogo.gif" alt="Eclipse Awards" height="125">
@@ -48,10 +48,10 @@
 			</tr>
 		</table>
 		<!--
-		<a href="http://www.surveymonkey.com/s/eclipseawards2011" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
+		<a href="http://www.surveymonkey.com/s/eclipseawards2012" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
 		-->
 		<h2>Individual Nominations</h2>
-        <p>Nominations are now closed.  The winners will be announced at EclipseCon 2012</p>
+        <p>Nominations will open on December 10, 2012.</p>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
 			<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current nominees</a>	
@@ -67,9 +67,9 @@
 		</ul>				
 		
 		<h2>Project Nominations</h2>
-        <p>Nominations are now closed.  The winners will be announced at EclipseCon 2012</p>
+        <p>Nominations will open on December 10, 2012.</p>
 				<ul class="midlist">
-			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2011 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2011 that is used and loved by the community.
+			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
 			<br>
 			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Current nominees</a>
 			</li>
@@ -79,7 +79,7 @@
 		</ul>
 		
 		<h2>Technology Nominations</h2>
-        <p>Nominations are now closed.  The winners will be announced at EclipseCon 2012</p>
+        <p>Nominations will open on December 10, 2012.</p>
 		
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
@@ -88,6 +88,9 @@
 			<li><b>Best Developer Tool</b> - A commercial or open source product that provides an innovative, high quality tool for software developers.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Current nominees</a>	
 			</li>
+			<li><b>Best Developer Plugin</b> - A commercial or open source plugin that provides an innovative, high quality functionality for software developers. A plugin usually adds a single functionality to Eclipse, as opposed to a tool which is a complete product that does more.
+			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-plugin" target="blank">Current nominees</a>
+			</li>		
 			<!--<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Current nominees</a>
 			</li>-->
@@ -99,7 +102,7 @@
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
-		get to vote once per category from January 30, 2012 - February 24, 2012, 5:00 pm EST.  </p>
+		get to vote once per category from January 28, 2013 - February 22, 2013, 5:00 pm EST.  </p>
 		
 		<p>The Technology
 		Award winners will be determined by a panel of judges selected from Eclipse-oriented editors and
@@ -126,12 +129,12 @@
 		<h2>Important Dates</h2>
 	
 			<ul>
-				<li>Nominations open - December 5, 2011</li>
-				<li>Nominations close - January 27, 2012</li>
-				<li>Voting begins for Individual & Project Awards - January 30, 2012</li>
-				<li>Voting ends for Individual & Project Awards - February 24, 2012 at 5:00 pm EST</li>
-				<li>Finalists Announced - March 9, 2012</li>
-				<li>Winners Announced at EclipseCon - March 26, 2012</li>
+				<li>Nominations open - December 10, 2012</li>
+				<li>Nominations close - January 28, 2013</li>
+				<li>Voting begins for Individual & Project Awards - January 28, 2013</li>
+				<li>Voting ends for Individual & Project Awards - February 22, 2013 at 5:00 pm EST</li>
+				<li>Finalists Announced - March 8, 2013</li>
+				<li>Winners Announced at EclipseCon - March 26, 2013</li>
 			</ul>
 		
 
