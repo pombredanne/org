@@ -88,7 +88,7 @@
 			<li><b>Best Developer Tool</b> - A commercial or open source product that provides an innovative, high quality tool for software developers.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Current nominees</a>	
 			</li>
-			<li><b>Best Developer Plugin</b> - A commercial or open source plugin that provides an innovative, high quality functionality for software developers. A plugin usually adds a single functionality to Eclipse, as opposed to a tool which is a complete product that does more.
+			<li><b>Best Developer Plugin</b> - A commercial or open source plugin that provides an innovative, high quality functionality for software developers. A plugin usually adds a single functionality to Eclipse, as opposed to a tool which is a complete product.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-plugin" target="blank">Current nominees</a>
 			</li>		
 			<!--<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
