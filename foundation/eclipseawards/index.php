@@ -66,7 +66,7 @@
 		</ul>				
 		
 		<h2>Project Nominations</h2>
-		<p><font size="3"><a href="http://marketplace.eclipse.org/node/add/project-nominations">Nominate</a></font></p>
+		<a href="http://marketplace.eclipse.org/node/add/project-nominations">Nominate</a>
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
 			<br>
