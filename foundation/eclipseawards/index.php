@@ -66,6 +66,9 @@
 		</ul>				
 		
 		<h2>Project Nominations</h2>
+		<div style="margin-left: 50px; margin-bottom: 20px; margin-top: 40px">
+		<a class="button" href="http://marketplace.eclipse.org/node/add/project-nominations">Nominate</a>
+		</div>
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
 			<br>
@@ -77,7 +80,9 @@
 		</ul>
 		
 		<h2>Technology Nominations</h2>
-		
+		<div style="margin-left: 50px; margin-bottom: 20px; margin-top: 40px">
+		<a class="button" href="http://marketplace.eclipse.org/node/add/product-nominations">Nominate</a>
+		</div>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Current nominees</a>	
