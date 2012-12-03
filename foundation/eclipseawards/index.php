@@ -51,7 +51,6 @@
 		<a href="http://www.surveymonkey.com/s/eclipseawards2012" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
 		-->
 		<h2>Individual Nominations</h2>
-        <p>Nominations will open on December 10, 2012.</p>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
 			<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current nominees</a>	
@@ -67,7 +66,6 @@
 		</ul>				
 		
 		<h2>Project Nominations</h2>
-        <p>Nominations will open on December 10, 2012.</p>
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
 			<br>
@@ -79,7 +77,6 @@
 		</ul>
 		
 		<h2>Technology Nominations</h2>
-        <p>Nominations will open on December 10, 2012.</p>
 		
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
@@ -130,7 +127,7 @@
 	
 			<ul>
 				<li>Nominations open - December 10, 2012</li>
-				<li>Nominations close - January 28, 2013</li>
+				<li>Nominations close - January 24, 2013</li>
 				<li>Voting begins for Individual & Project Awards - January 28, 2013</li>
 				<li>Voting ends for Individual & Project Awards - February 22, 2013 at 5:00 pm EST</li>
 				<li>Finalists Announced - March 8, 2013</li>
