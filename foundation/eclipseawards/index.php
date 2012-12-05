@@ -66,7 +66,6 @@
 		</ul>				
 		
 		<h2>Project Nominations</h2>
-		<a href="http://marketplace.eclipse.org/node/add/project-nominations">Nominate</a>
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
 			<br>
@@ -76,9 +75,8 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		
+		<p><a href="http://marketplace.eclipse.org/node/add/project-nominations">Nominate</a></p>
 		<h2>Technology Nominations</h2>
-		<b><a href="http://marketplace.eclipse.org/node/add/product-nominations">Nominate</a></b>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
 			<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Current nominees</a>	
@@ -96,7 +94,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current nominees</a>
 			</li>
 		</ul>
-
+		<p><a href="http://marketplace.eclipse.org/node/add/project-nominations">Nominate</a></p>
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
