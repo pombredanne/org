@@ -1,13 +1,52 @@
-.homeitem3col li{
+.homeitem3col li {
 	border-style: dashed;
 	border-color: #669;
 	border-width: 0 0 1px 0;
 }
 
 .finalist {
-	list-style-image: url(images/finalist.gif) !important;
+	list-style-image: url("images/finalist.gif") !important;
 }
 
 .winner {
-	list-style-image: url(images/winner.gif) !important;
+	list-style-image: url("images/winner.gif") !important;
+}
+
+.btn_nomination {
+	-moz-box-shadow: inset 0px 1px 0px 0px #d197fe;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #d197fe;
+	box-shadow: inset 0px 1px 0px 0px #d197fe;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a53df6
+		), color-stop(1, #7c16cb) );
+	background: -moz-linear-gradient(center top, #a53df6 5%, #7c16cb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a53df6',
+		endColorstr='#7c16cb' );
+	background-color: #a53df6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #9c33ed;
+	display: inline-block;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px 18px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #7d15cd;
+}
+
+.btn_nomination:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7c16cb
+		), color-stop(1, #a53df6) );
+	background: -moz-linear-gradient(center top, #7c16cb 5%, #a53df6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c16cb',
+		endColorstr='#a53df6' );
+	background-color: #7c16cb;
+	text-decoration: none;
+}
+
+.btn_nomination:active {
+	position: relative;
+	top: 1px;
 }
