@@ -78,7 +78,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		<p><a href="http://marketplace.eclipse.org/node/add/project-nominations" class="btn_nomination">Nominate</a></p>
+		<p><a href="http://www.eclipse.org/org/foundation/eclipseawards/" class="btn_nomination">Nominate</a></p>
 		<h2>Technology Nominations</h2>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
@@ -97,7 +97,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		<p><a href="http://marketplace.eclipse.org/node/add/project-nominations" class="btn_nomination">Nominate</a></p>
+		<p><a href="http://www.eclipse.org/org/foundation/eclipseawards/" class="btn_nomination">Nominate</a></p>
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
