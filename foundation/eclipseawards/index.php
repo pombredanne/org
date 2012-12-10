@@ -56,7 +56,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current nominees</a>	
 			</li>
 		</ul>
-		<p><a href="http://www.eclipse.org/org/foundation/eclipseawards/" class="btn_nomination">Nominate</a></p>
+		<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" class="btn_nomination">Nominate</a></p>
 		<ul class="midlist">
 			<!--
 			<li><b>Top Contributor</b> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.
@@ -67,7 +67,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Current nominees</a>	
 			</li>						
 		</ul>
-		<p><a href="http://www.eclipse.org/org/foundation/eclipseawards/" class="btn_nomination">Nominate</a></p>
+		<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" class="btn_nomination">Nominate</a></p>
 		<h2>Project Nominations</h2>
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
@@ -78,7 +78,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		<p><a href="http://www.eclipse.org/org/foundation/eclipseawards/" class="btn_nomination">Nominate</a></p>
+		<p><a href="http://marketplace.eclipse.org/node/add/project-nominations" class="btn_nomination">Nominate</a></p>
 		<h2>Technology Nominations</h2>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
@@ -97,7 +97,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		<p><a href="http://www.eclipse.org/org/foundation/eclipseawards/" class="btn_nomination">Nominate</a></p>
+		<p><a href="http://marketplace.eclipse.org/node/add/product-nominations" class="btn_nomination">Nominate</a></p>
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will
