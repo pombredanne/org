@@ -53,7 +53,7 @@
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
-			<br><a href="http://marketplace.eclipse.org/nominations/top-committer" target="blank">Current nominees</a>	
+			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank">Current nominees</a>	
 			</li>
 		</ul>
 		<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank" class="btn_nomination">Nominate</a></p>
@@ -64,7 +64,7 @@
 			</li>
 			-->
 			<li><b>Top Newcomer Evangelist</b> - The individual who best welcomes new people into the Eclipse community through the Newcomers forum, blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media sites and IRC.
-			<br><a href="http://marketplace.eclipse.org/nominations/top-newcomer-evangelist" target="blank">Current nominees</a>	
+			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank">Current nominees</a>	
 			</li>						
 		</ul>
 		<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank" class="btn_nomination">Nominate</a></p>
