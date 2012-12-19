@@ -25,7 +25,7 @@
 <br>
 <p><strong>Ottawa, Canada</strong> – December 19, 2012 - The Eclipse Foundation is pleased to announce the <a href="http://eclipsecon.org/2013/program/session-schedule" target="_blank">EclipseCon 2013 technical program</a>. Planned for March 25-28 in Boston, EclipseCon is the annual technical conference focused on the latest innovations in both the Eclipse community and the software industry.</p>
 
-<p>EclipseCon 2013 includes 140 technical sessions and 18 tutorials over four intense days. The conference features tracks on:</p>
+EclipseCon 2013 includes 140 technical sessions and 18 tutorials over four intense days. The conference features tracks on:<br>
 <ul>
 	<li>Eclipse 4: Sessions on migrating to Eclipse 4, and case studies of companies building applications based on Eclipse 4</li>
 	<li>Mobile and Device Development: Sessions on Android, 3D printing, machine-to-machine development, embedded C++, and more</li>
