@@ -23,14 +23,14 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p><strong>Ottawa,Canada</strong> - December 19, 2012</strong> The Eclipse Foundation is pleased to announce the second annual <a href="http://eclipsecon.org/2013/almconnect/program/session-schedule" target="_blank">ALM Connect conference</a> on March 25-28, 2013 in Boston. ALM Connect is for senior developers, development managers, and executives who require a detailed understanding of the tools and methodologies that are used across the entire software development lifecycle.  ALM Connect is co-located with EclipseCon 2013, the annual Eclipse community conference.</p>
+<p><strong>Ottawa, Canada</strong> - December 19, 2012 - The Eclipse Foundation is pleased to announce the second annual <a href="http://eclipsecon.org/2013/almconnect/program/session-schedule" target="_blank">ALM Connect conference</a> on March 25-28, 2013 in Boston. ALM Connect is for senior developers, development managers, and executives who require a detailed understanding of the tools and methodologies that are used across the entire software development lifecycle.  ALM Connect is co-located with EclipseCon 2013, the annual Eclipse community conference.</p>
 
 <p>The program for ALM Connect features 40 technical sessions and four in-depth tutorials over four days. Session topics include requirements management, project planning, agile methodologies, continuous deployment, continuous integration, testing strategies, and strategies for devops. Talks will cover popular open source tools like Git, Gerrit, Sonar, Puppet, Hudson, Jenkins, Eclipse Jubula, Eclipse Mylyn, Eclipse Tycho, and many more. Attendees have access to the EclipseCon sessions as well as the ALM Connect session.</p>
 
 <p>The detailed ALM Connect program may be seen on the <a href="http://eclipsecon.org/2013/almconnect" target="_blank">conference website</a>.</p>				
 
-<p><b>New Prices</b></p>
-<p>To bring ALM Connect to a wider community, the conference registration price has been significantly reduced. Attendees who register by December 31, 2012 pay only $800. More details about registration prices and volunteering are available on the EclipseCon <a href="http://eclipsecon.org/2013/registration" target="_blank">Registration page</a>.</p>
+<p><b>New Prices</b><br>
+To bring ALM Connect to a wider community, the conference registration price has been significantly reduced. Attendees who register by December 31, 2012 pay only $800. More details about registration prices and volunteering are available on the EclipseCon <a href="http://eclipsecon.org/2013/registration" target="_blank">Registration page</a>.</p>
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
