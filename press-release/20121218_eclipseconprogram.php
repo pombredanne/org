@@ -34,8 +34,8 @@
 	<li>EclipseRT: Sessions on Eclipse Equinox, RAP, EclipseLink and more</li>
 </ul>
 <p>Co-located at EclipseCon 2013 is the second annual ALM Connect conference. This new conference explores the tools and methodologies that span the entire software development lifecycle. OSGi DevCon 2013 is also co-locating with EclipseCon and ALM Connect.</p>
-<p><b>New Prices for EclipseCon</b></p>
-<p>In order to bring EclipseCon to a wider community of Eclipse and open-source enthusiast, the conference registration price has been significantly reduced. Attendees who register by December 31, 2012 pay only $800. A new non-corporate price of $500 is available to individuals who pay their own registration fees without corporate reimbursement. Students may attend free of charge in exchange for volunteer work at the conference.</p>
+<p><b>New Prices for EclipseCon</b><br>
+In order to bring EclipseCon to a wider community of Eclipse and open-source enthusiast, the conference registration price has been significantly reduced. Attendees who register by December 31, 2012 pay only $800. A new non-corporate price of $500 is available to individuals who pay their own registration fees without corporate reimbursement. Students may attend free of charge in exchange for volunteer work at the conference.</p>
 <p>More details about registration prices and volunteering are available on the <a href="http://eclipsecon.org/2013/registration" target="_blank">EclipseCon 2013 Registration page.</a></p>
 	</div>
 
