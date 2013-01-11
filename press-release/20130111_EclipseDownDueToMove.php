@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Planned Down Time for Eclipse.org on Feb. 9";
+	$pageTitle 		= "Planned Downtime for Eclipse.org on Feb. 9";
 	$pageKeywords	= "";
 	$pageAuthor		= "Ian Skerrett";
 	
