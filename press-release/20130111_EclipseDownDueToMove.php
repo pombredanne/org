@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Planned Down Time for Eclipse.org on Feb. 9";
+	$pageTitle 		= "Planned Downtime for Eclipse.org on Feb. 9";
 	$pageKeywords	= "";
 	$pageAuthor		= "Ian Skerrett";
 	
@@ -23,10 +23,10 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>On Saturday, February 9 2013 the Eclipse Foundation will be moving its servers to a new data centre.  This modern facility will provide improved server 
+<p>On Saturday, February 9, 2013 the Eclipse Foundation will be moving its servers to a new data centre.  This modern facility will provide improved server 
 cooling, substantial increases to our bandwidth, available AC power and cabinet (rack) space while reducing our hosting costs.  During the move, all 
 eclipse.org services will be offline, including Bugzilla, Wiki, Git, Gerrit and our website, www.eclipse.org.  Our plans are to begin the move on Saturday 
-morning (Eastern time), February 9 2013 and have all services restored by Sunday afternoon, February 10 2013. </p>
+morning (Eastern time), February 9, 2013 and have all services restored by Sunday afternoon, February 10, 2013. </p>
 
 <p>We'd like to apologize in advance for the inconveniences that this move will cause.  However, the benefits are compelling and will provide the Eclipse 
 Foundation with the infrastructure needed to continue its growth for many years to come.</p>
