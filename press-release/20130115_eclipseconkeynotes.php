@@ -23,10 +23,10 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>Ottawa, Canada – January 15, 2012 – The Eclipse Foundation is pleased to announce the keynote speakers for the upcoming EclipseCon and ALM Connect 
+<p><strong>Ottawa, Canada - January 15, 2013</strong> - The Eclipse Foundation is pleased to announce the keynote speakers for the upcoming <a href="http://www.eclipsecon.org/2013/">EclipseCon</a> and <a href="http://www.eclipsecon.org/2013/almconnect">ALM Connect</a> 
 conference.  The keynote speakers will include: 
 <ul>
-<li>Stephen O’Grady, Principal Analyst and Co-Founder, RedMonk
+<li>Stephen O'Grady, Principal Analyst and Co-Founder, RedMonk
 <li>Jeffrey Hammond, Principal Analyst, Forrester Research
 <li>Zach Holman, GitHub
 <li>Adam Messinger, VP of Application Development, Twitter
@@ -37,7 +37,7 @@ conference.  The keynote speakers will include:
 Management (ALM) tools and explore software engineering best practices and technology. </p>
 <p>ALM Connect and EclipseCon will be held March 25-28, 2013 in Boston. MA.  The conferences feature over 140 tutorials and technical sessions for software 
 developers and managers that want to better understand how to improve their software development practices. </p>
-<p>Registration is now open for EclipseCon. Sponsorship opportunities are also still available.</p>
+<p>Registration is <a href="http://www.eclipsecon.org/2013/registration">now open</a> for EclipseCon. Sponsorship opportunities are also still available.</p>
 
 	</div>
 
