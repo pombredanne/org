@@ -46,7 +46,7 @@ developers and managers that want to better understand how to improve their soft
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://eclipsecon.org/2013/program/session-schedule" target="_blank">Session Schedule</a></li>
+				<li><a href="http://www.eclipsecon.org/2013/keynotes-1" target="_blank">Keynotes</a></li>
 				<li><a href="http://eclipsecon.org/2013/registration" target="_blank">Registration page</a></li>
 			</ul>
 		</div>
