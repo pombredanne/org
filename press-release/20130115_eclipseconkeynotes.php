@@ -42,7 +42,15 @@ developers and managers that want to better understand how to improve their soft
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
-
+	<div id="rightcolumn">
+		<div class="sideitem">
+			<h6>Related Links</h6>
+			<ul>
+				<li><a href="http://eclipsecon.org/2013/program/session-schedule" target="_blank">Session Schedule</a></li>
+				<li><a href="http://eclipsecon.org/2013/registration" target="_blank">Registration page</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 
 EOHTML;
