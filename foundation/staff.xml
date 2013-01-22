@@ -146,13 +146,9 @@ Read Andrew's Blog</a>
 	<staffmember id="denis">
 		<name>Denis Roy</name>
 		<title>Director, IT Services</title>
-		<image>../../images/denis.jpg </image>
+		<image>../../images/denis_t.png</image>
 		<description>
-			<![CDATA[<p>In the office, Denis spends his time in front of a 
-			Linux command prompt.  Leisure activities include going to the 
-			cottage with my daughter, drag racing and snowmobiling.</p>
-			<p>You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>, 
-			and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</p>]]>
+			<![CDATA[<p>In the office, Denis spends his time in front of a Linux command prompt.  Leisure activities include going to the cottage with his kids, drag racing and snowmobiling.</p><p>You can read his <a href="http://eclipsewebmaster.blogspot.com/" target="blank">blog</a>,  and view the <a href="http://wiki.eclipse.org/index.php/WebMaster" target="_blank">Eclipse Webmaster</a> page.</p>]]>
 		</description>
 	</staffmember>
 
