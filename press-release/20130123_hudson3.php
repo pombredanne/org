@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Foundation Announces <br>Release of Hudson 3.0";
+	$pageTitle 		= "Eclipse Foundation Announces Release of Hudson 3.0";
 	$pageKeywords	= "";
 	$pageAuthor		= "Ian Skerrett";
 	
