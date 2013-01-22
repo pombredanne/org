@@ -23,7 +23,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p><strong>Ottawa, Canada - January 22, 2013</strong> - The Eclipse Foundation today announced the release of Hudson 3.0. Used around the world with more than 
+<p><strong>Ottawa, Canada - January 23, 2013</strong> - The Eclipse Foundation today announced the release of Hudson 3.0. Used around the world with more than 
 30,000 installations, Hudson is a continuous integration (CI) server used to significantly improve the software development process. Hudson increases 
 productivity by coordinating and monitoring executions of repeated jobs, making it easier for developers to integrate changes to the project and for users to 
 obtain a fresh build. Incorporating feedback from its community, Hudson 3.0 introduces important new functionality and simpler installation and administration 
