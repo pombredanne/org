@@ -52,13 +52,13 @@ updated to the latest versions, and library redundancies were resolved.
 of the Eclipse Foundation. "All contributors to the project have also worked to ensure Hudson evolves into a scalable, reliable and high-performance continuous 
 integration server for current and future users." </p>
 
-<p>"With a strong and engaged ecosystem, Hudson continues to thrive, and Oracle’s goal in moving the project to the Eclipse Foundation has expanded this even 
+<p>"With a strong and engaged ecosystem, Hudson continues to thrive, and Oracle's goal in moving the project to the Eclipse Foundation has expanded this even 
 further," said Chris Tonas, vice president, Application Development Tools, Oracle. "Hudson 3.0 adds key capabilities that make continuous integration easier 
 than ever to implement and manage while enhancing the overall environment for developers."</p>
 
 <p>"Open source tools now dominate the CI landscape, and thanks to their extensibility, are becoming the key infrastructure component for orchestrating 
 software delivery," said Mik Kersten, CEO of Tasktop a creator of the Eclipse Mylyn project. "Given the growing dependency that many organizations have on 
-their investment in Hudson-based CI, today’s 3.0 release is a great sign of the benefits of combining commercial investment with Eclipse’s open source 
+their investment in Hudson-based CI, today's 3.0 release is a great sign of the benefits of combining commercial investment with Eclipse's open source 
 governance to create an enterprise-grade open source CI tool."</p>
 
 
@@ -69,7 +69,7 @@ runtimes for building, deploying and managing software across the lifecycle. A l
 universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
 
 <p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse and the Eclipse 
-Foundation are available at<a href="http://eclipse.org/">www.eclipse.org.</a></p>
+Foundation are available at <a href="http://eclipse.org/">www.eclipse.org.</a></p>
 
 
 	</div>
