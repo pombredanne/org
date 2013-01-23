@@ -79,7 +79,7 @@ Foundation are available at <a href="http://eclipse.org/">www.eclipse.org.</a></
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://eclipse.org/hudson/1" target="_blank">Hudson Project Page</a></li>
+				<li><a href="http://www.eclipse.org/hudson" target="_blank">Hudson Project Page</a></li>
 			</ul>
 		</div>
 	</div>
