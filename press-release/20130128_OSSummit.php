@@ -29,12 +29,12 @@ practices and strategies companies be used to drive open innovation within their
 
 <p>Today, IT organizations and technology companies make extensive use of open source software.  The next step for many of these organization is to leverage open 
 source communities and techniques for improving their software development processes and collaborations with external partners.   The Open Source Executive 
-Summit will feature speakers from industry and open source communities who have been highly successful using open source to drive open innovation. A detailed 
-agenda is available at <a href="http://eclipseopeninnovationsummit.eventbrite.com/">eclipseopeninnovationsummit.eventbrite.com</a></p>
+Summit will feature speakers from industry and open source communities who have been highly successful using open source to drive open innovation. A <a href="http://eclipseossummit.eventbrite.com/">detailed 
+agenda</a> and speaker list is now available</p>
 
 <p>The Summit will take place at the Seaport World Trade Center in Boston, MA on March 26, 2013. The event is co-located with the annual <a href="http://www.eclipsecon.org/2013/">EclipseCon</a> 
 and <a href="http://www.eclipsecon.org/2013/almconnect">ALM Connect</a> conferences.  There is no cost to attend the Summit. IT managers and executives can request an invitation to attend at 
-<a href="http://eclipseopeninnovationsummit.eventbrite.com/">eclipseopeninnovationsummit.eventbrite.com</a>/</p>
+<a href="http://eclipseossummit.eventbrite.com//">the Eclipse Open Source Executive Summit.</a>/</p>
 
 Thank you to Black Duck for sponsoring the Open Source Executive Summit.
 
@@ -46,7 +46,7 @@ Thank you to Black Duck for sponsoring the Open Source Executive Summit.
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://eclipseopeninnovationsummit.eventbrite.com/">Agenda</a></li>
+				<li><a href="http://eclipseossummit.eventbrite.com/">Agenda</a></li>
 			</ul>
 		</div>
 	</div>
