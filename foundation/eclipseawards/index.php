@@ -47,9 +47,9 @@
 				</td>
 			</tr>
 		</table>
-		<!--
-		<a href="http://www.surveymonkey.com/s/eclipseawards2012" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
-		-->
+	
+		<a href="http://www.surveymonkey.com/s/53GZ3R8" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
+
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
