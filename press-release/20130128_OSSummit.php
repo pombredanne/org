@@ -25,7 +25,7 @@
 <br>
 <p>The Eclipse Foundation is pleased to announce it will be hosting an Open Source Executive Summit on March 26, 2013 in Boston, MA.  This 1 day event is for 
 IT managers and executives who are interested in open source software strategies, open innovation and collaboration. The Summit will focus on the best 
-practices and strategies companies be used to drive open innovation within their own organization and industry.</p>
+practices and strategies companies use to drive open innovation within their own organization and industry.</p>
 
 <p>Today, IT organizations and technology companies make extensive use of open source software.  The next step for many of these organization is to leverage open 
 source communities and techniques for improving their software development processes and collaborations with external partners.   The Open Source Executive 
@@ -33,10 +33,10 @@ Summit will feature speakers from industry and open source communities who have 
 agenda</a> and speaker list is now available</p>
 
 <p>The Summit will take place at the Seaport World Trade Center in Boston, MA on March 26, 2013. The event is co-located with the annual <a href="http://www.eclipsecon.org/2013/">EclipseCon</a> 
-and <a href="http://www.eclipsecon.org/2013/almconnect">ALM Connect</a> conferences.  There is no cost to attend the Summit. IT managers and executives can request an invitation to attend at 
-<a href="http://eclipseossummit.eventbrite.com//">the Eclipse Open Source Executive Summit.</a>/</p>
+and <a href="http://www.eclipsecon.org/2013/almconnect">ALM Connect</a> conferences.  There is no cost to attend the Summit. IT managers and executives can <a href="mailto:mailto:esummit2013@eclipse.org&subject=Invitation%20request%20for%20Open%20Source%20Summit">request an invitation</a
+ to attend the Eclipse Open Source Executive Summit.</p>
 
-Thank you to Black Duck for sponsoring the Open Source Executive Summit.
+<p>Thank you to Black Duck for sponsoring the Open Source Executive Summit.</p>
 
 
 	</div>
