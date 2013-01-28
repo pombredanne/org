@@ -33,7 +33,7 @@ Summit will feature speakers from industry and open source communities who have 
 agenda</a> and speaker list is now available</p>
 
 <p>The Summit will take place at the Seaport World Trade Center in Boston, MA on March 26, 2013. The event is co-located with the annual <a href="http://www.eclipsecon.org/2013/">EclipseCon</a> 
-and <a href="http://www.eclipsecon.org/2013/almconnect">ALM Connect</a> conferences.  There is no cost to attend the Summit. IT managers and executives can <a href="mailto:esummit2013@eclipse.org&subject=Invitation%20request%20for%20Open%20Source%20Summit">request an invitation</a>
+and <a href="http://www.eclipsecon.org/2013/almconnect">ALM Connect</a> conferences.  There is no cost to attend the Summit. To register IT managers and executives may <a href="mailto:esummit2013@eclipse.org&subject=Invitation%20request%20for%20Open%20Source%20Summit">request an invitation</a>
  to attend the Eclipse Open Source Executive Summit.</p>
 
 <p>Thank you to Black Duck for sponsoring the Open Source Executive Summit.</p>
