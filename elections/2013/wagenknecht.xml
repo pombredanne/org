@@ -1,0 +1,85 @@
+<boardmember id="wagenknecht" type="committer">
+
+	<name>Gunnar Wagenknecht</name>
+
+	<title>CTO, AGETO</title>
+
+	<image>wagenknecht.jpg</image>
+
+	<email>gunnar@ageto.net</email>
+
+	<eclipse_affiliation> <![CDATA[
+<a href="http://planeteclipse.org/planet/">Planet Eclipse</a> Creator<br/>
+<a href="http://www.eclipse.org/technology/">Technology</a> PMC Lead<br/>
+<a href="http://www.eclipse.org/rt/">RT</a> PMC member<br/>
+<a href="http://www.eclipse.org/gyrex/">Gyrex</a> Lead<br/>
+Committer on Gyrex, Orbit, RAP Incubator<br/>
+Contributor to Equinox, EclipseLink, Gemini and PDE<br/>
+Architecture Council member<br/>
+<a href="http://www.eclipsecon.org/">EclipseCon</a> Program Committee (2006, 2012, 2013)
+
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+
+<p>
+I just love the Eclipse community! 
+</p><p>
+Being part of this family for more than ten years now, I met a lot 
+committers, users, contributors and adopters in person over the years. 
+Serving on the board in order to help ensuring that the interests of 
+committers are properly represented will be a great honor for me. 
+</p><p>
+I'm a strong supporter of Eclipse's openness and diversity across the 
+board. I’m pragmatic and I like it when processes are implemented as 
+lean as possible. Needless to say, processes are important. The Eclipse 
+Development Process is one of the many great values of Eclipse. My 
+vision for serving at the Eclipse Board will follow these principles. 
+I’ll actively participate in ongoing as well as initiate new 
+discussions on topics which aid improving the life and work of 
+committers and contributors at Eclipse. 
+</p><p>
+For 2013 I’d like to focus on the following topics in particular:
+<ul>
+<li>
+Improve handling of third-party libraries at Eclipse; ensure easy 
+contribution and consumption for all projects (p2 and Maven).
+</li><li>
+Begin modernizing the Eclipse infrastructure around communication. 
+Today there is NNTP and forums, Stack Overflow and GitHub; 
+it’s time-consuming for committers to check every possible 
+channel separately.
+</li><li>
+Make it easier to consume contributions from GitHub; it must be 
+possible to go from a pull-request via CQ into a repo without 
+creating an extra Bugzilla.
+</li><li>
+Be attractive to new projects which may not use OSGi, maybe 
+written in a language other than Java and may require additional
+licensing options too.
+</li></ul>
+</p><p>
+It will be my pleasure to represent <strong>you</strong> - the 
+committers! If you have any questions please don’t hesitate 
+to get in touch with me.
+</p>
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+Gunnar has been a member of the Eclipse Community since its beginning and 
+he is a prolific contributor with many years of experience on numerous 
+Eclipse projects; Gunnar leads the Technology PMC and is a member of the 
+Eclipse Architecture Council and the RT PMC. He is the Eclipse.org 
+webmaster's best friend and worst nightmare. Apart from Eclipse he loves 
+chatting about fishing, diving and his family and other things that matters
+over a good beer or a glass of dry, barrel aged red wine. 
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+	AGETO
+	]]>
+	</affiliation>
+
+		
+</boardmember>
