@@ -30,16 +30,16 @@
 		<p>“Location and time are integral to data analysis. The insights and critical thinking that arise from effective data analysis are important to solve challenges in business and society,” said Brenda Dietrich, IBM Fellow, Vice President & CTO for Business Analytics, Software Group, IBM. “The LocationTech working group at the Eclipse Foundation will support IBM's collaborations with others to develop innovative approaches to tackling big data at a competitive cost.”</p>
 		<p>"At OpenGeo our mission is to bring spatial functions and applications into mainstream IT, avoiding the costs and inefficiencies created by forcing these functions through the traditional "GIS" process,” said Eddie Pickle, CEO, OpenGeo. “We believe our work with LocationTech and the Eclipse Foundation fits perfectly with this mission, and we are pleased to be a part of this innovative initiative."</p>
 		<p>"As a company that delivers personalized business insights to a high volume of end users, Actuate is very excited to collaborate with members of the LocationTech Working Group," said Nobby Akiha, SVP of Marketing at Actuate Corporation. "This is the ideal forum to push the envelope on how combining geospatial data and analytics can solve a wider range of business problems. The Eclipse community fosters innovation while ensuring there is an emphasis on the multi-company support needed to architect and build solutions that solve the issues of the day and will become tomorrow's enduring technology standards."</p>
-		<p>LocationTech has been established as an Eclipse Industry Working Group and will operate under the governance of the Eclipse Foundation. More information about LocationTech can be found at <a hef="http://locationtech.org">http://locationtech.org</a></p>
+		<p>LocationTech has been established as an Eclipse Industry Working Group and will operate under the governance of the Eclipse Foundation. More information about LocationTech can be found at <a hef="http://locationtech.org/">http://locationtech.org</a></p>
 		
 		<p><b>About the Eclipse Foundation</b></p>
 		<p>Eclipse is an open source community, whose projects are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle. A large, vibrant ecosystem of major technology vendors, innovative start-ups, universities and research institutions and individuals extend, complement and support the Eclipse Platform.</p>
 		<p>The Eclipse Foundation is a not-for-profit, member supported corporation that hosts the Eclipse projects. Full details of Eclipse and the Eclipse Foundation are available at <a href="http://eclipse.org/">www.eclipse.org</a></p>
 
-	    <p>Press Contact:</p> 
-		<p>Ian Skerrett</p>
-		<p>Eclipse Foundation</p> 
-		<p><a href="mailto:ian.skerrett@eclipse.org">ian.skerrett@eclipse.org</a></p>
+	    <p>Press Contact:<br> 
+		Ian Skerrett<br>
+		Eclipse Foundation<br> 
+		<a href="mailto:ian.skerrett@eclipse.org">ian.skerrett@eclipse.org</a></p>
 				
 	</div>
 
@@ -48,7 +48,7 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://eclipse.org/">eclipse.org</a></li>
+				<li><a href="http://eclipse.org/">Eclipse/a></li>
 				<li><a href="http://locationtech.org">LocationTech</a></li>
 			</ul>
 		</div>
