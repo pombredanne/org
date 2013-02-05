@@ -1,0 +1,81 @@
+<boardmember id="merks" type="committer">
+
+	<name>Ed Merks</name>
+
+	<title>President, Macro Modeling</title>
+
+	<image>merks.jpg</image>
+
+	<email>Ed.Merks@gmail.com</email>
+
+	<eclipse_affiliation> <![CDATA[		
+		Eclipse Modeling Project Lead<br>
+		Eclipse Modeling Framework Project Lead
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+	
+<p>
+Eclipse is an evolving diverse community driven by a broadening constellation of contributors: 
+large and small commercial interests, educational institutions, and our dedicated committer community, i.e., people who do day-to-day development at Eclipse like you and me.
+With increasing diversity, particularly the shift from a small number of large commercial interests to a broad spectrum of organization types and sizes,
+our influence as individuals grows, presenting interesting challenges and exciting opportunities.
+Even the types of the projects hosted at Eclipse is diversifying to include things like Orion, i.e., projects that aren't written in Java and don't use OSGi.
+To facilitate healthy, long-term growth, we need more flexible licensing and infrastructure to ensure that Eclipse is an attractive place to host a broadening range of open-source projects.
+As your committer representative on the board, I will employ my six years of experience to promote the rights and privileges of committers and to focus on such issues.
+I will continue to be a visible and approachable technical representative, who navigates the political landscape on your behalf.
+I feel I've demonstrated this with my long track record as your representative on the board.
+My background as a Canadian immigrant, born in the Netherlands, currently living in Berlin and learning German, sensitizes to me the fact that great communities span cultural and linguistic boundaries.
+</p>
+		
+<p>
+Cliche as it may sound, I believe strongly that helping is its own reward. 
+I answer questions daily on a broad range of newsgroups, not just those for my own projects,
+I blog to promote a sense of community,
+I fix bugzillas quickly for the users of my software,
+and I develop cool new features whenever possible.
+I am deeply honored to have received Eclipse's <a href="http://www.eclipse.org/org/press-release/20120326_awardwinners.php">Lifetime Contribution Award</a> in 2012.
+I feel my track record as an Eclipse committer since 2002 is demonstrated with deeds not merely with words.
+I focus on being a positive influence and on balancing the drive to fix problems and to make improvements 
+with recognition of the fact that real problems are difficult to solve and that what constitutes improvement is often highly subjective.
+A case in point is the issue of 
+<a href="http://ed-merks.blogspot.com/2008/02/one-committer-one-vote.html">one committer one vote</a>
+which required a change to the by-laws and was <a href="http://eclipse.org/membership/vote2011/">approved 
+by the membership</a> in 2011.  
+Not everyone agreed this was an improvement, independent committers like me lost a degree of influence for their vote, 
+but I'm quite sure the vast majority of the committers feel everyone's vote is now more fairly reflected in the elections.
+</p>
+
+<p>
+I will continue to work hard to ensure that Eclipse's processes are the best they can be and are ever improving, e.g., streamlining the external contribution process via git.
+I believe in minimal processes that focus on best practices and achievable, pragmatic results. 
+I oppose restrictions that seek to coerce compliance to arbitrary questionable rules, particularly rules that are primarily designed to exclude certain groups
+or to make first and second class citizens in our community. e.g., non-proportional committer voting.
+I can be counted upon as the person who will speak up diplomatically even when personal risk is involved.
+As your representative I commit to working tirelessly to promote not only Eclipse itself but also the community that drives it.
+It has been an honor and a privilege to serve as your representative these past years. 
+If reelected, you can count on the fact that Merks works for you.
+</p>
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+		Ed Merks founded his own small consulting company, <a href="http://www.macromodeling.com/" target="blank">Macro Modeling</a>. He 
+		is a coauthor of the authoritative book "<a href="http://www.informit.com/store/product.aspx?isbn=9780321331885" 
+		target="blank">EMF: Eclipse Modeling Framework</a>" which is published as a second expanded edition. He has been 
+		an elected member of the <a href="http://www.eclipse.org/org/foundation/directors.php" target="blank">Eclipse Foundation 
+		Board of Directors</a> for the past six years and has been recognized by the Eclipse Community Awards as 
+		Top New Comer Evangelist, Top Ambassador, and Top Committer, as well as for Lifetime Achievement. Ed is well known for his dedication to the 
+		Eclipse community since 2002, posting literally thousands of newsgroup answers each year. He spent 16 years at IBM, 
+		achieving the level of Senior Technical Staff Member after completing his Ph.D. at Simon Fraser University. He is a 
+		partner of <a href="http://www.itemis.com/" target="blank">itemis AG</a> and is currently living in Berlin and learning German. His 
+		experience in modeling technology spans twenty-eight years.
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		<a href="http://www.macromodeling.com/" target="blank">Macro Modeling</a>, President<br>
+		<a href="http://www.itemis.com/" target="blank">itemis AG</a>, Partner
+	]]>
+	</affiliation>
+		
+</boardmember>
