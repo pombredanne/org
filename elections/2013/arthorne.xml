@@ -1,0 +1,81 @@
+<boardmember id="arthorne" type="committer">
+
+	<name>John Arthorne</name>
+
+	<title>Senior Software Developer, IBM</title>
+
+	<image>arthorne.jpg</image>
+
+	<email>john_arthorne at ca.ibm.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+	Eclipse Project PMC and Platform Core Lead, Eclipse Architecture Council,
+	Eclipse Planning Council, Committer on Platform, Equinox, e4, and Orion
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+<p>
+It was an honour to represent fellow committers on the Eclipse Board of Directors last year, 
+and to be nominated for re-election this year. The board often operates beneath 
+the radar, but the decisions made by the board have far-reaching impact on the 
+direction of the foundation and the focus areas of its staff. The committer representatives 
+on the board have an important role to play in balancing the needs of individual committers 
+with the needs of the corporate members represented by the rest of the board. Together 
+with fellow committer reps Ed Merks and Chris Aniszczyk, I worked hard over the 
+past year to represent your needs, and will continue to do so if re-elected.
+</p>
+
+<p>
+I believe the Eclipse Foundation is the best venue for building commercial 
+friendly open source software available today. The combination of balanced governance, 
+strong focus on clean IP and licenses, transparent processes and predictable schedules, 
+is unmatched in the software industry today. However there are two important areas 
+that I will focus on improving at the board level if elected.
+</p>
+
+<p>
+First, we need to welcome smaller and more agile open source projects to Eclipse. Most
+ new open source projects today are small scale, and are opting to forgoe a formal 
+open source foundation in favour of free commercial forges with little or no process 
+or governance. Some of these projects are starting to realize the limitations of this 
+approach, and are waking up to the crucial importance of intellectual property management 
+and vendor-neutral governance in the long term success of open source projects. 
+The Eclipse Foundation is well positioned to help these projects, but it has a tradition
+ and reputation for running large scale projects with major commercial backers. As a 
+community we need to adapt to allow some projects to scale down process overhead 
+that isn't adding value to their particular project. We need to be more welcoming 
+of different OSI-approved licences to suit the needs of different adopter communities. We also
+need to welcome non-Java projects, especially in high growth areas such as mobile and 
+web development.
+</p>
+
+<p>
+The second key focus area is the new Eclipse industry working groups. Very large industry 
+groups such as aerospace, automotive, and mapping, have realized the value of Eclipse 
+as a forum for collaborating on their development tool needs. While they compete 
+with each other in their specific industries, they have no need to compete with each other
+ on their development software, and can gain significant value from interoperability and
+ shared maintenance costs. These industries have some very unique needs, such as 
+very long term support timeframes, different licenses, different development practices, 
+and hosting of different kinds of software artifacts. The Eclipse Foundation needs to
+ cater to these special requirements, but without negative impact on the processes and 
+infrastructure of other Eclipse projects. An aerospace requirements project has very different 
+needs from a small scale web project, so we need to have scalable infrastructure, processes 
+and practices to suit the needs of very different projects under the Eclipse umbrella.
+</p>
+
+	]]> </vision>
+
+	<bio> <![CDATA[
+John has worked on the Eclipse and Equinox projects for the past decade in many different areas. He was the main developer on the resource model for many years, and designed the platform's concurrency infrastructure. In recent years he has focused on the Orion project, provisioning (p2), e4, and overall platform API quality. John is a member of the Eclipse Architecture Council, Planning Council and Eclipse Project PMC, and is a Senior Software Developer at IBM Canada. 
+		
+	]]> </bio>
+
+	<affiliation> <![CDATA[ 
+		IBM Software Lab, Ottawa, Canada
+	
+	]]>
+	</affiliation>
+
+		
+</boardmember>
