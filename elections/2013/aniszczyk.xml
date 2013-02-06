@@ -2,14 +2,13 @@
 
 	<name>Chris Aniszczyk</name>
 
-	<title>Manager, Open Source, Twitter</title>
+	<title>Engineering Manager, Open Source (Twitter)</title>
 
 	<image>aniszczyk.jpg</image>
 
 	<email>zx@twitter.com</email>
 
 	<eclipse_affiliation> <![CDATA[		
-		Plug-in Development Environment (<a href="http://www.eclipse.org/pde">PDE</a>) Committer<br> 
         <a href="http://www.eclipse.org/technology/team-leaders.php">Technology</a> and Mylyn PMC Member<br>
         <a href="http://www.eclipse.org/egit">EGit</a> / JGit Committer<br>
         <a href="http://www.eclipse.org/orbit">Orbit</a> Committer<br>               
@@ -22,26 +21,17 @@
 		<p>My overall vision for Eclipse is simple, keep building the <b>community</b> so the Eclipse ecosystem can prosper. 
 		We have a unique open source community at Eclipse that is comprised of a variety of parties, from individuals to 
 		academics to companies. We need to keep all parties in mind, whether an individual or corporation, and make it 
-		easier for everyone to be successful at Eclipse.</p>
+		easier for everyone to be successful at Eclipse. I think this is especially important given that the Eclipse Foundation
+                is expanding with efforts such as <a href="http://locationtech.org/"LocationTech</a>. 
+                </p>
 		
-		<p>Eclipse has been around for over a decade and in that decade, the amount of technological progress and 
-		change has been staggering. In order to remain vibrant and relevant, Eclipse will have to manage its 
-		legacy and existing adopters but also look towards the future. In terms of supporting our traditional 
-		and existing community, Eclipse 4.2 be the featured release during Juno to help us evolve away from the 
-		Eclipse 3.X codebase. Furthermore, an <a href="http://wiki.eclipse.org/LTS/Charter">industry working group</a> was 
-		established recently to focus on long-term support which is important to many adopters within the ecosystem.</p>
-
-		<p>
-		In terms of the future, the Eclipse <a href="http://eclipse.org/orion">Orion</a> project is 
-		starting to gain traction by having its components be embedded within the Firefox 10 release. 
-		The Eclipse Foundation should continue to foster the development of web technology at eclipse.org and 
-		push the boundaries of what is possible with tooling on the web.</p>
+		<p>Eclipse has been around for just over a decade. We have to keep moving forward to stay relevant in a sea of technological change. In the last year, we have done great things like move to <a href="http://mmilinkov.wordpress.com/2012/12/21/eclipse-says-goodbye-to-cvs/">Git/Gerrit</a> (which I'm proud to have helped initiate a couple years ago) and started pushing the boundaries of web tooling with the <a href="http://planetorion.org/news/2012/10/orion-1-0-release/">Orion 1.0 release</a>. However, there are many more things we can do to move things forward. <b>My main focus will be to push for a system where we can leverage social coding sites (such as GitHub or Google Code) while maintaining our reputation for a quality development process and rigorous IP management.</b> This would allow us to grow as a community while taking advantage of all the innovation that has happened in the social coding andy infrastructure space recently. It would also make the the Eclipse Foundation more adaptable to infrastructure changes in the future, further hone our development process and ensure that we're ready for another successful decade of changing the industry.</p>
 
 		<p>To ensure Eclipse continues to grow and thrive I will particularly focus on:</p>
 		
 		<ul>
-			<li>Continue modernizing the Eclipse infrastructure around Git and Gerrit; complete it by end of 2012</li>
-			<li>Push the Foundation to consider make it easier to accept contributions from GitHub and Bitbucket</li>
+			<li>Push the Foundation to allow hosting projects on GitHub and other social coding sites</li>
+                        <li>Make it easier to accept contributions from GitHub and Bitbucket</li>
 			<li>Foster interactions with the web development community and Orion</li>
 			<li>Build bridges within the Eclipse ecosystem and with other open source and commercial projects</li>
 			<li>Encourage Eclipse committers and projects to participate in the community via blogs, forums and other communication channels</li>
@@ -58,8 +48,8 @@
 	<bio> <![CDATA[
 		<p>
 		Chris Aniszczyk (<a href="http://twitter.com/cra">@cra</a>) is a software architect by trade with a 
-		passion for software evangelism, open source and building communities. At Twitter, he's responsible for 
-		creating their open source program office and managing their open source strategy. He also has the honor 
+		passion for open source and building communities. At Twitter, he's responsible for 
+		creating their open source program and managing their open source efforts. He also has the honor 
 		to sit on the Eclipse Architecture and Planning councils. In a previous life, he traveled the world and 
 		consulted companies on Eclipse technology. He also lead and hacked on many eclipse.org and linux related 
 		projects. In his spare time, you'll find him running, cycling or doing yoga.</p>		
