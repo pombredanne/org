@@ -80,11 +80,10 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 <!--		<p>
 			The $year elections have concluded. The list of candidates has been retained below to help document the election process.
 		</p>
+-->	
 	
 		<p><b>Note:</b> To ensure maximum fairness to all, the list of candidates is presented in random order.</p>
--->		
-		<br/><br/><h2>Under Construction</h2><br/><br/>
-		<p>The $year individual candidate pages are being built. All pages will be ready by February 11, 2013.</p>
+	
 		
 		<p>Voting begins on February 25 and ends on March 15 at 3pm EST.</p>
 		
