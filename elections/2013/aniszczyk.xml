@@ -27,7 +27,15 @@
 		
 		<p>Eclipse has been around for just over a decade. We have to keep moving forward to stay relevant in a sea of 
 		technological change. In the last year, we have done great things like 
-		move to <a href="http://mmilinkov.wordpress.com/2012/12/21/eclipse-says-goodbye-to-cvs/">Git/Gerrit</a> (which I'm proud to have helped initiate a couple years ago) and started pushing the boundaries of web tooling with the <a href="http://planetorion.org/news/2012/10/orion-1-0-release/">Orion 1.0 release</a>. However, there are many more things we can do to move things forward. <b>My main focus will be to push for a system where we can leverage social coding sites (such as GitHub or Google Code) while maintaining our reputation for a quality development process and rigorous IP management.</b> This would allow us to grow as a community while taking advantage of all the innovation that has happened in the social coding andy infrastructure space recently. It would also make the the Eclipse Foundation more adaptable to infrastructure changes in the future, further hone our development process and ensure that we're ready for another successful decade of changing the industry.</p>
+		move to <a href="http://mmilinkov.wordpress.com/2012/12/21/eclipse-says-goodbye-to-cvs/">Git/Gerrit</a> (which I'm proud to have 
+		helped initiate a couple years ago) and started pushing the boundaries of web tooling with 
+		the <a href="http://planetorion.org/news/2012/10/orion-1-0-release/">Orion 1.0 release</a>. However, there are 
+		many more things we can do to move things forward. <b>My main focus will be to push for a system where we can 
+		leverage social coding sites (such as GitHub or Google Code) while maintaining our reputation for a quality development 
+		process and rigorous IP management.</b> This would allow us to grow as a community while taking advantage of all the 
+		innovation that has happened in the social coding andy infrastructure space recently. It would also make the the Eclipse Foundation 
+		more adaptable to infrastructure changes in the future, further hone our development process and ensure that we're ready for 
+		another successful decade of changing the industry.</p>
 
 		<p>To ensure Eclipse continues to grow and thrive I will particularly focus on:</p>
 		
