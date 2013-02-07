@@ -85,10 +85,10 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<p><b>Note:</b> To ensure maximum fairness to all, the list of candidates is presented in random order.</p>
 	
 		
-		<p>For the Sustaining Member representatives, we have three nominees for three positions. So the candidates have won 
+		<p>For the Sustaining Member representatives, there are three nominees for three positions. So the candidates have won 
 		by acclamation, and all will retain their current seats on the Board.</p>
 		
-		<p>For the Committer representatives, voting begins on February 25 and ends on March 15 at 3pm EST.</p>
+		<p>For the Committer representatives, voting begins on <b>February 25</b> and ends on <b>March 15</b> at 3pm EST.</p>
 		
 		<table>
 			<tr>
