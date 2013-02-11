@@ -23,11 +23,11 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 <br>
-<p>The Eclipse Foundation is pleased to announce it will be hosting an ALM Connect Executive Day on March 27, 2013 at the Seaport Hotel in Boston, MA. The 
+<p>The Eclipse Foundation is pleased to announce it will be hosting an <a href="http://almexecutiveday.eventbrite.com/">ALM Connect Executive Day</a> on March 27, 2013 at the Seaport Hotel in Boston, MA. The 
 objective of the ALM Connect Executive Day is to provide a platform for software delivery executives to discuss modern ALM practices in the context of business 
-problems. This 1-day event is open to  IT executives looking to improve their ability to delivery software within an organization.</p>
+problems. This 1-day event is open to IT executives looking to an organizations ability to improve their software delivery.</p>
 
-<p>The intersection of tools, process, and new business models has is changing the way practioners view software delivery tool across the lifecycle. 
+<p>The intersection of tools, process, and new business models is changing the way practioners view software delivery tools across the lifecycle. 
 The ability to manufacture software is, for many organizations, a competitive advantage; thus ALM is becoming a key business process. ALM Connect Executive Day 
 will bring together industry leaders in the areas of ALM and software delivery management to have open discussions on how ALM must adapt in response to a 
 changing software delivery landscape. It will address questions such as:
