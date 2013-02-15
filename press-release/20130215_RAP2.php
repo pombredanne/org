@@ -3,7 +3,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse RAP Project Release 2.0 Now Supports Native Client Platfo";
+	$pageTitle 		= "Eclipse RAP Project Release 2.0 Now Supports Native Client Platform";
 	$pageKeywords	= "";
 	$pageAuthor		= "Ian Skerrett";
 	
