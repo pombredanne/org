@@ -25,7 +25,7 @@
 <br>
 <p><strong>Ottawa, Canada – February 20, 2013 </strong>– The Eclipse Foundation has launched a new initiative to enable the infrastructure and ecosystem for 
 the support of Eclipse in industries that require Eclipse releases maintained over a very long time. Industries such as aerospace, automotive, and enterprise 
-software are expected to support their software stack for 10 to 50 years. The new Eclipse Long Term Support (LTS) initiative will allow these companies to 
+software are expected to support their software stack for 10 to 50 years. The new <a href="http://lts.eclipse.org/">Eclipse Long Term Support (LTS)</a> initiative will allow these companies to 
 release bug fixes and maintenance releases of previous versions of Eclipse technologies. </p>
 
 <p>The Eclipse Long Term Support initiative is led by CA Technologies, IBM, EclipseSource and SAP AG.  The Eclipse Foundation, through Eclipse LTS, will 
