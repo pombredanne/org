@@ -68,7 +68,6 @@ ob_start();
 			<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185">Full list of nominees</a>
 		</div>			
 		<br />
-		<br /><br />
 
 	<h2><br>Project Award Finalists</h2>
 		<p>Presented below is the list of award finalists for each of the project awards catagories as
@@ -95,7 +94,6 @@ ob_start();
 			<a href="http://marketplace.eclipse.org/nominations/most-open-project">Full list of nominees</a>
 		</div>
 		<br />
-		<br /><br />
 
 	<h2><br>Technology Award Finalists</h2>
 		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
@@ -105,7 +103,7 @@ ob_start();
 		<h3>Best Application</h3>
 			<ul>
 				<li class="finalist">Bonita Open Solution</li>
-				<li class="finalist">Chronon 4 'Ops'r</li>
+				<li class="finalist">Chronon 4 'Ops'</li>
 				<li class="finalist">Talend Open Studio</li>
 			</ul>
 			<a href="http://marketplace.eclipse.org/nominations/best-application">Full list of nominees</a>
@@ -138,7 +136,6 @@ ob_start();
 			<a href="http://marketplace.eclipse.org/nominations/best-modeling-product">Full list of nominees</a>
 		</div>			
 		<br />
-		<br /><br />
 	</div>
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
