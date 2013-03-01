@@ -27,7 +27,7 @@
 <h2>Community Bulletin</h2>
 <p>The Eclipse Foundation congratulates the finalists for the 2013 Eclipse Community Awards. Winners for each category will be announced on March 25, 2013 during the Awards Ceremony at <a href="http://www.eclipsecon.org/2013/">EclipseCon 2013</a>.</p>
 <p>The Individual Awards recognize the people who have given their time to make Eclipse a vibrant and progressive community. Finalists were selected by their peers in an online vote.</p>
-		<p><b>Top Committer</b>
+		<p style="padding-bottom: 0px;"><b>Top Committer</b></p>
 			<ul>
 				<li>Edward D. Willink, John Arthorne, and Markus Knauer</li>
 			</ul>
@@ -35,7 +35,7 @@
 			<ul>
 				<li>Benjamin Cabé, Jonas Helming, and Russell Bateman</li>
 			</ul>
-	    </p>
+	
 <p>The Project Awards feature Eclipse projects that display innovation and foster community. Finalists were selected by their peers in an online vote. </p>
 	<ul>
 		<li><b>Most Innovative New Feature or Eclipse Project</b></li>
