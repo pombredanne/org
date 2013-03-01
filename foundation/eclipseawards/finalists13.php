@@ -112,7 +112,7 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Best Developer Tool</h3>
 			<ul>
-				<li class="finalist">Klockwork Insight</li>
+				<li class="finalist">Klocwork Insight</li>
 				<li class="finalist">Sonar</li>
 				<li class="finalist">WireframeSketcher Wireframing Tool</li>
 			</ul>
