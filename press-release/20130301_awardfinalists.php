@@ -33,48 +33,20 @@
 	
 <p> The Project Awards feature Eclipse projects that display innovation and foster community. Finalists were selected by their peers in an online vote. </p>
 	
-<p><b>Most Innovative New Feature or Eclipse Project</b>:</p> 
-	<ul>
-		<li><a href="http://eclipse.org/paho/" target="_blank">Eclipse Paho</a></li>
-		<li><a href="http://www.eclipse.org/diffmerge/" target="_blank">EMF Diff/Merge</a></li>
-		<li><a href="http://www.eclipse.org/intent/" target="_blank">Intent</a></li>
-		<li><a href="http://eclipse.org/vjet" target="_blank">VJET Java Script IDE</a></li>
-	</ul>
+<p><b>Most Innovative New Feature or Eclipse Project</b>: <a href="http://eclipse.org/paho/" target="_blank">Eclipse Paho</a>, <a href="http://www.eclipse.org/diffmerge/" target="_blank">EMF Diff/Merge</a>, <a href="http://www.eclipse.org/intent/" target="_blank">Intent</a>, and <a href="http://eclipse.org/vjet" target="_blank">VJET Java Script IDE</a></p> 
 				
-<p><b>Most Open Project</b>:</p>
-	<ul>
- 		<li><a href="http://www.eclipse.org/cdt" target="_blank">C/C++ Development tooling - CDT</a></li>
-		<li><a href="http://eclipse.org/egit" target="_blank">EGit</a></li> 
-		<li><a href="http://eclipse.org/orion" target="_blank">The Orion Project</a></li>
-	</ul>
-				
+<p><b>Most Open Project</b>: <a href="http://www.eclipse.org/cdt" target="_blank">C/C++ Development tooling - CDT</a>, <a href="http://eclipse.org/egit" target="_blank">EGit</a>, and <a href="http://eclipse.org/orion" target="_blank">The Orion Project</a></p>
+					
 <p> The Technology Awards recognize some of the best Eclipse-based tools and applications. The finalists were selected from a pool of nominations by a judging panel from the Eclipse community. </p>
-<p><b>Best Application</b></p>:
-	<ul>
-		<li><a href="http://www.bonitasoft.com" target="_blank">Bonita Open Solution</a></li>
-		<li><a href="http://chrononsystems.com/chronon4/" target="_blank">Chronon 4 'Ops'</a></li>
-		<li><a href="http://www.talend.com/products/data-integration" target="_blank">Talend Open Studio</a></li>
-	</ul>
 
-<p>b>Best Developer Tool</b>:</p>
-	<ul>
-		<li><a href="http://www.klocwork.com/products/insight/" target="_blank">Klocwork Insight</a></li>
-		<li><a href="http://docs.codehaus.org/display/SONAR/Working+with+Sonar+in+Eclipse" target="_blank">Sonar</a></li>
-		<li><a href="http://wireframesketcher.com" target="_blank">WireframeSketcher Wireframing Tool</a></li>
-	</ul>
-<p><b>Best Developer Plugin</b>:</p>
-	<ul>
-		<li><a href="http://www.efxclipse.org" target="_blank">e(fx)clipse</a></li>
-		<li><a href="http://andrei.gmxhome.de/findbugs/index.html" target="_blank">FindBugs Eclipse Plugin</a></li>
-		<li><a href="http://www.junitloop.org/" target="_blank">JUnitLoop</a></li>
-	</ul>
-				
-<p><b>Best Modeling Product</b></p>
-	<ul>
-		<li><a href="www.obeodesigner.com" target="_blank">Obeo Designer</a></li>
-		<li><a href="http://www.umlet.com" target="_blank">UMLet</a></li>
-	</ul>
-						
+<p><b>Best Application</b>: <a href="http://www.bonitasoft.com" target="_blank">Bonita Open Solution</a>, <a href="http://chrononsystems.com/chronon4/" target="_blank">Chronon 4 'Ops'</a>, and <a href="http://www.talend.com/products/data-integration" target="_blank">Talend Open Studio</a></p>
+
+<p>b>Best Developer Tool</b>: <a href="http://www.klocwork.com/products/insight/" target="_blank">Klocwork Insight</a>, <a href="http://docs.codehaus.org/display/SONAR/Working+with+Sonar+in+Eclipse" target="_blank">Sonar</a>, and <a href="http://wireframesketcher.com" target="_blank">WireframeSketcher Wireframing Tool</a></p>
+	
+<p><b>Best Developer Plugin</b>: <a href="http://www.efxclipse.org" target="_blank">e(fx)clipse</a>, <a href="http://andrei.gmxhome.de/findbugs/index.html" target="_blank">FindBugs Eclipse Plugin</a>, and <a href="http://www.junitloop.org/" target="_blank">JUnitLoop</a></p>
+		
+<p><b>Best Modeling Product</b>: <a href="www.obeodesigner.com" target="_blank">Obeo Designer</a> and <a href="http://www.umlet.com" target="_blank">UMLet</a></p>
+							
 	</div>
 
 	<!-- remove the entire <div> tag to omit the right column!  -->
@@ -83,7 +55,6 @@
 			<h6>Awards Navigation</h6>
 			<ul>
 				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/finalists13.php">Eclipse Community Awards Finalist 2013</a></li>
 			</ul>
 		</div>
 	</div>
