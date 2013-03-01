@@ -43,7 +43,7 @@
 				<li><b>Best Application</b>: <a href="http://www.bonitasoft.com" target="_blank">Bonita Open Solution</a>, <a href="http://chrononsystems.com/chronon4/" target="_blank">Chronon 4 'Ops'</a>, and <a href="http://www.talend.com/products/data-integration" target="_blank">Talend Open Studio</a></li>
 				<li><b>Best Developer Tool</b>: <a href="http://www.klocwork.com/products/insight/" target="_blank">Klocwork Insight</a>, <a href="http://docs.codehaus.org/display/SONAR/Working+with+Sonar+in+Eclipse" target="_blank">Sonar</a>, and <a href="http://wireframesketcher.com" target="_blank">WireframeSketcher Wireframing Tool</a></li>
 				<li><b>Best Developer Plugin</b>: <a href="http://www.efxclipse.org" target="_blank">e(fx)clipse</a>, <a href="http://andrei.gmxhome.de/findbugs/index.html" target="_blank">FindBugs Eclipse Plugin</a>, and <a href="http://www.junitloop.org/" target="_blank">JUnitLoop</a></li>
-				<li><b>Best Modeling Product</b>: <a href="www.obeodesigner.com" target="_blank">Obeo Designer</a> and <a href="http://www.umlet.com" target="_blank">UMLet</a></li>
+				<li><b>Best Modeling Product</b>: <a href="http://www.obeodesigner.com/" target="_blank">Obeo Designer</a> and <a href="http://www.umlet.com" target="_blank">UMLet</a></li>
 			</ul>			
 	</div>
 
