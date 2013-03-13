@@ -18,7 +18,7 @@
 	$Nav->addCustomNav("Usage Trends", "usage.php", "_self", 1);
 	$Nav->addCustomNav("Views, Editors, ...", "results.php", "_self", 1);	
 	
-	$Nav->addNavSeparator("Reports (cvs)", null);
+	$Nav->addNavSeparator("Reports (csv)", null);
 	$Nav->addCustomNav("Bundles", "reports/csv.php?kind=bundle", "_self", 1);
 	$Nav->addCustomNav("Views", "reports/csv.php?kind=view", "_self", 1);
 	$Nav->addCustomNav("Editors", "reports/csv.php?kind=editor", "_self", 1);
