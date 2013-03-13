@@ -39,24 +39,23 @@
 				<h1>$pageTitle</h1>
 				The Eclipse Community Awards recognize the best of the Eclipse community. Individuals, projects
 				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://dev.eclipse.org/site_login/createaccount.php" target="_blank">
-				Bugzilla account</a>. Self nominations	are welcome. Nominations will open on December 10th, 2012 and will close January 24,
-				2013.  Winners will be announced at <a href="http://www.eclipsecon.org/2013/" target="_blank">EclipseCon 2013</a>.						
+				Bugzilla account</a>. Self nominations	are welcome. Nominations and voting are now closed. Winners will be announced at <a href="http://www.eclipsecon.org/2013/" target="_blank">EclipseCon 2013</a>.						
 			  </td>
 				<td>
 				<img src="images/EclipseAwardsLogo_2013.gif" alt="Eclipse Awards 2013" height="125">
 				</td>
 			</tr>
 		</table>
-		<!--
-		<a href="http://www.surveymonkey.com/s/eclipseawards2012" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>
-		-->
+	
+		<!--<a href="http://www.surveymonkey.com/s/53GZ3R8" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>-->
+
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
 			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank">Current nominees</a>	
 			</li>
 		</ul>
-		<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank" class="btn_nomination">Nominate</a></p>
+		<!--<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank" class="btn_nomination">Nominate</a></p>-->
 		<ul class="midlist">
 			<!--
 			<li><b>Top Contributor</b> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.
@@ -67,7 +66,7 @@
 			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank">Current nominees</a>	
 			</li>						
 		</ul>
-		<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank" class="btn_nomination">Nominate</a></p>
+		<!--<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank" class="btn_nomination">Nominate</a></p>-->
 		<h2>Project Nominations</h2>
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
@@ -78,7 +77,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		<p><a href="http://marketplace.eclipse.org/node/add/project-nominations" target="blank" class="btn_nomination">Nominate</a></p>
+		<!--<p><a href="http://marketplace.eclipse.org/node/add/project-nominations" target="blank" class="btn_nomination">Nominate</a></p>-->
 		<h2>Technology Nominations</h2>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
@@ -97,7 +96,7 @@
 			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current nominees</a>
 			</li>
 		</ul>
-		<p><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank" class="btn_nomination">Nominate</a></p>
+		<!--<p><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank" class="btn_nomination">Nominate</a></p>-->
 		<h2>Determining Winners</h2>
 		<p>
 		The Individual and Project Award winners will be determined by a vote of the community. Each person will

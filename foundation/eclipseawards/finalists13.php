@@ -14,9 +14,9 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Eclipse Awards Finalists 2010";
+	$pageTitle 		= "Eclipse Awards Finalists 2013";
 	$pageKeywords	= "eclipse, foundation, community, award, winners, 2010";
-	$pageAuthor		= "Lynn Gayowski";
+	$pageAuthor		= "Roxanne Joncas";
 	
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
@@ -40,13 +40,15 @@ ob_start();
 		<div class="homeitem3col">
 			<h3>Top Committer</h3>
 			<ul>
-				<li class="finalist">Boris Bokowski</li>	
-				<li class="finalist">Markus Schorn</li>
-				<li class="finalist">Eike Stepper</li>					
+				<li class="finalist">Edward D. Willink</li>	
+				<li class="finalist">John Arthorne</li>
+				<li class="finalist">Markus Knauer</li>					
 			</ul>
+			<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183">Full list of nominees</a>
 		</div>
 
-		<div class="homeitem3col">
+
+		<!-- <div class="homeitem3col">
 			<h3>Top Contributor</h3>
 			<ul>
 				<li class="finalist">Matt Hall</li>
@@ -54,19 +56,18 @@ ob_start();
 				<li class="finalist">James Sugrue</li>
 				<li class="finalist">Lars Vogel</li>
 			</ul>
-		</div>
+		</div>-->
 
 		<div class="homeitem3col">
 			<h3>Top Newcomer Evangelist</h3>
 			<ul>
-				<li class="finalist">Russell Bateman</li>	
-				<li class="finalist">Walter Harley</li>
-				<li class="finalist">Lars Vogel</li>
+				<li class="finalist">Benjamin Cabé</li>	
+				<li class="finalist">Jonas Helming</li>
+				<li class="finalist">Russell Bateman</li>
 			</ul>
+			<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185">Full list of nominees</a>
 		</div>			
 		<br />
-		<a href="individual.php">A complete list of the nominees for the 2010 Individual Awards can be found here.</a>
-		<br /><br />
 
 	<h2><br>Project Award Finalists</h2>
 		<p>Presented below is the list of award finalists for each of the project awards catagories as
@@ -75,63 +76,66 @@ ob_start();
 		<div class="homeitem3col">
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 			<ul>
-				<li class="finalist">EclipseLink</li>
-				<li class="finalist">Standard Widget Toolkit (SWT) Cocoa Port</li>
-				<li class="finalist">Textual Modeling Framework (TMF) Xtext</li>
+				<li class="finalist">Eclipse Paho</li>
+				<li class="finalist">EMF Diff/Merge</li>
+				<li class="finalist">Intent</li>
+				<li class="finalist">VJET Java Script IDE</li>
 			</ul>
+			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project">Full list of nominees</a>
 		</div>	
 			
 		<div class="homeitem3col">
 			<h3>Most Open Project</h3>
 			<ul>
-				<li class="finalist">e4</li>
-				<li class="finalist">Equinox p2</li>
-				<li class="finalist">Mylyn</li>
-				<li class="finalist">XML Tools in Web Tools Platform (WTP) Incubator</li>
+				<li class="finalist">C/C++ Development tooling - CDT</li>
+				<li class="finalist">EGit</li>
+				<li class="finalist">The Orion Project</li>
 			</ul>
+			<a href="http://marketplace.eclipse.org/nominations/most-open-project">Full list of nominees</a>
 		</div>
 		<br />
-		<a href="project.php">A complete list of the nominees for the 2010 Project Awards can be found here.</a>
-		<br /><br />
 
 	<h2><br>Technology Award Finalists</h2>
 		<p>Presented below is the list of award finalists for each of the technology awards catagories as determined
 			by this year's judging panels.</p>
 			
 		<div class="homeitem3col">
-		<h3>Best Commerical Developer Tool</h3>
+		<h3>Best Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.birt-exchange.com/be/marketplace/app-showcase/" target="blank">BIRT Mashboard Application</a></li>
-				<li class="finalist"><a href="http://www.guidancer.com/" target="blank">GUIdancer</a></li>
-				<li class="finalist"><a href="http://www.zend.com/products/studio" target="blank">Zend Studio 7</a></li>
+				<li class="finalist">Bonita Open Solution</li>
+				<li class="finalist">Chronon 4 'Ops'</li>
+				<li class="finalist">Talend Open Studio</li>
 			</ul>
+			<a href="http://marketplace.eclipse.org/nominations/best-application">Full list of nominees</a>
 		</div>	
 			
 		<div class="homeitem3col">
-			<h3>Best Open Source Developer Tool</h3>
+			<h3>Best Developer Tool</h3>
 			<ul>
-				<li class="finalist">There is 1 winner in this category with no additional finalists. The winning tool will be announced at the Eclipse Awards ceremony.
-				<a href="technology.php">See all nominees</a>.</li>
+				<li class="finalist">Klocwork Insight</li>
+				<li class="finalist">Sonar</li>
+				<li class="finalist">WireframeSketcher Wireframing Tool</li>
 			</ul>
+			<a href="http://marketplace.eclipse.org/nominations/best-developer-tool">Full list of nominees</a>
 		</div>
 		<div class="homeitem3col">
-		<h3>Best EclipseRT Application</h3>
+		<h3>Best Developer Plugin</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.actuate.com/products/iserver/iserver-enterprise/" target="blank">BIRT iServer Enterprise</a></li>
-				<li class="finalist"><a href="http://www.springsource.org/dmserver" target="blank">SpringSource dm Server</a></li>
+				<li class="finalist">e(fx)clipse</li>
+				<li class="finalist">FindBugs Eclipse Plugin</li>
+				<li class="finalist">JUnitLoop</li>
 			</ul>
+			<a href="http://marketplace.eclipse.org/nominations/best-developer-plugin">Full list of nominees</a>
 		</div>
 		<div class="homeitem3col">
-			<h3>Best RCP Application</h3>
+			<h3>Best Modeling Product</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.bioclipse.net/" target="blank">Bioclipse</a></li>
-				<li class="finalist"><a href="http://www.postergenius.com/" target="blank">PosterGenius</a></li>
-				<li class="finalist"><a href="http://tasktop.com/" target="blank">Tasktop Pro</a></li>
+				<li class="finalist">Obeo Designer</li>
+				<li class="finalist">UMLet</li>
 			</ul>
+			<a href="http://marketplace.eclipse.org/nominations/best-modeling-product">Full list of nominees</a>
 		</div>			
 		<br />
-		<a href="technology.php">A complete list of the nominees for the 2010 Technology Awards can be found here.</a>
-		<br /><br />
 	</div>
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
@@ -141,9 +145,6 @@ ob_start();
 			<ul>
 				<li><a href="index.php">Eclipse Community Awards</a></li>
 				<li><a href="pastwinners.php">Past Winners</a></li>
-				<li><a href="individual.php">Individual Nominees</a></li>
-				<li><a href="project.php">Project Nominees</a></li>
-				<li><a href="technology.php">Technology Nominees</a></li>
 			</ul>
 		</div>
 	</div>
@@ -154,3 +155,4 @@ ob_start();
 
 	# Generate the web page
 	$App->generatePage("Nova", $Menu, $Nav, $pageAuthor, $pageKeywords, $pageTitle, $html);
+?>

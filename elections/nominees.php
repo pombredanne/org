@@ -80,10 +80,15 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 <!--		<p>
 			The $year elections have concluded. The list of candidates has been retained below to help document the election process.
 		</p>
+-->	
 	
 		<p><b>Note:</b> To ensure maximum fairness to all, the list of candidates is presented in random order.</p>
--->		
-		<br/><br/><h2>Coming Soon!</h2><br/><br/>
+	
+		
+		<p>For the Sustaining Member representatives, there are three nominees for three positions. So the candidates have won 
+		by acclamation, and all will retain their current seats on the Board.</p>
+		
+		<p>For the Committer representatives, voting begins on <b>February 25</b> and ends on <b>March 15</b> at 3pm EST.</p>
 		
 		<table>
 			<tr>
@@ -92,7 +97,8 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 					Candidates</h3>
 				</td>
 				<td valign="bottom">
-					<h3>Sustaining Member Candidates</h3>
+					<h3>Sustaining Member<br>
+					Candidates</h3>
 				</td>
 			</tr>
 			<tr>

@@ -1,0 +1,93 @@
+<boardmember id="dupuis" type="addin">
+
+	<name>Christian Dupuis</name>
+
+	<title>Director, R&amp;D, VMware</title>
+
+	<image>dupuis.jpg</image>
+
+	<email>cdupuis@vmware.com</email>
+
+	<eclipse_affiliation> <![CDATA[
+   		
+	]]> </eclipse_affiliation>
+
+	<vision>  <![CDATA[
+	<p>Over the past several years I've been an active user of Eclipse technologies and 
+	used the Eclipse platform to build open source and commercial solutions like Spring IDE or the Spring
+	Tool Suite. During my work on open source technologies, I have come to recognize the unique 
+	value that the Eclipse Foundation brings to the intersection of open source and corporate software development. 
+	In conjunction with a large, active and vocal community, the Eclipse Foundation had helped to define the primacy 
+	of the developer as an agent of change in the world of enterprise software.
+	</p>
+	<p>Within recent times we've seen the rise of the Cloud, an ever increasing number of mobile devices accessing 
+	the internet and an insane amount of data being captured each day. Without question these developments affect 
+	the ways developers are building the next generation of applications; a completely new set of application 
+	styles, frameworks and tools is emerging to support these new demands.
+	</p>
+	<p>This poses a challenge for Eclipse and its ecosystem; there are certain areas in which the Eclipse 
+	ecosystem could put additional focus to maintain its momentum and market leading position. In case 
+	the Eclipse community elects me to the Board of Directors, I would like to help making this a reality.
+	</p>
+	<p>My vision for Eclipse in 2013:
+	</p>
+	<ul>
+	<li>Web + Mobile: we are seeing the growing importance of HTML5 and JavaScript 
+	in modern web and mobile application development. There is a tremendous opportunity 
+	in this space with a wide and growing addressable market, both in terms of developers 
+	and commercial vendors that will potentially build on top of Eclipse technologies. Vert.x 
+	and its potential move to the Eclipse Foundation is a good example of what role the Eclipse 
+	Foundation could play in this space; even beyond the traditional tooling. As a board member, 
+	I will help ensure that Eclipse gets the necessary resources to extend the Eclipse stack 
+	and become a viable option for web and mobile application development.
+	</li>
+	<li>Cloud: many people may see Cloud as a buzzword. But while working at VMware I have 
+	come to see that the Cloud is a reality through the community interest in the open source 
+	Cloud Foundry platform. While I was working on the Eclipse integration for Cloud Foundry it 
+	became clear that there is a lot that Eclipse could offer as part of the platform to support 
+	Cloud platforms and vendors.
+		<ul>
+		<li>Eclipse, through the WTP project, managed to build a platform for traditional 
+		application server vendors to extend for their server runtimes. This has led to a 
+		flourishing ecosystem of providers for nearly every application server in the market. 
+		I think a similar effort is required to provide extension mechanisms for cloud providers 
+		to plug in their PaaS and IaaS offerings. This goes beyond simple deploy-start-stop scenarios 
+		and will include, for example, provisioning and configuring platform services in a Cloud environment.
+		</li>
+		<li>More and more components of the development lifecycle are moving into the Cloud. I think 
+		it is only natural for cloud providers to host editing or IDE solutions in close proximity 
+		to the application code. There is a unique opportunity to work with the various cloud providers to 
+		position Orion as the editing solution of choice in those environments.
+		</li>
+		</ul>
+	</li>
+	</ul>]]> </vision>
+
+	<bio> <![CDATA[
+	<p>Christian Dupuis is Director, R&D for the SpringSource division of VMware with 
+	responsibilities for the Spring project offerings, including the Spring Framework. 
+	From the very early days of Spring, Christian worked with the Spring team around Rod Johnson 
+	and others in the open source space. In 2004 Christian co-founded the well known Spring IDE 
+	open source project that brings development tools for the Spring projects to the Eclipse platform. 
+	</p>
+	<p>More recently Christian was responsible for the implementation of the Cloud Foundry Integration for 
+	Eclipse which gives developers easy access to VMware's multi-language, multi-framework PaaS. He is 
+	also actively involved in moving the SpringSource dm Server Tools into Eclipse Virgo project.
+	</p>
+	<p>Christian has been developing Java enterprise applications since 1997. During this time, Christian 
+	designed complex software architectures with a focus on multi-tiered, web-based, client-server 
+	applications using enterprise Java technologies and the Spring Framework. Prior to joining SpringSource, 
+	Christian worked as consultant and project manager for one of the leading global technology consulting 
+	firms in the financial sector in central Europe.
+	</p>
+	<p>Christian served on the Eclipse Foundation Board of Directors starting February 2013.
+	</p>]]>
+	</bio>
+
+	<affiliation> <![CDATA[ 
+	SpringSource, a division of VMware, Inc.
+	]]>
+	</affiliation>
+
+		
+</boardmember>

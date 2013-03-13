@@ -41,6 +41,39 @@
 		<div class="homeitem3col">
 			<h3><a name="board">Board of Directors Meetings</a></h3>
 			<ul>
+			    <li>Abridged Minutes 
+          			- <a href="boardminutes/2011_12_14_Minutes.php">December 14, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2011_10_31-11_01_Minutes.php">October 31 &amp November 1, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2011_09_21_Minutes.php">September 21, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2011_07_20_Minutes.php">July 20, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2011_06_14-15_Minutes.php">June 14 &amp 15, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2011_05_18_Minutes.php">May 18, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2011_03_21_Minutes.php">March 21, 
+          			2011 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2010_12_08_Minutes.php">December 8, 
+          			2010 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2010_11_01_Minutes.php">November 1, 
+          			2010 (html)</a></li>
+          		<li>Abridged Minutes 
+          			- <a href="boardminutes/2010_06_16-17_Minutes.php">June 16-17, 
+          			2010 (html)</a></li>
+				<li>Abridged Minutes 
+          			- <a href="boardminutes/2010_03_22_Minutes.php">March 22, 
+          			2010 (html)</a></li>
 				<li>Abridged Minutes 
           			- <a href="boardminutes/2009_12_9-10_Minutes.php">December 9-10, 
           			2009 (html)</a></li>
