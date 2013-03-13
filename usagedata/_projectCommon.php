@@ -5,6 +5,7 @@
 	# https://dev.eclipse.org/committers/ 
 	$theme = "Nova";
 	$App->Promotion = TRUE;
+	$App->setOutDated();
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank)
 	$Nav->addNavSeparator("Usage Data", "index.php");
