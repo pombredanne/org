@@ -56,8 +56,10 @@
 		<a href="http://www.eclipse.org/forums/eclipse.foundation">Foundation forum</a>.
 		<div class="homeitem3col">
 	    <h3>$year Elections</h3>
-<!-- <p>Voting for the $year elections has concluded. Members elected $committer Committer representatives and $sustaining Sustaining Member representatives.</p>
--->
+	    
+		<p>Voting for the $year elections has concluded.</p> 
+		<!-- Members elected $committer Committer representatives and $sustaining Sustaining Member representatives.</p> -->
+		
 		<p>Information concerning the $year elections is contained within the links below.</p>
 		<ul>
 		<li>The <a href="nominees.php">candidates</a> for the $year elections</li>
