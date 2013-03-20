@@ -44,9 +44,9 @@
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
 		<div class="sideitem">
-			<h6>Awards Navigation</h6>
+			<h6>Related Links</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/org/foundation/eclipseawards/index.php">Eclipse Community Awards</a></li>
+				<li><a href="http://eclipse.org/xtend/">Xtend Home Page</a></li>
 			</ul>
 		</div>
 	</div>
