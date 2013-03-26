@@ -27,7 +27,7 @@
 		<h1>$pageTitle</h1>
 <br>
 
-<p>The Eclipse Foundation congratulates the winners of the annual Eclipse Community Awards, which recognize the top individuals, projects and technologies in 
+<p><strong>Ottawa, Canada - March 26, 2013</strong> - The Eclipse Foundation congratulates the winners of the annual Eclipse Community Awards, which recognize the top individuals, projects and technologies in 
 the ecosystem. Recipients were honored at an awards ceremony March 25 on the opening day of EclipseCon 2012.</p>
 
 <p>The Individual Awards acknowledge people that give their time and resources to make Eclipse a better community. Winners were selected by their peers in an 
