@@ -44,26 +44,26 @@ online vote.
 
 <p>The Project Awards recognize Eclipse projects for introducing innovative new features and fostering an open community. Winners were selected by their 
 peers in an online vote.</p>
-<ul><li>Most Open Project:  EGit
-<li>The finalists are  CDT and Orion
+<ul><li>Most Open Project:  <a href="/egit/">EGit</a>
+<li>The finalists are  <a href="/cdt/">CDT</a> and <a href="/orion/">Orion</a>
 </ul>
-<ul><li>Most Innovative New Feature or Eclipse Project: EMF Diff/Merge
-<li>The finalists are Paho, Mylyn Intent and VJet
+<ul><li>Most Innovative New Feature or Eclipse Project: <a href="/diffmerge/">EMF Diff/Merge</a>
+<li>The finalists are <a href="/paho/">Paho</a>, <a href="/intent/">Mylyn Intent</a> and <a href="/vjet/">VJet</a>
 </ul>
 
 <p>Technology Awards recognize Eclipse-based open source projects and commercial products. Winners were selected by a panel of judges from the Eclipse 
 community. Products were evaluated on their user interfaces, innovation and completeness of their solutions.</p>
-<ul><li>Best Developer Tool: Wireframe Sketcher
-<li>The finalists are Klocwork Insight and Sonar
+<ul><li>Best Developer Tool: <a href="http://wireframesketcher.com/" target="_blank">Wireframe Sketcher</a>
+<li>The finalists are <a href="http://www.klocwork.com/products/insight/index.php" target="_blank">Klocwork Insight</a> and <a href="http://www.sonarsource.org/" target="_blank">Sonar</a>
 </ul>
-<ul><li>Best Developer Plugin: FindBugs
-<li>The finalist are e(fx)clipse, JunitLoop
+<ul><li>Best Developer Plugin: <a href="http://findbugs.sourceforge.net/index.html" target="_blank">FindBugs</a>
+<li>The finalist are <a href="http://www.efxclipse.org/" target="_blank">e(fx)clipse</a>, <a href="http://www.junitloop.org/" target="_blank">JunitLoop</a>
 </ul>
-<ul><li>Best Modeling Product: Obeo Designer
+<ul><li>Best Modeling Product: <a href="http://www.obeodesigner.com/" target="_blank">Obeo Designer</a>
 <li>The finalist is UMLet
 </ul>
-<ul><li>Best Application: Chronon 4 ‘Ops’
-</li>The finalists are Bonita Open Solutions and Talend Open Studio
+<ul><li>Best Application: <a href="http://chrononsystems.com/chronon4" target="_blank">Chronon 4 ‘Ops’</a>
+</li>The finalists are <a href="http://www.bonitasoft.com/" target="_blank">Bonita Open Solutions</a> and <a href="http://www.talend.com/products/talend-open-studio" target="_blank">Talend Open Studio</a>
 </ul>
 
 	</div>
