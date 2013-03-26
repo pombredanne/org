@@ -60,7 +60,7 @@ community. Products were evaluated on their user interfaces, innovation and comp
 <li>The finalist are <a href="http://www.efxclipse.org/" target="_blank">e(fx)clipse</a>, <a href="http://www.junitloop.org/" target="_blank">JunitLoop</a>
 </ul>
 <ul><li>Best Modeling Product: <a href="http://www.obeodesigner.com/" target="_blank">Obeo Designer</a>
-<li>The finalist is UMLet
+<li>The finalist is <a href="http://www.umlet.com/" target="_blank">UMLet</a>
 </ul>
 <ul><li>Best Application: <a href="http://chrononsystems.com/chronon4" target="_blank">Chronon 4 ‘Ops’</a>
 </li>The finalists are <a href="http://www.bonitasoft.com/" target="_blank">Bonita Open Solutions</a> and <a href="http://www.talend.com/products/talend-open-studio" target="_blank">Talend Open Studio</a>
