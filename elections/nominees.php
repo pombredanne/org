@@ -78,8 +78,11 @@ function ignoreDumbStuffHandler($errno, $errmsg, $filename, $linenum, $vars) {
 		<h1>$pageTitle</h1>
 		
 		<p>
-			Voting in the $year elections has concluded. The three Sustaining Member candiates have won by acclamation and will retain their seats on the Board. The 
-			three Committer representatives will be announced at the Members Meeting at EclipseCon $year.</p>
+			Voting in the $year elections has concluded.
+		</p>
+			
+			<!-- The three Sustaining Member candiates have won by acclamation and will retain their seats on the Board. The 
+			three Committer representatives will be announced at the Members Meeting at EclipseCon $year. -->
 			
 		<p>The list of candidates has been retained below to help document the election process.</p>
 	
