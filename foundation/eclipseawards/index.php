@@ -49,7 +49,7 @@
 	
 		<!--<a href="http://www.surveymonkey.com/s/53GZ3R8" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>-->
 						
-		<h2><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners13.php">Eclipse Community Awards 2013 Winners!</a></h2>
+		<h1><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners13.php">And the winners are...</a></h1>
 
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
