@@ -129,7 +129,9 @@ ob_start();
                 <li class="winner"><a href="http://www.obeodesigner.com/">Obeo Designer</a></li>
                 <li class="finalist"><a href="http://www.umlet.com/">UMLet</a></li> 
 			</ul>
-		</div>			
+		</div>	
+		
+	</div>		
 	
 	<!-- remove the entire <div> tag to omit the right column!  -->
 	<div id="rightcolumn">
