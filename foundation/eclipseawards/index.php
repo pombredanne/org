@@ -39,7 +39,7 @@
 				<h1>$pageTitle</h1>
 				The Eclipse Community Awards recognize the best of the Eclipse community. Individuals, projects
 				and technologies may be nominated by anyone in each category. To nominate, you must log in with a <a href="https://dev.eclipse.org/site_login/createaccount.php" target="_blank">
-				Bugzilla account</a>. Self nominations	are welcome. Nominations and voting are now closed. Winners will be announced at <a href="http://www.eclipsecon.org/2013/" target="_blank">EclipseCon 2013</a>.						
+				Bugzilla account</a>. Self nominations are welcome. <!-- Nominations and voting are now closed. Winners will be announced at <a href="http://www.eclipsecon.org/2013/" target="_blank">EclipseCon 2013</a>.	-->					
 			  </td>
 				<td>
 				<img src="images/EclipseAwardsLogo_2013.gif" alt="Eclipse Awards 2013" height="125">
@@ -48,6 +48,8 @@
 		</table>
 	
 		<!--<a href="http://www.surveymonkey.com/s/53GZ3R8" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>-->
+						
+		<h2><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners13.php">Eclipse Community Awards 2013 Winners!</a></h2>
 
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
