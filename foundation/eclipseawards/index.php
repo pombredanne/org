@@ -50,6 +50,7 @@
 		<!--<a href="http://www.surveymonkey.com/s/53GZ3R8" target="blank"><img src="images/votenow.jpg" alt="Vote Now"></a>-->
 						
 		<h1><a href="http://www.eclipse.org/org/foundation/eclipseawards/winners13.php">And the winners are...</a></h1>
+		<br/>
 
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
