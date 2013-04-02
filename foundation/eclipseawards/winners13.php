@@ -72,53 +72,62 @@ ob_start();
 		<p>Presented below is the list of award winners and finalists for each of the project awards catagories as
 		determined by votes from the community.</p>
 			
+	    <div class="homeitem3col">
+		<h3>Most Innovative New Feature or Eclipse Project</h3>
+			<ul>
+				<li class="finalist"><a href="http://www.eclipse.org/paho/">Eclipse Paho</a></li>
+				<li class="finalist"><a href="http://www.eclipse.org/intent/">Intent</a></li>
+				<li class="finalist"><a href="http://www.eclipse.org/vjet/">VJET Java Script IDE</a></li>
+				<li class="winner"><a href="http://www.eclipse.org/diffmerge/">EMF Diff/Merge</a> (Winner)</li>
+			</ul>
+		</div>	
+		
 		<div class="homeitem3col">
 			<h3>Most Open Project</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org/cdt/">C/C++ Development Tooling</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org/projects/project.php?id=modeling.gmp.gmf-tooling">GMF Tooling</a></li>
-				<li class="winner"><a href="http://www.eclipse.org/ecf/">Eclipse Communication Framework</a> (Winner)</li>
+				<li class="finalist"><a href="http://www.eclipse.org/cdt/">C/C++ Development tooling - CDT</a></li>
+				<li class="finalist"><a href="http://www.eclipse.org/orion/">The Orion Project</a></li>
+				<li class="winner"><a href="http://www.eclipse.org/egit/">Egit</a> (Winner)</li>
 			</ul>
 		</div>
-		
-		<div class="homeitem3col">
-		<h3>Most Innovative New Feature or Eclipse Project</h3>
-			<ul>
-				<li class="finalist"><a href="http://www.eclipse.org/orion/">Orion</a></li>
-				<li class="finalist"><a href="http://www.eclipse.org/Xtext/">Xtend</a></li>
-				<li class="winner"><a href="http://www.eclipse.org/recommenders/">Eclipse Code Recommenders</a> (Winner)</li>
-			</ul>
-		</div>	
 
 	<h2><br>Technology Award Winners</h2>
 		<p>Presented below is the list of award winners and finalists for each of the technology awards catagories as determined
 			by this year's judging panels.</p>
 			
 		<div class="homeitem3col">
-		<h3>Best Developer Tool</h3>
+			<h3>Best Application</h3>
 			<ul>
-				<li class="finalist"><a href="http://bndtools.org/">Bndtools</a></li>
-			  <li class="finalist"><a href="http://www.arm.com/products/tools/software-tools/ds-5/community-edition/index.php">DS-5 Community Edition</a></li>
-                <li class="winner"><a href="http://www.chrononsystems.com/">Chronon Time Travelling Debugger</a> (Winner)</li>
-			</ul>
-		</div>	
-			
-		<div class="homeitem3col">
-			<h3>Best Modeling Tool</h3>
-			<ul>
-                <li class="finalist"><a href="http://www.umlet.com/">UMLet</a></li>
-                <li class="winner"><a href="http://maintainj.com/">MaintainJ</a> (Winner)</li>
+				<li class="finalist"><a href="http://www.bonitasoft.com/">Bonita Open Solution</a></li>
+				<li class="finalist"><a href="http://www.talend.com/products/talend-open-studio">Talend Open Studio</a></li>
+				<li class="winner"><a href="http://chrononsystems.com/chronon4">Chronon 4 'Ops'</a> (Winner)</li>
 			</ul>
 		</div>
 		
 		<div class="homeitem3col">
-			<h3>Best Application</h3>
+		<h3>Best Developer Tool</h3>
 			<ul>
-				<li class="finalist"><a href="http://www.bonitasoft.com/">Bonita Open Solutions</a></li>
-				<li class="finalist"><a href="http://www.diligent-it.com/files/ea2012/CCTVnet.html">CCTVnet</a></li>
-				<li class="winner"><a href="http://justinmind.com/">Justinmind Prototyper</a> (Winner)</li>
+				<li class="finalist"><a href="http://www.klocwork.com/products/insight/index.php">Klocwork Insight</a></li>
+			  <li class="finalist"><a href="http://www.sonarsource.org/">Sonar</a></li>
+                <li class="winner"><a href="http://wireframesketcher.com/">WireframeSketcher Wireframing Tool</a> (Winner)</li>
 			</ul>
-		</div>			
+		</div>	
+		
+		<h3>Best Developer Plugin</h3>
+			<ul>
+				<li class="finalist"><a href="http://www.efxclipse.org/">e(fx)clipse</a></li>
+			  <li class="finalist"><a href="http://www.junitloop.org/index.php/JUnitLoop">JUnitLoop</a></li>
+                <li class="winner"><a href="http://findbugs.sourceforge.net/index.html">FindBugs Eclipse Plugin</a> (Winner)</li>
+			</ul>
+		</div>	
+			
+		<div class="homeitem3col">
+			<h3>Best Modeling Product</h3>
+			<ul>
+                <li class="finalist"><a href="http://www.umlet.com/">UMLet</a></li>
+                <li class="winner"><a href="http://www.obeodesigner.com/">Obeo Designer</a> (Winner)</li>
+			</ul>
+		</div>		
 		
 	</div>
 	
