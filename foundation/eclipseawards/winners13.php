@@ -55,7 +55,7 @@ ob_start();
 			<ul>
 				<li class="finalist">Edward D. Willink</li>	
 				<li class="finalist">John Arthorne</li>
-				<li class="winner">Markus Knauer (Winner)</li>					
+				<li class="winner">Markus Knauer</li>					
 			</ul>
 		</div>
 
@@ -63,8 +63,8 @@ ob_start();
 			<h3>Top Newcomer Evangelist</h3>
 			<ul>
 				<li class="finalist">Benjamin Cabé</li>	
+				<li class="winner">Jonas Helming</li>
 				<li class="finalist">Russell Bateman</li>
-				<li class="winner">Jonas Helming (Winner)</li>
 			</ul>
 		</div>			 
 
@@ -76,9 +76,9 @@ ob_start();
 		<h3>Most Innovative New Feature or Eclipse Project</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org/paho/">Eclipse Paho</a></li>
+				<li class="winner"><a href="http://www.eclipse.org/diffmerge/">EMF Diff/Merge</a></li>
 				<li class="finalist"><a href="http://www.eclipse.org/intent/">Intent</a></li>
 				<li class="finalist"><a href="http://www.eclipse.org/vjet/">VJET Java Script IDE</a></li>
-				<li class="winner"><a href="http://www.eclipse.org/diffmerge/">EMF Diff/Merge</a> (Winner)</li>
 			</ul>
 		</div>	
 		
@@ -86,8 +86,8 @@ ob_start();
 			<h3>Most Open Project</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.eclipse.org/cdt/">C/C++ Development tooling - CDT</a></li>
+				<li class="winner"><a href="http://www.eclipse.org/egit/">EGit</a></li>
 				<li class="finalist"><a href="http://www.eclipse.org/orion/">The Orion Project</a></li>
-				<li class="winner"><a href="http://www.eclipse.org/egit/">Egit</a> (Winner)</li>
 			</ul>
 		</div>
 
@@ -99,8 +99,8 @@ ob_start();
 			<h3>Best Application</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.bonitasoft.com/">Bonita Open Solution</a></li>
+				<li class="winner"><a href="http://chrononsystems.com/chronon4">Chronon 4 'Ops'</a></li>
 				<li class="finalist"><a href="http://www.talend.com/products/talend-open-studio">Talend Open Studio</a></li>
-				<li class="winner"><a href="http://chrononsystems.com/chronon4">Chronon 4 'Ops'</a> (Winner)</li>
 			</ul>
 		</div>
 		
@@ -108,24 +108,25 @@ ob_start();
 		<h3>Best Developer Tool</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.klocwork.com/products/insight/index.php">Klocwork Insight</a></li>
-			  <li class="finalist"><a href="http://www.sonarsource.org/">Sonar</a></li>
-                <li class="winner"><a href="http://wireframesketcher.com/">WireframeSketcher Wireframing Tool</a> (Winner)</li>
+			    <li class="finalist"><a href="http://www.sonarsource.org/">Sonar</a></li>
+                <li class="winner"><a href="http://wireframesketcher.com/">WireframeSketcher Wireframing Tool</a></li>
 			</ul>
 		</div>	
 		
 		<h3>Best Developer Plugin</h3>
 			<ul>
 				<li class="finalist"><a href="http://www.efxclipse.org/">e(fx)clipse</a></li>
-			  <li class="finalist"><a href="http://www.junitloop.org/index.php/JUnitLoop">JUnitLoop</a></li>
-                <li class="winner"><a href="http://findbugs.sourceforge.net/index.html">FindBugs Eclipse Plugin</a> (Winner)</li>
+				<li class="winner"><a href="http://findbugs.sourceforge.net/index.html">FindBugs Eclipse Plugin</a></li>
+			    <li class="finalist"><a href="http://www.junitloop.org/index.php/JUnitLoop">JUnitLoop</a></li>
+                
 			</ul>
 		</div>	
 			
 		<div class="homeitem3col">
 			<h3>Best Modeling Product</h3>
 			<ul>
-                <li class="finalist"><a href="http://www.umlet.com/">UMLet</a></li>
-                <li class="winner"><a href="http://www.obeodesigner.com/">Obeo Designer</a> (Winner)</li>
+                <li class="winner"><a href="http://www.obeodesigner.com/">Obeo Designer</a></li>
+                <li class="finalist"><a href="http://www.umlet.com/">UMLet</a></li> 
 			</ul>
 		</div>		
 		
