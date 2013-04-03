@@ -60,6 +60,17 @@
 		</description>
 	</staffmember>
 
+	<staffmember id="tha">
+		<name>Thanh Ha</name>
+		<title>Release Engineer</title>
+		<image> ../../images/tha.jpg </image>
+		<description><![CDATA[
+			<p>Thanh is an open source enthusiest who loves to tinker with new technology
+			 as a user and developer. When not at a computer he enjoys spending time 
+			 outside rollerblading.</p>
+		]]></description>
+	</staffmember>
+	
 	<staffmember id="anne">
 		<name>Anne Jacko</name>
 		<image>../../images/anne.png</image>
@@ -70,6 +81,32 @@
 			and cycling. One of her favorite books is <i>The Chicago Manual 
 			of Style</i>, so if you need help with the nitpicking
 			details of writing in English, she's happy to help.</p>]]>
+		</description>
+	</staffmember>
+
+	<staffmember id="pablo">
+		<name>Pablo Jacubovich</name>
+		<image>../../images/pablo.jpg</image>
+		<title>Intellectual Property Analyst</title>
+		<description>
+			<![CDATA[<p>When not in front of a monitor, Anne prefers activities 
+			that involve wearing a helmet--horseback riding, skiing,
+			and cycling. One of her favorite books is <i>The Chicago Manual 
+			of Style</i>, so if you need help with the nitpicking
+			details of writing in English, she's happy to help.</p>]]>
+		</description>
+	</staffmember>
+
+
+	<staffmember id="roxanne">
+		<name>Roxanne Joncas</name>
+		<image>../../images/roxanne.jpg</image>
+		<title>Marketing and Events Specialist</title>
+		<description>
+			<![CDATA[<p>Roxanne is the Marketing and Event Specialist at Eclipse. 
+			She spends most of her time organizing events and advertising said events. 
+			She’s addicted to Pinterest and is a TV/Movie Junkie, but found time to fall in love with yoga, 
+			swimming, fashion, baking, and music.</p>]]>
 		</description>
 	</staffmember>
 
@@ -182,24 +219,11 @@ Read Andrew's Blog</a>
 		<title>Office Manager</title>
 		<image> ../../images/sharon.jpg </image>
 		<description><![CDATA[
-			<p>Sharon has been with the Eclipse Foundation since July 2004.  In addition
-			to her Office Manager responsibilities, Sharon assists with marketing activities and also
-			organizes or assists with the planning of various meetings and conferences.  Sharon thanks
-			Mike every day for opening a proper office because she was going stir crazy working out
-			of the home office in her basement!</p>
+			<p>Sharon has been with the Eclipse Foundation since July 2004.  As Office Manager,
+			 Sharon is the keeper of all agreements, manages the invoicing and membership renewal processes,
+			  accounts receivables and provides administrative support for the Executive Director and the Director, 
+			  Operations and the Board of Directors.  Family, friends, 3 dogs and her horse take up her 
+			  time away from the office. </p>
 		]]></description>
 	</staffmember>
-
-	<staffmember id="tha">
-		<name>Thanh Ha</name>
-		<title>Release Engineer</title>
-		<image> ../../images/tha.jpg </image>
-		<description><![CDATA[
-			<p>Thanh is an open source enthusiest who loves to tinker with new technology
-			 as a user and developer. When not at a computer he enjoys spending time 
-			 outside rollerblading.</p>
-		]]></description>
-	</staffmember>
-
-
 </staffmembers>
