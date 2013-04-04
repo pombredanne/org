@@ -55,18 +55,18 @@
 		<h2>Individual Nominations</h2>
 		<ul class="midlist">
 			<li><b>Top Committer</b> - The Eclipse committer who best exemplifies support for the community through code contributions, fixing bugs, forum and mailing list posts, conference presentations, blogs and other areas.
-			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank">Current nominees</a>	
+			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank">Nominees</a>	
 			</li>
 		</ul>
 		<!--<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396183" target="blank" class="btn_nomination">Nominate</a></p>-->
 		<ul class="midlist">
 			<!--
 			<li><b>Top Contributor</b> - The individual who best helps the Eclipse community through submission of patches, comments on bugs, tutorials, blogs, and other areas. Contributors typically are not paid for their Eclipse contributions.
-			<br><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Current nominees</a>	
+			<br><a href="http://marketplace.eclipse.org/nominations/top-contributor" target="blank">Nominees</a>	
 			</li>
 			-->
 			<li><b>Top Newcomer Evangelist</b> - The individual who best welcomes new people into the Eclipse community through the Newcomers forum, blogging, creating resources like demos and tutorials, participating in Eclipse groups on social media sites and IRC.
-			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank">Current nominees</a>	
+			<br><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank">Nominees</a>	
 			</li>						
 		</ul>
 		<!--<p><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=396185" target="blank" class="btn_nomination">Nominate</a></p>-->
@@ -74,29 +74,29 @@
 				<ul class="midlist">
 			<li><b>Most Innovative New Feature or Project</b> - A feature added in 2012 to an existing project hosted by the Eclipse Foundation or a new Eclipse project introduced in 2012 that is used and loved by the community.
 			<br>
-			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Current nominees</a>
+			<a href="http://marketplace.eclipse.org/nominations/most-innovative-project" target="blank">Nominees</a>
 			</li>
 			<li><b>Most Open Project</b> - A project hosted by the Eclipse Foundation that best exemplifies the openness, transparency and diversity expected of great open source projects.
-			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Current nominees</a>
+			<br><a href="http://marketplace.eclipse.org/nominations/most-open-project" target="blank">Nominees</a>
 			</li>
 		</ul>
 		<!--<p><a href="http://marketplace.eclipse.org/node/add/project-nominations" target="blank" class="btn_nomination">Nominate</a></p>-->
 		<h2>Technology Nominations</h2>
 		<ul class="midlist">
 			<li><b>Best Application</b> - An application that illustrates the most innovative use of Eclipse technology.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Current nominees</a>	
+			<br><a href="http://marketplace.eclipse.org/nominations/best-application" target="blank">Nominees</a>	
 			</li>	
 			<li><b>Best Developer Tool</b> - A commercial or open source product that provides an innovative, high quality tool for software developers.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Current nominees</a>	
+			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-tool" target="blank">Nominees</a>	
 			</li>
 			<li><b>Best Developer Plugin</b> - A commercial or open source plugin that provides an innovative, high quality functionality for software developers. A plugin usually adds a single functionality to Eclipse, as opposed to a tool which is a complete product.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-plugin" target="blank">Current nominees</a>
+			<br><a href="http://marketplace.eclipse.org/nominations/best-developer-plugin" target="blank">Nominees</a>
 			</li>		
 			<!--<li><b>Best Mobile Product</b> - An Eclipse-based product that best addresses the needs of mobile developers.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Current nominees</a>
+			<br><a href="http://marketplace.eclipse.org/nominations/best-mobile-product" target="blank">Nominees</a>
 			</li>-->
 			<li><b>Best Modeling Product</b> - An Eclipse-based product that best addresses the needs of the modeling industry.
-			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Current nominees</a>
+			<br><a href="http://marketplace.eclipse.org/nominations/best-modeling-product" target="blank">Nominees</a>
 			</li>
 		</ul>
 		<!--<p><a href="http://marketplace.eclipse.org/node/add/product-nominations" target="blank" class="btn_nomination">Nominate</a></p>-->
